@@ -71,15 +71,16 @@ Ranked by feasibility and speed to proof:
 ### Tier 1: Can start now (existing drugs, clear endpoints)
 1. **Pericarditis (RCT v3)**: 3-arm trial — colchicine alone | colchicine+fluoxetine | full protocol (adds trehalose + FMD). **9-month treatment duration** (LAMP2-corrected pericardial clearance = 8 months). cfRNA NLRP3 as biomarker endpoint. n=65/arm, 195 total. See pericarditis/attempts/attempt_003 for full design.
 2. **T1DM**: the patient protocol (n=1, stimulated C-peptide at 3-6 months)
+3. **Post-meningitis ME/CFS prevention**: 8-week protocol (trehalose+fluoxetine+2×FMD) in weeks 2-8 post-CVB aseptic meningitis. Primary endpoint: ME/CFS at 12 months. n=144. cfRNA panel. **NEW Tier 1 — first campaign trial to PREVENT a chronic disease.** See aseptic_meningitis/attempts/attempt_003.
 
 ### Tier 2: Can start with modest infrastructure
-3. **ME/CFS**: PEM-safe CVB clearance protocol (SF-36 + NK cell function, n=30 pilot)
+4. **ME/CFS**: PEM-safe CVB clearance protocol (SF-36 + NK cell function + cfRNA MT-ND3 panel, n=30 pilot)
 4. **Pleurodynia surveillance**: add CVB testing to ED chest pain workup (observational, n=500)
 5. **Hepatitis diagnostic**: CVB testing in T1DM patients with elevated LFTs (observational, n=100)
 
 ### Tier 3: Requires specialized infrastructure
 6. **Myocarditis**: antiviral during acute phase (cardiac MRI endpoint, n=60)
-7. **Pancreatitis**: antiviral to prevent T1DM (autoantibody endpoint, 2-year follow-up, n=200)
+7. **Pancreatitis T1DM prevention**: trehalose+fluoxetine+FMD × 12 weeks in CVB-positive pancreatitis. Endpoint: islet autoantibody seroconversion at 2 years. Stratify by LAMP2 in PBMCs (new risk biomarker). n=120. See pancreatitis/attempts/attempt_003.
 8. **Meningitis → ME/CFS**: prospective cohort (5-year follow-up, n=100)
 
 ### Tier 4: Requires drug/vaccine development
