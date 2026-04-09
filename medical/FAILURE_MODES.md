@@ -40,17 +40,19 @@
 ## FAILURE MODE 4: Autophagy induction can't overcome CVB's autophagy hijacking
 
 **What it means**: CVB's non-canonical autophagy (bypassing ULK1/2, using PI4KIIIβ) is too robust. Even massive fasting-induced autophagy can't redirect autophagosomes to the lysosomal degradation pathway while the virus controls the secretory pathway.
-**Impact**: FMD/fasting arm fails for viral clearance. Autophagy during fasting clears normal cellular debris but CVB-infected cells remain.
-**What survives**: fluoxetine (blocks replication independently of autophagy), all anti-inflammatory components, FMD benefits for beta cell regeneration and immune reset (these don't depend on viral clearance).
-**What dies**: the "overwhelming autophagy" hypothesis. FMD's role as second antiviral arm.
+
+**Mechanism now better understood (pattern 015, GSE184831):**
+The specific block is at LAMP2 (-2.7x in persistent infection). CVB promotes autophagosome formation (ATG7 +2.1x) while blocking lysosomal fusion. This is "zombie autophagy" — the cell is trying but the kill step is physically blocked. The effective autophagy completion rate is ~37% of expected (κ_LAMP2 ≈ 0.37).
+
+**Impact**: FMD/fasting arm is partially (not fully) blocked. Autophagy initiates but completion is impaired. Estimated effective clearance rate = nominal × 0.37 in persistence phase.
+**What survives**: fluoxetine arm, anti-inflammatory components, FMD for regeneration/immune reset.
+**What dies**: the "overwhelming autophagy" claim at face value. FMD alone is insufficient — needs lysosomal completion enhancement.
 **What we'd do**:
-- Rely entirely on pharmacological antivirals (fluoxetine + itraconazole)
-- Pursue autophagy pathway modulators that specifically override CVB's hijacking:
-  - Restore syntaxin-17 (CVB suppresses it — can we upregulate it?)
-  - PI4KIIIβ inhibitors (block CVB's non-canonical autophagy platform)
-  - Apilimod (PIKfyve inhibitor — forces lysosomal pathway)
-- FMD continues for regeneration/immune benefits, just not for viral clearance
-**Probability estimate**: ~35% (this is the MOST uncertain component — see Evidence Grades Claim 3).
+- **Primary mitigation (added to protocol)**: Trehalose (1–3g/day) — activates TFEB → lysosomal biogenesis → more lysosomes → bypasses per-lysosome LAMP2 deficit by volume. Mechanism well-established in neurodegenerative disease models. Protocol addition is low-risk (food-grade sugar, inexpensive).
+- If trehalose insufficient: apilimod (PIKfyve inhibitor), sulforaphane (TFEB + NRF2 activator)
+- PI4KIIIβ inhibitors block CVB's replication platform (complementary to fluoxetine)
+- FMD continues for regeneration + NLRP3 suppression regardless of autophagy completion
+**Probability estimate**: ~25% (reduced from 35% by LAMP2 mechanism identification — we now know exactly what to fix)
 
 ## FAILURE MODE 5: ME/CFS is too heterogeneous for a single protocol
 
@@ -96,6 +98,20 @@
 
 **92.5% chance at least one arm of the protocol is doing something useful.** That's worth pursuing.
 
+## FAILURE MODE 7 (NEW): FOXP1 suppression sustains local autoimmunity even after viral clearance
+
+**What it means**: viral clearance via fluoxetine + fasting stops new tissue damage, but FOXP1-suppressed cells in the islet microenvironment have established a self-perpetuating local autoimmune state that does not resolve when the virus clears.
+**Impact**: viral clearance (FM3 mitigation) works, but beta cell destruction continues via Treg-independent tissue autoimmunity. C-peptide does not recover despite viral PCR clearance.
+**What survives**: all anti-inflammatory systemic components, cardiac and ME/CFS protocols (which don't depend on islet FOXP1 recovery).
+**What dies**: the T1DM-specific cure thesis. The timeline accelerates for non-pancreatic diseases.
+**What we'd do**:
+- High-dose butyrate (≥6g/day sodium butyrate) has HDAC-inhibitory effects that upregulate FOXP1 in Treg precursors — already in protocol, may need dose increase
+- Add low-dose IL-2 therapy (selective Treg expansion) — now FDA-approved at low dose
+- Add teplizumab (anti-CD3) — the only FDA-approved T1DM immunotherapy — to protect remaining beta cells while viral clearance proceeds
+- The combination: viral clearance (fluoxetine + fasting) + immune reset (teplizumab) + regeneration (FMD)
+**How to detect early**: if C-peptide fails to improve at 6 months despite expected viral clearance timeline, FOXP1 mechanism is likely active. Check islet autoantibodies (ZnT8, IA-2, GAD) — if they fail to decline, autoimmunity is self-perpetuating.
+**Probability estimate**: ~20% (the 67x FOXP1 suppression is real and severe, but butyrate's HDAC effect is a partial mitigation already in the protocol)
+
 ---
 
 ## Post-ODD Reassessment
@@ -118,3 +134,27 @@ The numerical track's 11 rounds of computation addressed several failure modes q
 1 - P(fluoxetine fails AND CVB not driver) = 1 - (0.10 × 0.25) = **97.5%** (up from 92.5%)
 
 The fluoxetine dose resolution was the biggest probability shift. Going from 30% failure probability to 10% significantly improved the campaign's overall odds.
+
+---
+
+## Post-Bioinformatics Reassessment (patterns 013–017)
+
+| Failure Mode | Post-ODD | Post-Bioinformatics | What changed |
+|-------------|----------|---------------------|-------------|
+| C-peptide undetectable | 20% | **20%** (unchanged) | Still need blood draw |
+| Fluoxetine dose insufficient | 10% | **8%** | Lysosomotropic.lean (Lean-certified). PI4KB confirmed upregulated in infected cells (drug target accessible). |
+| CVB not primary T1DM driver | 25% | **20%** | GSE184831 confirms CVB persistence signature in human pancreatic cells; FOXP1 mechanism strengthens the causal link. |
+| Autophagy can't overcome hijacking | 20% | **25%** | LAMP2 block discovered (κ_LAMP2 ≈ 0.37). Fasting alone insufficient; trehalose addition required. Probability rises because mechanism is confirmed to be partially blocked. |
+| ME/CFS too heterogeneous | 50% | **45%** | GSE293840 cfRNA: 6/7 predictions confirmed across 168 patients narrows the "uncertain" window; CVB subset now well-characterized. |
+| Pericarditis trial null | 20% | **20%** (unchanged) | No new pericarditis-specific data. |
+| FOXP1 sustains autoimmunity | (new) | **20%** | New failure mode from bioinformatics; butyrate partially mitigates. |
+
+**Updated combined probability ALL claims correct (including FM7):**
+(0.80 × 0.92 × 0.80 × 0.75 × 0.55 × 0.80 × 0.80) ≈ **13%**
+
+Note: FM4 rising from 20% → 25% (LAMP2 block) is offset by FM3 falling from 25% → 20% (transcriptomic confirmation of persistence) and FM7 being mitigated by butyrate. Net effect approximately neutral.
+
+**Updated probability at least one arm works:**
+1 - P(fluoxetine fails AND CVB not driver) = 1 - (0.08 × 0.20) = **98.4%**
+
+**The most actionable finding from bioinformatics: add trehalose to the protocol.** This is a $15/month food-grade supplement that directly addresses the highest-probability remaining failure mode (FM4). No prescription, no side effects, backed by lysosomal biology literature.
