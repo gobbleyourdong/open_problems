@@ -1,4 +1,4 @@
-# T1DM Gap Analysis — After 64 Attempts + numerical track Convergence
+# T1DM Gap Analysis — After 64 Attempts + ODD Instance Convergence
 
 ## Previous Gaps (Resolved)
 
@@ -31,7 +31,7 @@
 
 ## The Gap Is No Longer Theoretical
 
-After 64 attempts and 11 numerical track rounds:
+After 64 attempts and 11 ODD instance rounds:
 - The mechanism is mapped (attempts 001-063)
 - The math is formalized (attempt 064, ODD's 9-state ODE)
 - The pharmacology is reconciled (IC50 reconciliation)
