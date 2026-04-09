@@ -1,0 +1,267 @@
+{
+  "experiment_1_maxwell_formulations": {
+    "component_form": {
+      "raw_bytes": 1121,
+      "K_ratio": 0.49955396966993754,
+      "K_bits": 4480
+    },
+    "differential_form": {
+      "raw_bytes": 709,
+      "K_ratio": 0.5937940761636107,
+      "K_bits": 3368
+    },
+    "tensor_form": {
+      "raw_bytes": 874,
+      "K_ratio": 0.5160183066361556,
+      "K_bits": 3608
+    },
+    "geometric_algebra": {
+      "raw_bytes": 803,
+      "K_ratio": 0.5255292652552926,
+      "K_bits": 3376
+    },
+    "summary": {
+      "K_min": 0.49955396966993754,
+      "K_max": 0.5937940761636107,
+      "K_mean": 0.5337239044312491,
+      "K_spread": 0.09424010649367315,
+      "fractional_variation": 0.1765708931364017,
+      "approximately_invariant": true,
+      "NCD_pairs": [
+        {
+          "a": "component_form",
+          "b": "differential_form",
+          "NCD": 0.8232142857142857
+        },
+        {
+          "a": "component_form",
+          "b": "tensor_form",
+          "NCD": 0.8035714285714286
+        },
+        {
+          "a": "component_form",
+          "b": "geometric_algebra",
+          "NCD": 0.8071428571428572
+        },
+        {
+          "a": "differential_form",
+          "b": "tensor_form",
+          "NCD": 0.738359201773836
+        },
+        {
+          "a": "differential_form",
+          "b": "geometric_algebra",
+          "NCD": 0.6611374407582938
+        },
+        {
+          "a": "tensor_form",
+          "b": "geometric_algebra",
+          "NCD": 0.7694013303769401
+        }
+      ]
+    }
+  },
+  "experiment_2_hydrogen_circuit": {
+    "precision_analysis": [
+      {
+        "n_bits": 8,
+        "n_bins": 256,
+        "n_qubits": 11,
+        "circuit_depth": 16,
+        "K_lower_bits": 8,
+        "K_upper_bits": 400,
+        "consistent": true
+      },
+      {
+        "n_bits": 16,
+        "n_bins": 65536,
+        "n_qubits": 20,
+        "circuit_depth": 32,
+        "K_lower_bits": 16,
+        "K_upper_bits": 400,
+        "consistent": true
+      },
+      {
+        "n_bits": 32,
+        "n_bins": 4294967296,
+        "n_qubits": 37,
+        "circuit_depth": 64,
+        "K_lower_bits": 32,
+        "K_upper_bits": 400,
+        "consistent": true
+      },
+      {
+        "n_bits": 64,
+        "n_bins": 18446744073709551616,
+        "n_qubits": 70,
+        "circuit_depth": 128,
+        "K_lower_bits": 64,
+        "K_upper_bits": 400,
+        "consistent": true
+      }
+    ],
+    "gzip_verification": [
+      {
+        "n_bits": 4,
+        "n_bins": 16,
+        "raw_bytes": 64,
+        "K_ratio": 1.359375,
+        "K_bits_gzip": 696
+      },
+      {
+        "n_bits": 6,
+        "n_bins": 64,
+        "raw_bytes": 256,
+        "K_ratio": 1.08984375,
+        "K_bits_gzip": 2232
+      },
+      {
+        "n_bits": 8,
+        "n_bins": 256,
+        "raw_bytes": 1024,
+        "K_ratio": 0.9931640625,
+        "K_bits_gzip": 8136
+      },
+      {
+        "n_bits": 10,
+        "n_bins": 1024,
+        "raw_bytes": 4096,
+        "K_ratio": 0.936767578125,
+        "K_bits_gzip": 30696
+      },
+      {
+        "n_bits": 12,
+        "n_bins": 4096,
+        "raw_bytes": 16384,
+        "K_ratio": 0.9249267578125,
+        "K_bits_gzip": 121232
+      }
+    ],
+    "K_upper_bits_formula": 400
+  },
+  "experiment_3_fine_structure_constant": {
+    "pi": {
+      "digits": 1000,
+      "K_ascii": 0.515,
+      "K_nibble": 0.94,
+      "K_bits_ascii": 4120
+    },
+    "alpha": {
+      "digits": 1000,
+      "K_ascii": 0.519,
+      "K_nibble": 0.946,
+      "K_bits_ascii": 4152
+    },
+    "random": {
+      "digits": 1000,
+      "K_ascii": 0.518,
+      "K_nibble": 0.94,
+      "K_bits_ascii": 4144
+    },
+    "NCD": {
+      "pi_vs_alpha": 0.9807321772639692,
+      "pi_vs_random": 1.005791505791506,
+      "alpha_vs_random": 0.9826589595375722,
+      "pi_vs_pi_nib": 1.1514563106796116,
+      "alpha_vs_a_nib": 1.1522157996146436
+    },
+    "precision_analysis": {
+      "alpha_relative_error": 1.5e-10,
+      "K_alpha_precision_bits": 32.63431844815247,
+      "K_alpha_formula_bits": 72,
+      "K_pi_formula_bits": 216,
+      "conclusion": "Both alpha and pi: high gzip-K but true K = O(1) via short formula"
+    }
+  },
+  "experiment_4_cross_domain_ncd": {
+    "problems": [
+      "what_is_information",
+      "what_is_computation",
+      "what_is_entropy",
+      "what_is_symmetry",
+      "what_is_space",
+      "what_is_time"
+    ],
+    "NCD_pairs": [
+      {
+        "a": "what_is_information",
+        "b": "what_is_entropy",
+        "NCD": 0.7123287671232876
+      },
+      {
+        "a": "what_is_entropy",
+        "b": "what_is_space",
+        "NCD": 0.7495107632093934
+      },
+      {
+        "a": "what_is_information",
+        "b": "what_is_space",
+        "NCD": 0.7641129032258065
+      },
+      {
+        "a": "what_is_information",
+        "b": "what_is_time",
+        "NCD": 0.7728194726166329
+      },
+      {
+        "a": "what_is_computation",
+        "b": "what_is_time",
+        "NCD": 0.7746478873239436
+      },
+      {
+        "a": "what_is_space",
+        "b": "what_is_time",
+        "NCD": 0.780241935483871
+      },
+      {
+        "a": "what_is_symmetry",
+        "b": "what_is_space",
+        "NCD": 0.7862903225806451
+      },
+      {
+        "a": "what_is_information",
+        "b": "what_is_symmetry",
+        "NCD": 0.7900207900207901
+      },
+      {
+        "a": "what_is_computation",
+        "b": "what_is_entropy",
+        "NCD": 0.7964774951076321
+      },
+      {
+        "a": "what_is_information",
+        "b": "what_is_computation",
+        "NCD": 0.7967806841046278
+      },
+      {
+        "a": "what_is_entropy",
+        "b": "what_is_symmetry",
+        "NCD": 0.7984344422700587
+      },
+      {
+        "a": "what_is_symmetry",
+        "b": "what_is_time",
+        "NCD": 0.7991886409736308
+      },
+      {
+        "a": "what_is_entropy",
+        "b": "what_is_time",
+        "NCD": 0.8023483365949119
+      },
+      {
+        "a": "what_is_computation",
+        "b": "what_is_space",
+        "NCD": 0.8088531187122736
+      },
+      {
+        "a": "what_is_computation",
+        "b": "what_is_symmetry",
+        "NCD": 0.8108651911468813
+      }
+    ],
+    "info_comp_NCD": 0.7967806841046278,
+    "estimated_shared_K_bits": 781.9879275653924,
+    "K_info_bits_gzip": 3848,
+    "K_comp_bits_gzip": 3976
+  }
+}

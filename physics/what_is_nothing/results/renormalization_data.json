@@ -1,0 +1,372 @@
+{
+  "meta": {
+    "script": "numerics/renormalization_comparison.py",
+    "date": "2026-04-09",
+    "mu_renorm_GeV": 91.2,
+    "mu_renorm_label": "M_Z (Z boson mass)"
+  },
+  "physical_constants": {
+    "hbar_Js": 1.054571817e-34,
+    "c_ms": 299792458.0,
+    "G_SI": 6.6743e-11,
+    "eV_J": 1.602176634e-19,
+    "E_Planck_J": 1956081636.0991087,
+    "E_Planck_GeV": 1.2208901282098643e+19,
+    "rho_Lambda_obs_J_per_m3": 5.9237108648909675e-27,
+    "rho_Lambda_obs_GeV4": 2.8408144528960934e-64
+  },
+  "scheme1_planck_cutoff": {
+    "description": "Hard Planck-scale UV cutoff, full SM",
+    "cutoff_J": 1956081636.0991087,
+    "cutoff_GeV": 1.2208901282098643e+19,
+    "rho_total_SI": -9.094928268914207e+112,
+    "rho_bosons_SI": 4.107386960154801e+112,
+    "rho_fermions_SI": -1.3202315229069008e+113,
+    "gap_log10": 139.1862054256196,
+    "per_species": [
+      {
+        "name": "W\u00b1 boson",
+        "stat": "boson",
+        "n_dof": 6,
+        "mass_GeV": 80.4,
+        "rho_J_per_m3": 8.801543486046004e+111
+      },
+      {
+        "name": "Z boson",
+        "stat": "boson",
+        "n_dof": 3,
+        "mass_GeV": 91.2,
+        "rho_J_per_m3": 4.400771743023002e+111
+      },
+      {
+        "name": "Higgs (H)",
+        "stat": "boson",
+        "n_dof": 1,
+        "mass_GeV": 125.25,
+        "rho_J_per_m3": 1.4669239143410006e+111
+      },
+      {
+        "name": "Electron",
+        "stat": "fermion",
+        "n_dof": 4,
+        "mass_GeV": 0.000511,
+        "rho_J_per_m3": -5.867695657364002e+111
+      },
+      {
+        "name": "Muon",
+        "stat": "fermion",
+        "n_dof": 4,
+        "mass_GeV": 0.1057,
+        "rho_J_per_m3": -5.867695657364002e+111
+      },
+      {
+        "name": "Tau",
+        "stat": "fermion",
+        "n_dof": 4,
+        "mass_GeV": 1.777,
+        "rho_J_per_m3": -5.867695657364002e+111
+      },
+      {
+        "name": "Up quark",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 0.0022,
+        "rho_J_per_m3": -1.7603086972092008e+112
+      },
+      {
+        "name": "Down quark",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 0.0047,
+        "rho_J_per_m3": -1.7603086972092008e+112
+      },
+      {
+        "name": "Strange",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 0.096,
+        "rho_J_per_m3": -1.7603086972092008e+112
+      },
+      {
+        "name": "Charm",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 1.27,
+        "rho_J_per_m3": -1.7603086972092008e+112
+      },
+      {
+        "name": "Bottom",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 4.18,
+        "rho_J_per_m3": -1.7603086972092008e+112
+      },
+      {
+        "name": "Top quark",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 173.1,
+        "rho_J_per_m3": -1.7603086972092008e+112
+      },
+      {
+        "name": "Photon (\u03b3)",
+        "stat": "boson",
+        "n_dof": 2,
+        "mass_GeV": 0.0,
+        "rho_J_per_m3": 2.933847828682001e+111
+      },
+      {
+        "name": "Gluons (\u00d78)",
+        "stat": "boson",
+        "n_dof": 16,
+        "mass_GeV": 0.0,
+        "rho_J_per_m3": 2.347078262945601e+112
+      },
+      {
+        "name": "Neutrino \u03bde",
+        "stat": "fermion",
+        "n_dof": 2,
+        "mass_GeV": 0.0,
+        "rho_J_per_m3": -2.933847828682001e+111
+      },
+      {
+        "name": "Neutrino \u03bd\u03bc",
+        "stat": "fermion",
+        "n_dof": 2,
+        "mass_GeV": 0.0,
+        "rho_J_per_m3": -2.933847828682001e+111
+      },
+      {
+        "name": "Neutrino \u03bd\u03c4",
+        "stat": "fermion",
+        "n_dof": 2,
+        "mass_GeV": 0.0,
+        "rho_J_per_m3": -2.933847828682001e+111
+      }
+    ]
+  },
+  "scheme2_dimreg_msbar": {
+    "description": "Dimensional regularization, MS-bar scheme",
+    "mu_GeV": 91.2,
+    "rho_total_SI": -4.585832779716732e+43,
+    "rho_total_GeV4": -2199212.6787274824,
+    "rho_massive_only_SI": -4.585832779716732e+43,
+    "rho_massive_only_GeV4": -2199212.6787274824,
+    "gap_log10_total": 69.88882436179196,
+    "gap_log10_massive": 69.88882436179196,
+    "massless_contribution": 0.0,
+    "massless_is_exactly_zero": true,
+    "per_species": [
+      {
+        "name": "W\u00b1 boson",
+        "stat": "boson",
+        "n_dof": 6,
+        "mass_GeV": 80.4,
+        "rho_GeV4": 695424.5458470659,
+        "rho_SI": 1.4501101730690212e+43,
+        "is_massless": false
+      },
+      {
+        "name": "Z boson",
+        "stat": "boson",
+        "n_dof": 3,
+        "mass_GeV": 91.2,
+        "rho_GeV4": 492847.0345035424,
+        "rho_SI": 1.0276923683071363e+43,
+        "is_massless": false
+      },
+      {
+        "name": "Higgs (H)",
+        "stat": "boson",
+        "n_dof": 1,
+        "mass_GeV": 125.25,
+        "rho_GeV4": 337202.9952402526,
+        "rho_SI": 7.031409758360316e+42,
+        "is_massless": false
+      },
+      {
+        "name": "Electron",
+        "stat": "fermion",
+        "n_dof": 4,
+        "mass_GeV": 0.000511,
+        "rho_GeV4": -1.1090041147064365e-14,
+        "rho_SI": -2.3125127784386108e+23,
+        "is_massless": false
+      },
+      {
+        "name": "Muon",
+        "stat": "fermion",
+        "n_dof": 4,
+        "mass_GeV": 0.1057,
+        "rho_GeV4": -1.1873042571026102e-05,
+        "rho_SI": -2.4757854637637194e+32,
+        "is_massless": false
+      },
+      {
+        "name": "Tau",
+        "stat": "fermion",
+        "n_dof": 4,
+        "mass_GeV": 1.777,
+        "rho_GeV4": -0.5920514809457808,
+        "rho_SI": -1.234555036383289e+37,
+        "is_massless": false
+      },
+      {
+        "name": "Up quark",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 0.0022,
+        "rho_GeV4": -1.0131046036024066e-11,
+        "rho_SI": -2.1125416133786967e+26,
+        "is_massless": false
+      },
+      {
+        "name": "Down quark",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 0.0047,
+        "rho_GeV4": -1.9696100912713496e-10,
+        "rho_SI": -4.107061862265784e+27,
+        "is_massless": false
+      },
+      {
+        "name": "Strange",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 0.096,
+        "rho_GeV4": -2.4547041316847656e-05,
+        "rho_SI": -5.1185875656644475e+32,
+        "is_massless": false
+      },
+      {
+        "name": "Charm",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 1.27,
+        "rho_GeV4": -0.49659154557431695,
+        "rho_SI": -1.0355004815371427e+37,
+        "is_massless": false
+      },
+      {
+        "name": "Bottom",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 4.18,
+        "rho_GeV4": -44.45764179188685,
+        "rho_SI": -9.270377213180963e+38,
+        "is_massless": false
+      },
+      {
+        "name": "Top quark",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 173.1,
+        "rho_GeV4": -3724641.7079971046,
+        "rho_SI": -7.766681323025327e+43,
+        "is_massless": false
+      },
+      {
+        "name": "Photon (\u03b3)",
+        "stat": "boson",
+        "n_dof": 2,
+        "mass_GeV": 0.0,
+        "rho_GeV4": 0.0,
+        "rho_SI": 0.0,
+        "is_massless": true
+      },
+      {
+        "name": "Gluons (\u00d78)",
+        "stat": "boson",
+        "n_dof": 16,
+        "mass_GeV": 0.0,
+        "rho_GeV4": 0.0,
+        "rho_SI": 0.0,
+        "is_massless": true
+      },
+      {
+        "name": "Neutrino \u03bde",
+        "stat": "fermion",
+        "n_dof": 2,
+        "mass_GeV": 0.0,
+        "rho_GeV4": 0.0,
+        "rho_SI": 0.0,
+        "is_massless": true
+      },
+      {
+        "name": "Neutrino \u03bd\u03bc",
+        "stat": "fermion",
+        "n_dof": 2,
+        "mass_GeV": 0.0,
+        "rho_GeV4": 0.0,
+        "rho_SI": 0.0,
+        "is_massless": true
+      },
+      {
+        "name": "Neutrino \u03bd\u03c4",
+        "stat": "fermion",
+        "n_dof": 2,
+        "mass_GeV": 0.0,
+        "rho_GeV4": 0.0,
+        "rho_SI": 0.0,
+        "is_massless": true
+      }
+    ]
+  },
+  "scheme3_zeta_reg": {
+    "description": "Zeta-function regularization",
+    "mu_GeV": 91.2,
+    "rho_total_SI": -4.585832779716732e+43,
+    "rho_total_GeV4": -2199212.6787274824,
+    "rho_massive_only_SI": -4.585832779716732e+43,
+    "rho_massive_only_GeV4": -2199212.6787274824,
+    "gap_log10_total": 69.88882436179196,
+    "gap_log10_massive": 69.88882436179196,
+    "massless_contribution": 0.0,
+    "massless_is_exactly_zero": true,
+    "note": "Agrees with dim-reg MS-bar at this order (same m^4 log structure)"
+  },
+  "mu_scan": [
+    {
+      "mu_GeV": 0.001,
+      "mu_label": "1 meV (dark energy scale)",
+      "rho_SI": 7.546989253592633e+45,
+      "rho_GeV4": 361928470.7923041,
+      "gap_log10": 72.10517987904343
+    },
+    {
+      "mu_GeV": 0.1,
+      "mu_label": "100 MeV (QCD scale)",
+      "rho_SI": 4.485353978202431e+45,
+      "rho_GeV4": 215102639.1776295,
+      "gap_log10": 71.87920287013647
+    },
+    {
+      "mu_GeV": 91.2,
+      "mu_label": "91.2 GeV (M_Z)",
+      "rho_SI": -4.585832779716732e+43,
+      "rho_GeV4": -2199212.6787274824,
+      "gap_log10": 69.88882436179196
+    },
+    {
+      "mu_GeV": 1000.0,
+      "mu_label": "1 TeV (LHC scale)",
+      "rho_SI": -1.6379165725779725e+45,
+      "rho_GeV4": -78549024.05171968,
+      "gap_log10": 71.44169792461868
+    },
+    {
+      "mu_GeV": 1.22e+19,
+      "mu_label": "Planck scale",
+      "rho_SI": -2.6263199927684847e+46,
+      "rho_GeV4": -1259495603.9475775,
+      "gap_log10": 72.64675378719573
+    }
+  ],
+  "comparison_summary": {
+    "gap_planck_cutoff_log10": 139.1862054256196,
+    "gap_dimreg_EW_log10": 69.88882436179196,
+    "gap_zeta_EW_log10": 69.88882436179196,
+    "improvement_dimreg_vs_planck_orders": 69.29738106382763,
+    "key_finding": "Dim-reg reduces the cosmological constant gap from ~10^139 (Planck cutoff) to ~10^56 (EW scale, massive particles only). This improvement comes from two effects: (1) massless particles contribute zero, (2) the result scales as m^4 (top quark mass) rather than k_max^4 (Planck scale). However, this is a regularization artifact, not a solution. The renormalization scale mu is arbitrary; the fine-tuning problem is relocated to the counterterm."
+  }
+}

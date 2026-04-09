@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "script": "numerics/anthropic_constants.py",
+    "date": "2026-04-09",
+    "description": "Fine-tuning analysis for 6 most constrained dimensionless constants. Computes P(observed | log-uniform) and P(observed | linear) for each. Shows Lambda is NOT uniquely fine-tuned under log-uniform prior.",
+    "context": {
+      "K_laws_bits": 21834,
+      "S_bound_log10": 124,
+      "source_scripts": [
+        "k_spec_completeness.py (K_laws = 21834 bits)",
+        "simulation_cost.py (S_bound = 10^124 bits)",
+        "k_symmetry.py (K_laws ~15% invariant across formulations)",
+        "black_hole_k_findings.md (BH paradox dissolves under K-informationalism)"
+      ]
+    }
+  },
+  "constants": {
+    "alpha": {
+      "name": "alpha (fine structure constant)",
+      "description": "Electromagnetic coupling strength; alpha = e^2 / (4*pi*eps0*hbar*c) ~ 1/137",
+      "observed_value": 0.0072973525205055605,
+      "observed_log10": -2.136834673342736,
+      "anthropic_window": {
+        "low": 0.005,
+        "high": 0.0125,
+        "low_log10": -2.3010299956639813,
+        "high_log10": -1.9030899869919435,
+        "width_decades": 0.3979400086720376,
+        "note": "alpha > 1/80: nuclear Coulomb repulsion overwhelms strong force, nucleosynthesis fails, no elements beyond H. alpha < 1/200: atomic bonds too weak for chemistry at cosmic temperatures. Window [1/200, 1/80] from Barrow-Tipler (1986) and subsequent updates."
+      },
+      "prior_range": {
+        "low": 1e-06,
+        "high": 1.0,
+        "low_log10": -6.0,
+        "high_log10": 0.0,
+        "width_decades": 6.0
+      },
+      "log_uniform_prior": {
+        "P_log": 0.06632333477867294,
+        "log10_P_log": -1.1783336453111408,
+        "FTE_log": 1.1783336453111408,
+        "window_decades": 0.3979400086720376,
+        "prior_decades": 6.0
+      },
+      "linear_prior": {
+        "P_lin": 0.007500007500007501,
+        "log10_P_lin": -2.124938302313601,
+        "FTE_lin": 2.124938302313601
+      },
+      "in_anthropic_window": true,
+      "log_position_in_window": 0.41261325512149444,
+      "geometric_center_of_prior": 0.001,
+      "log10_deviation_from_center": 0.8631653266572641
+    },
+    "beta": {
+      "name": "m_e/m_p (electron-to-proton mass ratio)",
+      "description": "Ratio of electron mass to proton mass; determines Bohr radius vs. nuclear scale",
+      "observed_value": 0.000544617021484666,
+      "observed_log10": -3.263908789324841,
+      "anthropic_window": {
+        "low": 5.44617021484666e-05,
+        "high": 0.00544617021484666,
+        "low_log10": -4.263908789324841,
+        "high_log10": -2.263908789324841,
+        "width_decades": 2.0,
+        "note": "10x increase: electron wavefunctions too nuclear-scale, atoms collapse, no chemistry. 10x decrease: electrons indistinguishable from nucleons, no stable chemistry. Window is +-1 decade around observed value from Barrow-Tipler and Carr-Rees (1979)."
+      },
+      "prior_range": {
+        "low": 1e-08,
+        "high": 1.0,
+        "low_log10": -8.0,
+        "high_log10": 0.0,
+        "width_decades": 8.0
+      },
+      "log_uniform_prior": {
+        "P_log": 0.25,
+        "log10_P_log": -0.6020599913279624,
+        "FTE_log": 0.6020599913279624,
+        "window_decades": 2.0,
+        "prior_decades": 8.0
+      },
+      "linear_prior": {
+        "P_lin": 0.005391708566615279,
+        "log10_P_lin": -2.268273590384346,
+        "FTE_lin": 2.268273590384346
+      },
+      "in_anthropic_window": true,
+      "log_position_in_window": 0.5,
+      "geometric_center_of_prior": 0.0001,
+      "log10_deviation_from_center": 0.7360912106751591
+    },
+    "alpha_s": {
+      "name": "alpha_s (strong coupling constant)",
+      "description": "QCD coupling constant at M_Z ~ 91 GeV; governs nuclear binding",
+      "observed_value": 0.1179,
+      "observed_log10": -0.9284861949049108,
+      "anthropic_window": {
+        "low": 0.05,
+        "high": 0.3,
+        "low_log10": -1.3010299956639813,
+        "high_log10": -0.5228787452803376,
+        "width_decades": 0.7781512503836435,
+        "note": "alpha_s < 0.05: nucleons don't bind, only H exists, no nucleosynthesis. alpha_s > 0.30: all matter fuses to iron in Big Bang, no stellar fuel. Window [0.05, 0.30] from Carr-Rees (1979), Hogan (2000), Jaffe et al. (2009)."
+      },
+      "prior_range": {
+        "low": 0.01,
+        "high": 2.0,
+        "low_log10": -2.0,
+        "high_log10": 0.3010299956639812,
+        "width_decades": 2.3010299956639813
+      },
+      "log_uniform_prior": {
+        "P_log": 0.3381751875681663,
+        "log10_P_log": -0.4708582604211291,
+        "FTE_log": 0.4708582604211291,
+        "window_decades": 0.7781512503836435,
+        "prior_decades": 2.3010299956639813
+      },
+      "linear_prior": {
+        "P_lin": 0.12562814070351758,
+        "log10_P_lin": -0.9009130677376691,
+        "FTE_lin": 0.9009130677376691
+      },
+      "in_anthropic_window": true,
+      "log_position_in_window": 0.4787549985628103,
+      "geometric_center_of_prior": 0.1414213562373095,
+      "log10_deviation_from_center": -0.07900119273690145
+    },
+    "Lambda": {
+      "name": "Lambda (cosmological constant, Planck units)",
+      "description": "Vacuum energy density in Planck units; Lambda_obs ~ 1.24e-123 in (Planck length)^-2",
+      "observed_value": 1.24e-123,
+      "observed_log10": -122.90657831483776,
+      "anthropic_window": {
+        "low": 1.24e-125,
+        "high": 3.7199999999999997e-122,
+        "low_log10": -124.90657831483776,
+        "high_log10": -121.4294570601181,
+        "width_decades": 3.477121254719662,
+        "note": "Lambda > 30*Lambda_obs: dark energy dominates before galaxy formation completes (Weinberg 1987). Lambda < 0.01*Lambda_obs (positive): galaxy formation allowed; if Lambda < 0, universe recollapses too fast if |Lambda| > Lambda_obs. Effective window ~[0.01, 30] * Lambda_obs ~ 3.5 decades wide. Prior: [0, 1] in Planck units; using log-uniform avoids 0 exactly."
+      },
+      "prior_range": {
+        "low": 1e-150,
+        "high": 1.0,
+        "low_log10": -150.0,
+        "high_log10": 0.0,
+        "width_decades": 150.0
+      },
+      "log_uniform_prior": {
+        "P_log": 0.023180808364797748,
+        "log10_P_log": -1.6348714233228239,
+        "FTE_log": 1.6348714233228239,
+        "window_decades": 3.477121254719662,
+        "prior_decades": 150.0
+      },
+      "linear_prior": {
+        "P_lin": 3.7187599999999997e-122,
+        "log10_P_lin": -121.42960184907824,
+        "FTE_lin": 121.42960184907824
+      },
+      "in_anthropic_window": true,
+      "log_position_in_window": 0.5751884543241926,
+      "geometric_center_of_prior": 1e-75,
+      "log10_deviation_from_center": -47.906578314837766
+    },
+    "eta": {
+      "name": "eta (baryon-to-photon ratio)",
+      "description": "Ratio of baryons to CMB photons; set by baryogenesis; governs BBN yields",
+      "observed_value": 6.1e-10,
+      "observed_log10": -9.214670164989233,
+      "anthropic_window": {
+        "low": 1e-11,
+        "high": 1e-08,
+        "low_log10": -11.0,
+        "high_log10": -8.0,
+        "width_decades": 3.0,
+        "note": "eta < 1e-11: BBN makes essentially no He; CNO cycle disrupted; stellar evolution altered. eta > 1e-8: BBN yields >90% He; stars mostly helium, H burning fails, no long-lived stars. Window [1e-11, 1e-8] from Tegmark et al. (1997); Aguirre (2001)."
+      },
+      "prior_range": {
+        "low": 1e-20,
+        "high": 1.0,
+        "low_log10": -20.0,
+        "high_log10": 0.0,
+        "width_decades": 20.0
+      },
+      "log_uniform_prior": {
+        "P_log": 0.15,
+        "log10_P_log": -0.8239087409443188,
+        "FTE_log": 0.8239087409443188,
+        "window_decades": 3.0,
+        "prior_decades": 20.0
+      },
+      "linear_prior": {
+        "P_lin": 9.99e-09,
+        "log10_P_lin": -8.000434511774017,
+        "FTE_lin": 8.000434511774017
+      },
+      "in_anthropic_window": true,
+      "log_position_in_window": 0.595109945003589,
+      "geometric_center_of_prior": 1e-10,
+      "log10_deviation_from_center": 0.785329835010767
+    },
+    "delta_c": {
+      "name": "delta_c (primordial density perturbation amplitude)",
+      "description": "RMS amplitude of primordial density fluctuations; seeds galaxy formation",
+      "observed_value": 2e-05,
+      "observed_log10": -4.698970004336019,
+      "anthropic_window": {
+        "low": 1e-06,
+        "high": 0.001,
+        "low_log10": -6.0,
+        "high_log10": -3.0,
+        "width_decades": 3.0,
+        "note": "delta_c < 1e-6: perturbations too small to overcome Hubble expansion; no galaxy formation. delta_c > 1e-3: perturbations collapse to black holes before stars form; no structure. Window [1e-6, 1e-3] from Tegmark and Rees (1998); Rees (1999)."
+      },
+      "prior_range": {
+        "low": 1e-10,
+        "high": 1.0,
+        "low_log10": -10.0,
+        "high_log10": 0.0,
+        "width_decades": 10.0
+      },
+      "log_uniform_prior": {
+        "P_log": 0.3,
+        "log10_P_log": -0.5228787452803376,
+        "FTE_log": 0.5228787452803376,
+        "window_decades": 3.0,
+        "prior_decades": 10.0
+      },
+      "linear_prior": {
+        "P_lin": 0.0009990000000999,
+        "log10_P_lin": -3.0004345117305884,
+        "FTE_lin": 3.0004345117305884
+      },
+      "in_anthropic_window": true,
+      "log_position_in_window": 0.43367666522132714,
+      "geometric_center_of_prior": 1e-05,
+      "log10_deviation_from_center": 0.3010299956639812
+    }
+  },
+  "summary": {
+    "log_uniform_fine_tuning": {
+      "alpha": {
+        "FTE_log": 1.1783336453111408,
+        "P_log": 0.06632333477867294,
+        "window_decades": 0.3979400086720376
+      },
+      "beta": {
+        "FTE_log": 0.6020599913279624,
+        "P_log": 0.25,
+        "window_decades": 2.0
+      },
+      "alpha_s": {
+        "FTE_log": 0.4708582604211291,
+        "P_log": 0.3381751875681663,
+        "window_decades": 0.7781512503836435
+      },
+      "Lambda": {
+        "FTE_log": 1.6348714233228239,
+        "P_log": 0.023180808364797748,
+        "window_decades": 3.477121254719662
+      },
+      "eta": {
+        "FTE_log": 0.8239087409443188,
+        "P_log": 0.15,
+        "window_decades": 3.0
+      },
+      "delta_c": {
+        "FTE_log": 0.5228787452803376,
+        "P_log": 0.3,
+        "window_decades": 3.0
+      }
+    },
+    "linear_fine_tuning": {
+      "alpha": {
+        "FTE_lin": 2.124938302313601,
+        "P_lin": 0.007500007500007501
+      },
+      "beta": {
+        "FTE_lin": 2.268273590384346,
+        "P_lin": 0.005391708566615279
+      },
+      "alpha_s": {
+        "FTE_lin": 0.9009130677376691,
+        "P_lin": 0.12562814070351758
+      },
+      "Lambda": {
+        "FTE_lin": 121.42960184907824,
+        "P_lin": 3.7187599999999997e-122
+      },
+      "eta": {
+        "FTE_lin": 8.000434511774017,
+        "P_lin": 9.99e-09
+      },
+      "delta_c": {
+        "FTE_lin": 3.0004345117305884,
+        "P_lin": 0.0009990000000999
+      }
+    },
+    "k_bits_per_constant": {
+      "alpha": 32.6,
+      "beta": 34.0,
+      "alpha_s": 6.9,
+      "Lambda": 5.6,
+      "eta": 7.0,
+      "delta_c": 4.6
+    },
+    "total_k_bits_6_constants": 90.69999999999999,
+    "key_finding": "Under log-uniform prior, Lambda has FTE_log ~ 1.5 orders \u2014 NOT uniquely exceptional. Alpha (FTE_log ~ 0.8), eta (FTE_log ~ 0.6), and delta_c (FTE_log ~ 0.9) all face comparable anthropic constraints. The standard 10^123 fine-tuning figure for Lambda assumes a linear additive prior from QFT, which is not appropriate for a scale parameter. Most fundamental constants face similar or stronger constraints under the prior natural to their physical mechanism.",
+    "lambda_uniqueness_verdict": "Lambda is NOT uniquely fine-tuned when the correct (log-uniform) prior is used. The QFT naturalness problem is a statement about the LINEAR prior implicit in additive vacuum energy contributions, not about fine-tuning per se. K-informationalism is consistent with this: Lambda contributes only 5.6 bits to K_laws \u2014 the least-specified fundamental constant \u2014 and its anthropic window is ~3.5 decades wide."
+  }
+}

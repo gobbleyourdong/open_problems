@@ -1,0 +1,123 @@
+{
+  "experiment_1_permutation": [
+    {
+      "string": "random_bytes",
+      "K_original": 1.0014,
+      "K_permuted": 1.0014,
+      "K_pi_inverse": 1.0014,
+      "K_sorted": 0.0293,
+      "delta_K_permuted": 0.0,
+      "K_changed_by_permutation": false
+    },
+    {
+      "string": "english_text",
+      "K_original": 0.0069,
+      "K_permuted": 0.61735,
+      "K_pi_inverse": 0.0069,
+      "K_sorted": 0.0055,
+      "delta_K_permuted": 0.6104499999999999,
+      "K_changed_by_permutation": true
+    },
+    {
+      "string": "alternating",
+      "K_original": 0.00275,
+      "K_permuted": 0.16675,
+      "K_pi_inverse": 0.00275,
+      "K_sorted": 0.0028,
+      "delta_K_permuted": 0.164,
+      "K_changed_by_permutation": true
+    },
+    {
+      "string": "ramp",
+      "K_original": 0.022,
+      "K_permuted": 1.0014,
+      "K_pi_inverse": 0.022,
+      "K_sorted": 0.02665,
+      "delta_K_permuted": 0.9794,
+      "K_changed_by_permutation": true
+    }
+  ],
+  "experiment_2_encoding": [
+    {
+      "source": "english_text",
+      "K_base256": 0.0157,
+      "K_base16": 0.01175,
+      "K_base4": 0.008775,
+      "K_base2": 0.0072875,
+      "norm_base256": 0.1256,
+      "norm_base16": 0.047,
+      "norm_base4": 0.01755,
+      "norm_base2": 0.0072875,
+      "normalized_spread": 0.11831249999999999,
+      "approximately_invariant": true
+    },
+    {
+      "source": "random_bytes",
+      "K_base256": 1.0023,
+      "K_base16": 0.58085,
+      "K_base4": 0.307275,
+      "K_base2": 0.156725,
+      "norm_base256": 8.0184,
+      "norm_base16": 2.3234,
+      "norm_base4": 0.61455,
+      "norm_base2": 0.156725,
+      "normalized_spread": 7.861675,
+      "approximately_invariant": false
+    }
+  ],
+  "experiment_3_resolution": [
+    {
+      "scenario": "random_gas",
+      "K_low_res_10x10": 0.79,
+      "K_high_res_100x100": 0.0576,
+      "ratio_hi_over_lo": 0.07291139240506328,
+      "monotone_hi_ge_lo": false
+    },
+    {
+      "scenario": "perfect_crystal",
+      "K_low_res_10x10": 0.24,
+      "K_high_res_100x100": 0.0082,
+      "ratio_hi_over_lo": 0.03416666666666667,
+      "monotone_hi_ge_lo": false
+    },
+    {
+      "scenario": "counterexample_uniform_lo",
+      "K_low_res_uniform": 0.24,
+      "K_hi_crystal": 0.0082,
+      "K_hi_random": 0.0582,
+      "crystal_counterexample": true
+    }
+  ],
+  "experiment_4_units": {
+    "SI_units": {
+      "qed_raw_bytes": 734,
+      "sm_raw_bytes": 1212,
+      "K_QED": 0.6185286103542235,
+      "K_SM": 0.5825082508250825,
+      "bits_QED": 3632,
+      "bits_SM": 5648
+    },
+    "natural_units": {
+      "qed_raw_bytes": 616,
+      "sm_raw_bytes": 1148,
+      "K_QED": 0.5665584415584416,
+      "K_SM": 0.5278745644599303,
+      "bits_QED": 2792,
+      "bits_SM": 4848
+    },
+    "Planck_units": {
+      "qed_raw_bytes": 784,
+      "sm_raw_bytes": 1360,
+      "K_QED": 0.5255102040816326,
+      "K_SM": 0.5102941176470588,
+      "bits_QED": 3296,
+      "bits_SM": 5552
+    },
+    "summary": {
+      "K_range": 0.09301840627259084,
+      "K_mean": 0.5701990853314326,
+      "fractional_variation": 0.1631332084977358,
+      "approximately_invariant": true
+    }
+  }
+}

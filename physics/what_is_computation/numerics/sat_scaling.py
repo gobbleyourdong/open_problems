@@ -447,8 +447,8 @@ def main():
         print(f"{n:<8} {row['n_clauses']:<7} {row['n_ok']:<6} {row['median_ratio']:<12.1f} {pred_str:<12} {row['median_t_verify_us']:<14.2f} {row['median_t_search_ms']:.4f}")
 
     # Save results
-    os.makedirs("/home/jb/open_problems/physics/what_is_computation/results", exist_ok=True)
-    out_path = "/home/jb/open_problems/physics/what_is_computation/results/sat_scaling_data.json"
+    os.makedirs("~/open_problems/physics/what_is_computation/results", exist_ok=True)
+    out_path = "~/open_problems/physics/what_is_computation/results/sat_scaling_data.json"
     output = {
         "description": "3-SAT find/verify ratio scaling study",
         "config": {

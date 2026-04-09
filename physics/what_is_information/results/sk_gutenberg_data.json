@@ -1,0 +1,135 @@
+{
+  "real_text_chars": 14107,
+  "real_text_words": 2599,
+  "synthetic_text_chars": 14107,
+  "analyses": [
+    {
+      "corpus": "real",
+      "level": "byte",
+      "n_tokens": 14107,
+      "vocab_size": 56,
+      "H_bits_per_token": 4.426153,
+      "H_max": 5.807355,
+      "H_saturation": 0.762163,
+      "gzip_ratio": 0.432197,
+      "H_over_K": 10.241058,
+      "H_times_K": 1.912969
+    },
+    {
+      "corpus": "real",
+      "level": "char_trigram",
+      "n_tokens": 14105,
+      "vocab_size": 2615,
+      "H_bits_per_token": 10.225762,
+      "H_max": 11.352595,
+      "H_saturation": 0.900742,
+      "gzip_ratio": 0.247737,
+      "H_over_K": 41.27665,
+      "H_times_K": 2.533302
+    },
+    {
+      "corpus": "real",
+      "level": "word",
+      "n_tokens": 2591,
+      "vocab_size": 726,
+      "H_bits_per_token": 8.121202,
+      "H_max": 9.503826,
+      "H_saturation": 0.854519,
+      "gzip_ratio": 0.39954,
+      "H_over_K": 20.32638,
+      "H_times_K": 3.244745
+    },
+    {
+      "corpus": "real",
+      "level": "bigram",
+      "n_tokens": 2590,
+      "vocab_size": 2132,
+      "H_bits_per_token": 10.878226,
+      "H_max": 11.057992,
+      "H_saturation": 0.983743,
+      "gzip_ratio": 0.286615,
+      "H_over_K": 37.954081,
+      "H_times_K": 3.117868
+    },
+    {
+      "corpus": "synthetic",
+      "level": "byte",
+      "n_tokens": 14107,
+      "vocab_size": 34,
+      "H_bits_per_token": 4.262986,
+      "H_max": 5.087463,
+      "H_saturation": 0.83794,
+      "gzip_ratio": 0.108173,
+      "H_over_K": 39.408876,
+      "H_times_K": 0.461141
+    },
+    {
+      "corpus": "synthetic",
+      "level": "char_trigram",
+      "n_tokens": 14105,
+      "vocab_size": 624,
+      "H_bits_per_token": 8.814051,
+      "H_max": 9.285402,
+      "H_saturation": 0.949237,
+      "gzip_ratio": 0.056741,
+      "H_over_K": 155.338019,
+      "H_times_K": 0.500119
+    },
+    {
+      "corpus": "synthetic",
+      "level": "word",
+      "n_tokens": 2125,
+      "vocab_size": 110,
+      "H_bits_per_token": 6.292731,
+      "H_max": 6.78136,
+      "H_saturation": 0.927945,
+      "gzip_ratio": 0.106997,
+      "H_over_K": 58.812023,
+      "H_times_K": 0.673306
+    },
+    {
+      "corpus": "synthetic",
+      "level": "bigram",
+      "n_tokens": 2124,
+      "vocab_size": 179,
+      "H_bits_per_token": 7.321049,
+      "H_max": 7.483816,
+      "H_saturation": 0.978251,
+      "gzip_ratio": 0.067601,
+      "H_over_K": 108.298105,
+      "H_times_K": 0.49491
+    }
+  ],
+  "zipf": {
+    "real": {
+      "corpus": "real",
+      "n_words": 2591,
+      "vocab_size": 726,
+      "zipf_alpha": 0.7141,
+      "top10_coverage": 0.2281,
+      "top50_coverage": 0.5106,
+      "top100_coverage": 0.6387,
+      "hapax_legomena": 428,
+      "hapax_fraction": 0.5895
+    },
+    "synthetic": {
+      "corpus": "synthetic",
+      "n_words": 2125,
+      "vocab_size": 110,
+      "zipf_alpha": 0.6259,
+      "top10_coverage": 0.3318,
+      "top50_coverage": 0.7049,
+      "top100_coverage": 0.9704,
+      "hapax_legomena": 1,
+      "hapax_fraction": 0.0091
+    }
+  },
+  "key_comparisons": {
+    "word_level_H_saturation_real": 0.854519,
+    "word_level_H_saturation_synthetic": 0.927945,
+    "byte_gzip_ratio_real": 0.432197,
+    "byte_gzip_ratio_synthetic": 0.108173,
+    "H_over_K_word_real": 20.32638,
+    "H_over_K_word_synthetic": 58.812023
+  }
+}

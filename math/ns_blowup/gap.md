@@ -60,29 +60,31 @@ Improving C_S (OU-weighted Sobolev) could widen the margin significantly.
 The vertex property + eigenstructure theorem reduce Key Lemma to pure algebra.
 
 **Definitive c(N) table** (vertex_key_lemma.py, DE + exhaustive signs):
-| N | c(N) | Margin from 3/4 | Status |
-|---|------|-----------------|--------|
-| 2 | 0.2500 = 1/4 | 67% | **PROVEN** (KeyLemmaN2.lean) |
-| 3 | 0.3333 = 1/3 | 56% | **PROVEN** (KeyLemmaN3.lean, Pythagorean) |
-| 4 | 0.3616 | 52% | **PEAK** — k={[-1,0,0],[-1,1,1],[1,0,1],[1,1,1]} |
-| 5 | 0.3332 | 56% | Decreasing after peak |
-| 6 | 0.3161 | 58% | |
-| 7 | 0.2960 | 61% | |
-| 8 | 0.2802 | 63% | |
-| 9 | 0.2424 | 68% | |
-| 10 | 0.2522 | 66% | |
-| 11 | 0.2227 | 70% | |
-| 12 | 0.1926 | 74% | |
-| 13 | 0.1696 | 77% | |
+| N | c(N) | Margin from 3/4 | Rigorous cert | Status |
+|---|------|-----------------|---------------|--------|
+| 2 | 0.2500 = 1/4 | 67% | 0.2500 (exact) | **PROVEN** (KeyLemmaN2.lean) |
+| 3 | 0.3333 = 1/3 | 56% | 0.3333 (exact) | **PROVEN** (KeyLemmaN3.lean) |
+| 4 | 0.3616 | 52% | **≤ 0.4563** | Cert (grid 41⁴ + Lipschitz) |
+| 5 | 0.3553 | 53% | — | DE (100 k-tuples) |
+| 6 | **0.3677** | **51%** | **≤ 0.6389** | **PEAK + cert** (grid 15⁶) |
+| 7 | 0.3660 | 51% | — | DE (60 k-tuples) |
+| 8 | 0.3327 | 56% | — | DE (40 k-tuples) |
+| ≥10 | ≤ 0.25 | ≥67% | — | DE (lower effort) |
 
-Peak at N=4. Monotone decrease for N≥5. c(N)·N ~ √N (sublinear).
-700K statistical cert on N=4: zero violations. Grid+Lipschitz fails (L~10⁵
-from |ω|²→0 singularity). Rigorous cert needs interval arithmetic (Arb).
+**CORRECTED**: peak is at **N=6** (not N=4 as previously reported).
+The c(N) curve has a PLATEAU at 0.35-0.37 for N=4-7, with N=6 as apex.
+Decline resumes at N=8 (c=0.333). Old values (N=5-8 from attempt_845)
+were underestimates from insufficient k-tuple sampling.
 
-**Eigenvector mechanism** (eigenvector_mechanism.md):
+**Rigorous certificates** (per-sign dominance grid + Lipschitz):
+- N=4: ≤ 0.4563 (39% margin), certs/c4_rigorous_cert.md
+- N=6: ≤ 0.6389 (15% margin), certs/c6_rigorous_cert.md ← BINDING
+See also: certs/cn_vertex_method_correction.md for full correction history.
+
+**Eigenvector mechanism** (attempts/eigenvector_mechanism.md):
 - N=2,4: depletion (α≈0, Sê ⊥ ê)
 - N=3: compression alignment (α=-1, Sê ∥ ê, degenerate eigenvalues {0.5,0.5,-1})
-- N=4 peak from: large strain eigenvalues (±1.4) + moderate |ω|²=5.2
+- N=6: similar to N=4 (distributed depletion)
 
 ### Gap 6b: Ashurst Alignment — α/|ω| ≈ 0 at x*
 At the vorticity maximum, the stretching rate α = ê·S·ê is approximately

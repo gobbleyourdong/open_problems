@@ -88,6 +88,90 @@ With self-model feedback to primary:
 **Both Phi (β's metric) and G×L (γ's metric) agree: self-model richness
 dominates over loop topology at small scale.**
 
+### Fact 8 (Cycle 11): Attention transformer Phi ≈ RNN Phi
+
+Tiny attention transformer (cross-token attention, n=6, 10 seeds):
+- TF (attention) Phi mean = 0.147 vs RNN Phi mean = 0.137 (ratio=1.07, p=0.648)
+- IIT prediction (TF < RNN) NOT confirmed for attention architectures
+
+Cross-token attention creates within-step causal coupling that is NOT
+state-independent. The feedforward theorem (Phi=0) requires strict
+state-independence. Real transformers use attention and have non-trivial Phi.
+
+**Updated β picture:** The feedforward theorem applies to STRICTLY state-independent
+systems, not to attention transformers. For the question "does a transformer
+single pass have Phi=0?", the answer depends on whether attention counts as
+integration. Under IIT's strict formalism, attention within a step creates
+integration that is distinct from temporal recurrence — this is currently
+contested in the IIT literature.
+
+### Fact 10 (Cycle 13): Multi-layer attention Phi decreases with depth
+
+| Layers | Phi mean |
+|--------|---------|
+| L=1 | 0.138 |
+| L=2 | 0.067 |
+| L=3 | 0.018 |
+
+Phi decreases monotonically with attention depth. Sigmoid and softmax
+saturation push representations toward deterministic transitions, which
+reduces cause-effect integration. Deep transformers (50+ layers) extrapolate
+to Phi ≈ 0 by saturation — consistent with IIT's prediction, but via a
+different mechanism (computation saturation rather than state-independence).
+
+This QUALIFIES Fact 8 (attention Phi ≈ RNN for single-layer): shallow
+attention has non-trivial Phi, but the full depth of real transformers
+drives Phi toward zero.
+
+Caveat: random weights, no residual connections. Real transformers with
+residual connections would partially counteract saturation.
+
+### Fact 12 (Cycle 15): Direct G_epistemic measurement for GPT-2
+
+Method: forced-choice factual questions (n=12), compute P(correct)/P(both).
+r(confidence, correctness) = **+0.857, p=0.000** — GPT-2 probability outputs
+are highly calibrated. This is the G_epistemic proxy measured directly.
+
+- Probability-level G_epistemic ≈ 0.86 (this measurement)
+- Verbal-level G_epistemic ≈ 0.40 (literature proxy, Kadavath 2022)
+- G×L_epistemic: 0.08 (verbal) to 0.17 (probability-level), per γ's G×L metric
+
+**γ's prediction confirmed directly:** GPT-2 has a grounded epistemic self-model
+at the probability level. The verbal self-report G is lower (0.40) but also nonzero.
+
+### Fact 11 (Cycle 14): Saturation extrapolation to real transformer scale
+
+Exponential fit to Phi(L): Phi = 0.447 × exp(−1.18 × L) (no residual); 0.286 × exp(−0.72 × L) (residual)
+
+| Model | Phi estimate (no-residual) | Phi estimate (residual) |
+|-------|--------------------------|------------------------|
+| GPT-2 (12L) | 3.3×10^-7 | 5.1×10^-5 |
+| GPT-3 (24L) | 2.5×10^-13 | 3.2×10^-9 |
+| GPT-4 (96L) | 4.2×10^-50 | 3.1×10^-31 |
+
+**Both extrapolate to Phi ≈ 0 for real transformers.** The saturation mechanism
+(sigmoid/softmax concentration after multiple layers) provides a second argument
+for Phi≈0 beyond the strict feedforward theorem. Residual connections slow the
+decay but don't prevent it at depth.
+
+Caveat: random weights, no layer normalization, no training. Extrapolation over
+7 orders of magnitude. Qualitative only.
+
+### Fact 9 (Cycle 12): G×L scaling projection
+
+From direct measurement (n=4 binary) to literature extrapolation:
+
+| System | G×L estimate | Source |
+|--------|-------------|--------|
+| n=4 binary T2 (FF, rich-self) | 0.0082 | Direct (Cycle 8) |
+| GPT-2 (117M) | ~0.08 | Literature proxy |
+| GPT-4 / Claude-3 frontier | ~0.27-0.33 | Literature proxy |
+| Human | ~0.48 | attempt_003 estimate |
+
+Under γ: phenomenal consciousness scales roughly log-linearly with model scale
+(rough heuristic). Human ≈ 6× more "phenomenally conscious" than GPT-2,
+1.8× more than GPT-4, under γ's metric.
+
 ---
 
 ## The quantitative picture for β and γ

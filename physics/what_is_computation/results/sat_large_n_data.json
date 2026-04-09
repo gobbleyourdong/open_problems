@@ -1,0 +1,3028 @@
+{
+  "description": "3-SAT DPLL+MCV large-n scaling study (n=20..50)",
+  "date": "2026-04-09",
+  "config": {
+    "n_vars_list": [
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ],
+    "alpha": 4.3,
+    "n_instances": 5,
+    "timeout_sec": 60.0,
+    "seeds": [
+      17,
+      53,
+      103,
+      197,
+      251
+    ]
+  },
+  "summary": [
+    {
+      "n_vars": 20,
+      "n_clauses": 86,
+      "n_ok": 5,
+      "n_timeout": 0,
+      "median_ratio": 87.8064,
+      "median_t_search_ms": 1.227883,
+      "median_t_verify_us": 15.2,
+      "k_summary": {
+        "mean_k": 0.670824,
+        "min_k": 0.55814,
+        "max_k": 1.441176,
+        "n_k_points": 34,
+        "mean_slope": -0.03876463,
+        "flat": false
+      },
+      "n_k_trajectory_instances": 5
+    },
+    {
+      "n_vars": 25,
+      "n_clauses": 108,
+      "n_ok": 5,
+      "n_timeout": 0,
+      "median_ratio": 70.9028,
+      "median_t_search_ms": 1.368141,
+      "median_t_verify_us": 18.912,
+      "k_summary": {
+        "mean_k": 0.630993,
+        "min_k": 0.561728,
+        "max_k": 1.23913,
+        "n_k_points": 34,
+        "mean_slope": -0.05139523,
+        "flat": false
+      },
+      "n_k_trajectory_instances": 5
+    },
+    {
+      "n_vars": 30,
+      "n_clauses": 129,
+      "n_ok": 5,
+      "n_timeout": 0,
+      "median_ratio": 150.2391,
+      "median_t_search_ms": 3.295648,
+      "median_t_verify_us": 21.936,
+      "k_summary": {
+        "mean_k": 0.725586,
+        "min_k": 0.573643,
+        "max_k": 2.25,
+        "n_k_points": 50,
+        "mean_slope": 0.00064777,
+        "flat": false
+      },
+      "n_k_trajectory_instances": 5
+    },
+    {
+      "n_vars": 35,
+      "n_clauses": 150,
+      "n_ok": 5,
+      "n_timeout": 0,
+      "median_ratio": 126.6342,
+      "median_t_search_ms": 3.164846,
+      "median_t_verify_us": 25.585,
+      "k_summary": {
+        "mean_k": 0.719997,
+        "min_k": 0.578889,
+        "max_k": 1.7,
+        "n_k_points": 47,
+        "mean_slope": 0.00039803,
+        "flat": false
+      },
+      "n_k_trajectory_instances": 5
+    },
+    {
+      "n_vars": 40,
+      "n_clauses": 172,
+      "n_ok": 5,
+      "n_timeout": 0,
+      "median_ratio": 132.2028,
+      "median_t_search_ms": 3.955509,
+      "median_t_verify_us": 29.616,
+      "k_summary": {
+        "mean_k": 0.772115,
+        "min_k": 0.587209,
+        "max_k": 2.25,
+        "n_k_points": 53,
+        "mean_slope": -0.00020699,
+        "flat": false
+      },
+      "n_k_trajectory_instances": 5
+    },
+    {
+      "n_vars": 45,
+      "n_clauses": 194,
+      "n_ok": 5,
+      "n_timeout": 0,
+      "median_ratio": 129.8658,
+      "median_t_search_ms": 4.330249,
+      "median_t_verify_us": 33.168,
+      "k_summary": {
+        "mean_k": 0.765653,
+        "min_k": 0.59505,
+        "max_k": 2.25,
+        "n_k_points": 58,
+        "mean_slope": -0.00183878,
+        "flat": false
+      },
+      "n_k_trajectory_instances": 5
+    },
+    {
+      "n_vars": 50,
+      "n_clauses": 215,
+      "n_ok": 5,
+      "n_timeout": 0,
+      "median_ratio": 206.8103,
+      "median_t_search_ms": 7.792825,
+      "median_t_verify_us": 37.457,
+      "k_summary": {
+        "mean_k": 0.662159,
+        "min_k": 0.59845,
+        "max_k": 2.25,
+        "n_k_points": 115,
+        "mean_slope": -0.00056002,
+        "flat": false
+      },
+      "n_k_trajectory_instances": 5
+    }
+  ],
+  "exponential_fit": {
+    "model": "ratio(n) = A * 2^(n/k)",
+    "A": 49.266773,
+    "k": 26.568305,
+    "r_squared": 0.647298,
+    "n_points": 7,
+    "ns_used": [
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "speedup_note": "n=50 vs n=30 search time ratio: 2.4x",
+  "raw_instances": [
+    {
+      "n_vars": 20,
+      "n_clauses": 86,
+      "seed": 17,
+      "status": "ok",
+      "t_verify_us": 15.28,
+      "t_search_ms": 2.414902,
+      "ratio": 158.043,
+      "decisions": 10,
+      "conflicts": 9
+    },
+    {
+      "n_vars": 20,
+      "n_clauses": 86,
+      "seed": 53,
+      "status": "ok",
+      "t_verify_us": 13.984,
+      "t_search_ms": 1.227883,
+      "ratio": 87.8064,
+      "decisions": 7,
+      "conflicts": 1
+    },
+    {
+      "n_vars": 20,
+      "n_clauses": 86,
+      "seed": 103,
+      "status": "ok",
+      "t_verify_us": 15.2,
+      "t_search_ms": 1.02881,
+      "ratio": 67.6849,
+      "decisions": 6,
+      "conflicts": 1
+    },
+    {
+      "n_vars": 20,
+      "n_clauses": 86,
+      "seed": 197,
+      "status": "ok",
+      "t_verify_us": 14.688,
+      "t_search_ms": 1.192827,
+      "ratio": 81.211,
+      "decisions": 6,
+      "conflicts": 2
+    },
+    {
+      "n_vars": 20,
+      "n_clauses": 86,
+      "seed": 251,
+      "status": "ok",
+      "t_verify_us": 15.552,
+      "t_search_ms": 1.596207,
+      "ratio": 102.6369,
+      "decisions": 10,
+      "conflicts": 3
+    },
+    {
+      "n_vars": 25,
+      "n_clauses": 108,
+      "seed": 17,
+      "status": "ok",
+      "t_verify_us": 19.296,
+      "t_search_ms": 1.368141,
+      "ratio": 70.9028,
+      "decisions": 5,
+      "conflicts": 2
+    },
+    {
+      "n_vars": 25,
+      "n_clauses": 108,
+      "seed": 53,
+      "status": "ok",
+      "t_verify_us": 17.984,
+      "t_search_ms": 3.480208,
+      "ratio": 193.5168,
+      "decisions": 16,
+      "conflicts": 7
+    },
+    {
+      "n_vars": 25,
+      "n_clauses": 108,
+      "seed": 103,
+      "status": "ok",
+      "t_verify_us": 18.912,
+      "t_search_ms": 1.404221,
+      "ratio": 74.2502,
+      "decisions": 5,
+      "conflicts": 2
+    },
+    {
+      "n_vars": 25,
+      "n_clauses": 108,
+      "seed": 197,
+      "status": "ok",
+      "t_verify_us": 18.176,
+      "t_search_ms": 1.238427,
+      "ratio": 68.1354,
+      "decisions": 5,
+      "conflicts": 0
+    },
+    {
+      "n_vars": 25,
+      "n_clauses": 108,
+      "seed": 251,
+      "status": "ok",
+      "t_verify_us": 19.2,
+      "t_search_ms": 1.175035,
+      "ratio": 61.1996,
+      "decisions": 4,
+      "conflicts": 1
+    },
+    {
+      "n_vars": 30,
+      "n_clauses": 129,
+      "seed": 17,
+      "status": "ok",
+      "t_verify_us": 21.825,
+      "t_search_ms": 3.7973,
+      "ratio": 173.9884,
+      "decisions": 10,
+      "conflicts": 8
+    },
+    {
+      "n_vars": 30,
+      "n_clauses": 129,
+      "seed": 53,
+      "status": "ok",
+      "t_verify_us": 21.936,
+      "t_search_ms": 3.295648,
+      "ratio": 150.2391,
+      "decisions": 10,
+      "conflicts": 5
+    },
+    {
+      "n_vars": 30,
+      "n_clauses": 129,
+      "seed": 103,
+      "status": "ok",
+      "t_verify_us": 22.464,
+      "t_search_ms": 5.337763,
+      "ratio": 237.6145,
+      "decisions": 18,
+      "conflicts": 13
+    },
+    {
+      "n_vars": 30,
+      "n_clauses": 129,
+      "seed": 197,
+      "status": "ok",
+      "t_verify_us": 21.728,
+      "t_search_ms": 1.958962,
+      "ratio": 90.1582,
+      "decisions": 8,
+      "conflicts": 2
+    },
+    {
+      "n_vars": 30,
+      "n_clauses": 129,
+      "seed": 251,
+      "status": "ok",
+      "t_verify_us": 22.673,
+      "t_search_ms": 1.949986,
+      "ratio": 86.0048,
+      "decisions": 7,
+      "conflicts": 1
+    },
+    {
+      "n_vars": 35,
+      "n_clauses": 150,
+      "seed": 17,
+      "status": "ok",
+      "t_verify_us": 25.585,
+      "t_search_ms": 5.412867,
+      "ratio": 211.5641,
+      "decisions": 13,
+      "conflicts": 11
+    },
+    {
+      "n_vars": 35,
+      "n_clauses": 150,
+      "seed": 53,
+      "status": "ok",
+      "t_verify_us": 24.976,
+      "t_search_ms": 2.114484,
+      "ratio": 84.6607,
+      "decisions": 7,
+      "conflicts": 1
+    },
+    {
+      "n_vars": 35,
+      "n_clauses": 150,
+      "seed": 103,
+      "status": "ok",
+      "t_verify_us": 24.992,
+      "t_search_ms": 3.164846,
+      "ratio": 126.6342,
+      "decisions": 10,
+      "conflicts": 3
+    },
+    {
+      "n_vars": 35,
+      "n_clauses": 150,
+      "seed": 197,
+      "status": "ok",
+      "t_verify_us": 25.792,
+      "t_search_ms": 2.584952,
+      "ratio": 100.2231,
+      "decisions": 9,
+      "conflicts": 1
+    },
+    {
+      "n_vars": 35,
+      "n_clauses": 150,
+      "seed": 251,
+      "status": "ok",
+      "t_verify_us": 25.68,
+      "t_search_ms": 4.653901,
+      "ratio": 181.2267,
+      "decisions": 11,
+      "conflicts": 8
+    },
+    {
+      "n_vars": 40,
+      "n_clauses": 172,
+      "seed": 17,
+      "status": "ok",
+      "t_verify_us": 29.248,
+      "t_search_ms": 5.860616,
+      "ratio": 200.3766,
+      "decisions": 17,
+      "conflicts": 6
+    },
+    {
+      "n_vars": 40,
+      "n_clauses": 172,
+      "seed": 53,
+      "status": "ok",
+      "t_verify_us": 29.92,
+      "t_search_ms": 3.955509,
+      "ratio": 132.2028,
+      "decisions": 8,
+      "conflicts": 6
+    },
+    {
+      "n_vars": 40,
+      "n_clauses": 172,
+      "seed": 103,
+      "status": "ok",
+      "t_verify_us": 29.665,
+      "t_search_ms": 3.009628,
+      "ratio": 101.454,
+      "decisions": 9,
+      "conflicts": 1
+    },
+    {
+      "n_vars": 40,
+      "n_clauses": 172,
+      "seed": 197,
+      "status": "ok",
+      "t_verify_us": 29.616,
+      "t_search_ms": 4.04127,
+      "ratio": 136.4556,
+      "decisions": 14,
+      "conflicts": 2
+    },
+    {
+      "n_vars": 40,
+      "n_clauses": 172,
+      "seed": 251,
+      "status": "ok",
+      "t_verify_us": 28.9441,
+      "t_search_ms": 2.972428,
+      "ratio": 102.6956,
+      "decisions": 9,
+      "conflicts": 0
+    },
+    {
+      "n_vars": 45,
+      "n_clauses": 194,
+      "seed": 17,
+      "status": "ok",
+      "t_verify_us": 33.12,
+      "t_search_ms": 2.922124,
+      "ratio": 88.2284,
+      "decisions": 7,
+      "conflicts": 1
+    },
+    {
+      "n_vars": 45,
+      "n_clauses": 194,
+      "seed": 53,
+      "status": "ok",
+      "t_verify_us": 33.344,
+      "t_search_ms": 4.330249,
+      "ratio": 129.8658,
+      "decisions": 10,
+      "conflicts": 3
+    },
+    {
+      "n_vars": 45,
+      "n_clauses": 194,
+      "seed": 103,
+      "status": "ok",
+      "t_verify_us": 33.457,
+      "t_search_ms": 4.906174,
+      "ratio": 146.6412,
+      "decisions": 15,
+      "conflicts": 5
+    },
+    {
+      "n_vars": 45,
+      "n_clauses": 194,
+      "seed": 197,
+      "status": "ok",
+      "t_verify_us": 33.168,
+      "t_search_ms": 4.213384,
+      "ratio": 127.0316,
+      "decisions": 13,
+      "conflicts": 0
+    },
+    {
+      "n_vars": 45,
+      "n_clauses": 194,
+      "seed": 251,
+      "status": "ok",
+      "t_verify_us": 33.056,
+      "t_search_ms": 8.331055,
+      "ratio": 252.0284,
+      "decisions": 17,
+      "conflicts": 12
+    },
+    {
+      "n_vars": 50,
+      "n_clauses": 215,
+      "seed": 17,
+      "status": "ok",
+      "t_verify_us": 37.681,
+      "t_search_ms": 7.792825,
+      "ratio": 206.8103,
+      "decisions": 14,
+      "conflicts": 9
+    },
+    {
+      "n_vars": 50,
+      "n_clauses": 215,
+      "seed": 53,
+      "status": "ok",
+      "t_verify_us": 36.016,
+      "t_search_ms": 5.001216,
+      "ratio": 138.861,
+      "decisions": 12,
+      "conflicts": 3
+    },
+    {
+      "n_vars": 50,
+      "n_clauses": 215,
+      "seed": 103,
+      "status": "ok",
+      "t_verify_us": 37.76,
+      "t_search_ms": 37.214976,
+      "ratio": 985.5659,
+      "decisions": 61,
+      "conflicts": 55
+    },
+    {
+      "n_vars": 50,
+      "n_clauses": 215,
+      "seed": 197,
+      "status": "ok",
+      "t_verify_us": 36.864,
+      "t_search_ms": 4.09423,
+      "ratio": 111.063,
+      "decisions": 7,
+      "conflicts": 1
+    },
+    {
+      "n_vars": 50,
+      "n_clauses": 215,
+      "seed": 251,
+      "status": "ok",
+      "t_verify_us": 37.457,
+      "t_search_ms": 13.273789,
+      "ratio": 354.3743,
+      "decisions": 24,
+      "conflicts": 16
+    }
+  ],
+  "k_trajectories_by_n": {
+    "20": [
+      {
+        "seed": 17,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.562016
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.562222
+          },
+          {
+            "step": 3,
+            "n_assigned": 2,
+            "k_proxy": 0.578125
+          },
+          {
+            "step": 4,
+            "n_assigned": 3,
+            "k_proxy": 0.580247
+          },
+          {
+            "step": 7,
+            "n_assigned": 3,
+            "k_proxy": 0.587349
+          },
+          {
+            "step": 10,
+            "n_assigned": 4,
+            "k_proxy": 0.605839
+          },
+          {
+            "step": 11,
+            "n_assigned": 5,
+            "k_proxy": 0.646789
+          },
+          {
+            "step": 15,
+            "n_assigned": 1,
+            "k_proxy": 0.576744
+          },
+          {
+            "step": 16,
+            "n_assigned": 6,
+            "k_proxy": 0.638889
+          },
+          {
+            "step": 19,
+            "n_assigned": 2,
+            "k_proxy": 0.583333
+          },
+          {
+            "step": 20,
+            "n_assigned": 20,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 53,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.567829
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.571749
+          },
+          {
+            "step": 3,
+            "n_assigned": 2,
+            "k_proxy": 0.586387
+          },
+          {
+            "step": 5,
+            "n_assigned": 6,
+            "k_proxy": 0.675532
+          },
+          {
+            "step": 6,
+            "n_assigned": 7,
+            "k_proxy": 0.729167
+          },
+          {
+            "step": 7,
+            "n_assigned": 14,
+            "k_proxy": 1.441176
+          },
+          {
+            "step": 8,
+            "n_assigned": 16,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 9,
+            "n_assigned": 18,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 103,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.55814
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.574879
+          },
+          {
+            "step": 3,
+            "n_assigned": 2,
+            "k_proxy": 0.588068
+          },
+          {
+            "step": 5,
+            "n_assigned": 4,
+            "k_proxy": 0.641593
+          },
+          {
+            "step": 6,
+            "n_assigned": 10,
+            "k_proxy": 0.822917
+          },
+          {
+            "step": 7,
+            "n_assigned": 16,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 8,
+            "n_assigned": 18,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 197,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.563953
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.574661
+          },
+          {
+            "step": 4,
+            "n_assigned": 2,
+            "k_proxy": 0.591398
+          },
+          {
+            "step": 5,
+            "n_assigned": 3,
+            "k_proxy": 0.607362
+          },
+          {
+            "step": 7,
+            "n_assigned": 16,
+            "k_proxy": 1.357143
+          },
+          {
+            "step": 8,
+            "n_assigned": 18,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 9,
+            "n_assigned": 20,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 251,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.562016
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.575
+          },
+          {
+            "step": 3,
+            "n_assigned": 2,
+            "k_proxy": 0.589189
+          },
+          {
+            "step": 4,
+            "n_assigned": 3,
+            "k_proxy": 0.595541
+          },
+          {
+            "step": 6,
+            "n_assigned": 4,
+            "k_proxy": 0.623077
+          },
+          {
+            "step": 8,
+            "n_assigned": 5,
+            "k_proxy": 0.663366
+          },
+          {
+            "step": 10,
+            "n_assigned": 6,
+            "k_proxy": 0.719178
+          },
+          {
+            "step": 11,
+            "n_assigned": 11,
+            "k_proxy": 1.107143
+          },
+          {
+            "step": 12,
+            "n_assigned": 16,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 13,
+            "n_assigned": 18,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 14,
+            "n_assigned": 20,
+            "k_proxy": 0.0
+          }
+        ]
+      }
+    ],
+    "25": [
+      {
+        "seed": 17,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.569444
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.57732
+          },
+          {
+            "step": 3,
+            "n_assigned": 2,
+            "k_proxy": 0.57722
+          },
+          {
+            "step": 4,
+            "n_assigned": 3,
+            "k_proxy": 0.588889
+          },
+          {
+            "step": 6,
+            "n_assigned": 8,
+            "k_proxy": 0.627737
+          },
+          {
+            "step": 8,
+            "n_assigned": 24,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 53,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.561728
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.567474
+          },
+          {
+            "step": 4,
+            "n_assigned": 2,
+            "k_proxy": 0.575397
+          },
+          {
+            "step": 6,
+            "n_assigned": 3,
+            "k_proxy": 0.584444
+          },
+          {
+            "step": 8,
+            "n_assigned": 5,
+            "k_proxy": 0.602339
+          },
+          {
+            "step": 9,
+            "n_assigned": 7,
+            "k_proxy": 0.620438
+          },
+          {
+            "step": 13,
+            "n_assigned": 1,
+            "k_proxy": 0.574545
+          },
+          {
+            "step": 14,
+            "n_assigned": 2,
+            "k_proxy": 0.588235
+          },
+          {
+            "step": 15,
+            "n_assigned": 4,
+            "k_proxy": 0.600515
+          },
+          {
+            "step": 16,
+            "n_assigned": 7,
+            "k_proxy": 0.645161
+          },
+          {
+            "step": 17,
+            "n_assigned": 8,
+            "k_proxy": 0.675926
+          },
+          {
+            "step": 19,
+            "n_assigned": 11,
+            "k_proxy": 0.714286
+          },
+          {
+            "step": 20,
+            "n_assigned": 12,
+            "k_proxy": 0.779661
+          },
+          {
+            "step": 21,
+            "n_assigned": 14,
+            "k_proxy": 0.904762
+          },
+          {
+            "step": 22,
+            "n_assigned": 16,
+            "k_proxy": 1.23913
+          },
+          {
+            "step": 23,
+            "n_assigned": 19,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 24,
+            "n_assigned": 23,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 103,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.567901
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.574468
+          },
+          {
+            "step": 3,
+            "n_assigned": 2,
+            "k_proxy": 0.57874
+          },
+          {
+            "step": 6,
+            "n_assigned": 2,
+            "k_proxy": 0.583333
+          },
+          {
+            "step": 7,
+            "n_assigned": 3,
+            "k_proxy": 0.589286
+          },
+          {
+            "step": 8,
+            "n_assigned": 25,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 197,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.569444
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.57732
+          },
+          {
+            "step": 3,
+            "n_assigned": 3,
+            "k_proxy": 0.582278
+          },
+          {
+            "step": 4,
+            "n_assigned": 5,
+            "k_proxy": 0.597826
+          },
+          {
+            "step": 5,
+            "n_assigned": 10,
+            "k_proxy": 0.665049
+          },
+          {
+            "step": 6,
+            "n_assigned": 25,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 251,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.564815
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.577061
+          },
+          {
+            "step": 4,
+            "n_assigned": 2,
+            "k_proxy": 0.588235
+          },
+          {
+            "step": 5,
+            "n_assigned": 10,
+            "k_proxy": 0.663366
+          },
+          {
+            "step": 6,
+            "n_assigned": 24,
+            "k_proxy": 0.0
+          }
+        ]
+      }
+    ],
+    "30": [
+      {
+        "seed": 17,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.573643
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.574438
+          },
+          {
+            "step": 3,
+            "n_assigned": 3,
+            "k_proxy": 0.579208
+          },
+          {
+            "step": 4,
+            "n_assigned": 4,
+            "k_proxy": 0.582117
+          },
+          {
+            "step": 6,
+            "n_assigned": 7,
+            "k_proxy": 0.598522
+          },
+          {
+            "step": 9,
+            "n_assigned": 16,
+            "k_proxy": 0.707317
+          },
+          {
+            "step": 12,
+            "n_assigned": 2,
+            "k_proxy": 0.574924
+          },
+          {
+            "step": 13,
+            "n_assigned": 4,
+            "k_proxy": 0.581818
+          },
+          {
+            "step": 16,
+            "n_assigned": 4,
+            "k_proxy": 0.582418
+          },
+          {
+            "step": 18,
+            "n_assigned": 23,
+            "k_proxy": 1.2
+          },
+          {
+            "step": 19,
+            "n_assigned": 30,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 53,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.574935
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.575714
+          },
+          {
+            "step": 3,
+            "n_assigned": 4,
+            "k_proxy": 0.582143
+          },
+          {
+            "step": 5,
+            "n_assigned": 6,
+            "k_proxy": 0.592593
+          },
+          {
+            "step": 9,
+            "n_assigned": 1,
+            "k_proxy": 0.577941
+          },
+          {
+            "step": 10,
+            "n_assigned": 2,
+            "k_proxy": 0.591973
+          },
+          {
+            "step": 11,
+            "n_assigned": 4,
+            "k_proxy": 0.594862
+          },
+          {
+            "step": 12,
+            "n_assigned": 5,
+            "k_proxy": 0.608108
+          },
+          {
+            "step": 13,
+            "n_assigned": 8,
+            "k_proxy": 0.633758
+          },
+          {
+            "step": 15,
+            "n_assigned": 26,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 16,
+            "n_assigned": 27,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 103,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.577519
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.58631
+          },
+          {
+            "step": 3,
+            "n_assigned": 2,
+            "k_proxy": 0.584158
+          },
+          {
+            "step": 5,
+            "n_assigned": 4,
+            "k_proxy": 0.593023
+          },
+          {
+            "step": 8,
+            "n_assigned": 2,
+            "k_proxy": 0.590444
+          },
+          {
+            "step": 9,
+            "n_assigned": 5,
+            "k_proxy": 0.594142
+          },
+          {
+            "step": 10,
+            "n_assigned": 11,
+            "k_proxy": 0.632353
+          },
+          {
+            "step": 11,
+            "n_assigned": 12,
+            "k_proxy": 0.665179
+          },
+          {
+            "step": 13,
+            "n_assigned": 13,
+            "k_proxy": 0.703297
+          },
+          {
+            "step": 16,
+            "n_assigned": 12,
+            "k_proxy": 0.6625
+          },
+          {
+            "step": 19,
+            "n_assigned": 9,
+            "k_proxy": 0.62963
+          },
+          {
+            "step": 22,
+            "n_assigned": 4,
+            "k_proxy": 0.604701
+          },
+          {
+            "step": 23,
+            "n_assigned": 5,
+            "k_proxy": 0.615764
+          },
+          {
+            "step": 24,
+            "n_assigned": 7,
+            "k_proxy": 0.619318
+          },
+          {
+            "step": 27,
+            "n_assigned": 8,
+            "k_proxy": 0.64527
+          },
+          {
+            "step": 28,
+            "n_assigned": 10,
+            "k_proxy": 0.663934
+          },
+          {
+            "step": 30,
+            "n_assigned": 23,
+            "k_proxy": 1.607143
+          },
+          {
+            "step": 31,
+            "n_assigned": 26,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 32,
+            "n_assigned": 27,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 197,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.578811
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.579646
+          },
+          {
+            "step": 3,
+            "n_assigned": 7,
+            "k_proxy": 0.603865
+          },
+          {
+            "step": 5,
+            "n_assigned": 14,
+            "k_proxy": 0.719512
+          },
+          {
+            "step": 7,
+            "n_assigned": 18,
+            "k_proxy": 0.897727
+          },
+          {
+            "step": 8,
+            "n_assigned": 20,
+            "k_proxy": 1.2
+          },
+          {
+            "step": 9,
+            "n_assigned": 22,
+            "k_proxy": 1.472222
+          },
+          {
+            "step": 10,
+            "n_assigned": 24,
+            "k_proxy": 2.25
+          },
+          {
+            "step": 11,
+            "n_assigned": 28,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 251,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.573643
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.58
+          },
+          {
+            "step": 3,
+            "n_assigned": 3,
+            "k_proxy": 0.582215
+          },
+          {
+            "step": 4,
+            "n_assigned": 5,
+            "k_proxy": 0.599174
+          },
+          {
+            "step": 6,
+            "n_assigned": 16,
+            "k_proxy": 0.717105
+          },
+          {
+            "step": 7,
+            "n_assigned": 24,
+            "k_proxy": 1.464286
+          },
+          {
+            "step": 8,
+            "n_assigned": 25,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 9,
+            "n_assigned": 27,
+            "k_proxy": 0.0
+          }
+        ]
+      }
+    ],
+    "35": [
+      {
+        "seed": 17,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.583333
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.583732
+          },
+          {
+            "step": 4,
+            "n_assigned": 6,
+            "k_proxy": 0.581967
+          },
+          {
+            "step": 5,
+            "n_assigned": 10,
+            "k_proxy": 0.604072
+          },
+          {
+            "step": 9,
+            "n_assigned": 1,
+            "k_proxy": 0.583333
+          },
+          {
+            "step": 10,
+            "n_assigned": 4,
+            "k_proxy": 0.589286
+          },
+          {
+            "step": 11,
+            "n_assigned": 6,
+            "k_proxy": 0.596831
+          },
+          {
+            "step": 12,
+            "n_assigned": 7,
+            "k_proxy": 0.609615
+          },
+          {
+            "step": 15,
+            "n_assigned": 11,
+            "k_proxy": 0.629032
+          },
+          {
+            "step": 18,
+            "n_assigned": 6,
+            "k_proxy": 0.594502
+          },
+          {
+            "step": 19,
+            "n_assigned": 7,
+            "k_proxy": 0.603774
+          },
+          {
+            "step": 22,
+            "n_assigned": 28,
+            "k_proxy": 1.666667
+          },
+          {
+            "step": 24,
+            "n_assigned": 30,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 25,
+            "n_assigned": 31,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 53,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.586667
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.592233
+          },
+          {
+            "step": 3,
+            "n_assigned": 4,
+            "k_proxy": 0.595016
+          },
+          {
+            "step": 4,
+            "n_assigned": 8,
+            "k_proxy": 0.619617
+          },
+          {
+            "step": 6,
+            "n_assigned": 18,
+            "k_proxy": 0.77027
+          },
+          {
+            "step": 7,
+            "n_assigned": 26,
+            "k_proxy": 1.285714
+          },
+          {
+            "step": 8,
+            "n_assigned": 29,
+            "k_proxy": 1.7
+          },
+          {
+            "step": 9,
+            "n_assigned": 33,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 103,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.578889
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.58209
+          },
+          {
+            "step": 3,
+            "n_assigned": 4,
+            "k_proxy": 0.592063
+          },
+          {
+            "step": 4,
+            "n_assigned": 7,
+            "k_proxy": 0.608333
+          },
+          {
+            "step": 7,
+            "n_assigned": 8,
+            "k_proxy": 0.603896
+          },
+          {
+            "step": 9,
+            "n_assigned": 12,
+            "k_proxy": 0.655405
+          },
+          {
+            "step": 10,
+            "n_assigned": 20,
+            "k_proxy": 0.931818
+          },
+          {
+            "step": 11,
+            "n_assigned": 22,
+            "k_proxy": 1.028571
+          },
+          {
+            "step": 12,
+            "n_assigned": 25,
+            "k_proxy": 1.318182
+          },
+          {
+            "step": 13,
+            "n_assigned": 30,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 14,
+            "n_assigned": 31,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 197,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.585556
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.587224
+          },
+          {
+            "step": 3,
+            "n_assigned": 2,
+            "k_proxy": 0.589431
+          },
+          {
+            "step": 4,
+            "n_assigned": 3,
+            "k_proxy": 0.594955
+          },
+          {
+            "step": 5,
+            "n_assigned": 5,
+            "k_proxy": 0.594276
+          },
+          {
+            "step": 6,
+            "n_assigned": 6,
+            "k_proxy": 0.60566
+          },
+          {
+            "step": 7,
+            "n_assigned": 20,
+            "k_proxy": 0.716867
+          },
+          {
+            "step": 9,
+            "n_assigned": 28,
+            "k_proxy": 1.5625
+          },
+          {
+            "step": 10,
+            "n_assigned": 31,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 11,
+            "n_assigned": 33,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 251,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.581111
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.583538
+          },
+          {
+            "step": 3,
+            "n_assigned": 2,
+            "k_proxy": 0.584677
+          },
+          {
+            "step": 4,
+            "n_assigned": 4,
+            "k_proxy": 0.589231
+          },
+          {
+            "step": 6,
+            "n_assigned": 5,
+            "k_proxy": 0.598958
+          },
+          {
+            "step": 8,
+            "n_assigned": 6,
+            "k_proxy": 0.609127
+          },
+          {
+            "step": 11,
+            "n_assigned": 5,
+            "k_proxy": 0.598958
+          },
+          {
+            "step": 12,
+            "n_assigned": 11,
+            "k_proxy": 0.638554
+          },
+          {
+            "step": 16,
+            "n_assigned": 2,
+            "k_proxy": 0.590164
+          },
+          {
+            "step": 18,
+            "n_assigned": 3,
+            "k_proxy": 0.600917
+          },
+          {
+            "step": 19,
+            "n_assigned": 20,
+            "k_proxy": 0.753247
+          },
+          {
+            "step": 20,
+            "n_assigned": 33,
+            "k_proxy": 0.0
+          }
+        ]
+      }
+    ],
+    "40": [
+      {
+        "seed": 17,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.592054
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.594008
+          },
+          {
+            "step": 3,
+            "n_assigned": 2,
+            "k_proxy": 0.595506
+          },
+          {
+            "step": 4,
+            "n_assigned": 4,
+            "k_proxy": 0.602632
+          },
+          {
+            "step": 6,
+            "n_assigned": 5,
+            "k_proxy": 0.605491
+          },
+          {
+            "step": 7,
+            "n_assigned": 11,
+            "k_proxy": 0.627907
+          },
+          {
+            "step": 12,
+            "n_assigned": 9,
+            "k_proxy": 0.608856
+          },
+          {
+            "step": 13,
+            "n_assigned": 12,
+            "k_proxy": 0.624402
+          },
+          {
+            "step": 14,
+            "n_assigned": 13,
+            "k_proxy": 0.644809
+          },
+          {
+            "step": 15,
+            "n_assigned": 15,
+            "k_proxy": 0.660256
+          },
+          {
+            "step": 16,
+            "n_assigned": 16,
+            "k_proxy": 0.675373
+          },
+          {
+            "step": 17,
+            "n_assigned": 17,
+            "k_proxy": 0.689076
+          },
+          {
+            "step": 19,
+            "n_assigned": 18,
+            "k_proxy": 0.717822
+          },
+          {
+            "step": 20,
+            "n_assigned": 20,
+            "k_proxy": 0.782051
+          },
+          {
+            "step": 21,
+            "n_assigned": 23,
+            "k_proxy": 0.908163
+          },
+          {
+            "step": 22,
+            "n_assigned": 29,
+            "k_proxy": 1.692308
+          },
+          {
+            "step": 23,
+            "n_assigned": 32,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 24,
+            "n_assigned": 34,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 53,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.589147
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.591772
+          },
+          {
+            "step": 3,
+            "n_assigned": 3,
+            "k_proxy": 0.5962
+          },
+          {
+            "step": 5,
+            "n_assigned": 5,
+            "k_proxy": 0.595109
+          },
+          {
+            "step": 6,
+            "n_assigned": 8,
+            "k_proxy": 0.604452
+          },
+          {
+            "step": 7,
+            "n_assigned": 16,
+            "k_proxy": 0.676259
+          },
+          {
+            "step": 11,
+            "n_assigned": 8,
+            "k_proxy": 0.606061
+          },
+          {
+            "step": 13,
+            "n_assigned": 38,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 15,
+            "n_assigned": 39,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 103,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.590116
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.595137
+          },
+          {
+            "step": 3,
+            "n_assigned": 2,
+            "k_proxy": 0.59611
+          },
+          {
+            "step": 4,
+            "n_assigned": 9,
+            "k_proxy": 0.613806
+          },
+          {
+            "step": 5,
+            "n_assigned": 15,
+            "k_proxy": 0.632948
+          },
+          {
+            "step": 7,
+            "n_assigned": 17,
+            "k_proxy": 0.659574
+          },
+          {
+            "step": 8,
+            "n_assigned": 19,
+            "k_proxy": 0.676471
+          },
+          {
+            "step": 9,
+            "n_assigned": 31,
+            "k_proxy": 1.125
+          },
+          {
+            "step": 10,
+            "n_assigned": 33,
+            "k_proxy": 1.464286
+          },
+          {
+            "step": 11,
+            "n_assigned": 37,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 197,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.588178
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.590234
+          },
+          {
+            "step": 3,
+            "n_assigned": 2,
+            "k_proxy": 0.59375
+          },
+          {
+            "step": 4,
+            "n_assigned": 3,
+            "k_proxy": 0.594828
+          },
+          {
+            "step": 5,
+            "n_assigned": 4,
+            "k_proxy": 0.598383
+          },
+          {
+            "step": 6,
+            "n_assigned": 6,
+            "k_proxy": 0.603395
+          },
+          {
+            "step": 7,
+            "n_assigned": 13,
+            "k_proxy": 0.625
+          },
+          {
+            "step": 9,
+            "n_assigned": 16,
+            "k_proxy": 0.665468
+          },
+          {
+            "step": 10,
+            "n_assigned": 19,
+            "k_proxy": 0.688679
+          },
+          {
+            "step": 11,
+            "n_assigned": 27,
+            "k_proxy": 0.858491
+          },
+          {
+            "step": 12,
+            "n_assigned": 29,
+            "k_proxy": 1.0
+          },
+          {
+            "step": 14,
+            "n_assigned": 31,
+            "k_proxy": 1.195652
+          },
+          {
+            "step": 15,
+            "n_assigned": 34,
+            "k_proxy": 1.625
+          },
+          {
+            "step": 16,
+            "n_assigned": 37,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 17,
+            "n_assigned": 38,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 251,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.587209
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.591102
+          },
+          {
+            "step": 3,
+            "n_assigned": 5,
+            "k_proxy": 0.606509
+          },
+          {
+            "step": 4,
+            "n_assigned": 6,
+            "k_proxy": 0.607717
+          },
+          {
+            "step": 5,
+            "n_assigned": 10,
+            "k_proxy": 0.61588
+          },
+          {
+            "step": 6,
+            "n_assigned": 31,
+            "k_proxy": 1.103448
+          },
+          {
+            "step": 7,
+            "n_assigned": 33,
+            "k_proxy": 1.5
+          },
+          {
+            "step": 8,
+            "n_assigned": 34,
+            "k_proxy": 2.25
+          },
+          {
+            "step": 9,
+            "n_assigned": 35,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 10,
+            "n_assigned": 36,
+            "k_proxy": 0.0
+          }
+        ]
+      }
+    ],
+    "45": [
+      {
+        "seed": 17,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.597938
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.597222
+          },
+          {
+            "step": 3,
+            "n_assigned": 2,
+            "k_proxy": 0.603
+          },
+          {
+            "step": 4,
+            "n_assigned": 3,
+            "k_proxy": 0.606911
+          },
+          {
+            "step": 5,
+            "n_assigned": 17,
+            "k_proxy": 0.642105
+          },
+          {
+            "step": 7,
+            "n_assigned": 26,
+            "k_proxy": 0.712121
+          },
+          {
+            "step": 8,
+            "n_assigned": 32,
+            "k_proxy": 0.816667
+          },
+          {
+            "step": 9,
+            "n_assigned": 45,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 53,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.597938
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.599448
+          },
+          {
+            "step": 3,
+            "n_assigned": 4,
+            "k_proxy": 0.602845
+          },
+          {
+            "step": 4,
+            "n_assigned": 17,
+            "k_proxy": 0.623853
+          },
+          {
+            "step": 8,
+            "n_assigned": 7,
+            "k_proxy": 0.612426
+          },
+          {
+            "step": 9,
+            "n_assigned": 13,
+            "k_proxy": 0.641204
+          },
+          {
+            "step": 10,
+            "n_assigned": 15,
+            "k_proxy": 0.651832
+          },
+          {
+            "step": 11,
+            "n_assigned": 17,
+            "k_proxy": 0.669811
+          },
+          {
+            "step": 12,
+            "n_assigned": 40,
+            "k_proxy": 1.708333
+          },
+          {
+            "step": 13,
+            "n_assigned": 43,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 14,
+            "n_assigned": 45,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 103,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.595361
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.599083
+          },
+          {
+            "step": 3,
+            "n_assigned": 2,
+            "k_proxy": 0.600592
+          },
+          {
+            "step": 4,
+            "n_assigned": 3,
+            "k_proxy": 0.604925
+          },
+          {
+            "step": 5,
+            "n_assigned": 16,
+            "k_proxy": 0.647668
+          },
+          {
+            "step": 6,
+            "n_assigned": 17,
+            "k_proxy": 0.66
+          },
+          {
+            "step": 7,
+            "n_assigned": 19,
+            "k_proxy": 0.671053
+          },
+          {
+            "step": 8,
+            "n_assigned": 24,
+            "k_proxy": 0.727723
+          },
+          {
+            "step": 13,
+            "n_assigned": 23,
+            "k_proxy": 0.69469
+          },
+          {
+            "step": 14,
+            "n_assigned": 24,
+            "k_proxy": 0.741935
+          },
+          {
+            "step": 15,
+            "n_assigned": 33,
+            "k_proxy": 0.963415
+          },
+          {
+            "step": 17,
+            "n_assigned": 34,
+            "k_proxy": 1.160714
+          },
+          {
+            "step": 18,
+            "n_assigned": 35,
+            "k_proxy": 1.375
+          },
+          {
+            "step": 19,
+            "n_assigned": 39,
+            "k_proxy": 2.0
+          },
+          {
+            "step": 20,
+            "n_assigned": 41,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 21,
+            "n_assigned": 42,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 197,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.598797
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.599624
+          },
+          {
+            "step": 3,
+            "n_assigned": 2,
+            "k_proxy": 0.599182
+          },
+          {
+            "step": 4,
+            "n_assigned": 3,
+            "k_proxy": 0.601974
+          },
+          {
+            "step": 5,
+            "n_assigned": 4,
+            "k_proxy": 0.600478
+          },
+          {
+            "step": 6,
+            "n_assigned": 8,
+            "k_proxy": 0.609145
+          },
+          {
+            "step": 7,
+            "n_assigned": 24,
+            "k_proxy": 0.752747
+          },
+          {
+            "step": 8,
+            "n_assigned": 27,
+            "k_proxy": 0.793333
+          },
+          {
+            "step": 9,
+            "n_assigned": 31,
+            "k_proxy": 0.904255
+          },
+          {
+            "step": 10,
+            "n_assigned": 34,
+            "k_proxy": 1.112903
+          },
+          {
+            "step": 11,
+            "n_assigned": 37,
+            "k_proxy": 1.472222
+          },
+          {
+            "step": 12,
+            "n_assigned": 40,
+            "k_proxy": 2.25
+          },
+          {
+            "step": 13,
+            "n_assigned": 42,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 14,
+            "n_assigned": 44,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 251,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.59622
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.595588
+          },
+          {
+            "step": 3,
+            "n_assigned": 2,
+            "k_proxy": 0.59505
+          },
+          {
+            "step": 5,
+            "n_assigned": 3,
+            "k_proxy": 0.595494
+          },
+          {
+            "step": 6,
+            "n_assigned": 6,
+            "k_proxy": 0.600267
+          },
+          {
+            "step": 7,
+            "n_assigned": 8,
+            "k_proxy": 0.610592
+          },
+          {
+            "step": 9,
+            "n_assigned": 13,
+            "k_proxy": 0.622449
+          },
+          {
+            "step": 12,
+            "n_assigned": 9,
+            "k_proxy": 0.608626
+          },
+          {
+            "step": 14,
+            "n_assigned": 13,
+            "k_proxy": 0.619048
+          },
+          {
+            "step": 15,
+            "n_assigned": 23,
+            "k_proxy": 0.700855
+          },
+          {
+            "step": 16,
+            "n_assigned": 24,
+            "k_proxy": 0.730392
+          },
+          {
+            "step": 18,
+            "n_assigned": 27,
+            "k_proxy": 0.786667
+          },
+          {
+            "step": 23,
+            "n_assigned": 10,
+            "k_proxy": 0.609375
+          },
+          {
+            "step": 24,
+            "n_assigned": 12,
+            "k_proxy": 0.616487
+          },
+          {
+            "step": 25,
+            "n_assigned": 17,
+            "k_proxy": 0.645503
+          },
+          {
+            "step": 27,
+            "n_assigned": 18,
+            "k_proxy": 0.654762
+          },
+          {
+            "step": 29,
+            "n_assigned": 42,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 30,
+            "n_assigned": 44,
+            "k_proxy": 0.0
+          }
+        ]
+      }
+    ],
+    "50": [
+      {
+        "seed": 17,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.607752
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.611111
+          },
+          {
+            "step": 3,
+            "n_assigned": 2,
+            "k_proxy": 0.609236
+          },
+          {
+            "step": 4,
+            "n_assigned": 4,
+            "k_proxy": 0.616601
+          },
+          {
+            "step": 6,
+            "n_assigned": 8,
+            "k_proxy": 0.620647
+          },
+          {
+            "step": 8,
+            "n_assigned": 9,
+            "k_proxy": 0.621951
+          },
+          {
+            "step": 11,
+            "n_assigned": 3,
+            "k_proxy": 0.611742
+          },
+          {
+            "step": 12,
+            "n_assigned": 6,
+            "k_proxy": 0.612583
+          },
+          {
+            "step": 13,
+            "n_assigned": 11,
+            "k_proxy": 0.611878
+          },
+          {
+            "step": 15,
+            "n_assigned": 14,
+            "k_proxy": 0.62215
+          },
+          {
+            "step": 17,
+            "n_assigned": 16,
+            "k_proxy": 0.627863
+          },
+          {
+            "step": 20,
+            "n_assigned": 7,
+            "k_proxy": 0.616587
+          },
+          {
+            "step": 22,
+            "n_assigned": 44,
+            "k_proxy": 2.125
+          },
+          {
+            "step": 23,
+            "n_assigned": 45,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 24,
+            "n_assigned": 47,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 53,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.59845
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.599338
+          },
+          {
+            "step": 3,
+            "n_assigned": 6,
+            "k_proxy": 0.605814
+          },
+          {
+            "step": 4,
+            "n_assigned": 9,
+            "k_proxy": 0.615274
+          },
+          {
+            "step": 5,
+            "n_assigned": 14,
+            "k_proxy": 0.628405
+          },
+          {
+            "step": 6,
+            "n_assigned": 17,
+            "k_proxy": 0.654822
+          },
+          {
+            "step": 7,
+            "n_assigned": 23,
+            "k_proxy": 0.692308
+          },
+          {
+            "step": 11,
+            "n_assigned": 17,
+            "k_proxy": 0.643192
+          },
+          {
+            "step": 12,
+            "n_assigned": 22,
+            "k_proxy": 0.658537
+          },
+          {
+            "step": 13,
+            "n_assigned": 31,
+            "k_proxy": 0.835938
+          },
+          {
+            "step": 14,
+            "n_assigned": 36,
+            "k_proxy": 1.027027
+          },
+          {
+            "step": 15,
+            "n_assigned": 44,
+            "k_proxy": 2.25
+          },
+          {
+            "step": 16,
+            "n_assigned": 47,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 103,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.606977
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.605565
+          },
+          {
+            "step": 3,
+            "n_assigned": 3,
+            "k_proxy": 0.607985
+          },
+          {
+            "step": 4,
+            "n_assigned": 4,
+            "k_proxy": 0.607004
+          },
+          {
+            "step": 5,
+            "n_assigned": 5,
+            "k_proxy": 0.60766
+          },
+          {
+            "step": 6,
+            "n_assigned": 6,
+            "k_proxy": 0.613082
+          },
+          {
+            "step": 8,
+            "n_assigned": 7,
+            "k_proxy": 0.61639
+          },
+          {
+            "step": 9,
+            "n_assigned": 21,
+            "k_proxy": 0.635266
+          },
+          {
+            "step": 13,
+            "n_assigned": 7,
+            "k_proxy": 0.608796
+          },
+          {
+            "step": 16,
+            "n_assigned": 9,
+            "k_proxy": 0.61596
+          },
+          {
+            "step": 17,
+            "n_assigned": 10,
+            "k_proxy": 0.615691
+          },
+          {
+            "step": 20,
+            "n_assigned": 15,
+            "k_proxy": 0.619863
+          },
+          {
+            "step": 22,
+            "n_assigned": 16,
+            "k_proxy": 0.62037
+          },
+          {
+            "step": 23,
+            "n_assigned": 19,
+            "k_proxy": 0.635945
+          },
+          {
+            "step": 24,
+            "n_assigned": 20,
+            "k_proxy": 0.640625
+          },
+          {
+            "step": 29,
+            "n_assigned": 4,
+            "k_proxy": 0.606731
+          },
+          {
+            "step": 30,
+            "n_assigned": 5,
+            "k_proxy": 0.608384
+          },
+          {
+            "step": 31,
+            "n_assigned": 9,
+            "k_proxy": 0.613253
+          },
+          {
+            "step": 34,
+            "n_assigned": 6,
+            "k_proxy": 0.610619
+          },
+          {
+            "step": 35,
+            "n_assigned": 11,
+            "k_proxy": 0.622807
+          },
+          {
+            "step": 38,
+            "n_assigned": 8,
+            "k_proxy": 0.613861
+          },
+          {
+            "step": 39,
+            "n_assigned": 14,
+            "k_proxy": 0.61755
+          },
+          {
+            "step": 43,
+            "n_assigned": 6,
+            "k_proxy": 0.608974
+          },
+          {
+            "step": 44,
+            "n_assigned": 11,
+            "k_proxy": 0.610512
+          },
+          {
+            "step": 45,
+            "n_assigned": 13,
+            "k_proxy": 0.618182
+          },
+          {
+            "step": 47,
+            "n_assigned": 14,
+            "k_proxy": 0.625
+          },
+          {
+            "step": 51,
+            "n_assigned": 8,
+            "k_proxy": 0.612172
+          },
+          {
+            "step": 52,
+            "n_assigned": 14,
+            "k_proxy": 0.619281
+          },
+          {
+            "step": 56,
+            "n_assigned": 2,
+            "k_proxy": 0.603986
+          },
+          {
+            "step": 57,
+            "n_assigned": 5,
+            "k_proxy": 0.604374
+          },
+          {
+            "step": 58,
+            "n_assigned": 26,
+            "k_proxy": 0.676923
+          },
+          {
+            "step": 61,
+            "n_assigned": 9,
+            "k_proxy": 0.614713
+          },
+          {
+            "step": 62,
+            "n_assigned": 11,
+            "k_proxy": 0.616715
+          },
+          {
+            "step": 64,
+            "n_assigned": 13,
+            "k_proxy": 0.619355
+          },
+          {
+            "step": 65,
+            "n_assigned": 14,
+            "k_proxy": 0.624555
+          },
+          {
+            "step": 67,
+            "n_assigned": 18,
+            "k_proxy": 0.639269
+          },
+          {
+            "step": 71,
+            "n_assigned": 11,
+            "k_proxy": 0.615819
+          },
+          {
+            "step": 74,
+            "n_assigned": 3,
+            "k_proxy": 0.605166
+          },
+          {
+            "step": 75,
+            "n_assigned": 9,
+            "k_proxy": 0.612532
+          },
+          {
+            "step": 76,
+            "n_assigned": 12,
+            "k_proxy": 0.616766
+          },
+          {
+            "step": 79,
+            "n_assigned": 12,
+            "k_proxy": 0.618541
+          },
+          {
+            "step": 81,
+            "n_assigned": 13,
+            "k_proxy": 0.62623
+          },
+          {
+            "step": 83,
+            "n_assigned": 15,
+            "k_proxy": 0.631579
+          },
+          {
+            "step": 86,
+            "n_assigned": 5,
+            "k_proxy": 0.605967
+          },
+          {
+            "step": 88,
+            "n_assigned": 6,
+            "k_proxy": 0.611607
+          },
+          {
+            "step": 90,
+            "n_assigned": 13,
+            "k_proxy": 0.618123
+          },
+          {
+            "step": 91,
+            "n_assigned": 14,
+            "k_proxy": 0.625
+          },
+          {
+            "step": 94,
+            "n_assigned": 14,
+            "k_proxy": 0.625887
+          },
+          {
+            "step": 97,
+            "n_assigned": 1,
+            "k_proxy": 0.605175
+          },
+          {
+            "step": 98,
+            "n_assigned": 3,
+            "k_proxy": 0.608571
+          },
+          {
+            "step": 99,
+            "n_assigned": 7,
+            "k_proxy": 0.610294
+          },
+          {
+            "step": 100,
+            "n_assigned": 9,
+            "k_proxy": 0.618384
+          },
+          {
+            "step": 103,
+            "n_assigned": 11,
+            "k_proxy": 0.623053
+          },
+          {
+            "step": 106,
+            "n_assigned": 4,
+            "k_proxy": 0.610766
+          },
+          {
+            "step": 107,
+            "n_assigned": 6,
+            "k_proxy": 0.614512
+          },
+          {
+            "step": 108,
+            "n_assigned": 9,
+            "k_proxy": 0.62027
+          },
+          {
+            "step": 109,
+            "n_assigned": 12,
+            "k_proxy": 0.626214
+          },
+          {
+            "step": 110,
+            "n_assigned": 20,
+            "k_proxy": 0.646919
+          },
+          {
+            "step": 113,
+            "n_assigned": 18,
+            "k_proxy": 0.637778
+          },
+          {
+            "step": 114,
+            "n_assigned": 26,
+            "k_proxy": 0.704918
+          },
+          {
+            "step": 116,
+            "n_assigned": 45,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 117,
+            "n_assigned": 47,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 197,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.603876
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.601485
+          },
+          {
+            "step": 3,
+            "n_assigned": 3,
+            "k_proxy": 0.600746
+          },
+          {
+            "step": 5,
+            "n_assigned": 5,
+            "k_proxy": 0.609375
+          },
+          {
+            "step": 6,
+            "n_assigned": 13,
+            "k_proxy": 0.612654
+          },
+          {
+            "step": 7,
+            "n_assigned": 41,
+            "k_proxy": 1.833333
+          },
+          {
+            "step": 8,
+            "n_assigned": 43,
+            "k_proxy": 0.0
+          },
+          {
+            "step": 9,
+            "n_assigned": 47,
+            "k_proxy": 0.0
+          }
+        ]
+      },
+      {
+        "seed": 251,
+        "status": "ok",
+        "trajectory": [
+          {
+            "step": 1,
+            "n_assigned": 0,
+            "k_proxy": 0.604651
+          },
+          {
+            "step": 2,
+            "n_assigned": 1,
+            "k_proxy": 0.606187
+          },
+          {
+            "step": 3,
+            "n_assigned": 2,
+            "k_proxy": 0.608734
+          },
+          {
+            "step": 4,
+            "n_assigned": 3,
+            "k_proxy": 0.606742
+          },
+          {
+            "step": 5,
+            "n_assigned": 5,
+            "k_proxy": 0.607292
+          },
+          {
+            "step": 6,
+            "n_assigned": 6,
+            "k_proxy": 0.608352
+          },
+          {
+            "step": 7,
+            "n_assigned": 7,
+            "k_proxy": 0.610976
+          },
+          {
+            "step": 9,
+            "n_assigned": 8,
+            "k_proxy": 0.612694
+          },
+          {
+            "step": 10,
+            "n_assigned": 14,
+            "k_proxy": 0.634615
+          },
+          {
+            "step": 11,
+            "n_assigned": 16,
+            "k_proxy": 0.639485
+          },
+          {
+            "step": 17,
+            "n_assigned": 7,
+            "k_proxy": 0.608696
+          },
+          {
+            "step": 18,
+            "n_assigned": 8,
+            "k_proxy": 0.610149
+          },
+          {
+            "step": 22,
+            "n_assigned": 7,
+            "k_proxy": 0.608647
+          },
+          {
+            "step": 23,
+            "n_assigned": 8,
+            "k_proxy": 0.612172
+          },
+          {
+            "step": 24,
+            "n_assigned": 9,
+            "k_proxy": 0.611825
+          },
+          {
+            "step": 27,
+            "n_assigned": 12,
+            "k_proxy": 0.615057
+          },
+          {
+            "step": 30,
+            "n_assigned": 13,
+            "k_proxy": 0.61437
+          },
+          {
+            "step": 33,
+            "n_assigned": 3,
+            "k_proxy": 0.606731
+          },
+          {
+            "step": 34,
+            "n_assigned": 5,
+            "k_proxy": 0.606223
+          },
+          {
+            "step": 35,
+            "n_assigned": 6,
+            "k_proxy": 0.608392
+          },
+          {
+            "step": 36,
+            "n_assigned": 7,
+            "k_proxy": 0.611111
+          },
+          {
+            "step": 37,
+            "n_assigned": 13,
+            "k_proxy": 0.632959
+          },
+          {
+            "step": 38,
+            "n_assigned": 16,
+            "k_proxy": 0.63913
+          },
+          {
+            "step": 39,
+            "n_assigned": 17,
+            "k_proxy": 0.652913
+          },
+          {
+            "step": 41,
+            "n_assigned": 48,
+            "k_proxy": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

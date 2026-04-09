@@ -581,7 +581,7 @@ def run():
     print(f"  [SUSY at meV:         gap ≈ 10^0 (matches ρ_Λ — extreme fine-tuning)]")
 
     # ── Save results ──────────────────────────────────────────────────────────
-    os.makedirs("/home/jb/open_problems/physics/what_is_nothing/results", exist_ok=True)
+    os.makedirs("~/open_problems/physics/what_is_nothing/results", exist_ok=True)
 
     data = {
         "description": (
@@ -651,7 +651,7 @@ def run():
         },
     }
 
-    out_path = "/home/jb/open_problems/physics/what_is_nothing/results/susy_data.json"
+    out_path = "~/open_problems/physics/what_is_nothing/results/susy_data.json"
     with open(out_path, "w") as f:
         json.dump(data, f, indent=2)
     print(f"\n  Data → {out_path}")
@@ -791,7 +791,7 @@ This quantifies why SUSY does not close gap.md R1:
 - This is sometimes called the "second fine-tuning" or "μ-problem" in SUSY contexts.
 """
 
-    md_path = "/home/jb/open_problems/physics/what_is_nothing/results/susy_findings.md"
+    md_path = "~/open_problems/physics/what_is_nothing/results/susy_findings.md"
     with open(md_path, "w") as f:
         f.write(findings_md)
     print(f"  Findings → {md_path}")

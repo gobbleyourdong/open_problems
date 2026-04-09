@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "script": "landauer_cascade.py",
+    "date": "2026-04-09",
+    "track": "numerical / what_is_change",
+    "context": "temporal_experience.py confirmed K-rate hierarchy spanning 30 orders. zeno_maxwell.py confirmed four-way equality numerically. This script: Landauer costs across the hierarchy, evolutionary K-efficiency, and the proof that the four-way equality is a logical identity."
+  },
+  "constants": {
+    "k_B_J_per_K": 1.380649e-23,
+    "ln2": 0.6931471805599453,
+    "T_body_K": 310.0,
+    "landauer_unit_J_per_bit": 2.9666781812480147e-21
+  },
+  "section1_landauer_cascade": [
+    {
+      "level": "Quantum decoherence (per ion channel)",
+      "K_rate_bits_per_s": 10000000000000.0,
+      "T_K": 310.0,
+      "landauer_W": 2.9666781812480147e-08,
+      "actual_W": 4.2800119000000005e-07,
+      "slack_ratio": 14.426950408889635,
+      "notes": "K-rate 1.0e+13 bits/s per channel at T=310.0 K. Landauer floor 2.967e-08 W/channel. Actual ~4.280e-07 W/channel (~10 k_B T per event). Slack 14.4x \u2014 near-quantum events are ~10x above Landauer, far tighter than macroscopic biology."
+    },
+    {
+      "level": "Kramers gating (total brain ion channels)",
+      "K_rate_bits_per_s": 8.6e+20,
+      "T_K": 310.0,
+      "landauer_W": 2.5513432358732926,
+      "actual_W": 20.0,
+      "slack_ratio": 7.839007985593225,
+      "notes": "K-rate 8.60e+20 bits/s total brain. Landauer predicted power: 2.551 W. Actual brain power: 20.0 W. Slack 7.84x \u2014 brain runs only 7.8x above Landauer floor for its ion-channel K-processing. This is the tightest slack in any biological system."
+    },
+    {
+      "level": "Conscious bandwidth (specious present)",
+      "K_rate_bits_per_s": 50.0,
+      "T_K": 310.0,
+      "landauer_W": 1.4833390906240073e-19,
+      "actual_W": 1.5,
+      "slack_ratio": 1.011232030141526e+19,
+      "notes": "K-rate 50 bits/s (integrated conscious bandwidth). Landauer floor 1.483e-19 W \u2014 negligible. Actual neural cost for conscious processing ~1.5 W. Slack 1.01e+19x \u2014 consciousness runs enormously above its Landauer floor because the neural substrate implementing 50 bits/s carries the full ion-channel K-rate as overhead."
+    },
+    {
+      "level": "DNA replication (polymerase)",
+      "K_rate_bits_per_s": 2000.0,
+      "T_K": 310.0,
+      "landauer_W": 5.933356362496029e-18,
+      "actual_W": 4.2800119000000004e-16,
+      "slack_ratio": 72.13475204444818,
+      "replication_rate_bp_per_s": 1000.0,
+      "bits_per_bp": 2.0,
+      "notes": "K-rate 2000 bits/s (1000 bp/s \u00d7 2 bits/bp). Landauer floor 5.933e-18 W. Actual polymerase power ~4.280e-16 W (~100 k_B T per bp). Slack 72.1x \u2014 fidelity enforcement (proofreading) costs ~25x over the Landauer minimum (Hopfield kinetic proofreading)."
+    },
+    {
+      "level": "Gene expression (mRNA synthesis, whole cell)",
+      "K_rate_bits_per_s": 833333.3333333334,
+      "T_K": 310.0,
+      "landauer_W": 2.4722318177066792e-15,
+      "actual_W": 5.944460972222223e-13,
+      "slack_ratio": 240.44917348149392,
+      "mRNA_per_s": 1388.888888888889,
+      "active_genes": 5000,
+      "novel_nt_per_mRNA": 300.0,
+      "notes": "K-rate 8.333e+05 bits/s (1389 mRNA/s \u00d7 300 nt \u00d7 2 bits/nt). Landauer floor 2.472e-15 W. Actual RNAP power ~5.944e-13 W. Slack 240.4x \u2014 larger than DNA replication because RNAP lacks proofreading (accuracy maintained by other mechanisms)."
+    },
+    {
+      "level": "Evolutionary mutation fixation (per lineage)",
+      "K_rate_bits_per_s": 1.1255e-09,
+      "T_K": 310.0,
+      "landauer_W": 3.3389962929946406e-30,
+      "actual_W": 241.94550063371355,
+      "slack_ratio": 7.246054784227395e+31,
+      "haldane_deaths_per_substitution": 10.0,
+      "notes": "K-rate 1.1255e-09 bits/s (functional genome K / 3.8 Gyr). Landauer floor 3.339e-30 W \u2014 negligible. Actual evolutionary 'dissipation' (Haldane cost) ~2.42e+02 W/lineage. Slack 7.25e+31x \u2014 enormous because fitness selection operates across entire organisms, not just bits. Evolutionary K is maximally thermodynamically inefficient at the individual level, but maximally efficient at the information level (K per joule invested)."
+    }
+  ],
+  "section2_evolutionary_K": {
+    "de_novo_mutations_per_gen": 60.0,
+    "mutation_rate_per_site_per_gen": 2e-08,
+    "genome_sites": 3000000000.0,
+    "generation_yr": 20.0,
+    "bits_per_substitution": 1.0,
+    "K_investment_bits_per_yr": 3.0,
+    "K_investment_bits_per_s": 9.505703422053231e-08,
+    "K_return_bits_total_Mbits": 134.98,
+    "time_span_yr_single_lineage": 3800000000.0,
+    "K_return_single_lineage_per_yr": 0.035521052631578946,
+    "K_efficiency_single_lineage": 0.011840350877192983,
+    "effective_parallel_lineages_Ne": 10000.0,
+    "K_bits_per_fixation_pop_test": 13.287712379549449,
+    "K_return_population_framing_per_yr": 39.86313713864835,
+    "K_efficiency_population_framing": 13.287712379549449,
+    "demon_efficiency_thermodynamic_limit": 1.0,
+    "efficiency_vs_demon_single": 0.011840350877192983,
+    "efficiency_vs_demon_population": 13.287712379549449,
+    "beneficial_mutation_fraction": 0.0033333333333333335,
+    "implied_population_multiplier_from_efficiency": 3986.3137138648344
+  },
+  "section3_K_conservation_proof": {
+    "four_way_equality": {
+      "K_acquired_bits": 1.0,
+      "delta_H_gas_bits": 1.0,
+      "bits_erased": 1.0,
+      "delta_S_env_bits": 1.0,
+      "all_equal": true
+    },
+    "steps": [
+      {
+        "equality": "K_acquired = |\u0394H_gas|",
+        "theorem": "Mutual information theorem (Shannon 1948; Szilard 1929)",
+        "statement": "I(gas; demon) = H(gas) - H(gas | demon) = |\u0394H_gas|. The demon's K-acquisition IS the reduction in gas entropy conditional on the demon's memory state. By definition, K_acquired = I(gas; demon). Therefore K_acquired = |\u0394H_gas| exactly.",
+        "numeric_check": {
+          "H_gas_before_bits": 1.0,
+          "H_gas_after_bits": 0.0,
+          "K_acquired_bits": 1.0,
+          "delta_H_gas_bits": -1.0,
+          "equality_holds": true
+        }
+      },
+      {
+        "equality": "|\u0394H_gas| = bits_erased",
+        "theorem": "Landauer 1961 + Bennett 1982 (reversible measurement assumption)",
+        "statement": "A reversible (ideal) measurement stores exactly I(gas; demon) bits in the demon's memory. The subsequent erasure of the demon's memory erases exactly those bits. No surplus, no deficit. Therefore |\u0394H_gas| = K_acquired = bits_erased. Bennett (1982) proved that measurement itself can be done reversibly (no thermodynamic cost) but erasure cannot \u2014 and erasure cost = bits stored.",
+        "numeric_check": {
+          "delta_H_gas_abs_bits": 1.0,
+          "bits_erased": 1.0,
+          "equality_holds": true
+        }
+      },
+      {
+        "equality": "bits_erased = \u0394S_environment",
+        "theorem": "Landauer's principle (Landauer 1961; B\u00e9rut et al. 2012 exp.)",
+        "statement": "Erasing b bits requires dissipating at least b \u00d7 k_B T ln(2) joules as heat. This heat increases environment entropy by b \u00d7 k_B ln(2) J/K = b bits (in natural information units with k_B ln(2) per bit). Therefore bits_erased = \u0394S_environment exactly at the Landauer limit. Real processes exceed the Landauer minimum, so \u0394S_env \u2265 bits_erased, with equality only at the thermodynamic limit.",
+        "numeric_check_at_T": 300.0,
+        "numeric_check": {
+          "bits_erased": 1.0,
+          "E_landauer_J": 2.870978885078724e-21,
+          "delta_S_env_J_per_K": 9.569929616929079e-24,
+          "delta_S_env_bits": 1.0,
+          "equality_holds": true
+        }
+      }
+    ],
+    "conservation_statement": "K_acquired \u2261 |\u0394H_gas| \u2261 bits_erased \u2261 \u0394S_environment (the K-change conservation law). K-information acquired from a system increases the entropy of the environment by exactly the same amount. K is not destroyed \u2014 it is transferred from the measured system to the environment. The total K-entropy of (system + environment) is conserved.",
+    "physical_interpretation": "To KNOW something costs entropy. Szilard (1929) showed that the Szilard engine extracts W = k_B T ln(2) of work per bit of knowledge. Landauer (1961) showed that erasing that bit dumps the same energy as heat. Bennett (1982) completed the picture: reversible measurement is free, but the ledger must balance at erasure. The four-way equality is the bookkeeping identity for this ledger: K acquired from gas = K stored in demon = K erased = K dumped to environment.",
+    "key_references": [
+      "Szilard L. (1929) Z. Phys. 53:840 \u2014 K-acquisition from thermodynamic systems",
+      "Shannon C.E. (1948) Bell Syst. Tech. J. \u2014 mutual information I(X;Y) = H(X) - H(X|Y)",
+      "Landauer R. (1961) IBM J. Res. Dev. \u2014 erasure of 1 bit costs k_B T ln(2)",
+      "Bennett C.H. (1982) Int. J. Theor. Phys. \u2014 reversible measurement + erasure analysis",
+      "B\u00e9rut A. et al. (2012) Nature 483:187 \u2014 experimental verification of Landauer's principle"
+    ]
+  }
+}

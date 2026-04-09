@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "script": "numerics/toe_k_analysis.py",
+    "date": "2026-04-09",
+    "baseline_K_SM_GR_bits": 21834,
+    "S_holo_log10_bits": 123.53
+  },
+  "section1_toe_candidates": [
+    {
+      "name": "SM + GR",
+      "K_total_bits": 21834,
+      "K_extra_bits": 0,
+      "gzip_ratio": 0.7733,
+      "MDL_rank": 1
+    },
+    {
+      "name": "Causal Set Theory",
+      "K_total_bits": 21934,
+      "K_extra_bits": 100,
+      "gzip_ratio": 0.593,
+      "MDL_rank": 2
+    },
+    {
+      "name": "CCC (Penrose)",
+      "K_total_bits": 22300,
+      "K_extra_bits": 466,
+      "gzip_ratio": 0.5656,
+      "MDL_rank": 3
+    },
+    {
+      "name": "LQG",
+      "K_total_bits": 22834,
+      "K_extra_bits": 1000,
+      "gzip_ratio": 0.6297,
+      "MDL_rank": 4
+    },
+    {
+      "name": "String/M-theory",
+      "K_total_bits": 23995,
+      "K_extra_bits": 2161,
+      "gzip_ratio": 0.6568,
+      "MDL_rank": 5
+    }
+  ],
+  "section2_multiverse": {
+    "MWI": {
+      "K_total_bits": 21834,
+      "K_extra_bits": 0,
+      "note": "K-equivalent to single-world; branching is deterministic under unitarity"
+    },
+    "level_II_eternal_inflation": {
+      "K_meta_laws_bits": 23995,
+      "K_inflaton_bits": 100,
+      "K_total_bits": 24095
+    },
+    "string_landscape": {
+      "K_framework_bits": 23995,
+      "K_address_bits": 1661,
+      "K_total_bits": 25656
+    }
+  },
+  "section3_MDL": {
+    "principle": "MDL = K_model + log2(prediction_error_ratio)",
+    "current_status": "All TOEs fit cosmological data to ~0.1%; log2 error term = 0",
+    "MDL_winner": "SM+GR",
+    "MDL_winner_K_bits": 21834,
+    "energy_gap_LHC_to_Planck_log10": 14.9
+  },
+  "section4_when_TOE_wins": {
+    "Causal Set Theory": {
+      "K_penalty_bits": 100,
+      "prediction_factor_needed_log10": 30.1
+    },
+    "CCC (Penrose)": {
+      "K_penalty_bits": 466,
+      "prediction_factor_needed_log10": 140.3
+    },
+    "LQG": {
+      "K_penalty_bits": 1000,
+      "prediction_factor_needed_log10": 301.0
+    },
+    "String/M-theory": {
+      "K_penalty_bits": 2161,
+      "prediction_factor_needed_log10": 650.5
+    }
+  },
+  "key_finding": "SM+GR has the minimum K-content (21,834 bits) of all tested TOE candidates. Under K-informationalism (MDL applied to physics), SM+GR is the preferred description until a competitor makes a correct prediction SM+GR cannot match. Current data: all TOEs agree with observations \u2014 SM+GR wins on K-simplicity. MWI is K-equivalent to single-world (same K_laws = 21,834 bits). String landscape adds ~3,161 bits but may anthropically explain fine-tuning of Lambda."
+}

@@ -1,0 +1,99 @@
+{
+  "parameters": {
+    "K_B_J_per_K": 1.380649e-23,
+    "T_ref_K": 310.0,
+    "DELTA_E_kBT_at_Tref": 16.58,
+    "DELTA_E_J": 7.0962597302e-20,
+    "prefactor_Hz": 15915494309.189535,
+    "k_Kramers_at_310K_Hz": 1002.807611522582,
+    "N_active_channels": 8.6e+17,
+    "compression_ratio": 1.724829091818841e+19,
+    "N_moments": 128,
+    "B_ref_bits_per_s": 50.0,
+    "SP_ref_s": 2.56
+  },
+  "exp1_SP_vs_temperature": [
+    {
+      "T_K": 295.0,
+      "k_Kramers_Hz": 431.603830762022,
+      "B_bits_per_s": 21.5197723772115,
+      "SP_s": 5.948018304113032,
+      "SP_ratio_to_310K": 2.323444650044153
+    },
+    {
+      "T_K": 300.0,
+      "k_Kramers_Hz": 577.0288641951121,
+      "B_bits_per_s": 28.770666355383867,
+      "SP_s": 4.448975856829514,
+      "SP_ratio_to_310K": 1.7378811940740289
+    },
+    {
+      "T_K": 305.0,
+      "k_Kramers_Hz": 764.1435604302349,
+      "B_bits_per_s": 38.10020744009017,
+      "SP_s": 3.359561760950272,
+      "SP_ratio_to_310K": 1.3123288128711998
+    },
+    {
+      "T_K": 310.0,
+      "k_Kramers_Hz": 1002.807611522582,
+      "B_bits_per_s": 50.0,
+      "SP_s": 2.56,
+      "SP_ratio_to_310K": 1.0
+    },
+    {
+      "T_K": 315.0,
+      "k_Kramers_Hz": 1304.706721085503,
+      "B_bits_per_s": 65.05269336281472,
+      "SP_s": 1.9676356716871477,
+      "SP_ratio_to_310K": 0.768607684252792
+    },
+    {
+      "T_K": 320.0,
+      "k_Kramers_Hz": 1683.5904365541164,
+      "B_bits_per_s": 83.94384013489332,
+      "SP_s": 1.5248289784492912,
+      "SP_ratio_to_310K": 0.5956363197067543
+    }
+  ],
+  "exp2_Q10": [
+    {
+      "T_K": 295.0,
+      "T_plus10_K": 305.0,
+      "Q10_Kramers_rate": 1.770474462844999,
+      "Q10_SP": 1.770474462844999,
+      "psychophysical_range_2to4": "borderline"
+    },
+    {
+      "T_K": 300.0,
+      "T_plus10_K": 310.0,
+      "Q10_Kramers_rate": 1.7378811940740289,
+      "Q10_SP": 1.7378811940740289,
+      "psychophysical_range_2to4": "borderline"
+    },
+    {
+      "T_K": 305.0,
+      "T_plus10_K": 315.0,
+      "Q10_Kramers_rate": 1.7074104770979361,
+      "Q10_SP": 1.7074104770979366,
+      "psychophysical_range_2to4": "borderline"
+    },
+    {
+      "T_K": 310.0,
+      "T_plus10_K": 320.0,
+      "Q10_Kramers_rate": 1.6788768026978664,
+      "Q10_SP": 1.6788768026978664,
+      "psychophysical_range_2to4": "borderline"
+    }
+  ],
+  "exp3_hypothermia": {
+    "T_hypothermia_K": 306.0,
+    "T_normal_K": 310.0,
+    "SP_hypothermia_s": 3.1795487513608944,
+    "SP_normal_s": 2.56,
+    "ratio_SP_hypo_to_norm": 1.2420112310003493,
+    "pct_change_SP": 24.201123100034938,
+    "predicted_time_slows_down": true,
+    "SP_shift_pct_per_10K_drop": 73.78811940740289
+  }
+}

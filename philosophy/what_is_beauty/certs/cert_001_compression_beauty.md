@@ -9,6 +9,28 @@
 
 ---
 
+## HEADLINE FINDINGS (Cycles 10–14)
+
+**Within "compressed mathematical statements":**
+- **STRONGEST RESULT: n=25 full-range (literary+math), r=+0.714, p=0.0001** (Cycle 14)
+- n=14 (focused math): GPT-2-small **r=+0.723, p=0.003**; GPT-2-xl **r=+0.721, p=0.004**
+- n=24 (extended, 4 sub-domains): **r=+0.496, p=0.014** (significant but weaker)
+- No memorisation differential: r(NLL_diff, rating)=−0.292, p=0.311
+- Sub-domain breakdown: geometry r=+0.696; number theory r=+0.580; analysis r=+0.029 (fails — narrow NLL range)
+- NLL trend: high-aesthetic (mean 4.47) > mid (4.32) > low (2.39)
+
+This is the first within-register, within-domain result that is:
+1. Statistically significant (p < 0.015, n=14–24)
+2. Robust to model size (GPT-2-small ≈ GPT-2-xl)
+3. Not confounded by memorisation (unlike literary register)
+4. Generalisable across sub-domains (with one failure: analysis, narrow NLL range)
+
+The correct sub-register for the compression-beauty claim is:
+**Compressed mathematical statements** — single facts or results stated
+with maximum economy, not proofs, not procedures, not formula lists.
+
+---
+
 ## Summary of all numerical findings
 
 ### Finding 1 (Cycle 1): Surface compression metrics fail

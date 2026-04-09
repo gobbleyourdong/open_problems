@@ -1,0 +1,175 @@
+{
+  "descriptions": {
+    "what_is_information": "Information is doing two distinct jobs that have been conflated. S-information (Shannon\nentropy) measures channel capacity: how many distinguishable states a source can produce.\nK-information (Kolmogorov complexity) measures compressibility: how much structure a\nstring contains, or equivalently, the length of its shortest generating program. These\nare orthogonal. Random noise has maximum S-information and minimum K-information.\nA structured English text has high S-information and moderate K-information. Sorting\na string changes K by 94 percent while leaving S unchanged. The S/K bifurcation has\na second level: K_laws (K of dynamical laws, approximately invariant under physical\nreformulation) vs K_state (K of specific configurations, highly description-relative).\nMaxwell equations vary only 17.7 percent across four formulations; a permuted English\ntext varies 88-fold. The fundamental information content of reality is K_laws, which\nequals roughly 21,834 bits for all known physics. K_state and S_state are derived from\nK_laws plus contingent quantum history. The hierarchy is: K_laws \u2264 K_state \u2264 S_state.\nEvery classical ontology of information (Shannon, Kolmogorov, Landauer, Wheeler) is a\ntheory of one level of this hierarchy; none is a complete general theory.",
+    "what_is_computation": "Computation is K-information manipulation in finitely specifiable form. A computation\ntakes inputs with some K-content and S-content and produces outputs, implementing a\nK-level function while consuming thermodynamic resources at the S level. The Church-Turing\nthesis restated is: every effectively calculable function has a finite K-specification as\na Turing program. Physical Church-Turing adds that every physically realizable K-function\nhas such a specification. The P vs NP problem restates as: compression-finding is\ncategorically harder than compression-verifying. A NP witness is the K-specification of\nthe solution; finding that K-specification requires exponential search through K-opaque\nlandscapes. Measured SAT landscapes at clause ratio 4.3 show flat gzip-K during search,\nmeaning no compression gradient and no exploitable K-structure. Easy instances show\ndecreasing gzip-K under unit propagation, revealing exploitable K-structure. Quantum\nsearch halves the exponent but structured classical search beats quantum on K-structured\nproblems. The find-versus-verify ratio reaches 4698-fold at n=18 variables, growing\nsuper-polynomially. K-complexity and circuit complexity converge: minimum program length,\ncircuit depth, and information content are the same quantity viewed from different angles.",
+    "what_is_time": "Time is the dimension along which compression makes predictions. The block-universe vs\nphenomenal-flow contradiction dissolves under the compression view: block universe\ndescribes the physical substrate; felt flow describes the self-model traversing it.\nThe thermodynamic arrow of time is an S-arrow: Shannon entropy H increases monotonically\nfrom boundary conditions. K does not have a corresponding arrow in the same way. Both\nthe initial macrostate (all particles in left half) and the final macrostate (uniform\nin box) are K-simple \u2014 each is a short description \u2014 while the microstate K remains\nroughly constant throughout. The arrow is not about K decreasing but about the growing\ndivergence between macro-description K (bounded and short) and micro-description K\n(growing incompressible as the gas spreads). Emergent time programs (entanglement-first,\ninformation-first) locate time as the dimension along which entanglement entropy grows.\nPhenomenological time (Husserl: retention, now, protention) is the self-model's report\nof updating over successive compressed states. Feedforward systems have no phenomenal\ntime; recurrent systems have time proportional to self-model tracking of consecutive\ncompressed states. The residual gap is why this specific arrow direction and whether\nprimitivist accounts of felt time survive the compression reframing.",
+    "what_is_change": "Change is the structured dynamics of compressible states: successive states related by\nrules shorter to specify than the states themselves. Three elements are jointly necessary\nfor change: states, transitions, and structured transitions (transitions compressible by\nthe same laws). Zeno's arrow paradox confuses relational properties with momentary ones;\nthe dichotomy paradox misses that an infinite process can have finite K-content. The S/K\nbifurcation resolves Zeno ontologically: a motion from A to B with infinitely many\nintermediate positions has K(trajectory) = K(law + endpoints), which is finite. The\ncausal-glue question \u2014 what connects successive states into change \u2014 is answered by saying\nthe connection IS the compressibility of the relation. Laws are short programs generating\nlong state sequences; the shortness of the program is the causal structure. DNA mutation\ninvolves K-change of 2 bits and Landauer cost of 5.93e-21 joules; actual biological cost\nis 36 times the floor. Neuron firing involves K-change of 1 bit; actual cost is 700\nmillion times the Landauer floor, reflecting the overhead of thermodynamic irreversibility\nbeyond the minimal K-update cost. Change is fundamentally a K-information update; entropy\nincrease is thermodynamic background noise distinct from the K-events that constitute change.",
+    "what_is_reality": "Reality is its converged compression: the regularity stack that competent compressors\nmust converge on given sufficient observations. The seven classical ontologies (physicalism,\nmathematical universe, informationalism, process philosophy, idealism, neutral monism,\nrelational) are not competitors but different vocabularies for the same converged K-stack.\nThe simulation hypothesis reduces to a question about how many layers of compression are\nstacked; the difference between real and simulated reality dissolves if no layer can see\nits outer layer. The Standard Model Lagrangian plus General Relativity encodes all known\nphysics in approximately 21,834 bits. The observable universe history occupies approximately\n10^124 bits under the holographic bound. K_laws divided by S_holo is approximately 10^-119:\nthe universe is a 10^119-to-1 compression of its possible state space. This ratio is the\nquantitative backbone of K-informationalism as an ontological thesis. S-ontologies (it-from-bit\nin the Shannon sense) and K-ontologies (it-from-compression) make different predictions\nabout Planck-scale discretization. The Parmenidean impossibility of genuine nothingness\nholds under the compression view: zero K-content is not a specifiable state, because\nspecifying it introduces K-content. Reality as converged compression is what the claim\nthat the universe has a specific information content means when made precise.",
+    "what_is_nothing": "Nothing has been four distinct concepts that the literature conflates: empty room (no\nobjects of a given type), physical vacuum (no particles but quantum fields present),\nquantum vacuum (ground state of quantum field theory, with energy and fluctuations),\nand metaphysical non-being (genuine absence of everything including laws and possibility).\nOnly the fourth is the real tier-0 question. The quantum vacuum is K-poor in laws but\nS-rich in modes: the Standard Model Lagrangian is approximately 2000 characters, while\nPlanck-scale modes per cubic meter number 10^104. K divided by S is 10^-101 for the\nvacuum, the most extreme S/K split in physics. The cosmological constant problem is an\nS/K problem: quantum field theory sums all S-modes to predict vacuum energy density\nroughly 10^120 times too large. If vacuum energy is a K-quantity (determined by K_laws)\nrather than an S-sum, the discrepancy may reflect using an S-calculation where a\nK-calculation is needed. Metaphysical nothingness is conceptually unstable: a state\nof zero K-content cannot be specified without introducing K-content to make the\ndistinction between nothing and not-nothing. Genuine nothingness may be impossible\nfor the same reason that specifying an empty set requires the concept of set. The\nParmenidean argument \u2014 something must exist because genuine non-being is incoherent \u2014\nreceives compression-theoretic support: K-zero is not a stable reachable state."
+  },
+  "compressed_sizes_bytes": {
+    "what_is_information": 702,
+    "what_is_computation": 682,
+    "what_is_time": 705,
+    "what_is_change": 719,
+    "what_is_reality": 736,
+    "what_is_nothing": 801
+  },
+  "ncd_pairs": {
+    "what_is_information|what_is_computation": 0.836182,
+    "what_is_information|what_is_time": 0.870922,
+    "what_is_information|what_is_change": 0.826147,
+    "what_is_information|what_is_reality": 0.838315,
+    "what_is_information|what_is_nothing": 0.862672,
+    "what_is_computation|what_is_time": 0.865248,
+    "what_is_computation|what_is_change": 0.853964,
+    "what_is_computation|what_is_reality": 0.855978,
+    "what_is_computation|what_is_nothing": 0.882647,
+    "what_is_time|what_is_change": 0.84701,
+    "what_is_time|what_is_reality": 0.850543,
+    "what_is_time|what_is_nothing": 0.868914,
+    "what_is_change|what_is_reality": 0.872283,
+    "what_is_change|what_is_nothing": 0.858926,
+    "what_is_reality|what_is_nothing": 0.791511
+  },
+  "ranked_pairs": [
+    {
+      "a": "what_is_reality",
+      "b": "what_is_nothing",
+      "ncd": 0.791511,
+      "rank": 1
+    },
+    {
+      "a": "what_is_information",
+      "b": "what_is_change",
+      "ncd": 0.826147,
+      "rank": 2
+    },
+    {
+      "a": "what_is_information",
+      "b": "what_is_computation",
+      "ncd": 0.836182,
+      "rank": 3
+    },
+    {
+      "a": "what_is_information",
+      "b": "what_is_reality",
+      "ncd": 0.838315,
+      "rank": 4
+    },
+    {
+      "a": "what_is_time",
+      "b": "what_is_change",
+      "ncd": 0.84701,
+      "rank": 5
+    },
+    {
+      "a": "what_is_time",
+      "b": "what_is_reality",
+      "ncd": 0.850543,
+      "rank": 6
+    },
+    {
+      "a": "what_is_computation",
+      "b": "what_is_change",
+      "ncd": 0.853964,
+      "rank": 7
+    },
+    {
+      "a": "what_is_computation",
+      "b": "what_is_reality",
+      "ncd": 0.855978,
+      "rank": 8
+    },
+    {
+      "a": "what_is_change",
+      "b": "what_is_nothing",
+      "ncd": 0.858926,
+      "rank": 9
+    },
+    {
+      "a": "what_is_information",
+      "b": "what_is_nothing",
+      "ncd": 0.862672,
+      "rank": 10
+    },
+    {
+      "a": "what_is_computation",
+      "b": "what_is_time",
+      "ncd": 0.865248,
+      "rank": 11
+    },
+    {
+      "a": "what_is_time",
+      "b": "what_is_nothing",
+      "ncd": 0.868914,
+      "rank": 12
+    },
+    {
+      "a": "what_is_information",
+      "b": "what_is_time",
+      "ncd": 0.870922,
+      "rank": 13
+    },
+    {
+      "a": "what_is_change",
+      "b": "what_is_reality",
+      "ncd": 0.872283,
+      "rank": 14
+    },
+    {
+      "a": "what_is_computation",
+      "b": "what_is_nothing",
+      "ncd": 0.882647,
+      "rank": 15
+    }
+  ],
+  "predicted_clusters": {
+    "K-manipulation (info+comp)": {
+      "pair": [
+        "what_is_information",
+        "what_is_computation"
+      ],
+      "ncd": 0.836182
+    },
+    "K-dynamics (time+change)": {
+      "pair": [
+        "what_is_time",
+        "what_is_change"
+      ],
+      "ncd": 0.84701
+    },
+    "K-ontology (reality+nothing)": {
+      "pair": [
+        "what_is_reality",
+        "what_is_nothing"
+      ],
+      "ncd": 0.791511
+    }
+  },
+  "cluster_analysis": {
+    "within_cluster_ncds": [
+      0.836182,
+      0.84701,
+      0.791511
+    ],
+    "between_cluster_ncds": [
+      0.870922,
+      0.826147,
+      0.838315,
+      0.862672,
+      0.865248,
+      0.853964,
+      0.855978,
+      0.882647,
+      0.850543,
+      0.868914,
+      0.872283,
+      0.858926
+    ],
+    "avg_within": 0.824901,
+    "avg_between": 0.85888,
+    "separation": 0.033979,
+    "clustering_visible": true
+  }
+}

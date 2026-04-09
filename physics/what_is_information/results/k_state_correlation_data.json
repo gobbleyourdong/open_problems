@@ -1,0 +1,172 @@
+{
+  "exp1_gzip_vs_precision": [
+    {
+      "n_points": 16,
+      "raw_bytes": 64,
+      "gzip_bits": 696,
+      "gzip_ratio": 1.359375,
+      "true_k_bits": 496
+    },
+    {
+      "n_points": 32,
+      "raw_bytes": 128,
+      "gzip_bits": 1208,
+      "gzip_ratio": 1.1796875,
+      "true_k_bits": 496
+    },
+    {
+      "n_points": 64,
+      "raw_bytes": 256,
+      "gzip_bits": 2232,
+      "gzip_ratio": 1.08984375,
+      "true_k_bits": 496
+    },
+    {
+      "n_points": 128,
+      "raw_bytes": 512,
+      "gzip_bits": 4280,
+      "gzip_ratio": 1.044921875,
+      "true_k_bits": 496
+    },
+    {
+      "n_points": 256,
+      "raw_bytes": 1024,
+      "gzip_bits": 8208,
+      "gzip_ratio": 1.001953125,
+      "true_k_bits": 496
+    },
+    {
+      "n_points": 512,
+      "raw_bytes": 2048,
+      "gzip_bits": 15816,
+      "gzip_ratio": 0.96533203125,
+      "true_k_bits": 496
+    },
+    {
+      "n_points": 1024,
+      "raw_bytes": 4096,
+      "gzip_bits": 30976,
+      "gzip_ratio": 0.9453125,
+      "true_k_bits": 496
+    }
+  ],
+  "exp2_lorentz_boost": {
+    "lab": {
+      "p": 0.5,
+      "E": 1.118033988749895,
+      "n_pts": 1024,
+      "raw_bytes": 8192,
+      "gzip_bits": 49776,
+      "gzip_ratio": 0.759521484375
+    },
+    "boosted": {
+      "beta": 0.9,
+      "gamma": 2.294157338705618,
+      "p_prime": -1.1613726228387884,
+      "E_prime": 1.5325750777953577,
+      "n_pts": 1024,
+      "raw_bytes": 8192,
+      "gzip_bits": 59216,
+      "gzip_ratio": 0.903564453125
+    },
+    "klaws_formula": "L = psibar*(i*hbar*c*gamma^mu*d_mu - m*c^2)*psi",
+    "klaws_bits": 376,
+    "kstate_delta_bits": 9440
+  },
+  "exp3_sufficient_stat": {
+    "n_pts": 1024,
+    "option_a": {
+      "label": "raw_float32_array",
+      "bytes": 4096,
+      "bits": 32768,
+      "max_rel_err": 0.0
+    },
+    "option_b": {
+      "label": "formula_plus_a0",
+      "formula": "psi(r)=exp(-r)/sqrt(pi)",
+      "bytes": 55,
+      "bits": 440,
+      "max_rel_err": 0.0
+    },
+    "option_c": {
+      "label": "polynomial_degree_13",
+      "degree": 13,
+      "bytes": 112,
+      "bits": 896,
+      "max_rel_err": 0.004858076751130955
+    },
+    "sufficient_statistic": {
+      "option": "b",
+      "bytes": 55,
+      "bits": 440,
+      "label": "K-lower bound from sufficient statistic"
+    },
+    "poly_scan": [
+      {
+        "degree": 1,
+        "bytes": 16,
+        "max_rel_err": 3064.310026211027
+      },
+      {
+        "degree": 2,
+        "bytes": 24,
+        "max_rel_err": 2615.8088008769532
+      },
+      {
+        "degree": 3,
+        "bytes": 32,
+        "max_rel_err": 1656.178769902976
+      },
+      {
+        "degree": 4,
+        "bytes": 40,
+        "max_rel_err": 838.5173186060123
+      },
+      {
+        "degree": 5,
+        "bytes": 48,
+        "max_rel_err": 354.0559845865215
+      },
+      {
+        "degree": 6,
+        "bytes": 56,
+        "max_rel_err": 128.18534307396834
+      },
+      {
+        "degree": 7,
+        "bytes": 64,
+        "max_rel_err": 40.59902982394912
+      },
+      {
+        "degree": 8,
+        "bytes": 72,
+        "max_rel_err": 11.42203704726654
+      },
+      {
+        "degree": 9,
+        "bytes": 80,
+        "max_rel_err": 2.88919476369308
+      },
+      {
+        "degree": 10,
+        "bytes": 88,
+        "max_rel_err": 0.6635699874408583
+      },
+      {
+        "degree": 11,
+        "bytes": 96,
+        "max_rel_err": 0.1395138558323315
+      },
+      {
+        "degree": 12,
+        "bytes": 104,
+        "max_rel_err": 0.027036965791461448
+      },
+      {
+        "degree": 13,
+        "bytes": 112,
+        "max_rel_err": 0.004858076751130955
+      }
+    ]
+  }
+}

@@ -1,8 +1,20 @@
-# physics/ — Numerical Survey: Phase 1-2 Complete
+# physics/ — Numerical Survey: Phase 1-3 Active
 
 **Date:** 2026-04-09
-**Track:** Numerical (numerical track)
-**Status:** Phase 1-2 complete for all 6 problems. 6 iterations deep. 31 scripts, 37 findings docs, 6 cert manifests.
+**Track:** Numerical (odd instance)
+**Status:** Phase 3 active. 41 scripts, 76+ markdown docs, 12 Lean formalizations. 8+ iterations per problem.
+
+## Headline findings (iterations 7-8, Phase 3)
+
+- **K_laws vs K_state split** — K_laws (dynamics) ≈ physically invariant; K_state (specific configuration) is description-relative. K-informationalism is a thesis about K_laws only. (k_symmetry.py)
+- **Lamp shift L* ≈ 0.91 m** — vacuum energy formula matches ρ_Λ not at Planck (10^{-35} m) nor Hubble (10^{26} m) but at ~1 meter. Why? No known physics. (lamb_shift.py)
+- **Big Bang = essentially 1 microstate** — log₁₀(S_BB) ≈ 0.5 kB, near zero. The universe began from a single quantum configuration. The Penrose ratio vs today's 10^{90} radiation entropy. (cosmological_entropy.py)
+- **Kramers gating sets neural clock** — decoherence is too fast (ps) for neural timing; Kramers barrier crossing (~3 ms) sets the neural tick. 42.7 bits/s (Kramers) ≈ 50 bits/s (conscious bandwidth). (decoherence_timescales.py)
+- **BH page time = 0.6464 × t_evap (universal)** — same for all masses. K_matter << S_BH by 15-87 orders. BH paradox is S not K. (black_hole_information.py)
+- **Maxwell's demon balance is exact** — ΔS_total = 0.0000 bits for all N. K-acquired = |ΔH_gas| = bits_erased = ΔS_env (four-way equality). Interventionist causation confirmed quantitatively. (zeno_maxwell.py)
+- **Dim-reg gap = 10^70, not 10^139** — the "natural" QFT statement of the CC problem is 10^70 (EW scale, massless excluded). The oft-cited 10^120 uses Planck cutoff with partial fermion counting. (renormalization_comparison.py)
+- **Real English H/K ≈ 10** (not 54) — Gutenberg real text corrects Phase 2 synthetic-corpus estimates by 4×. Zipf α = 0.714 confirmed; H×K is NOT constant. (sk_gutenberg.py)
+- **CDCL doubling period k = 20.10** — conflict learning further improves over MCV (k=14.24), still exponential. Compression asymmetry is robust to all algorithm choices. (cdcl_comparison.py)
 
 ## Headline findings (iterations 5-6)
 

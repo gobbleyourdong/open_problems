@@ -363,8 +363,8 @@ def main():
     print("  instances, which Grover cannot do in the standard oracle model.")
 
     # ── Save results ───────────────────────────────────────────────────────────
-    os.makedirs("/home/jb/open_problems/physics/what_is_computation/results", exist_ok=True)
-    out_path = "/home/jb/open_problems/physics/what_is_computation/results/grover_vs_dpll_data.json"
+    os.makedirs("~/open_problems/physics/what_is_computation/results", exist_ok=True)
+    out_path = "~/open_problems/physics/what_is_computation/results/grover_vs_dpll_data.json"
 
     # Recompute clean rows for JSON
     table_rows = []

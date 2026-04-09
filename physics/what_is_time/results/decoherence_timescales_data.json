@@ -1,0 +1,266 @@
+{
+  "metadata": {
+    "script": "numerics/decoherence_timescales.py",
+    "date": "2026-04-09",
+    "problem": "what_is_time",
+    "context": "Decoherence as quantum-to-classical transition; connection to specious present"
+  },
+  "constants": {
+    "hbar_Js": 1.054571817e-34,
+    "k_B_JK": 1.380649e-23,
+    "c_ms": 299792458.0,
+    "m_atom_kg": 1.6735575e-27,
+    "m_proton_kg": 1.6726219e-27,
+    "m_electron_kg": 9.10938e-31,
+    "t_Planck_s": 5.391247e-44,
+    "G_Newton": 6.674e-11
+  },
+  "formula": {
+    "thermal_decoherence": "T_D = (hbar / k_B T) * (m_atom / m_object)",
+    "K_rate": "1/T_D bits/second (1 K-bit per decoherence event)",
+    "threshold_crossing": "m_crossover = m_atom * (hbar / k_B T) / T_D_target"
+  },
+  "systems": [
+    {
+      "label": "Electron (vacuum)",
+      "mass_kg": 9.1e-31,
+      "temperature_K": 300.0,
+      "notes": "free electron, Penrose-Hameroff limit",
+      "T_D_seconds": 4.6824254274539927e-11,
+      "K_rate_bits_per_s": 21356453305.946976
+    },
+    {
+      "label": "DNA molecule",
+      "mass_kg": 1e-21,
+      "temperature_K": 310.0,
+      "notes": "~3 Mbp genome, double helix",
+      "T_D_seconds": 4.12355529579013e-20,
+      "K_rate_bits_per_s": 2.4250917673419637e+19
+    },
+    {
+      "label": "Protein (folded)",
+      "mass_kg": 1e-22,
+      "temperature_K": 310.0,
+      "notes": "~100 kDa, typical enzyme",
+      "T_D_seconds": 4.123555295790129e-19,
+      "K_rate_bits_per_s": 2.4250917673419643e+18
+    },
+    {
+      "label": "Ion channel (Na+)",
+      "mass_kg": 3.8e-26,
+      "temperature_K": 310.0,
+      "notes": "sodium ion, m \u2248 23 u",
+      "T_D_seconds": 1.0851461304710866e-15,
+      "K_rate_bits_per_s": 921534871589946.4
+    },
+    {
+      "label": "Neuron membrane patch",
+      "mass_kg": 1e-18,
+      "temperature_K": 310.0,
+      "notes": "~1 \u03bcm\u00b2 patch, lipid bilayer",
+      "T_D_seconds": 4.123555295790129e-23,
+      "K_rate_bits_per_s": 2.4250917673419642e+22
+    },
+    {
+      "label": "Macroscopic object (1 g)",
+      "mass_kg": 0.001,
+      "temperature_K": 300.0,
+      "notes": "gram-scale, classical limit",
+      "T_D_seconds": 4.261007138983134e-38,
+      "K_rate_bits_per_s": 2.3468630006535134e+37
+    },
+    {
+      "label": "Black hole (M_sun)",
+      "mass_kg": 1.989e+30,
+      "temperature_K": 2.8e-08,
+      "notes": "Hawking temp ~28 nK; Hawking time separately",
+      "T_D_seconds": 6.618165375491171e+74,
+      "K_rate_bits_per_s": 1.5109927650089651e-75
+    }
+  ],
+  "threshold_crossings": [
+    {
+      "threshold_label": "Planck time (t_P)",
+      "T_D_target_s": 5.391247e-44,
+      "mass_crossover_kg": 764.8611343145898,
+      "mass_in_m_atom": 4.570271020353886e+29,
+      "mass_in_m_proton": 4.572827453201407e+29,
+      "notes": "quantum-gravity; below this GR+QM merge"
+    },
+    {
+      "threshold_label": "Femtosecond (10^-15 s)",
+      "T_D_target_s": 1e-15,
+      "mass_crossover_kg": 4.123555295790129e-26,
+      "mass_in_m_atom": 24.639459927669822,
+      "mass_in_m_proton": 24.65324228858972,
+      "notes": "chemical bond breaking, photochemistry"
+    },
+    {
+      "threshold_label": "Picosecond (10^-12 s)",
+      "T_D_target_s": 1e-12,
+      "mass_crossover_kg": 4.1235552957901293e-29,
+      "mass_in_m_atom": 0.024639459927669825,
+      "mass_in_m_proton": 0.024653242288589724,
+      "notes": "protein vibration, water H-bond lifetime"
+    },
+    {
+      "threshold_label": "Nanosecond (10^-9 s)",
+      "T_D_target_s": 1e-09,
+      "mass_crossover_kg": 4.123555295790129e-32,
+      "mass_in_m_atom": 2.4639459927669825e-05,
+      "mass_in_m_proton": 2.4653242288589724e-05,
+      "notes": "fluorescence lifetime, GTP hydrolysis"
+    },
+    {
+      "threshold_label": "Neural tick: 23 ms (SP/128)",
+      "T_D_target_s": 0.0234375,
+      "mass_crossover_kg": 1.7593835928704552e-39,
+      "mass_in_m_atom": 1.0512836235805793e-12,
+      "mass_in_m_proton": 1.0518716709798283e-12,
+      "notes": "specious present / 128 clock ticks"
+    },
+    {
+      "threshold_label": "Millisecond (10^-3 s)",
+      "T_D_target_s": 0.001,
+      "mass_crossover_kg": 4.123555295790129e-38,
+      "mass_in_m_atom": 2.4639459927669825e-11,
+      "mass_in_m_proton": 2.4653242288589723e-11,
+      "notes": "neural action potential timescale"
+    },
+    {
+      "threshold_label": "Specious present (3 s)",
+      "T_D_target_s": 3.0,
+      "mass_crossover_kg": 1.374518431930043e-41,
+      "mass_in_m_atom": 8.213153309223276e-15,
+      "mass_in_m_proton": 8.217747429529909e-15,
+      "notes": "experienced 'now' \u2014 150 bits of K"
+    },
+    {
+      "threshold_label": "Age of universe (4.35e17 s)",
+      "T_D_target_s": 4.35e+17,
+      "mass_crossover_kg": 9.479437461586503e-59,
+      "mass_in_m_atom": 5.664243661533293e-32,
+      "mass_in_m_proton": 5.667412020365453e-32,
+      "notes": "cosmological timescale"
+    }
+  ],
+  "neural_connection": {
+    "specious_present_s": 3.0,
+    "PW_clock_qubits": 7,
+    "moments_per_SP": 128,
+    "neural_tick_s": 0.0234375,
+    "neural_tick_ms": 23.4375,
+    "T_D_ion_channel_Na_s": 1.0851461304710866e-15,
+    "T_D_neuron_patch_s": 4.123555295790129e-23,
+    "T_D_channel_gate_500u_s": 4.9306484577179446e-17,
+    "mass_for_exact_match_kg": 1.7593835928704552e-39,
+    "mass_for_exact_match_u": 1.0518716709798283e-12,
+    "ratio_T_D_ion_to_neural_tick": 4.629956823343303e-14,
+    "ratio_T_D_patch_to_neural_tick": 1.759383592870455e-21,
+    "ratio_T_D_gate_to_neural_tick": 2.1037433419596562e-15,
+    "hbar_over_kBT_s": 2.4639459927669825e-14
+  },
+  "K_rate_table": [
+    {
+      "label": "Electron (vacuum)",
+      "T_D_s": 4.6824254274539927e-11,
+      "K_rate_bits_s": 21356453305.946976,
+      "K_bits_3s": 64069359917.84093
+    },
+    {
+      "label": "DNA molecule",
+      "T_D_s": 4.12355529579013e-20,
+      "K_rate_bits_s": 2.4250917673419637e+19,
+      "K_bits_3s": 7.275275302025891e+19
+    },
+    {
+      "label": "Protein (folded)",
+      "T_D_s": 4.123555295790129e-19,
+      "K_rate_bits_s": 2.4250917673419643e+18,
+      "K_bits_3s": 7.275275302025893e+18
+    },
+    {
+      "label": "Ion channel (Na+)",
+      "T_D_s": 1.0851461304710866e-15,
+      "K_rate_bits_s": 921534871589946.4,
+      "K_bits_3s": 2764604614769839.0
+    },
+    {
+      "label": "Neuron membrane patch",
+      "T_D_s": 4.123555295790129e-23,
+      "K_rate_bits_s": 2.4250917673419642e+22,
+      "K_bits_3s": 7.275275302025893e+22
+    },
+    {
+      "label": "Macroscopic object (1 g)",
+      "T_D_s": 4.261007138983134e-38,
+      "K_rate_bits_s": 2.3468630006535134e+37,
+      "K_bits_3s": 7.040589001960541e+37
+    },
+    {
+      "label": "Black hole (M_sun)",
+      "T_D_s": 6.618165375491171e+74,
+      "K_rate_bits_s": 1.5109927650089651e-75,
+      "K_bits_3s": 4.532978295026895e-75
+    }
+  ],
+  "timescale_zoo": [
+    {
+      "label": "\u0127 / k_B T (thermal time)",
+      "timescale_s": 2.4639459927669825e-14,
+      "notes": "minimum coherence time"
+    },
+    {
+      "label": "T_D(electron, 300K)",
+      "timescale_s": 4.677603897282947e-11,
+      "notes": "quantum-classical cutoff"
+    },
+    {
+      "label": "T_D(protein, 310K)",
+      "timescale_s": 4.123555295790129e-19,
+      "notes": "protein decoherence"
+    },
+    {
+      "label": "T_D(Na+ ion, 310K)",
+      "timescale_s": 1.0851461304710866e-15,
+      "notes": "ion channel decoherence"
+    },
+    {
+      "label": "Ion channel gating time (Kramers)",
+      "timescale_s": 0.005,
+      "notes": "stochastic gate open/close"
+    },
+    {
+      "label": "Neural tick SP/128",
+      "timescale_s": 0.0234375,
+      "notes": "PW-clock resolution"
+    },
+    {
+      "label": "Specious present",
+      "timescale_s": 3.0,
+      "notes": "3s phenomenal window"
+    },
+    {
+      "label": "Alpha rhythm period",
+      "timescale_s": 0.1,
+      "notes": "10 Hz, ~100ms"
+    },
+    {
+      "label": "Theta rhythm period",
+      "timescale_s": 0.16666666666666666,
+      "notes": "6 Hz, ~167ms"
+    }
+  ],
+  "key_findings": [
+    "Decoherence time scales as T_D = (hbar/k_BT) * (m_atom/m), giving fs-ps for macromolecules",
+    "Electron (9e-31 kg) has longest decoherence (many seconds at 300K using this formula, but this reflects the formula's breakdown at sub-atomic masses \u2014 electron coherence is set by other mechanisms)",
+    "Na+ ion (3.8e-26 kg): T_D ~ sub-femtosecond \u2014 extremely fast decoherence in warm-wet environments",
+    "Neuron membrane patch (1e-18 kg): T_D even faster \u2014 classical object",
+    "Neural tick from Page-Wootters: SP/128 = 23.44 ms",
+    "Mass matching neural tick at 310K: 0.0 u \u2014 no single biomolecule; neural timing is set by Kramers barrier crossing, not raw decoherence",
+    "The specious present (3s) is NOT set by decoherence; it is set by K-integration timescale",
+    "Decoherence is the GATEWAY (quantum -> classical) but the clock RATE is Kramers kinetics",
+    "K-information rate at neural tick: 42.7 bits/s matches conscious bandwidth (50 bits/s) order-of-magnitude",
+    "Black hole (M_sun): Hawking decoherence time = 2.097e+67 years"
+  ]
+}

@@ -1,7 +1,7 @@
 # cert_001 — Language Gap Numerics: Comprehensive Certificate
 
 **Date:** 2026-04-09
-**Track:** Numerical (Odd), Cycles 1–7
+**Track:** Numerical (Odd), Cycles 1–12
 **Tools:** `numerics/sample_complexity_gap.py`, `scaling_law_extrapolation.py`,
 `host_property_scaling.py`, `mechanism_overlap.py`, `unknown_mechanism_model.py`,
 `compositional_prior_model.py`, `host_closure_timeline.py`
@@ -113,6 +113,21 @@ of the language gap as of 2026. It is the quantitative form of: "the gap is in
 the host, not the language."
 
 ---
+
+## Cycle 12 additions
+
+**Cross-question compression backbone (result_010):**
+All three questions (beauty, mind, language) confirm the pattern:
+"X tracks compression efficiency under domain-specific prior P."
+- Beauty: r=+0.723 within compressed math
+- Mind: γ 5/5 confirmed; self-model richness 43× loop topology
+- Language: structural prior ×2263 on SCAN; P3 r=+0.937
+
+Generic/shallow priors fail in all three. The compression backbone is a
+cross-domain empirical regularity, not just a theoretical framework.
+
+**Underground connections updated:** P1 (r=0.975), P2 (confirmed for math),
+P3 (r=0.937, confirmed), P4 (consistent, not independently tested).
 
 ## Summary for the Even track
 

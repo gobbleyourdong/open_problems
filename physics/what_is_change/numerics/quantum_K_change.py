@@ -781,7 +781,7 @@ def run():
     print()
 
     # ── Save results ──────────────────────────────────────────────────────────
-    results_dir = "/home/jb/open_problems/physics/what_is_change/results"
+    results_dir = "~/open_problems/physics/what_is_change/results"
     os.makedirs(results_dir, exist_ok=True)
 
     manifest = {

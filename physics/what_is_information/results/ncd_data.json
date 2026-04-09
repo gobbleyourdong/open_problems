@@ -1,0 +1,171 @@
+{
+  "N_bytes": 5000,
+  "compressed_sizes": {
+    "pi_digits": 2567,
+    "e_digits": 2557,
+    "random_bytes_1": 5023,
+    "random_bytes_2": 5023,
+    "english_text_1": 1016,
+    "english_text_2": 949,
+    "python_code": 743,
+    "sorted_bytes": 542
+  },
+  "test_pairs": [
+    {
+      "pair": "Self vs self (\u03c0)",
+      "key1": "pi_digits",
+      "key2": "pi_digits",
+      "ncd": 0.025321,
+      "expected": "\u22480.0",
+      "rationale": "identical \u2014 zero new info",
+      "interpretation": "very similar"
+    },
+    {
+      "pair": "\u03c0 vs e",
+      "key1": "pi_digits",
+      "key2": "e_digits",
+      "ncd": 0.984807,
+      "expected": "0.3\u20130.5",
+      "rationale": "both math constants, shared digit structure",
+      "interpretation": "unrelated"
+    },
+    {
+      "pair": "\u03c0 vs random",
+      "key1": "pi_digits",
+      "key2": "random_bytes_1",
+      "ncd": 1.133187,
+      "expected": "\u22481.0",
+      "rationale": "unrelated K-structure",
+      "interpretation": "unrelated"
+    },
+    {
+      "pair": "English 1 vs English 2",
+      "key1": "english_text_1",
+      "key2": "english_text_2",
+      "ncd": 0.847441,
+      "expected": "<0.5",
+      "rationale": "same language/style, different content",
+      "interpretation": "unrelated"
+    },
+    {
+      "pair": "English vs code",
+      "key1": "english_text_1",
+      "key2": "python_code",
+      "ncd": 0.977362,
+      "expected": "0.6\u20130.8",
+      "rationale": "different structure paradigms",
+      "interpretation": "unrelated"
+    },
+    {
+      "pair": "Random 1 vs random 2",
+      "key1": "random_bytes_1",
+      "key2": "random_bytes_2",
+      "ncd": 0.995421,
+      "expected": "\u22481.0",
+      "rationale": "no shared structure",
+      "interpretation": "unrelated"
+    },
+    {
+      "pair": "Random vs sorted(random)",
+      "key1": "random_bytes_1",
+      "key2": "sorted_bytes",
+      "ncd": 1.022297,
+      "expected": "varies",
+      "rationale": "same bytes, different structure",
+      "interpretation": "unrelated"
+    }
+  ],
+  "ncd_matrix": {
+    "pi_digits": {
+      "pi_digits": 0.0253,
+      "e_digits": 0.9848,
+      "random_bytes_1": 1.1332,
+      "random_bytes_2": 1.1346,
+      "english_text_1": 1.0647,
+      "english_text_2": 1.0631,
+      "python_code": 1.0639,
+      "sorted_bytes": 1.1025
+    },
+    "e_digits": {
+      "pi_digits": 0.9848,
+      "e_digits": 0.0262,
+      "random_bytes_1": 1.1328,
+      "random_bytes_2": 1.1342,
+      "english_text_1": 1.0657,
+      "english_text_2": 1.0645,
+      "python_code": 1.0653,
+      "sorted_bytes": 1.1044
+    },
+    "random_bytes_1": {
+      "pi_digits": 1.1332,
+      "e_digits": 1.1326,
+      "random_bytes_1": 0.0197,
+      "random_bytes_2": 0.9954,
+      "english_text_1": 1.0607,
+      "english_text_2": 1.0595,
+      "python_code": 1.041,
+      "sorted_bytes": 1.0223
+    },
+    "random_bytes_2": {
+      "pi_digits": 1.1346,
+      "e_digits": 1.134,
+      "random_bytes_1": 0.9954,
+      "random_bytes_2": 0.0209,
+      "english_text_1": 1.0621,
+      "english_text_2": 1.0599,
+      "python_code": 1.0412,
+      "sorted_bytes": 1.0229
+    },
+    "english_text_1": {
+      "pi_digits": 1.0651,
+      "e_digits": 1.0661,
+      "random_bytes_1": 1.0613,
+      "random_bytes_2": 1.0623,
+      "english_text_1": 0.0502,
+      "english_text_2": 0.8474,
+      "python_code": 0.9774,
+      "sorted_bytes": 1.1526
+    },
+    "english_text_2": {
+      "pi_digits": 1.0643,
+      "e_digits": 1.0653,
+      "random_bytes_1": 1.0597,
+      "random_bytes_2": 1.0603,
+      "english_text_1": 0.8465,
+      "english_text_2": 0.0537,
+      "python_code": 0.9673,
+      "sorted_bytes": 1.1644
+    },
+    "python_code": {
+      "pi_digits": 1.0651,
+      "e_digits": 1.0669,
+      "random_bytes_1": 1.0418,
+      "random_bytes_2": 1.0416,
+      "english_text_1": 0.9764,
+      "english_text_2": 0.9694,
+      "python_code": 0.0673,
+      "sorted_bytes": 1.1036
+    },
+    "sorted_bytes": {
+      "pi_digits": 1.1075,
+      "e_digits": 1.1134,
+      "random_bytes_1": 1.0225,
+      "random_bytes_2": 1.0231,
+      "english_text_1": 1.1506,
+      "english_text_2": 1.1496,
+      "python_code": 1.1104,
+      "sorted_bytes": 0.0959
+    }
+  },
+  "key_findings": {
+    "pi_e_ncd": 0.9848,
+    "pi_random_ncd": 1.1332,
+    "pi_e_closer_to_each_other": true,
+    "pi_e_vs_random_gap": 0.1484,
+    "english_english_ncd": 0.8474,
+    "english_code_ncd": 0.9774,
+    "domain_ordering_correct": true,
+    "random_random_ncd": 0.9954,
+    "random_sorted_ncd": 1.0223
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "script": "cosmological_entropy.py",
+    "date": "2026-04-09",
+    "track": "numerical, what_is_time",
+    "purpose": "Penrose low-entropy initial conditions argument \u2014 quantified",
+    "references": [
+      "Penrose (2004) Road to Reality \u00a727.13",
+      "Egan & Lineweaver (2010) ApJ 710:1825",
+      "Bousso (1999) holographic bound"
+    ]
+  },
+  "constants": {
+    "k_B_SI": 1.380649e-23,
+    "c_SI": 299792458.0,
+    "hbar_SI": 1.054571817e-34,
+    "G_SI": 6.6743e-11,
+    "t_P_s": 5.391246446661944e-44,
+    "l_P_m": 1.61625502392855e-35,
+    "T_P_K": 1.416784161723297e+32,
+    "T_CMB_today_K": 2.725,
+    "age_universe_s": 4.355e+17,
+    "r_obs_m": 4.4e+26,
+    "V_today_m3": 3.568179048045239e+80
+  },
+  "epochs": [
+    {
+      "label": "Planck epoch",
+      "t_s": 5.391246446661944e-44,
+      "T_K": 1.416784161723297e+32,
+      "g_star": 106.75,
+      "V_m3": 1.768553788151039e-104,
+      "S_kB": 3.141592653589793,
+      "log10_S": 0.4971498726941338,
+      "note": "Holographic bound on 1 Planck volume: S = \u03c0 k_B ~ 1 bit"
+    },
+    {
+      "label": "Electroweak transition",
+      "t_s": 1e-12,
+      "T_K": 1160000000000000.0,
+      "g_star": 106.75,
+      "V_m3": 4.6256438453568674e+36,
+      "S_kB": 2.8157268774142337e+91,
+      "log10_S": 91.44959052639888,
+      "note": "Full SM radiation; g*=106.75; V \u221d T\u207b\u00b3"
+    },
+    {
+      "label": "QCD phase transition",
+      "t_s": 1e-05,
+      "T_K": 1740000000000.0,
+      "g_star": 10.75,
+      "V_m3": 1.3705611393649981e+45,
+      "S_kB": 2.835509501845716e+90,
+      "log10_S": 90.45263110695343,
+      "note": "Quarks\u2192hadrons; g* drops to 10.75; comoving S conserved after"
+    },
+    {
+      "label": "BBN (t~3 min)",
+      "t_s": 180.0,
+      "T_K": 1000000000.0,
+      "g_star": 10.75,
+      "V_m3": 7.220148975642153e+54,
+      "S_kB": 2.8355095018457145e+90,
+      "log10_S": 90.45263110695343,
+      "S_photon_kB": 1.0550733030123594e+90,
+      "N_photons": 1.464740508799665e+89,
+      "note": "H/He nucleosynthesis; e\u00b1 present; g*=10.75"
+    },
+    {
+      "label": "Recombination (t~380 kyr)",
+      "t_s": 11992800000000.0,
+      "T_K": 3000.0,
+      "g_star": 2.0,
+      "V_m3": 2.674129250237835e+71,
+      "S_kB": 5.275366515061797e+89,
+      "log10_S": 89.7222526383658,
+      "S_photon_kB": 1.0550733030123596e+90,
+      "N_photons": 1.4647405087996655e+89,
+      "note": "CMB last scattering; photons decouple from matter"
+    },
+    {
+      "label": "Today (T=2.725 K)",
+      "t_s": 4.355e+17,
+      "T_K": 2.725,
+      "g_star": 2.0,
+      "V_m3": 3.568179048045239e+80,
+      "S_photon_kB": 1.0550733030123594e+90,
+      "S_nu_kB": 7.553365692020298e+89,
+      "S_BH_kB": 1.2162559844265355e+124,
+      "S_kB": 1.2162559844265355e+124,
+      "log10_S_photon": 90.02328263402978,
+      "log10_S_nu": 89.87814051133319,
+      "log10_S_BH": 124.08502499017017,
+      "log10_S": 124.08502499017017,
+      "N_photons": 1.464740508799665e+89,
+      "note": "CMB photons + CNB neutrinos + SMBH BH entropy"
+    }
+  ],
+  "entropy_budget_today": {
+    "CMB_photons_log10_S": 90.02328263402978,
+    "CNB_neutrinos_log10_S": 89.87814051133319,
+    "SMBH_BH_log10_S": 124.08502499017017,
+    "total_log10_S": 124.08502499017017,
+    "N_photons": 1.464740508799665e+89,
+    "holographic_S_max_log10": 123.3670354499842,
+    "decades_below_Smax_radiation": 33.109258540811425,
+    "decades_below_Smax_total": -0.7179895401859682
+  },
+  "boltzmann_brain": {
+    "S_brain_bits": 1e+25,
+    "S_brain_kB": 6.931471805599454e+24,
+    "log10_P_BB": -3.010299956639812e+24,
+    "log10_N_trials_Hubble": 60.907298974430454,
+    "log10_N_expected_BB": -3.010299956639812e+24,
+    "interpretation": "P_BB ~ 10^(-10^25): Boltzmann brains effectively impossible"
+  },
+  "penrose_fine_tuning": {
+    "S_BB_bits": 1.0,
+    "S_BB_log10_kB": 0.0,
+    "S_radiation_today_log10": 90.25777690917278,
+    "S_max_log10": 123.3670354499842,
+    "phase_space_fraction": "exp(-10^123)",
+    "fine_tuning_in_bits": "10^123"
+  },
+  "K_information": {
+    "K_IC_bits": 44,
+    "K_IC_source": "Penrose 2004 \u00a727.13 (LCDM 6-parameter model)",
+    "S_today_radiation_log10": 90.02328263402978,
+    "compression_ratio": "K/S ~ 44 / 10^90 ~ 10^-88",
+    "arrow_reframing": "Arrow runs from K-simple (44-bit initial state) to S-complex present (10^90 k_B radiation entropy). The WHY of low-entropy start requires cosmological initial-condition theory."
+  },
+  "gap_md_R1_status": {
+    "question": "Why this specific arrow direction?",
+    "explained": [
+      "Entropy increases: 2nd law (given low-entropy start)",
+      "Reversal fails: Lyapunov amplification (lambda~0.11/step from lyapunov_arrow.py)",
+      "Arrow persists: universe ~10^33 decades from equilibrium"
+    ],
+    "unexplained": [
+      "Why S_BB ~ 1 bit (not ~10^90)?",
+      "Why K(IC) ~ 44 bits?",
+      "Why fine-tuning at 1 in exp(10^123)?"
+    ],
+    "candidate_resolutions": [
+      "Anthropic selection (necessary, not sufficient)",
+      "Penrose CCC: conformal cyclic cosmology",
+      "Hartle-Hawking no-boundary proposal",
+      "Information-first: universe starts in K-simplest state"
+    ],
+    "verdict": "R1 remains open; thermodynamics alone cannot explain low-entropy initial conditions"
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "script": "lambda_scale.py",
+    "date": "2026-04-09",
+    "description": "L* scale comparison and anthropic fine-tuning sweep"
+  },
+  "L_star": {
+    "value_m": 0.9122163051305276,
+    "formula": "L* = (g_SM \u0127c / 32\u03c0\u00b2 \u03c1_\u039b)^(1/4)",
+    "g_SM": 41,
+    "rho_Lambda_obs": 5.924e-27,
+    "dimensional_formula": "(\u0127 G / c H\u2080\u00b2)^(1/4) \u2014 quantum gravity + Hubble combination"
+  },
+  "length_scales": {
+    "G m_n/c\u00b2 (neutron grav. length)": {
+      "value_m": 1.2437633539103898e-54,
+      "formula": "G m_n / c\u00b2",
+      "ratio_to_Lstar": 1.3634522282874802e-54,
+      "log10_ratio": -53.86536007397068
+    },
+    "L_EW (Higgs vev, 246 GeV)": {
+      "value_m": 8.017274224518687e-19,
+      "formula": "\u0127c / (246 GeV)",
+      "ratio_to_Lstar": 8.788786365062295e-19,
+      "log10_ratio": -18.05607109208737
+    },
+    "\u019b_C neutron (Compton)": {
+      "value_m": 2.0989117122858024e-16,
+      "formula": "\u0127/(m_n c)",
+      "ratio_to_Lstar": 2.300892562960133e-16,
+      "log10_ratio": -15.638103659646392
+    },
+    "\u019b_C proton (Compton)": {
+      "value_m": 2.1014208715353965e-16,
+      "formula": "\u0127/(m_p c)",
+      "ratio_to_Lstar": 2.303643181684532e-16,
+      "log10_ratio": -15.637584789235921
+    },
+    "r_proton (charge radius)": {
+      "value_m": 8.4e-16,
+      "formula": "0.84 fm (experimental)",
+      "ratio_to_Lstar": 9.20834231174815e-16,
+      "log10_ratio": -15.035818544575914
+    },
+    "L_QCD confinement (200 MeV)": {
+      "value_m": 9.861247296157984e-16,
+      "formula": "\u0127c / \u039b_QCD,  \u039b_QCD=200 MeV",
+      "ratio_to_Lstar": 1.081020722902662e-15,
+      "log10_ratio": -14.966165980647974
+    },
+    "r_e classical electron radius": {
+      "value_m": 2.8180983145392e-15,
+      "formula": "\u03b1\u00b2 a\u2080 = e\u00b2/(4\u03c0\u03b5\u2080 m_e c\u00b2)",
+      "ratio_to_Lstar": 3.089287374813984e-15,
+      "log10_ratio": -14.510141690438955
+    },
+    "\u019b_C electron (Compton)": {
+      "value_m": 3.859564296935689e-13,
+      "formula": "\u0127/(m_e c)",
+      "ratio_to_Lstar": 4.2309749071887394e-13,
+      "log10_ratio": -12.373559550348634
+    },
+    "\u03bb_dB proton (T_CMB)": {
+      "value_m": 1.6760146542579195e-10,
+      "formula": "\u0127/\u221a(2\u03c0 m_p k_B T_CMB)",
+      "ratio_to_Lstar": 1.8372996018944225e-10,
+      "log10_ratio": -9.735820019066969
+    },
+    "\u03bb_dB electron (T_CMB)": {
+      "value_m": 7.18274471090973e-09,
+      "formula": "\u0127/\u221a(2\u03c0 m_e k_B T_CMB)",
+      "ratio_to_Lstar": 7.873949051899441e-09,
+      "log10_ratio": -8.103807399623326
+    },
+    "\u221a(l_P \u00d7 L_Hubble) geom. mean": {
+      "value_m": 4.709883614592155e-05,
+      "formula": "\u221a(l_P c/H\u2080)",
+      "ratio_to_Lstar": 5.163121496625984e-05,
+      "log10_ratio": -4.2870876551787305
+    },
+    "\u0127c/(k_B T_CMB) thermal photon": {
+      "value_m": 0.0008398900766924923,
+      "formula": "\u0127c / (k_B T_CMB)",
+      "ratio_to_Lstar": 0.0009207137298124854,
+      "log10_ratio": -3.0358753805399012
+    },
+    "Wien peak \u03bb at T_CMB": {
+      "value_m": 0.00106348623853211,
+      "formula": "2.898e-3 m\u00b7K / T_CMB",
+      "ratio_to_Lstar": 0.001165826824790133,
+      "log10_ratio": -2.9333659561153
+    },
+    "L_\u039b = \u0127c/E_\u039b (dark energy scale)": {
+      "value_m": 1.5197225139745605,
+      "formula": "(\u0127c)/(\u03c1_\u039b(\u0127c)\u00b3)^{1/4}",
+      "ratio_to_Lstar": 1.6659672770890734,
+      "log10_ratio": 0.22166646674710963
+    },
+    "R_NS approx (Schwarzschild M_sun)": {
+      "value_m": 1476.9225736882183,
+      "formula": "(M_sun/m_n)\u00d7G m_n/c\u00b2 \u2248 Schwarzschild r_sun",
+      "ratio_to_Lstar": 1619.048646008238,
+      "log10_ratio": 3.2092598977808935
+    },
+    "\u221a(L_QCD \u00d7 L_Hubble) geom. mean": {
+      "value_m": 367921.7160839038,
+      "formula": "\u221a(L_QCD c/H\u2080)",
+      "ratio_to_Lstar": 403327.27447933354,
+      "log10_ratio": 5.605657591596897
+    },
+    "\u221a(\u019b_C,e \u00d7 L_Hubble) geom. mean": {
+      "value_m": 7278780.742293503,
+      "formula": "\u221a(\u0127/m_e c \u00d7 c/H\u2080)",
+      "ratio_to_Lstar": 7979226.748476057,
+      "log10_ratio": 6.901960806746565
+    },
+    "\u221a(a\u2080 \u00d7 L_Hubble) geom. mean": {
+      "value_m": 85231359.34258363,
+      "formula": "\u221a(a\u2080 c/H\u2080)",
+      "ratio_to_Lstar": 93433277.68120523,
+      "log10_ratio": 7.970501584359718
+    }
+  },
+  "closest_matches": [
+    {
+      "rank": 1,
+      "name": "L_\u039b = \u0127c/E_\u039b (dark energy scale)",
+      "value_m": 1.5197225139745605,
+      "ratio": 1.6659672770890734,
+      "log10_ratio": 0.22166646674710963
+    },
+    {
+      "rank": 2,
+      "name": "Wien peak \u03bb at T_CMB",
+      "value_m": 0.00106348623853211,
+      "ratio": 0.001165826824790133,
+      "log10_ratio": -2.9333659561153
+    },
+    {
+      "rank": 3,
+      "name": "\u0127c/(k_B T_CMB) thermal photon",
+      "value_m": 0.0008398900766924923,
+      "ratio": 0.0009207137298124854,
+      "log10_ratio": -3.0358753805399012
+    },
+    {
+      "rank": 4,
+      "name": "R_NS approx (Schwarzschild M_sun)",
+      "value_m": 1476.9225736882183,
+      "ratio": 1619.048646008238,
+      "log10_ratio": 3.2092598977808935
+    },
+    {
+      "rank": 5,
+      "name": "\u221a(l_P \u00d7 L_Hubble) geom. mean",
+      "value_m": 4.709883614592155e-05,
+      "ratio": 5.163121496625984e-05,
+      "log10_ratio": -4.2870876551787305
+    },
+    {
+      "rank": 6,
+      "name": "\u221a(L_QCD \u00d7 L_Hubble) geom. mean",
+      "value_m": 367921.7160839038,
+      "ratio": 403327.27447933354,
+      "log10_ratio": 5.605657591596897
+    },
+    {
+      "rank": 7,
+      "name": "\u221a(\u019b_C,e \u00d7 L_Hubble) geom. mean",
+      "value_m": 7278780.742293503,
+      "ratio": 7979226.748476057,
+      "log10_ratio": 6.901960806746565
+    },
+    {
+      "rank": 8,
+      "name": "\u221a(a\u2080 \u00d7 L_Hubble) geom. mean",
+      "value_m": 85231359.34258363,
+      "ratio": 93433277.68120523,
+      "log10_ratio": 7.970501584359718
+    },
+    {
+      "rank": 9,
+      "name": "\u03bb_dB electron (T_CMB)",
+      "value_m": 7.18274471090973e-09,
+      "ratio": 7.873949051899441e-09,
+      "log10_ratio": -8.103807399623326
+    },
+    {
+      "rank": 10,
+      "name": "\u03bb_dB proton (T_CMB)",
+      "value_m": 1.6760146542579195e-10,
+      "ratio": 1.8372996018944225e-10,
+      "log10_ratio": -9.735820019066969
+    }
+  ],
+  "anthropic_fine_tuning": {
+    "alpha (fine structure)": {
+      "symbol": "\u03b1",
+      "observed": 0.0072974,
+      "window": [
+        0.005,
+        0.0125
+      ],
+      "prior_range": [
+        1e-06,
+        1.0
+      ],
+      "log_uniform": {
+        "P": 0.06632333477867294,
+        "log10_severity": 1.1783336453111408
+      },
+      "linear": {
+        "P": 0.007500007500007501,
+        "log10_severity": 2.124938302313601
+      },
+      "note": "window [1/200,1/80]; atoms don't form or stellar EM fails outside"
+    },
+    "mu (electron/proton mass ratio)": {
+      "symbol": "\u03bc = m_e/m_p",
+      "observed": 0.0005444710101613866,
+      "window": [
+        0.0001,
+        0.01
+      ],
+      "prior_range": [
+        1e-06,
+        1.0
+      ],
+      "log_uniform": {
+        "P": 0.3333333333333333,
+        "log10_severity": 0.47712125471966244
+      },
+      "linear": {
+        "P": 0.009900009900009901,
+        "log10_severity": 2.004364371107751
+      },
+      "note": "window [1/10000,1/100]; outside: chemistry or atomic structure fails"
+    },
+    "alpha_s (strong coupling)": {
+      "symbol": "\u03b1_s",
+      "observed": 0.1181,
+      "window": [
+        0.05,
+        0.3
+      ],
+      "prior_range": [
+        0.001,
+        10.0
+      ],
+      "log_uniform": {
+        "P": 0.19453781259591085,
+        "log10_severity": 0.71099597168695
+      },
+      "linear": {
+        "P": 0.025002500250025,
+        "log10_severity": 1.6020165597081548
+      },
+      "note": "window [0.05,0.30]; outside: no stable nuclei or asymptotic freedom fails"
+    },
+    "eta (baryon-to-photon ratio)": {
+      "symbol": "\u03b7",
+      "observed": 6e-10,
+      "window": [
+        1e-11,
+        1e-08
+      ],
+      "prior_range": [
+        1e-20,
+        1.0
+      ],
+      "log_uniform": {
+        "P": 0.15,
+        "log10_severity": 0.8239087409443188
+      },
+      "linear": {
+        "P": 9.99e-09,
+        "log10_severity": 8.000434511774017
+      },
+      "note": "window [1e-11,1e-8]; outside: no structure or matter washed out"
+    },
+    "Lambda (cosmological constant)": {
+      "symbol": "\u03c1_\u039b",
+      "observed": 5.924e-27,
+      "window": [
+        1e-200,
+        1.7771999999999999e-25
+      ],
+      "prior_range": [
+        1e-200,
+        4.634e+113
+      ],
+      "log_uniform": {
+        "P": 0.5587145590263307,
+        "log10_severity": 0.2528100116138552
+      },
+      "linear": {
+        "P": 3.835131635735865e-139,
+        "log10_severity": 138.4162197248851
+      },
+      "note": "Weinberg window [0, 30 \u03c1_obs]; prior [\u03b5_IR, \u03c1_Planck]; log-uniform \u2248 56%"
+    }
+  },
+  "spearman_rank_correlation": -0.19999999999999996,
+  "dimensional_analysis": {
+    "L_hG_cH2_m": 4.709474819385512e-05,
+    "ratio_to_Lstar": 5.1626733625547725e-05,
+    "log10_ratio": -4.287125351483384,
+    "formula": "(\u0127 G / c H\u2080\u00b2)^(1/4)",
+    "interpretation": "L* is a quantum gravity + cosmological scale, not a particle physics scale"
+  }
+}

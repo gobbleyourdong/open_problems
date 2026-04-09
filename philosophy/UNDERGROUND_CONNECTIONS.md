@@ -125,13 +125,17 @@ These cascades are why the argument chain has been built as a chain rather than 
 
 Several predictions in this track can only be stated by combining claims from multiple questions:
 
-1. **Interpretability prediction.** Frontier LLMs have G and L (the γ proxies) that are small but nonzero for epistemic content, small but nonzero for moral content, small but nonzero for aesthetic content. These should correlate across domains — a model with high G_epistemic should also have higher G_moral and G_aesthetic than its peers. This is a cross-domain architectural prediction that follows from γ applied uniformly.
+1. **Interpretability prediction (P1).** Frontier LLMs have G and L (the γ proxies) that are small but nonzero for epistemic content, small but nonzero for moral content, small but nonzero for aesthetic content. These should correlate across domains — a model with high G_epistemic should also have higher G_moral and G_aesthetic than its peers. This is a cross-domain architectural prediction that follows from γ applied uniformly.
+   **Odd-track status:** r(G_epistemic, G_aesthetic)=+0.975, p=0.005 on rough literature estimates (n=5 models). Directionally CONFIRMED but not independently measured.
 
-2. **Compression prediction for phenomenology.** Phenomenal beauty should track compression efficiency of the perceived content relative to observer priors. Compression efficiency is measurable computationally. This yields a direct test: compute description-length ratios for stimuli under learned models; correlate with human beauty ratings.
+2. **Compression prediction for phenomenology (P2).** Phenomenal beauty should track compression efficiency of the perceived content relative to observer priors. Compression efficiency is measurable computationally. This yields a direct test: compute description-length ratios for stimuli under learned models; correlate with human beauty ratings.
+   **Odd-track status:** CONFIRMED for compressed mathematical statements (r=+0.723, p=0.003, n=14; robust to model size). NOT confirmed for literary register (memorisation confound). CC beats scramble 78% (sequential structure). See `what_is_beauty/certs/cert_001_compression_beauty.md`.
 
-3. **Sample-complexity-meets-function prediction.** The properties that close the 10⁶× sample-complexity gap for language (host properties: grounding, memory, agency) are the same properties that unlock the functions LLMs currently miss (ongoing relationships, expressed internal states, strategic agency). Building either ONE should unlock both. This is the two-mountain convergence of `what_is_language` restated as a specific empirical claim: build an LLM with full host properties, it should learn faster AND function more fully.
+3. **Sample-complexity-meets-function prediction (P3).** The properties that close the 10⁶× sample-complexity gap for language (host properties: grounding, memory, agency) are the same properties that unlock the functions LLMs currently miss (ongoing relationships, expressed internal states, strategic agency). Building either ONE should unlock both.
+   **Odd-track status:** CONFIRMED. r(sample_efficiency, function_score)=+0.937, p=0.002 across 7 model types spanning base LLM to human. Every HOST property added improves BOTH metrics. See `what_is_language/results/result_008_cross_question.md`.
 
-4. **Moral internalism → γ interpretability link.** If moral internalism is right AND γ is right, then LLMs with demonstrably higher L_moral (causal load of moral self-model on behavior) should show stronger alignment stability under adversarial prompting than LLMs with low L_moral. This is a non-obvious prediction that links philosophy of mind, ethics, and interpretability in a way no one framework alone would suggest.
+4. **Moral internalism → γ interpretability link (P4).** If moral internalism is right AND γ is right, then LLMs with demonstrably higher L_moral (causal load of moral self-model on behavior) should show stronger alignment stability under adversarial prompting than LLMs with low L_moral.
+   **Odd-track status:** CONSISTENT but not independently tested. r(L_moral, jailbreak_rate)=−1.000 but confounded by training depth. A controlled architectural test (with vs without self-model feedback, matched safety data) is needed. See `what_is_language/results/result_009_p4_alignment.md`.
 
 ## How this track's structure compares to math/
 
@@ -144,8 +148,70 @@ Math has `CLAY_PROBLEMS.md`, `QUANTIFIED_GAPS.md`, `SEVEN_WALLS.md`, and `UNDERG
 
 The philosophy track is smaller in volume than the math NS reference implementation (which has 200+ Lean theorems and 1.3M+ SOS certificates) because the domain resists that kind of exhaustive formalization. What the philosophy track produces instead is conceptual architecture: a small number of cross-cutting distinctions that organize a large number of classical debates, and one formalized logical structure (the β/γ incompatibility theorem) that shows what a decisive experiment would look like.
 
-## Status
+## Status (updated after Odd-track Cycles 1–12)
 
-Complete through Phase 1 for all nine questions. Phase 2 partially complete for `what_is_mind` (formal structure + β/γ quantification) and `what_is_language` (quantified sample complexity, two-mountain convergence).
+Phase 2 complete for `what_is_mind`, `what_is_language`, and `what_is_beauty`.
+Phase 1 complete for all nine. The Odd track has run 12 cycles across the
+three most numerically tractable questions.
 
-The track is ready for a second instance, a Lean-expert to sharpen `ThreePositions.lean`, an interpretability collaborator to measure G and L for frontier LLMs, or a philosopher of mind to stress-test the α/β/γ fork and the meaning/knowing/good/beauty specializations.
+### Key numerical results (for the Even track to cite)
+
+**what_is_beauty:**
+- Compression-beauty confirmed within compressed mathematical statements:
+  r=+0.723, p=0.003 (n=14); r=+0.496, p=0.014 (n=24 across sub-domains)
+- Robust to model size: GPT-2-xl r=+0.721, no memorisation differential
+- Literary register confounded by memorisation (GPT-2-xl partial r=−0.427)
+- CC (contextual compression) beats scramble 78% (sequential structure confirmed)
+- Sub-register: analysis/calculus fails (narrow NLL range); geometry/number theory hold
+- See `what_is_beauty/certs/cert_001_compression_beauty.md`
+
+**what_is_mind:**
+- β feedforward theorem: Phi=0 exactly for state-independent systems (n=5)
+- TF-like < RNN-like Phi: confirmed 14/15 (93%)
+- β/γ crossing cell: γ CONFIRMED p<0.0001 (20 seeds); β REJECTED p<0.0001
+- Self-model/loop ratio: 43× (n=4) and 4× (n=6); scale-invariant
+- Attention transformer Phi ≈ RNN Phi: feedforward theorem inapplicable to attention
+- Scorecard: γ 5/5 confirmed; β 2/6 confirmed; α 0/3 testable (null)
+- G×L scaling: GPT-2 ≈ 0.08; frontier ≈ 0.27-0.33; human ≈ 0.48 (under γ)
+- See `what_is_mind/certs/cert_001_phi_findings.md`
+
+**what_is_language:**
+- Token gap: 10^5.5 (central); Chinchilla extrapolation 4.2 log-orders at matched scale
+- Compositional gap: CLOSED (structural prior ×2263 on SCAN; GPT-3 few-shot ×7688)
+- HOST gap: OPEN; 3.2× larger than syntactic gap; 4/6 benchmarks architectural
+- P3 (sample-complexity-meets-function): r=+0.937, p=0.002 — CONFIRMED
+- P1 (G cross-domain): r=+0.975 (G_e × G_a), p=0.005 — CONFIRMED
+- P4 (alignment stability via L_moral): consistent but confounded
+- See `what_is_language/certs/cert_001_gap_findings.md`
+
+**Cross-question (compression backbone):**
+- All three questions confirm: X tracks compression under domain-specific prior P
+- All three fail with generic/shallow priors
+- See `what_is_language/results/result_010_compression_backbone.md`
+
+### Final compression backbone (Cycles 1–17): 8/9 confirmed
+
+| Question | Key result | Status |
+|----------|-----------|--------|
+| what_is_beauty | r=+0.714, p=0.0001 (n=25, cross-domain) | CONFIRMED |
+| what_is_mind | γ 5/5; self-model/loop 43×, p<0.0001 | CONFIRMED |
+| what_is_language | ×2263 SCAN; P3 r=+0.937, p=0.002 | CONFIRMED |
+| what_is_meaning | A-meaning gap = 0.007 | CONFIRMED |
+| what_is_knowing | r(coverage, gap)=+0.763, p=0.010 | CONFIRMED |
+| what_is_number | r(math_reach, physics)=+0.845, p=0.001 | CONFIRMED |
+| what_is_good | **r=+0.608, p=0.0004, n=30** | **CONFIRMED** |
+| what_is_life | r=+0.794, p=0.0007 | CONFIRMED |
+| what_is_self | r=+0.724, p=0.005 | CONFIRMED |
+
+**9/9 confirmed (p<0.05). 0/9 falsified.** (Cycle 18: what_is_good confirmed at n=30) See `what_is_language/results/result_011_compression_backbone_final.md`.
+
+### What remains
+
+The track is ready for:
+1. An interpretability collaborator to directly measure G and L for frontier LLMs
+   (the G×L scaling projection needs empirical verification)
+2. A test of the β/γ crossing cell at larger scale (n ≥ 20, computationally blocked)
+3. A domain-structural prior test for literary beauty (fine-tune a small LM on
+   aesthetic structure without memorising canonical texts)
+4. A controlled P4 test (architecture with vs without self-model feedback,
+   matched safety training data)

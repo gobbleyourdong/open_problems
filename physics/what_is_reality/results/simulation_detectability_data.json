@@ -1,0 +1,143 @@
+{
+  "description": "Simulation detectability: external memory requirements and LIV signatures",
+  "date": "2026-04-09",
+  "constants": {
+    "l_P_m": 1.616e-35,
+    "E_P_eV": 1.2209e+28,
+    "E_P_J": 1956100000.0,
+    "c_ms": 299800000.0,
+    "hbar_Js": 1.055e-34
+  },
+  "established_bounds": {
+    "E_P_min_ratio": 7.1659,
+    "E_P_min_eV": 8.748847309999999e+28,
+    "l_eff_max_m": 2.2564322163639415e-36,
+    "source": "GRB 090510 (Abdo et al. 2009) \u2014 linear LIV ruled out at Planck scale"
+  },
+  "external_simulator_memory": {
+    "log10_planck_state_bits": 185.0,
+    "log10_holographic_budget": 124.0,
+    "log10_memory_excess": 61.0,
+    "interpretation": "External simulator needs 10^185 bits = 10^61 times the holographic budget of our universe. This is 10^61 'observable-universe-equivalents' of memory."
+  },
+  "liv_time_delays": {
+    "formula": "Delta_t = (n+1)/2 * (L/c) * Delta_E / E_P_sim  [linear n=1]",
+    "grb_090510": {
+      "L_m": 7.3e+26,
+      "dE_eV": 31000000000.0,
+      "dt_observed_upper_s": 0.86,
+      "dt_predicted_at_EPmin_s": 0.8627840113775364,
+      "E_P_sim_used_eV": 8.748847309999999e+28,
+      "E_P_sim_ratio": 7.1659,
+      "verdict": "Predicted \u0394t just below FERMI bound \u2014 simulator at E_P_min is marginally consistent"
+    },
+    "cell_1pct_above_lP": {
+      "alpha": 1.01,
+      "dt_grb_s": 6.24445018660159,
+      "excluded_by_fermi": true,
+      "dt_future_telescope_s": 8514582.386564972,
+      "future_detectable": true
+    },
+    "cell_exactly_lP": {
+      "alpha": 1.0,
+      "dt_grb_s": 6.1826239471302875,
+      "excluded_by_fermi": true,
+      "note": "Planck-resolution cells produce \u0394t = 6.18 s >> 0.86 s limit. Even l_P cells are excluded. Required: cell \u2264 0.1395 \u00d7 l_P."
+    }
+  },
+  "future_telescope": {
+    "L_m": 3.0857e+32,
+    "dE_eV": 100000000000.0,
+    "dt_threshold_s": 0.01,
+    "E_P_min_eV": 1.0292528352234825e+37,
+    "E_P_min_ratio": 843027959.0658388,
+    "l_max_m": 1.9182248127229558e-44,
+    "l_max_ratio_to_lP": 1.1870203049028192e-09,
+    "interpretation": "Future telescope would probe E_P_sim down to 843027959.1 \u00d7 E_P, excluding cell sizes > 1.1870e-09 \u00d7 l_P"
+  },
+  "exclusion_table": [
+    {
+      "cell_alpha": 0.05,
+      "E_P_sim_eV": 2.4417999999999998e+29,
+      "log10_E_P_sim_eV": 29.387710089398606,
+      "dt_grb_s": 0.30913119735651434,
+      "excluded_by_fermi": false
+    },
+    {
+      "cell_alpha": 0.1,
+      "E_P_sim_eV": 1.2208999999999999e+29,
+      "log10_E_P_sim_eV": 29.086680093734625,
+      "dt_grb_s": 0.6182623947130287,
+      "excluded_by_fermi": false
+    },
+    {
+      "cell_alpha": 0.14,
+      "E_P_sim_eV": 8.720714285714284e+28,
+      "log10_E_P_sim_eV": 28.940552058056387,
+      "dt_grb_s": 0.8655673525982404,
+      "excluded_by_fermi": true
+    },
+    {
+      "cell_alpha": 0.15,
+      "E_P_sim_eV": 8.139333333333334e+28,
+      "log10_E_P_sim_eV": 28.910588834678943,
+      "dt_grb_s": 0.927393592069543,
+      "excluded_by_fermi": true
+    },
+    {
+      "cell_alpha": 0.5,
+      "E_P_sim_eV": 2.4418e+28,
+      "log10_E_P_sim_eV": 28.387710089398606,
+      "dt_grb_s": 3.0913119735651438,
+      "excluded_by_fermi": true
+    },
+    {
+      "cell_alpha": 1.0,
+      "E_P_sim_eV": 1.2209e+28,
+      "log10_E_P_sim_eV": 28.086680093734625,
+      "dt_grb_s": 6.1826239471302875,
+      "excluded_by_fermi": true
+    },
+    {
+      "cell_alpha": 1.01,
+      "E_P_sim_eV": 1.2088118811881187e+28,
+      "log10_E_P_sim_eV": 28.082358719951984,
+      "dt_grb_s": 6.24445018660159,
+      "excluded_by_fermi": true
+    },
+    {
+      "cell_alpha": 1.05,
+      "E_P_sim_eV": 1.1627619047619046e+28,
+      "log10_E_P_sim_eV": 28.065490794664687,
+      "dt_grb_s": 6.4917551444868025,
+      "excluded_by_fermi": true
+    },
+    {
+      "cell_alpha": 1.1,
+      "E_P_sim_eV": 1.1099090909090908e+28,
+      "log10_E_P_sim_eV": 28.0452874085764,
+      "dt_grb_s": 6.800886341843316,
+      "excluded_by_fermi": true
+    },
+    {
+      "cell_alpha": 1.5,
+      "E_P_sim_eV": 8.139333333333332e+27,
+      "log10_E_P_sim_eV": 27.910588834678943,
+      "dt_grb_s": 9.27393592069543,
+      "excluded_by_fermi": true
+    },
+    {
+      "cell_alpha": 7.2,
+      "E_P_sim_eV": 1.6956944444444442e+27,
+      "log10_E_P_sim_eV": 27.229347597303356,
+      "dt_grb_s": 44.51489241933807,
+      "excluded_by_fermi": true
+    }
+  ],
+  "fermi_boundary": {
+    "alpha_excluded_above": 0.13954981230550245,
+    "l_excluded_above_m": 2.2551249668569195e-36,
+    "E_P_excluded_below_eV": 8.748847309999999e+28,
+    "statement": "Cells > 0.1395 \u00d7 l_P are excluded by FERMI/GRB 090510"
+  }
+}

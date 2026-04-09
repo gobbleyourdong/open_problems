@@ -1,0 +1,415 @@
+{
+  "configs": [
+    {
+      "n": 25,
+      "ratio": 2.0,
+      "desc": "easy-25 (sparse, under-constrained)"
+    },
+    {
+      "n": 25,
+      "ratio": 4.3,
+      "desc": "hard-25 (phase transition)"
+    },
+    {
+      "n": 30,
+      "ratio": 2.0,
+      "desc": "easy-30 (sparse)"
+    },
+    {
+      "n": 30,
+      "ratio": 4.3,
+      "desc": "hard-30 (phase transition)"
+    }
+  ],
+  "results": [
+    {
+      "instance": 0,
+      "n_vars": 25,
+      "n_clauses": 50,
+      "clause_ratio": 2.0,
+      "solved": false,
+      "decisions": 3,
+      "steps": 7,
+      "time_ms": 0.1542,
+      "k_initial": null,
+      "k_final": null,
+      "k_min": null,
+      "k_trend": "flat/increasing",
+      "k_trajectory": []
+    },
+    {
+      "instance": 1,
+      "n_vars": 25,
+      "n_clauses": 50,
+      "clause_ratio": 2.0,
+      "solved": false,
+      "decisions": 3,
+      "steps": 7,
+      "time_ms": 0.1414,
+      "k_initial": null,
+      "k_final": null,
+      "k_min": null,
+      "k_trend": "flat/increasing",
+      "k_trajectory": []
+    },
+    {
+      "instance": 2,
+      "n_vars": 25,
+      "n_clauses": 50,
+      "clause_ratio": 2.0,
+      "solved": false,
+      "decisions": 3,
+      "steps": 7,
+      "time_ms": 0.1327,
+      "k_initial": null,
+      "k_final": null,
+      "k_min": null,
+      "k_trend": "flat/increasing",
+      "k_trajectory": []
+    },
+    {
+      "instance": 3,
+      "n_vars": 25,
+      "n_clauses": 50,
+      "clause_ratio": 2.0,
+      "solved": false,
+      "decisions": 7,
+      "steps": 15,
+      "time_ms": 0.5461,
+      "k_initial": 0.7031,
+      "k_final": 0.6541,
+      "k_min": 0.6541,
+      "k_trend": "decreasing",
+      "k_trajectory": [
+        {
+          "step": 3,
+          "depth": 2,
+          "n_assigned": 4,
+          "k_proxy": 0.703125
+        },
+        {
+          "step": 6,
+          "depth": 2,
+          "n_assigned": 4,
+          "k_proxy": 0.671296
+        },
+        {
+          "step": 9,
+          "depth": 1,
+          "n_assigned": 1,
+          "k_proxy": 0.654135
+        }
+      ]
+    },
+    {
+      "instance": 4,
+      "n_vars": 25,
+      "n_clauses": 50,
+      "clause_ratio": 2.0,
+      "solved": false,
+      "decisions": 3,
+      "steps": 7,
+      "time_ms": 0.1306,
+      "k_initial": null,
+      "k_final": null,
+      "k_min": null,
+      "k_trend": "flat/increasing",
+      "k_trajectory": []
+    },
+    {
+      "instance": 0,
+      "n_vars": 25,
+      "n_clauses": 107,
+      "clause_ratio": 4.3,
+      "solved": false,
+      "decisions": 3,
+      "steps": 7,
+      "time_ms": 0.204,
+      "k_initial": null,
+      "k_final": null,
+      "k_min": null,
+      "k_trend": "flat/increasing",
+      "k_trajectory": []
+    },
+    {
+      "instance": 1,
+      "n_vars": 25,
+      "n_clauses": 107,
+      "clause_ratio": 4.3,
+      "solved": false,
+      "decisions": 3,
+      "steps": 7,
+      "time_ms": 0.2209,
+      "k_initial": null,
+      "k_final": null,
+      "k_min": null,
+      "k_trend": "flat/increasing",
+      "k_trajectory": []
+    },
+    {
+      "instance": 2,
+      "n_vars": 25,
+      "n_clauses": 107,
+      "clause_ratio": 4.3,
+      "solved": false,
+      "decisions": 3,
+      "steps": 7,
+      "time_ms": 0.2204,
+      "k_initial": null,
+      "k_final": null,
+      "k_min": null,
+      "k_trend": "flat/increasing",
+      "k_trajectory": []
+    },
+    {
+      "instance": 3,
+      "n_vars": 25,
+      "n_clauses": 107,
+      "clause_ratio": 4.3,
+      "solved": false,
+      "decisions": 3,
+      "steps": 7,
+      "time_ms": 0.1963,
+      "k_initial": null,
+      "k_final": null,
+      "k_min": null,
+      "k_trend": "flat/increasing",
+      "k_trajectory": []
+    },
+    {
+      "instance": 4,
+      "n_vars": 25,
+      "n_clauses": 107,
+      "clause_ratio": 4.3,
+      "solved": false,
+      "decisions": 3,
+      "steps": 7,
+      "time_ms": 0.225,
+      "k_initial": null,
+      "k_final": null,
+      "k_min": null,
+      "k_trend": "flat/increasing",
+      "k_trajectory": []
+    },
+    {
+      "instance": 0,
+      "n_vars": 30,
+      "n_clauses": 60,
+      "clause_ratio": 2.0,
+      "solved": false,
+      "decisions": 7,
+      "steps": 15,
+      "time_ms": 0.516,
+      "k_initial": 0.6549,
+      "k_final": 0.6561,
+      "k_min": 0.6549,
+      "k_trend": "flat/increasing",
+      "k_trajectory": [
+        {
+          "step": 3,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.65493
+        },
+        {
+          "step": 6,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.670455
+        },
+        {
+          "step": 9,
+          "depth": 1,
+          "n_assigned": 1,
+          "k_proxy": 0.656051
+        }
+      ]
+    },
+    {
+      "instance": 1,
+      "n_vars": 30,
+      "n_clauses": 60,
+      "clause_ratio": 2.0,
+      "solved": false,
+      "decisions": 3,
+      "steps": 7,
+      "time_ms": 0.1556,
+      "k_initial": null,
+      "k_final": null,
+      "k_min": null,
+      "k_trend": "flat/increasing",
+      "k_trajectory": []
+    },
+    {
+      "instance": 2,
+      "n_vars": 30,
+      "n_clauses": 60,
+      "clause_ratio": 2.0,
+      "solved": false,
+      "decisions": 3,
+      "steps": 7,
+      "time_ms": 0.1509,
+      "k_initial": null,
+      "k_final": null,
+      "k_min": null,
+      "k_trend": "flat/increasing",
+      "k_trajectory": []
+    },
+    {
+      "instance": 3,
+      "n_vars": 30,
+      "n_clauses": 60,
+      "clause_ratio": 2.0,
+      "solved": false,
+      "decisions": 7,
+      "steps": 15,
+      "time_ms": 0.6432,
+      "k_initial": 0.6701,
+      "k_final": 0.6551,
+      "k_min": 0.6551,
+      "k_trend": "decreasing",
+      "k_trajectory": [
+        {
+          "step": 3,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.670068
+        },
+        {
+          "step": 6,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.670213
+        },
+        {
+          "step": 9,
+          "depth": 1,
+          "n_assigned": 1,
+          "k_proxy": 0.655063
+        }
+      ]
+    },
+    {
+      "instance": 4,
+      "n_vars": 30,
+      "n_clauses": 60,
+      "clause_ratio": 2.0,
+      "solved": false,
+      "decisions": 7,
+      "steps": 15,
+      "time_ms": 0.5247,
+      "k_initial": 0.6794,
+      "k_final": 0.6545,
+      "k_min": 0.6545,
+      "k_trend": "decreasing",
+      "k_trajectory": [
+        {
+          "step": 3,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.679389
+        },
+        {
+          "step": 6,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.679389
+        },
+        {
+          "step": 9,
+          "depth": 1,
+          "n_assigned": 1,
+          "k_proxy": 0.654545
+        }
+      ]
+    },
+    {
+      "instance": 0,
+      "n_vars": 30,
+      "n_clauses": 129,
+      "clause_ratio": 4.3,
+      "solved": false,
+      "decisions": 3,
+      "steps": 7,
+      "time_ms": 0.2404,
+      "k_initial": null,
+      "k_final": null,
+      "k_min": null,
+      "k_trend": "flat/increasing",
+      "k_trajectory": []
+    },
+    {
+      "instance": 1,
+      "n_vars": 30,
+      "n_clauses": 129,
+      "clause_ratio": 4.3,
+      "solved": false,
+      "decisions": 3,
+      "steps": 7,
+      "time_ms": 0.3182,
+      "k_initial": null,
+      "k_final": null,
+      "k_min": null,
+      "k_trend": "flat/increasing",
+      "k_trajectory": []
+    },
+    {
+      "instance": 2,
+      "n_vars": 30,
+      "n_clauses": 129,
+      "clause_ratio": 4.3,
+      "solved": false,
+      "decisions": 3,
+      "steps": 7,
+      "time_ms": 0.224,
+      "k_initial": null,
+      "k_final": null,
+      "k_min": null,
+      "k_trend": "flat/increasing",
+      "k_trajectory": []
+    },
+    {
+      "instance": 3,
+      "n_vars": 30,
+      "n_clauses": 129,
+      "clause_ratio": 4.3,
+      "solved": false,
+      "decisions": 15,
+      "steps": 31,
+      "time_ms": 1.2479,
+      "k_initial": 0.5784,
+      "k_final": 0.5792,
+      "k_min": 0.5784,
+      "k_trend": "flat/increasing",
+      "k_trajectory": [
+        {
+          "step": 3,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.57837
+        },
+        {
+          "step": 18,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.579208
+        }
+      ]
+    },
+    {
+      "instance": 4,
+      "n_vars": 30,
+      "n_clauses": 129,
+      "clause_ratio": 4.3,
+      "solved": false,
+      "decisions": 3,
+      "steps": 7,
+      "time_ms": 0.3128,
+      "k_initial": null,
+      "k_final": null,
+      "k_min": null,
+      "k_trend": "flat/increasing",
+      "k_trajectory": []
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "constants": {
+    "k_B_J_per_K": 1.380649e-23,
+    "ln2": 0.6931471805599453,
+    "T_room_K": 300.0
+  },
+  "section1_quantum_zeno": {
+    "description": "Qubit precessing under H = \u03c9 \u03c3_x / 2, full period T = \u03c0/\u03c9. N measurements evenly distributed across T. Shows K_total \u2192 0 as N \u2192 \u221e (Zeno effect kills K-accumulation).",
+    "N_values": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512,
+      1024,
+      4096,
+      16384,
+      65536
+    ],
+    "rows": [
+      {
+        "N": 1,
+        "angle_step_rad": 1.5707963267948966,
+        "P_step_1": 1.0,
+        "P_survive_0": 0.0,
+        "P_final_1": 1.0,
+        "K_per_step_bits": Infinity,
+        "K_total_bits": Infinity,
+        "note": "N=1: P_step=1.000000, survive=0.000000, P(|1\u27e9)=1.000000, K/step=inf, K_total=inf bits"
+      },
+      {
+        "N": 2,
+        "angle_step_rad": 0.7853981633974483,
+        "P_step_1": 0.4999999999999999,
+        "P_survive_0": 0.2500000000000001,
+        "P_final_1": 0.7499999999999999,
+        "K_per_step_bits": 0.9999999999999997,
+        "K_total_bits": 1.9999999999999993,
+        "note": "N=2: P_step=0.500000, survive=0.250000, P(|1\u27e9)=0.750000, K/step=1.000000, K_total=2.000000 bits"
+      },
+      {
+        "N": 4,
+        "angle_step_rad": 0.39269908169872414,
+        "P_step_1": 0.14644660940672624,
+        "P_survive_0": 0.5307900429449552,
+        "P_final_1": 0.46920995705504476,
+        "K_per_step_bits": 0.22844669683638807,
+        "K_total_bits": 0.9137867873455523,
+        "note": "N=4: P_step=0.146447, survive=0.530790, P(|1\u27e9)=0.469210, K/step=0.228447, K_total=0.913787 bits"
+      },
+      {
+        "N": 8,
+        "angle_step_rad": 0.19634954084936207,
+        "P_step_1": 0.03806023374435662,
+        "P_survive_0": 0.7331334405473232,
+        "P_final_1": 0.2668665594526768,
+        "K_per_step_bits": 0.055981535242246715,
+        "K_total_bits": 0.4478522819379737,
+        "note": "N=8: P_step=0.038060, survive=0.733133, P(|1\u27e9)=0.266867, K/step=0.055982, K_total=0.447852 bits"
+      },
+      {
+        "N": 16,
+        "angle_step_rad": 0.09817477042468103,
+        "P_step_1": 0.009607359798384776,
+        "P_survive_0": 0.8568769684138392,
+        "P_final_1": 0.1431230315861608,
+        "K_per_step_bits": 0.0139275012399541,
+        "K_total_bits": 0.2228400198392656,
+        "note": "N=16: P_step=0.009607, survive=0.856877, P(|1\u27e9)=0.143123, K/step=0.013928, K_total=0.222840 bits"
+      },
+      {
+        "N": 32,
+        "angle_step_rad": 0.04908738521234052,
+        "P_step_1": 0.002407636663901557,
+        "P_survive_0": 0.9257627656040247,
+        "P_final_1": 0.0742372343959753,
+        "K_per_step_bits": 0.003477673644507786,
+        "K_total_bits": 0.11128555662424915,
+        "note": "N=32: P_step=0.002408, survive=0.925763, P(|1\u27e9)=0.074237, K/step=0.003478, K_total=0.111286 bits"
+      },
+      {
+        "N": 64,
+        "angle_step_rad": 0.02454369260617026,
+        "P_step_1": 0.0006022718974138037,
+        "P_survive_0": 0.9621768461033336,
+        "P_final_1": 0.03782315389666635,
+        "K_per_step_bits": 0.0008691564401953102,
+        "K_total_bits": 0.05562601217249985,
+        "note": "N=64: P_step=0.000602, survive=0.962177, P(|1\u27e9)=0.037823, K/step=0.000869, K_total=0.055626 bits"
+      },
+      {
+        "N": 128,
+        "angle_step_rad": 0.01227184630308513,
+        "P_step_1": 0.00015059065189788992,
+        "P_survive_0": 0.9809075592960984,
+        "P_final_1": 0.019092440703901592,
+        "K_per_step_bits": 0.00021727274673029738,
+        "K_total_bits": 0.027810911581478064,
+        "note": "N=128: P_step=0.000151, survive=0.980908, P(|1\u27e9)=0.019092, K/step=0.000217, K_total=0.027811 bits"
+      },
+      {
+        "N": 256,
+        "angle_step_rad": 0.006135923151542565,
+        "P_step_1": 3.764908042772954e-05,
+        "P_survive_0": 0.9904079539578563,
+        "P_final_1": 0.009592046042143698,
+        "K_per_step_bits": 5.431716412911899e-05,
+        "K_total_bits": 0.013905194017054461,
+        "note": "N=256: P_step=0.000038, survive=0.990408, P(|1\u27e9)=0.009592, K/step=0.000054, K_total=0.013905 bits"
+      },
+      {
+        "N": 512,
+        "angle_step_rad": 0.0030679615757712823,
+        "P_step_1": 9.41235869942867e-06,
+        "P_survive_0": 0.9951924431399918,
+        "P_final_1": 0.004807556860008222,
+        "K_per_step_bits": 1.3579227125136586e-05,
+        "K_total_bits": 0.006952564288069932,
+        "note": "N=512: P_step=0.000009, survive=0.995192, P(|1\u27e9)=0.004808, K/step=0.000014, K_total=0.006953 bits"
+      },
+      {
+        "N": 1024,
+        "angle_step_rad": 0.0015339807878856412,
+        "P_step_1": 2.353095211914244e-06,
+        "P_survive_0": 0.9975933283571692,
+        "P_final_1": 0.0024066716428308155,
+        "K_per_step_bits": 3.394802787102715e-06,
+        "K_total_bits": 0.0034762780539931803,
+        "note": "N=1024: P_step=0.000002, survive=0.997593, P(|1\u27e9)=0.002407, K/step=0.000003, K_total=0.003476 bits"
+      },
+      {
+        "N": 4096,
+        "angle_step_rad": 0.0003834951969714103,
+        "P_step_1": 1.4706855889041987e-07,
+        "P_survive_0": 0.9993977885406564,
+        "P_final_1": 0.0006022114593435823,
+        "K_per_step_bits": 2.121750961786532e-07,
+        "K_total_bits": 0.0008690691939477635,
+        "note": "N=4096: P_step=0.000000, survive=0.999398, P(|1\u27e9)=0.000602, K/step=0.000000, K_total=0.000869 bits"
+      },
+      {
+        "N": 16384,
+        "angle_step_rad": 9.587379924285257e-05,
+        "P_step_1": 9.191785353095827e-09,
+        "P_survive_0": 0.9998494131277555,
+        "P_final_1": 0.00015058687224445144,
+        "K_per_step_bits": 1.3260943177598801e-08,
+        "K_total_bits": 0.00021726729302177876,
+        "note": "N=16384: P_step=0.000000, survive=0.999849, P(|1\u27e9)=0.000151, K/step=0.000000, K_total=0.000217 bits"
+      },
+      {
+        "N": 65536,
+        "angle_step_rad": 2.3968449810713143e-05,
+        "P_step_1": 5.744865862186634e-10,
+        "P_survive_0": 0.9999623511569107,
+        "P_final_1": 3.7648843089321815e-05,
+        "K_per_step_bits": 8.288089250074622e-10,
+        "K_total_bits": 5.4316821709289045e-05,
+        "note": "N=65536: P_step=0.000000, survive=0.999962, P(|1\u27e9)=0.000038, K/step=0.000000, K_total=0.000054 bits"
+      }
+    ],
+    "small_angle_approximation": [
+      {
+        "N": 1,
+        "P_step_approx": 2.4674011002723395,
+        "K_total_approx_bits": 3.559707331246876
+      },
+      {
+        "N": 2,
+        "P_step_approx": 0.6168502750680849,
+        "K_total_approx_bits": 1.779853665623438
+      },
+      {
+        "N": 4,
+        "P_step_approx": 0.15421256876702122,
+        "K_total_approx_bits": 0.889926832811719
+      },
+      {
+        "N": 8,
+        "P_step_approx": 0.038553142191755305,
+        "K_total_approx_bits": 0.4449634164058595
+      },
+      {
+        "N": 16,
+        "P_step_approx": 0.009638285547938826,
+        "K_total_approx_bits": 0.22248170820292976
+      },
+      {
+        "N": 32,
+        "P_step_approx": 0.0024095713869847065,
+        "K_total_approx_bits": 0.11124085410146488
+      },
+      {
+        "N": 64,
+        "P_step_approx": 0.0006023928467461766,
+        "K_total_approx_bits": 0.05562042705073244
+      },
+      {
+        "N": 128,
+        "P_step_approx": 0.00015059821168654416,
+        "K_total_approx_bits": 0.02781021352536622
+      },
+      {
+        "N": 256,
+        "P_step_approx": 3.764955292163604e-05,
+        "K_total_approx_bits": 0.01390510676268311
+      },
+      {
+        "N": 512,
+        "P_step_approx": 9.41238823040901e-06,
+        "K_total_approx_bits": 0.006952553381341555
+      },
+      {
+        "N": 1024,
+        "P_step_approx": 2.3530970576022525e-06,
+        "K_total_approx_bits": 0.0034762766906707774
+      },
+      {
+        "N": 4096,
+        "P_step_approx": 1.4706856610014078e-07,
+        "K_total_approx_bits": 0.0008690691726676944
+      },
+      {
+        "N": 16384,
+        "P_step_approx": 9.191785381258799e-09,
+        "K_total_approx_bits": 0.0002172672931669236
+      },
+      {
+        "N": 65536,
+        "P_step_approx": 5.744865863286749e-10,
+        "K_total_approx_bits": 5.43168232917309e-05
+      }
+    ],
+    "landmark_N1": {
+      "N": 1,
+      "K_total_bits": Infinity,
+      "P_final_1": 1.0
+    },
+    "landmark_N_large": {
+      "N": 65536,
+      "K_total_bits": 5.4316821709289045e-05,
+      "P_final_1": 3.7648843089321815e-05
+    },
+    "suppression_factor": Infinity
+  },
+  "section2_maxwell_demon_2particle": {
+    "T_K": 300.0,
+    "n_particles": 2,
+    "n_speed_states": 2,
+    "H_per_particle_bits": 1.0,
+    "H_gas_initial_bits": 2.0,
+    "H_demon_initial_bits": 0.0,
+    "K_acquired_per_outcome_bits": 1.0,
+    "K_demon_acquired_expected_bits": 1.0,
+    "H_gas_after_measure_bits": 1.0,
+    "delta_H_gas_from_measurement_bits": -1.0,
+    "W_szilard_extracted_J": 2.870978885078724e-21,
+    "W_szilard_extracted_bits": 1.0,
+    "bits_erased": 1.0,
+    "E_landauer_erasure_J": 2.870978885078724e-21,
+    "delta_S_env_from_erasure_bits": 1.0,
+    "delta_S_env_from_erasure_J_per_K": 9.569929616929079e-24,
+    "H_demon_after_erasure_bits": 0.0,
+    "delta_S_gas_bits": -1.0,
+    "delta_S_demon_bits": 0.0,
+    "delta_S_env_bits": 1.0,
+    "delta_S_total_bits": 0.0,
+    "net_work_output_J": 0.0,
+    "K_acquisition_equals_entropy_reduction": true,
+    "K_acquisition_equals_landauer_erasure": true,
+    "landauer_erasure_equals_env_entropy_increase": true,
+    "second_law_satisfied": true
+  },
+  "section2_maxwell_demon_N_particle": [
+    {
+      "n_particles": 2,
+      "T_K": 300.0,
+      "H_gas_initial_bits": 2.0,
+      "K_demon_acquired_bits": 2.0,
+      "H_gas_after_sort_bits": 0.0,
+      "delta_H_gas_bits": -2.0,
+      "E_landauer_erasure_total_J": 5.741957770157448e-21,
+      "delta_S_env_bits": 2.0,
+      "delta_S_gas_bits": -2.0,
+      "delta_S_total_bits": 0.0,
+      "second_law_satisfied": true
+    },
+    {
+      "n_particles": 4,
+      "T_K": 300.0,
+      "H_gas_initial_bits": 4.0,
+      "K_demon_acquired_bits": 4.0,
+      "H_gas_after_sort_bits": 0.0,
+      "delta_H_gas_bits": -4.0,
+      "E_landauer_erasure_total_J": 1.1483915540314896e-20,
+      "delta_S_env_bits": 4.0,
+      "delta_S_gas_bits": -4.0,
+      "delta_S_total_bits": 0.0,
+      "second_law_satisfied": true
+    },
+    {
+      "n_particles": 8,
+      "T_K": 300.0,
+      "H_gas_initial_bits": 8.0,
+      "K_demon_acquired_bits": 8.0,
+      "H_gas_after_sort_bits": 0.0,
+      "delta_H_gas_bits": -8.0,
+      "E_landauer_erasure_total_J": 2.296783108062979e-20,
+      "delta_S_env_bits": 8.0,
+      "delta_S_gas_bits": -8.0,
+      "delta_S_total_bits": 0.0,
+      "second_law_satisfied": true
+    },
+    {
+      "n_particles": 16,
+      "T_K": 300.0,
+      "H_gas_initial_bits": 16.0,
+      "K_demon_acquired_bits": 16.0,
+      "H_gas_after_sort_bits": 0.0,
+      "delta_H_gas_bits": -16.0,
+      "E_landauer_erasure_total_J": 4.593566216125958e-20,
+      "delta_S_env_bits": 16.0,
+      "delta_S_gas_bits": -16.0,
+      "delta_S_total_bits": 0.0,
+      "second_law_satisfied": true
+    },
+    {
+      "n_particles": 32,
+      "T_K": 300.0,
+      "H_gas_initial_bits": 32.0,
+      "K_demon_acquired_bits": 32.0,
+      "H_gas_after_sort_bits": 0.0,
+      "delta_H_gas_bits": -32.0,
+      "E_landauer_erasure_total_J": 9.187132432251917e-20,
+      "delta_S_env_bits": 32.0,
+      "delta_S_gas_bits": -32.0,
+      "delta_S_total_bits": 0.0,
+      "second_law_satisfied": true
+    },
+    {
+      "n_particles": 64,
+      "T_K": 300.0,
+      "H_gas_initial_bits": 64.0,
+      "K_demon_acquired_bits": 64.0,
+      "H_gas_after_sort_bits": 0.0,
+      "delta_H_gas_bits": -64.0,
+      "E_landauer_erasure_total_J": 1.8374264864503833e-19,
+      "delta_S_env_bits": 64.0,
+      "delta_S_gas_bits": -64.0,
+      "delta_S_total_bits": 0.0,
+      "second_law_satisfied": true
+    },
+    {
+      "n_particles": 128,
+      "T_K": 300.0,
+      "H_gas_initial_bits": 128.0,
+      "K_demon_acquired_bits": 128.0,
+      "H_gas_after_sort_bits": 0.0,
+      "delta_H_gas_bits": -128.0,
+      "E_landauer_erasure_total_J": 3.6748529729007666e-19,
+      "delta_S_env_bits": 128.0,
+      "delta_S_gas_bits": -128.0,
+      "delta_S_total_bits": 0.0,
+      "second_law_satisfied": true
+    }
+  ],
+  "section3_causation": {
+    "K_acquired_bits": 1.0,
+    "E_erasure_J": 2.870978885078724e-21,
+    "delta_S_gas_bits": -1.0,
+    "delta_S_total_bits": 0.0,
+    "causal_theories": {
+      "regularity": {
+        "verdict": "incomplete",
+        "reason": "Regularity theory: causation = constant conjunction. Sorting always follows measurement \u2014 that is a regularity. But regularity cannot distinguish a demon that actually sorts from a demon that measures and does nothing. The K-acquisition step and the sorting step are both regularities yet they differ in the entropy change they produce. Regularity cannot capture the directionality embedded in K-acquisition \u2192 use \u2192 erasure."
+      },
+      "counterfactual": {
+        "verdict": "partially correct",
+        "reason": "Counterfactual theory: C causes E iff, absent C, E would not occur. If the demon had not measured (no K acquired), it could not have sorted \u2014 correct. But counterfactual theory does not explain WHY the erasure step is necessary: the counterfactual 'if demon never erased, 2nd law violated' is correct but the theory gives no mechanism for why the counterfactual world is physically blocked. The mechanism is Landauer's principle \u2014 a K-information constraint."
+      },
+      "interventionist": {
+        "verdict": "best fit",
+        "reason": "Interventionist theory (Woodward 2003): C causes E iff an intervention on C changes E. The demon intervenes on the gas by acquiring K about particle speeds and using that K to change the partition position. The intervention IS the K-acquisition event. The cost of the intervention (Landauer erasure) is the information-theoretic price of causation. This makes interventionism quantitative: the strength of the intervention (how much it costs) is exactly K_demon \u00d7 k_B T ln(2). No other causal theory makes this quantitative connection.",
+        "quantitative_strength_J": 2.870978885078724e-21,
+        "quantitative_strength_bits": 1.0
+      },
+      "structural": {
+        "verdict": "complementary",
+        "reason": "Structural causal models (Pearl): causation encoded in DAG structure. The demon fits naturally: measure \u2192 demon-state \u2192 sort \u2192 erase \u2192 environment. The DAG captures the flow. But structural models are agnostic about what makes an edge in the DAG physical rather than a mere labelling. K-information + Landauer gives edges a physical weight: each edge that crosses an K-acquisition boundary costs k_B T ln(2) per bit. Structural and interventionist are complementary."
+      }
+    },
+    "conclusion": "The Landauer-Szilard analysis makes interventionism quantitative: an intervention acquires 1.0 bit(s) of K-information and costs 2.8710e-21 J of Landauer erasure. This is the compression view of causation made thermodynamically concrete: to change a system's state, you must acquire K about it and then erase that K \u2014 paying the Landauer price. Change without K-acquisition is not an intervention; it is either unitary (K=0) or random noise."
+  }
+}

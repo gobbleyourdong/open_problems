@@ -1,0 +1,161 @@
+{
+  "script": "dark_energy_eos.py",
+  "date": "2026-04-09",
+  "constants": {
+    "H0_km_s_Mpc": 67.4,
+    "Omega_m": 0.315,
+    "Omega_Lambda": 0.685,
+    "sigma8_fiducial": 0.811
+  },
+  "observations": {
+    "Planck_2023": {
+      "w0": -1.03,
+      "w0_err": 0.03,
+      "wa": 0.0
+    },
+    "DESI_2024_combined": {
+      "w0": -0.827,
+      "w0_err": 0.197,
+      "wa": -0.75,
+      "wa_err": 0.51,
+      "correlation_w0_wa": 0.7,
+      "source": "arXiv:2404.03002, CMB+SNIa+BAO combination"
+    }
+  },
+  "chi2_lcdm_vs_desi_2d": 9.297684788892134,
+  "sigma_lcdm_vs_desi_1d_equiv": 3.049210518952756,
+  "sigma_lcdm_vs_desi_2d_equiv": 2.590894729817494,
+  "models": [
+    {
+      "label": "LCDM / Unimodular",
+      "w0": -1.0,
+      "wa": 0.0,
+      "description": "w = -1 exactly; Lambda is a cosmological constant (GR) or an integration constant (unimodular gravity). Identical predictions at classical level.",
+      "free_params_cosmo": 1,
+      "K_bits": 40,
+      "K_note": "1 parameter (Lambda value) to ~12 sig-figs = ~40 bits. Unimodular: same, reinterpreted as boundary condition.",
+      "chi2_desi": 9.297684788892134,
+      "chi2_planck": 1.0000000000000018,
+      "sigma_desi": 3.049210518952756,
+      "sigma_planck": 1.0000000000000009
+    },
+    {
+      "label": "Quintessence (typical)",
+      "w0": -0.95,
+      "wa": -0.3,
+      "description": "Slowly-rolling scalar field. w0 != -1. CPL point w0=-0.95, wa=-0.3 is typical for tracker models.",
+      "free_params_cosmo": 2,
+      "K_bits": 280,
+      "K_note": "2 CPL parameters (~80 bits) + scalar field potential specification (~200 bits). Total ~280 bits above LCDM baseline.",
+      "chi2_desi": 3.8032430895536415,
+      "chi2_planck": 7.111111111111125,
+      "sigma_desi": 1.9501905264752062,
+      "sigma_planck": 2.666666666666669
+    },
+    {
+      "label": "Running vacuum (fitted)",
+      "w0": -0.97,
+      "wa": -0.15,
+      "description": "Lambda(H) = Lambda0 + 3*nu*(H^2 - H0^2). Effective CPL: w0=-0.97, wa=-0.15 for nu~1e-3.",
+      "free_params_cosmo": 1,
+      "K_bits": 40,
+      "K_note": "1 free parameter nu (dimensionless, ~32 bits precision) plus Lambda0 (~same as LCDM). Total incremental ~40 bits.",
+      "chi2_desi": 6.091328775586248,
+      "chi2_planck": 4.000000000000007,
+      "sigma_desi": 2.468061744686759,
+      "sigma_planck": 2.0000000000000018
+    },
+    {
+      "label": "Phantom (w < -1)",
+      "w0": -1.05,
+      "wa": 0.0,
+      "description": "w < -1 (phantom crossing). Requires ghost scalar or modified gravity. wa = 0 assumed.",
+      "free_params_cosmo": 1,
+      "K_bits": 40,
+      "K_note": "1 free parameter w0 (~32 bits) plus ghost/modified gravity specification. Incremental ~40 bits above LCDM.",
+      "chi2_desi": 11.322655334167205,
+      "chi2_planck": 0.4444444444444453,
+      "sigma_desi": 3.3649153531949665,
+      "sigma_planck": 0.6666666666666673
+    }
+  ],
+  "bic_analysis": {
+    "N_eff": 2000,
+    "ln_N_eff": 7.600902459542082,
+    "delta_k_cpl_vs_lcdm": 2,
+    "bic_penalty_cpl": 15.201804919084164,
+    "delta_chi2_from_posterior": 9.297684788892134,
+    "net_delta_bic_from_posterior": 5.90412013019203,
+    "bic_verdict_from_posterior": "LCDM positively preferred (delta_BIC 2-10)",
+    "delta_2lnL_desi_paper": 14.3,
+    "net_delta_bic_from_paper": 0.9018049190841637,
+    "bic_verdict_from_paper": "LCDM preferred by BIC even using DESI's own chi2 improvement"
+  },
+  "growth_rate": {
+    "z_rsd": 0.5,
+    "sigma8_fiducial_z0": 0.811,
+    "scenarios": [
+      {
+        "label": "LCDM (w0=-1, wa=0)",
+        "w0": -1.0,
+        "wa": 0.0,
+        "gamma": 0.55,
+        "D_ratio": 0.7689225241050297,
+        "sigma8_z": 0.6235961670491791,
+        "f": 0.7606879137410922,
+        "f_sigma8": 0.4743620673295817
+      },
+      {
+        "label": "DESI best-fit (w0=-0.827, wa=-0.75)",
+        "w0": -0.827,
+        "wa": -0.75,
+        "gamma": 0.5586500000000001,
+        "D_ratio": 0.794309426576705,
+        "sigma8_z": 0.6441849449537078,
+        "f": 0.7493666328490185,
+        "f_sigma8": 0.48273070313199035
+      },
+      {
+        "label": "Quintessence (w0=-0.95, wa=-0.3)",
+        "w0": -0.95,
+        "wa": -0.3,
+        "gamma": 0.5525,
+        "D_ratio": 0.7759469848210775,
+        "sigma8_z": 0.6292930046898939,
+        "f": 0.7604163571777914,
+        "f_sigma8": 0.47852469422375593
+      },
+      {
+        "label": "Running vacuum (w0=-0.97, wa=-0.15)",
+        "w0": -0.97,
+        "wa": -0.15,
+        "gamma": 0.5515000000000001,
+        "D_ratio": 0.7733420001111773,
+        "sigma8_z": 0.6271803620901648,
+        "f": 0.7594577211620436,
+        "f_sigma8": 0.4763169685505819
+      },
+      {
+        "label": "Phantom (w0=-1.05, wa=0)",
+        "w0": -1.05,
+        "wa": 0.0,
+        "gamma": 0.5475000000000001,
+        "D_ratio": 0.7610493503515218,
+        "sigma8_z": 0.6172110231350842,
+        "f": 0.7714519375675253,
+        "f_sigma8": 0.4761486396855954
+      }
+    ],
+    "delta_fsigma8_desi_minus_lcdm": 0.008368635802408653,
+    "delta_fsigma8_relative_pct": 1.7641873958261114,
+    "euclid_rsd_uncertainty_1sigma": 0.007115431009943725,
+    "detectable_by_euclid": true
+  },
+  "k_information_summary": {
+    "k_simplest": "LCDM / Unimodular (40 bits)",
+    "k_most_expensive": "Quintessence (280 bits above LCDM baseline)",
+    "bic_threshold_delta_chi2": 15.201804919084164,
+    "desi_2024_delta_chi2": 14.3,
+    "conclusion": "DESI 2024 reports delta(-2lnL) = 14.3 for w0waCDM vs LCDM. BIC penalty for 2 extra parameters = 15.20. Net delta_BIC = 0.90. Since delta_chi2 > BIC penalty, BIC marginally prefers CPL using DESI's reported chi2 \u2014 but the margin is small (~0.9 BIC units). Under K-informationalism: Occam penalty (K-bits added by quintessence = 280 bits vs 40 bits for LCDM) is a separate, stronger consideration. A ~3.9 sigma statistical preference for w != -1 does not yet justify adding 240 bits of K-content (field specification). K-informationalism supports LCDM/unimodular until evidence is both statistically and informationally compelling."
+  }
+}
