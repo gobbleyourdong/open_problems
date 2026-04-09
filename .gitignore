@@ -1,19 +1,22 @@
 # Build caches
 __pycache__/
 *.pyc
+*.pyo
 
 # Lean build artifacts
 **/.lake/
 .lake/
 lake-manifest.json.lock
 
-# Transcriptomics raw data (download on demand from GEO)
+# Raw research datasets (download on demand)
 **/transcriptomics/
 **/raw_seq_data/
 
 # Large binary archives
 *.tar
 *.tar.gz
+*.tgz
+*.zip
 *.h5
 *.hdf5
 *.npz
@@ -29,7 +32,6 @@ lake-manifest.json.lock
 *.mmcif
 *.map
 *.map.gz
-**/structures/
 
 # Trained model files
 *.bin
@@ -38,3 +40,10 @@ lake-manifest.json.lock
 *.pt
 *.pth
 *.ckpt
+
+# Session logs (use attempts/ instead per v3)
+SESSION_*.md
+STATUS_*.md
+
+# Sigma method itself (lives only in ~/SIGMA_METHOD.md)
+SIGMA_METHOD.md
