@@ -52,6 +52,11 @@ Zero failures across 15,000+ configurations.
 
 One virus. Twelve diseases. One protocol.
 
+<p align="center">
+  <img src="medical/cvb_structure.png" alt="CVB Capsid Protomer — PDB 9TKM" width="800"/>
+</p>
+<p align="center"><i>Coxsackievirus B1 capsid protomer — first-ever atomic structure (PDB: 9TKM, 2025)</i></p>
+
 All caused by **Coxsackievirus B** (CVB) — same pathogen, same persistence mechanism (5' terminal deletion), same proteases doing damage.
 
 | Disease | Connection | Key Target |
