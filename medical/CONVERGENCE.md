@@ -75,6 +75,7 @@ Ranked by feasibility and speed to proof:
 
 ### Tier 2: Can start with modest infrastructure
 4. **ME/CFS**: PEM-safe CVB clearance protocol (SF-36 + NK cell function + cfRNA MT-ND3 panel, n=30 pilot)
+5. **Pleurodynia prevention**: 12-week protocol at diagnosis → prevent T1DM+ME/CFS+DCM simultaneously. Composite endpoint. n=50/arm. Requires CVB serology at presentation. See pleurodynia/attempts/attempt_003.
 4. **Pleurodynia surveillance**: add CVB testing to ED chest pain workup (observational, n=500)
 5. **Hepatitis diagnostic**: CVB testing in T1DM patients with elevated LFTs (observational, n=100)
 

@@ -120,6 +120,31 @@ TIER 2: Post-Exposure Prevention Windows (available now)
 
 **Trial design**: n=60 patients, cardiac MRI primary endpoint. Tier 3. See myocarditis gap.md and DCM/attempt_005.
 
+### Window 4: At Pleurodynia Diagnosis → Prevent T1DM + ME/CFS + DCM Simultaneously
+
+**When**: within 7-10 days of CVB pleurodynia onset (patient still presenting to physician)
+
+**Why**: pleurodynia is the MOST UPSTREAM prevention window. The patient has active CVB viremia with WT still circulating. TD mutants are just forming. All downstream organ seeding is occurring RIGHT NOW. This is the ONLY clinical presentation where:
+1. The patient is acutely symptomatic (seeks care)
+2. The CVB infection is identifiable
+3. All downstream pipelines (T1DM, ME/CFS, DCM) haven't started
+
+**Protocol** (12 weeks):
+
+| Component | Dose | Notes |
+|-----------|------|-------|
+| Trehalose | 2g/day from day 1 | LAMP2 rescue in ALL simultaneously infected tissues |
+| Fluoxetine | 20mg/day | WT CVB clearance in muscle + all other organs |
+| Butyrate | 4-6g/day | FOXP1 protection before islet autoimmunity starts |
+| FMD × 2 | Weeks 4 and 8 | Two autophagy pulses during peak TD window |
+| Vitamin D | 5000 IU/day | Treg support |
+
+**Confirmation first**: CVB serology (VP1 IgM) to confirm CVB etiology — other causes of pleurodynia exist.
+
+**Expected outcome**: prevention of T1DM, ME/CFS, and DCM in the same patient. The most comprehensive single prevention intervention in the campaign.
+
+**Trial design**: n=50/arm, 2-year composite endpoint (islet autoantibody seroconversion + ME/CFS diagnosis + cardiac T2 elevation). See pleurodynia/attempts/attempt_003.
+
 ---
 
 ## The Prevention-Treatment Boundary
