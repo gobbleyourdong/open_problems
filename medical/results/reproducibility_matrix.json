@@ -1,0 +1,113 @@
+{
+  "description": "Cross-dataset CVB transcriptomics reproducibility matrix. Values are log2(fold change). Positive = upregulated in CVB infection.",
+  "datasets": {
+    "GSE184831": {
+      "description": "Persistent CVB1 infection, PANC-1 human pancreatic cells, RNA-seq",
+      "organism": "Human",
+      "cell_type": "PANC-1 pancreatic cancer cells",
+      "infection": "CVB1 persistent (several weeks)",
+      "comparison": "Persistent vs uninfected",
+      "genes": {
+        "LAMP2": -1.43,
+        "IFIT1": 2.45,
+        "IFIT3": 1.81,
+        "MX1": 0.86,
+        "CXADR": -5.0,
+        "FOXP1": null,
+        "ISG15": 0.53,
+        "LAMP1": -0.68,
+        "IFIT2": 1.86
+      }
+    },
+    "GSE278756": {
+      "description": "Acute CVB4-E2 infection, EndoC-\u03b2H1 human beta cells, RNA-seq",
+      "organism": "Human",
+      "cell_type": "EndoC-\u03b2H1 beta cells",
+      "infection": "CVB4-E2 acute",
+      "comparison": "Infected vs control",
+      "genes": {
+        "LAMP2": -0.611,
+        "IFIT1": -0.782,
+        "IFIT3": -0.661,
+        "MX1": -0.363,
+        "CXADR": -0.625,
+        "FOXP1": -0.68,
+        "ISG15": -0.758,
+        "LAMP1": -0.719,
+        "IFIT2": -1.042
+      }
+    },
+    "GSE274264_beta": {
+      "description": "CVB3 infection, primary human islets (scRNA-seq), beta cells",
+      "organism": "Human",
+      "cell_type": "Primary beta cells",
+      "infection": "CVB3 acute",
+      "comparison": "CVB3 vs control",
+      "genes": {
+        "LAMP2": -0.168,
+        "IFIT1": 0.518,
+        "IFIT3": 0.731,
+        "MX1": 0.936,
+        "CXADR": -0.075,
+        "FOXP1": -0.004,
+        "ISG15": 0.668,
+        "LAMP1": -0.128,
+        "IFIT2": 0.77
+      }
+    },
+    "GSE274264_ductal": {
+      "description": "CVB3 infection, primary human islets (scRNA-seq), ductal cells",
+      "organism": "Human",
+      "cell_type": "Primary ductal cells",
+      "infection": "CVB3 acute",
+      "comparison": "CVB3 vs control",
+      "genes": {
+        "LAMP2": -0.009,
+        "IFIT1": 2.333,
+        "IFIT3": 1.343,
+        "MX1": 1.653,
+        "CXADR": -0.049,
+        "FOXP1": 0.019,
+        "ISG15": 1.493,
+        "LAMP1": -0.045,
+        "IFIT2": 1.349
+      }
+    },
+    "GSE44706_heart": {
+      "description": "CVB3 infection, mouse heart day 6 (microarray)",
+      "organism": "Mouse",
+      "cell_type": "Whole heart tissue",
+      "infection": "CVB3 day 6",
+      "comparison": "CVB3 vs uninfected",
+      "genes": {
+        "LAMP2": null,
+        "IFIT1": 4.406,
+        "IFIT3": 3.378,
+        "MX1": 4.208,
+        "CXADR": null,
+        "FOXP1": null,
+        "ISG15": 3.04,
+        "LAMP1": null,
+        "IFIT2": 3.038
+      }
+    },
+    "GSE57781_hiPSCCM": {
+      "description": "CVB3 + IFNb1, human iPSC-cardiomyocytes (microarray)",
+      "organism": "Human",
+      "cell_type": "hiPSC-derived cardiomyocytes",
+      "infection": "CVB3 + IFNb1 treatment",
+      "comparison": "IFNb1+CVB3 vs CVB3 (IFN treatment effect)",
+      "genes": {
+        "LAMP2": 0.005,
+        "IFIT1": 4.397,
+        "IFIT3": 2.769,
+        "MX1": null,
+        "CXADR": null,
+        "FOXP1": null,
+        "ISG15": null,
+        "LAMP1": null,
+        "IFIT2": 1.55
+      }
+    }
+  }
+}

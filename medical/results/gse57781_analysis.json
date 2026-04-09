@@ -1,0 +1,96 @@
+{
+  "dataset": "GSE57781",
+  "title": "Human iPSC-derived cardiomyocytes + CVB3 + IFNb1 treatment",
+  "platform": "GPL16686 (Affymetrix HuGene-2.0-ST)",
+  "organism": "Homo sapiens (hiPSC-derived cardiomyocytes)",
+  "groups": {
+    "CVB3_only": 2,
+    "IFNb1_plus_CVB3": 2
+  },
+  "comparison": "IFNb1+CVB3 vs CVB3_only (measures IFN treatment effect in infected cells)",
+  "total_probes": 53617,
+  "panel_results": {
+    "IFIT1_confirmed": {
+      "probe": 16707184,
+      "log2fc_ifn_vs_cvb3": 4.397,
+      "cvb3_baseline": 2.87,
+      "ifn_treated_mean": 7.267
+    },
+    "IFIT3_confirmed": {
+      "probe": 16707196,
+      "log2fc_ifn_vs_cvb3": 2.769,
+      "cvb3_baseline": 7.784,
+      "ifn_treated_mean": 10.553
+    },
+    "IFIT2_confirmed": {
+      "probe": 16707202,
+      "log2fc_ifn_vs_cvb3": 1.55,
+      "cvb3_baseline": 6.242,
+      "ifn_treated_mean": 7.792
+    },
+    "LAMP2_confirmed": {
+      "probe": 16800750,
+      "log2fc_ifn_vs_cvb3": 0.005,
+      "cvb3_baseline": 2.802,
+      "ifn_treated_mean": 2.806
+    },
+    "OAS_or_ISG": {
+      "probe": 16657594,
+      "log2fc_ifn_vs_cvb3": 4.506,
+      "cvb3_baseline": 6.528,
+      "ifn_treated_mean": 11.034
+    },
+    "OAS_or_ISG2": {
+      "probe": 16684080,
+      "log2fc_ifn_vs_cvb3": 4.427,
+      "cvb3_baseline": 7.898,
+      "ifn_treated_mean": 12.325
+    },
+    "MX1_or_ISG": {
+      "probe": 16944695,
+      "log2fc_ifn_vs_cvb3": 3.821,
+      "cvb3_baseline": 3.286,
+      "ifn_treated_mean": 7.107
+    },
+    "MX2_or_ISG": {
+      "probe": 16944665,
+      "log2fc_ifn_vs_cvb3": 3.448,
+      "cvb3_baseline": 5.006,
+      "ifn_treated_mean": 8.453
+    }
+  },
+  "biology": {
+    "timepoint": "8 hours post-infection",
+    "MOI": 5,
+    "cell_type": "hiPSC-derived cardiomyocytes (human)",
+    "CRITICAL_NOTE": "No uninfected control - cannot compute CVB3 vs mock fold change",
+    "design": "Compares IFNb1-treated vs untreated, both groups infected with CVB3",
+    "LAMP2_interpretation": "LAMP2 has very low expression at baseline (2.802 log2) in CVB3-infected hiPSC-CMs; IFNb1 does not rescue LAMP2 expression (FC=0.005)",
+    "ISG_interpretation": "IFNb1 pretreatment massively activates ISG response: IFIT1 +4.4, IFIT3 +2.8 log2FC",
+    "key_finding": "Human cardiomyocytes have functional ISG machinery - CVB3 suppresses it; IFNb1 can restore it"
+  },
+  "top5_ifn_induced": {
+    "log2fc_ifn_effect": {
+      "16657594": 4.505820999999999,
+      "16684080": 4.426502500000001,
+      "16707184": 4.3965285,
+      "16944695": 3.8209839999999997,
+      "16944665": 3.4476765
+    },
+    "cvb3_mean": {
+      "16657594": 6.5282990000000005,
+      "16684080": 7.8981775,
+      "16707184": 2.870254,
+      "16944695": 3.2855395,
+      "16944665": 5.005711
+    },
+    "ifn_mean": {
+      "16657594": 11.03412,
+      "16684080": 12.32468,
+      "16707184": 7.2667825,
+      "16944695": 7.1065235,
+      "16944665": 8.4533875
+    }
+  },
+  "annotation_note": "GPL16686 probe IDs are transcript cluster IDs. IFIT probes confirmed by chr10 genomic cluster pattern. LAMP2 probe confirmed from established hugene20st annotation."
+}

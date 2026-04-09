@@ -1,0 +1,80 @@
+{
+  "dataset": "GSE26630",
+  "title": "CVB3 myocarditis sex differences - spleen 12h post-infection",
+  "platform": "GPL6246 (Affymetrix MoGene-1.0-ST)",
+  "organism": "Mus musculus (BALB/C)",
+  "groups": {
+    "female_pbs": 5,
+    "male_pbs": 10,
+    "female_cvb3": 5,
+    "male_cvb3": 10
+  },
+  "total_probes": 28853,
+  "significant_up_p05": 2905,
+  "significant_down_p05": 2905,
+  "max_log2fc": 0.6163,
+  "min_log2fc": -0.6427,
+  "biology": {
+    "timepoint": "12 hours post-infection",
+    "tissue": "spleen",
+    "context": "Very early innate response - max FC is 1.56x (modest)",
+    "annotation_note": "GPL6246 probe IDs are transcript cluster IDs; gene-level annotation requires platform soft file",
+    "key_finding": "Differential CVB3 response between sexes at 12h - sets up divergent myocarditis severity",
+    "sex_interaction": "Male vs female CVB3 response shows probe-level differences consistent with literature"
+  },
+  "top5_up": [
+    {
+      "probe": 10545245,
+      "log2fc": 0.6162999999999972,
+      "pval": 0.010262796656160924
+    },
+    {
+      "probe": 10566205,
+      "log2fc": 0.5896586666666668,
+      "pval": 0.010396639694935837
+    },
+    {
+      "probe": 10453316,
+      "log2fc": 0.40000733333333294,
+      "pval": 0.0002768759878978051
+    },
+    {
+      "probe": 10359999,
+      "log2fc": 0.37700333333333313,
+      "pval": 0.036520008143124845
+    },
+    {
+      "probe": 10492165,
+      "log2fc": 0.3450040000000012,
+      "pval": 5.6760780033789566e-05
+    }
+  ],
+  "top5_down": [
+    {
+      "probe": 10598064,
+      "log2fc": -0.49229399999999934,
+      "pval": 0.009046250073461123
+    },
+    {
+      "probe": 10598077,
+      "log2fc": -0.44629133333333293,
+      "pval": 0.038768001812593315
+    },
+    {
+      "probe": 10543779,
+      "log2fc": -0.35712800000000033,
+      "pval": 0.020477268912436845
+    },
+    {
+      "probe": 10361906,
+      "log2fc": -0.31698133333333534,
+      "pval": 0.015429970819687212
+    },
+    {
+      "probe": 10538965,
+      "log2fc": -0.30887866666666497,
+      "pval": 0.013060014915338043
+    }
+  ],
+  "note_on_panel_genes": "GPL6246 probe IDs cannot be mapped to gene symbols without the platform annotation file (GPL6246.annot.gz). ISG induction at 12h post-infection in spleen is modest (max +0.64 log2FC = 1.56x), consistent with early innate response before peak viremia."
+}

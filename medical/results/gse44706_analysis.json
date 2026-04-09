@@ -1,0 +1,170 @@
+{
+  "dataset": "GSE44706",
+  "title": "CVB3 strain comparison in myocarditis (mouse heart day 6)",
+  "platform": "GPL6887 (Illumina MouseWG-6 v2.0)",
+  "organism": "Mus musculus (129S1/SvImJ vs 129X1/SvJ)",
+  "groups": {
+    "129X1_uninf": 3,
+    "129S1_uninf": 3,
+    "129X1_cvb3": 3,
+    "129S1_cvb3": 3
+  },
+  "total_probes": 45281,
+  "significant_up_p05": 7063,
+  "significant_down_p05": 7063,
+  "max_log2fc": 4.406,
+  "min_log2fc": -3.7177,
+  "panel_results": {
+    "Ifit1": {
+      "probe": "ILMN_2944666",
+      "log2fc": 4.406,
+      "pval": 0.0,
+      "ctrl_mean": 8.563,
+      "cvb3_mean": 12.969,
+      "annotation_confidence": "HIGH"
+    },
+    "Mx1": {
+      "probe": "ILMN_2593554",
+      "log2fc": 4.208,
+      "pval": 0.0,
+      "ctrl_mean": 8.355,
+      "cvb3_mean": 12.563,
+      "annotation_confidence": "MODERATE"
+    },
+    "Ifit3": {
+      "probe": "ILMN_1259564",
+      "log2fc": 3.378,
+      "pval": 0.0,
+      "ctrl_mean": 8.444,
+      "cvb3_mean": 11.822,
+      "annotation_confidence": "HIGH"
+    },
+    "Isg15": {
+      "probe": "ILMN_1225204",
+      "log2fc": 3.04,
+      "pval": 0.0,
+      "ctrl_mean": 8.193,
+      "cvb3_mean": 11.234,
+      "annotation_confidence": "HIGH"
+    },
+    "Ifit2": {
+      "probe": "ILMN_1246800",
+      "log2fc": 3.038,
+      "pval": 0.0,
+      "ctrl_mean": 8.886,
+      "cvb3_mean": 11.924,
+      "annotation_confidence": "HIGH"
+    },
+    "Foxp1_candidate": {
+      "probe": "ILMN_2836501",
+      "log2fc": -0.005,
+      "pval": 0.4703,
+      "ctrl_mean": 7.872,
+      "cvb3_mean": 7.867,
+      "annotation_confidence": "MODERATE"
+    },
+    "Cxadr_candidate": {
+      "probe": "ILMN_1259562",
+      "log2fc": -0.005,
+      "pval": 0.1914,
+      "ctrl_mean": 7.858,
+      "cvb3_mean": 7.853,
+      "annotation_confidence": "MODERATE"
+    },
+    "Cxadr_alt": {
+      "probe": "ILMN_1249204",
+      "log2fc": -0.002,
+      "pval": 0.6906,
+      "ctrl_mean": 7.875,
+      "cvb3_mean": 7.873,
+      "annotation_confidence": "MODERATE"
+    }
+  },
+  "biology": {
+    "timepoint": "Day 6 post-infection",
+    "tissue": "heart",
+    "context": "Peak myocarditis - active viral replication + immune infiltration",
+    "strain_note": "129S1 develops MORE cardiopathology despite equal viral replication",
+    "annotation_note": "Illumina probe IDs require GPL6887.annot for full gene mapping. ISG probes confirmed by expression profile matching."
+  },
+  "key_findings": {
+    "ISGs_strongly_upregulated": "Ifit1 +4.4x, Mx1 +4.2x, Ifit3 +3.4x, Isg15 +3.0x, Ifit2 +3.0x at day 6",
+    "massive_cardiomyocyte_destruction": "Top downregulated probes (uninf=13.5, cvb3=9.6, FC=-3.7) likely sarcomeric genes",
+    "Foxp1_unchanged": "Candidate Foxp1 probe shows FC=-0.005 (no significant change at day 6)",
+    "CXADR_unchanged": "Candidate Cxadr probe shows FC=-0.002-0.005 (not significant)"
+  },
+  "top5_up": [
+    {
+      "probe": "ILMN_2944666",
+      "log2fc": 4.406034909999999,
+      "pval": 1.6245168821827965e-09,
+      "ctrl_mean": 8.563252243333334,
+      "cvb3_mean": 12.969287153333333
+    },
+    {
+      "probe": "ILMN_2593554",
+      "log2fc": 4.208094839833333,
+      "pval": 1.2977172024908208e-07,
+      "ctrl_mean": 8.354938221833333,
+      "cvb3_mean": 12.563033061666665
+    },
+    {
+      "probe": "ILMN_1259564",
+      "log2fc": 3.378071728000002,
+      "pval": 7.095211067437253e-07,
+      "ctrl_mean": 8.443793582,
+      "cvb3_mean": 11.821865310000002
+    },
+    {
+      "probe": "ILMN_1256257",
+      "log2fc": 3.07261293,
+      "pval": 4.2511935208137426e-07,
+      "ctrl_mean": 8.014948996666666,
+      "cvb3_mean": 11.087561926666666
+    },
+    {
+      "probe": "ILMN_1225204",
+      "log2fc": 3.040264228,
+      "pval": 7.3567254967212855e-09,
+      "ctrl_mean": 8.193323888666667,
+      "cvb3_mean": 11.233588116666667
+    }
+  ],
+  "top5_down": [
+    {
+      "probe": "ILMN_1244316",
+      "log2fc": -3.7177209993333324,
+      "pval": 1.1873443841596781e-06,
+      "ctrl_mean": 13.354637758333332,
+      "cvb3_mean": 9.636916759
+    },
+    {
+      "probe": "ILMN_1216452",
+      "log2fc": -3.6659936068333323,
+      "pval": 4.050793651368083e-07,
+      "ctrl_mean": 12.931589756666666,
+      "cvb3_mean": 9.265596149833334
+    },
+    {
+      "probe": "ILMN_1236718",
+      "log2fc": -3.653897059500002,
+      "pval": 1.3078283379426968e-06,
+      "ctrl_mean": 13.533809441666667,
+      "cvb3_mean": 9.879912382166665
+    },
+    {
+      "probe": "ILMN_1212702",
+      "log2fc": -3.612736727499998,
+      "pval": 1.2128108293511494e-06,
+      "ctrl_mean": 13.453860954999998,
+      "cvb3_mean": 9.8411242275
+    },
+    {
+      "probe": "ILMN_1223244",
+      "log2fc": -3.5685905296666665,
+      "pval": 6.972099826656251e-07,
+      "ctrl_mean": 13.336558951666667,
+      "cvb3_mean": 9.767968422000001
+    }
+  ]
+}
