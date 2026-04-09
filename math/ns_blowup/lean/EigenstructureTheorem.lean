@@ -78,6 +78,33 @@ theorem strain_on_v (k v : Fin 3 → ℝ) (hdiv : dot_e k v = 0) (hk : dot_e k k
   rw [h_triple, h_div]
   ring
 
+/-- S_k maps w explicitly to -|v|²/2 · k (the eigenvalue equation for w direction).
+    For unit |v|=1: S_k · w = -k/2.
+    PROOF: S_k·w = -(1/(2|k|²))[(w·w)k + (w·k)w] = -(|w|²/(2|k|²))·k
+                  = -(|k|²|v|²/(2|k|²))·k = -(|v|²/2)·k
+    Uses: k ⊥ w and the Lagrange identity (k·v=0 ⟹ |k×v|² = |k|²|v|²). -/
+theorem strain_on_w_eigenvalue (k v : Fin 3 → ℝ)
+    (hdiv : dot_e k v = 0) (hk : dot_e k k > 0) :
+    -- S_k applied to (cross_e k v) gives -(|v|²/2) times k
+    ∀ i : Fin 3, strain_action k v (cross_e k v) i = -(dot_e v v / 2) * k i := by
+  intro i
+  unfold strain_action
+  simp only []
+  -- The numerator: dot_e (cross_e k v) (cross_e k v) * k i + dot_e (cross_e k v) k * (cross_e k v) i
+  -- The cross_e k v is perpendicular to k: dot_e (cross_e k v) k = 0
+  -- And dot_e (cross_e k v) (cross_e k v) = dot_e k k * dot_e v v (Lagrange + div-free)
+  have h_perp : dot_e (cross_e k v) k = 0 := by unfold dot_e cross_e; ring
+  have h_norm : dot_e (cross_e k v) (cross_e k v) = dot_e k k * dot_e v v := by
+    unfold dot_e cross_e
+    have h_div : dot_e k v = 0 := hdiv
+    unfold dot_e at h_div
+    nlinarith [h_div, sq_nonneg (k 0 * v 1 - k 1 * v 0),
+               sq_nonneg (k 0 * v 2 - k 2 * v 0),
+               sq_nonneg (k 1 * v 2 - k 2 * v 1)]
+  rw [h_perp, h_norm]
+  field_simp
+  ring
+
 /-! ## Eigenvalue Equations for (k±w)/√2 -/
 
 /-- S_k · (k+w) = -w/2 - k/2 = -(k+w)/2: eigenvalue -1/2.
@@ -134,14 +161,16 @@ theorem output_perp_polarization (k v a : Fin 3 → ℝ)
 
 /-! ## Theorem Count:
     - strain_on_k: PROVEN (cross_perp + field_simp + ring)
-    - strain_on_w: PROVEN (Lagrange identity via nlinarith)
+    - strain_on_w (Lagrange identity): PROVEN (nlinarith)
+    - strain_on_w_eigenvalue (S·w = -|v|²/2 · k): PROVEN (Lagrange + perp + field_simp)
     - strain_on_v: PROVEN (scalar triple + div-free)
     - strain_eigenvector_minus: PROVEN (eigenvalue equation)
     - output_perp_polarization: PROVEN (strain image ⊥ v, nlinarith)
     - frobenius_from_eigenvalues: PROVEN (norm_num)
-    Total: 6 proved, 0 sorry
+    Total: 7 proved, 0 sorry
 
     UNIFYING RESULT: {-1/2, 0, +1/2} eigenstructure explains all NS algebra.
+    Now with EXPLICIT eigenvalue equations for both k and w directions.
     The mode that creates strain cannot benefit from it (null eigenvector).
     The mode's strain output is always ⊥ to its own polarization (C5).
 -/

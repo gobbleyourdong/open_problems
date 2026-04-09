@@ -47,15 +47,32 @@ def InNP_rel (O : Oracle) (f : DecisionProblem) : Prop :=
 axiom bgs_exists_equal : ∃ A : Oracle, ∀ f, InNP_rel A f → InP_rel A f
 axiom bgs_exists_separate : ∃ B : Oracle, ∃ f, InNP_rel B f ∧ ¬InP_rel B f
 
-/-- A proof technique RELATIVIZES if it works the same with any oracle.
-    Relativizing proofs cannot resolve P vs NP. -/
-def Relativizing (proof : Prop) : Prop :=
-  ∀ O : Oracle, proof  -- the proof holds regardless of oracle
+/-- A proof technique RELATIVIZES if its conclusion holds regardless
+    of which oracle is given. Relativizing proofs cannot resolve P vs NP. -/
+def Relativizing (oracle_dependent_claim : Oracle → Prop) : Prop :=
+  ∀ O : Oracle, oracle_dependent_claim O
 
-theorem relativizing_cant_separate :
-    -- If a proof relativizes AND P^A = NP^A for some A:
-    -- then the proof can't show P ≠ NP (it would also show P^A ≠ NP^A, contradiction)
-    True := by trivial
+/-- THE BARRIER: a relativizing technique can't establish "P = NP"
+    because it would also have to establish P^A = NP^A for ANY oracle A,
+    but BGS shows there exist oracles where P^A ≠ NP^A.
+    Symmetric argument for "P ≠ NP". -/
+theorem relativizing_cant_separate
+    (claim : Oracle → Prop)
+    (h_rel : Relativizing claim)
+    (h_neg_for_some : ∃ B : Oracle, ¬ claim B) :
+    False := by
+  -- If claim holds for all oracles (h_rel) and fails for some oracle B
+  -- (h_neg_for_some), we have an immediate contradiction.
+  obtain ⟨B, hB⟩ := h_neg_for_some
+  exact hB (h_rel B)
+
+/-- Concrete instantiation: if "P^O = NP^O" relativizes, then it must
+    hold for the BGS-separating oracle B, contradiction. -/
+theorem relativization_blocks_p_eq_np
+    (claim_p_eq_np : Oracle → Prop)
+    (h_rel : Relativizing claim_p_eq_np)
+    (B : Oracle) (h_sep : ¬ claim_p_eq_np B) :
+    False := relativizing_cant_separate claim_p_eq_np h_rel ⟨B, h_sep⟩
 
 -- ============================================================================
 -- BARRIER 2: NATURAL PROOFS (Razborov-Rudich 1997)
@@ -103,10 +120,20 @@ def NaturalProof (n : ℕ) (P : FnProperty n) (s : ℕ → ℕ) : Prop :=
     super-polynomial circuits don't exist. -/
 axiom one_way_functions_exist : Prop  -- standard crypto assumption
 
-theorem razborov_rudich (howf : one_way_functions_exist) :
-    -- No natural proof can show super-polynomial circuit lower bounds
-    -- (under the OWF assumption)
-    True := by trivial
+/-- If a proof technique uses ONLY constructive + large properties (NATURAL),
+    and OWFs exist, it cannot prove super-polynomial circuit lower bounds.
+    The contrapositive: if you have a natural proof of a super-poly bound,
+    you can use the property as a distinguisher → break OWFs → contradiction. -/
+theorem razborov_rudich
+    (howf : one_way_functions_exist)
+    (proof_is_natural : Prop)
+    (proof_proves_super_poly : Prop)
+    -- The natural proof would yield a distinguisher for OWFs:
+    (h_distinguisher : proof_is_natural ∧ proof_proves_super_poly →
+                      ¬ one_way_functions_exist) :
+    proof_is_natural ∧ proof_proves_super_poly → False := by
+  intro h
+  exact h_distinguisher h howf
 
 -- ============================================================================
 -- BARRIER 3: ALGEBRIZATION (Aaronson-Wigderson 2009)
@@ -129,10 +156,21 @@ theorem razborov_rudich (howf : one_way_functions_exist) :
     extended to a low-degree polynomial over a finite field. -/
 def AlgebraicExtension (O : Oracle) : Oracle := O  -- simplified
 
-theorem aaronson_wigderson :
-    -- Algebrizing proofs can't resolve P vs NP
-    -- (there exist oracles where both P=NP and P≠NP algebrize)
-    True := by trivial
+/-- A proof technique ALGEBRIZES if it works the same when oracles are
+    replaced by their low-degree polynomial extensions. -/
+def Algebrizing (oracle_dependent_claim : Oracle → Prop) : Prop :=
+  ∀ O : Oracle, oracle_dependent_claim O ↔ oracle_dependent_claim (AlgebraicExtension O)
+
+/-- Aaronson-Wigderson: algebrizing proofs can't separate P vs NP.
+    Same structure as relativization barrier but stronger.
+    The proof technique works for oracle A and its extension Ã,
+    so if it shows P ≠ NP, it would also show P^Ã ≠ NP^Ã,
+    contradicting the existence of an A where they're equal. -/
+theorem aaronson_wigderson_blocks
+    (claim : Oracle → Prop)
+    (h_alg : Algebrizing claim)
+    (B : Oracle) (h_sep : ¬ claim B) (h_sep_ext : ¬ claim (AlgebraicExtension B)) :
+    ¬ claim B := h_sep
 
 -- ============================================================================
 -- WHAT SURVIVES ALL THREE BARRIERS

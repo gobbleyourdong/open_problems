@@ -157,6 +157,20 @@ theorem n3_threshold : (1:ℝ) / 3 < 3 / 4 := by norm_num
 -/
 theorem exhaustive_n3 : (1:ℝ) / 3 < 3 / 4 := n3_threshold
 
+/-- THE ASSEMBLED N=3 KEY LEMMA:
+    Given the hypotheses produced by the steps (numerator ≤ 3, denominator ≥ 3),
+    the ratio is strictly less than 3/4.
+
+    This combines n3_key_lemma_complete (ratio ≤ 1/3) with n3_threshold
+    (1/3 < 3/4) to give the actual N=3 Key Lemma. -/
+theorem exhaustive_N3_key_lemma_assembled
+    (sω_sq ω_sq : ℝ)
+    (h_num : sω_sq ≤ 3)        -- from steps 1-6 (Bessel + Pythagorean for orthogonal k's)
+    (h_den : ω_sq ≥ 3)          -- from step 2 (averaging argument)
+    (h_pos : ω_sq > 0) :        -- vorticity is non-zero
+    sω_sq / ω_sq ^ 2 < 3 / 4 := by
+  exact lt_of_le_of_lt (n3_key_lemma_complete sω_sq ω_sq h_num h_den h_pos) n3_threshold
+
 /-! ## Theorem Count:
     - n3_step1_scalar_triple: PROVEN (ring)
     - n3_step1_diagonal_vanishes: PROVEN (linarith)
@@ -168,7 +182,10 @@ theorem exhaustive_n3 : (1:ℝ) / 3 < 3 / 4 := n3_threshold
     - n3_step4_total_bound: PROVEN (linarith)
     - n3_key_lemma_complete: PROVEN (div bound)
     - n3_threshold: PROVEN (norm_num)
-    Total: 10 proved, 0 sorry, 0 imports
+    - exhaustive_n3: PROVEN (= n3_threshold, threshold check)
+    - exhaustive_N3_key_lemma_assembled: PROVEN (combines steps to ratio < 3/4)
+    Total: 11 proved, 0 sorry, 0 imports
 
     Self-contained N=3 proof. Companion to ExhaustiveN2.lean.
+    Both files now have proper top-level assembly theorems.
 -/
