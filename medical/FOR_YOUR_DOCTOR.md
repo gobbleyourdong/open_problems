@@ -53,6 +53,8 @@ Hand your doctor this list. Most of it is routine:
 - Youm et al. 2015 (Nature Medicine): BHB and NLRP3
 - Kühl et al. 2003 (Circulation): IFN-β clearing enterovirus from DCM hearts
 - Longo et al. 2017 (Cell): FMD and beta cell regeneration
+- GSE184831 (2024, GEO): Transcriptomics of persistent CVB1 in human pancreatic cells — confirms DMD -32x (dystrophin destruction), LAMP2 -2.7x (lysosomal block), FOXP1 -67x (immune tolerance)
+- GSE293840 (2025, GEO): Plasma cfRNA in 93 ME/CFS patients — 34 predicted genes significant; MT-ND3 validated as disease biomarker
 
 ## The Prescription Conversation
 
@@ -63,7 +65,9 @@ Hand your doctor this list. Most of it is routine:
 4. **Optional: colchicine 0.5mg** — "Colchicine suppresses the NLRP3 inflammasome, which drives islet inflammation. It's FDA-approved, cheap, and well-tolerated."
 
 ### What you DON'T need a prescription for:
-- Vitamin D, omega-3, butyrate, magnesium, CoQ10, selenium, zinc — all OTC
+- Vitamin D, omega-3, **butyrate 4–6g/day** (sodium butyrate capsules), magnesium, selenium, zinc — all OTC
+- **CoQ10 600mg daily** + **NAD+ precursor (NMN or NR 500mg)** — mitochondrial support, recently validated as a target in transcriptomic studies of this disease
+- **Trehalose 2g daily** — a naturally-occurring disaccharide (in mushrooms, insects, some plants); available as a food supplement. It activates TFEB → lysosomal biogenesis. This addresses a specific lysosomal fusion block (LAMP2 suppression) identified in CVB-infected human pancreatic cell transcriptomics.
 - Fasting-mimicking diet — dietary choice, not medical intervention
 - Cold exposure / Wim Hof breathing — lifestyle choice
 
@@ -84,13 +88,18 @@ Propose this to your doctor:
 
 "This is basically quarterly bloodwork with a few extra markers. It's low-risk monitoring for a low-risk intervention."
 
+**Optional add (if available through research lab):**
+- Cell-free RNA panel (MT-ND3, PRF1, STAT2) — newly validated treatment-response biomarker for CVB-related disease; measures mitochondrial recovery and immune normalization
+
 ## The Safety Discussion
 
 Your doctor will want to know about risks. Honest answers:
 
 **Fluoxetine risks**: SSRI side effects (nausea, headache, insomnia first 1-2 weeks, sexual side effects). Well-characterized — millions of people take it. Added bleeding risk if combined with NSAIDs (avoid or use PPI).
 
-**Fasting risks in T1DM**: Hypoglycemia. "I'll reduce my insulin during fasting days, monitor glucose every 2-3 hours, and stop if glucose drops below 70. I'd like your guidance on insulin adjustment."
+**Fasting risks in T1DM**: Hypoglycemia AND DKA. "I'll maintain at least 85% of my basal insulin during fasting days, monitor glucose every 2-3 hours, AND measure blood ketones (BHB) at hour 18 of any fast. If ketones exceed 2.5 mM, I'll end the fast and eat. I will NEVER take exogenous BHB supplements during a fasting day — that combination pushes into DKA territory. I'd like your guidance on the precise insulin adjustment."
+
+⚠️ Important: Before starting the fasting-mimicking diet, obtain **hs-troponin I and echo/cardiac MRI**. Subacute CVB myocarditis can be silent. Fasting + cold exposure are cardiovascular stressors — knowing the cardiac baseline is non-negotiable.
 
 **Supplement risks**: "Everything I'm taking is within standard recommended ranges. I'm not mega-dosing anything. Selenium stays under 200μg, zinc at 15mg with copper, vitamin D at 5000 IU."
 
