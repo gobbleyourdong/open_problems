@@ -1,0 +1,8 @@
+[package]
+name = "YangMills"
+version = "0.1.0"
+leanVersion = "v4.17.0"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
