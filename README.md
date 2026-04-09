@@ -94,6 +94,8 @@ All caused by **Coxsackievirus B** (CVB) — same pathogen, same persistence mec
 - SOS certificates are machine-checkable — `python verify.py certs/`
 - The answer was always there. We're removing everything it isn't.
 
+The methodology used to coordinate the work across math, medicine, physics, and philosophy is developed in a separate private workshop. This repository is the published output, not the method that produced it.
+
 ## Structure
 
 ```
