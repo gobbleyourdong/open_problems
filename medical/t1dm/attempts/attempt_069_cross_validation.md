@@ -1,7 +1,7 @@
 # Attempt 069: Cross-Validation — 78% Concordance, 5 Divergences Explained
 
 ## Source
-numerical track `results/cross_validation_report.md`, derived from `numerics/cross_validate_models.py`.
+ODD instance `results/cross_validation_report.md`, derived from `numerics/cross_validate_models.py`.
 
 ## The Result
 

@@ -143,7 +143,7 @@ If you skip step 1:
 
 ## For the patient Specifically
 
-You were on long-term keto. During that time:
+You were on keto for 5 years. During that time:
 - Viral replication may have been suppressed (autophagy from keto)
 - VP4 antibody production may have slowed (less antigen stimulation)
 - ADE may be at its LOWEST level right now

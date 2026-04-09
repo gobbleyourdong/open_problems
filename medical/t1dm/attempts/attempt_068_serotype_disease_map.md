@@ -1,7 +1,7 @@
 # Attempt 068: Serotype-Disease Map — CVB4 Is Diabetogenic, CVB3 Is Cardiotropic
 
 ## Source
-numerical track pattern 010 (`results/pattern_010_serotype_disease_map.md`), derived from `numerics/serotype_tropism.py` + `numerics/acute_vs_chronic_model.py`.
+ODD instance pattern 010 (`results/pattern_010_serotype_disease_map.md`), derived from `numerics/serotype_tropism.py` + `numerics/acute_vs_chronic_model.py`.
 
 ## The Discovery
 

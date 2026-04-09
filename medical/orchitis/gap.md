@@ -3,7 +3,7 @@
 ## Previous Gap
 "Is testicular CVB persistence real? Does the protocol reach the testes?"
 
-## Resolved by numerical track
+## Resolved by ODD Instance
 
 1. **Fluoxetine reaches testes**: BTB penetration 2.5x plasma, Sertoli cell accumulation 3x → effective concentration 2.25 μM at 20mg (2.25x above IC50)
 2. **At 60mg**: testicular concentration 6.75 μM (6.75x above IC50, 87% inhibition)

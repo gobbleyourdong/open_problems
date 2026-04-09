@@ -109,7 +109,7 @@ SIGNAL 2 (ACTIVATION): K⁺ efflux, ROS, crystals, ATP, dsRNA
 - Does NOT require liver monitoring (unlike itraconazole)
 - Could be added to the protocol as a low-cost, safe, anti-NLRP3 pharmaceutical
 
-**For the patient:** If you get an Rx for ONE anti-inflammatory drug, colchicine 0.5mg daily might be more valuable than itraconazole or fluoxetine. It directly blocks the inflammasome that's killing your beta cells, costs $5/month, and has decades of safety data. the endocrinologist or the physician could prescribe it for "inflammatory prophylaxis" (it's used for pericarditis prevention — not a stretch).
+**For the patient:** If you get an Rx for ONE anti-inflammatory drug, colchicine 0.5mg daily might be more valuable than itraconazole or fluoxetine. It directly blocks the inflammasome that's killing your beta cells, costs $5/month, and has decades of safety data. Your endo or the physician could prescribe it for "inflammatory prophylaxis" (it's used for pericarditis prevention — not a stretch).
 
 ## Summary
 

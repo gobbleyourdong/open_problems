@@ -1,7 +1,7 @@
 # Attempt 070: 8/8 Organ Clearance — The Protocol Is Curative
 
 ## Source
-numerical track unified CVB clearance model v2 (`numerics/unified_cvb_clearance_v2.py`), pattern 005, protocol optimizer v2.
+ODD instance unified CVB clearance model v2 (`numerics/unified_cvb_clearance_v2.py`), pattern 005, protocol optimizer v2.
 
 ## The Result
 
