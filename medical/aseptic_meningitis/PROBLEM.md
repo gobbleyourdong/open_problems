@@ -19,4 +19,4 @@ Viral inflammation of the meninges (brain/spinal cord membranes). CVB is one of 
 - Neurotropism may contribute to autonomic dysfunction in T1DM (gastroparesis, orthostatic hypotension)
 - Meningitis episode in history = confirmed CVB exposure with CNS-penetrating viremia
 
-## systematic approach Phase: 0 (Scaffolded)
+## Sigma Method Phase: 0 (Scaffolded)

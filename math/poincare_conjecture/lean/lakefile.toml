@@ -1,0 +1,70 @@
+name = "depletion_proof"
+version = "0.1.0"
+defaultTargets = ["depletion_proof"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+version = "git#master"
+
+# === Core algebra (self-contained, no Mathlib imports) ===
+
+[[lean_lib]]
+name = "StrainVorticity"
+
+[[lean_lib]]
+name = "SingleModeTheorem"
+
+[[lean_lib]]
+name = "EqualSplitting"
+
+[[lean_lib]]
+name = "ThreeIdentities"
+
+# === Proof chain (some need Mathlib for InnerProductSpace) ===
+
+[[lean_lib]]
+name = "FrobeniusIdentity"
+
+[[lean_lib]]
+name = "DirectionalBound"
+
+[[lean_lib]]
+name = "KeyLemma"
+
+[[lean_lib]]
+name = "AveragingBound"
+
+[[lean_lib]]
+name = "ProofChain"
+
+[[lean_lib]]
+name = "RouteAnalysis"
+
+# === Session 3 contributions ===
+
+[[lean_lib]]
+name = "SignConjecture"
+
+[[lean_lib]]
+name = "TraceFreeAlignment"
+
+[[lean_lib]]
+name = "SelfAnnihilation"
+
+# === Large formalization projects ===
+
+[[lean_lib]]
+name = "SingleModeOrthogonality"
+
+[[lean_lib]]
+name = "DepletionProof"
+
+[[lean_lib]]
+name = "Challenge"
+
+# === Main executable ===
+
+[[lean_exe]]
+name = "depletion_proof"
+root = "Main"

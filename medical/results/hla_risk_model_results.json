@@ -1,0 +1,347 @@
+{
+  "patient_zero": {
+    "t1dm": {
+      "name": "Type 1 Diabetes",
+      "relative_risk": 64.205,
+      "absolute_risk": 0.256819,
+      "risk_category": "HIGH"
+    },
+    "myocarditis": {
+      "name": "Viral Myocarditis",
+      "relative_risk": 0.898,
+      "absolute_risk": 0.001796,
+      "risk_category": "AVERAGE"
+    },
+    "dcm": {
+      "name": "Dilated Cardiomyopathy",
+      "relative_risk": 0.939,
+      "absolute_risk": 0.003754,
+      "risk_category": "AVERAGE"
+    },
+    "me_cfs": {
+      "name": "ME/CFS",
+      "relative_risk": 1.377,
+      "absolute_risk": 0.006887,
+      "risk_category": "AVERAGE"
+    },
+    "pericarditis": {
+      "name": "Pericarditis",
+      "relative_risk": 0.954,
+      "absolute_risk": 0.00477,
+      "risk_category": "AVERAGE"
+    },
+    "pancreatitis": {
+      "name": "Viral Pancreatitis",
+      "relative_risk": 1.04,
+      "absolute_risk": 0.007277,
+      "risk_category": "AVERAGE"
+    },
+    "hepatitis": {
+      "name": "Viral Hepatitis (CVB)",
+      "relative_risk": 1.025,
+      "absolute_risk": 0.001025,
+      "risk_category": "AVERAGE"
+    },
+    "pleurodynia": {
+      "name": "Pleurodynia (Bornholm)",
+      "relative_risk": 1.0,
+      "absolute_risk": 0.002,
+      "risk_category": "AVERAGE"
+    },
+    "aseptic_meningitis": {
+      "name": "Aseptic Meningitis",
+      "relative_risk": 1.01,
+      "absolute_risk": 0.003029,
+      "risk_category": "AVERAGE"
+    },
+    "encephalitis": {
+      "name": "Encephalitis",
+      "relative_risk": 1.029,
+      "absolute_risk": 0.000515,
+      "risk_category": "AVERAGE"
+    },
+    "orchitis": {
+      "name": "Orchitis",
+      "relative_risk": 1.01,
+      "absolute_risk": 0.00101,
+      "risk_category": "AVERAGE"
+    },
+    "neonatal_sepsis": {
+      "name": "Neonatal Sepsis",
+      "relative_risk": 1.0,
+      "absolute_risk": 0.0003,
+      "risk_category": "AVERAGE"
+    }
+  },
+  "population_stats": {
+    "t1dm": {
+      "mean_rr": 3.5005,
+      "sd_rr": 3.8671,
+      "pct_elevated": 82.77,
+      "pct_high": 39.03,
+      "pct_protected": 0.14
+    },
+    "myocarditis": {
+      "mean_rr": 1.3444,
+      "sd_rr": 0.187,
+      "pct_elevated": 11.49,
+      "pct_high": 0.0,
+      "pct_protected": 0.0
+    },
+    "dcm": {
+      "mean_rr": 1.2644,
+      "sd_rr": 0.1461,
+      "pct_elevated": 1.96,
+      "pct_high": 0.0,
+      "pct_protected": 0.0
+    },
+    "me_cfs": {
+      "mean_rr": 1.5261,
+      "sd_rr": 0.251,
+      "pct_elevated": 84.83,
+      "pct_high": 0.0,
+      "pct_protected": 0.0
+    },
+    "pericarditis": {
+      "mean_rr": 1.0016,
+      "sd_rr": 0.0357,
+      "pct_elevated": 0.0,
+      "pct_high": 0.0,
+      "pct_protected": 0.0
+    },
+    "pancreatitis": {
+      "mean_rr": 1.0054,
+      "sd_rr": 0.0154,
+      "pct_elevated": 0.0,
+      "pct_high": 0.0,
+      "pct_protected": 0.0
+    },
+    "hepatitis": {
+      "mean_rr": 1.0049,
+      "sd_rr": 0.0095,
+      "pct_elevated": 0.0,
+      "pct_high": 0.0,
+      "pct_protected": 0.0
+    },
+    "pleurodynia": {
+      "mean_rr": 1.0,
+      "sd_rr": 0.0,
+      "pct_elevated": 0.0,
+      "pct_high": 0.0,
+      "pct_protected": 0.0
+    },
+    "aseptic_meningitis": {
+      "mean_rr": 1.1765,
+      "sd_rr": 0.0734,
+      "pct_elevated": 0.0,
+      "pct_high": 0.0,
+      "pct_protected": 0.0
+    },
+    "encephalitis": {
+      "mean_rr": 1.4436,
+      "sd_rr": 0.1897,
+      "pct_elevated": 83.77,
+      "pct_high": 0.0,
+      "pct_protected": 0.0
+    },
+    "orchitis": {
+      "mean_rr": 1.0043,
+      "sd_rr": 0.0073,
+      "pct_elevated": 0.0,
+      "pct_high": 0.0,
+      "pct_protected": 0.0
+    },
+    "neonatal_sepsis": {
+      "mean_rr": 1.0,
+      "sd_rr": 0.0,
+      "pct_elevated": 0.0,
+      "pct_high": 0.0,
+      "pct_protected": 0.0
+    }
+  },
+  "multi_disease_distribution": {
+    "0": {
+      "count": 43,
+      "fraction": 0.0043
+    },
+    "1": {
+      "count": 601,
+      "fraction": 0.0601
+    },
+    "2": {
+      "count": 3010,
+      "fraction": 0.301
+    },
+    "3": {
+      "count": 5600,
+      "fraction": 0.56
+    },
+    "4": {
+      "count": 669,
+      "fraction": 0.0669
+    },
+    "5": {
+      "count": 77,
+      "fraction": 0.0077
+    }
+  },
+  "threshold_sweep": {
+    "thresholds": [
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0,
+      2.25,
+      2.5,
+      2.75,
+      3.0,
+      3.25,
+      3.5,
+      3.75,
+      4.0,
+      4.25,
+      4.5,
+      4.75,
+      5.0
+    ],
+    "frac_1plus": [
+      1.0,
+      0.9999,
+      0.9957,
+      0.7973,
+      0.7102,
+      0.5672,
+      0.5,
+      0.448,
+      0.3903,
+      0.3479,
+      0.3133,
+      0.2376,
+      0.2143,
+      0.193,
+      0.173,
+      0.1547,
+      0.1485
+    ],
+    "frac_2plus": [
+      1.0,
+      0.9975,
+      0.9356,
+      0.1025,
+      0.0387,
+      0.0041,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "frac_3plus": [
+      1.0,
+      0.9664,
+      0.6346,
+      0.0032,
+      0.002,
+      0.0019,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "frac_4plus": [
+      1.0,
+      0.8028,
+      0.0746,
+      0.0003,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "top_risk_haplotype_combos": [
+    {
+      "haplotype_1": "DR4-DQ8",
+      "haplotype_2": "DR3-DQ2",
+      "total_rr": 67.424,
+      "n_elevated": 3
+    },
+    {
+      "haplotype_1": "DR3-DQ2",
+      "haplotype_2": "DR4-DQ8",
+      "total_rr": 67.424,
+      "n_elevated": 3
+    },
+    {
+      "haplotype_1": "DR3-DQ2",
+      "haplotype_2": "DR4-DQ8",
+      "total_rr": 67.424,
+      "n_elevated": 3
+    },
+    {
+      "haplotype_1": "DR3-DQ2",
+      "haplotype_2": "DR4-DQ8",
+      "total_rr": 67.424,
+      "n_elevated": 3
+    },
+    {
+      "haplotype_1": "DR4-DQ8",
+      "haplotype_2": "DR3-DQ2",
+      "total_rr": 67.065,
+      "n_elevated": 3
+    },
+    {
+      "haplotype_1": "DR4-DQ8",
+      "haplotype_2": "DR3-DQ2",
+      "total_rr": 66.909,
+      "n_elevated": 2
+    },
+    {
+      "haplotype_1": "DR3-DQ2",
+      "haplotype_2": "DR4-DQ8",
+      "total_rr": 66.707,
+      "n_elevated": 2
+    },
+    {
+      "haplotype_1": "DR4-DQ8",
+      "haplotype_2": "DR3-DQ2",
+      "total_rr": 58.328,
+      "n_elevated": 3
+    },
+    {
+      "haplotype_1": "DR3-DQ2",
+      "haplotype_2": "DR4-DQ8",
+      "total_rr": 57.814,
+      "n_elevated": 2
+    },
+    {
+      "haplotype_1": "DR4-DQ8",
+      "haplotype_2": "DR3-DQ2",
+      "total_rr": 52.978,
+      "n_elevated": 3
+    }
+  ]
+}

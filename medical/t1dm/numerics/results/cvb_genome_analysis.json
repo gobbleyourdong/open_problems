@@ -1,0 +1,88 @@
+{
+  "cloverleaf": {
+    "CVB1": {
+      "domain_I": "TTAAAACAGCCTGTGGGTTGTTCCCACCCACAGGCCCATTGGGCGCTAGCACTCTGGTATCACGGTACCTTTGTGCGCCTGTTTTACAT",
+      "stem_a": "TTAAAACAGC",
+      "stem_loop_b": "CTGTGGGTTGTTCCCACCCACAGGC",
+      "stem_loop_c": "CCATTGGGCGCTAGC",
+      "stem_loop_d": "ACTCTGGTATCACGGTACCTTTGTGCGCCT"
+    },
+    "CVB2": {
+      "domain_I": "TTAAAACAGCCTGTGGGTTGTTCCCACCCACAGGGCCCACTGGGCGCTAGCACACTGGTATTACGGTACCTTTGTGCGCCTGTTTTATC",
+      "stem_a": "TTAAAACAGC",
+      "stem_loop_b": "CTGTGGGTTGTTCCCACCCACAGGG",
+      "stem_loop_c": "CCCACTGGGCGCTAG",
+      "stem_loop_d": "CACACTGGTATTACGGTACCTTTGTGCGCC"
+    },
+    "CVB3": {
+      "domain_I": "TTAAAACAGCCTGTGGGTTGATCCCACCCACAGGCCCATTGGGCGCTAGCACTCTGGTATCACGGTACCTTTGTGCGCCTGTTTTATAC",
+      "stem_a": "TTAAAACAGC",
+      "stem_loop_b": "CTGTGGGTTGATCCCACCCACAGGC",
+      "stem_loop_c": "CCATTGGGCGCTAGC",
+      "stem_loop_d": "ACTCTGGTATCACGGTACCTTTGTGCGCCT"
+    },
+    "CVB4": {
+      "domain_I": "TTAAAACAGCCTGTGGGTTGTACCCACCCACAGGGCCCAATGGGCGCTAGCACACTGGTATTCCGGTACCTTTGTGCGCCTGTTTTATA",
+      "stem_a": "TTAAAACAGC",
+      "stem_loop_b": "CTGTGGGTTGTACCCACCCACAGGG",
+      "stem_loop_c": "CCCAATGGGCGCTAG",
+      "stem_loop_d": "CACACTGGTATTCCGGTACCTTTGTGCGCC"
+    },
+    "CVB5": {
+      "domain_I": "TTAAAACAGCCTGTGGGTTGTTCCCACCCACAGGGCCCACTGGGCGCTAGCACACTGGTATCACGGTACCTTTGTGCGCCTGTTTTATC",
+      "stem_a": "TTAAAACAGC",
+      "stem_loop_b": "CTGTGGGTTGTTCCCACCCACAGGG",
+      "stem_loop_c": "CCCACTGGGCGCTAG",
+      "stem_loop_d": "CACACTGGTATCACGGTACCTTTGTGCGCC"
+    },
+    "CVB6": {
+      "domain_I": "TTAAAACAGCCTGTGGGTTGTACCCACCCACAGGGCCCACTGGGCGCTAGCACTCTGGTATTGCGGTACCTTTGTGCGCCTGTTTTACC",
+      "stem_a": "TTAAAACAGC",
+      "stem_loop_b": "CTGTGGGTTGTACCCACCCACAGGG",
+      "stem_loop_c": "CCCACTGGGCGCTAG",
+      "stem_loop_d": "CACTCTGGTATTGCGGTACCTTTGTGCGCC"
+    }
+  },
+  "td_analysis_summary": [
+    {
+      "deletion_nt": 7,
+      "pcbp2": "INTACT",
+      "3cd": "INTACT"
+    },
+    {
+      "deletion_nt": 10,
+      "pcbp2": "INTACT",
+      "3cd": "INTACT"
+    },
+    {
+      "deletion_nt": 14,
+      "pcbp2": "IMPAIRED",
+      "3cd": "INTACT"
+    },
+    {
+      "deletion_nt": 21,
+      "pcbp2": "IMPAIRED",
+      "3cd": "INTACT"
+    },
+    {
+      "deletion_nt": 28,
+      "pcbp2": "IMPAIRED",
+      "3cd": "INTACT"
+    },
+    {
+      "deletion_nt": 35,
+      "pcbp2": "LOST",
+      "3cd": "INTACT"
+    },
+    {
+      "deletion_nt": 42,
+      "pcbp2": "LOST",
+      "3cd": "INTACT"
+    },
+    {
+      "deletion_nt": 49,
+      "pcbp2": "LOST",
+      "3cd": "INTACT"
+    }
+  ]
+}

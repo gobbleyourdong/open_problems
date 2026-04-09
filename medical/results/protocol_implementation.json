@@ -1,0 +1,1121 @@
+{
+  "protocol": {
+    "name": "T1DM Beta Cell Recovery Protocol v1.0",
+    "version": "1.0",
+    "date_generated": "2026-04-08T22:31:11.354260",
+    "total_duration_months": 24,
+    "phases": [
+      {
+        "phase": "PREPARATION",
+        "name": "Baseline & Setup",
+        "start_week": -2,
+        "end_week": 0,
+        "goal": "Establish baseline measurements, set up monitoring, build medical team",
+        "actions": [
+          {
+            "week": -2,
+            "day": "Week -2, Day 1",
+            "action": "Schedule endocrinologist appointment",
+            "details": "Find an endocrinologist willing to monitor an experimental supplement protocol. Bring the 1-page protocol summary (included below). You need: (1) someone who will order labs, (2) someone who will adjust insulin as needed, (3) someone who won't panic at the word 'fasting' in T1DM. If your current endo won't do it, find one who will.",
+            "cost": 0,
+            "category": "medical"
+          },
+          {
+            "week": -2,
+            "day": "Week -2, Day 1-3",
+            "action": "Order CGM system",
+            "details": "Dexcom G7 or Libre 3. If insurance covers it, use insurance. If not: Libre 3 reader + sensors = ~$75/month without insurance. CGM is NON-NEGOTIABLE for this protocol. You cannot fast safely without it.",
+            "cost": 75,
+            "category": "monitoring"
+          },
+          {
+            "week": -2,
+            "day": "Week -2, Day 1-3",
+            "action": "Order blood ketone meter",
+            "details": "Keto-Mojo GK+ meter (~$50) + ketone strips (~$1 each). You need this for every fasting day. Urine strips are NOT acceptable (they measure acetoacetate, not BHB; 6-12hr lag time).",
+            "cost": 50,
+            "category": "monitoring"
+          },
+          {
+            "week": -2,
+            "day": "Week -2, Day 3-5",
+            "action": "Order supplements (shopping list below)",
+            "details": "Order ALL supplements now so they arrive before Week 1. See SHOPPING LIST section for exact products.",
+            "cost": 85,
+            "category": "supplements"
+          },
+          {
+            "week": -1,
+            "day": "Week -1",
+            "action": "BASELINE LABS -- Full panel",
+            "details": "Fasting draw (12hr overnight fast). This is the most important single blood draw of the entire protocol. Everything is measured against this.",
+            "labs": [
+              "C-peptide, fasting ($45)",
+              "C-peptide, stimulated/MMTT ($150 -- requires clinic visit, Boost drink, timed draws at 0/30/60/90/120 min)",
+              "HbA1c ($20)",
+              "GAD65 autoantibodies ($85)",
+              "IA-2 autoantibodies ($85)",
+              "ZnT8 autoantibodies ($85)",
+              "hs-CRP ($25)",
+              "25-OH Vitamin D ($40)",
+              "CBC with differential ($15)",
+              "CMP (comprehensive metabolic panel) ($20)",
+              "Lipid panel ($25)",
+              "Troponin I high-sensitivity ($30)",
+              "NT-proBNP ($40)",
+              "ALT ($15)",
+              "AST ($15)",
+              "Enterovirus stool PCR ($120 -- specialty lab)"
+            ],
+            "total_lab_cost": 815,
+            "cost": 815,
+            "category": "labs"
+          },
+          {
+            "week": -1,
+            "day": "Week -1",
+            "action": "BASELINE IMAGING",
+            "details": "Echocardiogram: establishes baseline ejection fraction (EF). Screens for occult CVB myocarditis (EF <50% = flag). Abdominal ultrasound: visualize pancreas (atrophy? calcification?). These are one-time baseline tests.",
+            "imaging": [
+              "Transthoracic echocardiogram ($200-500)",
+              "Abdominal ultrasound, limited to pancreas ($150-300)"
+            ],
+            "cost": 500,
+            "category": "imaging"
+          },
+          {
+            "week": -1,
+            "day": "Week -1",
+            "action": "CGM calibration period",
+            "details": "Wear CGM for at least 7 days before starting protocol. This gives you: (1) baseline glucose patterns, (2) time in range, (3) overnight patterns, (4) post-meal patterns. Save screenshots. This is your 'before' data.",
+            "cost": 0,
+            "category": "monitoring"
+          },
+          {
+            "week": 0,
+            "day": "Week 0",
+            "action": "ENDOCRINOLOGIST VISIT -- Protocol Discussion",
+            "details": "Bring: (1) baseline labs, (2) CGM data, (3) protocol summary, (4) safety profile document, (5) your supplement list. Key asks: Will you monitor me? Will you order quarterly labs? Will you adjust my insulin if C-peptide rises? Can you prescribe fluoxetine 10mg (or refer to PCP/psychiatrist)? Can we discuss semaglutide at month 4 if things look good?",
+            "cost": 50,
+            "category": "medical"
+          }
+        ]
+      },
+      {
+        "phase": "PHASE_1",
+        "name": "Foundation -- Reduce Destruction",
+        "start_month": 1,
+        "end_month": 3,
+        "goal": "Clear virus (fluoxetine), reduce inflammation (vitamin D, butyrate), establish fasting practice. Target: D drops by ~50%.",
+        "model_prediction": {
+          "D_reduction": "~50% (from 1.4e-3 to 6.5e-4 /day)",
+          "R_change": "slight improvement from reduced stress",
+          "dB_dt": "still declining but much slower (-4.3e-4 vs -1.2e-3 /day)",
+          "expected_cpeptide": "may start rising by month 3"
+        },
+        "actions": [
+          {
+            "week": 1,
+            "day": "Month 1, Week 1",
+            "action": "START fluoxetine 10mg/day",
+            "details": "Take in the morning with breakfast. Half dose for 2 weeks to minimize side effects. Common side effects (week 1-2): nausea, headache, insomnia, anxiety increase, GI upset. These typically resolve by week 3-4. If severe nausea: take with food. If insomnia: take in AM, not PM. IMPORTANT: Fluoxetine can mask hypoglycemia symptoms (tremor, anxiety) by ~15-20%. Raise CGM low alarm to 80 mg/dL (from typical 70).",
+            "prescription_needed": true,
+            "cost_monthly": 10,
+            "category": "medication"
+          },
+          {
+            "week": 1,
+            "day": "Month 1, Week 1",
+            "action": "START Vitamin D3 4000 IU/day",
+            "details": "Take with a fat-containing meal (improves absorption 50%). Morning or evening, same time daily. If baseline 25-OH-D was <20 ng/mL: start with 5000-6000 IU for first 2 months, then drop to 4000 IU. Target blood level: 50-70 ng/mL. If >100 ng/mL on any check: reduce dose.",
+            "prescription_needed": false,
+            "cost_monthly": 8,
+            "category": "supplement"
+          },
+          {
+            "week": 2,
+            "day": "Month 1, Week 2",
+            "action": "START sodium butyrate 300mg 2x/day",
+            "details": "Take with meals (morning + evening). Butyrate smells bad -- enteric-coated capsules avoid the smell and GI issues. Start with 1 capsule for 3 days, then add the second. Common early effect: mild GI discomfort, loose stool. Usually resolves in 1 week. Mechanism: butyrate upregulates FOXP3 expression -> expands regulatory T cells -> suppresses autoimmune attack.",
+            "prescription_needed": false,
+            "cost_monthly": 25,
+            "category": "supplement"
+          },
+          {
+            "week": 3,
+            "day": "Month 1, Week 3",
+            "action": "INCREASE fluoxetine to 20mg/day",
+            "details": "Full therapeutic dose. If side effects from 10mg were severe, stay at 10mg for another 2 weeks before increasing. 20mg is the target dose for CVB 2C ATPase inhibition. At steady state (4-6 weeks), brain concentration reaches ~15x plasma = ~4.5 uM, well above the 1.0 uM IC50.",
+            "prescription_needed": true,
+            "cost_monthly": 10,
+            "category": "medication"
+          },
+          {
+            "week": 4,
+            "day": "Month 1, Week 4",
+            "action": "FIRST 24-hour fast (supervised)",
+            "details": "THIS IS THE MOST IMPORTANT SAFETY EVENT IN THE PROTOCOL.\n\nPreparation:\n  - Eat your last meal at 6 PM\n  - Reduce basal insulin to 80% of normal dose\n  - No bolus insulin during fast\n  - CGM on, ketone meter ready\n  - Glucose tabs, juice box within arm's reach\n  - Tell someone you are fasting\n\nDuring fast:\n  - Check blood ketones at hours 0, 4, 8, 12, 16, 20, 24\n  - Watch CGM continuously\n  - Drink water, black coffee, plain tea -- no calories\n  - Light activity only (walking OK, no gym)\n  - Log everything: BG, ketones, how you feel\n\nABORT if:\n  - Blood glucose < 60 mg/dL (or <70 with symptoms)\n  - Blood BHB > 3.0 mM\n  - Nausea, vomiting, abdominal pain\n  - Feeling confused or unable to self-monitor\n\nBreak fast at 6 PM next day with a normal meal.\nTake full bolus insulin for the meal.\n\nEXPECTED: BHB peaks 1.0-1.5 mM at 80% basal. This is ideal -- enough to suppress NLRP3 inflammasome, not enough for DKA.",
+            "prescription_needed": false,
+            "cost_monthly": 0,
+            "category": "fasting"
+          },
+          {
+            "week": 5,
+            "day": "Month 1, end",
+            "action": "SAFETY LABS -- Month 1",
+            "details": "Quick safety check. 3 tests only.",
+            "labs": [
+              "ALT ($15) -- fluoxetine liver check",
+              "hs-CRP ($25) -- early inflammation signal",
+              "25-OH Vitamin D ($40) -- is supplementation working?"
+            ],
+            "total_lab_cost": 80,
+            "cost": 80,
+            "category": "labs"
+          },
+          {
+            "week": 8,
+            "day": "Month 2",
+            "action": "FIRST 5-day FMD cycle",
+            "details": "The Fasting Mimicking Diet is the ENGINE of regeneration.\n\nOption A: ProLon kit ($199/cycle, pre-packaged, easiest)\nOption B: DIY FMD (~$30/cycle):\n  Day 1: ~1100 kcal (11% protein, 46% fat, 43% carbs)\n  Days 2-5: ~800 kcal (9% protein, 44% fat, 47% carbs)\n  Focus: nuts, olives, vegetables, small amounts of grain\n  NO animal protein, NO sugar, NO dairy\n\nInsulin adjustments during FMD:\n  - Basal: 80-85% of normal (75% if on semaglutide later)\n  - Bolus: 40-50% of normal (small FMD meals)\n  - Check ketones 2x/day\n  - CGM alarm at 80 mg/dL\n\nREFEEDING (Days 6-8): THIS IS WHERE REGENERATION HAPPENS\n  - Day 6: light meals, normal insulin\n  - Day 7-8: normal eating, slightly larger portions\n  - mTOR reactivates, IGF-1 rebounds\n  - Ngn3+ pancreatic progenitors activate\n  - NEW BETA CELLS ARE BORN in this window\n  - Each cycle: ~0.3% beta cell mass gain",
+            "prescription_needed": false,
+            "cost_monthly": 50,
+            "category": "fasting"
+          },
+          {
+            "week": 12,
+            "day": "Month 3",
+            "action": "KEY LABS -- Month 3 Assessment",
+            "details": "This is the FIRST EFFICACY CHECK. The question: is anything happening?\nC-peptide is the primary endpoint. Even a small rise (0.12 -> 0.15) is signal.",
+            "labs": [
+              "C-peptide, fasting ($45) -- PRIMARY ENDPOINT",
+              "HbA1c ($20) -- glycemic trend",
+              "hs-CRP ($25) -- inflammation down?",
+              "ALT ($15) -- liver still OK?",
+              "AST ($15) -- paired with ALT",
+              "25-OH Vitamin D ($40) -- target reached?",
+              "CBC ($15) -- general health"
+            ],
+            "total_lab_cost": 175,
+            "cost": 175,
+            "category": "labs"
+          },
+          {
+            "week": 12,
+            "day": "Month 3",
+            "action": "DECISION POINT #1",
+            "details": "Review Month 3 labs with endocrinologist.\n\nIF C-peptide rose (even slightly): Protocol is working. Continue. Move to Phase 2.\nIF C-peptide flat: Protocol may need more time. Continue Phase 1 for 3 more months. Consider: Was fluoxetine taken consistently? Were FMD cycles completed? Is vitamin D at target? Fix compliance before adding more components.\nIF C-peptide dropped: Concerning but not fatal. Check autoantibodies. Consider adding GABA early (move Phase 2 components forward).\nIF ALT > 3x ULN: Reduce fluoxetine to 10mg. Recheck in 2 weeks.\nIF hs-CRP unchanged or rising: Investigate other sources of inflammation.",
+            "cost": 50,
+            "category": "medical"
+          }
+        ]
+      },
+      {
+        "phase": "PHASE_2",
+        "name": "Amplify -- Boost Regeneration",
+        "start_month": 3,
+        "end_month": 6,
+        "goal": "Add GABA (transdifferentiation + anti-inflammatory) and semaglutide (proliferation + sensitivity). Target: R begins approaching D.",
+        "model_prediction": {
+          "R_total": "~2.7e-4 /day (averaged, FMD bursts included)",
+          "D_total": "~4.5e-4 /day (continuing to drop as TD clears)",
+          "dB_dt": "-1.8e-4 /day (approaching zero -- the gap is closing)",
+          "expected_cpeptide": "0.12-0.20 nmol/L range"
+        },
+        "actions": [
+          {
+            "week": 13,
+            "day": "Month 3, Week 1",
+            "action": "START GABA 250mg 3x/day",
+            "details": "GABA (gamma-aminobutyric acid) has TWO mechanisms:\n  1. Anti-inflammatory: reduces Teff expansion by ~20%\n  2. Transdifferentiation: activates GABA-A on alpha cells -> Pax4 -> alpha-to-beta identity switch\n\nStart 250mg with each meal (3x/day = 750mg total). Can increase to 500mg 3x/day (1500mg) after 2 weeks if tolerated. Side effects: mild drowsiness (especially first week), slight dizziness. If drowsy: take larger dose at bedtime, smaller doses at meals. GABA does NOT cross the blood-brain barrier well in adults, so central sedation is minimal. GI effects are the main route.",
+            "prescription_needed": false,
+            "cost_monthly": 20,
+            "category": "supplement"
+          },
+          {
+            "week": 17,
+            "day": "Month 4, Week 1",
+            "action": "DISCUSS semaglutide with endocrinologist",
+            "details": "Semaglutide (Ozempic) is a GLP-1 receptor agonist. Off-label for T1DM but increasingly studied (ADJUNCT ONE and TWO trials).\n\nWhat to tell your doctor:\n  'I'd like to try low-dose semaglutide as an adjunct to my insulin. The evidence from ADJUNCT trials shows it can reduce insulin dose by 20-30% in T1DM, improve time-in-range, and reduce HbA1c. I understand the hypoglycemia risk and I have CGM monitoring. I'd like to start at 0.25mg weekly and titrate slowly.'\n\nIf physician agrees:\n  - Start 0.25mg subcutaneous weekly\n  - Proactively reduce basal insulin by 10% when starting\n  - Watch CGM closely for lows in the first 2 weeks\n  - Common side effects: nausea (50% of patients), reduced appetite\n\nIf physician declines:\n  The protocol works without semaglutide. It provides ~25% R boost and 30% sensitivity improvement, but GABA + FMD are the main drivers. Semaglutide is Tier 3 (premium). Skip it and continue.",
+            "prescription_needed": true,
+            "cost_monthly": 300,
+            "category": "medication"
+          },
+          {
+            "week": 21,
+            "day": "Month 4-5",
+            "action": "TITRATE semaglutide to 0.5mg weekly",
+            "details": "After 4 weeks at 0.25mg, increase to 0.5mg if tolerated.\n  - Reduce basal insulin by another 10% (total 20% reduction from baseline)\n  - Adjust fasting protocol: basal at 70% (not 80%) during fasts\n  - Monitor weight: semaglutide causes weight loss. If BMI drops below 20,   discuss with doctor.\n  - DO NOT go above 0.5mg. This is not for weight loss --   we want the beta cell and immune effects, not max GLP-1 stimulation.",
+            "prescription_needed": true,
+            "cost_monthly": 300,
+            "category": "medication"
+          },
+          {
+            "week": 13,
+            "day": "Months 3-6, ongoing",
+            "action": "CONTINUE monthly FMD cycles",
+            "details": "One 5-day FMD per month. Schedule it the same week each month. The refeeding window (days 6-8) is cumulative -- each cycle adds ~0.3% beta cell mass. After 6 cycles, ~2-3% gain.",
+            "cost_monthly": 50,
+            "category": "fasting"
+          },
+          {
+            "week": 26,
+            "day": "Month 6",
+            "action": "COMPREHENSIVE LABS -- Month 6",
+            "details": "The major assessment. This is where we expect to see signal.",
+            "labs": [
+              "C-peptide, fasting ($45) -- PRIMARY ENDPOINT",
+              "C-peptide, stimulated/MMTT ($150) -- gold standard",
+              "HbA1c ($20)",
+              "GAD65 autoantibodies ($85) -- declining?",
+              "hs-CRP ($25)",
+              "ALT + AST ($30)",
+              "Troponin I hs ($30) -- cardiac safety",
+              "CBC ($15)",
+              "CMP ($20)",
+              "25-OH Vitamin D ($40)",
+              "Fasting insulin ($30)"
+            ],
+            "total_lab_cost": 490,
+            "cost": 490,
+            "category": "labs"
+          },
+          {
+            "week": 26,
+            "day": "Month 6",
+            "action": "IMAGING -- Echocardiogram (repeat)",
+            "details": "Repeat echo if baseline showed any abnormality, or if troponin was elevated. If baseline was normal and troponin normal: skip (save money).",
+            "cost": 350,
+            "category": "imaging"
+          },
+          {
+            "week": 26,
+            "day": "Month 6",
+            "action": "DECISION POINT #2 -- The Big One",
+            "details": "Review all Month 6 data with endocrinologist.\n\nOUTCOME A: C-peptide rising (any amount)\n  -> CELEBRATE. The inequality is shifting. Continue to Phase 3.\n  -> If stimulated C-peptide > 0.4 nmol/L: you are responding strongly.\n\nOUTCOME B: C-peptide flat but hs-CRP dropped\n  -> The anti-inflammatory arm is working but regeneration hasn't kicked in yet.\n  -> Add GABA 1500mg/day if not already at full dose.\n  -> Continue 3 more months before reassessing.\n\nOUTCOME C: C-peptide flat, hs-CRP flat, autoantibodies unchanged\n  -> Consider: is the protocol being followed consistently?\n  -> Consider: teplizumab discussion with specialist (see Phase 3).\n  -> Do NOT stop -- 6 months may not be enough for a 67-year T1DM patient.\n  -> The model predicts inequality reversal at month 8-10.\n\nOUTCOME D: C-peptide dropped\n  -> Uncommon. Check for concurrent illness, infection, severe stress.\n  -> Repeat in 1 month. Single drop is not failure.",
+            "cost": 50,
+            "category": "medical"
+          }
+        ]
+      },
+      {
+        "phase": "PHASE_3",
+        "name": "Sustain -- The Inequality Reverses",
+        "start_month": 6,
+        "end_month": 12,
+        "goal": "All components running. R overtakes D around month 8-10. Beta cell mass begins GROWING. Begin insulin dose reduction if C-peptide rising.",
+        "model_prediction": {
+          "month_9_R": "~8.0e-4 /day (GABA transdiff + semaglutide + FMD)",
+          "month_9_D": "~3.5e-4 /day (TD mostly cleared, Tregs strong)",
+          "dB_dt": "+4.5e-4 /day -- INEQUALITY REVERSED",
+          "month_12_B": "~13% (up from 8%)",
+          "month_12_Cp": "~0.25 nmol/L"
+        },
+        "actions": [
+          {
+            "week": 26,
+            "day": "Months 6-12, ongoing",
+            "action": "CONTINUE all protocol components",
+            "details": "Fluoxetine 20mg daily\nVitamin D3 4000 IU daily\nSodium butyrate 300mg 2x/day\nGABA 250-500mg 3x/day\nSemaglutide 0.5mg weekly (if started)\nMonthly 5-day FMD cycle\n\nThis is the grind. Nothing changes except the numbers. The model says the inequality reverses around month 8-10. You won't feel it. The C-peptide will show it.",
+            "cost_monthly": 0,
+            "category": "maintenance"
+          },
+          {
+            "week": 26,
+            "day": "Month 6+",
+            "action": "IF C-peptide rising: begin insulin dose reduction per milestone ladder",
+            "details": "C-PEPTIDE MILESTONE LADDER:\n\n0.20 nmol/L (FIRST SIGNAL): No insulin change. Just celebrate.\n0.40 nmol/L (EARLY RESPONSE): Reduce bolus by 25%.\n0.80 nmol/L (MODERATE RECOVERY): Reduce basal 30%, bolus 50%. DANGER ZONE.\n1.20 nmol/L (STRONG RECOVERY): Reduce basal 50%, bolus 75%.\n1.80 nmol/L (NEAR INDEPENDENCE): Safety minimum basal only. Trial discontinue bolus.\n2.50 nmol/L (INDEPENDENCE): Trial complete discontinuation.\n\nNEVER reduce insulin without CGM data and C-peptide confirmation.\nNEVER skip more than one step at a time.\nALWAYS keep insulin pen loaded and accessible.",
+            "cost": 0,
+            "category": "insulin"
+          },
+          {
+            "week": 26,
+            "day": "Month 6+",
+            "action": "IF C-peptide flat: consider teplizumab",
+            "details": "Teplizumab (Tzield) is an anti-CD3 monoclonal antibody.\nFDA-approved for delaying T1DM onset (Herold 2019 NEJM).\nOff-label for established T1DM but biologically rational.\n\nRequires specialist (academic endocrinologist or immunologist).\nSingle 14-day IV infusion course.\nCost: ~$13,000 per course (without insurance).\nSide effects: cytokine release syndrome (CRS, flu-like), lymphopenia, rash.\n\nDO NOT fast during teplizumab course.\nResume FMD 4 weeks after completing infusion.\n\nThis is Tier 3+. Most patients should try the full Phase 1-2 protocol for 9-12 months before considering teplizumab.",
+            "prescription_needed": true,
+            "cost": 13000,
+            "category": "medication"
+          },
+          {
+            "week": 39,
+            "day": "Month 9",
+            "action": "LABS -- Month 9",
+            "details": "Interim check. Primary focus: C-peptide trajectory.",
+            "labs": [
+              "C-peptide, fasting ($45)",
+              "HbA1c ($20)",
+              "hs-CRP ($25)",
+              "ALT ($15)"
+            ],
+            "total_lab_cost": 105,
+            "cost": 105,
+            "category": "labs"
+          },
+          {
+            "week": 52,
+            "day": "Month 12",
+            "action": "FULL REASSESSMENT -- Month 12",
+            "details": "One-year milestone. Comprehensive re-evaluation.",
+            "labs": [
+              "C-peptide, fasting ($45)",
+              "C-peptide, stimulated/MMTT ($150)",
+              "HbA1c ($20)",
+              "GAD65 autoantibodies ($85)",
+              "IA-2 autoantibodies ($85)",
+              "hs-CRP ($25)",
+              "ALT + AST ($30)",
+              "Troponin I hs ($30)",
+              "NT-proBNP ($40)",
+              "CBC ($15)",
+              "CMP ($20)",
+              "25-OH Vitamin D ($40)",
+              "Fasting insulin ($30)"
+            ],
+            "total_lab_cost": 615,
+            "cost": 615,
+            "category": "labs"
+          },
+          {
+            "week": 52,
+            "day": "Month 12",
+            "action": "DECISION POINT #3 -- Continue, Modify, or Celebrate",
+            "details": "Review 12-month data.\n\nRESPONDING (C-peptide up, insulin dose down):\n  -> Continue all components. Move to Phase 4 (Maintenance).\n  -> If C-peptide > 0.8 nmol/L: you are on track for independence.\n  -> Projected timeline: insulin independence 18-36 months.\n\nPARTIAL RESPONSE (C-peptide up slightly, insulin unchanged):\n  -> The inequality reversed but slowly. Continue for another 6-12 months.\n  -> Consider semaglutide if not started. Consider teplizumab.\n\nNO RESPONSE (C-peptide flat after 12 months):\n  -> The 20-35% of patients who may not respond at 3 years.\n  -> Options: (1) continue anyway (no harm, supplements are safe), (2) stop protocol, (3) try teplizumab, (4) wait for next-gen interventions.\n  -> Even no response = you are healthier from vitamin D, reduced inflammation, improved gut health, and better glucose control from fasting discipline.",
+            "cost": 50,
+            "category": "medical"
+          }
+        ]
+      },
+      {
+        "phase": "PHASE_4",
+        "name": "Maintenance -- Consolidate Gains",
+        "start_month": 12,
+        "end_month": 24,
+        "goal": "If responding: continue protocol, reduce insulin per milestones, reduce monitoring frequency. If near independence: trial discontinuation.",
+        "model_prediction": {
+          "month_18_B": "~22% (expected case)",
+          "month_18_Cp": "~0.55 nmol/L",
+          "month_18_insulin": "~10 U/day",
+          "month_24_B": "~28% (approaching independence)",
+          "month_24_Cp": "~0.75 nmol/L",
+          "month_24_insulin": "~7 U/day"
+        },
+        "actions": [
+          {
+            "week": 52,
+            "day": "Months 12-24, ongoing",
+            "action": "CONTINUE responding components",
+            "details": "If responding:\n  - Fluoxetine 20mg daily (continue for full 24 months minimum)\n  - Vitamin D3 4000 IU daily (indefinite)\n  - Butyrate 300mg 2x/day (continue)\n  - GABA 250-500mg 3x/day (continue)\n  - FMD: can reduce to every 6-8 weeks if C-peptide steadily rising\n  - Semaglutide: continue if well-tolerated\n\nIf not responding after 12 months:\n  - Can stop FMD (it was worth trying)\n  - Continue fluoxetine + supplements (still beneficial)\n  - Consider stopping semaglutide (expensive if not helping)",
+            "cost_monthly": 0,
+            "category": "maintenance"
+          },
+          {
+            "week": 78,
+            "day": "Month 18",
+            "action": "LABS -- Month 18",
+            "labs": [
+              "C-peptide, fasting ($45)",
+              "HbA1c ($20)",
+              "ALT ($15)",
+              "25-OH Vitamin D ($40)"
+            ],
+            "total_lab_cost": 120,
+            "cost": 120,
+            "category": "labs"
+          },
+          {
+            "week": 78,
+            "day": "Month 18",
+            "action": "FLUOXETINE TAPER DECISION",
+            "details": "At 18 months, the CVB clearance model predicts all 8 compartments cleared.\nConsider tapering fluoxetine IF:\n  - C-peptide has been rising for 6+ months\n  - Autoantibodies declining or stable\n  - hs-CRP normal\n\nTaper: 20mg -> 10mg for 2 weeks -> 10mg every other day for 2 weeks -> stop.\nNEVER stop fluoxetine abruptly (discontinuation syndrome: dizziness, brain zaps, irritability, flu-like symptoms).\n\nIf C-peptide is still flat: continue fluoxetine. No harm in longer duration.",
+            "cost": 0,
+            "category": "medication"
+          },
+          {
+            "week": 104,
+            "day": "Month 24",
+            "action": "FINAL ASSESSMENT -- Month 24",
+            "labs": [
+              "C-peptide, fasting ($45)",
+              "C-peptide, stimulated/MMTT ($150)",
+              "HbA1c ($20)",
+              "GAD65 autoantibodies ($85)",
+              "IA-2 autoantibodies ($85)",
+              "ZnT8 autoantibodies ($85)",
+              "hs-CRP ($25)",
+              "ALT + AST ($30)",
+              "Troponin I hs ($30)",
+              "NT-proBNP ($40)",
+              "CBC ($15)",
+              "CMP ($20)",
+              "25-OH Vitamin D ($40)",
+              "Fasting insulin ($30)",
+              "Lipid panel ($25)"
+            ],
+            "total_lab_cost": 725,
+            "cost": 725,
+            "category": "labs"
+          },
+          {
+            "week": 104,
+            "day": "Month 24",
+            "action": "DECISION POINT #4 -- The Verdict",
+            "details": "Two-year mark. The model's expected case:\n  B ~ 0.28, C-peptide ~ 0.75 nmol/L, insulin ~ 7 U/day\n\nSUCCESS (C-peptide > 0.8 nmol/L, insulin reduced >50%):\n  -> Continue maintenance: vitamin D + butyrate + GABA\n  -> Quarterly FMD if desired\n  -> Semi-annual labs (C-peptide + HbA1c)\n  -> Continue insulin reduction per milestone ladder\n  -> You are on track for independence at 30-36 months\n\nPARTIAL SUCCESS (C-peptide 0.3-0.8, insulin reduced somewhat):\n  -> Continue protocol. You are responding, just slowly.\n  -> Consider extending to 36 months.\n  -> Even if you never reach independence, every 0.1 nmol/L of C-peptide reduces complications, reduces hypo frequency, and improves quality of life.\n\nNO RESPONSE (C-peptide unchanged after 24 months):\n  -> Reasonable to stop active protocol components.\n  -> Continue vitamin D and butyrate (general health benefits).\n  -> The supplements were safe and the attempt was rational.\n  -> You learned your autoimmune phenotype: likely not CVB-driven, or   beta cell reserve was truly exhausted.",
+            "cost": 50,
+            "category": "medical"
+          }
+        ]
+      }
+    ]
+  },
+  "shopping_list": {
+    "tier_1_essential": {
+      "name": "Tier 1 -- Essential (minimum effective protocol)",
+      "monthly_cost": 93,
+      "items": [
+        {
+          "item": "Fluoxetine 20mg capsules",
+          "dose": "10mg/day weeks 1-2, then 20mg/day",
+          "quantity": "30 capsules/month",
+          "source": "Prescription (generic, any pharmacy)",
+          "cost_monthly": 10,
+          "notes": "Generic fluoxetine. GoodRx price ~$4-10/month. Do NOT use brand Prozac ($300+). Ask pharmacist for generic."
+        },
+        {
+          "item": "Vitamin D3 4000 IU softgels",
+          "dose": "4000 IU/day (1 softgel)",
+          "quantity": "30 softgels/month",
+          "source": "Amazon, iHerb, Costco, any pharmacy",
+          "example_product": "NatureWise Vitamin D3 4000 IU or NOW Vitamin D3 5000 IU",
+          "cost_monthly": 8,
+          "notes": "Cholecalciferol (D3), not ergocalciferol (D2). Take with fat. 5000 IU products are fine -- take 5000 IU on alternating days with 4000 IU or just take 5000 IU daily and adjust if levels go above 70 ng/mL."
+        },
+        {
+          "item": "Sodium butyrate 300mg capsules (enteric-coated)",
+          "dose": "300mg 2x/day (600mg total)",
+          "quantity": "60 capsules/month",
+          "source": "Amazon, iHerb",
+          "example_product": "BodyBio Sodium Butyrate 600mg (take 1/day) or ProButyrate 300mg (take 2/day)",
+          "cost_monthly": 25,
+          "notes": "MUST be enteric-coated or you will taste/smell butyrate (rancid butter). Calcium/magnesium butyrate also acceptable. Tributyrin (e.g., CoreBiome) is a prodrug alternative."
+        },
+        {
+          "item": "ProLon FMD kit (or DIY equivalent)",
+          "dose": "5-day cycle, once per month",
+          "quantity": "1 kit/month (or DIY supplies)",
+          "source": "prolonfmd.com or DIY",
+          "cost_monthly": 50,
+          "notes": "ProLon: $199 first kit, then $149/mo subscription. DIY option: nuts, olives, vegetable soups = ~$30-50/cycle. See FMD protocol details above for exact macros."
+        }
+      ]
+    },
+    "tier_2_full": {
+      "name": "Tier 2 -- Full protocol (add GABA)",
+      "additional_monthly_cost": 20,
+      "total_monthly_cost": 113,
+      "items": [
+        {
+          "item": "GABA 750mg capsules",
+          "dose": "250-500mg 3x/day (750-1500mg total)",
+          "quantity": "90-180 capsules/month (depending on dose)",
+          "source": "Amazon, iHerb, any supplement store",
+          "example_product": "NOW GABA 750mg capsules (take 1 capsule 2x/day = 1500mg) or Thorne PharmaGABA 100mg (chewable, more bioavailable but more expensive)",
+          "cost_monthly": 20,
+          "notes": "Regular GABA powder capsules are fine. PharmaGABA (fermented) may have slightly better absorption but costs 3x more. Start low (250mg 1x/day) and increase over 2 weeks."
+        }
+      ]
+    },
+    "tier_3_premium": {
+      "name": "Tier 3 -- Premium (add semaglutide)",
+      "additional_monthly_cost": 300,
+      "total_monthly_cost": 413,
+      "items": [
+        {
+          "item": "Semaglutide 0.25mg -> 0.5mg weekly injection",
+          "dose": "0.25mg/week months 4-5, then 0.5mg/week",
+          "quantity": "4 injections/month",
+          "source": "Prescription (Ozempic pen, or compounding pharmacy)",
+          "cost_monthly": 300,
+          "notes": "Ozempic with insurance: $25-50 copay. Without insurance: ~$900-1000/month. Compounding pharmacies: $150-300/month (check local). Canadian pharmacy (with valid Rx): ~$250-350/month. If cost prohibitive: SKIP. The protocol works without it."
+        }
+      ]
+    },
+    "monitoring_equipment": {
+      "name": "Monitoring Equipment (one-time + ongoing)",
+      "items": [
+        {
+          "item": "CGM System (Dexcom G7 or Libre 3)",
+          "cost_monthly": 75,
+          "notes": "With insurance: usually covered for T1DM ($0-50 copay). Without insurance: Libre 3 ~$75/month, Dexcom ~$150/month. Libre 3 is the budget option and perfectly adequate."
+        },
+        {
+          "item": "Blood ketone meter + strips",
+          "cost_one_time": 50,
+          "cost_monthly": 30,
+          "notes": "Keto-Mojo GK+ kit: ~$50 (meter + 10 strips). Additional strips: ~$1/strip, need ~30/month during fasting."
+        }
+      ]
+    }
+  },
+  "lab_orders": {
+    "BASELINE (Week -1)": {
+      "fasting": true,
+      "priority": "ALL required before starting protocol",
+      "tests": [
+        [
+          "C-peptide, fasting",
+          "004051",
+          "Serum, fasting 12hr"
+        ],
+        [
+          "C-peptide, stimulated (MMTT)",
+          "MMTT",
+          "Requires clinic: Boost drink + timed draws 0/30/60/90/120 min"
+        ],
+        [
+          "HbA1c",
+          "001453",
+          "Whole blood EDTA"
+        ],
+        [
+          "GAD65 Ab",
+          "164350",
+          "Serum"
+        ],
+        [
+          "IA-2 Ab",
+          "164355",
+          "Serum"
+        ],
+        [
+          "ZnT8 Ab",
+          "ZnT8",
+          "Serum (specialty lab)"
+        ],
+        [
+          "hs-CRP",
+          "120766",
+          "Serum"
+        ],
+        [
+          "25-OH Vitamin D",
+          "081950",
+          "Serum"
+        ],
+        [
+          "CBC with differential",
+          "005009",
+          "Whole blood EDTA"
+        ],
+        [
+          "CMP (Comprehensive Metabolic Panel)",
+          "322000",
+          "Serum, fasting"
+        ],
+        [
+          "Lipid panel",
+          "303756",
+          "Serum, fasting"
+        ],
+        [
+          "Troponin I, high-sensitivity",
+          "164921",
+          "Serum"
+        ],
+        [
+          "NT-proBNP",
+          "250913",
+          "Serum"
+        ],
+        [
+          "ALT",
+          "001545",
+          "Serum"
+        ],
+        [
+          "AST",
+          "001123",
+          "Serum"
+        ],
+        [
+          "Enterovirus stool PCR",
+          "EV-PCR",
+          "Stool sample (specialty lab)"
+        ]
+      ],
+      "estimated_cost": "$815"
+    },
+    "MONTH 1 (Safety check)": {
+      "fasting": false,
+      "priority": "Fluoxetine liver safety + vitamin D compliance",
+      "tests": [
+        [
+          "ALT",
+          "001545",
+          "Serum"
+        ],
+        [
+          "hs-CRP",
+          "120766",
+          "Serum"
+        ],
+        [
+          "25-OH Vitamin D",
+          "081950",
+          "Serum"
+        ]
+      ],
+      "estimated_cost": "$80"
+    },
+    "MONTH 3 (First efficacy check)": {
+      "fasting": true,
+      "priority": "C-peptide is the PRIMARY ENDPOINT",
+      "tests": [
+        [
+          "C-peptide, fasting",
+          "004051",
+          "Serum, fasting 12hr"
+        ],
+        [
+          "HbA1c",
+          "001453",
+          "Whole blood EDTA"
+        ],
+        [
+          "hs-CRP",
+          "120766",
+          "Serum"
+        ],
+        [
+          "ALT",
+          "001545",
+          "Serum"
+        ],
+        [
+          "AST",
+          "001123",
+          "Serum"
+        ],
+        [
+          "25-OH Vitamin D",
+          "081950",
+          "Serum"
+        ],
+        [
+          "CBC",
+          "005009",
+          "Whole blood EDTA"
+        ]
+      ],
+      "estimated_cost": "$175"
+    },
+    "MONTH 6 (Comprehensive -- KEY decision point)": {
+      "fasting": true,
+      "priority": "FULL panel. This determines Phase 2 -> Phase 3 transition.",
+      "tests": [
+        [
+          "C-peptide, fasting",
+          "004051",
+          "Serum, fasting 12hr"
+        ],
+        [
+          "C-peptide, stimulated (MMTT)",
+          "MMTT",
+          "Clinic: Boost + timed draws"
+        ],
+        [
+          "HbA1c",
+          "001453",
+          "Whole blood EDTA"
+        ],
+        [
+          "GAD65 Ab",
+          "164350",
+          "Serum"
+        ],
+        [
+          "hs-CRP",
+          "120766",
+          "Serum"
+        ],
+        [
+          "ALT + AST",
+          "001545/001123",
+          "Serum"
+        ],
+        [
+          "Troponin I, hs",
+          "164921",
+          "Serum"
+        ],
+        [
+          "CBC",
+          "005009",
+          "Whole blood EDTA"
+        ],
+        [
+          "CMP",
+          "322000",
+          "Serum"
+        ],
+        [
+          "25-OH Vitamin D",
+          "081950",
+          "Serum"
+        ],
+        [
+          "Fasting insulin",
+          "004333",
+          "Serum, fasting"
+        ]
+      ],
+      "estimated_cost": "$490"
+    },
+    "MONTH 9 (Interim)": {
+      "fasting": true,
+      "priority": "Track C-peptide trajectory",
+      "tests": [
+        [
+          "C-peptide, fasting",
+          "004051",
+          "Serum, fasting 12hr"
+        ],
+        [
+          "HbA1c",
+          "001453",
+          "Whole blood EDTA"
+        ],
+        [
+          "hs-CRP",
+          "120766",
+          "Serum"
+        ],
+        [
+          "ALT",
+          "001545",
+          "Serum"
+        ]
+      ],
+      "estimated_cost": "$105"
+    },
+    "MONTH 12 (Full reassessment)": {
+      "fasting": true,
+      "priority": "PRIMARY ENDPOINT. One-year comprehensive evaluation.",
+      "tests": [
+        [
+          "C-peptide, fasting",
+          "004051",
+          "Serum, fasting 12hr"
+        ],
+        [
+          "C-peptide, stimulated (MMTT)",
+          "MMTT",
+          "Clinic: Boost + timed draws"
+        ],
+        [
+          "HbA1c",
+          "001453",
+          "Whole blood EDTA"
+        ],
+        [
+          "GAD65 Ab",
+          "164350",
+          "Serum"
+        ],
+        [
+          "IA-2 Ab",
+          "164355",
+          "Serum"
+        ],
+        [
+          "hs-CRP",
+          "120766",
+          "Serum"
+        ],
+        [
+          "ALT + AST",
+          "001545/001123",
+          "Serum"
+        ],
+        [
+          "Troponin I, hs",
+          "164921",
+          "Serum"
+        ],
+        [
+          "NT-proBNP",
+          "250913",
+          "Serum"
+        ],
+        [
+          "CBC",
+          "005009",
+          "Whole blood EDTA"
+        ],
+        [
+          "CMP",
+          "322000",
+          "Serum"
+        ],
+        [
+          "25-OH Vitamin D",
+          "081950",
+          "Serum"
+        ],
+        [
+          "Fasting insulin",
+          "004333",
+          "Serum, fasting"
+        ]
+      ],
+      "estimated_cost": "$615"
+    },
+    "MONTH 18 (Durability)": {
+      "fasting": true,
+      "priority": "Confirm sustained response. Fluoxetine taper decision.",
+      "tests": [
+        [
+          "C-peptide, fasting",
+          "004051",
+          "Serum, fasting 12hr"
+        ],
+        [
+          "HbA1c",
+          "001453",
+          "Whole blood EDTA"
+        ],
+        [
+          "ALT",
+          "001545",
+          "Serum"
+        ],
+        [
+          "25-OH Vitamin D",
+          "081950",
+          "Serum"
+        ]
+      ],
+      "estimated_cost": "$120"
+    },
+    "MONTH 24 (Final protocol assessment)": {
+      "fasting": true,
+      "priority": "COMPREHENSIVE. Two-year verdict. Compare to every prior result.",
+      "tests": [
+        [
+          "C-peptide, fasting",
+          "004051",
+          "Serum, fasting 12hr"
+        ],
+        [
+          "C-peptide, stimulated (MMTT)",
+          "MMTT",
+          "Clinic: Boost + timed draws"
+        ],
+        [
+          "HbA1c",
+          "001453",
+          "Whole blood EDTA"
+        ],
+        [
+          "GAD65 Ab",
+          "164350",
+          "Serum"
+        ],
+        [
+          "IA-2 Ab",
+          "164355",
+          "Serum"
+        ],
+        [
+          "ZnT8 Ab",
+          "ZnT8",
+          "Serum"
+        ],
+        [
+          "hs-CRP",
+          "120766",
+          "Serum"
+        ],
+        [
+          "ALT + AST",
+          "001545/001123",
+          "Serum"
+        ],
+        [
+          "Troponin I, hs",
+          "164921",
+          "Serum"
+        ],
+        [
+          "NT-proBNP",
+          "250913",
+          "Serum"
+        ],
+        [
+          "CBC",
+          "005009",
+          "Whole blood EDTA"
+        ],
+        [
+          "CMP",
+          "322000",
+          "Serum"
+        ],
+        [
+          "25-OH Vitamin D",
+          "081950",
+          "Serum"
+        ],
+        [
+          "Fasting insulin",
+          "004333",
+          "Serum, fasting"
+        ],
+        [
+          "Lipid panel",
+          "303756",
+          "Serum, fasting"
+        ]
+      ],
+      "estimated_cost": "$725"
+    }
+  },
+  "emergency_protocols": {
+    "hypoglycemia": {
+      "title": "HYPOGLYCEMIA (Blood glucose < 70 mg/dL)",
+      "severity_levels": [
+        {
+          "level": "MILD (54-70 mg/dL, aware)",
+          "symptoms": "Shakiness, sweating, hunger, fast heartbeat, anxiety",
+          "action": [
+            "Eat 15g fast carbs: 4 glucose tabs, 4oz juice, or 1 tbsp honey",
+            "Wait 15 minutes",
+            "Recheck blood glucose",
+            "If still <70: repeat 15g carbs",
+            "Once >70: eat a snack with protein + fat",
+            "Log the event. Identify cause (too much insulin? missed meal? exercise?)"
+          ]
+        },
+        {
+          "level": "MODERATE (40-54 mg/dL, symptomatic)",
+          "symptoms": "Confusion, difficulty speaking, blurred vision, weakness",
+          "action": [
+            "Eat 30g fast carbs immediately",
+            "If unable to eat safely: glucagon nasal spray (Baqsimi) or injection",
+            "Call someone to stay with you",
+            "Recheck in 15 minutes",
+            "If no improvement: CALL 911",
+            "After recovery: eat a full meal",
+            "Report to endocrinologist. Review insulin doses."
+          ]
+        },
+        {
+          "level": "SEVERE (<40 mg/dL or unconscious)",
+          "symptoms": "Seizure, loss of consciousness, unable to self-treat",
+          "action": [
+            "CALL 911 IMMEDIATELY",
+            "If glucagon available: bystander should administer",
+            "Do NOT put food in mouth of unconscious person",
+            "Place on side (recovery position)",
+            "This is a medical emergency"
+          ]
+        }
+      ]
+    },
+    "dka": {
+      "title": "DKA SYMPTOMS (Diabetic Ketoacidosis)",
+      "triggers": "Most likely during fasting, illness, missed insulin, or pump failure",
+      "warning_signs": [
+        "Blood BHB > 3.0 mM",
+        "Blood glucose > 250 mg/dL + ketones > 1.5 mM",
+        "Nausea and vomiting",
+        "Abdominal pain",
+        "Fruity/acetone breath",
+        "Rapid deep breathing (Kussmaul breathing)",
+        "Confusion, lethargy"
+      ],
+      "action": [
+        "STOP FASTING immediately -- eat carbs",
+        "Check blood glucose AND blood ketones",
+        "If BHB > 3.0 mM with symptoms: GO TO ER",
+        "If BHB > 5.0 mM: CALL 911 -- this IS DKA",
+        "Take correction insulin dose (50% of normal correction factor)",
+        "Drink water (dehydration accelerates DKA)",
+        "Do NOT exercise (worsens ketosis)",
+        "Do NOT take exogenous BHB supplements",
+        "ER will give IV fluids + insulin drip"
+      ]
+    },
+    "chest_pain": {
+      "title": "CHEST PAIN / CARDIAC SYMPTOMS",
+      "context": "CVB can cause myocarditis/pericarditis. Protocol includes cardiac monitoring.",
+      "warning_signs": [
+        "Chest pain (especially sharp, worse with breathing or lying down = pericarditis)",
+        "Shortness of breath at rest or with minimal exertion",
+        "New or worsening palpitations",
+        "Sudden exercise intolerance",
+        "Syncope (fainting) or near-syncope"
+      ],
+      "action": [
+        "STOP all exercise immediately",
+        "If severe chest pain or difficulty breathing: CALL 911",
+        "If mild and intermittent: urgent cardiology appointment (within 24-48h)",
+        "Troponin and BNP blood test ASAP",
+        "ECG and echocardiogram",
+        "DO NOT fast until cardiac evaluation is complete",
+        "Continue fluoxetine and supplements (these are not cardiac-risky)",
+        "Report to protocol-monitoring endocrinologist"
+      ]
+    },
+    "severe_side_effects": {
+      "title": "SEVERE SIDE EFFECTS",
+      "fluoxetine": {
+        "stop_immediately_if": [
+          "Rash, hives, swelling (allergic reaction)",
+          "Jaundice (yellowing of skin/eyes) -- hepatotoxicity",
+          "Severe agitation, tremor, fever, diarrhea (serotonin syndrome -- RARE)",
+          "Suicidal thoughts (rare in adults, report immediately)",
+          "Seizure"
+        ],
+        "reduce_dose_if": [
+          "Persistent severe nausea (>2 weeks)",
+          "Sexual dysfunction (common, discuss with doctor)",
+          "Significant weight change",
+          "Excessive sedation or insomnia"
+        ]
+      },
+      "semaglutide": {
+        "stop_immediately_if": [
+          "Severe abdominal pain that won't stop (pancreatitis risk)",
+          "Vision changes (rare: diabetic retinopathy worsening)",
+          "Allergic reaction (rash, swelling, breathing difficulty)",
+          "Severe vomiting unable to keep fluids down >24h"
+        ],
+        "reduce_dose_if": [
+          "Persistent nausea >2 weeks",
+          "Weight loss >5% in first month (too fast for T1DM patient)",
+          "Frequent loose stools"
+        ]
+      },
+      "general_rule": "When in doubt, contact your endocrinologist. If they are unavailable and symptoms are severe, go to the ER. Bring your medication list and tell them you are on an experimental supplement protocol for T1DM beta cell recovery."
+    }
+  },
+  "cost_summary": {
+    "tier_1_monthly_ongoing": 198,
+    "tier_2_monthly_ongoing": 218,
+    "tier_3_monthly_ongoing": 518,
+    "year_1_tier_1": 5706,
+    "year_1_tier_2": 5906,
+    "year_1_tier_3": 8606,
+    "year_2_tier_1": 8977,
+    "year_2_tier_2": 9417,
+    "year_2_tier_3": 15717
+  },
+  "model_predictions": {
+    "inequality_reversal_month": "8-10 (expected)",
+    "first_cpeptide_signal_month": "3-6",
+    "insulin_independence_month": "24-36 (expected case)",
+    "probability_cpeptide_improvement_3yr": "65-80%",
+    "probability_insulin_independence_3yr": "20-35%"
+  }
+}

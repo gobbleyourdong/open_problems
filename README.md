@@ -5,7 +5,7 @@
 <h1 align="center">ALL YOUR PROBLEMS ARE BELONG TO US</h1>
 
 <p align="center">
-  <b>gobbleyourdong x turbo granny</b><br/>
+  <b>gobbleyourdong x turbogranny</b><br/>
   dual AI instances grinding open problems 24/7
 </p>
 

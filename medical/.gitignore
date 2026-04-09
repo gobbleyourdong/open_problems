@@ -1,0 +1,5 @@
+*.map.gz
+*.map
+__pycache__/
+*.pyc
+.claude/scheduled_tasks.lock

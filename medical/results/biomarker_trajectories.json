@@ -1,0 +1,1091 @@
+{
+  "generated": "2026-04-08T22:31:11.022070",
+  "patient": {
+    "age": 67,
+    "sex": "male",
+    "dx_date": "2019-12",
+    "disease_duration_years": 6.3,
+    "dx_c_peptide_ng_ml": 0.9,
+    "insulin_free_years": 5,
+    "current_insulin": "2u Humalog/meal",
+    "current_diet": "18:6 IF, 15-20g carbs/meal",
+    "notes": "5yr insulin-free remission suggests significant residual beta cell mass"
+  },
+  "months_modeled": 24,
+  "visit_schedule_months": [
+    0,
+    1,
+    3,
+    6,
+    9,
+    12,
+    18,
+    24
+  ],
+  "biomarkers": [
+    {
+      "name": "Fasting C-Peptide",
+      "unit": "nmol/L",
+      "category": "T1DM Primary",
+      "tier": 1,
+      "baseline_mean": 0.2,
+      "baseline_range": [
+        0.1,
+        0.3
+      ],
+      "normal_range": [
+        0.37,
+        1.47
+      ],
+      "success_threshold": 0.2,
+      "safety_threshold": null,
+      "direction": "higher_is_better",
+      "cost_usd": 45,
+      "decision_points": {
+        "month_3": "If <0.12 nmol/L (declining), check adherence. Consider adding semaglutide.",
+        "month_6": "If <0.15 nmol/L (no rise), consider adding teplizumab referral.",
+        "month_12": "If <0.20 nmol/L, protocol has not achieved primary endpoint. Full reassessment.",
+        "month_12_success": "If >0.30 nmol/L, beta cell regeneration confirmed. Begin cautious insulin reduction.",
+        "month_18": "If >0.60 nmol/L, insulin reduction likely possible. Endocrinology team manages taper."
+      },
+      "trajectory_at_visits": {
+        "months": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "optimistic": [
+          0.2164,
+          0.2229,
+          0.2436,
+          0.3037,
+          0.4,
+          0.4963,
+          0.5836,
+          0.5979
+        ],
+        "expected": [
+          0.2071,
+          0.2094,
+          0.2164,
+          0.2347,
+          0.2638,
+          0.2968,
+          0.3375,
+          0.3478
+        ],
+        "pessimistic": [
+          0.2,
+          0.1984,
+          0.1956,
+          0.1921,
+          0.1894,
+          0.1874,
+          0.1845,
+          0.1827
+        ]
+      },
+      "notes": "THE primary endpoint. 0.2 nmol/L = clinically meaningful. >0.6 = insulin reduction possible."
+    },
+    {
+      "name": "Stimulated C-Peptide (MMTT)",
+      "unit": "nmol/L",
+      "category": "T1DM Primary",
+      "tier": 1,
+      "baseline_mean": 0.5,
+      "baseline_range": [
+        0.2,
+        0.75
+      ],
+      "normal_range": [
+        0.93,
+        3.67
+      ],
+      "success_threshold": 0.6,
+      "safety_threshold": null,
+      "direction": "higher_is_better",
+      "cost_usd": 150,
+      "decision_points": {
+        "month_6": "If <0.40 nmol/L, consider escalation (teplizumab).",
+        "month_12": "If >0.60 nmol/L, definitive evidence of beta cell function improvement."
+      },
+      "trajectory_at_visits": {
+        "months": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "optimistic": [
+          0.5411,
+          0.5573,
+          0.6091,
+          0.7592,
+          1.0,
+          1.2408,
+          1.4589,
+          1.4948
+        ],
+        "expected": [
+          0.5178,
+          0.5236,
+          0.5409,
+          0.5868,
+          0.6596,
+          0.7421,
+          0.8438,
+          0.8695
+        ],
+        "pessimistic": [
+          0.4,
+          0.3968,
+          0.3912,
+          0.3843,
+          0.3789,
+          0.3747,
+          0.3689,
+          0.3654
+        ]
+      },
+      "notes": "Gold standard. Requires clinic visit with timed blood draws after mixed meal."
+    },
+    {
+      "name": "HbA1c",
+      "unit": "%",
+      "category": "T1DM Primary",
+      "tier": 1,
+      "baseline_mean": 6.8,
+      "baseline_range": [
+        6.2,
+        7.5
+      ],
+      "normal_range": [
+        4.0,
+        5.6
+      ],
+      "success_threshold": 6.0,
+      "safety_threshold": null,
+      "direction": "lower_is_better",
+      "cost_usd": 20,
+      "decision_points": {
+        "month_3": "First on-protocol value. If <6.5%, early signal of improved control.",
+        "month_6": "If rising (>7.5%), protocol is not improving control. Reassess.",
+        "month_12": "Target: <6.5%. If achieved with less insulin, protocol is working."
+      },
+      "trajectory_at_visits": {
+        "months": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "optimistic": [
+          6.7526,
+          6.737,
+          6.6909,
+          6.5685,
+          6.3744,
+          6.1543,
+          5.8832,
+          5.8148
+        ],
+        "expected": [
+          6.7621,
+          6.7523,
+          6.726,
+          6.6655,
+          6.5811,
+          6.4888,
+          6.3596,
+          6.3147
+        ],
+        "pessimistic": [
+          6.8,
+          6.8108,
+          6.8307,
+          6.8567,
+          6.8787,
+          6.8973,
+          6.9264,
+          6.9473
+        ]
+      },
+      "notes": "Reflects 3-month average glucose. Lags behind real-time changes by ~6 weeks."
+    },
+    {
+      "name": "Glucose CV (from CGM)",
+      "unit": "%",
+      "category": "T1DM Primary",
+      "tier": 2,
+      "baseline_mean": 42.0,
+      "baseline_range": [
+        35.0,
+        50.0
+      ],
+      "normal_range": [
+        null,
+        36.0
+      ],
+      "success_threshold": 36.0,
+      "safety_threshold": null,
+      "direction": "lower_is_better",
+      "cost_usd": 0,
+      "decision_points": {
+        "month_3": "If CV <36%, beta cells providing meaningful basal insulin."
+      },
+      "trajectory_at_visits": {
+        "months": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "optimistic": [
+          40.3312,
+          39.9273,
+          38.8822,
+          36.7144,
+          34.1295,
+          31.7652,
+          29.062,
+          28.2518
+        ],
+        "expected": [
+          41.0464,
+          40.8652,
+          40.4175,
+          39.5198,
+          38.3987,
+          37.2105,
+          35.3439,
+          34.4586
+        ],
+        "pessimistic": [
+          42.0,
+          42.9197,
+          43.7606,
+          42.2198,
+          40.6563,
+          41.6611,
+          42.3893,
+          41.6052
+        ]
+      },
+      "notes": "Calculated from CGM data (coefficient of variation). Free if already wearing CGM."
+    },
+    {
+      "name": "GAD65 Autoantibodies",
+      "unit": "IU/mL",
+      "category": "Autoimmune",
+      "tier": 2,
+      "baseline_mean": 80.0,
+      "baseline_range": [
+        20.0,
+        200.0
+      ],
+      "normal_range": [
+        null,
+        5.0
+      ],
+      "success_threshold": null,
+      "safety_threshold": null,
+      "direction": "lower_is_better",
+      "cost_usd": 85,
+      "decision_points": {
+        "month_6": "Baseline comparison. GAD65 is slow to change. >20% decline is encouraging.",
+        "month_12": "If declined >30%, immune tolerance is improving.",
+        "month_24": "If normalized (<5 IU/mL), remarkable result. Immune tolerance likely achieved."
+      },
+      "trajectory_at_visits": {
+        "months": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "optimistic": [
+          80.0,
+          76.1621,
+          69.3824,
+          61.1135,
+          54.6736,
+          49.6582,
+          42.7102,
+          38.4961
+        ],
+        "expected": [
+          80.0,
+          78.703,
+          76.3156,
+          73.1968,
+          70.5567,
+          68.322,
+          64.8291,
+          62.3263
+        ],
+        "pessimistic": [
+          80.0,
+          81.1821,
+          83.1333,
+          83.8954,
+          81.7095,
+          78.2299,
+          76.9089,
+          83.1747
+        ]
+      },
+      "notes": "Slow marker. Do NOT expect rapid changes. 6-12 month intervals are appropriate."
+    },
+    {
+      "name": "IA-2 Autoantibodies",
+      "unit": "IU/mL",
+      "category": "Autoimmune",
+      "tier": 2,
+      "baseline_mean": 30.0,
+      "baseline_range": [
+        5.0,
+        80.0
+      ],
+      "normal_range": [
+        null,
+        7.5
+      ],
+      "success_threshold": null,
+      "safety_threshold": null,
+      "direction": "lower_is_better",
+      "cost_usd": 85,
+      "decision_points": {},
+      "trajectory_at_visits": {
+        "months": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "optimistic": [
+          30.0,
+          28.0016,
+          24.5572,
+          20.525,
+          17.538,
+          15.3251,
+          12.4713,
+          10.9051
+        ],
+        "expected": [
+          30.0,
+          29.2261,
+          27.8248,
+          26.0438,
+          24.5857,
+          23.3919,
+          21.6143,
+          20.4228
+        ],
+        "pessimistic": [
+          30.0,
+          30.3505,
+          30.8388,
+          30.6079,
+          29.6017,
+          29.1035,
+          30.7143,
+          29.8431
+        ]
+      },
+      "notes": "Combined with GAD65 and ZnT8 for full autoimmune status."
+    },
+    {
+      "name": "ZnT8 Autoantibodies",
+      "unit": "IU/mL",
+      "category": "Autoimmune",
+      "tier": 3,
+      "baseline_mean": 15.0,
+      "baseline_range": [
+        0.0,
+        40.0
+      ],
+      "normal_range": [
+        null,
+        15.0
+      ],
+      "success_threshold": null,
+      "safety_threshold": null,
+      "direction": "lower_is_better",
+      "cost_usd": 85,
+      "decision_points": {},
+      "trajectory_at_visits": {
+        "months": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "optimistic": [
+          15.0,
+          13.59,
+          11.2475,
+          8.6684,
+          6.8958,
+          5.6776,
+          4.2648,
+          3.5974
+        ],
+        "expected": [
+          15.0,
+          14.483,
+          13.5534,
+          12.3858,
+          11.4434,
+          10.6828,
+          9.5734,
+          8.8507
+        ],
+        "pessimistic": [
+          15.0,
+          15.0887,
+          15.235,
+          15.2922,
+          15.1282,
+          14.8672,
+          14.7682,
+          15.2381
+        ]
+      },
+      "notes": "Often declines with disease duration regardless of intervention."
+    },
+    {
+      "name": "hs-CRP",
+      "unit": "mg/L",
+      "category": "Inflammation",
+      "tier": 1,
+      "baseline_mean": 2.5,
+      "baseline_range": [
+        1.0,
+        5.0
+      ],
+      "normal_range": [
+        null,
+        1.0
+      ],
+      "success_threshold": 1.0,
+      "safety_threshold": 10.0,
+      "direction": "lower_is_better",
+      "cost_usd": 25,
+      "decision_points": {
+        "month_1": "If >10 mg/L, suggests acute infection. Not protocol-related. Investigate.",
+        "month_3": "Expect >30% decline from baseline if protocol reducing inflammation.",
+        "month_6": "Target: <1.5 mg/L. If still >3.0, anti-inflammatory arm underperforming."
+      },
+      "trajectory_at_visits": {
+        "months": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "optimistic": [
+          2.5,
+          2.1193,
+          1.5525,
+          1.0325,
+          0.7471,
+          0.5905,
+          0.4574,
+          0.4173
+        ],
+        "expected": [
+          2.5,
+          2.3237,
+          2.0309,
+          1.7085,
+          1.487,
+          1.3347,
+          1.1581,
+          1.0747
+        ],
+        "pessimistic": [
+          2.5,
+          2.476,
+          2.4336,
+          2.382,
+          2.3417,
+          2.3104,
+          2.2669,
+          2.2406
+        ]
+      },
+      "notes": "Fastest-responding inflammation marker. Should see changes within 1-3 months."
+    },
+    {
+      "name": "Treg Count (CD4+CD25+FoxP3+)",
+      "unit": "% of CD4+",
+      "category": "Immune",
+      "tier": 2,
+      "baseline_mean": 4.5,
+      "baseline_range": [
+        3.0,
+        6.0
+      ],
+      "normal_range": [
+        5.0,
+        10.0
+      ],
+      "success_threshold": 6.0,
+      "safety_threshold": null,
+      "direction": "higher_is_better",
+      "cost_usd": 200,
+      "decision_points": {
+        "month_3": "First check. If >5.5%, butyrate + vitamin D working.",
+        "month_6": "Target: >6.0%. If <4.5% (no change), increase butyrate dose to 600mg BID."
+      },
+      "trajectory_at_visits": {
+        "months": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "optimistic": [
+          4.9768,
+          5.2297,
+          6.0102,
+          7.4242,
+          8.1966,
+          8.4281,
+          8.4964,
+          8.4998
+        ],
+        "expected": [
+          4.6663,
+          4.7384,
+          4.963,
+          5.5,
+          6.037,
+          6.3337,
+          6.4837,
+          6.4985
+        ],
+        "pessimistic": [
+          4.5,
+          4.54,
+          4.6106,
+          4.6967,
+          4.7638,
+          4.8161,
+          4.8884,
+          4.9323
+        ]
+      },
+      "notes": "Requires flow cytometry (specialized lab). Most informative immune marker for this protocol."
+    },
+    {
+      "name": "25-OH Vitamin D",
+      "unit": "ng/mL",
+      "category": "Compliance",
+      "tier": 1,
+      "baseline_mean": 28.0,
+      "baseline_range": [
+        15.0,
+        40.0
+      ],
+      "normal_range": [
+        30.0,
+        100.0
+      ],
+      "success_threshold": 50.0,
+      "safety_threshold": 100.0,
+      "direction": "higher_is_better",
+      "cost_usd": 40,
+      "decision_points": {
+        "month_1": "Should be rising. If <30 ng/mL, increase dose or check absorption.",
+        "month_3": "Target: 50-70 ng/mL. If <40, compliance issue or malabsorption.",
+        "month_6": "If >100 ng/mL, reduce dose (toxicity risk: hypercalcemia)."
+      },
+      "trajectory_at_visits": {
+        "months": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "optimistic": [
+          28.0,
+          46.0036,
+          59.9926,
+          64.3223,
+          64.9083,
+          64.9876,
+          64.9998,
+          65.0
+        ],
+        "expected": [
+          28.0,
+          38.6237,
+          48.9755,
+          53.6557,
+          54.7001,
+          54.9331,
+          54.9967,
+          54.9998
+        ],
+        "pessimistic": [
+          28.0,
+          31.4016,
+          35.5854,
+          38.376,
+          39.4026,
+          39.7802,
+          39.9703,
+          39.996
+        ]
+      },
+      "notes": "Compliance marker. Should respond within 4-8 weeks. Check calcium if >80 ng/mL."
+    },
+    {
+      "name": "Enterovirus PCR (stool)",
+      "unit": "probability positive",
+      "category": "Viral",
+      "tier": 3,
+      "baseline_mean": 0.7,
+      "baseline_range": [
+        0.5,
+        0.9
+      ],
+      "normal_range": [
+        null,
+        0.0
+      ],
+      "success_threshold": 0.1,
+      "safety_threshold": null,
+      "direction": "lower_is_better",
+      "cost_usd": 150,
+      "decision_points": {
+        "month_6": "If still positive, viral clearance is slow. Consider increasing FMD frequency.",
+        "month_12": "If still positive, fluoxetine may not be reaching pancreatic reservoir. Consider dose increase."
+      },
+      "trajectory_at_visits": {
+        "months": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "optimistic": [
+          0.7,
+          0.5016,
+          0.2575,
+          0.0947,
+          0.0349,
+          0.0128,
+          0.0017,
+          0.0002
+        ],
+        "expected": [
+          0.7,
+          0.5925,
+          0.4246,
+          0.2575,
+          0.1562,
+          0.0947,
+          0.0349,
+          0.0128
+        ],
+        "pessimistic": [
+          0.7,
+          0.6664,
+          0.6071,
+          0.5347,
+          0.4784,
+          0.4345,
+          0.3737,
+          0.3368
+        ]
+      },
+      "notes": "Research-grade test. Not available at standard labs. Academic virology lab needed."
+    },
+    {
+      "name": "Troponin I (hs)",
+      "unit": "ng/L",
+      "category": "Cardiac Safety",
+      "tier": 1,
+      "baseline_mean": 5.0,
+      "baseline_range": [
+        2.0,
+        10.0
+      ],
+      "normal_range": [
+        null,
+        14.0
+      ],
+      "success_threshold": null,
+      "safety_threshold": 14.0,
+      "direction": "lower_is_better",
+      "cost_usd": 30,
+      "decision_points": {
+        "any_visit": "If >14 ng/L, STOP protocol and get cardiology consult immediately.",
+        "any_visit_2": "If rising trend (even within normal), get echocardiogram."
+      },
+      "trajectory_at_visits": {
+        "months": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "optimistic": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ],
+        "expected": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ],
+        "pessimistic": [
+          5.4256,
+          5.5473,
+          5.8672,
+          6.5,
+          7.1328,
+          7.5744,
+          7.9202,
+          7.9865
+        ]
+      },
+      "notes": "SAFETY MARKER. Any elevation above 14 ng/L = active myocardial injury. Immediate workup."
+    },
+    {
+      "name": "NT-proBNP",
+      "unit": "pg/mL",
+      "category": "Cardiac Safety",
+      "tier": 2,
+      "baseline_mean": 120.0,
+      "baseline_range": [
+        50.0,
+        250.0
+      ],
+      "normal_range": [
+        null,
+        300.0
+      ],
+      "success_threshold": null,
+      "safety_threshold": 300.0,
+      "direction": "lower_is_better",
+      "cost_usd": 40,
+      "decision_points": {
+        "any_visit": "If >300 pg/mL, suggests heart failure. Cardiology referral.",
+        "any_visit_2": "If >900 pg/mL, likely symptomatic HF. Urgent evaluation."
+      },
+      "trajectory_at_visits": {
+        "months": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "optimistic": [
+          120.0,
+          116.9296,
+          112.1306,
+          107.3576,
+          104.4626,
+          102.7067,
+          100.9957,
+          100.3663
+        ],
+        "expected": [
+          120.0,
+          120.0,
+          120.0,
+          120.0,
+          120.0,
+          120.0,
+          120.0,
+          120.0
+        ],
+        "pessimistic": [
+          123.3269,
+          123.99,
+          125.674,
+          129.259,
+          134.1737,
+          140.0,
+          150.741,
+          156.6731
+        ]
+      },
+      "notes": "Age-adjusted threshold: <300 pg/mL normal for age >65. Screen for occult CVB cardiomyopathy."
+    },
+    {
+      "name": "ALT",
+      "unit": "U/L",
+      "category": "Hepatic Safety",
+      "tier": 1,
+      "baseline_mean": 25.0,
+      "baseline_range": [
+        15.0,
+        35.0
+      ],
+      "normal_range": [
+        null,
+        40.0
+      ],
+      "success_threshold": null,
+      "safety_threshold": 120.0,
+      "direction": "lower_is_better",
+      "cost_usd": 15,
+      "decision_points": {
+        "month_1": "First fluoxetine safety check. If >80 U/L (2x ULN), recheck in 2 weeks.",
+        "month_3": "If >120 U/L (3x ULN), REDUCE fluoxetine dose to 10mg or discontinue.",
+        "any_visit": "If ALT >3x ULN + bilirubin >2x ULN (Hy's Law), STOP fluoxetine immediately."
+      },
+      "trajectory_at_visits": {
+        "months": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "optimistic": [
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0,
+          25.0
+        ],
+        "expected": [
+          25.0,
+          26.4383,
+          27.9925,
+          25.4234,
+          22.0674,
+          24.1618,
+          26.2364,
+          23.3903
+        ],
+        "pessimistic": [
+          29.0341,
+          30.6631,
+          34.3369,
+          38.212,
+          39.5603,
+          39.8996,
+          39.995,
+          39.9997
+        ]
+      },
+      "notes": "Fluoxetine hepatotoxicity is rare (<1%) but must be monitored. Hy's Law is the abort criterion."
+    },
+    {
+      "name": "NK Cell Cytotoxicity",
+      "unit": "% lysis",
+      "category": "ME/CFS",
+      "tier": 3,
+      "baseline_mean": 18.0,
+      "baseline_range": [
+        8.0,
+        25.0
+      ],
+      "normal_range": [
+        15.0,
+        40.0
+      ],
+      "success_threshold": 25.0,
+      "safety_threshold": null,
+      "direction": "higher_is_better",
+      "cost_usd": 250,
+      "decision_points": {},
+      "trajectory_at_visits": {
+        "months": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "optimistic": [
+          20.1278,
+          20.7364,
+          22.3358,
+          25.5,
+          28.6642,
+          30.8722,
+          32.601,
+          32.9326
+        ],
+        "expected": [
+          18.7628,
+          18.9536,
+          19.4594,
+          20.5666,
+          22.0,
+          23.4334,
+          25.2372,
+          25.8162
+        ],
+        "pessimistic": [
+          18.0,
+          18.1081,
+          18.307,
+          18.5669,
+          18.7869,
+          18.9732,
+          19.2642,
+          19.4728
+        ]
+      },
+      "notes": "Only if ME/CFS symptoms present. Requires specialized immunology lab."
+    },
+    {
+      "name": "Lactate:Pyruvate Ratio",
+      "unit": "ratio",
+      "category": "ME/CFS",
+      "tier": 3,
+      "baseline_mean": 22.0,
+      "baseline_range": [
+        15.0,
+        30.0
+      ],
+      "normal_range": [
+        10.0,
+        20.0
+      ],
+      "success_threshold": 20.0,
+      "safety_threshold": null,
+      "direction": "lower_is_better",
+      "cost_usd": 80,
+      "decision_points": {},
+      "trajectory_at_visits": {
+        "months": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "optimistic": [
+          22.0,
+          20.7719,
+          18.8522,
+          16.943,
+          15.785,
+          15.0827,
+          14.3983,
+          14.1465
+        ],
+        "expected": [
+          22.0,
+          21.5242,
+          20.7041,
+          19.7441,
+          19.0328,
+          18.506,
+          17.8265,
+          17.4536
+        ],
+        "pessimistic": [
+          22.0,
+          21.946,
+          21.8465,
+          21.7165,
+          21.6065,
+          21.5134,
+          21.3679,
+          21.2636
+        ]
+      },
+      "notes": "Marker of mitochondrial function. Only if fatigue/PEM symptoms present."
+    }
+  ],
+  "summary": {
+    "tier_1_count": 7,
+    "tier_2_count": 5,
+    "tier_3_count": 4,
+    "total_tier1_cost_per_visit": 325,
+    "primary_endpoint": "Fasting C-Peptide > 0.20 nmol/L at 12 months",
+    "safety_abort_criteria": [
+      "Troponin I > 14 ng/L at any visit",
+      "ALT > 3x ULN (>120 U/L) AND bilirubin > 2x ULN (Hy's Law)",
+      "NT-proBNP > 900 pg/mL (symptomatic heart failure)",
+      "hs-CRP > 10 mg/L sustained (uncontrolled infection/inflammation)"
+    ]
+  }
+}
