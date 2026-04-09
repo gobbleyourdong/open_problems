@@ -168,7 +168,7 @@ Entrez searches performed via Biopython (email: noreply@example.com)
 5. `"dilated cardiomyopathy" AND ("virus" OR "viral") AND "expression"` → 17 hits
 6. `"coxsackievirus B3" AND ("cardiomyocyte" OR "cardiac")` → 16 hits
 
-**Downloaded to `/home/jb/medical_problems/numerics/transcriptomics/`:**
+**Downloaded to `~/open_problems/medical/numerics/transcriptomics/`:**
 
 | Accession | Title | Samples | Downloaded |
 |-----------|-------|---------|------------|

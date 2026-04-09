@@ -15,7 +15,7 @@ from Bio import Entrez
 Entrez.email = 'noreply@example.com'
 Entrez.tool  = 'cardiac_cvb_search'
 
-TRANSCRIPTOMICS_DIR = '/home/jb/medical_problems/numerics/transcriptomics'
+TRANSCRIPTOMICS_DIR = '~/medical_problems/numerics/transcriptomics'
 os.makedirs(TRANSCRIPTOMICS_DIR, exist_ok=True)
 
 # ── helpers ──────────────────────────────────────────────────────────────────
@@ -260,7 +260,7 @@ for ds in downloadable:
 
 # ── Save results ──────────────────────────────────────────────────────────────
 
-OUTPUT = '/home/jb/medical_problems/results/geo_cardiac_cvb_search.json'
+OUTPUT = '~/medical_problems/results/geo_cardiac_cvb_search.json'
 final = {
     'geo_searches': all_results,
     'downloadable_datasets': downloadable,

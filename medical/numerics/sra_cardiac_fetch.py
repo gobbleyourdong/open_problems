@@ -129,7 +129,7 @@ output = {
     'runs': all_runs,
 }
 
-out_path = '/home/jb/medical_problems/results/sra_cardiac_cvb_runs.json'
+out_path = '~/medical_problems/results/sra_cardiac_cvb_runs.json'
 with open(out_path, 'w') as f:
     json.dump(output, f, indent=2)
 print(f'Saved → {out_path}')

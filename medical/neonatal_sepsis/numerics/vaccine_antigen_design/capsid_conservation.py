@@ -11,7 +11,7 @@ from pathlib import Path
 from collections import defaultdict, Counter
 
 # ── paths ─────────────────────────────────────────────────────────────────────
-REPO    = Path("/home/jb/medical_problems")
+REPO    = Path("~/medical_problems")
 SEQ_DIR = REPO / "numerics" / "sequences"
 OUT_DIR = REPO / "neonatal_sepsis" / "results" / "vaccine_antigen_design"
 OUT_DIR.mkdir(parents=True, exist_ok=True)

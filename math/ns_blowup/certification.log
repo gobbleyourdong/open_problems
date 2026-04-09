@@ -49,7 +49,7 @@ Checkpoint removed: ns_blowup/certs/N3_K18.checkpoint.json
 === N=4, K²≤9 (exhaustive, resumable) ===
 K²=1..9: 61 k-vectors
 Testing 521855 N=4 configs...
-/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+~/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
   prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
   [52185/521855] cert=52185 fail=0 floor≥7.59 rate=22.2/s ETA=353min
   [104370/521855] cert=104370 fail=0 floor≥7.59 rate=22.2/s ETA=314min
@@ -128,7 +128,7 @@ K²=1..3: 13 k-vectors
 Testing 1716 N=7 configs...
   [171/1716] cert=171 fail=0 floor≥12.57 rate=0.3/s ETA=98min
   [342/1716] cert=342 fail=0 floor≥12.17 rate=0.3/s ETA=89min
-/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+~/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
   prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
   [513/1716] cert=513 fail=0 floor≥12.17 rate=0.2/s ETA=81min
   [684/1716] cert=684 fail=0 floor≥12.17 rate=0.3/s ETA=68min
@@ -153,7 +153,7 @@ Checkpoint removed: ns_blowup/certs/N7_K3.checkpoint.json
 === N=8, K²≤3 (exhaustive) ===
 K²=1..3: 13 k-vectors
 Testing 1287 N=8 configs...
-/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+~/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
   prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
   [128/1287] cert=128 fail=0 floor≥13.77 rate=0.0/s ETA=470min
   [256/1287] cert=256 fail=0 floor≥13.77 rate=0.0/s ETA=463min
@@ -180,7 +180,7 @@ Checkpoint removed: ns_blowup/certs/N8_K3.checkpoint.json
 === N=9, K²≤3 (exhaustive) ===
 K²=1..3: 13 k-vectors
 Testing 715 N=9 configs...
-/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+~/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
   prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
   [71/715] cert=71 fail=0 floor≥14.86 rate=0.0/s ETA=1014min
   [142/715] cert=142 fail=0 floor≥14.86 rate=0.0/s ETA=915min
@@ -207,7 +207,7 @@ Checkpoint removed: ns_blowup/certs/N9_K3.checkpoint.json
 === N=10, K²≤3 (exhaustive) ===
 K²=1..3: 13 k-vectors
 Testing 286 N=10 configs...
-/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+~/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
   prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
   [28/286] cert=28 fail=0 floor≥16.45 rate=0.0/s ETA=3099min
   [56/286] cert=56 fail=0 floor≥16.38 rate=0.0/s ETA=2516min
@@ -234,23 +234,23 @@ Checkpoint removed: ns_blowup/certs/N10_K3.checkpoint.json
 === N=11, K²≤3 (exhaustive) ===
 K²=1..3: 13 k-vectors
 Testing 78 N=11 configs...
-/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+~/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
   prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
   [7/78] cert=7 fail=0 floor≥18.45 rate=0.0/s ETA=2923min
 K²=1..3: 13 k-vectors
 Testing 78 N=11 configs...
 Resuming from checkpoint: 21/78 (cert=21 fail=0 floor≥17.66)
-/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+~/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
   prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
 K²=1..3: 13 k-vectors
 Testing 78 N=11 configs...
 Resuming from checkpoint: 21/78 (cert=21 fail=0 floor≥17.66)
-/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+~/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
   prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
 K²=1..3: 13 k-vectors
 Testing 78 N=11 configs...
 Resuming from checkpoint: 21/78 (cert=21 fail=0 floor≥17.66)
-/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+~/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
   prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
   [28/78] cert=28 fail=0 floor≥17.66 rate=0.0/s ETA=2804min
   [35/78] cert=35 fail=0 floor≥17.66 rate=0.0/s ETA=2472min

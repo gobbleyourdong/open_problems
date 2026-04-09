@@ -203,11 +203,11 @@
     "SRA runs identified: 24 unique run accessions (ERR6454418-ERR6454437, SRR14539831-34)"
   ],
   "figures_generated": [
-    "/home/jb/medical_problems/numerics/figures/cardiac_cvb_attributable_cases.png",
-    "/home/jb/medical_problems/numerics/figures/cardiac_dcm_prevention_model.png",
-    "/home/jb/medical_problems/numerics/figures/cardiac_cvb_myocarditis_outcomes.png",
-    "/home/jb/medical_problems/numerics/figures/cardiac_global_burden_pies.png",
-    "/home/jb/medical_problems/numerics/figures/cardiac_vaccine_sensitivity.png",
-    "/home/jb/medical_problems/numerics/figures/cardiac_cvb3_pathogenesis_timeline.png"
+    "~/open_problems/medical/numerics/figures/cardiac_cvb_attributable_cases.png",
+    "~/open_problems/medical/numerics/figures/cardiac_dcm_prevention_model.png",
+    "~/open_problems/medical/numerics/figures/cardiac_cvb_myocarditis_outcomes.png",
+    "~/open_problems/medical/numerics/figures/cardiac_global_burden_pies.png",
+    "~/open_problems/medical/numerics/figures/cardiac_vaccine_sensitivity.png",
+    "~/open_problems/medical/numerics/figures/cardiac_cvb3_pathogenesis_timeline.png"
   ]
 }

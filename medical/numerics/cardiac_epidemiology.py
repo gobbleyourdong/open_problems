@@ -9,8 +9,8 @@ CVB cardiac disease burden model:
   4. Generate publication-quality figures
 
 Output:
-  - /home/jb/medical_problems/results/cardiac_burden_cvb.json
-  - /home/jb/medical_problems/numerics/figures/cardiac_*.png
+  - ~/medical_problems/results/cardiac_burden_cvb.json
+  - ~/medical_problems/numerics/figures/cardiac_*.png
 
 Data sources:
   Caforio 2013 Eur Heart J; Cooper 2009 NEJM; Kindermann 2012 JACC;
@@ -28,8 +28,8 @@ import matplotlib.patches as mpatches
 from matplotlib.gridspec import GridSpec
 
 # ── Directories ───────────────────────────────────────────────────────────────
-RESULTS_DIR = '/home/jb/medical_problems/results'
-FIGURES_DIR = '/home/jb/medical_problems/numerics/figures'
+RESULTS_DIR = '~/medical_problems/results'
+FIGURES_DIR = '~/medical_problems/numerics/figures'
 os.makedirs(RESULTS_DIR, exist_ok=True)
 os.makedirs(FIGURES_DIR, exist_ok=True)
 

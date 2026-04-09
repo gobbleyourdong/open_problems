@@ -19,7 +19,7 @@ from pathlib import Path
 from collections import defaultdict
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
-BASE = Path("/home/jb/medical_problems")
+BASE = Path("~/medical_problems")
 NUMERICS = BASE / "numerics"
 RESULTS = BASE / "results"
 FIGURES = RESULTS / "figures"

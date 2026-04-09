@@ -3,7 +3,7 @@
 **Disease:** Dilated Cardiomyopathy (DCM, CVB-induced chronic sequela)
 **Numerics instance:** ODD
 **Generated:** 2026-04-08
-**Full analysis cross-reference:** `/home/jb/medical_problems/results/cross_disease_burden_results.json`
+**Full analysis cross-reference:** `~/medical_problems/results/cross_disease_burden_results.json`
 
 ---
 

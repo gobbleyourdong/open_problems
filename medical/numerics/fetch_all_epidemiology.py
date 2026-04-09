@@ -17,7 +17,7 @@ from pathlib import Path
 from datetime import datetime
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
-BASE = Path("/home/jb/medical_problems")
+BASE = Path("~/medical_problems")
 TRANSCRIPTOMICS = BASE / "numerics" / "transcriptomics"
 LITERATURE = BASE / "results" / "literature"
 NUMERICS = BASE / "numerics"

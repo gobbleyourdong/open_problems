@@ -1,5 +1,5 @@
 ---
-source: JB's level-set idea + reviewer 1 intermittency + our pressure crossover
+source: the operator's level-set idea + reviewer 1 intermittency + our pressure crossover
 type: CONDITIONAL REGULARITY THEOREM — the cleanest formulation
 status: The argument works IF α ≤ 0 on {|ω| > ρ_c}
 date: 2026-03-26

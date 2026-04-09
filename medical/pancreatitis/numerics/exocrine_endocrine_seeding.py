@@ -256,7 +256,7 @@ def plot_acute_phase(sol, title_suffix=""):
         ax.grid(True, alpha=0.3)
 
     plt.tight_layout()
-    plt.savefig("/home/jb/medical_problems/pancreatitis/numerics/acute_phase.png", dpi=150)
+    plt.savefig("~/medical_problems/pancreatitis/numerics/acute_phase.png", dpi=150)
     plt.close()
     print("  Saved: acute_phase.png")
 
@@ -300,7 +300,7 @@ def plot_long_term(sol, title_suffix=""):
     ax.grid(True, alpha=0.3)
 
     plt.tight_layout()
-    plt.savefig("/home/jb/medical_problems/pancreatitis/numerics/long_term_progression.png", dpi=150)
+    plt.savefig("~/medical_problems/pancreatitis/numerics/long_term_progression.png", dpi=150)
     plt.close()
     print("  Saved: long_term_progression.png")
 
@@ -380,7 +380,7 @@ def parameter_sweep_seeding():
     plt.colorbar(im, ax=ax)
 
     plt.tight_layout()
-    plt.savefig("/home/jb/medical_problems/pancreatitis/numerics/seeding_parameter_sweep.png", dpi=150)
+    plt.savefig("~/medical_problems/pancreatitis/numerics/seeding_parameter_sweep.png", dpi=150)
     plt.close()
     print("  Saved: seeding_parameter_sweep.png")
 
@@ -448,7 +448,7 @@ def timeline_analysis():
     axes[4].set_title("Beta Cell Mass"); axes[4].legend(); axes[4].grid(True, alpha=0.3)
 
     plt.tight_layout()
-    plt.savefig("/home/jb/medical_problems/pancreatitis/numerics/full_timeline.png", dpi=150)
+    plt.savefig("~/medical_problems/pancreatitis/numerics/full_timeline.png", dpi=150)
     plt.close()
     print("  Saved: full_timeline.png")
 
@@ -494,7 +494,7 @@ def compare_hla():
     axes[2].grid(True, alpha=0.3)
 
     plt.tight_layout()
-    plt.savefig("/home/jb/medical_problems/pancreatitis/numerics/hla_comparison.png", dpi=150)
+    plt.savefig("~/medical_problems/pancreatitis/numerics/hla_comparison.png", dpi=150)
     plt.close()
     print("  Saved: hla_comparison.png")
 

@@ -95,7 +95,7 @@ vorticity intensity exceeds a critical threshold.
 | IC | |ω|_max | j=2 res | j=3 res |
 |----|--------|---------|---------|
 | TG t=3 | 4.2 | + | + |
-| JB t=3 | 2.4 | + | + |
+| operator t=3 | 2.4 | + | + |
 | TG t=5 | 16.8 | − | − |
 | KP t=3 | 498 | + | − |
 

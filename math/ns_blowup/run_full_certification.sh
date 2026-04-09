@@ -6,7 +6,7 @@
 # Run: nohup bash ns_blowup/run_full_certification.sh > ns_blowup/certification.log 2>&1 &
 
 set -e
-cd /home/jb/ComfyUI/CelebV-HQ
+cd ~/ComfyUI/CelebV-HQ
 
 echo "================================================================"
 echo "NS Key Lemma — Full SOS Certification"

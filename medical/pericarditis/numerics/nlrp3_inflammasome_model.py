@@ -331,7 +331,7 @@ def compare_interventions():
         ax.legend(fontsize=7); ax.grid(True, alpha=0.3)
 
     plt.tight_layout()
-    plt.savefig("/home/jb/medical_problems/pericarditis/numerics/intervention_comparison.png", dpi=150)
+    plt.savefig("~/open_problems/medical/pericarditis/numerics/intervention_comparison.png", dpi=150)
     plt.close()
     print("  Saved: intervention_comparison.png")
     return results
@@ -381,7 +381,7 @@ def colchicine_vs_bhb_detail():
         ax.legend(fontsize=7); ax.grid(True, alpha=0.3)
 
     plt.tight_layout()
-    plt.savefig("/home/jb/medical_problems/pericarditis/numerics/colchicine_vs_bhb.png", dpi=150)
+    plt.savefig("~/open_problems/medical/pericarditis/numerics/colchicine_vs_bhb.png", dpi=150)
     plt.close()
     print("  Saved: colchicine_vs_bhb.png")
 
@@ -473,7 +473,7 @@ def recurrence_model():
     axes[1, 1].set_title("CVB Viral Load"); axes[1, 1].set_ylabel("Virus")
 
     plt.tight_layout()
-    plt.savefig("/home/jb/medical_problems/pericarditis/numerics/recurrence_model.png", dpi=150)
+    plt.savefig("~/open_problems/medical/pericarditis/numerics/recurrence_model.png", dpi=150)
     plt.close()
     print("  Saved: recurrence_model.png")
 
@@ -519,7 +519,7 @@ def parameter_sweep():
         plt.colorbar(im, ax=ax)
 
     plt.tight_layout()
-    plt.savefig("/home/jb/medical_problems/pericarditis/numerics/parameter_sweep.png", dpi=150)
+    plt.savefig("~/open_problems/medical/pericarditis/numerics/parameter_sweep.png", dpi=150)
     plt.close()
     print("  Saved: parameter_sweep.png")
 
@@ -538,7 +538,7 @@ if __name__ == "__main__":
     print("\n[1] Baseline NLRP3 cascade (no treatment)...")
     sol = run_sim(t_span=(0, 60))
     fig = plot_cascade(sol, "NLRP3 Cascade — No Treatment (Acute CVB Pericarditis)")
-    fig.savefig("/home/jb/medical_problems/pericarditis/numerics/baseline_cascade.png", dpi=150)
+    fig.savefig("~/open_problems/medical/pericarditis/numerics/baseline_cascade.png", dpi=150)
     plt.close(fig)
     print(f"  Saved: baseline_cascade.png")
     print(f"  Peak IL-1β: {sol.y[9].max():.4f}")

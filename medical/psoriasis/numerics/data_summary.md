@@ -52,5 +52,5 @@ In psoriasis, NF-kB drives: IL-1beta, TNF-alpha, IL-6, IL-8 (CXCL8) production i
 
 ## Cross-Reference
 
-- `/home/jb/open_problems/medical/psoriasis/PROBLEM.md` — full disease analysis
-- `/home/jb/open_problems/medical/DISEASE_DATA_SUMMARY.md` — psoriasis not in CVB burden totals
+- `~/open_problems/medical/psoriasis/PROBLEM.md` — full disease analysis
+- `~/open_problems/medical/DISEASE_DATA_SUMMARY.md` — psoriasis not in CVB burden totals

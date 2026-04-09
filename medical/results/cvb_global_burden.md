@@ -197,6 +197,6 @@ Despite these uncertainties, the direction is unambiguous: CVB is one of the mos
 ---
 
 *Generated 2026-04-08. Data: GBD 2019, IDF Atlas 2022, WHO 2022, IOM/NAM 2015, Imazio 2015 (Circulation), COPE/CORP trials, Modlin 1986, Gamble 1980 (Lancet), Hyoty 2016 (Diabetologia), Khetsuriani 2006 (CDC), Hosoya 2007, Bowles 2003 (JACC).*
-*Model: /home/jb/medical_problems/numerics/cross_disease_burden.py*
-*Full results: /home/jb/medical_problems/results/cross_disease_burden_results.json*
-*Epidemiology detail: /home/jb/medical_problems/results/epidemiology_all_diseases.json*
+*Model: ~/open_problems/medical/numerics/cross_disease_burden.py*
+*Full results: ~/open_problems/medical/results/cross_disease_burden_results.json*
+*Epidemiology detail: ~/open_problems/medical/results/epidemiology_all_diseases.json*

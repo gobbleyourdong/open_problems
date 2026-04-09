@@ -50,7 +50,7 @@ The mechanism is ROTATION: vortex stretching (ω·∇)u rotates ω toward
 the compressive eigenvector e₃ of the EXISTING strain field.
 
 The Ashurst alignment ω → e₂ at moderate |ω| shifts to ω → e₃ at
-high |ω|. This is the "spinning top" mechanism JB identified:
+high |ω|. This is the "spinning top" mechanism the operator identified:
 the vorticity vector falls toward the compressive axis like a top
 falling toward the stable orientation.
 

@@ -425,7 +425,7 @@ def test_ic_decomposition(N=32):
     ics['Kida-Pelz'] = (ux_kp, uy_kp, uz_kp)
 
     # Trefoil knot (build from vorticity via Biot-Savart)
-    sys.path.insert(0, '/home/jb/ComfyUI/CelebV-HQ/ns_blowup')
+    sys.path.insert(0, '~/ComfyUI/CelebV-HQ/ns_blowup')
     from ns3d_spectral import ic_trefoil_knot, NS3DSpectral
     solver_full = NS3DSpectral(N=N, nu=1e-4, device='cpu')
     wx_h, wy_h, wz_h = ic_trefoil_knot(solver_full)
@@ -576,7 +576,7 @@ def summarize():
 
 
 if __name__ == '__main__':
-    sys.path.insert(0, '/home/jb/ComfyUI/CelebV-HQ/ns_blowup')
+    sys.path.insert(0, '~/ComfyUI/CelebV-HQ/ns_blowup')
 
     print("BELTRAMI ALPHA TEST — N=32")
     print("Testing: alpha structure in Beltrami vs non-Beltrami flows\n")

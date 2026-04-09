@@ -2,7 +2,7 @@
 
 **Generated:** 2026-04-08
 **Instance:** ODD (numerics lane)
-**Full analysis:** `/home/jb/medical_problems/results/`
+**Full analysis:** `~/open_problems/medical/results/`
 **Machine-readable data:** `cvb_disease_network.json` (same directory)
 
 ---
@@ -387,18 +387,18 @@ Colchicine blocks NLRP3 inflammasome. In pericarditis: NNT=4, 67% RRR (COPE tria
 
 | File | Content | Location |
 |------|---------|---------|
-| `cross_disease_burden_results.json` | Epidemiology + DALY model for all 12 diseases | `/home/jb/medical_problems/results/` |
-| `epidemiology_all_diseases.json` | Detailed epidemiology per disease + GEO searches | `/home/jb/medical_problems/results/` |
-| `pattern_010_serotype_disease_map.md` | Serotype tropism matrix, Monte Carlo, TD thresholds | `/home/jb/medical_problems/results/` |
-| `pattern_009_genetic_risk_landscape.md` | HLA risk landscape, paradox quantification | `/home/jb/medical_problems/results/` |
-| `pattern_008_disease_network.md` | Network topology, keystone analysis, intervention value | `/home/jb/medical_problems/results/` |
-| `geo_t1dm_cvb_search.json` | GEO dataset search: T1DM/CVB | `/home/jb/medical_problems/numerics/` |
-| `geo_cardiac_cvb_search.json` | GEO dataset search: cardiac/CVB | `/home/jb/medical_problems/results/` |
-| `geo_download_log.json` | Which datasets have been downloaded | `/home/jb/medical_problems/numerics/` |
-| `acute_chronic_transition_results.json` | Persistence probabilities per organ | `/home/jb/medical_problems/results/` |
-| `serotype_tropism_results.json` | Full tropism model output | `/home/jb/medical_problems/results/` |
-| `hla_risk_model_results.json` | HLA risk quantification | `/home/jb/medical_problems/results/` |
-| `vaccine_impact_analysis.json` | Vaccine DALYs averted by serotype | `/home/jb/medical_problems/results/` |
-| `mecfs_cvb_burden_analysis.json` | ME/CFS CVB burden scenarios | `/home/jb/medical_problems/results/` |
-| `cvb_disease_network.json` | Machine-readable compendium (this directory) | `/home/jb/open_problems/medical/` |
-| `GEO_DATASET_CATALOG.md` | All GEO datasets organized by disease | `/home/jb/open_problems/medical/` |
+| `cross_disease_burden_results.json` | Epidemiology + DALY model for all 12 diseases | `~/open_problems/medical/results/` |
+| `epidemiology_all_diseases.json` | Detailed epidemiology per disease + GEO searches | `~/open_problems/medical/results/` |
+| `pattern_010_serotype_disease_map.md` | Serotype tropism matrix, Monte Carlo, TD thresholds | `~/open_problems/medical/results/` |
+| `pattern_009_genetic_risk_landscape.md` | HLA risk landscape, paradox quantification | `~/open_problems/medical/results/` |
+| `pattern_008_disease_network.md` | Network topology, keystone analysis, intervention value | `~/open_problems/medical/results/` |
+| `geo_t1dm_cvb_search.json` | GEO dataset search: T1DM/CVB | `~/open_problems/medical/numerics/` |
+| `geo_cardiac_cvb_search.json` | GEO dataset search: cardiac/CVB | `~/open_problems/medical/results/` |
+| `geo_download_log.json` | Which datasets have been downloaded | `~/open_problems/medical/numerics/` |
+| `acute_chronic_transition_results.json` | Persistence probabilities per organ | `~/open_problems/medical/results/` |
+| `serotype_tropism_results.json` | Full tropism model output | `~/open_problems/medical/results/` |
+| `hla_risk_model_results.json` | HLA risk quantification | `~/open_problems/medical/results/` |
+| `vaccine_impact_analysis.json` | Vaccine DALYs averted by serotype | `~/open_problems/medical/results/` |
+| `mecfs_cvb_burden_analysis.json` | ME/CFS CVB burden scenarios | `~/open_problems/medical/results/` |
+| `cvb_disease_network.json` | Machine-readable compendium (this directory) | `~/open_problems/medical/` |
+| `GEO_DATASET_CATALOG.md` | All GEO datasets organized by disease | `~/open_problems/medical/` |

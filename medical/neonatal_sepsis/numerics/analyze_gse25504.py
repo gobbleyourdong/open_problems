@@ -23,8 +23,8 @@ import re
 from scipy import stats
 import os
 
-DATA = "/home/jb/open_problems/medical/numerics/transcriptomics/neonatal_sepsis/GSE25504_fixed.txt.gz"
-OUT = "/home/jb/open_problems/medical/neonatal_sepsis/results"
+DATA = "~/open_problems/medical/numerics/transcriptomics/neonatal_sepsis/GSE25504_fixed.txt.gz"
+OUT = "~/open_problems/medical/neonatal_sepsis/results"
 os.makedirs(OUT, exist_ok=True)
 
 # Target gene symbols — HGNC

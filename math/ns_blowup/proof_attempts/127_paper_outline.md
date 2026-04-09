@@ -169,7 +169,7 @@ floating-point verification runs support the framework.
 - Laminar→turbulent transition at each shell prevents blowup
 
 ### 6.5 Universality
-- Confirmed for TG (t=5), KP (t=3), JB vortex (t=3)
+- Confirmed for TG (t=5), KP (t=3), the operator vortex (t=3)
 - The flip correlates with INTENSITY, not IC geometry
 - Activates precisely when standard bounds would fail
 
@@ -202,7 +202,7 @@ floating-point verification runs support the framework.
 
 ### 8.2 Resolution Convergence
 - 50 seeds N=128, 20 seeds N=256: all ratio 1.0000
-- JB vortex: converged across N=64/128/256
+- the operator vortex: converged across N=64/128/256
 
 ### 8.3 Shell Transfer Data
 - Resolution-independent at N=64 and N=128

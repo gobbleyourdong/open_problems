@@ -31,10 +31,10 @@ from collections import defaultdict
 from scipy import stats
 import os
 
-DATA_DIR = "/home/jb/open_problems/medical/numerics/transcriptomics/mecfs"
+DATA_DIR = "~/open_problems/medical/numerics/transcriptomics/mecfs"
 COUNTS_FILE = os.path.join(DATA_DIR, "GSE293840_raw_counts_all.csv.gz")
 META_FILE = os.path.join(DATA_DIR, "GSE293840_series_matrix.txt.gz")
-OUT_DIR = "/home/jb/open_problems/medical/me_cfs/results"
+OUT_DIR = "~/open_problems/medical/me_cfs/results"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # ─── Target genes (Ensembl IDs) ───────────────────────────────────────────

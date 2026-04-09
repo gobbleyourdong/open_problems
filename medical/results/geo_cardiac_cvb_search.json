@@ -997,67 +997,67 @@
     "GSE261940": {
       "title": "Soluble ST2 induces cardiac contractile dysfunction by repressing mitochondrial electron transport chain genes in cardiomyocytes during fulminant myocarditis",
       "downloaded": true,
-      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE261940_series_matrix.txt"
+      "path": "~/open_problems/medical/numerics/transcriptomics/GSE261940_series_matrix.txt"
     },
     "GSE248521": {
       "title": "GPR15-mediated T cell recruitment during acute viral myocarditis facilitated virus elimination and improved outcome",
       "downloaded": true,
-      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE248521_series_matrix.txt"
+      "path": "~/open_problems/medical/numerics/transcriptomics/GSE248521_series_matrix.txt"
     },
     "GSE174458": {
       "title": "Dissecting the Cellular Landscape and Transcriptome Network in Viral Myocarditis by Single-Cell RNA Sequencing",
       "downloaded": true,
-      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE174458_series_matrix.txt"
+      "path": "~/open_problems/medical/numerics/transcriptomics/GSE174458_series_matrix.txt"
     },
     "GSE121971": {
       "title": "Transcriptome analysis of brainstem in gerbils with CA16-infection-induced HFMD",
       "downloaded": true,
-      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE121971_series_matrix.txt"
+      "path": "~/open_problems/medical/numerics/transcriptomics/GSE121971_series_matrix.txt"
     },
     "GSE57781": {
       "title": "Human Induced Pluripotent Stem Cell-Derived Cardiomyocytes as an In Vitro Model for Coxsackievirus B3-Induced Myocarditis and Antiviral Drug Screening Platform",
       "downloaded": true,
-      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE57781_series_matrix.txt"
+      "path": "~/open_problems/medical/numerics/transcriptomics/GSE57781_series_matrix.txt"
     },
     "GSE35182": {
       "title": "Sex differences during acute myocarditis against coxsackievirus B3 (CVB3)-induced myocarditis (10 dpi) and chronic myocarditis/dilated cardiomyopathy (DCM) against CVB3-induced myocarditis (90 dpi)",
       "downloaded": true,
-      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE35182_series_matrix.txt"
+      "path": "~/open_problems/medical/numerics/transcriptomics/GSE35182_series_matrix.txt"
     },
     "GSE19496": {
       "title": "Coxsackievirus B3 (CVB3) infection of AJ, B10.A, CSS3 and B6.chr3AJ (heart tissue day 4)",
       "downloaded": true,
-      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE19496_series_matrix.txt"
+      "path": "~/open_problems/medical/numerics/transcriptomics/GSE19496_series_matrix.txt"
     },
     "GSE26630": {
       "title": "The study of sex differences during the innate immune response against coxsackievirus B3 (CVB3)-induced myocarditis (12hr post infection)",
       "downloaded": true,
-      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE26630_series_matrix.txt"
+      "path": "~/open_problems/medical/numerics/transcriptomics/GSE26630_series_matrix.txt"
     },
     "GSE1457": {
       "title": "CxVB3 infection and cardiac function",
       "downloaded": true,
-      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE1457_series_matrix.txt"
+      "path": "~/open_problems/medical/numerics/transcriptomics/GSE1457_series_matrix.txt"
     },
     "GSE273336": {
       "title": "Enhanced RNAi does not provide efficient innate antiviral immunity in mice in vivo (organs small RNA-Seq)",
       "downloaded": true,
-      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE273336_series_matrix.txt"
+      "path": "~/open_problems/medical/numerics/transcriptomics/GSE273336_series_matrix.txt"
     },
     "GSE44706": {
       "title": "Coxsackievirus B3 (CVB3) infection of 129S1 and 129X1 (heart tissue day 6)",
       "downloaded": true,
-      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE44706_series_matrix.txt"
+      "path": "~/open_problems/medical/numerics/transcriptomics/GSE44706_series_matrix.txt"
     },
     "GSE123550": {
       "title": "Transcriptome analysis of brainstem in gerbils with EV71-infection-induced HFMD",
       "downloaded": true,
-      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE123550_series_matrix.txt"
+      "path": "~/open_problems/medical/numerics/transcriptomics/GSE123550_series_matrix.txt"
     },
     "GSE308777": {
       "title": "Precise Gene Editing of Pathogenic Lamin A Mutations Corrects Cardiac Disease",
       "downloaded": true,
-      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE308777_series_matrix.txt"
+      "path": "~/open_problems/medical/numerics/transcriptomics/GSE308777_series_matrix.txt"
     },
     "GSE210783": {
       "title": "Precise genomic editing of a pathogenic RBM20 mutation rescues dilated cardiomyopathy",
@@ -1067,22 +1067,22 @@
     "GSE19303": {
       "title": "Changes of myocardial gene expression and protein composition in patients with dilated cardiomyopathy after immunoadsorption with subsequent immunoglobulin substitution",
       "downloaded": true,
-      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE19303_series_matrix.txt"
+      "path": "~/open_problems/medical/numerics/transcriptomics/GSE19303_series_matrix.txt"
     },
     "GSE42955": {
       "title": "Expression data from human heart",
       "downloaded": true,
-      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE42955_series_matrix.txt"
+      "path": "~/open_problems/medical/numerics/transcriptomics/GSE42955_series_matrix.txt"
     },
     "GSE17800": {
       "title": "Myocardial gene expression profiles and cardiodepressant autoantibodies predict response of patients with dilated cardiomyopathy to immunoadsorption therapy",
       "downloaded": true,
-      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE17800_series_matrix.txt"
+      "path": "~/open_problems/medical/numerics/transcriptomics/GSE17800_series_matrix.txt"
     },
     "GSE2656": {
       "title": "Gene expression profile of human heart failure from different etiologies",
       "downloaded": true,
-      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE2656_series_matrix.txt"
+      "path": "~/open_problems/medical/numerics/transcriptomics/GSE2656_series_matrix.txt"
     }
   }
 }

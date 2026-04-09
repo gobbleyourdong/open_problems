@@ -58,7 +58,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # ---------------------------------------------------------------------------
-# Path setup: we live in /home/jb/medical_problems/numerics/
+# Path setup: we live in ~/medical_problems/numerics/
 # ---------------------------------------------------------------------------
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(SCRIPT_DIR)

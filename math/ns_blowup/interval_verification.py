@@ -14,7 +14,7 @@ Strategy:
 This is the Chen-Hou paradigm: computer-verified theorem.
 """
 import sys
-sys.path.insert(0, '/home/jb/ComfyUI/CelebV-HQ/ns_blowup')
+sys.path.insert(0, '~/ComfyUI/CelebV-HQ/ns_blowup')
 
 from interval import Interval, IntervalArray
 import numpy as np

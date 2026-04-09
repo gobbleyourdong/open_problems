@@ -48,5 +48,5 @@ Colchicine (COPE trial standard in pericarditis) could theoretically suppress ec
 
 ## Cross-Reference
 
-- `/home/jb/open_problems/medical/eczema/PROBLEM.md` — full disease analysis
-- `/home/jb/open_problems/medical/DISEASE_DATA_SUMMARY.md` — focuses on CVB diseases; eczema not included in CVB burden totals
+- `~/open_problems/medical/eczema/PROBLEM.md` — full disease analysis
+- `~/open_problems/medical/DISEASE_DATA_SUMMARY.md` — focuses on CVB diseases; eczema not included in CVB burden totals

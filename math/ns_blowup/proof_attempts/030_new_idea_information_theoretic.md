@@ -83,7 +83,7 @@ C_total itself depends on N through the mode count.
 3. The connection between "maintaining infection" and "transmitting
    information" needs formalization
 
-## For JB
+## For the operator
 This is a FRESH direction that nobody has tried (confirmed by all
 literature searches returning zero results for information-theoretic
 NS regularity arguments). It might be wrong but it's novel.

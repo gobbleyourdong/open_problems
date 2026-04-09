@@ -3,7 +3,7 @@
 triage.py — Pre-read safety scan for medical data files.
 
 USAGE (from any instance):
-    python /home/jb/open_problems/triage.py <path_to_file>
+    python ~/open_problems/triage.py <path_to_file>
 
 PURPOSE:
     Scan a file for potentially distressing content WITHOUT loading the

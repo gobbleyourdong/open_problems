@@ -129,7 +129,7 @@ equilibrium. [Lean-verified: riccati_rhs_negative]
 
 **Computational Finding.** The alignment decay cos² ~ 0.21/|ω| and
 the compressive sign flip are confirmed across Taylor-Green (ν=10⁻⁴),
-Kida-Pelz (ν=10⁻⁴), and JB vortex (ν=10⁻²) initial conditions
+Kida-Pelz (ν=10⁻⁴), and the operator vortex (ν=10⁻²) initial conditions
 at resolutions N=32, 64, 128, 256.
 
 ## 136 proof files.

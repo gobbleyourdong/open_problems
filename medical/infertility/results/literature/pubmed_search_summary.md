@@ -23,7 +23,7 @@ Although various viruses are considered to be the clinical cause for acute orchi
 
 **Mice depleted of the coxsackievirus and adenovirus receptor display normal spermatogenesis and an intact blood-testis barrier.**
 
-*Sultana T, Hou M, Stukenborg JB et al. (2014) Reproduction*
+*Sultana T, Hou M, Stukenborg the operator et al. (2014) Reproduction*
 
 The coxsackievirus and adenovirus receptor (CXADR (CAR)) is a cell adhesion molecule expressed mainly in epithelial cells. Numerous evidence indicate that CXADR has an important role in testis development and function of the blood-testis barrier (BTB) in vitro. We constructed a conditional CXADR knockout (cKO) mouse model. We report that testicular depletion of CXADR in adult and pubertal mice does not alter BTB permeability or germ cell migration across the BTB during spermatogenesis. Adult cKO mice display normal junctional ultra-structure. The BTB was intact with no leakage of biotin and lanthanum tracers into the tubular lumen. Adult CXADR cKO mice were fertile with normal sperm parameters and litter size. Breeding experiments demonstrated that CXADR-negative sperm could fertilize WT eggs.
 

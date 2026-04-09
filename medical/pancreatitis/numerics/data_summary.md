@@ -3,7 +3,7 @@
 **Disease:** Viral Pancreatitis (CVB-attributable)
 **Numerics instance:** ODD
 **Generated:** 2026-04-08
-**Full analysis cross-reference:** `/home/jb/medical_problems/results/epidemiology_all_diseases.json`
+**Full analysis cross-reference:** `~/medical_problems/results/epidemiology_all_diseases.json`
 
 ---
 

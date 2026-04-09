@@ -26,7 +26,7 @@ import math
 from pathlib import Path
 
 # ── Output directory ──────────────────────────────────────────────────────────
-RESULTS_DIR = Path("/home/jb/medical_problems/results")
+RESULTS_DIR = Path("~/medical_problems/results")
 RESULTS_DIR.mkdir(exist_ok=True)
 FIGURES_DIR = RESULTS_DIR / "figures"
 FIGURES_DIR.mkdir(exist_ok=True)

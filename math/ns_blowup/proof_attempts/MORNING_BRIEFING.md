@@ -62,7 +62,7 @@ prevents inter-shell phase coupling.
 **The interval arithmetic library is ready** for rigorous verification
 of the decorrelation at any N.
 
-## Decision for JB
+## Decision for the operator
 1. Ship as observational paper with proven lemma + conjecture?
 2. Or push harder on the decorrelation proof first?
 3. The N=512 data eliminates the symmetric IC complication — paper is simpler now

@@ -66,6 +66,6 @@ Source: `orchitis/numerics/data_summary.md`, cross_disease_burden_results.json
 
 ## Cross-Reference
 
-- `/home/jb/open_problems/medical/infertility/PROBLEM.md` — full analysis
-- `/home/jb/open_problems/medical/orchitis/numerics/data_summary.md` — CVB orchitis data
+- `~/open_problems/medical/infertility/PROBLEM.md` — full analysis
+- `~/open_problems/medical/orchitis/numerics/data_summary.md` — CVB orchitis data
 - Campaign note: CVB orchitis prevention via vaccine would prevent ~5% of male infertility cases

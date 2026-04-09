@@ -10,7 +10,7 @@ from reportlab.platypus import (
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_CENTER, TA_LEFT
 
-output_path = "/home/jb/Downloads/CVB_Protocol_Schedule.pdf"
+output_path = "~/Downloads/CVB_Protocol_Schedule.pdf"
 
 doc = SimpleDocTemplate(
     output_path,

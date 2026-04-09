@@ -3,7 +3,7 @@
     "title": "CVB Disease Network — Machine-Readable Compendium",
     "generated": "2026-04-08",
     "version": "1.0",
-    "source_data": "/home/jb/medical_problems/results/",
+    "source_data": "~/open_problems/medical/results/",
     "instance": "ODD (numerics lane)",
     "description": "All 12 CVB-associated diseases with epidemiology, serotype connections, shared mechanisms, and protocol coverage. Built from cross-disease burden models, serotype tropism analysis, and GEO/SRA literature searches."
   },
@@ -153,7 +153,7 @@
       "protocol_clearance_time_months": {"female": 7, "male": 9},
       "research_gap": "Clinical validation in humans — C-peptide threshold for R>D inequality reversal. No human has received the full protocol.",
       "geo_datasets": ["GSE274264", "GSE278756", "GSE247808", "GSE247807", "GSE247806", "GSE247805", "GSE214851", "GSE184831"],
-      "open_problems_dir": "/home/jb/open_problems/medical/t1dm/"
+      "open_problems_dir": "~/open_problems/medical/t1dm/"
     },
     "Myocarditis": {
       "full_name": "Viral Myocarditis",
@@ -179,7 +179,7 @@
       "protocol_clearance_time_months": 4.5,
       "research_gap": "Timing is critical — pre-fibrotic vs post-fibrotic window. Cardiac MRI needed to determine reversibility.",
       "geo_datasets": ["GSE261940", "GSE248521", "GSE174458", "GSE57781", "GSE35182", "GDS4436", "GDS4311", "GSE19496", "GDS1032"],
-      "open_problems_dir": "/home/jb/open_problems/medical/myocarditis/"
+      "open_problems_dir": "~/open_problems/medical/myocarditis/"
     },
     "DCM": {
       "full_name": "Dilated Cardiomyopathy (CVB-induced)",
@@ -202,7 +202,7 @@
       "protocol_components": ["Fluoxetine 20mg (rate reduction — 2A production suppression)", "FMD cycles"],
       "research_gap": "DCM is rate problem: 2A protease production is LOW but CONTINUOUS. Protocol stops progression but cannot reverse existing fibrosis. Need: (1) anti-fibrotic agents, (2) cardiomyocyte regeneration.",
       "geo_datasets": ["GSE35182", "GDS4436", "GDS4311"],
-      "open_problems_dir": "/home/jb/open_problems/medical/dilated_cardiomyopathy/"
+      "open_problems_dir": "~/open_problems/medical/dilated_cardiomyopathy/"
     },
     "ME_CFS": {
       "full_name": "Myalgic Encephalomyelitis / Chronic Fatigue Syndrome",
@@ -229,7 +229,7 @@
       "protocol_components": ["Fluoxetine 20mg", "FMD cycles", "Low-intensity aerobic exercise (paced)", "IVIG (in severe cases)"],
       "research_gap": "Multiple organs affected simultaneously. No validated biomarker. Cannot measure treatment response without biomarker. Protocol breaks the vicious cycle at every node but human data absent.",
       "geo_datasets": [],
-      "open_problems_dir": "/home/jb/open_problems/medical/me_cfs/"
+      "open_problems_dir": "~/open_problems/medical/me_cfs/"
     },
     "Aseptic_Meningitis": {
       "full_name": "Aseptic Meningitis (Enteroviral/CVB)",
@@ -253,7 +253,7 @@
       "protocol_components": ["Fluoxetine (antiviral effect)", "IVIG (in severe/neonatal cases)"],
       "research_gap": "Blood transcriptomic diagnosis vs lumbar puncture (GSE133378 dataset exists, n=476 — largest human dataset for this disease). CVB fraction underdiagnosed — rarely typed.",
       "geo_datasets": ["GSE269413", "GSE146890", "GSE133378", "GSE15323"],
-      "open_problems_dir": "/home/jb/open_problems/medical/aseptic_meningitis/"
+      "open_problems_dir": "~/open_problems/medical/aseptic_meningitis/"
     },
     "Encephalitis": {
       "full_name": "Enteroviral/CVB Encephalitis",
@@ -276,7 +276,7 @@
       "protocol_components": ["IVIG (high priority)", "Fluoxetine"],
       "research_gap": "No antiviral proven effective. Blood-brain barrier limits drug delivery. Neonatal encephalitis has up to 30% mortality — most urgent unmet need.",
       "geo_datasets": ["GSE280993", "GSE273336"],
-      "open_problems_dir": "/home/jb/open_problems/medical/encephalitis/"
+      "open_problems_dir": "~/open_problems/medical/encephalitis/"
     },
     "Hepatitis": {
       "full_name": "CVB Hepatitis (Acute + Neonatal)",
@@ -302,7 +302,7 @@
       "protocol_components": ["IVIG (high priority in neonates)", "Fluoxetine (preventive)"],
       "research_gap": "CVB rarely tested in hepatitis workup — true burden underestimated. Neonatal protocol needs maternal vaccination to be truly preventive.",
       "geo_datasets": [],
-      "open_problems_dir": "/home/jb/open_problems/medical/hepatitis/"
+      "open_problems_dir": "~/open_problems/medical/hepatitis/"
     },
     "Pancreatitis": {
       "full_name": "Viral Pancreatitis (CVB-attributable)",
@@ -328,7 +328,7 @@
       "protocol_components": ["Fluoxetine (antiviral — reduce viral replication in acinar cells)", "FMD (reduce NLRP3 activation)"],
       "research_gap": "CVB typing not done in routine pancreatitis workup. Pancreatitis → T1DM causal pathway underappreciated. No transcriptomic GEO datasets available.",
       "geo_datasets": [],
-      "open_problems_dir": "/home/jb/open_problems/medical/pancreatitis/"
+      "open_problems_dir": "~/open_problems/medical/pancreatitis/"
     },
     "Pericarditis": {
       "full_name": "Viral Pericarditis (CVB-attributable)",
@@ -358,7 +358,7 @@
       "colchicine_applicable": true,
       "research_gap": "Colchicine treats inflammation but not the underlying CVB infection. 15% still recur despite colchicine. Antiviral (fluoxetine) + colchicine combination not tested in RCT.",
       "geo_datasets": [],
-      "open_problems_dir": "/home/jb/open_problems/medical/pericarditis/"
+      "open_problems_dir": "~/open_problems/medical/pericarditis/"
     },
     "Pleurodynia": {
       "full_name": "Pleurodynia / Bornholm Disease / Devil's Grip",
@@ -383,7 +383,7 @@
       "disease_network_role": "#2 intervention target by disease network analysis — treating pleurodynia prevents 20% progression to ME/CFS",
       "research_gap": "Pleurodynia epidemics are sentinel events for CVB circulation — a natural experiment linking CVB to T1DM. Epidemiological data from outbreak records exists but untapped for CVB serotyping.",
       "geo_datasets": [],
-      "open_problems_dir": "/home/jb/open_problems/medical/pleurodynia/"
+      "open_problems_dir": "~/open_problems/medical/pleurodynia/"
     },
     "Orchitis": {
       "full_name": "Viral Orchitis (CVB-attributable)",
@@ -408,7 +408,7 @@
       "disease_network_role": "Orchitis is the viral reservoir — once established, it reseeds myocarditis, ME/CFS, and other diseases. Clearing orchitis breaks the reseeding loop. Network analysis: removing orchitis disrupts 51.1% of disease cascade paths.",
       "research_gap": "BTB is the critical pharmacokinetic obstacle. No human data on fluoxetine penetration into human testes. Semen CVB PCR studies needed.",
       "geo_datasets": [],
-      "open_problems_dir": "/home/jb/open_problems/medical/orchitis/"
+      "open_problems_dir": "~/open_problems/medical/orchitis/"
     },
     "Neonatal_Sepsis": {
       "full_name": "Neonatal CVB Sepsis",
@@ -433,7 +433,7 @@
       "maternal_prevention": "Maternal CVB vaccination before pregnancy would prevent vertical transmission — highest vaccine ROI of all 12 diseases. Vaccine-preventable fraction: 95%.",
       "research_gap": "Most urgent: no antiviral approved for neonates. Pleconaril had Phase 2 data but development halted. Maternal vaccination (pre-conception) is the primary prevention strategy.",
       "geo_datasets": [],
-      "open_problems_dir": "/home/jb/open_problems/medical/neonatal_sepsis/"
+      "open_problems_dir": "~/open_problems/medical/neonatal_sepsis/"
     }
   },
   "disease_network_edges": {

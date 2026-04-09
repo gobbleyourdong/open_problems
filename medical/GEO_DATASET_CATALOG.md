@@ -1,8 +1,8 @@
 # GEO Dataset Catalog — CVB Disease Network
 
 **Generated:** 2026-04-08
-**Source searches:** `/home/jb/medical_problems/numerics/geo_t1dm_cvb_search.json`, `/home/jb/medical_problems/results/geo_cardiac_cvb_search.json`, `epidemiology_all_diseases.json`
-**Download log:** `/home/jb/medical_problems/numerics/geo_download_log.json`
+**Source searches:** `~/open_problems/medical/numerics/geo_t1dm_cvb_search.json`, `~/open_problems/medical/results/geo_cardiac_cvb_search.json`, `epidemiology_all_diseases.json`
+**Download log:** `~/open_problems/medical/numerics/geo_download_log.json`
 
 Legend: [DOWNLOADED] = data on disk | [IDENTIFIED] = found in search, not yet downloaded | [PLATFORM] = array platform record, not a study
 
@@ -160,10 +160,10 @@ source ~/ComfyUI/comfyui-env/bin/activate
 
 # Python via GEOparse
 pip install GEOparse
-python3 -c "import GEOparse; gse = GEOparse.get_GEO('GSE133378', destdir='/home/jb/medical_problems/numerics/geo_data/')"
+python3 -c "import GEOparse; gse = GEOparse.get_GEO('GSE133378', destdir='~/open_problems/medical/numerics/geo_data/')"
 
 # Or via NCBI datasets tool
-# GSE accessions map to SRA run accessions in /home/jb/medical_problems/results/sra_cardiac_cvb_runs.json
+# GSE accessions map to SRA run accessions in ~/open_problems/medical/results/sra_cardiac_cvb_runs.json
 ```
 
-Downloaded data location: `/home/jb/medical_problems/numerics/` (transcriptomics/ subdirectory for processed data)
+Downloaded data location: `~/open_problems/medical/numerics/` (transcriptomics/ subdirectory for processed data)

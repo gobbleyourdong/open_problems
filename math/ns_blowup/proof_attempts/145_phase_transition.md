@@ -54,7 +54,7 @@ The transition at |ω| ≈ 12 matches:
 All the same number. The pressure Hessian isotropization
 triggers a catastrophic alignment shift at |ω| ≈ 12.
 
-## Physical Mechanism (JB's spinning top)
+## Physical Mechanism (the operator's spinning top)
 
 Below threshold: the top wobbles around e₂ (neutral equilibrium).
 Stretching flicks it toward e₁, pressure pushes it back.

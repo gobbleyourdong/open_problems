@@ -1,7 +1,7 @@
 {
   "metadata": {
     "analysis_date": "2026-04-08",
-    "analysis_script": "/home/jb/medical_problems/numerics/transcriptomics/analyze_cardiac_v2.py",
+    "analysis_script": "~/open_problems/medical/numerics/transcriptomics/analyze_cardiac_v2.py",
     "datasets": {
       "GSE1457": {
         "title": "CVB3 cardiac time course \u2014 male A/J mice",

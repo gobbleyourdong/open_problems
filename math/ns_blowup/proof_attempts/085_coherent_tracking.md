@@ -1,5 +1,5 @@
 ---
-source: JB's insight — track coherent structures, not persistent tubes
+source: the operator's insight — track coherent structures, not persistent tubes
 type: NEW FRAMEWORK — finite-lifetime events consuming a bounded budget
 status: Conceptually strong, needs rigorous definition of "coherent event"
 date: 2026-03-26 cycle 30 (morning session)

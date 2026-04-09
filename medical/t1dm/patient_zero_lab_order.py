@@ -14,7 +14,7 @@ def p(text, style):
 
 def build_pdf():
     doc = SimpleDocTemplate(
-        "/home/jb/Downloads/T1DM_Lab_Panel.pdf",
+        "~/Downloads/T1DM_Lab_Panel.pdf",
         pagesize=letter,
         topMargin=0.4*inch,
         bottomMargin=0.4*inch,
@@ -200,7 +200,7 @@ def build_pdf():
         small_style))
 
     doc.build(elements)
-    print("PDF saved to /home/jb/Downloads/T1DM_Lab_Panel.pdf")
+    print("PDF saved to ~/Downloads/T1DM_Lab_Panel.pdf")
 
 if __name__ == "__main__":
     build_pdf()

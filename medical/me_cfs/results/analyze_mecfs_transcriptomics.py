@@ -42,7 +42,7 @@ except ImportError:
     print("matplotlib not available — skipping figures")
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-BASE    = "/home/jb/medical_problems"
+BASE    = "~/medical_problems"
 NUMDIR  = f"{BASE}/numerics/transcriptomics/mecfs"
 OUTDIR  = f"{BASE}/me_cfs/results"
 FIGDIR  = f"{OUTDIR}/figures"

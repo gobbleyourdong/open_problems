@@ -3,7 +3,7 @@
 **Disease:** Myalgic Encephalomyelitis / Chronic Fatigue Syndrome
 **Numerics instance:** ODD
 **Generated:** 2026-04-08
-**Full analysis cross-reference:** `/home/jb/medical_problems/results/mecfs_cvb_burden_analysis.json`
+**Full analysis cross-reference:** `~/medical_problems/results/mecfs_cvb_burden_analysis.json`
 
 ---
 

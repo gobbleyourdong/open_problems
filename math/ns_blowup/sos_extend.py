@@ -21,7 +21,7 @@ import sys, os, time
 
 sys.path.insert(0, os.path.dirname(__file__))
 # Use the interval.py from ns_blowup
-sys.path.insert(0, '/home/jb/ComfyUI/CelebV-HQ/ns_blowup')
+sys.path.insert(0, '~/ComfyUI/CelebV-HQ/ns_blowup')
 from interval import Interval
 
 

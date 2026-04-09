@@ -147,11 +147,11 @@ Gap reduces to: prove c₂ ≈ c₃ from ⊥ω rotational symmetry of pressure.
 ### RUNNING: Flick vs Fall Scaling Test
 Background task computing power law exponents for λ₁c₁ (flick) and λ₃c₃ (fall)
 as a function of |ω|. Output: tasks/b7euoyq8e.output
-Hypothesis (JB): fall ~ |ω|² (quadratic), flick ~ |ω|¹ (linear)
+Hypothesis (the operator): fall ~ |ω|² (quadratic), flick ~ |ω|¹ (linear)
 → fall wins at high |ω| → c₃ > 1/3 → compression → regularity
 This is "the top falls faster than it gets flicked."
 
-### Physical Intuition (JB, this session)
+### Physical Intuition (the operator, this session)
 "e₁ cannot stretch enough to represent such a large force while
 maintaining stability. The shift to e₃ is a stable representation
 of the force." — spinning top analogy, e₁ is unstable hilltop,

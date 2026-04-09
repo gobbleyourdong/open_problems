@@ -1,6 +1,6 @@
 K²=1..9: 61 k-vectors
 Testing 521855 N=4 configs...
-/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:110: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+~/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:110: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
   prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
   [52185/521855] cert=52185 fail=0 floor≥7.59 rate=19.7/s ETA=397min
   [104370/521855] cert=104370 fail=0 floor≥7.59 rate=20.7/s ETA=336min

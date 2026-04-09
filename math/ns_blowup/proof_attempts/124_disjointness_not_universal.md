@@ -13,7 +13,7 @@ date: 2026-03-26
 | 3 | 0.68 | neutral→disjoint |
 | 4 | 0.39 | YES |
 
-### JB Vortex (ν=10⁻²): DISJOINT at j=4
+### the operator Vortex (ν=10⁻²): DISJOINT at j=4
 | j | ratio | verdict |
 |---|-------|---------|
 | 3 | 0.83 | neutral |
@@ -34,7 +34,7 @@ classical TG sense. The enstrophy is uniformly distributed relative
 to the velocity field. The resonant/non-resonant split doesn't
 correlate with vorticity concentration.
 
-TG and JB vortex have LATTICE stagnation points where vortex sheets
+TG and the operator vortex have LATTICE stagnation points where vortex sheets
 form. The fine-scale structures get advected away from these points.
 KP doesn't have this structure.
 

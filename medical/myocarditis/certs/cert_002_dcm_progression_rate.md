@@ -7,7 +7,7 @@ Approximately 30-40% of biopsy-confirmed viral myocarditis cases progress to dil
 ## Sources
 
 1. **Caforio ALP, Pankuweit S, Arbustini E et al. (2013)** "Current state of knowledge on aetiology, diagnosis, management, and therapy of myocarditis: a position statement of the European Society of Cardiology Working Group on Myocardial and Pericardial Diseases." *Eur Heart J* 34:2636-2648. Reports ~30% progression to DCM in the European Myocarditis Registry.
-2. **Mason JW, O'Connell JB, Herskowitz A et al. (2003)** "A clinical trial of immunosuppressive therapy for myocarditis." *N Engl J Med* 332:269-275 (with 2003 long-term follow-up data). The Myocarditis Treatment Trial showed ~33% of patients developed DCM at long-term follow-up.
+2. **Mason JW, O'Connell the operator, Herskowitz A et al. (2003)** "A clinical trial of immunosuppressive therapy for myocarditis." *N Engl J Med* 332:269-275 (with 2003 long-term follow-up data). The Myocarditis Treatment Trial showed ~33% of patients developed DCM at long-term follow-up.
 3. **Kuhl U, Pauschinger M, Seeberg B et al. (2005)** "Viral persistence in the myocardium is associated with progressive cardiac dysfunction." *Circulation* 112:1965-1970. Demonstrated that patients with persistent viral genomes in EMB had significantly worse outcomes: 40% progressed to DCM vs 15% of virus-negative patients.
 
 ## Cross-Verification

@@ -53,7 +53,7 @@ The proof is inherently probabilistic/geometric, not analytical/norm-based.
 5. Joint: exp(-N/N_d) (MATCHES data)
 6. Extension to all div-free: Lévy's lemma (STANDARD)
 
-## What JB Decides in the Morning
+## What the operator Decides in the Morning
 - Ship computational paper now (all data + proven lemma + conjecture)?
 - Push for full analytical proof first (shell independence for non-Gaussian)?
 - Both in parallel (paper draft + proof work)?

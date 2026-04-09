@@ -5,7 +5,7 @@
 # Usage: bash ns_blowup/prep_repo.sh
 
 set -e
-REPO=/home/jb/ns-regularity-sos
+REPO=~/ns-regularity-sos
 CERTS=ns_blowup/certs
 MAX_MB=95
 

@@ -13,7 +13,7 @@ NEGATIVE (compressive) when |ω|_max is large.
 | IC | |ω|_max | j=2 res sign | j=3 res sign |
 |----|--------|-------------|-------------|
 | TG t=3 | 4.2 | + | + |
-| JB t=3 | 2.4 | + | + |
+| operator t=3 | 2.4 | + | + |
 | TG t=5 | 16.8 | **−** | **−** |
 | KP t=3 | 498 | + | **−** |
 

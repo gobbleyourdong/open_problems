@@ -416,17 +416,17 @@ The companion scripts generate everything needed for clinical use:
 
 ```bash
 # Generate biomarker trajectory plots and JSON data
-python3 /home/jb/medical_problems/numerics/biomarker_trajectories.py
+python3 ~/medical_problems/numerics/biomarker_trajectories.py
 
 # Generate monitoring schedule (printable table + JSON)
-python3 /home/jb/medical_problems/numerics/monitoring_schedule.py
+python3 ~/medical_problems/numerics/monitoring_schedule.py
 ```
 
 Output locations:
-- Trajectory plots: `/home/jb/medical_problems/results/figures/`
-- Biomarker data (JSON): `/home/jb/medical_problems/results/biomarker_trajectories.json`
-- Schedule data (JSON): `/home/jb/medical_problems/results/monitoring_schedule.json`
-- Printable schedule: `/home/jb/medical_problems/results/monitoring_schedule.txt`
+- Trajectory plots: `~/medical_problems/results/figures/`
+- Biomarker data (JSON): `~/medical_problems/results/biomarker_trajectories.json`
+- Schedule data (JSON): `~/medical_problems/results/monitoring_schedule.json`
+- Printable schedule: `~/medical_problems/results/monitoring_schedule.txt`
 
 ---
 

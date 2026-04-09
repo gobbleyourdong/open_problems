@@ -302,9 +302,9 @@
     "why_fasting_not_supplements": "Pharmacological autophagy inducers (rapamycin, metformin) are weaker than fasting for enteroviral clearance because: (1) fasting produces ketone bodies (BHB) that ALSO suppress NLRP3 inflammasome \u2192 reduce autoimmune component, (2) fasting activates both AMPK and mTOR suppression simultaneously \u2192 maximal autophagy flux, (3) fasting is self-limiting \u2192 natural cycling prevents autophagy exhaustion."
   },
   "figures": [
-    "/home/jb/medical_problems/numerics/../results/figures/td_mutant_landscape.png",
-    "/home/jb/medical_problems/numerics/../results/figures/td_persistence_valley.png",
-    "/home/jb/medical_problems/numerics/../results/figures/td_therapeutic_implications.png",
-    "/home/jb/medical_problems/numerics/../results/figures/td_cloverleaf_alignment.png"
+    "~/open_problems/medical/numerics/../results/figures/td_mutant_landscape.png",
+    "~/open_problems/medical/numerics/../results/figures/td_persistence_valley.png",
+    "~/open_problems/medical/numerics/../results/figures/td_therapeutic_implications.png",
+    "~/open_problems/medical/numerics/../results/figures/td_cloverleaf_alignment.png"
   ]
 }

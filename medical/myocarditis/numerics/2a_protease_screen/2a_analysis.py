@@ -9,7 +9,7 @@ import os, sys, re, json, time, textwrap
 from pathlib import Path
 
 # ── paths ─────────────────────────────────────────────────────────────────────
-REPO      = Path("/home/jb/medical_problems")
+REPO      = Path("~/medical_problems")
 SEQ_DIR   = REPO / "numerics" / "sequences"
 OUT_DIR   = REPO / "myocarditis" / "results"
 OUT_DIR.mkdir(parents=True, exist_ok=True)

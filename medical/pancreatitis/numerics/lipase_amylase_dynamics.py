@@ -345,7 +345,7 @@ Determinants of Severity:
             bbox=dict(boxstyle='round', facecolor='lightyellow', alpha=0.8))
 
     plt.tight_layout()
-    plt.savefig("/home/jb/medical_problems/pancreatitis/numerics/diagnostic_markers.png", dpi=150)
+    plt.savefig("~/medical_problems/pancreatitis/numerics/diagnostic_markers.png", dpi=150)
     plt.close()
     print("  Saved: diagnostic_markers.png")
 
@@ -388,7 +388,7 @@ def plot_trypsin_cascade(results):
     ax.legend(); ax.grid(True, alpha=0.3)
 
     plt.tight_layout()
-    plt.savefig("/home/jb/medical_problems/pancreatitis/numerics/trypsin_cascade.png", dpi=150)
+    plt.savefig("~/medical_problems/pancreatitis/numerics/trypsin_cascade.png", dpi=150)
     plt.close()
     print("  Saved: trypsin_cascade.png")
 
@@ -458,7 +458,7 @@ def determinants_of_severity():
         plt.colorbar(im, ax=ax)
 
     plt.tight_layout()
-    plt.savefig("/home/jb/medical_problems/pancreatitis/numerics/severity_determinants.png", dpi=150)
+    plt.savefig("~/medical_problems/pancreatitis/numerics/severity_determinants.png", dpi=150)
     plt.close()
     print("  Saved: severity_determinants.png")
 
