@@ -164,10 +164,12 @@ Supporting algebra:
 - FrobeniusIdentity.lean: multi-mode decomposition (7 PROVEN)
 
 Analytical proofs by N:
-- KeyLemmaN2.lean: c(2) = 1/4 **PROVEN** (self-annihilation + triangle + |ω|²≥2)
-- KeyLemmaN3.lean: c(3) = 1/3 **PROVEN** (orthogonal planes Pythagorean)
+- ExhaustiveN2.lean: c(2) = 1/4 **PROVEN** (12 theorems, 0 imports, raw ℝ³)
+- RegularityN2.lean: 2-mode fields globally regular **PROVEN** (full pipeline)
+- KeyLemmaN3.lean: c(3) = 1/3 **PROVEN** (Pythagorean + eigenvector tightness)
 - N=4: c(4) = 0.3616 (GLOBAL PEAK, 52% margin). Mixed-shell maximizer. OPEN.
 - N≥5: c(N) monotone decreasing. Follows from depletion if N=4 handled.
+- BoundPropagation.lean: key_lemma_all_N **PROVEN** (if c(4)<3/4 + decrease → all N)
 
 **THE KEY LEMMA FOR ALL N REDUCES TO PROVING c(4) < 3/4.**
 
@@ -178,5 +180,16 @@ Supporting algebra:
 - TraceFreeAlignment.lean: λ₂² ≤ (1/6)||S||²_F
 - VertexProperty.lean: max |ω|² at vertices (PSD convexity)
 
-Total NS Lean: 275+ theorems across 22 files.
+Two proof routes:
+  FROBENIUS: S²ê ≤ ||S||²_F < (3/4)|ω|² (via directional_le_frobenius)
+    Works when: ||S||²_F/|ω|² < 3/4 at the vertex
+    Tight: N=3 Frobenius ratio = 0.726 (barely under 0.75)
+
+  DIRECTIONAL: S²ê < (3/4)|ω|² directly (via eigenstructure + alignment)
+    Always better: max S²ê/|ω|² = 0.362 (N=4 peak, 52% margin)
+    Uses: self-annihilation + Bessel + Pythagorean (for orthogonal k's)
+
+  The DIRECTIONAL route is strictly stronger and is what ExhaustiveN2 uses.
+
+Total NS Lean: ~70 theorems in new files, 285+ total across 25 files.
 -/
