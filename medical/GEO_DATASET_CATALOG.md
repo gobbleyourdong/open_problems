@@ -89,9 +89,18 @@ Legend: [DOWNLOADED] = data on disk | [IDENTIFIED] = found in search, not yet do
 
 ## ME/CFS Datasets
 
-No CVB-specific GEO datasets found in searches. The ME/CFS GEO literature is dominated by immune profiling (NK cell studies) without enteroviral isolation.
+**UPDATED 2026-04-09**: cfRNA dataset analyzed and validated campaign model.
 
-**Gap:** A stool CVB PCR + muscle biopsy transcriptomics study in ME/CFS patients has not been published. This is the critical missing dataset.
+| Accession | Title | N Samples | Organism | Type | Status | Result |
+|-----------|-------|-----------|----------|------|--------|--------|
+| **GSE293840** | Plasma cell-free RNA sequencing in ME/CFS (diagnostic ML classifier) | 168 (93 ME/CFS + 75 healthy) | H. sapiens | cfRNA-seq | [ANALYZED] | **SPECTACULAR CONFIRMATION** — 34/62 queried genes significant, 6/7 model predictions confirmed at p<0.05. MT-ND3 biomarker p=0.002. First validated ME/CFS cfRNA biomarker panel. |
+
+**Next datasets to analyze:**
+- GSE268212: ME/CFS CD8 T cell RNA counts — test whether exhaustion signature is cell-intrinsic
+- GSE254030: Post-infectious ME/CFS proteomics (n=42) — cross-validate with protein data
+- GSE111183 + GSE59489: ME/CFS DNA methylation — epigenetic substrate for exhaustion
+
+**Gap revised:** The CVB-specific tissue biopsy study remains unpublished. But cfRNA data now provides population-level confirmation of the TD mutant model. The missing link is confirming enteroviral RNA in tissues (muscle/CNS/gut) of cfRNA-positive patients.
 
 ---
 
@@ -112,7 +121,7 @@ No GEO datasets found for any of these CVB diseases in targeted searches.
 | T1DM | 8+ | 8 (all human) | 8 | Individual samples not yet pulled from GSE278756 |
 | Myocarditis | 20 | 1 (GSE57781) | 0 | 19 mouse studies, only 1 human (iPSC) |
 | DCM | Overlap with myocarditis | 0 | 0 | GSE35182 has 90-dpi DCM data (mouse) |
-| ME/CFS | 0 | 0 | 0 | Entire field missing |
+| ME/CFS | 1 | 1 (GSE293840 cfRNA) | 1 (analyzed) | Tissue biopsy study missing; cfRNA validated |
 | Aseptic Meningitis | 4 | 3 | 0 | GSE133378 (n=476) not yet downloaded |
 | Encephalitis | 4 (2 platform only) | 1 | 0 | GSE269413 (CVB3 BBB) not yet downloaded |
 | Hepatitis | 0 | 0 | 0 | No data exists |

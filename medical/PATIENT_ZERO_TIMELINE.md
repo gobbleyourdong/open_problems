@@ -133,7 +133,10 @@ Ferritin > 300 ng/mL:
 □ Magnesium glycinate 400mg (bedtime)
 □ Selenium 200μg daily (if deficient or not tested)
 □ Zinc 15mg + Copper 2mg daily
-□ CoQ10 400mg daily (with fat-containing meal)
+□ CoQ10 600mg daily (with fat-containing meal) — Complex I cofactor; mt-ND3 target
+□ NAD+ precursor: NMN 500mg or NR 500mg daily (morning) — mitochondrial repair
+□ Trehalose 2g daily (in water, with any meal) — TFEB activator → lysosomal biogenesis → mitigates LAMP2 block identified in CVB-infected cells; $15/month, food-grade, no interactions
+   NOTE: trehalose is a disaccharide; use pure crystalline form (not a sweetener blend)
 
 DO NOT START YET:
   × Fluoxetine (wait for baseline stabilization)
