@@ -161,6 +161,18 @@
 **Output**: `eczema/numerics/bistability_model/`, `psoriasis/numerics/bistability_model/`
 **Why**: Quantifies the bistability hypothesis for co-beneficiary diseases. Determines whether the protocol alone can cross the separatrix or whether apremilast is required for psoriasis. Simpler than the ME/CFS 6-variable model — a good calibration target.
 
+### REQ-016: GSE57781 Cardiac CVB3 Analysis — DMD + LAMP2 in Human Cardiomyocytes
+**Source**: numerics/analyze_gse57781_cardiomyocytes.py (script written), numerics/transcriptomics/GSE57781_series_matrix.txt (data on disk)
+**Task**:
+1. Run `python3 numerics/analyze_gse57781_cardiomyocytes.py`
+2. Note: microarray — probe ID matching may need GPL platform annotation file
+3. Download GPL annotation from GEO page for GSE57781 → map probe IDs → gene symbols
+4. Key questions: (a) DMD suppressed in CVB3 cardiomyocytes? (b) LAMP2 suppressed? (c) FOXP1 suppressed? (d) Cardiac-specific effects (SCN5A, TNNT2, MYH7)?
+
+**Why CRITICAL**: GSE184831 confirmed DMD -32× in pancreatic PANC-1 cells. Confirmation in CARDIAC cells upgrades from Grade B to Grade A- for the myocarditis/DCM mechanism. Critical for the paper.
+**Output**: `results/gse57781_cardiac_cvb3_analysis.json`, `results/pattern_019_cardiac_cvb3_transcriptomics.md`
+**Priority**: HIGH (needed before paper submission)
+
 ### REQ-015: Long COVID cfRNA Validation — Does ORF9b Suppress LAMP2 Like CVB?
 **Source**: me_cfs/attempts/attempt_005_long_covid_lamp2_convergence.md
 **Task**:
