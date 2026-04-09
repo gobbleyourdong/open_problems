@@ -4,20 +4,20 @@
 
 | # | Problem | Directory | Status | Phase | Connection |
 |---|---------|-----------|--------|-------|------------|
-| 1 | **Type 1 Diabetes** | `t1dm/` | 63 attempts, 5 targets | Phase 3 | Beta cell autoimmune destruction (CVB1/B4) |
-| 2 | **Viral Myocarditis** | `myocarditis/` | Gap, model, anti-problem, 4 attempts | Phase 2 | Cardiomyocyte lysis + autoimmunity (CVB3) |
-| 3 | **Dilated Cardiomyopathy** | `dilated_cardiomyopathy/` | Gap, model, anti-problem, 3 attempts | Phase 2 | 2A cleaves dystrophin → chronic heart failure |
-| 4 | **ME/CFS** | `me_cfs/` | Gap, model, anti-problem, 3 attempts | Phase 2 | Persistent CVB in muscle/CNS → chronic fatigue |
-| 5 | **Viral Pancreatitis** | `pancreatitis/` | Gap, anti-problem, 2 attempts | Phase 2 | Exocrine pancreas destruction (CVB1/B4) |
-| 6 | **Pericarditis** | `pericarditis/` | Gap, model, anti-problem, 2 attempts | Phase 2 | NLRP3-driven, colchicine responsive |
-| 7 | **Viral Hepatitis** | `hepatitis/` | Gap, model, anti-problem, 2 attempts | Phase 2 | Hepatocyte lysis, severe in neonates |
-| 8 | **Pleurodynia (Bornholm)** | `pleurodynia/` | Gap, anti-problem, 2 attempts | Phase 2 | Intercostal muscle infection, sentinel symptom |
-| 9 | **Aseptic Meningitis** | `aseptic_meningitis/` | Gap, model, anti-problem, 2 attempts | Phase 2 | CNS invasion, usually self-limiting |
-| 10 | **Encephalitis** | `encephalitis/` | Gap, anti-problem, 2 attempts | Phase 2 | Brain parenchyma, rare but serious |
-| 11 | **Orchitis** | `orchitis/` | Gap, anti-problem, 2 attempts | Phase 2 | Immune-privileged reservoir (CVB5) |
-| 12 | **Neonatal Sepsis** | `neonatal_sepsis/` | Gap, model, anti-problem, 2 attempts | Phase 2 | Multi-organ, high mortality, earliest seeding |
-| 13 | **Atopic Dermatitis / Eczema** | `eczema/` | Gap, model, anti-problem, 3 attempts, manifest | Phase 2 | NOT CVB — Th2/IgE; shared NLRP3, gut-skin axis, Treg deficit |
-| 14 | **Psoriasis** | `psoriasis/` | Gap, model, anti-problem, 3 attempts, manifest | Phase 2 | NOT CVB — Th17/IL-23; shared NF-κB/TNF-α, NLRP3, Treg/Th17 balance |
+| 1 | **Type 1 Diabetes** | `t1dm/` | **80 attempts**, THEWALL, crown jewel (Lean, 0 sorry) | Phase 3 | LAMP2+FOXP1+Lean; 50-65% B* prob at 67yr; prevention window in pancreatitis |
+| 2 | **Viral Myocarditis** | `myocarditis/` | **5 attempts**, **THEWALL** | Phase 3 | Keystone disease; DMD -32x confirmed; trehalose day 1; T2=active CVB signal |
+| 3 | **Dilated Cardiomyopathy** | `dilated_cardiomyopathy/` | **5 attempts** | Phase 3 | LGE<10%=reversible; 12mo→6mo with trehalose; 200K US patients in window |
+| 4 | **ME/CFS** | `me_cfs/` | **4 attempts**, **THEWALL** | Phase 3 | GSE293840 6/7 confirmed (n=168); MT-ND3 biomarker; prevention window post-meningitis |
+| 5 | **Viral Pancreatitis** | `pancreatitis/` | **3 attempts** | Phase 2 | Acinar κ=0.37→beta κ=0.30 cascade; trypsin-leak mechanism; T1DM prevention trial |
+| 6 | **Pericarditis** | `pericarditis/` | **3 attempts**, RCT v3 (Tier 1) | Phase 3 | FOXP1 explains 30% recurrence; 9-month; cfRNA NLRP3 endpoint |
+| 7 | **Viral Hepatitis** | `hepatitis/` | **3 attempts** | Phase 2 | Liver-first paradox resolved (hepatocyte κ >1.0); first-pass advantage confirmed |
+| 8 | **Pleurodynia (Bornholm)** | `pleurodynia/` | Gap, anti-problem, 2 attempts | Phase 2 | Sentinel; intercostal κ≈0.26; Bornholm→T1DM correlation (REQ-002 pending) |
+| 9 | **Aseptic Meningitis** | `aseptic_meningitis/` | **3 attempts** | Phase 3 | **Post-meningitis ME/CFS prevention window** (8 weeks, n=144, Tier 1) |
+| 10 | **Encephalitis** | `encephalitis/` | **3 attempts** | Phase 2 | CNS bimodal (glia 5-7mo, neurons 1.5-2yr); pocapavir 48hr window; trehalose 3g |
+| 11 | **Orchitis** | `orchitis/` | **3 attempts** | Phase 2 | LAMP2 × testis κ=0.15 = 3.5yr resolved; 60mg+trehalose → 1.3yr; seminal PCR |
+| 12 | **Neonatal Sepsis** | `neonatal_sepsis/` | **3 attempts** | Phase 2 | Triple deficit (IFN+LAMP2+no-Ab); IVIG+trehalose hypothesis; maternal vaccine #1 |
+| 13 | **Atopic Dermatitis / Eczema** | `eczema/` | **4 attempts** | Phase 2 | FOXP1 → butyrate 4-6g; ODE bistability (REQ-012); 40-60% flare reduction |
+| 14 | **Psoriasis** | `psoriasis/` | **4 attempts** | Phase 2 | Apremilast bridge; 65-75% PASI predicted; REQ-012 pending |
 | 15 | **Infertility (M+F)** | `infertility/` | Gap, anti-problem, 3 attempts | Phase 2 | Mitochondrial + inflammatory + microbiome substrate; viscosity is the underrated male factor |
 
 ## The Unifying Thesis
