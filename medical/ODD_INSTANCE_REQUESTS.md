@@ -142,6 +142,37 @@
 **Output**: `me_cfs/numerics/bistability_model/` — ODE code, phase portraits, sensitivity analysis
 **Why**: Moves the vicious cycle model from qualitative to quantitative. Identifies which protocol component is most critical for flipping the system to the health attractor.
 
+### REQ-012: Eczema/Psoriasis Treg Bistability Model
+**Source**: eczema/attempts/attempt_004_bioinformatics_relevance.md, psoriasis/attempts/attempt_004_bioinformatics_relevance.md
+**Task** (eczema):
+1. Implement 2-variable ODE: dT/dt (Treg dynamics), d(Th2)/dt (Th2 dynamics)
+2. Parameters from dupilumab trial data + vitamin D/butyrate supplementation studies
+3. Find stable steady states (eczema = high Th2, remission = high Treg)
+4. Plot phase portrait and separatrix
+5. Simulate protocol intervention: vitamin D + butyrate → Treg increase → does system cross separatrix?
+6. Compare predicted EASI improvement to published dupilumab EASI response (60% at 16 weeks)
+
+**Task** (psoriasis):
+1. Same structure but Treg vs Th17 (not Th2)
+2. Parameters from PALACE trial data (apremilast) + butyrate/VitD studies
+3. Test: protocol alone vs protocol + apremilast (30mg BID)
+4. Predict PASI improvement vs published biologic data
+
+**Output**: `eczema/numerics/bistability_model/`, `psoriasis/numerics/bistability_model/`
+**Why**: Quantifies the bistability hypothesis for co-beneficiary diseases. Determines whether the protocol alone can cross the separatrix or whether apremilast is required for psoriasis. Simpler than the ME/CFS 6-variable model — a good calibration target.
+
+### REQ-013: GSE274264 scRNA-seq Primary Human Islet Analysis
+**Source**: numerics/analyze_gse274264_scrnaseq.py (analysis script ready), numerics/transcriptomics/GSE274264/ (data downloaded)
+**Task**:
+1. Run `python3 numerics/analyze_gse274264_scrnaseq.py` (install: pip install scanpy anndata)
+2. This is scRNA-seq from primary human pancreatic islets (multiple donors, 24hr + 48hr, CVB3 vs control)
+3. Primary questions: (a) Is FOXP1 suppressed in primary human islets? (b) Is LAMP2 suppressed? (c) Is DMD destroyed? (d) Cell-type-specific responses (beta vs alpha vs delta)?
+4. If FOXP1 is suppressed in primary tissue: FOXP1 mechanism upgrades from B- to A- (cell line data → primary human tissue data)
+5. If LAMP2 is suppressed in primary tissue: trehalose protocol addition is validated in human tissue
+
+**Output**: `results/gse274264_primary_islet_analysis.json`, `results/pattern_018_primary_islet_scrnaseq.md`
+**Priority**: CRITICAL — primary human islet data is the highest-quality evidence in the campaign. Every confirmed finding upgrades from "cell line data" to "human tissue data."
+
 ## Formatting for numerical track
 
 Each request should result in:
