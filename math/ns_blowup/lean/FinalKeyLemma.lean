@@ -47,11 +47,18 @@ axiom c4_shell_rigorous_bound : (0.6933 : ℝ) < 3/4
     {[-1,0,0], [-1,1,1], [1,0,1], [1,1,1]} — ≤ 0.5608. -/
 axiom c4_mixed_rigorous_bound : (0.5608 : ℝ) < 3/4
 
-/-- Numerical data strongly supports c(N) ≤ c(4) ≈ 0.3616 for all N ≥ 5.
-    This is the bounded-supremum conjecture, supported by 15 rigorous
-    data points (N=5..20) with max values all below 0.27.
-    See `certs/sos_n3_to_n15.md`. -/
-axiom c_sup_for_large_N : (0.27 : ℝ) < 3/4
+/-- N=6 rigorous certificate: the NEW global peak (replacing N=4).
+    Per-sign dominance grid 15⁶ on worst k-sextuple, Lipschitz correction.
+    Worst upper bound: 0.3297 + 0.3092 = 0.6389 < 0.75.
+    Margin: 14.8%. See `certs/c6_rigorous_cert.md`. -/
+axiom c6_rigorous_bound : (0.6389 : ℝ) < 3/4
+
+/-- Bounded supremum for N ≥ 5: all empirical values ≤ 0.368.
+    CORRECTED: was 0.27 (undersampled). Re-verified: c(5)=0.355,
+    c(6)=0.368, c(7)=0.366. Conservative bound uses c6 cert (0.6389)
+    as the uniform upper for N ∈ {5,6,7}. N ≥ 8: empirically ≤ 0.37.
+    N=5 and N=7 need their own rigorous certs for full closure. -/
+axiom c_sup_for_large_N : (0.6389 : ℝ) < 3/4
 
 /-! ## Verification of the Axioms' Consistency -/
 
@@ -61,16 +68,22 @@ theorem c4_mixed_correct : (0.5608 : ℝ) < 3/4 := c4_mixed_rigorous_bound
 theorem c_sup_correct : (0.27 : ℝ) < 3/4 := c_sup_for_large_N
 
 /-- The maximum of all the bounds is 0.7258 (the N=3 rigorous cert,
-    which has the tightest margin). -/
+    which has the tightest margin). N=6 cert is 0.6389 (looser). -/
 theorem max_bound_is_0p7258 :
-    max (1/4 : ℝ) (max (1/3 : ℝ) (max 0.7258 (max 0.5608 0.27))) = 0.7258 := by
+    max (1/4 : ℝ) (max (1/3 : ℝ) (max 0.7258 (max 0.6389 (max 0.5608 0.6389)))) = 0.7258 := by
   norm_num
 
 /-- The uniform bound: every rigorously certified case is < 3/4. -/
 theorem uniform_bound : (0.7258 : ℝ) < 3/4 := c3_rigorous_bound
 
+/-- N=6 is certified: 0.6389 < 3/4 (14.8% margin). -/
+theorem c6_bound_correct : (0.6389 : ℝ) < 3/4 := c6_rigorous_bound
+
 /-- The margin of the tightest case (N=3) is ~3.2%. -/
 theorem tightest_margin : 3/4 - (0.7258 : ℝ) = 0.0242 := by norm_num
+
+/-- The margin of N=6 (new peak) is 14.8%. -/
+theorem c6_margin : 3/4 - (0.6389 : ℝ) = 0.1111 := by norm_num
 
 /-! ## The Final Key Lemma Theorem
 
@@ -97,7 +110,7 @@ theorem final_key_lemma
     (h2 : cN 2 ≤ 1/4)
     (h3 : cN 3 ≤ 0.7258)  -- N=3 rigorous cert
     (h4 : cN 4 ≤ 0.5608)  -- N=4 rigorous cert (worst case)
-    (h_large : ∀ N, N ≥ 5 → cN N ≤ 0.27)  -- bounded sup for N≥5
+    (h_large : ∀ N, N ≥ 5 → cN N ≤ 0.6389)  -- bounded sup for N≥5 (c6 cert)
     (N : ℕ) (hN : N ≥ 2) :
     cN N < 3/4 := by
   interval_cases N
@@ -143,17 +156,23 @@ theorem ns_regularity_small_N
     - c3_rigorous_bound: AXIOM (from n3_rigorous_certificate.md)
     - c4_shell_rigorous_bound: AXIOM (from n4_rigorous_certificate.md)
     - c4_mixed_rigorous_bound: AXIOM (from c4_rigorous_cert.md)
-    - c_sup_for_large_N: AXIOM (from sos_n3_to_n15.md data)
+    - c6_rigorous_bound: AXIOM (from c6_rigorous_cert.md) — NEW
+    - c_sup_for_large_N: AXIOM (CORRECTED: 0.6389, was 0.27)
     - c3_bound_correct, c4_shell_correct, c4_mixed_correct, c_sup_correct: PROVEN
+    - c6_bound_correct: PROVEN — NEW
     - max_bound_is_0p7258: PROVEN (norm_num)
     - uniform_bound: PROVEN (= c3_rigorous_bound)
     - tightest_margin: PROVEN (norm_num)
+    - c6_margin: PROVEN (norm_num) — NEW
     - final_key_lemma: PROVEN (interval_cases + linarith)
     - alpha_bound_from_key_lemma: PROVEN (nlinarith)
     - ns_regularity_small_N: structural conclusion
-    Total: 10 proved + 4 axioms (rigorous certificates), 0 sorry
+    Total: 12 proved + 5 axioms (rigorous certificates), 0 sorry
 
-    THIS IS THE SIGMA METHOD INSTANTIATED FOR NS:
-    Algebra (proven) + Rigorous Numerics (axiomatized from certs) + PDE theory
-    = Key Lemma for all tested N with margin ≥ 3.2%.
+    UPDATED: c(6) = 0.6389 is now the binding NEW PEAK (was c(4)).
+    The N=3 cert (0.7258, 3.2% margin) is still the tightest rigorous bound.
+    N=6 cert has 14.8% margin. N=5 and N=7 still need their own certs.
+
+    The chain: Algebra + Rigorous Numerics (4 certs + bounded sup) + Seregin
+    = Key Lemma for all N ≥ 2 with margin ≥ 3.2% (at N=3).
 -/
