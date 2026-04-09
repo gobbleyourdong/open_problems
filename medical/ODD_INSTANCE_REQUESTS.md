@@ -161,6 +161,22 @@
 **Output**: `eczema/numerics/bistability_model/`, `psoriasis/numerics/bistability_model/`
 **Why**: Quantifies the bistability hypothesis for co-beneficiary diseases. Determines whether the protocol alone can cross the separatrix or whether apremilast is required for psoriasis. Simpler than the ME/CFS 6-variable model — a good calibration target.
 
+### REQ-015: Long COVID cfRNA Validation — Does ORF9b Suppress LAMP2 Like CVB?
+**Source**: me_cfs/attempts/attempt_005_long_covid_lamp2_convergence.md
+**Task**:
+1. Search GEO and literature for Long COVID cfRNA or tissue expression datasets with LAMP2 measured
+2. If found: compare LAMP2 expression in Long COVID patients vs healthy controls (same approach as GSE184831)
+3. Search for published LAMP2 quantification in Long COVID tissue (post-mortem lung, autopsy brain, or BAL)
+4. Cross-reference with: Guo et al. 2021 (Cell Reports, PMID:34186035) — ORF9b LAMP2 suppression in vitro
+5. If GEO datasets exist: download + analyze (same pipeline as transcriptomics analyses)
+
+**Primary question**: Is LAMP2 suppressed in Long COVID tissue to a similar degree as CVB in GSE184831 (-2.7×)?
+- If yes: mechanistic confirmation → trehalose is indicated for Long COVID
+- If no: the mechanism differs from CVB (could still work via other routes)
+
+**Output**: `me_cfs/results/pattern_018_long_covid_lamp2_validation.md` (or indicate no data available)
+**Why**: If confirmed, this extends the campaign's trehalose recommendation to ~100M Long COVID patients with mechanistic backing. Could justify an NIH RECOVER grant application.
+
 ### REQ-013: GSE274264 scRNA-seq Primary Human Islet Analysis
 **Source**: numerics/analyze_gse274264_scrnaseq.py (analysis script ready), numerics/transcriptomics/GSE274264/ (data downloaded)
 **Task**:

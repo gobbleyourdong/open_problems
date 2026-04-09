@@ -145,6 +145,27 @@ TIER 2: Post-Exposure Prevention Windows (available now)
 
 **Trial design**: n=50/arm, 2-year composite endpoint (islet autoantibody seroconversion + ME/CFS diagnosis + cardiac T2 elevation). See pleurodynia/attempts/attempt_003.
 
+### Window 5: Post-Acute COVID → Prevent Long COVID (Hypothetical, Evidence Emerging)
+
+**When**: weeks 4-8 after acute COVID-19, before ORF9b-mediated SARS-CoV-2 persistence consolidates
+
+**Why**: SARS-CoV-2 ORF9b directly suppresses LAMP2 (Guo et al. 2021, Cell Reports) — same mechanism as CVB LAMP2 suppression. Trehalose (TFEB → LAMP2 bypass) is virus-agnostic. This extends the post-meningitis ME/CFS prevention logic to Long COVID.
+
+**Protocol** (12 weeks):
+
+| Component | Dose | Notes |
+|-----------|------|-------|
+| Trehalose | 3g/day (start week 4) | LAMP2 bypass for ORF9b-mediated suppression |
+| FMD × 2 | Weeks 6 and 10 | Autophagy pulses during ORF9b persistence window |
+| Butyrate | 4-6g/day | FOXP1 → tissue-local Treg homeostasis |
+| Paxlovid or ensitrelvir | 5 days (if SARS-CoV-2 still detectable) | SARS-CoV-2 3CL protease inhibitor (vs fluoxetine for CVB) |
+
+**Evidence status**: mechanism supported (ORF9b LAMP2 suppression published). Clinical data pending.
+
+**Trial design**: 2,000 patients, 6-month Long COVID endpoint, cfRNA (MT-ND3, PRF1, STAT2). Powered by NIH RECOVER infrastructure.
+
+**Document**: me_cfs/attempts/attempt_005_long_covid_lamp2_convergence.md
+
 ---
 
 ## The Prevention-Treatment Boundary

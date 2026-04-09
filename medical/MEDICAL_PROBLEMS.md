@@ -12,8 +12,8 @@
 | 6 | **Pericarditis** | `pericarditis/` | **3 attempts**, RCT v3 (Tier 1) | Phase 3 | FOXP1 explains 30% recurrence; 9-month; cfRNA NLRP3 endpoint |
 | 7 | **Viral Hepatitis** | `hepatitis/` | **3 attempts** | Phase 2 | Liver-first paradox resolved (hepatocyte κ >1.0); first-pass advantage confirmed |
 | 8 | **Pleurodynia (Bornholm)** | `pleurodynia/` | Gap, anti-problem, 2 attempts | Phase 2 | Sentinel; intercostal κ≈0.26; Bornholm→T1DM correlation (REQ-002 pending) |
-| 9 | **Aseptic Meningitis** | `aseptic_meningitis/` | **3 attempts** | Phase 3 | **Post-meningitis ME/CFS prevention window** (8 weeks, n=144, Tier 1) |
-| 10 | **Encephalitis** | `encephalitis/` | **3 attempts** | Phase 2 | CNS bimodal (glia 5-7mo, neurons 1.5-2yr); pocapavir 48hr window; trehalose 3g |
+| 9 | **Aseptic Meningitis** | `aseptic_meningitis/` | **3 attempts**, **THEWALL** | Phase 3 | **Post-meningitis ME/CFS prevention window** (8 weeks, n=144, Tier 1) |
+| 10 | **Encephalitis** | `encephalitis/` | **3 attempts**, **THEWALL** | Phase 3 | CNS bimodal; pocapavir 48hr window is MOST TIME-SENSITIVE in campaign; trehalose 3g |
 | 11 | **Orchitis** | `orchitis/` | **3 attempts** | Phase 2 | LAMP2 × testis κ=0.15 = 3.5yr resolved; 60mg+trehalose → 1.3yr; seminal PCR |
 | 12 | **Neonatal Sepsis** | `neonatal_sepsis/` | **3 attempts** | Phase 2 | Triple deficit (IFN+LAMP2+no-Ab); IVIG+trehalose hypothesis; maternal vaccine #1 |
 | 13 | **Atopic Dermatitis / Eczema** | `eczema/` | **4 attempts** | Phase 2 | FOXP1 → butyrate 4-6g; ODE bistability (REQ-012); 40-60% flare reduction |
