@@ -161,6 +161,16 @@
 **Output**: `eczema/numerics/bistability_model/`, `psoriasis/numerics/bistability_model/`
 **Why**: Quantifies the bistability hypothesis for co-beneficiary diseases. Determines whether the protocol alone can cross the separatrix or whether apremilast is required for psoriasis. Simpler than the ME/CFS 6-variable model — a good calibration target.
 
+### REQ-017: GSE247805-247808 CVB4 vs SARS-CoV-2 Islet Organoid Comparison
+**Script**: `numerics/analyze_gse247805_cvb_sars_comparison.py` (written this session)
+**Data**: `numerics/transcriptomics/GSE247805_series_matrix.txt` (on disk)
+**Primary question**: Do BOTH CVB4 AND SARS-CoV-2 suppress LAMP2 in the same system?
+  - YES → Long COVID LAMP2 bridge validated → trehalose indicated for ~100M Long COVID patients
+  - NO → mechanism differs → different implications for Long COVID arm
+**Also check**: FOXP1, DMD, ACE2 vs CXADR dynamics
+**Output**: `results/gse247805_cvb_sars_comparison.json`, `results/pattern_020_cvb_sars_lamp2_convergence.md`
+**Priority**: HIGH (Long COVID bridge validation)
+
 ### REQ-016: GSE57781 Cardiac CVB3 Analysis — DMD + LAMP2 in Human Cardiomyocytes
 **Source**: numerics/analyze_gse57781_cardiomyocytes.py (script written), numerics/transcriptomics/GSE57781_series_matrix.txt (data on disk)
 **Task**:
