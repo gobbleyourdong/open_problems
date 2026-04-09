@@ -18,13 +18,14 @@
 | 12 | **Neonatal Sepsis** | `neonatal_sepsis/` | **3 attempts** | Phase 2 | Triple deficit (IFN+LAMP2+no-Ab); IVIG+trehalose hypothesis; maternal vaccine #1 |
 | 13 | **Atopic Dermatitis / Eczema** | `eczema/` | **4 attempts** | Phase 2 | FOXP1 → butyrate 4-6g; ODE bistability (REQ-012); 40-60% flare reduction |
 | 14 | **Psoriasis** | `psoriasis/` | **4 attempts** | Phase 2 | Apremilast bridge; 65-75% PASI predicted; REQ-012 pending |
-| 15 | **Infertility (M+F)** | `infertility/` | Gap, anti-problem, 3 attempts | Phase 2 | Mitochondrial + inflammatory + microbiome substrate; viscosity is the underrated male factor |
+| 15 | **Infertility (M+F)** | `infertility/` | **4 attempts** | Phase 2 | LAMP2 in oocyte mitophagy; FOXP1 in decidualization; cumulus cell LAMP2 biomarker |
+| 16 | **CVB Thyroiditis** | `thyroiditis/` | PROBLEM.md, gap.md, attempt_081 (T1DM) | Phase 1 | **NEW** — FOXP1 → anti-TPO autoimmunity; co-occurs with T1DM in 25-30%; same protocol |
 
 ## The Unifying Thesis
 
-**One protocol. Fifteen diseases. Three categories.**
+**One protocol. Sixteen diseases. Three categories.**
 
-### Category 1: CVB-caused (diseases 1-12)
+### Category 1: CVB-caused (diseases 1-12 + 16)
 All 12 share:
 - Same pathogen (CVB serotypes B1-B5)
 - Same persistence mechanism (5' terminal deletion → TD mutants)
