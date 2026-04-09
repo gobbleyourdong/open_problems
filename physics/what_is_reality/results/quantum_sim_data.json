@@ -1,0 +1,51 @@
+{
+  "physical_constants": {
+    "l_P_m": 1.61625502392855e-35,
+    "t_P_s": 5.391246446661944e-44,
+    "r_obs_m": 4.399365e+26
+  },
+  "holographic_bound": {
+    "log10_bits": 123.52608462671282,
+    "log10_qubits": 123.52608462671282,
+    "note": "holographic bound constrains both classical bits and qubits equally"
+  },
+  "classical_simulation": {
+    "log10_N_cells_Planck": 184.92672893189817,
+    "log10_bits_per_step_minimal": 184.92672893189817,
+    "log10_bits_per_step_realistic": 187.5110601562657,
+    "log10_excess_over_holographic_minimal": 61.40064430518535,
+    "log10_excess_over_holographic_realistic": 63.984975529552884
+  },
+  "quantum_simulation": {
+    "approach": "Hamiltonian simulation, d=2 per Planck site (minimal qubit model)",
+    "log10_qubits_needed": 184.92672893189817,
+    "log10_qubit_deficit": 61.40064430518535,
+    "tensor_network_compression": {
+      "1D_area_law": "poly(chi) parameters, feasible for small chi",
+      "3D_volume_law": "S(A) ~ vol(A) \u2014 no polynomial compression possible",
+      "observable_universe": "3D volume law \u2014 quantum simulation does NOT compress"
+    },
+    "superposition_economy_failure": [
+      "Reading 2^N amplitudes requires 2^N measurements",
+      "Born rule collapses state to single classical outcome",
+      "Preparing arbitrary N-qubit state needs 2^N classical amplitudes",
+      "Each unitary step costs O(N) gate operations"
+    ]
+  },
+  "minimum_faithful_resolution": {
+    "budget_qubits_log10": 123.52608462671282,
+    "l_eff_m": 4.735777860629838e-15,
+    "log10_l_eff_m": -14.32460867709706,
+    "l_eff_over_Planck_log10": 20.466881435061786,
+    "l_eff_over_femtometer": 4.735777860629837,
+    "interpretation": "A simulator using all information in the observable universe can faithfully simulate down to ~4.7e-15 m (femtometer scale). Sub-femtometer structure \u2014 classical or quantum \u2014 cannot be simulated within the holographic budget."
+  },
+  "summary": {
+    "classical_Planck_sim_impossible": true,
+    "quantum_Planck_sim_impossible": true,
+    "reason": "Both exceed holographic bound (10^185 >> 10^124)",
+    "minimum_faithful_resolution_m": 4.735777860629838e-15,
+    "minimum_faithful_resolution_approx": "femtometer (~10^-15 m)",
+    "combined_with_lv_bounds": "LIV constraints require simulator cells <= l_P. But Planck-cell simulation (classical or quantum) exceeds holographic bound. Simulation hypothesis is informationally self-defeating."
+  }
+}

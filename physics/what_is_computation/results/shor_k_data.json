@@ -1,0 +1,258 @@
+{
+  "description": "Shor's algorithm vs Grover vs classical \u2014 K-structure analysis",
+  "date": "2026-04-09",
+  "addresses": "gap.md R3: substrate-dependence of K-manipulation",
+  "complexity_models": {
+    "trial_division": "O(2^(n/2)) \u2014 square root of N",
+    "nfs_exponent_formula": "c * n^(1/3) * (ln n)^(2/3) where c = (64/9)^(1/3) * (ln 2)^(2/3)",
+    "shor_ops_formula": "n^2 * log2(n) * log2(log2(n)+1)",
+    "grover_queries_formula": "(pi/4) * 2^(n/2)"
+  },
+  "scaling_table": [
+    {
+      "n_bits": 10,
+      "trial_division_ops": 32.0,
+      "nfs_exponent": 5.6581,
+      "nfs_ops_approx": 286.61,
+      "shor_ops": 701.48,
+      "grover_queries": 25.1327
+    },
+    {
+      "n_bits": 20,
+      "trial_division_ops": 1024.0,
+      "nfs_exponent": 8.4959,
+      "nfs_ops_approx": 4894.54,
+      "shor_ops": 4169.71,
+      "grover_queries": 804.2477
+    },
+    {
+      "n_bits": 30,
+      "trial_division_ops": 32768.0,
+      "nfs_exponent": 10.5842,
+      "nfs_ops_approx": 39505.43,
+      "shor_ops": 11316.07,
+      "grover_queries": 25735.927
+    },
+    {
+      "n_bits": 40,
+      "trial_division_ops": 1048576.0,
+      "nfs_exponent": 12.2974,
+      "nfs_ops_approx": 219120.16,
+      "shor_ops": 22653.23,
+      "grover_queries": 823549.6646
+    },
+    {
+      "n_bits": 50,
+      "trial_division_ops": 33554432.0,
+      "nfs_exponent": 13.7759,
+      "nfs_ops_approx": 961176.35,
+      "shor_ops": 38547.83,
+      "grover_queries": 26353589.2666
+    },
+    {
+      "n_bits": 100,
+      "trial_division_ops": 1125899906842624.0,
+      "nfs_exponent": 19.3505,
+      "nfs_ops_approx": 253417086.31,
+      "shor_ops": 194950.71,
+      "grover_queries": 884279719003555.0
+    }
+  ],
+  "speedup_table": [
+    {
+      "n_bits": 10,
+      "shor_speedup_vs_trial": 0.04561762365168751,
+      "grover_speedup_vs_trial": 1.2732395447351628,
+      "shor_speedup_vs_grover": 0.035827997834591375
+    },
+    {
+      "n_bits": 20,
+      "shor_speedup_vs_trial": 0.2455807404078197,
+      "grover_speedup_vs_trial": 1.2732395447351628,
+      "shor_speedup_vs_grover": 0.1928786624820871
+    },
+    {
+      "n_bits": 30,
+      "shor_speedup_vs_trial": 2.8957049781226383,
+      "grover_speedup_vs_trial": 1.2732395447351628,
+      "shor_speedup_vs_grover": 2.2742813715583683
+    },
+    {
+      "n_bits": 40,
+      "shor_speedup_vs_trial": 46.28814359766743,
+      "grover_speedup_vs_trial": 1.2732395447351628,
+      "shor_speedup_vs_grover": 36.35462296868535
+    },
+    {
+      "n_bits": 50,
+      "shor_speedup_vs_trial": 870.4622373166435,
+      "grover_speedup_vs_trial": 1.2732395447351628,
+      "shor_speedup_vs_grover": 683.6594424953256
+    },
+    {
+      "n_bits": 100,
+      "shor_speedup_vs_trial": 5775305364.464242,
+      "grover_speedup_vs_trial": 1.2732395447351628,
+      "shor_speedup_vs_grover": 4535914226.309647
+    }
+  ],
+  "full_comparison_table": [
+    {
+      "n_bits": 10,
+      "classical_trial": 32.0,
+      "grover": 25.1327,
+      "shor": 701.4833,
+      "shor_classical_ratio": 0.045618
+    },
+    {
+      "n_bits": 20,
+      "classical_trial": 1024.0,
+      "grover": 804.2477,
+      "shor": 4169.7081,
+      "shor_classical_ratio": 0.245581
+    },
+    {
+      "n_bits": 30,
+      "classical_trial": 32768.0,
+      "grover": 25735.927,
+      "shor": 11316.0699,
+      "shor_classical_ratio": 2.895705
+    },
+    {
+      "n_bits": 40,
+      "classical_trial": 1048576.0,
+      "grover": 823549.6646,
+      "shor": 22653.2308,
+      "shor_classical_ratio": 46.288144
+    },
+    {
+      "n_bits": 50,
+      "classical_trial": 33554432.0,
+      "grover": 26353589.2666,
+      "shor": 38547.8319,
+      "shor_classical_ratio": 870.462237
+    },
+    {
+      "n_bits": 100,
+      "classical_trial": 1125899906842624.0,
+      "grover": 884279719003555.0,
+      "shor": 194950.7144,
+      "shor_classical_ratio": 5775305364.464242
+    }
+  ],
+  "period_demonstration": {
+    "base": 7,
+    "modulus": 15,
+    "x_range": 40,
+    "function_values": [
+      1,
+      7,
+      4,
+      13,
+      1,
+      7,
+      4,
+      13,
+      1,
+      7,
+      4,
+      13,
+      1,
+      7,
+      4,
+      13,
+      1,
+      7,
+      4,
+      13,
+      1,
+      7,
+      4,
+      13,
+      1,
+      7,
+      4,
+      13,
+      1,
+      7,
+      4,
+      13,
+      1,
+      7,
+      4,
+      13,
+      1,
+      7,
+      4,
+      13
+    ],
+    "period_r": 4,
+    "period_divides_phi_N": true,
+    "phi_N": 8,
+    "k_structure_verified": true,
+    "classical_birthday_steps": 4,
+    "classical_birthday_theory_sqrt_r": 2.0,
+    "quantum_qft_cost_n2": 16.0,
+    "birthday_vs_qft_ratio": 0.25,
+    "dft_magnitudes_first16": [
+      6.25,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.677051,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "period_candidates_from_dft": [
+      2
+    ],
+    "factors_recovered": {
+      "p": 3,
+      "q": 5,
+      "correct": true
+    }
+  },
+  "k_structure_analysis": {
+    "unstructured_search_grover": {
+      "k_structure": "None (flat landscape)",
+      "classical_complexity": "O(2^n)",
+      "quantum_complexity": "O(2^(n/2))",
+      "speedup_type": "quadratic (exponent halved)",
+      "doubling_period_variables": 2
+    },
+    "factoring_shor": {
+      "k_structure": "Periodic group orbit in Z_N* (multiplicative order)",
+      "classical_complexity": "O(exp(n^(1/3) * (ln n)^(2/3)))",
+      "quantum_complexity": "O(n^2 log n log log n)",
+      "speedup_type": "EXPONENTIAL (exponent collapses to polynomial)",
+      "key_mechanism": "QFT maps periodic superposition to sharp frequency peaks"
+    },
+    "comparison": {
+      "grover_speedup_n50": 0.785398,
+      "shor_speedup_n50": 870.4622,
+      "ratio_shor_vs_grover_speedup_n50": 683.6594
+    }
+  },
+  "r3_implications": {
+    "two_modes_of_quantum_advantage": [
+      "Amplitude amplification (Grover): substrate effect, no K-structure needed, halves exponent",
+      "Fourier sampling (Shor): substrate + periodic K-structure, collapses exponent to polynomial"
+    ],
+    "k_structure_hierarchy": {
+      "no_structure": "Grover, doubling_period=2",
+      "logical_structure": "DPLL, doubling_period~14",
+      "periodic_group_orbit": "Shor, polynomial (exponent=0 effectively)"
+    },
+    "p_vs_np_connection": "Factoring is not NP-complete \u2014 it has algebraic K-structure (Z_N* periodicity) that Shor exploits. NP-complete problems lack global algebraic regularity. P!=NP protects problems where K-structure is local/clause-level, not global/periodic.",
+    "substrate_dependence_summary": "Quantum hardware 'is' a K-structure detector for periodic functions via QFT. Classical hardware 'searches' for K-structure. With periodic K-structure, the speedup is exponential (Shor). Without it, the speedup is quadratic (Grover). This is the substrate-dependence of K-manipulation: quantum substrate \u00d7 K-structure = exponential advantage; quantum substrate alone = quadratic advantage."
+  }
+}

@@ -1,8 +1,8 @@
 # certs/phase1_manifest.md — Numerical Certification: what_is_change
 
 **Date:** 2026-04-09
-**Phase:** 1 (numerical survey complete)
-**Scripts:** zeno_and_change.py, landauer_change.py, (quantum_K_change.py in progress)
+**Phase:** 2 (sweeps complete through iteration 4)
+**Scripts:** zeno_and_change.py, landauer_change.py, quantum_K_change.py, brain_k_flow.py
 
 ## Certified Claims
 
@@ -94,19 +94,75 @@ wavelength << any measurable length). Below l_P, the concept of continuous chang
 
 ---
 
-## Open Claims (Phase 2 targets)
+### C6 — Unitary evolution: K-change = 0
 
-- **R1: Which causal theory?** The compression view is neutral between regularity, counterfactual,
-  interventionist, and structural causal theories. A decisive numerical test would need to
-  model counterfactual interventions on physical systems and see which causal theory's predictions
-  match. Not yet designed.
+**Status: CERTIFIED**
 
-- **R2: Discrete vs continuous dynamics** — compression view is neutral. Zeno is resolved in
-  both cases. The choice is empirical (does spacetime have a Planck-scale lattice?). Addressed
-  partially in what_is_reality/lv_bounds.py (in progress).
+2-qubit simulation through gates H, CNOT, T:
+- Fidelity with previous state dropped as low as 0.25 (genuine state rotation)
+- K-change = 0 at every step (given prior state + gate, new state is exactly computable)
 
-- **R3: Quantum measurement as K-change** — in progress (quantum_K_change.py). Key claim:
-  unitary evolution has K-change = 0; measurement has K-change = -log₂(probability).
+Unitary evolution creates NO new K-information. Entanglement creation (CNOT on superposition) is K=0.
+K-change occurs ONLY at decoherence/measurement events.
+
+**Reference:** results/quantum_K_change_data.json
+
+---
+
+### C7 — Quantum measurement K-change = -log₂(P(outcome))
+
+**Status: CERTIFIED**
+
+For |ψ⟩ = √p₀|0⟩ + √p₁|1⟩, measuring in computational basis:
+- Expected K-change = H(p₀, p₁) = -p₀ log₂p₀ - p₁ log₂p₁
+- At p₀ = p₁ = 0.5: K-change = 1 bit; Landauer floor = k_B T ln(2) = 2.97×10⁻²¹ J
+- At p₀ = 0.01, p₁ = 0.99: K-change = 0.081 bits (nearly deterministic → minimal K)
+
+The K-change decreases toward zero as the outcome becomes more predictable. Measurement of an
+already-near-certain state provides minimal new K-information.
+
+**Reference:** results/quantum_K_change_data.json
+
+---
+
+### C8 — Brain ion channel K-flow: 2.55 W predicted vs 20 W actual
+
+**Status: CERTIFIED**
+
+8.6×10²⁰ ion channel decoherence events/second × 1 bit/event → Landauer cost = 2.55 W.
+Actual brain metabolic power = 20 W. Slack = 7.8×.
+
+The 8× slack is consistent with Na⁺/K⁺-ATPase thermodynamic efficiency (~12-15%).
+The brain's energy budget IS dominated by ion channel dynamics — the K-information flow
+at the decoherence scale is within one order of magnitude of the full metabolic power.
+
+**Reference:** results/brain_k_flow_data.json
+
+---
+
+### C9 — Conscious K-bandwidth = 50 bits/s; 30 million:1 compression from retina
+
+**Status: CONSISTENT (psychophysics estimate)**
+
+Retinal input: ~1.5×10⁹ bits/s. Conscious awareness: ~50 bits/s (psychophysics literature).
+Specious present (3s window): ~150 bits of conscious K-content.
+
+The 30-million:1 compression ratio is an estimate based on psychophysics and retinal physiology,
+not directly computed from first principles. The order-of-magnitude is well-established.
+
+**Reference:** results/brain_k_flow_data.json
+
+---
+
+## Open Claims (Phase 3 targets)
+
+- **R1: Which causal theory?** Not yet numerically addressable. Needs counterfactual intervention modeling.
+
+- **R2: Discrete vs continuous dynamics** — LIV bounds (what_is_reality/lv_bounds.py) show
+  spacetime appears continuous to Planck scale. Consistent with both discrete and continuous change.
+
+- **R3: Phenomenal time speed vs K-inflow rate** — Prediction: subjective time speed ∝ K-inflow.
+  "Time flies when you're having fun" = high-novelty K-inflow. Testable against psychophysics data.
 
 ## Summary
 

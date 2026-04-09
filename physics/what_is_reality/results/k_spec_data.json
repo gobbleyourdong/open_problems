@@ -1,0 +1,380 @@
+{
+  "metadata": {
+    "script": "numerics/k_spec_completeness.py",
+    "date": "2026-04-09",
+    "description": "Physical Church-Turing: K-specification budget for all known physics",
+    "prior_scripts": [
+      "simulation_cost.py (holographic bound: 10^124 bits)",
+      "quantum_simulation_cost.py (Planck simulation impossible)",
+      "lv_bounds.py (linear LIV ruled out)"
+    ]
+  },
+  "holographic_bound_bits_log10": 123.52608462671282,
+  "k_budget_determined": {
+    "sm_lagrangian_chars": 3000,
+    "sm_lagrangian_bits": 19709.566824992842,
+    "gr_equations_bits": 525.5884486664759,
+    "qm_postulates_bits": 1313.9711216661897,
+    "equations_total_bits": 21549.126395325507,
+    "lcdm_params": [
+      {
+        "name": "Omega_b_h2",
+        "value": 0.02237,
+        "uncertainty": 0.00015,
+        "description": "baryon density",
+        "k_bits": 7.2204589454506
+      },
+      {
+        "name": "Omega_c_h2",
+        "value": 0.12,
+        "uncertainty": 0.0012,
+        "description": "cold dark matter density",
+        "k_bits": 6.643856189774724
+      },
+      {
+        "name": "theta_s",
+        "value": 1.04092,
+        "uncertainty": 0.00031,
+        "description": "acoustic scale angle (\u00d7100)",
+        "k_bits": 11.713303358491016
+      },
+      {
+        "name": "tau",
+        "value": 0.054,
+        "uncertainty": 0.007,
+        "description": "reionization optical depth",
+        "k_bits": 2.9475325801058645
+      },
+      {
+        "name": "ln10^10_As",
+        "value": 3.044,
+        "uncertainty": 0.014,
+        "description": "primordial power amplitude",
+        "k_bits": 7.764397721445941
+      },
+      {
+        "name": "n_s",
+        "value": 0.9649,
+        "uncertainty": 0.0042,
+        "description": "primordial spectral index",
+        "k_bits": 7.843846294440512
+      }
+    ],
+    "lcdm_total_bits": 44.13339508970866,
+    "symmetry_breaking_bits": 35,
+    "total_determined_bits": 21628.259790415217
+  },
+  "k_spec_analysis": {
+    "strong_k_bits": 21628.259790415217,
+    "strong_k_description": "Universe = laws + ICs; quantum randomness is determined by hidden variables or by MWI branching (no collapse injects new info). The full history is determined by a ~25 000-bit specification.",
+    "weak_k_random_bits_log10": 120.0,
+    "weak_k_description": "Laws are finitely K-specifiable (~25 000 bits). Quantum outcomes are genuinely irreducible. Each of ~10^120 decoherence events adds 1 fresh bit not derivable from any shorter description.",
+    "physical_church_turing": "The physical Church-Turing thesis (Deutsch 1985) says only the DYNAMICS is computable \u2014 not the quantum outcomes. PCTD is consistent with the weak K-spec: laws computable, outcomes irreducible.",
+    "verdict": "The LAWS of physics are finitely K-specifiable. Whether the full history is K-specifiable depends on interpretation: strong (MWI/superdeterminism) says yes; weak (Copenhagen/objective collapse) says no."
+  },
+  "per_regularity_k_content": {
+    "regularities": [
+      {
+        "name": "Speed of light c",
+        "value": "2.99792458 \u00d7 10\u2078 m/s (exact)",
+        "value_numeric": 299792458.0,
+        "relative_uncertainty": 0.0,
+        "k_bits_raw": 0.0,
+        "derivability": "DEFINED",
+        "derivability_detail": "Since 1983 the metre is defined via c. c carries 0 free bits: you pick the units and c follows. The regularity 'light speed is invariant' is a K-free consequence of Special Relativity.",
+        "free_k_bits": 0.0,
+        "log10_value": 8.476820702927927
+      },
+      {
+        "name": "Fine structure constant \u03b1",
+        "value": "7.2973525693 \u00d7 10\u207b\u00b3 \u2248 1/137.036",
+        "value_numeric": 0.0072973525693,
+        "relative_uncertainty": 1.5e-10,
+        "k_bits_raw": 32.63431844815247,
+        "derivability": "PRIMITIVE",
+        "derivability_detail": "No theory predicts \u03b1 from more fundamental quantities. It is a free parameter of QED/SM. Every decimal place is a fresh empirical fact. Feynman called it 'one of the greatest damn mysteries of physics.'",
+        "free_k_bits": 32.63431844815247,
+        "log10_value": -2.136834670438785
+      },
+      {
+        "name": "Electron mass m_e",
+        "value": "9.1093837015 \u00d7 10\u207b\u00b3\u00b9 kg  (0.511 MeV/c\u00b2)",
+        "value_numeric": 9.1093837015e-31,
+        "relative_uncertainty": 3e-10,
+        "k_bits_raw": 31.634318448152467,
+        "derivability": "PRIMITIVE",
+        "derivability_detail": "The electron Yukawa coupling to the Higgs is a free SM parameter. m_e = y_e \u00d7 v / \u221a2 where v is the Higgs VEV (~246 GeV). No theory predicts y_e. Each decimal place of m_e is an independent empirical fact.",
+        "free_k_bits": 31.634318448152467,
+        "log10_value": -30.040511004376256
+      },
+      {
+        "name": "Proton-to-electron mass ratio m_p/m_e",
+        "value": "1836.15267343 (dimensionless)",
+        "value_numeric": 1836.1526734400013,
+        "relative_uncertainty": 6e-11,
+        "k_bits_raw": 33.95624654303983,
+        "derivability": "CONSTRAINED",
+        "derivability_detail": "m_p/m_e is not independent: given m_e and m_p separately (both SM parameters), the ratio is determined. However, m_p is dominated by QCD binding energy (~99% from gluon fields, not quark masses), so it is not simply a Yukawa coupling. QCD lattice calculations in principle predict m_p/m_e from \u03b1_s and quark masses, reducing the free K-bits by the number of QCD inputs (~3 parameters).",
+        "free_k_bits": 33.95624654303983,
+        "log10_value": 3.263908789324841
+      },
+      {
+        "name": "Cosmological constant \u039b",
+        "value": "1.089 \u00d7 10\u207b\u2075\u00b2 m\u207b\u00b2  (or ~10\u207b\u00b9\u00b2\u00b3 in Planck units)",
+        "value_numeric": 1.089e-52,
+        "relative_uncertainty": 0.02,
+        "k_bits_raw": 5.643856189774724,
+        "derivability": "PRIMITIVE (with deep puzzle)",
+        "derivability_detail": "The cosmological constant problem: QFT predicts vacuum energy ~10^123 times larger than the observed \u039b. No mechanism predicts the observed value. With only 3 significant figures known, \u039b carries log\u2082(50)\u22485.6 free bits \u2014 the least-precisely known fundamental constant. The smallness of \u039b in Planck units (10\u207b\u00b9\u00b2\u00b3) is itself an unexplained fact.",
+        "free_k_bits": 5.643856189774724,
+        "log10_value": -51.962972120244224
+      },
+      {
+        "name": "Gravitational constant G",
+        "value": "6.67430 \u00d7 10\u207b\u00b9\u00b9 m\u00b3 kg\u207b\u00b9 s\u207b\u00b2",
+        "value_numeric": 6.6743e-11,
+        "relative_uncertainty": 2.2e-05,
+        "k_bits_raw": 15.472136950686878,
+        "derivability": "PRIMITIVE",
+        "derivability_detail": "G sets the Planck scale (l_P = \u221a(\u210fG/c\u00b3)). No quantum gravity theory predicts G from more primitive quantities. G is measured least precisely of all CODATA constants (~22 ppm vs <1 ppb for most others) due to the weakness of gravity. Each significant figure is an empirical fact.",
+        "free_k_bits": 15.472136950686878,
+        "log10_value": -10.17559427634224
+      },
+      {
+        "name": "Weinberg angle (weak mixing angle) sin\u00b2\u03b8_W",
+        "value": "0.23122 (MS-bar scheme, M_Z scale)",
+        "value_numeric": 0.23122,
+        "relative_uncertainty": 0.0005,
+        "k_bits_raw": 10.965784284662087,
+        "derivability": "CONSTRAINED",
+        "derivability_detail": "sin\u00b2\u03b8_W = g'\u00b2/(g\u00b2 + g'\u00b2) where g, g' are the SU(2) and U(1) gauge couplings. It is derivable from two more primitive SM parameters, so not independent. However, g and g' are themselves primitive, meaning the underlying free K-content shifts to them.",
+        "free_k_bits": 0.0,
+        "log10_value": -0.6359746031495516
+      },
+      {
+        "name": "Higgs boson mass m_H",
+        "value": "125.20 \u00b1 0.11 GeV/c\u00b2",
+        "value_numeric": 125200000000.0,
+        "relative_uncertainty": 0.0008785942492012779,
+        "k_bits_raw": 10.152515323182683,
+        "derivability": "PRIMITIVE",
+        "derivability_detail": "m_H = \u221a(2\u03bb) \u00d7 v where \u03bb is the Higgs self-coupling \u2014 a free SM parameter. No theory predicts it. The hierarchy problem (why m_H \u226a M_Planck) is one of the deepest open questions in particle physics. Each decimal place of m_H is a fresh empirical fact.",
+        "free_k_bits": 10.152515323182683,
+        "log10_value": 11.09760432887441
+      },
+      {
+        "name": "Strong coupling constant \u03b1_s(M_Z)",
+        "value": "0.1179 \u00b1 0.0010",
+        "value_numeric": 0.1179,
+        "relative_uncertainty": 0.008481764206955046,
+        "k_bits_raw": 6.881419908092401,
+        "derivability": "PRIMITIVE",
+        "derivability_detail": "\u03b1_s is the QCD coupling at the Z mass scale \u2014 a free SM parameter. It runs with energy (asymptotic freedom) but its value at any scale requires one empirical measurement to fix. No theory predicts it.",
+        "free_k_bits": 6.881419908092401,
+        "log10_value": -0.9284861949049108
+      },
+      {
+        "name": "CKM matrix element |V_us| (Cabibbo angle)",
+        "value": "0.22500 \u00b1 0.00067 (Wolfenstein \u03bb parameter)",
+        "value_numeric": 0.225,
+        "relative_uncertainty": 0.002977777777777778,
+        "k_bits_raw": 8.391548190533989,
+        "derivability": "PRIMITIVE",
+        "derivability_detail": "The CKM mixing matrix encodes quark-flavor mixing \u2014 four independent real parameters (three angles + one CP-violating phase). None are predicted by SM; all are empirical. The Cabibbo angle (the dominant mixing) is the most precisely measured of the four. No deeper theory predicts the mixing hierarchy.",
+        "free_k_bits": 8.391548190533989,
+        "log10_value": -0.6478174818886375
+      }
+    ],
+    "total_free_k_bits": 144.76636000161545
+  },
+  "sm_parameter_k_budget": {
+    "parameters": [
+      {
+        "name": "m_u (up quark)",
+        "value": "2.16 MeV",
+        "k_bits": 2.84
+      },
+      {
+        "name": "m_d (down quark)",
+        "value": "4.67 MeV",
+        "k_bits": 3.06
+      },
+      {
+        "name": "m_s (strange quark)",
+        "value": "93 MeV",
+        "k_bits": 3.38
+      },
+      {
+        "name": "m_c (charm quark)",
+        "value": "1.27 GeV",
+        "k_bits": 6.97
+      },
+      {
+        "name": "m_b (bottom quark)",
+        "value": "4.18 GeV",
+        "k_bits": 7.64
+      },
+      {
+        "name": "m_t (top quark)",
+        "value": "172.57 GeV",
+        "k_bits": 8.59
+      },
+      {
+        "name": "m_e (electron)",
+        "value": "0.511 MeV",
+        "k_bits": 31.63
+      },
+      {
+        "name": "m_mu (muon)",
+        "value": "105.66 MeV",
+        "k_bits": 25.37
+      },
+      {
+        "name": "m_tau (tau)",
+        "value": "1776.9 MeV",
+        "k_bits": 14.12
+      },
+      {
+        "name": "g1 (U(1)_Y coupling)",
+        "value": "0.3574",
+        "k_bits": 10.97
+      },
+      {
+        "name": "g2 (SU(2)_L coupling)",
+        "value": "0.6520",
+        "k_bits": 10.97
+      },
+      {
+        "name": "g3 = sqrt(4\u03c0 \u03b1_s)",
+        "value": "1.2177",
+        "k_bits": 7.86
+      },
+      {
+        "name": "m_H (Higgs mass)",
+        "value": "125.20 GeV",
+        "k_bits": 10.15
+      },
+      {
+        "name": "v (Higgs VEV)",
+        "value": "246.22 GeV",
+        "k_bits": 13.29
+      },
+      {
+        "name": "CKM lambda",
+        "value": "0.22500",
+        "k_bits": 8.38
+      },
+      {
+        "name": "CKM A",
+        "value": "0.826",
+        "k_bits": 6.06
+      },
+      {
+        "name": "CKM rho_bar",
+        "value": "0.159",
+        "k_bits": 4.64
+      },
+      {
+        "name": "CKM eta_bar",
+        "value": "0.348",
+        "k_bits": 6.38
+      },
+      {
+        "name": "theta_QCD",
+        "value": "< 10\u207b\u00b9\u2070",
+        "k_bits": 3.32
+      }
+    ],
+    "n_parameters": 19,
+    "total_bits": 185.6227118410231,
+    "note": "Neutrino masses / PMNS mixing add ~7 more parameters (~50 additional bits)"
+  },
+  "gr_parameter_k_budget": {
+    "parameters": [
+      {
+        "name": "G (Newton's constant)",
+        "value": "6.67430e-11",
+        "k_bits": 15.47
+      },
+      {
+        "name": "Lambda (cosm. const.)",
+        "value": "1.089e-52 m\u207b\u00b2",
+        "k_bits": 5.64
+      },
+      {
+        "name": "Omega_k (spatial curvature)",
+        "value": "0.001 \u00b1 0.002",
+        "k_bits": -1.0
+      }
+    ],
+    "total_bits": 20.1159931404616
+  },
+  "complete_k_budget": {
+    "equations_structure_bits": 21549.126395325507,
+    "sm_19_parameters_bits": 185.6227118410231,
+    "gr_3_parameters_bits": 20.1159931404616,
+    "lcdm_6_parameters_bits": 44.13339508970866,
+    "symmetry_breaking_bits": 35,
+    "grand_total_bits": 21833.998495396703,
+    "log10_grand_total": 4.339133276042201,
+    "note_neutrinos": "Neutrino sector (masses + PMNS mixing) adds ~50 bits more if non-zero. Excluded here for conservative lower bound."
+  },
+  "k_complexity_comparison": [
+    {
+      "item": "All known physics (equations + all parameters)",
+      "k_bits": 21833.998495396703,
+      "k_bits_approx": "~25 000 bits",
+      "note": "This script's main result",
+      "ratio_to_physics": 1.0,
+      "log10_ratio_to_physics": 0.0
+    },
+    {
+      "item": "CPython interpreter (compressed source)",
+      "k_bits": 8000000,
+      "k_bits_approx": "~8 \u00d7 10\u2076 bits (1 MB)",
+      "note": "CPython compressed source; actual K \u2264 this",
+      "ratio_to_physics": 366.4010511719442,
+      "log10_ratio_to_physics": 2.5639567109497428
+    },
+    {
+      "item": "Linux kernel (compressed source, v6.x)",
+      "k_bits": 400000000,
+      "k_bits_approx": "~4 \u00d7 10\u2078 bits (50 MB)",
+      "note": "Compressed kernel source; actual K \u2264 this",
+      "ratio_to_physics": 18320.05255859721,
+      "log10_ratio_to_physics": 4.2629267152857615
+    },
+    {
+      "item": "Human genome (haploid)",
+      "k_bits": 6400000000,
+      "k_bits_approx": "~6.4 \u00d7 10\u2079 bits (raw); compressed ~3 Gbits",
+      "note": "Raw sequence; functional K-content much less (~500 Mbits estimated)",
+      "ratio_to_physics": 293120.84093755536,
+      "log10_ratio_to_physics": 5.4670466979416865
+    },
+    {
+      "item": "Observable universe S-information (holographic bound)",
+      "k_bits": 3.3580304251857604e+123,
+      "k_bits_approx": "~10^124 bits",
+      "note": "Maximum information storable in the observable universe",
+      "ratio_to_physics": 1.5379823470692917e+119,
+      "log10_ratio_to_physics": 119.18695135067061
+    },
+    {
+      "item": "Quantum randomness (decoherence outcomes, Copenhagen)",
+      "k_bits": 1e+120,
+      "k_bits_approx": "~10^120 bits",
+      "note": "Genuinely irreducible if Copenhagen; 0 bits if MWI",
+      "ratio_to_physics": 4.5800131396493025e+115,
+      "log10_ratio_to_physics": 115.6608667239578
+    }
+  ],
+  "r1_verdict": {
+    "question": "Is the converged compression finitely K-specifiable?",
+    "laws_k_bits": 21833.998495396703,
+    "laws_k_specifiable": true,
+    "quantum_randomness_k_specifiable": false,
+    "quantum_randomness_bits_log10": 120.0,
+    "resolution": "The regularities of physics (the laws + constants) are finitely K-specifiable in ~25 000 bits. The quantum-random residual is K-incompressible by construction. R1 is answered: regularities are K-specifiable; the irreducible random residual is not."
+  }
+}

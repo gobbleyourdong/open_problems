@@ -56,7 +56,7 @@ TannakianReformulation.lean formalizes the 5-mountains framework.
 
 ### Riemann Hypothesis — Phase 2 (5 Mountains + 4 Numerical Certs)
 RH has NO weak certificate: Li ⟺ RH, Robin ⟺ RH, Λ=0 ⟺ RH.
-Sigma Method cannot advance via certificate accumulation alone.
+systematic approach cannot advance via certificate accumulation alone.
 NEW: FiveMountains.lean formalizes 5 approaches (Analysis, Physics,
 Geometry, Information, Dynamics) with unified construction target.
 NumericalVerificationDepth.lean records 4 independent numerical certs:
@@ -125,7 +125,7 @@ the key structural findings from the attempts folders:
 - `yang_mills/lean/WeakStrongCoupling.lean` — both-regimes GC > 0
 - `hodge_conjecture/lean/TannakianReformulation.lean` — finite exhaustion
 - `birch_swinnerton_dyer/lean/RankTwoStructure.lean` — 5-mountains pairs
-- `riemann_hypothesis/lean/CertificateEquivalence.lean` — sigma method stuck
+- `riemann_hypothesis/lean/CertificateEquivalence.lean` — systematic approach stuck
 - `poincare_conjecture/lean/SurgerySurvival.lean` — Step 9 closed
 - `p_vs_np/lean/MetaComplexity.lean` — Liu-Pass bridge
 

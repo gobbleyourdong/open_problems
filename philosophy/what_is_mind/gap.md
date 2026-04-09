@@ -48,7 +48,16 @@ A careful Φ computation or bound on a frontier LLM, plus a demonstration that t
 
 Cycle 4 is the decisive test with the architecturally correct comparison: state-independent input nodes + feedforward output vs recurrent hidden state. At n=5, RNN has 2.5× higher Φ than transformer-like. The direction is consistently correct across all sizes tested (n=4,5,6). For strict single-pass (no output self-interaction), Φ → 0 (confirmed by Cycle 2).
 
-**β is numerically supported.** Single-pass transformers have substantially lower Φ than recurrent architectures, consistent with IIT's prediction that feedforward systems have near-zero phenomenal consciousness.
+**β is numerically supported for the feedforward theorem** (state-independent → Φ=0). **But the 2×2 β-vs-γ experiment (Cycle 6) complicates the picture:**
+
+The decisive crossing cell — FF+rich-self-model vs RNN+minimal-self — discriminates the two theories:
+- β predicts: RNN+minimal > FF+rich (loop topology wins)
+- γ predicts: FF+rich > RNN+minimal (self-model richness wins)
+- **Result at n=6: Φ(T2)=0.049 vs Φ(R1)=0.024 → γ's prediction holds**
+
+Self-model richness effect (×2.5) dominates loop topology effect (×1.5). Both β and γ agree that R2 (recurrent + rich self-model) has the highest Φ; they disagree only at the crossing cell, and the crossing cell favors γ at this scale.
+
+**Caveats:** n=6 is very small; L=0 for all variants (no self-model→primary feedback, so G×L cannot be evaluated); the "FF" here may not be IIT-feedforward in the strict state-independence sense. A clean test requires either larger scale or an architecture with self-model feedback. But the direction is suggestive: at the crossing cell, self-model richness matters more than loop topology.
 
 ### Favorable to γ (illusionism)
 

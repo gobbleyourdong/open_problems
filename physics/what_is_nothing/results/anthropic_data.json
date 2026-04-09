@@ -1,0 +1,42 @@
+{
+  "cosmological_parameters": {
+    "H0_km_s_Mpc": 67.4,
+    "H0_SI": 2.1842693716174612e-18,
+    "Omega_m": 0.315,
+    "Omega_Lambda": 0.685,
+    "rho_crit_J_m3": 8.533114727833856e-27,
+    "rho_m_today_J_m3": 2.6879311392676646e-27,
+    "rho_Lambda_obs_J_m3": 5.924e-27,
+    "rho_Planck_J_m3": 4.63417931248211e+113,
+    "l_P_m": 1.6161577114910426e-35
+  },
+  "anthropic_window": {
+    "z_eq_Lambda_matter_today": 0.2955673834609527,
+    "z_min_galaxy_formation_conservative": 2.0,
+    "z_min_galaxy_formation_aggressive": 5.0,
+    "rho_Lambda_max_z2_J_m3": 7.257414076022695e-26,
+    "rho_Lambda_max_z5_J_m3": 5.805931260818156e-25,
+    "window_width_z2_ratio": 12.250867785318526,
+    "window_width_z5_ratio": 98.00694228254821,
+    "P_anthropic_uniform_prior_z2": 0.08162687064490262,
+    "P_anthropic_uniform_prior_z5": 0.010203358830612828,
+    "observed_Lambda_in_window_z2": true,
+    "observed_Lambda_in_window_z5": true,
+    "log10_Planck_to_obs_gap": 139.89335778429077,
+    "log10_window_closes": 1.0881668528660309,
+    "log10_residual_fine_tuning": 138.80519093142473
+  },
+  "casimir_planck_box": {
+    "box_side_m": 1.6161577114910426e-35,
+    "box_volume_m3": 4.221348586446469e-105,
+    "casimir_coeff_scalar": 0.09636,
+    "casimir_energy_scalar_J": -188504117.891267,
+    "rho_casimir_scalar_J_m3": 4.465495185507761e+112,
+    "casimir_coeff_EM": 0.19272,
+    "casimir_energy_EM_J": -377008235.782534,
+    "rho_casimir_EM_J_m3": 8.930990371015522e+112,
+    "ratio_casimir_to_rho_Lam": 7.537972966758544e+138,
+    "ratio_casimir_to_rho_Planck": 0.09636,
+    "log10_casimir_over_Lam": 138.8772545756171
+  }
+}

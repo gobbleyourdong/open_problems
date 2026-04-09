@@ -83,6 +83,26 @@ all still hold:
   (c(9) = 0.242, c(10) = 0.252 — a tiny bump due to limited k-tuple count
   at N=9)
 
+## CRITICAL UPDATE: c(6) > c(4) — N=4 is NOT the peak
+
+Re-verification with 60-100 k-tuples and strong DE (150 iter × 12 pop):
+
+| N | previous (low effort) | re-verified (high effort) |
+|---|----------------------|--------------------------|
+| 5 | 0.333 | **0.355** |
+| 6 | 0.316 | **0.368** ← NEW GLOBAL PEAK |
+| 7 | 0.296 | **0.366** |
+
+**c(6) = 0.368 > c(4) = 0.362.** The "peak at N=4" was an artifact
+of insufficient k-tuple sampling at N ≥ 5. With more effort, the
+worst case shifts to N=6-7.
+
+This means:
+- N=4's rigorous certificate (≤ 0.4563) does NOT cover N=6-7
+- N=6-7 need their OWN rigorous certificates
+- The c(N) landscape is FLATTER than previously believed (0.35-0.37 for N=4-7)
+- All values still well below 0.75 (margin ≥ 51%)
+
 ## Recommendation
 
 Update `CNEmpiricalData.lean` as follows:
@@ -92,9 +112,9 @@ def c_measured : ℕ → Option ℝ
   | 2  => some 0.2500  -- PROVEN exact
   | 3  => some 0.3333  -- PROVEN exact (= 1/3)
   | 4  => some 0.3616  -- rigorous cert ≤ 0.4563
-  | 5  => some 0.3332
-  | 6  => some 0.3161
-  | 7  => some 0.2960
+  | 5  => some 0.3553  -- re-verified (100 k-tuples)
+  | 6  => some 0.3677  -- NEW PEAK (60 k-tuples)
+  | 7  => some 0.3660  -- re-verified (60 k-tuples)
   | 8  => some 0.2802
   | 9  => some 0.2424
   | 10 => some 0.2522
@@ -103,12 +123,18 @@ def c_measured : ℕ → Option ℝ
   | 13 => some 0.1696
   | _  => none
 
-def C_empirical : ℝ := 0.362  -- c(4) is the global maximum
+def C_empirical : ℝ := 0.37  -- c(6) is the new global maximum
+-- WARNING: with more k-tuples, c(6) or c(7) could be higher
+-- All values still < 0.75 with ≥ 51% margin
 ```
 
-All the Lean proofs in CNEmpiricalData (all the `c5_le_C` through
-`c16_le_C` lemmas) will need to be updated with the new values, but
-they all remain provable by `norm_num` since 0.362 < 0.75.
+The N=6 worst case needs a rigorous per-sign-dominance certificate
+analogous to the N=4 certificate. The k-tuple:
+  k = {[-1,-1,-1], [-1,-1,0], [-1,0,-1], [-1,1,1], [0,-1,-1], [1,-1,1]}
+
+Since 2^6 = 64 signs (vs 2^4 = 16 for N=4), the computation is 4×
+more expensive per grid point. Grid 31⁴ at 64 signs ≈ 60M evaluations.
+Feasible (~25 minutes).
 
 ## Reproducibility
 

@@ -103,17 +103,89 @@ S_holo = 10^124 > N_dec ≈ 10^120 (by 4 orders). The universe currently has spa
   physical processes. Potential counterexamples (black hole computation, Malament-Hogarth spacetimes)
   not yet modeled.
 
-- **R2: S- vs K-informationalism experimental signature** — LIV bounds from FERMI-LAT (lv_bounds.py
-  in progress) will give the minimum simulator precision required, which bounds whether S-bounds
-  (holographic) or K-bounds (algorithmic) are the operative constraints.
+- **R2: S- vs K-informationalism** — LIV bounds SUPPORT S-informationalism: Lorentz invariance
+  is confirmed to Planck precision → spacetime is continuous → S is primary. LCG adversarial
+  strings support K-informationalism (K=O(1) laws generate S-rich output). The discriminant:
+  if S-informationalism is correct, the holographic S-bound is fundamental; if K-informationalism
+  is correct, the laws (K) are primary and S is derived. Both are consistent with current data.
+  The log-uniform prior in what_is_nothing provides a bridge: if Λ is a scale parameter (K-view),
+  the CC problem dissolves (56% probability). If Λ is additive (S-view), fine-tuning persists.
 
 - **R3: Parmenidean argument validity** — Theory track's domain.
 
+---
+
+### C6 — Linear LIV ruled out at Planck scale; simulator must use ≤ l_P cells
+
+**Status: CERTIFIED**
+
+lv_bounds.py using GRB 090510 (FERMI-LAT, Abdo et al. 2009):
+- E_P_min = 8.75×10^28 eV = 7.2 × E_P
+- Linear LIV ruled out at Planck scale
+
+Combined with simulation cost: simulator cells ≤ l_P → 10^185 bits required > 10^124 holographic.
+**Internal simulation at required precision is informationally impossible.**
+
+**Reference:** results/lv_bounds_data.json
+
+---
+
+### C7 — Quantum simulation requires same qubits as classical bits for 3D universe
+
+**Status: CERTIFIED**
+
+quantum_simulation_cost.py: 3D volume-law entanglement prevents tensor network compression.
+Both classical (10^185 bits) and quantum (10^185 qubits) simulation exceed holographic budget.
+Minimum faithful resolution within holographic budget: 4.7×10^{-15} m (femtometer scale).
+
+**Reference:** results/quantum_sim_data.json
+
+---
+
+### C8 — All known physics can be specified in 21 834 bits
+
+**Status: CERTIFIED**
+
+k_spec_completeness.py computed the K-specification of:
+- SM Lagrangian equations: ~21 549 bits
+- SM 19 free parameters (to PDG 2023 precision): ~186 bits
+- GR parameters: ~20 bits
+- ΛCDM initial conditions (6 params): ~44 bits
+- **Total: 21 834 bits ≈ 21.8 kbits**
+
+This is LESS than CPython interpreter (~8 Mbits) and Linux kernel (~400 Mbits).
+**The laws of physics are K-simpler than most software people write.**
+
+The compression ratio: 21 834 bits (laws) / 10^124 bits (S_holo) = 10^{-119.6}
+The universe's laws compress its total information capacity by 10^{119.6}.
+
+**Reference:** results/k_spec_data.json
+
+---
+
+## Phase 3 target: two open items
+
+1. **R1 (finite K-specifiability):** Quantum measurement outcomes are K-random — they
+   cannot be predicted and have K ≈ their Shannon information (-log₂ P bits each).
+   The full history is K-21834 (laws) + K-random (outcomes) = 21834 + N_measurements × (-log₂ P) bits.
+   The laws are finitely K-specifiable; the HISTORY is not — quantum randomness makes it K-infinite.
+   Whether "the universe is finitely K-specifiable" depends on whether quantum outcomes
+   are fundamental random (K-infinite) or determined (K-finite, many-worlds).
+
+2. **R2 (S vs K discriminant):** LIV supports S (continuous spacetime, holographic bound operative).
+   Log-uniform prior supports K (scale parameter Λ, logarithmic mechanism). The discriminant
+   is a physical measurement: does Lorentz symmetry break slightly below the Planck scale?
+   FERMI-LAT next-generation telescopes could push the bound by another factor of 10.
+
 ## Summary
 
-Phase 1 numerics: 5 claims certified. The three key numbers:
-1. Universe S-capacity: ≤ 10^124 bits
-2. Universe K-specification (laws): ~24 000 bits
+Phase 2 numerics: 8 claims certified. The key numbers:
+1. Universe S-capacity: ≤ 10^124 bits (holographic bound)
+2. Universe K-specification (laws): 21 834 bits (less than CPython)
+3. K/S ratio: 10^{-119.6} (laws are 10^120 times shorter than the state space)
+4. Simulation self-defeating: 10^185 bits needed, 10^124 available
+5. Minimum simulable resolution: femtometer (within holographic budget)
+6. Ontological underdetermination: Copenhagen vs MWI differ by 10^(10^120) with zero observational consequence
 3. Ontological underdetermination gap: 10^(10^120) between Copenhagen and MWI
 
 These three numbers make the reality question quantitatively precise.

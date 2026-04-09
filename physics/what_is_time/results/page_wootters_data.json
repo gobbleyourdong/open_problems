@@ -1,0 +1,174 @@
+{
+  "model": "Page-Wootters minimal 2-qubit",
+  "date": "2026-04-09",
+  "global_state": {
+    "amplitudes_real": [
+      0.7071067811865475,
+      0.0,
+      0.4999999999999999,
+      0.4999999999999999
+    ],
+    "amplitudes_imag": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "norm2": 0.9999999999999997,
+    "is_static": true,
+    "von_neumann_entropy": 0.0
+  },
+  "entanglement": {
+    "S_clock": 0.6008760366928563,
+    "S_system": 0.6008760366928564,
+    "mutual_information_bits": 1.2017520733857125,
+    "description": "Mutual information IS the K-content of emergent time"
+  },
+  "conditional_states": {
+    "t0": {
+      "fidelity_with_psi_t0": 1.0,
+      "k_proxy": 0.0,
+      "bloch_theta_deg": 0.0
+    },
+    "t1": {
+      "fidelity_with_psi_t1": 1.0,
+      "k_proxy": 0.5,
+      "bloch_theta_deg": 90.00000000000001
+    },
+    "delta_k": 0.5
+  },
+  "8_tick_demo": [
+    {
+      "t": 0,
+      "prob_clock": 0.125,
+      "p_down_S": 0.0,
+      "theta_deg": 0.0,
+      "k_proxy": 0.0
+    },
+    {
+      "t": 1,
+      "prob_clock": 0.125,
+      "p_down_S": 0.049515566048790434,
+      "theta_deg": 25.714285714285715,
+      "k_proxy": 0.049515566048790434
+    },
+    {
+      "t": 2,
+      "prob_clock": 0.125,
+      "p_down_S": 0.18825509907063329,
+      "theta_deg": 51.42857142857144,
+      "k_proxy": 0.18825509907063329
+    },
+    {
+      "t": 3,
+      "prob_clock": 0.125,
+      "p_down_S": 0.3887395330218427,
+      "theta_deg": 77.14285714285714,
+      "k_proxy": 0.3887395330218427
+    },
+    {
+      "t": 4,
+      "prob_clock": 0.125,
+      "p_down_S": 0.6112604669781572,
+      "theta_deg": 102.85714285714286,
+      "k_proxy": 0.6112604669781572
+    },
+    {
+      "t": 5,
+      "prob_clock": 0.125,
+      "p_down_S": 0.8117449009293668,
+      "theta_deg": 128.57142857142858,
+      "k_proxy": 0.8117449009293668
+    },
+    {
+      "t": 6,
+      "prob_clock": 0.125,
+      "p_down_S": 0.9504844339512094,
+      "theta_deg": 154.28571428571422,
+      "k_proxy": 0.9504844339512094
+    },
+    {
+      "t": 7,
+      "prob_clock": 0.125,
+      "p_down_S": 1.0,
+      "theta_deg": 180.0,
+      "k_proxy": 1.0
+    }
+  ],
+  "clock_scaling": [
+    {
+      "n_qubits": 1,
+      "n_steps": 2,
+      "k_bits": 1,
+      "meaning": "2-step clock: minimal time distinction"
+    },
+    {
+      "n_qubits": 7,
+      "n_steps": 128,
+      "k_bits": 7,
+      "meaning": "128-step clock: \u2248 specious present at 50 bits/s (2^7 = 128 \u2248 150)"
+    },
+    {
+      "n_qubits": 8,
+      "n_steps": 256,
+      "k_bits": 8,
+      "meaning": "256-step clock: covers specious present at 50 bits/s with margin"
+    },
+    {
+      "n_qubits": 10,
+      "n_steps": 1024,
+      "k_bits": 10,
+      "meaning": "1024-step: ~1 second at 1 kHz neural timescale"
+    },
+    {
+      "n_qubits": 20,
+      "n_steps": 1048576,
+      "k_bits": 20,
+      "meaning": "1M-step: megapixel temporal resolution"
+    },
+    {
+      "n_qubits": 50,
+      "n_steps": 1125899906842624,
+      "k_bits": 50,
+      "meaning": "10^15-step: femtosecond timescale over 1 second"
+    },
+    {
+      "n_qubits": 146,
+      "n_steps": 89202980794122492566142873090593446023921664,
+      "k_bits": 146,
+      "meaning": "8.92e+43-step: Planck-resolution specious present"
+    },
+    {
+      "n_qubits": 203,
+      "n_steps": 12855504354071922204335696738729300820177623950262342682411008,
+      "k_bits": 203,
+      "meaning": "1.29e+61-step: Planck-resolution age of universe"
+    }
+  ],
+  "conscious_temporal_resolution": {
+    "specious_present_s": 3.0,
+    "temporal_order_threshold_s": 0.02,
+    "distinguishable_moments": 150.0,
+    "log2_moments_bits": 7.22881869049588,
+    "nearest_power_of_2_steps": 128,
+    "clock_qubits": 7,
+    "conscious_K_per_specious_present_bits": 150,
+    "planck_ticks_in_specious_present": 5.564830272676684e+43,
+    "clock_qubits_for_planck_resolution": 145.31924576619608
+  },
+  "universe_scale": {
+    "age_universe_s": 4.35e+17,
+    "planck_time_s": 5.391e-44,
+    "planck_ticks_in_universe": 8.069003895381191e+60,
+    "clock_qubits_needed": 202.32807627952147
+  },
+  "key_findings": [
+    "Global state |Psi> is static (pure, S=0): no external time parameter",
+    "Mutual information I(C:S) = 1.0 bits = K-content of emergent time (1-qubit clock)",
+    "Conditional states S|C=t differ by \u0394K > 0: time is K-gradient in conditional S",
+    "7-qubit clock gives 128 steps \u2248 150 (specious present conscious K at 50 bits/s \u00d7 3s)",
+    "Conscious temporal resolution \u2248 7 bits: 128 distinguishable moments in specious present",
+    "Universe clock needs ~203 qubits at Planck resolution",
+    "Each conscious K-bit = one clock measurement = one PW time step"
+  ]
+}

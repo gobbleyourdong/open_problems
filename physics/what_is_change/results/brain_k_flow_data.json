@@ -1,0 +1,27 @@
+{
+  "T_brain_K": 310.0,
+  "landauer_per_bit_J": 2.9666781812480147e-21,
+  "k_flow_rates_bits_per_s": {
+    "Neuron firing": 860000000000.0,
+    "Synaptic transmission": 1500000000000000.0,
+    "Ion channel decoherence": 8.6e+20,
+    "Protein conformational": 1.4e+23
+  },
+  "brain_power_actual_W": 20.0,
+  "sensory_channels": {
+    "visual_retina_total": 1500000000.0,
+    "visual_optic_nerve": 20000000.0,
+    "auditory": 3000000.0,
+    "tactile": 1000000.0,
+    "olfactory": 300000.0,
+    "gustatory": 10000.0,
+    "proprioceptive": 1000000.0,
+    "vestibular": 100000.0
+  },
+  "total_sensory_inflow_bits_per_s": 1525410000.0,
+  "conscious_bandwidth_bits_per_s": 50.0,
+  "specious_present_s": 3.0,
+  "conscious_compression_ratio": 30508200.0,
+  "landauer_cost_conscious_W": 1.4833390906240073e-19,
+  "slack_conscious": 1.3483093735220347e+20
+}

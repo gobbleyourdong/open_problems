@@ -1,0 +1,49 @@
+{
+  "physical_constants": {
+    "rho_Lambda_obs_J_m3": 5.924e-27,
+    "rho_Lambda_max_J_m3": 1.7771999999999999e-25,
+    "rho_Planck_J_m3": 4.634e+113,
+    "window_factor": 30.0
+  },
+  "landscape_parameters": {
+    "N_fluxes": 500,
+    "values_per_flux": 10,
+    "log10_N_vacua": 500
+  },
+  "window_geometry": {
+    "log10_window_over_Planck": -138.4162197248851,
+    "window_fraction_uniform": 3.835131635735865e-139,
+    "log10_window_fraction": -138.4162197248851
+  },
+  "distribution_A_log_uniform": {
+    "epsilon_IR_cutoff_J_m3": 1e-200,
+    "P_Lambda_leq_max": 0.5587145590263307,
+    "log10_P": -0.2528100116138552,
+    "log10_N_expected": 499.74718998838614,
+    "anthropic_viable": true
+  },
+  "distribution_B_uniform": {
+    "P_Lambda_leq_max": 3.835131635735865e-139,
+    "log10_P": -138.4162197248851,
+    "log10_N_expected": 361.5837802751149,
+    "N_expected_mantissa": 3.835131635736235,
+    "N_expected_exponent": 361,
+    "anthropic_viable": true
+  },
+  "distribution_C_gaussian": {
+    "sigma_J_m3": 4.634e+113,
+    "x_Lam_max_over_sigma": 3.835131635735865e-139,
+    "P_Lambda_leq_max": 1.5299961604001428e-139,
+    "log10_P": -138.81530965906418,
+    "log10_N_expected": 361.18469034093584,
+    "anthropic_viable": true
+  },
+  "k_information": {
+    "bits_per_flux": 3.321928094887362,
+    "K_landscape_bits": 1660.964047443681,
+    "K_vacuum_address_bits": 1660.964047443681,
+    "K_window_address_bits": 1201.1553183514832,
+    "extra_bits_beyond_window": 459.80872909219784
+  },
+  "key_finding": "The string landscape provides ~10^362 vacua inside the anthropic window (uniform prior), making anthropic selection numerically viable. The specific vacuum giving our observed \u039b can be addressed with ~1661 bits of K-information (the flux configuration). Our universe is K-compact within the landscape."
+}

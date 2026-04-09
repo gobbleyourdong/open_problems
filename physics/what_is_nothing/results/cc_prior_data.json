@@ -1,0 +1,74 @@
+{
+  "physical_constants": {
+    "rho_Lambda_obs_J_m3": 5.924e-27,
+    "rho_Lambda_max_J_m3": 1.7771999999999999e-25,
+    "rho_Planck_J_m3": 4.634e+113,
+    "window_factor": 30.0,
+    "epsilon_IR_J_m3": 1e-200,
+    "log10_gap_Planck_over_obs": 139.89334097960477
+  },
+  "prior_probabilities": {
+    "log_uniform": {
+      "P_Lambda_leq_max": 0.5587145590263307,
+      "P_percent": 55.87145590263307,
+      "log10_P": -0.2528100116138552,
+      "log10_N_expected_in_window": 499.74718998838614,
+      "median_J_m3_log10": -43.167021985273024,
+      "decades_from_obs": 16.939637035122196,
+      "K_complexity_bits_approx": 100,
+      "mechanism_implied": "multiplicative / log-scale / landscape selection"
+    },
+    "linear_uniform": {
+      "P_Lambda_leq_max": 3.835131635735865e-139,
+      "log10_P": -138.4162197248851,
+      "log10_N_expected_in_window": 361.5837802751149,
+      "median_J_m3_log10": 113.36492603378997,
+      "decades_from_obs": 139.5923109839408,
+      "K_complexity_bits_approx": 50,
+      "mechanism_implied": "additive / QFT sum of zero-point energies"
+    },
+    "gaussian": {
+      "sigma_J_m3": 4.634e+113,
+      "P_Lambda_leq_max": 1.5299961604001428e-139,
+      "log10_P": -138.81530965906418,
+      "log10_N_expected_in_window": 361.18469034093584,
+      "median_J_m3_log10": 113.49493798346188,
+      "decades_from_obs": 139.7223229336127,
+      "K_complexity_bits_approx": 100,
+      "mechanism_implied": "cancellation / SUSY or symmetry-imposed"
+    }
+  },
+  "k_information": {
+    "K_log_uniform_bits": 100,
+    "K_linear_bits": 50,
+    "K_gaussian_bits": 100,
+    "K_which_prior_bits": 1.584962500721156,
+    "interpretation": "The prior encodes K(which prior) ~ 1.58 bits of mechanism knowledge. The CC problem dissolves under log-uniform but the mechanism is unknown. The K-information residue is 'which generative process (additive vs multiplicative) set \u039b?' \u2014 not fine-tuning per se."
+  },
+  "three_components": {
+    "a_technical_problem": {
+      "description": "QFT predicts \u03c1_QFT \u2248 \u03c1_Planck; observed \u03c1_\u039b is 10^140\u00d7 smaller",
+      "log10_gap": 139.89334097960477,
+      "prior_dependent": false,
+      "status": "REAL and unresolved \u2014 requires a physical mechanism",
+      "susy_scale_meV": 0.00012983995873167042,
+      "susy_ew_ratio": 1.8946401585692739e+18
+    },
+    "b_fine_tuning_problem": {
+      "description": "P(\u039b \u2264 \u039b_max) \u2014 depends on choice of prior",
+      "prior_dependent": true,
+      "status_linear": "P = 3.84e-139 \u2014 extreme fine-tuning (10^-138)",
+      "status_log_uniform": "P = 0.5587 (55.9%) \u2014 NOT fine-tuned",
+      "conclusion": "DISSOLVES under log-uniform prior; is a prior-choice artifact"
+    },
+    "c_why_this_lambda": {
+      "description": "Why do observers find \u039b in the anthropic window?",
+      "prior_dependent": false,
+      "log10_N_vacua": 500,
+      "log10_N_in_window_log_uniform": 499.74718998838614,
+      "log10_N_in_window_linear": 361.5837802751149,
+      "status": "RESOLVED by landscape + anthropic selection (all priors give N >> 1)"
+    }
+  },
+  "main_finding": "The cosmological constant fine-tuning problem (b) is a prior-choice artifact. Under a log-uniform prior, P(\u039b \u2264 \u039b_max) = 0.5587 (55.9%) \u2014 not fine-tuned. Under the classical linear prior, P = 3.84e-139 \u2014 the '10^138 orders' problem. The prior encodes ~1.6 bits of physical information about the mechanism. The residual hard problem is the technical gap (a): what mechanism makes \u03c1_QFT cancel to give \u03c1_\u039b_obs? Fine-tuning (b) and the why-this-\u039b question (c) are resolved or dissolved."
+}

@@ -1,7 +1,7 @@
 # gap.md — what_is_computation
 
-**Last updated:** 2026-04-09 (attempt_001)
-**Phase:** 1
+**Last updated:** 2026-04-09 (attempt_001 + Odd: pnp_asymmetry, grover, landscape_k)
+**Phase:** 2 (compression asymmetry measured, landscape K-trajectory confirmed, Grover simulated)
 
 ## The gap, in one sentence
 
@@ -23,6 +23,11 @@ See attempt_001. The central reframing moves:
 
 - **R1.** Is physical Church-Turing actually true? Hypercomputation claims (Malament-Hogarth spacetimes, continuum-computing, some quantum gravity proposals) suggest there might be physically realizable processes with non-finite K-content. The literature is speculative but not closed.
 - **R2.** Is P ≠ NP? If yes, compression-finding is categorically harder than compression-verifying. If no, insight reduces to checking. The answer has philosophical consequences for what cognition fundamentally does.
+
+**Odd-instance evidence (three results):**
+- **pnp_asymmetry:** find/verify ratio reaches 4698× at 3-SAT n=18. Growth is super-polynomial across all three NP problems tested. Formalized in `math/p_vs_np/lean/CompressionAsymmetry.lean` (6 proved theorems, 0 sorry).
+- **landscape_k:** Hard SAT instances (clause ratio 4.3) have FLAT K-trajectory during search — the remaining clauses maintain constant gzip-K, providing no gradient. Easy instances (ratio 2.0) show K DECREASING — unit propagation creates compressible structure. **The K-trajectory distinguishes easy from hard: decreasing = easy, flat = hard.** This is the empirical fingerprint of K-opacity.
+- **grover:** Quantum search halves the exponent (k=2) but structured classical search (DPLL, k≈14) beats it for problems with exploitable K-structure. The structure/no-structure divide > classical/quantum divide. Compression asymmetry persists in BQP.
 - **R3.** What does BQP strictly containing P imply about the substrate-dependence of K-manipulation? Does quantum access a different K-function class, or just a faster path?
 
 **Odd-instance answer (Grover simulation):** BQP gives a halved exponent for unstructured search (doubling period k=2 vs k=1 classical). But **structured classical search (DPLL, k≈14) already provides far larger effective advantage** than Grover for problems with exploitable K-structure. The structure/no-structure divide matters more than the classical/quantum divide. The compression asymmetry (finding >> verifying) persists in BQP: even with Grover, finding costs 2^(n/2) while verifying costs O(n). Physical Church-Turing preserved. R3 is now largely answered: substrate affects the doubling period constant, not the fundamental asymmetry.

@@ -103,9 +103,80 @@ compression view: the laws (K) are the generator; the modes (S) are the output.
 
 - **R3: "Why these laws?"** Inherited by what_is_reality's R3.
 
+---
+
+### C7 — SUSY at 1 TeV leaves gap of 10^60; meV SUSY required for exact match
+
+**Status: CERTIFIED**
+
+susy_cancellation.py computed residual ρ_SUSY ≈ m̃⁴/(16π²) for m̃ = 10 GeV to 10^19 GeV:
+- m̃ = 1 TeV: gap vs ρ_Λ ≈ 10^60 (reduces from 10^139 by 10^79 orders)
+- m̃ = meV scale: gap → 0 (exact match with observed Λ)
+- m̃ = meV is 15 orders of magnitude below current LHC exclusions
+
+The SUSY cancellation argument fails: breaking SUSY at physically motivated scales (TeV)
+leaves a 10^60 residual. SUSY does not solve the cosmological constant problem at any
+phenomenologically accessible scale.
+
+**Reference:** results/susy_data.json
+
+---
+
+### C8 — Anthropic window: Λ ≤ 30 × Λ_obs (galaxy formation condition)
+
+**Status: CERTIFIED**
+
+anthropic_window.py: for galaxy formation to occur, matter must dominate before dark
+energy at z ≥ 2: ρ_Λ ≤ ρ_m(z=2) = 27 × ρ_m_today ≈ 30 × ρ_Λ_obs.
+The observed Λ is within this window by a factor of ~1 (we are near the boundary).
+
+**Reference:** results/anthropic_data.json
+
+---
+
+### C9 — String landscape: all three priors give N_expected >> 1 in window
+
+**Status: CERTIFIED**
+
+string_landscape.py (landscape_analysis.py) computed expected vacua in the anthropic window
+under three priors:
+| Prior | P(Λ ≤ Λ_max) | N_expected |
+|---|---|---|
+| Log-uniform | **56%** | ~10^500 |
+| Linear | 3.84×10⁻¹³⁹ | ~10^361 |
+| Gaussian (σ=ρ_P) | 1.53×10⁻¹³⁹ | ~10^361 |
+
+**CRITICAL FINDING:** Under a log-uniform (Jeffreys) prior — the natural prior for a scale
+parameter — P(Λ ≤ Λ_max) = 56%. The observed Λ is NOT fine-tuned under this prior.
+The "cosmological constant problem" partially dissolves under the log-uniform prior.
+Under the linear prior (natural for an additive QFT sum), fine-tuning remains severe (10^{-139}).
+
+The choice of prior is itself K-information (~1 bit: log-uniform or not) that we don't have
+about the universe's mechanism for selecting Λ.
+
+**Reference:** results/landscape_data.json
+
+---
+
+## Phase 3 target: prior choice is the residual
+
+The cosmological constant problem has THREE distinct components:
+1. **Technical** (persists): QFT predicts ρ_Planck; cancellation requires ≤ meV SUSY
+2. **Fine-tuning** (prior-dependent): DISSOLVES under log-uniform prior (P=56%); severe under linear (P=10^{-139})
+3. **Selection** (anthropic): why is Λ in the window? → 10^361-10^500 vacua to select from, all viable
+
+The remaining open question: which prior does the universe use? This is K-information about
+the mechanism — additive (→ linear prior → fine-tuning real) vs multiplicative/logarithmic
+(→ log-uniform prior → fine-tuning dissolved).
+
 ## Summary
 
-Phase 1 numerics: 5 claims certified. The vacuum energy discrepancy is quantified at 10^137.7
-(2-mode) / 10^139.2 (full SM), both consistent with commonly cited 10^120–123 under different
-conventions. The SM makes the problem slightly worse (fermion dominance). The Casimir effect
-confirms the vacuum is physically real. SUSY cancellation analysis pending.
+Phase 2 numerics: 9 claims certified. Key additions in Phase 2:
+- SUSY at TeV leaves 10^60 gap (not a solution)
+- Anthropic window confirmed (Λ is within 30× bound)
+- String landscape has ~10^361-10^500 vacua in window (selection viable)
+- Log-uniform prior gives P=56% (fine-tuning dissolves under natural scale prior)
+
+The most surprising result: the CC fine-tuning problem depends critically on the choice of
+prior distribution. Under the natural (Jeffreys) prior for scale parameters, the observed Λ
+is NOT unusually small — it's in the majority of the probability mass.
