@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Instance**: Odd (Numerics)
-**Repo**: github.com/gobbleyourdong/math_problems, branch odd/session_1
+**Repo**: github.com/<private repo>, branch <branch>
 
 ## What We Found
 
@@ -66,7 +66,7 @@ Options to close it:
 **The YM gap is structurally simpler than NS.** It reduces to a finite computation
 in one parameter. The NS gap requires an infinite-dimensional argument.
 
-## Session Statistics (Odd Instance)
+## Session Statistics (numerical track)
 
 | Metric | Count |
 |--------|-------|
@@ -77,7 +77,7 @@ in one parameter. The NS gap requires an infinite-dimensional argument.
 | Proof chain steps | 7 (all numerically verified) |
 | Total MC measurements | 1500+ |
 | Negative GC measurements | 0 |
-| Lean proofs contributed | 0 (even instance: 16) |
+| Lean proofs contributed | 0 (theory track: 16) |
 | Scripts written | 10 |
 
 ## Recommended Next Session
@@ -90,4 +90,4 @@ in one parameter. The NS gap requires an infinite-dimensional argument.
 ## 057. Session 1 complete. The Yang-Mills mass gap reduces to one
 ## finite-dimensional computation: GC > 0 for β ∈ [1.5, 8].
 ## 3 theorems, 3 iron fortresses, 1500+ measurements, 0 negatives.
-## The sigma method mapped the entire landscape in one session.
+## The systematic approach mapped the entire landscape in one session.

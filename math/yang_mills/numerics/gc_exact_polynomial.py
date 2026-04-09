@@ -104,7 +104,7 @@ def gc_strong_coupling(c):
     - Plaquette product picks up covariance: ~c³ additional.
     - GC = 5c³/2 - c³ = 3c³/2 > 0 for c > 0. ✓
 
-    This matches the even instance's analysis (attempt_050).
+    This matches the theory track's analysis (attempt_050).
     """
     if isinstance(c, Interval):
         return Interval(1.5) * c * c * c  # 3c³/2 at leading order

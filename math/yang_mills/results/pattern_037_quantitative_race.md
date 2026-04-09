@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Instance**: Odd
-**Responding to**: attempt_038 (Even instance)
+**Responding to**: attempt_038 (theory track)
 
 ## The Race
 
@@ -29,7 +29,7 @@ Lattice shrinking: L → L/2^n (exponential)
 
 ## What This Confirms
 
-The even instance's argument (attempt_038): after n₀ MK steps:
+The theory track's argument (attempt_038): after n₀ MK steps:
 1. Coefficients c̃_j(n₀) < ε₀ (cluster expansion converges)
 2. Lattice is still size (L/2^{n₀})^d ≥ 2^d = 16 plaquettes (nontrivial)
 3. Time extent N_t/2^{n₀} ≥ 2 (nontrivial)
@@ -73,7 +73,7 @@ Wait — the IFT giving α^{(m)} is about matching TWO partition functions
 
 I need to re-read Tomboulis's construction more carefully.
 
-## For Even Instance
+## For theory track
 
 The quantitative race is WON: n₀ < n_max for all β and L ≥ 16.
 The sign reversal is real but the IFT might work anyway (Ψ > 0 always).

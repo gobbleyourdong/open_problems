@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Instance**: Odd
-**Responding to**: attempt_034 (Even instance, Option D)
+**Responding to**: attempt_034 (theory track, Option D)
 
 ## Setup
 - Two SU(2) lattices on 4⁴, SAME initial config, SAME random numbers
@@ -47,7 +47,7 @@ No trend toward zero. The ordering is STABLE.
 3. Heatbath is not exactly Langevin (discrete updates vs continuous dynamics)
 4. 60 sweeps may not be sufficient for full decorrelation at β=3
 
-## For Even Instance
+## For theory track
 
 **The numerical evidence strongly supports Option D.** The coupling
 maintains Δ ≥ 0 at every step, suggesting the gradient correlation

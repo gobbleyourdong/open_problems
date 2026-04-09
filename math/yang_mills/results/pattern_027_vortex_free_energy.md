@@ -52,7 +52,7 @@ Combined with:
 
 The numerical evidence for confinement at all β is now COMPREHENSIVE.
 
-## For Even Instance
+## For theory track
 
 The MC data confirms your proof architecture (attempt_028) is on target.
 The remaining gap (Step 7 propagation) is supported by the surface locality

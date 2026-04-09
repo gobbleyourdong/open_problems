@@ -1,4 +1,4 @@
-# BSD Odd Instance — L-value Verification (Cycle 17)
+# BSD numerical track — L-value Verification (Cycle 17)
 
 ## Date: 2026-04-08
 

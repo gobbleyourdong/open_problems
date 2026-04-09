@@ -1,7 +1,7 @@
 # Session 4 Results — Focused Proof Reinforcement
 
 ## Date: 2026-04-08 → 2026-04-09
-## Mode: Even instance focused on proofs (Poincaré reinforcement → NS application)
+## Mode: theory track focused on proofs (Poincaré reinforcement → NS application)
 ## Duration: ~15 cron cycles, 15-minute intervals
 ## Headline: Complete N=2 NS regularity pipeline + Poincaré tangential bounding library
 

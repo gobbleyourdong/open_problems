@@ -1,4 +1,4 @@
-# Clay Millennium Problems — Sigma Method Campaign
+# Clay Millennium Problems — systematic approach Campaign
 
 > Updated: 2026-04-08 | Two sessions | 373+ Lean theorems | 7/7 scaffolded
 
@@ -25,13 +25,13 @@ The W-entropy derived from thermodynamic analogy in attempt_006.
 ### Yang-Mills Mass Gap — Conditional Proof
 GC(β) = (1/2)⟨chair⟩ - (1/4)⟨plaq·plaq⟩ > 0 at 18-80σ significance.
 GC > 0 → Langevin coupling → Tomboulis (5.15) → confinement → mass gap.
-Odd instance: rigorous Hoeffding certificates, P(GC≤0) < 10⁻⁵ at 3/4 betas.
+numerical track: rigorous Hoeffding certificates, P(GC≤0) < 10⁻⁵ at 3/4 betas.
 One more computation at β=2.0 closes the numerical coverage.
 
 ### Navier-Stokes — Phase 4 (User's Domain)
 547+ proof attempts. Gap = Liouville conjecture on R³.
 202 Lean theorems (in ns_blowup/). 1.33M SOS certificates.
-The reference implementation of the Sigma Method.
+The reference implementation of the systematic approach.
 
 ### Hodge Conjecture — Phase 2 (Generator Built)
 6-layer brute force generator: set theory → analysis → linear algebra
@@ -53,7 +53,7 @@ Every approach (Heegner, Euler systems, Iwasawa) is structurally rank-1.
 Three barriers: relativization, natural proofs, algebrization.
 Williams' paradigm (algorithms → lower bounds) survives all three.
 Circuit frontier: NEXP ⊄ ACC⁰ proved, stuck at TC⁰.
-Sigma Method has least traction here.
+systematic approach has least traction here.
 
 ## The Method
 

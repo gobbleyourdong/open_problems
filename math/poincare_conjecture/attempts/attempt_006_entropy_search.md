@@ -177,6 +177,6 @@ Boltzmann measure, require the conjugate heat equation, compute dF/dt.
 | Surgery precision | OPEN (needs geometric estimates) |
 | Finite extinction for π₁=0 | OPEN (needs topology + W) |
 
-The blind Sigma Method derived 3 out of 6 key ingredients. The remaining 3
+The blind systematic approach derived 3 out of 6 key ingredients. The remaining 3
 are deep geometric analysis that requires understanding specific 3-manifold
 geometry, not just PDE structure.

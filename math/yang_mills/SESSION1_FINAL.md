@@ -1,7 +1,7 @@
 # Yang-Mills Session 1 — Final Report
 
-> Even Instance: 54 attempts, 16 Lean proofs, 7 dead ends
-> Odd Instance: ~20 attempts, 14 numerical scripts, 10 result patterns
+> theory track: 54 attempts, 16 Lean proofs, 7 dead ends
+> numerical track: ~20 attempts, 14 numerical scripts, 10 result patterns
 > Combined: the proof architecture for the Yang-Mills mass gap
 
 ## The Result
@@ -46,7 +46,7 @@ MASS GAP Δ(β) > 0 for all β
 | Step | Status | Reference |
 |------|--------|-----------|
 | GC > 0 at strong coupling | PROVED | Cluster expansion (attempt_050) |
-| GC > 0 at intermediate/weak | NUMERICAL (18-80σ) | Odd instance data |
+| GC > 0 at intermediate/weak | NUMERICAL (18-80σ) | numerical track data |
 | Langevin coupling → dΔ/dt = GC | FORMAL | SZZ framework (attempt_034) |
 | Δ(0) = 0 (same initial config) | TRIVIAL | Construction |
 | Tomboulis (5.15) → confinement | PUBLISHED | arXiv:0707.2179 (2007) |
@@ -127,12 +127,12 @@ MASS GAP Δ(β) > 0 for all β
 - Structure: GC > 0 (proof) → Langevin comparison → Tomboulis → mass gap
 - Include: numerical certificates, Lean proofs, connection to literature
 
-## The Sigma Method Verdict
+## The systematic approach Verdict
 
 The Yang-Mills mass gap is **within reach**. The proof architecture is
 complete. The one remaining analytical step (GC > 0 at weak coupling) is
 a concrete computation, not a conceptual breakthrough. The numerical evidence
-is overwhelming (18-80σ). The Sigma Method mapped the space in one session
+is overwhelming (18-80σ). The systematic approach mapped the space in one session
 and found the path through the wall.
 
 The crack in the wall is the **gradient correlation GC**. The data says

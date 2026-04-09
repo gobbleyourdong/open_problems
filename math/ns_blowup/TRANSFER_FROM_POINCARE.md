@@ -132,4 +132,4 @@ This is a CONCRETE proposal for your Phase 5 work:
    W = ∫ [τ·g(\|ω\|², \|∇f\|²) + h(f)] · e^{-f} dx
 
 The search over functionals g, h is a SYSTEMATIC computation (not a
-genius insight). This is the Sigma Method applied to functional design.
+genius insight). This is the systematic approach applied to functional design.

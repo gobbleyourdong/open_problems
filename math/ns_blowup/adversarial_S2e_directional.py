@@ -1,5 +1,5 @@
 """
-ODD INSTANCE Cycle 1b — Adversarial S²ê/|ω|² Maximization
+numerical track Cycle 1b — Adversarial S²ê/|ω|² Maximization
 
 For each N-tuple of wavevectors, use differential evolution to find
 the polarization angles that MAXIMIZE S²ê/|ω|² at the vorticity maximum.

@@ -14,7 +14,7 @@ This script:
 3. Plots the approach to weak coupling (β → ∞)
 4. Computes the truncation error from cutting at j_max
 
-First computation in the Yang-Mills sigma method pipeline.
+First computation in the Yang-Mills systematic approach pipeline.
 """
 
 import numpy as np

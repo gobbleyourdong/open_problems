@@ -1,6 +1,6 @@
 # Yang-Mills Paper Arsenal — Full Manifest
 
-> Built: 2026-04-07 | Even Instance Phase 1
+> Built: 2026-04-07 | theory track Phase 1
 > Triple-verify status: equations checked against sources, cross-referenced
 
 ## Tier 1: Foundations (must formalize first)

@@ -1,4 +1,4 @@
-# YM Odd Instance — Mass Gap from Correlator Decay (Cycle 11)
+# YM numerical track — Mass Gap from Correlator Decay (Cycle 11)
 
 ## Date: 2026-04-08
 ## Lattice: 4⁴, SU(2), heatbath, 150 measurements per β

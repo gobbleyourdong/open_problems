@@ -1,4 +1,4 @@
-# Session 3 Odd Instance Manifest
+# Session 3 numerical track Manifest
 
 ## Date: 2026-04-08
 ## Duration: 20 cycles (~5 hours of 5-min cron)
@@ -6,7 +6,7 @@
 
 ## Navier-Stokes — Complete Algebraic Decomposition
 
-### Proven Theorems (all Lean-formalized by Even instance)
+### Proven Theorems (all Lean-formalized by theory track)
 
 1. **Eigenstructure**: S_k eigenvalues = {-1/2, 0, +1/2}, eigenvectors = {(k+w)/sqrt2, v, (k-w)/sqrt2}
 2. **Self-annihilation**: S_k v_k = 0 (strain annihilates own polarization)

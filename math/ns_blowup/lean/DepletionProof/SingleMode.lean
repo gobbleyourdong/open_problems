@@ -15,7 +15,7 @@
   - Mathlib's dot_cross_self / dotProduct_comm
   - The ring tactic
 
-  Author: Jason Burton, Independent Researcher
+  Author: the author, Independent Researcher
   Date: March 2026
 -/
 

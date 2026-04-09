@@ -151,7 +151,7 @@ certified, and c(N) ≈ 1.21/N^{0.98} means the problem gets EASIER
 with more modes. The remaining gap is a single analytical statement:
 prove that the depletion mechanism forces c(N) → 0.
 
-Updated: 2026-04-08 (Session 2 results integrated by Even instance).
+Updated: 2026-04-08 (Session 2 results integrated by theory track).
 
 ---
 *Synthesized from 547 proof attempt files by 16 parallel 2B workers*

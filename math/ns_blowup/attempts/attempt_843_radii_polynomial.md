@@ -94,4 +94,4 @@ Instead of "prove φ ∈ L³" (abstract), we get "prove C' < 1/(2C_S)" (number).
 
 ## 843. NS regularity = ONE INEQUALITY: C' < 1/(2C_S).
 ## C' = Tsai constant, C_S = Sobolev embedding in OU space.
-## Both computable. The gap is quantified. The sigma method applies.
+## Both computable. The gap is quantified. The systematic approach applies.

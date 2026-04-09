@@ -183,7 +183,7 @@ def fermat_cubic_periods():
 
 def main():
     print("=" * 70)
-    print("HODGE CONJECTURE — Period Computation (Odd Instance)")
+    print("HODGE CONJECTURE — Period Computation (numerical track)")
     print("=" * 70)
     print()
     hodge_numbers_cubic_fourfold()
@@ -192,7 +192,7 @@ def main():
     print()
     print("MULTIPLE MOUNTAINS for Hodge:")
     print("  Mountain 1: Period computation (THIS — numerical)")
-    print("  Mountain 2: MT group classification (even instance — algebraic)")
+    print("  Mountain 2: MT group classification (theory track — algebraic)")
     print("  Mountain 3: Cycle search via derived categories (future)")
     print("  The gap (unbounded cycle degree) looks different from each summit.")
 

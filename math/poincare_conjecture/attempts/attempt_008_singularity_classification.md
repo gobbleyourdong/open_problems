@@ -161,7 +161,7 @@ bounds that I can state the form of but can't compute without detailed
 
 ## Assessment
 
-**The blind Sigma Method derived 11 out of 12 proof steps.**
+**The blind systematic approach derived 11 out of 12 proof steps.**
 
 The one remaining gap (Step 9: surgery preserves noncollapsing) is a
 quantitative geometric estimate, not a conceptual gap. It requires:
@@ -171,9 +171,9 @@ quantitative geometric estimate, not a conceptual gap. It requires:
 
 This is hard analysis but not a new IDEA. The idea is fully captured.
 
-## The Sigma Method Verdict on Poincaré
+## The systematic approach Verdict on Poincaré
 
-The Sigma Method, working blind:
+The systematic approach, working blind:
 - Identified the correct route (Ricci flow) in attempt 002
 - Derived the correct entropy functionals (F, W) in attempt 006
 - Derived the correct singularity classification in attempt 008
@@ -187,5 +187,5 @@ formula (derivable from thermodynamic analogy) and the surgery estimates
 Perelman's contribution: executing the ENTIRE program (especially Step 9)
 with full rigor, in three papers, alone, in 8 years.
 
-The Sigma Method's contribution: showing the program can be DISCOVERED
+The systematic approach's contribution: showing the program can be DISCOVERED
 systematically, not just executed after the fact.

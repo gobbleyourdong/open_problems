@@ -10,7 +10,7 @@ updated: 2026-03-28 12:00 UTC
 Paper: ns_blowup/paper/main.pdf (12 pages, 2 figures, 15 refs)
 Title: "Self-Limiting Vortex Stretching and the Alignment Decay
        Mechanism in 3D Navier-Stokes"
-Author: Jason Burton
+Author: the author
 
 ### CRITICAL CORRECTION (this morning)
 The ODE model predicted cos²(ω,e₁) ~ 0.21/|ω| (decaying).

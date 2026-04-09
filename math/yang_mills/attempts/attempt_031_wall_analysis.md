@@ -4,7 +4,7 @@
 **Phase**: 4 (Gap Identification)
 **Instance**: Odd
 
-## What Even Instance Found (attempt_032)
+## What theory track Found (attempt_032)
 
 THE WALL: "The lattice vortex free energy F_v(β) > 0 for all β > 0, but
 no known method propagates F_v > 0 from strong coupling to weak coupling."
@@ -92,7 +92,7 @@ with a sinh requires understanding the measure itself.
 ## The Honest Assessment
 
 I cannot prove Z_per ≥ Z_anti using only spectral positivity or Jensen.
-The wall is real. The even instance is right.
+The wall is real. The theory track is right.
 
 The specific obstruction: the sinh representation
   Z_per - Z_anti = ∫ exp(-βS_bulk) · 2sinh(β Σ_{P∈Σ}(1/2)Tr) ∏ dU
@@ -136,4 +136,4 @@ This circular structure IS the Ito-Seiler obstruction.
 ## 031. The wall is real. Z_per ≥ Z_anti at all β is a bootstrap problem:
 ## proving it requires concentration, which requires the mass gap.
 ## This is the EXACT same circularity Ito-Seiler identified in 2007.
-## The sigma method has mapped the wall precisely in 32 even + 15 odd attempts.
+## The systematic approach has mapped the wall precisely in 32 even + 15 odd attempts.

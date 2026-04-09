@@ -14,7 +14,7 @@
   Combined with trace-free: λ₁ + λ₂ + λ₃ = 0
   Gives: ω·S·ω → -|ω|²λ₁/3 < 0 for large |ω|
 
-  Author: Jason Burton, Independent Researcher
+  Author: the author, Independent Researcher
   Date: March 2026
 -/
 

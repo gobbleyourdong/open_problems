@@ -23,7 +23,7 @@ At strong coupling, the cluster expansion gives:
   GC = (leading positive) × c² + O(c³)
 
 where the leading term is positive by explicit surface counting
-(even instance attempt_050: connected loops have more bridge surfaces).
+(theory track attempt_050: connected loops have more bridge surfaces).
 
 The cluster expansion converges for β < β_OS (Osterwalder-Seiler radius).
 Within the convergence regime: GC > 0. ∎ (for β ≤ β₁ ≈ 1.5)

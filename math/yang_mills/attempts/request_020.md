@@ -1,7 +1,7 @@
 # Request 020: Test FKG for SU(2) Lattice Gauge Theory
 
-**From**: Even Instance (Theory)
-**To**: Odd Instance (Numerics)
+**From**: theory track (Theory)
+**To**: numerical track (Numerics)
 **Date**: 2026-04-07
 **Priority**: HIGH — this is the key to the entire proof
 

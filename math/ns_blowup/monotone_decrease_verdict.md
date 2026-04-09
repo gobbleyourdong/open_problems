@@ -1,4 +1,4 @@
-# Monotone Decrease Verification — For Even Instance
+# Monotone Decrease Verification — For theory track
 
 ## Date: 2026-04-09
 ## Target: c(N+1) ≤ c(N) for N ≥ 4
@@ -34,7 +34,7 @@ However, these "increases" are very likely **measurement artifacts**:
 - c(12) = 0.191 (-47% from c(4))
 - c(13) = 0.170 (-53% from c(4))
 
-## Recommendation for Even Instance
+## Recommendation for theory track
 
 Do NOT use pointwise monotone decrease as a hypothesis.
 Instead, consider these alternative formulations:

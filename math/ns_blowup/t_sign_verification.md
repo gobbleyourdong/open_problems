@@ -1,6 +1,6 @@
 # T-Sign Verification at Vertex Maxima
 
-## For Even Instance (ExistingChainConnection.lean)
+## For theory track (ExistingChainConnection.lean)
 
 The T ≤ 0 hypothesis does NOT hold pointwise at all worst cases.
 Specifically: the N=4 worst case has T > 0.

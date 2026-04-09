@@ -1,5 +1,5 @@
 """
-ODD INSTANCE Cycle 2 — Per-Term Bound + Cancellation Measurement
+numerical track Cycle 2 — Per-Term Bound + Cancellation Measurement
 
 PROVEN: S_k v_k = 0 (self-interaction vanishes)
 PROVEN: |S_j v_k|² ≤ 1/(4|k_j|²) (Bessel inequality on k̂_j ⊥ ŵ_j plane)

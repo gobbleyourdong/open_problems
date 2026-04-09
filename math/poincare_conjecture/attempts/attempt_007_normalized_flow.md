@@ -30,7 +30,7 @@ The DISCRETE version fails because:
 This is why Perelman needed SMOOTH analysis, not computation.
 The Ricci flow approach is inherently ANALYTICAL, not computational.
 
-## What the Odd Instance CAN Do
+## What the numerical track CAN Do
 
 1. **Verify the flow on FINE triangulations** (1000+ tetrahedra)
    where discrete curvature is more reliable. Needs a mesh library.
@@ -50,7 +50,7 @@ The proof of Poincaré requires:
 3. Surgery at singularities (cut neck pinches, cap off)
 4. Finite extinction for π₁ = 0 (the manifold shrinks to a point)
 
-The odd instance can VERIFY these numerically on fine meshes but
+The numerical track can VERIFY these numerically on fine meshes but
 can't substitute for the analytical proof.
 
 ## 007. Normalized Ricci flow still diverges on 5-cell (too coarse).

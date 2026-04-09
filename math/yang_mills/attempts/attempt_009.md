@@ -124,7 +124,7 @@ a renormalization problem.
 If we prove Δ(β) > 0 for all β, we automatically get confinement (area law).
 The mass gap is the PRIMARY target — confinement follows.
 
-## What the Even Instance Should Do Next
+## What the theory track Should Do Next
 
 1. **Read arXiv:2510.22788** (Adhikari-Butez-Chatterjee 2025) in detail.
    Understand the 't Hooft mass gap proof. Identify what prevents extension

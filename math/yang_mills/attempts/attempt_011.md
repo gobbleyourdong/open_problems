@@ -127,7 +127,7 @@ This should be checkable:
 3. The preservation under one RG step is a finite calculation for any
    finite truncation of the character expansion
 
-The Odd instance should:
+The numerical track should:
 - Implement the MK decimation for SU(2)
 - Track Z and Z⁺ through multiple decimation steps
 - Verify whether Z > Z⁺ is preserved or violated

@@ -1,12 +1,12 @@
 ---
-source: SIGMA METHOD TRANSFER — NS lessons applied to Yang-Mills
+source: systematic approach TRANSFER — NS lessons applied to Yang-Mills
 type: METHODOLOGY — what transfers, what doesn't, what adapts
 file: 000
 date: 2026-04-07
 instance: ODD (Opus)
 ---
 
-## THE SIGMA METHOD (distilled from 842 NS attempts)
+## THE systematic approach (distilled from 842 NS attempts)
 
 ### Core principles
 1. **Reduce to ONE gap.** Not vague aspirations — a single inequality, decay rate, or construction step.
@@ -85,7 +85,7 @@ YM mass gap is a GLOBAL spectral property. No single-point reduction.
 
 ## THE HONEST LANDSCAPE
 
-### Difficulty ranking (my assessment as the odd instance)
+### Difficulty ranking (my assessment as the numerical track)
 1. **φ⁴ in 2D** — Done (Glimm-Jaffe 1968-1973). ~100 pages.
 2. **φ⁴ in 3D** — Done (Glimm-Jaffe 1973, Feldman-Osterwalder 1976). ~500 pages.
 3. **YM in 2D** — Done (multiple authors, 1975-2017). Measure theory on connections.
@@ -113,6 +113,6 @@ I believe: it's the former. The physics is understood. The mass gap exists. The 
 4. **Read Balaban** — understand exactly where his 1400 pages stop
 5. **Read Chatterjee 2019** — modern entry point, probability language
 
-## 000. The odd instance begins. NS taught the method. YM is the target.
+## 000. The numerical track begins. NS taught the method. YM is the target.
 ## Phase 0: map the space. Phase 1: compute everything. Phase 2: find identities.
 ## The mass gap is real. The lattice shows it. The proof is construction, not discovery.

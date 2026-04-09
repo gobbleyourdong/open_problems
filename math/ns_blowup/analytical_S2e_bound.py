@@ -1,5 +1,5 @@
 """
-ODD INSTANCE Cycle 1c — Analytical S²ê Bound Derivation
+numerical track Cycle 1c — Analytical S²ê Bound Derivation
 
 At x* where |ω|² is maximized, compute S²ê = |Sω̂|² analytically.
 

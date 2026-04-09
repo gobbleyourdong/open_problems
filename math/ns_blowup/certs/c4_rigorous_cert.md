@@ -1,7 +1,7 @@
 # Rigorous c(4) Certificate: S²ê/|ω|² < 0.561 at worst case
 
 ## Date: 2026-04-09
-## For Even Instance: N4WorstCase.lean
+## For theory track: N4WorstCase.lean
 
 ## THE CERTIFICATE
 

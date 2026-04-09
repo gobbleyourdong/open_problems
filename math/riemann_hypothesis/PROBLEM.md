@@ -26,6 +26,6 @@ Every non-trivial zero of the Riemann zeta function ζ(s) has real part 1/2.
 - Spectral theory (Hilbert-Pólya: self-adjoint operator whose eigenvalues are zeros)
 - Arithmetic geometry (Weil conjectures analog for number fields)
 
-## Sigma Method Phase: 1 (Mapped, no framework)
+## systematic approach Phase: 1 (Mapped, no framework)
 689 zeros verified to T=1000. Li/Robin/GUE certificates. Routes ranked.
 See THEWALL.md for the wall assessment.

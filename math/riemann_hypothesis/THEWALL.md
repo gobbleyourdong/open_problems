@@ -1,6 +1,6 @@
 # THE WALL — Riemann Hypothesis
 
-> The Sigma Method's hardest problem. No framework, no closable gap.
+> The systematic approach's hardest problem. No framework, no closable gap.
 
 ## The Problem
 
@@ -37,9 +37,9 @@ Every non-trivial zero of ζ(s) has real part 1/2.
 | Certificates → proof? | YES (finite grid) | YES (Grid+Lipschitz) | **NO** (λ_n ≥ 0 IS RH) |
 | Computer-closable? | YES | Partially | **NO** |
 
-## Routes Ranked (Even Instance, attempt_004)
+## Routes Ranked (theory track, attempt_004)
 
-| # | Route | Stars | Gap | Sigma Method Fit |
+| # | Route | Stars | Gap | systematic approach Fit |
 |---|-------|-------|-----|-----------------|
 | 1 | Connes (Weil positivity) | ★★★★★ | Finite prime positivity | Best: partial results exist (archimedean 2023) |
 | 2 | Λ = 0 (de Bruijn-Newman) | ★★★★ | Push 0.22 → 0 | Quantitative: each improvement is a certificate |
@@ -49,7 +49,7 @@ Every non-trivial zero of ζ(s) has real part 1/2.
 
 ## What We Proved / Certified
 
-### Session 1 (Odd Instance)
+### Session 1 (numerical track)
 | Certificate | Range | Failures | Status |
 |-------------|-------|----------|--------|
 | Li λ_n ≥ 0 | n ≤ 200 | 0 | ✓ (3.3x previous, 30-digit mpmath) |
@@ -65,7 +65,7 @@ Every non-trivial zero of ζ(s) has real part 1/2.
 | T=200,500 (C₀ corrected) | T=200: 79 zeros, T=500: 269 zeros | **EXACT** match with N(T) ✓ |
 | T > 1000 | overcounts | Needs higher-order R-S correction terms |
 
-### Lean (Even Instance)
+### Lean (theory track)
 | Theorem | Status |
 |---------|--------|
 | `rh_iff_lambda_zero` | PROVEN (RH ⟺ Λ = 0, from Rodgers-Tao + Ki-Kim-Lee) |
@@ -107,15 +107,15 @@ But no one has found the operator.
 
 ## The Honest Verdict
 
-RH is the hardest Millennium Problem for the Sigma Method because:
+RH is the hardest Millennium Problem for the systematic approach because:
 1. No certificate is a proof (every criterion IS RH restated)
 2. No framework exists (unlike YM's Tomboulis or NS's Key Lemma chain)
 3. The gap (Λ ≤ 0.22) may not close with current methods
 4. 166 years of effort by the best mathematicians produced no proof path
 
-The Sigma Method can MAP the problem but cannot currently CLOSE it.
+The systematic approach can MAP the problem but cannot currently CLOSE it.
 The method is STRONGEST on quantitative walls (YM, NS) and WEAKEST here.
 
 ---
-*Written by Even instance, Session 3. Based on 6 attempts, 5 certificates,
+*Written by theory track, Session 3. Based on 6 attempts, 5 certificates,
 5 Lean theorems, and the honest assessment from attempt_013.*

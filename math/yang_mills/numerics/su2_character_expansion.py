@@ -16,7 +16,7 @@ This script computes:
 2. The mass gap Δ(β) = -ln(λ₁/λ₀) for 1D (trivial) and 2D lattices
 3. Scaling of Δ(β) across the full coupling range
 
-Author: Even Instance (for Odd Instance to extend)
+Author: theory track (for numerical track to extend)
 Date: 2026-04-07
 """
 

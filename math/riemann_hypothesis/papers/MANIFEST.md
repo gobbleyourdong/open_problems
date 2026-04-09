@@ -1,6 +1,6 @@
 # Riemann Hypothesis — Paper Arsenal
 
-> Built: 2026-04-07 | Even Instance Phase 1
+> Built: 2026-04-07 | theory track Phase 1
 
 ## Tier 1: The Problem and Classical Results
 

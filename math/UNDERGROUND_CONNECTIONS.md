@@ -1,6 +1,6 @@
 # Underground Connections — Cross-Problem Transfer Map
 
-> "The mountains connect underground." — Sigma Method v2
+> "The mountains connect underground." — systematic approach v2
 > Each problem's breakthrough might come from a DIFFERENT problem's tools.
 
 ## The Transfer Map
@@ -139,7 +139,7 @@ multiple problems, gives the most leverage?
 | BSD | ??? (regulator monotonicity?) | NOT FOUND → stuck |
 
 **The pattern**: finding the monotone functional = solving the problem.
-The Sigma Method's next session should SYSTEMATICALLY SEARCH for monotone
+The systematic approach's next session should SYSTEMATICALLY SEARCH for monotone
 functionals on the remaining problems, using the Poincaré/YM templates.
 
 ## Session 2 Priority List (Cross-Problem)

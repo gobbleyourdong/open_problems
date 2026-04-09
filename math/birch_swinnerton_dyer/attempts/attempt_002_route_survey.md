@@ -9,7 +9,7 @@
 BSD is unique among Millennium Problems: HALF of it is solved.
 Rank 0 and 1 are proved. The wall is rank ≥ 2.
 
-## Route Rankings (by Sigma Method fit)
+## Route Rankings (by systematic approach fit)
 
 ### 1. Iwasawa Main Conjecture → BSD ★★★★★
 
@@ -27,7 +27,7 @@ curves requires handling:
 - Reducible residual representations (Skinner 2014)
 - The "full BSD" (not just p-part but the exact formula)
 
-**Sigma Method fit**: HIGH. The framework exists, gaps are SPECIFIC and
+**systematic approach fit**: HIGH. The framework exists, gaps are SPECIFIC and
 QUANTIFIABLE. Each extension (new prime, new curve class) is a concrete theorem.
 
 ### 2. Derived Euler Systems ★★★★
@@ -66,7 +66,7 @@ The LMFDB has millions of curves with:
 - Computed L-values (via modular symbols)
 - Verified BSD formula (numerical, to high precision)
 
-**Sigma Method fit**: PERFECT for the Odd instance. Build an iron fortress
+**systematic approach fit**: PERFECT for the numerical track. Build an iron fortress
 of verified BSD instances. Each verified curve is a certificate.
 
 **The limitation**: Verification for individual curves doesn't prove BSD
@@ -104,7 +104,7 @@ to the L-function at HIGHER order vanishing, we'd have a "higher Gross-Zagier."
 **Computational**: Route 4 (LMFDB certification) — build iron fortress
 **Speculative**: Route 3 (diagonal cycles) — the rank ≥ 2 breakthrough if it comes
 
-## For Odd Instance
+## For numerical track
 
 1. Download LMFDB data for elliptic curves of rank 0, 1, 2, 3
 2. For each curve: verify rank, compute L^{(r)}(E,1), compare to BSD formula

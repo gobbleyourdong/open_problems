@@ -16,7 +16,7 @@ For ρ OFF the critical line:
 **Li's criterion IS RH.** Not a simplification, not a new route — the SAME
 statement viewed through the lens of the map w = (ρ-1)/ρ.
 
-## What This Means for the Sigma Method
+## What This Means for the systematic approach
 
 The Li criterion plays the role of the SOS certificate: it CONFIRMS RH
 computationally (λ_n > 0 for all tested n) but doesn't provide a proof
@@ -48,7 +48,7 @@ The transition happens at n ≈ 2γ_1 ≈ 28 (the first zero's "wavelength").
 The NS and YM certificates are WEAKER than the full conjecture, which is
 why they led to proof architectures. The RH certificate IS the conjecture.
 
-## For Even Instance
+## For theory track
 
 Li's criterion is a DEAD END for proof purposes — it doesn't simplify RH.
 The productive routes are:

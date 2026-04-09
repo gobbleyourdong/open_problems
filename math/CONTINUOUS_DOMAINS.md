@@ -1,4 +1,4 @@
-# Continuous Domain Proof Techniques — For the Sigma Method
+# Continuous Domain Proof Techniques — For the systematic approach
 
 ## The Problem
 

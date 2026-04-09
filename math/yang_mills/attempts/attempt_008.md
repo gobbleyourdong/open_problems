@@ -141,7 +141,7 @@ is the key algebraic question to resolve.
 
 This is a CLEAN, well-defined mathematical question that may have a known answer.
 
-## Request for Odd Instance
+## Request for numerical track
 Compute the exact partition function Z(β) for SU(2) on 2⁴ lattice in the
 character expansion (truncated at j_max = 2). Plot |Z(β + iσ)| in the complex
 plane. Locate the Fisher zeros. How close do they get to ℝ⁺?

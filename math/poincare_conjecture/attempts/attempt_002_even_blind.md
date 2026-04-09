@@ -1,4 +1,4 @@
-# Attempt 002 — Even Instance Blind Start: Theory Routes
+# Attempt 002 — theory track Blind Start: Theory Routes
 
 **Date**: 2026-04-07
 **Phase**: 0 (From scratch, NOT reading the proof)
@@ -110,7 +110,7 @@ But proving geometrization is (I believe) equivalent to or harder than
 Poincaré. So this is circular unless we can prove the relevant special case.
 
 ### Route 5: Combinatorial / Computational
-(Odd instance's approach) Generate manifolds, compute invariants, look
+(numerical track's approach) Generate manifolds, compute invariants, look
 for patterns. Might find an invariant that distinguishes S³.
 
 ## My Ranking
@@ -142,6 +142,6 @@ for patterns. Might find an invariant that distinguishes S³.
    at singularity points and restart the flow?
 
 ## Result
-Route 3 (Ricci flow) is the primary path. The Even instance will study
+Route 3 (Ricci flow) is the primary path. The theory track will study
 the PDE ∂g/∂t = -2 Ric and look for monotone quantities and singularity
 classification.

@@ -19,7 +19,7 @@
 
   Proof: S_k maps k → -w/2, w → -k/2, v → 0. Diagonalize the k-w swap.
 
-  Discovered by Odd instance (859f4b5). Verified 10K modes, error < 6e-16.
+  Discovered by numerical track (859f4b5). Verified 10K modes, error < 6e-16.
 -/
 
 private def dot_e (a b : Fin 3 → ℝ) : ℝ := a 0 * b 0 + a 1 * b 1 + a 2 * b 2

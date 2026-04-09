@@ -20,7 +20,7 @@ from the Gaussian Unitary Ensemble. This is the Montgomery-Odlyzko law.
 The GUE connection suggests RH is a spectral phenomenon — the zeros
 are eigenvalues of some self-adjoint operator (Hilbert-Pólya conjecture).
 
-## For Even Instance
+## For theory track
 
 The GUE statistics support Route 1 (Hilbert-Pólya) most strongly.
 The operator H whose eigenvalues are the γ_k should have:

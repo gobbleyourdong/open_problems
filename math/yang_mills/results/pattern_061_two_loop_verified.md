@@ -2,9 +2,9 @@
 
 **Date**: 2026-04-07
 **Instance**: Odd
-**Cross-checking**: Even instance attempt_056
+**Cross-checking**: theory track attempt_056
 
-## The Even Instance's Claim
+## The theory track's Claim
 
 GC(β) = C/β² + O(1/β³) with C > 0 at weak coupling (two-loop lattice PT).
 Estimated C ≈ 0.96.
@@ -22,7 +22,7 @@ Estimated C ≈ 0.96.
 Fit: GC = 2.64/β² - 5.46/β³
 
 **C = 2.64 > 0.** The sign is confirmed. The magnitude differs from
-the even instance's estimate (0.96 vs 2.64) — the explicit two-loop
+the theory track's estimate (0.96 vs 2.64) — the explicit two-loop
 computation is needed for the exact value. But C > 0 is robust.
 
 ## What This Means

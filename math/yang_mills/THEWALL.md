@@ -141,7 +141,7 @@ Either prove (5.15) at intermediate coupling by a method other than cluster
 expansion, or find a different way to decompose the partition function that
 avoids the interpolation.
 
-**Status:** The Even Instance explored this extensively (attempts 028-032).
+**Status:** The theory track explored this extensively (attempts 028-032).
 The gap is real: local MK control doesn't give global F_v control.
 
 ### Option D: Langevin Coupling (THE CRACK) ★★★★
@@ -153,7 +153,7 @@ The observable difference Δ(t) evolves as dΔ/dt = GC(β) where:
 
 **If GC ≥ 0 for all β: the mass gap is proved.**
 
-Numerical evidence (Odd instance, pattern_041):
+Numerical evidence (numerical track, pattern_041):
 | β | GC | Sign |
 |---|-----|------|
 | 2.0 | +0.085 | ✓ |
@@ -223,13 +223,13 @@ Plus continuity/analyticity interpolation for intermediate β.
 |--------|----|----|
 | Attempts | 547 | 32 (session 1) |
 | Lean theorems | 202 | 12 |
-| SOS certificates | 1.33M | (Odd instance in progress) |
+| SOS certificates | 1.33M | (numerical track in progress) |
 | Routes killed | 5 | 6 |
 | The wall | Liouville conjecture (pointwise) | Vortex free energy propagation (global) |
 | Nature of wall | Single inequality at one point | Global-local disconnect |
 | Closest attempt | None came within striking distance | Tomboulis 2007 (90% of a proof) |
 
-## The Sigma Method Verdict
+## The systematic approach Verdict
 
 The Yang-Mills mass gap, like the NS regularity problem, reduces to a
 single well-defined mathematical question that current techniques cannot
@@ -243,5 +243,5 @@ All known routes to this question either:
 - Assume it to derive consequences (Tomboulis)
 - Require it as input from an unproved effective theory (Faddeev-Niemi)
 
-The wall is the wall. The Sigma Method mapped it precisely.
+The wall is the wall. The systematic approach mapped it precisely.
 The certificates are ready when it falls.

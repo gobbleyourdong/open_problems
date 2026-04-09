@@ -48,7 +48,7 @@ The key technical ingredients would be:
 4. Finite extinction time for simply connected manifolds
    (positive curvature → the manifold shrinks to a point in finite time)
 
-## What the Odd Instance Can Compute
+## What the numerical track Can Compute
 
 1. **Discrete Ricci flow**: implement on triangulated manifolds
 2. **Curvature evolution**: track scalar/Ricci curvature under the flow

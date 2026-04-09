@@ -129,7 +129,7 @@ theorem shannon_counting (n : ℕ) (hn : 1 ≤ n)
     GAP: 5n vs 2^n / n — EXPONENTIAL gap between what we can prove
     and what we know must be true.
 
-    The sigma method number: 5 (the coefficient in the best lower bound).
+    The systematic approach number: 5 (the coefficient in the best lower bound).
     Need: 5 → n^ε for any ε > 0 (super-linear). -/
 /-- The explicit function gap at n=10 (concrete witness).
     Shannon's bound 2^10 = 1024 vs explicit 5*10 = 50.

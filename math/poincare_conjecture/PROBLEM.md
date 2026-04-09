@@ -19,11 +19,11 @@ Perelman proved the conjecture via Ricci flow with surgery:
 - Perelman, "Finite extinction time for the solutions..." (2003)
 - Detailed verifications: Kleiner-Lott, Morgan-Tian, Cao-Zhu
 
-## Sigma Method Phase: COMPLETE (solved problem)
+## systematic approach Phase: COMPLETE (solved problem)
 
 ## Notes
 - Included for completeness as a Clay problem
 - The ONLY solved Clay problem
 - Proof technique (Ricci flow) may inform Yang-Mills approach
 - Perelman's work also proves Thurston's geometrization conjecture
-- Good case study for the Sigma Method: what does a complete solution look like?
+- Good case study for the systematic approach: what does a complete solution look like?

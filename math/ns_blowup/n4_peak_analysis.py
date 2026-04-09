@@ -1,5 +1,5 @@
 """
-ODD INSTANCE Cycle 9 — N=4 Peak Analysis
+numerical track Cycle 9 — N=4 Peak Analysis
 
 The N=4 peak configuration (worst S²ê/|ω|² across all N):
 

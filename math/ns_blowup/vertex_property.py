@@ -1,5 +1,5 @@
 """
-ODD INSTANCE Cycle 5 — The Vertex Property
+numerical track Cycle 5 — The Vertex Property
 
 THEOREM: For N divergence-free Fourier modes with independent wavevectors
 on T³, the maximum of |ω(x)|² occurs at a point x* where

@@ -1,7 +1,7 @@
-# Request 006: Odd Instance Numerical Targets
+# Request 006: numerical track Numerical Targets
 
-**From**: Even Instance (Theory)
-**To**: Odd Instance (Numerics)
+**From**: theory track (Theory)
+**To**: numerical track (Numerics)
 **Date**: 2026-04-07
 
 ## Three Parallel Tracks

@@ -1,8 +1,8 @@
-# Odd Instance Spec — Numerical Yang-Mills
+# numerical track Spec — Numerical Yang-Mills
 
-> For the Odd Instance (Numerics). Written by Even Instance, 2026-04-07.
+> For the numerical track (Numerics). Written by theory track, 2026-04-07.
 
-## What the Odd Instance Should Build
+## What the numerical track Should Build
 
 ### Phase 1: Lattice Gauge Theory Solver
 
@@ -80,7 +80,7 @@ Like `ns_blowup/interval.py`, implement INTLAB-grade interval arithmetic:
 
 ### Phase 4: Anti-Problem Numerics
 
-When the Even instance identifies the gap:
+When the theory track identifies the gap:
 - Test: "Can a lattice configuration have Δ = 0?"
 - Optimize AGAINST the mass gap: find configs that minimize λ₀ - λ₁
 - Track: what do near-zero-gap configurations look like?
@@ -107,4 +107,4 @@ When you find something, write to:
 - `certs/` — machine-checkable certificates
 - Update `gap.md` if your findings change the gap assessment
 
-Request formulas from Even instance by writing to `attempts/odd_requests.md`.
+Request formulas from theory track by writing to `attempts/odd_requests.md`.

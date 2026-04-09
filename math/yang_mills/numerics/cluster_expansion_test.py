@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Test Step 5 of the Even instance's proof (attempt_028):
+Test Step 5 of the theory track's proof (attempt_028):
 Verify ⟨O⟩_per > ⟨O⟩_anti via cluster expansion at small c_j.
 
 Compute EXACTLY (via character expansion on small lattices):
@@ -144,7 +144,7 @@ def main():
     print("when the periodic series converges. The cluster expansion")
     print("convergence criterion |c_j| < ε₀ controls BOTH measures.")
     print()
-    print("This confirms Step 5 of the even instance's proof: ✓")
+    print("This confirms Step 5 of the theory track's proof: ✓")
 
     # Test 5: Does the margin Δ scale correctly with area of Σ?
     print("\n--- Margin scaling with area ---")

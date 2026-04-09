@@ -109,7 +109,7 @@ in the exponent, so ⟨S_W⟩ is non-INCREASING in β.
 Equivalently: the average plaquette ⟨(1/N) Re Tr(U_P)⟩ is non-decreasing in β.
 (Higher β = weaker coupling = plaquettes more ordered = larger trace.)
 
-This is a REAL THEOREM that the Odd instance can verify numerically. -/
+This is a REAL THEOREM that the numerical track can verify numerically. -/
 theorem plaquette_monotone :
     -- For SU(N) lattice gauge theory with Wilson action:
     -- β₁ ≤ β₂ implies ⟨plaq⟩_{β₁} ≤ ⟨plaq⟩_{β₂}

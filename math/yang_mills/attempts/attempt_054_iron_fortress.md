@@ -123,7 +123,7 @@ What remains:
 - Lean formalization of the Langevin coupling argument
 - Verify the Langevin ↔ discrete MC correspondence rigorously
 
-## The Sigma Method Assessment
+## The systematic approach Assessment
 
 The Yang-Mills mass gap has a CONDITIONAL PROOF:
 

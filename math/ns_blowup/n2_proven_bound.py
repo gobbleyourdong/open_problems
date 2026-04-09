@@ -1,5 +1,5 @@
 """
-ODD INSTANCE Cycle 4 — N=2 KEY LEMMA PROVEN
+numerical track Cycle 4 — N=2 KEY LEMMA PROVEN
 
 THEOREM: For two divergence-free Fourier modes (k₁,v₁), (k₂,v₂) with
 independent wavevectors on T³, at the point x* maximizing |ω(x)|²:

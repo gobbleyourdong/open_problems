@@ -1,5 +1,5 @@
 """
-ODD INSTANCE — Cross-Term Anatomy
+numerical track — Cross-Term Anatomy
 
 Decompose ||S||²_F at the vorticity maximum into:
   diagonal: Σ_k ||Ŝ_k||²_F cos²(k·x*)     [= |ω|²/2 by single-mode theorem]

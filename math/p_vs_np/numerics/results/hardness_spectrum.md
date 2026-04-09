@@ -1,6 +1,6 @@
 # P vs NP: The Hardness Spectrum (Cycles 1-6)
 
-## The Sigma Method Numbers
+## The systematic approach Numbers
 
 | Measure | Closest to P | Farthest from P | Ratio |
 |---------|-------------|-----------------|-------|

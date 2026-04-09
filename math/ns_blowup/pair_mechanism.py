@@ -1,5 +1,5 @@
 """
-ODD INSTANCE — Per-Pair Mechanism Analysis
+numerical track — Per-Pair Mechanism Analysis
 
 For each pair (j,k) of modes, compute:
   strain_cross_jk = Tr(Ŝ_j^T Ŝ_k) at x*

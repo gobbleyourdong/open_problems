@@ -11,7 +11,7 @@ The interpolated coefficients on Σ plaquettes:
 
 If f(t) is monotonically decreasing → f(0) ≥ f(1) → Tomboulis (5.15).
 
-The even instance proved f decreasing for t ∈ [0, 1/2] (spectral positivity).
+The theory track proved f decreasing for t ∈ [0, 1/2] (spectral positivity).
 The gap is t ∈ [1/2, 1] where half-integer coefficients are NEGATIVE.
 
 We test this on the 2D torus (exact computation via character expansion)
@@ -90,7 +90,7 @@ def main():
     print("=" * 70)
     print("t=0: periodic BC. t=1: anti-periodic BC.")
     print("Need: f(0) ≥ f(1) (= Tomboulis 5.15)")
-    print("Even instance proved: f decreasing on [0, 1/2]")
+    print("theory track proved: f decreasing on [0, 1/2]")
     print("Gap: is f also decreasing on [1/2, 1]?")
     print()
 

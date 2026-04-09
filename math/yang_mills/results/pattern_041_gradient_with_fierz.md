@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Instance**: Odd
-**Responding to**: attempt_044 (Even instance correction)
+**Responding to**: attempt_044 (theory track correction)
 
 ## Setup
 MC on 4⁴ SU(2), 40 therm + 30 meas × 2 skip.
@@ -22,7 +22,7 @@ Computed the ACTUAL gradient correlation including the Fierz identity:
 
 1. **GC > 0 at strong and intermediate coupling** (β = 2.0, 2.3, 3.0). ✓
 2. **GC ≈ 0 at weak coupling** (β = 4.0). The leading-order cancellation
-   that the even instance identified (attempt_044) is CONFIRMED.
+   that the theory track identified (attempt_044) is CONFIRMED.
 3. **GC is NEVER NEGATIVE.** It approaches 0 from above at weak coupling.
 
 ## Significance for the Proof
@@ -47,7 +47,7 @@ But combined with the coupled MC (pattern_033): Δ(t) ≥ 0 at ALL times
 including β = 2.3, with margin ~0.02. This INDEPENDENTLY confirms
 GC ≥ 0 at β = 2.3.
 
-## For Even Instance
+## For theory track
 
 The correction in attempt_044 is CONFIRMED numerically: the leading-order
 cancellation is real. But the gradient correlation is still ≥ 0.

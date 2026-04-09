@@ -139,7 +139,7 @@ Lee-Yang theorem for gauge theories.
 ## Assessment
 
 Strategy 5 (representation-theoretic) is the most novel and the most
-suited to the Even instance. The character expansion gives an EXACT
+suited to the theory track. The character expansion gives an EXACT
 representation of Z as a sum of products of Bessel function ratios.
 If we can prove that this sum has no zeros on ℝ⁺, we win.
 
@@ -150,13 +150,13 @@ This is a new question. I don't think it's been asked in this form before.
 The Ising model Lee-Yang theorem relies on the "multiaffine" property of Z.
 The gauge theory Z has a similar structure via the character expansion.
 
-## Next Steps (Even Instance)
+## Next Steps (theory track)
 1. Write out Z in character expansion for SU(2) on a minimal lattice
 2. Study the zero structure of this exact Z(β)
 3. Look for the structural property that keeps zeros off ℝ⁺
 4. Attempt to prove a Lee-Yang type theorem for the character expansion
 
-## Next Steps (Odd Instance)
+## Next Steps (numerical track)
 1. Compute Fisher zeros of Z(β) for SU(2) on 2⁴, 3⁴ lattices
 2. Plot zeros in the complex β plane
 3. Track the closest zero to ℝ⁺ as lattice size increases

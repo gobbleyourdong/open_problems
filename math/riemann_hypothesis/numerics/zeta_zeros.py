@@ -2,8 +2,8 @@
 """
 Riemann Zeta Zeros — Phase 0 computation.
 
-Odd instance first task: compute and verify zeros of ζ(s) on the critical line.
-Build the numerical infrastructure for the sigma method.
+numerical track first task: compute and verify zeros of ζ(s) on the critical line.
+Build the numerical infrastructure for the systematic approach.
 
 1. Compute ζ(1/2 + it) via the Riemann-Siegel formula
 2. Find zeros by sign changes of Z(t) (Hardy's Z-function)

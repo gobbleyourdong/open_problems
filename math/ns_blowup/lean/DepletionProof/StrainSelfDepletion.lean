@@ -11,7 +11,7 @@
   The stretching rate α is SELF-LIMITING: the quadratic self-depletion
   -ê·S²·ê ≤ -α² always dominates for large α.
 
-  Author: Jason Burton, Independent Researcher
+  Author: the author, Independent Researcher
   Date: March 2026
 -/
 

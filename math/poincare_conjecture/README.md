@@ -1,1 +1,0 @@
-# depletion_proof

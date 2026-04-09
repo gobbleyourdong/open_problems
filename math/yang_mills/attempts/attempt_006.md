@@ -122,12 +122,12 @@ But this doesn't rule out a first-order transition (discontinuity in f').
 
 ## Assessment
 
-The most promising route for the Even instance: **Approach 1 (Fisher zeros)**.
+The most promising route for the theory track: **Approach 1 (Fisher zeros)**.
 If we can bound the Fisher zeros of Z(β) away from the real axis, we get
 analyticity and hence mass gap. This is a COMPLEX ANALYSIS argument, which
 plays to formalization strengths.
 
-The key question for the Odd instance: compute the Fisher zeros of Z(β)
+The key question for the numerical track: compute the Fisher zeros of Z(β)
 for small lattices (2⁴, 3⁴) and check if they approach the real axis.
 
 ## Result

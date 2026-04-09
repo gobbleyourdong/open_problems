@@ -8,7 +8,7 @@ date: 2026-03-27
 # Navier-Stokes Equations via Pressure-Driven Vorticity Compression
 
 ## Authors
-Jason Burton
+the author
 
 ## Abstract
 

@@ -13,7 +13,7 @@
     cos(α) = cos²(α/2) - sin²(α/2)
     sin(α) = 2 sin(α/2) cos(α/2)
 
-  Author: Jason Burton, Independent Researcher
+  Author: the author, Independent Researcher
   Date: March 2026
 -/
 

@@ -1,11 +1,11 @@
-# The Seven Walls — What the Sigma Method Found
+# The Seven Walls — What the systematic approach Found
 
 > One session. Seven Millennium Problems. Seven walls mapped.
 > One solved blind. One conditional proof. Five walls standing.
 
 ## The Taxonomy of Mathematical Walls
 
-The Sigma Method attacked all seven Clay Millennium Problems in a single
+The systematic approach attacked all seven Clay Millennium Problems in a single
 session. Each problem has a WALL — the specific mathematical obstruction
 preventing proof. The walls fall into five distinct TYPES.
 
@@ -55,7 +55,7 @@ can work. The obstacles are theorems about proof techniques.
 |---------|---------|----------|
 | **Poincaré** | W-entropy functional (Perelman 2003) | 99 years |
 
-## The Sigma Method's Effectiveness by Wall Type
+## The systematic approach's Effectiveness by Wall Type
 
 ```
 Type 0 (Solved):        ████████████████████ 100% — 12/12 blind rediscovery
@@ -66,12 +66,12 @@ Type 4 (Existential):   ████████░░░░░░░░░░�
 Type 5 (Meta):          ██░░░░░░░░░░░░░░░░░░  10% — barriers mapped, can't penetrate
 ```
 
-The Sigma Method is STRONGEST on quantitative walls (Type 1) because:
+The systematic approach is STRONGEST on quantitative walls (Type 1) because:
 - Certificates can be computed
 - The gap narrows with computation
 - Iron fortresses provide confidence
 
-The Sigma Method is WEAKEST on meta-mathematical walls (Type 5) because:
+The systematic approach is WEAKEST on meta-mathematical walls (Type 5) because:
 - No certificate is possible (can't verify non-existence)
 - Three barriers provably block most approaches
 - The problem might be independent of ZFC
@@ -98,7 +98,7 @@ free energy.
 - RH: heat flow deformation + de Bruijn-Newman Λ (statistical mechanics of zeros?)
 
 ### Pattern 3: Group Theory Reduces to Finite Computation
-When the problem has a GROUP SYMMETRY, the Sigma Method excels:
+When the problem has a GROUP SYMMETRY, the systematic approach excels:
 - YM: SU(2) center symmetry → Z₂ decomposition → finite check
 - Hodge: Mumford-Tate classification → finite per dimension
 - Poincaré: Thurston geometrization → 8 model geometries
@@ -108,19 +108,19 @@ When there's no group structure, the method struggles:
 - P vs NP: Boolean functions have no useful group action
 
 ### Pattern 4: The "One Genius Insight" Bottleneck
-Every Millennium Problem has ONE key insight that the Sigma Method can
+Every Millennium Problem has ONE key insight that the systematic approach can
 identify the NEED for but cannot GENERATE:
 - Poincaré: the W-entropy formula (derivable from thermodynamic analogy!)
-- YM: the gradient correlation GC (found by the Sigma Method!)
+- YM: the gradient correlation GC (found by the systematic approach!)
 - NS: the Liouville-type estimate (not yet found)
 - RH: ??? (completely unknown)
 - BSD: the rank-2 construction (not yet imagined)
 - Hodge: the motivic t-structure (conjectured but not built)
 - P vs NP: the barrier-avoiding technique (not yet invented)
 
-## What the Sigma Method IS
+## What the systematic approach IS
 
-The Sigma Method is a SPACE-MAPPING MACHINE. It:
+The systematic approach is a SPACE-MAPPING MACHINE. It:
 1. Surveys all known approaches (paper arsenal)
 2. Formalizes what's proved (Lean)
 3. Builds computational evidence (certificates)

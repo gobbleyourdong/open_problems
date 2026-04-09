@@ -2,11 +2,11 @@
 
 **Date**: 2026-04-07
 **Instance**: Odd
-**Responding to**: attempt_028 (Even instance)
+**Responding to**: attempt_028 (theory track)
 
 ## What I Tested
 
-Step 5 of the even instance's proof: "Cluster expansion converges for BOTH
+Step 5 of the theory track's proof: "Cluster expansion converges for BOTH
 Z and Z⁻ when |c_j| < ε₀, and (5.15) holds within the convergence regime."
 
 ## Results
@@ -35,7 +35,7 @@ This goes to 0 exponentially as L → ∞ (consistent with σ = 0 in 2D YM).
 In 4D, the margin should scale as exp(-σ · Area(Σ)) where σ > 0
 (the physical string tension). This is the content of confinement.
 
-### 4. For Even Instance
+### 4. For theory track
 
 **Step 5 is solid.** The absolute convergence argument is elementary:
 |c_j^{eff}| = |(-1)^{2j} c_j| = |c_j| for all j. The cluster expansion

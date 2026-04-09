@@ -63,7 +63,7 @@ The quantum theory is the "path integral" ∫ DA e^{-S[A]} weighted by the Eucli
 - **Marginal dimension**: In 4D, YM is exactly renormalizable (borderline). In d < 4, super-renormalizable (easier). In d > 4, non-renormalizable (doesn't exist).
 - **Confinement**: Non-perturbative phenomenon. No perturbative proof possible. Must come from the lattice or a non-perturbative construction.
 
-## The Sigma Method Pipeline
+## The systematic approach Pipeline
 
 ### Phase 0: Map the space (CURRENT)
 - Literature survey of all approaches
@@ -108,6 +108,6 @@ NS is a **gap** problem: the proof architecture exists (Key Lemma → Type I →
 
 YM is a **construction** problem: no one has built the object yet. The proof architecture itself must be invented. The closest analog is Glimm-Jaffe's φ⁴ construction, but YM has gauge symmetry (infinite-dimensional redundancy) that φ⁴ doesn't.
 
-The sigma method's computational-first approach is well-suited: build the lattice object, measure everything, let the data tell you what theorem to prove.
+The systematic approach's computational-first approach is well-suited: build the lattice object, measure everything, let the data tell you what theorem to prove.
 
-## Sigma Method Phase: 0 (Mapping)
+## systematic approach Phase: 0 (Mapping)

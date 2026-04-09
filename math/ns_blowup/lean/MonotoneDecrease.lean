@@ -124,13 +124,13 @@ theorem coherence_bound (N coherence : ℝ) (hc : 1 ≤ coherence) (hc_max : coh
 
 Theorem: IF coherence ≤ 3 for all N ≥ 5, THEN c(N+1) ≤ c(N) for N ≥ 5.
 
-This is what the Odd instance needs to verify computationally
+This is what the numerical track needs to verify computationally
 (coherence O(1) bounded). The conditional version is provable from
 the algebraic framework.
 -/
 
 /-- Conditional monotone decrease:
-    Given coherence O(1) (verified by Odd instance) + c(N) > 0,
+    Given coherence O(1) (verified by numerical track) + c(N) > 0,
     c(N+1) ≤ c(N) for N ≥ 5. -/
 theorem conditional_monotone_decrease
     (cN cN1 coherence : ℝ)

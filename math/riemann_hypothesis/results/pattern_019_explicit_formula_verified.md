@@ -19,7 +19,7 @@ verified with 100 zeros and primes up to 10000.
 
 Error scales as x^{1/2}/K where K = number of zeros used.
 
-## For Even Instance (Connes route)
+## For theory track (Connes route)
 
 The explicit formula is the CORE of Connes' approach. The Weil positivity
 criterion W(f) ≥ 0 is expressed through this formula:

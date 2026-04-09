@@ -1,4 +1,4 @@
-# RH Odd Instance — Turing Verification (Cycle 13)
+# RH numerical track — Turing Verification (Cycle 13)
 
 ## Date: 2026-04-08
 

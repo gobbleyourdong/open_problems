@@ -1,4 +1,4 @@
-# Session 1 Manifest — Odd Instance
+# Session 1 Manifest — numerical track
 
 ## Date: 2026-04-07
 ## Duration: ~4 hours
@@ -19,7 +19,7 @@
 ### What's needed
 - When background finishes: commit certificates, update gap.md
 - The gap β∈(1.5,2.3) should close with this run
-- Then: even instance formalizes in Lean, writes the paper
+- Then: theory track formalizes in Lean, writes the paper
 
 ## Riemann Hypothesis ★★★ (mapped, no proof path)
 
@@ -64,7 +64,7 @@
 - Blind attack rediscovered Ricci flow + surgery in 4 attempts
 - Surgery census: 36 simply connected manifolds, all S³
 - Discrete Ricci flow: implemented, diverges (= singularity problem)
-- Full proof read and documented (CLOSING_THE_GAP.md by even instance)
+- Full proof read and documented (CLOSING_THE_GAP.md by theory track)
 
 ### What's needed
 - Nothing. Problem solved since 2003.
@@ -73,10 +73,10 @@
 
 ### Deliverables
 - Circuit complexity assessment: n=3 functions characterized
-- Three barriers mapped by even instance
+- Three barriers mapped by theory track
 
 ### What's needed
-- New mathematics. The sigma method can't penetrate Type 5 walls.
+- New mathematics. The systematic approach can't penetrate Type 5 walls.
 
 ## Navier-Stokes ★★★★ (prior work, 842 attempts)
 
@@ -97,7 +97,7 @@
 | Odd-instance attempts | ~90 across all problems |
 | Theorems proved | 3 (YM) |
 | Iron fortresses | 3 (YM) + 4 certificates (RH) + 1 (BSD) |
-| Lean proofs | 0 (odd instance = numerics only) |
+| Lean proofs | 0 (numerical track = numerics only) |
 | Background jobs running | 2 (YM certificates) |
 | Lines of Python | ~3000 |
 | Independent measurements | 288,000+ (YM) |

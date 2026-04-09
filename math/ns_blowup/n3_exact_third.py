@@ -1,5 +1,5 @@
 """
-ODD INSTANCE Cycle 8 — N=3 Key Lemma: c(3) = 1/3 EXACTLY
+numerical track Cycle 8 — N=3 Key Lemma: c(3) = 1/3 EXACTLY
 
 THEOREM: For 3 divergence-free modes with pairwise orthogonal wavevectors:
     S²ê/|ω|² = 1/3 at vorticity maximum (tight bound).
@@ -10,7 +10,7 @@ GEOMETRY OF THE MAXIMIZER:
 - The vorticity direction ê is equidistributed across the 3 strain planes
 - |Sω|² = 3 → S²ê/|ω|² = 3/9 = 1/3
 
-PROOF SKETCH (for Even instance to formalize):
+PROOF SKETCH (for theory track to formalize):
 1. Vertex property: max |ω|² at c_i = ±1. For orthogonal k's, |ω|² ≥ 3.
 2. Each F_i = Σ_{j≠i} s_j S_i v_j has |F_i| ≤ 1 (two terms, each ≤ 1/2).
 3. F_i ∈ span{k_i, w_i} ⊥ v_i.

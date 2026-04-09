@@ -1,5 +1,5 @@
 """
-ODD INSTANCE Cycle 1 — Vorticity-Strain Alignment Anatomy
+numerical track Cycle 1 — Vorticity-Strain Alignment Anatomy
 
 At the vorticity maximum x*, the strain S has eigenvalues λ₁ ≥ λ₂ ≥ λ₃
 with eigenvectors e₁, e₂, e₃. The vorticity direction ê = ω/|ω|

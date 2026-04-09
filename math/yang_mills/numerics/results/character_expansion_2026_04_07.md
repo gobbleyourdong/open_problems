@@ -52,7 +52,7 @@ This is consistent with the Krein-Rutman / Perron-Frobenius theorem
 - Need 3D and 4D for the real problem
 - 3D/4D requires Monte Carlo or explicit high-dimensional transfer matrix
 
-### For Odd Instance
+### For numerical track
 - Extend to 3D: need to construct transfer matrix with spatial plaquettes
 - Implement SU(2) Monte Carlo heat bath for 4D
 - Compute glueball correlators for mass gap extraction

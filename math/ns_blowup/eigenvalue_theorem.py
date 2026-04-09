@@ -1,5 +1,5 @@
 """
-ODD INSTANCE Cycle 3 — Single-Mode Eigenvalue Theorem
+numerical track Cycle 3 — Single-Mode Eigenvalue Theorem
 
 THEOREM: For a divergence-free Fourier mode (k, v) with |v|=1, v⊥k,
 the strain matrix S_k = -(k⊗w + w⊗k)/(2|k|²) where w = k×v has:

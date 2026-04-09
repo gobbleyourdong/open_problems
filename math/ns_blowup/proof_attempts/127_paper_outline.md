@@ -8,7 +8,7 @@ date: 2026-03-26
 # Enstrophy Cascade in Three-Dimensional Navier-Stokes
 
 ## Authors
-Jason Burton, Independent Researcher
+the author, Independent Researcher
 
 ## Abstract (~200 words)
 We investigate the mechanism of enstrophy transfer in the 3D incompressible

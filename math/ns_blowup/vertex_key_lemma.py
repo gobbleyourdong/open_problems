@@ -1,5 +1,5 @@
 """
-ODD INSTANCE Cycle 7 — Vertex Key Lemma: Definitive c(N) Table
+numerical track Cycle 7 — Vertex Key Lemma: Definitive c(N) Table
 
 Using the VERTEX PROPERTY (max |ω|² at c_i = ±1), compute the
 worst-case S²ê/|ω|² for N=2 through N=15.

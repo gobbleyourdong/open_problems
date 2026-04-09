@@ -23,7 +23,7 @@ OS axioms, mass gap all remain).
 controlling gauge-invariant effective actions on block-spin variables. The combinatorics
 explode. Balaban alone couldn't finish in a career.
 
-**Sigma Method fit**: HIGH. This is a systematic program. Each step can be formalized.
+**systematic approach fit**: HIGH. This is a systematic program. Each step can be formalized.
 The obstruction is complexity, not impossibility.
 
 ### Route 2: Stochastic Quantization
@@ -38,7 +38,7 @@ requires renormalization beyond current technology.
 **Obstruction**: 4D YM is "supercritical" for regularity structures. The renormalization
 problem is essentially the same as Route 1.
 
-**Sigma Method fit**: MEDIUM. More modern technology, but the 4D barrier is the same.
+**systematic approach fit**: MEDIUM. More modern technology, but the 4D barrier is the same.
 
 ### Route 3: Operator Algebra / Axiomatic QFT
 **Idea**: Construct the theory abstractly via its algebra of observables, then prove
@@ -48,7 +48,7 @@ spectral gap from algebraic properties.
 
 **Obstruction**: Too abstract without Route 1 or 2 providing the concrete construction.
 
-**Sigma Method fit**: LOW for construction, potentially HIGH for mass gap (if Route 1 gives the theory).
+**systematic approach fit**: LOW for construction, potentially HIGH for mass gap (if Route 1 gives the theory).
 
 ### Route 4: Lattice + Computer-Assisted Proof
 **Idea**: Use rigorous computer-assisted bounds on lattice gauge theory to prove
@@ -60,7 +60,7 @@ are much harder. Chatterjee (2020s) has some rigorous lattice results.
 **Obstruction**: The gap between numerical evidence and rigorous proof is vast.
 Monte Carlo is NOT a proof. Need interval arithmetic on partition functions.
 
-**Sigma Method fit**: HIGH for Odd instance. This is the SOS certificate analog.
+**systematic approach fit**: HIGH for numerical track. This is the SOS certificate analog.
 
 ### Route 5: Topological / Geometric
 **Idea**: Use the topology of the space of connections (moduli space) to constrain
@@ -72,7 +72,7 @@ tunneling amplitudes, not spectral gaps.
 **Obstruction**: The connection between topological invariants and the physical
 spectrum is indirect.
 
-**Sigma Method fit**: LOW for direct proof, HIGH for understanding structure.
+**systematic approach fit**: LOW for direct proof, HIGH for understanding structure.
 
 ## Assessment
 
@@ -80,9 +80,9 @@ spectrum is indirect.
 a complete (if unfinished) program. Everything else either feeds into it or
 assumes its output.
 
-**Secondary route**: Route 4 (lattice + computer). The Odd instance should pursue this.
+**Secondary route**: Route 4 (lattice + computer). The numerical track should pursue this.
 
-**The Even instance should**:
+**The theory track should**:
 1. Build the paper arsenal (Balaban's 13 papers are the core)
 2. Formalize the lattice gauge theory definitions in Lean
 3. Formalize the RG framework

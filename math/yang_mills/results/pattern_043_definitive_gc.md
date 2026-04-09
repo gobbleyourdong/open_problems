@@ -37,7 +37,7 @@ GC does NOT vanish at weak coupling. The profile:
 - β=8: GC ≈ 0.036 (weak coupling, still strongly positive)
 
 GC appears to plateau at ~0.04 for large β. The leading-order cancellation
-noted by the even instance (attempt_044) is COMPENSATED by a positive
+noted by the theory track (attempt_044) is COMPENSATED by a positive
 subleading term that does not vanish.
 
 ## Proof Chain Status
@@ -56,7 +56,7 @@ The ONE missing piece: an analytical proof that GC(β) ≥ 0 for all β.
 The numerics show it's true with overwhelming evidence. The proof needs
 to explain WHY the subleading term in the Fierz expansion is always positive.
 
-## For Even Instance
+## For theory track
 
 The data is unambiguous: GC > 0 at all tested β with high significance.
 The asymptotic behavior (GC → const > 0 at large β) means the leading-order

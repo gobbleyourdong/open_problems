@@ -97,7 +97,7 @@ My single-plaquette proof (attempt 013, S_anti > 0) shows YES for
 uncoupled plaquettes. The 2D result shows YES for 2D (where plaquettes
 decouple after gauge fixing). The 4D case is genuinely harder.
 
-## Implication for Even Instance
+## Implication for theory track
 
 The symmetry f(t) = f(1-t) means:
 - f'(1/2) = 0 (the derivative vanishes at the midpoint)

@@ -83,7 +83,7 @@ Where T_{jl} = (k_j · v_l)(v_j · k_l), summed over pairs with vertex signs c_i
 
 This is a COMBINATORIAL optimization question, not a calculus question.
 The first-order conditions (sign + angle) constrain the optimum, but don't
-directly give T ≤ 0. The Odd instance's numerical data confirms it holds
+directly give T ≤ 0. The numerical track's numerical data confirms it holds
 empirically at the measured vertices but the general proof is open.
 
 ## Lessons for Rigorous Bounding
@@ -105,4 +105,4 @@ Algebraic framework: **COMPLETE**.
 Remaining: **one combinatorial statement** (T ≤ 0 at vertex max).
 Parallel to Poincaré: this is the equivalent of Perelman's Step 9 (surgery survival).
 
-Idle until new Odd instance results arrive to formalize.
+Idle until new numerical track results arrive to formalize.

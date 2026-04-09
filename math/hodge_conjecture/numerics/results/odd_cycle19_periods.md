@@ -1,4 +1,4 @@
-# Hodge Odd Instance — Period Computation (Cycle 19)
+# Hodge numerical track — Period Computation (Cycle 19)
 
 ## Date: 2026-04-08
 
@@ -13,4 +13,4 @@ Infrastructure works. Fermat case is a solved warm-up.
 Frontier: general cubic fourfolds at discriminant d=24.
 Need: period computation without character decomposition (no Z/3Z symmetry).
 
-## 5/7 Millennium Problems now touched by Odd Instance this session
+## 5/7 Millennium Problems now touched by numerical track this session

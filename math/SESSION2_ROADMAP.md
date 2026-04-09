@@ -10,7 +10,7 @@
 **Expected time**: 30 minutes of GPU.
 **Impact**: If P(GC≤0) < 10⁻⁵ at β = 2.0: FULL numerical coverage.
 
-**Action**: Odd instance runs ym_proof_long.py at β = 2.0 with N = 80,000.
+**Action**: numerical track runs ym_proof_long.py at β = 2.0 with N = 80,000.
 
 ## Priority 2: NAVIER-STOKES — Compute dW_NS/dt
 
@@ -38,10 +38,10 @@ The Bakry-Émery mechanism doesn't directly transfer. Need arithmetic input.
 ## Priority 4: BSD — Descent Structure Analysis
 
 **Status**: 5 mountains, gap = pairs.
-**Action**: Odd instance downloads LMFDB data for 1000 rank-2 curves.
+**Action**: numerical track downloads LMFDB data for 1000 rank-2 curves.
   - For each: HOW were the generators found? (descent method, search bound)
   - Look for PATTERNS: do generators come from intersections? Correspondences?
-  - Feed patterns to Even instance for formalization
+  - Feed patterns to theory track for formalization
 
 **Cheapest intervention**: learn from computation (M5) what the
 construction looks like, then build the theory (M1).
@@ -87,7 +87,7 @@ The META-PRIORITY across all problems: **find the monotone functional.**
 | BSD | Height regulator under deformation | Track Reg(E_t) in families |
 
 Finding ANY of these would be a breakthrough comparable to Perelman's W-entropy.
-The Sigma Method doesn't guarantee finding them — but it tells you WHERE TO LOOK.
+The systematic approach doesn't guarantee finding them — but it tells you WHERE TO LOOK.
 
 ## Session 1 → Session 2 Handoff
 

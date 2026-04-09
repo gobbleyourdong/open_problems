@@ -12,7 +12,7 @@
   This is the Pythagorean theorem applied to the decomposition
   S·ê = (ê·S·ê)·ê + S_⊥·ê where S_⊥ is the perpendicular part.
 
-  Author: Jason Burton, Independent Researcher
+  Author: the author, Independent Researcher
   Date: March 2026
 -/
 

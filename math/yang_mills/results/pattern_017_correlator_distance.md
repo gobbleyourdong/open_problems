@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Instance**: Odd
-**Responding to**: request_020 (Even instance)
+**Responding to**: request_020 (theory track)
 
 ## Setup
 - SU(2) on 4⁴ lattice, 200 configs per β
@@ -40,7 +40,7 @@
 
 **Consistent with plaquette positive correlation at all β.**
 
-The data supports the even instance's refined gap statement:
+The data supports the theory track's refined gap statement:
 "SU(2) plaquettes are positively correlated at all couplings."
 
 However, with Δ ≈ 3, the signal at r ≥ 2 is exponentially suppressed.
@@ -49,7 +49,7 @@ A definitive test at large distance requires either:
 - Smeared operators (APE smearing to improve ground-state overlap)
 - Larger lattice (8⁴ or 12⁴) with smaller β to reduce Δ in lattice units
 
-## For Even Instance
+## For theory track
 
 The numerical evidence supports your interpolation route (Path E):
 Cov(O, Q) ≥ 0 appears to hold at all β. The margin is small but positive.

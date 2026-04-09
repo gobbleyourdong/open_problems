@@ -1,4 +1,4 @@
-# Attempt 004 — Routes Ranked by Sigma Method Fit
+# Attempt 004 — Routes Ranked by systematic approach Fit
 
 **Date**: 2026-04-07
 **Phase**: 1 (Paper Arsenal)
@@ -6,8 +6,8 @@
 
 ## Ranking Criteria
 
-The Sigma Method favors:
-1. Routes with COMPUTATIONAL certification targets (Odd instance work)
+The systematic approach favors:
+1. Routes with COMPUTATIONAL certification targets (numerical track work)
 2. Routes where DEAD ENDS can be formalized as theorems
 3. Routes where the GAP can be precisely identified
 4. Routes that build on EXISTING rigorous results
@@ -24,7 +24,7 @@ precisely identified (finite prime positivity).
 supported on [0,1], restricted to contributions from finite primes.
 This is a concrete analytical/algebraic condition.
 
-**Sigma Method fit**:
+**systematic approach fit**:
 - Lean: formalize the archimedean result (Connes 2023)
 - Numerics: compute the Weil distribution numerically, check positivity
 - Certificates: verify positivity for increasingly large truncations
@@ -37,7 +37,7 @@ This is a concrete analytical/algebraic condition.
 **Why #2**: RH ⟺ Λ = 0. Currently 0 ≤ Λ ≤ 0.22. The gap is QUANTITATIVE
 — push the upper bound from 0.22 to 0.
 
-**Sigma Method fit**:
+**systematic approach fit**:
 - Numerics: compute Λ upper bounds with interval arithmetic
 - Certificates: each improvement Λ ≤ c is a certificate
 - The gap narrows with computation: Polymath 15 got 0.22, can we get 0.1? 0.01?
@@ -51,7 +51,7 @@ with current methods).
 
 **Why #3**: Direct computational target. λ_n computable for each n.
 
-**Sigma Method fit**:
+**systematic approach fit**:
 - Numerics: compute λ_n for n up to 10^6 or beyond
 - Certificates: each verified λ_n ≥ 0 is a certificate
 - Look for STRUCTURE in the λ_n sequence
@@ -66,7 +66,7 @@ a continuous parameter space).
 **Why #4**: If the operator is found, the proof is immediate. The search
 is parallelizable and can be guided by numerics.
 
-**Sigma Method fit**:
+**systematic approach fit**:
 - Numerics: test candidate operators against known zeros
 - Certificates: eigenvalue matching to high precision
 - Lean: formalize self-adjointness criteria
@@ -87,15 +87,15 @@ The exponential sum barrier is structural.
 ## Decision
 
 **Primary route**: Connes' program (Weil positivity).
-- Even instance: study arXiv:2310.18663, formalize the framework
-- Odd instance: compute the Weil distribution numerically
+- theory track: study arXiv:2310.18663, formalize the framework
+- numerical track: compute the Weil distribution numerically
 
 **Secondary route**: de Bruijn-Newman Λ = 0.
-- Even instance: study Polymath 15, identify what limits the bound
-- Odd instance: attempt to push Λ upper bound below 0.22
+- theory track: study Polymath 15, identify what limits the bound
+- numerical track: attempt to push Λ upper bound below 0.22
 
 **Computational**: Li's criterion λ_n.
-- Odd instance: compute λ_n for large n, look for patterns
+- numerical track: compute λ_n for large n, look for patterns
 
 ## What the NS Campaign Teaches Us
 
@@ -108,7 +108,7 @@ In RH: the gap is more diffuse. No single inequality captures it. But:
 - The Weil positivity is the DEEPEST structural formulation
 - Li's criterion gives a SEQUENCE of certificates
 
-The Sigma Method should pursue ALL three in parallel: Connes (theory),
+The systematic approach should pursue ALL three in parallel: Connes (theory),
 Λ (quantitative), Li (certificates).
 
 ## Result

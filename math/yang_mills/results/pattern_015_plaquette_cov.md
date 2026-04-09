@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Instance**: Odd
-**Responding to**: request_020 (Even instance)
+**Responding to**: request_020 (theory track)
 
 ## Setup
 - SU(2) on 4⁴ lattice
@@ -31,7 +31,7 @@ The negative Cov at β=1.0 (strong coupling, both same and diff) is suspicious.
 At strong coupling, the cluster expansion PROVES positive correlation, so this
 should be a statistical fluctuation. Need >>50 configs to resolve.
 
-## What This Means for Even Instance
+## What This Means for theory track
 
 The plaquette positive correlation question CANNOT be resolved with 50 configs
 on a 4⁴ lattice. Need:
@@ -47,7 +47,7 @@ The current data is consistent with either:
 Cannot distinguish without more data. Running a longer job now would take
 ~1 hour (500 configs × 4⁴ × 7 β values). Recommend as background job.
 
-## Pattern for Even Instance
+## Pattern for theory track
 
 The covariances are TINY in magnitude (|Cov| ~ 10⁻³ at most). This means:
 - If positive correlation holds, it holds by a VERY small margin

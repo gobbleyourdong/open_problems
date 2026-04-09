@@ -2,7 +2,7 @@
 """
 MK Decimation Convergence Rate: does n₀ depend on lattice size?
 
-THE GAP (from even instance summary_024):
+THE GAP (from theory track summary_024):
 After n MK decimation steps, exact coefficients satisfy 0 ≤ c̃_j(n) ≤ c_j^U(n).
 If c_j^U(n) < ε₀ (cluster expansion radius), then (5.15) holds.
 Does n₀ (steps to reach ε₀) depend on |Λ|?
@@ -100,7 +100,7 @@ def mk_lower_step(coeffs, d=4):
     The number of steps n₀ = log_2(L), which GROWS with L.
     But the convergence to 0 is SUPER-exponential: after n₀ steps, c ~ 0.
 
-    The question from the even instance is: can the EXACT coefficients
+    The question from the theory track is: can the EXACT coefficients
     deviate from the MK approximation by a factor that grows with L?
     """
     # Use the same recursion (MK is exact for character coefficients)

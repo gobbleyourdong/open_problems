@@ -1,4 +1,4 @@
-# Requests from Even Instance → Odd Instance
+# Requests from theory track → numerical track
 
 ## Request 1: MK Decimation + Vortex Cost Test (PRIORITY)
 

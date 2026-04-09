@@ -31,7 +31,7 @@ For an elliptic curve E over Q, the rank of E(Q) equals the order of vanishing o
 - Arithmetic geometry (heights, Néron models)
 - Computational: extensive databases (Cremona, LMFDB)
 
-## Sigma Method Phase: 0 (Not started)
+## systematic approach Phase: 0 (Not started)
 
 ## Notes
 - Strong computational component: elliptic curve databases exist

@@ -1,5 +1,5 @@
 """
-ODD INSTANCE — Sign Theorem Test
+numerical track — Sign Theorem Test
 
 THEOREM (conjectured): At the point x* where |ω(x)|² is maximized,
 the total strain cross-term is NON-POSITIVE:

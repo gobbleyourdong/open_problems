@@ -1,4 +1,4 @@
-# YM Odd Instance — Plaquette Correlations (Cycle 6)
+# YM numerical track — Plaquette Correlations (Cycle 6)
 
 ## Date: 2026-04-08
 ## Lattice: 4⁴, SU(2), heatbath + overrelaxation

@@ -16,7 +16,7 @@ For the Connes approach: RH ⟺ positivity of the Weil distribution
 This script:
 1. Compute both sides of the explicit formula and verify they match
 2. Test the Weil positivity for specific test functions
-3. Provide numerical test cases for the even instance's Lean work
+3. Provide numerical test cases for the theory track's Lean work
 """
 
 import numpy as np

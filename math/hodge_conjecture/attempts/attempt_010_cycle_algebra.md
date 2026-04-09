@@ -201,7 +201,7 @@ requires an argument that works for ALL varieties simultaneously — this is
 what the MT classification provides for abelian varieties (it's uniform
 in the variety, not case-by-case).**
 
-## For Odd Instance
+## For numerical track
 
 Implement the tree search for cubic fourfolds:
 1. Input: cubic fourfold X given by its equation f(x₀,...,x₅) = 0

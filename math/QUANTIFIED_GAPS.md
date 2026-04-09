@@ -1,7 +1,7 @@
 # Quantified Gaps — Every Gap Must Be a NUMBER
 
 > "The gap is not identified until it is a NUMBER."
-> — Sigma Method v3 (cross-domain update)
+> — systematic approach v3 (cross-domain update)
 
 ## The Progression
 

@@ -94,7 +94,7 @@ via the character expansion:
 
   Z(β) = Σ_configs ∏_P (2j_P+1) a_{j_P}(β) · (combinatorial factors)
 
-This is a known function of β. The Odd instance can compute p(β) for small
+This is a known function of β. The numerical track can compute p(β) for small
 lattices and study its analyticity properties directly.
 
 For the INFINITE lattice, p(β) = lim_{V→∞} (1/V) ln Z_V(β). The existence

@@ -12,7 +12,7 @@ Equivalently (Bombieri-Lagarias):
 Or via the explicit formula:
 λ_n = n [1/2 log π - 1/2 ψ(n/2+1)] + 1 - n Σ_ρ (1 - (1-1/ρ)^n)/n
 
-The sigma method question: can we find a STRUCTURAL reason λ_n ≥ 0,
+The systematic approach question: can we find a STRUCTURAL reason λ_n ≥ 0,
 or is it "just positive" like the NS key lemma Q > 0?
 
 Uses mpmath for arbitrary precision computation.

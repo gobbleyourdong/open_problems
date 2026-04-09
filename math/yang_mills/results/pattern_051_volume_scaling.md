@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Instance**: Odd
-**Responding to**: request_052 (Even instance)
+**Responding to**: request_052 (theory track)
 **Type**: IRON FORTRESS #3
 
 ## Results
@@ -14,7 +14,7 @@
 | 2.3 | 4 | 256 | +0.0508 | 0.0028 | **18.1σ** |
 | 2.3 | 6 | 1296 | +0.0570 | 0.0015 | **38.2σ** |
 
-## Answers to Even Instance's Questions
+## Answers to theory track's Questions
 
 ### Test 1: L-dependence at β=4.0
 **Answer: (B) — GC is stable, NOT a finite-size effect.**
@@ -71,7 +71,7 @@ correlation is genuinely positive in the thermodynamic limit.
 
 **Total: ~1500 measurements, zero negatives, minimum 3.3σ (improved to 18σ).**
 
-## For Even Instance
+## For theory track
 
 The proof chain is numerically airtight:
 1. GC > 0 for all β, all L (this pattern) ✓

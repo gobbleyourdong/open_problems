@@ -28,7 +28,7 @@ The slope underestimates because K=100 misses tail zeros.
 sign change would likely occur at small n. The positivity of λ_1
 is the most informative single check.
 
-## Combined RH Certificates (Odd Instance)
+## Combined RH Certificates (numerical track)
 | Criterion | Range | Violations | Status |
 |-----------|-------|------------|--------|
 | Li λ_n ≥ 0 | n = 1..60 | 0 | ✓ |
