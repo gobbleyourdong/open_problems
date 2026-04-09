@@ -22,5 +22,6 @@ import MedThermo.Theorems.InequalityReversal
 import MedThermo.CellBiology.ViralPersistence
 import MedThermo.Thermodynamics.FreeEnergy
 import MedThermo.CellBiology.ImmunePrivilege
+import MedThermo.Pharmacology.DKASafety
 -- import MedThermo.Thermodynamics.NonEquilibrium   -- planned: dissipative structures
 import MedThermo.Pharmacology.Lysosomotropic
