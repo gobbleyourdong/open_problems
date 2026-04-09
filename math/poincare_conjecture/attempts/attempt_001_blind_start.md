@@ -1,4 +1,4 @@
-# Attempt 001 — Blind Start: What Does the numerical track Know?
+# Attempt 001 — Blind Start: What Does the Odd Instance Know?
 
 **Date**: 2026-04-07
 **Phase**: 0 (From scratch, NOT reading the proof)
@@ -47,7 +47,7 @@ In dim 3: neither works. The manifold is "too tight" for these moves.
 5. **Geometrization**: Thurston's conjecture — every 3-manifold decomposes
    into pieces with one of 8 geometric structures.
 
-## The numerical track Approach: Compute
+## The Odd Instance Approach: Compute
 
 I can't prove topology theorems, but I can COMPUTE invariants of
 3-manifolds and look for patterns.
@@ -71,7 +71,7 @@ ALL are S³: that's an iron fortress (computational evidence).
 If we find ONE that isn't S³: Poincaré is FALSE (impossible since it's proved,
 but the exercise reveals the structure).
 
-## 001. Blind start. The numerical track will generate random 3-manifolds,
+## 001. Blind start. The odd instance will generate random 3-manifolds,
 ## compute π₁, and check if simply connected ⟹ S³.
-## This is the systematic approach applied to a solved problem — can we
+## This is the sigma method applied to a solved problem — can we
 ## REDISCOVER the proof computationally?

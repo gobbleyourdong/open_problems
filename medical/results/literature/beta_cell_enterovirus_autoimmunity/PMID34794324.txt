@@ -1,0 +1,30 @@
+1. Annu Rev Med. 2022 Jan 27;73:483-499. doi: 10.1146/annurev-med-042320-015952. 
+Epub 2021 Nov 18.
+
+Enteroviruses and Type 1 Diabetes: Multiple Mechanisms and Factors?
+
+Lloyd RE(1), Tamhankar M(1), Lernmark Å(2).
+
+Author information:
+(1)Department of Molecular Virology and Microbiology, Baylor College of 
+Medicine, Houston, Texas 77030, USA; email: rlloyd@bcm.edu, 
+manasiajit.tamhankar@bcm.edu.
+(2)Department of Clinical Sciences, Lund University/CRC, Skane University 
+Hospital, Malmö 214 28, Sweden; email: ake.lernmark@med.lu.se.
+
+Type 1 diabetes (T1D) is a chronic autoimmune disease characterized by insulin 
+deficiency and resultant hyperglycemia. Complex interactions of genetic and 
+environmental factors trigger the onset of autoimmune mechanisms responsible for 
+development of autoimmunity to β cell antigens and subsequent development of 
+T1D. A potential role of virus infections has long been hypothesized, and 
+growing evidence continues to implicate enteroviruses as the most probable 
+triggering viruses. Recent studies have strengthened the association between 
+enteroviruses and development of autoimmunity in T1D patients, potentially 
+through persistent infections. Enterovirus infections may contribute to 
+different stages of disease development. We review data from both human cohort 
+studies and experimental research exploring the potential roles and molecular 
+mechanisms by which enterovirus infections can impact disease outcome.
+
+DOI: 10.1146/annurev-med-042320-015952
+PMCID: PMC9242008
+PMID: 34794324 [Indexed for MEDLINE]

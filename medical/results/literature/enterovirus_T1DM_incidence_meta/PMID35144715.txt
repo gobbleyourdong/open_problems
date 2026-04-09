@@ -1,0 +1,37 @@
+1. Epidemiol Infect. 2021 Dec 10;150:e23. doi: 10.1017/S0950268821002442.
+
+Association between enterovirus infection and clinical type 1 diabetes mellitus: 
+systematic review and meta-analysis of observational studies.
+
+Yang S(1), Zhao B(1), Zhang Z(1), Dai X(2), Zhang Y(1), Cui L(1).
+
+Author information:
+(1)Department of Pediatrics, First affiliated Hospital of Harbin Medical 
+University, YouZheng Street 23, Harbin150001, China.
+(2)Department of Pediatrics, Children's Hospital of SooChow University, JingDe 
+Road 303, SooChow215002, China.
+
+Numerous animal models and epidemiological and observational studies have 
+demonstrated that enterovirus (EV) infection could be involved in the 
+development of clinical type 1 diabetes mellitus (T1DM), but its aetiology is 
+not fully understood. Therefore, we reviewed the association between EV 
+infection and clinical T1DM. We searched PubMed and Embase from inception to 
+April 2021 and reference lists of included studies without any language 
+restrictions in only human studies. The correlation between EV infection and 
+clinical T1DM was calculated as the pooled odds ratio (OR) and 95% confidence 
+intervals (CIs), analysed using random-effects models. Subgroup and sensitivity 
+analyses were performed to evaluate the robustness of the associations. A total 
+of 25 articles (22 case-control studies and three nested case-control studies) 
+met the inclusion criterion including 4854 participants (2948 cases and 1906 
+controls) with a high level of statistical heterogeneity (I2 = 80%, P < 0.001) 
+mainly attributable to methods of EV detection, study type, age distribution, 
+source of EV sample and control subjects. Meta-analysis showed a significant 
+association between EV infection and clinical T1DM (OR 5.75, 95% CI 3.61-9.61). 
+There is a clinically significant association between clinical T1DM and EV 
+infection.
+
+DOI: 10.1017/S0950268821002442
+PMCID: PMC8851353
+PMID: 35144715 [Indexed for MEDLINE]
+
+Conflict of interest statement: All of the authors have no conflict of interest.

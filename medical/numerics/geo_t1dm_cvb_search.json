@@ -1,0 +1,444 @@
+{
+  "coxsackievirus B diabetes": {
+    "query": "\"coxsackievirus B\" AND \"diabetes\"",
+    "total_count": "2",
+    "datasets": [
+      {
+        "uid": "200274264",
+        "accession": "GSE274264",
+        "title": "Coxsackievirus B infection invokes unique cell-type-specific responses in primary human pancreatic islets",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "n_samples": 10,
+        "organism": "Homo sapiens",
+        "summary": "Coxsackievirus B (CVB) infection has long been considered an environmental factor precipitating Type 1 diabetes (T1D), an autoimmune disease marked by loss of insulin-producing b cells within pancreatic islets. Previous studies have shown CVB infection negatively impacts islet function and viability but do not report on how virus infection individually affects the multiple cell types present in human primary islets. Therefore, we hypothesized that the various islet cell populations have unique t"
+      },
+      {
+        "uid": "200278756",
+        "accession": "GSE278756",
+        "title": "Viral triggers of Type 1 diabetes: Effects of Coxsackie B virus infection on transcriptome of trophoblast and pancreatic beta cell lines.",
+        "gdstype": "Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing",
+        "n_samples": 15,
+        "organism": "Homo sapiens",
+        "summary": "The epidemiological association of coxsackievirus B infection with type 1 diabetes suggests that therapeutic strategies that reduce viral load could delay or prevent disease onset.  Moreover, recent studies suggest that treatment with antiviral agents against coxsackievirus B may help preserve insulin levels in type 1 diabetic patients. In the current study, we performed small RNA-sequencing to show that infection of immortalized trophoblast cells with coxsackievirus caused differential regulati"
+      }
+    ]
+  },
+  "coxsackievirus islet": {
+    "query": "\"coxsackievirus\" AND \"islet\"",
+    "total_count": "7",
+    "datasets": [
+      {
+        "uid": "200274264",
+        "accession": "GSE274264",
+        "title": "Coxsackievirus B infection invokes unique cell-type-specific responses in primary human pancreatic islets",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "n_samples": 10,
+        "organism": "Homo sapiens",
+        "summary": "Coxsackievirus B (CVB) infection has long been considered an environmental factor precipitating Type 1 diabetes (T1D), an autoimmune disease marked by loss of insulin-producing b cells within pancreatic islets. Previous studies have shown CVB infection negatively impacts islet function and viability but do not report on how virus infection individually affects the multiple cell types present in human primary islets. Therefore, we hypothesized that the various islet cell populations have unique t"
+      },
+      {
+        "uid": "200247808",
+        "accession": "GSE247808",
+        "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upon Viral Infection [snATACseq.VMI]",
+        "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+        "n_samples": 3,
+        "organism": "Homo sapiens",
+        "summary": "Immune cells play critical roles in causing host damage in various diseases, including infectious diseases. However, there is a paucity of human models to study immune-mediated host damage. Here, we systematically analyzed the changes in immune cell composition for COVID-19 pancreatic autopsy samples using the GeoMx spatial RNA and protein platform and found accumulation of proinflammatory macrophages. Single cell RNA-seq analysis of human islets upon SARS-CoV-2 or Coxsackievirus B4 (CVB4) infec"
+      },
+      {
+        "uid": "200247807",
+        "accession": "GSE247807",
+        "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upon Viral Infection [scRNAseq.VMI]",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "n_samples": 3,
+        "organism": "Homo sapiens",
+        "summary": "Immune cells play critical roles in causing host damage in various diseases, including infectious diseases. However, there is a paucity of human models to study immune-mediated host damage. Here, we systematically analyzed the changes in immune cell composition for COVID-19 pancreatic autopsy samples using the GeoMx spatial RNA and protein platform and found accumulation of proinflammatory macrophages. Single cell RNA-seq analysis of human islets upon SARS-CoV-2 or Coxsackievirus B4 (CVB4) infec"
+      },
+      {
+        "uid": "200247806",
+        "accession": "GSE247806",
+        "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upon Viral Infection [scRNAseq.islets]",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "n_samples": 10,
+        "organism": "Homo sapiens",
+        "summary": "Immune cells play critical roles in causing host damage in various diseases, including infectious diseases. However, there is a paucity of human models to study immune-mediated host damage. Here, we systematically analyzed the changes in immune cell composition for COVID-19 pancreatic autopsy samples using the GeoMx spatial RNA and protein platform and found accumulation of proinflammatory macrophages. Single cell RNA-seq analysis of human islets upon SARS-CoV-2 or Coxsackievirus B4 (CVB4) infec"
+      },
+      {
+        "uid": "200247805",
+        "accession": "GSE247805",
+        "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upon Viral Infection [bulkRNAseq]",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "n_samples": 6,
+        "organism": "Homo sapiens",
+        "summary": "Immune cells play critical roles in causing host damage in various diseases, including infectious diseases. However, there is a paucity of human models to study immune-mediated host damage. Here, we systematically analyzed the changes in immune cell composition for COVID-19 pancreatic autopsy samples using the GeoMx spatial RNA and protein platform and found accumulation of proinflammatory macrophages. Single cell RNA-seq analysis of human islets upon SARS-CoV-2 or Coxsackievirus B4 (CVB4) infec"
+      },
+      {
+        "uid": "100000081",
+        "accession": "GPL81",
+        "title": "[MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array",
+        "gdstype": "",
+        "n_samples": 6909,
+        "organism": "Mus musculus",
+        "summary": "Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html  June 03, 2009: annotation table updated with netaffx build 28 June 07, 2012: annotation table updated with netaffx build 32 June 24, 2016: annotation table updated with netaffx build 35 Protocol: see manufacturer's web site  The MG-U74 set includes 3 arrays with a total of 36899 entries and was indexed 29-Jan-2002. The set represents ~36,000 "
+      },
+      {
+        "uid": "100006246",
+        "accession": "GPL6246",
+        "title": "[MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]",
+        "gdstype": "",
+        "n_samples": 30634,
+        "organism": "Mus musculus",
+        "summary": "Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html  June 03, 2009: annotation table updated with netaffx build 28 June 07, 2012: annotation table updated with netaffx build 32 July 01, 2016: annotation table updated with netaffx build 35 Protocol: See manufacturer's web site "
+      }
+    ]
+  },
+  "CVB islet": {
+    "query": "\"CVB\" AND \"islet\"",
+    "total_count": "1",
+    "datasets": [
+      {
+        "uid": "200274264",
+        "accession": "GSE274264",
+        "title": "Coxsackievirus B infection invokes unique cell-type-specific responses in primary human pancreatic islets",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "n_samples": 10,
+        "organism": "Homo sapiens",
+        "summary": "Coxsackievirus B (CVB) infection has long been considered an environmental factor precipitating Type 1 diabetes (T1D), an autoimmune disease marked by loss of insulin-producing b cells within pancreatic islets. Previous studies have shown CVB infection negatively impacts islet function and viability but do not report on how virus infection individually affects the multiple cell types present in human primary islets. Therefore, we hypothesized that the various islet cell populations have unique t"
+      }
+    ]
+  },
+  "enterovirus T1DM": {
+    "query": "\"enterovirus\" AND \"type 1 diabetes\"",
+    "total_count": "8",
+    "datasets": [
+      {
+        "uid": "200274264",
+        "accession": "GSE274264",
+        "title": "Coxsackievirus B infection invokes unique cell-type-specific responses in primary human pancreatic islets",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "n_samples": 10,
+        "organism": "Homo sapiens",
+        "summary": "Coxsackievirus B (CVB) infection has long been considered an environmental factor precipitating Type 1 diabetes (T1D), an autoimmune disease marked by loss of insulin-producing b cells within pancreatic islets. Previous studies have shown CVB infection negatively impacts islet function and viability but do not report on how virus infection individually affects the multiple cell types present in human primary islets. Therefore, we hypothesized that the various islet cell populations have unique t"
+      },
+      {
+        "uid": "200278756",
+        "accession": "GSE278756",
+        "title": "Viral triggers of Type 1 diabetes: Effects of Coxsackie B virus infection on transcriptome of trophoblast and pancreatic beta cell lines.",
+        "gdstype": "Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing",
+        "n_samples": 15,
+        "organism": "Homo sapiens",
+        "summary": "The epidemiological association of coxsackievirus B infection with type 1 diabetes suggests that therapeutic strategies that reduce viral load could delay or prevent disease onset.  Moreover, recent studies suggest that treatment with antiviral agents against coxsackievirus B may help preserve insulin levels in type 1 diabetic patients. In the current study, we performed small RNA-sequencing to show that infection of immortalized trophoblast cells with coxsackievirus caused differential regulati"
+      },
+      {
+        "uid": "200214851",
+        "accession": "GSE214851",
+        "title": "ADAR1-dependent editing participates to the human beta-cells transcriptome diversity during inflammation",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "n_samples": 6,
+        "organism": "Homo sapiens",
+        "summary": "Enterovirus infection has long been suspected as a possible trigger for type 1 diabetes. Upon infection, viral double-stranded RNA (dsRNA) is recognized by membrane and cytosolic sensors that orchestrate the type I interferon signaling and the recruitment of innate immune cells to the pancreatic islets. In this context, adenosine deaminase acting on RNA 1 (ADAR1) editing plays an important role in dampening the immune response by inducing adenosine mispairing, destabilizing the RNA duplexes and "
+      },
+      {
+        "uid": "200184831",
+        "accession": "GSE184831",
+        "title": "Persistent Coxsackievirus B1 infection results in extensive changes in the transcriptome of a pancreatic cell line",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "n_samples": 9,
+        "organism": "Homo sapiens",
+        "summary": "Enteroviruses, particularly the group B Coxsackieviruses have been associated with the development of type 1 diabetes. Several CVB serotypes can establish chronic infection in human cells in vivo and in vitro. However, the mechanisms of leading to enterovirus persistency and, possibly, bell-cell autoimmunity are not fully understood. We established a carrier-state persistent infection model in human pancreatic ductal-like cell line PANC-1 using two distinct CVB1 strains and profiled infection-in"
+      },
+      {
+        "uid": "200123550",
+        "accession": "GSE123550",
+        "title": "Transcriptome analysis of brainstem in gerbils with EV71-infection-induced HFMD",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "n_samples": 6,
+        "organism": "Meriones unguiculatus",
+        "summary": "Enterovirus 71 (EV71) is one of the major pathogens associated with human hand, foot, and mouth disease (HFMD) and in some countries this pathogen is the leading cause of this disease. We previously found that CA16 could induce neurological disorders in young gerbils, which could serve as a good animal model for studying the neuropathogenesis of CA16 infection. In this study, we found that 1039 genes were up-regulated and 299 genes were down-regulated in CA16-infected gerbils compared with contr"
+      },
+      {
+        "uid": "200121971",
+        "accession": "GSE121971",
+        "title": "Transcriptome analysis of brainstem in gerbils with CA16-infection-induced HFMD",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "n_samples": 6,
+        "organism": "Meriones unguiculatus",
+        "summary": "Coxsackievirus A16 (CA16) is one of the major pathogens associated with human hand, foot, and mouth disease (HFMD) and in some countries this pathogen is the leading cause of this disease. We previously found that CA16 could induce neurological disorders in young gerbils, which could serve as a good animal model for studying the neuropathogenesis of CA16 infection. In this study, we found that 1039 genes were up-regulated and 299 genes were down-regulated in CA16-infected gerbils compared with c"
+      },
+      {
+        "uid": "100000081",
+        "accession": "GPL81",
+        "title": "[MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array",
+        "gdstype": "",
+        "n_samples": 6909,
+        "organism": "Mus musculus",
+        "summary": "Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html  June 03, 2009: annotation table updated with netaffx build 28 June 07, 2012: annotation table updated with netaffx build 32 June 24, 2016: annotation table updated with netaffx build 35 Protocol: see manufacturer's web site  The MG-U74 set includes 3 arrays with a total of 36899 entries and was indexed 29-Jan-2002. The set represents ~36,000 "
+      },
+      {
+        "uid": "100006246",
+        "accession": "GPL6246",
+        "title": "[MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]",
+        "gdstype": "",
+        "n_samples": 30634,
+        "organism": "Mus musculus",
+        "summary": "Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html  June 03, 2009: annotation table updated with netaffx build 28 June 07, 2012: annotation table updated with netaffx build 32 July 01, 2016: annotation table updated with netaffx build 35 Protocol: See manufacturer's web site "
+      }
+    ]
+  },
+  "CVB beta cell": {
+    "query": "\"coxsackievirus\" AND \"beta cell\"",
+    "total_count": "21",
+    "datasets": [
+      {
+        "uid": "200278756",
+        "accession": "GSE278756",
+        "title": "Viral triggers of Type 1 diabetes: Effects of Coxsackie B virus infection on transcriptome of trophoblast and pancreatic beta cell lines.",
+        "gdstype": "Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing",
+        "n_samples": 15,
+        "organism": "Homo sapiens",
+        "summary": "The epidemiological association of coxsackievirus B infection with type 1 diabetes suggests that therapeutic strategies that reduce viral load could delay or prevent disease onset.  Moreover, recent studies suggest that treatment with antiviral agents against coxsackievirus B may help preserve insulin levels in type 1 diabetic patients. In the current study, we performed small RNA-sequencing to show that infection of immortalized trophoblast cells with coxsackievirus caused differential regulati"
+      },
+      {
+        "uid": "200247808",
+        "accession": "GSE247808",
+        "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upon Viral Infection [snATACseq.VMI]",
+        "gdstype": "Genome binding/occupancy profiling by high throughput sequencing",
+        "n_samples": 3,
+        "organism": "Homo sapiens",
+        "summary": "Immune cells play critical roles in causing host damage in various diseases, including infectious diseases. However, there is a paucity of human models to study immune-mediated host damage. Here, we systematically analyzed the changes in immune cell composition for COVID-19 pancreatic autopsy samples using the GeoMx spatial RNA and protein platform and found accumulation of proinflammatory macrophages. Single cell RNA-seq analysis of human islets upon SARS-CoV-2 or Coxsackievirus B4 (CVB4) infec"
+      },
+      {
+        "uid": "200247807",
+        "accession": "GSE247807",
+        "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upon Viral Infection [scRNAseq.VMI]",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "n_samples": 3,
+        "organism": "Homo sapiens",
+        "summary": "Immune cells play critical roles in causing host damage in various diseases, including infectious diseases. However, there is a paucity of human models to study immune-mediated host damage. Here, we systematically analyzed the changes in immune cell composition for COVID-19 pancreatic autopsy samples using the GeoMx spatial RNA and protein platform and found accumulation of proinflammatory macrophages. Single cell RNA-seq analysis of human islets upon SARS-CoV-2 or Coxsackievirus B4 (CVB4) infec"
+      },
+      {
+        "uid": "200247806",
+        "accession": "GSE247806",
+        "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upon Viral Infection [scRNAseq.islets]",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "n_samples": 10,
+        "organism": "Homo sapiens",
+        "summary": "Immune cells play critical roles in causing host damage in various diseases, including infectious diseases. However, there is a paucity of human models to study immune-mediated host damage. Here, we systematically analyzed the changes in immune cell composition for COVID-19 pancreatic autopsy samples using the GeoMx spatial RNA and protein platform and found accumulation of proinflammatory macrophages. Single cell RNA-seq analysis of human islets upon SARS-CoV-2 or Coxsackievirus B4 (CVB4) infec"
+      },
+      {
+        "uid": "200247805",
+        "accession": "GSE247805",
+        "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upon Viral Infection [bulkRNAseq]",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "n_samples": 6,
+        "organism": "Homo sapiens",
+        "summary": "Immune cells play critical roles in causing host damage in various diseases, including infectious diseases. However, there is a paucity of human models to study immune-mediated host damage. Here, we systematically analyzed the changes in immune cell composition for COVID-19 pancreatic autopsy samples using the GeoMx spatial RNA and protein platform and found accumulation of proinflammatory macrophages. Single cell RNA-seq analysis of human islets upon SARS-CoV-2 or Coxsackievirus B4 (CVB4) infec"
+      },
+      {
+        "uid": "100000081",
+        "accession": "GPL81",
+        "title": "[MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array",
+        "gdstype": "",
+        "n_samples": 6909,
+        "organism": "Mus musculus",
+        "summary": "Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html  June 03, 2009: annotation table updated with netaffx build 28 June 07, 2012: annotation table updated with netaffx build 32 June 24, 2016: annotation table updated with netaffx build 35 Protocol: see manufacturer's web site  The MG-U74 set includes 3 arrays with a total of 36899 entries and was indexed 29-Jan-2002. The set represents ~36,000 "
+      },
+      {
+        "uid": "308554362",
+        "accession": "GSM8554362",
+        "title": "Sw.71, CVB4-JVB infected, biol rep3",
+        "gdstype": "",
+        "n_samples": "",
+        "organism": "Homo sapiens",
+        "summary": "Sw.71"
+      },
+      {
+        "uid": "308554361",
+        "accession": "GSM8554361",
+        "title": "Sw.71, CVB4-JVB infected, biol rep2",
+        "gdstype": "",
+        "n_samples": "",
+        "organism": "Homo sapiens",
+        "summary": "Sw.71"
+      },
+      {
+        "uid": "308554360",
+        "accession": "GSM8554360",
+        "title": "Sw.71, CVB4-JVB infected, biol rep1",
+        "gdstype": "",
+        "n_samples": "",
+        "organism": "Homo sapiens",
+        "summary": "Sw.71"
+      },
+      {
+        "uid": "308554359",
+        "accession": "GSM8554359",
+        "title": "Sw.71, Control, biol rep3, unifected",
+        "gdstype": "",
+        "n_samples": "",
+        "organism": "Homo sapiens",
+        "summary": "Sw.71"
+      },
+      {
+        "uid": "308554358",
+        "accession": "GSM8554358",
+        "title": "Sw.71, Control, biol rep2, unifected",
+        "gdstype": "",
+        "n_samples": "",
+        "organism": "Homo sapiens",
+        "summary": "Sw.71"
+      },
+      {
+        "uid": "308554357",
+        "accession": "GSM8554357",
+        "title": "Sw.71, Control, biol rep1, unifected",
+        "gdstype": "",
+        "n_samples": "",
+        "organism": "Homo sapiens",
+        "summary": "Sw.71"
+      },
+      {
+        "uid": "308554356",
+        "accession": "GSM8554356",
+        "title": "EndoC-\u03b2H1, CVB4-JVB infected, biol rep3",
+        "gdstype": "",
+        "n_samples": "",
+        "organism": "Homo sapiens",
+        "summary": "EndoC-BetaH1"
+      },
+      {
+        "uid": "308554355",
+        "accession": "GSM8554355",
+        "title": "EndoC-\u03b2H1, CVB4-JVB infected, biol rep2",
+        "gdstype": "",
+        "n_samples": "",
+        "organism": "Homo sapiens",
+        "summary": "EndoC-BetaH1"
+      },
+      {
+        "uid": "308554354",
+        "accession": "GSM8554354",
+        "title": "EndoC-\u03b2H1, CVB4-JVB infected, biol rep1",
+        "gdstype": "",
+        "n_samples": "",
+        "organism": "Homo sapiens",
+        "summary": "EndoC-BetaH1"
+      },
+      {
+        "uid": "308554353",
+        "accession": "GSM8554353",
+        "title": "EndoC-\u03b2H1, CVB4-E2 infected, biol rep3",
+        "gdstype": "",
+        "n_samples": "",
+        "organism": "Homo sapiens",
+        "summary": "EndoC-BetaH1"
+      },
+      {
+        "uid": "308554352",
+        "accession": "GSM8554352",
+        "title": "EndoC-\u03b2H1, CVB4-E2 infected, biol rep2",
+        "gdstype": "",
+        "n_samples": "",
+        "organism": "Homo sapiens",
+        "summary": "EndoC-BetaH1"
+      },
+      {
+        "uid": "308554351",
+        "accession": "GSM8554351",
+        "title": "EndoC-\u03b2H1, CVB4-E2 infected, biol rep1",
+        "gdstype": "",
+        "n_samples": "",
+        "organism": "Homo sapiens",
+        "summary": "EndoC-BetaH1"
+      },
+      {
+        "uid": "308554350",
+        "accession": "GSM8554350",
+        "title": "EndoC-\u03b2H1, Control, biol rep3, unifected",
+        "gdstype": "",
+        "n_samples": "",
+        "organism": "Homo sapiens",
+        "summary": "EndoC-BetaH1"
+      },
+      {
+        "uid": "308554349",
+        "accession": "GSM8554349",
+        "title": "EndoC-\u03b2H1, Control, biol rep2, unifected",
+        "gdstype": "",
+        "n_samples": "",
+        "organism": "Homo sapiens",
+        "summary": "EndoC-BetaH1"
+      }
+    ]
+  },
+  "enterovirus pancreas": {
+    "query": "\"enterovirus\" AND \"pancreas\" AND \"diabetes\"",
+    "total_count": "6",
+    "datasets": [
+      {
+        "uid": "200274264",
+        "accession": "GSE274264",
+        "title": "Coxsackievirus B infection invokes unique cell-type-specific responses in primary human pancreatic islets",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "n_samples": 10,
+        "organism": "Homo sapiens",
+        "summary": "Coxsackievirus B (CVB) infection has long been considered an environmental factor precipitating Type 1 diabetes (T1D), an autoimmune disease marked by loss of insulin-producing b cells within pancreatic islets. Previous studies have shown CVB infection negatively impacts islet function and viability but do not report on how virus infection individually affects the multiple cell types present in human primary islets. Therefore, we hypothesized that the various islet cell populations have unique t"
+      },
+      {
+        "uid": "200278756",
+        "accession": "GSE278756",
+        "title": "Viral triggers of Type 1 diabetes: Effects of Coxsackie B virus infection on transcriptome of trophoblast and pancreatic beta cell lines.",
+        "gdstype": "Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing",
+        "n_samples": 15,
+        "organism": "Homo sapiens",
+        "summary": "The epidemiological association of coxsackievirus B infection with type 1 diabetes suggests that therapeutic strategies that reduce viral load could delay or prevent disease onset.  Moreover, recent studies suggest that treatment with antiviral agents against coxsackievirus B may help preserve insulin levels in type 1 diabetic patients. In the current study, we performed small RNA-sequencing to show that infection of immortalized trophoblast cells with coxsackievirus caused differential regulati"
+      },
+      {
+        "uid": "200214851",
+        "accession": "GSE214851",
+        "title": "ADAR1-dependent editing participates to the human beta-cells transcriptome diversity during inflammation",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "n_samples": 6,
+        "organism": "Homo sapiens",
+        "summary": "Enterovirus infection has long been suspected as a possible trigger for type 1 diabetes. Upon infection, viral double-stranded RNA (dsRNA) is recognized by membrane and cytosolic sensors that orchestrate the type I interferon signaling and the recruitment of innate immune cells to the pancreatic islets. In this context, adenosine deaminase acting on RNA 1 (ADAR1) editing plays an important role in dampening the immune response by inducing adenosine mispairing, destabilizing the RNA duplexes and "
+      },
+      {
+        "uid": "200184831",
+        "accession": "GSE184831",
+        "title": "Persistent Coxsackievirus B1 infection results in extensive changes in the transcriptome of a pancreatic cell line",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "n_samples": 9,
+        "organism": "Homo sapiens",
+        "summary": "Enteroviruses, particularly the group B Coxsackieviruses have been associated with the development of type 1 diabetes. Several CVB serotypes can establish chronic infection in human cells in vivo and in vitro. However, the mechanisms of leading to enterovirus persistency and, possibly, bell-cell autoimmunity are not fully understood. We established a carrier-state persistent infection model in human pancreatic ductal-like cell line PANC-1 using two distinct CVB1 strains and profiled infection-in"
+      },
+      {
+        "uid": "100000081",
+        "accession": "GPL81",
+        "title": "[MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array",
+        "gdstype": "",
+        "n_samples": 6909,
+        "organism": "Mus musculus",
+        "summary": "Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html  June 03, 2009: annotation table updated with netaffx build 28 June 07, 2012: annotation table updated with netaffx build 32 June 24, 2016: annotation table updated with netaffx build 35 Protocol: see manufacturer's web site  The MG-U74 set includes 3 arrays with a total of 36899 entries and was indexed 29-Jan-2002. The set represents ~36,000 "
+      },
+      {
+        "uid": "100006246",
+        "accession": "GPL6246",
+        "title": "[MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]",
+        "gdstype": "",
+        "n_samples": 30634,
+        "organism": "Mus musculus",
+        "summary": "Affymetrix submissions are typically submitted to GEO using the GEOarchive method described at http://www.ncbi.nlm.nih.gov/projects/geo/info/geo_affy.html  June 03, 2009: annotation table updated with netaffx build 28 June 07, 2012: annotation table updated with netaffx build 32 July 01, 2016: annotation table updated with netaffx build 35 Protocol: See manufacturer's web site "
+      }
+    ]
+  },
+  "CVB T1DM": {
+    "query": "\"CVB\" AND \"T1DM\"",
+    "total_count": "0",
+    "datasets": []
+  },
+  "coxsackievirus pancreatitis": {
+    "query": "\"coxsackievirus\" AND \"pancreatitis\"",
+    "total_count": "0",
+    "datasets": []
+  }
+}

@@ -1,0 +1,828 @@
+{
+  "16239549": {
+    "label": "Dotta_2007_CVB4_T1DM_islets",
+    "file": "/home/jb/medical_problems/results/literature/PMID16239549_Dotta_2007_CVB4_T1DM_islets.txt",
+    "chars": 2108
+  },
+  "25555834": {
+    "label": "Krogvold_2015_DiViD_CVB",
+    "file": "/home/jb/medical_problems/results/literature/PMID25555834_Krogvold_2015_DiViD_CVB.txt",
+    "chars": 802
+  },
+  "22555372": {
+    "label": "Hyoty_2012_CVB_T1DM_review",
+    "file": "/home/jb/medical_problems/results/literature/PMID22555372_Hyoty_2012_CVB_T1DM_review.txt",
+    "chars": 2435
+  },
+  "27612811": {
+    "label": "Krogvold_2016_DiViD_viral_signs",
+    "file": "/home/jb/medical_problems/results/literature/PMID27612811_Krogvold_2016_DiViD_viral_signs.txt",
+    "chars": 2204
+  },
+  "34292117": {
+    "label": "Krogvold_2021_DiViD_followup",
+    "file": "/home/jb/medical_problems/results/literature/PMID34292117_Krogvold_2021_DiViD_followup.txt",
+    "chars": 2169
+  },
+  "22664798": {
+    "label": "Richardson_2012_islet_enterovirus_meta",
+    "file": "/home/jb/medical_problems/results/literature/PMID22664798_Richardson_2012_islet_enterovirus_meta.txt",
+    "chars": 2142
+  },
+  "21289229": {
+    "label": "Yeung_2011_enterovirus_T1DM_meta",
+    "file": "/home/jb/medical_problems/results/literature/PMID21289229_Yeung_2011_enterovirus_T1DM_meta.txt",
+    "chars": 2052
+  },
+  "17664359": {
+    "label": "Hyoty_2007_enterovirus_T1DM",
+    "file": "/home/jb/medical_problems/results/literature/PMID17664359_Hyoty_2007_enterovirus_T1DM.txt",
+    "chars": 671
+  },
+  "11375346": {
+    "label": "Hyoty_2001_CVB_T1DM_prospective",
+    "file": "/home/jb/medical_problems/results/literature/PMID11375346_Hyoty_2001_CVB_T1DM_prospective.txt",
+    "chars": 2344
+  },
+  "7789630": {
+    "label": "Rewers_1995_T1DM_epidemiology",
+    "file": "/home/jb/medical_problems/results/literature/PMID7789630_Rewers_1995_T1DM_epidemiology.txt",
+    "chars": 2168
+  },
+  "24927804": {
+    "label": "IDF_atlas_2014_incidence",
+    "file": "/home/jb/medical_problems/results/literature/PMID24927804_IDF_atlas_2014_incidence.txt",
+    "chars": 3
+  },
+  "26651393": {
+    "label": "Patterson_2009_T1DM_incidence_eurodiab",
+    "file": "/home/jb/medical_problems/results/literature/PMID26651393_Patterson_2009_T1DM_incidence_eurodiab.txt",
+    "chars": 2867
+  },
+  "25561467": {
+    "label": "Viskari_2005_CVB_serology_Finland",
+    "file": "/home/jb/medical_problems/results/literature/PMID25561467_Viskari_2005_CVB_serology_Finland.txt",
+    "chars": 3
+  },
+  "19131651": {
+    "label": "Oikarinen_2008_CVB_pancreas_detection",
+    "file": "/home/jb/medical_problems/results/literature/PMID19131651_Oikarinen_2008_CVB_pancreas_detection.txt",
+    "chars": 2312
+  },
+  "30242553": {
+    "label": "Krogvold_2018_beta_cell_function_DiViD",
+    "file": "/home/jb/medical_problems/results/literature/PMID30242553_Krogvold_2018_beta_cell_function_DiViD.txt",
+    "chars": 2168
+  },
+  "22722234": {
+    "label": "TEDDY_study_2012",
+    "file": "/home/jb/medical_problems/results/literature/PMID22722234_TEDDY_study_2012.txt",
+    "chars": 2553
+  },
+  "24719430": {
+    "label": "Morgan_2014_TEDDY_CVB_T1DM",
+    "file": "/home/jb/medical_problems/results/literature/PMID24719430_Morgan_2014_TEDDY_CVB_T1DM.txt",
+    "chars": 3674
+  },
+  "32929754": {
+    "label": "Richardson_2020_enterovirus_T1DM_update",
+    "file": "/home/jb/medical_problems/results/literature/PMID32929754_Richardson_2020_enterovirus_T1DM_update.txt",
+    "chars": 2033
+  },
+  "19453566": {
+    "label": "Dahlquist_2009_CVB_T1DM_temporal",
+    "file": "/home/jb/medical_problems/results/literature/PMID19453566_Dahlquist_2009_CVB_T1DM_temporal.txt",
+    "chars": 2146
+  },
+  "15618099": {
+    "label": "Graves_2005_DAISY_enterovirus",
+    "file": "/home/jb/medical_problems/results/literature/PMID15618099_Graves_2005_DAISY_enterovirus.txt",
+    "chars": 3
+  },
+  "41771441": {
+    "label": "1. J Nutr. 2026 Feb 28;156(5):101456. doi: 10.1016/j.tjnut.2026.101456. Online ",
+    "query": "incidence coxsackievirus diabetes",
+    "file": "/home/jb/medical_problems/results/literature/incidence_coxsackievirus_diabetes/PMID41771441.txt",
+    "chars": 6372
+  },
+  "34986263": {
+    "label": "1. Diabetes Care. 2022 Jan 1;45(1):e10. doi: 10.2337/dc21-1398.",
+    "query": "incidence coxsackievirus diabetes",
+    "file": "/home/jb/medical_problems/results/literature/incidence_coxsackievirus_diabetes/PMID34986263.txt",
+    "chars": 899
+  },
+  "34986253": {
+    "label": "1. Diabetes Care. 2022 Jan 1;45(1):e11. doi: 10.2337/dci21-0046.",
+    "query": "incidence coxsackievirus diabetes",
+    "file": "/home/jb/medical_problems/results/literature/incidence_coxsackievirus_diabetes/PMID34986253.txt",
+    "chars": 990
+  },
+  "34083323": {
+    "label": "1. Diabetes Care. 2021 Jul;44(7):1579-1585. doi: 10.2337/dc20-1092. Epub 2021 Ju",
+    "query": "incidence coxsackievirus diabetes",
+    "file": "/home/jb/medical_problems/results/literature/incidence_coxsackievirus_diabetes/PMID34083323.txt",
+    "chars": 3076
+  },
+  "33042112": {
+    "label": "1. Front Immunol. 2020 Sep 15;11:1922. doi: 10.3389/fimmu.2020.01922. eCollectio",
+    "query": "incidence coxsackievirus diabetes",
+    "file": "/home/jb/medical_problems/results/literature/incidence_coxsackievirus_diabetes/PMID33042112.txt",
+    "chars": 3417
+  },
+  "32650582": {
+    "label": "1. Microorganisms. 2020 Jul 8;8(7):1017. doi: 10.3390/microorganisms8071017.",
+    "query": "incidence coxsackievirus diabetes",
+    "file": "/home/jb/medical_problems/results/literature/incidence_coxsackievirus_diabetes/PMID32650582.txt",
+    "chars": 1741
+  },
+  "32240468": {
+    "label": "1. Mol Biol Rep. 2020 Apr;47(4):2835-2843. doi: 10.1007/s11033-020-05333-6. Epub",
+    "query": "incidence coxsackievirus diabetes",
+    "file": "/home/jb/medical_problems/results/literature/incidence_coxsackievirus_diabetes/PMID32240468.txt",
+    "chars": 2545
+  },
+  "31584373": {
+    "label": "1. Curr Diabetes Rev. 2020;16(5):438-441. doi: 10.2174/1573399815666191004112647",
+    "query": "incidence coxsackievirus diabetes",
+    "file": "/home/jb/medical_problems/results/literature/incidence_coxsackievirus_diabetes/PMID31584373.txt",
+    "chars": 1410
+  },
+  "29018409": {
+    "label": "1. Front Endocrinol (Lausanne). 2017 Sep 26;8:249. doi: 10.3389/fendo.2017.00249",
+    "query": "incidence coxsackievirus diabetes",
+    "file": "/home/jb/medical_problems/results/literature/incidence_coxsackievirus_diabetes/PMID29018409.txt",
+    "chars": 1711
+  },
+  "28663145": {
+    "label": "1. EBioMedicine. 2017 Aug;22:10-17. doi: 10.1016/j.ebiom.2017.06.014. Epub 2017",
+    "query": "incidence coxsackievirus diabetes",
+    "file": "/home/jb/medical_problems/results/literature/incidence_coxsackievirus_diabetes/PMID28663145.txt",
+    "chars": 1960
+  },
+  "26450993": {
+    "label": "1. Diabetes. 2016 Jan;65(1):285-96. doi: 10.2337/db15-0179. Epub 2015 Oct 8.",
+    "query": "incidence coxsackievirus diabetes",
+    "file": "/home/jb/medical_problems/results/literature/incidence_coxsackievirus_diabetes/PMID26450993.txt",
+    "chars": 2538
+  },
+  "26280364": {
+    "label": "1. Curr Diab Rep. 2015 Oct;15(10):73. doi: 10.1007/s11892-015-0654-x.",
+    "query": "incidence coxsackievirus diabetes",
+    "file": "/home/jb/medical_problems/results/literature/incidence_coxsackievirus_diabetes/PMID26280364.txt",
+    "chars": 1482
+  },
+  "26119046": {
+    "label": "1. Scand J Immunol. 2015 Sep;82(3):244-53. doi: 10.1111/sji.12338.",
+    "query": "incidence coxsackievirus diabetes",
+    "file": "/home/jb/medical_problems/results/literature/incidence_coxsackievirus_diabetes/PMID26119046.txt",
+    "chars": 1828
+  },
+  "25422874": {
+    "label": "1. Endocrinology. 2015 Feb;156(2):453-61. doi: 10.1210/en.2013-2006. Epub 2014",
+    "query": "incidence coxsackievirus diabetes",
+    "file": "/home/jb/medical_problems/results/literature/incidence_coxsackievirus_diabetes/PMID25422874.txt",
+    "chars": 2734
+  },
+  "24568292": {
+    "label": "1. Curr Diabetes Rev. 2014 Mar;10(2):75-85. doi:",
+    "query": "incidence coxsackievirus diabetes",
+    "file": "/home/jb/medical_problems/results/literature/incidence_coxsackievirus_diabetes/PMID24568292.txt",
+    "chars": 2047
+  },
+  "__search_incidence coxsackievirus diabetes": {
+    "term": "\"incidence\" AND \"coxsackievirus\" AND \"diabetes\"",
+    "total_count": "45",
+    "fetched_ids": [
+      "41771441",
+      "34986263",
+      "34986253",
+      "34083323",
+      "33042112",
+      "32650582",
+      "32240468",
+      "31584373",
+      "29018409",
+      "28663145",
+      "26450993",
+      "26280364",
+      "26119046",
+      "25422874",
+      "24568292"
+    ]
+  },
+  "__search_CVB seroprevalence T1DM": {
+    "term": "\"coxsackievirus B\" AND \"seroprevalence\" AND \"diabetes\"",
+    "total_count": "0",
+    "fetched_ids": []
+  },
+  "37390839": {
+    "label": "1. Lancet Diabetes Endocrinol. 2023 Aug;11(8):578-592. doi: ",
+    "query": "enterovirus T1DM incidence meta",
+    "file": "/home/jb/medical_problems/results/literature/enterovirus_T1DM_incidence_meta/PMID37390839.txt",
+    "chars": 6006
+  },
+  "35144715": {
+    "label": "1. Epidemiol Infect. 2021 Dec 10;150:e23. doi: 10.1017/S0950268821002442.",
+    "query": "enterovirus T1DM incidence meta",
+    "file": "/home/jb/medical_problems/results/literature/enterovirus_T1DM_incidence_meta/PMID35144715.txt",
+    "chars": 2046
+  },
+  "34557158": {
+    "label": "1. Front Endocrinol (Lausanne). 2021 Sep 7;12:706964. doi: ",
+    "query": "enterovirus T1DM incidence meta",
+    "file": "/home/jb/medical_problems/results/literature/enterovirus_T1DM_incidence_meta/PMID34557158.txt",
+    "chars": 2086
+  },
+  "34513356": {
+    "label": "1. Cureus. 2021 Jul 29;13(7):e16721. doi: 10.7759/cureus.16721. eCollection 2021",
+    "query": "enterovirus T1DM incidence meta",
+    "file": "/home/jb/medical_problems/results/literature/enterovirus_T1DM_incidence_meta/PMID34513356.txt",
+    "chars": 2570
+  },
+  "33378601": {
+    "label": "1. Rev Med Virol. 2021 Sep;31(5):1-14. doi: 10.1002/rmv.2209. Epub 2020 Dec 30.",
+    "query": "enterovirus T1DM incidence meta",
+    "file": "/home/jb/medical_problems/results/literature/enterovirus_T1DM_incidence_meta/PMID33378601.txt",
+    "chars": 3842
+  },
+  "30152300": {
+    "label": "1. Epidemiol Infect. 2018 Dec;146(16):2131-2138. doi: 10.1017/S0950268818002455.",
+    "query": "enterovirus T1DM incidence meta",
+    "file": "/home/jb/medical_problems/results/literature/enterovirus_T1DM_incidence_meta/PMID30152300.txt",
+    "chars": 1929
+  },
+  "29569297": {
+    "label": "1. Rev Med Virol. 2018 May;28(3):e1974. doi: 10.1002/rmv.1974. Epub 2018 Mar 22.",
+    "query": "enterovirus T1DM incidence meta",
+    "file": "/home/jb/medical_problems/results/literature/enterovirus_T1DM_incidence_meta/PMID29569297.txt",
+    "chars": 2901
+  },
+  "21292721": {
+    "label": "1. BMJ. 2011 Feb 3;342:d35. doi: 10.1136/bmj.d35.",
+    "query": "enterovirus T1DM incidence meta",
+    "file": "/home/jb/medical_problems/results/literature/enterovirus_T1DM_incidence_meta/PMID21292721.txt",
+    "chars": 2561
+  },
+  "15154932": {
+    "label": "1. Diabet Med. 2004 Jun;21(6):507-14. doi: 10.1111/j.1464-5491.2004.01182.x.",
+    "query": "enterovirus T1DM incidence meta",
+    "file": "/home/jb/medical_problems/results/literature/enterovirus_T1DM_incidence_meta/PMID15154932.txt",
+    "chars": 2257
+  },
+  "__search_enterovirus T1DM incidence meta": {
+    "term": "\"enterovirus\" AND \"type 1 diabetes\" AND (\"meta-analysis\" OR \"systematic review\")",
+    "total_count": "9",
+    "fetched_ids": [
+      "37390839",
+      "35144715",
+      "34557158",
+      "34513356",
+      "33378601",
+      "30152300",
+      "29569297",
+      "21292721",
+      "15154932"
+    ]
+  },
+  "41804200": {
+    "label": "1. Diabetes Obes Metab. 2026 Mar 9. doi: 10.1111/dom.70641. Online ahead of",
+    "query": "T1DM incidence trends",
+    "file": "/home/jb/medical_problems/results/literature/T1DM_incidence_trends/PMID41804200.txt",
+    "chars": 2489
+  },
+  "41685461": {
+    "label": "1. J Diabetes Investig. 2026 Apr;17(4):649-662. doi: 10.1111/jdi.70259. Epub 202",
+    "query": "T1DM incidence trends",
+    "file": "/home/jb/medical_problems/results/literature/T1DM_incidence_trends/PMID41685461.txt",
+    "chars": 3494
+  },
+  "41642817": {
+    "label": "1. PLoS One. 2026 Feb 5;21(2):e0341145. doi: 10.1371/journal.pone.0341145. ",
+    "query": "T1DM incidence trends",
+    "file": "/home/jb/medical_problems/results/literature/T1DM_incidence_trends/PMID41642817.txt",
+    "chars": 3052
+  },
+  "41548945": {
+    "label": "1. Public Health Rep. 2026 Jan 18:333549251403376. doi:",
+    "query": "T1DM incidence trends",
+    "file": "/home/jb/medical_problems/results/literature/T1DM_incidence_trends/PMID41548945.txt",
+    "chars": 2586
+  },
+  "41495956": {
+    "label": "1. Diabet Med. 2026 Apr;43(4):e70215. doi: 10.1111/dme.70215. Epub 2026 Jan 6.",
+    "query": "T1DM incidence trends",
+    "file": "/home/jb/medical_problems/results/literature/T1DM_incidence_trends/PMID41495956.txt",
+    "chars": 2420
+  },
+  "41327997": {
+    "label": "1. Turk J Pediatr. 2025 Oct 6;67(5):700-710. doi:",
+    "query": "T1DM incidence trends",
+    "file": "/home/jb/medical_problems/results/literature/T1DM_incidence_trends/PMID41327997.txt",
+    "chars": 2428
+  },
+  "41063019": {
+    "label": "1. BMC Public Health. 2025 Oct 8;25(1):3381. doi: 10.1186/s12889-025-24674-0.",
+    "query": "T1DM incidence trends",
+    "file": "/home/jb/medical_problems/results/literature/T1DM_incidence_trends/PMID41063019.txt",
+    "chars": 5133
+  },
+  "40968189": {
+    "label": "1. Diabetologia. 2025 Dec;68(12):2732-2742. doi: 10.1007/s00125-025-06540-1. Epu",
+    "query": "T1DM incidence trends",
+    "file": "/home/jb/medical_problems/results/literature/T1DM_incidence_trends/PMID40968189.txt",
+    "chars": 4284
+  },
+  "40925679": {
+    "label": "1. Diabet Med. 2025 Nov;42(11):e70133. doi: 10.1111/dme.70133. Epub 2025 Sep 9.",
+    "query": "T1DM incidence trends",
+    "file": "/home/jb/medical_problems/results/literature/T1DM_incidence_trends/PMID40925679.txt",
+    "chars": 3295
+  },
+  "40883124": {
+    "label": "1. Nutr Metab Cardiovasc Dis. 2025 Dec;35(12):104223. doi: ",
+    "query": "T1DM incidence trends",
+    "file": "/home/jb/medical_problems/results/literature/T1DM_incidence_trends/PMID40883124.txt",
+    "chars": 3431
+  },
+  "40837347": {
+    "label": "1. World J Diabetes. 2025 Aug 15;16(8):108724. doi: 10.4239/wjd.v16.i8.108724.",
+    "query": "T1DM incidence trends",
+    "file": "/home/jb/medical_problems/results/literature/T1DM_incidence_trends/PMID40837347.txt",
+    "chars": 3154
+  },
+  "40801038": {
+    "label": "1. Front Endocrinol (Lausanne). 2025 Jul 29;16:1638187. doi: ",
+    "query": "T1DM incidence trends",
+    "file": "/home/jb/medical_problems/results/literature/T1DM_incidence_trends/PMID40801038.txt",
+    "chars": 2743
+  },
+  "40353383": {
+    "label": "1. Pediatr Endocrinol Diabetes Metab. 2025;31(1):9-16. doi: ",
+    "query": "T1DM incidence trends",
+    "file": "/home/jb/medical_problems/results/literature/T1DM_incidence_trends/PMID40353383.txt",
+    "chars": 3844
+  },
+  "40342869": {
+    "label": "1. J Transl Autoimmun. 2025 Apr 24;10:100289. doi: 10.1016/j.jtauto.2025.100289.",
+    "query": "T1DM incidence trends",
+    "file": "/home/jb/medical_problems/results/literature/T1DM_incidence_trends/PMID40342869.txt",
+    "chars": 4405
+  },
+  "40302967": {
+    "label": "1. Pediatr Diabetes. 2024 May 27;2024:2338922. doi: 10.1155/2024/2338922. ",
+    "query": "T1DM incidence trends",
+    "file": "/home/jb/medical_problems/results/literature/T1DM_incidence_trends/PMID40302967.txt",
+    "chars": 2604
+  },
+  "__search_T1DM incidence trends": {
+    "term": "\"type 1 diabetes\" AND \"incidence\" AND \"trend\" AND (\"increase\" OR \"rising\")",
+    "total_count": "163",
+    "fetched_ids": [
+      "41804200",
+      "41685461",
+      "41642817",
+      "41548945",
+      "41495956",
+      "41327997",
+      "41063019",
+      "40968189",
+      "40925679",
+      "40883124",
+      "40837347",
+      "40801038",
+      "40353383",
+      "40342869",
+      "40302967"
+    ]
+  },
+  "20351529": {
+    "label": "1. Pediatr Infect Dis J. 2010 Apr;29(4):334-9. doi: 10.1097/INF.0b013e3181c2a1d2",
+    "query": "CVB seasonal epidemiology",
+    "file": "/home/jb/medical_problems/results/literature/CVB_seasonal_epidemiology/PMID20351529.txt",
+    "chars": 2040
+  },
+  "7532499": {
+    "label": "1. Vestn Ross Akad Med Nauk. 1994;(9):8-10.",
+    "query": "CVB seasonal epidemiology",
+    "file": "/home/jb/medical_problems/results/literature/CVB_seasonal_epidemiology/PMID7532499.txt",
+    "chars": 1275
+  },
+  "__search_CVB seasonal epidemiology": {
+    "term": "\"coxsackievirus B\" AND (\"seasonal\" OR \"epidemic\") AND \"incidence\"",
+    "total_count": "2",
+    "fetched_ids": [
+      "20351529",
+      "7532499"
+    ]
+  },
+  "37789144": {
+    "label": "1. Nat Med. 2023 Nov;29(11):2902-2908. doi: 10.1038/s41591-023-02576-1. Epub 202",
+    "query": "DiViD study",
+    "file": "/home/jb/medical_problems/results/literature/DiViD_study/PMID37789144.txt",
+    "chars": 3392
+  },
+  "35957810": {
+    "label": "1. Front Endocrinol (Lausanne). 2022 Jul 26;13:881997. doi: ",
+    "query": "DiViD study",
+    "file": "/home/jb/medical_problems/results/literature/DiViD_study/PMID35957810.txt",
+    "chars": 4393
+  },
+  "35953727": {
+    "label": "1. Diabetologia. 2022 Dec;65(12):2108-2120. doi: 10.1007/s00125-022-05779-2. Epu",
+    "query": "DiViD study",
+    "file": "/home/jb/medical_problems/results/literature/DiViD_study/PMID35953727.txt",
+    "chars": 4959
+  },
+  "35498413": {
+    "label": "1. Front Endocrinol (Lausanne). 2022 Apr 13;13:861985. doi: ",
+    "query": "DiViD study",
+    "file": "/home/jb/medical_problems/results/literature/DiViD_study/PMID35498413.txt",
+    "chars": 4421
+  },
+  "34390364": {
+    "label": "1. Diabetologia. 2021 Nov;64(11):2491-2501. doi: 10.1007/s00125-021-05525-0. Epu",
+    "query": "DiViD study",
+    "file": "/home/jb/medical_problems/results/literature/DiViD_study/PMID34390364.txt",
+    "chars": 3333
+  },
+  "31016358": {
+    "label": "1. Diabetologia. 2019 Jun;62(6):1100-1103. doi: 10.1007/s00125-019-4873-6. Epub ",
+    "query": "DiViD study",
+    "file": "/home/jb/medical_problems/results/literature/DiViD_study/PMID31016358.txt",
+    "chars": 2256
+  },
+  "30810767": {
+    "label": "1. Diabetologia. 2019 Jun;62(6):1097-1099. doi: 10.1007/s00125-019-4841-1. Epub ",
+    "query": "DiViD study",
+    "file": "/home/jb/medical_problems/results/literature/DiViD_study/PMID30810767.txt",
+    "chars": 1211
+  },
+  "25422108": {
+    "label": "1. Diabetes. 2015 May;64(5):1682-7. doi: 10.2337/db14-1370. Epub 2014 Nov 24.",
+    "query": "DiViD study",
+    "file": "/home/jb/medical_problems/results/literature/DiViD_study/PMID25422108.txt",
+    "chars": 3516
+  },
+  "__search_DiViD study": {
+    "term": "\"DiViD\" AND (\"coxsackievirus\" OR \"enterovirus\")",
+    "total_count": "8",
+    "fetched_ids": [
+      "37789144",
+      "35957810",
+      "35953727",
+      "35498413",
+      "34390364",
+      "31016358",
+      "30810767",
+      "25422108"
+    ]
+  },
+  "38369573": {
+    "label": "1. Diabetologia. 2024 May;67(5):811-821. doi: 10.1007/s00125-024-06092-w. Epub",
+    "query": "CVB vaccine T1DM prevention",
+    "file": "/home/jb/medical_problems/results/literature/CVB_vaccine_T1DM_prevention/PMID38369573.txt",
+    "chars": 4060
+  },
+  "37662376": {
+    "label": "1. bioRxiv [Preprint]. 2023 Aug 21:2023.08.19.553954. doi: ",
+    "query": "CVB vaccine T1DM prevention",
+    "file": "/home/jb/medical_problems/results/literature/CVB_vaccine_T1DM_prevention/PMID37662376.txt",
+    "chars": 4596
+  },
+  "36884282": {
+    "label": "1. Endocr Rev. 2023 Jul 11;44(4):737-751. doi: 10.1210/endrev/bnad007.",
+    "query": "CVB vaccine T1DM prevention",
+    "file": "/home/jb/medical_problems/results/literature/CVB_vaccine_T1DM_prevention/PMID36884282.txt",
+    "chars": 2323
+  },
+  "36565260": {
+    "label": "1. Virologie (Montrouge). 2022 D\u00e9Cembre 01;26(6):415-430. doi: ",
+    "query": "CVB vaccine T1DM prevention",
+    "file": "/home/jb/medical_problems/results/literature/CVB_vaccine_T1DM_prevention/PMID36565260.txt",
+    "chars": 1308
+  },
+  "34497136": {
+    "label": "1. Diabetes. 2021 Dec;70(12):2871-2878. doi: 10.2337/db21-0193. Epub 2021 Sep 8.",
+    "query": "CVB vaccine T1DM prevention",
+    "file": "/home/jb/medical_problems/results/literature/CVB_vaccine_T1DM_prevention/PMID34497136.txt",
+    "chars": 2431
+  },
+  "32846899": {
+    "label": "1. Microorganisms. 2020 Aug 24;8(9):1287. doi: 10.3390/microorganisms8091287.",
+    "query": "CVB vaccine T1DM prevention",
+    "file": "/home/jb/medical_problems/results/literature/CVB_vaccine_T1DM_prevention/PMID32846899.txt",
+    "chars": 3076
+  },
+  "32494709": {
+    "label": "1. Sci Adv. 2020 May 6;6(19):eaaz2433. doi: 10.1126/sciadv.aaz2433. eCollection ",
+    "query": "CVB vaccine T1DM prevention",
+    "file": "/home/jb/medical_problems/results/literature/CVB_vaccine_T1DM_prevention/PMID32494709.txt",
+    "chars": 2404
+  },
+  "30449209": {
+    "label": "1. Expert Rev Vaccines. 2018 Dec;17(12):1071-1083. doi: ",
+    "query": "CVB vaccine T1DM prevention",
+    "file": "/home/jb/medical_problems/results/literature/CVB_vaccine_T1DM_prevention/PMID30449209.txt",
+    "chars": 2282
+  },
+  "29327705": {
+    "label": "1. Nat Rev Endocrinol. 2018 Mar;14(3):131-132. doi: 10.1038/nrendo.2017.184. Epu",
+    "query": "CVB vaccine T1DM prevention",
+    "file": "/home/jb/medical_problems/results/literature/CVB_vaccine_T1DM_prevention/PMID29327705.txt",
+    "chars": 506
+  },
+  "29151123": {
+    "label": "1. Diabetologia. 2018 Feb;61(2):476-481. doi: 10.1007/s00125-017-4492-z. Epub",
+    "query": "CVB vaccine T1DM prevention",
+    "file": "/home/jb/medical_problems/results/literature/CVB_vaccine_T1DM_prevention/PMID29151123.txt",
+    "chars": 4233
+  },
+  "19399964": {
+    "label": "1. Microbes Infect. 2009 Apr;11(4):443-51. doi: 10.1016/j.micinf.2009.01.005.",
+    "query": "CVB vaccine T1DM prevention",
+    "file": "/home/jb/medical_problems/results/literature/CVB_vaccine_T1DM_prevention/PMID19399964.txt",
+    "chars": 999
+  },
+  "10403922": {
+    "label": "1. Clin Exp Immunol. 1999 Jul;117(1):100-5. doi:",
+    "query": "CVB vaccine T1DM prevention",
+    "file": "/home/jb/medical_problems/results/literature/CVB_vaccine_T1DM_prevention/PMID10403922.txt",
+    "chars": 2420
+  },
+  "__search_CVB vaccine T1DM prevention": {
+    "term": "\"coxsackievirus B\" AND \"vaccine\" AND \"diabetes\"",
+    "total_count": "12",
+    "fetched_ids": [
+      "38369573",
+      "37662376",
+      "36884282",
+      "36565260",
+      "34497136",
+      "32846899",
+      "32494709",
+      "30449209",
+      "29327705",
+      "29151123",
+      "19399964",
+      "10403922"
+    ]
+  },
+  "41855766": {
+    "label": "1. J Diabetes Complications. 2026 Mar 15;40(5):109312. doi: ",
+    "query": "Nordic T1DM registry",
+    "file": "/home/jb/medical_problems/results/literature/Nordic_T1DM_registry/PMID41855766.txt",
+    "chars": 2980
+  },
+  "41689220": {
+    "label": "1. BMJ Open. 2026 Feb 12;16(2):e109015. doi: 10.1136/bmjopen-2025-109015.",
+    "query": "Nordic T1DM registry",
+    "file": "/home/jb/medical_problems/results/literature/Nordic_T1DM_registry/PMID41689220.txt",
+    "chars": 3158
+  },
+  "41689071": {
+    "label": "1. BMC Med. 2026 Feb 14;24(1):123. doi: 10.1186/s12916-026-04696-0.",
+    "query": "Nordic T1DM registry",
+    "file": "/home/jb/medical_problems/results/literature/Nordic_T1DM_registry/PMID41689071.txt",
+    "chars": 4001
+  },
+  "41085706": {
+    "label": "1. Diabetologia. 2026 Jan;69(1):50-58. doi: 10.1007/s00125-025-06561-w. Epub 202",
+    "query": "Nordic T1DM registry",
+    "file": "/home/jb/medical_problems/results/literature/Nordic_T1DM_registry/PMID41085706.txt",
+    "chars": 5232
+  },
+  "40592515": {
+    "label": "1. J Epidemiol Community Health. 2025 Sep 10;79(10):737-745. doi: ",
+    "query": "Nordic T1DM registry",
+    "file": "/home/jb/medical_problems/results/literature/Nordic_T1DM_registry/PMID40592515.txt",
+    "chars": 4254
+  },
+  "40272762": {
+    "label": "1. Cancer Causes Control. 2025 Sep;36(9):957-964. doi:",
+    "query": "Nordic T1DM registry",
+    "file": "/home/jb/medical_problems/results/literature/Nordic_T1DM_registry/PMID40272762.txt",
+    "chars": 3023
+  },
+  "40075392": {
+    "label": "1. Cardiovasc Diabetol. 2025 Mar 12;24(1):117. doi: 10.1186/s12933-024-02561-z.",
+    "query": "Nordic T1DM registry",
+    "file": "/home/jb/medical_problems/results/literature/Nordic_T1DM_registry/PMID40075392.txt",
+    "chars": 4117
+  },
+  "39123199": {
+    "label": "1. BMC Endocr Disord. 2024 Aug 9;24(1):145. doi: 10.1186/s12902-024-01667-5.",
+    "query": "Nordic T1DM registry",
+    "file": "/home/jb/medical_problems/results/literature/Nordic_T1DM_registry/PMID39123199.txt",
+    "chars": 5139
+  },
+  "39096767": {
+    "label": "1. J Diabetes Complications. 2024 Sep;38(9):108830. doi: ",
+    "query": "Nordic T1DM registry",
+    "file": "/home/jb/medical_problems/results/literature/Nordic_T1DM_registry/PMID39096767.txt",
+    "chars": 4574
+  },
+  "38964804": {
+    "label": "1. BMJ Open. 2024 Jul 4;14(7):e087557. doi: 10.1136/bmjopen-2024-087557.",
+    "query": "Nordic T1DM registry",
+    "file": "/home/jb/medical_problems/results/literature/Nordic_T1DM_registry/PMID38964804.txt",
+    "chars": 3836
+  },
+  "38761021": {
+    "label": "1. Acta Ophthalmol. 2024 Nov;102(7):805-812. doi: 10.1111/aos.16707. Epub 2024",
+    "query": "Nordic T1DM registry",
+    "file": "/home/jb/medical_problems/results/literature/Nordic_T1DM_registry/PMID38761021.txt",
+    "chars": 3164
+  },
+  "38693959": {
+    "label": "1. Hum Reprod Open. 2024 Apr 10;2024(2):hoae021. doi: 10.1093/hropen/hoae021. ",
+    "query": "Nordic T1DM registry",
+    "file": "/home/jb/medical_problems/results/literature/Nordic_T1DM_registry/PMID38693959.txt",
+    "chars": 5386
+  },
+  "38483786": {
+    "label": "1. Infection. 2024 Oct;52(5):1745-1752. doi: 10.1007/s15010-024-02210-3. Epub",
+    "query": "Nordic T1DM registry",
+    "file": "/home/jb/medical_problems/results/literature/Nordic_T1DM_registry/PMID38483786.txt",
+    "chars": 3821
+  },
+  "38345204": {
+    "label": "1. Acta Ophthalmol. 2024 Sep;102(6):635-642. doi: 10.1111/aos.16653. Epub 2024",
+    "query": "Nordic T1DM registry",
+    "file": "/home/jb/medical_problems/results/literature/Nordic_T1DM_registry/PMID38345204.txt",
+    "chars": 3177
+  },
+  "38302173": {
+    "label": "1. J Rheumatol. 2024 Apr 1;51(4):350-359. doi: 10.3899/jrheum.2023-0907.",
+    "query": "Nordic T1DM registry",
+    "file": "/home/jb/medical_problems/results/literature/Nordic_T1DM_registry/PMID38302173.txt",
+    "chars": 4072
+  },
+  "__search_Nordic T1DM registry": {
+    "term": "(\"Finland\" OR \"Sweden\" OR \"Norway\" OR \"Denmark\") AND \"type 1 diabetes\" AND \"incidence\" AND \"registry\"",
+    "total_count": "112",
+    "fetched_ids": [
+      "41855766",
+      "41689220",
+      "41689071",
+      "41085706",
+      "40592515",
+      "40272762",
+      "40075392",
+      "39123199",
+      "39096767",
+      "38964804",
+      "38761021",
+      "38693959",
+      "38483786",
+      "38345204",
+      "38302173"
+    ]
+  },
+  "39496810": {
+    "label": "1. Nat Rev Endocrinol. 2025 Mar;21(3):154-165. doi: 10.1038/s41574-024-01045-0. ",
+    "query": "TEDDY CVB T1DM",
+    "file": "/home/jb/medical_problems/results/literature/TEDDY_CVB_T1DM/PMID39496810.txt",
+    "chars": 4538
+  },
+  "37993433": {
+    "label": "1. Nat Commun. 2023 Nov 22;14(1):7630. doi: 10.1038/s41467-023-42763-9.",
+    "query": "TEDDY CVB T1DM",
+    "file": "/home/jb/medical_problems/results/literature/TEDDY_CVB_T1DM/PMID37993433.txt",
+    "chars": 4760
+  },
+  "34659229": {
+    "label": "1. Front Immunol. 2021 Oct 1;12:737964. doi: 10.3389/fimmu.2021.737964.",
+    "query": "TEDDY CVB T1DM",
+    "file": "/home/jb/medical_problems/results/literature/TEDDY_CVB_T1DM/PMID34659229.txt",
+    "chars": 2103
+  },
+  "31792456": {
+    "label": "1. Nat Med. 2019 Dec;25(12):1865-1872. doi: 10.1038/s41591-019-0667-0. Epub 2019",
+    "query": "TEDDY CVB T1DM",
+    "file": "/home/jb/medical_problems/results/literature/TEDDY_CVB_T1DM/PMID31792456.txt",
+    "chars": 4239
+  },
+  "31744911": {
+    "label": "1. Gut. 2020 Aug;69(8):1416-1422. doi: 10.1136/gutjnl-2019-319809. Epub 2019 Nov",
+    "query": "TEDDY CVB T1DM",
+    "file": "/home/jb/medical_problems/results/literature/TEDDY_CVB_T1DM/PMID31744911.txt",
+    "chars": 7088
+  },
+  "30192755": {
+    "label": "1. PLoS One. 2018 Sep 7;13(9):e0201959. doi: 10.1371/journal.pone.0201959. ",
+    "query": "TEDDY CVB T1DM",
+    "file": "/home/jb/medical_problems/results/literature/TEDDY_CVB_T1DM/PMID30192755.txt",
+    "chars": 3288
+  },
+  "__search_TEDDY CVB T1DM": {
+    "term": "\"TEDDY\" AND (\"coxsackievirus\" OR \"enterovirus\") AND \"diabetes\"",
+    "total_count": "6",
+    "fetched_ids": [
+      "39496810",
+      "37993433",
+      "34659229",
+      "31792456",
+      "31744911",
+      "30192755"
+    ]
+  },
+  "41480350": {
+    "label": "1. Front Endocrinol (Lausanne). 2025 Dec 17;16:1734431. doi: ",
+    "query": "beta cell enterovirus autoimmunity",
+    "file": "/home/jb/medical_problems/results/literature/beta_cell_enterovirus_autoimmunity/PMID41480350.txt",
+    "chars": 3027
+  },
+  "41053097": {
+    "label": "1. Nat Commun. 2025 Oct 6;16(1):8882. doi: 10.1038/s41467-025-64508-6.",
+    "query": "beta cell enterovirus autoimmunity",
+    "file": "/home/jb/medical_problems/results/literature/beta_cell_enterovirus_autoimmunity/PMID41053097.txt",
+    "chars": 3685
+  },
+  "40664317": {
+    "label": "1. Immunol Lett. 2025 Dec;276:107060. doi: 10.1016/j.imlet.2025.107060. Epub 202",
+    "query": "beta cell enterovirus autoimmunity",
+    "file": "/home/jb/medical_problems/results/literature/beta_cell_enterovirus_autoimmunity/PMID40664317.txt",
+    "chars": 2427
+  },
+  "40517247": {
+    "label": "1. Virol J. 2025 Jun 14;22(1):195. doi: 10.1186/s12985-025-02822-7.",
+    "query": "beta cell enterovirus autoimmunity",
+    "file": "/home/jb/medical_problems/results/literature/beta_cell_enterovirus_autoimmunity/PMID40517247.txt",
+    "chars": 2527
+  },
+  "40090994": {
+    "label": "1. Diabetologia. 2025 Jun;68(6):1226-1241. doi: 10.1007/s00125-025-06401-x. Epub",
+    "query": "beta cell enterovirus autoimmunity",
+    "file": "/home/jb/medical_problems/results/literature/beta_cell_enterovirus_autoimmunity/PMID40090994.txt",
+    "chars": 9252
+  },
+  "39419452": {
+    "label": "1. Antiviral Res. 2024 Nov;231:106021. doi: 10.1016/j.antiviral.2024.106021. Epu",
+    "query": "beta cell enterovirus autoimmunity",
+    "file": "/home/jb/medical_problems/results/literature/beta_cell_enterovirus_autoimmunity/PMID39419452.txt",
+    "chars": 4258
+  },
+  "39003200": {
+    "label": "1. Trends Mol Med. 2024 Nov;30(11):1020-1027. doi: 10.1016/j.molmed.2024.06.011.",
+    "query": "beta cell enterovirus autoimmunity",
+    "file": "/home/jb/medical_problems/results/literature/beta_cell_enterovirus_autoimmunity/PMID39003200.txt",
+    "chars": 1548
+  },
+  "38239343": {
+    "label": "1. Front Immunol. 2024 Jan 4;14:1326711. doi: 10.3389/fimmu.2023.1326711. ",
+    "query": "beta cell enterovirus autoimmunity",
+    "file": "/home/jb/medical_problems/results/literature/beta_cell_enterovirus_autoimmunity/PMID38239343.txt",
+    "chars": 3472
+  },
+  "38027145": {
+    "label": "1. Front Endocrinol (Lausanne). 2023 Oct 30;14:1236574. doi: ",
+    "query": "beta cell enterovirus autoimmunity",
+    "file": "/home/jb/medical_problems/results/literature/beta_cell_enterovirus_autoimmunity/PMID38027145.txt",
+    "chars": 3517
+  },
+  "35650334": {
+    "label": "1. Nat Rev Endocrinol. 2022 Aug;18(8):503-516. doi: 10.1038/s41574-022-00688-1. ",
+    "query": "beta cell enterovirus autoimmunity",
+    "file": "/home/jb/medical_problems/results/literature/beta_cell_enterovirus_autoimmunity/PMID35650334.txt",
+    "chars": 1997
+  },
+  "35024587": {
+    "label": "1. iScience. 2021 Dec 18;25(1):103653. doi: 10.1016/j.isci.2021.103653.",
+    "query": "beta cell enterovirus autoimmunity",
+    "file": "/home/jb/medical_problems/results/literature/beta_cell_enterovirus_autoimmunity/PMID35024587.txt",
+    "chars": 2326
+  },
+  "34804036": {
+    "label": "1. Front Immunol. 2021 Nov 5;12:751341. doi: 10.3389/fimmu.2021.751341.",
+    "query": "beta cell enterovirus autoimmunity",
+    "file": "/home/jb/medical_problems/results/literature/beta_cell_enterovirus_autoimmunity/PMID34804036.txt",
+    "chars": 1865
+  },
+  "34794324": {
+    "label": "1. Annu Rev Med. 2022 Jan 27;73:483-499. doi: 10.1146/annurev-med-042320-015952.",
+    "query": "beta cell enterovirus autoimmunity",
+    "file": "/home/jb/medical_problems/results/literature/beta_cell_enterovirus_autoimmunity/PMID34794324.txt",
+    "chars": 1557
+  },
+  "__search_beta cell enterovirus autoimmunity": {
+    "term": "\"beta cell\" AND \"enterovirus\" AND \"autoimmunity\"",
+    "total_count": "78",
+    "fetched_ids": [
+      "41480350",
+      "41053097",
+      "40664317",
+      "40517247",
+      "40090994",
+      "39419452",
+      "39003200",
+      "38239343",
+      "38027145",
+      "37662376",
+      "36884282",
+      "35650334",
+      "35024587",
+      "34804036",
+      "34794324"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+1. J Diabetes Complications. 2026 Mar 15;40(5):109312. doi: 
+10.1016/j.jdiacomp.2026.109312. Online ahead of print.
+
+Potential years of life lost and factors associated with different causes of 
+death in type 1 diabetes in Finland.
+
+Keisala E(1), Kauppala T(2), Vanhamäki S(2), Haapakoski J(2), Laatikainen T(3), 
+Metso S(4).
+
+Author information:
+(1)Tampere University, Faculty of Medicine and Health Technology, Tampere, 
+Finland; Tampere University Hospital, Department of Internal Medicine, Tampere, 
+Finland. Electronic address: elena.keisala@tuni.fi.
+(2)Finnish Institute for Health and Welfare, THL, Finland.
+(3)University of Eastern Finland, Faculty of Health Sciences, Finland; Wellbeing 
+Services County of North Karelia (Siun sote), Finland.
+(4)Tampere University, Faculty of Medicine and Health Technology, Tampere, 
+Finland; Tampere University Hospital, Department of Internal Medicine, Tampere, 
+Finland.
+
+AIMS: To assess the potential years of life loss (PYLL) due to different causes 
+of death among individuals with type 1 diabetes in Finland, and to identify 
+factors associated with the leading causes of death contributing most to PYLL.
+METHODS: All 45,801 individuals with type 1 diabetes in the Finnish Diabetes 
+Registry during the period 2018-2022 were included. Cause-of-death data were 
+obtained from Statistics Finland. PYLL were calculated as the sum of deaths 
+multiplied by the difference between age 80 and age at death. The incidence rate 
+ratios for cause-specific mortality were estimated with multivariable Poisson 
+regression.
+RESULTS: Diabetes-related deaths had the greatest impact on PYLL, with an 
+average of 20.2 years of life lost per death, accounting for a total of 
+12,691 years of life lost, consisting of severe hypoglycaemia (657 PYLL), 
+ketoacidosis (4380 PYLL) and complications of diabetes (7654 PYLL). 
+Cardiovascular diseases (8630 PYLL), cancer (4549 PYLL) and alcohol- and 
+substance-related causes (3146 PYLL) were the next largest contributors to PYLL. 
+In the multivariable Poisson analysis, age at onset of diabetes, age at 
+beginning of follow-up, HbA1c ≥ 64 mmol/mol (≥ 8%), LDL-cholesterol ≥ 
+2.6 mmol/l, renal risk group, recorded end-stage renal disease, cardiovascular 
+diseases and alcohol or substance abuse were associated with diabetes-related 
+mortality.
+CONCLUSIONS: These findings emphasise the need for intensified prevention 
+strategies focusing on modifiable risk factors, timely detection and management 
+of complications, and comprehensive support for individuals at increased risk to 
+reduce premature mortality in type 1 diabetes.
+
+Copyright © 2026 The Authors. Published by Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.jdiacomp.2026.109312
+PMID: 41855766
+
+Conflict of interest statement: Declaration of competing interest The authors 
+declare that they have no known competing financial interests or personal 
+relationships that could have appeared to influence the work reported in this 
+paper.

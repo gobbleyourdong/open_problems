@@ -1,0 +1,620 @@
+{
+  "INTERFERON (should be suppressed in persistence)": {
+    "up": 10,
+    "down": 1,
+    "unchanged": 13,
+    "missing": 0,
+    "genes": [
+      {
+        "gene": "IFNB1",
+        "log2FC": -0.13,
+        "status": ""
+      },
+      {
+        "gene": "IFNA1",
+        "log2FC": 0.0,
+        "status": ""
+      },
+      {
+        "gene": "IFNA2",
+        "log2FC": 0.22,
+        "status": ""
+      },
+      {
+        "gene": "IRF3",
+        "log2FC": -0.5,
+        "status": "DN"
+      },
+      {
+        "gene": "IRF7",
+        "log2FC": -0.17,
+        "status": ""
+      },
+      {
+        "gene": "IRF9",
+        "log2FC": -0.03,
+        "status": ""
+      },
+      {
+        "gene": "STAT1",
+        "log2FC": 0.02,
+        "status": ""
+      },
+      {
+        "gene": "STAT2",
+        "log2FC": -0.03,
+        "status": ""
+      },
+      {
+        "gene": "ISG15",
+        "log2FC": 0.53,
+        "status": "UP"
+      },
+      {
+        "gene": "MX1",
+        "log2FC": 0.86,
+        "status": "UP"
+      },
+      {
+        "gene": "MX2",
+        "log2FC": 0.04,
+        "status": ""
+      },
+      {
+        "gene": "OAS1",
+        "log2FC": -0.46,
+        "status": ""
+      },
+      {
+        "gene": "OAS2",
+        "log2FC": 0.84,
+        "status": "UP"
+      },
+      {
+        "gene": "OAS3",
+        "log2FC": 0.58,
+        "status": "UP"
+      },
+      {
+        "gene": "IFIT1",
+        "log2FC": 2.45,
+        "status": "UP"
+      },
+      {
+        "gene": "IFIT2",
+        "log2FC": 1.86,
+        "status": "UP"
+      },
+      {
+        "gene": "IFIT3",
+        "log2FC": 1.81,
+        "status": "UP"
+      },
+      {
+        "gene": "IFIH1",
+        "log2FC": 1.46,
+        "status": "UP"
+      },
+      {
+        "gene": "DDX58",
+        "log2FC": 1.05,
+        "status": "UP"
+      },
+      {
+        "gene": "MAVS",
+        "log2FC": -0.2,
+        "status": ""
+      },
+      {
+        "gene": "TBK1",
+        "log2FC": -0.37,
+        "status": ""
+      },
+      {
+        "gene": "TRIM25",
+        "log2FC": -0.19,
+        "status": ""
+      },
+      {
+        "gene": "BST2",
+        "log2FC": -0.4,
+        "status": ""
+      },
+      {
+        "gene": "RSAD2",
+        "log2FC": 0.86,
+        "status": "UP"
+      }
+    ]
+  },
+  "AUTOPHAGY (key clearance mechanism)": {
+    "up": 3,
+    "down": 3,
+    "unchanged": 14,
+    "missing": 0,
+    "genes": [
+      {
+        "gene": "BECN1",
+        "log2FC": -0.03,
+        "status": ""
+      },
+      {
+        "gene": "ATG5",
+        "log2FC": -0.38,
+        "status": ""
+      },
+      {
+        "gene": "ATG7",
+        "log2FC": 1.08,
+        "status": "UP"
+      },
+      {
+        "gene": "ATG12",
+        "log2FC": -0.88,
+        "status": "DN"
+      },
+      {
+        "gene": "ATG16L1",
+        "log2FC": 0.3,
+        "status": ""
+      },
+      {
+        "gene": "MAP1LC3B",
+        "log2FC": -0.44,
+        "status": ""
+      },
+      {
+        "gene": "SQSTM1",
+        "log2FC": 0.03,
+        "status": ""
+      },
+      {
+        "gene": "ULK1",
+        "log2FC": -0.26,
+        "status": ""
+      },
+      {
+        "gene": "ULK2",
+        "log2FC": 0.43,
+        "status": ""
+      },
+      {
+        "gene": "AMBRA1",
+        "log2FC": 0.61,
+        "status": "UP"
+      },
+      {
+        "gene": "PIK3C3",
+        "log2FC": -0.19,
+        "status": ""
+      },
+      {
+        "gene": "ATG14",
+        "log2FC": -0.25,
+        "status": ""
+      },
+      {
+        "gene": "LAMP1",
+        "log2FC": -0.68,
+        "status": "DN"
+      },
+      {
+        "gene": "LAMP2",
+        "log2FC": -1.43,
+        "status": "DN"
+      },
+      {
+        "gene": "TFEB",
+        "log2FC": -0.11,
+        "status": ""
+      },
+      {
+        "gene": "OPTN",
+        "log2FC": 0.51,
+        "status": "UP"
+      },
+      {
+        "gene": "NBR1",
+        "log2FC": -0.32,
+        "status": ""
+      },
+      {
+        "gene": "GABARAPL2",
+        "log2FC": -0.44,
+        "status": ""
+      },
+      {
+        "gene": "ATG3",
+        "log2FC": -0.26,
+        "status": ""
+      },
+      {
+        "gene": "ATG4B",
+        "log2FC": 0.14,
+        "status": ""
+      }
+    ]
+  },
+  "NLRP3 INFLAMMASOME": {
+    "up": 6,
+    "down": 3,
+    "unchanged": 6,
+    "missing": 1,
+    "genes": [
+      {
+        "gene": "NLRP3",
+        "log2FC": -0.74,
+        "status": "DN"
+      },
+      {
+        "gene": "PYCARD",
+        "log2FC": -0.39,
+        "status": ""
+      },
+      {
+        "gene": "CASP1",
+        "log2FC": -0.91,
+        "status": "DN"
+      },
+      {
+        "gene": "IL1B",
+        "log2FC": 0.42,
+        "status": ""
+      },
+      {
+        "gene": "IL18",
+        "log2FC": -0.9,
+        "status": "DN"
+      },
+      {
+        "gene": "GSDMD",
+        "log2FC": 0.72,
+        "status": "UP"
+      },
+      {
+        "gene": "NFKB1",
+        "log2FC": 0.54,
+        "status": "UP"
+      },
+      {
+        "gene": "NFKB2",
+        "log2FC": 0.57,
+        "status": "UP"
+      },
+      {
+        "gene": "RELA",
+        "log2FC": 0.19,
+        "status": ""
+      },
+      {
+        "gene": "IKBKB",
+        "log2FC": 0.16,
+        "status": ""
+      },
+      {
+        "gene": "IKBKG",
+        "log2FC": -0.13,
+        "status": ""
+      },
+      {
+        "gene": "TNF",
+        "log2FC": 1.12,
+        "status": "UP"
+      },
+      {
+        "gene": "IL6",
+        "log2FC": 0.74,
+        "status": "UP"
+      },
+      {
+        "gene": "IL8",
+        "status": "NOT_FOUND"
+      },
+      {
+        "gene": "CXCL8",
+        "log2FC": 0.34,
+        "status": ""
+      },
+      {
+        "gene": "CCL2",
+        "log2FC": 0.76,
+        "status": "UP"
+      }
+    ]
+  },
+  "ER STRESS / UPR (viral protein overload)": {
+    "up": 0,
+    "down": 5,
+    "unchanged": 8,
+    "missing": 0,
+    "genes": [
+      {
+        "gene": "HSPA5",
+        "log2FC": -0.88,
+        "status": "DN"
+      },
+      {
+        "gene": "DDIT3",
+        "log2FC": -1.43,
+        "status": "DN"
+      },
+      {
+        "gene": "ATF4",
+        "log2FC": 0.05,
+        "status": ""
+      },
+      {
+        "gene": "ATF6",
+        "log2FC": -0.56,
+        "status": "DN"
+      },
+      {
+        "gene": "ERN1",
+        "log2FC": -0.27,
+        "status": ""
+      },
+      {
+        "gene": "EIF2AK3",
+        "log2FC": 0.04,
+        "status": ""
+      },
+      {
+        "gene": "XBP1",
+        "log2FC": -0.33,
+        "status": ""
+      },
+      {
+        "gene": "EDEM1",
+        "log2FC": 0.29,
+        "status": ""
+      },
+      {
+        "gene": "HERPUD1",
+        "log2FC": -0.72,
+        "status": "DN"
+      },
+      {
+        "gene": "GADD45A",
+        "log2FC": 0.49,
+        "status": ""
+      },
+      {
+        "gene": "PPP1R15A",
+        "log2FC": 0.33,
+        "status": ""
+      },
+      {
+        "gene": "DNAJB9",
+        "log2FC": -0.84,
+        "status": "DN"
+      },
+      {
+        "gene": "CALR",
+        "log2FC": -0.19,
+        "status": ""
+      }
+    ]
+  },
+  "APOPTOSIS": {
+    "up": 3,
+    "down": 2,
+    "unchanged": 9,
+    "missing": 1,
+    "genes": [
+      {
+        "gene": "BAX",
+        "log2FC": 0.02,
+        "status": ""
+      },
+      {
+        "gene": "BAK1",
+        "log2FC": 0.31,
+        "status": ""
+      },
+      {
+        "gene": "BCL2",
+        "log2FC": -1.41,
+        "status": "DN"
+      },
+      {
+        "gene": "BCL2L1",
+        "log2FC": 0.33,
+        "status": ""
+      },
+      {
+        "gene": "CASP3",
+        "log2FC": -0.32,
+        "status": ""
+      },
+      {
+        "gene": "CASP8",
+        "log2FC": 0.14,
+        "status": ""
+      },
+      {
+        "gene": "CASP9",
+        "log2FC": -0.81,
+        "status": "DN"
+      },
+      {
+        "gene": "CYCS",
+        "log2FC": -0.13,
+        "status": ""
+      },
+      {
+        "gene": "APAF1",
+        "log2FC": 0.05,
+        "status": ""
+      },
+      {
+        "gene": "BID",
+        "log2FC": 0.52,
+        "status": "UP"
+      },
+      {
+        "gene": "PMAIP1",
+        "log2FC": 0.59,
+        "status": "UP"
+      },
+      {
+        "gene": "BBC3",
+        "log2FC": -0.47,
+        "status": ""
+      },
+      {
+        "gene": "FAS",
+        "log2FC": 1.87,
+        "status": "UP"
+      },
+      {
+        "gene": "FASLG",
+        "log2FC": 0.0,
+        "status": ""
+      },
+      {
+        "gene": "TRAIL",
+        "status": "NOT_FOUND"
+      }
+    ]
+  },
+  "CVB-SPECIFIC TARGETS (from our models)": {
+    "up": 2,
+    "down": 3,
+    "unchanged": 5,
+    "missing": 1,
+    "genes": [
+      {
+        "gene": "OSBP",
+        "log2FC": 0.11,
+        "status": ""
+      },
+      {
+        "gene": "PI4KB",
+        "log2FC": 0.56,
+        "status": "UP"
+      },
+      {
+        "gene": "ACBD3",
+        "log2FC": -0.07,
+        "status": ""
+      },
+      {
+        "gene": "DMD",
+        "log2FC": -5.05,
+        "status": "DN"
+      },
+      {
+        "gene": "EIF4G1",
+        "log2FC": 0.22,
+        "status": ""
+      },
+      {
+        "gene": "EIF4G2",
+        "log2FC": 0.23,
+        "status": ""
+      },
+      {
+        "gene": "SNAP29",
+        "log2FC": -0.01,
+        "status": ""
+      },
+      {
+        "gene": "CAR",
+        "status": "NOT_FOUND"
+      },
+      {
+        "gene": "CXADR",
+        "log2FC": -5.0,
+        "status": "DN"
+      },
+      {
+        "gene": "CD55",
+        "log2FC": -2.84,
+        "status": "DN"
+      },
+      {
+        "gene": "SLC5A6",
+        "log2FC": 0.5,
+        "status": "UP"
+      }
+    ]
+  },
+  "BETA CELL FUNCTION": {
+    "up": 3,
+    "down": 2,
+    "unchanged": 9,
+    "missing": 0,
+    "genes": [
+      {
+        "gene": "INS",
+        "log2FC": 0.0,
+        "status": ""
+      },
+      {
+        "gene": "GCG",
+        "log2FC": 0.0,
+        "status": ""
+      },
+      {
+        "gene": "SST",
+        "log2FC": 0.0,
+        "status": ""
+      },
+      {
+        "gene": "PDX1",
+        "log2FC": 2.31,
+        "status": "UP"
+      },
+      {
+        "gene": "NKX6-1",
+        "log2FC": 1.77,
+        "status": "UP"
+      },
+      {
+        "gene": "MAFA",
+        "log2FC": -0.82,
+        "status": "DN"
+      },
+      {
+        "gene": "PAX6",
+        "log2FC": 2.35,
+        "status": "UP"
+      },
+      {
+        "gene": "NEUROG3",
+        "log2FC": 0.0,
+        "status": ""
+      },
+      {
+        "gene": "SLC2A2",
+        "log2FC": -0.42,
+        "status": ""
+      },
+      {
+        "gene": "GCK",
+        "log2FC": -0.5,
+        "status": ""
+      },
+      {
+        "gene": "PCSK1",
+        "log2FC": -0.64,
+        "status": "DN"
+      },
+      {
+        "gene": "PCSK2",
+        "log2FC": 0.0,
+        "status": ""
+      },
+      {
+        "gene": "IAPP",
+        "log2FC": 0.0,
+        "status": ""
+      },
+      {
+        "gene": "SLC30A8",
+        "log2FC": 0.0,
+        "status": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "method": "Population Attributable Risk (PAR = P*(OR-1) / (P*(OR-1)+1))",
+  "scenarios": {
+    "conservative": {
+      "OR": 2.0,
+      "P_exposure": 0.35,
+      "PAR": 0.259,
+      "fraction_T1DM_prevented": 0.259,
+      "annual_cases_prevented_globally_under20": 34377,
+      "basis": "Prospective birth cohort OR (Richardson 2012 prospective subset)"
+    },
+    "central": {
+      "OR": 3.7,
+      "P_exposure": 0.45,
+      "PAR": 0.549,
+      "fraction_T1DM_prevented": 0.549,
+      "annual_cases_prevented_globally_under20": 72735,
+      "basis": "Blood PCR meta-analysis (Richardson 2012)"
+    },
+    "optimistic": {
+      "OR": 7.9,
+      "P_exposure": 0.55,
+      "PAR": 0.791,
+      "fraction_T1DM_prevented": 0.791,
+      "annual_cases_prevented_globally_under20": 104946,
+      "basis": "Stool PCR meta-analysis (Richardson 2012)"
+    },
+    "maximum": {
+      "OR": 9.8,
+      "P_exposure": 0.6,
+      "PAR": 0.841,
+      "fraction_T1DM_prevented": 0.841,
+      "annual_cases_prevented_globally_under20": 111485,
+      "basis": "Islet IHC meta-analysis (Yeung 2011)"
+    }
+  },
+  "country_projections_central": {
+    "Finland": {
+      "current_incidence_per_100k": 62.3,
+      "projected_post_vaccine_per_100k": 28.1,
+      "reduction_per_100k": 34.2
+    },
+    "Sweden": {
+      "current_incidence_per_100k": 43.9,
+      "projected_post_vaccine_per_100k": 19.8,
+      "reduction_per_100k": 24.1
+    },
+    "Norway": {
+      "current_incidence_per_100k": 32.8,
+      "projected_post_vaccine_per_100k": 14.79,
+      "reduction_per_100k": 18.01
+    },
+    "Denmark": {
+      "current_incidence_per_100k": 26.4,
+      "projected_post_vaccine_per_100k": 11.91,
+      "reduction_per_100k": 14.49
+    },
+    "UK": {
+      "current_incidence_per_100k": 24.5,
+      "projected_post_vaccine_per_100k": 11.05,
+      "reduction_per_100k": 13.45
+    },
+    "Australia": {
+      "current_incidence_per_100k": 22.4,
+      "projected_post_vaccine_per_100k": 10.1,
+      "reduction_per_100k": 12.3
+    },
+    "USA": {
+      "current_incidence_per_100k": 23.8,
+      "projected_post_vaccine_per_100k": 10.73,
+      "reduction_per_100k": 13.07
+    },
+    "Canada": {
+      "current_incidence_per_100k": 25.6,
+      "projected_post_vaccine_per_100k": 11.55,
+      "reduction_per_100k": 14.05
+    },
+    "Germany": {
+      "current_incidence_per_100k": 22.7,
+      "projected_post_vaccine_per_100k": 10.24,
+      "reduction_per_100k": 12.46
+    },
+    "Italy": {
+      "current_incidence_per_100k": 12.6,
+      "projected_post_vaccine_per_100k": 5.68,
+      "reduction_per_100k": 6.92
+    },
+    "Spain": {
+      "current_incidence_per_100k": 14.8,
+      "projected_post_vaccine_per_100k": 6.67,
+      "reduction_per_100k": 8.13
+    },
+    "Poland": {
+      "current_incidence_per_100k": 22.4,
+      "projected_post_vaccine_per_100k": 10.1,
+      "reduction_per_100k": 12.3
+    },
+    "Netherlands": {
+      "current_incidence_per_100k": 19.5,
+      "projected_post_vaccine_per_100k": 8.79,
+      "reduction_per_100k": 10.71
+    },
+    "Belgium": {
+      "current_incidence_per_100k": 17.1,
+      "projected_post_vaccine_per_100k": 7.71,
+      "reduction_per_100k": 9.39
+    },
+    "Kuwait": {
+      "current_incidence_per_100k": 41.7,
+      "projected_post_vaccine_per_100k": 18.81,
+      "reduction_per_100k": 22.89
+    },
+    "Saudi_Arabia": {
+      "current_incidence_per_100k": 31.4,
+      "projected_post_vaccine_per_100k": 14.16,
+      "reduction_per_100k": 17.24
+    },
+    "Bahrain": {
+      "current_incidence_per_100k": 27.6,
+      "projected_post_vaccine_per_100k": 12.45,
+      "reduction_per_100k": 15.15
+    },
+    "New_Zealand": {
+      "current_incidence_per_100k": 20.8,
+      "projected_post_vaccine_per_100k": 9.38,
+      "reduction_per_100k": 11.42
+    },
+    "Ireland": {
+      "current_incidence_per_100k": 28.4,
+      "projected_post_vaccine_per_100k": 12.81,
+      "reduction_per_100k": 15.59
+    },
+    "Czech_Republic": {
+      "current_incidence_per_100k": 18.6,
+      "projected_post_vaccine_per_100k": 8.39,
+      "reduction_per_100k": 10.21
+    },
+    "Japan": {
+      "current_incidence_per_100k": 2.4,
+      "projected_post_vaccine_per_100k": 1.08,
+      "reduction_per_100k": 1.32
+    },
+    "China": {
+      "current_incidence_per_100k": 1.1,
+      "projected_post_vaccine_per_100k": 0.5,
+      "reduction_per_100k": 0.6
+    },
+    "India": {
+      "current_incidence_per_100k": 10.3,
+      "projected_post_vaccine_per_100k": 4.65,
+      "reduction_per_100k": 5.65
+    },
+    "Brazil": {
+      "current_incidence_per_100k": 14.7,
+      "projected_post_vaccine_per_100k": 6.63,
+      "reduction_per_100k": 8.07
+    },
+    "Mexico": {
+      "current_incidence_per_100k": 6.3,
+      "projected_post_vaccine_per_100k": 2.84,
+      "reduction_per_100k": 3.46
+    },
+    "Venezuela": {
+      "current_incidence_per_100k": 0.1,
+      "projected_post_vaccine_per_100k": 0.05,
+      "reduction_per_100k": 0.05
+    },
+    "Nigeria": {
+      "current_incidence_per_100k": 0.6,
+      "projected_post_vaccine_per_100k": 0.27,
+      "reduction_per_100k": 0.33
+    },
+    "Ethiopia": {
+      "current_incidence_per_100k": 0.5,
+      "projected_post_vaccine_per_100k": 0.23,
+      "reduction_per_100k": 0.27
+    }
+  },
+  "key_finding": "Central estimate: 54.9% of T1DM cases preventable with CVB vaccine",
+  "global_impact": {
+    "current_annual_incident_cases_0_19": 132600,
+    "conservative_prevention": 34377,
+    "central_prevention": 72735,
+    "optimistic_prevention": 104946
+  }
+}

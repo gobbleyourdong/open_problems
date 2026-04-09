@@ -1,10 +1,10 @@
-# Attempt 042 — Verification of numerical track Claim (attempt_035)
+# Attempt 042 — Verification of Odd Instance Claim (attempt_035)
 
 **Date**: 2026-04-07
 **Phase**: 4 (Verification)
 **Instance**: Even (Theory)
 
-## The numerical track's Claim
+## The Odd Instance's Claim
 
 The gradient correlation E[⟨∇O, ∇ΔS⟩] involves expectations of SINGLE
 CONNECTED Wilson loops ("chair loops"). The character expansion for a
@@ -61,7 +61,7 @@ The inner product ⟨∇_e O, ∇_e ΔS⟩ involves BOTH:
 
 The product (b) IS the disconnected part where 6j-symbols enter!
 
-**The numerical track's claim is PARTIALLY correct**: part of the gradient
+**The Odd instance's claim is PARTIALLY correct**: part of the gradient
 correlation involves single connected loops (positive), but another part
 involves disconnected products (potentially negative).
 
@@ -129,7 +129,7 @@ Only the connected part — the chair loop — survives. And it's positive
 
 ## CONCLUSION
 
-**The numerical track is CORRECT.** The gradient correlation is:
+**The Odd instance is CORRECT.** The gradient correlation is:
 
 E[⟨∇O, ∇ΔS⟩] = Σ (positive) × (1/2)⟨Tr(chair loops)⟩ > 0
 

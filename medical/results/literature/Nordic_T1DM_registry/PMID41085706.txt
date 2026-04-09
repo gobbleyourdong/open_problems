@@ -1,0 +1,86 @@
+1. Diabetologia. 2026 Jan;69(1):50-58. doi: 10.1007/s00125-025-06561-w. Epub 2025
+ Oct 14.
+
+Uric acid and future complications in young individuals with type 1 diabetes: 
+results from the Diabetes Incidence Study in Sweden (DISS) and the National 
+Diabetes Registry of Sweden (NDR).
+
+Fagher K(1)(2), Eeg-Olofsson K(3)(4), Arnqvist H(5), Bolinder J(6), Eriksson 
+JW(7), Gudbjörnsdottir S(3)(4), Nyström L(8), Landin-Olsson M(9)(10)(11).
+
+Author information:
+(1)Department of Clinical Sciences, Lund University, Lund, Sweden. 
+Katarina.fagher@med.lu.se.
+(2)Department of Endocrinology, Skåne University Hospital, Lund, Sweden. 
+Katarina.fagher@med.lu.se.
+(3)The Swedish National Diabetes Registry, Centre of Registries, Gothenburg, 
+Sweden.
+(4)Department of Molecular and Clinical Medicine, Institute of Medicine, 
+University of Gothenburg, Gothenburg, Sweden.
+(5)DISS Study Group, Division of Endocrinology, Department of Biomedical and 
+Clinical Sciences, Linköping University, Linköping, Sweden.
+(6)DISS Study Group, Department of Medicine, Karolinska University Hospital 
+Huddinge, Karolinska Institute, Stockholm, Sweden.
+(7)DISS Study Group, Department of Medical Sciences, Uppsala University, 
+Uppsala, Sweden.
+(8)DISS Study Group, Department of Epidemiology and Global Health, Umeå 
+University, Umeå, Sweden.
+(9)Department of Clinical Sciences, Lund University, Lund, Sweden.
+(10)Department of Endocrinology, Skåne University Hospital, Lund, Sweden.
+(11)DISS Study Group, Skåne University Hospital, Lund, Sweden.
+
+AIMS/HYPOTHESIS: The aim of this work was to investigate whether baseline uric 
+acid (UA) is associated with future complications among young individuals with 
+newly diagnosed type 1 diabetes.
+METHODS: UA levels were analysed in individuals, aged 15-34 years with newly 
+diagnosed type 1 diabetes, from the nationwide Diabetes Incidence Study in 
+Sweden (DISS) cohort to assess the relationship with macro- and microvascular 
+complications later in life. Information on complications was obtained by record 
+linkage to the National Diabetes Registry of Sweden and the National Patient 
+Registry of Sweden. Individuals who developed complications during follow-up 
+(n = 94) were matched for year and age at diagnosis (±2 years), sex and HbA1c 
+with control individuals (n = 94) without complications.
+RESULTS: Plasma UA levels at the time of diabetes diagnosis were significantly 
+higher in individuals who later developed diabetes-related complications 
+compared with those who did not, after a median follow-up of 19.0 years (IQR 
+16.3-21.0): 209.2 ± 68.9 vs 171.7 ± 50.2 µmol/l (p<0.001). The odds of 
+developing complications were 1% higher for every 1 μmol/l rise in baseline UA, 
+and individuals within the highest quartile of UA were more than three times 
+more likely to develop diabetes-related complications later in life after 
+adjusting for age, HbA1c, smoking and eGFR.
+CONCLUSIONS/INTERPRETATION: This study indicates that higher baseline UA levels 
+at the time of type 1 diabetes diagnosis may be linked to both macrovascular and 
+microvascular complications later in life.
+
+© 2025. The Author(s).
+
+DOI: 10.1007/s00125-025-06561-w
+PMCID: PMC12686092
+PMID: 41085706 [Indexed for MEDLINE]
+
+Conflict of interest statement: Acknowledgements: We would like to acknowledge 
+B. Ekholm (Lund University, Sweden) for help with the blood sample analysis and 
+D. Hjorthorn (Daniel Olsson Development LLC, Sweden) for contributing to 
+statistical advice and matching procedure. Data availability: Data presented in 
+the analysis are available on request from the corresponding author. Funding: 
+Open access funding provided by Lund University. This study was funded by 
+unrestricted grants from Sweden’s Southern Healthcare Region, the Skåne 
+University Hospital economic support for research, Sydvastra Skanes 
+Diabetesforening and Faculty of Medicine (ALF), Lund University, Sweden. 
+Authors’ relationships and activities: KF has received honoraria for consulting 
+and/or lecture fees from Sanofi, Astra Zeneca, Novo Nordisk, Bayer and Amarin, 
+all outside the submitted work. KEO has received fees for lecturing and/or 
+honoraria for consulting from Sanofi, Novo Nordisk, Eli Lilly and Abbot Diabetes 
+Care, all outside the submitted work. JB has received honoraria for consulting 
+and/or lecture fees from Abbott Diabetes Care, Nanexa, Novo Nordisk and Sanofi, 
+all outside the submitted work. The authors declare that there are no other 
+relationships or activities that might bias, or be perceived to bias, their 
+work. Contribution statement: All authors meet the ICMJE criteria for authorship 
+for this article and take responsibility for the integrity of the work as a 
+whole, and have contributed to methodology, reviewed the article critically for 
+intellectual content, and have approved the final version of the manuscript. KF 
+and MLO were involved in the design of the study. KF conceived the study, 
+collected and analysed data and wrote the first draft of the manuscript. KEO 
+contributed to the NDR data. KF is the guarantor of this work and, as such, had 
+full access to all the data in the study and takes responsibility for the 
+integrity of the data and the accuracy of the data analysis.

@@ -1,0 +1,32 @@
+1. Front Endocrinol (Lausanne). 2017 Sep 26;8:249. doi: 10.3389/fendo.2017.00249.
+ eCollection 2017.
+
+Innate Viral Receptor Signaling Determines Type 1 Diabetes Onset.
+
+Morse ZJ(1), Horwitz MS(1).
+
+Author information:
+(1)Department of Microbiology and Immunology, University of British Columbia, 
+Vancouver, BC, Canada.
+
+Heritable susceptibility of the autoimmune disorder, type 1 diabetes (T1D), only 
+partially equates for the incidence of the disease. Significant evidence 
+attributes several environmental stressors, such as vitamin D deficiency, gut 
+microbiome, dietary antigens, and most notably virus infections in triggering 
+the onset of T1D in these genetically susceptible individuals. Extensive 
+epidemiological and clinical studies have provided credibility to this causal 
+relationship. Infection by the enterovirus, coxsackievirus B, has been closely 
+associated with onset of T1D and is considered a significant etiological agent 
+for disease induction. Recognition of viral antigens via innate 
+pathogen-recognition receptors induce inflammatory events which contribute to 
+autoreactivity of pancreatic self-antigens and ultimately the destruction of 
+insulin-secreting beta cells. The activation of these specific innate pathways 
+and expression of inflammatory molecules, including type I and III interferon, 
+prime the immune system to elicit either a protective regulatory response or a 
+diabetogenic effector response. Therefore, sensing of viral antigens by retinoic 
+acid-inducible gene I-like receptors and toll-like receptors may be detrimental 
+to inducing autoreactivity initiated by viral stress and resulting in T1D.
+
+DOI: 10.3389/fendo.2017.00249
+PMCID: PMC5623193
+PMID: 29018409

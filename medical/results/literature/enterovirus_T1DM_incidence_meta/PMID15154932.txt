@@ -1,0 +1,41 @@
+1. Diabet Med. 2004 Jun;21(6):507-14. doi: 10.1111/j.1464-5491.2004.01182.x.
+
+Coxsackie B virus serology and Type 1 diabetes mellitus: a systematic review of 
+published case-control studies.
+
+Green J(1), Casabonne D, Newton R.
+
+Author information:
+(1)Cancer Research UK Epidemiology Unit, University of Oxford, Radcliffe 
+Infirmary, Oxford, UK. jane.green@cancer.org.uk
+
+Comment in
+    Diabet Med. 2004 Jun;21(6):503-6. doi: 10.1111/j.1464-5491.2004.01181.x.
+
+BACKGROUND: Enteroviruses, in particular Coxsackie B4, have been implicated in 
+the aetiology of Type 1 diabetes mellitus, but the epidemiological evidence has 
+not been systematically evaluated.
+METHODS: Systematic review of evidence from published controlled studies of the 
+relationship between Coxsackie B virus serology and incident or prevalent Type 1 
+diabetes mellitus. Studies were identified through a Medline search (1966 to 
+2002), supplemented by references from identified papers and hand search of 
+relevant journals. All studies (full papers, abstracts or letters) with data 
+adequate for calculation of unadjusted odds ratios (with 95% confidence 
+intervals) for Type 1 diabetes mellitus in relation to Coxsackie B virus 
+serology were included.
+RESULTS: The review included 26 case-control studies; no cohort study met the 
+inclusion criteria. Odds ratios for Type 1 diabetes mellitus in 
+serology-positive vs. serology-negative subjects ranged from 0.2 to 22.3. For 
+Coxsackie B (any serotype) 7/13 studies had point estimates significantly 
+greater than 1.0 (P < 0.05). For Coxsackie B3, Coxsackie B4 and Coxsackie 
+B5-specific assays, 1/11, 6/17 and 1/11 studies, respectively, had point 
+estimates significantly greater than 1.0. Summary odds ratios were not 
+calculated because of doubts about the validity of individual study estimates, 
+heterogeneity between studies, and the possibility of publication bias.
+CONCLUSIONS: The results of these studies are inconsistent and do not provide 
+convincing evidence for or against an association between Coxsackie B virus 
+infection and Type 1 diabetes mellitus. Better designed studies using effective 
+assays are needed to resolve this important issue.
+
+DOI: 10.1111/j.1464-5491.2004.01182.x
+PMID: 15154932 [Indexed for MEDLINE]

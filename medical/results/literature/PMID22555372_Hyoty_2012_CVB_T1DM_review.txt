@@ -1,0 +1,43 @@
+1. Acta Pharmacol Sin. 2012 May;33(5):701-9. doi: 10.1038/aps.2012.13.
+
+Prostanoid EP1 receptor as the target of (-)-epigallocatechin-3-gallate in 
+suppressing hepatocellular carcinoma cells in vitro.
+
+Jin J(1), Chang Y, Wei W, He YF, Hu SS, Wang D, Wu YJ.
+
+Author information:
+(1)Institute of Clinical Pharmacology, Anhui Medical University, Key Laboratory 
+of Anti-inflammatory and Immunopharmacology of the Education Ministry of China, 
+Hefei, China.
+
+AIM: To investigate the effects of (-)-epigallocatechin-3-gallate (EGCG), an 
+active compound in green tea, on prostaglandin E(2) (PGE(2))-induced 
+proliferation and migration, and the expression of prostanoid EP(1) receptors in 
+hepatocellular carcinoma (HCC) cells.
+METHODS: HCC cell line HepG2, human hepatoma cell lines MHCC-97L, MHCC-97H and 
+human hepatocyte cell line L02 were used. Cell viability was analyzed using MTT 
+assay. PGE(2) production was determined with immunoassay. Wound healing assay 
+and transwell filter assay were employed to assess the extent of HCC cell 
+migration. The expression of EP(1) receptor and Gq protein were examined using 
+Western blot assay.
+RESULTS: PGE(2) (4-40000 nmol/L) or the EP(1) receptor agonist ONO-DI-004 
+(400-4000 nmol/L) increased the viability and migration of HepG2 cells in 
+concentration-dependent manners. EGCG (100 μg/mL) significantly inhibited the 
+viability and migration of HepG2 cells induced by PGE(2) or ONO-DI-004. HepG2 
+cells secreted an abundant amount of PGE(2) into the medium, and EGCG (100 
+μg/mL) significantly inhibited the PGE(2)production and EP(1) receptor 
+expression in HepG2 cells. EGCG (100 μg/mL) also inhibited the viability of 
+MHCC-97L cells, but not that of MHCC-97H cells. Both EGCG (100 μg/mL) and EP(1) 
+receptor antagonist ONO-8711 inhibited PGE(2) 4 μmol/L and ONO-DI-004 400 
+nmol/L-induced growth and migration of HepG2 cells. Both EGCG (100 μg/mL) and 
+ONO-8711 210 nmol/L inhibited PGE(2)- and ONO-DI-004-induced EP(1) expression. 
+EGCG and ONO-8711 had synergistic effects in inhibiting EP(1) receptor 
+expression. PGE(2), ONO-DI-004, ONO-8711, and EGCG had no effects on Gq 
+expression in HepG2 cells, respectively.
+CONCLUSION: These findings suggest that the anti-HCC effects of EGCG might be 
+mediated, at least partially, through the suppressing EP(1) receptor expression 
+and PGE(2) production.
+
+DOI: 10.1038/aps.2012.13
+PMCID: PMC4010354
+PMID: 22555372 [Indexed for MEDLINE]

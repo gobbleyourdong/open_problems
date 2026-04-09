@@ -1,0 +1,32 @@
+1. Trends Mol Med. 2024 Nov;30(11):1020-1027. doi: 10.1016/j.molmed.2024.06.011. 
+Epub 2024 Jul 13.
+
+Virus as the cause of type 1 diabetes.
+
+Dahl-Jørgensen K(1).
+
+Author information:
+(1)Pediatric Department, Oslo University Hospital and Institute of Clinical 
+Medicine, Faculty of Medicine, University of Oslo, Oslo, Norway. Electronic 
+address: knut.dahl-jorgensen@medisin.uio.no.
+
+Type 1 diabetes (T1D), a severe disease requiring intensive insulin treatment, 
+carries an increased risk for complications and reduced lifespan. Certain 
+viruses have been implicated in T1D's etiology, with 'live', replicating 
+enteroviruses (EVs) recently found in the pancreas at diagnosis. This discovery 
+prompted a trial to slow down disease progression using antiviral drugs. A 
+6-month treatment combining pleconaril and ribavirin in new-onset T1D patients 
+preserved residual insulin production after 1 year, unlike placebo. The results 
+support the theory that viruses may cause T1D in genetically susceptible 
+individuals. A low-grade, persistent viral infection may initiate a cascade of 
+pathogenic mechanisms initially involving the innate immune system, inducing 
+β-cell stress and neoantigen release, leading to autoimmunity, and eventually 
+the destruction of insulin-producing β-cells.
+
+Copyright © 2024 The Author. Published by Elsevier Ltd.. All rights reserved.
+
+DOI: 10.1016/j.molmed.2024.06.011
+PMID: 39003200 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of interests The author has no 
+conflicts of interest to declare.

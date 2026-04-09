@@ -73,9 +73,9 @@ The gradient correlation (1/2)⟨chair⟩ - (1/4)⟨plaq·plaq⟩ is:
 BOTH strong and weak coupling.** The sign is a delicate O(c³) or O(1/β)
 effect.
 
-## Does the numerical track's Argument Survive?
+## Does the Odd Instance's Argument Survive?
 
-The numerical track's claim was: "character expansion for connected loops has
+The Odd instance's claim was: "character expansion for connected loops has
 all positive terms, so ⟨Tr(chair)⟩ > 0." This is TRUE but INSUFFICIENT.
 We need (1/2)⟨chair⟩ > (1/4)⟨plaq·plaq⟩, which is a COMPARISON, not just
 positivity.
@@ -89,7 +89,7 @@ disconnected quantities, and their relative size determines the sign.
 doesn't apply — both terms are gauge-invariant). The gradient correlation
 has a leading-order cancellation, and the sign depends on subleading terms.
 
-The numerical track's numerical results (pattern_033: Δ(t) ≥ 0 at all times)
+The Odd instance's numerical results (pattern_033: Δ(t) ≥ 0 at all times)
 suggest the gradient correlation IS positive, but the proof is not in hand.
 
 ## What Would Close It
@@ -99,7 +99,7 @@ Need to prove: (2a - b) > 0 at weak coupling, where:
   b = (d/dβ) ⟨Tr(U_P)Tr(U_Q†)⟩
 
 This is a COMPUTABLE quantity in perturbation theory (Feynman diagrams
-in lattice perturbation theory). The numerical track should compute it.
+in lattice perturbation theory). The Odd instance should compute it.
 
 At strong coupling: need the O(c³) term in the character expansion.
 This involves 3-plaquette tilings of the minimal surface bounded by
@@ -112,10 +112,10 @@ The combinatorics of the tiling determines the sign.
 leading-order cancellation. The sign depends on subleading terms that
 need explicit computation.
 
-The numerical track's numerical evidence (Δ(t) ≥ 0) is still valid and
-suggests the sign is correct. But the theory track's "proof" was wrong.
+The Odd instance's numerical evidence (Δ(t) ≥ 0) is still valid and
+suggests the sign is correct. But the Even instance's "proof" was wrong.
 
-**For numerical track**: Compute the gradient correlation
+**For Odd Instance**: Compute the gradient correlation
 (1/2)⟨Tr(chair)⟩ - (1/4)⟨Tr(P)Tr(Q†)⟩ numerically at various β.
 Track its sign. If always positive: the Langevin argument works but
 needs a proof of the subleading sign.

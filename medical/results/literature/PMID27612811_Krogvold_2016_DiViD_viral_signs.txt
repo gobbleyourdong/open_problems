@@ -1,0 +1,40 @@
+1. Mater Sci Eng C Mater Biol Appl. 2016 Dec 1;69:1137-46. doi: 
+10.1016/j.msec.2016.08.012. Epub 2016 Aug 5.
+
+Fabrication of hydrogel based nanocomposite scaffold containing bioactive glass 
+nanoparticles for myocardial tissue engineering.
+
+Barabadi Z(1), Azami M(1), Sharifi E(2), Karimi R(1), Lotfibakhshaiesh N(1), 
+Roozafzoon R(1), Joghataei MT(3), Ai J(4).
+
+Author information:
+(1)Department of Tissue Engineering and Applied Cell Sciences, School of 
+Advanced Technologies in Medicine, Tehran University of Medical Sciences, 
+Tehran, Iran.
+(2)Cellular and Molecular Research Center, Shahrekord University of Medical 
+Sciences, Shahrekord, Iran.
+(3)Anatomy Department, Iran University of Medical Sciences, Tehran, Iran.
+(4)Department of Tissue Engineering and Applied Cell Sciences, School of 
+Advanced Technologies in Medicine, Tehran University of Medical Sciences, 
+Tehran, Iran; Brain and Spinal Injury Research Center, Tehran University of 
+Medical Sciences, Tehran, Iran. Electronic address: jafar_ai@tums.ac.ir.
+
+Selecting suitable cell sources and angiogenesis induction are two important 
+issues in myocardial tissue engineering. Human endometrial stromal cells (EnSCs) 
+have been introduced as an abundant and easily available resource in 
+regenerative medicine. Bioactive glass is an agent that induces angiogenesis and 
+has been studied in some experiments. The aim of this study was to investigate 
+in vitro differentiation capacity of endometrial stem cells into cardiomyocyte 
+lineage and to evaluate capability of bioactive glass nanoparticles toward EnSCs 
+differentiation into endothelial lineage and angiogenesis on hydrogel scaffold. 
+Our findings suggests that endometrial stem cells could be programmed into 
+cardiomyocyte linage and considered a suitable cell source for myocardial 
+regeneration. This experiment also revealed that inclusion of bioactive glass 
+nanoparticles in hydrogel scaffold could improve angiogenesis through 
+differentiating EnSCs toward endothelial lineage and increasing level of 
+vascular endothelial growth factor secretion.
+
+Copyright © 2016 Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.msec.2016.08.012
+PMID: 27612811 [Indexed for MEDLINE]

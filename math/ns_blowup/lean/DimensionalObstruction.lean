@@ -37,7 +37,7 @@ theorem four_modes_have_nontrivial_overlap
 
 /-! ## The Dimensional Obstruction for N=4
 
-The worst case found by the numerical track:
+The worst case found by the Odd instance:
   k₁ · k₂ = +1 (non-zero)
   k₁ · k₃ = -1 (non-zero)
   k₁ · k₄ = -1 (non-zero)

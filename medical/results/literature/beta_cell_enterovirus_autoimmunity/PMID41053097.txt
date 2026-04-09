@@ -1,0 +1,68 @@
+1. Nat Commun. 2025 Oct 6;16(1):8882. doi: 10.1038/s41467-025-64508-6.
+
+The Hippo terminal effector YAP boosts enterovirus replication in type 1 
+diabetes.
+
+Geravandi S(#)(1), Liu H(#)(1), Pahwa H(#)(1), Madduri MK(#)(1), Atawneh F(1), 
+Miraki Feriz A(2), Rafizadeh S(1), Kruf AE(1), Khazaei M(1), Bahrami P(1), Gotti 
+D(1), Elawour M(1), Elgamal RM(3), Grasso AM(1), Bund D(1), Lupse B(1), Azizi 
+Z(1)(4), Zabad O(1), Bouzakri K(5), Horwitz M(6), Pugliese A(7)(8)(9), Maedler 
+K(10), Ardestani A(11)(12).
+
+Author information:
+(1)University of Bremen, Islet Biology Laboratory, Centre for Biomolecular 
+Interactions Bremen, Bremen, Germany.
+(2)Wellcome Trust Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, 
+UK.
+(3)Biomedical Sciences Graduate Program, University of California, San Diego, La 
+Jolla, CA, USA.
+(4)Department of Molecular Medicine, School of Advanced Technologies in 
+Medicine, Tehran University of Medical Sciences, Tehran, Iran.
+(5)UMR DIATHEC, EA 7294, Centre Européen d'Etude du Diabète, Université de 
+Strasbourg, Fédération de Médecine Translationnelle de Strasbourg, Strasbourg, 
+France.
+(6)Department of Microbiology and Immunology, University of British Columbia 
+Vancouver, Vancouver, Canada.
+(7)Diabetes Research Institute, Department of Medicine, Division of 
+Endocrinology and Metabolism, Miami, FL, USA.
+(8)Department of Microbiology and Immunology, Leonard Miller School of Medicine, 
+University of Miami, Miami, FL, USA.
+(9)Department of Diabetes Immunology & The Wanek Family Project for Type 1 
+Diabetes, Arthur Riggs Diabetes & Metabolism Research Institute, City of Hope, 
+Duarte, CA, USA.
+(10)University of Bremen, Islet Biology Laboratory, Centre for Biomolecular 
+Interactions Bremen, Bremen, Germany. kmaedler@uni-bremen.de.
+(11)University of Bremen, Islet Biology Laboratory, Centre for Biomolecular 
+Interactions Bremen, Bremen, Germany. Amin.Ardestani@hyms.ac.uk.
+(12)Biomedical Institute for Multimorbidity (BIM), Centre for Biomedicine, Hull 
+York Medical School (HYMS), University of Hull, Hull, UK. 
+Amin.Ardestani@hyms.ac.uk.
+(#)Contributed equally
+
+Type 1 diabetes (T1D) risk has been associated with enteroviral infections, 
+particularly coxsackieviruses B (CVB). Cellular host factors contributing to 
+virus-induced islet autoimmunity remain unclear. We show that the Hippo pathway 
+effector Yes-associated Protein (YAP) is markedly upregulated in the exocrine 
+and endocrine pancreas of T1D and at-risk autoantibody-positive (AAb+) donors, 
+along with its target CTGF. YAP expression correlates with CVB RNA presence, 
+often in or near infected cells. YAP overexpression enhances CVB replication, 
+islet inflammation, and β-cell apoptosis, whereas its inhibition halts viral 
+replication in primary and immortalized pancreatic cells. In exocrine-islet 
+co-cultures, CVB triggers YAP and target gene expression. In mice, chronic 
+β-cell YAP expression impairs glucose tolerance, abolishes insulin secretion, 
+and promotes β-cell dedifferentiation. Mechanistically, YAP, in complex with its 
+transcription factor TEAD, induces its own negative regulator MST1. MST1 
+inhibition boosts viral replication and reduces β-cell apoptosis, constituting a 
+negative feedback loop in which the reciprocal antagonism between YAP and MST1 
+balances viral replication and β-cell death during CVB infections. YAP is thus 
+an important host factor for enteroviral amplification, offering a potential 
+antiviral target in T1D.
+
+© 2025. The Author(s).
+
+DOI: 10.1038/s41467-025-64508-6
+PMCID: PMC12500894
+PMID: 41053097 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: The authors declare no 
+competing interests.

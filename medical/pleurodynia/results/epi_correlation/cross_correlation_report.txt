@@ -1,0 +1,35 @@
+CVB EPIDEMIC ↔ T1DM CROSS-CORRELATION: RESULTS
+============================================================
+
+PEAK CROSS-CORRELATIONS (CVB epidemic signal → T1DM ROC)
+----------------------------------------
+  Finland     τ=4yr  r=+0.111  p=0.4174    
+  Sweden      τ=0yr  r=+0.074  p=0.5937    
+  USA         τ=3yr  r=+0.439  p=0.0037  **
+
+SUSCEPTIBILITY ORDERING (Fin > Swe > USA)
+  Confirmed: False
+  Spearman ρ = -0.500  p = 0.6667
+
+GRANGER CAUSALITY (does CVB predict T1DM ROC?)
+  Finland: min p-value across lags = 0.8311
+  Sweden: min p-value across lags = 0.1002
+  USA: min p-value across lags = 0.1449
+
+SEASONAL ANALYSIS
+  CVB (summer peak) leads T1DM diagnosis (winter peak) by ~3 months
+  Lag-3mo cross-correlation: r=0.668  p=0.0176
+
+BORNHOLM ISLAND 1952
+  Massive CVB epidemic 1952
+  T1DM ROC peak: 1954 (lag = 2 years)
+
+PUBMED SEARCH (Bornholm CVB-T1DM Danish papers)
+  Records found: 8
+  [2025 Oct] Doughnut Sign: A Mixed Plaque Phenotype Unraveled Only by the Photon Counting
+  [2025 Jun] Enterovirus VP1 protein and HLA class I hyperexpression in pancreatic islet cell
+  [2024 Mar 8] Coxsackievirus infection induces direct pancreatic beta cell killing but poor
+  [2023 Nov] Serum neurofilament light chain - A potential biomarker for polyneuropathy in
+  [2022 Apr 17] Peptide Antibody Reactivity to Homologous Regions in Glutamate Decarboxylase
+
+[* p<0.05; ** p<0.01]

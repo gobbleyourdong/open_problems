@@ -1,0 +1,509 @@
+{
+  "metadata": {
+    "title": "CVB Disease Network — Machine-Readable Compendium",
+    "generated": "2026-04-08",
+    "version": "1.0",
+    "source_data": "/home/jb/medical_problems/results/",
+    "instance": "ODD (numerics lane)",
+    "description": "All 12 CVB-associated diseases with epidemiology, serotype connections, shared mechanisms, and protocol coverage. Built from cross-disease burden models, serotype tropism analysis, and GEO/SRA literature searches."
+  },
+  "global_burden": {
+    "cvb_annual_new_cases_all_diseases": 3391600,
+    "cvb_prevalent_cases_all_diseases": 13811600,
+    "cvb_annual_deaths_all_diseases": 409191,
+    "total_dalys": 41685634,
+    "yll_total": 15451425,
+    "yld_total": 26234209,
+    "economic_burden_usd_annual": 536090750000,
+    "vaccine_dalys_averted_if_deployed": 31314176,
+    "vaccine_pct_of_total_dalys": 75.1,
+    "vaccine_deaths_prevented": 345161,
+    "fluoxetine_fmd_dalys_reduced": 8805032,
+    "fluoxetine_fmd_pct_of_total_dalys": 21.1,
+    "source": "cross_disease_burden_results.json, epidemiology_all_diseases.json"
+  },
+  "serotype_danger_ranking": {
+    "CVB3": {
+      "rank": 1,
+      "danger_score": 2.93,
+      "normalized_pct": 100,
+      "primary_threat": "Cardiac death/disability (myocarditis, DCM)",
+      "top_diseases": ["Myocarditis", "DCM", "Pericarditis", "Pleurodynia"]
+    },
+    "CVB4": {
+      "rank": 2,
+      "danger_score": 2.58,
+      "normalized_pct": 88,
+      "primary_threat": "Lifelong T1DM, neonatal sepsis mortality",
+      "top_diseases": ["T1DM", "Neonatal_Sepsis", "Pancreatitis", "Hepatitis"]
+    },
+    "CVB1": {
+      "rank": 3,
+      "danger_score": 2.10,
+      "normalized_pct": 72,
+      "primary_threat": "Pancreatitis, hepatitis, neonatal liver failure",
+      "top_diseases": ["Pancreatitis", "Hepatitis", "Neonatal_Sepsis"]
+    },
+    "CVB2": {
+      "rank": 4,
+      "danger_score": 2.08,
+      "normalized_pct": 71,
+      "primary_threat": "Meningitis, encephalitis, myocarditis",
+      "top_diseases": ["Aseptic_Meningitis", "Encephalitis", "Myocarditis"]
+    },
+    "CVB5": {
+      "rank": 5,
+      "danger_score": 1.84,
+      "normalized_pct": 63,
+      "primary_threat": "ME/CFS disability, orchitis reservoir",
+      "top_diseases": ["ME_CFS", "Orchitis", "Pleurodynia"]
+    }
+  },
+  "serotype_tropism_matrix": {
+    "description": "Quantitative tropism scores (0.0 = never; 1.0 = primary target). Source: pattern_010_serotype_disease_map.md",
+    "diseases": {
+      "T1DM":             {"CVB1": 0.55, "CVB2": 0.15, "CVB3": 0.20, "CVB4": 0.90, "CVB5": 0.10, "dominant": "CVB4"},
+      "Pancreatitis":     {"CVB1": 0.80, "CVB2": 0.15, "CVB3": 0.25, "CVB4": 0.70, "CVB5": 0.10, "dominant": "CVB1"},
+      "Myocarditis":      {"CVB1": 0.15, "CVB2": 0.55, "CVB3": 0.90, "CVB4": 0.20, "CVB5": 0.25, "dominant": "CVB3"},
+      "DCM":              {"CVB1": 0.05, "CVB2": 0.25, "CVB3": 0.70, "CVB4": 0.10, "CVB5": 0.10, "dominant": "CVB3"},
+      "Pericarditis":     {"CVB1": 0.10, "CVB2": 0.40, "CVB3": 0.55, "CVB4": 0.15, "CVB5": 0.15, "dominant": "CVB3"},
+      "Pleurodynia":      {"CVB1": 0.30, "CVB2": 0.20, "CVB3": 0.50, "CVB4": 0.15, "CVB5": 0.75, "dominant": "CVB5"},
+      "Hepatitis":        {"CVB1": 0.65, "CVB2": 0.20, "CVB3": 0.15, "CVB4": 0.55, "CVB5": 0.10, "dominant": "CVB1"},
+      "Aseptic_Meningitis":{"CVB1": 0.20, "CVB2": 0.70, "CVB3": 0.30, "CVB4": 0.25, "CVB5": 0.60, "dominant": "CVB2"},
+      "Encephalitis":     {"CVB1": 0.05, "CVB2": 0.20, "CVB3": 0.10, "CVB4": 0.10, "CVB5": 0.15, "dominant": "CVB2"},
+      "Orchitis":         {"CVB1": 0.05, "CVB2": 0.10, "CVB3": 0.10, "CVB4": 0.15, "CVB5": 0.60, "dominant": "CVB5"},
+      "ME_CFS":           {"CVB1": 0.15, "CVB2": 0.25, "CVB3": 0.40, "CVB4": 0.20, "CVB5": 0.55, "dominant": "CVB5"},
+      "Neonatal_Sepsis":  {"CVB1": 0.40, "CVB2": 0.30, "CVB3": 0.35, "CVB4": 0.45, "CVB5": 0.20, "dominant": "CVB4"}
+    }
+  },
+  "shared_mechanisms": {
+    "2A_protease": {
+      "description": "CVB 2A protease cleaves host structural proteins — dystrophin in cardiomyocytes, eIF4GI in all infected cells",
+      "diseases_affected": ["Myocarditis", "DCM", "T1DM", "Neonatal_Sepsis"],
+      "significance": "Primary driver of cytolytic damage; TD mutants continuously produce 2A protease at low levels, causing slow chronic damage"
+    },
+    "3C_protease": {
+      "description": "CVB 3C protease cleaves MAVS, RIG-I, and innate immune signaling components",
+      "diseases_affected": ["All_12_diseases"],
+      "significance": "Enables immune evasion — disrupts innate antiviral response; explains why infections can persist"
+    },
+    "TD_mutants": {
+      "description": "5-terminally deleted CVB RNA — replication incompetent but persistence competent; immune cells cannot recognize or clear them",
+      "diseases_affected": ["T1DM", "Myocarditis", "DCM", "ME_CFS", "Orchitis"],
+      "significance": "THE mechanism of chronic CVB disease. TD mutants drive slow autoimmune priming. Established when viral load exceeds organ-specific critical threshold before adaptive immunity clears wild-type virus",
+      "critical_persistence_thresholds_cells": {
+        "neonatal_multi_organ": 14,
+        "pancreatic_beta_cells": 74,
+        "cardiomyocytes": 83,
+        "skeletal_muscle": 105,
+        "testicular_tissue": 134,
+        "pericardium": 253,
+        "meninges": 324,
+        "hepatocytes": 362,
+        "brain_parenchyma": 378
+      }
+    },
+    "molecular_mimicry": {
+      "description": "CVB capsid and non-structural protein sequences share homology with host proteins — triggers autoimmunity",
+      "examples": {
+        "T1DM": "CVB4 VP1 ~ GAD65 epitopes; insulin peptide mimicry",
+        "Myocarditis": "CVB3 epitopes ~ cardiac myosin heavy chain",
+        "DCM": "Anti-dystrophin antibodies post-myocarditis"
+      },
+      "diseases_affected": ["T1DM", "Myocarditis", "DCM"]
+    },
+    "NLRP3_inflammasome": {
+      "description": "CVB infection activates NLRP3 inflammasome — IL-1beta, IL-18 release drives acute inflammation",
+      "diseases_affected": ["Pericarditis", "Myocarditis", "Pancreatitis", "Encephalitis"],
+      "therapeutic_relevance": "Colchicine blocks NLRP3 — explains efficacy in pericarditis (NNT=4 in COPE trial). May have utility across all NLRP3-driven CVB diseases"
+    },
+    "CAR_receptor": {
+      "description": "Coxsackievirus-Adenovirus Receptor (CAR) — primary CVB entry receptor expressed at intercalated discs, islet beta cells, neurons",
+      "receptor_density_ranking": ["Beta_cells(0.90)", "Cardiomyocytes(0.85)", "Neurons(0.65)", "Hepatocytes(0.40)", "Skeletal_muscle(0.35)"],
+      "significance": "CAR density determines initial infection efficiency — beta cells and cardiomyocytes have highest CAR expression, explaining why T1DM and myocarditis are the dominant chronic outcomes"
+    },
+    "IFN_evasion": {
+      "description": "CVB suppresses type I interferon response via 3C protease cleavage of IRF3/MAVS",
+      "significance": "The critical window for antiviral treatment is within the first 48 hours, before TD mutant formation. IFN delay determines degree of TD accumulation. Fluoxetine and IVIG work by restoring innate immunity and reducing viral load within this window"
+    }
+  },
+  "diseases": {
+    "T1DM": {
+      "full_name": "Type 1 Diabetes Mellitus",
+      "cvb_serotypes_primary": ["CVB4", "CVB1"],
+      "cvb_serotypes_secondary": ["CVB3", "CVB2"],
+      "cvb_attributable_fraction_pct": 35,
+      "epidemiology": {
+        "annual_new_cases_cvb_attributable": 189000,
+        "prevalent_cases_cvb_attributable": 2940000,
+        "annual_deaths_cvb_attributable": 17500,
+        "total_dalys": 2308152,
+        "economic_burden_usd_annual": 23520000000,
+        "global_t1dm_prevalence": 9000000,
+        "incidence_per_100k_year": 15,
+        "source": "IDF Diabetes Atlas 2022, cross_disease_burden_results.json"
+      },
+      "target_organ": "Pancreatic beta cells (Islets of Langerhans)",
+      "mechanism": "CVB4/1 infects beta cells via high-density CAR → TD mutants form (critical threshold: 74 cells) → 2A/3C proteases damage beta cells → molecular mimicry (GAD65/VP1) → HLA-DR3/DR4-mediated autoreactive T cell response → insulitis → progressive beta cell destruction",
+      "persistence_probability": 0.547,
+      "biomarkers": ["C-peptide", "GAD65-Ab", "IA-2-Ab", "ZnT8-Ab", "Insulin-Ab"],
+      "hla_risk": "DR3-DQ2/DR4-DQ8 compound het: OR 15-20 (highest risk); DQ6: OR 0.03 (strongly protective)",
+      "current_treatments": ["Insulin (management only)", "Teplizumab (delays onset ~2yr)", "Islet transplant (Edmonton)", "VX-880 stem cells (Phase 1/2)"],
+      "protocol_components": ["Fluoxetine 20mg", "FMD (5-day cycles)", "Colchicine 0.5mg", "IVIG 0.4g/kg (acute)", "Vitamin D optimization"],
+      "protocol_clearance_time_months": {"female": 7, "male": 9},
+      "research_gap": "Clinical validation in humans — C-peptide threshold for R>D inequality reversal. No human has received the full protocol.",
+      "geo_datasets": ["GSE274264", "GSE278756", "GSE247808", "GSE247807", "GSE247806", "GSE247805", "GSE214851", "GSE184831"],
+      "open_problems_dir": "/home/jb/open_problems/medical/t1dm/"
+    },
+    "Myocarditis": {
+      "full_name": "Viral Myocarditis",
+      "cvb_serotypes_primary": ["CVB3", "CVB2"],
+      "cvb_serotypes_secondary": ["CVB1", "CVB4"],
+      "cvb_attributable_fraction_pct": 50,
+      "epidemiology": {
+        "annual_new_cases_cvb_attributable": 900000,
+        "prevalent_cases_cvb_attributable": 1050000,
+        "annual_deaths_cvb_attributable": 175000,
+        "total_dalys": 6544125,
+        "economic_burden_usd_annual": 45000000000,
+        "source": "GBD 2019, cross_disease_burden_results.json"
+      },
+      "target_organ": "Cardiomyocytes (intercalated discs — high CAR density)",
+      "mechanism": "CVB3 via CAR at intercalated discs → 2A protease cleaves dystrophin → DGC disassembly → sarcolemma tears → acute cytolysis + immune infiltration → molecular mimicry with cardiac myosin → if TD mutants establish (threshold: 83 cells): chronic damage → DCM",
+      "persistence_probability": 0.541,
+      "biomarkers": ["Troponin I/T", "BNP/NT-proBNP", "Cardiac MRI (LGE)", "Echocardiogram LVEF"],
+      "disease_network_position": "Keystone disease — disrupting myocarditis disconnects 57.4% of all disease cascade paths",
+      "hla_risk": "DQ5: OR ~2.5; DR3/DR4: OR ~0.5 (PROTECTIVE — HLA paradox)",
+      "current_treatments": ["NSAIDs (acute)", "ACE inhibitors", "Beta blockers", "IFN-beta (Kuhl precedent, off-label)", "Heart transplant (end-stage DCM)"],
+      "protocol_components": ["Fluoxetine 20mg", "FMD cycles", "IVIG", "Colchicine 0.5mg"],
+      "protocol_clearance_time_months": 4.5,
+      "research_gap": "Timing is critical — pre-fibrotic vs post-fibrotic window. Cardiac MRI needed to determine reversibility.",
+      "geo_datasets": ["GSE261940", "GSE248521", "GSE174458", "GSE57781", "GSE35182", "GDS4436", "GDS4311", "GSE19496", "GDS1032"],
+      "open_problems_dir": "/home/jb/open_problems/medical/myocarditis/"
+    },
+    "DCM": {
+      "full_name": "Dilated Cardiomyopathy (CVB-induced)",
+      "cvb_serotypes_primary": ["CVB3", "CVB4"],
+      "cvb_attributable_fraction_pct": 30,
+      "epidemiology": {
+        "annual_new_cases_cvb_attributable": 174000,
+        "prevalent_cases_cvb_attributable": 870000,
+        "annual_deaths_cvb_attributable": 87000,
+        "total_dalys": 4487808,
+        "economic_burden_usd_annual": 261000000000,
+        "source": "cross_disease_burden_results.json"
+      },
+      "target_organ": "Myocardium (progressive chamber dilation)",
+      "mechanism": "End-stage of myocarditis when TD mutants persist. 2A protease continuously cleaves dystrophin at hinge 3 → DGC collapse → sarcolemma tears with each contraction → cardiomyocyte death → fibrosis → chamber dilation → systolic dysfunction. Heart has near-zero regenerative capacity.",
+      "persistence_probability": 0.541,
+      "biomarkers": ["Echocardiogram LVEF (<40%)", "BNP", "Cardiac MRI fibrosis quantification", "Anti-dystrophin antibodies"],
+      "hla_risk": "DQ5: OR ~2.8; DR4: OR ~0.5 (protective)",
+      "current_treatments": ["ACE inhibitors/ARBs", "Beta blockers", "Diuretics", "ICD/CRT devices", "Heart transplant"],
+      "protocol_components": ["Fluoxetine 20mg (rate reduction — 2A production suppression)", "FMD cycles"],
+      "research_gap": "DCM is rate problem: 2A protease production is LOW but CONTINUOUS. Protocol stops progression but cannot reverse existing fibrosis. Need: (1) anti-fibrotic agents, (2) cardiomyocyte regeneration.",
+      "geo_datasets": ["GSE35182", "GDS4436", "GDS4311"],
+      "open_problems_dir": "/home/jb/open_problems/medical/dilated_cardiomyopathy/"
+    },
+    "ME_CFS": {
+      "full_name": "Myalgic Encephalomyelitis / Chronic Fatigue Syndrome",
+      "cvb_serotypes_primary": ["CVB5", "CVB3", "CVB2"],
+      "cvb_attributable_fraction_pct": 42,
+      "epidemiology": {
+        "annual_new_cases_cvb_attributable": 357000,
+        "prevalent_cases_cvb_attributable": 7140000,
+        "annual_deaths_cvb_attributable": 0,
+        "total_dalys": 17802876,
+        "disability_weight": 0.274,
+        "economic_burden_usd_annual": 178500000000,
+        "us_prevalence": 2500000,
+        "ev_positive_pct_mecfs_vs_9pct_controls": 42,
+        "source": "IOM/NAM 2015, mecfs_cvb_burden_analysis.json, cross_disease_burden_results.json"
+      },
+      "target_organ": "Multi-organ: skeletal muscle, CNS, gut barrier, autonomic nervous system",
+      "mechanism": "CVB infects skeletal muscle + CNS → TD mutants persist in multiple compartments → chronic IFN activation + NLRP3 → mitochondrial dysfunction → AMPK suppression → reduced autophagy → more TD persistence (vicious cycle). Hallmark: post-exertional malaise.",
+      "vicious_cycle": "Fatigue → less activity → less AMPK → less autophagy → more TD mutants → more inflammation → more fatigue",
+      "persistence_probability": 0.512,
+      "biomarkers": ["No FDA-approved biomarker", "NK cell function (reduced)", "Autonomic tilt table test", "Muscle biopsy (enteroviral RNA PCR)"],
+      "hla_risk": "DR4/DQ3: mild risk (OR ~1.5); weaker HLA association than T1DM/cardiac",
+      "current_treatments": ["No FDA-approved treatment", "Pacing/energy management", "Graded exercise (controversial — harms many patients)", "Rintatolimod (Phase 3, failed primary endpoint)"],
+      "protocol_components": ["Fluoxetine 20mg", "FMD cycles", "Low-intensity aerobic exercise (paced)", "IVIG (in severe cases)"],
+      "research_gap": "Multiple organs affected simultaneously. No validated biomarker. Cannot measure treatment response without biomarker. Protocol breaks the vicious cycle at every node but human data absent.",
+      "geo_datasets": [],
+      "open_problems_dir": "/home/jb/open_problems/medical/me_cfs/"
+    },
+    "Aseptic_Meningitis": {
+      "full_name": "Aseptic Meningitis (Enteroviral/CVB)",
+      "cvb_serotypes_primary": ["CVB2", "CVB5", "CVB1"],
+      "cvb_attributable_fraction_pct": 29.75,
+      "epidemiology": {
+        "annual_incidence_per_100k": 2.0,
+        "global_annual_cases_total_aseptic": 1584000,
+        "annual_new_cases_cvb_attributable": 470000,
+        "annual_deaths_cvb_attributable": 2350,
+        "total_dalys": 109745,
+        "economic_burden_usd_annual": 3055000000,
+        "enterovirus_fraction_all_viral_meningitis_pct": 85,
+        "source": "Khetsuriani 2006 (CDC), epidemiology_all_diseases.json"
+      },
+      "target_organ": "Meninges (brain/spinal cord membranes)",
+      "mechanism": "Enterovirus CNS invasion via DAF → choroid plexus transcytosis → CSF dissemination → meningeal inflammation. Usually self-limiting in immunocompetent adults. More severe in neonates and immunocompromised.",
+      "persistence_probability": 0.392,
+      "biomarkers": ["CSF pleocytosis (lymphocytic)", "CSF enteroviral PCR", "Blood transcriptomics (GSE133378 — 476-sample validation)"],
+      "current_treatments": ["Supportive only", "IVIG in neonates/immunocompromised", "No antiviral approved"],
+      "protocol_components": ["Fluoxetine (antiviral effect)", "IVIG (in severe/neonatal cases)"],
+      "research_gap": "Blood transcriptomic diagnosis vs lumbar puncture (GSE133378 dataset exists, n=476 — largest human dataset for this disease). CVB fraction underdiagnosed — rarely typed.",
+      "geo_datasets": ["GSE269413", "GSE146890", "GSE133378", "GSE15323"],
+      "open_problems_dir": "/home/jb/open_problems/medical/aseptic_meningitis/"
+    },
+    "Encephalitis": {
+      "full_name": "Enteroviral/CVB Encephalitis",
+      "cvb_serotypes_primary": ["CVB3", "CVB4"],
+      "cvb_attributable_fraction_pct": 20,
+      "epidemiology": {
+        "annual_incidence_per_100k_cvb_specific": 0.15,
+        "annual_new_cases_cvb_attributable": 118600,
+        "annual_deaths_cvb_attributable": 8895,
+        "total_dalys": 492842,
+        "economic_burden_usd_annual": 10081000000,
+        "mortality_pct": 7.5,
+        "source": "Hosoya 2007, epidemiology_all_diseases.json"
+      },
+      "target_organ": "Brain parenchyma",
+      "mechanism": "CVB crosses BBB via infected monocytes (Trojan horse) and/or direct endothelial infection → parenchymal inflammation → neuronal necrosis. More serious than meningitis. Higher risk in neonates and immunocompromised.",
+      "persistence_probability": 0.360,
+      "biomarkers": ["MRI (T2 FLAIR lesions)", "CSF enteroviral PCR", "EEG"],
+      "current_treatments": ["Supportive only", "IVIG", "Acyclovir (empirical until HSV ruled out)"],
+      "protocol_components": ["IVIG (high priority)", "Fluoxetine"],
+      "research_gap": "No antiviral proven effective. Blood-brain barrier limits drug delivery. Neonatal encephalitis has up to 30% mortality — most urgent unmet need.",
+      "geo_datasets": ["GSE280993", "GSE273336"],
+      "open_problems_dir": "/home/jb/open_problems/medical/encephalitis/"
+    },
+    "Hepatitis": {
+      "full_name": "CVB Hepatitis (Acute + Neonatal)",
+      "cvb_serotypes_primary": ["CVB1", "CVB4", "CVB3"],
+      "cvb_attributable_fraction_pct": 100,
+      "epidemiology": {
+        "adult_annual_cases": 280000,
+        "neonatal_annual_cases": 90000,
+        "annual_new_cases_total": 370000,
+        "annual_deaths_cvb_attributable": 54500,
+        "total_dalys": 4582882,
+        "economic_burden_usd_annual": 5550000000,
+        "neonatal_mortality_fulminant_pct": 60,
+        "adult_disease": "Usually self-limiting — high regenerative capacity, good immune access",
+        "source": "WHO Global Hepatitis Report 2022, epidemiology_all_diseases.json"
+      },
+      "target_organ": "Hepatocytes",
+      "mechanism": "CVB uses CAR/DAF receptors on hepatocytes. Adults: mild self-limiting hepatitis (Kupffer cells + sinusoidal immune access clears virus effectively). Neonates: fulminant hepatic failure — immature immune system cannot clear before critical threshold exceeded (362 cells needed for persistence, but neonates have 72.5% persistence probability in multi-organ model).",
+      "persistence_probability_adult": 0.387,
+      "persistence_probability_neonatal": 0.725,
+      "biomarkers": ["ALT/AST elevation", "Bilirubin", "Liver ultrasound", "CVB PCR (rarely ordered)"],
+      "current_treatments": ["Supportive care", "IVIG in neonates", "Liver transplant (fulminant failure)"],
+      "protocol_components": ["IVIG (high priority in neonates)", "Fluoxetine (preventive)"],
+      "research_gap": "CVB rarely tested in hepatitis workup — true burden underestimated. Neonatal protocol needs maternal vaccination to be truly preventive.",
+      "geo_datasets": [],
+      "open_problems_dir": "/home/jb/open_problems/medical/hepatitis/"
+    },
+    "Pancreatitis": {
+      "full_name": "Viral Pancreatitis (CVB-attributable)",
+      "cvb_serotypes_primary": ["CVB1", "CVB4"],
+      "cvb_serotypes_secondary": ["CVB2", "CVB3", "CVB5"],
+      "cvb_attributable_fraction_pct": 7.5,
+      "epidemiology": {
+        "global_annual_acute_pancreatitis_cases": 2700000,
+        "incidence_per_100k_year": 34,
+        "annual_new_cases_cvb_attributable": 202500,
+        "annual_deaths_cvb_attributable": 4860,
+        "progression_to_severe_pct": 8,
+        "mortality_severe_pct": 30,
+        "economic_burden_usd_annual": 2430000000,
+        "t1dm_risk_elevation_after_cvb_pancreatitis": "2-4x",
+        "source": "Hyoty 2016 (Diabetologia), GBD 2019, epidemiology_all_diseases.json"
+      },
+      "target_organ": "Exocrine pancreas (acinar cells) + bystander islet damage",
+      "mechanism": "CVB1/B4 directly lyses acinar cells via replication; 2A/3C proteases activate trypsinogen cascade → autodigestion. Adjacent islets sustain bystander damage → T1DM risk elevation 2-4x. Distinct from T1DM autoimmune destruction.",
+      "persistence_probability": 0.547,
+      "biomarkers": ["Lipase/Amylase elevation", "CT scan (necrosis grading)", "Stool CVB PCR"],
+      "current_treatments": ["Supportive (IV fluids, NPO)", "ERCP if biliary", "Surgery (necrosis)"],
+      "protocol_components": ["Fluoxetine (antiviral — reduce viral replication in acinar cells)", "FMD (reduce NLRP3 activation)"],
+      "research_gap": "CVB typing not done in routine pancreatitis workup. Pancreatitis → T1DM causal pathway underappreciated. No transcriptomic GEO datasets available.",
+      "geo_datasets": [],
+      "open_problems_dir": "/home/jb/open_problems/medical/pancreatitis/"
+    },
+    "Pericarditis": {
+      "full_name": "Viral Pericarditis (CVB-attributable)",
+      "cvb_serotypes_primary": ["CVB3", "CVB2"],
+      "cvb_serotypes_secondary": ["CVB1", "CVB4", "CVB5"],
+      "cvb_attributable_fraction_pct": 21.3,
+      "epidemiology": {
+        "incidence_per_100k_year": 27.7,
+        "global_annual_cases_all_pericarditis": 2177000,
+        "annual_new_cases_cvb_attributable": 462000,
+        "recurrence_rate_without_colchicine_pct": 30,
+        "recurrence_rate_with_colchicine_pct": 15,
+        "nnt_colchicine": 4,
+        "cope_trial_n": 120,
+        "cope_trial_rrr_pct": 67,
+        "annual_deaths_cvb_attributable": 5082,
+        "total_dalys": 130469,
+        "economic_burden_usd_annual": 3927000000,
+        "source": "Imazio 2015 (Circulation), COPE trial, CORP trial, epidemiology_all_diseases.json"
+      },
+      "target_organ": "Pericardium (sac surrounding heart)",
+      "mechanism": "CVB infection of pericardial cells → NLRP3 inflammasome activation → IL-1beta → fibrinous exudate. 30% recurrence rate suggests incomplete viral clearance. Colchicine (NLRP3 blocker) — NNT=4 in COPE trial — provides strongest mechanistic validation for NLRP3 pathway.",
+      "biomarkers": ["CRP/ESR", "Troponin (if myopericarditis)", "Echo (effusion)", "Cardiac MRI"],
+      "colchicine_evidence": "COPE trial 2005 (Lancet): colchicine 10.7% vs placebo 32.3% recurrence (NNT=4.6). CORP trial 2011 confirms. Standard of care.",
+      "current_treatments": ["Colchicine 0.5mg BID (standard)", "NSAIDs", "Steroids (only if colchicine-refractory)"],
+      "protocol_components": ["Colchicine 0.5mg (ALREADY standard of care)", "Fluoxetine", "FMD cycles"],
+      "colchicine_applicable": true,
+      "research_gap": "Colchicine treats inflammation but not the underlying CVB infection. 15% still recur despite colchicine. Antiviral (fluoxetine) + colchicine combination not tested in RCT.",
+      "geo_datasets": [],
+      "open_problems_dir": "/home/jb/open_problems/medical/pericarditis/"
+    },
+    "Pleurodynia": {
+      "full_name": "Pleurodynia / Bornholm Disease / Devil's Grip",
+      "cvb_serotypes_primary": ["CVB5", "CVB3"],
+      "cvb_serotypes_secondary": ["CVB1", "CVB2"],
+      "cvb_attributable_fraction_pct": 100,
+      "epidemiology": {
+        "outbreak_periodicity_years": 4,
+        "attack_rate_during_epidemics_pct": 10,
+        "annual_new_cases_cvb_attributable": 38500,
+        "annual_deaths_cvb_attributable": 4,
+        "total_dalys": 75,
+        "economic_burden_usd_annual": 57750000,
+        "t1dm_temporal_association": "Richardson 2009 — pleurodynia in family members of T1DM patients; Gamble 1980 — pleurodynia epidemics precede T1DM incidence peaks by 1-3 years",
+        "source": "Epidemic records 1888-2019, epidemiology_all_diseases.json"
+      },
+      "target_organ": "Intercostal muscles and diaphragm",
+      "mechanism": "CVB infection of intercostal/diaphragmatic muscles → acute inflammatory myalgia. Self-limiting 2-14 days. NOT a pleural or pericardial disease despite name. Can recur. The virus implicated in pleurodynia (CVB5, CVB3) is the same virus that causes T1DM and myocarditis.",
+      "biomarkers": ["Clinical diagnosis", "CVB serology (rarely done)"],
+      "current_treatments": ["NSAIDs", "Heat application", "Supportive"],
+      "protocol_components": ["Fluoxetine (if recurrent or during epidemics)", "Colchicine (off-label for recurrent cases)"],
+      "disease_network_role": "#2 intervention target by disease network analysis — treating pleurodynia prevents 20% progression to ME/CFS",
+      "research_gap": "Pleurodynia epidemics are sentinel events for CVB circulation — a natural experiment linking CVB to T1DM. Epidemiological data from outbreak records exists but untapped for CVB serotyping.",
+      "geo_datasets": [],
+      "open_problems_dir": "/home/jb/open_problems/medical/pleurodynia/"
+    },
+    "Orchitis": {
+      "full_name": "Viral Orchitis (CVB-attributable)",
+      "cvb_serotypes_primary": ["CVB5", "CVB3"],
+      "cvb_attributable_fraction_pct": 25,
+      "epidemiology": {
+        "annual_new_cases_cvb_attributable": 20000,
+        "prevalent_cases": 60000,
+        "annual_deaths_cvb_attributable": 0,
+        "total_dalys": 3240,
+        "disability_weight": 0.036,
+        "economic_burden_usd_annual": 720000000,
+        "source": "cross_disease_burden_results.json"
+      },
+      "target_organ": "Testes",
+      "mechanism": "CVB infects testicular tissue. Blood-testis barrier (BTB) — lowest immune access (0.15) of any CVB target organ — shields virus from T cells, antibodies, and most drugs. Result: once established, testicular CVB is nearly impossible to clear naturally. Testes become a persistent reservoir that reseeds other organs.",
+      "persistence_probability": 0.480,
+      "blood_testis_barrier_drug_penetration": "Most antivirals excluded by BTB. Fluoxetine: lysosomotropic accumulation — may penetrate more than other drugs.",
+      "biomarkers": ["Testicular ultrasound", "CVB serology", "Semen CVB PCR (research tool)"],
+      "current_treatments": ["NSAIDs", "Supportive", "No antiviral proven"],
+      "protocol_components": ["Fluoxetine 20mg (lipophilic, may penetrate BTB)", "FMD (AMPK activation)"],
+      "disease_network_role": "Orchitis is the viral reservoir — once established, it reseeds myocarditis, ME/CFS, and other diseases. Clearing orchitis breaks the reseeding loop. Network analysis: removing orchitis disrupts 51.1% of disease cascade paths.",
+      "research_gap": "BTB is the critical pharmacokinetic obstacle. No human data on fluoxetine penetration into human testes. Semen CVB PCR studies needed.",
+      "geo_datasets": [],
+      "open_problems_dir": "/home/jb/open_problems/medical/orchitis/"
+    },
+    "Neonatal_Sepsis": {
+      "full_name": "Neonatal CVB Sepsis",
+      "cvb_serotypes_primary": ["CVB1", "CVB2", "CVB3", "CVB4", "CVB5"],
+      "cvb_attributable_fraction_pct": 3,
+      "epidemiology": {
+        "annual_new_cases_cvb_attributable": 90000,
+        "annual_deaths_cvb_attributable": 54000,
+        "case_fatality_rate_severe_pct": 60,
+        "total_dalys": 5109210,
+        "disability_weight": 0.414,
+        "economic_burden_usd_annual": 2250000000,
+        "vertical_transmission_pct": 30,
+        "source": "cross_disease_burden_results.json, epidemiology_all_diseases.json"
+      },
+      "target_organ": "Multi-organ (heart, liver, brain, adrenals) in first 28 days of life",
+      "mechanism": "Immature neonatal immune system cannot mount adequate IFN response. Multi-organ persistence probability: 72.5% (vs 38-55% for individual organs in adults). Critical persistence threshold: only 14 cells for neonatal multi-organ. CVB1-4 most common. Vertical transmission (mother → infant) or postnatal exposure.",
+      "persistence_probability_neonatal": 0.725,
+      "biomarkers": ["Sepsis workup + enteroviral PCR (blood/CSF/stool)", "Troponin (cardiac involvement)", "LFTs (hepatic)"],
+      "current_treatments": ["IVIG 0.4-0.5 g/kg (only effective treatment)", "Supportive ICU care", "No antiviral proven"],
+      "protocol_components": ["IVIG (maternal vaccination is real prevention)", "Pleconaril (compassionate use)"],
+      "maternal_prevention": "Maternal CVB vaccination before pregnancy would prevent vertical transmission — highest vaccine ROI of all 12 diseases. Vaccine-preventable fraction: 95%.",
+      "research_gap": "Most urgent: no antiviral approved for neonates. Pleconaril had Phase 2 data but development halted. Maternal vaccination (pre-conception) is the primary prevention strategy.",
+      "geo_datasets": [],
+      "open_problems_dir": "/home/jb/open_problems/medical/neonatal_sepsis/"
+    }
+  },
+  "disease_network_edges": {
+    "description": "Directed graph: CVB infection → disease → downstream disease. Edge weight = transition probability.",
+    "edges": [
+      {"from": "CVB_infection", "to": "Pleurodynia", "probability": 0.15, "note": "Direct muscle infection"},
+      {"from": "CVB_infection", "to": "Aseptic_Meningitis", "probability": 0.10, "note": "CNS invasion"},
+      {"from": "CVB_infection", "to": "Hepatitis", "probability": 0.05, "note": "Hepatic viremia"},
+      {"from": "CVB_infection", "to": "Neonatal_Sepsis", "probability": 0.001, "note": "Neonates only"},
+      {"from": "CVB_infection", "to": "Myocarditis", "probability": 0.05, "note": "Cardiac viremia"},
+      {"from": "CVB_infection", "to": "Pericarditis", "probability": 0.08, "note": "Pericardial tropism"},
+      {"from": "CVB_infection", "to": "Pancreatitis", "probability": 0.03, "note": "Pancreatic tropism"},
+      {"from": "CVB_infection", "to": "Orchitis", "probability": 0.02, "note": "Post-pubertal males"},
+      {"from": "CVB_infection", "to": "ME_CFS", "probability": 0.05, "note": "Direct multi-organ seeding"},
+      {"from": "CVB_infection", "to": "T1DM", "probability": 0.01, "note": "Beta cell seeding"},
+      {"from": "Pleurodynia", "to": "ME_CFS", "probability": 0.20, "note": "Muscle reservoir → systemic fatigue"},
+      {"from": "Aseptic_Meningitis", "to": "Encephalitis", "probability": 0.05, "note": "Parenchymal extension"},
+      {"from": "Myocarditis", "to": "DCM", "probability": 0.30, "note": "TD mutant persistence → fibrosis"},
+      {"from": "Myocarditis", "to": "Pericarditis", "probability": 0.15, "note": "Myopericarditis syndrome"},
+      {"from": "Myocarditis", "to": "Orchitis", "probability": 0.20, "note": "Viremia reseeding"},
+      {"from": "Pancreatitis", "to": "T1DM", "probability": 0.25, "note": "Bystander islet damage"},
+      {"from": "Pancreatitis", "to": "Orchitis", "probability": 0.15, "note": "Viremic reseeding from pancreas"},
+      {"from": "Orchitis", "to": "Myocarditis", "probability": 0.10, "note": "Testicular reservoir reseeds heart"},
+      {"from": "Orchitis", "to": "ME_CFS", "probability": 0.15, "note": "Chronic reservoir feeds systemic inflammation"},
+      {"from": "Orchitis", "to": "T1DM", "probability": 0.05, "note": "Reseeding pancreatic islets"},
+      {"from": "Neonatal_Sepsis", "to": "Myocarditis", "probability": 0.40, "note": "Neonatal multi-organ includes cardiac"},
+      {"from": "Neonatal_Sepsis", "to": "Hepatitis", "probability": 0.50, "note": "Neonatal multi-organ includes liver"},
+      {"from": "Neonatal_Sepsis", "to": "Encephalitis", "probability": 0.20, "note": "Neonatal multi-organ includes CNS"},
+      {"from": "Pericarditis", "to": "Myocarditis", "probability": 0.15, "note": "Bidirectional — myopericarditis"}
+    ],
+    "keystone_analysis": {
+      "keystone_disease": "Myocarditis",
+      "paths_disrupted_if_removed": 27,
+      "pct_of_total_paths": 57.4,
+      "best_intervention_target": "CVB_infection (vaccination) — intervention value 0.2199, 4x any individual disease"
+    }
+  },
+  "protocol_components": {
+    "fluoxetine_20mg": {
+      "mechanism": "Lysosomal membrane disruption → antiviral (IC50 1.5-8 μM in vitro); SSRI component → NF-κB suppression; lysosomotropic accumulation in target organs at therapeutic doses",
+      "ic50_coverage": "20mg oral gives 1.2-4.5x IC50 in target organs via accumulation",
+      "diseases_addressed": ["T1DM", "Myocarditis", "DCM", "ME_CFS", "Orchitis", "Pancreatitis", "Pericarditis", "Pleurodynia", "Hepatitis", "Neonatal_Sepsis"],
+      "contraindications": ["QT prolongation risk", "Serotonin syndrome if combined with MAOIs"],
+      "evidence_level": "IC50 reconciled. Organ-level PK modeled. Human trial: none for antiviral indication."
+    },
+    "fmd_5day_cycles": {
+      "mechanism": "Caloric restriction → AMPK activation → ULK1 phosphorylation → autophagy → selective clearance of TD mutant-containing compartments",
+      "diseases_addressed": ["T1DM", "Myocarditis", "DCM", "ME_CFS"],
+      "evidence_level": "Autophagy mechanism established. CVB clearance modeled (8/8 organs at 6mo with fluoxetine+FMD)."
+    },
+    "colchicine_0.5mg": {
+      "mechanism": "Microtubule disruption → NLRP3 inflammasome assembly blocked → IL-1beta reduction",
+      "diseases_addressed": ["Pericarditis (standard of care)", "Myocarditis (off-label)", "Pancreatitis (off-label)"],
+      "colchicine_applicable_diseases": ["Pericarditis"],
+      "evidence_level": "COPE trial (NNT=4). Standard of care for pericarditis."
+    },
+    "ivig_0.4g_kg": {
+      "mechanism": "Passive antibody transfer → direct CVB neutralization → Fc-mediated immune modulation",
+      "diseases_addressed": ["Neonatal_Sepsis (standard)", "Encephalitis", "Myocarditis", "Hepatitis_neonatal"],
+      "evidence_level": "Standard of care for neonatal enteroviral sepsis. RCT data limited."
+    }
+  },
+  "vaccine_analysis": {
+    "ideal_vaccine": "Pentavalent CVB B1-B5 (similar to Provention Bio PRV-101 approach)",
+    "minimum_viable_vaccine": "Bivalent CVB3+CVB4 (cardiac + diabetogenic protection)",
+    "global_dalys_averted": 31314176,
+    "pct_total_cvb_dalys_averted": 75.1,
+    "deaths_prevented_annually": 345161,
+    "cases_prevented_annually": 2773070,
+    "serotype_priority": ["CVB3 (cardiac protection)", "CVB4 (diabetes prevention)", "CVB1 (pancreatic/hepatic)", "CVB2 (neurological)", "CVB5 (ME/CFS, orchitis)"],
+    "highest_vaccine_roi_disease": "Neonatal_Sepsis (vaccine preventable fraction 95%, maternal vaccination prevents vertical transmission)"
+  }
+}

@@ -1,0 +1,45 @@
+1. Chest. 2013 Jan;143(1):130-137. doi: 10.1378/chest.12-0207.
+
+Reassessment of declines in pulmonary function ≥1 year after stereotactic body 
+radiotherapy.
+
+Takeda A(1), Enomoto T(2), Sanuki N(3), Handa H(4), Aoki Y(3), Oku Y(3), Kunieda 
+E(5).
+
+Author information:
+(1)Department of Radiology, Ofuna Chuo Hospital, Kanagawa, Japan; Department of 
+Radiology, Tokyo Metropolitan Hiroo General Hospital, Tokyo.
+(2)Department of Respirology, Tokyo Metropolitan Hiroo General Hospital, Tokyo.
+(3)Department of Radiology, Ofuna Chuo Hospital, Kanagawa, Japan.
+(4)Department of Respirology, Ofuna Chuo Hospital, Kanagawa, Japan.
+(5)Department of Radiation Oncology, Tokai University, Kanagawa, Japan. 
+Electronic address: kunieda-mi@umin.ac.jp.
+
+BACKGROUND: Stereotactic body radiation therapy (SBRT) is standard care for 
+patients with inoperable early-stage non-small cell lung cancer. However, 
+clinicians may hesitate to use SBRT in patients with severe COPD because of 
+potential negative effects on pulmonary function. We quantitatively analyzed 
+long-term declines in pulmonary function after SBRT to ascertain lifelong 
+tolerability to SBRT.
+METHODS: Between 2005 and 2010 at Ofuna Chuo Hospital, 292 patients with lung 
+tumors were treated with SBRT. Among them, patients who underwent pulmonary 
+function tests (PFTs) both pretreatment and at ≥1 year after SBRT were evaluated 
+in this retrospective analysis. The decline ratio in FEV(1) and FVC was assessed 
+(ie, ΔFEV(1)/preFEV(1) and ΔFVC/preFVC). Predictors were identified using 
+univariate and multivariate analyses.
+RESULTS: The 141 eligible patients had follow-up PFTs at a median of 21.0 
+(range, 12.0-74.8) months after SBRT. Among groups with normal function, or mild 
+to moderate or severe COPD, the median values for ΔFEV(1)/preFEV(1) were 7.9%, 
+7.9%, and 7.4%, respectively, and for ΔFVC/preFVC, 5.1%, 3.4%, and 0.5%, 
+respectively. Low BMI was the only predictor for ΔFEV(1)/preFEV(1)> 10%. Low 
+BMI, high lung volume receiving 20 Gy, and high pretreatment FVC were predictors 
+for ΔFVC/preFVC > 10%.
+CONCLUSIONS: Declines in FEV(1) and FVC were small, but statistically 
+significant in patients with normal function or mild to moderate COPD, but 
+nonsignificant in patients with severe COPD. These declines were primarily due 
+to physiologic aging. SBRT had a limited effect on decline in long-term 
+pulmonary function and may be an acceptable alternative to surgery for patients 
+with comorbid lung cancer and COPD.
+
+DOI: 10.1378/chest.12-0207
+PMID: 22722234 [Indexed for MEDLINE]

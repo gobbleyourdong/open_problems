@@ -1,0 +1,80 @@
+1. Nat Rev Endocrinol. 2025 Mar;21(3):154-165. doi: 10.1038/s41574-024-01045-0. 
+Epub 2024 Nov 4.
+
+Looking back at the TEDDY study: lessons and future directions.
+
+Lernmark Å(1), Agardh D(2), Akolkar B(3), Gesualdo P(4), Hagopian WA(5), Haller 
+MJ(6), Hyöty H(7), Johnson SB(8), Elding Larsson H(2), Liu E(9), Lynch KF(10), 
+McKinney EF(11), McIndoe R(12), Melin J(2), Norris JM(13), Rewers M(4), Rich 
+SS(14), Toppari J(15)(16), Triplett E(17), Vehik K(10), Virtanen SM(18), Ziegler 
+AG(19)(20)(21), Schatz DA(6), Krischer J(10).
+
+Author information:
+(1)Department of Clinical Sciences, Lund University CRC, Skåne University 
+Hospital, Malmö, Sweden. ake.lernmark@med.lu.se.
+(2)Department of Clinical Sciences, Lund University CRC, Skåne University 
+Hospital, Malmö, Sweden.
+(3)National Institute of Diabetes and Digestive and Kidney Diseases, National 
+Institutes of Health, Bethesda, MD, USA.
+(4)Barbara Davis Center for Diabetes, University of Colorado, Aurora, CO, USA.
+(5)Department of Pediatrics, Indiana University School of Medicine, 
+Indianapolis, IN, USA.
+(6)Department of Pediatrics, University of Florida, Gainesville, FL, USA.
+(7)Department of Virology, Faculty of Medicine and Health Technology, Tampere 
+University, Tampere, Finland.
+(8)Department of Behavioral Sciences and Social Medicine, Florida State 
+University College of Medicine, Tallahassee, FL, USA.
+(9)Digestive Health Institute, Department of Pediatrics, School of Medicine, 
+University of Colorado Anschutz Medical Campus, Aurora, CO, USA.
+(10)Health Informatics Institute, Morsani College of Medicine, University of 
+South Florida, Tampa, FL, USA.
+(11)Department of Medicine, University of Cambridge School of Clinical Medicine, 
+Cambridge, UK.
+(12)Center for Biotechnology and Genomic Medicine, Medical College of Georgia, 
+Augusta University, Augusta, GA, USA.
+(13)Department of Epidemiology, Colorado School of Public Health, University of 
+Colorado Anschutz Medical Campus, Aurora, CO, USA.
+(14)Center for Public Health Genomics, University of Virginia, Charlottesville, 
+VA, USA.
+(15)Department of Paediatrics, Turku University Hospital, Turku, Finland.
+(16)Institute of Biomedicine, Research Centre for Integrated Physiology and 
+Pharmacology, University of Turku, Turku, Finland.
+(17)University of Florida, Department of Microbiology and Cell Science, 
+Gainesville, FL, USA.
+(18)Center for Child Health Research, Tampere University and University Hospital 
+and Research, Tampere, Finland.
+(19)Institute of Diabetes Research, Helmholtz Zentrum München, Deutsches 
+Forschungszentrum für Gesundheit und Umwelt, Munich, Germany.
+(20)Forschergruppe Diabetes e.V. at Helmholtz Zentrum München, Deutsches 
+Forschungszentrum für Gesundheit und Umwelt, Munich, Germany.
+(21)Forschergruppe Diabetes, Klinikum rechts der Isar, Technische Universität 
+München and e.V., Munich, Germany.
+
+The goal of the TEDDY (The Environmental Determinants of Diabetes in the Young) 
+study is to elucidate factors leading to the initiation of islet autoimmunity 
+(first primary outcome) and those related to progression to type 1 diabetes 
+mellitus (T1DM; second primary outcome). This Review outlines the key findings 
+so far, particularly related to the first primary outcome. The background, 
+history and organization of the study are discussed. Recruitment and follow-up 
+(from age 4 months to 15 years) of 8,667 children showed high retention and 
+compliance. End points of the presence of autoantibodies against insulin, GAD65, 
+IA-2 and ZnT8 revealed the HLA-associated early appearance of insulin 
+autoantibodies (1-3 years of age) and the later appearance of GAD65 
+autoantibodies. Competing autoantibodies against tissue transglutaminase 
+(marking coeliac disease autoimmunity) also appeared early (2-4 years). Genetic 
+and environmental factors, including enterovirus infection and gastroenteritis, 
+support mechanistic differences underlying one phenotype of autoimmunity against 
+insulin and another against GAD65. Infant growth and both probiotics and high 
+protein intake affect the two phenotypes differently, as do serious life events 
+during pregnancy. As the end of the TEDDY sampling phase is approaching, major 
+omics approaches are in progress to further dissect the mechanisms that might 
+explain the two possible endotypes of T1DM.
+
+© 2024. Springer Nature Limited.
+
+DOI: 10.1038/s41574-024-01045-0
+PMCID: PMC11825287
+PMID: 39496810 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: The authors declare no 
+competing interests.

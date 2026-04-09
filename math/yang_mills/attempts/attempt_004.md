@@ -133,5 +133,5 @@ to: does the gap survive the infinite-volume and continuum limits?
 
 ## Next Steps
 1. Formalize the finite-lattice mass gap theorem in Lean
-2. Implement the character expansion numerically (numerical track)
+2. Implement the character expansion numerically (Odd instance)
 3. Study Δ(β) as a function of β for small lattices

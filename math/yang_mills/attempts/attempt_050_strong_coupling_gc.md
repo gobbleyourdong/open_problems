@@ -123,7 +123,7 @@ The PROOF at strong coupling is an explicit counting argument:
 count area-3 surfaces for the chair vs. the plaquette product.
 The chair has MORE such surfaces → GC > 0.
 
-## For numerical track (Updated Request)
+## For Odd Instance (Updated Request)
 
 In addition to the L-dependence test at β = 4.0:
 

@@ -1,0 +1,311 @@
+{
+  "Pericarditis colchicine RCTs": [
+    {
+      "nct": "NCT03575572",
+      "phase": "PHASE2",
+      "enrollment": 11,
+      "title": "Colchicine in Postoperative Fontan Patients",
+      "primary_outcome": "Change in Cytokine Total Mass in Pleural Fluid From Patients Treated With Colchicine",
+      "arms": [
+        "Colchicine"
+      ]
+    },
+    {
+      "nct": "NCT03737110",
+      "phase": "PHASE3",
+      "enrollment": 86,
+      "title": "Study to Assess the Efficacy and Safety of Rilonacept Treatment in Participants With Recurrent Pericarditis",
+      "primary_outcome": "Time to Pericarditis Recurrence in the RW Period",
+      "arms": [
+        "Run-in Period",
+        "Randomized Withdrawal Per",
+        "Randomized Withdrawal Per",
+        "Long Term Extension: Non-",
+        "Long Term Extension: Rand",
+        "Long Term Extension: Rand"
+      ]
+    },
+    {
+      "nct": "NCT01709981",
+      "phase": "PHASE4",
+      "enrollment": 280,
+      "title": "Anti-inflammatory Effects of Colchicine in PCI",
+      "primary_outcome": "Percent Change in Post-procedural IL-6 Concentration From Baseline to 30 Min -1 hr After PCI",
+      "arms": [
+        "Colchicine",
+        "Placebo"
+      ]
+    },
+    {
+      "nct": "NCT04756128",
+      "phase": "PHASE2",
+      "enrollment": 142,
+      "title": "Impact of Colchicine and Low-dose Naltrexone on COVID-19",
+      "primary_outcome": "In Patients Hospitalized With Moderate COVID-19, the Impact of Colchicine and LDN, Alone or in Combination, on Achieving Disease Recovery by Day 5.",
+      "arms": [
+        "Colchicine-Only Arm",
+        "Colchicine and Naltrexone",
+        "Naltrexone-Only Arm",
+        "Standard of Care Arm"
+      ]
+    }
+  ],
+  "T1DM teplizumab": [
+    {
+      "nct": "NCT00870818",
+      "phase": "NA",
+      "enrollment": 219,
+      "title": "Protege Extension Trial - Long Term Follow Up Trial for Subjects Who Completed the Protege Study (CP-MGA031-01)",
+      "primary_outcome": "The Number of Participants Who Experience an Adverse Event, Serious Adverse Event or Adverse Event of Special Interest.",
+      "arms": [
+        "Open-label Herold Regimen",
+        "Double-blind Herold Regim",
+        "Double-blind 33.3% Herold",
+        "Double-blind Curtailed He",
+        "Double-blind Placebo"
+      ]
+    },
+    {
+      "nct": "NCT03751007",
+      "phase": "PHASE1",
+      "enrollment": 45,
+      "title": "A Study to Assess the Safety and Tolerability of Different Doses of AG019 Administered Alone or in Combination With Teplizumab in Participants With Recent-onset Diagnosed Type 1 Diabetes (T1D)",
+      "primary_outcome": "Incidence of Treatment-emergent Adverse Events (TEAE)",
+      "arms": [
+        "AG019 Cohort 1 - Low (Sin",
+        "AG019 Cohort 1 - Low (Rep",
+        "AG019 Cohort 2 - High (Si",
+        "AG019 Cohort 2 - High (Re",
+        "AG019 Cohort 3 - Low (Sin",
+        "AG019 Cohort 3 - Low (Rep",
+        "AG019 Cohort 4 - High (Si",
+        "AG019 Cohort 4 - High (Re",
+        "Combination Cohort 1 - Ac",
+        "Combination Cohort 1 - AG",
+        "Combination Cohort 2 - Ac",
+        "Combination Cohort 2 - AG"
+      ]
+    },
+    {
+      "nct": "NCT03875729",
+      "phase": "PHASE3",
+      "enrollment": 328,
+      "title": "Recent-Onset Type 1 Diabetes Trial Evaluating Efficacy and Safety of Teplizumab",
+      "primary_outcome": "Change in C-peptide ln(AUC+1) Standardized by Duration of the Mixed Meal Tolerance Test (MMTT)",
+      "arms": [
+        "Placebo",
+        "Teplizumab"
+      ]
+    },
+    {
+      "nct": "NCT00920582",
+      "phase": "PHASE3",
+      "enrollment": 254,
+      "title": "Protege Encore Study- Clinical Trial of Teplizumab (MGA031) in Children and Adults With Recent-Onset Type 1 Diabetes Mellitus",
+      "primary_outcome": "Proportion of Subjects With Both a Total Daily Insulin Dose of Less Than 0.5 U/kg/Day and Hemoglobin A1c (HbA1c) Level of Less Than 6.5%.",
+      "arms": [
+        "Herold Regimen",
+        "33.3% Herold Regimen",
+        "Curtailed Herold Regimen",
+        "Placebo"
+      ]
+    },
+    {
+      "nct": "NCT00129259",
+      "phase": "PHASE2",
+      "enrollment": 83,
+      "title": "Autoimmunity-blocking Antibody for Tolerance in Recently Diagnosed Type 1 Diabetes",
+      "primary_outcome": "Change in Mean C-peptide Area Under the Curve (AUC) Response to a Mixed Meal Tolerance Test (MMTT)",
+      "arms": [
+        "Anti-CD3 mAb Plus Diabete",
+        "Diabetes Standard of Care"
+      ]
+    },
+    {
+      "nct": "NCT00954915",
+      "phase": "PHASE1",
+      "enrollment": 1,
+      "title": "Safety Study of the Monoclonal Antibody Teplizumab (MGA031) in Subjects With Moderate or More Severe Psoriasis",
+      "primary_outcome": "Adverse Events (AE)",
+      "arms": [
+        "Teplizumab"
+      ]
+    },
+    {
+      "nct": "NCT04270942",
+      "phase": "PHASE2",
+      "enrollment": 6,
+      "title": "At-Risk for Type 1 Diabetes Extension Study (TN-10 Extension)",
+      "primary_outcome": "Number of Participants With Treatment-emergent Adverse Events (TEAEs), Treatment-emergent Adverse Events of Special Interest (TEAESIs) and Treatment-emergent Serious Adverse Events (TESAEs)",
+      "arms": [
+        "Teplizumab"
+      ]
+    },
+    {
+      "nct": "NCT01030861",
+      "phase": "PHASE2",
+      "enrollment": 76,
+      "title": "Teplizumab for Prevention of Type 1 Diabetes In Relatives \"At-Risk\"",
+      "primary_outcome": "Rate of New Diabetes Per Year",
+      "arms": [
+        "Teplizumab",
+        "Placebo Infusion"
+      ]
+    },
+    {
+      "nct": "NCT00385697",
+      "phase": "PHASE2",
+      "enrollment": 554,
+      "title": "The Prot\u00e9g\u00e9 Study - Clinical Trial of MGA031 in Children and Adults With Recent-Onset Type 1 Diabetes Mellitus",
+      "primary_outcome": "Number of Subjects in Segment 2 With Both a Total Daily Insulin Dose of Less Than 0.5 U/kg/Day and Hemoglobin A1c (HbA1c) Level of Less Than 6.5%.",
+      "arms": [
+        "Open-label Herold Regimen",
+        "Double-blind Herold Regim",
+        "Double-blind 33.3% Herold",
+        "Double-blind Curtailed He",
+        "Double-blind Placebo"
+      ]
+    },
+    {
+      "nct": "NCT00378508",
+      "phase": "PHASE2",
+      "enrollment": 63,
+      "title": "Anti-CD3 mAb Treatment of Recent Onset Type 1 Diabetes",
+      "primary_outcome": "C-peptide Area Under the Curve (AUC) Response to a Mixed Meal Tolerance Test (MMTT) at 12 Months",
+      "arms": [
+        "Saline Infusions (Placebo",
+        "Teplizumab Infusion (Acti"
+      ]
+    }
+  ],
+  "T1DM Vertex VX-880 stem cells": [],
+  "Myocarditis IVIG": [],
+  "Pancreatitis indomethacin": [
+    {
+      "nct": "NCT04207060",
+      "phase": "PHASE1",
+      "enrollment": 27,
+      "title": "Trial of Indomethacin in Chronic Pancreatitis",
+      "primary_outcome": "Change in Prostaglandin E2 (PGE2) Concentrations",
+      "arms": [
+        "Indomethacin",
+        "Placebo"
+      ]
+    },
+    {
+      "nct": "NCT02692391",
+      "phase": "PHASE3",
+      "enrollment": 42,
+      "title": "A Randomized Controlled Pilot Trial of Indomethacin in Acute Pancreatitis",
+      "primary_outcome": "Systemic Inflammatory Response Syndrome (SIRS) Score",
+      "arms": [
+        "Placebo",
+        "Indomethacin Suppository"
+      ]
+    },
+    {
+      "nct": "NCT02116309",
+      "phase": "NA",
+      "enrollment": 948,
+      "title": "Randomized Trial of Rectal Indomethacin and Papillary Spray of Epinephrine Versus Rectal Indomethacin to Prevent Post-ERCP Pancreatitis",
+      "primary_outcome": "Number of Patients Who Developed Post-ERCP Pancreatitis",
+      "arms": [
+        "Rectal Indomethacin Only",
+        "Rectal Indomethacin Plus "
+      ]
+    },
+    {
+      "nct": "NCT05664074",
+      "phase": "PHASE4",
+      "enrollment": 192,
+      "title": "Rectal Indomethacin vs Intravenous Ketorolac",
+      "primary_outcome": "Post-ERCP Pancreatitis",
+      "arms": [
+        "Rectal Indomethacin",
+        "IV Ketorolac"
+      ]
+    },
+    {
+      "nct": "NCT00820612",
+      "phase": "PHASE4",
+      "enrollment": 602,
+      "title": "Rectal Indomethacin in the Prevention of Post-endoscopic Retrograde Cholangiopancreatography (ERCP) Pancreatitis in High Risk Patients",
+      "primary_outcome": "Post-ERCP Pancreatitis",
+      "arms": [
+        "Placebo",
+        "Indomethacin"
+      ]
+    },
+    {
+      "nct": "NCT02476279",
+      "phase": "PHASE3",
+      "enrollment": 1950,
+      "title": "Stent vs. Indomethacin for Preventing Post-ERCP Pancreatitis",
+      "primary_outcome": "The Proportion of Subjects in Each Study Group With Post-ERCP Pancreatitis",
+      "arms": [
+        "Indomethacin Alone",
+        "Indomethacin+Pancreatic S"
+      ]
+    },
+    {
+      "nct": "NCT01774604",
+      "phase": "PHASE3",
+      "enrollment": 449,
+      "title": "Rectal Indomethacin to Prevent Post-Endoscopic Retrograde Cholangiopancreatography (ERCP) Pancreatitis",
+      "primary_outcome": "Number of Patients Who Developed Acute Pancreatitis",
+      "arms": [
+        "Indomethacin",
+        "Placebo"
+      ]
+    },
+    {
+      "nct": "NCT00727740",
+      "phase": "NA",
+      "enrollment": 117,
+      "title": "A Double-blind Study to Determine if Intraduodenal Indomethacin Can Decrease the Incidence of Post-ERCP Pancreatitis",
+      "primary_outcome": "Reduction in Pancreatitis Rate",
+      "arms": [
+        "1- Indomethacin",
+        "2- Placebo"
+      ]
+    },
+    {
+      "nct": "NCT02641561",
+      "phase": "PHASE3",
+      "enrollment": 192,
+      "title": "Lactated Ringers With or Without Rectal Indomethacin to Prevent Post-ERCP Pancreatitis",
+      "primary_outcome": "The Number of Participants With Acute Pancreatitis After ERCP as Assessed by Worsening Abdominal Pain Plus Either Elevated Amylase or Lipase 3 x Upper Limit of Normal",
+      "arms": [
+        "A (NS+Placebo)",
+        "B (NS+IND)",
+        "C (LR+Placebo)",
+        "D (LR+IND)"
+      ]
+    },
+    {
+      "nct": "NCT02797067",
+      "phase": "PHASE4",
+      "enrollment": 1370,
+      "title": "Rectal Indomethacin to Prevent Post ESWL-pancreatitis",
+      "primary_outcome": "the Incidence of Post-ESWL Pancreatitis",
+      "arms": [
+        "Indomethacin",
+        "Glycerin"
+      ]
+    }
+  ],
+  "ME/CFS rituximab": [],
+  "Neonatal sepsis IVIG": [
+    {
+      "nct": "NCT01376778",
+      "phase": "PHASE3",
+      "enrollment": 399,
+      "title": "A Randomized Trial to Prevent Congenital Cytomegalovirus (CMV)",
+      "primary_outcome": "Number of Participants With the Composite Primary Outcome",
+      "arms": [
+        "CMV Hyperimmune Globulin ",
+        "Placebo"
+      ]
+    }
+  ]
+}

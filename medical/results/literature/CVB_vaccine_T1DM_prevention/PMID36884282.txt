@@ -1,0 +1,41 @@
+1. Endocr Rev. 2023 Jul 11;44(4):737-751. doi: 10.1210/endrev/bnad007.
+
+Coxsackievirus and Type 1 Diabetes: Diabetogenic Mechanisms and Implications for 
+Prevention.
+
+Carré A(1), Vecchio F(1), Flodström-Tullberg M(2), You S(1), Mallone R(1)(3).
+
+Author information:
+(1)Université Paris Cité, Institut Cochin, CNRS, INSERM, 75014 Paris, France.
+(2)Department of Medicine Huddinge and Karolinska University Hospital, 
+Karolinska Institutet, 14152 Stockholm, Sweden.
+(3)Assistance Publique Hôpitaux de Paris, Hôpitaux Universitaires de Paris 
+Centre-Université de Paris, Cochin Hospital, Service de Diabétologie et 
+Immunologie Clinique, 75014 Paris, France.
+
+The evidence for an association between coxsackievirus B (CVB) infection, 
+pancreatic islet autoimmunity, and clinical type 1 diabetes is increasing. 
+Results from prospective cohorts and pancreas histopathology studies have 
+provided a compelling case. However, the demonstration of a causal relationship 
+is missing, and is likely to remain elusive until tested in humans by avoiding 
+exposure to this candidate viral trigger. To this end, CVB vaccines have been 
+developed and are entering clinical trials. However, the progress made in 
+understanding the biology of the virus and in providing tools to address the 
+long-standing question of causality contrasts with the scarcity of information 
+about the antiviral immune responses triggered by infection. Beta-cell death may 
+be primarily induced by CVB itself, possibly in the context of poor immune 
+protection, or secondarily provoked by T-cell responses against CVB-infected 
+beta cells. The possible involvement of epitope mimicry mechanisms skewing the 
+physiological antiviral response toward autoimmunity has also been suggested. We 
+here review the available evidence for each of these 3 non-mutually exclusive 
+scenarios. Understanding which ones are at play is critical to maximize the odds 
+of success of CVB vaccination, and to develop suitable tools to monitor the 
+efficacy of immunization and its intermingling with autoimmune onset or 
+prevention.
+
+© The Author(s) 2023. Published by Oxford University Press on behalf of the 
+Endocrine Society. All rights reserved. For permissions, please e-mail: 
+journals.permissions@oup.com.
+
+DOI: 10.1210/endrev/bnad007
+PMID: 36884282 [Indexed for MEDLINE]

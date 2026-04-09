@@ -1,0 +1,38 @@
+1. J Intern Med. 2021 Mar;289(3):268-292. doi: 10.1111/joim.13169. Epub 2020 Sep 
+14.
+
+Systemic amyloidosis from A (AA) to T (ATTR): a review.
+
+Muchtar E(1), Dispenzieri A(1), Magen H(2), Grogan M(3), Mauermann M(4), McPhail 
+ED(5), Kurtin PJ(5), Leung N(1)(6), Buadi FK(1), Dingli D(1), Kumar SK(1), Gertz 
+MA(1).
+
+Author information:
+(1)From the, Division of Hematology, Mayo Clinic, Rochester, MN, USA.
+(2)Hematology Institute, Chaim Sheba Medical Center, Tel Hashomer, Israel.
+(3)Department of Cardiovascular Diseases, Mayo Clinic, Rochester, MN, USA.
+(4)Department of Neurology, Mayo Clinic, Rochester, MN, USA.
+(5)Department of Laboratory Medicine and Pathology, Mayo Clinic, Rochester, MN, 
+USA.
+(6)Division of Nephrology and Hypertension, Mayo Clinic, Rochester, MN, USA.
+
+Systemic amyloidosis is a rare protein misfolding and deposition disorder 
+leading to progressive organ failure. There are over 15 types of systemic 
+amyloidosis, each caused by a different precursor protein which promotes amyloid 
+formation and tissue deposition. Amyloidosis can be acquired or hereditary and 
+can affect various organs, including the heart, kidneys, liver, nerves, 
+gastrointestinal tract, lungs, muscles, skin and soft tissues. Symptoms are 
+usually insidious and nonspecific resulting in diagnostic delay. The field of 
+amyloidosis has seen significant improvements over the past decade in diagnostic 
+accuracy, prognosis prediction and management. The advent of mass 
+spectrometry-based shotgun proteomics has revolutionized amyloid typing and has 
+led to the discovery of new amyloid types. Accurate typing of the precursor 
+protein is of paramount importance as the type dictates a specific management 
+approach. In this article, we review each type of systemic amyloidosis to 
+provide the practitioner with practical tools to improve diagnosis and 
+management of these rare disorders.
+
+© 2020 The Association for the Publication of the Journal of Internal Medicine.
+
+DOI: 10.1111/joim.13169
+PMID: 32929754 [Indexed for MEDLINE]

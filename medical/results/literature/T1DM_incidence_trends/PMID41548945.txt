@@ -1,0 +1,48 @@
+1. Public Health Rep. 2026 Jan 18:333549251403376. doi:
+10.1177/00333549251403376.  Online ahead of print.
+
+Trends in the Incidence of Pediatric Type 1 Diabetes, Type 2 Diabetes, and 
+Prediabetes Before and During the COVID-19 Pandemic.
+
+Jacobs J(1)(2), Kim S(2), Sheu YS(2), Chesbrough K(2), Bishop RC(2), Weinfield 
+NS(2).
+
+Author information:
+(1)Department of Pediatrics, Mid-Atlantic Permanente Medical Group, Annapolis, 
+MD, USA.
+(2)Mid-Atlantic Permanente Research Institute, Mid-Atlantic Permanente Medical 
+Group, Washington, DC, USA.
+
+OBJECTIVES: It is unclear how the incidence of each pediatric diabetes subtype 
+changed during the COVID-19 pandemic. We assessed changes in the incidence of 
+pediatric type 1 diabetes, pediatric type 2 diabetes, and prediabetes during the 
+COVID-19 pandemic.
+METHODS: We analyzed data from young people aged <19 years without prior 
+diabetes in a large integrated US health care system from March 2017 through 
+February 2023 using interrupted time-series analyses to compare prepandemic and 
+pandemic rates and trends in the incidence of type 1 diabetes, type 2 diabetes, 
+and prediabetes.
+RESULTS: Of 288 574 pediatric patients, 242 were diagnosed with type 1 diabetes, 
+239 with type 2 diabetes, and 4438 with prediabetes. The incidence of type 1 
+diabetes did not change after pandemic onset in the interrupted time-series 
+analysis. Although the incidence of type 2 diabetes and prediabetes changed with 
+a single interruption analysis, an exploratory model of 2 interruptions revealed 
+a better fit for each: for type 2 diabetes, the model showed a significant rise 
+(128%; P < .001) and subsequent decrease after the early pandemic period; for 
+prediabetes, it revealed a 142% increase (P = .005) with a rising trend (12% per 
+month) early in the pandemic, followed by a 9% monthly downward trend.
+CONCLUSION: Among this population, the COVID-19 pandemic did not affect the 
+incidence of pediatric type 1 diabetes but was associated with significant 
+increases in the incidence of type 2 diabetes and prediabetes, particularly 
+early in the pandemic. Future work can build on these results to better 
+understand how pandemic-related factors, including activity restrictions and 
+COVID-19 disease, affected rates of pediatric type 2 diabetes and prediabetes 
+and inform future public health practices.
+
+DOI: 10.1177/00333549251403376
+PMCID: PMC12815635
+PMID: 41548945
+
+Conflict of interest statement: The authors declared no potential conflicts of 
+interest with respect to the research, authorship, and/or publication of this 
+article.

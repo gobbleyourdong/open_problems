@@ -1,0 +1,259 @@
+================================================================
+NS Key Lemma — Full SOS Certification
+Starting: Tue Mar 31 11:32:31 PM CDT 2026
+================================================================
+
+=== Running test suite ===
+=== SOS Certifier Test Suite ===
+
+  Sign pattern count: PASS (N=2→2, N=3→4, N=4→8, N=5→16)
+  Matrix symmetry: PASS
+  Per-mode |S|²=a²/2: PASS (20 random modes)
+  Self-vanishing identity: PASS (20 random modes)
+  Cross-term identity |S|²=|ω|²/2-2C: PASS (10 random fields)
+  Orthogonal k (K²=1): PASS (floor=15.00)
+  Parallel k: PASS (floor=10.00)
+  N=2 sharp bound: PASS (floor=6.00)
+  N=3 extremum (-11/64): PASS (floor=8.42)
+  N=4 worst mixed-shell: PASS (floor=9.64)
+
+========================================
+Results: 10 passed, 0 failed
+*** ALL TESTS PASS ***
+
+=== N=3, K²≤18 (exhaustive) ===
+K²=1..18: 170 k-vectors
+Testing 804440 N=3 configs...
+  [80444/804440] cert=80444 fail=0 floor≥5.44 rate=67.8/s ETA=178min
+  [160888/804440] cert=160888 fail=0 floor≥5.44 rate=68.3/s ETA=157min
+  [241332/804440] cert=241332 fail=0 floor≥5.44 rate=67.7/s ETA=139min
+  [321776/804440] cert=321776 fail=0 floor≥5.44 rate=67.6/s ETA=119min
+  [402220/804440] cert=402220 fail=0 floor≥5.44 rate=67.1/s ETA=100min
+  [482664/804440] cert=482664 fail=0 floor≥5.44 rate=67.0/s ETA=80min
+  [563108/804440] cert=563108 fail=0 floor≥5.43 rate=67.0/s ETA=60min
+  [643552/804440] cert=643552 fail=0 floor≥5.43 rate=66.7/s ETA=40min
+  [723996/804440] cert=723996 fail=0 floor≥5.43 rate=66.4/s ETA=20min
+  [804440/804440] cert=804440 fail=0 floor≥5.43 rate=66.5/s ETA=0min
+
+=== SOS CERTIFICATION COMPLETE ===
+N=3, K²≤18
+Tested: 804440
+Certified: 804440/804440 (100.0%)
+Failures: 0
+Min floor: 5.4322
+Time: 12129s (202.2min)
+*** ALL CERTIFIED ***
+Certificates saved to ns_blowup/certs/N3_K18.json (762.1 MB)
+Checkpoint removed: ns_blowup/certs/N3_K18.checkpoint.json
+
+=== N=4, K²≤9 (exhaustive, resumable) ===
+K²=1..9: 61 k-vectors
+Testing 521855 N=4 configs...
+/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
+  [52185/521855] cert=52185 fail=0 floor≥7.59 rate=22.2/s ETA=353min
+  [104370/521855] cert=104370 fail=0 floor≥7.59 rate=22.2/s ETA=314min
+  [156555/521855] cert=156555 fail=0 floor≥7.59 rate=21.9/s ETA=278min
+  [208740/521855] cert=208740 fail=0 floor≥7.59 rate=21.6/s ETA=241min
+  [260925/521855] cert=260925 fail=0 floor≥7.59 rate=21.6/s ETA=201min
+  [313110/521855] cert=313110 fail=0 floor≥7.59 rate=21.5/s ETA=162min
+  [365295/521855] cert=365295 fail=0 floor≥7.59 rate=21.5/s ETA=121min
+  [417480/521855] cert=417480 fail=0 floor≥7.59 rate=21.5/s ETA=81min
+  [469665/521855] cert=469665 fail=0 floor≥7.59 rate=21.5/s ETA=40min
+  [521850/521855] cert=521850 fail=0 floor≥7.45 rate=21.4/s ETA=0min
+
+=== SOS CERTIFICATION COMPLETE ===
+N=4, K²≤9
+Tested: 521855
+Certified: 521855/521855 (100.0%)
+Failures: 0
+Min floor: 7.4503
+Time: 24400s (406.7min)
+*** ALL CERTIFIED ***
+Certificates saved to ns_blowup/certs/N4_K9.json (1339.0 MB)
+Checkpoint removed: ns_blowup/certs/N4_K9.checkpoint.json
+
+=== N=5, K²≤3 (exhaustive) ===
+K²=1..3: 13 k-vectors
+Testing 1287 N=5 configs...
+  [128/1287] cert=128 fail=0 floor≥9.40 rate=6.9/s ETA=3min
+  [256/1287] cert=256 fail=0 floor≥9.40 rate=7.0/s ETA=2min
+  [384/1287] cert=384 fail=0 floor≥9.40 rate=7.1/s ETA=2min
+  [512/1287] cert=512 fail=0 floor≥9.40 rate=7.1/s ETA=2min
+  [640/1287] cert=640 fail=0 floor≥9.40 rate=7.1/s ETA=2min
+  [768/1287] cert=768 fail=0 floor≥9.40 rate=7.1/s ETA=1min
+  [896/1287] cert=896 fail=0 floor≥9.40 rate=7.1/s ETA=1min
+  [1024/1287] cert=1024 fail=0 floor≥9.40 rate=7.1/s ETA=1min
+  [1152/1287] cert=1152 fail=0 floor≥9.40 rate=7.1/s ETA=0min
+  [1280/1287] cert=1280 fail=0 floor≥9.40 rate=7.1/s ETA=0min
+
+=== SOS CERTIFICATION COMPLETE ===
+N=5, K²≤3
+Tested: 1287
+Certified: 1287/1287 (100.0%)
+Failures: 0
+Min floor: 9.4009
+Time: 181s (3.0min)
+*** ALL CERTIFIED ***
+Certificates saved to ns_blowup/certs/N5_K3.json (10.1 MB)
+Checkpoint removed: ns_blowup/certs/N5_K3.checkpoint.json
+
+=== N=6, K²≤3 (exhaustive) ===
+K²=1..3: 13 k-vectors
+Testing 1716 N=6 configs...
+  [171/1716] cert=171 fail=0 floor≥11.00 rate=1.7/s ETA=15min
+  [342/1716] cert=342 fail=0 floor≥11.00 rate=1.6/s ETA=14min
+  [513/1716] cert=513 fail=0 floor≥11.00 rate=1.6/s ETA=12min
+  [684/1716] cert=684 fail=0 floor≥10.99 rate=1.6/s ETA=11min
+  [855/1716] cert=855 fail=0 floor≥10.99 rate=1.6/s ETA=9min
+  [1026/1716] cert=1026 fail=0 floor≥10.99 rate=1.6/s ETA=7min
+  [1197/1716] cert=1197 fail=0 floor≥10.99 rate=1.6/s ETA=5min
+  [1368/1716] cert=1368 fail=0 floor≥10.99 rate=1.6/s ETA=4min
+  [1539/1716] cert=1539 fail=0 floor≥10.99 rate=1.6/s ETA=2min
+  [1710/1716] cert=1710 fail=0 floor≥10.99 rate=1.6/s ETA=0min
+
+=== SOS CERTIFICATION COMPLETE ===
+N=6, K²≤3
+Tested: 1716
+Certified: 1716/1716 (100.0%)
+Failures: 0
+Min floor: 10.9913
+Time: 1052s (17.5min)
+*** ALL CERTIFIED ***
+Certificates saved to ns_blowup/certs/N6_K3.json (44.5 MB)
+Checkpoint removed: ns_blowup/certs/N6_K3.checkpoint.json
+
+=== N=7, K²≤3 (exhaustive) ===
+K²=1..3: 13 k-vectors
+Testing 1716 N=7 configs...
+  [171/1716] cert=171 fail=0 floor≥12.57 rate=0.3/s ETA=98min
+  [342/1716] cert=342 fail=0 floor≥12.17 rate=0.3/s ETA=89min
+/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
+  [513/1716] cert=513 fail=0 floor≥12.17 rate=0.2/s ETA=81min
+  [684/1716] cert=684 fail=0 floor≥12.17 rate=0.3/s ETA=68min
+  [855/1716] cert=855 fail=0 floor≥12.13 rate=0.3/s ETA=54min
+  [1026/1716] cert=1026 fail=0 floor≥12.13 rate=0.3/s ETA=42min
+  [1197/1716] cert=1197 fail=0 floor≥12.13 rate=0.3/s ETA=32min
+  [1368/1716] cert=1368 fail=0 floor≥12.13 rate=0.3/s ETA=21min
+  [1539/1716] cert=1539 fail=0 floor≥12.13 rate=0.3/s ETA=10min
+  [1710/1716] cert=1710 fail=0 floor≥11.67 rate=0.3/s ETA=0min
+
+=== SOS CERTIFICATION COMPLETE ===
+N=7, K²≤3
+Tested: 1716
+Certified: 1716/1716 (100.0%)
+Failures: 0
+Min floor: 11.6681
+Time: 5890s (98.2min)
+*** ALL CERTIFIED ***
+Certificates saved to ns_blowup/certs/N7_K3.json (157.1 MB)
+Checkpoint removed: ns_blowup/certs/N7_K3.checkpoint.json
+
+=== N=8, K²≤3 (exhaustive) ===
+K²=1..3: 13 k-vectors
+Testing 1287 N=8 configs...
+/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
+  [128/1287] cert=128 fail=0 floor≥13.77 rate=0.0/s ETA=470min
+  [256/1287] cert=256 fail=0 floor≥13.77 rate=0.0/s ETA=463min
+  [384/1287] cert=384 fail=0 floor≥13.41 rate=0.0/s ETA=376min
+  [512/1287] cert=512 fail=0 floor≥13.41 rate=0.0/s ETA=305min
+  [640/1287] cert=640 fail=0 floor≥13.41 rate=0.0/s ETA=244min
+  [768/1287] cert=768 fail=0 floor≥12.98 rate=0.0/s ETA=191min
+  [896/1287] cert=896 fail=0 floor≥12.98 rate=0.0/s ETA=142min
+  [1024/1287] cert=1024 fail=0 floor≥12.98 rate=0.0/s ETA=94min
+  [1152/1287] cert=1152 fail=0 floor≥12.98 rate=0.0/s ETA=48min
+  [1280/1287] cert=1280 fail=0 floor≥12.27 rate=0.0/s ETA=2min
+
+=== SOS CERTIFICATION COMPLETE ===
+N=8, K²≤3
+Tested: 1287
+Certified: 1287/1287 (100.0%)
+Failures: 0
+Min floor: 12.2726
+Time: 26847s (447.4min)
+*** ALL CERTIFIED ***
+Certificates saved to ns_blowup/certs/N8_K3.json (424.3 MB)
+Checkpoint removed: ns_blowup/certs/N8_K3.checkpoint.json
+
+=== N=9, K²≤3 (exhaustive) ===
+K²=1..3: 13 k-vectors
+Testing 715 N=9 configs...
+/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
+  [71/715] cert=71 fail=0 floor≥14.86 rate=0.0/s ETA=1014min
+  [142/715] cert=142 fail=0 floor≥14.86 rate=0.0/s ETA=915min
+  [213/715] cert=213 fail=0 floor≥14.86 rate=0.0/s ETA=781min
+  [284/715] cert=284 fail=0 floor≥14.51 rate=0.0/s ETA=639min
+  [355/715] cert=355 fail=0 floor≥14.51 rate=0.0/s ETA=516min
+  [426/715] cert=426 fail=0 floor≥14.51 rate=0.0/s ETA=407min
+  [497/715] cert=497 fail=0 floor≥14.06 rate=0.0/s ETA=303min
+  [568/715] cert=568 fail=0 floor≥14.06 rate=0.0/s ETA=204min
+  [639/715] cert=639 fail=0 floor≥14.06 rate=0.0/s ETA=104min
+  [710/715] cert=710 fail=0 floor≥13.96 rate=0.0/s ETA=7min
+
+=== SOS CERTIFICATION COMPLETE ===
+N=9, K²≤3
+Tested: 715
+Certified: 715/715 (100.0%)
+Failures: 0
+Min floor: 13.9569
+Time: 59402s (990.0min)
+*** ALL CERTIFIED ***
+Certificates saved to ns_blowup/certs/N9_K3.json (890.9 MB)
+Checkpoint removed: ns_blowup/certs/N9_K3.checkpoint.json
+
+=== N=10, K²≤3 (exhaustive) ===
+K²=1..3: 13 k-vectors
+Testing 286 N=10 configs...
+/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
+  [28/286] cert=28 fail=0 floor≥16.45 rate=0.0/s ETA=3099min
+  [56/286] cert=56 fail=0 floor≥16.38 rate=0.0/s ETA=2516min
+  [84/286] cert=84 fail=0 floor≥16.38 rate=0.0/s ETA=2129min
+  [112/286] cert=112 fail=0 floor≥16.38 rate=0.0/s ETA=1777min
+  [140/286] cert=140 fail=0 floor≥15.86 rate=0.0/s ETA=1474min
+  [168/286] cert=168 fail=0 floor≥15.86 rate=0.0/s ETA=1193min
+  [196/286] cert=196 fail=0 floor≥15.86 rate=0.0/s ETA=912min
+  [224/286] cert=224 fail=0 floor≥15.71 rate=0.0/s ETA=632min
+  [252/286] cert=252 fail=0 floor≥15.71 rate=0.0/s ETA=349min
+  [280/286] cert=280 fail=0 floor≥15.71 rate=0.0/s ETA=60min
+
+=== SOS CERTIFICATION COMPLETE ===
+N=10, K²≤3
+Tested: 286
+Certified: 286/286 (100.0%)
+Failures: 0
+Min floor: 15.6214
+Time: 172045s (2867.4min)
+*** ALL CERTIFIED ***
+Certificates saved to ns_blowup/certs/N10_K3.json (1362.2 MB)
+Checkpoint removed: ns_blowup/certs/N10_K3.checkpoint.json
+
+=== N=11, K²≤3 (exhaustive) ===
+K²=1..3: 13 k-vectors
+Testing 78 N=11 configs...
+/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
+  [7/78] cert=7 fail=0 floor≥18.45 rate=0.0/s ETA=2923min
+K²=1..3: 13 k-vectors
+Testing 78 N=11 configs...
+Resuming from checkpoint: 21/78 (cert=21 fail=0 floor≥17.66)
+/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
+K²=1..3: 13 k-vectors
+Testing 78 N=11 configs...
+Resuming from checkpoint: 21/78 (cert=21 fail=0 floor≥17.66)
+/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
+K²=1..3: 13 k-vectors
+Testing 78 N=11 configs...
+Resuming from checkpoint: 21/78 (cert=21 fail=0 floor≥17.66)
+/home/jb/ComfyUI/CelebV-HQ/ns_blowup/sos_certifier.py:112: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  prob.solve(solver='SCS', verbose=False, max_iters=20000, eps=1e-7)
+  [28/78] cert=28 fail=0 floor≥17.66 rate=0.0/s ETA=2804min
+  [35/78] cert=35 fail=0 floor≥17.66 rate=0.0/s ETA=2472min
+  [42/78] cert=42 fail=0 floor≥17.66 rate=0.0/s ETA=2041min
+  [49/78] cert=49 fail=0 floor≥17.66 rate=0.0/s ETA=1485min
+  [56/78] cert=56 fail=0 floor≥17.48 rate=0.0/s ETA=1224min

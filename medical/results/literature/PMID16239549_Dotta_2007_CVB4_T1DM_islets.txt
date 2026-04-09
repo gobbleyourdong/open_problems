@@ -1,0 +1,35 @@
+1. Infect Immun. 2005 Nov;73(11):7477-84. doi: 10.1128/IAI.73.11.7477-7484.2005.
+
+Immune response to pneumococcal polysaccharides 4 and 14 in elderly and young 
+adults: analysis of the variable light chain repertoire.
+
+Smithson SL(1), Kolibab K, Shriner AK, Srivastava N, Khuder S, Westerink MA.
+
+Author information:
+(1)Department of Medicine, Medical University of Ohio, Health Education 
+Building, 3000 Arlington Avenue, Toledo, OH 43614, USA.
+
+Streptococcus pneumoniae is a human bacterial pathogen responsible for serious 
+infections including pneumonia. The currently licensed polysaccharide vaccine 
+provides 60 to 80% protection in young adults, but in the elderly the vaccine 
+efficacy is drastically reduced despite normal antibody levels. We hypothesized 
+that the reduced vaccine efficacy in the elderly results from altered variable 
+gene family usage. We have analyzed the light chain gene usage in 20 young (20 
+to 30 years of age) and 20 elderly (65 to 86 years of age) adults in response to 
+pneumococcal polysaccharide 4 (PPS4) and PPS14. We generated a variable light 
+chain library using B cells specific for PPS4 and PPS14 from each vaccinated 
+individual. We determined complete sequences and somatic mutation frequencies in 
+all isolated variable light chain fragments. Six gene families, kappa1, kappa2, 
+kappa3, kappa4, lambda1, and lambda3, were identified in response to PPS4 and 
+PPS14 in both age groups. Comparison of young and elderly adults demonstrated 
+significant differences in kappa4, lambda1, and lambda3 gene usage in response 
+to PPS4 and PPS14. With aging, there was a significant increase in kappa4 gene 
+usage and a significant decrease in lambda1 and lambda3 gene usage in response 
+to both PPS4 and PPS14. Although both Vkappa1 and Vlambda3 gene products 
+demonstrated extensive mutations, there was no age-related difference in 
+mutational frequency per gene family. These findings suggest an age-related 
+change in light chain gene usage in response to PPS4 and PPS14.
+
+DOI: 10.1128/IAI.73.11.7477-7484.2005
+PMCID: PMC1273897
+PMID: 16239549 [Indexed for MEDLINE]

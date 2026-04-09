@@ -1,0 +1,42 @@
+1. Clin Exp Immunol. 1999 Jul;117(1):100-5. doi:
+10.1046/j.1365-2249.1999.00954.x.
+
+Comparison of enterovirus-specific cellular immunity in two populations of young 
+children vaccinated with inactivated or live poliovirus vaccines.
+
+Juhela S(1), Hyöty H, Uibo R, Meriste SH, Uibo O, Lönnrot M, Halminen M, Simell 
+O, Ilonen J.
+
+Author information:
+(1)Turku Immunology Centre, Department of Virology, University of Turku, 
+Finland. sirpa.juhela@utu.fi
+
+Enterovirus-specific cellular immunity was studied in Estonian and in Finnish 
+children at the age of 9 months. The aim was to evaluate the level of 
+responsiveness in two neighbouring countries with different poliovirus 
+immunization practices and striking differences in the incidence of 
+insulin-dependent diabetes mellitus (IDDM), a disease in which early enterovirus 
+infections are an aetiological risk factor. The Estonian children immunized with 
+live attenuated polio vaccine had stronger T cell responses to coxsackievirus B4 
+and poliovirus type 1 when compared with Finnish children immunized with 
+inactivated polio vaccine (median stimulation indices 10.4 and 6.3 in Estonian 
+children and 1.9 and 2.9 in Finnish children, respectively; P < 0.05). 
+Lymphocytes stimulated by poliovirus type 1 antigen expressed interferon-gamma 
+(IFN-gamma) mRNAs, which strongly correlated with the level of proliferation 
+responses. Lymphocytes of Estonian children had a tendency towards stronger 
+expression of IFN-gamma upon poliovirus challenge when compared with Finnish 
+children. The number of children who had experienced coxsackievirus B 
+infections, as determined by the presence of neutralizing antibodies, did not 
+differ between Estonian and Finnish children. The results show that Finnish 
+children have weaker cellular immunity against enteroviruses at the age of 9 
+months compared with Estonian children at the same age. This is most probably 
+due to the difference in polio vaccination schedules; in Estonia live poliovirus 
+vaccine is used and given at earlier ages than the inactivated vaccines in 
+Finland. This leads to stronger T cell immunity which cross-reacts with other 
+enterovirus serotypes. This may explain the lower incidence of IDDM in Estonia 
+by providing effective protection against diabetogenic enterovirus strains in 
+Estonian children.
+
+DOI: 10.1046/j.1365-2249.1999.00954.x
+PMCID: PMC1905481
+PMID: 10403922 [Indexed for MEDLINE]

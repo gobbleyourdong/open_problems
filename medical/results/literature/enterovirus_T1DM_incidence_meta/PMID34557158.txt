@@ -1,0 +1,41 @@
+1. Front Endocrinol (Lausanne). 2021 Sep 7;12:706964. doi: 
+10.3389/fendo.2021.706964. eCollection 2021.
+
+Association Between Enterovirus Infection and Type 1 Diabetes Risk: A 
+Meta-Analysis of 38 Case-Control Studies.
+
+Wang K(1)(2), Ye F(3), Chen Y(1)(2), Xu J(1)(2), Zhao Y(1)(2), Wang Y(1)(2), Lan 
+T(1)(2).
+
+Author information:
+(1)Jinhua Maternity and Child Health Care Hospital, Jinhua, China.
+(2)Jinhua Women and Children's Hospital, Jinhua, China.
+(3)First Department of Neurology, Affiliated Jinhua Hospital, Jinhua Municipal 
+Central Hospital, Zhejiang University School of Medicine, Jinhua, China.
+
+OBJECTIVE: The association between enterovirus infection and type 1 diabetes 
+(T1D) is controversial, and this meta-analysis aimed to explore the correlation.
+METHODS: PubMed, Embase, Web of Science, and Cochrane Database were searched 
+from inception to April 2020. Studies were included if they could provide 
+sufficient information to calculate odds ratios and 95% confidence intervals. 
+All analyses were performed using STATA 15.1.
+RESULTS: Thirty-eight studies, encompassing 5921 subjects (2841 T1D patients and 
+3080 controls), were included. The pooled analysis showed that enterovirus 
+infection was associated with T1D (P < 0.001). Enterovirus infection was 
+correlated with T1D in the European (P < 0.001), African (P = 0.002), Asian (P = 
+0.001), Australian (P = 0.011), and Latin American (P = 0.002) populations, but 
+no conclusion could be reached for North America. The association between 
+enterovirus infection and T1D was detected in blood and tissue samples (both P < 
+0.001); no association was found in stool samples.
+CONCLUSION: Our findings suggest that enterovirus infection is associated with 
+T1D.
+
+Copyright © 2021 Wang, Ye, Chen, Xu, Zhao, Wang and Lan.
+
+DOI: 10.3389/fendo.2021.706964
+PMCID: PMC8453141
+PMID: 34557158 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that the research was 
+conducted in the absence of any commercial or financial relationships that could 
+be construed as a potential conflict of interest.

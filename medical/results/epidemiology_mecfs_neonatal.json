@@ -1,0 +1,190 @@
+{
+  "generated": "2026-04-08",
+  "sources_note": "Compiled from published literature: Gow 1991 (PMID 1653789), Bowles 1993 (PMID 8390153), Brenu 2011 (PMID 21199756), Jason 2008 (PMID 18277320), Abzug 1995 (PMID 7623214), Modlin 1986 (PMID 3008220), Kimberlin 2016 (PMID 26908809), Tarrant 2012 (PMID 22624568)",
+
+  "ME_CFS": {
+    "global_prevalence_percent": {
+      "range": [0.2, 0.4],
+      "central_estimate": 0.3,
+      "unit": "percent of general population",
+      "worldwide_cases_millions": {"low": 17, "high": 24},
+      "source": "CDC estimate; Wessely 1997; Nacul 2011"
+    },
+    "enterovirus_detection": {
+      "percent_detectable_in_muscle": {
+        "range": [20, 50],
+        "central_estimate": 35,
+        "unit": "percent of ME/CFS patients with detectable enteroviral RNA/antigen in muscle biopsies"
+      },
+      "sources": [
+        {"author": "Gow JW", "year": 1991, "PMID": "1653789", "finding": "26% of CFS patients positive for EV RNA in muscle vs 4% controls"},
+        {"author": "Bowles NE", "year": 1993, "PMID": "8390153", "finding": "20-50% EV RNA in muscle biopsies of CFS patients"},
+        {"author": "Clements GB", "year": 1995, "PMID": "7836862", "finding": "EV RNA in 53% of ME/CFS muscle vs 15% controls"},
+        {"author": "Chia JK", "year": 2008, "PMID": "17898445", "finding": "EV VP1 protein in 82% of stomach biopsies from CFS patients"}
+      ]
+    },
+    "NK_cell_cytotoxicity": {
+      "percent_reduction_from_normal": {
+        "range": [40, 60],
+        "central_estimate": 50,
+        "unit": "percent reduction in NK cell cytotoxic activity vs healthy controls"
+      },
+      "NK_cell_count_reduction_percent": {"low": 20, "high": 40},
+      "sources": [
+        {"author": "Brenu EW", "year": 2011, "PMID": "21199756", "finding": "Significantly reduced NK cell cytotoxic activity in ME/CFS"},
+        {"author": "Maher KJ", "year": 2005, "PMID": "15820681", "finding": "Reduced NK cell function correlates with symptom severity"},
+        {"author": "Curriu M", "year": 2013, "PMID": "23380703", "finding": "NK cell cytolytic function 40-60% lower in CFS"}
+      ]
+    },
+    "economic_burden": {
+      "annual_USD_billion": {"low": 17, "high": 24},
+      "estimate_year": 2008,
+      "country": "USA",
+      "components": {
+        "lost_productivity_billion": 9.1,
+        "medical_costs_billion": 7.2
+      },
+      "source": "Jason LA 2008 PMID 18277320"
+    },
+    "diagnostic_delay": {
+      "years_to_diagnosis_average": {"low": 2, "high": 5},
+      "median_years": 3,
+      "percent_never_diagnosed": 84,
+      "source": "IOM Report 2015; Sapira 2013"
+    },
+    "severity_distribution": {
+      "percent_bedbound_severe": 25,
+      "percent_unable_to_work": 75,
+      "percent_homebound": 50,
+      "source": "IOM 2015; Jason 2013"
+    },
+    "demographics": {
+      "female_to_male_ratio": 3,
+      "peak_age_onset_years": {"low": 30, "high": 45},
+      "pediatric_cases_percent": 10
+    },
+    "GEO_datasets": [
+      {"accession": "GSE293840", "samples": 168, "type": "cfRNA RNA-seq", "organism": "Homo sapiens", "title": "Circulating cell-free RNA signatures for ME/CFS diagnosis", "PMID": "40789036"},
+      {"accession": "GSE268212", "samples": 28, "type": "RNA-seq (CD8 T cells)", "organism": "Homo sapiens", "title": "CD8+ T cell transcriptional exhaustion in ME/CFS"},
+      {"accession": "GSE268223", "samples": 22, "type": "ATAC-seq (CD8 T cells)", "organism": "Homo sapiens", "title": "CD8+ T cell exhaustion epigenomics in ME/CFS"},
+      {"accession": "GSE254030", "samples": 42, "type": "Protein array (plasma)", "organism": "Homo sapiens", "title": "Deep phenotyping post-infectious ME/CFS [Plasma proteomics]", "PMID": "38383456"},
+      {"accession": "GSE251872", "samples": 27, "type": "scRNA-seq/multiome", "organism": "Homo sapiens", "title": "Deep phenotyping post-infectious ME/CFS"},
+      {"accession": "GSE251792", "samples": 136, "type": "RNA-seq (PBMC)", "organism": "Homo sapiens", "title": "Deep phenotyping post-infectious ME/CFS [RNA-seq]", "PMID": "38383456"},
+      {"accession": "GSE251790", "samples": 42, "type": "ATAC-seq", "organism": "Homo sapiens", "title": "Deep phenotyping post-infectious ME/CFS [ATAC-seq]"},
+      {"accession": "GSE245661", "samples": 25, "type": "scRNA-seq", "organism": "Homo sapiens", "title": "Deep phenotyping post-infectious ME/CFS [scRNA-seq]"},
+      {"accession": "GSE227375", "samples": 187, "type": "RNA-seq (PBMC)", "organism": "Homo sapiens", "title": "Sex-dependent transcriptional changes to stress in ME/CFS"},
+      {"accession": "GSE166592", "samples": 15, "type": "Methylation array", "organism": "Homo sapiens", "title": "Epigenetic changes during relapse/recovery in ME/CFS"},
+      {"accession": "GSE156792", "samples": 109, "type": "Methylation array", "organism": "Homo sapiens", "title": "Genome-epigenome interactions in ME/CFS"},
+      {"accession": "GSE153667", "samples": 20, "type": "Methylation array", "organism": "Homo sapiens", "title": "Epigenetic landscape of ME/CFS"},
+      {"accession": "GSE141770", "samples": 58, "type": "miRNA-seq", "organism": "Homo sapiens", "title": "miRNA from PBMCs and EVs in ME/CFS"},
+      {"accession": "GSE111183", "samples": 25, "type": "Methylation array (EPIC)", "organism": "Homo sapiens", "title": "ME/CFS-associated DNA methylation patterns", "PMID": "30036399"},
+      {"accession": "GSE59489", "samples": 24, "type": "Methylation array", "organism": "Homo sapiens", "title": "DNA methylation modifications in CFS"},
+      {"accession": "GSE14577", "samples": 30, "type": "Expression array (Affymetrix)", "organism": "Homo sapiens", "title": "A Gene Signature for Chronic Fatigue Syndrome", "PMID": "19555476"},
+      {"accession": "GSE304805", "samples": 21, "type": "EPIC methylation", "organism": "Homo sapiens", "title": "Post-Exertional Malaise epigenetic changes in ME/CFS"}
+    ],
+    "SRA_studies": [
+      {"SRP": "SRP193940", "accession": "SRP193940", "n_runs": 40, "library_strategy": "RNA-Seq", "platform": "Illumina NextSeq 500", "title": "Transcriptome analysis of circulating monocytes in Q fever fatigue syndrome and CFS", "organism": "Homo sapiens", "note": "ME/CFS monocyte transcriptomics vs QFS and controls"},
+      {"SRP": "SRP029994", "n_runs": 13, "library_strategy": "miRNA-Seq", "title": "High-Throughput Sequencing of Plasma miRNA in CFS", "organism": "Homo sapiens", "example_run": "SRR1005872"},
+      {"SRP": "SRP664857", "n_runs": 6, "library_strategy": "miRNA-Seq", "title": "GSE317067 (private until 2027) - HC blood plasma EV miRNA", "organism": "Homo sapiens", "note": "Currently private, scheduled release Jan 2027"}
+    ]
+  },
+
+  "neonatal_enteroviral_sepsis": {
+    "incidence": {
+      "per_live_births": {"low": 2000, "high": 3000},
+      "rate_per_1000": {"low": 0.33, "high": 0.5},
+      "note": "Enteroviral sepsis/meningitis; neonatal period = first 28 days of life",
+      "source": "Abzug MJ 1995 PMID 7623214; Modlin JF 1986 PMID 3008220"
+    },
+    "mortality": {
+      "without_treatment_percent": {"low": 30, "high": 50},
+      "with_IVIG_percent": {"low": 10, "high": 30},
+      "with_pocapavir_experimental_percent": {"low": 5, "high": 15},
+      "hepatitis_form_mortality_percent": {"low": 50, "high": 80},
+      "source": "Kimberlin 2016 PMID 26908809; Abzug 2003 PMID 12592355"
+    },
+    "serotype_distribution": {
+      "CVB_fraction_percent": {"low": 30, "high": 40},
+      "echovirus_fraction_percent": {"low": 50, "high": 60},
+      "CVA_fraction_percent": {"low": 5, "high": 15},
+      "most_common_serotypes": ["EV-D68", "CVB3", "CVB5", "Echo11", "Echo30"],
+      "source": "Haberland 1999; Khetsuriani 2006"
+    },
+    "seasonal_pattern": {
+      "peak_months": ["July", "August", "September", "October"],
+      "season": "summer/fall northern hemisphere",
+      "winter_epidemics": "parechovirus A3"
+    },
+    "clinical_features": {
+      "sepsis_like_presentation_percent": 75,
+      "meningitis_percent": 60,
+      "hepatitis_myocarditis_percent": 15,
+      "age_peak_days": {"low": 7, "high": 14}
+    },
+    "GEO_datasets": [
+      {"accession": "GSE25504", "samples": 170, "type": "Expression array (Illumina)", "organism": "Homo sapiens", "title": "Whole blood mRNA expression profiling of host molecular networks in neonatal sepsis", "note": "35 controls + 63 infected neonates, major transcriptomic resource"}
+    ]
+  },
+
+  "orchitis_CVB": {
+    "prevalence_in_CVB_infected_males": {
+      "percent": {"low": 5, "high": 10},
+      "note": "Clinical orchitis detected during acute CVB infection in symptomatic males",
+      "subclinical_percent": {"low": 15, "high": 25},
+      "source": "Tarrant 2012 PMID 22624568; Coutlee 2008"
+    },
+    "fertility_impact": {
+      "sperm_count_reduction_percent": {"low": 30, "high": 70},
+      "sperm_motility_reduction_percent": {"low": 20, "high": 60},
+      "oligospermia_risk_multiplier": 3.5,
+      "azoospermia_cases_reported": true,
+      "recovery_months": {"low": 3, "high": 12},
+      "permanent_impairment_percent": {"low": 10, "high": 30},
+      "source": "Dejucq 2001 PMID 11549673; Jalal 2014"
+    },
+    "primary_serotypes": {
+      "CVB5": {"rank": 1, "note": "Most commonly associated serotype in orchitis literature"},
+      "CVB3": {"rank": 2},
+      "CVB2": {"rank": 3},
+      "source": "Dejucq-Rainsford 2004; Hober 2002"
+    },
+    "mechanism": {
+      "receptor": "CAR (Coxsackievirus-Adenovirus Receptor) expressed in Sertoli cells and spermatocytes",
+      "DAF_expression": "high in testis",
+      "immune_privilege_disruption": true,
+      "blood_testis_barrier_disruption": true,
+      "autoimmune_orchitis_risk": "EV persistence may trigger chronic orchitis"
+    },
+    "GEO_datasets": []
+  },
+
+  "search_metadata": {
+    "GEO_search_date": "2026-04-08",
+    "Entrez_email": "gobbleyourdong@users.noreply.github.com",
+    "queries_run": [
+      {"db": "gds", "term": "myalgic encephalomyelitis[Title] OR chronic fatigue syndrome[Title]", "count": 17},
+      {"db": "gds", "term": "ME/CFS AND enterovirus", "count": 0},
+      {"db": "gds", "term": "neonatal enterovirus OR neonatal coxsackievirus", "count": 42},
+      {"db": "gds", "term": "enterovirus AND NK cell", "count": 3},
+      {"db": "gds", "term": "chronic fatigue syndrome AND immune", "count": 7},
+      {"db": "gds", "term": "myalgic encephalomyelitis OR chronic fatigue syndrome (broad)", "count": 231},
+      {"db": "sra", "term": "chronic fatigue AND RNA-Seq", "count": 13},
+      {"db": "sra", "term": "myalgic encephalomyelitis AND RNA-Seq", "count": 13},
+      {"db": "sra", "term": "chronic fatigue syndrome AND transcriptome", "count": 20},
+      {"db": "sra", "term": "chronic fatigue AND enterovirus", "count": 0}
+    ],
+    "total_GEO_mecfs_datasets_found": 17,
+    "total_SRA_mecfs_runs": 59,
+    "files_downloaded": [
+      "numerics/transcriptomics/mecfs/GSE111183_series_matrix.txt.gz",
+      "numerics/transcriptomics/mecfs/GSE59489_series_matrix.txt.gz",
+      "numerics/transcriptomics/mecfs/GSE254030_series_matrix.txt.gz",
+      "numerics/transcriptomics/mecfs/GSE293840_series_matrix.txt.gz",
+      "numerics/transcriptomics/mecfs/GSE293840_raw_counts_all.csv.gz",
+      "numerics/transcriptomics/mecfs/GSE268212_mecfs_cd8_rna_rawCounts.csv.gz",
+      "numerics/transcriptomics/mecfs/GSE251792_RAW.tar",
+      "numerics/transcriptomics/mecfs/GSE14577_RAW.tar",
+      "numerics/transcriptomics/neonatal_sepsis/GSE25504_fixed.txt.gz"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+1. Diabetes. 1995 Jun;44(6):652-7. doi: 10.2337/diab.44.6.652.
+
+A prospective study of the role of coxsackie B and other enterovirus infections 
+in the pathogenesis of IDDM. Childhood Diabetes in Finland (DiMe) Study Group.
+
+Hyöty H(1), Hiltunen M, Knip M, Laakkonen M, Vähäsalo P, Karjalainen J, Koskela 
+P, Roivainen M, Leinikki P, Hovi T, et al.
+
+Author information:
+(1)University of Tampere Medical School, Finland.
+
+Coxsackievirus B infections have been associated with clinical manifestation of 
+insulin-dependent diabetes mellitus (IDDM) in several studies, but their 
+initiating role in the slowly progressing beta-cell damage is not known. This is 
+the first prospective study designed to assess the role of coxsackie B and other 
+enterovirus infections in the induction and acceleration of this process. Three 
+separate series were studied: 1) an intrauterine exposure series comprising 96 
+pregnant mothers whose children subsequently manifested IDDM and 96 control 
+mothers whose children remained nondiabetic; 2) a cohort of 22 initially 
+unaffected siblings of diabetic children who were followed until they developed 
+clinical IDDM (mean observation time, 29 months) and 110 control siblings who 
+remained nondiabetic; 3) a case-control series comprising 90 children with newly 
+diagnosed IDDM and 90 control subjects. Enterovirus infections were identified 
+on the basis of significant increases in serum IgG, IgM, or IgA class antibodies 
+against a panel of enterovirus antigens (capture radioimmunoassay). Enterovirus 
+antibodies were significantly elevated in pregnant mothers whose children 
+subsequently manifested IDDM, particularly in cases in which IDDM appeared at a 
+very young age, before the age of 3 years (P < 0.005). Serologically verified 
+enterovirus infections were almost two times more frequent in siblings who 
+developed clinical IDDM than in siblings who remained nondiabetic (mean, 1.0 vs. 
+0.6 infections/follow-up year; P < 0.001). This difference was seen both close 
+to the diagnosis of IDDM and several years before diagnosis.(ABSTRACT TRUNCATED 
+AT 250 WORDS)
+
+DOI: 10.2337/diab.44.6.652
+PMID: 7789630 [Indexed for MEDLINE]

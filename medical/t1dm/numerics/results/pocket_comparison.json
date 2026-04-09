@@ -1,0 +1,354 @@
+{
+  "cva6_pocket_residues": [
+    {
+      "chain": "A",
+      "position": 105,
+      "residue": "I"
+    },
+    {
+      "chain": "A",
+      "position": 106,
+      "residue": "D"
+    },
+    {
+      "chain": "A",
+      "position": 107,
+      "residue": "V"
+    },
+    {
+      "chain": "A",
+      "position": 108,
+      "residue": "M"
+    },
+    {
+      "chain": "A",
+      "position": 125,
+      "residue": "F"
+    },
+    {
+      "chain": "A",
+      "position": 129,
+      "residue": "F"
+    },
+    {
+      "chain": "A",
+      "position": 131,
+      "residue": "F"
+    },
+    {
+      "chain": "A",
+      "position": 147,
+      "residue": "Y"
+    },
+    {
+      "chain": "A",
+      "position": 148,
+      "residue": "M"
+    },
+    {
+      "chain": "A",
+      "position": 149,
+      "residue": "Y"
+    },
+    {
+      "chain": "A",
+      "position": 171,
+      "residue": "P"
+    },
+    {
+      "chain": "A",
+      "position": 172,
+      "residue": "S"
+    },
+    {
+      "chain": "A",
+      "position": 173,
+      "residue": "I"
+    },
+    {
+      "chain": "A",
+      "position": 184,
+      "residue": "V"
+    },
+    {
+      "chain": "A",
+      "position": 186,
+      "residue": "V"
+    },
+    {
+      "chain": "A",
+      "position": 189,
+      "residue": "M"
+    },
+    {
+      "chain": "A",
+      "position": 195,
+      "residue": "Y"
+    },
+    {
+      "chain": "A",
+      "position": 197,
+      "residue": "W"
+    },
+    {
+      "chain": "A",
+      "position": 222,
+      "residue": "N"
+    },
+    {
+      "chain": "A",
+      "position": 223,
+      "residue": "M"
+    },
+    {
+      "chain": "A",
+      "position": 224,
+      "residue": "M"
+    },
+    {
+      "chain": "A",
+      "position": 227,
+      "residue": "F"
+    },
+    {
+      "chain": "A",
+      "position": 247,
+      "residue": "M"
+    },
+    {
+      "chain": "A",
+      "position": 269,
+      "residue": "N"
+    },
+    {
+      "chain": "C",
+      "position": 24,
+      "residue": "I"
+    }
+  ],
+  "cva6_pocket_hydrophobic_fraction": 0.72,
+  "cvb1_pocket_hydrophobic_candidates": [
+    {
+      "position": 103,
+      "residue": "L"
+    },
+    {
+      "position": 105,
+      "residue": "L"
+    },
+    {
+      "position": 106,
+      "residue": "F"
+    },
+    {
+      "position": 109,
+      "residue": "L"
+    },
+    {
+      "position": 111,
+      "residue": "F"
+    },
+    {
+      "position": 113,
+      "residue": "L"
+    },
+    {
+      "position": 115,
+      "residue": "L"
+    },
+    {
+      "position": 117,
+      "residue": "F"
+    },
+    {
+      "position": 118,
+      "residue": "V"
+    },
+    {
+      "position": 119,
+      "residue": "I"
+    },
+    {
+      "position": 122,
+      "residue": "A"
+    },
+    {
+      "position": 125,
+      "residue": "P"
+    },
+    {
+      "position": 128,
+      "residue": "A"
+    },
+    {
+      "position": 131,
+      "residue": "V"
+    },
+    {
+      "position": 133,
+      "residue": "A"
+    },
+    {
+      "position": 134,
+      "residue": "P"
+    },
+    {
+      "position": 135,
+      "residue": "V"
+    },
+    {
+      "position": 140,
+      "residue": "I"
+    },
+    {
+      "position": 141,
+      "residue": "M"
+    },
+    {
+      "position": 143,
+      "residue": "V"
+    },
+    {
+      "position": 144,
+      "residue": "P"
+    },
+    {
+      "position": 145,
+      "residue": "P"
+    },
+    {
+      "position": 148,
+      "residue": "P"
+    },
+    {
+      "position": 149,
+      "residue": "V"
+    },
+    {
+      "position": 150,
+      "residue": "P"
+    },
+    {
+      "position": 153,
+      "residue": "V"
+    },
+    {
+      "position": 157,
+      "residue": "A"
+    },
+    {
+      "position": 158,
+      "residue": "W"
+    },
+    {
+      "position": 164,
+      "residue": "P"
+    },
+    {
+      "position": 166,
+      "residue": "V"
+    },
+    {
+      "position": 167,
+      "residue": "F"
+    },
+    {
+      "position": 168,
+      "residue": "W"
+    },
+    {
+      "position": 173,
+      "residue": "A"
+    },
+    {
+      "position": 174,
+      "residue": "P"
+    },
+    {
+      "position": 175,
+      "residue": "P"
+    },
+    {
+      "position": 177,
+      "residue": "M"
+    },
+    {
+      "position": 179,
+      "residue": "I"
+    },
+    {
+      "position": 180,
+      "residue": "P"
+    },
+    {
+      "position": 181,
+      "residue": "F"
+    },
+    {
+      "position": 182,
+      "residue": "I"
+    },
+    {
+      "position": 184,
+      "residue": "I"
+    },
+    {
+      "position": 187,
+      "residue": "A"
+    },
+    {
+      "position": 191,
+      "residue": "F"
+    },
+    {
+      "position": 195,
+      "residue": "W"
+    },
+    {
+      "position": 198,
+      "residue": "F"
+    },
+    {
+      "position": 203,
+      "residue": "V"
+    },
+    {
+      "position": 206,
+      "residue": "I"
+    },
+    {
+      "position": 209,
+      "residue": "L"
+    },
+    {
+      "position": 212,
+      "residue": "M"
+    },
+    {
+      "position": 215,
+      "residue": "L"
+    },
+    {
+      "position": 217,
+      "residue": "M"
+    },
+    {
+      "position": 220,
+      "residue": "V"
+    },
+    {
+      "position": 223,
+      "residue": "A"
+    },
+    {
+      "position": 227,
+      "residue": "P"
+    },
+    {
+      "position": 228,
+      "residue": "I"
+    }
+  ],
+  "vp1_cross_species_identity": 0.05,
+  "significance": "CVB pocket is structurally distinct from CVA. CVB-specific drug design now possible."
+}

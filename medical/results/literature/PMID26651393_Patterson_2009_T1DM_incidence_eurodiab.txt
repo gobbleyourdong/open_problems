@@ -1,0 +1,54 @@
+1. Am J Psychiatry. 2016 May 1;173(5):509-16. doi:
+10.1176/appi.ajp.2015.15091188.  Epub 2015 Dec 7.
+
+Perinatal Phosphatidylcholine Supplementation and Early Childhood Behavior 
+Problems: Evidence for CHRNA7 Moderation.
+
+Ross RG(1), Hunter SK(1), Hoffman MC(1), McCarthy L(1), Chambers BM(1), Law 
+AJ(1), Leonard S(1), Zerbe GO(1), Freedman R(1).
+
+Author information:
+(1)From the Departments of Psychiatry, Pediatrics, Cellular and Developmental 
+Biology, and Pharmacology, University of Colorado School of Medicine, Aurora; 
+the Department of Biostatistics and Informatics, University of Colorado School 
+of Public Health, Aurora; and the Departments of Obstetrics and Gynecology and 
+Pediatrics, Denver Health Medical Center, Denver.
+
+Erratum in
+    Am J Psychiatry. 2016 Jul 1;173(7):735. doi: 
+10.1176/appi.ajp.2016.1737correction.
+
+Comment in
+    Am J Psychiatry. 2018 Jun 1;175(6):578-579. doi: 
+10.1176/appi.ajp.2018.18020147r2.
+
+OBJECTIVE: α7-Nicotinic receptors are involved in the final maturation of GABA 
+inhibitory synapses before birth. Choline at levels found in the amniotic fluid 
+is an agonist at α7-nicotinic receptors. The authors conducted a double-blind 
+placebo-controlled trial to assess whether high-dose oral phosphatidylcholine 
+supplementation during pregnancy to increase maternal amniotic fluid choline 
+levels would enhance fetal development of cerebral inhibition and, as a result, 
+decrease childhood behavior problems associated with later mental illness.
+METHOD: The authors previously reported that newborns in the phosphatidylcholine 
+treatment group have increased suppression of the cerebral evoked response to 
+repeated auditory stimuli. In this follow-up, they report parental assessments 
+of the children's behavior at 40 months of age, using the Child Behavior 
+Checklist.
+RESULTS: At 40 months, parent ratings of children in the phosphatidylcholine 
+group (N=23) indicated fewer attention problems and less social withdrawal 
+compared with the placebo group (N=26). The improvement is comparable in 
+magnitude to similar deficits at this age associated with later schizophrenia. 
+The children's behavior is moderated by CHRNA7 variants associated with later 
+mental illness and is related to their enhanced cerebral inhibition as newborns.
+CONCLUSIONS: CHRNA7, the α7-nicotinic acetylcholine receptor gene, has been 
+associated with schizophrenia, autism, and attention deficit hyperactivity 
+disorder. Maternal phosphatidylcholine treatment may, by increasing activation 
+of the α7-nicotinic acetylcholine receptor, alter the development of behavior 
+problems in early childhood that can presage later mental illness.
+
+DOI: 10.1176/appi.ajp.2015.15091188
+PMCID: PMC5892450
+PMID: 26651393 [Indexed for MEDLINE]
+
+Conflict of interest statement: The other authors report no financial 
+relationships with commercial interests.

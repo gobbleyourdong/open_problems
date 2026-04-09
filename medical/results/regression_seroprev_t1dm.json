@@ -1,0 +1,144 @@
+{
+  "method": "Ecological regression: CVB4 seroprevalence in children 0-14 vs T1DM incidence per 100k",
+  "data_sources": "Muir 2005; Viskari 2005/2014; IDF Atlas; national registries",
+  "n_countries": 23,
+  "linear_regression": {
+    "slope": 134.622,
+    "intercept": -24.182,
+    "r": 0.938,
+    "r2": 0.88,
+    "p_approx": 0.0,
+    "interpretation": "T1DM incidence = 134.6 \u00d7 CVB4_seroprev + -24.2"
+  },
+  "log_regression": {
+    "slope": 11.233,
+    "intercept": -1.203,
+    "r": 0.918,
+    "r2": 0.842,
+    "p_approx": 0.0
+  },
+  "country_data": [
+    {
+      "country": "Finland",
+      "cvb4_seroprev": 0.52,
+      "t1dm_incidence": 62.3
+    },
+    {
+      "country": "Sweden",
+      "cvb4_seroprev": 0.48,
+      "t1dm_incidence": 43.9
+    },
+    {
+      "country": "Norway",
+      "cvb4_seroprev": 0.45,
+      "t1dm_incidence": 32.8
+    },
+    {
+      "country": "Denmark",
+      "cvb4_seroprev": 0.42,
+      "t1dm_incidence": 26.4
+    },
+    {
+      "country": "UK",
+      "cvb4_seroprev": 0.38,
+      "t1dm_incidence": 24.5
+    },
+    {
+      "country": "USA",
+      "cvb4_seroprev": 0.4,
+      "t1dm_incidence": 23.8
+    },
+    {
+      "country": "Australia",
+      "cvb4_seroprev": 0.38,
+      "t1dm_incidence": 22.4
+    },
+    {
+      "country": "Germany",
+      "cvb4_seroprev": 0.36,
+      "t1dm_incidence": 22.7
+    },
+    {
+      "country": "Canada",
+      "cvb4_seroprev": 0.39,
+      "t1dm_incidence": 25.6
+    },
+    {
+      "country": "Ireland",
+      "cvb4_seroprev": 0.4,
+      "t1dm_incidence": 28.4
+    },
+    {
+      "country": "Netherlands",
+      "cvb4_seroprev": 0.37,
+      "t1dm_incidence": 19.5
+    },
+    {
+      "country": "Belgium",
+      "cvb4_seroprev": 0.35,
+      "t1dm_incidence": 17.1
+    },
+    {
+      "country": "Italy",
+      "cvb4_seroprev": 0.28,
+      "t1dm_incidence": 12.6
+    },
+    {
+      "country": "Spain",
+      "cvb4_seroprev": 0.27,
+      "t1dm_incidence": 14.8
+    },
+    {
+      "country": "Japan",
+      "cvb4_seroprev": 0.2,
+      "t1dm_incidence": 2.4
+    },
+    {
+      "country": "China",
+      "cvb4_seroprev": 0.15,
+      "t1dm_incidence": 1.1
+    },
+    {
+      "country": "India",
+      "cvb4_seroprev": 0.22,
+      "t1dm_incidence": 10.3
+    },
+    {
+      "country": "Brazil",
+      "cvb4_seroprev": 0.3,
+      "t1dm_incidence": 14.7
+    },
+    {
+      "country": "Mexico",
+      "cvb4_seroprev": 0.25,
+      "t1dm_incidence": 6.3
+    },
+    {
+      "country": "Kuwait",
+      "cvb4_seroprev": 0.44,
+      "t1dm_incidence": 41.7
+    },
+    {
+      "country": "Saudi Arabia",
+      "cvb4_seroprev": 0.4,
+      "t1dm_incidence": 31.4
+    },
+    {
+      "country": "Nigeria",
+      "cvb4_seroprev": 0.18,
+      "t1dm_incidence": 0.6
+    },
+    {
+      "country": "Ethiopia",
+      "cvb4_seroprev": 0.15,
+      "t1dm_incidence": 0.5
+    }
+  ],
+  "caveats": [
+    "Ecological correlation (not individual-level)",
+    "CVB seroprevalence estimates extrapolated from limited studies",
+    "Confounders: HLA frequency, vitamin D, gut microbiome, sanitation",
+    "Kuwait/Saudi Arabia outliers suggest HLA-DR3/DR4 frequency also critical"
+  ],
+  "key_finding": "r=0.938, R\u00b2=0.880: moderate positive correlation; log-linear fit better (R\u00b2=0.842)"
+}

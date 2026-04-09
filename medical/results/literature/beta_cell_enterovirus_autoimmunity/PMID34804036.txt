@@ -1,0 +1,38 @@
+1. Front Immunol. 2021 Nov 5;12:751341. doi: 10.3389/fimmu.2021.751341.
+eCollection  2021.
+
+Changes in MDA5 and TLR3 Sensing of the Same Diabetogenic Virus Result in 
+Different Autoimmune Disease Outcomes.
+
+Lincez PJ(1), Shanina I(2), Horwitz MS(2).
+
+Author information:
+(1)Michael Smith Laboratories, The University of British Columbia, Vancouver, 
+BC, Canada.
+(2)Department of Microbiology & Immunology, Life Sciences Institute, The 
+University of British Columbia, Vancouver, BC, Canada.
+
+Seemingly redundant in function, melanoma differentiation-associated protein 5 
+(MDA5) and toll-like receptor- 3 (TLR3) both sense RNA viruses and induce type I 
+interferon (IFN-I). Herein, we demonstrate that changes in sensing of the same 
+virus by MDA5 and TLR3 can lead to distinct signatures of IFN-α and IFN-ß 
+resulting in different disease outcomes. Specifically, infection with a 
+diabetogenic islet β cell-tropic strain of coxsackievirus (CB4) results in 
+diabetes protection under reduced MDA5 signaling conditions while reduced TLR3 
+function retains diabetes susceptibility. Regulating the induction of IFN-I at 
+the site of virus infection creates a local site of interferonopathy leading to 
+loss of T cell regulation and induction of autoimmune diabetes. We have not 
+demonstrated another way to prevent T1D in the NOD mouse, rather we believe this 
+work has provided compounding evidence for a specific control of IFN-I to drive 
+a myriad of responses ranging from virus clearance to onset of autoimmune 
+diabetes.
+
+Copyright © 2021 Lincez, Shanina and Horwitz.
+
+DOI: 10.3389/fimmu.2021.751341
+PMCID: PMC8602094
+PMID: 34804036 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that the research was 
+conducted in the absence of any commercial or financial relationships that could 
+be construed as a potential conflict of interest.

@@ -1,0 +1,37 @@
+1. EBioMedicine. 2017 Aug;22:10-17. doi: 10.1016/j.ebiom.2017.06.014. Epub 2017
+Jun  21.
+
+Type 1 Diabetes and Type 1 Interferonopathies: Localization of a Type 1 Common 
+Thread of Virus Infection in the Pancreas.
+
+Jean-Baptiste VSE(1), Xia CQ(2), Clare-Salzler MJ(3), Horwitz MS(4).
+
+Author information:
+(1)Department of Microbiology and Immunology, Infection, Inflammation, and 
+Immunity (I3) Research Group, Life Sciences Institute, University of British 
+Columbia, Vancouver, British Columbia V6T 1Z3, Canada.
+(2)Department of Pathology, Immunology and Laboratory Medicine, University of 
+Florida College of Medicine, Gainesville, Florida 32610, USA.
+(3)Department of Endocrinology, Diabetes and Metabolism, University of Florida 
+College of Medicine, Gainesville, Florida, USA.
+(4)Department of Microbiology and Immunology, Infection, Inflammation, and 
+Immunity (I3) Research Group, Life Sciences Institute, University of British 
+Columbia, Vancouver, British Columbia V6T 1Z3, Canada. Electronic address: 
+mhorwitz@mail.ubc.ca.
+
+Type 1 diabetes (T1D) has been associated with both genetic and environmental 
+factors. Increasing incidence of T1D worldwide is prompting researchers to adopt 
+different approaches to explain the biology of T1D, beyond the presence and 
+activity of autoreactive lymphocytes. In this review, we propose inflammatory 
+pathways as triggers for T1D. Within the scope of those inflammatory pathways 
+and in understanding the pathogenesis of disease, we suggest that viruses, in 
+particular Coxsackieviruses, act by causing a type 1 interferonopathy within the 
+pancreas and the microenvironment of the islet. As such, this connection and 
+common thread represents an exciting platform for the development of new 
+diagnostic, treatment and/or prevention options.
+
+Copyright © 2016 The Authors. Published by Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.ebiom.2017.06.014
+PMCID: PMC5552106
+PMID: 28663145 [Indexed for MEDLINE]

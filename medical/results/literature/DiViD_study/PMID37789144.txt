@@ -1,0 +1,63 @@
+1. Nat Med. 2023 Nov;29(11):2902-2908. doi: 10.1038/s41591-023-02576-1. Epub 2023
+ Oct 4.
+
+Pleconaril and ribavirin in new-onset type 1 diabetes: a phase 2 randomized 
+trial.
+
+Krogvold L(#)(1), Mynarek IM(#)(1), Ponzi E(2), Mørk FB(3)(4), Hessel TW(3), 
+Roald T(1), Lindblom N(5), Westman J(5), Barker P(6), Hyöty H(7)(8), Ludvigsson 
+J(9), Hanssen KF(10), Johannesen J(3), Dahl-Jørgensen K(11)(12).
+
+Author information:
+(1)Division of Paediatric and Adolescent Medicine, Oslo University Hospital, 
+Oslo, Norway.
+(2)Clinical Trial Unit, Oslo University Hospital, Oslo, Norway.
+(3)Steno Diabetes Center Copenhagen, Herlev University Hospital, Copenhagen, 
+Denmark.
+(4)Department of Clinical Medicine, Faculty of Health and Medical Sciences, 
+University of Copenhagen, Copenhagen, Denmark.
+(5)Apodemus AB, Stockholm, Sweden.
+(6)National Institute for Health and Care Research Cambridge Biomedical Research 
+Centre, Core Biochemistry Assay Laboratory, Cambridge, UK.
+(7)Faculty of Medicine and Health Technology, Tampere University, Tampere, 
+Finland.
+(8)Fimlab Laboratories, Tampere, Finland.
+(9)Linköping University, Linköping, Sweden.
+(10)Faculty of Medicine, University of Oslo, Oslo, Norway.
+(11)Division of Paediatric and Adolescent Medicine, Oslo University Hospital, 
+Oslo, Norway. knut.dahl-jorgensen@medisin.uio.no.
+(12)Faculty of Medicine, University of Oslo, Oslo, Norway. 
+knut.dahl-jorgensen@medisin.uio.no.
+(#)Contributed equally
+
+Previous studies showed a low-grade enterovirus infection in the pancreatic 
+islets of patients with newly diagnosed type 1 diabetes (T1D). In the Diabetes 
+Virus Detection (DiViD) Intervention, a phase 2, placebo-controlled, randomized, 
+parallel group, double-blind trial, 96 children and adolescents (aged 
+6-15 years) with new-onset T1D received antiviral treatment with pleconaril and 
+ribavirin (n = 47) or placebo (n = 49) for 6 months, with the aim of preserving 
+β cell function. The primary endpoint was the mean stimulated C-peptide area 
+under the curve (AUC) 12 months after the initiation of treatment (less than 
+3 weeks after diagnosis) using a mixed linear model. The model used longitudinal 
+log-transformed serum C-peptide AUCs at baseline, at 3 months, 6 months and 
+1 year. The primary endpoint was met with the serum C-peptide AUC being higher 
+in the pleconaril and ribavirin treatment group compared to the placebo group at 
+12 months (average marginal effect = 0.057 in the linear mixed model; 95% 
+confidence interval = 0.004-0.11, P = 0.037). The treatment was well tolerated. 
+The results show that antiviral treatment may preserve residual insulin 
+production in children and adolescent with new-onset T1D. This provides a 
+rationale for further evaluating antiviral strategies in the prevention and 
+treatment of T1D. European Union Drug Regulating Authorities Clinical Trials 
+identifier: 2015-003350-41 .
+
+© 2023. The Author(s).
+
+DOI: 10.1038/s41591-023-02576-1
+PMCID: PMC10667091
+PMID: 37789144 [Indexed for MEDLINE]
+
+Conflict of interest statement: H.H. is a shareholder and member of the board of 
+Vactech Ltd, which develops vaccines against picornaviruses. N.L. and J.W. are 
+employees of Apodemus/Curovir AB, which own the rights to the commercialization 
+of the results of this trial. Curovir AB is developing antiviral drugs for 
+enterovirus-induced diseases. The other authors declare no competing interests.

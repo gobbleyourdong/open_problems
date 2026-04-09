@@ -1,0 +1,45 @@
+1. iScience. 2021 Dec 18;25(1):103653. doi: 10.1016/j.isci.2021.103653.
+eCollection  2022 Jan 21.
+
+Persistent coxsackievirus B1 infection triggers extensive changes in the 
+transcriptome of human pancreatic ductal cells.
+
+Buchacher T(1)(2), Honkimaa A(3), Välikangas T(1)(2), Lietzén N(1), Hirvonen 
+MK(1)(2), Laiho JE(3), Sioofy-Khojine AB(3), Eskelinen EL(4), Hyöty H(3)(5), Elo 
+LL(1)(2)(4), Lahesmaa R(1)(2).
+
+Author information:
+(1)Turku Bioscience Centre, University of Turku and Åbo Akademi University, 
+FI-20520 Turku, Finland.
+(2)InFLAMES Research Flagship Center, University of Turku, Turku, Finland.
+(3)Faculty of Medicine and Health Technology, Tampere University, Tampere 
+FI-33014, Finland.
+(4)Institute of Biomedicine, University of Turku, Turku FI-20014, Finland.
+(5)Fimlab Laboratories, Pirkanmaa Hospital District, Tampere FI-33520, Finland.
+
+Enteroviruses, particularly the group B coxsackieviruses (CVBs), have been 
+associated with the development of type 1 diabetes. Several CVB serotypes 
+establish chronic infections in human cells in vivo and in vitro. However, the 
+mechanisms leading to enterovirus persistency and, possibly, beta cell 
+autoimmunity are not fully understood. We established a carrier-state-type 
+persistent infection model in human pancreatic cell line PANC-1 using two 
+distinct CVB1 strains and profiled the infection-induced changes in cellular 
+transcriptome. In the current study, we observed clear changes in the gene 
+expression of factors associated with the pancreatic microenvironment, the 
+secretory pathway, and lysosomal biogenesis during persistent CVB1 infections. 
+Moreover, we found that the antiviral response pathways were activated 
+differently by the two CVB1 strains. Overall, our study reveals extensive 
+transcriptional responses in persistently CVB1-infected pancreatic cells with 
+strong opposite but also common changes between the two strains.
+
+© 2022 The Authors.
+
+DOI: 10.1016/j.isci.2021.103653
+PMCID: PMC8728469
+PMID: 35024587
+
+Conflict of interest statement: H.H. is a shareholder and chairman of the board 
+of Vactech Ltd (http://www.vactech.fi/en/), which develops vaccines against 
+picornaviruses. H.H. serves on the scientific advisory board of Provention Bio 
+Inc., which is developing a clinical CVB vaccine in collaboration with Vactech 
+Ltd.

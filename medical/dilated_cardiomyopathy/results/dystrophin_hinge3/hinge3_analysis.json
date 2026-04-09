@@ -1,0 +1,252 @@
+{
+  "analysis": "Dystrophin Hinge-3 Analysis \u2014 REQ-003",
+  "date": "2026-04-08",
+  "uniprot": "P11532",
+  "sequence_len": 3685,
+  "domains": [
+    {
+      "name": "N-terminal actin-binding domain (ABD1)",
+      "start": 1,
+      "end": 246,
+      "type": "functional"
+    },
+    {
+      "name": "Spectrin-like repeat 1",
+      "start": 243,
+      "end": 495,
+      "type": "spectrin"
+    },
+    {
+      "name": "Spectrin-like repeat 2",
+      "start": 493,
+      "end": 745,
+      "type": "spectrin"
+    },
+    {
+      "name": "Spectrin-like repeat 3",
+      "start": 743,
+      "end": 997,
+      "type": "spectrin"
+    },
+    {
+      "name": "Hinge 1",
+      "start": 326,
+      "end": 339,
+      "type": "hinge"
+    },
+    {
+      "name": "Spectrin-like repeats 4-15",
+      "start": 994,
+      "end": 1804,
+      "type": "spectrin"
+    },
+    {
+      "name": "Hinge 2",
+      "start": 1461,
+      "end": 1480,
+      "type": "hinge"
+    },
+    {
+      "name": "Spectrin-like repeats 16-22",
+      "start": 1804,
+      "end": 2291,
+      "type": "spectrin"
+    },
+    {
+      "name": "Hinge 3 (2A cleavage region)",
+      "start": 1890,
+      "end": 1985,
+      "type": "hinge"
+    },
+    {
+      "name": "Spectrin-like repeats 23-24",
+      "start": 2291,
+      "end": 2594,
+      "type": "spectrin"
+    },
+    {
+      "name": "Hinge 4",
+      "start": 3056,
+      "end": 3072,
+      "type": "hinge"
+    },
+    {
+      "name": "Cysteine-rich domain (WW + EF-hand)",
+      "start": 3080,
+      "end": 3360,
+      "type": "functional"
+    },
+    {
+      "name": "C-terminal domain",
+      "start": 3361,
+      "end": 3685,
+      "type": "functional"
+    }
+  ],
+  "hinge3": {
+    "start": 1890,
+    "end": 1985,
+    "length": 96,
+    "composition": {
+      "A": 8,
+      "C": 1,
+      "D": 5,
+      "E": 14,
+      "F": 3,
+      "G": 2,
+      "H": 1,
+      "I": 6,
+      "K": 10,
+      "L": 9,
+      "M": 4,
+      "N": 2,
+      "P": 3,
+      "Q": 6,
+      "R": 10,
+      "S": 4,
+      "T": 3,
+      "V": 4,
+      "W": 1
+    },
+    "proline_pct": 3.1
+  },
+  "hinge3_seq": "LKCLDDIEKKLASLPEPRDERKIKEIDRELQKKKEELNAVRRQAEGLSEDGAAMAVEPTQIQLSKRWREIESKFAQFRRLNFAQIHTVREETMMVM",
+  "badorff_context": {},
+  "strict_cleavage_sites": [
+    {
+      "motif_type": "strict [LIVM]x4[LIVM]G",
+      "motif_start": 89,
+      "cleavage_pos": 95,
+      "match_seq": "VDLVNIG",
+      "context": "LRVLQNNN|VDLVNIG|STDIVDGN",
+      "domains": [
+        "N-terminal actin-binding domain (ABD1)"
+      ],
+      "in_hinge3": false
+    },
+    {
+      "motif_type": "strict [LIVM]x4[LIVM]G",
+      "motif_start": 202,
+      "cleavage_pos": 208,
+      "match_seq": "IARYQLG",
+      "context": "QRLEHAFN|IARYQLG|IEKLLDPE",
+      "domains": [
+        "N-terminal actin-binding domain (ABD1)"
+      ],
+      "in_hinge3": false
+    },
+    {
+      "motif_type": "strict [LIVM]x4[LIVM]G",
+      "motif_start": 402,
+      "cleavage_pos": 408,
+      "match_seq": "LGSKLIG",
+      "context": "GRVGNILQ|LGSKLIG|TGKLSEDE",
+      "domains": [
+        "Spectrin-like repeat 1"
+      ],
+      "in_hinge3": false
+    },
+    {
+      "motif_type": "strict [LIVM]x4[LIVM]G",
+      "motif_start": 474,
+      "cleavage_pos": 480,
+      "match_seq": "MEEEPLG",
+      "context": "KTEERTRK|MEEEPLG|PDLEDLKR",
+      "domains": [
+        "Spectrin-like repeat 1"
+      ],
+      "in_hinge3": false
+    },
+    {
+      "motif_type": "strict [LIVM]x4[LIVM]G",
+      "motif_start": 974,
+      "cleavage_pos": 980,
+      "match_seq": "IMEQRLG",
+      "context": "QLSVTDYE|IMEQRLG|ELQALQSS",
+      "domains": [
+        "Spectrin-like repeat 3"
+      ],
+      "in_hinge3": false
+    },
+    {
+      "motif_type": "strict [LIVM]x4[LIVM]G",
+      "motif_start": 1550,
+      "cleavage_pos": 1556,
+      "match_seq": "LHYNELG",
+      "context": "DERVTALK|LHYNELG|AKVTERKQ",
+      "domains": [
+        "Spectrin-like repeats 4-15"
+      ],
+      "in_hinge3": false
+    },
+    {
+      "motif_type": "strict [LIVM]x4[LIVM]G",
+      "motif_start": 2180,
+      "cleavage_pos": 2186,
+      "match_seq": "ILQEKLG",
+      "context": "QSSKTDAS|ILQEKLG|SLNLRWQE",
+      "domains": [
+        "Spectrin-like repeats 16-22"
+      ],
+      "in_hinge3": false
+    },
+    {
+      "motif_type": "strict [LIVM]x4[LIVM]G",
+      "motif_start": 3627,
+      "cleavage_pos": 3633,
+      "match_seq": "MLLRVVG",
+      "context": "QRSDSSQP|MLLRVVG|SQTSDSMG",
+      "domains": [
+        "C-terminal domain"
+      ],
+      "in_hinge3": false
+    }
+  ],
+  "hinge3_gnomad_variants": [
+    {
+      "pos": 1902,
+      "ref": "R",
+      "alt": "H",
+      "gnomAD_AF": 2.8e-05,
+      "consequence": "missense",
+      "ClinVar": "VUS",
+      "cleavage_impact": "R\u2192H at P-site flanking residue; may alter local structure"
+    },
+    {
+      "pos": 1920,
+      "ref": "L",
+      "alt": "P",
+      "gnomAD_AF": 1.1e-05,
+      "consequence": "missense",
+      "ClinVar": "Likely pathogenic (DCM)",
+      "cleavage_impact": "L\u2192P disrupts motif hydrophobic P6; predicted to REDUCE 2A cleavage efficiency"
+    },
+    {
+      "pos": 1925,
+      "ref": "V",
+      "alt": "M",
+      "gnomAD_AF": 8.3e-05,
+      "consequence": "missense (conservative)",
+      "ClinVar": "Benign",
+      "cleavage_impact": "V\u2192M; both LIVM class, motif preserved; cleavage efficiency unchanged"
+    },
+    {
+      "pos": 1942,
+      "ref": "I",
+      "alt": "T",
+      "gnomAD_AF": 1.4e-05,
+      "consequence": "missense",
+      "ClinVar": "VUS",
+      "cleavage_impact": "I\u2192T removes hydrophobic from P1 position; predicted to REDUCE 2A cleavage"
+    },
+    {
+      "pos": 1960,
+      "ref": "L",
+      "alt": "F",
+      "gnomAD_AF": 5.7e-05,
+      "consequence": "missense",
+      "ClinVar": "VUS",
+      "cleavage_impact": "L\u2192F; F is not in LIVM class \u2014 could modestly reduce 2A recognition"
+    }
+  ]
+}

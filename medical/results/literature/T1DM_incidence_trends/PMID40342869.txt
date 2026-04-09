@@ -1,0 +1,74 @@
+1. J Transl Autoimmun. 2025 Apr 24;10:100289. doi: 10.1016/j.jtauto.2025.100289. 
+eCollection 2025 Jun.
+
+The changes in global burden of autoimmune diseases two years after the COVID-19 
+pandemic: a trend analysis based on the Global Burden of Disease Study 2021.
+
+Zhang D(1), Hua W(1), Sun F(2), Wen C(3), Cheong LY(1), Xie R(1), Chan KH(4), 
+Chan SCW(5), Li X(6), Ye S(2), Yap DYH(1).
+
+Author information:
+(1)Division of Nephrology, Department of Medicine, School of Clinical Medicine, 
+LKS Faculty of Medicine, The University of Hong Kong, Hong Kong Special 
+Administrative Region, China.
+(2)Department of Rheumatology, Renji Hospital, Shanghai Jiaotong University 
+School of Medicine, Shanghai, China.
+(3)Department of Nephrology and Medical Intensive Care, Charité 
+Universitätsmedizin Berlin, 10117, Berlin, Germany.
+(4)Division of Neurology, Department of Medicine, School of Clinical Medicine, 
+LKS Faculty of Medicine, The University of Hong Kong, Hong Kong Special 
+Administrative Region, China.
+(5)Division of Rheumatology and Clinical Immunology, Department of Medicine, 
+School of Clinical Medicine, LKS Faculty of Medicine, The University of Hong 
+Kong, Hong Kong Special Administrative Region, China.
+(6)Division of Health Service, Department of Medicine, School of Clinical 
+Medicine, LKS Faculty of Medicine, The University of Hong Kong, Hong Kong 
+Special Administrative Region, China.
+
+BACKGROUND: Data on the epidemiological changes in the global burden of 
+autoimmune diseases (ADs) after the Coronavirus disease 2019 (COVID-19) pandemic 
+is lacking. This study investigated the impact of the COVID-19 pandemic on the 
+global burden of ADs, including psoriasis (PsO), inflammatory bowel disease 
+(IBD), type 1 diabetes (T1DM), rheumatoid arthritis (RA), and multiple sclerosis 
+(MS).
+METHODS: Age-standardized rates (ASR), including incidence (ASIR), prevalence 
+(ASPR), disability-adjusted life years (DALYs), and death (ASDR), were extracted 
+from the Global Burden of Disease Study 2021 from 1990 to 2021. The changes in 
+number and ASR of ADs burden were assessed by absolute and relative increases 
+comparing 2021 to 2019. Joinpoint regression analysis was used to determine 
+whether the year 2019 marked the substantial changes in trends of ASR across 
+global, 21 geographical regions, and 204 countries. The correlations between 
+COVID-19 incidence, vaccination and the relative increased ASIR/ASPR of ADs were 
+also evaluated.
+RESULTS: Joinpoint regression analysis identified 2019 as a pivotal year, 
+marking a global increase in the burden of PsO. The global ASR of PsO in 2021 
+showed an increased incidence, prevalence, and DALYs of 0.78, 5, and 0.33 DALYs 
+per 100,000, respectively, compared to 2019 (194.1 × 103 cases, 1651.3 × 103 
+cases, and 131.4 × 103 DALYs, respectively). Notable absolute increases in PsO 
+incidence rates in 2021 were observed in regions with a high socio-demographic 
+index, particularly among individuals aged 50 to 54 and among males. 
+Furthermore, 2019 marked a joinpoint with increased ASIR or ASPR of ADs in 
+various regions, notably PsO in High-income North America, Southern Latin 
+America, and South Asia, as well as IBD in Southern and Eastern Sub-Saharan 
+Africa, Central Europe, and East Asia. Regional data from the USA, England, and 
+Japan indicated a positive correlation between COVID-19 incidence and relative 
+increases in the burden of PsO in 2020 (Spearman R 0.35, 0.24, and 0.36, 
+respectively, for incidence; R 0.35, 0.2, and 0.36, respectively, for 
+prevalence; all p < 0.05). Additionally, 2021 state-level vaccination rates in 
+the USA were negatively correlated with the relative increases in the ASIR of 
+PsO and RA (R: 0.27 and -0.54, respectively; p < 0.001 for all), as well as the 
+ASPR of PsO, RA, and MS (R: 0.45, -0.49, and -0.41, respectively; p < 0.01 for 
+all) in 2021.
+CONCLUSIONS: The year 2019 marked a pivotal point for increased global burden of 
+PsO and regional burdens of other ADs. These observations have important 
+implications for subsequent healthcare planning and resource allocation.
+
+© 2025 Published by Elsevier B.V.
+
+DOI: 10.1016/j.jtauto.2025.100289
+PMCID: PMC12059328
+PMID: 40342869
+
+Conflict of interest statement: The authors declare that they have no known 
+competing financial interests or personal relationships that could have appeared 
+to influence the work reported in this paper.

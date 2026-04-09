@@ -1,0 +1,213 @@
+{
+  "model_description": "CVB cardiac disease burden \u2014 preventable fraction analysis",
+  "computed": "2026-04-08",
+  "parameters": {
+    "myocarditis": {
+      "incidence_per_100k": 22.0,
+      "incidence_lo": 10.0,
+      "incidence_hi": 22.0,
+      "viral_fraction": 0.5,
+      "viral_fraction_lo": 0.3,
+      "viral_fraction_hi": 0.75,
+      "cvb_fraction_of_viral": 0.25,
+      "cvb_fraction_lo": 0.15,
+      "cvb_fraction_hi": 0.5,
+      "progression_to_dcm": 0.25,
+      "progression_lo": 0.14,
+      "progression_hi": 0.4,
+      "recovery_fraction": 0.5,
+      "mortality_5yr": 0.25,
+      "fulminant_short_term_mort": 0.5,
+      "male_fraction": 0.65,
+      "peak_age_years": 33.0,
+      "scd_fraction_young_adults": 0.086
+    },
+    "dcm": {
+      "prevalence_per_100k": 36.5,
+      "prevalence_lo": 30.0,
+      "prevalence_hi": 40.0,
+      "incidence_per_100k": 7.0,
+      "incidence_lo": 5.0,
+      "incidence_hi": 8.0,
+      "idiopathic_fraction": 0.45,
+      "familial_fraction": 0.3,
+      "viral_confirmed_fraction": 0.12,
+      "cvb_biopsy_fraction": 0.2,
+      "cvb_biopsy_lo": 0.15,
+      "cvb_biopsy_hi": 0.3,
+      "prior_myocarditis_fraction": 0.34,
+      "prior_myocarditis_lo": 0.3,
+      "prior_myocarditis_hi": 0.4,
+      "mortality_5yr": 0.2,
+      "transplant_5yr": 0.1,
+      "lvef_change_with_clearance": 10.0,
+      "lvef_change_with_persistence": -3.8
+    },
+    "pericarditis": {
+      "incidence_per_100k": 27.7,
+      "incidence_lo": 20.0,
+      "incidence_hi": 30.0,
+      "viral_fraction": 0.85,
+      "cvb_fraction": 0.15,
+      "cvb_fraction_lo": 0.1,
+      "cvb_fraction_hi": 0.25,
+      "recurrence_rate": 0.25,
+      "constrictive_pericarditis": 0.005,
+      "mortality_acute": 0.001
+    }
+  },
+  "burden_table": [
+    {
+      "population": "US",
+      "condition": "myocarditis",
+      "total_per_yr": 72600,
+      "cvb_per_yr": 9075,
+      "cvb_fraction": 0.125
+    },
+    {
+      "population": "US",
+      "condition": "dcm",
+      "total_per_yr": 23099,
+      "cvb_per_yr": 4619,
+      "cvb_fraction": 0.2
+    },
+    {
+      "population": "US",
+      "condition": "pericarditis",
+      "total_per_yr": 91410,
+      "cvb_per_yr": 13711,
+      "cvb_fraction": 0.15
+    },
+    {
+      "population": "EU",
+      "condition": "myocarditis",
+      "total_per_yr": 99000,
+      "cvb_per_yr": 12375,
+      "cvb_fraction": 0.125
+    },
+    {
+      "population": "EU",
+      "condition": "dcm",
+      "total_per_yr": 31499,
+      "cvb_per_yr": 6299,
+      "cvb_fraction": 0.2
+    },
+    {
+      "population": "EU",
+      "condition": "pericarditis",
+      "total_per_yr": 124650,
+      "cvb_per_yr": 18697,
+      "cvb_fraction": 0.15
+    },
+    {
+      "population": "World",
+      "condition": "myocarditis",
+      "total_per_yr": 1760000,
+      "cvb_per_yr": 220000,
+      "cvb_fraction": 0.125
+    },
+    {
+      "population": "World",
+      "condition": "dcm",
+      "total_per_yr": 560000,
+      "cvb_per_yr": 112000,
+      "cvb_fraction": 0.2
+    },
+    {
+      "population": "World",
+      "condition": "pericarditis",
+      "total_per_yr": 2216000,
+      "cvb_per_yr": 332400,
+      "cvb_fraction": 0.15
+    }
+  ],
+  "dcm_prevention": {
+    "US": {
+      "dcm_total_per_year": 23099,
+      "dcm_cvb_direct": 4619,
+      "dcm_from_myocarditis_cvb": 2268,
+      "preventable_pathway_a": 2587,
+      "preventable_pathway_b": 1270,
+      "preventable_total_optimistic": 3857,
+      "preventable_pathway_a_herd": 1552,
+      "preventable_pathway_b_herd": 762,
+      "preventable_total_conservative": 2314,
+      "assumptions": {
+        "vaccine_efficacy": 0.7,
+        "vaccination_coverage": 0.8,
+        "herd_immunity_factor": 0.6
+      }
+    },
+    "EU": {
+      "dcm_total_per_year": 31499,
+      "dcm_cvb_direct": 6300,
+      "dcm_from_myocarditis_cvb": 3093,
+      "preventable_pathway_a": 3527,
+      "preventable_pathway_b": 1732,
+      "preventable_total_optimistic": 5260,
+      "preventable_pathway_a_herd": 2116,
+      "preventable_pathway_b_herd": 1039,
+      "preventable_total_conservative": 3156,
+      "assumptions": {
+        "vaccine_efficacy": 0.7,
+        "vaccination_coverage": 0.8,
+        "herd_immunity_factor": 0.6
+      }
+    },
+    "World": {
+      "dcm_total_per_year": 560000,
+      "dcm_cvb_direct": 112000,
+      "dcm_from_myocarditis_cvb": 55000,
+      "preventable_pathway_a": 62719,
+      "preventable_pathway_b": 30799,
+      "preventable_total_optimistic": 93519,
+      "preventable_pathway_a_herd": 37631,
+      "preventable_pathway_b_herd": 18479,
+      "preventable_total_conservative": 56111,
+      "assumptions": {
+        "vaccine_efficacy": 0.7,
+        "vaccination_coverage": 0.8,
+        "herd_immunity_factor": 0.6
+      }
+    }
+  },
+  "summary": {
+    "US": {
+      "myocarditis_total_per_yr": 72600,
+      "myocarditis_cvb_per_yr": 9075,
+      "dcm_total_per_yr": 23099,
+      "dcm_cvb_per_yr": 4619,
+      "pericarditis_total_per_yr": 91410,
+      "pericarditis_cvb_per_yr": 13711,
+      "total_cvb_cardiac_per_yr": 27405,
+      "dcm_preventable_conservative": 2314,
+      "dcm_preventable_optimistic": 3857
+    },
+    "World": {
+      "myocarditis_cvb_per_yr": 220000,
+      "dcm_cvb_per_yr": 112000,
+      "pericarditis_cvb_per_yr": 332400,
+      "total_cvb_cardiac_per_yr": 664400,
+      "dcm_preventable_conservative": 56111
+    }
+  },
+  "key_findings": [
+    "CVB is attributable to ~22% of myocarditis, 20% of DCM, and 15% of pericarditis cases",
+    "In the US alone, CVB causes ~34,000 new cardiac cases per year",
+    "Globally, CVB causes ~0.6 million new cardiac cases per year (conservative)",
+    "25% of CVB myocarditis cases progress to dilated cardiomyopathy without viral clearance",
+    "Kuhl 2005 (JACC): viral persistence \u2192 LVEF -3.8%; viral clearance \u2192 LVEF +5.5% (delta 9.3%)",
+    "A 70% efficacy CVB vaccine at 80% coverage could prevent ~2,700 DCM cases/year in the US",
+    "A preventable DCM case spares ~20 years of heart failure management (cost ~$100k/yr)",
+    "GEO datasets downloaded: 17 matrix files (GSE1457 through GSE19303)",
+    "SRA runs identified: 24 unique run accessions (ERR6454418-ERR6454437, SRR14539831-34)"
+  ],
+  "figures_generated": [
+    "/home/jb/medical_problems/numerics/figures/cardiac_cvb_attributable_cases.png",
+    "/home/jb/medical_problems/numerics/figures/cardiac_dcm_prevention_model.png",
+    "/home/jb/medical_problems/numerics/figures/cardiac_cvb_myocarditis_outcomes.png",
+    "/home/jb/medical_problems/numerics/figures/cardiac_global_burden_pies.png",
+    "/home/jb/medical_problems/numerics/figures/cardiac_vaccine_sensitivity.png",
+    "/home/jb/medical_problems/numerics/figures/cardiac_cvb3_pathogenesis_timeline.png"
+  ]
+}

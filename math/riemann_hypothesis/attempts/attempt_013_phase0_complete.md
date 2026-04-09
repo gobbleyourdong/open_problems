@@ -22,7 +22,7 @@
 | Computer-closable? | YES (finite grid) | NO |
 | Deepest pattern | GC ≈ 0.23c²(1-c²) | GUE eigenvalue statistics |
 
-## What the numerical track Should Do Next (focused sessions)
+## What the Odd Instance Should Do Next (focused sessions)
 
 1. **High-t zeros** (GPU, mpmath): 10000 zeros at t ~ 10⁶ for precision GUE.
    Odlyzko computed 10⁹ zeros — we need at least 10⁴ for meaningful statistics.
@@ -37,7 +37,7 @@
 4. **Explicit formula numerics**: Compute ψ(x) = Σ Λ(n) for n ≤ x via zeros.
    Verify error term O(x^{1/2+ε}) consistent with RH.
 
-## What the theory track Should Do
+## What the Even Instance Should Do
 
 1. **Hilbert-Pólya formalization**: Can any of the candidate operators
    (Berry-Keating, Bender-Brody-Müller, Sierra-Townsend) be made rigorous?
@@ -55,7 +55,7 @@ RH is the HARDEST of the Millennium problems we've touched. NS has a gap
 (Liouville) but a proof architecture. YM has a gap (GC>0) that's closable
 by computation. RH has no architecture and no closable gap.
 
-The systematic approach can MAP the problem but cannot currently CLOSE it.
+The sigma method can MAP the problem but cannot currently CLOSE it.
 The certificates confirm RH to extraordinary precision but don't suggest
 a proof mechanism. This is the state of the art — same as it's been for 166 years.
 

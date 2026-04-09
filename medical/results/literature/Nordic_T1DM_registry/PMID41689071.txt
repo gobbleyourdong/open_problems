@@ -1,0 +1,66 @@
+1. BMC Med. 2026 Feb 14;24(1):123. doi: 10.1186/s12916-026-04696-0.
+
+Intrauterine exposure to maternal diabetes and the risk of developing epilepsy 
+in children: a national cohort study of 2.3 million children.
+
+Hossin MZ(1)(2), Persson M(3), Bjørk MH(4)(5), Stephansson O(6)(7), Razaz N(6).
+
+Author information:
+(1)Department of Medicine, Solna, Division of Clinical Epidemiology, Karolinska 
+Institutet, Stockholm, SE-171 76, Sweden. zakir.hossin@ki.se.
+(2)School of Population and Public Health, Human Early Learning Partnership, The 
+University of British Columbia, Vancouver, Canada. zakir.hossin@ki.se.
+(3)Department of Clinical Science and Education, Karolinska Institutet 
+Södersjukhuset, Stockholm, Sweden.
+(4)Department of Clinical Medicine, University of Bergen, Bergen, Norway.
+(5)Department of Neurology, Haukeland University Hospital, Bergen, Norway.
+(6)Department of Medicine, Solna, Division of Clinical Epidemiology, Karolinska 
+Institutet, Stockholm, SE-171 76, Sweden.
+(7)Department of Women's Health, Division of Obstetrics, Karolinska University 
+Hospital, Stockholm, Sweden.
+
+BACKGROUND: Approximately half of the epilepsy cases lack a documented cause. 
+Despite growing evidence linking maternal diabetes to pregnancy complications 
+and impaired child neurodevelopment, little is known about its potential 
+association with child epilepsy. This study aims to determine whether 
+intrauterine exposure to maternal pre-existing type 1 diabetes mellitus (T1DM), 
+type 2 diabetes mellitus (T2DM), or gestational diabetes mellitus (GDM) 
+increases the risk of epilepsy in children.
+METHODS: This study included live-born children without major malformations in 
+Sweden from 1998 to 2021. Children were followed from birth until epilepsy 
+diagnosis, death, emigration, or October 2023. Child epilepsy, maternal T1DM, 
+T2DM, GDM, and a comprehensive set of covariates were identified through linked 
+national health registers. Multivariable Cox proportional hazards regression was 
+used to examine the association between maternal diabetes and child epilepsy, 
+estimating adjusted hazard ratios (aHRs) and 95% confidence intervals (CIs). 
+Analyses also included paternal T1DM and T2DM as negative control exposures to 
+assess potential genetic confounding. Preeclampsia, preterm birth, and birth 
+asphyxia were evaluated as mediators, using a sequential mediation approach.
+RESULTS: Of the 2,305,051 children, 14,283 (0.6%) were exposed to maternal T1DM, 
+3,833 (0.2%) to T2DM, and 36,388 (1.6%) to GDM. Over a median follow-up of 
+13 years (range 0 to 25.8 years), 18,968 were diagnosed with epilepsy, 
+corresponding to an incidence rate of 63.7 per 100,000 person-years. Compared 
+with no maternal diabetes, maternal T1DM and T2DM were associated with increased 
+hazards of epilepsy in children, with aHRs of 1.30 (95% CI 1.11-1.52) and 1.41 
+(95% CI 1.01-1.97), respectively. Preterm birth and birth asphyxia jointly 
+mediated nearly half of the total effect of T1DM (HRIndirect Effect:1.14, 95% 
+CI: 1.11, 1.17) and 30% of the total effect of T2DM (HRIndirect Effect:1.11, 95% 
+CI: 1.04, 1.18). Paternal T1DM and T2DM, as well as maternal GDM, were not 
+associated with epilepsy risk.
+CONCLUSIONS: In this large cohort study, maternal T1DM and T2DM were associated 
+with an increased risk of epilepsy in children. These associations are likely 
+influenced by intrauterine mechanisms and were partially mediated by preterm 
+birth and asphyxia-related conditions at birth.
+
+© 2026. The Author(s).
+
+DOI: 10.1186/s12916-026-04696-0
+PMCID: PMC12930888
+PMID: 41689071 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declarations. Ethics approval and consent to 
+participate: The study was approved by the Regional Ethics Committee in 
+Stockholm, Sweden (approval number 2023-00331-02). Informed consent was not 
+required for analysing the de-identified registry-based data. Consent for 
+publication: Not applicable. Competing interests: The authors declare no 
+competing interests.

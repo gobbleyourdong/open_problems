@@ -1,0 +1,50 @@
+1. Cureus. 2021 Jul 29;13(7):e16721. doi: 10.7759/cureus.16721. eCollection 2021 
+Jul.
+
+New Evidence in the Pathogenesis of Celiac Disease and Type 1 Diabetes Mellitus: 
+A Systematic Review.
+
+Prieto J(1), Singh KB(1), Nnadozie MC(2), Abdal M(3), Shrestha N(2), Abe RAM(2), 
+Masroor A(4)(5)(6), Khorochkov A(1), Mohammed L(1).
+
+Author information:
+(1)Internal Medicine, California Institute of Behavioral Neurosciences & 
+Psychology, Fairfield, USA.
+(2)Research, California Institute of Behavioral Neurosciences & Psychology, 
+Fairfield, USA.
+(3)Emergency Medicine, California Institute of Behavioral Neurosciences & 
+Psychology, Fairfield, USA.
+(4)Psychiatry, California Institute of Behavioral Neurosciences & Psychology, 
+Fairfield, USA.
+(5)Psychiatry, Psychiatric Care Associates, Englewood, USA.
+(6)Medicine, Khyber Medical College, Peshawar, PAK.
+
+Celiac disease (CD) and type 1 diabetes mellitus (T1DM) are autoimmune diseases 
+that coexist frequently. These illnesses share a common genetic background. This 
+study aims to review the different pathophysiologic mechanisms that have been 
+studied about the coexistence of CD and T1DM, to contrast them, and to summarize 
+their specific role in these autoimmune diseases. We conducted a systematic 
+review following the Preferred Reporting Items for Systematic reviews and 
+Meta-Analyses (PRISMA) checklist and used the Medical Subject Headings (MeSH) 
+search strategy to obtain relevant articles. We found 585 papers which were 
+reduced to 355 after removing duplicates. Later, the filters and 
+inclusion/exclusion criteria were applied which ended the search with 78 
+articles. Finally, we reviewed the articles that contained information about the 
+pathogenesis of CD and T1DM, their coexistence, and how the pathogenesis impacts 
+clinical outcomes. The reviewed studies strongly conclude that the presence 
+of human leukocyte antigen (HLA) genes DQ2 and DQ8 are high-risk for developing 
+the coexistence of CD and T1DM. We found that killer immunoglobulin-like 
+receptor (KIR) genes, enterovirus infection in gut cells, and gut microbiota 
+dysbiosis with the predominance of Bacteroides spp. also play a role in the 
+pathogenesis and development of symptoms of CD in patients with the previous 
+diagnosis of T1DM. CD4+ and CD8+ cell levels vary among patients and studies, 
+consequently, more study on this topic is needed.
+
+Copyright © 2021, Prieto et al.
+
+DOI: 10.7759/cureus.16721
+PMCID: PMC8405172
+PMID: 34513356
+
+Conflict of interest statement: The authors have declared that no competing 
+interests exist.

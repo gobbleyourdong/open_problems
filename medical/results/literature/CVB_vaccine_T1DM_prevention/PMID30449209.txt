@@ -1,0 +1,43 @@
+1. Expert Rev Vaccines. 2018 Dec;17(12):1071-1083. doi: 
+10.1080/14760584.2018.1548281. Epub 2018 Nov 29.
+
+Developing a vaccine for type 1 diabetes by targeting coxsackievirus B.
+
+Hyöty H(1)(2), Leon F(3), Knip M(4)(5)(6)(7).
+
+Author information:
+(1)a Faculty of Medicine and Life Sciences, Department of Virology , University 
+of Tampere , Tampere , Finland.
+(2)b Fimlab Laboratories , Pirkanmaa Hospital District , Tampere , Finland.
+(3)c Provention Bio, Inc ., Oldwick , NJ , USA.
+(4)d Children's Hospital , University of Helsinki and Helsinki University 
+Hospital , Helsinki , Finland.
+(5)e Diabetes and Obesity Research Program , University of Helsinki , Helsinki , 
+Finland.
+(6)f Folkhälsan Research Center , Helsinki , Finland.
+(7)g Center for Child Health Research , Tampere University Hospital , Tampere , 
+Finland.
+
+INTRODUCTION: Virus infections have long been considered as a possible cause of 
+type 1 diabetes (T1D). One virus group, enteroviruses (EVs), has been studied 
+extensively, and clinical development of a vaccine against T1D-associated EV 
+types has started.
+AREAS COVERED: Epidemiological studies have indicated an association between EVs 
+and T1D. These viruses have a strong tropism for insulin-producing β-cells; the 
+destruction of these cells leads to T1D. The exact mechanisms by which EVs could 
+cause T1D are not known, but direct infection of β-cells and virus-induced 
+inflammation may play a role. Recent studies have narrowed down the 
+epidemiological association to a subset of EVs: group B coxsackieviruses (CVBs). 
+These findings have prompted efforts to develop vaccines against CVBs. Prototype 
+CVB vaccines have prevented both infection and CVB-induced diabetes in mice. 
+This review summarizes recent progress in the field and the specifics of what 
+could constitute the first human vaccine developed for a chronic autoimmune 
+disease.
+EXPERT COMMENTARY: Manufacturing of a clinical CVB vaccine as well as 
+preclinical studies are currently in progress in order to enable clinical 
+testing of the first CVB vaccine. Ongoing scientific research projects can 
+significantly facilitate this effort by providing insights into the mechanisms 
+of the CVB-T1D association.
+
+DOI: 10.1080/14760584.2018.1548281
+PMID: 30449209 [Indexed for MEDLINE]

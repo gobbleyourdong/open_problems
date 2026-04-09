@@ -1,0 +1,56 @@
+1. World J Diabetes. 2025 Aug 15;16(8):108724. doi: 10.4239/wjd.v16.i8.108724.
+
+Impact of COVID-19 outbreak on the seasonality and incidence of type 1 diabetes 
+mellitus: A nationwide cohort study.
+
+Carmon L(1)(2), Bachar Y(3), Babiev AS(4)(3), Hazn I(4)(3), Hershkovitz E(1)(4), 
+Shaki D(1)(4), Loewenthal N(1)(4), Haim A(1)(4), Hazan G(1)(4).
+
+Author information:
+(1)Pediatric Endocrinology Unit, Soroka University Medical Center, Beer-Sheva 
+8457108, Israel.
+(2)Faculty of Health Sciences, Ben-Gurion University of the Negev, Beer-Sheva 
+8457108, Israel. liorca2@clalit.org.il.
+(3)Clinical Research Center, Soroka University Medical Center, Beer-Sheva 
+8457108, Israel.
+(4)Faculty of Health Sciences, Ben-Gurion University of the Negev, Beer-Sheva 
+8457108, Israel.
+
+BACKGROUND: Type 1 diabetes mellitus (T1DM) is an autoimmune disease with a 
+multifactorial pathogenesis. Viral infections have been proposed as contributing 
+triggers, supported by the disease's seasonal pattern, which typically shows 
+higher incidence in autumn and winter. The coronavirus disease 2019 (COVID-19) 
+pandemic and associated lockdowns created a unique context to examine the 
+incidence and seasonality of T1DM during a period characterized by reduced 
+circulation of common viral infections.
+AIM: To investigate the incidence and seasonality of T1DM before and during 
+COVID-19 pandemic in relation to global viral infection rates.
+METHODS: This population-based retrospective study utilized a nationwide 
+computerized database. Extracted data included the number of new T1DM cases over 
+the 8 years preceding and during the COVID-19 pandemic, demographic 
+characteristics of affected individuals, and nationwide respiratory virus 
+polymerase chain reaction data from weekly nasal wash sample collections.
+RESULTS: A total of 2176 patients were diagnosed with new-onset T1DM during the 
+pre-pandemic period, compared to 348 cases during the pandemic. In the same 
+periods, 33727 respiratory virus-positive polymerase chain reaction results from 
+nasal wash samples were recorded pre-pandemic, compared to 2603 during the 
+pandemic. Additionally, 363399 positive COVID-19 cases were reported during the 
+pandemic period. Seasonality analysis revealed a higher rate of new-onset T1DM 
+cases and a weaker seasonal pattern during the pandemic. Trend analysis showed a 
+consistent increase in T1DM incidence prior to COVID-19, with a more variable 
+trend observed during the pandemic. Correlation analysis between T1DM incidence 
+and respiratory viruses demonstrated a weak correlation between T1DM incidence 
+and a few respiratory viruses.
+CONCLUSION: The observed increase in new-onset T1DM cases and the disruption of 
+its typical seasonal pattern during the COVID-19 pandemic suggest a potential 
+association between respiratory virus exposure and the development of T1DM.
+
+©The Author(s) 2025. Published by Baishideng Publishing Group Inc. All rights 
+reserved.
+
+DOI: 10.4239/wjd.v16.i8.108724
+PMCID: PMC12362424
+PMID: 40837347
+
+Conflict of interest statement: Conflict-of-interest statement: All the authors 
+report no relevant conflicts of interest for this article.

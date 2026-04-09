@@ -1,0 +1,64 @@
+1. Pediatr Endocrinol Diabetes Metab. 2025;31(1):9-16. doi: 
+10.5114/pedm.2025.149201.
+
+Epidemiology of type 1 diabetes in Podlasie region, Poland, in years 2010-2022 - 
+13-years-single-center study, including COVID-19 pandemic perspective.
+
+Szabłowski M(1)(2)(3), Klimas P(3), Wiktorzak N(3), Okruszko M(3), Peczyńska 
+J(3), Jamiołkowska-Sztabkowska M(3), Borysewicz-Sańczyk H(3), Polkowska A, Zasim 
+A(3), Noiszewska K(3), Bossowski A(3), Głowińska-Olszewska B(3).
+
+Author information:
+(1)Clinical Research Centre, Medical University of Bialystok, Poland.
+(2)Department of Endocrinology, Diabetology and Internal Medicine, Medical 
+University of Bialystok, Poland.
+(3)Department of Pediatrics, Endocrinology, Diabetology with Cardiology 
+Division, Medical University of Bialystok, Poland.
+
+INTRODUCTION: Diabetes is undeniably a pandemic of the 21st century. Although 
+type 1 diabetes mellitus (T1DM) only represents 10% of all diabetes cases, it 
+dominates the pediatric population. The number of T1DM cases is accelerating, 
+and Poland is one of the countries with the fastest increase in incidence.
+AIM OF THE STUDY: To evaluate the epidemiological situation in T1DM in Podlaskie 
+region, Poland.
+MATERIAL AND METHODS: The study included 777 patients (369 girls and 408 boys) 
+under 18. Incidence rates were calculated and standardized to an age-matched 
+population (general population of Poland 2010).
+RESULTS: We showed an upward trend in the number of cases during the analyzed 
+period (R2 = 0.6, p = 0.001). The average incidence rate grew during the study 
+period from 19.22/100,000 in 2010 to 34.11/100,000 in 2022, a 1.77-fold increase 
+over the study period. The youngest age group (0-4 years old) showed the most 
+prominent, nearly 2.3-fold rise, from 9.86/100,000 in 2010 to 22.56/100,000 in 
+2022. We have also demonstrated the possible impact of the COVID pandemic - 
+after a decrease in 2020 we observed an increase of the incidence rate in 2021 
+up to 38.05/100,000 and in 2022 to 34/100,000.
+CONCLUSIONS: The incidence of type 1 diabetes in Podlaskie Voivodeship, Poland, 
+continues its upward trend. Various factors may influence this, but the 
+potential impact of the COVID-19 pandemic is worth considering.
+
+Publisher: WSTĘP: Cukrzyca jest bez wątpienia pandemią XXI wieku. Chociaż 
+cukrzyca typu 1 (TDM1) stanowi tylko 10% wszystkich przypadków cukrzycy, 
+dominuje w populacji pediatrycznej. Liczba przypadków TDM1 wciąż rośnie, 
+a Polska jest jednym z krajów o najszybszym wzroście zapadalności.
+CEL PRACY: Badanie miało na celu ocenę bieżącej sytuacji epidemiologicznej w 
+zakresie TDM1 w województwie podlaskim.
+MATERIAŁ I METODY: Badanie objęło 777 pacjentów (369 dziewcząt i 408 chłopców) 
+poniżej 18. roku życia. Obliczono współczynniki zapadalności i wystandaryzowano 
+je względem populacji dopasowanej wiekowo (populacja ogólna Polski 2010).
+WYNIKI: Wykazano tendencję wzrostową w liczbie przypadków w analizowanym okresie 
+(R2 = 0,6, p = 0,001). Średni współczynnik zapadalności wzrósł w okresie objętym 
+badaniem z 19,22/100 000 w 2010 r. do 34,11/100 000 w 2022 r., co stanowi 
+1,77-krotny wzrost w badanym okresie. Najmłodsza grupa wiekowa (0–4 lata) 
+wykazała najbardziej widoczny, prawie 2,3-krotny wzrost, z 9,86/100 000 w 2010 
+r. do 22,56/100 000 w 2022 r. Wykazaliśmy również możliwy wpływ pandemii COVID – 
+po spadku w 2020 r. zaobserwowaliśmy wzrost współczynnika zapadalności w 2021 r. 
+do 38,05/100 000, a w 2022 r. do 34/100 000.
+WNIOSKI: Zapadalność na cukrzycę typu 1 w województwie podlaskim w Polsce nadal 
+utrzymuje tendencję wzrostową. Opisywane zjawisko ma podłoże wieloczynnikowe, 
+warto jednak wziąć pod uwagę również potencjalny wpływ pandemii COVID-19.
+
+DOI: 10.5114/pedm.2025.149201
+PMCID: PMC12051105
+PMID: 40353383 [Indexed for MEDLINE]
+
+Conflict of interest statement: not declared.

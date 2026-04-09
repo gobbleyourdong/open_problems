@@ -1,0 +1,54 @@
+1. Microorganisms. 2020 Aug 24;8(9):1287. doi: 10.3390/microorganisms8091287.
+
+Structural Insight into CVB3-VLP Non-Adjuvanted Vaccine.
+
+Hankaniemi MM(1), Baikoghli MA(2)(3), Stone VM(4), Xing L(2), Väätäinen O(1), 
+Soppela S(1), Sioofy-Khojine A(1), Saarinen NVV(1), Ou T(2), Anson B(2), Hyöty 
+H(1)(5), Marjomäki V(6), Flodström-Tullberg M(4), Cheng RH(2), Hytönen VP(1)(5), 
+Laitinen OH(1).
+
+Author information:
+(1)Faculty of Medicine and Life Sciences, Tampere University, FI-33014 Tampere, 
+Finland.
+(2)Department of Molecular and Cellular Biology, University of California, 
+Davis, CA 95616, USA.
+(3)Institute for Molecular Medicine Finland (FIMM), HiLIFE, P.O. Box 20, 
+University of Helsinki, 00014 Helsinki, Finland.
+(4)The Center for Infectious Medicine, Department of Medicine Huddinge, 
+Karolinska Institutet, Karolinska University Hospital Huddinge, SE-141 52 
+Stockholm, Sweden.
+(5)Fimlab Laboratories, FI-33520 Tampere, Finland.
+(6)Department of Biological and Environmental Science/Nanoscience Center, 
+University of Jyväskylä, P.O. Box 35, FI-40014 Jyväskylä, Finland.
+
+Coxsackievirus B (CVB) enteroviruses are common pathogens that can cause acute 
+and chronic myocarditis, dilated cardiomyopathy, aseptic meningitis, and they 
+are hypothesized to be a causal factor in type 1 diabetes. The licensed 
+enterovirus vaccines and those currently in clinical development are traditional 
+inactivated or live attenuated vaccines. Even though these vaccines work well in 
+the prevention of enterovirus diseases, new vaccine technologies, like 
+virus-like particles (VLPs), can offer important advantages in the manufacturing 
+and epitope engineering. We have previously produced VLPs for CVB3 and CVB1 in 
+insect cells. Here, we describe the production of CVB3-VLPs with enhanced 
+production yield and purity using an improved purification method consisting of 
+tangential flow filtration and ion exchange chromatography, which is compatible 
+with industrial scale production. We also resolved the CVB3-VLP structure by 
+Cryo-Electron Microscopy imaging and single particle reconstruction. The VLP 
+diameter is 30.9 nm on average, and it is similar to Coxsackievirus A VLPs and 
+the expanded enterovirus cell-entry intermediate (the 135s particle), which is 
+~2 nm larger than the mature virion. High neutralizing and total IgG antibody 
+levels, the latter being a predominantly Th2 type (IgG1) phenotype, were 
+detected in C57BL/6J mice immunized with non-adjuvanted CVB3-VLP vaccine. The 
+structural and immunogenic data presented here indicate the potential of this 
+improved methodology to produce highly immunogenic enterovirus VLP-vaccines in 
+the future.
+
+DOI: 10.3390/microorganisms8091287
+PMCID: PMC7565060
+PMID: 32846899
+
+Conflict of interest statement: H.H. owns stocks and is the chairman of the 
+board of Vactech Ltd., which develops vaccines against picornaviruses. H.H. and 
+M.F.-T. serve on the scientific advisory board of Provention Bio Inc., which is 
+developing an enterovirus vaccine. The other authors have no conflict of 
+interest to declare.

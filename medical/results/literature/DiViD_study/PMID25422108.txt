@@ -1,0 +1,61 @@
+1. Diabetes. 2015 May;64(5):1682-7. doi: 10.2337/db14-1370. Epub 2014 Nov 24.
+
+Detection of a low-grade enteroviral infection in the islets of langerhans of 
+living patients newly diagnosed with type 1 diabetes.
+
+Krogvold L(1), Edwin B(2), Buanes T(3), Frisk G(4), Skog O(4), Anagandula M(4), 
+Korsgren O(4), Undlien D(5), Eike MC(6), Richardson SJ(7), Leete P(7), Morgan 
+NG(7), Oikarinen S(8), Oikarinen M(8), Laiho JE(8), Hyöty H(9), Ludvigsson 
+J(10), Hanssen KF(11), Dahl-Jørgensen K(12).
+
+Author information:
+(1)Paediatric Department, Oslo University Hospital, Oslo, Norway.
+(2)Intervention Centre and Department of Surgery, Oslo University Hospital, 
+Oslo, Norway Faculty of Medicine, University of Oslo, Oslo, Norway.
+(3)Faculty of Medicine, University of Oslo, Oslo, Norway Department of Surgery, 
+Oslo University Hospital, Oslo, Norway.
+(4)Department of Immunology, Genetics and Pathology, Uppsala University, 
+Uppsala, Sweden.
+(5)Faculty of Medicine, University of Oslo, Oslo, Norway Department of Medical 
+Genetics, Oslo University Hospital, Oslo, Norway.
+(6)Department of Medical Genetics, Oslo University Hospital, Oslo, Norway.
+(7)Institute of Biomedical & Clinical Science, University of Exeter Medical 
+School, Exeter, U.K.
+(8)Department of Virology, School of Medicine, University of Tampere, Tampere, 
+Finland.
+(9)Department of Virology, School of Medicine, University of Tampere, Tampere, 
+Finland Fimlab Laboratories, Pirkanmaa Hospital District, Tampere, Finland.
+(10)Division of Paediatrics, Department of Clinical and Experimental Medicine, 
+Linköping University, Linköping, Sweden.
+(11)Faculty of Medicine, University of Oslo, Oslo, Norway Department of 
+Endocrinology, Oslo University Hospital, Oslo, Norway.
+(12)Paediatric Department, Oslo University Hospital, Oslo, Norway Faculty of 
+Medicine, University of Oslo, Oslo, Norway knut.dahl-jorgensen@medisin.uio.no.
+
+Comment in
+    Diabetes. 2015 May;64(5):1503-5. doi: 10.2337/db14-1931.
+
+The Diabetes Virus Detection study (DiViD) is the first to examine fresh 
+pancreatic tissue at the diagnosis of type 1 diabetes for the presence of 
+viruses. Minimal pancreatic tail resection was performed 3-9 weeks after onset 
+of type 1 diabetes in six adult patients (age 24-35 years). The presence of 
+enteroviral capsid protein 1 (VP1) and the expression of class I HLA were 
+investigated by immunohistochemistry. Enterovirus RNA was analyzed from isolated 
+pancreatic islets and from fresh-frozen whole pancreatic tissue using PCR and 
+sequencing. Nondiabetic organ donors served as controls. VP1 was detected in the 
+islets of all type 1 diabetic patients (two of nine controls). Hyperexpression 
+of class I HLA molecules was found in the islets of all patients (one of nine 
+controls). Enterovirus-specific RNA sequences were detected in four of six 
+patients (zero of six controls). The results were confirmed in various 
+laboratories. Only 1.7% of the islets contained VP1(+) cells, and the amount of 
+enterovirus RNA was low. The results provide evidence for the presence of 
+enterovirus in pancreatic islets of type 1 diabetic patients, which is 
+consistent with the possibility that a low-grade enteroviral infection in the 
+pancreatic islets contributes to disease progression in humans.
+
+© 2015 by the American Diabetes Association. Readers may use this article as 
+long as the work is properly cited, the use is educational and not for profit, 
+and the work is not altered.
+
+DOI: 10.2337/db14-1370
+PMID: 25422108 [Indexed for MEDLINE]

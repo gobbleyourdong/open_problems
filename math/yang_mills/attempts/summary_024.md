@@ -3,7 +3,7 @@
 **Date**: 2026-04-07
 **Phase**: 3 (Proof Attempts — mid-phase)
 **Instance**: Even (Theory)
-**Repo**: <private repo>, branch <branch>
+**Repo**: github.com/gobbleyourdong/math_problems, branch even/session_1
 
 ## The Proof Architecture
 
@@ -78,7 +78,7 @@ lattice size |Λ|.
 
 This is a QUANTITATIVE ANALYSIS question, not a conceptual one.
 
-## What the numerical track Should Do
+## What the Odd Instance Should Do
 
 Priority-ordered requests:
 1. **MK decimation + vortex cost** (request_020): Test Z > Z⁺ under decimation

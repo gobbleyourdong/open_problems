@@ -110,7 +110,7 @@ This is a COMBINATORIAL statement about sign patterns at the vorticity max.
 It's provable for specific configurations (N=3 orthogonal) but requires
 more work for general N.
 
-For N=4 with the specific worst case: the numerical track verified c(4) < 3/4
+For N=4 with the specific worst case: the Odd instance verified c(4) < 3/4
 empirically. Formalizing this via the Q-approach would require checking
 that the sign pattern maximizing |ω|² gives the right T-structure.
 -/

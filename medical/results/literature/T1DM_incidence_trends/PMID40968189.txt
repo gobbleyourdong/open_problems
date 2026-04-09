@@ -1,0 +1,72 @@
+1. Diabetologia. 2025 Dec;68(12):2732-2742. doi: 10.1007/s00125-025-06540-1. Epub
+ 2025 Sep 18.
+
+Trends in type 1 diabetes incidence between 2007 and 2023 and their association 
+with SARS-CoV-2 infection in a population-based matched cohort study among 
+individuals under 30 years old in Sweden.
+
+Dietler D(1), Björk J(2)(3), Palmkvist E(4), Carlsson A(4).
+
+Author information:
+(1)Division of Occupational and Environmental Medicine, Lund University, Lund, 
+Sweden. dominik.dietler@med.lu.se.
+(2)Division of Occupational and Environmental Medicine, Lund University, Lund, 
+Sweden.
+(3)Clinical Studies Sweden, Forum South, Skåne University Hospital, Lund, 
+Sweden.
+(4)Department of Clinical Sciences, Department of Pediatrics, Skåne University 
+Hospital, Lund, Sweden.
+
+AIMS/HYPOTHESIS: The incidence of type 1 diabetes increased during the pandemic 
+in various countries. SARS-CoV-2 infections may trigger the development of type 
+1 diabetes, but the evidence is inconclusive. This study aimed to assess trends 
+in type 1 diabetes incidence between 2007 and 2023, and to quantify the 
+association between SARS-CoV-2 infections and the risk for developing type 1 
+diabetes.
+METHODS: The study included all individuals under 30 years old registered in 
+Sweden. Deviations in type 1 diabetes incidence from pre-pandemic trends 
+(2007-2019) were assessed for each pandemic year (2020-2023) using Poisson 
+regression. The effect of SARS-CoV-2 infections was assessed using Cox 
+proportional hazards models in a cohort of infected individuals with five 
+control individuals from the infection date of the case, matched by birth year, 
+sex and region.
+RESULTS: Compared with the predicted linear trend, type 1 diabetes incidence 
+increased by 12% during 2021 (incidence rate ratio [IRR] 1.12; 95% CI 1.06, 
+1.19) and 9% during 2022 (IRR 1.09; 95% CI 1.02, 1.16), but reverted to 
+pre-pandemic trends in 2023. Overall, the adjusted HR for developing type 1 
+diabetes after SARS-CoV-2 infection was 0.96 (95% CI 0.79, 1.16). Children 
+between 5 and 10 years old were more likely to develop type 1 diabetes within 
+the first 28 days after infection (HR 2.68; 95% CI 1.22, 5.89), although their 
+hazard over the whole follow-up period was not increased.
+CONCLUSIONS/INTERPRETATION: Sweden, with its non-restrictive pandemic response, 
+saw a transient increase in type 1 diabetes incidence that was only partially 
+associated with SARS-CoV-2 infections. Other explanations should be 
+investigated, including environmental and lifestyle factors.
+
+© 2025. The Author(s).
+
+DOI: 10.1007/s00125-025-06540-1
+PMCID: PMC12594641
+PMID: 40968189 [Indexed for MEDLINE]
+
+Conflict of interest statement: Data availability: The individual-level register 
+data used in this study are not available for sharing. Code availability: The 
+code used for data management and analyses may be made available upon request by 
+contacting the corresponding author. Funding: Open access funding provided by 
+Lund University. This research was conducted within SWECOV (the Swedish 
+Register-Based Research Program on COVID-19) hosted by Stockholm University and 
+financed by Riksbankens Jubileumsfond (RIK21-0004). Funding for performing the 
+study was provided by the Swedish Research Council (VR; grant number 
+2022-06358), Sweden’s Innovation Agency (Vinnova; grant number 2021-02648), the 
+Childhood Diabetes Foundation, and the Swedish Foundation for Strategic Research 
+(LUDC-IRC; grant number IRC15-0067). The funder had no role in the design, data 
+collection, data analysis, data interpretation or publication of this study. 
+Authors’ relationships and activities: The authors declare that there are no 
+relationships or activities that might bias, or be perceived to bias, their 
+work. Contribution statement: The study was conceptualised by DD, JB and AC. JB 
+validated and verified the data. The methodology was developed by DD, JB, EP and 
+AC. DD wrote the original draft and visualised the findings; the draft was 
+reviewed and edited by JB, EP and AC. All authors read and agreed to the final 
+version of the manuscript. DD is the guarantor of this work, and, as such, had 
+full access to all the data in the study and takes responsibility for the 
+integrity of the data and the accuracy of the data analysis.

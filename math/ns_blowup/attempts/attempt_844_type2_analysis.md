@@ -5,7 +5,7 @@
 
 ## The Anti-Problem for NS
 
-The systematic approach says: frame the anti-problem. What would a COUNTEREXAMPLE
+The sigma method says: frame the anti-problem. What would a COUNTEREXAMPLE
 to NS regularity look like?
 
 ### Self-Similar (Type I): RULED OUT
@@ -75,7 +75,7 @@ the vorticity direction stays coherent → anti-stretching mechanism active
 
 If Ψ → 0: the direction DECOHERENCES rapidly → possible blowup.
 
-### What the numerical track Should Compute
+### What the Odd Instance Should Compute
 
 Track these diagnostics in the Taylor-Green simulation at high Re:
 1. R(t) = |∫ωSω|/∫|∇ω|² (critical ratio)

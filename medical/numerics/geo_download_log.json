@@ -1,0 +1,158 @@
+[
+  {
+    "accession": "GSE274264",
+    "title": "Coxsackievirus B infection invokes unique cell-type-specific responses in primary human pancreatic islets",
+    "organism": "Homo sapiens",
+    "downloaded": true
+  },
+  {
+    "accession": "GSE278756",
+    "title": "Viral triggers of Type 1 diabetes: Effects of Coxsackie B virus infection on transcriptome of trophoblast and pancreatic beta cell lines.",
+    "organism": "Homo sapiens",
+    "downloaded": true
+  },
+  {
+    "accession": "GSE247808",
+    "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upon Viral Infection [snATACseq.VMI]",
+    "organism": "Homo sapiens",
+    "downloaded": true
+  },
+  {
+    "accession": "GSE247807",
+    "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upon Viral Infection [scRNAseq.VMI]",
+    "organism": "Homo sapiens",
+    "downloaded": true
+  },
+  {
+    "accession": "GSE247806",
+    "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upon Viral Infection [scRNAseq.islets]",
+    "organism": "Homo sapiens",
+    "downloaded": true
+  },
+  {
+    "accession": "GSE247805",
+    "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upon Viral Infection [bulkRNAseq]",
+    "organism": "Homo sapiens",
+    "downloaded": true
+  },
+  {
+    "accession": "GPL81",
+    "title": "[MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array",
+    "organism": "Mus musculus",
+    "downloaded": false
+  },
+  {
+    "accession": "GPL6246",
+    "title": "[MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]",
+    "organism": "Mus musculus",
+    "downloaded": false
+  },
+  {
+    "accession": "GSE214851",
+    "title": "ADAR1-dependent editing participates to the human beta-cells transcriptome diversity during inflammation",
+    "organism": "Homo sapiens",
+    "downloaded": true
+  },
+  {
+    "accession": "GSE184831",
+    "title": "Persistent Coxsackievirus B1 infection results in extensive changes in the transcriptome of a pancreatic cell line",
+    "organism": "Homo sapiens",
+    "downloaded": true
+  },
+  {
+    "accession": "GSE123550",
+    "title": "Transcriptome analysis of brainstem in gerbils with EV71-infection-induced HFMD",
+    "organism": "Meriones unguiculatus",
+    "downloaded": true
+  },
+  {
+    "accession": "GSE121971",
+    "title": "Transcriptome analysis of brainstem in gerbils with CA16-infection-induced HFMD",
+    "organism": "Meriones unguiculatus",
+    "downloaded": true
+  },
+  {
+    "accession": "GSM8554362",
+    "title": "Sw.71, CVB4-JVB infected, biol rep3",
+    "organism": "Homo sapiens",
+    "downloaded": false
+  },
+  {
+    "accession": "GSM8554361",
+    "title": "Sw.71, CVB4-JVB infected, biol rep2",
+    "organism": "Homo sapiens",
+    "downloaded": false
+  },
+  {
+    "accession": "GSM8554360",
+    "title": "Sw.71, CVB4-JVB infected, biol rep1",
+    "organism": "Homo sapiens",
+    "downloaded": false
+  },
+  {
+    "accession": "GSM8554359",
+    "title": "Sw.71, Control, biol rep3, unifected",
+    "organism": "Homo sapiens",
+    "downloaded": false
+  },
+  {
+    "accession": "GSM8554358",
+    "title": "Sw.71, Control, biol rep2, unifected",
+    "organism": "Homo sapiens",
+    "downloaded": false
+  },
+  {
+    "accession": "GSM8554357",
+    "title": "Sw.71, Control, biol rep1, unifected",
+    "organism": "Homo sapiens",
+    "downloaded": false
+  },
+  {
+    "accession": "GSM8554356",
+    "title": "EndoC-\u03b2H1, CVB4-JVB infected, biol rep3",
+    "organism": "Homo sapiens",
+    "downloaded": false
+  },
+  {
+    "accession": "GSM8554355",
+    "title": "EndoC-\u03b2H1, CVB4-JVB infected, biol rep2",
+    "organism": "Homo sapiens",
+    "downloaded": false
+  },
+  {
+    "accession": "GSM8554354",
+    "title": "EndoC-\u03b2H1, CVB4-JVB infected, biol rep1",
+    "organism": "Homo sapiens",
+    "downloaded": false
+  },
+  {
+    "accession": "GSM8554353",
+    "title": "EndoC-\u03b2H1, CVB4-E2 infected, biol rep3",
+    "organism": "Homo sapiens",
+    "downloaded": false
+  },
+  {
+    "accession": "GSM8554352",
+    "title": "EndoC-\u03b2H1, CVB4-E2 infected, biol rep2",
+    "organism": "Homo sapiens",
+    "downloaded": false
+  },
+  {
+    "accession": "GSM8554351",
+    "title": "EndoC-\u03b2H1, CVB4-E2 infected, biol rep1",
+    "organism": "Homo sapiens",
+    "downloaded": false
+  },
+  {
+    "accession": "GSM8554350",
+    "title": "EndoC-\u03b2H1, Control, biol rep3, unifected",
+    "organism": "Homo sapiens",
+    "downloaded": false
+  },
+  {
+    "accession": "GSM8554349",
+    "title": "EndoC-\u03b2H1, Control, biol rep2, unifected",
+    "organism": "Homo sapiens",
+    "downloaded": false
+  }
+]

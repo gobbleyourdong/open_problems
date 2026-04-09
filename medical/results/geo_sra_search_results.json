@@ -1,0 +1,340 @@
+{
+  "CVB myocarditis": {
+    "query": "\"coxsackievirus\" AND \"myocarditis\"",
+    "count": 20,
+    "datasets": [
+      {
+        "accession": "GSE261940",
+        "title": "Soluble ST2 induces cardiac contractile dysfunction by repressing mitochondrial electron transport chain genes in cardiomyocytes during fulminant myocarditis",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 20,
+        "organism": "Mus musculus"
+      },
+      {
+        "accession": "GSE248521",
+        "title": "GPR15-mediated T cell recruitment during acute viral myocarditis facilitated virus elimination and improved outcome",
+        "type": "Expression profiling by high throughput sequencing; Other",
+        "samples": 31,
+        "organism": "Mus musculus"
+      },
+      {
+        "accession": "GSE174458",
+        "title": "Dissecting the Cellular Landscape and Transcriptome Network in Viral Myocarditis by Single-Cell RNA Sequencing",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 4,
+        "organism": "Mus musculus"
+      },
+      {
+        "accession": "GSE121971",
+        "title": "Transcriptome analysis of brainstem in gerbils with CA16-infection-induced HFMD",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 6,
+        "organism": "Meriones unguiculatus"
+      },
+      {
+        "accession": "GSE57781",
+        "title": "Human Induced Pluripotent Stem Cell-Derived Cardiomyocytes as an In Vitro Model for Coxsackievirus B3-Induced Myocarditis and Antiviral Drug Screening Platform",
+        "type": "Expression profiling by array",
+        "samples": 4,
+        "organism": "Homo sapiens"
+      }
+    ]
+  },
+  "CVB heart": {
+    "query": "\"coxsackievirus B\" AND \"heart\"",
+    "count": 0,
+    "datasets": []
+  },
+  "CVB pancreas T1DM": {
+    "query": "\"coxsackievirus\" AND (\"pancreas\" OR \"islet\" OR \"beta cell\")",
+    "count": 33,
+    "datasets": [
+      {
+        "accession": "GSE274264",
+        "title": "Coxsackievirus B infection invokes unique cell-type-specific responses in primary human pancreatic islets",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 10,
+        "organism": "Homo sapiens"
+      },
+      {
+        "accession": "GSE278756",
+        "title": "Viral triggers of Type 1 diabetes: Effects of Coxsackie B virus infection on transcriptome of trophoblast and pancreatic beta cell lines.",
+        "type": "Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing",
+        "samples": 15,
+        "organism": "Homo sapiens"
+      },
+      {
+        "accession": "GSE247808",
+        "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upon Viral Infection [snATACseq.VMI]",
+        "type": "Genome binding/occupancy profiling by high throughput sequencing",
+        "samples": 3,
+        "organism": "Homo sapiens"
+      },
+      {
+        "accession": "GSE247807",
+        "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upon Viral Infection [scRNAseq.VMI]",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 3,
+        "organism": "Homo sapiens"
+      },
+      {
+        "accession": "GSE247806",
+        "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upon Viral Infection [scRNAseq.islets]",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 10,
+        "organism": "Homo sapiens"
+      }
+    ]
+  },
+  "CVB muscle": {
+    "query": "\"coxsackievirus\" AND \"muscle\"",
+    "count": 5,
+    "datasets": [
+      {
+        "accession": "GSE243200",
+        "title": "Pathogenicity and landscape of differential gene expression in mice orally infected with clinical coxsackievirus A6 (CA6)",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 100,
+        "organism": "Mus musculus"
+      },
+      {
+        "accession": "GSE189549",
+        "title": "Real-time quantitative PCR analysis of inflammation-related genes of organs and tissues from mice in response to Coxsackievirus A2 (CVA2) infection",
+        "type": "Expression profiling by RT-PCR",
+        "samples": 64,
+        "organism": "Mus musculus"
+      },
+      {
+        "accession": "GPL81",
+        "title": "[MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array",
+        "type": "",
+        "samples": 6909,
+        "organism": "Mus musculus"
+      },
+      {
+        "accession": "GPL6246",
+        "title": "[MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]",
+        "type": "",
+        "samples": 30634,
+        "organism": "Mus musculus"
+      },
+      {
+        "accession": "GPL8300",
+        "title": "[HG_U95Av2] Affymetrix Human Genome U95 Version 2 Array",
+        "type": "",
+        "samples": 6446,
+        "organism": "Homo sapiens"
+      }
+    ]
+  },
+  "Enterovirus persistent": {
+    "query": "\"enterovirus\" AND \"persistent\"",
+    "count": 11,
+    "datasets": [
+      {
+        "accession": "GSE184831",
+        "title": "Persistent Coxsackievirus B1 infection results in extensive changes in the transcriptome of a pancreatic cell line",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 9,
+        "organism": "Homo sapiens"
+      },
+      {
+        "accession": "GPL6246",
+        "title": "[MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]",
+        "type": "",
+        "samples": 30634,
+        "organism": "Mus musculus"
+      },
+      {
+        "accession": "GSM5597984",
+        "title": "TB9_CVB1_CDC7_S9",
+        "type": "",
+        "samples": 0,
+        "organism": "Homo sapiens"
+      },
+      {
+        "accession": "GSM5597983",
+        "title": "TB8_CVB1_CDC7_S8",
+        "type": "",
+        "samples": 0,
+        "organism": "Homo sapiens"
+      },
+      {
+        "accession": "GSM5597982",
+        "title": "TB7_CVB1_CDC7_S7",
+        "type": "",
+        "samples": 0,
+        "organism": "Homo sapiens"
+      }
+    ]
+  },
+  "CVB interferon": {
+    "query": "\"coxsackievirus\" AND \"interferon\"",
+    "count": 10,
+    "datasets": [
+      {
+        "accession": "GSE269413",
+        "title": "Transcriptomic analysis of coxsackievirus B3 infection in induced pluripotent stem cell-derived brain-like endothelial cells",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 12,
+        "organism": "Homo sapiens"
+      },
+      {
+        "accession": "GSE248521",
+        "title": "GPR15-mediated T cell recruitment during acute viral myocarditis facilitated virus elimination and improved outcome",
+        "type": "Expression profiling by high throughput sequencing; Other",
+        "samples": 31,
+        "organism": "Mus musculus"
+      },
+      {
+        "accession": "GSE72342",
+        "title": "HT1080 WT or STAT deficient exposed to IFN beta or human trophoblast medium",
+        "type": "Expression profiling by array",
+        "samples": 8,
+        "organism": "Homo sapiens"
+      },
+      {
+        "accession": "GSE57781",
+        "title": "Human Induced Pluripotent Stem Cell-Derived Cardiomyocytes as an In Vitro Model for Coxsackievirus B3-Induced Myocarditis and Antiviral Drug Screening Platform",
+        "type": "Expression profiling by array",
+        "samples": 4,
+        "organism": "Homo sapiens"
+      },
+      {
+        "accession": "GPL81",
+        "title": "[MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array",
+        "type": "",
+        "samples": 6909,
+        "organism": "Mus musculus"
+      }
+    ]
+  },
+  "CVB autophagy": {
+    "query": "\"coxsackievirus\" AND \"autophagy\"",
+    "count": 0,
+    "datasets": []
+  },
+  "DCM viral": {
+    "query": "\"dilated cardiomyopathy\" AND \"virus\"",
+    "count": 22,
+    "datasets": [
+      {
+        "accession": "GSE302553",
+        "title": "Pathogenetic mechanisms of muscle-specific ribosomes in dilated cardiomyopathy (AC16 RNA-seq)",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 42,
+        "organism": "Homo sapiens"
+      },
+      {
+        "accession": "GSE308777",
+        "title": "Precise Gene Editing of Pathogenic Lamin A Mutations Corrects Cardiac Disease",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 18,
+        "organism": "Mus musculus"
+      },
+      {
+        "accession": "GSE211005",
+        "title": "Precise genomic editing of a pathogenic RBM20 mutation rescues dilated cardiomyopathy",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 4,
+        "organism": "Mus musculus"
+      },
+      {
+        "accession": "GSE210783",
+        "title": "Precise genomic editing of a pathogenic RBM20 mutation rescues dilated cardiomyopathy",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 28,
+        "organism": "Homo sapiens; Mus musculus"
+      },
+      {
+        "accession": "GSE174458",
+        "title": "Dissecting the Cellular Landscape and Transcriptome Network in Viral Myocarditis by Single-Cell RNA Sequencing",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 4,
+        "organism": "Mus musculus"
+      }
+    ]
+  },
+  "T1DM islet expression": {
+    "query": "\"type 1 diabetes\" AND \"islet\" AND \"expression\"",
+    "count": 110,
+    "datasets": [
+      {
+        "accession": "GSE312449",
+        "title": "Durable control of autoimmunity requires sustained stimulation of regulatory T cells [TCR scRNA-Seq]",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 4,
+        "organism": "Mus musculus"
+      },
+      {
+        "accession": "GSE305271",
+        "title": "PTPN2 deficiency amplifies interferon signaling and impairs functional maturation of human stem cell-derived islets [scRNA-seq]",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 2,
+        "organism": "Homo sapiens"
+      },
+      {
+        "accession": "GSE304008",
+        "title": "PTPN2 deficiency amplifies interferon signaling and impairs functional maturation of human stem cell-derived islets [BulkRNA_Stemcells]",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 12,
+        "organism": "Homo sapiens"
+      },
+      {
+        "accession": "GSE303371",
+        "title": "PTPN2 deficiency amplifies interferon signaling and impairs functional maturation of human stem cell-derived islets [RNA-Seq]",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 6,
+        "organism": "Homo sapiens"
+      },
+      {
+        "accession": "GSE303368",
+        "title": "PTPN2 deficiency amplifies interferon signaling and impairs functional maturation of human stem cell-derived islets [ATAC-Seq]",
+        "type": "Genome binding/occupancy profiling by high throughput sequencing",
+        "samples": 12,
+        "organism": "Homo sapiens"
+      }
+    ]
+  },
+  "CVB any": {
+    "query": "\"coxsackievirus B3\" OR \"coxsackievirus B4\"",
+    "count": 74,
+    "datasets": [
+      {
+        "accession": "GSE274264",
+        "title": "Coxsackievirus B infection invokes unique cell-type-specific responses in primary human pancreatic islets",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 10,
+        "organism": "Homo sapiens"
+      },
+      {
+        "accession": "GSE269413",
+        "title": "Transcriptomic analysis of coxsackievirus B3 infection in induced pluripotent stem cell-derived brain-like endothelial cells",
+        "type": "Expression profiling by high throughput sequencing",
+        "samples": 12,
+        "organism": "Homo sapiens"
+      },
+      {
+        "accession": "GSE280993",
+        "title": "Enhanced RNAi does not provide efficient innate antiviral immunity in mice in vivo. [smallRNA-Seq spleen]",
+        "type": "Non-coding RNA profiling by high throughput sequencing",
+        "samples": 8,
+        "organism": "Mus musculus"
+      },
+      {
+        "accession": "GSE278756",
+        "title": "Viral triggers of Type 1 diabetes: Effects of Coxsackie B virus infection on transcriptome of trophoblast and pancreatic beta cell lines.",
+        "type": "Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing",
+        "samples": 15,
+        "organism": "Homo sapiens"
+      },
+      {
+        "accession": "GSE247808",
+        "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upon Viral Infection [snATACseq.VMI]",
+        "type": "Genome binding/occupancy profiling by high throughput sequencing",
+        "samples": 3,
+        "organism": "Homo sapiens"
+      }
+    ]
+  }
+}

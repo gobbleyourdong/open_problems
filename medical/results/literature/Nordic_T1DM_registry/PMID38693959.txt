@@ -1,0 +1,93 @@
+1. Hum Reprod Open. 2024 Apr 10;2024(2):hoae021. doi: 10.1093/hropen/hoae021. 
+eCollection 2024.
+
+The risk of Type 1 diabetes in children born after ART: a Nordic cohort study 
+from the CoNARTaS group.
+
+Kyhl F(1), Spangmose AL(1), Gissler M(2)(3), Rönö K(4), Westvik-Johari K(5)(6), 
+Henningsen AA(1), Bergh C(7), Wennerholm UB(7), Opdahl S(6), Forman J(8), 
+Svensson J(9)(10)(11), Clausen T(12), Vassard D(1), Pinborg A(1)(10).
+
+Author information:
+(1)Fertility Clinic, Department of Gynaecology, Fertility and Obstetrics, 
+Copenhagen University Hospital, Rigshospitalet, Copenhagen, Denmark.
+(2)Department of Knowledge Brokers, Finnish Institute for Health and Welfare, 
+Helsinki, Finland.
+(3)Department of Molecular Medicine and Surgery, Karolinska Institute, 
+Stockholm, Sweden.
+(4)Department of Obstetrics and Gynecology, Helsinki University Hospital and 
+University of Helsinki, Helsinki, Finland.
+(5)Department of Fertility, Women and Children's Centre, St Olavs Hospital, 
+Trondheim, Norway.
+(6)Faculty of Medicine and Health Sciences, Department of Public Health and 
+Nursing, Norwegian University of Science and Technology, Trondheim, Norway.
+(7)Department of Obstetrics and Gynecology, Institute of Clinical Sciences, 
+Sahlgrenska Academy, Gothenburg University, Region Västra Götaland, Sahlgrenska 
+University Hospital, Gothenburg, Sweden.
+(8)Department of Public Health, Section of Biostatistics, University of 
+Copenhagen, Copenhagen, Denmark.
+(9)Department of Paediatric and Adolescents, Copenhagen University Hospital, 
+Herlev & Gentofte, Denmark.
+(10)Department of Clinical Medicine, University of Copenhagen, Copenhagen, 
+Denmark.
+(11)Department of Clinical Research, Steno Diabetes Center Copenhagen, Herlev, 
+Denmark.
+(12)Department of Obstetrics, Copenhagen University Hospital, Rigshospitalet, 
+Copenhagen, Denmark.
+
+STUDY QUESTION: Do children born after ART have a higher risk of developing Type 
+1 diabetes (DM1) than children conceived without ART?
+SUMMARY ANSWER: The risk of DM1 was similar for children conceived with and 
+without ART, and there were no clear differences in risk according to method of 
+fertility treatment.
+WHAT IS KNOWN ALREADY: ART is associated with a higher risk of adverse perinatal 
+outcomes, and the risk depends on the method of ART. The Developmental Origins 
+of Health and Disease theory proposes that prenatal stress can provoke changes 
+in endocrine processes which impact health later in life.
+STUDY DESIGN SIZE DURATION: A Nordic register-based cohort study was carried 
+out, including all children born in Denmark (birth years 1994-2014), Finland 
+(1990-2014), and Norway (1984-2015). The study included 76 184 liveborn 
+singletons born after ART and 4 403 419 born without ART. Median follow-up was 
+8.3 and 13.7 years in the ART and non-ART group, respectively.
+PARTICIPANTS/MATERIALS SETTING METHODS: The cohort, initiated by the Committee 
+of Nordic Assisted Reproductive Technology and Safety (CoNARTaS), was 
+established by linking national registry data from the medical birth registries 
+and national patient registries available in the Nordic countries. We performed 
+multivariable logistic regression analyses for the birth year intervals 
+1984-1990, 1991-1995, 1996-2000, 2001-2005, 2006-2010, and 2011-2015, while 
+adjusting for year of birth within each interval, sex of the child, parity, 
+maternal age, maternal diabetes, and maternal smoking during pregnancy as 
+potential confounders.
+MAIN RESULTS AND THE ROLE OF CHANCE: During follow-up, 259 (3.4‰) children born 
+after ART were diagnosed with DM1, while this was the case for 22 209 (5.0‰) 
+born without ART, corresponding to an adjusted odds ratio of 0.98 (95% CI: 
+0.861.11). Within the different birth year intervals, no significant difference 
+in risk of DM1 between the two groups was found, except for the youngest cohort 
+of children born 2011-2015 where ART was associated with a higher risk of DM1. 
+We found no significant differences in risk of DM1 when comparing children born 
+after IVF versus ICSI or fresh versus frozen embryo transfer, but with only few 
+cases in each group.
+LIMITATIONS REASONS FOR CAUTION: The main limitation of the study is the 
+relatively short follow-up time. The incidence rate of DM1 peaks during ages 
+10-14 years, hence a longer follow-up would benefit all analyses and, in 
+particular, the subgroup analyses.
+WIDER IMPLICATIONS OF THE FINDINGS: Overall, our findings are reassuring 
+especially considering the concomitantly increasing number of children born from 
+ART and the increasing incidence of DM1 globally.
+STUDY FUNDING/COMPETING INTERESTS: This Nordic registry study has been supported 
+by the Nordic Trial Alliance/NORDFORSK and Rigshospitalets Research Foundation. 
+The funding sources had no role in study design; in the collection, analysis, 
+and interpretation of data; in the writing of the report; and in the decision to 
+submit the article for publication. None of the authors has any conflicts of 
+interest to declare regarding this study.
+TRIAL REGISTRATION NUMBER: ISRCTN11780826.
+
+© The Author(s) 2024. Published by Oxford University Press on behalf of European 
+Society of Human Reproduction and Embryology.
+
+DOI: 10.1093/hropen/hoae021
+PMCID: PMC11061545
+PMID: 38693959
+
+Conflict of interest statement: None of the authors has any conflicts of 
+interest to declare regarding this study.

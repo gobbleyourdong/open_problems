@@ -1,0 +1,78 @@
+1. J Epidemiol Community Health. 2025 Sep 10;79(10):737-745. doi: 
+10.1136/jech-2024-223320.
+
+Association between a pro-inflammatory dietary pattern during pregnancy and type 
+1 diabetes risk in offspring: prospective cohort study.
+
+Noorzae R(1)(2), Bjerregaard AA(1)(3), Halldorsson TI(1)(4), Granström C(1), 
+Brantsæter AL(5), Borge T(6), Caspersen IH(7)(8), Svensson J(2)(9), Stene 
+LCM(10), Antvorskov JC Dr(2), Giovannucci EL(11), Christiansen M MC(12)(13), 
+Pociot F MD(2)(14), Olsen SF(15)(16)(17).
+
+Author information:
+(1)Department of Epidemiology Research, Statens Serum Institut, Kobenhavn, 
+Denmark.
+(2)Steno Diabetes Center Copenhagen, Herlev, Capital Region of Denmark, Denmark.
+(3)Section of Epidemiology, Center for Clinical Research and Prevention, 
+Bispebjerg and Frederiksberg Hospital, Frederiksberg, Capital Region of Denmark, 
+Denmark.
+(4)Faculty of Food Science and Nutrition, University of Iceland, Reykjavik, 
+Iceland.
+(5)Department of Food Safety, Norwegian Institute of Public Health, Oslo, 
+Norway.
+(6)Cluster for Reviews and Health Technology Assessments, Norwegian Institute of 
+Public Health, Oslo, Oslo, Norway.
+(7)Centre for Fertility and Health, Norwegian Institute of Public Health, Oslo, 
+Norway.
+(8)Department of Rheumatology, Oslo University Hospital, Oslo, Norway.
+(9)Department of Clinical Medicine, University of Copenhagen, Kobenhavn, Region 
+Hovedstaden, Denmark.
+(10)Department of Chronic Diseases, Norwegian Institute of Public Health, Oslo, 
+Norway.
+(11)Harvard University T H Chan School of Public Health, Boston, Massachusetts, 
+USA.
+(12)Department for Congenital Disorders, Statens Serum Insitut, Copenhagen, 
+Denmark.
+(13)Institute of Biomedical Science, University of Copenhagen, Kobenhavn, Region 
+Hovedstaden, Denmark.
+(14)Faculty of Health and Medical Science, University of Copenhagen, Kobenhavn, 
+Region Hovedstaden, Denmark.
+(15)Biobank, Congenital Disorders, and Vaccines Preparedness, Statens Serum 
+Institut, Kobenhavn, Denmark sjurdur.f.olsen@dadlnet.dk.
+(16)Department of Nutrition, Harvard T H Chan School of Public Health, Boston, 
+Massachusetts, USA.
+(17)Faculty of Health Sciences, University of the Faroe Islands, Torshavn, Faroe 
+Islands.
+
+BACKGROUND: Immune-mediated processes leading to childhood type 1 diabetes may 
+begin in fetal life. We hypothesised that a maternal inflammatory diet during 
+pregnancy increases offspring risk of type 1 diabetes.
+METHODS: The Danish National Birth Cohort (DNBC) was recruited during 1996-2002. 
+Maternal Empirical Dietary Inflammatory Index score (EDII-score) was calculated 
+from a comprehensive 360-item self-administered food frequency questionnaire 
+(FFQ) completed around gestation week 25. Information on covariates was derived 
+from maternal interviews. Information on type 1 diabetes diagnosis in the 
+offspring was obtained through registry linkage to the Danish Registry of 
+Childhood and Adolescent Diabetes. The association between the EDII score during 
+pregnancy and the child's subsequent type 1 diabetes risk was examined by Cox 
+regression.
+RESULTS: We included singleton live births and excluded confirmed maternal type 
+1 diabetes or type 2 diabetes diagnoses prior to pregnancy, and implausibly 
+high/low energy intake. In 67 701 mother-child pairs eligible for analyses, 281 
+children were diagnosed with type 1 diabetes. Mean EDII score was -0.1 with a 
+range from -5.3 (anti-inflammatory) to 4.1 (pro-inflammatory) with a standard 
+deviation (SD) of 0.98. Maternal EDII score was significantly associated with 
+type 1 diabetes risk in offspring in both unadjusted and covariate-adjusted 
+analyses. After adjustment for covariates, the incidence rate of type 1 diabetes 
+in offspring increased with increasing EDII score by 16% (95% confidence 
+interval (CI) 2% to 32%) per one unit increase in the EDII score.
+CONCLUSION: A maternal diet high in pro-inflammatory foods during pregnancy is 
+associated with increased risk of developing type 1 diabetes in the offspring.
+
+© Author(s) (or their employer(s)) 2025. No commercial re-use. See rights and 
+permissions. Published by BMJ Group.
+
+DOI: 10.1136/jech-2024-223320
+PMID: 40592515 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: None declared.

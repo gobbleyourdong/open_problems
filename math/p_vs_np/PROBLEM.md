@@ -28,4 +28,4 @@ Does every problem whose solution can be verified in polynomial time also have a
 - Communication complexity
 - Kolmogorov complexity
 
-## systematic approach Phase: 0 (Not started)
+## Sigma Method Phase: 0 (Not started)

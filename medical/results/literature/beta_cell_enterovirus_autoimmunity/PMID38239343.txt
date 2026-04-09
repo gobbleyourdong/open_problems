@@ -1,0 +1,58 @@
+1. Front Immunol. 2024 Jan 4;14:1326711. doi: 10.3389/fimmu.2023.1326711. 
+eCollection 2023.
+
+Immunological and virological triggers of type 1 diabetes: insights and 
+implications.
+
+Lemos JRN(1), Hirani K(1)(2), von Herrath M(1)(2)(3).
+
+Author information:
+(1)Diabetes Research Institute (DRI), University of Miami Miller School of 
+Medicine, Miami, FL, United States.
+(2)Division of Endocrine, Diabetes, and Metabolism, Department of Medicine, 
+University of Miami Miller School of Medicine, Miami, FL, United States.
+(3)Global Chief Medical Office, Novo Nordisk A/S, Søborg, Denmark.
+
+Type 1 diabetes (T1D) is caused by an autoimmune process which culminates in the 
+destruction of insulin-producing beta cells in the pancreas. It is widely 
+believed that a complex and multifactorial interplay between genetic and 
+environmental factors, such as viruses, play a crucial role in the development 
+of the disease. Research over the past few decades has shown that there is not 
+one single viral culprit, nor one single genetic pathway, causing the disease. 
+Rather, viral infections, most notably enteroviruses (EV), appear to accelerate 
+the autoimmune process leading to T1D and are often seen as a precipitator of 
+clinical diagnosis. In support of this hypothesis, the use of anti-viral drugs 
+has recently shown efficacy in preserving beta cell function after onset of 
+diabetes. In this review, we will discuss the various pathways that viral 
+infections utilize to accelerate the development of T1D. There are three key 
+mechanisms linking viral infections to beta-cell death: One is modulated by the 
+direct infection of islets by viruses, resulting in their impaired function, 
+another occurs in a more indirect fashion, by modulating the immune system, and 
+the third is caused by heightened stress on the beta-cell by interferon-mediated 
+increase of insulin resistance. The first two aspects are surprisingly difficult 
+to study, in the case of the former, because there are still many questions 
+about how viruses might persist for longer time periods. In the latter, 
+indirect/immune case, viruses might impact immunity as a hit-and-run scenario, 
+meaning that many or all direct viral footprints quickly vanish, while changes 
+imprinted upon the immune system and the anti-islet autoimmune response persist. 
+Given the fact that viruses are often associated with the precipitation of 
+clinical autoimmunity, there are concerns regarding the impact of the recent 
+global coronavirus-2019 (COVID-19) pandemic on the development of autoimmune 
+disease. The long-term effects of COVID-19 infection on T1D will therefore be 
+discussed, including the increased development of new cases of T1D. 
+Understanding the interplay between viral infections and autoimmunity is crucial 
+for advancing our knowledge in this field and developing targeted therapeutic 
+interventions. In this review we will examine the intricate relationship between 
+viral infections and autoimmunity and discuss potential considerations for 
+prevention and treatment strategies.
+
+Copyright © 2024 Lemos, Hirani and von Herrath.
+
+DOI: 10.3389/fimmu.2023.1326711
+PMCID: PMC10794398
+PMID: 38239343 [Indexed for MEDLINE]
+
+Conflict of interest statement: Author MH was employed by the company Novo 
+Nordisk A/S. The remaining authors declare that the research was conducted in 
+the absence of any commercial or financial relationships that could be construed 
+as a potential conflict of interest.

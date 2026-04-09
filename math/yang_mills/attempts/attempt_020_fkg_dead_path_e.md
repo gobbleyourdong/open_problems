@@ -103,7 +103,7 @@ We need: plaquettes positively correlated. This is WEAKER than full FKG
 (we only need it for two specific observables), but still UNKNOWN for SU(2)
 at intermediate coupling.
 
-However: this is a much MORE TESTABLE statement. The numerical track can check
+However: this is a much MORE TESTABLE statement. The Odd instance can check
 numerically whether Cov(Σ_all Tr(U_P), Σ_{P∈Σ} Tr(U_P)) ≥ 0 for all β.
 
 ## Breaking the Circularity: The Convexity Trick
@@ -151,7 +151,7 @@ This is the REFINED gap statement. It's weaker than FKG, provable at both
 extremes, and numerically supported. The remaining question is whether
 strong-coupling and weak-coupling proofs can be connected.
 
-## For numerical track (Updated Request)
+## For Odd Instance (Updated Request)
 The FKG tests in request_020 are still valuable BUT reframe:
 - Test plaquette-plaquette Cov(Tr(U_P), Tr(U_Q)) ≥ 0 for ALL β
 - If this holds at ALL tested β → evidence for the refined gap

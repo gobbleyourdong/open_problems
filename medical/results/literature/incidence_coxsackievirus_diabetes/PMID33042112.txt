@@ -1,0 +1,57 @@
+1. Front Immunol. 2020 Sep 15;11:1922. doi: 10.3389/fimmu.2020.01922. eCollection
+ 2020.
+
+Confirmation and Identification of Biomarkers Implicating Environmental Triggers 
+in the Pathogenesis of Type 1 Diabetes.
+
+Harms RZ(1), Ostlund KR(1), Cabrera MS(2), Edwards E(2), Fisher M(2), Sarvetnick 
+N(1)(3).
+
+Author information:
+(1)Department of Surgery-Transplant, University of Nebraska Medical Center, 
+Omaha, NE, United States.
+(2)Endocrine Clinic, Children's Hospital and Medical Center, Omaha, NE, United 
+States.
+(3)Mary and Dick Holland Regenerative Medicine Program, University of Nebraska 
+Medical Center, Omaha, NE, United States.
+
+Multiple environmental triggers have been proposed to explain the increased 
+incidence of type 1 diabetes (T1D). These include viral infections, microbiome 
+disturbances, metabolic disorders, and vitamin D deficiency. Here, we used ELISA 
+to examine blood plasma from juvenile T1D subjects and age-matched controls for 
+the abundance of several circulating factors relevant to these hypotheses. We 
+screened plasma for sCD14, mannose binding lectin (MBL), lipopolysaccharide 
+binding protein (LBP), c-reactive protein (CRP), fatty acid binding protein 2 
+(FABP2), human growth hormone, leptin, total adiponectin, high molecular weight 
+(HMW) adiponectin, total IgG, total IgA, total IgM, endotoxin core antibodies 
+(EndoCAbs), 25(OH) vitamin D, vitamin D binding protein, IL-7, IL-10, IFN-γ, 
+TNF-α, IL-17A, IL-18, and IL-18BPa. Subjects also were tested for prevalence of 
+antibodies targeting adenovirus, parainfluenza 1/2/3, Coxsackievirus, 
+cytomegalovirus, Epstein-Barr virus viral capsid antigen (EBV VCA), herpes 
+simplex virus 1, and Saccharomyces cerevisiae. Finally, all subjects were 
+screened for presence and abundance of autoantibodies targeting islet cell 
+cytoplasmic proteins (ICA), glutamate decarboxylase 2 (GAD65), zinc transporter 
+8 (ZNT8), insulinoma antigen 2 (IA-2), tissue transglutaminase, and thyroid 
+peroxidase, while β cell function was gauged by measuring c-peptide levels. We 
+observed few differences between control and T1D subjects. Of these, we found 
+elevated sCD14, IL-18BPa, and FABP2, and reduced total IgM. Female T1D subjects 
+were notably elevated in CRP levels compared to control, while males were 
+similar. T1D subjects also had significantly lower prevalence of EBV VCA 
+antibodies compared to control. Lastly, we observed that c-peptide levels were 
+significantly correlated with leptin levels among controls, but this 
+relationship was not significant among T1D subjects. Alternatively, adiponectin 
+levels were significantly correlated with c-peptide levels among T1D subjects, 
+while controls showed no relationship between these two factors. Among T1D 
+subjects, the highest c-peptide levels were associated with the lowest 
+adiponectin levels, an indication of insulin resistance. In total, from our 
+examination we found limited data that strongly support any of the hypotheses 
+investigated. Rather, we observed an indication of unexplained 
+monocyte/macrophage activation in T1D subjects judging from elevated levels of 
+sCD14 and IL-18BPa. These observations were partnered with unique associations 
+between adipokines and c-peptide levels among T1D subjects.
+
+Copyright © 2020 Harms, Ostlund, Cabrera, Edwards, Fisher and Sarvetnick.
+
+DOI: 10.3389/fimmu.2020.01922
+PMCID: PMC7523316
+PMID: 33042112 [Indexed for MEDLINE]

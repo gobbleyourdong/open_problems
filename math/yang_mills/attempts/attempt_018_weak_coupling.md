@@ -201,6 +201,6 @@ which follows from FKG in the character basis.
 FKG for gauge theories is STRONGER than monotonicity (Prop II.1) but
 related. The question is precise and may have a known answer.
 
-## For numerical track
+## For Odd Instance
 Verify numerically: Cov(O, e^{-δS}) < 0 for SU(2) on 2⁴ lattice at
 various β. This is a single MC measurement.

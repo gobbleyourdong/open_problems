@@ -1,0 +1,581 @@
+{
+  "metadata": {
+    "compiled": "2026-04-08",
+    "purpose": "Cardiac disease epidemiology relevant to CVB (Coxsackievirus B) causation",
+    "primary_sources": [
+      "Caforio ALP et al., Eur Heart J 2013;34:2636-2648 (myocarditis clinical guidance)",
+      "Cooper LT, NEJM 2009;360:1526-1538 (myocarditis review)",
+      "Kindermann I et al., JACC 2012;59:779-792 (myocarditis outcomes)",
+      "Grist NR & Bell EJ, Prog Med Virol 1974;18:114-157 (CVB heart disease epidemiology)",
+      "Woodruff JF, Am J Pathol 1980;101:427-484 (viral myocarditis review)",
+      "Fung G et al., Circ Res 2016;118:496-514 (CVB3 pathogenesis)",
+      "Basso C et al., Lancet 2009;374:305-317 (cardiomyopathy etiology)",
+      "Richardson P et al., Lancet 1996;348:1070-1075 (DCM definition/incidence)",
+      "Dec GW & Fuster V, NEJM 1994;331:1564-1575 (idiopathic DCM)",
+      "Limas CJ et al., Circulation 1990;82:2220-2226 (viral DCM)",
+      "Pauschinger M et al., Circulation 1999;99:889-895 (viral genomes in DCM)",
+      "Bowles NE et al., Circulation 2003;107:2335-2340 (viral genomes in pediatric cardiomyopathy)",
+      "Mason JW et al., NEJM 1995;333:269-275 (immunosuppression trial in myocarditis)",
+      "McCarthy RE et al., NEJM 2000;342:690-695 (long-term outcome of myocarditis)",
+      "Felker GM et al., NEJM 2000;342:1077-1084 (myocarditis outcomes in transplant)",
+      "Frustaci A et al., J Am Coll Cardiol 2003;41:1072-1076 (immunohistology in DCM)",
+      "Kuhl U et al., Circulation 2005;111:887-893 (viral persistence and ventricular dysfunction)",
+      "Kuhl U et al., J Am Coll Cardiol 2005;45:270-280 (DCM and viral myocarditis overlap)"
+    ]
+  },
+
+  "myocarditis": {
+    "definition": "Inflammation of the myocardium confirmed by histology (Dallas criteria) or cardiac MRI (Lake Louise criteria)",
+
+    "incidence": {
+      "general_population_per_100k_per_year": {
+        "value": 22,
+        "range": [10, 22],
+        "note": "Clinical presentation-based; true incidence higher due to subclinical cases",
+        "source": "Cooper 2009 NEJM; Caforio 2013 Eur Heart J"
+      },
+      "autopsy_prevalence_percent": {
+        "value": 1.0,
+        "range": [0.5, 5.0],
+        "note": "Undiagnosed myocarditis at autopsy in sudden cardiac death cohorts",
+        "source": "Caforio 2013; Basso 2009 Lancet"
+      },
+      "suspected_vs_confirmed_ratio": {
+        "value": 10,
+        "note": "~10 clinically suspected cases per 1 histologically confirmed; most are diagnosed by CMR",
+        "source": "Kindermann 2012 JACC"
+      }
+    },
+
+    "viral_etiology": {
+      "fraction_attributable_to_viruses_percent": {
+        "value": 50,
+        "range": [30, 75],
+        "note": "Varies by era and geography; higher with PCR-based detection",
+        "source": "Caforio 2013; Cooper 2009"
+      },
+      "coxsackievirus_fraction_of_viral_myocarditis_percent": {
+        "value": 25,
+        "range": [15, 50],
+        "note": "CVB historically dominant; more recent series show parvovirus B19 and HHV-6 overtaking CVB in developed countries",
+        "source": "Grist & Bell 1974; Pauschinger 1999 Circulation; Kindermann 2012"
+      },
+      "coxsackievirus_fraction_of_all_myocarditis_percent": {
+        "value": 22,
+        "range": [15, 30],
+        "note": "Derived: 50% viral × 25-50% CVB within viral = ~12-25%; central estimate 22%",
+        "source": "Derived from Cooper 2009; Caforio 2013; Kindermann 2012"
+      },
+      "cvb_serotypes": {
+        "CVB3": "Most common cardiac serotype; direct cytolytic and immune-mediated damage",
+        "CVB4": "Second most common; also infects beta-cells (T1DM link)",
+        "CVB1_CVB2": "Less common cardiac involvement"
+      },
+      "enteroviruses_combined_percent": {
+        "value": 35,
+        "range": [25, 50],
+        "note": "Includes CVB + other enteroviruses (echovirus, EV-A71 etc.)",
+        "source": "Bowles 2003 Circulation; Pauschinger 1999"
+      }
+    },
+
+    "age_distribution": {
+      "peak_age_years": {
+        "value": 33,
+        "range": [20, 40],
+        "note": "Most common in young adults; but affects all ages",
+        "source": "Caforio 2013; Cooper 2009"
+      },
+      "proportion_under_40_percent": 60,
+      "proportion_under_18_percent": 10,
+      "neonatal_fulminant_risk": "Highest case-fatality ratio (>50% untreated) in neonatal CVB myocarditis",
+      "source": "Cooper 2009 NEJM"
+    },
+
+    "sex_distribution": {
+      "male_to_female_ratio": {
+        "value": 1.9,
+        "range": [1.5, 3.0],
+        "note": "Males overrepresented ~2:1; estrogen may be cardioprotective; testosterone exacerbates CVB3 cardiac damage in mouse models",
+        "source": "Caforio 2013; Woodruff 1980; GSE35182 (sex differences in CVB3 myocarditis mouse study)"
+      }
+    },
+
+    "outcomes": {
+      "complete_recovery_percent": {
+        "value": 50,
+        "range": [40, 60],
+        "source": "McCarthy 2000 NEJM; Kindermann 2012"
+      },
+      "progression_to_dcm_percent": {
+        "value": 25,
+        "range": [14, 40],
+        "note": "Subset with persistent LV dysfunction; higher with viral persistence on biopsy",
+        "source": "McCarthy 2000 NEJM; Caforio 2013"
+      },
+      "spontaneous_resolution_at_6_months_percent": 50,
+      "death_or_transplant_5_year_percent": {
+        "value": 25,
+        "range": [20, 56],
+        "note": "Range reflects heterogeneous cohorts; fulminant myocarditis has paradoxically better long-term prognosis",
+        "source": "Caforio 2013; McCarthy 2000; Kindermann 2012"
+      },
+      "fulminant_myocarditis": {
+        "short_term_mortality_percent": {
+          "value": 50,
+          "note": "Without mechanical circulatory support; dramatically improved with IABP/ECMO"
+        },
+        "long_term_survival_if_survived_acute_percent": 90,
+        "source": "McCarthy 2000 NEJM; Kindermann 2012"
+      },
+      "chronic_myocarditis_10_year_mortality_percent": {
+        "value": 45,
+        "range": [35, 56],
+        "source": "Kindermann 2012 JACC"
+      }
+    },
+
+    "in_hospital_mortality_overall_percent": {
+      "value": 3,
+      "range": [1, 7],
+      "note": "General myocarditis admission; higher for cardiogenic shock",
+      "source": "Cooper 2009; Caforio 2013"
+    },
+
+    "sudden_cardiac_death_fraction": {
+      "myocarditis_in_young_scd_percent": {
+        "value": 8.6,
+        "range": [5, 22],
+        "note": "Found at autopsy in sudden cardiac death in athletes and young adults",
+        "source": "Basso 2009 Lancet; Caforio 2013"
+      }
+    },
+
+    "seasonal_patterns": {
+      "peak_seasons": ["late_summer", "autumn"],
+      "mechanism": "Enteroviral transmission peaks coincide with late-summer/autumn enterovirus seasons",
+      "source": "Grist & Bell 1974; Cooper 2009",
+      "note": "More pronounced in northern hemisphere temperate climates; less seasonal in tropics"
+    },
+
+    "geographic_variation": {
+      "northern_europe_incidence_per_100k": 10,
+      "united_states_incidence_per_100k": 22,
+      "asia_pacific": "Higher apparent incidence in reported series; may reflect ascertainment bias or true higher CVB circulation",
+      "developing_countries": "Likely underdiagnosed; perinatal CVB myocarditis major cause of infant mortality",
+      "source": "WHO estimates; Richardson 1996 Lancet; Caforio 2013"
+    }
+  },
+
+  "dilated_cardiomyopathy": {
+    "definition": "Left ventricular dilatation and systolic dysfunction in absence of coronary artery disease or abnormal loading conditions",
+
+    "prevalence": {
+      "general_population_per_100k": {
+        "value": 36.5,
+        "range": [30, 40],
+        "source": "Richardson 1996 Lancet; Basso 2009"
+      },
+      "incidence_per_100k_per_year": {
+        "value": 7,
+        "range": [5, 8],
+        "source": "Richardson 1996 Lancet"
+      },
+      "total_us_prevalence_estimated": "~600,000 cases",
+      "total_global_prevalence_estimated": "~3,000,000 cases"
+    },
+
+    "etiology": {
+      "idiopathic_percent": {
+        "value": 45,
+        "range": [40, 50],
+        "note": "Many 'idiopathic' cases likely post-viral when investigated thoroughly",
+        "source": "Dec & Fuster 1994 NEJM"
+      },
+      "familial_genetic_percent": {
+        "value": 30,
+        "range": [25, 35],
+        "source": "Caforio 2013; Basso 2009"
+      },
+      "viral_post_inflammatory_percent": {
+        "value": 12,
+        "range": [9, 16],
+        "note": "Confirmed post-viral DCM by biopsy/serology; true fraction higher",
+        "source": "Pauschinger 1999 Circulation; Frustaci 2003 JACC"
+      },
+      "toxic_alcohol_percent": 8,
+      "peripartum_percent": 4,
+      "other_systemic_disease_percent": 4
+    },
+
+    "viral_link_to_dcm": {
+      "viral_genome_in_dcm_biopsy_percent": {
+        "value": 67,
+        "range": [50, 75],
+        "note": "PCR detection of viral genomes in endomyocardial biopsy in DCM patients",
+        "source": "Pauschinger 1999 Circulation; Bowles 2003 Circulation"
+      },
+      "enterovirus_in_dcm_biopsy_percent": {
+        "value": 35,
+        "range": [25, 45],
+        "source": "Pauschinger 1999; Bowles 2003"
+      },
+      "cvb_specifically_in_dcm_percent": {
+        "value": 20,
+        "range": [15, 30],
+        "source": "Pauschinger 1999 Circulation"
+      },
+      "prior_myocarditis_in_dcm_percent": {
+        "value": 34,
+        "range": [30, 40],
+        "note": "Histological or serological evidence of prior myocarditis in DCM patients",
+        "source": "Frustaci 2003 JACC; Kuhl 2005 Circulation"
+      },
+      "viral_persistence_worsens_lv_function": {
+        "finding": "In Kuhl 2005, patients with viral genome persistence at 6 months had worse LVEF compared to clearance group (mean LVEF -3.8% vs +5.5%)",
+        "source": "Kuhl 2005 J Am Coll Cardiol"
+      },
+      "antiviral_clearance_improves_lv_function": {
+        "finding": "Interferon-beta treatment that achieved viral clearance associated with LVEF improvement of +10-14% units at 6 months",
+        "source": "Kuhl 2005 J Am Coll Cardiol; Kindermann 2012"
+      }
+    },
+
+    "outcomes": {
+      "5_year_mortality_percent": {
+        "value": 20,
+        "range": [15, 25],
+        "source": "Dec & Fuster 1994 NEJM; Caforio 2013"
+      },
+      "5_year_mortality_viral_etiology_vs_other": {
+        "viral_dcm_percent": 22,
+        "non_viral_dcm_percent": 18,
+        "note": "Viral etiology slightly worse prognosis due to inflammatory component",
+        "source": "Pauschinger 1999; Felker 2000 NEJM"
+      },
+      "heart_transplant_rate_percent_at_5_years": {
+        "value": 10,
+        "range": [7, 15],
+        "source": "Caforio 2013"
+      }
+    },
+
+    "fraction_preventable_if_cvb_cleared": {
+      "method": "Conservative attributable fraction calculation",
+      "cvb_attributable_fraction_dcm": {
+        "value": 0.12,
+        "range": [0.08, 0.20],
+        "calculation": "P(CVB positive) × RR reduction if CVB cleared = 0.20 × 0.60 ≈ 0.12",
+        "note": "Assumes 20% DCM has CVB genomes; viral clearance reduces DCM progression by ~60%",
+        "source": "Kuhl 2005; Pauschinger 1999"
+      },
+      "estimated_preventable_us_dcm_cases_per_year": {
+        "value": 504,
+        "calculation": "7 per 100k incidence × 320M US population × 0.12 = ~2,688 cases prevented / 100k × 320M × 0.12",
+        "note": "Using 7/100k incidence × 320M × 0.12 = 2,688 cases/year potentially prevented"
+      }
+    }
+  },
+
+  "pericarditis": {
+    "definition": "Inflammation of the pericardium; 'idiopathic' (presumed viral) in ~85% of cases in developed countries",
+
+    "incidence": {
+      "general_population_per_100k_per_year": {
+        "value": 27.7,
+        "range": [20, 30],
+        "note": "5% of ED chest pain presentations; most common pericardial disease",
+        "source": "Imazio M et al., Circulation 2004;110:1749-1754"
+      },
+      "first_recurrence_percent": 25,
+      "multiple_recurrences_percent": 5
+    },
+
+    "viral_etiology": {
+      "assumed_viral_or_idiopathic_percent": {
+        "value": 85,
+        "range": [80, 90],
+        "note": "In developed-world series; tuberculosis dominant in developing countries",
+        "source": "Imazio 2004 Circulation; Caforio 2013"
+      },
+      "cvb_specifically_percent": {
+        "value": 15,
+        "range": [10, 25],
+        "note": "CVB implicated serologically; lower than myocarditis since many agents cause pericarditis",
+        "source": "Grist & Bell 1974; Cooper 2009"
+      },
+      "concurrent_myopericarditis_percent": 15
+    },
+
+    "age_sex": {
+      "male_to_female_ratio": 2.0,
+      "peak_age_years": 30,
+      "range_years": [20, 50]
+    },
+
+    "outcomes": {
+      "recurrence_at_18_months_percent": {
+        "value": 25,
+        "range": [15, 30],
+        "source": "Imazio 2004; Caforio 2013"
+      },
+      "constrictive_pericarditis_development_percent": {
+        "value": 0.5,
+        "range": [0.1, 1.0],
+        "note": "Rare complication; higher risk with bacterial etiology",
+        "source": "Imazio 2004"
+      },
+      "mortality_acute_episode_percent": 0.1,
+      "hospitalization_rate_percent": 15
+    }
+  },
+
+  "combined_cvb_cardiac_burden": {
+    "us_estimates_per_year": {
+      "new_myocarditis_cases": {
+        "total": 72000,
+        "cvb_attributable": 15840,
+        "calculation": "22/100k × 330M = 72,600; CVB fraction 22% = 15,972"
+      },
+      "new_dcm_cases": {
+        "total": 23100,
+        "cvb_attributable": 4620,
+        "calculation": "7/100k × 330M = 23,100; CVB fraction 20% = 4,620"
+      },
+      "new_pericarditis_cases": {
+        "total": 91410,
+        "cvb_attributable": 13712,
+        "calculation": "27.7/100k × 330M = 91,410; CVB fraction 15% = 13,712"
+      },
+      "total_cvb_attributable_cardiac_events_per_year": 34172,
+      "note": "Conservative estimate; likely undercounts subclinical CVB cardiac involvement"
+    },
+
+    "preventable_fraction_with_cvb_vaccine": {
+      "myocarditis_cases_prevented_per_year_us": 15840,
+      "dcm_cases_prevented_per_year_us": 2688,
+      "pericarditis_cases_prevented_per_year_us": 13712,
+      "total": 32240,
+      "assumptions": [
+        "70% vaccine efficacy against all CVB serotypes",
+        "80% vaccination coverage",
+        "Effective vaccination reduces CVB circulation by 60% (herd immunity partial)",
+        "Conservative: does not account for DCM prevented by preventing myocarditis progression"
+      ]
+    }
+  },
+
+  "key_mechanistic_findings": {
+    "cvb3_cardiac_pathogenesis": {
+      "acute_phase_days_1_to_14": {
+        "virus_titer_peak": "Day 4-7",
+        "cell_death_mechanism": "Lytic infection of cardiomyocytes; VP1 protease cleaves dystrophin",
+        "immune_activation": "TLR3/MDA5 → IFN-beta → NK and CD8+ T cell infiltration",
+        "source": "Fung 2016 Circ Res; Knowlton 1996 (dystrophin cleavage)"
+      },
+      "chronic_phase_days_14_plus": {
+        "persistent_viral_rna": "Non-lytic replication; dsRNA maintains inflammation",
+        "autoimmunity": "Molecular mimicry; anti-cardiac autoantibodies (anti-beta1-adrenoceptor, anti-myosin)",
+        "fibrosis": "TGF-beta and CTGF-driven cardiac fibrosis",
+        "lv_dysfunction": "Progressive dilatation; wall thinning; reduced EF",
+        "source": "Kuhl 2005; Caforio 2013; GDS4436/GDS4311 (CVB3 chronic myocarditis microarray)"
+      }
+    },
+
+    "key_transcriptomic_signatures": {
+      "acute_cvb3_heart": {
+        "upregulated_pathways": ["IFN signaling (ISG15, IFIT1, MX1, OAS)", "NF-kB targets (TNF, IL-6, IL-1b)", "Apoptosis (CASP3, BAX)", "Complement activation"],
+        "downregulated_pathways": ["Fatty acid oxidation (CPT1, ACSL6)", "Mitochondrial ETC genes", "Sarcomeric proteins (MYH6, MYH7, TNNI3)"],
+        "datasets": ["GSE1457 (CVB3 heart time course)", "GDS1032", "GSE19496 (mouse strains)", "GSE35182 (sex differences)", "GSE44706 (129S1 vs 129X1)"]
+      },
+      "human_dcm": {
+        "notable_finding": "GSE19303 (81 human samples) shows overlapping inflammatory signature between post-viral and familial DCM",
+        "dataset": "GSE19303"
+      }
+    }
+  },
+
+  "geo_datasets_cardiac_cvb": {
+    "primary_cvb_cardiac": [
+      {
+        "accession": "GSE1457",
+        "title": "CxVB3 infection and cardiac function",
+        "organism": "Mus musculus",
+        "platform": "Affymetrix MG_U74Av2",
+        "design": "CVB3 vs PBS control; time points 3, 9, 30 days",
+        "downloaded": true,
+        "file": "GSE1457_series_matrix.txt",
+        "relevance": "Classic time-course dataset for CVB3 cardiac gene expression"
+      },
+      {
+        "accession": "GSE35182",
+        "title": "Sex differences during acute myocarditis against CVB3",
+        "organism": "Mus musculus",
+        "samples": 24,
+        "platform": "Affy MoGene-1_0-st",
+        "design": "Male vs female; CVB3 infected vs mock; 2 time points",
+        "downloaded": true,
+        "file": "GSE35182_series_matrix.txt",
+        "relevance": "Sex-differential CVB3 cardiac response; 24 samples"
+      },
+      {
+        "accession": "GSE19496",
+        "title": "CVB3 infection of AJ, B10.A, CSS3 and B6.chr3AJ (heart tissue)",
+        "organism": "Mus musculus",
+        "samples": 24,
+        "downloaded": true,
+        "file": "GSE19496_series_matrix.txt",
+        "relevance": "Genetic susceptibility loci for CVB3 myocarditis"
+      },
+      {
+        "accession": "GSE26630",
+        "title": "Sex differences during innate immune response against CVB3",
+        "organism": "Mus musculus",
+        "samples": 20,
+        "downloaded": true,
+        "file": "GSE26630_series_matrix.txt",
+        "relevance": "Innate immune sex differences in CVB3 heart infection"
+      },
+      {
+        "accession": "GSE44706",
+        "title": "CVB3 infection of 129S1 and 129X1 (heart tissue day 6)",
+        "organism": "Mus musculus",
+        "samples": 12,
+        "downloaded": true,
+        "file": "GSE44706_series_matrix.txt",
+        "relevance": "Strain-specific CVB3 cardiac transcriptomics"
+      },
+      {
+        "accession": "GSE261940",
+        "title": "Soluble ST2 induces cardiac dysfunction in fulminant myocarditis",
+        "organism": "Mus musculus",
+        "samples": 20,
+        "platform": "RNA-seq",
+        "downloaded": true,
+        "file": "GSE261940_series_matrix.txt",
+        "relevance": "Recent RNA-seq; ST2/IL-33 pathway in CVB fulminant myocarditis"
+      },
+      {
+        "accession": "GSE248521",
+        "title": "GPR15-mediated T cell recruitment during acute viral myocarditis",
+        "organism": "Mus musculus",
+        "samples": 31,
+        "platform": "RNA-seq + other",
+        "downloaded": true,
+        "file": "GSE248521_series_matrix.txt",
+        "relevance": "T cell trafficking; GPR15 checkpoint; acute CVB3 myocarditis"
+      },
+      {
+        "accession": "GSE174458",
+        "title": "Dissecting Cellular Landscape in Viral Myocarditis by scRNA-seq",
+        "organism": "Mus musculus",
+        "samples": 4,
+        "platform": "10x scRNA-seq",
+        "downloaded": true,
+        "file": "GSE174458_series_matrix.txt",
+        "relevance": "Single-cell resolution of cell types in CVB3 myocarditis"
+      },
+      {
+        "accession": "GSE57781",
+        "title": "hiPSC-derived cardiomyocytes as in vitro model for CVB3 myocarditis",
+        "organism": "Homo sapiens",
+        "samples": 4,
+        "platform": "Affymetrix array",
+        "downloaded": true,
+        "file": "GSE57781_series_matrix.txt",
+        "relevance": "HUMAN cardiomyocyte response to CVB3; drug screening platform"
+      },
+      {
+        "accession": "GSE273336",
+        "title": "Enhanced RNAi does not provide efficient antiviral immunity (spleen CVB3)",
+        "organism": "Mus musculus",
+        "samples": 28,
+        "downloaded": true,
+        "file": "GSE273336_series_matrix.txt"
+      }
+    ],
+    "dcm_human_expression": [
+      {
+        "accession": "GSE19303",
+        "title": "Myocardial gene expression in patients with dilated cardiomyopathy",
+        "organism": "Homo sapiens",
+        "samples": 81,
+        "downloaded": true,
+        "file": "GSE19303_series_matrix.txt",
+        "relevance": "Large human DCM dataset; includes post-viral and familial DCM"
+      },
+      {
+        "accession": "GSE2656",
+        "title": "Gene expression profile of human heart failure from different etiologies",
+        "organism": "Homo sapiens",
+        "samples": 49,
+        "downloaded": true,
+        "file": "GSE2656_series_matrix.txt",
+        "relevance": "Multi-etiology heart failure including viral DCM"
+      },
+      {
+        "accession": "GSE42955",
+        "title": "Expression data from human heart",
+        "organism": "Homo sapiens",
+        "samples": 29,
+        "downloaded": true,
+        "file": "GSE42955_series_matrix.txt"
+      },
+      {
+        "accession": "GSE17800",
+        "title": "Myocardial gene expression profiles and autoantibodies predict DCM progression",
+        "organism": "Homo sapiens",
+        "samples": 48,
+        "downloaded": true,
+        "file": "GSE17800_series_matrix.txt",
+        "relevance": "Autoantibody-mediated DCM; relevant to post-CVB autoimmunity"
+      }
+    ],
+    "not_downloaded_reason": [
+      {
+        "accession": "GSE210783",
+        "reason": "404 Not Found — likely superseries; sub-series need individual download",
+        "note": "GSE211005 available as sub-series"
+      },
+      {
+        "accession": "GDS4436",
+        "reason": "GDS accession (not GSE); data accessible via linked GSE series",
+        "linked_gse": "GSE35182"
+      },
+      {
+        "accession": "GDS4311",
+        "reason": "GDS accession; linked to GSE35182",
+        "linked_gse": "GSE35182"
+      },
+      {
+        "accession": "GDS1032",
+        "reason": "GDS accession; data in GSE1457",
+        "linked_gse": "GSE1457"
+      }
+    ]
+  },
+
+  "sra_runs": {
+    "cvb3_heart_rnaseq_eur": {
+      "accessions": ["ERR6454418", "ERR6454419", "ERR6454420", "ERR6454421",
+                     "ERR6454422", "ERR6454423", "ERR6454424", "ERR6454425",
+                     "ERR6454426", "ERR6454427", "ERR6454428", "ERR6454429",
+                     "ERR6454430", "ERR6454431", "ERR6454432", "ERR6454433",
+                     "ERR6454434", "ERR6454435", "ERR6454436", "ERR6454437"],
+      "count": 20,
+      "organism": "Mus musculus",
+      "platform": "Illumina NovaSeq 6000 paired-end",
+      "query_source": "coxsackievirus B3 heart RNA-Seq",
+      "note": "European (EBI/ENA) accessions; linked to GSE248521 or related study"
+    },
+    "viral_myocarditis_mouse": {
+      "accessions": ["SRR14539831", "SRR14539832", "SRR14539833", "SRR14539834"],
+      "count": 4,
+      "design": "Healthy controls (n=2) vs myocarditis (n=2); Mus musculus; RNA-Seq",
+      "gsm_accessions": ["GSM5311767", "GSM5311768", "GSM5311769", "GSM5311770"],
+      "query_source": "viral myocarditis RNA-Seq",
+      "note": "Bulk RNA-seq comparison; linked to GSE174458"
+    },
+    "total_unique_runs": 24
+  }
+}

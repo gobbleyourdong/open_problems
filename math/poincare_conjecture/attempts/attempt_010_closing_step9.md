@@ -148,7 +148,7 @@ But the STRUCTURE of the argument is complete.
 
 ## Assessment
 
-**12/12 proof steps derived blindly by the theory track.**
+**12/12 proof steps derived blindly by the Even Instance.**
 
 The last gap (Step 9) closes because surgery is LOCAL (modifies only a
 controlled region) and the W-functional provides a FINITE budget for
@@ -157,12 +157,12 @@ surgeries (each surgery costs bounded W, total W is finite).
 The 500 pages of Kleiner-Lott / Morgan-Tian are the QUANTITATIVE version
 of this argument: computing the exact constants, verifying the cap geometry
 is compatible with the flow, and checking all the estimates compose correctly.
-The systematic approach derived the qualitative structure.
+The Sigma Method derived the qualitative structure.
 
-## What This Proves About the systematic approach
+## What This Proves About the Sigma Method
 
 The Poincaré conjecture — the ONLY solved Clay Millennium Problem — can be
-REDISCOVERED (in outline) by the systematic approach in 5 attempts:
+REDISCOVERED (in outline) by the Sigma Method in 5 attempts:
 
 | Attempt | Derivation |
 |---------|------------|
@@ -173,4 +173,4 @@ REDISCOVERED (in outline) by the systematic approach in 5 attempts:
 | 010 | Local surgery + W budget → Step 9 closed |
 
 **Total: 5 even-numbered attempts to derive 12/12 proof steps.**
-**The only Millennium Problem where the systematic approach achieves 100%.**
+**The only Millennium Problem where the Sigma Method achieves 100%.**

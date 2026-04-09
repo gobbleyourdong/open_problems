@@ -1,0 +1,37 @@
+{
+  "structure": "9tkm",
+  "organism": "Coxsackievirus B1 strain 10796",
+  "type": "VLP with VP4 deletion",
+  "resolution": "2.7A",
+  "released": "2026-04-08",
+  "analyzed": "2026-04-07 (pre-release)",
+  "chains": {
+    "VP1": {
+      "length": 278,
+      "uniprot": "P08291"
+    },
+    "VP2": {
+      "length": 264,
+      "uniprot": "P08291"
+    },
+    "VP3": {
+      "length": 238,
+      "uniprot": "P08291"
+    },
+    "VP4": "DELETED"
+  },
+  "cross_species": {
+    "CVB1_VP1_vs_CVA6_VP1": "5.0% identity",
+    "conclusion": "Completely divergent capsids. CVA-based drug design invalid for CVB."
+  },
+  "cross_strain": {
+    "structure_vs_genbank_CVB1": "95.3% identity (13 differences, all conservative)",
+    "conclusion": "Our sequence analysis is validated by the structure."
+  },
+  "pocket_factor": "ABSENT (expanded VLP form, pocket factor expelled)",
+  "funding": [
+    "Jane and Aatos Erkko Foundation (Finland)",
+    "Sigrid Juselius Foundation (Finland)"
+  ],
+  "significance": "First-ever CVB atomic structure. Enables CVB-specific drug design."
+}

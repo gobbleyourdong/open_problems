@@ -176,5 +176,5 @@ Fix B doesn't work. The propagation gap is real and equivalent to the
 Ito-Seiler objection. The wall is the disconnect between local MK control
 and global vortex free energy.
 
-After 32 attempts, the theory track has mapped the entire proof landscape
+After 32 attempts, the Even Instance has mapped the entire proof landscape
 and arrived at the same wall that has stood since 2007.

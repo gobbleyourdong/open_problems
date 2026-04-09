@@ -1,0 +1,46 @@
+1. Diabetes Obes Metab. 2026 Mar 9. doi: 10.1111/dom.70641. Online ahead of
+print.
+
+Demographic Change in Prevalent Type 1 Diabetes Adult Population, and 
+Association of Risk Factors With Comorbidities and Mortality-Results From the 
+Finnish Diabetes Control Study FinDiCon.
+
+Vessari H(1), Prami T(2), Peltonen EJ(2), Pimiä E(3), Iso-Mustajärvi I(2), 
+Kalaoja M(2), Luoto H(1), Vauhkonen I(1), Saukkonen T(1).
+
+Author information:
+(1)Novo Nordisk, Espoo, Finland.
+(2)Oriola, Espoo, Finland.
+(3)Finnish Diabetes Association, Tampere, Finland.
+
+AIMS: The objective was to characterise Finnish adults with type 1 diabetes 
+(T1D) and to explore associations between known risk factors, comorbidities and 
+mortality.
+MATERIALS AND METHODS: Individuals with T1D in 2014-2021 were identified from 
+national health care registers, and data on medication and comorbidities were 
+combined with laboratory measurements from hospital data lakes. Comorbidity and 
+risk-factor associations were examined using Cox regression.
+RESULTS: We identified 35 574 adults with T1D. The proportion of individuals 
+aged over 70 years increased during the study period from 7.1% to 12.4% and the 
+proportion of insulin pump users from 10% to 17%. Mean haemoglobin A1c (HbA1c) 
+decreased by 1.7 mmol/mol (0.2%) and mean low-density lipoprotein cholesterol 
+(LDL-c) by 0.2 mmol/L (7.7 mg/dL) from 2014 to 2021. The proportion of 
+individuals with HbA1c > 75 mmol/mol (> 9.0%) reduced slightly (4%-points); this 
+improvement was more prominent in insulin pump users (9%-points). Ketoacidosis 
+was most common in young adults. Prevalence of chronic kidney disease (CKD) 
+increased from 140 (95% CI 136-145) to 168 (95% CI 163-172) per 1000 persons 
+during the study period (p-trend < 0.001). CKD and vascular disease resulted in 
+a multifold increase in the mortality risk, whereas lipid-lowering and 
+antihypertensive medications reduced this risk (p < 0.001 for all).
+CONCLUSIONS: The proportion of elderly with T1D is increasing, with no 
+concomitant increase in vascular events. Insulin pump therapy has become more 
+common without a concomitant increase in ketoacidosis incidence. HbA1c and LDL-c 
+levels improved during the study. Finnish data indicate a shift in T1D 
+demographics, characterised by improved survival, while rates of 
+diabetes-specific comorbidities remain stable.
+
+© 2026 The Author(s). Diabetes, Obesity and Metabolism published by John Wiley & 
+Sons Ltd.
+
+DOI: 10.1111/dom.70641
+PMID: 41804200

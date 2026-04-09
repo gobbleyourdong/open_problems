@@ -1,0 +1,56 @@
+1. BMJ Open. 2026 Feb 12;16(2):e109015. doi: 10.1136/bmjopen-2025-109015.
+
+Incidence, prevalence and mortality of anorexia nervosa in individuals with 
+childhood-onset type 1 diabetes: a nationwide retrospective cohort study in 
+Sweden.
+
+Sjögren M(1)(2), Englund E(3), Erlandsson AÅE(4), Möllsten A(5).
+
+Author information:
+(1)National Highly Specialized Care for Severe Eating Disorders, Region 
+Västernorrland, Sundsvall, Sweden magnus.sjogren@umu.se.
+(2)Clinical Science, Psychiatry, Umeå university, Umeå, Sweden.
+(3)Department of Patient Safety, Development and Research, Region 
+Västernorrland, Sundsvall, Sweden.
+(4)Umeå universitet Klinisk vetenskap, Umea, Sweden.
+(5)Department of Clinical Sciences, Pediatrics, Umeå University, Umeå, Sweden.
+
+OBJECTIVES: To investigate the incidence, prevalence and mortality of anorexia 
+nervosa (AN) among individuals with childhood-onset type 1 diabetes (T1D) 
+compared with matched controls in Sweden.
+DESIGN: Retrospective nationwide cohort study using linked registry data.
+SETTING: Nationwide, Sweden; population-based registers (covering the period 
+1977-2019).
+PARTICIPANTS: 12 202 individuals diagnosed with T1D before age 15 years (5618 
+females; 6584 males) and 48 484 age-matched, sex-matched and 
+municipality-matched controls without diabetes (23 618 females; 24 866 males).
+PRIMARY AND SECONDARY OUTCOME MEASURES: AN diagnoses (International 
+Classification of Diseases-10 codes F50.0 and F50.1) identified via the National 
+Patient Register. Outcomes were period prevalence, point prevalence at ages 15 
+and 20 years, 10-year incidence rates and proportional mortality ratios (PMR), 
+stratified by sex. ORs and incidence rate ratios (IRR) with 95% CIs were 
+estimated using Mantel-Haenszel methods; Kaplan-Meier analysis compared time to 
+AN diagnosis between groups.
+RESULTS: The period prevalence of AN among females with T1D was 1.9% compared 
+with 1.1% in controls (OR 1.64, 95% CI 1.31 to 2.06; p<0.001). The 10-year 
+incidence rate for females with T1D was 74.7 per 100 000 person-years vs 45.2 
+per 100 000 person-years in controls (IRR 1.77, 95% CI 1.35 to 2.32). Point 
+prevalence at age 15 years was 0.87% (T1D) vs 0.53% (controls) (IRR 1.65, 95% CI 
+1.16 to 2.35), and at age 20 years was 1.73% (T1D) vs 1.11% (controls) (IRR 
+1.55, 95% CI 1.20 to 1.99). The PMR for females with both T1D and AN compared 
+with controls without either condition was 20.4 (95% CI 6.6 to 47.6). Male cases 
+were few (n=4 in the T1D group; n=12 in controls).
+CONCLUSIONS: Females with childhood-onset T1D in Sweden have an elevated risk of 
+AN and markedly higher mortality when both conditions are present. Despite the 
+increased relative risk, the absolute risk of AN in females with T1D remained 
+below 2%. These findings support routine screening for eating disorders in the 
+T1D population, particularly among adolescent and young adult females.
+
+© Author(s) (or their employer(s)) 2026. Re-use permitted under CC BY. Published 
+by BMJ Group.
+
+DOI: 10.1136/bmjopen-2025-109015
+PMCID: PMC12911715
+PMID: 41689220 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: None declared.

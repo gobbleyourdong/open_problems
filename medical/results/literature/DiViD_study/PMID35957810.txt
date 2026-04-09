@@ -1,0 +1,75 @@
+1. Front Endocrinol (Lausanne). 2022 Jul 26;13:881997. doi: 
+10.3389/fendo.2022.881997. eCollection 2022.
+
+Detection of Antiviral Tissue Responses and Increased Cell Stress in the 
+Pancreatic Islets of Newly Diagnosed Type 1 Diabetes Patients: Results From the 
+DiViD Study.
+
+Krogvold L(1)(2), Leete P(3), Mynarek IM(1)(4), Russell MA(3), Gerling IC(5), 
+Lenchik NI(5), Mathews C(6), Richardson SJ(3), Morgan NG(3), Dahl-Jørgensen 
+K(1)(4).
+
+Author information:
+(1)Pediatric Department, Oslo University Hospital, Oslo, Norway.
+(2)Faculty of Odontology, University of Oslo, Oslo, Norway.
+(3)Institute of Biomedical and Clinical Sciences, University of Exeter Medical 
+School, Exeter, United Kingdom.
+(4)Faculty of Medicine, University of Oslo, Oslo, Norway.
+(5)Department of Medicine, University of Tennessee Health Science Center, 
+Memphis, TN, United States.
+(6)Department of Pathology, University of Florida, Gainesville, FL, United 
+States.
+
+AIMS/HYPOTHESIS: The Diabetes Virus Detection (DiViD) study has suggested the 
+presence of low-grade enteroviral infection in pancreatic tissue collected from 
+six of six live adult patients newly diagnosed with type 1 diabetes. The present 
+study aimed to compare the gene and protein expression of selected virally 
+induced pathogen recognition receptors and interferon stimulated genes in islets 
+from these newly diagnosed type 1 diabetes (DiViD) subjects vs age-matched 
+non-diabetic (ND) controls.
+METHODS: RNA was extracted from laser-captured islets and Affymetrix Human Gene 
+2.0 ST arrays used to obtain gene expression profiles. Lists of differentially 
+expressed genes were subjected to a data-mining pipeline searching for 
+enrichment of canonical pathways, KEGG pathways, Gene Ontologies, transcription 
+factor binding sites and other upstream regulators. In addition, the presence 
+and localisation of specific viral response proteins (PKR, MxA and MDA5) were 
+examined by combined immunofluorescent labelling in sections of pancreatic 
+tissue.
+RESULTS: The data analysis and data mining process revealed a significant 
+enrichment of gene ontologies covering viral reproduction and infectious cycles; 
+peptide translation, elongation and initiation, as well as oxidoreductase 
+activity. Enrichment was identified in the KEGG pathways for oxidative 
+phosphorylation; ribosomal and metabolic activity; antigen processing and 
+presentation and in canonical pathways for mitochondrial dysfunction, oxidative 
+phosphorylation and EIF2 signaling. Protein Kinase R (PKR) expression did not 
+differ between newly diagnosed type 1 diabetes and ND islets at the level of 
+total RNA, but a small subset of β-cells displayed markedly increased PKR 
+protein levels. These PKR+ β-cells correspond to those previously shown to 
+contain the viral protein, VP1. RNA encoding MDA5 was increased significantly in 
+newly diagnosed type 1 diabetes islets, and immunostaining of MDA5 protein was 
+seen in α- and certain β-cells in both newly diagnosed type 1 diabetes and ND 
+islets, but the expression was increased in β-cells in type 1 diabetes. In 
+addition, an uncharacterised subset of synaptophysin positive, but islet hormone 
+negative, cells expressed intense MDA5 staining and these were more prevalent in 
+DiViD cases. MxA RNA was upregulated in newly diagnosed type 1 diabetes vs ND 
+islets and MxA protein was detected exclusively in newly diagnosed type 1 
+diabetes β-cells.
+CONCLUSION/INTERPRETATION: The gene expression signatures reveal that pathways 
+associated with cellular stress and increased immunological activity are 
+enhanced in islets from newly diagnosed type 1 diabetes patients compared to 
+controls. The increases in viral response proteins seen in β-cells in newly 
+diagnosed type 1 diabetes provide clear evidence for the activation of IFN 
+signalling pathways. As such, these data strengthen the hypothesis that an 
+enteroviral infection of islet β-cells contributes to the pathogenesis of type 1 
+diabetes.
+
+Copyright © 2022 Krogvold, Leete, Mynarek, Russell, Gerling, Lenchik, Mathews, 
+Richardson, Morgan and Dahl-Jørgensen.
+
+DOI: 10.3389/fendo.2022.881997
+PMCID: PMC9360491
+PMID: 35957810 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that the research was 
+conducted in the absence of any commercial or financial relationships that could 
+be construed as a potential conflict of interest.

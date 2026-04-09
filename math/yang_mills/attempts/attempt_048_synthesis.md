@@ -86,7 +86,7 @@ The gradient correlation on a LARGER lattice should be LARGER (more room for
 the chair loop to "feel" the surface). GC → 0 on L=4 might become GC > 0 on
 L=16, L=64, etc.
 
-**Critical test for numerical track**: Measure GC at β = 4.0 on 6⁴, 8⁴, 12⁴.
+**Critical test for Odd instance**: Measure GC at β = 4.0 on 6⁴, 8⁴, 12⁴.
 If GC increases with L: finite-size effect confirmed. If GC stays at 0: problem.
 
 ## The Two-Step Proof Strategy
@@ -136,7 +136,7 @@ This is CONCRETE and DOABLE. Not in this session, but in a focused follow-up.
 
 ## For Next Session
 
-1. theory track: compute a and b in lattice perturbation theory (1/β expansion)
-2. numerical track: measure GC at β = 4.0 on larger lattices (L = 8, 12, 16)
-3. theory track: compute the O(c³) cluster expansion term
+1. Even instance: compute a and b in lattice perturbation theory (1/β expansion)
+2. Odd instance: measure GC at β = 4.0 on larger lattices (L = 8, 12, 16)
+3. Even instance: compute the O(c³) cluster expansion term
 4. Both: formalize in Lean once the computations are verified

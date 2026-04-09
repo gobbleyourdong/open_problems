@@ -1,0 +1,40 @@
+1. Nat Rev Endocrinol. 2022 Aug;18(8):503-516. doi: 10.1038/s41574-022-00688-1. 
+Epub 2022 Jun 1.
+
+Persistent coxsackievirus B infection and pathogenesis of type 1 diabetes 
+mellitus.
+
+Nekoua MP(1), Alidjinou EK(1), Hober D(2).
+
+Author information:
+(1)Laboratoire de Virologie ULR3610, Université de Lille, CHU Lille, Lille, 
+France.
+(2)Laboratoire de Virologie ULR3610, Université de Lille, CHU Lille, Lille, 
+France. didier.hober@chru-lille.fr.
+
+Enteroviruses are believed to trigger or accelerate islet autoimmunity in 
+genetically susceptible individuals, thereby resulting in loss of functional 
+insulin-producing β-cells and type 1 diabetes mellitus (T1DM). Although 
+enteroviruses are primarily involved in acute and lytic infections in vitro and 
+in vivo, they can also establish a persistent infection. Prospective 
+epidemiological studies have strongly associated the persistence of 
+enteroviruses, especially coxsackievirus B (CVB), with the appearance of islet 
+autoantibodies and an increased risk of T1DM. CVB can persist in pancreatic 
+ductal and β-cells, which leads to structural or functional alterations of these 
+cells, and to a chronic inflammatory response that promotes recruitment and 
+activation of pre-existing autoreactive T cells and β-cell autoimmune 
+destruction. CVB persistence in other sites, such as the intestine, blood cells 
+and thymus, has been described; these sites could serve as a reservoir for 
+infection or reinfection of the pancreas, and this persistence could have a role 
+in the disturbance of tolerance to β-cells. This Review addresses the 
+involvement of persistent enterovirus infection in triggering islet autoimmunity 
+and T1DM, as well as current strategies to control enterovirus infections for 
+preventing or reducing the risk of T1DM onset.
+
+© 2022. Springer Nature Limited.
+
+DOI: 10.1038/s41574-022-00688-1
+PMCID: PMC9157043
+PMID: 35650334 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no competing interests.

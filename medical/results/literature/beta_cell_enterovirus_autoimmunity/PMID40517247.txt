@@ -1,0 +1,48 @@
+1. Virol J. 2025 Jun 14;22(1):195. doi: 10.1186/s12985-025-02822-7.
+
+Monkeypox virus and type 1 diabetes: a molecular insight into inflammatory 
+signaling and β-cell autoimmunity.
+
+Almutawif YA(1), Al-Kuraishy HM(2), Al-Gareeb AI(3), Albuhadily AK(2), Eid 
+HMA(1), Alexiou A(4)(5), Papadakis M(6), Abo-El Fetoh ME(7), El-Saber Batiha 
+G(8).
+
+Author information:
+(1)Department of Clinical Laboratory Sciences, College of Applied Medical 
+Sciences, Taibah University, Madinah, 42353, Saudi Arabia.
+(2)Department of Clinical Pharmacology and Medicine, College of Medicine, 
+Mustansiriyah University, Baghdad, Iraq.
+(3)Jabir ibn Hayyan Medical University, Al-Ameer Qu./ Najaf, Po. Box (13), Kufa, 
+Iraq.
+(4)Department of Research & Development, Funogen, Athens, 11741, Attiki, Greece.
+(5)University Centre for Research & Development, Chandigarh University, 
+Chandigarh-Ludhiana Highway, Mohali, Punjab, India.
+(6)University Hospital Witten-Herdecke, University of Witten-Herdecke, 
+Heusnerstrasse 40, 42283, Wuppertal, Germany. drmariospapadakis@gmail.com.
+(7)Department of Pharmacology and Toxicology, Faculty of Pharmacy, Egyptian 
+Russian University, 11829, Badr City, Cairo, Egypt. mohamed-ezzat@eru.edu.eg.
+(8)Department of Pharmacology and Therapeutics, Faculty of Veterinary Medicine, 
+Damanhour University, Damanhour, AlBeheira, 22511, Egypt. gaberbatiha@gmail.com.
+
+The current worldwide pandemic of monkeypox (MPXV) elicited apprehensions over 
+its possible long-term health ramifications. Recent data indicate a potential 
+association between MPXV infection and the onset of autoimmune disorders, such 
+as type 1 diabetes (T1D). This article analyzes the possible methods for MPXV 
+infection to induce autoimmune responses and damage pancreatic β-cells. We 
+examine from published articles the possible MPXV-induced immune dysregulation 
+and inflammation in the development of T1D. Utilizing insights from other 
+diabetogenic viruses, such as enterovirus and SARS-CoV-2. Currently, the 
+association between MPXV and the development of T1D is scarce. Therefore, 
+additional studies are essential for establishing a conclusive causal link 
+between MPXV and T1D.
+
+© 2025. The Author(s).
+
+DOI: 10.1186/s12985-025-02822-7
+PMCID: PMC12166575
+PMID: 40517247 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declarations. Ethics approval and consent to 
+participate: Not applicable. Consent for publication: Not applicable. Competing 
+interests: The authors declare no competing interests. Clinical trial: Not 
+applicable.

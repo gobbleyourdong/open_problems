@@ -1,0 +1,38 @@
+1. Minim Invasive Ther Allied Technol. 2022 Jun;31(5):653-663. doi: 
+10.1080/13645706.2021.1888750. Epub 2021 Jul 22.
+
+Needle-based confocal laser endomicroscopy for diagnosis of pancreatic cystic 
+lesions: a meta-analysis.
+
+Wang X(1), Hu J(1), Yang F(1), Yang F(1), Sun S(1).
+
+Author information:
+(1)Department of Gastroenterology, Shengjing Hospital of China Medical 
+University, Shenyang, China.
+
+BACKGROUND AND AIM: The role of needle-based confocal laser endomicroscopy 
+(nCLE) in the diagnosis of pancreatic cystic lesions (PCLs) remains 
+controversial. This study aimed to systematically evaluate the diagnostic 
+accuracy and adverse effects of nCLE in the detection of pathological subtypes 
+in patients with PCLs.
+MATERIAL AND METHODS: We conducted a comprehensive literature search using 
+MEDLINE, EMBASE, and Cochrane for identifying studies that reported the use of 
+nCLE for PCLs diagnosis (dated prior to 10 October 2020). Studies with a sample 
+size >10 were included. We used the QUADAS-2 criteria for quality evaluation. We 
+first extracted the diagnostic rates and the information on adverse events (AEs) 
+from the studies; then used STATA15.0 to calculate the variables, draw forest 
+plots and summary receiver operating characteristic (SROC) curves; and finally, 
+we completed subgroup analyses to explore the heterogeneity.
+RESULTS: Overall, 299 article titles were identified after an initial search, 
+and ten studies with 547 individuals with PCLs were included in the analysis. 
+The pooled sensitivity, specificity, positive likelihood ratio, and pooled 
+negative likelihood ratio of nCLE in detecting gastric disorders were 90%, 96%, 
+20.4, and 0.11, respectively. The pooled sensitivity and specificity showed a 
+substantial heterogeneity. An ROC curve was constructed with an area under the 
+curve (AUC) of 0.94. The overall AEs rate of pancreatitis was 2.7%.
+CONCLUSIONS: We showed that nCLE had a relatively high sensitivity and 
+specificity for diagnosing PCLs with a relatively low rate of AEs occurring. We 
+suggest that nCLE has good diagnostic accuracy for PCLs.
+
+DOI: 10.1080/13645706.2021.1888750
+PMID: 34292117 [Indexed for MEDLINE]

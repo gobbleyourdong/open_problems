@@ -1,0 +1,102 @@
+{
+  "analysis": "Selenium-T1DM-CVB correlation (Keshan-Finland)",
+  "correlations": {
+    "soil_Se_vs_T1DM_european_usa": {
+      "pearson_r": -0.5,
+      "pearson_p": 0.2073,
+      "spearman_rho": -0.539,
+      "spearman_p": 0.1681
+    },
+    "serum_Se_vs_T1DM_european_usa": {
+      "pearson_r": -0.036,
+      "pearson_p": 0.9325,
+      "spearman_rho": 0.263,
+      "spearman_p": 0.5284
+    },
+    "soil_Se_vs_T1DM_all_countries": {
+      "pearson_r": 0.127,
+      "pearson_p": 0.6946,
+      "spearman_rho": 0.081,
+      "spearman_p": 0.8028
+    }
+  },
+  "finland_1984_experiment": {
+    "breakpoint_year": 1984,
+    "pre_slope_per_year": 0.7336,
+    "post_slope_per_year": 0.9568,
+    "slope_change": 0.2232,
+    "slope_change_pct": 30.4,
+    "pre_slope_95CI": [
+      0.666,
+      0.8012
+    ],
+    "post_slope_95CI": [
+      0.9247,
+      0.9889
+    ],
+    "slope_difference_95CI_bootstrap": [
+      0.1305,
+      0.3166
+    ],
+    "counterfactual_2015_incidence": 50.5,
+    "actual_2015_incidence": 62.0,
+    "averted_incidence_2015": -11.5,
+    "sweden_post1984_slope": 0.6231,
+    "finland_slope_suppression_vs_sweden": -0.3336
+  },
+  "cvb_replication_model": {
+    "k_max": 5.0,
+    "K_half_ugL": 40,
+    "fold_by_country": {
+      "Finland_pre1984": 3.083,
+      "Finland_post1984": 2.333,
+      "Sweden": 2.379,
+      "USA": 2.176,
+      "Keshan_China": 4.279
+    }
+  },
+  "data_tables": {
+    "soil_selenium_ug_per_g": {
+      "Finland (pre-1984)": 0.065,
+      "Finland (post-1984)": 0.25,
+      "Sweden": 0.2,
+      "Norway": 0.15,
+      "Denmark": 0.3,
+      "UK": 0.4,
+      "Germany": 0.35,
+      "Netherlands": 0.25,
+      "USA": 0.6,
+      "Japan": 0.23,
+      "China (Keshan)": 0.01,
+      "China (non-Keshan)": 0.2
+    },
+    "serum_selenium_ug_per_L": {
+      "Finland (pre-1984)": 56.0,
+      "Finland (post-1984)": 110.0,
+      "Sweden": 105.0,
+      "Norway": 110.0,
+      "Denmark": 95.0,
+      "UK": 90.0,
+      "Germany": 88.0,
+      "Netherlands": 82.0,
+      "USA": 130.0,
+      "Japan": 95.0,
+      "China (Keshan)": 21.0,
+      "China (non-Keshan)": 65.0
+    },
+    "t1dm_incidence_per_100k": {
+      "Finland (pre-1984)": 32.0,
+      "Finland (post-1984)": 52.0,
+      "Sweden": 35.0,
+      "Norway": 27.0,
+      "Denmark": 22.0,
+      "UK": 23.0,
+      "Germany": 14.0,
+      "Netherlands": 18.0,
+      "USA": 23.0,
+      "Japan": 2.5,
+      "China (Keshan)": 0.6,
+      "China (non-Keshan)": 0.8
+    }
+  }
+}

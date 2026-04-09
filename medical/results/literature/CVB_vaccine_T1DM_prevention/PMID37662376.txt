@@ -1,0 +1,80 @@
+1. bioRxiv [Preprint]. 2023 Aug 21:2023.08.19.553954. doi: 
+10.1101/2023.08.19.553954.
+
+Coxsackievirus infection induces direct pancreatic β-cell killing but poor 
+anti-viral CD8+ T-cell responses.
+
+Vecchio F(1), Carré A(1), Korenkov D(1), Zhou Z(1), Apaolaza P(2)(3), Tuomela 
+S(4), Burgos-Morales O(1), Snowhite I(5)(6), Perez-Hernandez J(1), Brandao B(1), 
+Afonso G(1), Halliez C(1), Kaddis J(6)(7), Kent SC(8), Nakayama M(9), Richardson 
+SJ(10), Vinh J(11), Verdier Y(11), Laiho J(12), Scharfmann R(1), Solimena M(13), 
+Marinicova Z(13), Bismuth E(14), Lucidarme N(15), Sanchez J(16), Bustamante 
+C(16), Gomez P(16), Buus S(17); nPOD-Virus Working Group; You S(1)(18), Pugliese 
+A(5)(6), Hyoty H(12), Rodriguez-Calvo T(2)(3), Flodstrom-Tullberg M(4), Mallone 
+R(1)(18)(19).
+
+Author information:
+(1)Université Paris Cité, Institut Cochin, CNRS, INSERM, Paris, France.
+(2)Institute of Diabetes Research, Helmholtz Zentrum München, German Research 
+Center for Environmental Health, Munich-Neuherberg, Germany.
+(3)German Center for Diabetes Research (DZD), Neuherberg, Germany.
+(4)Center for Infectious Medicine, Department of medicine Huddinge, Karolinska 
+Institutet, Karolinska University Hospital Huddinge, Stockholm, Sweden.
+(5)Diabetes Research Institute, Leonard Miller School of Medicine, University of 
+Miami, FL, USA.
+(6)Department of Diabetes Immunology, Arthur Riggs Diabetes and Metabolism 
+Research Institute, Beckman Research Institute, City of Hope, Duarte, CA, USA.
+(7)Department of Diabetes and Cancer Discovery Science, Arthur Riggs Diabetes 
+and Metabolism Research Institute, Beckman Research Institute, City of Hope, 
+Duarte, CA, USA.
+(8)University of Massachusetts Medical Chan School, Diabetes Center of 
+Excellence, Department of Medicine, Worcester, MA, USA.
+(9)Barbara Davis Center for Diabetes, University of Colorado School of Medicine, 
+Aurora, CO, USA.
+(10)Islet Biology Exeter (IBEx), Exeter Centre of Excellence for Diabetes 
+Research (EXCEED), Department of Clinical and Biomedical Sciences, University of 
+Exeter Medical School, Exeter, UK.
+(11)ESPCI Paris, PSL University, Spectrométrie de Masse Biologique et 
+Protéomique, CNRS UMR8249, Paris, France.
+(12)Tampere University, Faculty of Medicine and Health Technology and Fimlab 
+Laboratories, Tampere, Finland.
+(13)Paul Langerhans Institute, Technical University Dresden, Germany.
+(14)Assistance Publique Hôpitaux de Paris, Service d'Endocrinologie Pédiatrique, 
+Robert Debré Hospital, Paris, France.
+(15)Assistance Publique Hôpitaux de Paris, Service de Pédiatrie, Jean Verdier 
+Hospital, Bondy, France.
+(16)Department of Pediatrics, Division of pediatric Endocrinology, Leonard 
+Miller School of Medicine, University of Miami, FL, USA.
+(17)Panum Institute, Department of International Health, Immunology and 
+Microbiology, Copenhagen, Denmark.
+(18)Indiana Biosciences Research Institute, Indianapolis, IN, USA.
+(19)Assistance Publique Hôpitaux de Paris, Service de Diabétologie et 
+Immunologie Clinique, Cochin Hospital, Paris, France.
+
+Update in
+    Sci Adv. 2024 Mar 8;10(10):eadl1122. doi: 10.1126/sciadv.adl1122.
+
+Coxsackievirus B (CVB) infection of pancreatic β cells is associated with β-cell 
+autoimmunity. We investigated how CVB impacts human β cells and anti-CVB T-cell 
+responses. β cells were efficiently infected by CVB in vitro, downregulated HLA 
+Class I and presented few, selected HLA-bound viral peptides. Circulating CD8+ T 
+cells from CVB-seropositive individuals recognized only a fraction of these 
+peptides, and only another sub-fraction was targeted by effector/memory T cells 
+that expressed the exhaustion marker PD-1. T cells recognizing a CVB epitope 
+cross-reacted with the β-cell antigen GAD. Infected β cells, which formed 
+filopodia to propagate infection, were more efficiently killed by CVB than by 
+CVB-reactive T cells. Thus, our in-vitro and ex-vivo data highlight limited 
+T-cell responses to CVB, supporting the rationale for CVB vaccination trials for 
+type 1 diabetes prevention. CD8+ T cells recognizing structural and 
+non-structural CVB epitopes provide biomarkers to differentially follow response 
+to infection and vaccination.
+
+DOI: 10.1101/2023.08.19.553954
+PMCID: PMC10473604
+PMID: 37662376
+
+Conflict of interest statement: H.H. is a board member and stock owner in 
+Vactech Ltd, which develops vaccines against picornaviruses and licensed CVB 
+vaccine-related intellectual property rights to Provention Bio Inc. M.F.-T. 
+serves and A.P. served on the scientific advisory board of Provention Bio Inc. 
+R.M. received research funding from Provention Bio Inc.

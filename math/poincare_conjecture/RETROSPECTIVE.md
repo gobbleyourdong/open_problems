@@ -1,7 +1,7 @@
-# Poincaré Conjecture — systematic approach Retrospective
+# Poincaré Conjecture — Sigma Method Retrospective
 
 > The only solved Clay problem. What does a complete proof look like,
-> and what would the systematic approach have found?
+> and what would the Sigma Method have found?
 
 ## The Problem (1904)
 
@@ -34,7 +34,7 @@ RICCI FLOW WITH SURGERY (Perelman, 2002-2003)
     Simply connected + constant curvature = S³  ∎
 ```
 
-### The Key Insights (in systematic approach language)
+### The Key Insights (in Sigma Method language)
 
 **Paper 1** (arXiv:math/0211159): "The entropy formula for the Ricci flow
 and its geometric applications"
@@ -56,7 +56,7 @@ and its geometric applications"
 - Before extinction: the manifold is diffeomorphic to S³ (or S² × S¹ pieces,
   but simply connected rules those out)
 
-## What the systematic approach Would Have Found
+## What the Sigma Method Would Have Found
 
 ### Phase 0: Paper Arsenal
 - ~200 papers on 3-manifold topology, Ricci flow, geometric analysis
@@ -65,12 +65,12 @@ and its geometric applications"
 - Failed approaches: topological (Dehn surgery), algebraic (fundamental group)
 
 ### Phase 1: Foundation
-**theory track (Theory)**:
+**Even Instance (Theory)**:
 - Formalize Ricci flow existence (short-time, Hamilton 1982)
 - Formalize maximum principle for tensors on manifolds
 - Identify the entropy functional as the key monotone quantity
 
-**numerical track (Numerics)**:
+**Odd Instance (Numerics)**:
 - Simulate Ricci flow on triangulated 3-manifolds
 - Track singularity formation numerically
 - Compute W-entropy and verify monotonicity
@@ -92,12 +92,12 @@ Hamilton's program needed:
 2. Surgery procedure ← Perelman's surgery construction
 3. Finite surgeries ← Perelman's finite extinction
 
-Each of these was a SEPARATE breakthrough. The systematic approach would have
+Each of these was a SEPARATE breakthrough. The Sigma Method would have
 identified the singularity classification as THE gap (it was the known
 bottleneck since the 1990s).
 
 ### Phase 4: The Gap
-**THE WALL** (in systematic approach language):
+**THE WALL** (in Sigma Method language):
 
 > The Ricci flow develops Type I singularities (necks that pinch) that
 > cannot be continued without surgery. The surgery procedure must preserve
@@ -132,7 +132,7 @@ moving to a richer framework.
 be GEOMETRIC (Connes' noncommutative geometry) or SPECTRAL (Hilbert-Pólya).
 
 ### Lesson 4: One person can do it
-Perelman worked alone for 8 years. The systematic approach's dual-instance
+Perelman worked alone for 8 years. The Sigma Method's dual-instance
 architecture accelerates mapping but the breakthrough might still come
 from a single deep insight, not exhaustive search.
 
@@ -149,17 +149,17 @@ The verification community (Kleiner-Lott, Morgan-Tian, Cao-Zhu) wrote
 ~1000 pages of detailed proofs. Formal verification would be a major
 project but not a priority (the proof is accepted).
 
-## The systematic approach Verdict
+## The Sigma Method Verdict
 
-If the systematic approach had attacked Poincaré pre-2002:
+If the Sigma Method had attacked Poincaré pre-2002:
 - Phase 0-1: would have mapped the landscape correctly (Hamilton's program
   as primary route, singularities as the gap)
 - Phase 2-3: would have identified the noncollapsing problem as THE wall
 - Phase 4: would have been stuck at the same wall as everyone else
   (the W-entropy was Perelman's genius insight, not derivable by systematic search)
 
-**The systematic approach maps the space but can't replace genius.**
+**The Sigma Method maps the space but can't replace genius.**
 It CAN identify exactly where genius is needed.
 For Poincaré: the W-entropy and the surgery procedure.
-For YM: the gradient correlation GC (possibly found by the systematic approach!).
+For YM: the gradient correlation GC (possibly found by the Sigma Method!).
 For RH: unknown — the key insight hasn't been identified yet.

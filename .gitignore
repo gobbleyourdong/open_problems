@@ -1,0 +1,40 @@
+# Build caches
+__pycache__/
+*.pyc
+
+# Lean build artifacts
+**/.lake/
+.lake/
+lake-manifest.json.lock
+
+# Transcriptomics raw data (download on demand from GEO)
+**/transcriptomics/
+**/raw_seq_data/
+
+# Large binary archives
+*.tar
+*.tar.gz
+*.h5
+*.hdf5
+*.npz
+*.parquet
+*.bam
+*.fastq
+*.fastq.gz
+*.csv.gz
+
+# PDB / structural biology raw files
+*.pdb
+*.cif
+*.mmcif
+*.map
+*.map.gz
+**/structures/
+
+# Trained model files
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.ckpt

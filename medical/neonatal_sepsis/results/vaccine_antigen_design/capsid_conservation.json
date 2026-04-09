@@ -1,0 +1,530 @@
+{
+  "analysis": "CVB Capsid Conservation \u2014 REQ-004",
+  "date": "2026-04-08",
+  "serotypes": [
+    "CVB1",
+    "CVB2",
+    "CVB3",
+    "CVB4",
+    "CVB5",
+    "CVB6"
+  ],
+  "capsid_regions": {
+    "VP4": [
+      1,
+      69
+    ],
+    "VP2": [
+      70,
+      331
+    ],
+    "VP3": [
+      332,
+      569
+    ],
+    "VP1": [
+      570,
+      853
+    ]
+  },
+  "conservation_summary": {
+    "VP1": {
+      "avg_conservation": 0.488,
+      "n_highly_conserved": 4,
+      "n_variable": 71,
+      "length": 284
+    },
+    "VP2": {
+      "avg_conservation": 0.725,
+      "n_highly_conserved": 130,
+      "n_variable": 35,
+      "length": 262
+    },
+    "VP3": {
+      "avg_conservation": 0.485,
+      "n_highly_conserved": 7,
+      "n_variable": 44,
+      "length": 238
+    },
+    "VP4": {
+      "avg_conservation": 0.961,
+      "n_highly_conserved": 64,
+      "n_variable": 0,
+      "length": 69
+    }
+  },
+  "vp1_conserved_windows": [],
+  "vp1_variable_loops": [
+    [
+      2,
+      6,
+      0.333
+    ],
+    [
+      79,
+      88,
+      0.3
+    ]
+  ],
+  "vaccine_insert_recommendation": "",
+  "vaccine_insert_length": 0,
+  "poliovirus_comparison": {
+    "pv1_cvb3_vp1_identity_pct": 6.7,
+    "comparison_length": 284,
+    "cross_species_conserved": [
+      {
+        "vp1_pos": 113,
+        "aa": "F",
+        "cvb_cons": 0.83
+      }
+    ]
+  },
+  "serotype_coverage_estimates": {
+    "VP1": {
+      "per_serotype": {
+        "CVB1": 73.6,
+        "CVB2": 13.0,
+        "CVB3": 68.3,
+        "CVB4": 25.4,
+        "CVB5": 77.1,
+        "CVB6": 35.6
+      },
+      "avg_coverage": 48.8
+    },
+    "VP2": {
+      "per_serotype": {
+        "CVB1": 66.8,
+        "CVB2": 56.9,
+        "CVB3": 62.6,
+        "CVB4": 81.7,
+        "CVB5": 82.8,
+        "CVB6": 84.4
+      },
+      "avg_coverage": 72.5
+    },
+    "VP3": {
+      "per_serotype": {
+        "CVB1": 21.4,
+        "CVB2": 8.8,
+        "CVB3": 21.8,
+        "CVB4": 78.2,
+        "CVB5": 79.8,
+        "CVB6": 81.1
+      },
+      "avg_coverage": 48.5
+    },
+    "VP4": {
+      "per_serotype": {
+        "CVB1": 100.0,
+        "CVB2": 97.1,
+        "CVB3": 97.1,
+        "CVB4": 92.8,
+        "CVB5": 98.6,
+        "CVB6": 91.3
+      },
+      "avg_coverage": 96.1
+    }
+  },
+  "vp1_profile_first100": {
+    "1": {
+      "conservation": 0.5,
+      "consensus": "P"
+    },
+    "2": {
+      "conservation": 0.333,
+      "consensus": "G"
+    },
+    "3": {
+      "conservation": 0.333,
+      "consensus": "P"
+    },
+    "4": {
+      "conservation": 0.333,
+      "consensus": "V"
+    },
+    "5": {
+      "conservation": 0.333,
+      "consensus": "E"
+    },
+    "6": {
+      "conservation": 0.333,
+      "consensus": "E"
+    },
+    "7": {
+      "conservation": 0.667,
+      "consensus": "E"
+    },
+    "8": {
+      "conservation": 0.5,
+      "consensus": "R"
+    },
+    "9": {
+      "conservation": 0.5,
+      "consensus": "A"
+    },
+    "10": {
+      "conservation": 0.333,
+      "consensus": "I"
+    },
+    "11": {
+      "conservation": 0.667,
+      "consensus": "A"
+    },
+    "12": {
+      "conservation": 0.5,
+      "consensus": "R"
+    },
+    "13": {
+      "conservation": 0.667,
+      "consensus": "V"
+    },
+    "14": {
+      "conservation": 0.5,
+      "consensus": "A"
+    },
+    "15": {
+      "conservation": 0.5,
+      "consensus": "D"
+    },
+    "16": {
+      "conservation": 0.5,
+      "consensus": "T"
+    },
+    "17": {
+      "conservation": 0.333,
+      "consensus": "D"
+    },
+    "18": {
+      "conservation": 0.333,
+      "consensus": "T"
+    },
+    "19": {
+      "conservation": 0.333,
+      "consensus": "V"
+    },
+    "20": {
+      "conservation": 0.667,
+      "consensus": "G"
+    },
+    "21": {
+      "conservation": 0.5,
+      "consensus": "P"
+    },
+    "22": {
+      "conservation": 0.333,
+      "consensus": "S"
+    },
+    "23": {
+      "conservation": 0.5,
+      "consensus": "N"
+    },
+    "24": {
+      "conservation": 0.5,
+      "consensus": "S"
+    },
+    "25": {
+      "conservation": 0.5,
+      "consensus": "E"
+    },
+    "26": {
+      "conservation": 0.5,
+      "consensus": "S"
+    },
+    "27": {
+      "conservation": 0.333,
+      "consensus": "E"
+    },
+    "28": {
+      "conservation": 0.5,
+      "consensus": "P"
+    },
+    "29": {
+      "conservation": 0.667,
+      "consensus": "A"
+    },
+    "30": {
+      "conservation": 0.5,
+      "consensus": "L"
+    },
+    "31": {
+      "conservation": 0.5,
+      "consensus": "T"
+    },
+    "32": {
+      "conservation": 0.5,
+      "consensus": "A"
+    },
+    "33": {
+      "conservation": 0.333,
+      "consensus": "T"
+    },
+    "34": {
+      "conservation": 0.5,
+      "consensus": "E"
+    },
+    "35": {
+      "conservation": 0.5,
+      "consensus": "A"
+    },
+    "36": {
+      "conservation": 0.5,
+      "consensus": "G"
+    },
+    "37": {
+      "conservation": 0.5,
+      "consensus": "H"
+    },
+    "38": {
+      "conservation": 0.667,
+      "consensus": "T"
+    },
+    "39": {
+      "conservation": 0.5,
+      "consensus": "S"
+    },
+    "40": {
+      "conservation": 0.5,
+      "consensus": "Q"
+    },
+    "41": {
+      "conservation": 0.5,
+      "consensus": "V"
+    },
+    "42": {
+      "conservation": 0.333,
+      "consensus": "Q"
+    },
+    "43": {
+      "conservation": 0.5,
+      "consensus": "P"
+    },
+    "44": {
+      "conservation": 0.5,
+      "consensus": "V"
+    },
+    "45": {
+      "conservation": 0.5,
+      "consensus": "D"
+    },
+    "46": {
+      "conservation": 0.333,
+      "consensus": "T"
+    },
+    "47": {
+      "conservation": 0.5,
+      "consensus": "M"
+    },
+    "48": {
+      "conservation": 0.5,
+      "consensus": "Q"
+    },
+    "49": {
+      "conservation": 0.667,
+      "consensus": "T"
+    },
+    "50": {
+      "conservation": 0.5,
+      "consensus": "R"
+    },
+    "51": {
+      "conservation": 0.5,
+      "consensus": "H"
+    },
+    "52": {
+      "conservation": 0.5,
+      "consensus": "V"
+    },
+    "53": {
+      "conservation": 0.5,
+      "consensus": "H"
+    },
+    "54": {
+      "conservation": 0.5,
+      "consensus": "N"
+    },
+    "55": {
+      "conservation": 0.5,
+      "consensus": "Y"
+    },
+    "56": {
+      "conservation": 0.667,
+      "consensus": "H"
+    },
+    "57": {
+      "conservation": 0.5,
+      "consensus": "S"
+    },
+    "58": {
+      "conservation": 0.5,
+      "consensus": "R"
+    },
+    "59": {
+      "conservation": 0.833,
+      "consensus": "S"
+    },
+    "60": {
+      "conservation": 0.5,
+      "consensus": "E"
+    },
+    "61": {
+      "conservation": 0.667,
+      "consensus": "S"
+    },
+    "62": {
+      "conservation": 0.5,
+      "consensus": "S"
+    },
+    "63": {
+      "conservation": 0.333,
+      "consensus": "S"
+    },
+    "64": {
+      "conservation": 0.5,
+      "consensus": "E"
+    },
+    "65": {
+      "conservation": 0.5,
+      "consensus": "N"
+    },
+    "66": {
+      "conservation": 0.5,
+      "consensus": "F"
+    },
+    "67": {
+      "conservation": 0.5,
+      "consensus": "L"
+    },
+    "68": {
+      "conservation": 0.5,
+      "consensus": "C"
+    },
+    "69": {
+      "conservation": 0.5,
+      "consensus": "R"
+    },
+    "70": {
+      "conservation": 0.5,
+      "consensus": "S"
+    },
+    "71": {
+      "conservation": 0.667,
+      "consensus": "A"
+    },
+    "72": {
+      "conservation": 0.5,
+      "consensus": "C"
+    },
+    "73": {
+      "conservation": 0.5,
+      "consensus": "V"
+    },
+    "74": {
+      "conservation": 0.333,
+      "consensus": "C"
+    },
+    "75": {
+      "conservation": 0.333,
+      "consensus": "V"
+    },
+    "76": {
+      "conservation": 0.333,
+      "consensus": "Y"
+    },
+    "77": {
+      "conservation": 0.333,
+      "consensus": "F"
+    },
+    "78": {
+      "conservation": 0.667,
+      "consensus": "Y"
+    },
+    "79": {
+      "conservation": 0.333,
+      "consensus": "T"
+    },
+    "80": {
+      "conservation": 0.333,
+      "consensus": "Y"
+    },
+    "81": {
+      "conservation": 0.167,
+      "consensus": "N"
+    },
+    "82": {
+      "conservation": 0.333,
+      "consensus": "N"
+    },
+    "83": {
+      "conservation": 0.333,
+      "consensus": "N"
+    },
+    "84": {
+      "conservation": 0.333,
+      "consensus": "S"
+    },
+    "85": {
+      "conservation": 0.167,
+      "consensus": "E"
+    },
+    "86": {
+      "conservation": 0.333,
+      "consensus": "K"
+    },
+    "87": {
+      "conservation": 0.333,
+      "consensus": "R"
+    },
+    "88": {
+      "conservation": 0.333,
+      "consensus": "Y"
+    },
+    "89": {
+      "conservation": 0.667,
+      "consensus": "A"
+    },
+    "90": {
+      "conservation": 0.5,
+      "consensus": "E"
+    },
+    "91": {
+      "conservation": 0.667,
+      "consensus": "W"
+    },
+    "92": {
+      "conservation": 0.667,
+      "consensus": "V"
+    },
+    "93": {
+      "conservation": 0.5,
+      "consensus": "I"
+    },
+    "94": {
+      "conservation": 0.333,
+      "consensus": "N"
+    },
+    "95": {
+      "conservation": 0.667,
+      "consensus": "T"
+    },
+    "96": {
+      "conservation": 0.667,
+      "consensus": "R"
+    },
+    "97": {
+      "conservation": 0.667,
+      "consensus": "Q"
+    },
+    "98": {
+      "conservation": 0.667,
+      "consensus": "V"
+    },
+    "99": {
+      "conservation": 0.667,
+      "consensus": "A"
+    },
+    "100": {
+      "conservation": 0.667,
+      "consensus": "Q"
+    }
+  }
+}

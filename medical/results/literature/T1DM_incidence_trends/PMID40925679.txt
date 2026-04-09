@@ -1,0 +1,57 @@
+1. Diabet Med. 2025 Nov;42(11):e70133. doi: 10.1111/dme.70133. Epub 2025 Sep 9.
+
+A longitudinal cohort study describing childhood type 1 diabetes incidence and 
+prevalence rates in British Columbia, Canada over 27 years (1997-2023).
+
+Amed S(1)(2), Bone JN(2), Kishore SB(3), Zhang Q(2), Leung J(4).
+
+Author information:
+(1)Division of Endocrinology, Department of Pediatrics, University of British 
+Columbia, Vancouver, British Columbia, Canada.
+(2)BC Children's Hospital Research Institute, Vancouver, British Columbia, 
+Canada.
+(3)Faculty of Health, Medicine and Behavioural Sciences, University of 
+Queensland, Brisbane, Queensland, Australia.
+(4)Division of Endocrinology, Department of Medicine, University of British 
+Columbia, Vancouver, British Columbia, Canada.
+
+AIMS: Our study described incidence and prevalence trends of type 1 diabetes in 
+children and youth under 20 years of age from 1997 to 2023 in the Canadian 
+province of British Columbia (BC) and assessed for a 4-, 5-, or 6-year cyclicity 
+or increase in incidence during the COVID-19 pandemic.
+METHODS: Using linked population-level databases and a validated case-finding 
+and diabetes differentiating algorithm, we identified children with type 1 
+diabetes diagnosed between 1997 and 2023. Data sources included hospital 
+admissions, outpatient physician visits, and dispensed prescriptions. Population 
+denominators were based on annual age- and sex-stratified population estimates. 
+We calculated incidence per 100,000 and prevalence per 100 cases, using 
+JoinPoint regression to identify trend changes. Cyclical patterns were tested 
+using sine and cosine terms.
+RESULTS: From 1997 to 2023, the incidence of paediatric type 1 diabetes 
+increased markedly until 2008 and then declined very gradually, with similar 
+patterns across age and sex. Incidence was higher in boys, highest among 
+children aged 5 to 14 years, and lowest in those aged 15 to 19 years. After 
+2012, prevalent cases stabilized in those under 10 and decreased in those over 
+10 years old. There was no evidence of cyclical trends or changes in incidence 
+or prevalence during or after the COVID-19 pandemic.
+CONCLUSIONS/INTERPRETATION: We report a stabilization of type 1 diabetes 
+incidence and prevalence, along with the absence of pandemic-related increases. 
+These trends may in part reflect demographic changes in British Columbia's 
+paediatric population, including a growing proportion of children from immigrant 
+backgrounds with historically lower type 1 diabetes risk. Unfortunately, our 
+data sources do not include ethnicity, limiting our ability to explore these 
+patterns directly. This study will support the optimization of resource 
+allocation and inform healthcare improvement and long-term management of 
+childhood type 1 diabetes.
+
+© 2025 The Author(s). Diabetic Medicine published by John Wiley & Sons Ltd on 
+behalf of Diabetes UK.
+
+DOI: 10.1111/dme.70133
+PMCID: PMC12535355
+PMID: 40925679 [Indexed for MEDLINE]
+
+Conflict of interest statement: SA holds a BC Children's Hospital Research 
+Institute Research Salary Award. SA has received speaker and advisory board fees 
+from Dexcom, Abbott, Novo Nordisk, Eli Lilly, Sanofi, and Insulet unrelated to 
+this work. None of the other authors has a conflict of interest to disclose.

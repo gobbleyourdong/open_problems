@@ -1,0 +1,37 @@
+1. Epidemiol Infect. 2018 Dec;146(16):2131-2138. doi: 10.1017/S0950268818002455. 
+Epub 2018 Aug 28.
+
+Maternal infection during pregnancy and type 1 diabetes mellitus in offspring: a 
+systematic review and meta-analysis.
+
+Yue Y(1), Tang Y(2), Tang J(1), Shi J(1), Zhu T(1), Huang J(1), Qiu X(1), Zeng 
+Y(1), Li W(1), Qu Y(1), Mu D(1).
+
+Author information:
+(1)Department of Pediatrics,West China Second University Hospital, Sichuan 
+University,Chengdu,China.
+(2)Key Laboratory of Birth Defects and Related Diseases of Women and 
+Children,Ministry of Education,Sichuan University,Chengdu,China.
+
+Previous studies have demonstrated that type 1 diabetes mellitus (T1DM) could be 
+triggered by an early childhood infection. Whether maternal infection during 
+pregnancy is associated with T1DM in offspring is unknown. Therefore, we aimed 
+to study the association using a systematic review and meta-analysis. Eighteen 
+studies including 4304 cases and 25 846 participants were enrolled in this 
+meta-analysis. Odds ratios (ORs) and 95% confidence intervals (CIs) were 
+synthesised using random-effects models. Subgroup analyses and sensitivity 
+analyses were conducted to assess the robustness of associations. Overall, the 
+pooled analysis yielded a statistically significant association between maternal 
+infection during pregnancy and childhood T1DM (OR 1.31, 95% CI 1.07-1.62). 
+Furthermore, six studies that tested maternal enterovirus infection showed a 
+pooled OR of 1.54 (95% CI 1.05-2.27). Heterogeneity from different studies was 
+evident (I2 = 70.1%, P < 0.001) and was mainly attributable to the different 
+study designs, ascertaining methods and sample size among different studies. 
+This study provides evidence for an association between maternal infection 
+during pregnancy and childhood T1DM.
+
+DOI: 10.1017/S0950268818002455
+PMCID: PMC6453004
+PMID: 30152300 [Indexed for MEDLINE]
+
+Conflict of interest statement: None.

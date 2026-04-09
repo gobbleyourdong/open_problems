@@ -1,0 +1,44 @@
+1. Diabet Med. 2026 Apr;43(4):e70215. doi: 10.1111/dme.70215. Epub 2026 Jan 6.
+
+Age-specific incidence and prevalence of childhood type 1 diabetes: Development 
+over four decades in Southwest Germany.
+
+Ziegler J(1), Neu A(1), Ehehalt S(2), Schweizer R(1), Dietz K(3).
+
+Author information:
+(1)Department of Pediatric and Adolescent Medicine, University Hospital 
+Tuebingen, Tuebingen, Germany.
+(2)Health Department of the City of Stuttgart, Stuttgart, Germany.
+(3)Department of Medical Biometry, University of Tuebingen, Tuebingen, Germany.
+
+AIMS: This study evaluated the incidence and prevalence of type 1 diabetes in 
+children and adolescents in Baden-Wuerttemberg over 38 years considering various 
+subgroups.
+METHODS: Data were drawn from the German Diabetes Registry (DIARY) for 11,797 
+children aged <15 years with clinically diagnosed type 1 diabetes. Incidence 
+rates were calculated per 100,000 person-years and presented as crude, age- and 
+sex-specific rates, including annual percent changes (APC) from 1987 to 2024.
+RESULTS: In 1987, the crude incidence was 10.1 per 100,000 children per year, 
+rising to 20.2 per 100,000 children per year in 2024. Between 1987 and 2008, the 
+incidence increased steadily at 4.0% annually, followed by a plateau through 
+2024 despite demographic shifts including declining birth rates and increased 
+immigration. The peak incidence occurred during the COVID-19 pandemic, reaching 
+31.1 per 100,000 children per year in 2021, before returning to 20.2 per 100,000 
+children per year by 2024. The highest subgroup incidence was found in boys aged 
+10-14 years at 25.4 per 100,000 children per year. A marked increase during the 
+pandemic was seen mainly in children under 10 years. The estimated prevalence as 
+of 31 December 2024 was 0.154%.
+CONCLUSIONS: Incidence rates have doubled since the first documentation in 1987. 
+Since 2008, the rates have remained stable at a high level without further 
+increase. The long-term trend suggests a levelling off in incidence, with 
+pandemic-related increases limited primarily to younger children.
+
+© 2026 The Author(s). Diabetic Medicine published by John Wiley & Sons Ltd on 
+behalf of Diabetes UK.
+
+DOI: 10.1111/dme.70215
+PMCID: PMC12982637
+PMID: 41495956 [Indexed for MEDLINE]
+
+Conflict of interest statement: No potential conflicts of interest relevant to 
+this article have to be reported. No artificial intelligence was used.

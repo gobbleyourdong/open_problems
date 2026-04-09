@@ -1,0 +1,38 @@
+1. Diabetes. 2001 Jun;50(6):1440-8. doi: 10.2337/diabetes.50.6.1440.
+
+Transgenic overexpression of leptin rescues insulin resistance and diabetes in a 
+mouse model of lipoatrophic diabetes.
+
+Ebihara K(1), Ogawa Y, Masuzaki H, Shintani M, Miyanaga F, Aizawa-Abe M, Hayashi 
+T, Hosoda K, Inoue G, Yoshimasa Y, Gavrilova O, Reitman ML, Nakao K.
+
+Author information:
+(1)Department of Medicine and Clinical Science, Kyoto University Graduate School 
+of Medicine, 54 Shogoin Kawahara-cho, Sakyo-ku, Kyoto 606-8507, Japan.
+
+Lipoatrophic diabetes is caused by a deficiency of adipose tissue and is 
+characterized by severe insulin resistance, hypoleptinemia, and hyperphagia. The 
+A-ZIP/F-1 mouse (A-ZIPTg/+) is a model of severe lipoatrophic diabetes and is 
+insulin resistant, hypoleptinemic, hyperphagic, and shows severe hepatic 
+steatosis. We have also produced transgenic "skinny" mice that have hepatic 
+overexpression of leptin (LepTg/+) and no adipocyte triglyceride stores, and are 
+hypophagic and show increased insulin sensitivity. To explore the 
+pathophysiological and therapeutic roles of leptin in lipoatrophic diabetes, we 
+crossed LepTg/+ and A-ZIPTg/+ mice, producing doubly transgenic mice 
+(LepTg/+:A-ZIPTg/+) virtually lacking adipose tissue but having greatly elevated 
+leptin levels. The LepTg/+:A-ZIPTg/+ mice were hypophagic and showed improved 
+hepatic steatosis. Glucose and insulin tolerance tests revealed increased 
+insulin sensitivity, comparable to LepTg/+ mice. These effects were stable over 
+at least 6 months of age. Pair-feeding the A-ZIPTg/+ mice to the amount of food 
+consumed by LepTg/+:A-ZIPTg/+ mice did not improve their insulin resistance, 
+diabetes, or hepatic steatosis, demonstrating that the beneficial effects of 
+leptin were not due to the decreased food intake. Continuous leptin 
+administration that elevates plasma leptin concentrations to those of 
+LepTg/+:A-ZIPTg/+ mice also effectively improved hepatic steatosis and the 
+disorder of glucose and lipid metabolism in A-ZIP/F-1 mice. These data 
+demonstrate that leptin can improve the insulin resistance and diabetes of a 
+mouse model of severe lipoatrophic diabetes, suggesting that leptin may be 
+therapeutically useful in the long-term treatment of lipoatrophic diabetes.
+
+DOI: 10.2337/diabetes.50.6.1440
+PMID: 11375346 [Indexed for MEDLINE]

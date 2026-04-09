@@ -174,7 +174,7 @@ coupling weakens. Whether it ever overtakes the Casimir is the open question.
 **The wall persists at weak coupling. The Casimir provides hope (a structural
 positive term), but proving it dominates at all couplings requires new ideas.**
 
-## For numerical track
+## For Odd Instance
 
 Compute numerically:
 1. The Casimir term: 6c_{1/2} · ⟨O · Σ_Σ χ_{1/2}⟩ (should be positive)

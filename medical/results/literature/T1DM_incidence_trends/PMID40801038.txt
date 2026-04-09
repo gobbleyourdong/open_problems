@@ -1,0 +1,52 @@
+1. Front Endocrinol (Lausanne). 2025 Jul 29;16:1638187. doi: 
+10.3389/fendo.2025.1638187. eCollection 2025.
+
+Epidemiology and temporal trends of childhood type 1 diabetes in China: an 
+analysis of the GBD 2021.
+
+Jin F(1), Xie L(1), Wang G(1), Pan Y(1), Wang C(1), Li W(2)(3)(4)(5).
+
+Author information:
+(1)Department of Genetics and Reproductive Medicine, Shunyi Maternal and 
+Children's Hospital of Beijing Children's Hospital, Beijing, China.
+(2)Beijing Key Laboratory for Genetics of Birth Defects, Beijing Pediatric 
+Research Institute, Beijing, China.
+(3)Genetics and Birth Defects Reference Center, National Center for Children's 
+Health, Beijing, China.
+(4)Ministry of Education (MOE) Key Laboratory of Major Diseases in Children, 
+Beijing, China.
+(5)Beijing Children's Hospital, Capital Medical University, Beijing, China.
+
+OBJECTIVE: This study investigates the epidemiological trends of childhood type 
+1 diabetes (T1D) in China and establishes predictive models to estimate future 
+disease burden.
+METHODS: Temporal trend analyses were performed using data from the Global 
+Burden of Disease (GBD) database, stratified by age and sex. Joinpoint 
+regression analysis was applied to evaluate changes in incidence and mortality 
+rates from 1990 to 2021, complemented by autoregressive integrated moving 
+average (ARIMA) and exponential smoothing state space (ETS) models to project 
+disease trends through 2040.
+RESULTS: The results indicate a rising trend in the incidence of childhood T1D 
+among Chinese children aged 0-14 years, alongside an overall decline in 
+mortality, reflecting an epidemiological pattern characterized by low incidence 
+yet non-negligible mortality. Notably, infants < 1 year of age have shown 
+increasing mortality rates in recent years. Projections indicate that both 
+incidence and mortality in this age group will continue to increase through 
+2040. Additionally, incidence among children 1 year of age also expected to 
+persist on an upward trajectory. Sex-based disparities were evident, with girls 
+bearing a higher disease burden than boys, as indicated by elevated incidence, 
+mortality and underdiagnosis rates.
+CONCLUSION: These findings necessitate enhanced public health and clinical 
+management strategies for childhood T1D in China, specifically targeting 
+underdiagnosis reduction, incidence rate stabilization, and mortality rate 
+improvement.
+
+Copyright © 2025 Jin, Xie, Wang, Pan, Wang and Li.
+
+DOI: 10.3389/fendo.2025.1638187
+PMCID: PMC12339348
+PMID: 40801038 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that the research was 
+conducted in the absence of any commercial or financial relationships that could 
+be construed as a potential conflict of interest.

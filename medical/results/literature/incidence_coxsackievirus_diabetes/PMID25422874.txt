@@ -1,0 +1,45 @@
+1. Endocrinology. 2015 Feb;156(2):453-61. doi: 10.1210/en.2013-2006. Epub 2014
+Nov  25.
+
+Toll-like receptor 3 is critical for coxsackievirus B4-induced type 1 diabetes 
+in female NOD mice.
+
+McCall KD(1), Thuma JR, Courreges MC, Benencia F, James CB, Malgor R, Kantake N, 
+Mudd W, Denlinger N, Nolan B, Wen L, Schwartz FL.
+
+Author information:
+(1)Departments of Specialty Medicine (K.D.M., M.C.C., W.M., N.D., B.N., F.L.S.) 
+and Biomedical Sciences (K.D.M., F.B., C.B.L.J., R.M., N.K.) and Diabetes 
+Institute (K.D.M., J.R.T., M.C.C., R.M., W.M., N.D., B.N., F.L.S.), Ohio 
+University Heritage College of Osteopathic Medicine, Athens, Ohio 45701; 
+Department of Biological Sciences (K.D.M.) and Molecular and Cellular Biology 
+Program (K.D.M., F.B., C.B.L.J., R.M.), Ohio University College of Arts and 
+Sciences, Athens, Ohio 45701; Biomedical Engineering Program (K.D.M., F.B., 
+R.M., F.L.S.), Ohio University Russ College of Engineering and Technology, 
+Athens, Ohio 45701; and Section of Endocrinology (L.W.), Department of Internal 
+Medicine, The Anlyan Center for Medical Research and Education, Yale University 
+School of Medicine, New Haven, Connecticut 06520.
+
+Group B coxsackieviruses (CVBs) are involved in triggering some cases of type 1 
+diabetes mellitus (T1DM). However, the molecular mechanism(s) responsible for 
+this remain elusive. Toll-like receptor 3 (TLR3), a receptor that recognizes 
+viral double-stranded RNA, is hypothesized to play a role in virus-induced T1DM, 
+although this hypothesis is yet to be substantiated. The objective of this study 
+was to directly investigate the role of TLR3 in CVB-triggered T1DM in nonobese 
+diabetic (NOD) mice, a mouse model of human T1DM that is widely used to study 
+both spontaneous autoimmune and viral-induced T1DM. As such, we infected female 
+wild-type (TLR3(+/+)) and TLR3 knockout (TLR3(-/-)) NOD mice with CVB4 and 
+compared the incidence of diabetes in CVB4-infected mice with that of uninfected 
+counterparts. We also evaluated the islets of uninfected and CVB4-infected 
+wild-type and TLR3 knockout NOD mice by immunohistochemistry and insulitis 
+scoring. TLR3 knockout mice were markedly protected from CVB4-induced diabetes 
+compared with CVB4-infected wild-type mice. CVB4-induced T-lymphocyte-mediated 
+insulitis was also significantly less severe in TLR3 knockout mice compared with 
+wild-type mice. No differences in insulitis were observed between uninfected 
+animals, either wild-type or TLR3 knockout mice. These data demonstrate for the 
+first time that TLR3 is 1) critical for CVB4-induced T1DM, and 2) modulates 
+CVB4-induced insulitis in genetically prone NOD mice.
+
+DOI: 10.1210/en.2013-2006
+PMCID: PMC4298321
+PMID: 25422874 [Indexed for MEDLINE]

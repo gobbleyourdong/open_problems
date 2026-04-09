@@ -1,0 +1,22 @@
+{
+  "wt_specific_forward": {
+    "sequence": "TTAAAACAGCCTGTGGGTTG",
+    "position": "1-20",
+    "target": "Wild-type CVB only (deleted in TD mutants)",
+    "gc_pct": 45.0,
+    "tm_wallace": 58
+  },
+  "pan_cvb_forward": {
+    "sequence": "GGTATTACGGTACCTTTGTG",
+    "position": "57-76",
+    "target": "All CVB (WT and TD mutants)",
+    "gc_pct": 45.0,
+    "tm_wallace": 58
+  },
+  "shared_reverse": {
+    "sequence": "GCTTGGTCAAAAACAGGTTG",
+    "position": "151-170 (reverse complement)",
+    "gc_pct": 45.0,
+    "tm_wallace": 58
+  }
+}

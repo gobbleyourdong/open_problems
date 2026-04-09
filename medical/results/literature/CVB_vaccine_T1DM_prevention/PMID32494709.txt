@@ -1,0 +1,44 @@
+1. Sci Adv. 2020 May 6;6(19):eaaz2433. doi: 10.1126/sciadv.aaz2433. eCollection 
+2020 May.
+
+A hexavalent Coxsackievirus B vaccine is highly immunogenic and has a strong 
+protective capacity in mice and nonhuman primates.
+
+Stone VM(1)(2), Hankaniemi MM(2), Laitinen OH(2), Sioofy-Khojine AB(2), Lin 
+A(3), Diaz Lozano IM(1), Mazur MA(1), Marjomäki V(4), Loré K(3), Hyöty H(2)(5), 
+Hytönen VP(2)(5), Flodström-Tullberg M(1)(2).
+
+Author information:
+(1)Center for Infectious Medicine, Department of Medicine Huddinge, Karolinska 
+Institutet, Karolinska University Hospital, Stockholm, Sweden.
+(2)Faculty of Medicine and Health Technology, Tampere University, Tampere, 
+Finland.
+(3)Division of Immunology and Allergy, Department of Medicine Solna, Karolinska 
+Institutet, Karolinska University Hospital, Stockholm, Sweden.
+(4)Department of Biological and Environmental Science/Nanoscience Center, 
+University of Jyväskylä, Jyväskylä, Finland.
+(5)Fimlab Laboratories, Tampere, Finland.
+
+Coxsackievirus B (CVB) enteroviruses are common human pathogens known to cause 
+severe diseases including myocarditis, chronic dilated cardiomyopathy, and 
+aseptic meningitis. CVBs are also hypothesized to be a causal factor in type 1 
+diabetes. Vaccines against CVBs are not currently available, and here we 
+describe the generation and preclinical testing of a novel hexavalent vaccine 
+targeting the six known CVB serotypes. We show that the vaccine has an excellent 
+safety profile in murine models and nonhuman primates and that it induces strong 
+neutralizing antibody responses to the six serotypes in both species without an 
+adjuvant. We also demonstrate that the vaccine provides immunity against acute 
+CVB infections in mice, including CVB infections known to cause virus-induced 
+myocarditis. In addition, it blocks CVB-induced diabetes in a genetically 
+permissive mouse model. Our preclinical proof-of-concept studies demonstrate the 
+successful generation of a promising hexavalent CVB vaccine with high 
+immunogenicity capable of preventing CVB-induced diseases.
+
+Copyright © 2020 The Authors, some rights reserved; exclusive licensee American 
+Association for the Advancement of Science. No claim to original U.S. Government 
+Works. Distributed under a Creative Commons Attribution NonCommercial License 
+4.0 (CC BY-NC).
+
+DOI: 10.1126/sciadv.aaz2433
+PMCID: PMC7202868
+PMID: 32494709 [Indexed for MEDLINE]

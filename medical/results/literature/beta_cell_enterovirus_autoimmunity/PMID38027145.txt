@@ -1,0 +1,62 @@
+1. Front Endocrinol (Lausanne). 2023 Oct 30;14:1236574. doi: 
+10.3389/fendo.2023.1236574. eCollection 2023.
+
+Enteroviral infections are not associated with type 2 diabetes.
+
+Liu H(#)(1)(2), Geravandi S(#)(1)(2), Grasso AM(1), Sikdar S(1), Pugliese 
+A(2)(3)(4)(5), Maedler K(1)(2).
+
+Author information:
+(1)Centre for Biomolecular Interactions Bremen, University of Bremen, Bremen, 
+Germany.
+(2)The JDRF nPOD-Virus Group.
+(3)Diabetes Research Institute, Department of Medicine, Division of 
+Endocrinology and Metabolism, Miami, FL, United States.
+(4)Department of Microbiology and Immunology, Leonard Miller School of Medicine, 
+University of Miami, Miami, FL, United States.
+(5)Department of Diabetes Immunology & The Wanek Family Project for Type 1 
+Diabetes, Arthur Riggs Diabetes & Metabolism Research Institute, City of Hope, 
+Duarte, CA, United States.
+(#)Contributed equally
+
+INTRODUCTION: For more than a century, enteroviral infections have been 
+associated with autoimmunity and type 1 diabetes (T1D). Uncontrolled viral 
+response pathways repeatedly presented during childhood highly correlate with 
+autoimmunity and T1D. Virus responses evoke chemokines and cytokines, the 
+"cytokine storm" circulating through the body and attack cells especially 
+vulnerable to inflammatory destruction. Intra-islet inflammation is a major 
+trigger of β-cell failure in both T1D and T2D. The genetic contribution of islet 
+inflammation pathways is apparent in T1D, with several mutations in the 
+interferon system. In contrast, in T2D, gene mutations are related to glucose 
+homeostasis in β cells and insulin-target tissue and rarely within viral 
+response pathways. Therefore, the current study evaluated whether enteroviral 
+RNA can be found in the pancreas from organ donors with T2D and its association 
+with disease progression.
+METHODS: Pancreases from well-characterized 29 organ donors with T2D and 15 age- 
+and BMI-matched controls were obtained from the network for pancreatic organ 
+donors with diabetes and were analyzed in duplicates. Single-molecule 
+fluorescence in-situ hybridization analyses were performed using three probe 
+sets to detect positive-strand enteroviral RNA; pancreas sections were 
+co-stained by classical immunostaining for insulin and CD45.
+RESULTS: There was no difference in the presence or localization of enteroviral 
+RNA in control nondiabetic and T2D pancreases; viral infiltration showed large 
+heterogeneity in both groups ranging from 0 to 94 virus+ cells scattered 
+throughout the pancreas, most of them in the exocrine pancreas. Very rarely, a 
+single virus+ cell was found within islets or co-stained with CD45+ immune 
+cells. Only one single T2D donor presented an exceptionally high number of 
+viruses, similarly as seen previously in T1D, which correlated with a highly 
+reduced number of β cells.
+DISCUSSION: No association of enteroviral infection in the pancreas and T2D 
+diabetes could be found. Despite great similarities in inflammatory markers in 
+islets in T1D and T2D, long-term enteroviral infiltration is a distinct 
+pathological feature of T1D-associated autoimmunity and in T1D pancreases.
+
+Copyright © 2023 Liu, Geravandi, Grasso, Sikdar, Pugliese and Maedler.
+
+DOI: 10.3389/fendo.2023.1236574
+PMCID: PMC10643152
+PMID: 38027145 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that the research was 
+conducted in the absence of any commercial or financial relationships that could 
+be construed as a potential conflict of interest.

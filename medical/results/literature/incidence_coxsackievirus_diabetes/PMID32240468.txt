@@ -1,0 +1,43 @@
+1. Mol Biol Rep. 2020 Apr;47(4):2835-2843. doi: 10.1007/s11033-020-05333-6. Epub 
+2020 Apr 2.
+
+Characterization of Coxsackievirus B4 virus-like particles VLP produced by the 
+recombinant baculovirus-insect cell system expressing the major capsid protein.
+
+Hassine IH(1)(2), Gharbi J(3)(4), Hamrita B(1), Almalki MA(5), Rodríguez JF(2), 
+Ben M'hadheb M(1).
+
+Author information:
+(1)Unité de Recherche UR17ES30 "Génomique, Biotechnologie et Stratégies 
+Antivirales", Institut Supérieur de Biotechnologie, Université de Monastir, 
+BP74, Avenue Tahar Hadded, 5000, Monastir, Tunisia.
+(2)Department of Molecular and Cellular Biology, Centro Nacional de 
+Biotecnología-CSIC, Cantoblanco, 28049, Madrid, Spain.
+(3)Unité de Recherche UR17ES30 "Génomique, Biotechnologie et Stratégies 
+Antivirales", Institut Supérieur de Biotechnologie, Université de Monastir, 
+BP74, Avenue Tahar Hadded, 5000, Monastir, Tunisia. jagharbi@kfu.edu.sa.
+(4)Department of Biological Sciences, College of Science, King Faisal 
+University, P.O. Box 380, Al-Ahsa, 31982, Saudi Arabia. jagharbi@kfu.edu.sa.
+(5)Department of Biological Sciences, College of Science, King Faisal 
+University, P.O. Box 380, Al-Ahsa, 31982, Saudi Arabia.
+
+Coxsackievirus B4 (CV-B4) is suspected to be an environmental factor that has 
+the intrinsic capacity to damage the pancreatic beta cells and therefore causes 
+insulitis and type 1 diabetes (T1D). Although vaccination against CV-B4 could 
+reduce the incidence of this chronic auto-immune disease, there is currently no 
+therapeutic reagent or vaccine in clinical use. By the employment of the 
+Bac-to-Bac® vector system to express the major viral capsid protein, we 
+contributed towards the development of a CV-B4 vaccine by producing CV-B4 
+virus-like particles (VLPs) from recombinant baculovirus in infected insect 
+cells. In fact Western blot and Immunofluorescence analysis detected the viral 
+protein 1 (VP1) in the cells resulting from the construction of a recombinant 
+bacmid DNA carrying the key immunogenic protein then transfected in the insect 
+cells. Sucrose gradient ultracentrifugation fractions of the infected cell 
+lysates contained the recombinant protein and the electron microscopy 
+demonstrated the presence of VLPs in these sucrose fractions. This study clearly 
+shows for the first time the expression of CVB4 VP1 structure protein alone can 
+form VLPs in the baculovirus-infected insect cell keeping conserved both 
+characteristics and morphology.
+
+DOI: 10.1007/s11033-020-05333-6
+PMID: 32240468 [Indexed for MEDLINE]

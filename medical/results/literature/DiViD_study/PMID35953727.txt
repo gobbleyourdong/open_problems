@@ -1,0 +1,80 @@
+1. Diabetologia. 2022 Dec;65(12):2108-2120. doi: 10.1007/s00125-022-05779-2. Epub
+ 2022 Aug 12.
+
+Live enteroviruses, but not other viruses, detected in human pancreas at the 
+onset of type 1 diabetes in the DiViD study.
+
+Krogvold L(1)(2), Genoni A(3), Puggioni A(3), Campani D(4), Richardson SJ(5), 
+Flaxman CS(5), Edwin B(6), Buanes T(6), Dahl-Jørgensen K(7)(8), Toniolo A(9).
+
+Author information:
+(1)Division of Pediatric and Adolescent Medicine, Oslo University Hospital, 
+Oslo, Norway. lars.krogvold@gmail.com.
+(2)Institute of Clinical Dentistry, Faculty of Dentistry, University of Oslo, 
+Oslo, Norway. lars.krogvold@gmail.com.
+(3)Department of Biotechnology and Life Sciences, University of Insubria, 
+Varese, Italy.
+(4)Department of Surgical, Medical and Molecular Pathology and Critical Care, 
+University of Pisa, Pisa, Italy.
+(5)Islet Biology Group (IBEx), Exeter Centre of Excellence in Diabetes (EXCEED), 
+University of Exeter College of Medicine and Health, Exeter, UK.
+(6)Department for HPB Surgery, Oslo University Hospital, Oslo, Norway.
+(7)Division of Pediatric and Adolescent Medicine, Oslo University Hospital, 
+Oslo, Norway.
+(8)Institute of Clinical Medicine, Faculty of Medicine, University of Oslo, 
+Oslo, Norway.
+(9)Global Virus Network, University of Insubria, Varese, Italy.
+
+AIMS/HYPOTHESIS: Enterovirus (EV) infection of pancreatic islet cells is one 
+possible factor contributing to type 1 diabetes development. We have reported 
+the presence of EV genome by PCR and of EV proteins by immunohistochemistry in 
+pancreatic sections. Here we explore multiple human virus species in the 
+Diabetes Virus Detection (DiViD) study cases using innovative methods, including 
+virus passage in cell cultures.
+METHODS: Six recent-onset type 1 diabetes patients (age 24-35) were included in 
+the DiViD study. Minimal pancreatic tail resection was performed under sterile 
+conditions. Eleven live cases (age 43-83) of pancreatic carcinoma without 
+diabetes served as control cases. In the present study, we used EV detection 
+methods that combine virus growth in cell culture, gene amplification and 
+detection of virus-coded proteins by immunofluorescence. Pancreas homogenates in 
+cell culture medium were incubated with EV-susceptible cell lines for 3 days. 
+Two to three blind passages were performed. DNA and RNA were extracted from both 
+pancreas tissue and cell cultures. Real-time PCR was used for detecting 20 
+different viral agents other than EVs (six herpesviruses, human polyomavirus [BK 
+virus and JC virus], parvovirus B19, hepatitis B virus, hepatitis C virus, 
+hepatitis A virus, mumps, rubella, influenza A/B, parainfluenza 1-4, respiratory 
+syncytial virus, astrovirus, norovirus, rotavirus). EV genomes were detected by 
+endpoint PCR using five primer pairs targeting the partially conserved 5' 
+untranslated region genome region of the A, B, C and D species. Amplicons were 
+sequenced. The expression of EV capsid proteins was evaluated in cultured cells 
+using a panel of EV antibodies.
+RESULTS: Samples from six of six individuals with type 1 diabetes (cases) and 
+two of 11 individuals without diabetes (control cases) contained EV genomes 
+(p<0.05). In contrast, genomes of 20 human viruses other than EVs could be 
+detected only once in an individual with diabetes (Epstein-Barr virus) and once 
+in an individual without diabetes (parvovirus B19). EV detection was confirmed 
+by immunofluorescence of cultured cells incubated with pancreatic extracts: 
+viral antigens were expressed in the cytoplasm of approximately 1% of cells. 
+Notably, infection could be transmitted from EV-positive cell cultures to 
+uninfected cell cultures using supernatants filtered through 100 nm membranes, 
+indicating that infectious agents of less than 100 nm were present in 
+pancreases. Due to the slow progression of infection in EV-carrying cell 
+cultures, cytopathic effects were not observed by standard microscopy but were 
+recognised by measuring cell viability. Sequences of 5' untranslated region 
+amplicons were compatible with EVs of the B, A and C species. Compared with 
+control cell cultures exposed to EV-negative pancreatic extracts, EV-carrying 
+cell cultures produced significantly higher levels of IL-6, IL-8 and monocyte 
+chemoattractant protein-1 (MCP1).
+CONCLUSIONS/INTERPRETATION: Sensitive assays confirm that the pancreases of all 
+DiViD cases contain EVs but no other viruses. Analogous EV strains have been 
+found in pancreases of two of 11 individuals without diabetes. The detected EV 
+strains can be passaged in series from one cell culture to another in the form 
+of poorly replicating live viruses encoding antigenic proteins recognised by 
+multiple EV-specific antibodies. Thus, the early phase of type 1 diabetes is 
+associated with a low-grade infection by EVs, but not by other viral agents.
+
+© 2022. The Author(s).
+
+DOI: 10.1007/s00125-022-05779-2
+PMCID: PMC9630231
+PMID: 35953727 [Indexed for MEDLINE]

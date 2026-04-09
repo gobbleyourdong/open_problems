@@ -1,0 +1,16 @@
+name = "MedThermo"
+version = "0.1.0"
+keywords = ["math", "biology", "thermodynamics", "medicine"]
+defaultTargets = ["MedThermo"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.29.0"
+
+[[lean_lib]]
+name = "MedThermo"

@@ -1,0 +1,65 @@
+1. BMJ Open. 2024 Jul 4;14(7):e087557. doi: 10.1136/bmjopen-2024-087557.
+
+Periodontitis in patients with diabetes and its association with 
+diabetes-related complications. A register-based cohort study.
+
+Trullenque-Eriksson A(1), Tomasi C(2), Eeg-Olofsson K(3), Berglundh T(2), 
+Petzold M(4), Derks J(2).
+
+Author information:
+(1)Department of Periodontology, Institute of Odontology, Sahlgrenska Academy, 
+University of Gothenburg, Gothenburg, Sweden anna.trullenque.eriksson@gu.se.
+(2)Department of Periodontology, Institute of Odontology, Sahlgrenska Academy, 
+University of Gothenburg, Gothenburg, Sweden.
+(3)Swedish National Diabetes Register, Gothenburg, Sweden.
+(4)Institute of Medicine, Sahlgrenska Academy, University of Gothenburg, 
+Gothenburg, Sweden.
+
+OBJECTIVE: To evaluate the association between type 1 diabetes (T1D)/type 2 
+diabetes (T2D) and periodontitis and assess the influence of periodontitis on 
+diabetes-related complications.
+DESIGN: Observational study; longitudinal analysis of register data.
+SETTING: Swedish primary care centres, hospitals and dental clinics reporting to 
+nationwide healthcare registers (2010-2020).
+PARTICIPANTS: 28 801 individuals with T1D (13 022 women; mean age 42 years) and 
+57 839 individuals without diabetes (non-T1D; 26 271 women; mean age 43 years). 
+251 645 individuals with T2D (110 627 women; mean age 61 years) and 539 805 
+individuals without diabetes (non-T2D; 235 533 women; mean age 60 years). 
+Diabetes and non-diabetes groups were matched for age, gender and county of 
+residence.
+MAIN OUTCOME MEASURES: Prevalent periodontitis, diabetes-related complications 
+(retinopathy, albuminuria, stroke and ischaemic heart disease) and mortality.
+RESULTS: Periodontitis was more common among T2D (22%) than non-T2D (17%). 
+Differences were larger in younger age groups (adjusted RR at age 30-39 years 
+1.92; 95% CI 1.81 to 2.03) and exacerbated by poor glycaemic control. 
+Periodontitis prevalence was 13% in T1D and 11% in non-T1D; only the subgroup 
+with poor glycaemic control was at higher risk for periodontitis. Periodontitis 
+was associated with a higher incidence of retinopathy (T1D: HR 1.08, 95% CI 1.02 
+to 1.14; T2D: HR 1.08, 95% CI 1.06 to 1.10) and albuminuria (T1D: HR 1.14, 95% 
+CI 1.06 to 1.23; T2D: HR 1.09, 95% CI 1.07 to 1.11). Periodontitis was not 
+associated with a higher risk for stroke, cardiovascular disease or higher 
+mortality in T1D/T2D.
+CONCLUSIONS: The association between T2D and periodontitis was strong and 
+exacerbated by poor glycaemic control. For T1D, the association to periodontitis 
+was limited to subgroups with poor glycaemic control. Periodontitis contributed 
+to an increased risk for retinopathy and albuminuria in T1D and T2D.
+
+© Author(s) (or their employer(s)) 2024. Re-use permitted under CC BY-NC. No 
+commercial re-use. See rights and permissions. Published by BMJ.
+
+DOI: 10.1136/bmjopen-2024-087557
+PMCID: PMC11227830
+PMID: 38964804 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: All authors have completed 
+the ICMJE uniform disclosure form at 
+http://www.icmje.org/disclosure-of-interest/ and declare: ATE, CT, TB and JD had 
+financial support from the Eklund Foundation (grant 2018-132) and TUA Research 
+Funding (grants TUAGBG-919531 & TUAGBG-979382) for the submitted work; CT serves 
+as a consultant for PreBiomics S.r.I (outside the present work); TB serves as an 
+advisor for the Swedish Quality Registry for Caries and Periodontal Diseases 
+(SKaPa); KEO serves as the director of the Swedish National Diabetes Register 
+(NDR) and has received fees for lecturing and/or honoraria for consulting from 
+Sanofi, Novo Nordisk, Eli Lilly and Abbot Diabetes Care (all outside the present 
+work); no other relationships or activities that could appear to have influenced 
+the submitted work.

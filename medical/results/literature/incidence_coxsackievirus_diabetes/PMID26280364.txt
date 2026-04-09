@@ -1,0 +1,29 @@
+1. Curr Diab Rep. 2015 Oct;15(10):73. doi: 10.1007/s11892-015-0654-x.
+
+Mechanisms of Beta Cell Dysfunction Associated With Viral Infection.
+
+Petzold A(1), Solimena M, Knoch KP.
+
+Author information:
+(1)Paul Langerhans Institute Dresden of the Helmholtz Center Munich at 
+University Hospital Carl Gustav Carus and Faculty of Medicine, Technische 
+Universität Dresden, Fetscherstr.74, 01307, Dresden, Germany, 
+antje.petzold@mailbox.tu-dresden.de.
+
+Type 1 diabetes (T1D) results from genetic predisposition and environmental 
+factors leading to the autoimmune destruction of pancreatic beta cells. 
+Recently, a rapid increase in the incidence of childhood T1D has been observed 
+worldwide; this is too fast to be explained by genetic factors alone, pointing 
+to the spreading of environmental factors linked to the disease. Enteroviruses 
+(EVs) are perhaps the most investigated environmental agents in relationship to 
+the pathogenesis of T1D. While several studies point to the likelihood of such 
+correlation, epidemiological evidence in its support is inconclusive or in some 
+instances even against it. Hence, it is still unknown if and how EVs are 
+involved in the development of T1D. Here we review recent findings concerning 
+the biology of EV in beta cells and the potential implications of this knowledge 
+for the understanding of beta cell dysfunction and autoimmune destruction in 
+T1D.
+
+DOI: 10.1007/s11892-015-0654-x
+PMCID: PMC4539350
+PMID: 26280364 [Indexed for MEDLINE]

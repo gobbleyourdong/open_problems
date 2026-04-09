@@ -1,0 +1,56 @@
+1. Cancer Causes Control. 2025 Sep;36(9):957-964. doi:
+10.1007/s10552-025-01998-1.  Epub 2025 Apr 24.
+
+Clustering of childhood acute leukemia in Finland: a nationwide register-based 
+study.
+
+Ventelä J(1), Korja M(2), Auvinen A(3), Lohi O(4), Nikkilä A(4).
+
+Author information:
+(1)Faculty of Medicine and Health Technology, Tampere University, Tampere, 
+Finland. julia.ventela@tuni.fi.
+(2)Faculty of Medicine and Health Technology, Tampere University, Tampere, 
+Finland.
+(3)Faculty of Social Sciences, Tampere University and Tampere University 
+Hospital, Tampere, Finland.
+(4)Tampere Center for Child, Adolescent, Maternal Health Research and Tays 
+Cancer Center, Tampere University and Tampere University Hospital, Tampere, 
+Finland.
+
+PURPOSE: Acute leukemia is the most common childhood malignancy, with suspected 
+contributions from environmental factors and immune responses to common 
+pathogens. A recent meta-analysis indicated possible spatiotemporal clustering, 
+though the findings were hindered by data quality limitations. We investigated 
+spatial and spatiotemporal clustering of childhood leukemia using advanced 
+methods and complete residential histories.
+METHODS: We included patients aged 0-17 years diagnosed in 1990-2019, using data 
+from the Finnish Cancer Registry. A 1:3 age- and sex-matched case-control design 
+was employed and residential history data with exact coordinates was collected. 
+Clustering was evaluated using the Cuzick-Edwards test, Knox test, Kulldorff's 
+scan statistic, and Jacquez's Q statistic.
+RESULTS: The dataset included 1,626 childhood leukemia cases (median age 
+5.0 years, 54% male). The Knox test revealed no evidence of spatiotemporal 
+clustering. However, the Cuzick-Edwards test revealed spatial clustering at 
+diagnosis addresses for children under 1 year (OR 1.35, 95% CI 1.14-1.57). 
+Further analysis with Jacquez's Q test using complete residential histories 
+identified significant spatiotemporal clustering in young children (ages 
+1.5-5.99 years) with acute lymphoblastic leukemia (ALL, p = 0.037). We also 
+tested for co-incidence between leukemia and type 1 diabetes but found no 
+clustering.
+CONCLUSION: Overall, we found limited evidence for clustering. In the subgroup 
+analyses, significant spatiotemporal clustering in acute lymphoblastic leukemia 
+cases among children aged 1.5-5.99 years was observed, coinciding with the peak 
+incidence in early childhood. Previous research has shown that this age group 
+has distinct genetic characteristics and may possess a unique etiology.
+
+© 2025. The Author(s).
+
+DOI: 10.1007/s10552-025-01998-1
+PMCID: PMC12380987
+PMID: 40272762 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declarations. Competing interests: The authors 
+declare no competing interests. Ethical approval: According to Finnish research 
+legislation, ethical approval was not required for this study as it was based on 
+registry data. This study has the research permission from Finnish Social and 
+Health Data Permit Authority, Findata.

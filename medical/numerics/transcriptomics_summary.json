@@ -1,0 +1,559 @@
+{
+  "GSE278756": {
+    "title": "CVB4 infection of human beta cells (EndoC-\u03b2H1) and decidual cells",
+    "n_genes": 60683,
+    "n_samples": 9,
+    "sample_names": [
+      "Control-T1_RReadsPerGene.out.tab",
+      "Control-T2_RReadsPerGene.out.tab",
+      "Control-T3_RReadsPerGene.out.tab",
+      "Infected-E2-T1_RReadsPerGene.out.tab",
+      "Infected-E2-T2_RReadsPerGene.out.tab",
+      "Infected-E2-T3_RReadsPerGene.out.tab",
+      "Infected-JVB-T1_RReadsPerGene.out.tab",
+      "Infected-JVB-T2_RReadsPerGene.out.tab",
+      "Infected-JVB-T3_RReadsPerGene.out.tab"
+    ],
+    "key_gene_expression": {
+      "ISG15": {
+        "mean_count": 12.4,
+        "max_count": 17.0,
+        "counts": [
+          17.0,
+          15.0,
+          13.0,
+          8.0,
+          7.0,
+          11.0,
+          13.0,
+          15.0,
+          13.0
+        ]
+      },
+      "NLRP3": {
+        "mean_count": 0.6,
+        "max_count": 2.0,
+        "counts": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          2.0
+        ]
+      },
+      "IL1B": {
+        "mean_count": 100.8,
+        "max_count": 144.0,
+        "counts": [
+          62.0,
+          79.0,
+          128.0,
+          136.0,
+          144.0,
+          72.0,
+          128.0,
+          50.0,
+          108.0
+        ]
+      },
+      "IFIH1": {
+        "mean_count": 92.9,
+        "max_count": 125.0,
+        "counts": [
+          100.0,
+          105.0,
+          125.0,
+          94.0,
+          60.0,
+          75.0,
+          92.0,
+          92.0,
+          93.0
+        ]
+      },
+      "STAT1": {
+        "mean_count": 1186.4,
+        "max_count": 1378.0,
+        "counts": [
+          1211.0,
+          1297.0,
+          1378.0,
+          1163.0,
+          1034.0,
+          953.0,
+          1238.0,
+          1236.0,
+          1168.0
+        ]
+      },
+      "CXCL10": {
+        "mean_count": 0.7,
+        "max_count": 3.0,
+        "counts": [
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          3.0,
+          1.0
+        ]
+      },
+      "CASP3": {
+        "mean_count": 532.2,
+        "max_count": 703.0,
+        "counts": [
+          703.0,
+          622.0,
+          674.0,
+          486.0,
+          361.0,
+          368.0,
+          555.0,
+          520.0,
+          501.0
+        ]
+      },
+      "TLR3": {
+        "mean_count": 2.9,
+        "max_count": 6.0,
+        "counts": [
+          3.0,
+          4.0,
+          6.0,
+          3.0,
+          4.0,
+          0.0,
+          2.0,
+          3.0,
+          1.0
+        ]
+      },
+      "TNF": {
+        "mean_count": 1.3,
+        "max_count": 2.0,
+        "counts": [
+          0.0,
+          1.0,
+          1.0,
+          2.0,
+          2.0,
+          2.0,
+          0.0,
+          2.0,
+          2.0
+        ]
+      },
+      "IFNB1": {
+        "mean_count": 0.2,
+        "max_count": 1.0,
+        "counts": [
+          0.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "IFNA1": {
+        "mean_count": 0.1,
+        "max_count": 1.0,
+        "counts": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DDX58": {
+        "mean_count": 93.3,
+        "max_count": 120.0,
+        "counts": [
+          98.0,
+          103.0,
+          120.0,
+          98.0,
+          83.0,
+          54.0,
+          87.0,
+          103.0,
+          94.0
+        ]
+      },
+      "IRF7": {
+        "mean_count": 109.7,
+        "max_count": 124.0,
+        "counts": [
+          118.0,
+          123.0,
+          107.0,
+          124.0,
+          86.0,
+          114.0,
+          94.0,
+          107.0,
+          114.0
+        ]
+      },
+      "INS": {
+        "mean_count": 4276.3,
+        "max_count": 6430.0,
+        "counts": [
+          6147.0,
+          6430.0,
+          5026.0,
+          6101.0,
+          1725.0,
+          2972.0,
+          3150.0,
+          2341.0,
+          4595.0
+        ]
+      },
+      "MKI67": {
+        "mean_count": 2454.9,
+        "max_count": 3410.0,
+        "counts": [
+          3410.0,
+          3028.0,
+          2920.0,
+          2350.0,
+          1471.0,
+          1493.0,
+          2240.0,
+          2529.0,
+          2653.0
+        ]
+      },
+      "OAS1": {
+        "mean_count": 25.2,
+        "max_count": 36.0,
+        "counts": [
+          21.0,
+          28.0,
+          31.0,
+          21.0,
+          28.0,
+          11.0,
+          36.0,
+          24.0,
+          27.0
+        ]
+      },
+      "PDX1": {
+        "mean_count": 5709.7,
+        "max_count": 7083.0,
+        "counts": [
+          6270.0,
+          7027.0,
+          7083.0,
+          5367.0,
+          4155.0,
+          4155.0,
+          5726.0,
+          5604.0,
+          6000.0
+        ]
+      },
+      "BCL2": {
+        "mean_count": 60.1,
+        "max_count": 75.0,
+        "counts": [
+          74.0,
+          75.0,
+          65.0,
+          57.0,
+          41.0,
+          49.0,
+          68.0,
+          52.0,
+          60.0
+        ]
+      },
+      "BAX": {
+        "mean_count": 547.6,
+        "max_count": 718.0,
+        "counts": [
+          671.0,
+          718.0,
+          641.0,
+          611.0,
+          383.0,
+          393.0,
+          513.0,
+          482.0,
+          516.0
+        ]
+      },
+      "IRF3": {
+        "mean_count": 132.7,
+        "max_count": 190.0,
+        "counts": [
+          155.0,
+          132.0,
+          131.0,
+          190.0,
+          103.0,
+          115.0,
+          121.0,
+          117.0,
+          130.0
+        ]
+      },
+      "MX1": {
+        "mean_count": 44.9,
+        "max_count": 73.0,
+        "counts": [
+          38.0,
+          49.0,
+          42.0,
+          29.0,
+          38.0,
+          33.0,
+          53.0,
+          73.0,
+          49.0
+        ]
+      }
+    },
+    "data_type": "RNA-seq count matrix"
+  },
+  "GSE184831": {
+    "title": "Persistent CVB1 infection \u2014 extensive transcriptome changes in human cells",
+    "n_genes": 26485,
+    "n_samples": 9,
+    "sample_names": [
+      "TB1_CNTRL_ATCC_levy_S1",
+      "TB2_CNTRL_ATCC_levy_S2",
+      "TB3_CNTRL_ATCC_levy_S3",
+      "TB4_CVB1_ATCC_EXP2_S4",
+      "TB5_CVB1_ATCC_EXP2_S5",
+      "TB6_CVB1_ATCC_EXP2_S6",
+      "TB7_CVB1_CDC7_S7",
+      "TB8_CVB1_CDC7_S8",
+      "TB9_CVB1_CDC7_S9"
+    ],
+    "key_gene_expression": {
+      "ISG15": {
+        "mean_count": 635.6,
+        "max_count": 1603.0
+      },
+      "INS": {
+        "mean_count": 0.0,
+        "max_count": 0.0
+      },
+      "OAS1": {
+        "mean_count": 94.0,
+        "max_count": 196.0
+      },
+      "PDX1": {
+        "mean_count": 13.6,
+        "max_count": 31.0
+      },
+      "IRF3": {
+        "mean_count": 974.2,
+        "max_count": 1334.0
+      },
+      "IL1B": {
+        "mean_count": 0.2,
+        "max_count": 1.0
+      },
+      "IFIH1": {
+        "mean_count": 1147.2,
+        "max_count": 2931.0
+      },
+      "STAT1": {
+        "mean_count": 3807.1,
+        "max_count": 5273.0
+      },
+      "MX1": {
+        "mean_count": 456.1,
+        "max_count": 1296.0
+      },
+      "CASP3": {
+        "mean_count": 873.1,
+        "max_count": 1088.0
+      },
+      "TLR3": {
+        "mean_count": 12.0,
+        "max_count": 27.0
+      },
+      "TNF": {
+        "mean_count": 6.1,
+        "max_count": 15.0
+      },
+      "IFNB1": {
+        "mean_count": 0.9,
+        "max_count": 3.0
+      }
+    },
+    "data_type": "RNA-seq count matrix"
+  },
+  "series_matrices": [
+    {
+      "file": "GSE123550_series_matrix.txt",
+      "title": "Transcriptome analysis of brainstem in gerbils with EV71-infection-induced HFMD",
+      "organism": "Meriones unguiculatus\"\t\"Meriones unguiculatus\"\t\"Meriones unguiculatus\"\t\"Meriones unguiculatus\"\t\"Meriones unguiculatus\"\t\"Meriones unguiculatus",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE247807_series_matrix.txt",
+      "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upo",
+      "organism": "Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE273336_series_matrix.txt",
+      "title": "Enhanced RNAi does not provide efficient innate antiviral immunity in mice in vivo (organs small RNA",
+      "organism": "Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE184831_series_matrix.txt",
+      "title": "Persistent Coxsackievirus B1 infection results in extensive changes in the transcriptome of a pancre",
+      "organism": "Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE17800_series_matrix.txt",
+      "title": "Myocardial gene expression profiles and cardiodepressant autoantibodies predict response of patients",
+      "organism": "Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE174458_series_matrix.txt",
+      "title": "Dissecting the Cellular Landscape and Transcriptome Network in Viral Myocarditis by Single-Cell RNA ",
+      "organism": "Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE214851_series_matrix.txt",
+      "title": "ADAR1-dependent editing participates to the human beta-cells transcriptome diversity during inflamma",
+      "organism": "Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE278756_series_matrix.txt",
+      "title": "Viral triggers of Type 1 diabetes: Effects of Coxsackie B virus infection on transcriptome of tropho",
+      "organism": "Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE2656_series_matrix.txt",
+      "title": "Gene expression profile of human heart failure from different etiologies",
+      "organism": "Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE44706_series_matrix.txt",
+      "title": "Coxsackievirus B3 (CVB3) infection of 129S1 and 129X1 (heart tissue day 6)",
+      "organism": "Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE19496_series_matrix.txt",
+      "title": "Coxsackievirus B3 (CVB3) infection of AJ, B10.A, CSS3 and B6.chr3AJ (heart tissue day 4)",
+      "organism": "Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE35182_series_matrix.txt",
+      "title": "Sex differences during  acute myocarditis against coxsackievirus B3 (CVB3)-induced myocarditis (10 d",
+      "organism": "Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE274264_series_matrix.txt",
+      "title": "Coxsackievirus B infection invokes unique cell-type-specific responses in primary human pancreatic i",
+      "organism": "Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE42955_series_matrix.txt",
+      "title": "Expression data from human heart",
+      "organism": "Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE308777_series_matrix.txt",
+      "title": "Precise Gene Editing of Pathogenic Lamin A Mutations Corrects Cardiac Disease",
+      "organism": "Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE261940_series_matrix.txt",
+      "title": "Soluble ST2 induces cardiac contractile dysfunction by repressing mitochondrial electron transport c",
+      "organism": "Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE247806_series_matrix.txt",
+      "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upo",
+      "organism": "Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE248521_series_matrix.txt",
+      "title": "GPR15-mediated T cell recruitment during acute viral myocarditis facilitated virus elimination and i",
+      "organism": "Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE247808_series_matrix.txt",
+      "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upo",
+      "organism": "Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE247805_series_matrix.txt",
+      "title": "Vascularized Macrophage-Islet Organoids to Model Immune-Mediated Pancreatic beta cell Pyroptosis upo",
+      "organism": "Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE121971_series_matrix.txt",
+      "title": "Transcriptome analysis of brainstem in gerbils with CA16-infection-induced HFMD",
+      "organism": "Meriones unguiculatus\"\t\"Meriones unguiculatus\"\t\"Meriones unguiculatus\"\t\"Meriones unguiculatus\"\t\"Meriones unguiculatus\"\t\"Meriones unguiculatus",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE26630_series_matrix.txt",
+      "title": "The study of sex differences during the innate immune response against coxsackievirus B3 (CVB3)-indu",
+      "organism": "Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE19303_series_matrix.txt",
+      "title": "Changes of myocardial gene expression and protein composition in patients with dilated cardiomyopath",
+      "organism": "Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE1457_series_matrix.txt",
+      "title": "CxVB3 infection and cardiac function",
+      "organism": "Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus\"\t\"Mus musculus",
+      "n_samples_approx": 1
+    },
+    {
+      "file": "GSE57781_series_matrix.txt",
+      "title": "Human Induced Pluripotent Stem Cell-Derived Cardiomyocytes as an In Vitro Model for Coxsackievirus B",
+      "organism": "Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens\"\t\"Homo sapiens",
+      "n_samples_approx": 1
+    }
+  ]
+}

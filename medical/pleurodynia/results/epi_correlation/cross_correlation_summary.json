@@ -1,0 +1,219 @@
+{
+  "analysis": "CVB epidemic \u2194 T1DM incidence cross-correlation",
+  "data_source": "Published EURODIAB/DiaMond registries + CDC/ECDC surveillance",
+  "peak_lags": {
+    "Finland": {
+      "tau": 4,
+      "r": 0.111,
+      "p": 0.4174
+    },
+    "Sweden": {
+      "tau": 0,
+      "r": 0.074,
+      "p": 0.5937
+    },
+    "USA": {
+      "tau": 3,
+      "r": 0.439,
+      "p": 0.0037
+    }
+  },
+  "susceptibility_ordering_confirmed": false,
+  "susceptibility_spearman_rho": -0.5,
+  "susceptibility_spearman_p": 0.6667,
+  "granger_causality": {
+    "Finland": {
+      "lag_1": {
+        "F": 0.027,
+        "p": 0.8701
+      },
+      "lag_2": {
+        "F": 0.1477,
+        "p": 0.8631
+      },
+      "lag_3": {
+        "F": 0.1594,
+        "p": 0.9231
+      },
+      "lag_4": {
+        "F": 0.1246,
+        "p": 0.9729
+      },
+      "lag_5": {
+        "F": 0.4217,
+        "p": 0.8311
+      }
+    },
+    "Sweden": {
+      "lag_1": {
+        "F": 0.6712,
+        "p": 0.4164
+      },
+      "lag_2": {
+        "F": 0.8675,
+        "p": 0.4265
+      },
+      "lag_3": {
+        "F": 0.68,
+        "p": 0.5689
+      },
+      "lag_4": {
+        "F": 1.5583,
+        "p": 0.2031
+      },
+      "lag_5": {
+        "F": 1.9994,
+        "p": 0.1002
+      }
+    },
+    "USA": {
+      "lag_1": {
+        "F": 2.208,
+        "p": 0.1449
+      },
+      "lag_2": {
+        "F": 1.7163,
+        "p": 0.1934
+      },
+      "lag_3": {
+        "F": 1.5115,
+        "p": 0.2286
+      },
+      "lag_4": {
+        "F": 1.4223,
+        "p": 0.2491
+      },
+      "lag_5": {
+        "F": 1.7349,
+        "p": 0.1581
+      }
+    }
+  },
+  "seasonal_lag3mo_r": 0.668,
+  "seasonal_lag3mo_p": 0.0176,
+  "bornholm_1952": {
+    "cvb_epidemic_year": 1952,
+    "t1dm_roc_peak_year": 1954,
+    "lag_years": 2
+  },
+  "pubmed_records_found": 8,
+  "pubmed_top_results": [
+    {
+      "pmid": "40336495",
+      "date": "2025 Oct",
+      "title": "Doughnut Sign: A Mixed Plaque Phenotype Unraveled Only by the Photon Counting",
+      "authors": [
+        "Revaiah PC",
+        "Serruys PW",
+        "Hynes SO",
+        "Bourantas CV",
+        "Precht H",
+        "Onuma Y",
+        "Maffei E",
+        "Cademartiri F"
+      ]
+    },
+    {
+      "pmid": "40090995",
+      "date": "2025 Jun",
+      "title": "Enterovirus VP1 protein and HLA class I hyperexpression in pancreatic islet cells",
+      "authors": [
+        "Rodriguez-Calvo T",
+        "Laiho JE",
+        "Oikarinen M",
+        "Akhbari P",
+        "Flaxman C",
+        "Worthington T",
+        "Apaolaza P",
+        "Kaddis JS",
+        "Kusmartseva I",
+        "Tauriainen S",
+        "Campbell-Thompson M",
+        "Atkinson MA",
+        "von Herrath M",
+        "Hyoty H",
+        "Morgan NG",
+        "Pugliese A",
+        "Richardson SJ"
+      ]
+    },
+    {
+      "pmid": "38446892",
+      "date": "2024 Mar 8",
+      "title": "Coxsackievirus infection induces direct pancreatic beta cell killing but poor",
+      "authors": [
+        "Vecchio F",
+        "Carre A",
+        "Korenkov D",
+        "Zhou Z",
+        "Apaolaza P",
+        "Tuomela S",
+        "Burgos-Morales O",
+        "Snowhite I",
+        "Perez-Hernandez J",
+        "Brandao B",
+        "Afonso G",
+        "Halliez C",
+        "Kaddis J",
+        "Kent SC",
+        "Nakayama M",
+        "Richardson SJ",
+        "Vinh J",
+        "Verdier Y",
+        "Laiho J",
+        "Scharfmann R",
+        "Solimena M",
+        "Marinicova Z",
+        "Bismuth E",
+        "Lucidarme N",
+        "Sanchez J",
+        "Bustamante C",
+        "Gomez P",
+        "Buus S",
+        "You S",
+        "Pugliese A",
+        "Hyoty H",
+        "Rodriguez-Calvo T",
+        "Flodstrom-Tullberg M",
+        "Mallone R"
+      ]
+    },
+    {
+      "pmid": "38349953",
+      "date": "2023 Nov",
+      "title": "Serum neurofilament light chain - A potential biomarker for polyneuropathy in",
+      "authors": [
+        "Maatta LL",
+        "Andersen ST",
+        "Parkner T",
+        "Hviid CVB",
+        "Bjerg L",
+        "Kural MA",
+        "Charles M",
+        "Sondergaard E",
+        "Sandbaek A",
+        "Tankisi H",
+        "Witte DR",
+        "Jensen TS"
+      ]
+    },
+    {
+      "pmid": "35457242",
+      "date": "2022 Apr 17",
+      "title": "Peptide Antibody Reactivity to Homologous Regions in Glutamate Decarboxylase",
+      "authors": [
+        "Trier NH",
+        "Valdarnini N",
+        "Fanelli I",
+        "Rovero P",
+        "Hansen PR",
+        "Schafer-Nielsen C",
+        "Ciplys E",
+        "Slibinskas R",
+        "Pociot F",
+        "Friis T",
+        "Houen G"
+      ]
+    }
+  ]
+}

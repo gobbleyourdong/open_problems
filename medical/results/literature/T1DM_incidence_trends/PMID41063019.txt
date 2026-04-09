@@ -1,0 +1,82 @@
+1. BMC Public Health. 2025 Oct 8;25(1):3381. doi: 10.1186/s12889-025-24674-0.
+
+Epidemiological trend in diabetic kidney disease (DKD) burden in China from 1990 
+to 2021, and projections for 2041: an analysis of the global burden of disease 
+study 2021.
+
+Li H(1), Wang J(2), Zhang T(1), Lou P(3), Xu L(1), Ma L(4).
+
+Author information:
+(1)Department of endocrine, The Fourth Clinical Medical College of Xinjiang 
+Medical University, Urumqi, 830000, China.
+(2)Xinjiang Laboratory of Respiratory Disease Research, Traditional Chinese 
+Medicine Hospital Affiliated to Xinjiang Medical University, Urumqi, 830000, 
+China.
+(3)Department of Big Data, College of Information Engineering, Xinjiang 
+Institute of Engineering, Urumqi, 830023, China.
+(4)Department of endocrine, The Fourth Clinical Medical College of Xinjiang 
+Medical University, Urumqi, 830000, China. malixj322122@163.com.
+
+BACKGROUND: Diabetic kidney disease (DKD) is a leading cause of renal failure 
+and mortality in diabetic patients. This study aims to describe and assess the 
+burden of diabetic kidney disease in China, based on the global burden of 
+disease (GBD) 2021 data and to provide a crucial scientific foundation for the 
+prevention and control of this life-threatening disease.
+METHODS: This study utilizes data from the 2021 Global Burden of Disease (GBD) 
+study database. During the study, we systematically assessed the disease burden 
+characteristics of diabetic kidney disease (DKD) in the Chinese population 
+through comprehensive analysis of key epidemiological indicators including 
+prevalence, incidence, mortality, years of life lost (YLLs), years lived with 
+disability (YLDs), and disability-adjusted life years (DALYs). We also used 
+Joinpoint decomposition analysis and age-period-cohort (APC) analysis methods to 
+interpret DKD epidemiological characteristics. Furthermore, we extended the 
+autoregressive integrated moving average (ARIMA) model to predict the disease 
+burden of DKD in 2041.
+RESULTS: Age-standardized rates in terms of prevalence (ASPR), incidence (ASIR), 
+mortality (ASMR), DALYs, YLDs, and YLLs of DKD-T1DM in 2021 were 28.32 cases 
+(95% CI:23.95,33.23) per 100,000, 0.7 new cases (95% CI:0.38,1.14) per 100,000, 
+1.06 deaths (95% CI:0.79,1.38) per 100,000, 47.95 DALYs (95% CI: 36.9,60.73) per 
+100,000, 4.55 YLDs (95% CI:3,6.25) per 100,000, and 43.4 YLLs (95% 
+CI:33.05,55.97) per 100,000. Age-standardized rates in terms of prevalence 
+(ASPR), incidence (ASIR), mortality (ASMR), DALYs, YLDs, and YLLs of DKD-T2DM in 
+2021 were 1053.92 cases (95% CI: 971.11, 1139.64) per 100,000, 16.29 new cases 
+(95% CI: 14.92,17.53) per 100,000, 5.64 deaths (95% CI: 4.46,7) per 100,000, 
+122.15 DALYs (95% CI: 99.62,146.99) per 100,000, 23.3 YLDs (95% CI: 16.29,30.54) 
+per 100,000, and 98.85 YLLs (95% CI:78.16,123.45) per 100,000. The average 
+annual percentage change (AAPC) in age-standardized prevalence, incidence and 
+mortality rates for T1DM-DKD in China were 0.79 (95% CI:0.75,0.84), -0.62 (95% 
+CI:-0.66,-0.59), -1.72 (95% CI:-1.91,-1.53) and for T2DM-DKD they were - 0.46 
+(95% CI:-0.49,-0.42), 0.22 (95% CI:0.20,0.26),-0.6417 (95% CI:-0.82,-0.47). The 
+effects of age, period, and cohort on incidence and mortality rates differed.The 
+age-standardized mortality rate (ASMR) of DKD-T1DM is projected to decline from 
+1.06(95% CI: 0.79-1.38) per 100,000 in 2021 to 0.60(95% CI: 0.32-0.88) per 
+100,000 in 2041. In contrast, while the ASMR of DKD-T2DM is expected to decrease 
+from 5.64(95%CI: 4.46-7.00) in 2021 to 4.84(95% CI: 3.66-6.02) per 100,000 in 
+2041.The trend of ASIR in DKD-T1DM is predicted to decrease slightly, but in 
+DKD-T2DM will show an obvious upward trend, it will increase from 16.29(95% CI: 
+14.92-17.53) per 100,000 in 2021 to 24.14(95% CI: 14.78-33.50) per 100,000 in 
+2041.
+CONCLUSIONS: The burden of diabetic kidney disease (DKD) in China exhibits a 
+dual trajectory: declining mortality in type 1 diabetes-related DKD (DKD-T1DM), 
+alongside rising incidence of type 2 diabetes-related DKD (DKD-T2DM). This 
+epidemiological divergence is associated with China's vast population base, 
+demographic aging, and evolving risk profiles, though projections require 
+cautious interpretation given ARIMA model limitations in accounting for 
+unforeseen healthcare disruptions or policy shifts. Sustainable mitigation 
+necessitates precision prevention strategies, enhanced primary healthcare 
+services, and targeted interventions to address urban-rural diagnostic 
+disparities, particularly underestimated burdens in resource-limited rural 
+settings, alongside multidisciplinary coordination to address this growing 
+public health challenge.
+
+© 2025. The Author(s).
+
+DOI: 10.1186/s12889-025-24674-0
+PMCID: PMC12505696
+PMID: 41063019 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declarations. Ethics approval and consent to 
+participate: Ethical approval and informed consent were waived because the GBD 
+is publicly available and no identifable information was included in the 
+analyses. Consent for publication: Not applicable. Competing interests: The 
+authors declare no competing interests.

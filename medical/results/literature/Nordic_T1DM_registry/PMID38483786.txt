@@ -1,0 +1,70 @@
+1. Infection. 2024 Oct;52(5):1745-1752. doi: 10.1007/s15010-024-02210-3. Epub
+2024  Mar 14.
+
+Incidence of invasive infections with Group B streptococcus in adults in Norway 
+1996-2019: a nationwide registry-based case-control study.
+
+Uggen E(1)(2), Olaisen C(3), Lyng RV(3), Simonsen GS(4)(5), Bævre-Jensen RM(6), 
+Gran FW(3), Åsvold BO(7)(8)(9), Nilsen TIL(10)(11), Damås JK(12)(13)(14), Afset 
+JE(12)(3)(13).
+
+Author information:
+(1)Faculty of Medicine and Health Sciences, Norwegian University of Science and 
+Technology, Trondheim, Norway. eliseu@stud.ntnu.no.
+(2)Mid-Norway Centre of Sepsis Research, Trondheim, Norway. eliseu@stud.ntnu.no.
+(3)Department of Medical Microbiology, St. Olavs Hospital, Trondheim University 
+Hospital, Trondheim, Norway.
+(4)Department of Microbiology and Infection Control, University Hospital of 
+North Norway, Tromsø, Norway.
+(5)Research Group for Host-Microbee Interaction, Faculty of Health Sciences, UiT 
+- The Arctic University of Norway, Tromsø, Norway.
+(6)Department of Medical Microbiology, Vestre Viken Hospital Trust, Drammen, 
+Norway.
+(7)HUNT Center for Molecular and Clinical Epidemiology, Department of Public 
+Health and Nursing, NTNU, Trondheim, Norway.
+(8)HUNT Research Center, Department of Public Health and Nursing, NTNU, 
+Levanger, Norway.
+(9)Department of Endocrinology, Clinic of Medicine, St. Olavs Hospital, 
+Trondheim University Hospital, Trondheim, Norway.
+(10)Department of Public Health and Nursing, Norwegian University of Science and 
+Technology, Trondheim, Norway.
+(11)Clinic of Anaesthesia and Intensive Care, St Olavs Hospital Trondheim 
+University Hospital, Trondheim, Norway.
+(12)Mid-Norway Centre of Sepsis Research, Trondheim, Norway.
+(13)Department of Clinical and Molecular Medicine, Faculty of Medicine and 
+Health Sciences, Norwegian University of Science and Technology, Trondheim, 
+Norway.
+(14)Department of Infectious Diseases, Clinic of Medicine, St. Olavs Hospital, 
+Trondheim University Hospital, Trondheim, Norway.
+
+PURPOSE: Group B streptococcus (GBS) colonizes the gastrointestinal and vaginal 
+mucosa in healthy adults, but has also become an increasing cause of invasive 
+infection. The aims of this study were to describe the incidence and factors 
+associated with the occurrence of invasive GBS disease in adults in Norway.
+METHODS: We performed a nationwide retrospective case-control study of invasive 
+GBS infections during 1996-2019, with two control groups; invasive Group A 
+streptococcal disease (GAS) to control for changes in surveillance and 
+diagnostics, and a second representing the general population.
+RESULTS: A total of 3710 GBS episodes were identified. The age-standardized 
+incidence rate increased steadily from 1.10 (95% CI 0.80-1.50) in 1996 to 6.70 
+(95% CI 5.90-7.50) per 100,000 person-years in 2019. The incidence rate had an 
+average annual increase of 6.44% (95% CI 5.12-7.78). Incidence rates of GAS 
+varied considerably, and there was no evidence of a consistent change over the 
+study period. GBS incidence was highest among adults > 60 years of age. 
+Cardiovascular disease, cancer, and diabetes were the most common comorbid 
+conditions. There was a shift in the distribution of capsular serotypes from 
+three dominant types to more equal distribution among the six most common 
+serotypes.
+CONCLUSIONS: The incidence of invasive GBS disease in adults increased 
+significantly from 1996 to 2019. The increasing age of the population with 
+accompanying underlying comorbid conditions might contribute to the increasing 
+burden of invasive GBS disease. Interestingly, type 1 diabetes was also 
+associated with the occurrence of invasive GBS disease.
+
+© 2024. The Author(s).
+
+DOI: 10.1007/s15010-024-02210-3
+PMCID: PMC11499455
+PMID: 38483786 [Indexed for MEDLINE]
+
+Conflict of interest statement: None.

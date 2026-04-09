@@ -1,0 +1,56 @@
+1. Diabetes Care. 2021 Jul;44(7):1579-1585. doi: 10.2337/dc20-1092. Epub 2021 Jun
+ 3.
+
+Increased Incidence of Pediatric Type 1 Diabetes With Novel Association With 
+Coxsackievirus A Species in Young Children but Declined Incidence in Adolescents 
+in Taiwan.
+
+Shih WL(1)(2), Tung YC(3), Chang LY(4)(3), Fang CT(1)(5), Tsai WY(3).
+
+Author information:
+(1)Institute of Epidemiology and Preventive Medicine, College of Public Health, 
+National Taiwan University, Taipei, Taiwan.
+(2)Infectious Diseases Research and Education Center, Ministry of Health and 
+Welfare and National Taiwan University, Taipei, Taiwan.
+(3)Department of Pediatrics, National Taiwan University Hospital, College of 
+Medicine, National Taiwan University, Taipei, Taiwan.
+(4)Institute of Epidemiology and Preventive Medicine, College of Public Health, 
+National Taiwan University, Taipei, Taiwan lychang@ntu.edu.tw.
+(5)Department of Internal Medicine, National Taiwan University Hospital, College 
+of Medicine, National Taiwan University, Taipei, Taiwan.
+
+Comment in
+    Diabetes Care. 2022 Jan 1;45(1):e11. doi: 10.2337/dci21-0046.
+    Diabetes Care. 2022 Jan 1;45(1):e10. doi: 10.2337/dc21-1398.
+
+OBJECTIVE: Type 1 diabetes (T1D) has been linked to enterovirus infection in 
+small population-based epidemiological studies. We investigated the secular 
+relationship of T1D incidence with enterovirus infection and enterovirus species 
+using nationwide population-based analysis.
+RESEARCH DESIGN AND METHODS: We accessed the National Health Insurance Research 
+Database of Taiwan to identify T1D and enterovirus infection cases from 2001 to 
+2015. Enterovirus serotype isolation rates were obtained from the nationwide 
+laboratory surveillance systems. Negative binomial regression models assessed 
+the incidence trend, and extended Cox proportional hazards models analyzed the 
+association of enterovirus infection with T1D incidence. Spearman correlation 
+coefficients evaluated the correlation between T1D incidence and circulating 
+enterovirus species.
+RESULTS: T1D incidence rates in youth younger than 20 years were 6.30 and 5.02 
+per 100,000 person-years in 2001 and 2015 (P = 0.287), respectively. T1D 
+incidence increased significantly in children aged 0-6 years (P < 0.001) but 
+decreased in adolescents aged 13-19 years (P = 0.011). The T1D risk in children 
+aged 0-6 years with enterovirus infection was significantly higher than that in 
+noninfected subjects (hazard ratio 1.46; 95% CI 1.35-1.58; P < 0.001). 
+Additionally, TID incidence in children aged 0-6 years was significantly 
+correlated with the isolation rates of coxsackievirus A species (r = 0.60; P = 
+0.017), but no association was found beyond the age of 7.
+CONCLUSIONS: We demonstrated that T1D incidence increased in children aged 0-6 
+years but decreased in adolescents aged 13-19 years in Taiwan. 
+Enterovirus-infected subjects younger than 7 years had a higher risk of T1D than 
+noninfected subjects.
+
+© 2021 by the American Diabetes Association.
+
+DOI: 10.2337/dc20-1092
+PMCID: PMC8323190
+PMID: 34083323 [Indexed for MEDLINE]

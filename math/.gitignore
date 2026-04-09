@@ -1,0 +1,5 @@
+__pycache__/
+*.pdb
+*.map.gz
+*.cif
+t1dm/numerics/structures/

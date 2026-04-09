@@ -1,0 +1,105 @@
+1. J Nutr. 2026 Feb 28;156(5):101456. doi: 10.1016/j.tjnut.2026.101456. Online 
+ahead of print.
+
+Marine n-3 Long-Chain Polyunsaturated Fatty Acid Intake in Pregnancy and Risk of 
+Early Life Infections in 3 Nordic Cohorts: A HEDIMED Consortium Study.
+
+Rantala AK(1), Hakola L(2), Brustad N(3), Tapia G(4), Hård Af Segerstad EM(5), 
+Lehtonen J(6), Thorsen J(7), Åkerlund M(8), Parr CL(9), Magnus MC(10), Lund-Blix 
+NA(11), Stokholm J(12), Knip M(13), Toppari J(14), Størdal K(15), Veijola R(16), 
+Hyöty H(17), Virtanen SM(18), Bønnelykke K(7), Stene LC(4); HEDIMED Investigator 
+Group.
+
+Author information:
+(1)Department of Chronic Diseases, Norwegian Institute of Public Health, Oslo, 
+Norway; Center for Environmental and Respiratory Health Research (CERH), 
+Research Unit of Population Health, University of Oulu, Oulu, Finland. 
+Electronic address: aino.rantala@oulu.fi.
+(2)Department of Public Health, Finnish Institute for Health and Welfare, 
+Helsinki, Finland; Faculty of Social Sciences, Unit of Health Sciences, Tampere 
+University, Tampere, Finland; Tampere University Hospital, Research, Development 
+and Innovation Center, Tampere, Finland. Electronic address: 
+leena.hakola@tuni.fi.
+(3)Copenhagen Prospective Studies on Asthma in Childhood, Herlev and Gentofte 
+Hospital, Copenhagen, Denmark.
+(4)Department of Chronic Diseases, Norwegian Institute of Public Health, Oslo, 
+Norway.
+(5)Department of Paediatric and Adolescent Medicine, Oslo University Hospital, 
+Oslo, Norway; Celiac Disease and Diabetes Unit, Clinical Sciences Malmoe, Lund 
+University, Malmoe, Sweden.
+(6)Department of Virology, Faculty of Medicine and Health Technology, Tampere 
+University, Tampere, Finland.
+(7)Copenhagen Prospective Studies on Asthma in Childhood, Herlev and Gentofte 
+Hospital, Copenhagen, Denmark; Department of Clinical Medicine, University of 
+Copenhagen, Copenhagen, Denmark.
+(8)Department of Public Health, Finnish Institute for Health and Welfare, 
+Helsinki, Finland; Faculty of Social Sciences, Unit of Health Sciences, Tampere 
+University, Tampere, Finland.
+(9)Norwegian Scientific Committee for Food and Environment, Oslo, Norway.
+(10)Centre for Fertility and Health, Norwegian Institute of Public Health, Oslo, 
+Norway.
+(11)Department of Chronic Diseases, Norwegian Institute of Public Health, Oslo, 
+Norway; The Norwegian Childhood Diabetes Registry, Division of Childhood and 
+Adolescent Medicine, Oslo University Hospital, Oslo, Norway.
+(12)Copenhagen Prospective Studies on Asthma in Childhood, Herlev and Gentofte 
+Hospital, Copenhagen, Denmark; Department of Food Science, University of 
+Copenhagen, Frederiksberg C, Denmark.
+(13)Research Program for Clinical and Molecular Metabolism, Faculty of Medicine, 
+University of Helsinki, Helsinki, Finland; Department of Pediatrics, Tampere 
+University Hospital, Tampere, Finland.
+(14)Institute of Biomedicine, Research Centre for Integrative Physiology and 
+Pharmacology, and Centre for Population Health Research, and InFLAMES Research 
+Centre, University of Turku, Turku, Finland; Department of Pediatrics, Turku 
+University Hospital, Turku, Finland.
+(15)Department of Paediatric and Adolescent Medicine, Oslo University Hospital, 
+Oslo, Norway; Department of Paediatric Research, Institute of Clinical Medicine, 
+Faculty of Medicine, University of Oslo, Oslo, Norway.
+(16)Department of Pediatrics, PEDEGO Research Unit, Medical Research Center, 
+University of Oulu, Oulu, Finland; Department of Children and Adolescents, Oulu 
+University Hospital, Oulu, Finland.
+(17)Department of Virology, Faculty of Medicine and Health Technology, Tampere 
+University, Tampere, Finland; Department of Pediatrics, Tampere University 
+Hospital, Tampere, Finland; Fimlab Laboratories, Tampere, Finland.
+(18)Department of Public Health, Finnish Institute for Health and Welfare, 
+Helsinki, Finland; Faculty of Social Sciences, Unit of Health Sciences, Tampere 
+University, Tampere, Finland; Tampere University Hospital, Research, Development 
+and Innovation Center, Tampere, Finland; Center for Child, Adolescent and 
+Maternal Health Research, Tampere University and Tampere University Hospital, 
+Tampere.
+
+BACKGROUND: n-3 (ω-3) long-chain polyunsaturated fatty acids (n-3 LCPUFAs) have 
+anti-inflammatory effects that may influence immune-mediated diseases.
+OBJECTIVES: We investigated whether higher maternal pregnancy intake of n-3 
+LCPUFA is associated with a lower incidence of infections in young children.
+METHODS: We used data from 3 Nordic cohorts: the Norwegian Mother, Father and 
+Child Cohort study (MoBa, n = 76,026), the Finnish Diabetes Prediction and 
+Prevention Study (DIPP, n = 560), and the Copenhagen Prospective Studies on 
+Asthma in Childhood 2010 cohort (COPSAC2010, n = 680). Childhood infections up 
+to age 36 mo were assessed using questionnaires in MoBa, coxsackievirus B 1-6 
+(CVB1-6) neutralizing antibodies in DIPP, and pathogenic viral PCR 
+identification from acute respiratory episodes in COPSAC2010. Maternal n-3 
+LCPUFA intake was assessed through validated food frequency questionnaires in 
+MoBa and DIPP, whereas COPSAC2010 used a randomized trial design where pregnant 
+women received fish oil capsules or a placebo.
+RESULTS: Higher n-3 LCPUFA intake was not significantly associated with lower 
+respiratory tract infection (adjusted incidence rate ratio [aIRR]: 0.99; 95% CI: 
+0.94-1.03) but was associated with a reduced risk of upper respiratory tract 
+infections (aIRR: 0.99; 95% CI: 0.98-0.99) and gastroenteritis (aIRR: 0.96; 95% 
+CI: 0.95-0.98) per g/d up to age 36 mo in MoBa. The DIPP study found no 
+association between n-3 LCPUFA intake and having ≥1 CVB infection (adjusted odds 
+ratio: 1.74; 95% CI: 0.64-4.72, per g/d). The COPSAC2010 trial found no 
+significant effects of the intervention for pathogen-specific respiratory 
+episodes (IRR: 0.86; 95% CI: 0.69-1.07).
+CONCLUSIONS: This study does not provide consistent evidence that higher 
+maternal n-3 LCPUFA pregnancy intake reduces the risk of infections in early 
+childhood.
+CLINICAL TRIAL REGISTRY: This trial was registered as NCT00798226, 
+https://clinicaltrials.gov/study/NCT00798226.
+
+Copyright © 2026 The Author(s). Published by Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.tjnut.2026.101456
+PMID: 41771441
+
+Conflict of interest statement: Conflict of interest The authors report no 
+conflicts of interest.

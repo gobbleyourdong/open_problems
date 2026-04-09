@@ -1,0 +1,251 @@
+{
+  "analysis_date": "2026-04-08",
+  "model_version": "1.0",
+  "cvb_burden_scenarios": {
+    "conservative": {
+      "total_mecfs_us": 836000,
+      "ev_positive_cases": 167200,
+      "cvb_cases": 66880,
+      "ev_detection_rate": 0.2,
+      "cvb_fraction": 0.4,
+      "burden_fraction": 0.08,
+      "cvb_burden_usd_annual": 1360000000.0,
+      "annual_cost_input": 17000000000.0
+    },
+    "central": {
+      "total_mecfs_us": 1500000,
+      "ev_positive_cases": 525000,
+      "cvb_cases": 315000,
+      "ev_detection_rate": 0.35,
+      "cvb_fraction": 0.6,
+      "burden_fraction": 0.21,
+      "cvb_burden_usd_annual": 4200000000.0,
+      "annual_cost_input": 20000000000.0
+    },
+    "optimistic": {
+      "total_mecfs_us": 2500000,
+      "ev_positive_cases": 1325000,
+      "cvb_cases": 1060000,
+      "ev_detection_rate": 0.53,
+      "cvb_fraction": 0.8,
+      "burden_fraction": 0.424,
+      "cvb_burden_usd_annual": 10176000000.0,
+      "annual_cost_input": 24000000000.0
+    }
+  },
+  "protocol_responsiveness": {
+    "conservative": {
+      "total_mecfs_us": 836000,
+      "ev_positive_cases": 167200,
+      "cvb_cases": 66880,
+      "ev_detection_rate": 0.2,
+      "cvb_fraction": 0.4,
+      "burden_fraction": 0.08,
+      "cvb_burden_usd_annual": 1360000000.0,
+      "annual_cost_input": 17000000000.0,
+      "dual_marker_cases": 117040,
+      "responsive_conservative": 66880,
+      "responsive_liberal": 167200,
+      "responsive_mid": 117040,
+      "pct_responsive_conservative": 8.0,
+      "pct_responsive_liberal": 20.0,
+      "pct_responsive_mid": 14.0
+    },
+    "central": {
+      "total_mecfs_us": 1500000,
+      "ev_positive_cases": 525000,
+      "cvb_cases": 315000,
+      "ev_detection_rate": 0.35,
+      "cvb_fraction": 0.6,
+      "burden_fraction": 0.21,
+      "cvb_burden_usd_annual": 4200000000.0,
+      "annual_cost_input": 20000000000.0,
+      "dual_marker_cases": 367500,
+      "responsive_conservative": 315000,
+      "responsive_liberal": 525000,
+      "responsive_mid": 420000,
+      "pct_responsive_conservative": 21.0,
+      "pct_responsive_liberal": 35.0,
+      "pct_responsive_mid": 28.0
+    },
+    "optimistic": {
+      "total_mecfs_us": 2500000,
+      "ev_positive_cases": 1325000,
+      "cvb_cases": 1060000,
+      "ev_detection_rate": 0.53,
+      "cvb_fraction": 0.8,
+      "burden_fraction": 0.424,
+      "cvb_burden_usd_annual": 10176000000.0,
+      "annual_cost_input": 24000000000.0,
+      "dual_marker_cases": 927500,
+      "responsive_conservative": 1060000,
+      "responsive_liberal": 1325000,
+      "responsive_mid": 1192500,
+      "pct_responsive_conservative": 42.4,
+      "pct_responsive_liberal": 53.0,
+      "pct_responsive_mid": 47.7
+    }
+  },
+  "cost_effectiveness": {
+    "conservative_efficacy_low": {
+      "scenario": "conservative",
+      "efficacy": 0.3,
+      "protocol_cost_per_patient": 4800.0,
+      "qaly_gained_per_patient": 0.578,
+      "saved_medical_costs_per_patient": 2310.0,
+      "net_incremental_cost": 2490.0,
+      "icer_per_qaly": 4307.0,
+      "cost_effective": true,
+      "responsive_patients": 117040,
+      "population_qaly_gained": 67661,
+      "population_cost": 561792000,
+      "population_savings": 270362400,
+      "net_population_cost": 291429600
+    },
+    "conservative_efficacy_mid": {
+      "scenario": "conservative",
+      "efficacy": 0.55,
+      "protocol_cost_per_patient": 4800.0,
+      "qaly_gained_per_patient": 1.06,
+      "saved_medical_costs_per_patient": 4235.0,
+      "net_incremental_cost": 565.0,
+      "icer_per_qaly": 533.0,
+      "cost_effective": true,
+      "responsive_patients": 117040,
+      "population_qaly_gained": 124045,
+      "population_cost": 561792000,
+      "population_savings": 495664400,
+      "net_population_cost": 66127600
+    },
+    "conservative_efficacy_high": {
+      "scenario": "conservative",
+      "efficacy": 0.75,
+      "protocol_cost_per_patient": 4800.0,
+      "qaly_gained_per_patient": 1.445,
+      "saved_medical_costs_per_patient": 5775.0,
+      "net_incremental_cost": -975.0,
+      "icer_per_qaly": -675.0,
+      "cost_effective": true,
+      "responsive_patients": 117040,
+      "population_qaly_gained": 169152,
+      "population_cost": 561792000,
+      "population_savings": 675906000,
+      "net_population_cost": -114114000
+    },
+    "central_efficacy_low": {
+      "scenario": "central",
+      "efficacy": 0.3,
+      "protocol_cost_per_patient": 4800.0,
+      "qaly_gained_per_patient": 0.578,
+      "saved_medical_costs_per_patient": 2310.0,
+      "net_incremental_cost": 2490.0,
+      "icer_per_qaly": 4307.0,
+      "cost_effective": true,
+      "responsive_patients": 420000,
+      "population_qaly_gained": 242802,
+      "population_cost": 2016000000,
+      "population_savings": 970200000,
+      "net_population_cost": 1045800000
+    },
+    "central_efficacy_mid": {
+      "scenario": "central",
+      "efficacy": 0.55,
+      "protocol_cost_per_patient": 4800.0,
+      "qaly_gained_per_patient": 1.06,
+      "saved_medical_costs_per_patient": 4235.0,
+      "net_incremental_cost": 565.0,
+      "icer_per_qaly": 533.0,
+      "cost_effective": true,
+      "responsive_patients": 420000,
+      "population_qaly_gained": 445137,
+      "population_cost": 2016000000,
+      "population_savings": 1778700000,
+      "net_population_cost": 237300000
+    },
+    "central_efficacy_high": {
+      "scenario": "central",
+      "efficacy": 0.75,
+      "protocol_cost_per_patient": 4800.0,
+      "qaly_gained_per_patient": 1.445,
+      "saved_medical_costs_per_patient": 5775.0,
+      "net_incremental_cost": -975.0,
+      "icer_per_qaly": -675.0,
+      "cost_effective": true,
+      "responsive_patients": 420000,
+      "population_qaly_gained": 607005,
+      "population_cost": 2016000000,
+      "population_savings": 2425500000,
+      "net_population_cost": -409500000
+    },
+    "optimistic_efficacy_low": {
+      "scenario": "optimistic",
+      "efficacy": 0.3,
+      "protocol_cost_per_patient": 4800.0,
+      "qaly_gained_per_patient": 0.578,
+      "saved_medical_costs_per_patient": 2310.0,
+      "net_incremental_cost": 2490.0,
+      "icer_per_qaly": 4307.0,
+      "cost_effective": true,
+      "responsive_patients": 1192500,
+      "population_qaly_gained": 689384,
+      "population_cost": 5724000000,
+      "population_savings": 2754675000,
+      "net_population_cost": 2969325000
+    },
+    "optimistic_efficacy_mid": {
+      "scenario": "optimistic",
+      "efficacy": 0.55,
+      "protocol_cost_per_patient": 4800.0,
+      "qaly_gained_per_patient": 1.06,
+      "saved_medical_costs_per_patient": 4235.0,
+      "net_incremental_cost": 565.0,
+      "icer_per_qaly": 533.0,
+      "cost_effective": true,
+      "responsive_patients": 1192500,
+      "population_qaly_gained": 1263871,
+      "population_cost": 5724000000,
+      "population_savings": 5050237500,
+      "net_population_cost": 673762500
+    },
+    "optimistic_efficacy_high": {
+      "scenario": "optimistic",
+      "efficacy": 0.75,
+      "protocol_cost_per_patient": 4800.0,
+      "qaly_gained_per_patient": 1.445,
+      "saved_medical_costs_per_patient": 5775.0,
+      "net_incremental_cost": -975.0,
+      "icer_per_qaly": -675.0,
+      "cost_effective": true,
+      "responsive_patients": 1192500,
+      "population_qaly_gained": 1723461,
+      "population_cost": 5724000000,
+      "population_savings": 6886687500,
+      "net_population_cost": -1162687500
+    }
+  },
+  "parameters": {
+    "us_cases_range": [
+      836000,
+      2500000
+    ],
+    "ev_detection_range": [
+      0.2,
+      0.53
+    ],
+    "cvb_fraction_range": [
+      0.4,
+      0.8
+    ],
+    "protocol_cost_per_year_usd": 2400,
+    "treatment_duration_years": 2.0,
+    "qaly_loss_per_patient_year": 0.47,
+    "wtp_threshold_usd": 50000,
+    "sources": {
+      "prevalence": "CDC 2015; IOM 2015",
+      "ev_detection": "Gow 1991 PMID 1653789; Clements 1995 PMID 7836862; Chia 2008 PMID 17898445",
+      "economic_burden": "Jason 2008 PMID 18277320",
+      "qaly": "Brouwers 2021 EQ-5D",
+      "nk_dysfunction": "Brenu 2011 PMID 21199756"
+    }
+  }
+}

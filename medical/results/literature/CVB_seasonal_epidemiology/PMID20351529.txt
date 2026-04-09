@@ -1,0 +1,36 @@
+1. Pediatr Infect Dis J. 2010 Apr;29(4):334-9. doi: 10.1097/INF.0b013e3181c2a1d2.
+
+Circulating viruses associated with severe complicated enterovirus infection in 
+Taiwan: a multi-year analysis.
+
+Wang YC(1), Cheng HB, Chen HH, Liu CM, Chou CH, Sung FC.
+
+Author information:
+(1)Department of Bioenvironmental Engineering, Chung Yuan Christian University 
+College of Engineering, Chung Li, Taiwan.
+
+BACKGROUND: Few studies have investigated the viral isolation characteristics 
+for severe complicated enterovirus infection (SCEI). This study evaluated the 
+seasonality and contribution of circulated viruses to the chronologic trend and 
+weekly reported SCEI epidemic.
+METHODS: Enterovirus infection surveillance and virology laboratory data in 2000 
+to 2008 obtained from the Centers for Disease Control in Taiwan were analyzed. 
+We measured the monthly and weekly virology isolation rates by viral types. The 
+virus-specific and the season-specific relative risks for SCEI and 95% 
+confidence intervals (CI) associated with the isolated circulating viruses and 
+weather status was evaluated.
+RESULTS: Among 1539 virology confirmed SCEI cases, the mean annual incidence 
+rates ranged from 0.72/100,000 to 32.5/100,000 in children aged 5 years and 
+less; rates were higher in warm months with cases peaking in June (12.6%). The 
+untypeable nonpolio enterovirus was the most frequently isolated type among the 
+monitored specimens (6.07%), followed by coxsackievirus A (3.99%), EV71 (1.77%), 
+coxsackievirus B (1.56%), and echovirus (1.23%). However, these SCEI cases had 
+very strong associations with the isolation of EV71 and coxsackievirus A and B. 
+The corresponding relative risks were 1.14 (95% CI, 1.11-1.17), 1.03 (95% CI, 
+1.01-1.04), and 1.09 (95% CI, 1.07-1.12), respectively, for 1% increase in 
+weekly isolation rate.
+CONCLUSIONS: Isolation rates for EV71 and coxsackieviruses A and B can predict 
+the development of SCEI cases, particularly in warm months.
+
+DOI: 10.1097/INF.0b013e3181c2a1d2
+PMID: 20351529 [Indexed for MEDLINE]

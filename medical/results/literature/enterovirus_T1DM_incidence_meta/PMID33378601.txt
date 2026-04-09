@@ -1,0 +1,64 @@
+1. Rev Med Virol. 2021 Sep;31(5):1-14. doi: 10.1002/rmv.2209. Epub 2020 Dec 30.
+
+The virome in early life and childhood and development of islet autoimmunity and 
+type 1 diabetes: A systematic review and meta-analysis of observational studies.
+
+Faulkner CL(1)(2), Luo YX(1)(2), Isaacs S(1)(2), Rawlinson WD(1)(2)(3)(4), Craig 
+ME(1)(2)(5)(6), Kim KW(1)(2).
+
+Author information:
+(1)School of Women's and Children's Health, University of New South Wales 
+Faculty of Medicine, Sydney, New South Wales, Australia.
+(2)Serology and Virology Division, NSW Health Pathology, Virology Research 
+Laboratory, Prince of Wales Hospital, Sydney, New South Wales, Australia.
+(3)School of Medical Sciences, University of New South Wales, Sydney, New South 
+Wales, Australia.
+(4)Faculty of Science, School of Biotechnology and Biomolecular Sciences, 
+University of New South Wales, Sydney, New South Wales, Australia.
+(5)Institute of Endocrinology and Diabetes, Children's Hospital at Westmead, 
+Sydney, New South Wales, Australia.
+(6)Discipline of Child and Adolescent Health, University of Sydney, Sydney, New 
+South Wales, Australia.
+
+Viruses are postulated as primary candidate triggers of islet autoimmunity (IA) 
+and type 1 diabetes (T1D), based on considerable epidemiological and 
+experimental evidence. Recent studies have investigated the association between 
+all viruses (the 'virome') and IA/T1D using metagenomic next-generation 
+sequencing (mNGS). Current associations between the early life virome and the 
+development of IA/T1D were analysed in a systematic review and meta-analysis of 
+human observational studies from Medline and EMBASE (published 2000-June 2020), 
+without language restriction. Inclusion criteria were as follows: cohort and 
+case-control studies examining the virome using mNGS in clinical specimens of 
+children ≤18 years who developed IA/T1D. The National Health and Medical 
+Research Council level of evidence scale and Newcastle-Ottawa scale were used 
+for study appraisal. Meta-analysis for exposure to specific viruses was 
+performed using random-effects models, and the strength of association was 
+measured using odds ratios (ORs) and 95% confidence intervals (CIs). Eligible 
+studies (one case-control, nine nested case-control) included 1,425 participants 
+(695 cases, 730 controls) and examined IA (n = 1,023) or T1D (n = 402). 
+Meta-analysis identified small but significant associations between IA and 
+number of stool samples positive for all enteroviruses (OR 1.14, 95% CI 
+1.00-1.29, p = 0.05; heterogeneity χ2  = 1.51, p = 0.68, I2  = 0%), consecutive 
+positivity for enteroviruses (1.55, 1.09-2.20, p = 0.01; χ2  = 0.19, p = 0.91, 
+I2  = 0%) and number of stool samples positive specifically for enterovirus B 
+(1.20, 1.01-1.42, p = 0.04; χ2  = 0.03, p = 0.86, I2  = 0%). Virome analyses to 
+date have demonstrated associations between enteroviruses and IA that may be 
+clinically significant. However, larger prospective mNGS studies with more 
+frequent sampling and follow-up from pregnancy are required to further elucidate 
+associations between early virus exposure and IA/T1D.
+
+© 2020 The Authors. Reviews in Medical Virology published by John Wiley & Sons 
+Ltd.
+
+DOI: 10.1002/rmv.2209
+PMCID: PMC8518965
+PMID: 33378601 [Indexed for MEDLINE]
+
+Conflict of interest statement: This work was supported by the National Health 
+and Medical Research Council Practitioner fellowship APP1136735 (to Maria E. 
+Craig), the Juvenile Diabetes Research Foundation International Postdoctoral 
+Fellowship 3‐PDF‐2020‐940‐A‐N and the Australian Diabetes Society Lindsey 
+Baudinet Award (to Ki Wook Kim). The authors would like to thank Professors 
+Ondrej Cinek and Kendra Vehik for providing supplementary raw data for inclusion 
+in this systematic review. The author declares that there is no conflict of 
+interests.

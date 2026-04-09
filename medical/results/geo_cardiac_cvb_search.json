@@ -1,0 +1,1088 @@
+{
+  "geo_searches": {
+    "cvb_myocarditis": {
+      "query": "\"coxsackievirus\" AND \"myocarditis\"",
+      "total_count": 20,
+      "retrieved": 20,
+      "datasets": [
+        {
+          "accession": "GSE261940",
+          "title": "Soluble ST2 induces cardiac contractile dysfunction by repressing mitochondrial electron transport chain genes in cardiomyocytes during fulminant myocarditis",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 20,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE248521",
+          "title": "GPR15-mediated T cell recruitment during acute viral myocarditis facilitated virus elimination and improved outcome",
+          "type": "Expression profiling by high throughput sequencing; Other",
+          "samples": 31,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE174458",
+          "title": "Dissecting the Cellular Landscape and Transcriptome Network in Viral Myocarditis by Single-Cell RNA Sequencing",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 4,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE121971",
+          "title": "Transcriptome analysis of brainstem in gerbils with CA16-infection-induced HFMD",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 6,
+          "organism": "Meriones unguiculatus"
+        },
+        {
+          "accession": "GSE57781",
+          "title": "Human Induced Pluripotent Stem Cell-Derived Cardiomyocytes as an In Vitro Model for Coxsackievirus B3-Induced Myocarditis and Antiviral Drug Screening Platform",
+          "type": "Expression profiling by array",
+          "samples": 4,
+          "organism": "Homo sapiens"
+        },
+        {
+          "accession": "GSE35182",
+          "title": "Sex differences during acute myocarditis against coxsackievirus B3 (CVB3)-induced myocarditis (10 dpi) and chronic myocarditis/dilated cardiomyopathy (DCM) against CVB3-induced myocarditis (90 dpi)",
+          "type": "Expression profiling by array",
+          "samples": 24,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GDS4436",
+          "title": "Sex effect on chronic coxsackievirus B3-induced myocarditis: heart",
+          "type": "Expression profiling by array",
+          "samples": 12,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GDS4311",
+          "title": "Sex effect on acute coxsackievirus B3-induced myocarditis: heart",
+          "type": "Expression profiling by array",
+          "samples": 12,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE19496",
+          "title": "Coxsackievirus B3 (CVB3) infection of AJ, B10.A, CSS3 and B6.chr3AJ (heart tissue day 4)",
+          "type": "Expression profiling by array",
+          "samples": 24,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE26630",
+          "title": "The study of sex differences during the innate immune response against coxsackievirus B3 (CVB3)-induced myocarditis (12hr post infection)",
+          "type": "Expression profiling by array",
+          "samples": 20,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE1457",
+          "title": "CxVB3 infection and cardiac function",
+          "type": "Expression profiling by array",
+          "samples": 7,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GDS1032",
+          "title": "Coxsackievirus B3 infection effect on hearts: time course",
+          "type": "Expression profiling by array",
+          "samples": 6,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GPL6246",
+          "title": "[MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]",
+          "type": "",
+          "samples": 30634,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24478",
+          "title": "pooled day 30 hearts from CxVB3 injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24477",
+          "title": "pooled day 9 hearts from CxVB3 injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24476",
+          "title": "pooled day 9 hearts from PBS injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24475",
+          "title": "pooled day 3 hearts from CxVB3 injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24474",
+          "title": "pooled day 3 hearts from PBS injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24473",
+          "title": "5 pooled baseline hearts",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24472",
+          "title": "pooled day 30 hearts from PBS injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        }
+      ]
+    },
+    "cvb_cardiomyopathy": {
+      "query": "\"coxsackievirus\" AND \"cardiomyopathy\"",
+      "total_count": 15,
+      "retrieved": 15,
+      "datasets": [
+        {
+          "accession": "GSE174458",
+          "title": "Dissecting the Cellular Landscape and Transcriptome Network in Viral Myocarditis by Single-Cell RNA Sequencing",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 4,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE35182",
+          "title": "Sex differences during acute myocarditis against coxsackievirus B3 (CVB3)-induced myocarditis (10 dpi) and chronic myocarditis/dilated cardiomyopathy (DCM) against CVB3-induced myocarditis (90 dpi)",
+          "type": "Expression profiling by array",
+          "samples": 24,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GDS4436",
+          "title": "Sex effect on chronic coxsackievirus B3-induced myocarditis: heart",
+          "type": "Expression profiling by array",
+          "samples": 12,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GDS4311",
+          "title": "Sex effect on acute coxsackievirus B3-induced myocarditis: heart",
+          "type": "Expression profiling by array",
+          "samples": 12,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE26630",
+          "title": "The study of sex differences during the innate immune response against coxsackievirus B3 (CVB3)-induced myocarditis (12hr post infection)",
+          "type": "Expression profiling by array",
+          "samples": 20,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE1457",
+          "title": "CxVB3 infection and cardiac function",
+          "type": "Expression profiling by array",
+          "samples": 7,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GDS1032",
+          "title": "Coxsackievirus B3 infection effect on hearts: time course",
+          "type": "Expression profiling by array",
+          "samples": 6,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GPL6246",
+          "title": "[MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]",
+          "type": "",
+          "samples": 30634,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24478",
+          "title": "pooled day 30 hearts from CxVB3 injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24477",
+          "title": "pooled day 9 hearts from CxVB3 injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24476",
+          "title": "pooled day 9 hearts from PBS injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24475",
+          "title": "pooled day 3 hearts from CxVB3 injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24474",
+          "title": "pooled day 3 hearts from PBS injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24473",
+          "title": "5 pooled baseline hearts",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24472",
+          "title": "pooled day 30 hearts from PBS injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        }
+      ]
+    },
+    "cvb_b3_heart": {
+      "query": "\"coxsackievirus B3\" AND \"heart\"",
+      "total_count": 22,
+      "retrieved": 22,
+      "datasets": [
+        {
+          "accession": "GSE273336",
+          "title": "Enhanced RNAi does not provide efficient innate antiviral immunity in mice in vivo (organs small RNA-Seq)",
+          "type": "Non-coding RNA profiling by high throughput sequencing",
+          "samples": 28,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE261940",
+          "title": "Soluble ST2 induces cardiac contractile dysfunction by repressing mitochondrial electron transport chain genes in cardiomyocytes during fulminant myocarditis",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 20,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE248521",
+          "title": "GPR15-mediated T cell recruitment during acute viral myocarditis facilitated virus elimination and improved outcome",
+          "type": "Expression profiling by high throughput sequencing; Other",
+          "samples": 31,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE174458",
+          "title": "Dissecting the Cellular Landscape and Transcriptome Network in Viral Myocarditis by Single-Cell RNA Sequencing",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 4,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE57781",
+          "title": "Human Induced Pluripotent Stem Cell-Derived Cardiomyocytes as an In Vitro Model for Coxsackievirus B3-Induced Myocarditis and Antiviral Drug Screening Platform",
+          "type": "Expression profiling by array",
+          "samples": 4,
+          "organism": "Homo sapiens"
+        },
+        {
+          "accession": "GSE44706",
+          "title": "Coxsackievirus B3 (CVB3) infection of 129S1 and 129X1 (heart tissue day 6)",
+          "type": "Expression profiling by array",
+          "samples": 12,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE35182",
+          "title": "Sex differences during acute myocarditis against coxsackievirus B3 (CVB3)-induced myocarditis (10 dpi) and chronic myocarditis/dilated cardiomyopathy (DCM) against CVB3-induced myocarditis (90 dpi)",
+          "type": "Expression profiling by array",
+          "samples": 24,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GDS4436",
+          "title": "Sex effect on chronic coxsackievirus B3-induced myocarditis: heart",
+          "type": "Expression profiling by array",
+          "samples": 12,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GDS4311",
+          "title": "Sex effect on acute coxsackievirus B3-induced myocarditis: heart",
+          "type": "Expression profiling by array",
+          "samples": 12,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE19496",
+          "title": "Coxsackievirus B3 (CVB3) infection of AJ, B10.A, CSS3 and B6.chr3AJ (heart tissue day 4)",
+          "type": "Expression profiling by array",
+          "samples": 24,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE26630",
+          "title": "The study of sex differences during the innate immune response against coxsackievirus B3 (CVB3)-induced myocarditis (12hr post infection)",
+          "type": "Expression profiling by array",
+          "samples": 20,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE1457",
+          "title": "CxVB3 infection and cardiac function",
+          "type": "Expression profiling by array",
+          "samples": 7,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GDS1032",
+          "title": "Coxsackievirus B3 infection effect on hearts: time course",
+          "type": "Expression profiling by array",
+          "samples": 6,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GPL81",
+          "title": "[MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array",
+          "type": "",
+          "samples": 6909,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GPL6246",
+          "title": "[MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]",
+          "type": "",
+          "samples": 30634,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24478",
+          "title": "pooled day 30 hearts from CxVB3 injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24477",
+          "title": "pooled day 9 hearts from CxVB3 injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24476",
+          "title": "pooled day 9 hearts from PBS injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24475",
+          "title": "pooled day 3 hearts from CxVB3 injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24474",
+          "title": "pooled day 3 hearts from PBS injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24473",
+          "title": "5 pooled baseline hearts",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24472",
+          "title": "pooled day 30 hearts from PBS injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        }
+      ]
+    },
+    "viral_myocarditis_tx": {
+      "query": "\"viral myocarditis\" AND \"transcriptome\"",
+      "total_count": 3,
+      "retrieved": 3,
+      "datasets": [
+        {
+          "accession": "GSE174458",
+          "title": "Dissecting the Cellular Landscape and Transcriptome Network in Viral Myocarditis by Single-Cell RNA Sequencing",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 4,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE123550",
+          "title": "Transcriptome analysis of brainstem in gerbils with EV71-infection-induced HFMD",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 6,
+          "organism": "Meriones unguiculatus"
+        },
+        {
+          "accession": "GSE121971",
+          "title": "Transcriptome analysis of brainstem in gerbils with CA16-infection-induced HFMD",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 6,
+          "organism": "Meriones unguiculatus"
+        }
+      ]
+    },
+    "dcm_viral_expression": {
+      "query": "\"dilated cardiomyopathy\" AND (\"virus\" OR \"viral\") AND \"expression\"",
+      "total_count": 17,
+      "retrieved": 17,
+      "datasets": [
+        {
+          "accession": "GSE308777",
+          "title": "Precise Gene Editing of Pathogenic Lamin A Mutations Corrects Cardiac Disease",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 18,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE210783",
+          "title": "Precise genomic editing of a pathogenic RBM20 mutation rescues dilated cardiomyopathy",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 28,
+          "organism": "Homo sapiens; Mus musculus"
+        },
+        {
+          "accession": "GSE174458",
+          "title": "Dissecting the Cellular Landscape and Transcriptome Network in Viral Myocarditis by Single-Cell RNA Sequencing",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 4,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE19303",
+          "title": "Changes of myocardial gene expression and protein composition in patients with dilated cardiomyopathy after immunoadsorption with subsequent immunoglobulin substitution",
+          "type": "Expression profiling by array",
+          "samples": 81,
+          "organism": "Homo sapiens"
+        },
+        {
+          "accession": "GSE42955",
+          "title": "Expression data from human heart",
+          "type": "Expression profiling by array",
+          "samples": 29,
+          "organism": "Homo sapiens"
+        },
+        {
+          "accession": "GDS4772",
+          "title": "Dilated cardiomyopathy: left ventricle apex",
+          "type": "Expression profiling by array",
+          "samples": 17,
+          "organism": "Homo sapiens"
+        },
+        {
+          "accession": "GSE17800",
+          "title": "Myocardial gene expression profiles and cardiodepressant autoantibodies predict response of patients with dilated cardiomyopathy to immunoadsorption therapy",
+          "type": "Expression profiling by array",
+          "samples": 48,
+          "organism": "Homo sapiens"
+        },
+        {
+          "accession": "GSE35182",
+          "title": "Sex differences during acute myocarditis against coxsackievirus B3 (CVB3)-induced myocarditis (10 dpi) and chronic myocarditis/dilated cardiomyopathy (DCM) against CVB3-induced myocarditis (90 dpi)",
+          "type": "Expression profiling by array",
+          "samples": 24,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GDS4436",
+          "title": "Sex effect on chronic coxsackievirus B3-induced myocarditis: heart",
+          "type": "Expression profiling by array",
+          "samples": 12,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GDS4311",
+          "title": "Sex effect on acute coxsackievirus B3-induced myocarditis: heart",
+          "type": "Expression profiling by array",
+          "samples": 12,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE2656",
+          "title": "Gene expression profile of human heart failure from different etiologies",
+          "type": "Expression profiling by array",
+          "samples": 49,
+          "organism": "Homo sapiens"
+        },
+        {
+          "accession": "GSE1457",
+          "title": "CxVB3 infection and cardiac function",
+          "type": "Expression profiling by array",
+          "samples": 7,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GDS1032",
+          "title": "Coxsackievirus B3 infection effect on hearts: time course",
+          "type": "Expression profiling by array",
+          "samples": 6,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GPL1261",
+          "title": "[Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array",
+          "type": "",
+          "samples": 59095,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GPL570",
+          "title": "[HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array",
+          "type": "",
+          "samples": 176383,
+          "organism": "Homo sapiens"
+        },
+        {
+          "accession": "GPL96",
+          "title": "[HG-U133A] Affymetrix Human Genome U133A Array",
+          "type": "",
+          "samples": 42505,
+          "organism": "Homo sapiens"
+        },
+        {
+          "accession": "GPL6244",
+          "title": "[HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]",
+          "type": "",
+          "samples": 38715,
+          "organism": "Homo sapiens"
+        }
+      ]
+    },
+    "pericarditis_expression": {
+      "query": "\"pericarditis\" AND \"expression\"",
+      "total_count": 6,
+      "retrieved": 6,
+      "datasets": [
+        {
+          "accession": "GSE279545",
+          "title": "Analysis of aortic gene expression in mice with aortic dissection treated with colchicine",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 8,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE186844",
+          "title": "The Circulating Exosomal Long RNAs Expression Reveals T Cell Mediated Inflammatory Response and The Potential Clinical Value Analysis in Ischemic Stroke",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 21,
+          "organism": "Homo sapiens"
+        },
+        {
+          "accession": "GSE112421",
+          "title": "In vivo transcriptome analysis of avian pathogenic Escherichia coli under the control of RstA/RstB two-component regulatory system",
+          "type": "Expression profiling by array",
+          "samples": 6,
+          "organism": "Escherichia coli str. K-12 substr. MG1655; Escherichia coli O157:H7 str. Sakai; Escherichia coli APEC O2; Escherichia coli O157:H7 str. EDL933; Escherichia coli CFT073"
+        },
+        {
+          "accession": "GSE65391",
+          "title": "Longitudinal transcriptional pediatric SLE study with clinical parameters",
+          "type": "Expression profiling by array",
+          "samples": 996,
+          "organism": "Homo sapiens"
+        },
+        {
+          "accession": "GSE30119",
+          "title": "Genome-wide analysis of whole blood transcriptional response to community-acquired Staphylococcus aureus infection in vivo",
+          "type": "Expression profiling by array",
+          "samples": 143,
+          "organism": "Homo sapiens"
+        },
+        {
+          "accession": "GSE19126",
+          "title": "Comparison of Gene Expression in Lung of Pigs Exhibiting Different Susceptibilities to Glasser's Disease",
+          "type": "Expression profiling by array",
+          "samples": 48,
+          "organism": "Sus scrofa"
+        }
+      ]
+    },
+    "cvb3_cardiomyocyte": {
+      "query": "\"coxsackievirus B3\" AND (\"cardiomyocyte\" OR \"cardiac\")",
+      "total_count": 16,
+      "retrieved": 16,
+      "datasets": [
+        {
+          "accession": "GSE261940",
+          "title": "Soluble ST2 induces cardiac contractile dysfunction by repressing mitochondrial electron transport chain genes in cardiomyocytes during fulminant myocarditis",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 20,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE248521",
+          "title": "GPR15-mediated T cell recruitment during acute viral myocarditis facilitated virus elimination and improved outcome",
+          "type": "Expression profiling by high throughput sequencing; Other",
+          "samples": 31,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE174458",
+          "title": "Dissecting the Cellular Landscape and Transcriptome Network in Viral Myocarditis by Single-Cell RNA Sequencing",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 4,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE57781",
+          "title": "Human Induced Pluripotent Stem Cell-Derived Cardiomyocytes as an In Vitro Model for Coxsackievirus B3-Induced Myocarditis and Antiviral Drug Screening Platform",
+          "type": "Expression profiling by array",
+          "samples": 4,
+          "organism": "Homo sapiens"
+        },
+        {
+          "accession": "GSE26630",
+          "title": "The study of sex differences during the innate immune response against coxsackievirus B3 (CVB3)-induced myocarditis (12hr post infection)",
+          "type": "Expression profiling by array",
+          "samples": 20,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSE1457",
+          "title": "CxVB3 infection and cardiac function",
+          "type": "Expression profiling by array",
+          "samples": 7,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GDS1032",
+          "title": "Coxsackievirus B3 infection effect on hearts: time course",
+          "type": "Expression profiling by array",
+          "samples": 6,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GPL81",
+          "title": "[MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array",
+          "type": "",
+          "samples": 6909,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GPL6246",
+          "title": "[MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]",
+          "type": "",
+          "samples": 30634,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24478",
+          "title": "pooled day 30 hearts from CxVB3 injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24477",
+          "title": "pooled day 9 hearts from CxVB3 injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24476",
+          "title": "pooled day 9 hearts from PBS injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24475",
+          "title": "pooled day 3 hearts from CxVB3 injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24474",
+          "title": "pooled day 3 hearts from PBS injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24473",
+          "title": "5 pooled baseline hearts",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        },
+        {
+          "accession": "GSM24472",
+          "title": "pooled day 30 hearts from PBS injected mice",
+          "type": "",
+          "samples": 0,
+          "organism": "Mus musculus"
+        }
+      ]
+    }
+  },
+  "downloadable_datasets": [
+    {
+      "accession": "GSE261940",
+      "title": "Soluble ST2 induces cardiac contractile dysfunction by repressing mitochondrial electron transport chain genes in cardiomyocytes during fulminant myocarditis",
+      "type": "Expression profiling by high throughput sequencing",
+      "samples": 20,
+      "organism": "Mus musculus"
+    },
+    {
+      "accession": "GSE248521",
+      "title": "GPR15-mediated T cell recruitment during acute viral myocarditis facilitated virus elimination and improved outcome",
+      "type": "Expression profiling by high throughput sequencing; Other",
+      "samples": 31,
+      "organism": "Mus musculus"
+    },
+    {
+      "accession": "GSE174458",
+      "title": "Dissecting the Cellular Landscape and Transcriptome Network in Viral Myocarditis by Single-Cell RNA Sequencing",
+      "type": "Expression profiling by high throughput sequencing",
+      "samples": 4,
+      "organism": "Mus musculus"
+    },
+    {
+      "accession": "GSE121971",
+      "title": "Transcriptome analysis of brainstem in gerbils with CA16-infection-induced HFMD",
+      "type": "Expression profiling by high throughput sequencing",
+      "samples": 6,
+      "organism": "Meriones unguiculatus"
+    },
+    {
+      "accession": "GSE57781",
+      "title": "Human Induced Pluripotent Stem Cell-Derived Cardiomyocytes as an In Vitro Model for Coxsackievirus B3-Induced Myocarditis and Antiviral Drug Screening Platform",
+      "type": "Expression profiling by array",
+      "samples": 4,
+      "organism": "Homo sapiens"
+    },
+    {
+      "accession": "GSE35182",
+      "title": "Sex differences during acute myocarditis against coxsackievirus B3 (CVB3)-induced myocarditis (10 dpi) and chronic myocarditis/dilated cardiomyopathy (DCM) against CVB3-induced myocarditis (90 dpi)",
+      "type": "Expression profiling by array",
+      "samples": 24,
+      "organism": "Mus musculus"
+    },
+    {
+      "accession": "GSE19496",
+      "title": "Coxsackievirus B3 (CVB3) infection of AJ, B10.A, CSS3 and B6.chr3AJ (heart tissue day 4)",
+      "type": "Expression profiling by array",
+      "samples": 24,
+      "organism": "Mus musculus"
+    },
+    {
+      "accession": "GSE26630",
+      "title": "The study of sex differences during the innate immune response against coxsackievirus B3 (CVB3)-induced myocarditis (12hr post infection)",
+      "type": "Expression profiling by array",
+      "samples": 20,
+      "organism": "Mus musculus"
+    },
+    {
+      "accession": "GSE1457",
+      "title": "CxVB3 infection and cardiac function",
+      "type": "Expression profiling by array",
+      "samples": 7,
+      "organism": "Mus musculus"
+    },
+    {
+      "accession": "GSE273336",
+      "title": "Enhanced RNAi does not provide efficient innate antiviral immunity in mice in vivo (organs small RNA-Seq)",
+      "type": "Non-coding RNA profiling by high throughput sequencing",
+      "samples": 28,
+      "organism": "Mus musculus"
+    },
+    {
+      "accession": "GSE44706",
+      "title": "Coxsackievirus B3 (CVB3) infection of 129S1 and 129X1 (heart tissue day 6)",
+      "type": "Expression profiling by array",
+      "samples": 12,
+      "organism": "Mus musculus"
+    },
+    {
+      "accession": "GSE123550",
+      "title": "Transcriptome analysis of brainstem in gerbils with EV71-infection-induced HFMD",
+      "type": "Expression profiling by high throughput sequencing",
+      "samples": 6,
+      "organism": "Meriones unguiculatus"
+    },
+    {
+      "accession": "GSE308777",
+      "title": "Precise Gene Editing of Pathogenic Lamin A Mutations Corrects Cardiac Disease",
+      "type": "Expression profiling by high throughput sequencing",
+      "samples": 18,
+      "organism": "Mus musculus"
+    },
+    {
+      "accession": "GSE210783",
+      "title": "Precise genomic editing of a pathogenic RBM20 mutation rescues dilated cardiomyopathy",
+      "type": "Expression profiling by high throughput sequencing",
+      "samples": 28,
+      "organism": "Homo sapiens; Mus musculus"
+    },
+    {
+      "accession": "GSE19303",
+      "title": "Changes of myocardial gene expression and protein composition in patients with dilated cardiomyopathy after immunoadsorption with subsequent immunoglobulin substitution",
+      "type": "Expression profiling by array",
+      "samples": 81,
+      "organism": "Homo sapiens"
+    },
+    {
+      "accession": "GSE42955",
+      "title": "Expression data from human heart",
+      "type": "Expression profiling by array",
+      "samples": 29,
+      "organism": "Homo sapiens"
+    },
+    {
+      "accession": "GSE17800",
+      "title": "Myocardial gene expression profiles and cardiodepressant autoantibodies predict response of patients with dilated cardiomyopathy to immunoadsorption therapy",
+      "type": "Expression profiling by array",
+      "samples": 48,
+      "organism": "Homo sapiens"
+    },
+    {
+      "accession": "GSE2656",
+      "title": "Gene expression profile of human heart failure from different etiologies",
+      "type": "Expression profiling by array",
+      "samples": 49,
+      "organism": "Homo sapiens"
+    }
+  ],
+  "sra_runs": [
+    {
+      "uid": "16297004",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16297003",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16297002",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16297001",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16297000",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16296999",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16296998",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16296997",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16296996",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16296995",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16296994",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16296993",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16296992",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16296991",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16296990",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16296989",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16296988",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16296987",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16296986",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    },
+    {
+      "uid": "16296985",
+      "title": "",
+      "experiment": [],
+      "runs": []
+    }
+  ],
+  "download_log": {
+    "GSE261940": {
+      "title": "Soluble ST2 induces cardiac contractile dysfunction by repressing mitochondrial electron transport chain genes in cardiomyocytes during fulminant myocarditis",
+      "downloaded": true,
+      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE261940_series_matrix.txt"
+    },
+    "GSE248521": {
+      "title": "GPR15-mediated T cell recruitment during acute viral myocarditis facilitated virus elimination and improved outcome",
+      "downloaded": true,
+      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE248521_series_matrix.txt"
+    },
+    "GSE174458": {
+      "title": "Dissecting the Cellular Landscape and Transcriptome Network in Viral Myocarditis by Single-Cell RNA Sequencing",
+      "downloaded": true,
+      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE174458_series_matrix.txt"
+    },
+    "GSE121971": {
+      "title": "Transcriptome analysis of brainstem in gerbils with CA16-infection-induced HFMD",
+      "downloaded": true,
+      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE121971_series_matrix.txt"
+    },
+    "GSE57781": {
+      "title": "Human Induced Pluripotent Stem Cell-Derived Cardiomyocytes as an In Vitro Model for Coxsackievirus B3-Induced Myocarditis and Antiviral Drug Screening Platform",
+      "downloaded": true,
+      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE57781_series_matrix.txt"
+    },
+    "GSE35182": {
+      "title": "Sex differences during acute myocarditis against coxsackievirus B3 (CVB3)-induced myocarditis (10 dpi) and chronic myocarditis/dilated cardiomyopathy (DCM) against CVB3-induced myocarditis (90 dpi)",
+      "downloaded": true,
+      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE35182_series_matrix.txt"
+    },
+    "GSE19496": {
+      "title": "Coxsackievirus B3 (CVB3) infection of AJ, B10.A, CSS3 and B6.chr3AJ (heart tissue day 4)",
+      "downloaded": true,
+      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE19496_series_matrix.txt"
+    },
+    "GSE26630": {
+      "title": "The study of sex differences during the innate immune response against coxsackievirus B3 (CVB3)-induced myocarditis (12hr post infection)",
+      "downloaded": true,
+      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE26630_series_matrix.txt"
+    },
+    "GSE1457": {
+      "title": "CxVB3 infection and cardiac function",
+      "downloaded": true,
+      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE1457_series_matrix.txt"
+    },
+    "GSE273336": {
+      "title": "Enhanced RNAi does not provide efficient innate antiviral immunity in mice in vivo (organs small RNA-Seq)",
+      "downloaded": true,
+      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE273336_series_matrix.txt"
+    },
+    "GSE44706": {
+      "title": "Coxsackievirus B3 (CVB3) infection of 129S1 and 129X1 (heart tissue day 6)",
+      "downloaded": true,
+      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE44706_series_matrix.txt"
+    },
+    "GSE123550": {
+      "title": "Transcriptome analysis of brainstem in gerbils with EV71-infection-induced HFMD",
+      "downloaded": true,
+      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE123550_series_matrix.txt"
+    },
+    "GSE308777": {
+      "title": "Precise Gene Editing of Pathogenic Lamin A Mutations Corrects Cardiac Disease",
+      "downloaded": true,
+      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE308777_series_matrix.txt"
+    },
+    "GSE210783": {
+      "title": "Precise genomic editing of a pathogenic RBM20 mutation rescues dilated cardiomyopathy",
+      "downloaded": false,
+      "path": null
+    },
+    "GSE19303": {
+      "title": "Changes of myocardial gene expression and protein composition in patients with dilated cardiomyopathy after immunoadsorption with subsequent immunoglobulin substitution",
+      "downloaded": true,
+      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE19303_series_matrix.txt"
+    },
+    "GSE42955": {
+      "title": "Expression data from human heart",
+      "downloaded": true,
+      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE42955_series_matrix.txt"
+    },
+    "GSE17800": {
+      "title": "Myocardial gene expression profiles and cardiodepressant autoantibodies predict response of patients with dilated cardiomyopathy to immunoadsorption therapy",
+      "downloaded": true,
+      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE17800_series_matrix.txt"
+    },
+    "GSE2656": {
+      "title": "Gene expression profile of human heart failure from different etiologies",
+      "downloaded": true,
+      "path": "/home/jb/medical_problems/numerics/transcriptomics/GSE2656_series_matrix.txt"
+    }
+  }
+}

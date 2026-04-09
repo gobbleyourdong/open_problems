@@ -1,0 +1,18 @@
+
+Dystrophin P11532 domain map (linear, proportional):
+  1                                                                        3685
+  ────────────────────────────────────────────────────────────────────────────────
+  █████                                                                             N-terminal actin-binding domain (AB
+       █████                                                                        Spectrin-like repeat 1
+            ██████                                                                  Spectrin-like repeat 2
+                  █████                                                             Spectrin-like repeat 3
+         █                                                                          Hinge 1
+                       ██████████████████                                           Spectrin-like repeats 4-15
+                                 █                                                  Hinge 2
+                                         ██████████                                 Spectrin-like repeats 16-22
+                                           ██                                       Hinge 3 (2A cleavage region)
+                                                   ███████                          Spectrin-like repeats 23-24
+                                                                    █               Hinge 4
+                                                                    ██████          Cysteine-rich domain (WW + EF-hand)
+                                                                          ████████  C-terminal domain
+  ────────────────────────────────────────────────────────────────────────────────

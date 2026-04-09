@@ -1,0 +1,55 @@
+1. PLoS One. 2018 Sep 7;13(9):e0201959. doi: 10.1371/journal.pone.0201959. 
+eCollection 2018.
+
+Molecular epidemiology of enteroviruses in young children at increased risk of 
+type 1 diabetes.
+
+Sioofy-Khojine AB(1), Oikarinen S(1)(2), Honkanen H(1), Huhtala H(3), Lehtonen 
+JP(1), Briese T(4), Hyöty H(1)(2); TEDDY Study Group.
+
+Author information:
+(1)Department of Virology, Faculty of Medicine and Life Sciences, University of 
+Tampere, Tampere, Finland.
+(2)Fimlab Laboratories, Pirkanmaa Hospital District, Tampere, Finland.
+(3)Faculty of Social Sciences, University of Tampere, Tampere, Finland.
+(4)Center for Infection and Immunity, Mailman School of Public Health, Columbia 
+University, New York, New York.
+
+BACKGROUND: Young children are susceptible to enterovirus (EV) infections, which 
+cause significant morbidity in this age group. However, the current knowledge 
+regarding the epidemiology of EVs and the circulating virus strains is mostly 
+based on viruses detected in children with severe diseases leading to contact 
+with the health care system, while the vast reservoir of EVs that circulate in 
+the general population is less characterized.
+METHODOLOGY: The present study investigates the types and the prevalence of EVs 
+circulating in the young children of the background population in Georgia, 
+Colorado, and Washington State in the USA, and Germany, Sweden, and Finland in 
+Europe. A total of 4018 stool samples, collected monthly from 300 healthy and 
+non-hospitalized children at the age of 3-18 months in 2005-2009, were analyzed 
+for the presence of EVs using RT-PCR, followed by sequencing of the VP1-2A 
+region of the viral genome to type the EV(s) present. All of the children 
+carried type HLA-DQ2 or -DQ8 alleles associated with type 1 diabetes.
+PRINCIPAL FINDINGS: Altogether 201 children (67%) were found to be EV positive. 
+The prevalence was much lower in Finnish children (26%) than in the children of 
+the other counties combined (75%). Infections increased by age and showed a 
+nadir during the winter months. Children who carried both the HLA-DQ2 and -DQ8 
+alleles had less infections than children who were homozygous for these alleles. 
+Coxsackieviruses type A were the most frequently detected viruses in all 
+geographical regions. Coxsackievirus type A4, Echovirus type 18, and Echovirus 
+type 25 were shed for longer time periods than the other EV types.
+CONCLUSIONS: Compared to prevalence data from symptomatic patients requiring 
+medical attention, this study provides a better view of EVs circulating in young 
+children in the USA and in Europe. The observations may prove useful for the 
+selection of strategies for designing EV vaccines in the future. The study also 
+confirms our previous serological findings suggesting that EV infections are 
+relatively rare in Finland.
+
+DOI: 10.1371/journal.pone.0201959
+PMCID: PMC6128458
+PMID: 30192755 [Indexed for MEDLINE]
+
+Conflict of interest statement: HH is a shareholder and chairman of the board of 
+Vactech Ltd. (http://www.vactech.fi/en/), which develops vaccines against 
+picornaviruses. There are no marketed products to declare, and this does not 
+alter our adherence to PLOS ONE policies on sharing data and materials. All 
+other authors have declared that no competing interests exist.

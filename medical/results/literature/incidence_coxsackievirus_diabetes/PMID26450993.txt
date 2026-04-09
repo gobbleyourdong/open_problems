@@ -1,0 +1,46 @@
+1. Diabetes. 2016 Jan;65(1):285-96. doi: 10.2337/db15-0179. Epub 2015 Oct 8.
+
+Immunoproteomic Profiling of Antiviral Antibodies in New-Onset Type 1 Diabetes 
+Using Protein Arrays.
+
+Bian X(1), Wallstrom G(1), Davis A(1), Wang J(1), Park J(1), Throop A(1), Steel 
+J(1), Yu X(1), Wasserfall C(2), Schatz D(3), Atkinson M(2), Qiu J(4), LaBaer 
+J(4).
+
+Author information:
+(1)Virginia G. Piper Center for Personalized Diagnostics, Biodesign Institute, 
+Arizona State University, Tempe, AZ.
+(2)Department of Pathology, Immunology, and Laboratory Medicine, College of 
+Medicine, University of Florida, Gainesville, FL.
+(3)Department of Pediatrics, College of Medicine, University of Florida, 
+Gainesville, FL.
+(4)Virginia G. Piper Center for Personalized Diagnostics, Biodesign Institute, 
+Arizona State University, Tempe, AZ Joshua.LaBaer@asu.edu ji.qiu@asu.edu.
+
+The rapid rise in the incidence of type 1 diabetes (T1D) suggests the 
+involvement of environmental factors including viral infections. We evaluated 
+the association between viral infections and T1D by profiling antiviral 
+antibodies using a high-throughput immunoproteomics approach in patients with 
+new-onset T1D. We constructed a viral protein array comprising the complete 
+proteomes of seven viruses associated with T1D and open reading frames from 
+other common viruses. Antibody responses to 646 viral antigens were assessed in 
+42 patients with T1D and 42 age- and sex-matched healthy control subjects (mean 
+age 12.7 years, 50% males). Prevalence of antiviral antibodies agreed with known 
+infection rates for the corresponding virus based on epidemiological studies. 
+Antibody responses to Epstein-Barr virus (EBV) were significantly higher in case 
+than control subjects (odds ratio 6.6; 95% CI 2.0-25.7), whereas the other 
+viruses showed no differences. The EBV and T1D association was significant in 
+both sex and age subgroups (≤12 and >12 years), and there was a trend toward 
+early EBV infections among the case subjects. These results suggest a potential 
+role for EBV in T1D development. We believe our innovative immunoproteomics 
+platform is useful for understanding the role of viral infections in T1D and 
+other disorders where associations between viral infection and disease are 
+unclear.
+
+© 2016 by the American Diabetes Association. Readers may use this article as 
+long as the work is properly cited, the use is educational and not for profit, 
+and the work is not altered.
+
+DOI: 10.2337/db15-0179
+PMCID: PMC4686945
+PMID: 26450993 [Indexed for MEDLINE]

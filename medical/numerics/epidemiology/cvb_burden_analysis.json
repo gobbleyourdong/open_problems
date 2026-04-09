@@ -1,0 +1,84 @@
+{
+  "diseases": {
+    "T1DM": {
+      "global_affected": 8400000,
+      "annual_new_cases": 540000,
+      "annual_deaths": 50000,
+      "cvb_attributable_pct": 35,
+      "mechanism": "CVB4 islet seeding \u2192 autoimmune cascade"
+    },
+    "Myocarditis": {
+      "annual_new_cases": 1800000,
+      "annual_deaths": 350000,
+      "cvb_attributable_pct": 50,
+      "mechanism": "2A protease cleaves dystrophin in cardiomyocytes"
+    },
+    "DCM": {
+      "global_affected": 2900000,
+      "annual_deaths": 290000,
+      "cvb_attributable_pct": 30,
+      "mechanism": "Chronic CVB persistence \u2192 progressive CM loss"
+    },
+    "ME/CFS": {
+      "global_affected": 17000000,
+      "annual_deaths": 0,
+      "cvb_attributable_pct": 42,
+      "mechanism": "Multi-tissue CVB persistence + mitochondrial dysfunction"
+    },
+    "Pancreatitis": {
+      "annual_new_cases": 2700000,
+      "annual_deaths": 80000,
+      "cvb_attributable_pct": 5,
+      "mechanism": "CVB1/B4 acinar lysis \u2192 exocrine pancreatitis"
+    },
+    "Pericarditis": {
+      "annual_new_cases": 2240000,
+      "annual_deaths": 22000,
+      "cvb_attributable_pct": 40,
+      "mechanism": "CVB \u2192 NLRP3 \u2192 pericardial inflammation"
+    },
+    "Hepatitis_acute": {
+      "annual_new_cases": 1400000,
+      "annual_deaths": 130000,
+      "cvb_attributable_pct": 8,
+      "mechanism": "CVB hepatocyte lysis (severe in neonates)"
+    },
+    "Pleurodynia": {
+      "annual_new_cases": 50000,
+      "annual_deaths": 0,
+      "cvb_attributable_pct": 100,
+      "mechanism": "CVB intercostal muscle infection"
+    },
+    "Aseptic_Meningitis": {
+      "annual_new_cases": 880000,
+      "annual_deaths": 9000,
+      "cvb_attributable_pct": 85,
+      "mechanism": "CVB CNS invasion via DAF transcytosis"
+    },
+    "Encephalitis": {
+      "annual_new_cases": 560000,
+      "annual_deaths": 67000,
+      "cvb_attributable_pct": 15,
+      "mechanism": "CVB parenchymal brain invasion"
+    },
+    "Orchitis": {
+      "annual_new_cases": 80000,
+      "annual_deaths": 0,
+      "fertility_impact": 24000,
+      "cvb_attributable_pct": 25,
+      "mechanism": "CVB5 testicular reservoir"
+    },
+    "Neonatal_Sepsis": {
+      "annual_new_cases": 3000000,
+      "annual_deaths": 400000,
+      "cvb_attributable_pct": 3,
+      "mechanism": "Vertical/perinatal CVB transmission, immature immunity"
+    }
+  },
+  "totals": {
+    "cvb_cases_per_year": 11234000,
+    "cvb_deaths_per_year": 332400,
+    "cvb_cost_per_year_usd": 158277400000,
+    "cvb_cost_per_year_billions": 158.3
+  }
+}

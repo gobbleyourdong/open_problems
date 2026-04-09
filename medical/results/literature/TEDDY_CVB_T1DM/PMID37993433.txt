@@ -1,0 +1,85 @@
+1. Nat Commun. 2023 Nov 22;14(1):7630. doi: 10.1038/s41467-023-42763-9.
+
+Distinct transcriptomic profiles in children prior to the appearance of type 1 
+diabetes-linked islet autoantibodies and following enterovirus infection.
+
+Lin J(#)(1)(2)(3)(4), Moradi E(#)(1)(5), Salenius K(#)(1), Lehtipuro S(1), 
+Häkkinen T(1), Laiho JE(6), Oikarinen S(6), Randelin S(1), Parikh HM(7), 
+Krischer JP(7), Toppari J(8)(9), Lernmark Å(10), Petrosino JF(11), Ajami 
+NJ(11)(12), She JX(13), Hagopian WA(14)(15), Rewers MJ(16), Lloyd RE(11), 
+Rautajoki KJ(17), Hyöty H(18)(19), Nykter M(20)(21); TEDDY Study Group.
+
+Author information:
+(1)Prostate Cancer Research Center, Faculty of Medicine and Health Technology, 
+Tampere University and Tays Cancer Centre, Tampere, Finland.
+(2)Biostatistics, Health Sciences, Faculty of Social Sciences, Tampere 
+University, Tampere, Finland.
+(3)Finnish Institute of Molecular Medicine, FIMM, University of Helsinki, 00290, 
+Helsinki, Finland.
+(4)Department of Medical Epidemiology and Biostatistics, Karolinska Institute, 
+Stockholm, Sweden.
+(5)A.I. Virtanen Institute for Molecular Sciences, University of Eastern 
+Finland, Kuopio, 70150, Finland.
+(6)Department of Virology, Faculty of Medicine and Health Technology, Tampere 
+University, Tampere, Finland.
+(7)Health Informatics Institute, Morsani College of Medicine, University of 
+South Florida, Tampa, FL, USA.
+(8)Research Centre for Integrative Physiology and Pharmacology, Institute of 
+Biomedicine, and Centre for Population Health Research, University of Turku, 
+Turku, Finland.
+(9)Department of Pediatrics, Turku University Hospital, Turku, Finland.
+(10)Department of Clinical Sciences, Lund University CRC, Skåne University 
+Hospital, Malmö, Sweden.
+(11)Alkek Center for Metagenomics and Microbiome Research, Department of 
+Molecular Virology and Microbiology, Baylor College of Medicine, Houston, TX, 
+USA.
+(12)Platform for Innovative Microbiome & Translational Research (PRIME-TR), Moon 
+Shots™ Program, The University of Texas MD Anderson Cancer Center, Houston, TX, 
+USA.
+(13)Jinfiniti Precision Medicine, Inc., Augusta, GA, USA.
+(14)Pacific Northwest Research Institute, Seattle, WA, USA.
+(15)Department of Medicine, University of Washington, Seattle, WA, USA.
+(16)Barbara Davis Center for Childhood Diabetes, University of Colorado, Aurora, 
+CO, USA.
+(17)Prostate Cancer Research Center, Faculty of Medicine and Health Technology, 
+Tampere University and Tays Cancer Centre, Tampere, Finland. 
+kirsi.rautajoki@tuni.fi.
+(18)Department of Virology, Faculty of Medicine and Health Technology, Tampere 
+University, Tampere, Finland. heikki.hyoty@tuni.fi.
+(19)Fimlab Laboratories, Tampere, Finland. heikki.hyoty@tuni.fi.
+(20)Prostate Cancer Research Center, Faculty of Medicine and Health Technology, 
+Tampere University and Tays Cancer Centre, Tampere, Finland. 
+matti.nykter@tuni.fi.
+(21)Foundation for the Finnish Cancer Institute, Helsinki, Finland. 
+matti.nykter@tuni.fi.
+(#)Contributed equally
+
+Although the genetic basis and pathogenesis of type 1 diabetes have been studied 
+extensively, how host responses to environmental factors might contribute to 
+autoantibody development remains largely unknown. Here, we use longitudinal 
+blood transcriptome sequencing data to characterize host responses in children 
+within 12 months prior to the appearance of type 1 diabetes-linked islet 
+autoantibodies, as well as matched control children. We report that children who 
+present with insulin-specific autoantibodies first have distinct transcriptional 
+profiles from those who develop GADA autoantibodies first. In particular, gene 
+dosage-driven expression of GSTM1 is associated with GADA autoantibody 
+positivity. Moreover, compared with controls, we observe increased monocyte and 
+decreased B cell proportions 9-12 months prior to autoantibody positivity, 
+especially in children who developed antibodies against insulin first. Lastly, 
+we show that control children present transcriptional signatures consistent with 
+robust immune responses to enterovirus infection, whereas children who later 
+developed islet autoimmunity do not. These findings highlight distinct 
+immune-related transcriptomic differences between case and control children 
+prior to case progression to islet autoimmunity and uncover deficient antiviral 
+response in children who later develop islet autoimmunity.
+
+© 2023. The Author(s).
+
+DOI: 10.1038/s41467-023-42763-9
+PMCID: PMC10665402
+PMID: 37993433 [Indexed for MEDLINE]
+
+Conflict of interest statement: H.H. is a shareholder and chairman of the board 
+of Vactech, and a member of the Scientific Advisory Board of Provention Bio, 
+which develops vaccines against picornaviruses and CVB. The remaining authors 
+declare no competing interests.

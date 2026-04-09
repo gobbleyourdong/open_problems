@@ -1,0 +1,34 @@
+1. Scand J Immunol. 2015 Sep;82(3):244-53. doi: 10.1111/sji.12338.
+
+New Insights and Biomarkers for Type 1 Diabetes: Review for Scandinavian Journal 
+of Immunology.
+
+Heinonen MT(1), Moulder R(1), Lahesmaa R(1).
+
+Author information:
+(1)Turku Centre for Biotechnology, University of Turku, Åbo Akademi University, 
+Turku, Finland.
+
+The increasing incidence of type 1 diabetes observed in the past 60 years has 
+spawned massive efforts in multiple research fields to elucidate the aetiology 
+of this disease. While GWAS studies provide a good genetic basis for the current 
+knowledge, it is clear that environmental triggers and their influence in 
+disease prevalence and origin are highly important. The realization of disease 
+heterogeneity has created a requirement for better biomarkers to complement the 
+known autoantibody markers and to more successfully predict the severity and 
+onset time of the disease. Such biomarkers would be needed both for prevention 
+as well as for monitoring disease activity and response to preventive and 
+therapeutic measures. Systematic holistic approaches concentrating on the 
+triggering molecular mechanisms, pancreatic beta cells, immune response, as well 
+as the influence of diet and environment, are necessary to understand the 
+disease pathogenesis and find a cure. The current genomic knowledge is being 
+broadened with accompanying studies in epigenetics and transcriptomic 
+regulation, metabolomics, proteomics and lipidomics, covering the whole system 
+from beta cells, the profile and cellular balance of the infiltrating 
+lymphocytes, to gut microbiota and viral infections. Here we highlight 
+interesting recent findings in type 1 diabetes research.
+
+© 2015 The Foundation for the Scandinavian Journal of Immunology.
+
+DOI: 10.1111/sji.12338
+PMID: 26119046 [Indexed for MEDLINE]

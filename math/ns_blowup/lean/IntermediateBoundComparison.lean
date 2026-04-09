@@ -98,7 +98,7 @@ theorem intermediate_ratio_ultra_tight :
     - Trivial Cauchy-Schwarz: 1 (useless)
     - Old intermediate bound: 1/4 (works)
     - New intermediate bound: 1/12 (much better)
-    - Actual observed (numerical track): ~0.05 average, 0.25 max. -/
+    - Actual observed (Odd instance): ~0.05 average, 0.25 max. -/
 theorem bound_comparison :
     (1 : ℝ) / 12 < 1 / 4 ∧ (1 : ℝ) / 4 < 1 := by refine ⟨?_, ?_⟩ <;> norm_num
 

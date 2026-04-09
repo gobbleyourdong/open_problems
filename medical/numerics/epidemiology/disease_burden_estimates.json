@@ -1,0 +1,75 @@
+{
+  "T1DM": {
+    "prevalence_global": 8400000,
+    "incidence_per_year": 540000,
+    "mortality_per_year": 50000,
+    "cost_per_patient_per_year_USD": 8000,
+    "source": "IDF Diabetes Atlas 2021"
+  },
+  "Myocarditis": {
+    "incidence_per_100k": 22,
+    "mortality_acute_pct": 5,
+    "progression_to_DCM_pct": 30,
+    "source": "GBD 2019, multiple registries"
+  },
+  "DCM": {
+    "prevalence_per_100k": 36,
+    "mortality_5yr_pct": 50,
+    "source": "GBD 2019"
+  },
+  "ME/CFS": {
+    "prevalence_global_estimate": 17000000,
+    "us_prevalence": 2500000,
+    "undiagnosed_pct": 84,
+    "disability_severe_pct": 25,
+    "source": "IOM (NAM) 2015"
+  },
+  "Pancreatitis": {
+    "incidence_acute_per_100k": 34,
+    "mortality_severe_pct": 30,
+    "recurrence_pct": 20,
+    "source": "GBD 2019"
+  },
+  "Pericarditis": {
+    "incidence_per_100k": 28,
+    "recurrence_no_treatment_pct": 30,
+    "recurrence_colchicine_pct": 15,
+    "source": "ESC 2015 guidelines, CORP/COPE trials"
+  },
+  "Hepatitis": {
+    "hep_b_chronic_global": 296000000,
+    "hep_c_chronic_global": 58000000,
+    "mortality_per_year": 1100000,
+    "source": "WHO 2022"
+  },
+  "Aseptic_Meningitis": {
+    "incidence_us_per_100k": 11,
+    "enterovirus_pct": 85,
+    "mortality_pct": 1,
+    "source": "CDC, multiple studies"
+  },
+  "Encephalitis": {
+    "incidence_per_100k": 7,
+    "mortality_pct": 12,
+    "sequelae_pct": 35,
+    "source": "GBD 2019"
+  },
+  "Orchitis": {
+    "incidence_lifetime_male_pct": 1,
+    "fertility_impact_pct": 30,
+    "source": "Urology literature"
+  },
+  "Neonatal_Sepsis": {
+    "incidence_per_1000_births": 22,
+    "mortality_LMIC_pct": 17,
+    "mortality_HIC_pct": 5,
+    "global_deaths_per_year": 400000,
+    "source": "WHO, GBD 2019"
+  },
+  "Pleurodynia": {
+    "incidence_epidemic_per_100k": 50,
+    "incidence_endemic_per_100k": 0.1,
+    "self_limiting_pct": 99,
+    "source": "Historical epidemiology"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "study": "SSRI-Pericarditis Retrospective",
+  "effect_size_model": {
+    "p_control_colchicine_alone": 0.15,
+    "p_cvb_etiology": 0.2,
+    "p_fluoxetine_cvb_clearance": 0.7,
+    "expected_absolute_risk_difference": 0.084,
+    "expected_nnt": 11.9
+  },
+  "power_table": [
+    {
+      "reduction_%": 5,
+      "p_control": 0.15,
+      "p_treatment": 0.142,
+      "RR": 0.95,
+      "NNT": 133.3,
+      "n_80pct_power": 34844,
+      "n_90pct_power": 46646,
+      "power_at_10k_per_arm": 0.323
+    },
+    {
+      "reduction_%": 10,
+      "p_control": 0.15,
+      "p_treatment": 0.135,
+      "RR": 0.9,
+      "NNT": 66.7,
+      "n_80pct_power": 8525,
+      "n_90pct_power": 11411,
+      "power_at_10k_per_arm": 0.859
+    },
+    {
+      "reduction_%": 15,
+      "p_control": 0.15,
+      "p_treatment": 0.128,
+      "RR": 0.85,
+      "NNT": 44.4,
+      "n_80pct_power": 3705,
+      "n_90pct_power": 4959,
+      "power_at_10k_per_arm": 0.996
+    },
+    {
+      "reduction_%": 20,
+      "p_control": 0.15,
+      "p_treatment": 0.12,
+      "RR": 0.8,
+      "NNT": 33.3,
+      "n_80pct_power": 2036,
+      "n_90pct_power": 2725,
+      "power_at_10k_per_arm": 1.0
+    },
+    {
+      "reduction_%": 25,
+      "p_control": 0.15,
+      "p_treatment": 0.112,
+      "RR": 0.75,
+      "NNT": 26.7,
+      "n_80pct_power": 1272,
+      "n_90pct_power": 1702,
+      "power_at_10k_per_arm": 1.0
+    },
+    {
+      "reduction_%": 30,
+      "p_control": 0.15,
+      "p_treatment": 0.105,
+      "RR": 0.7,
+      "NNT": 22.2,
+      "n_80pct_power": 862,
+      "n_90pct_power": 1153,
+      "power_at_10k_per_arm": 1.0
+    }
+  ],
+  "simulation": {
+    "n_per_arm": 10000,
+    "control_recurrence": 0.1448,
+    "treatment_recurrence": 0.0674,
+    "RR": 0.465,
+    "RR_95CI": [
+      0.43,
+      0.511
+    ],
+    "ARD": 0.0774,
+    "ARD_95CI": [
+      0.0686,
+      0.0855
+    ],
+    "NNT": 12.9,
+    "chi2_p": 0.0,
+    "ztest_p": 0.0,
+    "power": 1.0,
+    "MDE_at_10k": 0.0141
+  },
+  "pubmed_results_count": 6,
+  "pubmed_results": [
+    {
+      "pmid": "41918925",
+      "date": "2026",
+      "title": "Treating hearts and minds: adverse cardiovascular effects of psychiatric",
+      "abstract": "Cardiovascular disease (CVD) is one of the leading causes of death in patients",
+      "authors": [
+        "Raja AS",
+        "Leslie SJ",
+        "Buist E",
+        "Rushworth GF",
+        "Megson IL",
+        "McNamara N"
+      ]
+    },
+    {
+      "pmid": "39362832",
+      "date": "2025 Feb",
+      "title": "Predicting remission after acute phase pharmacotherapy in patients with bipolar I",
+      "abstract": "OBJECTIVES: Interpatient variability in bipolar I depression (BP-D) symptoms",
+      "authors": [
+        "Marrero-Polanco J",
+        "Joyce JB",
+        "Grant CW",
+        "Croarkin PE",
+        "Athreya AP",
+        "Bobo WV"
+      ]
+    },
+    {
+      "pmid": "26800776",
+      "date": "2016 Apr",
+      "title": "Construction of a subgenomic CV-B3 replicon expressing emerald green fluorescent",
+      "abstract": "Coxsackieviruses B (CV-B) (Picornaviridae) are a common infectious cause of acute",
+      "authors": [
+        "Wehbe M",
+        "Huguenin A",
+        "Leveque N",
+        "Semler BL",
+        "Hamze M",
+        "Andreoletti L",
+        "Bouin A"
+      ]
+    },
+    {
+      "pmid": "25350468",
+      "date": "2014 Dec",
+      "title": "Cardiogenic shock after use of fluoroamphetamine confirmed with serum and urine",
+      "abstract": "CONTEXT: 4-Fluoroamphetamine (4-FA) is a para-substituted phenethylamine-type",
+      "authors": [
+        "Al-Abri S",
+        "Meier KH",
+        "Colby JM",
+        "Smollin CG",
+        "Benowitz NL"
+      ]
+    },
+    {
+      "pmid": "25015077",
+      "date": "2014 Aug 29",
+      "title": "Human induced pluripotent stem cell-derived cardiomyocytes as an in vitro model",
+      "abstract": "RATIONALE: Viral myocarditis is a life-threatening illness that may lead to heart",
+      "authors": [
+        "Sharma A",
+        "Marceau C",
+        "Hamaguchi R",
+        "Burridge PW",
+        "Rajarajan K",
+        "Churko JM",
+        "Wu H",
+        "Sallam KI",
+        "Matsa E",
+        "Sturzu AC",
+        "Che Y",
+        "Ebert A",
+        "Diecke S",
+        "Liang P",
+        "Red-Horse K",
+        "Carette JE",
+        "Wu SM",
+        "Wu JC"
+      ]
+    },
+    {
+      "pmid": "17612891",
+      "date": "2007 Aug",
+      "title": "Acute myocarditis associated with clozapine.",
+      "abstract": "OBJECTIVE: A case of acute myocarditis associated with the commencement of",
+      "authors": [
+        "Varambally S",
+        "Howpage P"
+      ]
+    }
+  ],
+  "icd10_codes": {
+    "I30.0": "Acute nonspecific idiopathic pericarditis",
+    "I30.1": "Infective pericarditis",
+    "I30.8": "Other forms of acute pericarditis",
+    "I30.9": "Acute pericarditis, unspecified",
+    "I31.0": "Chronic adhesive pericarditis"
+  }
+}

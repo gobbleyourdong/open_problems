@@ -1,0 +1,35 @@
+SELENIUM-T1DM-CVB CORRELATION: KESHAN-FINLAND ANALYSIS
+============================================================
+
+SELENIUM vs T1DM CORRELATIONS
+----------------------------------------
+  Soil Se vs T1DM (European+USA):  Pearson r=-0.500  p=0.2073
+                                   Spearman ρ=-0.539  p=0.1681
+  Serum Se vs T1DM (European+USA): Pearson r=-0.036  p=0.9325
+                                   Spearman ρ=0.263  p=0.5284
+  Soil Se vs T1DM (all countries): Pearson r=0.127  p=0.6946
+                                   Spearman ρ=0.081  p=0.8028
+
+NOTE: Negative r = higher selenium → LOWER T1DM (protective)
+      Positive r = confounded by HLA/genetics/development
+
+FINLAND 1984 NATURAL EXPERIMENT
+----------------------------------------
+  Pre-1984  slope: 0.7336 /100k/yr  (p=0.0000)
+  Post-1984 slope: 0.9568 /100k/yr  (p=0.0000)
+  Slope change: 0.2232 (30.4%)
+  Bootstrap 95% CI on slope difference: [0.1305, 0.3166]
+  Sweden post-1984 slope (comparison): 0.6231 /100k/yr
+  Counterfactual 2015 (if pre-slope continued): 50.5 /100k/yr
+  Actual 2015: 62.0 /100k/yr
+  Averted incidence attributable to Se program: -11.5 /100k/yr
+
+CVB REPLICATION FOLD (at country-typical serum Se levels)
+----------------------------------------
+  Finland pre-1984          [Se]= 56 μg/L → CVB fold = 3.08×
+  Finland post-1984         [Se]=110 μg/L → CVB fold = 2.33×
+  Sweden                    [Se]=105 μg/L → CVB fold = 2.38×
+  USA                       [Se]=130 μg/L → CVB fold = 2.18×
+  Keshan China              [Se]= 21 μg/L → CVB fold = 4.28×
+
+MECHANISM: Se → GPx → ↓ROS → ↓CVB replication → ↓T1DM/Keshan

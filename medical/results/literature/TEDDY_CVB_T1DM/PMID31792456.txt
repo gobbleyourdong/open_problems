@@ -1,0 +1,73 @@
+1. Nat Med. 2019 Dec;25(12):1865-1872. doi: 10.1038/s41591-019-0667-0. Epub 2019 
+Dec 2.
+
+Prospective virome analyses in young children at increased genetic risk for type 
+1 diabetes.
+
+Vehik K(1), Lynch KF(2), Wong MC(3), Tian X(3), Ross MC(3), Gibbs RA(4), Ajami 
+NJ(3), Petrosino JF(3), Rewers M(5), Toppari J(6)(7), Ziegler AG(8)(9)(10), She 
+JX(11), Lernmark A(12), Akolkar B(13), Hagopian WA(14), Schatz DA(15), Krischer 
+JP(2), Hyöty H(16)(17), Lloyd RE(3); TEDDY Study Group.
+
+Author information:
+(1)Health Informatics Institute, Morsani College of Medicine, University of 
+South Florida, Tampa, FL, USA. kendra.vehik@epi.usf.edu.
+(2)Health Informatics Institute, Morsani College of Medicine, University of 
+South Florida, Tampa, FL, USA.
+(3)Alkek Center for Metagenomics and Microbiome Research, Department of 
+Molecular Virology and Microbiology, Baylor College of Medicine, Houston, TX, 
+USA.
+(4)Human Genome Sequencing Center, Baylor College of Medicine, Houston, TX, USA.
+(5)Barbara Davis Center for Diabetes, University of Colorado, Aurora, CO, USA.
+(6)Department of Pediatrics, Turku University Hospital, Turku, Finland.
+(7)Research Centre for Integrative Physiology and Pharmacology, Institute of 
+Biomedicine, University of Turku, Turku, Finland.
+(8)Institute of Diabetes Research, Helmholtz Zentrum München, Munich, Germany.
+(9)Forschergruppe Diabetes, Klinikum Rechts der Isar, Technische Universität 
+München, Munich, Germany.
+(10)Forschergruppe Diabetes e.V, Munich, Germany.
+(11)Center for Biotechnology and Genomic Medicine, Medical College of Georgia, 
+Augusta University, Augusta, GA, USA.
+(12)Department of Clinical Sciences, Lund University/CRC, Skane University 
+Hospital, Malmö, Sweden.
+(13)National Institute of Diabetes and Digestive and Kidney Diseases, Bethesda, 
+MD, USA.
+(14)Pacific Northwest Research Institute, Seattle, WA, USA.
+(15)Department of Pediatrics, University of Florida Diabetes Institute, 
+Gainesville, FL, USA.
+(16)Department of Virology, Faculty of Medicine and Health Technology, Tampere 
+University, Tampere, Finland.
+(17)Fimlab Laboratories, Pirkanmaa Hospital District, Tampere, Finland.
+
+Viruses are implicated in autoimmune destruction of pancreatic islet β cells, 
+which results in insulin deficiency and type 1 diabetes (T1D)1-4. Certain 
+enteroviruses can infect β cells in vitro5, have been detected in the pancreatic 
+islets of patients with T1D6 and have shown an association with T1D in 
+meta-analyses4. However, establishing consistency in findings across studies has 
+proven difficult. Obstacles to convincingly linking RNA viruses to islet 
+autoimmunity may be attributed to rapid viral mutation rates, the cyclical 
+periodicity of viruses7 and the selection of variants with altered pathogenicity 
+and ability to spread in populations. β cells strongly express cell-surface 
+coxsackie and adenovirus receptor (CXADR) genes, which can facilitate 
+enterovirus infection8. Studies of human pancreata and cultured islets have 
+shown significant variation in enteroviral virulence to β cells between 
+serotypes and within the same serotype9,10. In this large-scale study of known 
+eukaryotic DNA and RNA viruses in stools from children, we evaluated fecally 
+shed viruses in relation to islet autoimmunity and T1D. This study showed that 
+prolonged enterovirus B rather than independent, short-duration enterovirus B 
+infections may be involved in the development of islet autoimmunity, but not 
+T1D, in some young children. Furthermore, we found that fewer early-life human 
+mastadenovirus C infections, as well as CXADR rs6517774, independently 
+correlated with islet autoimmunity.
+
+DOI: 10.1038/s41591-019-0667-0
+PMCID: PMC6898786
+PMID: 31792456 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing Interests H.H. is a shareholder and 
+chairman of the Board of Vactech Ltd. and member of the Scientific Advisory 
+Board of Provention Bio, Inc., which develop vaccines against picornaviruses and 
+coxsackievirus B. The authors have no other relevant affiliations or financial 
+involvement with any organization or entity with a financial interest in or 
+financial conflict with the subject matter or materials discussed in the 
+manuscript apart from the disclosed.

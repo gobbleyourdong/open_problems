@@ -1,0 +1,75 @@
+1. Front Endocrinol (Lausanne). 2022 Apr 13;13:861985. doi: 
+10.3389/fendo.2022.861985. eCollection 2022.
+
+Pancreas Whole Tissue Transcriptomics Highlights the Role of the Exocrine 
+Pancreas in Patients With Recently Diagnosed Type 1 Diabetes.
+
+Välikangas T(1)(2), Lietzén N(1), Jaakkola MK(1)(2)(3), Krogvold L(4)(5), Eike 
+MC(6), Kallionpää H(1), Tuomela S(1), Mathews C(7), Gerling IC(8), Oikarinen 
+S(9), Hyöty H(9)(10), Dahl-Jorgensen K(4)(11), Elo LL(1)(2)(12), Lahesmaa 
+R(1)(2)(12).
+
+Author information:
+(1)Turku Bioscience Centre, University of Turku and Åbo Akademi University, 
+Turku, Finland.
+(2)InFLAMES Research Flagship Center, University of Turku, Turku, Finland.
+(3)Department of Mathematics and Statistics, University of Turku, Turku, 
+Finland.
+(4)Pediatric Department, Oslo University Hospital, Oslo, Norway.
+(5)Institute of Clinical Dentistry, Faculty of Dentistry, University of Oslo, 
+Oslo, Norway.
+(6)Department of Medical Genetics, Oslo University Hospital, Oslo, Norway.
+(7)Department of Pathology, University of Florida, Gainesville, FL, United 
+States.
+(8)Department of Medicine, University of Tennessee Health Science Center, 
+Memphis, TN, United States.
+(9)Faculty of Medicine and Health Technology, Tampere University, Tampere, 
+Finland.
+(10)Fimlab Laboratories, Pirkanmaa Hospital District, Tampere, Finland.
+(11)Institute of Clinical Medicine, Faculty of Medicine, University of Oslo, 
+Oslo, Norway.
+(12)Institute of Biomedicine, University of Turku, Turku, Finland.
+
+Although type 1 diabetes (T1D) is primarily a disease of the pancreatic 
+beta-cells, understanding of the disease-associated alterations in the whole 
+pancreas could be important for the improved treatment or the prevention of the 
+disease. We have characterized the whole-pancreas gene expression of patients 
+with recently diagnosed T1D from the Diabetes Virus Detection (DiViD) study and 
+non-diabetic controls. Furthermore, another parallel dataset of the whole 
+pancreas and an additional dataset from the laser-captured pancreatic islets of 
+the DiViD patients and non-diabetic organ donors were analyzed together with the 
+original dataset to confirm the results and to get further insights into the 
+potential disease-associated differences between the exocrine and the endocrine 
+pancreas. First, higher expression of the core acinar cell genes, encoding for 
+digestive enzymes, was detected in the whole pancreas of the DiViD patients when 
+compared to non-diabetic controls. Second, In the pancreatic islets, 
+upregulation of immune and inflammation related genes was observed in the DiViD 
+patients when compared to non-diabetic controls, in line with earlier 
+publications, while an opposite trend was observed for several immune and 
+inflammation related genes at the whole pancreas tissue level. Third, strong 
+downregulation of the regenerating gene family (REG) genes, linked to pancreatic 
+islet growth and regeneration, was observed in the exocrine acinar cell 
+dominated whole-pancreas data of the DiViD patients when compared with the 
+non-diabetic controls. Fourth, analysis of unique features in the transcriptomes 
+of each DiViD patient compared with the other DiViD patients, revealed elevated 
+expression of central antiviral immune response genes in the whole-pancreas 
+samples, but not in the pancreatic islets, of one DiViD patient. This difference 
+in the extent of antiviral gene expression suggests different statuses of 
+infection in the pancreas at the time of sampling between the DiViD patients, 
+who were all enterovirus VP1+ in the islets by immunohistochemistry based on 
+earlier studies. The observed features, indicating differences in the function, 
+status and interplay between the exocrine and the endocrine pancreas of recent 
+onset T1D patients, highlight the importance of studying both compartments for 
+better understanding of the molecular mechanisms of T1D.
+
+Copyright © 2022 Välikangas, Lietzén, Jaakkola, Krogvold, Eike, Kallionpää, 
+Tuomela, Mathews, Gerling, Oikarinen, Hyöty, Dahl-Jorgensen, Elo and Lahesmaa.
+
+DOI: 10.3389/fendo.2022.861985
+PMCID: PMC9044038
+PMID: 35498413 [Indexed for MEDLINE]
+
+Conflict of interest statement: Author HH is employed by Fimlab Laboratories 
+Ltd. The remaining authors declare that the research was conducted in the 
+absence of any commercial or financial relationships that could be construed as 
+a potential conflict of interest.

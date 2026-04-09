@@ -1,0 +1,52 @@
+1. Front Endocrinol (Lausanne). 2025 Dec 17;16:1734431. doi: 
+10.3389/fendo.2025.1734431. eCollection 2025.
+
+The perfect storm: unraveling the interplay of genetic predisposition and viral 
+triggers in type 1 diabetes pathogenesis.
+
+Veronese-Paniagua DA(1)(2), Millman JR(1)(2).
+
+Author information:
+(1)Roy and Diana Vagelos Division of Biology and Biomedical Sciences, Washington 
+University School of Medicine, St. Louis, MO, United States.
+(2)Division of Endocrinology, Metabolism, and Lipid Research, Washington 
+University School of Medicine, St. Louis, MO, United States.
+
+Type 1 diabetes (T1D) is a chronic autoimmune disease characterized by the T 
+cell-mediated destruction of insulin-secreting pancreatic β cells, leaving 
+patients reliant on exogenous insulin to establish normoglycemia. Despite 
+advancements in glucose management, the precise pathological mechanisms linking 
+genetic predisposition and environmental triggers to the loss of immune 
+tolerance remain incompletely understood, hindering the development of 
+preventative therapies. This comprehensive review synthesizes clinical, 
+experimental, and epidemiological data to detail the intricate pathogenesis of 
+T1D, focusing on the convergence of autoimmunity, high-risk genetics, and 
+enteroviral infection. We discuss how T1D is fundamentally a disease caused by 
+failures in central and peripheral tolerance mechanisms, leading to the 
+activation and infiltration of autoreactive CD4+ and CD8+ T cells into the 
+pancreatic islets. We then explore the profound influence of genetic 
+susceptibility, highlighting the role of HLA and non-HLA genes (e.g., IFIH1, 
+TYK2) that modulate innate immune response, connecting genetic susceptibility to 
+the pro-inflammatory response to pathogens. We also discuss enterovirus 
+infection, particularly by coxsackievirus B (CVB), and its potential role as a 
+critical environmental trigger. We demonstrate how CVB utilizes and subverts 
+host cellular machinery to promote β cell stress and facilitate immune evasion, 
+as well as evidence for its ability to establish a persistent low-grade 
+infection within the pancreas. Finally, we emphasize the indispensable role of 
+advanced human models, such as human pluripotent stem cell-derived islets. 
+Elucidating the precise mechanisms linking genetic and viral risk factors in 
+human-relevant contexts is critical. Future research must prioritize addressing 
+these knowledge gaps to develop targeted, preemptive interventions that can 
+successfully delay or prevent T1D onset.
+
+Copyright © 2025 Veronese-Paniagua and Millman.
+
+DOI: 10.3389/fendo.2025.1734431
+PMCID: PMC12753326
+PMID: 41480350 [Indexed for MEDLINE]
+
+Conflict of interest statement: JM is an inventor on patents and patent 
+applications related to SC-islets. JM was employed at and has stock at Sana 
+Biotechnology. The remaining author(s) declared that this work was conducted in 
+the absence of any commercial or financial relationships that could be construed 
+as a potential conflict of interest.

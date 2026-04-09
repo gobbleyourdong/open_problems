@@ -3,3 +3,7 @@
 __pycache__/
 *.pyc
 .claude/scheduled_tasks.lock
+/.lake
+numerics/transcriptomics/*.tar
+numerics/transcriptomics/mecfs/*.tar
+numerics/transcriptomics/mecfs/GSE111183_series_matrix.txt.gz

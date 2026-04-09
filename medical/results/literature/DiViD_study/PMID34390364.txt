@@ -1,0 +1,58 @@
+1. Diabetologia. 2021 Nov;64(11):2491-2501. doi: 10.1007/s00125-021-05525-0. Epub
+ 2021 Aug 14.
+
+Characterisation of enterovirus RNA detected in the pancreas and other specimens 
+of live patients with newly diagnosed type 1 diabetes in the DiViD study.
+
+Oikarinen S(1), Krogvold L(2)(3), Edwin B(2)(4), Buanes T(2)(5)(6), Korsgren 
+O(7), Laiho JE(8), Oikarinen M(8), Ludvigsson J(9), Skog O(7), Anagandula M(7), 
+Frisk G(7), Hyöty H(8)(10), Dahl-Jørgensen K(2)(3).
+
+Author information:
+(1)Faculty of Medicine and Health Technology, Tampere University, Tampere, 
+Finland. Sami.Oikarinen@tuni.fi.
+(2)Paediatric Department, Oslo University Hospital, Oslo, Norway.
+(3)Faculty of Medicine, University of Oslo, Oslo, Norway.
+(4)The Intervention Centre, Department of HPB Surgery, Oslo University Hospital 
+and Institute of Clinical Medicine, University of Oslo, Oslo, Norway.
+(5)Department of Hepato-Pancreato-Biliary Surgery, Institute of Clinical 
+Medicine, Faculty of Medicine, University of Oslo, Oslo University Hospital, 
+Oslo, Norway.
+(6)Division of Cancer, Surgery and Transplantation, Oslo University Hospital and 
+Institute of Clinical Medicine, University of Oslo, Oslo, Norway.
+(7)Department of Immunology, Genetics and Pathology, Uppsala University, 
+Uppsala, Sweden.
+(8)Faculty of Medicine and Health Technology, Tampere University, Tampere, 
+Finland.
+(9)Crown Princess Victoria Children's Hospital and Division of Pediatrics, 
+Department of Biomedical and Clinical Sciences, Linköping University, Linköping, 
+Sweden.
+(10)Fimlab Laboratories, Pirkanmaa Hospital District, Tampere, Finland.
+
+AIMS/HYPOTHESIS: The Diabetes Virus Detection (DiViD) study is the first study 
+to laparoscopically collect pancreatic tissue and purified pancreatic islets 
+together with duodenal mucosa, serum, peripheral blood mononuclear cells (PBMCs) 
+and stools from six live adult patients (age 24-35 years) with newly diagnosed 
+type 1 diabetes. The presence of enterovirus (EV) in the pancreatic islets of 
+these patients has previously been reported.
+METHODS: In the present study we used reverse transcription quantitative 
+real-time PCR (RT-qPCR) and sequencing to characterise EV genomes present in 
+different tissues to understand the nature of infection in these individuals.
+RESULTS: All six patients were found to be EV-positive by RT-qPCR in at least 
+one of the tested sample types. Four patients were EV-positive in purified islet 
+culture medium, three in PBMCs, one in duodenal biopsy and two in stool, while 
+serum was EV-negative in all individuals. Sequencing the 5' untranslated region 
+of these EVs suggested that all but one belonged to enterovirus B species. One 
+patient was EV-positive in all these sample types except for serum. Sequence 
+analysis revealed that the virus strain present in the isolated islets of this 
+patient was different from the strain found in other sample types. None of the 
+islet-resident viruses could be isolated using EV-permissive cell lines.
+CONCLUSIONS/INTERPRETATION: EV RNA can be frequently detected in various tissues 
+of patients with type 1 diabetes. At least in some patients, the EV strain in 
+the pancreatic islets may represent a slowly replicating persisting virus.
+
+© 2021. The Author(s).
+
+DOI: 10.1007/s00125-021-05525-0
+PMCID: PMC8494699
+PMID: 34390364 [Indexed for MEDLINE]

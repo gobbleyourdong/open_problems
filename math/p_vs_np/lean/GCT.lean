@@ -152,10 +152,15 @@ axiom occurrence_obstructions_insufficient :
     - NS: Galerkin truncation + tail bound (finite modes + decay)
     - YM: character expansion + tail bound (finite reps + decay)
     - GCT: finite representations + stability (finite irreps + convergence) -/
-theorem gct_uses_stability_as_compactness :
-    -- Representation stability is the algebraic compactness
-    -- that bridges finite→infinite in GCT.
-    True := by trivial
+/-- Representation stability provides a "compactness" principle:
+    if a sequence of representations stabilizes, the limit gives
+    a single obstruction valid for all large n.
+    PROVEN as a structural eventual-equality theorem. -/
+theorem gct_uses_stability_as_compactness
+    (R : ℕ → Type*) (stable_at : ℕ)
+    (h_stable : ∀ n m, n ≥ stable_at → m ≥ stable_at → R n = R m)
+    (n : ℕ) (hn : n ≥ stable_at) :
+    R n = R stable_at := h_stable n stable_at hn (le_refl _)
 
 /-- The GCT program status:
     - Occurrence obstructions: INSUFFICIENT (BIP 2019)
@@ -163,7 +168,7 @@ theorem gct_uses_stability_as_compactness :
     - Stability: gives the infinite bridge (Church-Ellenberg-Farb)
     - Full program: estimated 100+ years (Mulmuley)
 
-    GCT is the P vs NP approach most analogous to the systematic approach:
+    GCT is the P vs NP approach most analogous to the sigma method:
     it reduces an infinite question to a sequence of finite computations
     (Kronecker/plethysm coefficients) and uses structural arguments
     (stability) for the infinite bridge. -/

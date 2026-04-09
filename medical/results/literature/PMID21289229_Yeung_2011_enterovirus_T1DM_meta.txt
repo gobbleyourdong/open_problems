@@ -1,0 +1,36 @@
+1. Diabetes Care. 2011 Mar;34(3):610-5. doi: 10.2337/dc10-0625. Epub 2011 Feb 2.
+
+Hemoglobin A1c as a predictor of incident diabetes.
+
+Cheng P(1), Neugaard B, Foulis P, Conlin PR.
+
+Author information:
+(1)Department of Veterans Affairs Medical Center, Tampa, Florida, USA.
+
+OBJECTIVE: Several studies have suggested that HbA(1c) levels may predict 
+incident diabetes. With new recommendations for use of HbA(1c) in diagnosing 
+diabetes, many patients with HbA(1c) results below the diagnostic threshold will 
+be identified. Clinicians will need to categorize risk for a subsequent diabetic 
+diagnosis in such patients. The objective of this study was to determine the 
+ability of HbA(1c) to predict the incidence of a diabetic diagnosis.
+RESEARCH DESIGN AND METHODS: We performed a historical cohort study using 
+electronic medical record data from two Department of Veterans Affairs Medical 
+Centers. Patients (n = 12,589) were identified with a baseline HbA(1c) <6.5% 
+between January 2000 and December 2001 and without a diagnosis of diabetes. 
+Patients (12,375) had at least one subsequent follow-up visit. These patients 
+were tracked for 8 years for a subsequent diagnosis of diabetes.
+RESULTS: During an average follow-up of 4.4 years, 3,329 (26.9%) developed 
+diabetes. HbA(1c) ≥ 5.0% carried a significant risk for developing diabetes 
+during follow-up. When compared with the reference group (HbA(1c) <4.5%), 
+HbA(1c) increments of 0.5% between 5.0 and 6.4% had adjusted odds ratios of 1.70 
+(5.0-5.4%), 4.87 (5.5-5.9%), and 16.06 (6.0-6.4%) (P < 0.0001). Estimates of 
+hazard ratios similarly showed significant increases for HbA(1c) ≥ 5.0%. A risk 
+model for incident diabetes within 5 years was developed and validated using 
+HbA(1c), age, BMI, and systolic blood pressure.
+CONCLUSIONS: The incidence of diabetes progressively and significantly increased 
+among patients with an HbA(1c) ≥ 5.0%, with substantially expanded risk for 
+those with HbA(1c) 6.0-6.4%.
+
+DOI: 10.2337/dc10-0625
+PMCID: PMC3041192
+PMID: 21289229 [Indexed for MEDLINE]

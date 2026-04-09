@@ -158,7 +158,7 @@ Weights are positive (w_P > 0, ∂c_j/∂α > 0).
 
 ## DOES THIS BREAK THE WALL?
 
-The theory track said the 6j-symbol signs kill the argument. But the
+The even instance said the 6j-symbol signs kill the argument. But the
 character expansion for ⟨Tr(W)⟩ doesn't involve 6j symbols — it involves
 SCHUR ORTHOGONALITY (which gives 1/d_j > 0). The 6j symbols arise for
 DISCONNECTED Wilson loop expectations ⟨Tr(W₁) Tr(W₂)⟩, not for single
@@ -173,4 +173,4 @@ connected loops ⟨Tr(W)⟩.
 ## Gradient correlation = sum of positive × ⟨Tr(connected loop)⟩ > 0.
 ## This does NOT hit the 6j wall (which is for disconnected products).
 ## If correct: Langevin coupling → (5.15) → confinement → mass gap.
-## NEEDS RIGOROUS VERIFICATION BY theory track.
+## NEEDS RIGOROUS VERIFICATION BY EVEN INSTANCE.

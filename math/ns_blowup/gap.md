@@ -22,7 +22,7 @@ W-entropy might help: does W increase for non-stationary rescaled flows?
 G(t) = ∫ log(1+|ω|²) dx. If G grows sub-linearly: regularity.
 **THE NUMBER:** G_max = sup_t G(t)/t (should be finite for regularity).
 
-Computed (numerical track, gmax_compute.py):
+Computed (odd instance, gmax_compute.py):
 - Taylor-Green (N=32, ν=0.01): G/t decreasing, 2.48 → 0.31. **SUB-LINEAR ✓**
 - ABC flow (N=32, ν=0.01): G/t decreasing, 6.34 → 0.62. **SUB-LINEAR ✓**
 - Higher Re computation running in background (N=48, ν=0.002).
@@ -111,4 +111,4 @@ Mountain 5: Critical ratio R (stretching vs palinstrophy)
 Mountain 6: Ashurst alignment (α ≈ 0 at vorticity max) ★ STRONGEST EVIDENCE
 
 Six mountains surrounding 3 sub-gaps. Gap 1 closed. Gaps 2-3 have
-computable numbers (R_II, G_max, R, C_T, α/|ω|). The systematic approach applies.
+computable numbers (R_II, G_max, R, C_T, α/|ω|). The sigma method applies.

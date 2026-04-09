@@ -1,0 +1,325 @@
+{
+  "query_summary": [
+    {
+      "query": "\"coxsackievirus B3\" AND \"heart\" AND \"RNA-Seq\"",
+      "total_count": 20,
+      "retrieved": 20,
+      "new_runs": 20
+    },
+    {
+      "query": "\"coxsackievirus B3\" AND \"myocarditis\"",
+      "total_count": 20,
+      "retrieved": 20,
+      "new_runs": 0
+    },
+    {
+      "query": "\"coxsackievirus\" AND \"myocarditis\" AND \"RNA-Seq\"",
+      "total_count": 20,
+      "retrieved": 20,
+      "new_runs": 0
+    },
+    {
+      "query": "\"coxsackievirus\" AND \"cardiomyopathy\" AND \"RNA-Seq\"",
+      "total_count": 0,
+      "retrieved": 0,
+      "new_runs": 0
+    },
+    {
+      "query": "\"viral myocarditis\" AND \"RNA-Seq\"",
+      "total_count": 4,
+      "retrieved": 4,
+      "new_runs": 4
+    }
+  ],
+  "total_unique_runs": 24,
+  "runs": [
+    {
+      "run_accession": "ERR6454437",
+      "experiment": "ERX6081955",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "76158942",
+      "bases": "22847682600",
+      "size_bytes": "7160642167",
+      "published": "2021-09-25 08:04:54"
+    },
+    {
+      "run_accession": "ERR6454436",
+      "experiment": "ERX6081954",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "78810742",
+      "bases": "23643222600",
+      "size_bytes": "7427873989",
+      "published": "2021-09-25 08:04:54"
+    },
+    {
+      "run_accession": "ERR6454435",
+      "experiment": "ERX6081953",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "82106749",
+      "bases": "24632024700",
+      "size_bytes": "8114957366",
+      "published": "2021-09-25 08:04:54"
+    },
+    {
+      "run_accession": "ERR6454434",
+      "experiment": "ERX6081952",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "84847998",
+      "bases": "25454399400",
+      "size_bytes": "7970868045",
+      "published": "2021-09-25 08:04:54"
+    },
+    {
+      "run_accession": "ERR6454433",
+      "experiment": "ERX6081951",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "86845620",
+      "bases": "26053686000",
+      "size_bytes": "8193419351",
+      "published": "2021-09-25 08:04:54"
+    },
+    {
+      "run_accession": "ERR6454432",
+      "experiment": "ERX6081950",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "82881051",
+      "bases": "24864315300",
+      "size_bytes": "7799784078",
+      "published": "2021-09-25 08:04:53"
+    },
+    {
+      "run_accession": "ERR6454431",
+      "experiment": "ERX6081949",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "81735449",
+      "bases": "24520634700",
+      "size_bytes": "7637460358",
+      "published": "2021-09-25 08:04:53"
+    },
+    {
+      "run_accession": "ERR6454430",
+      "experiment": "ERX6081948",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "87203741",
+      "bases": "26161122300",
+      "size_bytes": "8147826602",
+      "published": "2021-09-25 08:04:53"
+    },
+    {
+      "run_accession": "ERR6454429",
+      "experiment": "ERX6081947",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "74983051",
+      "bases": "22494915300",
+      "size_bytes": "7023332706",
+      "published": "2021-09-25 08:04:53"
+    },
+    {
+      "run_accession": "ERR6454428",
+      "experiment": "ERX6081946",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "80522619",
+      "bases": "24156785700",
+      "size_bytes": "7238148861",
+      "published": "2021-09-25 08:04:53"
+    },
+    {
+      "run_accession": "ERR6454427",
+      "experiment": "ERX6081945",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "82183202",
+      "bases": "24654960600",
+      "size_bytes": "7350312388",
+      "published": "2021-09-25 08:04:53"
+    },
+    {
+      "run_accession": "ERR6454426",
+      "experiment": "ERX6081944",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "81164449",
+      "bases": "24349334700",
+      "size_bytes": "7245496686",
+      "published": "2021-09-25 08:04:53"
+    },
+    {
+      "run_accession": "ERR6454425",
+      "experiment": "ERX6081943",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "78212051",
+      "bases": "23463615300",
+      "size_bytes": "7009887845",
+      "published": "2021-09-25 08:04:53"
+    },
+    {
+      "run_accession": "ERR6454424",
+      "experiment": "ERX6081942",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "76321243",
+      "bases": "22896372900",
+      "size_bytes": "6846968353",
+      "published": "2021-09-25 08:04:53"
+    },
+    {
+      "run_accession": "ERR6454423",
+      "experiment": "ERX6081941",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "79737375",
+      "bases": "23921212500",
+      "size_bytes": "7133389523",
+      "published": "2021-09-25 08:04:53"
+    },
+    {
+      "run_accession": "ERR6454422",
+      "experiment": "ERX6081940",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "78310176",
+      "bases": "23493052800",
+      "size_bytes": "7000059755",
+      "published": "2021-09-25 08:04:53"
+    },
+    {
+      "run_accession": "ERR6454421",
+      "experiment": "ERX6081939",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "89286133",
+      "bases": "26785839900",
+      "size_bytes": "8029262344",
+      "published": "2021-09-25 08:04:53"
+    },
+    {
+      "run_accession": "ERR6454420",
+      "experiment": "ERX6081938",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "72562482",
+      "bases": "21768744600",
+      "size_bytes": "6488892713",
+      "published": "2021-09-25 08:04:53"
+    },
+    {
+      "run_accession": "ERR6454419",
+      "experiment": "ERX6081937",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "78240889",
+      "bases": "23472266700",
+      "size_bytes": "7320556866",
+      "published": "2021-09-25 08:04:53"
+    },
+    {
+      "run_accession": "ERR6454418",
+      "experiment": "ERX6081936",
+      "experiment_title": "Illumina NovaSeq 6000 paired end sequencing; Expression profiles of non-coding RNAs in the heart of mice with coxsackie B3 virus-induced myocarditis",
+      "study": "ERP131098",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "80693356",
+      "bases": "24208006800",
+      "size_bytes": "7493872242",
+      "published": "2021-09-25 08:04:53"
+    },
+    {
+      "run_accession": "SRR14539834",
+      "experiment": "SRX10883790",
+      "experiment_title": "GSM5311770: Myocarditis 2; Mus musculus; RNA-Seq",
+      "study": "SRP319943",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "182425254",
+      "bases": "54727576200",
+      "size_bytes": "24981836607",
+      "published": "2022-01-17 16:02:12"
+    },
+    {
+      "run_accession": "SRR14539833",
+      "experiment": "SRX10883789",
+      "experiment_title": "GSM5311769: Myocarditis 1; Mus musculus; RNA-Seq",
+      "study": "SRP319943",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "232868975",
+      "bases": "69860692500",
+      "size_bytes": "33214015343",
+      "published": "2022-01-17 16:02:12"
+    },
+    {
+      "run_accession": "SRR14539832",
+      "experiment": "SRX10883788",
+      "experiment_title": "GSM5311768: Healthy Controls 2; Mus musculus; RNA-Seq",
+      "study": "SRP319943",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "287417143",
+      "bases": "86225142900",
+      "size_bytes": "39446607746",
+      "published": "2022-01-17 16:02:12"
+    },
+    {
+      "run_accession": "SRR14539831",
+      "experiment": "SRX10883787",
+      "experiment_title": "GSM5311767: Healthy Controls 1; Mus musculus; RNA-Seq",
+      "study": "SRP319943",
+      "study_title": "",
+      "organism": "Mus musculus",
+      "spots": "214099644",
+      "bases": "64229893200",
+      "size_bytes": "30205648954",
+      "published": "2022-01-17 16:02:12"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+1. J Diabetes Complications. 2024 Sep;38(9):108830. doi: 
+10.1016/j.jdiacomp.2024.108830. Epub 2024 Jul 25.
+
+Association of continuous subcutaneous insulin therapy and diabetic retinopathy 
+in type 1 diabetes: A national cohort study.
+
+Thykjær AS(1), Rosengaard L(2), Andersen N(3), Andresen J(4), Hajari J(5), 
+Heegaard S(6), Højlund K(7), Kawasaki R(8), Laugesen CS(9), Möller S(10), 
+Pedersen FN(11), Schielke K(12), Stokholm LM(13), Grauslund J(14).
+
+Author information:
+(1)Department of Ophthalmology, Odense University Hospital, Odense, Denmark; 
+Department of Clinical Research, University of Southern Denmark, Odense, 
+Denmark; Steno Diabetes Center Odense, Odense University Hospital, Odense, 
+Denmark. Electronic address: anne.suhr.thykjaer@rsyd.dk.
+(2)Research Unit OPEN, Department of Clinical Research, University of Southern 
+Denmark, Odense, Denmark.
+(3)Organization of Danish Practicing Ophthalmologists, Copenhagen, Denmark.
+(4)Organization of Danish Practicing Ophthalmologists, Copenhagen, Denmark. 
+Electronic address: d046531@dadlnet.dk.
+(5)Department of Ophthalmology, Zealand University Hospital Roskilde, Roskilde, 
+Denmark. Electronic address: javad.nouri.hajari@regionh.dk.
+(6)Department of Ophthalmology, Rigshospitalet-Glostrup, Copenhagen, Denmark. 
+Electronic address: sthe@sund.ku.dk.
+(7)Department of Clinical Research, University of Southern Denmark, Odense, 
+Denmark; Steno Diabetes Center Odense, Odense University Hospital, Odense, 
+Denmark. Electronic address: Kurt.Hoejlund@rsyd.dk.
+(8)Department of Clinical Research, University of Southern Denmark, Odense, 
+Denmark; Division of Public Health, Department of Social Medicine, Graduate 
+School of Medicine, Osaka University, Osaka, Japan. Electronic address: 
+ryo.kawasaki@ophthal.med.osaka-u.ac.jp.
+(9)Department of Ophthalmology, Zealand University Hospital Roskilde, Roskilde, 
+Denmark. Electronic address: csla@regionsjaelland.dk.
+(10)Research Unit OPEN, Department of Clinical Research, University of Southern 
+Denmark, Odense, Denmark. Electronic address: Soren.Moller@rsyd.dk.
+(11)Department of Ophthalmology, Odense University Hospital, Odense, Denmark; 
+Department of Clinical Research, University of Southern Denmark, Odense, 
+Denmark. Electronic address: Frederik.N.Pedersen@rsyd.dk.
+(12)Department of Ophthalmology, Aalborg University Hospital, Aalborg, Denmark. 
+Electronic address: kcs@rn.dk.
+(13)Research Unit OPEN, Department of Clinical Research, University of Southern 
+Denmark, Odense, Denmark. Electronic address: Lonny.Merete.Stokholm@rsyd.dk.
+(14)Department of Ophthalmology, Odense University Hospital, Odense, Denmark; 
+Department of Clinical Research, University of Southern Denmark, Odense, 
+Denmark; Steno Diabetes Center Odense, Odense University Hospital, Odense, 
+Denmark. Electronic address: Jakob.Grauslund@rsyd.dk.
+
+AIM: This study aimed to investigate the short-and long-term effect on diabetic 
+retinopathy (DR) in individuals with type 1 diabetes treated with continuous 
+subcutaneous insulin injections (CSII) compared to those using multiple daily 
+injections (MDI).
+METHODS: We conducted a register-based matched cohort study utilizing data from 
+the Danish Registry of Diabetic Retinopathy as well as several other national 
+Danish health registers. Our cohort consisted of all individuals with type 1 
+diabetes who attended the Danish screening program for DR from 2013 to 2022. We 
+included individuals registered with CSII treatment, and compared them to 
+individuals using MDI, matched by age, sex, and DR level. Cox regression 
+analysis was performed to evaluate the outcomes.
+RESULTS: The study included 674 individuals treated with CSII and 2006 matched 
+MDI users. In our cohort 53.4 % were female and median age was 36 (IQR 27-47). 
+Average follow-up risk-time was 4.8 years. There was no difference in the risk 
+of DR worsening between the CSII group and MDI group (HR 1.05 [95%CI 0.91; 
+1.22], p = 0.49). However, an increased risk of focal photocoagulation was 
+observed in the CSII group (HR 2.40 [95%CI 1.11; 5.19], p = 0.03).
+CONCLUSIONS: Our findings indicate that CSII treatment does not confer a 
+significant difference in the overall short- and long-term risk of DR worsening 
+or ocular intervention compared to MDI treatment. These results provide insights 
+into the DR outcomes of CSII treatment in individuals with type 1 diabetes.
+
+Copyright © 2024. Published by Elsevier Inc.
+
+DOI: 10.1016/j.jdiacomp.2024.108830
+PMID: 39096767 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of competing interest None.

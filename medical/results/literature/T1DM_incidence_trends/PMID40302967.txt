@@ -1,0 +1,50 @@
+1. Pediatr Diabetes. 2024 May 27;2024:2338922. doi: 10.1155/2024/2338922. 
+eCollection 2024.
+
+Trends in the Incidence of Type 1 Diabetes in European Children and Adolescents 
+from 1994 to 2022: A Systematic Review and Meta-Analysis.
+
+Ruiz-Grao MC(1)(2), Díez-Fernández A(2)(3), Mesas AE(2)(4), Martínez-Vizcaíno 
+V(2)(5), Sequí-Domínguez I(1)(2), Sebastián-Valles F(6), Garrido-Miguel M(1)(2).
+
+Author information:
+(1)Facultad de Enfermería Universidad de Castilla-La Mancha 02006 AlbaceteSpain.
+(2)Health and Social Research Center Universidad de Castilla-La Mancha 16071 
+CuencaSpain.
+(3)Facultad de Enfermería Universidad de Castilla-La Mancha 16071 CuencaSpain.
+(4)Postgraduate Program in Public Health Universidade Estadual de Londrina 
+86057-970 Londrina ParanáBrazil.
+(5)Facultad de Ciencias de la Salud Universidad Autónoma de Chile 1101 
+TalcaChile.
+(6)Department of Endocrinology and Nutrition Instituto de Investigación Princesa 
+Universidad Autónoma de Madrid Hospital Universitario de La Princesa 
+MadridSpain.
+
+AIM: To assess the incidence trends in type 1 diabetes among children and 
+adolescents across Europe during the period from 1994 to 2022 using a systematic 
+methodology.
+MATERIALS AND METHODS: Cross-sectional or follow-up studies reporting 
+population-based incidence rates (IRs) of European children and adolescents 
+diagnosed aged <15 years with type 1 diabetes were included. The Mantel‒Haenszel 
+or DerSimonian and Laird random-effects method was used to compute the pooled IR 
+estimates and their 95% confidence intervals (CIs). Subgroup analyses were 
+conducted by study year, biological sex, age group (0-4, 5-9, and 10-14 years), 
+country, and European regions.
+RESULTS: A total of 75 studies (219,331 children and adolescents aged 0-14 
+years) with data from 32 countries were included. Generally, a high overall rate 
+of increase in type 1 diabetes incidence has been shown in most European 
+countries from 1994 to 2022 in both sexes, with an overall increase from 10.85 
+(95% CI, 9.62-12.07) per 100,000 person-years from 1994 to 2003 to 20.96 (95% 
+CI, 19.26-22.66) per 100,000 person-years from 2013 to 2022.
+CONCLUSIONS: There are substantial between-country differences in the current 
+levels and trends of IR in type 1 diabetes in European children and adolescents. 
+Our data suggest a worrying upward trend in most European countries.
+
+Copyright © 2024 Marta Carolina Ruiz-Grao et al.
+
+DOI: 10.1155/2024/2338922
+PMCID: PMC12020782
+PMID: 40302967 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that they have no conflicts 
+of interest.

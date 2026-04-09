@@ -25,7 +25,7 @@ Self-adjointness → eigenvalues real → zeros on Re(s) = 1/2.
 spectrum matches the zeros. The operator is "morally" xp but making it
 self-adjoint requires boundary conditions that encode the arithmetic.
 
-**systematic approach fit**: HIGH. The operator, if found, can be studied numerically
+**Sigma Method fit**: HIGH. The operator, if found, can be studied numerically
 (eigenvalue computation). The construction might be formalizable.
 
 ### Route 2: Arithmetic Geometry (Weil Analog) ★★★★★
@@ -49,7 +49,7 @@ For ζ(s) over Q: need an "arithmetic surface" and a positivity argument.
 arithmetic case, the analog of the intersection form is the Weil explicit
 formula, and positivity is equivalent to RH itself. CIRCULAR.
 
-**systematic approach fit**: HIGH conceptually but the gap IS the problem.
+**Sigma Method fit**: HIGH conceptually but the gap IS the problem.
 
 ### Route 3: Analytic (Zero-Free Region) ★★
 **Idea**: Push the zero-free region closer to Re(s) = 1/2.
@@ -62,7 +62,7 @@ improvement to the EXPONENT 2/3. Minor constant improvements only.
 **Gap**: The exponential sum methods that give the zero-free region seem
 to have a natural barrier at exponent 2/3. New ideas needed.
 
-**systematic approach fit**: LOW. This is a dead end without a new technique.
+**Sigma Method fit**: LOW. This is a dead end without a new technique.
 
 ### Route 4: Criterion-Based (Li, Nyman-Beurling) ★★★
 **Idea**: Prove an equivalent criterion.
@@ -78,8 +78,8 @@ to have a natural barrier at exponent 2/3. New ideas needed.
 **Gap**: λ_n grows like (n/2) log n (if RH is true). Proving λ_n ≥ 0
 for ALL n requires understanding the arithmetic of ζ, not just estimates.
 
-**systematic approach fit**: MEDIUM. The criteria are computationally testable
-(numerical track can compute λ_n). But proving positivity for all n is hard.
+**Sigma Method fit**: MEDIUM. The criteria are computationally testable
+(Odd instance can compute λ_n). But proving positivity for all n is hard.
 
 ### Route 5: Random Matrix Theory ★★
 **Idea**: The zeros of ζ(s) behave like eigenvalues of random matrices
@@ -94,7 +94,7 @@ from GUE. Use this to constrain zero locations.
 **Gap**: RMT is a statistical prediction. It says MOST zeros are on
 the critical line, but can't rule out individual exceptions.
 
-**systematic approach fit**: LOW for proof, HIGH for understanding structure.
+**Sigma Method fit**: LOW for proof, HIGH for understanding structure.
 
 ## Assessment
 
@@ -104,7 +104,7 @@ closest to a complete framework. But the gap IS the problem (positivity).
 **Secondary**: Route 1 (Hilbert-Pólya) — if the operator is found, the
 proof follows. The operator search is the gap.
 
-**Computational**: Route 4 (Li's criterion) — the numerical track should
+**Computational**: Route 4 (Li's criterion) — the Odd instance should
 compute λ_n to high precision and look for structure.
 
 **Dead**: Route 3 (analytic zero-free) — 65 years stuck at 2/3 exponent.

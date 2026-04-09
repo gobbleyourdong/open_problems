@@ -1,0 +1,118 @@
+1. Gut. 2020 Aug;69(8):1416-1422. doi: 10.1136/gutjnl-2019-319809. Epub 2019 Nov 
+19.
+
+Metagenomics of the faecal virome indicate a cumulative effect of enterovirus 
+and gluten amount on the risk of coeliac disease autoimmunity in genetically at 
+risk children: the TEDDY study.
+
+Lindfors K(#)(1), Lin J(#)(2)(3), Lee HS(4), Hyöty H(2), Nykter M(2), Kurppa 
+K(2)(5)(6), Liu E(7)(8), Koletzko S(9)(10), Rewers M(11), Hagopian W(12), 
+Toppari J(13)(14), Ziegler AG(15)(16)(17), Akolkar B(18), Krischer JP(4), 
+Petrosino JF(19), Lloyd RE(19), Agardh D(20); TEDDY Study Group.
+
+Collaborators: Barbour A, Bautista K, Baxter J, Felipe-Morales D, Driscoll K, 
+Frohnert BI, Stahl M, Gesualdo P, Hoffman M, Karban R, Norris J, Peacock S, 
+Shorrosh H, Steck A, Stern M, Villegas E, Waugh K, Simell OG, Adamsson A, Ahonen 
+S, Åkerlund M, Hakola L, Hekkala A, Holappa H, Ikonen A, Ilonen J, Jäminki S, 
+Jokipuu S, Karlsson L, Kero J, Kähönen M, Knip M, Koivikko ML, Koskinen M, 
+Koreasalo M, Kytölä J, Latva-Aho T, Lönnrot M, Mäntymäki E, Mattila M, Miettinen 
+M, Multasuo K, Mykkänen T, Niininen T, Niinistö S, Nyblom M, Oikarinen S, 
+Ollikainen P, Othmani Z, Pohjola S, Rajala P, Rautanen J, Riikonen A, Riski E, 
+Pekkola M, Romo M, Ruohonen S, Simell S, Sjöberg M, Stenius A, Tossavainen P, 
+Vähä-Mäkilä M, Vainionpää S, Varjonen E, Veijola R, Viinikangas I, Virtanen SM, 
+She JX, Schatz D, Hopkins D, Steed L, Bryant J, Silvis K, Haller M, Gardiner M, 
+McIndoe R, Sharma A, Anderson SW, Jacobsen L, Marks J, Bonifacio E, Gavrisan A, 
+Gezginci C, Heublein A, Hoffmann V, Hummel S, Keimer A, Knopff A, Koch C, 
+Ramminger C, Roth R, Scholz M, Stock J, Warncke K, Wendel L, Winkler C, Lernmark 
+Å, Aronsson CA, Ask M, Bennet R, Cilio C, Engqvist H, Ericson-Hallström E, Fors 
+A, Fransson L, Gard T, Hansen M, Jisser H, Johansen F, Jonsdottir B, Jovic S, 
+Larsson HE, Lindström M, Lundgren M, Maziarz M, Månsson-Martinez M, Markan M, 
+Melin J, Mestan Z, Nilsson C, Ottosson K, Rahmati K, Ramelius A, Salami F, 
+Sjöberg A, Sjöberg B, Svensson M, Törn C, Wallin A, Wimar Å, Åberg S, Killian M, 
+Crouch CC, Skidmore J, Chavoshi M, Hervey R, Lyons R, Meyer A, Mulenga D, Radtke 
+J, Romancik M, Schmitt D, Zink S, Becker D, Franciscus M, Smith MD, Daftary A, 
+Klein MB, Yates C, Austin-Gonzalez S, Avendano M, Baethke S, Brown R, Burkhardt 
+B, Butterworth M, Clasen J, Cuthbertson D, Dankyi S, Eberhard C, Fiske S, 
+Garmeson J, Gowda V, Heyman K, Hsiao B, Karges C, Laras FP, Li Q, Liu S, Liu X, 
+Lynch K, Maguire C, Malloy J, McCarthy C, Merrell A, Parikh H, Quigley R, 
+Remedios C, Shaffer C, Smith L, Smith S, Sulman N, Tamura R, Tewey D, Toth M, 
+Uusitalo U, Vehik K, Vijayakandipan P, Wood K, Yang J, Abbondondolo M, Ballard 
+L, Hadley D, McLeod W, Meulemans S, Yu L, Miao D, Bingley P, Williams A, 
+Chandler K, Ball O, Kelland I, Grace S, Chavoshi M, Radtke J, Zink S, Ajami NJ, 
+Ross MC, O'Brien JL, Hutchinson DS, Smith DP, Wong MC, Tian X, Ayvaz T, Tamegnon 
+A, Truong N, Moreno H, Riley L, Moreno E, Bauch T, Kusic L, Metcalf G, Muzny D, 
+Doddapaneni H, Gibbs R, Ke S, Mulholland N, Bourcier K, Briese T, Johnson SB, 
+Triplett E.
+
+Author information:
+(1)Faculty of Medicine and Health Techology, Tampere University, Tampere, 
+Finland katri.lindfors@tuni.fi.
+(2)Faculty of Medicine and Health Techology, Tampere University, Tampere, 
+Finland.
+(3)Institute for Molecular Medicine Finland, University of Helsinki, Helsinki, 
+Finland.
+(4)Morsani College of Medicine, University of South Florida, Tampa, Florida, 
+USA.
+(5)Center for Child Health Research, Tampere University and Tampere University 
+Hospital, Tampere, Finland.
+(6)The University Consortium of Seinäjoki, Seinäjoki, Finland.
+(7)University of Colorado Denver, Anschutz Medical Campus, Aurora, Colorado, 
+USA.
+(8)Digestive Health Institute, Children's Hospital Colorado, Aurora, United 
+States.
+(9)Ludwig-Maximilians-Universitat Munchen, Munchen, Bayern, Germany.
+(10)Division of Paediatric Gastroenterology and Hepatology, Dr von Hauner 
+Children's Hospital, Munchen, Germany.
+(11)Barbara Davis Center for Childhood Diabetes, University of Colorado Denver, 
+Denver, Colorado, USA.
+(12)Pacific Northwest Research Institute, Seattle, Washington, USA.
+(13)Research Centre for Integrative Physiology and Phamacology, Institute of 
+Biomedicine, University of Turku, Turku, Finland.
+(14)Department of Paediatrics, Turku University Hospital, Turku, Finland.
+(15)Kliikum Rechts der Isar, Technische Universität München, Munchen, Bayern, 
+Germany.
+(16)Institute of Diabetes Research, Helmholtz Zentrum München, Germany.
+(17)Forschergruppe Diabetes e.V, Neuherberg, Germany.
+(18)National Institute of Diabetes and Digestive and Kidney Disease, National 
+Institutes of Health, Bethesda, Maryland, USA.
+(19)Alkek Center for Metagenomics and Microbiome Research, Department of 
+Molecular Virology and Microbiology, Baylor College of Medicine, Houston, Texas, 
+USA.
+(20)The Diabetes and Celiac Disease Unit, Department of Clinical Sciences, Lund 
+University, Lund, Sweden.
+(#)Contributed equally
+
+OBJECTIVE: Higher gluten intake, frequent gastrointestinal infections and 
+adenovirus, enterovirus, rotavirus and reovirus have been proposed as 
+environmental triggers for coeliac disease. However, it is not known whether an 
+interaction exists between the ingested gluten amount and viral exposures in the 
+development of coeliac disease. This study investigated whether distinct viral 
+exposures alone or together with gluten increase the risk of coeliac disease 
+autoimmunity (CDA) in genetically predisposed children.
+DESIGN: The Environmental Determinants of Diabetes in the Young study 
+prospectively followed children carrying the HLA risk haplotypes DQ2 and/or DQ8 
+and constructed a nested case-control design. From this design, 83 CDA 
+case-control pairs were identified. Median age of CDA was 31 months. Stool 
+samples collected monthly up to the age of 2 years were analysed for virome 
+composition by Illumina next-generation sequencing followed by comprehensive 
+computational virus profiling.
+RESULTS: The cumulative number of stool enteroviral exposures between 1 and 2 
+years of age was associated with an increased risk for CDA. In addition, there 
+was a significant interaction between cumulative stool enteroviral exposures and 
+gluten consumption. The risk conferred by stool enteroviruses was increased in 
+cases reporting higher gluten intake.
+CONCLUSIONS: Frequent exposure to enterovirus between 1 and 2 years of age was 
+associated with increased risk of CDA. The increased risk conferred by the 
+interaction between enteroviruses and higher gluten intake indicate a cumulative 
+effect of these factors in the development of CDA.
+
+© Author(s) (or their employer(s)) 2020. Re-use permitted under CC BY-NC. No 
+commercial re-use. See rights and permissions. Published by BMJ.
+
+DOI: 10.1136/gutjnl-2019-319809
+PMCID: PMC7234892
+PMID: 31744911 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: HH is a shareholder and 
+chairman of the board of Vactech Ltd, which develops vaccines against 
+picornaviruses.

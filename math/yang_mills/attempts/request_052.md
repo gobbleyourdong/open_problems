@@ -1,7 +1,7 @@
 # Request 052: Weak Coupling GC Scaling — L-dependence + 1/β² coefficient
 
-**From**: theory track (Theory)
-**To**: numerical track (Numerics)
+**From**: Even Instance (Theory)
+**To**: Odd Instance (Numerics)
 **Date**: 2026-04-07
 **Priority**: CRITICAL — determines whether the proof closes
 

@@ -1,0 +1,72 @@
+1. Diabetologia. 2018 Feb;61(2):476-481. doi: 10.1007/s00125-017-4492-z. Epub
+2017  Nov 18.
+
+A Coxsackievirus B vaccine protects against virus-induced diabetes in an 
+experimental mouse model of type 1 diabetes.
+
+Stone VM(1)(2), Hankaniemi MM(2), Svedin E(1), Sioofy-Khojine A(2), Oikarinen 
+S(2), Hyöty H(2)(3), Laitinen OH(2), Hytönen VP(2)(3), Flodström-Tullberg 
+M(4)(5).
+
+Author information:
+(1)The Center for Infectious Medicine, Department of Medicine, Karolinska 
+Institutet, Karolinska University Hospital Huddinge, F59, SE-141 86, Stockholm, 
+Sweden.
+(2)Faculty of Medicine and Life Sciences, University of Tampere, Tampere, 
+Finland.
+(3)Fimlab Laboratories, Pirkanmaa Hospital District, Tampere, Finland.
+(4)The Center for Infectious Medicine, Department of Medicine, Karolinska 
+Institutet, Karolinska University Hospital Huddinge, F59, SE-141 86, Stockholm, 
+Sweden. malin.flodstrom-tullberg@ki.se.
+(5)Faculty of Medicine and Life Sciences, University of Tampere, Tampere, 
+Finland. malin.flodstrom-tullberg@ki.se.
+
+Comment in
+    Nat Rev Endocrinol. 2018 Mar;14(3):131-132. doi: 10.1038/nrendo.2017.184.
+
+AIMS/HYPOTHESIS: Epidemiological studies suggest a role for Coxsackievirus B 
+(CVB) serotypes in the pathogenesis of type 1 diabetes, but their actual 
+contribution remains elusive. In the present study, we have produced a CVB1 
+vaccine to test whether vaccination against CVBs can prevent virus-induced 
+diabetes in an experimental model.
+METHODS: NOD and SOCS1-tg mice were vaccinated three times with either a 
+formalin-fixed non-adjuvanted CVB1 vaccine or a buffer control. Serum was 
+collected for measurement of neutralising antibodies using a virus 
+neutralisation assay. Vaccinated and buffer-treated mice were infected with 
+CVB1. Viraemia and viral replication in the pancreas were measured using 
+standard plaque assay and PCR. The development of diabetes was monitored by 
+blood glucose measurements. Histological analysis and immunostaining for viral 
+capsid protein 1 (VP1), insulin and glucagon in formalin-fixed paraffin embedded 
+pancreas was performed.
+RESULTS: The CVB1 vaccine induced strong neutralising antibody responses and 
+protected against viraemia and the dissemination of virus to the pancreas in 
+both NOD mice (n = 8) and SOCS1-tg mice (n = 7). Conversely, 100% of the 
+buffer-treated NOD and SOCS1-tg mice were viraemic on day 3 post infection. 
+Furthermore, half (3/6) of the buffer-treated SOCS1-tg mice developed diabetes 
+upon infection with CVB1, with a loss of the insulin-positive beta cells and 
+damage to the exocrine pancreas. In contrast, all (7/7) vaccinated SOCS1-tg mice 
+were protected from virus-induced diabetes and showed no signs of beta cell loss 
+or pancreas destruction (p < 0.05).
+CONCLUSIONS/INTERPRETATION: CVB1 vaccine can efficiently protect against both 
+CVB1 infection and CVB1-induced diabetes. This preclinical proof of concept 
+study provides a base for further studies aimed at developing a vaccine for use 
+in elucidating the role of enteroviruses in human type 1 diabetes.
+
+DOI: 10.1007/s00125-017-4492-z
+PMCID: PMC6448957
+PMID: 29151123 [Indexed for MEDLINE]
+
+Conflict of interest statement: DUALITY OF INTEREST: HH is a minor (5%) 
+shareholder and member of the board of Vactech Ltd., which develops vaccines 
+against picornaviruses. The other authors declare that there is no duality of 
+interest associated with their contribution to this manuscript. CONTRIBUTION 
+STATEMENT: MFT and VPH are the guarantors of this work and, as such, had full 
+access to all of the data in the study and take responsibility for the integrity 
+of the data and the accuracy of the data analysis. VMS planned experiments, 
+generated, analysed and interpreted data and wrote the manuscript. MMH planned 
+experiments, generated, analysed and interpreted data and edited the manuscript. 
+ES and SO generated and analysed data and edited the manuscript. ASK contributed 
+to discussions, analysed data and edited the manuscript. HH, OHL and VPH 
+contributed to planning and discussions and edited the manuscript. MFT planned 
+the study and experiments, analysed and interpreted data and edited the 
+manuscript. All authors approved the final version of the manuscript.

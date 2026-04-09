@@ -1,0 +1,68 @@
+1. J Rheumatol. 2024 Apr 1;51(4):350-359. doi: 10.3899/jrheum.2023-0907.
+
+Polyautoimmunity in Patients With Anticyclic Citrullinated Peptide 
+Antibody-Positive and -Negative Rheumatoid Arthritis: a Nationwide Cohort Study 
+From Denmark.
+
+Kristensen S(1), Hagelskjær AM(2), Cordtz R(3), Bliddal S(4), Mortensen AS(2), 
+Nielsen CH(5), Feldt-Rasmussen U(6), Lauridsen KB(7), Dreyer L(8).
+
+Author information:
+(1)S. Kristensen, MD, PhD, Center for Rheumatic Research Aalborg and Department 
+of Rheumatology Aalborg University Hospital, and Department of Clinical 
+Medicine, Aalborg University, Aalborg; sakr@rn.dk.
+(2)A.M. Hagelskjær, MD, A.S. Mortensen, BSc, Center for Rheumatic Research 
+Aalborg and Department of Rheumatology, Aalborg University Hospital, Aalborg.
+(3)R. Cordtz, MD, PhD, Center for Rheumatic Research Aalborg and Department of 
+Rheumatology, Aalborg University Hospital, Aalborg, and DANBIO, Center for 
+Rheumatology and Spine Diseases, Centre of Head and Orthopedics, Rigshospitalet, 
+Glostrup.
+(4)S. Bliddal, MD, PhD, Department of Medical Endocrinology and Metabolism, 
+Copenhagen University Hospital, Rigshospitalet, Copenhagen.
+(5)C.H. Nielsen, MD, DMSc, Institute for Inflammation Research, Center for 
+Rheumatology and Spine Diseases, Copenhagen University Hospital, Rigshospitalet, 
+Copenhagen.
+(6)U. Feldt-Rasmussen, MD, DMSc, Department of Medical Endocrinology and 
+Metabolism, Copenhagen University Hospital, Rigshospitalet, and Institute of 
+Clinical Medicine, Faculty of Health and Clinical Sciences, Copenhagen 
+University, Copenhagen.
+(7)K.B. Lauridsen, MD, Center for Rheumatic Research Aalborg and Department of 
+Rheumatology, and Department of Clinical Immunology, Aalborg University 
+Hospital, Aalborg.
+(8)L. Dreyer, MD, PhD, Center for Rheumatic Research Aalborg and Department of 
+Rheumatology, Aalborg University Hospital, and Department of Clinical Medicine, 
+Aalborg University, Aalborg, and DANBIO, Center for Rheumatology and Spine 
+Diseases, Centre of Head and Orthopedics, Rigshospitalet, Glostrup, and Clinical 
+Cancer Research Unit, Aalborg University Hospital, Aalborg, Denmark.
+
+OBJECTIVE: This study aimed to compare the prevalence and incidence of 
+polyautoimmunity between anticyclic citrullinated peptide antibody 
+(anti-CCP)-positive and anti-CCP-negative patients with rheumatoid arthritis 
+(RA).
+METHODS: In a nationwide register-based cohort study, patients with RA (disease 
+duration ≤ 2 yrs) in the DANBIO rheumatology register with an available anti-CCP 
+test in the Register of Laboratory Results for Research were identified. The 
+polyautoimmunity outcome included 21 nonrheumatic autoimmune diseases identified 
+by linkage between the Danish Patient Registry and Prescription Registry. The 
+age- and sex-adjusted prevalence ratio (PR) was calculated by modified Poisson 
+regression to estimate the prevalence at diagnosis in anti-CCP-positive vs 
+anti-CCP-negative patients. The hazard ratio (HR) of polyautoimmunity within 5 
+years of entry into DANBIO was estimated in cause-specific Cox regression 
+models.
+RESULTS: The study included 5839 anti-CCP-positive and 3799 anti-CCP-negative 
+patients with RA. At first visit, the prevalence of prespecified polyautoimmune 
+diseases in the Danish registers was 11.1% and 11.9% in anti-CCP-positive and 
+anti-CCP-negative patients, respectively (PR 0.93, 95% CI 0.84-1.05). The most 
+frequent autoimmune diseases were autoimmune thyroid disease, inflammatory bowel 
+disease, and type 1 diabetes mellitus. During a mean follow-up of 3.5 years, 
+only a few (n = 210) patients developed polyautoimmunity (HR 0.6, 95% CI 
+0.46-0.79).
+CONCLUSION: Polyautoimmunity as captured through the Danish National Patient 
+Registry occurred in approximately 1 in 10 patients with RA at time of diagnosis 
+regardless of anti-CCP status. In the years subsequent to the RA diagnosis, only 
+a few and mainly anti-CCP-negative patients developed autoimmune disease.
+
+Copyright © 2024 by the Journal of Rheumatology.
+
+DOI: 10.3899/jrheum.2023-0907
+PMID: 38302173 [Indexed for MEDLINE]

@@ -161,7 +161,7 @@ coupling preserves the observable ordering.
 
 **Rating: ★★★★ (high potential, needs development)**
 
-## For the numerical track
+## For the Odd Instance
 
 Test numerically: couple two heat bath MC processes (periodic and anti-periodic
 BC, same random seeds) and track ⟨O⟩^{per}(t) - ⟨O⟩^{anti}(t) over MC time.

@@ -1,0 +1,59 @@
+1. J Diabetes Investig. 2026 Apr;17(4):649-662. doi: 10.1111/jdi.70259. Epub 2026
+ Feb 13.
+
+Tracking three decades of type 1 diabetes-related chronic kidney disease in East 
+Asia: Burden, age-sex patterns, and quality of care index.
+
+Zhang Q(1), Wang H(1), Sun M(1), Wu Y(1), Xie P(1).
+
+Author information:
+(1)Department of Nephrology, The First Affiliated Hospital of Army Medical 
+University, Chongqing, China.
+
+BACKGROUND: The escalating burden of type 1 diabetes-related chronic kidney 
+disease (CKD-T1DM) presents a critical public health challenge worldwide. This 
+study aims to comprehensively evaluate the longitudinal trends in disease burden 
+and healthcare quality for CKD-T1DM in East Asia compared with global patterns 
+from 1990 to 2023.
+METHODS: Utilizing data from the Global Burden of Disease (GBD) Study 2023, we 
+analyzed the age-standardized incidence (ASIR), mortality (ASMR), and 
+disability-adjusted life years (ASDR) rates of CKD-T1DM. The Estimated Annual 
+Percentage Change (EAPC) was calculated to quantify temporal trends. 
+Additionally, a multidimensional quality of care index (QCI) was constructed 
+using principal component analysis (PCA) based on four proxy indicators to 
+assess and benchmark healthcare performance across East Asian countries.
+RESULTS: Contrary to the global trend of rising mortality and disability 
+burdens, East Asia exhibited a significant concurrent decline in ASIR, ASMR, and 
+ASDR from 1990 to 2023. However, substantial regional heterogeneity was 
+observed: Japan and South Korea maintained consistently high QCI scores 
+(63.8-75.0), while China, Mongolia, and North Korea lagged significantly behind. 
+The study also confirmed a bimodal age-specific incidence pattern peaking in 
+adolescence (10-14 years) and older adulthood (55-69 years), alongside notable 
+gender disparities in older populations.
+CONCLUSION: East Asia has achieved remarkable progress in mitigating the 
+CKD-T1DM burden, diverging significantly from the global trajectory; however, 
+deep structural inequities in care quality persist between high-income and 
+middle-to-low-income nations. Integrating QCI into national monitoring systems 
+and prioritizing comprehensive, lifespan-oriented management strategies are 
+essential to addressing these disparities and sustaining regional improvements.
+
+© 2026 The Author(s). Journal of Diabetes Investigation published by Asian 
+Association for the Study of Diabetes (AASD) and John Wiley & Sons Australia, 
+Ltd.
+
+DOI: 10.1111/jdi.70259
+PMCID: PMC13042877
+PMID: 41685461 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that they have no competing 
+interests regarding the publication of this work. Approval of the research 
+protocol: N/A. Informed Consent: N/A. Approval date of Registry and the 
+Registration number of the study: N/A. Animal Studies: The authors are 
+accountable for all aspects of the work in ensuring that questions related to 
+the accuracy or integrity of any part of the work are appropriately investigated 
+and resolved. This study utilized publicly available data from the Global Burden 
+of Disease (GBD) database, which does not include confidential or personally 
+identifiable information. This study was conducted in accordance with the 
+Declaration of Helsinki and its subsequent amendments. The Institutional Review 
+Board of the University of Washington reviewed and approved a waiver of informed 
+consent for GBD studies (https://ghdx.healthdata.org/gbd‐2023).

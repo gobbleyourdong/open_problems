@@ -19,7 +19,7 @@
   Verified: 2M+ configs, 0 violations.
   67% margin from the 3/4 threshold.
 
-  Discovered and proved by numerical track (5ae2bf0). Formalized here.
+  Discovered and proved by Odd instance (5ae2bf0). Formalized here.
 -/
 
 /-! ## Step 2: |ω|² ≥ 2 at the vorticity-maximizing vertex -/

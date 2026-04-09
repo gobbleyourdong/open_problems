@@ -1,0 +1,37 @@
+SSRI-PERICARDITIS RETROSPECTIVE: QUERY DESIGN & POWER ANALYSIS
+=================================================================
+
+EFFECT SIZE MODEL
+  Control arm (colchicine alone):       15% recurrence
+  CVB etiology fraction:                20%
+  Fluoxetine CVB clearance rate:        70%
+  Expected absolute risk difference:    8.4%
+  Expected NNT:                         12
+
+POWER TABLE (control p=15%, varying fluoxetine effect)
+   Reduction  p_treat     RR    NNT   n/arm(80%)   n/arm(90%)  Power@10k
+          5%    0.142  0.950  133.3       34,844       46,646      0.323
+         10%    0.135  0.900   66.7        8,525       11,411      0.859
+         15%    0.128  0.850   44.4        3,705        4,959      0.996
+         20%    0.120  0.800   33.3        2,036        2,725      1.000
+         25%    0.112  0.750   26.7        1,272        1,702      1.000
+         30%    0.105  0.700   22.2          862        1,153      1.000
+
+SIMULATION (N=10,000/arm)
+  Control recurrence:   0.1448
+  Treatment recurrence: 0.0674
+  RR = 0.465 (95% CI 0.430-0.511)
+  ARD = 0.0774 (95% CI 0.0686-0.0855)
+  NNT = 12.9
+  p = 0
+  Power = 100.0%
+  MDE at N=10k/arm = 1.41%
+
+PUBMED RESULTS: fluoxetine AND (pericarditis OR myocarditis)
+  Total records: 6
+  [2026] Treating hearts and minds: adverse cardiovascular effects of psychiatric
+  [2025 Feb] Predicting remission after acute phase pharmacotherapy in patients with bipola
+  [2016 Apr] Construction of a subgenomic CV-B3 replicon expressing emerald green fluoresce
+  [2014 Dec] Cardiogenic shock after use of fluoroamphetamine confirmed with serum and urin
+  [2014 Aug 29] Human induced pluripotent stem cell-derived cardiomyocytes as an in vitro mode
+  [2007 Aug] Acute myocarditis associated with clozapine.

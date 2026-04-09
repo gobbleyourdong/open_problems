@@ -1,0 +1,71 @@
+{
+  "common_genes": 22796,
+  "categories": {
+    "SAME_DIRECTION": [
+      "LAMP1",
+      "LAMP2",
+      "TNF",
+      "ATF6",
+      "CXADR",
+      "FOXP1",
+      "MAFA",
+      "BCL2"
+    ],
+    "OPPOSITE": [
+      "IFIT1",
+      "IFIT2",
+      "IFIT3",
+      "IFIH1",
+      "OAS3",
+      "ISG15",
+      "RSAD2",
+      "HERC5",
+      "FOXP3",
+      "PDX1",
+      "FAS"
+    ],
+    "ACUTE_ONLY": [
+      "BST2",
+      "MAP1LC3B",
+      "ERN1",
+      "OSBP",
+      "SNAP29",
+      "TGFB1",
+      "INS",
+      "GCK",
+      "NEUROG3",
+      "BAX",
+      "CASP3"
+    ],
+    "PERSIST_ONLY": [
+      "DDX58",
+      "MX1",
+      "OAS2",
+      "IRF3",
+      "ATG7",
+      "ATG12",
+      "NFKB1",
+      "NFKB2",
+      "NLRP3",
+      "CASP1",
+      "IL18",
+      "GSDMD",
+      "HSPA5",
+      "DDIT3",
+      "HERPUD1",
+      "DMD",
+      "CD55",
+      "PI4KB"
+    ],
+    "NEITHER": [
+      "IRF7",
+      "STAT1",
+      "STAT2",
+      "SQSTM1",
+      "BECN1",
+      "IL1B",
+      "XBP1"
+    ]
+  },
+  "key_finding": "IFN pathway flips direction; LAMP2 and FOXP1 suppressed in both states"
+}

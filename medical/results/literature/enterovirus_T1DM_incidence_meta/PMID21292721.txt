@@ -1,0 +1,50 @@
+1. BMJ. 2011 Feb 3;342:d35. doi: 10.1136/bmj.d35.
+
+Enterovirus infection and type 1 diabetes mellitus: systematic review and 
+meta-analysis of observational molecular studies.
+
+Yeung WC(1), Rawlinson WD, Craig ME.
+
+Author information:
+(1)Faculty of Medicine, University of New South Wales, Sydney, NSW 2052, 
+Australia.
+
+Comment in
+    BMJ. 2011 Feb 03;342:c7072. doi: 10.1136/bmj.c7072.
+
+OBJECTIVE: To review the association between current enterovirus infection 
+diagnosed with molecular testing and development of autoimmunity or type 1 
+diabetes.
+DESIGN: Systematic review and meta-analysis of observational studies, analysed 
+with random effects models.
+DATA SOURCES: PubMed (until May 2010) and Embase (until May 2010), no language 
+restrictions, studies in humans only; reference lists of identified articles; 
+and contact with authors. Study eligibility criteria Cohort or case-control 
+studies measuring enterovirus RNA or viral protein in blood, stool, or tissue of 
+patients with pre-diabetes and diabetes, with adequate data to calculate an odds 
+ratio and 95% confidence intervals.
+RESULTS: The 24 papers and two abstracts (all case-control studies) that met the 
+eligibility criteria included 4448 participants. Study design varied greatly, 
+with a high level of statistical heterogeneity. The two separate outcomes were 
+diabetes related autoimmunity or type 1 diabetes. Meta-analysis showed a 
+significant association between enterovirus infection and type 1 diabetes 
+related autoimmunity (odds ratio 3.7, 95% confidence interval 2.1 to 6.8; 
+heterogeneity χ(2)/df = 1.3) and clinical type 1 diabetes (9.8, 5.5 to 17.4; 
+χ(2)/df = 3.2).
+CONCLUSIONS: There is a clinically significant association between enterovirus 
+infection, detected with molecular methods, and autoimmunity/type 1 diabetes. 
+Larger prospective studies would be needed to establish a clear temporal 
+relation between enterovirus infection and the development of autoimmunity and 
+type 1 diabetes.
+
+DOI: 10.1136/bmj.d35
+PMCID: PMC3033438
+PMID: 21292721 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: All authors have completed 
+the Unified Competing Interest form at www.icmje.org/coi_disclosure.pdf 
+(available on request from the corresponding author) and declare: no support 
+from any organisation for the submitted work; no financial relationships with 
+any organisations that might have an interest in the submitted work in the 
+previous 3 years; no other relationships or activities that could appear to have 
+influenced the submitted work.

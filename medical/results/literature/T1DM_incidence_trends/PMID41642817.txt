@@ -1,0 +1,54 @@
+1. PLoS One. 2026 Feb 5;21(2):e0341145. doi: 10.1371/journal.pone.0341145. 
+eCollection 2026.
+
+Impact of COVID-19 on New - onset Type 1 diabetes mellitus: A six-year 
+retrospective review from two Paediatric clinics, Kampala, Uganda.
+
+Ahabwenki R(1), Piloya T(1), Namiiro F(1), Muzeyi W(1), Nyangabyaki C(2), 
+Katairo T(3), Namugumya A(1), Nakimera J(1), Kyekulidde F(1), Kidega R(1), Ali 
+FN(1), Mirembe A(1), Kikaire B(1), Ndeezi G(1), Musiime V(1), Kiguli S(1).
+
+Author information:
+(1)Department of pediatrics and child health, school of medicine, college of 
+health sciences, Makerere university, Kampala, Uganda.
+(2)Department of Pediatrics and child health, St. Francis Hospital Nsambya, 
+Kampala, Uganda.
+(3)Infectious Diseases Research Collaboration (IDRC), Kampala, Uganda.
+
+BACKGROUND: Type 1 Diabetes Mellitus is one of the most common chronic diseases 
+in children, yet data from low-income countries remains scarce. Recent reports 
+suggest a rising global incidence of new-onset T1DM, projected to double by 
+2045. The COVID-19 pandemic is believed to have further influenced T1DM onset 
+and severity at presentation, with several studies reporting increased incidence 
+and higher rates of diabetic ketoacidosis (DKA). This study aimed to assess the 
+impact of COVID-19 pandemic on paediatric type 1 diabetes mellitus onset.
+METHODS: We conducted a retrospective review of medical records for children 
+aged 6 months to 19 years diagnosed with new-onset T1DM between March 2017 and 
+February 2023 at Mulago and Nsambya hospital's paediatric diabetes clinics. 
+Clinical and demographic characteristics were compared between the pre-COVID- 19 
+(March 2017-February 2020) and COVID-19 (March 2020-February 2023) periods using 
+Chi-square and Fisher's exact tests. Trends in new onset type 1 diabetes were 
+analyzed using interrupted time series with 12 six-month intervals. STATA 17.0 
+was used for the analysis.
+RESULTS: A total of 245 children were included. The mean age at diagnosis was 
+10.9 years (SD ± 4.5), with 56% being female. More cases were diagnosed during 
+the COVID-19 period (60.4%, n = 148) compared to the pre-COVID-19 period (39.6%, 
+n = 97), representing a 52% increase, although it was not statistically 
+significant (p = 0.1997). Overall, 66% (n = 162) presented with DKA at 
+diagnosis, with similar proportions in both periods (pre-COVID: 61%, COVID-19: 
+69%).
+CONCLUSION: There was a rising trend in T1DM among Ugandan children at Mulago 
+and Nsambya pediatric diabetic clinics, from 2.7 new cases/month during 
+pre-COVID to 4.1/month during the pandemic.
+
+Copyright: © 2026 Ahabwenki et al. This is an open access article distributed 
+under the terms of the Creative Commons Attribution License, which permits 
+unrestricted use, distribution, and reproduction in any medium, provided the 
+original author and source are credited.
+
+DOI: 10.1371/journal.pone.0341145
+PMCID: PMC12875443
+PMID: 41642817 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors have declared that no competing 
+interests exist.

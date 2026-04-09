@@ -1,0 +1,24 @@
+1. Microbes Infect. 2009 Apr;11(4):443-51. doi: 10.1016/j.micinf.2009.01.005.
+
+Mechanisms and results of the antibody-dependent enhancement of viral infections 
+and role in the pathogenesis of coxsackievirus B-induced diseases.
+
+Sauter P(1), Hober D.
+
+Author information:
+(1)Laboratoire de virologie/UPRES EA3610, Faculté de médecine, Université 
+Lille-2, CHRU de Lille, Centre de Biologie et Parc Eurasanté, Lille 59037, 
+France
+
+Erratum in
+    Microbes Infect. 2009 Dec;11(14-15):1219.
+
+The mechanisms of the antibody-dependent enhancement (ADE) of viral infection 
+are presented, particularly within the Picornaviridae family. The ADE of 
+infection has been described in both human and animal models, worsens viral 
+infections and compromises vaccine safety. The ADE of coxsackievirus B infection 
+can also be implied in the pathogenesis of diseases like chronic dilated 
+cardiomyopathy or insulin-dependent type 1 diabetes.
+
+DOI: 10.1016/j.micinf.2009.01.005
+PMID: 19399964 [Indexed for MEDLINE]

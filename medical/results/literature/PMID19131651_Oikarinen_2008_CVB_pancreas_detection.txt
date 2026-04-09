@@ -1,0 +1,40 @@
+1. Stroke. 2009 Mar;40(3):702-7. doi: 10.1161/STROKEAHA.108.531608. Epub 2009 Jan
+ 8.
+
+Correlates of common carotid artery lumen diameter in black and white younger 
+adults: the Bogalusa Heart Study.
+
+Ruan L(1), Chen W, Srinivasan SR, Sun M, Wang H, Toprak A, Berenson GS.
+
+Author information:
+(1)Tulane Center for Cardiovascular Health and the Department of Epidemiology, 
+University Health Sciences Center, New Orleans, La. 70112, USA.
+
+BACKGROUND AND PURPOSE: Vascular remodeling as depicted by increases in arterial 
+lumen diameter occurs in response to development of atherosclerosis. However, 
+data on the correlates of arterial lumen diameter in younger adults by race and 
+sex are limited.
+METHODS: The study cohort included 734 white and 306 black subjects, aged 20 to 
+43 years, enrolled in the Bogalusa Heart Study. The common carotid artery lumen 
+diameter at diastole and intima media thickness (IMT) were measured by M- and 
+B-mode ultrasonography, respectively.
+RESULTS: As a group, blacks versus whites (3.44 mm/m versus 3.37 mm/m, P=0.002) 
+and males versus females (3.45 mm/m versus 3.35 mm/m, P<0.001) had greater 
+height-adjusted lumen diameter. In multivariate analyses of total sample, body 
+mass index, mean arterial pressure, heart rate, and carotid IMT were independent 
+predictors of height-adjusted lumen diameter. The magnitude of the effects of 
+mean arterial pressure and carotid IMT on height-adjusted lumen diameter was 
+significantly different between races with blacks showing greater slopes 
+(difference in slopes: P=0.011 for mean arterial pressure; P=0.033 for IMT); 
+interaction effects of body mass index and mean arterial pressure with sex on 
+height-adjusted lumen diameter were also noted with males showing steeper slopes 
+(difference in slopes: P=0.003 for body mass index; P=0.005 for mean arterial 
+pressure). In addition, the lumen diameter-carotid IMT relationship was stronger 
+in hypertensives than in normotensives (difference in slopes: P=0.038).
+CONCLUSIONS: Common carotid artery lumen diameter is influenced by carotid 
+artery IMT, adiposity, and blood pressure in a race- and sex-specific manner in 
+asymptomatic younger adults, which may have implications for preventive 
+cardiology.
+
+DOI: 10.1161/STROKEAHA.108.531608
+PMID: 19131651 [Indexed for MEDLINE]

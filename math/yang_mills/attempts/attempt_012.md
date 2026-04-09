@@ -87,7 +87,7 @@ The mass gap at weak coupling is a genuinely NON-PERTURBATIVE phenomenon.
 It requires understanding the global structure of the gauge field configuration
 space, not just local fluctuations.
 
-## What the theory track Should Do
+## What the Even Instance Should Do
 
 1. **Focus on Tomboulis (Route 2)** — the only path to all couplings
 2. Investigate whether the MK decimation preserves the vortex cost (5.15)

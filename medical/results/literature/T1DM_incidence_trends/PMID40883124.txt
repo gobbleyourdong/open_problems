@@ -1,0 +1,60 @@
+1. Nutr Metab Cardiovasc Dis. 2025 Dec;35(12):104223. doi: 
+10.1016/j.numecd.2025.104223. Epub 2025 Jul 5.
+
+Global trends, regional variations, and future projections of type 1 diabetes 
+mellitus burden among women of reproductive age: A comprehensive analysis from 
+1990 to 2040.
+
+Deng J(1), Hu L(2), Pu L(3), Yin X(4), Liu H(5), Yang J(6).
+
+Author information:
+(1)Radiology Department of Chengdu Xindu District Second People's Hospital, 
+Chengdu, 610501, China. Electronic address: 18030432667@163.com.
+(2)Radiology Department of Chengdu Xindu District Second People's Hospital, 
+Chengdu, 610501, China. Electronic address: 18030433667@163.com.
+(3)Experimental Teaching Center of Biotechnology, School of Bioscience and 
+Technology, Chengdu Medical College, Chengdu, 610500, China. Electronic address: 
+pulingling426@cmc.edu.cn.
+(4)Experimental Teaching Center of Biotechnology, School of Bioscience and 
+Technology, Chengdu Medical College, Chengdu, 610500, China. Electronic address: 
+18190871235@163.com.
+(5)Experimental Teaching Center of Biotechnology, School of Bioscience and 
+Technology, Chengdu Medical College, Chengdu, 610500, China. Electronic address: 
+lhua@cmc.edu.cn.
+(6)Experimental Teaching Center of Biotechnology, School of Bioscience and 
+Technology, Chengdu Medical College, Chengdu, 610500, China. Electronic address: 
+jingyang@cmc.edu.cn.
+
+BACKGROUND AND AIM: Type 1 diabetes mellitus (T1DM) is an autoimmune disease, 
+which has a heavy disease burden and seriously affects the reproductive health 
+of women of reproductive age. Therefore, this study assessed the disease burden 
+of T1DM among women of reproductive age worldwide.
+METHODS AND RESULTS: This study extracted the incidence, prevalence, disability 
+adjusted life years (DALYs) and deaths data of T1DM in women of reproductive age 
+from the Global Burden of Disease (GBD) database from 1990 to 2021. The 
+percentage change and the Estimated Annual Percentage Change were used to assess 
+the change trend of T1DM burden in women of reproductive age, and the Bayesian 
+Age-Period-Cohort model was used to predict the future disease burden. Compared 
+to 1990, global incidence, prevalence, DALYs, and deaths cases of T1DM among 
+women of reproductive age had significantly increased in 2021. The global 
+age-standardized incidence rate (ASIR) and age-standardized prevalence rate 
+(ASPR) rose, while age-standardized DALY rate (ASDR) and age-standardized 
+mortality rates (ASMR) declined. High socio-demographic index (SDI) areas had 
+higher ASIR and ASPR, and lower SDI regions had higher ASDR and ASMR. Younger 
+age groups had higher ASIR, and elder age groups had higher ASPR, ASDR, and 
+ASMR. By 2040, the burden is expected to further increase.
+CONCLUSIONS: In general, from 1990 to 2021, the global burden of T1DM among 
+women of reproductive age significantly increased, especially the rising 
+incidence and prevalence rates, highlighting the need for enhanced management 
+and treatment.
+
+Copyright © 2025 The Italian Diabetes Society, the Italian Society for the Study 
+of Atherosclerosis, the Italian Society of Human Nutrition and the Department of 
+Clinical Medicine and Surgery, Federico II University. Published by Elsevier 
+B.V. All rights reserved.
+
+DOI: 10.1016/j.numecd.2025.104223
+PMID: 40883124 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of competing interest The authors 
+declare no competing interests.

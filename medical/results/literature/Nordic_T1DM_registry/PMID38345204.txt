@@ -1,0 +1,55 @@
+1. Acta Ophthalmol. 2024 Sep;102(6):635-642. doi: 10.1111/aos.16653. Epub 2024
+Feb  12.
+
+Diabetic retinopathy as an independent marker of cardiovascular disease in type 
+1 diabetes: Results from a nationwide longitudinal matched case-cohort study.
+
+Mabala DS(1)(2), Stokholm L(2)(3), Andersen N(4), Andresen J(4), Bek T(5), 
+Heegaard S(6), Hajari J(6), Højlund K(2)(7), Kawasaki R(2)(8), Laugesen CS(9), 
+Möller S(2)(3), Pedersen FN(1)(2), Schielke KC(10), Thykjær AS(1)(2)(7), 
+Grauslund J(1)(2)(7).
+
+Author information:
+(1)Department of Ophthalmology, Odense University Hospital, Odense, Denmark.
+(2)Department of Clinical Research, University of Southern Denmark, Odense, 
+Denmark.
+(3)Department of Clinical Research, Research Unit OPEN, University of Southern 
+Denmark, Odense, Denmark.
+(4)Organization of Danish Practicing Ophthalmologists, Copenhagen, Denmark.
+(5)Department of Ophthalmology, Aarhus University Hospital, Aarhus, Denmark.
+(6)Department of Ophthalmology, Rigshospitalet-Glostrup, Copenhagen, Denmark.
+(7)Steno Diabetes Center Odense, Odense University Hospital, Odense, Denmark.
+(8)Division of Public Health, Department of Social Medicine, Graduate School of 
+Medicine, Osaka University, Osaka, Japan.
+(9)Department of Ophthalmology, Zealand University Hospital Roskilde, Roskilde, 
+Denmark.
+(10)Department of Ophthalmology, Aalborg University Hospital, Aalborg, Denmark.
+
+PURPOSE: To investigate diabetic retinopathy (DR) as a potential marker of 
+cardiovascular disease (CVD) in adults with type 1 diabetes attending the Danish 
+DR-screening programme and non-diabetes adults.
+METHODS: In this registry-based matched case-cohort study, we identified 16 547 
+adults with type 1 diabetes, who were registered in the Danish Registry of 
+Diabetic Retinopathy (DiaBase). Each case was age- and sex-matched by five 
+non-diabetes individuals (n = 82 399), and odds ratios (ORs) and hazard ratios 
+(HRs) were estimated for incident and upcoming CVD in multivariable models.
+RESULTS: Adults with type 1 diabetes (median age 44.5 years, 57.6% male) were 
+more likely to have prevalent CVD (OR 1.29; 95% CI, 1.20-1.38) and to develop 
+CVD within 5 years (HR 1.19; 95% CI, 1.08-1.30) as compared to non-diabetes 
+control. However, adults without DR were less likely to develop CVD (HR 0.84; 
+95% CI, 0.72-0.97) compared to the reference population. For adults with type 1 
+diabetes, there was an increasing risk for incident CVD for increasing levels of 
+DR (HR 1.33, 1.95, 1.71 and 2.39 for DR-levels 1-4, respectively). Patients with 
+CVD at the time of the first screening had a higher risk to develop DR during 
+follow-up (HR 1.23; 95% CI, 1.02-1.49).
+CONCLUSION: In a nationwide matched case-cohort study adjusted for potential 
+confounders, DR was identified as an independent marker of prevalent and 
+incident CVD in type 1 diabetes with increasing risk demonstrated for higher 
+levels of DR. Likewise, CVD also independently predicted the risk of incident 
+DR.
+
+© 2024 The Authors. Acta Ophthalmologica published by John Wiley & Sons Ltd on 
+behalf of Acta Ophthalmologica Scandinavica Foundation.
+
+DOI: 10.1111/aos.16653
+PMID: 38345204 [Indexed for MEDLINE]

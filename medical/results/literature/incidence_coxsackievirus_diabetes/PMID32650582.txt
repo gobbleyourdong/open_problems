@@ -1,0 +1,33 @@
+1. Microorganisms. 2020 Jul 8;8(7):1017. doi: 10.3390/microorganisms8071017.
+
+Enteroviruses and T1D: Is It the Virus, the Genes or Both which Cause T1D.
+
+Geravandi S(1), Liu H(1), Maedler K(1).
+
+Author information:
+(1)Centre for Biomolecular Interactions Bremen, University of Bremen, 28359 
+Bremen, Germany.
+
+Type 1 diabetes (T1D) is a chronic autoimmune disorder that results from the 
+selective destruction of insulin-producing β-cells in the pancreas. Up to now, 
+the mechanisms triggering the initiation and progression of the disease are, in 
+their complexity, not fully understood and imply the disruption of several 
+tolerance networks. Viral infection is one of the environmental factors 
+triggering diabetes, which is initially based on the observation that the 
+disease's incidence follows a periodic pattern within the population. Moreover, 
+the strong correlation of genetic susceptibility is a prerequisite for 
+enteroviral infection associated islet autoimmunity. Epidemiological data and 
+clinical findings indicate enteroviral infections, mainly of the coxsackie B 
+virus family, as potential pathogenic mechanisms to trigger the autoimmune 
+reaction towards β-cells, resulting in the boost of inflammation following 
+β-cell destruction and the onset of T1D. This review discusses previously 
+identified virus-associated genetics and pathways of β-cell destruction. Is it 
+the virus itself which leads to β-cell destruction and T1D progression? Or is it 
+genetic, so that the virus may activate auto-immunity and β-cell destruction 
+only in genetically predisposed individuals?
+
+DOI: 10.3390/microorganisms8071017
+PMCID: PMC7409303
+PMID: 32650582
+
+Conflict of interest statement: The authors declare no conflict of interest.

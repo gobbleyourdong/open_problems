@@ -1,0 +1,230 @@
+{
+  "T1DM": {
+    "completed_count": 50,
+    "total_enrollment": 46408,
+    "median_enrollment": 101,
+    "with_results": 15,
+    "sample_trials": [
+      {
+        "nct": "NCT04429503",
+        "title": "Study of a High-Dose Aflibercept in Participants With Diabet",
+        "phase": "PHASE2",
+        "enrollment": 660,
+        "sponsor": "Regeneron Pharmaceuticals"
+      },
+      {
+        "nct": "NCT04265261",
+        "title": "A Study to Investigate the Efficacy and Safety of RG7774 in ",
+        "phase": "PHASE2",
+        "enrollment": 139,
+        "sponsor": "Hoffmann-La Roche"
+      },
+      {
+        "nct": "NCT04732780",
+        "title": "Avoidance of Hyperglycaemia in People With Type 1 Diabetes",
+        "phase": "NA",
+        "enrollment": 253,
+        "sponsor": "Imperial College London"
+      },
+      {
+        "nct": "NCT00533442",
+        "title": "Rapamycin Versus Mycophenolate Mofetil in Kidney-Pancreas Re",
+        "phase": "PHASE2",
+        "enrollment": 170,
+        "sponsor": "University of Miami"
+      },
+      {
+        "nct": "NCT04016415",
+        "title": "Decreasing Stress in Diabetes",
+        "phase": "NA",
+        "enrollment": 309,
+        "sponsor": "Milton S. Hershey Medical Cent"
+      },
+      {
+        "nct": "NCT04589689",
+        "title": "Insul-In This Together Program for Adolescents With Type 1 D",
+        "phase": "NA",
+        "enrollment": 366,
+        "sponsor": "Stanford University"
+      },
+      {
+        "nct": "NCT01074268",
+        "title": "Comparison of NN1250 Plus Insulin Aspart With Insulin Detemi",
+        "phase": "PHASE3",
+        "enrollment": 456,
+        "sponsor": "Novo Nordisk A/S"
+      },
+      {
+        "nct": "NCT00564395",
+        "title": "Detemir: Role in Type 1 Diabetes",
+        "phase": "PHASE4",
+        "enrollment": 18,
+        "sponsor": "Montefiore Medical Center"
+      },
+      {
+        "nct": "NCT01680328",
+        "title": "Investigation of Pain During Subcutaneous Injections With Di",
+        "phase": "PHASE1",
+        "enrollment": 82,
+        "sponsor": "Novo Nordisk A/S"
+      },
+      {
+        "nct": "NCT01874392",
+        "title": "Feasibility Study Using Zone-MPC Controller, HMS and Technos",
+        "phase": "NA",
+        "enrollment": 9,
+        "sponsor": "Sansum Diabetes Research Insti"
+      }
+    ]
+  },
+  "Myocarditis": {
+    "completed_count": 5,
+    "total_enrollment": 1058,
+    "median_enrollment": 76,
+    "with_results": 0,
+    "sample_trials": []
+  },
+  "Pericarditis": {
+    "completed_count": 5,
+    "total_enrollment": 965,
+    "median_enrollment": 240,
+    "with_results": 0,
+    "sample_trials": []
+  },
+  "ME/CFS": {
+    "completed_count": 50,
+    "total_enrollment": 23057,
+    "median_enrollment": 67,
+    "with_results": 5,
+    "sample_trials": [
+      {
+        "nct": "NCT01650636",
+        "title": "Patient-Partner Stress Management Effects on Chronic Fatigue",
+        "phase": "NA",
+        "enrollment": 300,
+        "sponsor": "University of Miami"
+      },
+      {
+        "nct": "NCT03844412",
+        "title": "Vestibulodynia: Understanding Pathophysiology and Determinin",
+        "phase": "PHASE2",
+        "enrollment": 209,
+        "sponsor": "Duke University"
+      },
+      {
+        "nct": "NCT03497585",
+        "title": "Developing an Activity Pacing Framework: Feasibility and Acc",
+        "phase": "NA",
+        "enrollment": 112,
+        "sponsor": "Pennine Acute Hospitals NHS Tr"
+      },
+      {
+        "nct": "NCT03613129",
+        "title": "Clinical Trial to Investigate CT38 in the Treatment of Myalg",
+        "phase": "PHASE1",
+        "enrollment": 17,
+        "sponsor": "LUCINDA BATEMAN, MD"
+      },
+      {
+        "nct": "NCT00252629",
+        "title": "Sleep Disordered Breathing in Gulf War Illness and the Effec",
+        "phase": "NA",
+        "enrollment": 29,
+        "sponsor": "US Department of Veterans Affa"
+      }
+    ]
+  },
+  "Pancreatitis": {
+    "completed_count": 50,
+    "total_enrollment": 1795343,
+    "median_enrollment": 102,
+    "with_results": 6,
+    "sample_trials": [
+      {
+        "nct": "NCT01077323",
+        "title": "A Retrospective Cohort Study of Acute Pancreatitis in Relati",
+        "phase": "NA",
+        "enrollment": 363766,
+        "sponsor": "AstraZeneca"
+      },
+      {
+        "nct": "NCT03401190",
+        "title": "CM4620 Injectable Emulsion Versus Supportive Care in Patient",
+        "phase": "PHASE2",
+        "enrollment": 21,
+        "sponsor": "CalciMedica, Inc."
+      },
+      {
+        "nct": "NCT02692391",
+        "title": "A Randomized Controlled Pilot Trial of Indomethacin in Acute",
+        "phase": "PHASE3",
+        "enrollment": 42,
+        "sponsor": "University of Pittsburgh"
+      },
+      {
+        "nct": "NCT02116309",
+        "title": "Randomized Trial of Rectal Indomethacin and Papillary Spray ",
+        "phase": "NA",
+        "enrollment": 948,
+        "sponsor": "Johns Hopkins University"
+      },
+      {
+        "nct": "NCT03694210",
+        "title": "EndoRotor DEN (Direct Endoscopic Necrosectomy)Trial",
+        "phase": "NA",
+        "enrollment": 30,
+        "sponsor": "Interscope, Inc."
+      },
+      {
+        "nct": "NCT03525808",
+        "title": "AXIOS Lumen Apposing Metal Stent for Walled Off Necrosis Dra",
+        "phase": "NA",
+        "enrollment": 40,
+        "sponsor": "Boston Scientific Corporation"
+      }
+    ]
+  },
+  "Neonatal Sepsis": {
+    "completed_count": 50,
+    "total_enrollment": 232472,
+    "median_enrollment": 200,
+    "with_results": 5,
+    "sample_trials": [
+      {
+        "nct": "NCT05730387",
+        "title": "Smart Discharges for Mom & Baby",
+        "phase": "NA",
+        "enrollment": 7182,
+        "sponsor": "University of British Columbia"
+      },
+      {
+        "nct": "NCT03871491",
+        "title": "Azithromycin-Prevention in Labor Use Study (A-PLUS)",
+        "phase": "PHASE3",
+        "enrollment": 58747,
+        "sponsor": "NICHD Global Network for Women"
+      },
+      {
+        "nct": "NCT03694613",
+        "title": "Utility of Placental/Umbilical Cord Blood in Early Onset Neo",
+        "phase": "NA",
+        "enrollment": 65,
+        "sponsor": "The University of Texas Medica"
+      },
+      {
+        "nct": "NCT03278847",
+        "title": "Optimising Newborn Nutrition During Therapeutic Hypothermia.",
+        "phase": "NA",
+        "enrollment": 6030,
+        "sponsor": "Imperial College London"
+      },
+      {
+        "nct": "NCT00947518",
+        "title": "Safety of Skin Cleansing With Chlorhexidine in Preterm Low B",
+        "phase": "NA",
+        "enrollment": 60,
+        "sponsor": "All India Institute of Medical"
+      }
+    ]
+  }
+}

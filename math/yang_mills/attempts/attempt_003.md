@@ -84,7 +84,7 @@ no particles). But YM is asymptotically free, so it should be non-trivial, and
 This is nonperturbative — the RHS is exponentially small in 1/g², invisible to
 perturbation theory. This is the non-perturbative IR bound.
 
-## What the numerical track Should Test
+## What the Odd Instance Should Test
 
 1. Compute Δ(a) for SU(2) on small lattices as β = 2N/g² varies
 2. Plot Δ(a) × a vs β — does it approach a constant? (= mass gap in physical units)

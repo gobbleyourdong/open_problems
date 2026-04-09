@@ -1,0 +1,50 @@
+1. Rev Med Virol. 2018 May;28(3):e1974. doi: 10.1002/rmv.1974. Epub 2018 Mar 22.
+
+Maternal virus infections in pregnancy and type 1 diabetes in their offspring: 
+Systematic review and meta-analysis of observational studies.
+
+Allen DW(1)(2)(3), Kim KW(1)(2), Rawlinson WD(1)(2)(3)(4), Craig 
+ME(1)(2)(3)(5)(6).
+
+Author information:
+(1)School of Women's and Children's Health, University of New South Wales 
+Medicine, Sydney, Australia.
+(2)POWH and UNSW Virology Research Laboratory, Prince of Wales Hospital, Sydney, 
+Australia.
+(3)School of Medical Sciences, Faculty of Medicine, University of New South 
+Wales, Sydney, Australia.
+(4)School of Biotechnology and Biomolecular Science, Faculty of Science, 
+University of New South Wales, Sydney, Australia.
+(5)Institute of Endocrinology and Diabetes, The Children's Hospital at Westmead, 
+Sydney, Australia.
+(6)Discipline of Child and Adolescent Health, The Children's Hospital at 
+Westmead Clinical School, The University of Sydney, Sydney, Australia.
+
+Virus infections are implicated in the development of type 1 diabetes based on 
+epidemiological, clinical, in vitro cell-based and molecular studies, and animal 
+models. We reviewed the association between virus infections in pregnant women 
+and development of islet autoimmunity or type 1 diabetes in their offspring. We 
+performed a systematic review and meta-analysis, analysed using random effects 
+models, of human studies from Medline and EMBASE without language restriction. 
+Inclusion criteria were as follows: cohort and case-control studies measuring 
+viral nucleic acid in blood, stool, urine, or tissue, or serological tests for 
+viruses, in pregnant women whose offspring developed islet autoimmunity and/or 
+type 1 diabetes. All studies required sufficient data to calculate odds ratios 
+and 95% confidence intervals. The 10 studies (4 case control, 6 nested-case 
+control) that met the eligibility criteria included 2992 participants (953 
+offspring, 2039 mothers), with varying study design. The 2 outcomes examined 
+were islet autoimmunity (n = 466) and type 1 diabetes (n = 2526). Meta-analysis 
+showed a significant association between virus infection during pregnancy and 
+clinical type 1 diabetes during childhood (odds ratio 2·16, 95% CI 1·22-3·80; 
+P = 0·008; heterogeneity X2  = 1·65, I2  = 40%), but no association with islet 
+autoimmunity (1·45, 0·63-3·31; P = 0·38; X2  = 1·34, I2  = 25%). The increased 
+risk of type 1 diabetes following maternal virus infection is consistent with 
+viraemia involving the fetus during pregnancy and suggests a potential causative 
+link between antenatal infection and type 1 diabetes. Larger prospective birth 
+studies with more frequent sampling, and pathogenesis studies, are required to 
+more clearly establish an aetiological link.
+
+Copyright © 2018 John Wiley & Sons, Ltd.
+
+DOI: 10.1002/rmv.1974
+PMID: 29569297 [Indexed for MEDLINE]

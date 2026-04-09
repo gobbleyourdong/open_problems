@@ -206,7 +206,7 @@ rank(Alg) < rank(Hdg) that persists no matter how many cycles we add).
 
 ## Assessment
 
-The analytical reframe makes Hodge TRACTABLE for the systematic approach:
+The analytical reframe makes Hodge TRACTABLE for the Sigma Method:
 
 | Component | Domain | Brute Forceable? |
 |-----------|--------|-----------------|
@@ -222,7 +222,7 @@ cycles up to a bounded degree. But for SPECIFIC variety families
 often suffice — and finding new ones is a SEARCH problem, not an
 existence problem.
 
-## For numerical track
+## For Odd Instance
 
 Implement the generator:
 1. Start with abelian surfaces (dim 2): period matrix is 2×4 complex matrix

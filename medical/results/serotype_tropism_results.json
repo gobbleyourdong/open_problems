@@ -1,0 +1,305 @@
+{
+  "model": "serotype_tropism",
+  "n_simulations": 10000,
+  "disease_counts": {
+    "t1dm": 56,
+    "pancreatitis": 46,
+    "myocarditis": 54,
+    "dcm": 23,
+    "pericarditis": 42,
+    "pleurodynia": 55,
+    "hepatitis": 51,
+    "meningitis": 67,
+    "encephalitis": 34,
+    "orchitis": 5,
+    "me_cfs": 48,
+    "neonatal_sepsis": 13
+  },
+  "serotype_disease_counts": {
+    "CVB1": {
+      "t1dm": 11,
+      "pancreatitis": 16,
+      "myocarditis": 3,
+      "dcm": 2,
+      "pericarditis": 0,
+      "pleurodynia": 9,
+      "hepatitis": 16,
+      "meningitis": 7,
+      "encephalitis": 2,
+      "orchitis": 0,
+      "me_cfs": 9,
+      "neonatal_sepsis": 2
+    },
+    "CVB2": {
+      "t1dm": 5,
+      "pancreatitis": 8,
+      "myocarditis": 20,
+      "dcm": 5,
+      "pericarditis": 16,
+      "pleurodynia": 10,
+      "hepatitis": 9,
+      "meningitis": 29,
+      "encephalitis": 10,
+      "orchitis": 2,
+      "me_cfs": 9,
+      "neonatal_sepsis": 1
+    },
+    "CVB3": {
+      "t1dm": 12,
+      "pancreatitis": 7,
+      "myocarditis": 23,
+      "dcm": 11,
+      "pericarditis": 19,
+      "pleurodynia": 17,
+      "hepatitis": 8,
+      "meningitis": 10,
+      "encephalitis": 8,
+      "orchitis": 0,
+      "me_cfs": 9,
+      "neonatal_sepsis": 3
+    },
+    "CVB4": {
+      "t1dm": 24,
+      "pancreatitis": 14,
+      "myocarditis": 2,
+      "dcm": 2,
+      "pericarditis": 5,
+      "pleurodynia": 3,
+      "hepatitis": 18,
+      "meningitis": 4,
+      "encephalitis": 6,
+      "orchitis": 1,
+      "me_cfs": 6,
+      "neonatal_sepsis": 2
+    },
+    "CVB5": {
+      "t1dm": 4,
+      "pancreatitis": 1,
+      "myocarditis": 6,
+      "dcm": 3,
+      "pericarditis": 2,
+      "pleurodynia": 16,
+      "hepatitis": 0,
+      "meningitis": 17,
+      "encephalitis": 8,
+      "orchitis": 2,
+      "me_cfs": 15,
+      "neonatal_sepsis": 5
+    }
+  },
+  "validation": {
+    "all_passed": false,
+    "validations": [
+      {
+        "test": "CVB3 produces most myocarditis",
+        "passed": true,
+        "expected": "CVB3",
+        "got": "CVB3",
+        "counts": {
+          "CVB1": 3,
+          "CVB2": 20,
+          "CVB3": 23,
+          "CVB4": 2,
+          "CVB5": 6
+        }
+      },
+      {
+        "test": "CVB4 produces most T1DM",
+        "passed": true,
+        "expected": "CVB4",
+        "got": "CVB4",
+        "counts": {
+          "CVB1": 11,
+          "CVB2": 5,
+          "CVB3": 12,
+          "CVB4": 24,
+          "CVB5": 4
+        }
+      },
+      {
+        "test": "CVB5 produces most orchitis",
+        "passed": false,
+        "expected": "CVB5",
+        "got": "CVB2",
+        "counts": {
+          "CVB1": 0,
+          "CVB2": 2,
+          "CVB3": 0,
+          "CVB4": 1,
+          "CVB5": 2
+        }
+      },
+      {
+        "test": "CVB2 produces most meningitis",
+        "passed": true,
+        "expected": "CVB2",
+        "got": "CVB2",
+        "counts": {
+          "CVB1": 7,
+          "CVB2": 29,
+          "CVB3": 10,
+          "CVB4": 4,
+          "CVB5": 17
+        }
+      },
+      {
+        "test": "CVB1 produces most pancreatitis",
+        "passed": true,
+        "expected": "CVB1",
+        "got": "CVB1",
+        "counts": {
+          "CVB1": 16,
+          "CVB2": 8,
+          "CVB3": 7,
+          "CVB4": 14,
+          "CVB5": 1
+        }
+      }
+    ]
+  },
+  "patient_zero_multi_infection": {
+    "infections": [
+      [
+        "CVB4",
+        3
+      ],
+      [
+        "CVB3",
+        12
+      ]
+    ],
+    "hla": "DR3-DQ2/DR4-DQ8",
+    "final_risk": {
+      "t1dm": 0.0728279013233274,
+      "pancreatitis": 0.007631658302446609,
+      "myocarditis": 0.0018915858168995214,
+      "dcm": 0.00014064299854144036,
+      "pericarditis": 0.0015976245411795098,
+      "pleurodynia": 0.005229655706674441,
+      "hepatitis": 0.004683864205451083,
+      "meningitis": 0.003916953919385624,
+      "encephalitis": 0.0014333825569509129,
+      "orchitis": 0.0004272420330557747,
+      "me_cfs": 0.0024533783084355054,
+      "neonatal_sepsis": 0.0
+    }
+  },
+  "worst_case_multi_infection": {
+    "infections": [
+      [
+        "CVB4",
+        3
+      ],
+      [
+        "CVB1",
+        7
+      ],
+      [
+        "CVB3",
+        14
+      ],
+      [
+        "CVB5",
+        22
+      ],
+      [
+        "CVB2",
+        30
+      ]
+    ],
+    "hla": "Neutral",
+    "final_risk": {
+      "t1dm": 0.03241540064597492,
+      "pancreatitis": 0.03196542804102598,
+      "myocarditis": 0.030619420898796323,
+      "dcm": 0.004122852405589628,
+      "pericarditis": 0.02119110574242722,
+      "pleurodynia": 0.033866773645731985,
+      "hepatitis": 0.031418738111654076,
+      "meningitis": 0.017471362551082725,
+      "encephalitis": 0.011127294170594326,
+      "orchitis": 0.015494862258964903,
+      "me_cfs": 0.02089409586616031,
+      "neonatal_sepsis": 0.0
+    }
+  },
+  "danger_ranking": {
+    "CVB1": 2.1025000000000005,
+    "CVB2": 2.0800000000000005,
+    "CVB3": 2.9324999999999997,
+    "CVB4": 2.5774999999999997,
+    "CVB5": 1.845
+  },
+  "tropism_matrix": {
+    "CVB1": {
+      "t1dm": 0.55,
+      "pancreatitis": 0.8,
+      "myocarditis": 0.15,
+      "dcm": 0.05,
+      "pericarditis": 0.1,
+      "pleurodynia": 0.3,
+      "hepatitis": 0.65,
+      "meningitis": 0.2,
+      "encephalitis": 0.05,
+      "orchitis": 0.05,
+      "me_cfs": 0.15,
+      "neonatal_sepsis": 0.4
+    },
+    "CVB2": {
+      "t1dm": 0.15,
+      "pancreatitis": 0.15,
+      "myocarditis": 0.55,
+      "dcm": 0.25,
+      "pericarditis": 0.4,
+      "pleurodynia": 0.2,
+      "hepatitis": 0.2,
+      "meningitis": 0.7,
+      "encephalitis": 0.2,
+      "orchitis": 0.1,
+      "me_cfs": 0.25,
+      "neonatal_sepsis": 0.3
+    },
+    "CVB3": {
+      "t1dm": 0.2,
+      "pancreatitis": 0.25,
+      "myocarditis": 0.9,
+      "dcm": 0.7,
+      "pericarditis": 0.55,
+      "pleurodynia": 0.5,
+      "hepatitis": 0.15,
+      "meningitis": 0.3,
+      "encephalitis": 0.1,
+      "orchitis": 0.1,
+      "me_cfs": 0.4,
+      "neonatal_sepsis": 0.35
+    },
+    "CVB4": {
+      "t1dm": 0.9,
+      "pancreatitis": 0.7,
+      "myocarditis": 0.2,
+      "dcm": 0.1,
+      "pericarditis": 0.15,
+      "pleurodynia": 0.15,
+      "hepatitis": 0.55,
+      "meningitis": 0.25,
+      "encephalitis": 0.1,
+      "orchitis": 0.15,
+      "me_cfs": 0.2,
+      "neonatal_sepsis": 0.45
+    },
+    "CVB5": {
+      "t1dm": 0.1,
+      "pancreatitis": 0.1,
+      "myocarditis": 0.25,
+      "dcm": 0.1,
+      "pericarditis": 0.15,
+      "pleurodynia": 0.75,
+      "hepatitis": 0.1,
+      "meningitis": 0.6,
+      "encephalitis": 0.15,
+      "orchitis": 0.6,
+      "me_cfs": 0.55,
+      "neonatal_sepsis": 0.2
+    }
+  }
+}

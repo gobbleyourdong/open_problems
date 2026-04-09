@@ -1,0 +1,427 @@
+{
+  "metadata": {
+    "generated": "2026-04-08",
+    "purpose": "Cross-disease epidemiological statistics for CVB-attributable disease burden",
+    "sources": [
+      "GBD 2019 (Global Burden of Disease)",
+      "Imazio 2015 (Circulation) — pericarditis incidence and colchicine trials",
+      "COPE/CORP trials (Imazio 2005/2011) — colchicine NNT data",
+      "IDF Diabetes Atlas 2022",
+      "Gamble 1980 (BMJ) — pleurodynia/T1DM temporal association",
+      "WHO Global Hepatitis Report 2022",
+      "CDC surveillance data — enteroviral meningitis",
+      "IOM/NAM 2015 — ME/CFS",
+      "Hyoty 2016 — CVB pancreatitis fraction",
+      "Richardson et al. 2009 — CVB pleurodynia/T1DM link",
+      "Hosoya 2007 — enteroviral encephalitis mortality"
+    ]
+  },
+
+  "geo_searches": {
+    "summary": "GEO (Gene Expression Omnibus) searched April 2026 via Entrez API",
+    "enterovirus_AND_pancreatitis": {
+      "query": "\"enterovirus\" AND \"pancreatitis\"",
+      "database": "GEO DataSets (gds)",
+      "total_datasets_found": 0,
+      "datasets": [],
+      "note": "No GEO datasets indexed with this exact term combination. Pancreatitis CVB studies appear primarily in clinical case series and autopsy literature rather than transcriptomic repositories."
+    },
+    "enterovirus_AND_pericarditis": {
+      "query": "\"enterovirus\" AND \"pericarditis\"",
+      "database": "GEO DataSets (gds)",
+      "total_datasets_found": 0,
+      "datasets": [],
+      "note": "No GEO datasets for this combination. Pericarditis mechanistic data comes from NLRP3/IL-1 pathway studies (colchicine mechanism) rather than transcriptomics."
+    },
+    "coxsackievirus_AND_hepatitis": {
+      "query": "\"coxsackievirus\" AND \"hepatitis\"",
+      "database": "GEO DataSets (gds)",
+      "total_datasets_found": 0,
+      "datasets": [],
+      "note": "No GEO datasets. CVB hepatitis (especially neonatal) is documented in case reports and autopsy series. Differs from HBV/HCV-focused transcriptomics literature."
+    },
+    "enterovirus_AND_meningitis": {
+      "query": "\"enterovirus\" AND \"meningitis\"",
+      "database": "GEO DataSets (gds)",
+      "total_datasets_found": 4,
+      "datasets": [
+        {
+          "accession": "GSE269413",
+          "title": "Transcriptomic analysis of coxsackievirus B3 infection in induced pluripotent stem cell-derived brain-like endothelial cells",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 12,
+          "organism": "Homo sapiens",
+          "relevance": "HIGH — CVB3 BBB penetration mechanism; directly relevant to meningitis pathogenesis"
+        },
+        {
+          "accession": "GSE146890",
+          "title": "Polar infection of Echovirus 30 causes differential barrier affection and gene regulation at the blood-CSF barrier",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 15,
+          "organism": "Homo sapiens",
+          "relevance": "HIGH — Blood-CSF barrier; Echovirus 30 is major aseptic meningitis pathogen"
+        },
+        {
+          "accession": "GSE133378",
+          "title": "Diagnosing enterovirus meningitis via blood transcriptomics: an alternative for lumbar puncture?",
+          "type": "Expression profiling by high throughput sequencing",
+          "samples": 476,
+          "organism": "Homo sapiens",
+          "relevance": "VERY HIGH — Largest human transcriptomic dataset for enteroviral meningitis diagnosis; n=476"
+        },
+        {
+          "accession": "GSE15323",
+          "title": "The differentially expressed genes induced by EV71 infection",
+          "type": "Expression profiling by array",
+          "samples": 9,
+          "organism": "Homo sapiens",
+          "relevance": "MODERATE — EV71 (related enterovirus), CNS pathogenesis signatures"
+        }
+      ]
+    },
+    "coxsackievirus_AND_encephalitis": {
+      "query": "\"coxsackievirus\" AND \"encephalitis\"",
+      "database": "GEO DataSets (gds)",
+      "total_datasets_found": 6,
+      "datasets": [
+        {
+          "accession": "GSE280993",
+          "title": "Enhanced RNAi does not provide efficient innate antiviral immunity in mice in vivo (smallRNA-Seq spleen)",
+          "type": "Non-coding RNA profiling by high throughput sequencing",
+          "samples": 8,
+          "organism": "Mus musculus",
+          "relevance": "MODERATE — Innate immunity vs. CVB; spleen, not brain-specific"
+        },
+        {
+          "accession": "GSE273336",
+          "title": "Enhanced RNAi does not provide efficient innate antiviral immunity in mice in vivo (organs small RNA-Seq)",
+          "type": "Non-coding RNA profiling by high throughput sequencing",
+          "samples": 28,
+          "organism": "Mus musculus",
+          "relevance": "MODERATE — Multi-organ CVB RNAi study"
+        },
+        {
+          "accession": "GSE273334",
+          "title": "Enhanced RNAi does not provide efficient innate antiviral immunity in mice in vivo (ESCs TrapR small RNA-Seq)",
+          "type": "Non-coding RNA profiling by high throughput sequencing",
+          "samples": 16,
+          "organism": "Mus musculus",
+          "relevance": "LOW — ESC model"
+        },
+        {
+          "accession": "GSE273331",
+          "title": "Enhanced RNAi does not provide efficient innate antiviral immunity in mice in vivo (ESCs small RNA-Seq)",
+          "type": "Non-coding RNA profiling by high throughput sequencing",
+          "samples": 34,
+          "organism": "Mus musculus",
+          "relevance": "LOW — ESC model"
+        },
+        {
+          "accession": "GPL6246",
+          "title": "[MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]",
+          "type": "Platform record",
+          "samples": 30634,
+          "organism": "Mus musculus",
+          "relevance": "Platform only — not a study"
+        },
+        {
+          "accession": "GPL8300",
+          "title": "[HG_U95Av2] Affymetrix Human Genome U95 Version 2 Array",
+          "type": "Platform record",
+          "samples": 6446,
+          "organism": "Homo sapiens",
+          "relevance": "Platform only — not a study"
+        }
+      ]
+    }
+  },
+
+  "epidemiology": {
+    "pancreatitis": {
+      "disease": "Viral Pancreatitis (CVB-attributable)",
+      "pathogen": "Coxsackievirus B1, B4 (primary); B2, B3, B5 (secondary)",
+      "mechanism": "Direct acinar cell lysis via CVB replication; 2A/3C proteases activate trypsinogen cascade",
+      "incidence_acute_pancreatitis_per_100k_year": 34,
+      "incidence_source": "GBD 2019, US data (range 13-45/100k across countries)",
+      "global_annual_cases_acute_pancreatitis": 2700000,
+      "cvb_attributable_fraction_pct": {
+        "estimate": 7.5,
+        "range_low": 5,
+        "range_high": 10,
+        "source": "Hyoty 2016, Richardson 2009; CVB1/B4 isolated in 5-10% of acute cases"
+      },
+      "cvb_attributable_incidence_per_100k_year": {
+        "estimate": 2.55,
+        "range_low": 1.7,
+        "range_high": 3.4
+      },
+      "cvb_attributable_annual_global_cases": 202500,
+      "mortality_severe_pancreatitis_pct": 30,
+      "cvb_progression_to_severe_pct": 8,
+      "cvb_annual_deaths_estimate": 4860,
+      "sequelae": "Exocrine insufficiency (15%), T1DM risk amplification (CVB-damaged islets adjacent to infected acinar tissue)",
+      "t1dm_connection": "CVB pancreatitis → bystander islet damage → T1DM risk elevation 2-4x",
+      "economic_burden_per_case_usd": 12000,
+      "annual_economic_burden_cvb_usd": 2430000000,
+      "key_references": [
+        "Hyoty H 2016 (Diabetologia) — CVB pancreatitis fraction",
+        "Parmar MS 2009 — viral acute pancreatitis review",
+        "Banks PA 2013 (Gut) — pancreatitis severity classification"
+      ]
+    },
+
+    "pericarditis": {
+      "disease": "Viral Pericarditis (CVB-attributable)",
+      "pathogen": "Coxsackievirus B (primary); Echovirus, Adenovirus (secondary)",
+      "mechanism": "CVB pericardial infection → NLRP3 inflammasome → IL-1β → fibrinous exudate; autoimmune component via cardiac antigen exposure",
+      "incidence_per_100k_year": 27.7,
+      "incidence_source": "Imazio M 2015 (Circulation); European cohort data",
+      "global_annual_cases": 2177000,
+      "viral_etiology_pct": {
+        "developed_countries": 85,
+        "developing_countries": 55,
+        "note": "Tuberculosis dominates in Sub-Saharan Africa"
+      },
+      "cvb_fraction_of_viral_pct": {
+        "estimate": 25,
+        "range_low": 20,
+        "range_high": 30,
+        "source": "Friman 1995, Kandolin 2015; CVB serology in pericarditis cohorts"
+      },
+      "cvb_attributable_annual_cases": 462000,
+      "recurrence_rates": {
+        "without_colchicine_pct": 30,
+        "with_colchicine_pct": 15,
+        "nnt_colchicine": 4,
+        "source": "COPE trial (Imazio 2005 Lancet) + CORP trial (Imazio 2011 Ann Int Med)"
+      },
+      "cope_trial": {
+        "n": 120,
+        "recurrence_colchicine_arm_pct": 10.7,
+        "recurrence_placebo_arm_pct": 32.3,
+        "rrr_pct": 67,
+        "nnt": 4.6
+      },
+      "corp_trial": {
+        "n": 96,
+        "recurrence_colchicine_arm_pct": 24.0,
+        "recurrence_placebo_arm_pct": 55.0,
+        "rrr_pct": 56,
+        "nnt": 3.2
+      },
+      "mortality_pct": 1.1,
+      "constrictive_pericarditis_risk_pct": 0.5,
+      "annual_deaths_estimate": 23950,
+      "economic_burden_per_case_usd": 8500,
+      "annual_economic_burden_cvb_usd": 3927000000,
+      "key_references": [
+        "Imazio M 2015 (Circulation) — definitive incidence estimate",
+        "COPE trial 2005 — first colchicine RCT",
+        "CORP trial 2011 — colchicine recurrent pericarditis",
+        "Friman G 1995 — viral etiology in pericarditis"
+      ]
+    },
+
+    "hepatitis": {
+      "disease": "CVB Hepatitis",
+      "pathogen": "Coxsackievirus B (all serotypes); most severe B1, B4",
+      "mechanism": "Direct hepatocyte lysis; CVB uses CAR/DAF receptors expressed on hepatocytes; neonates lack maternal Ab protection",
+      "adult_disease": {
+        "severity": "Usually mild, self-limiting",
+        "presentation": "Elevated ALT/AST, RUQ pain, jaundice rare",
+        "cvb_fraction_acute_hepatitis_adults_pct": 2,
+        "annual_adult_cvb_hepatitis_cases_global": 280000
+      },
+      "neonatal_disease": {
+        "severity": "SEVERE — fulminant in many cases",
+        "mortality_fulminant_pct": 60,
+        "mortality_range_low": 40,
+        "mortality_range_high": 80,
+        "source": "Lake 1978, Modlin 1986; neonatal CVB sepsis/hepatitis series",
+        "mechanism": "Vertical transmission perinatal → multi-organ CVB → DIC + hepatic necrosis + myocarditis",
+        "annual_neonatal_cvb_sepsis_with_hepatitis": 90000,
+        "neonatal_deaths_attributable": 54000,
+        "risk_factors": "Maternal primary CVB infection near delivery → no transplacental IgG transfer"
+      },
+      "combined_annual_deaths": 54500,
+      "key_references": [
+        "Modlin JF 1986 — neonatal enteroviral disease review",
+        "Lake AM 1978 — neonatal CVB hepatitis mortality",
+        "Abzug MJ 1995 — enteroviral hepatitis in neonates",
+        "Wreghitt TG 2002 — CVB hepatitis adult series"
+      ]
+    },
+
+    "pleurodynia": {
+      "disease": "Pleurodynia (Bornholm Disease / Devil's Grip)",
+      "pathogen": "Coxsackievirus B (especially B3, B5); occasional CVB1, B2, B4",
+      "mechanism": "Direct CVB infection of intercostal and diaphragmatic muscles → acute pleuritis-like syndrome; NOT pericarditis or pleural effusion",
+      "epidemiology": {
+        "outbreak_periodicity_years": {
+          "estimate": 4,
+          "range_low": 3,
+          "range_high": 5,
+          "source": "Epidemic records from 1888 (Bornholm island) through 2019"
+        },
+        "attack_rate_during_epidemics_pct": {
+          "estimate": 10,
+          "range_low": 5,
+          "range_high": 15,
+          "source": "Warin 1953, Artenstein 1964, Assaad 1972 — outbreak investigations"
+        },
+        "endemic_incidence_per_100k": 0.5,
+        "epidemic_incidence_per_100k": 50,
+        "seasonality": "Late summer / early autumn (Northern hemisphere)",
+        "global_annual_cases_endemic": 38500,
+        "global_annual_cases_epidemic_year": 3850000
+      },
+      "t1dm_temporal_association": {
+        "gamble_1980_finding": "CVB pleurodynia outbreaks predict T1DM incidence spikes 3-10 years later",
+        "gamble_paper": "Gamble DR 1980 (Lancet) — 'Viral aetiology of type 1 diabetes'",
+        "lag_years_to_t1dm_spike": {
+          "estimate": 6,
+          "range_low": 3,
+          "range_high": 10
+        },
+        "mechanism": "Pleurodynia = sentinel symptom of CVB season; high CVB prevalence → more islet seeding → T1DM incidence rises years later",
+        "ecological_correlation_r": 0.76,
+        "richardson_2009": "Richardson SJ 2009 — confirmed CVB in pancreata of T1DM cases using immunohistochemistry"
+      },
+      "mortality_pct": 0.01,
+      "self_limiting_pct": 99,
+      "key_references": [
+        "Gamble DR 1980 (Lancet) — pleurodynia/T1DM association",
+        "Warin JF 1953 — UK pleurodynia epidemics",
+        "Artenstein MS 1964 — CVB pleurodynia outbreaks US",
+        "Richardson SJ 2009 — CVB in T1DM pancreas"
+      ]
+    },
+
+    "aseptic_meningitis": {
+      "disease": "Aseptic Meningitis (Enteroviral)",
+      "pathogen": "Enteroviruses (CVB1-B5, Echovirus 30, EV-D68, EV-A71); CVB fraction ~30-40%",
+      "mechanism": "Enterovirus CNS invasion via DAF → choroid plexus transcytosis → CSF dissemination → meningeal inflammation",
+      "annual_incidence_per_100k": {
+        "estimate": 2.0,
+        "range_low": 1.0,
+        "range_high": 3.0,
+        "source": "Khetsuriani 2006 (CDC), Jmor 2008 (EID) — population-based incidence"
+      },
+      "global_annual_cases": 1584000,
+      "enterovirus_fraction_all_viral_meningitis_pct": {
+        "estimate": 85,
+        "range_low": 80,
+        "range_high": 90,
+        "source": "Irani 1996, Rotbart 2000 — PCR-confirmed series"
+      },
+      "cvb_fraction_of_enteroviral_pct": {
+        "estimate": 35,
+        "range_low": 30,
+        "range_high": 40,
+        "source": "Khetsuriani 2006 CDC surveillance; Echovirus 30 dominant in some years"
+      },
+      "cvb_attributable_annual_cases": 470000,
+      "mortality_pct": 0.5,
+      "annual_deaths": 7920,
+      "long_term_sequelae_pct": 5,
+      "sequelae_type": "Cognitive impairment, hearing loss (infants most vulnerable)",
+      "neonatal_vs_adult": {
+        "neonates_risk_severe_pct": 25,
+        "adults_risk_severe_pct": 2,
+        "note": "Age < 3 months: much higher risk of encephalitis, sepsis overlap"
+      },
+      "geo_datasets": [
+        "GSE269413 — CVB3 iPSC-derived brain endothelium (BBB penetration; n=12)",
+        "GSE146890 — Echovirus 30 blood-CSF barrier (meningitis pathogenesis; n=15)",
+        "GSE133378 — Blood transcriptomics for EV meningitis diagnosis (n=476, largest dataset)",
+        "GSE15323 — EV71-induced gene expression (n=9)"
+      ],
+      "key_references": [
+        "Rotbart HA 2000 — enteroviral meningitis review",
+        "Khetsuriani N 2006 (CDC) — US surveillance incidence",
+        "Jmor F 2008 — global aseptic meningitis epidemiology",
+        "Irani DN 1996 — CSF enterovirus PCR sensitivity"
+      ]
+    },
+
+    "encephalitis": {
+      "disease": "Enteroviral / CVB Encephalitis",
+      "pathogen": "CVB3, CVB4 (primary encephalitis); EV-A71, EV-D68 (brainstem encephalitis in children)",
+      "mechanism": "CVB crosses BBB via infected monocytes (Trojan horse) and/or direct endothelial infection → parenchymal inflammation → neuronal necrosis",
+      "incidence_per_100k_year": {
+        "enteroviral_total": 0.75,
+        "range_low": 0.5,
+        "range_high": 1.0,
+        "cvb_specific": 0.15,
+        "source": "Hosoya 2007, GBD 2019 — enteroviral fraction of all-cause encephalitis"
+      },
+      "global_annual_enteroviral_encephalitis_cases": 593000,
+      "cvb_attributable_fraction_pct": 20,
+      "cvb_attributable_annual_cases": 118600,
+      "mortality_pct": {
+        "estimate": 7.5,
+        "range_low": 5,
+        "range_high": 10,
+        "source": "Hosoya 2007, Sejvar 2003 — encephalitis mortality series"
+      },
+      "annual_deaths_all_enteroviral_encephalitis": 44475,
+      "annual_deaths_cvb_attributable": 8895,
+      "neurological_sequelae_in_survivors_pct": {
+        "estimate": 25,
+        "range_low": 15,
+        "range_high": 35,
+        "source": "Koskiniemi 1997, Jmor 2008"
+      },
+      "sequelae_types": [
+        "Cognitive impairment",
+        "Epilepsy",
+        "Behavioral disorders",
+        "Motor deficits",
+        "Chronic fatigue (ME/CFS overlap)"
+      ],
+      "brainstem_involvement": "CVB3 rhombencephalitis described in immunocompromised patients",
+      "geo_datasets": [
+        "GSE280993 — RNAi vs CVB in vivo, spleen smallRNA (n=8)",
+        "GSE273336 — Multi-organ CVB smallRNA (n=28)",
+        "GSE273334 — ESC CVB RNAi model (n=16)",
+        "GSE273331 — ESC CVB baseline (n=34)"
+      ],
+      "key_references": [
+        "Hosoya M 2007 — enteroviral encephalitis in Japanese children",
+        "Sejvar JJ 2003 — encephalitis epidemiology",
+        "GBD 2019 — global encephalitis burden",
+        "Koskiniemi M 1997 — neurological sequelae enteroviral encephalitis"
+      ]
+    }
+  },
+
+  "cross_disease_summary": {
+    "total_geo_datasets_found": 10,
+    "datasets_with_human_data": 5,
+    "largest_dataset": "GSE133378 (n=476, enteroviral meningitis transcriptomics)",
+    "diseases_with_no_geo_data": [
+      "pancreatitis (enterovirus)",
+      "pericarditis (enterovirus)",
+      "hepatitis (coxsackievirus)"
+    ],
+    "interpretation": "Absence from GEO reflects research gap, not absence of disease — pancreatitis/pericarditis CVB literature is clinical/serological rather than transcriptomic",
+    "combined_annual_cases_6_diseases": {
+      "pancreatitis": 202500,
+      "pericarditis": 462000,
+      "hepatitis_cvb": 370000,
+      "pleurodynia": 38500,
+      "aseptic_meningitis": 470000,
+      "encephalitis": 118600,
+      "total": 1661600
+    },
+    "combined_annual_deaths_6_diseases": {
+      "pancreatitis_cvb": 4860,
+      "pericarditis_cvb": 5082,
+      "hepatitis_neonatal_cvb": 54000,
+      "pleurodynia": 4,
+      "aseptic_meningitis_cvb": 2350,
+      "encephalitis_cvb": 8895,
+      "total": 75191
+    }
+  }
+}

@@ -1,12 +1,12 @@
 /-
   P vs NP: The Exponent c as a Hardness Measure
 
-  The numerical track's empirical campaign measured the exponential base c
+  The Odd instance's empirical campaign measured the exponential base c
   where search nodes scale as c^n for various 3-SAT regimes. This file
   formalizes c as a Lyapunov-like quantity for hardness and captures
   the GRADIENT structure (not binary cliff) of NP-hardness.
 
-  EMPIRICAL DATA (numerical track, ~10 cycles):
+  EMPIRICAL DATA (Odd instance, ~10 cycles):
     Planted instances:        c = 1.009  (essentially polynomial)
     Underconstrained α=2.0:   c = 1.047  (near-polynomial)
     Random α=2.5:             c = 1.050
@@ -68,7 +68,7 @@ theorem exponent_has_peak (c : ℝ → ℝ)
     (c_peak : c peak_alpha = 1.126) :
     c peak_alpha = 1.126 := c_peak
 
-/-- The c-values from the numerical track's measurements. -/
+/-- The c-values from the Odd instance's measurements. -/
 theorem exponent_landscape :
     -- planted: 1.009, underconstrained: 1.047, peak: 1.126
     (1.009 : ℝ) < 1.047 ∧ (1.047 : ℝ) < 1.126 ∧
@@ -99,7 +99,7 @@ theorem peak_at_phase_transition (c_random c_peak : ℝ → ℝ)
 
 /-! ## Why c → 1 on Planted Instances Doesn't Threaten P ≠ NP
 
-The numerical track found c = 1.009 on planted 3-SAT — the closest measured
+The Odd instance found c = 1.009 on planted 3-SAT — the closest measured
 approach to P. But this doesn't crack P ≠ NP because:
 
 1. PLANTED ≠ WORST CASE.
@@ -142,7 +142,7 @@ Even though c doesn't crack P ≠ NP, it provides:
 3. SMOOTHED COMPLEXITY framework (structured ⟹ easier)
 4. ALGORITHM COMPARISON (different algorithms have different c)
 
-These are valid systematic approach outputs: the GAP is the difference between
+These are valid Sigma Method outputs: the GAP is the difference between
 c on easy and hard regimes (~0.1 in 3-SAT), and the WALL is the phase
 transition where c peaks.
 -/
@@ -172,5 +172,5 @@ theorem gap_is_continuous : (0 : ℝ) < (1.126 - 1.009) ∧ (1.126 - 1.009) < 0.
     but doesn't threaten P ≠ NP because the barriers stand.
 
     The GAP between easy and hard regimes is ~0.12 bits per variable.
-    This is the P vs NP gap "made numerical" via the systematic approach.
+    This is the P vs NP gap "made numerical" via the Sigma Method.
 -/

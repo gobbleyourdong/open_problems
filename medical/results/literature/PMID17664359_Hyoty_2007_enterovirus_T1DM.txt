@@ -1,0 +1,19 @@
+1. Sex Transm Infect. 2007 Jul;83(4):257-66. doi: 10.1136/sti.2007.026245.
+
+Sexually transmitted diseases in the USA: temporal trends.
+
+Aral SO(1), Fenton KA, Holmes KK.
+
+Author information:
+(1)Division of Sexually Transmitted Disease, National Centers for HIV, STD and 
+TB Prevention, Centers for Disease Control and Prevention, Atlanta, Georgia 
+30333, USA. SAral@cdc.gov
+
+This paper reviews the temporal trends in sexually transmitted diseases (STDs) 
+and discusses the factors affecting the epidemiology of bacterial STDs.
+
+DOI: 10.1136/sti.2007.026245
+PMCID: PMC2598671
+PMID: 17664359 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: None.

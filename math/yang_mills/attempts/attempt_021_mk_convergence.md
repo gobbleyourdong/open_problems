@@ -4,7 +4,7 @@
 **Phase**: 3 (Proof Support)
 **Instance**: Odd
 
-## The Question (from theory track summary_024)
+## The Question (from Even instance summary_024)
 
 After n MK decimation steps, the exact lattice coefficients satisfy
 0 ≤ c̃_j(n) ≤ c_j^U(n). If c_j^U(n) < ε₀, the cluster expansion converges

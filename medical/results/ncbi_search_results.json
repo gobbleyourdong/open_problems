@@ -1,0 +1,47 @@
+{
+  "CVB TD mutant": {
+    "query": "\"coxsackievirus B\" AND \"terminal deletion\"",
+    "count": 0,
+    "top_accessions": []
+  },
+  "CVB 5UTR deletion": {
+    "query": "\"coxsackievirus B\" AND \"5 UTR\" AND \"deletion\"",
+    "count": 0,
+    "top_accessions": []
+  },
+  "CVB persistent": {
+    "query": "\"coxsackievirus B\" AND \"persistent\" AND \"genome\"",
+    "count": 0,
+    "top_accessions": []
+  },
+  "CVB cardiac tissue": {
+    "query": "\"coxsackievirus B\" AND (\"myocardium\" OR \"cardiac\") AND \"sequence\"",
+    "count": 0,
+    "top_accessions": []
+  },
+  "CVB pancreas": {
+    "query": "\"coxsackievirus B\" AND (\"pancreas\" OR \"islet\") AND \"sequence\"",
+    "count": 1,
+    "top_accessions": [
+      "AF328683.1"
+    ]
+  },
+  "Enterovirus TD": {
+    "query": "\"enterovirus\" AND \"terminally deleted\" OR \"5 terminal deletion\"",
+    "count": 2,
+    "top_accessions": [
+      "AP011112.1",
+      "KU608309.1"
+    ]
+  },
+  "CVB DiViD": {
+    "query": "\"coxsackievirus\" AND \"DiViD\"",
+    "count": 0,
+    "top_accessions": []
+  },
+  "CVB muscle ME/CFS": {
+    "query": "\"coxsackievirus B\" AND \"muscle\" AND (\"chronic fatigue\" OR \"myalgic\")",
+    "count": 0,
+    "top_accessions": []
+  }
+}

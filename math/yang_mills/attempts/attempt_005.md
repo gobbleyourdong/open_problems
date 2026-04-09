@@ -97,7 +97,7 @@ where δ_k = |LF_k| and Σ δ_k must converge.
 
 ## Assessment
 
-Option 5 is the most promising for the systematic approach. The lattice mass gap
+Option 5 is the most promising for the Sigma Method. The lattice mass gap
 (at fixed β) might be provable without the full Balaban machinery. We know:
 - Finite lattice: gap exists (Krein-Rutman, attempt_004)
 - Strong coupling: gap provable (character expansion, explicit)

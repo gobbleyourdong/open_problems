@@ -1,0 +1,39 @@
+1. Circ J. 2012;76(8):1840-7. doi: 10.1253/circj.cj-11-1140. Epub 2012 May 18.
+
+Randomized, multicenter, warfarin-controlled phase II study of edoxaban in 
+Japanese patients with non-valvular atrial fibrillation.
+
+Yamashita T(1), Koretsune Y, Yasaka M, Inoue H, Kawai Y, Yamaguchi T, Uchiyama 
+S, Matsumoto M, Ogawa S.
+
+Author information:
+(1)Division of Cardiology, The Cardiovascular Institute, Tokyo, Japan. 
+yamt-tky@umin.ac.jp
+
+Comment in
+    Circ J. 2012;76(8):1826-7. doi: 10.1253/circj.cj-12-0765.
+
+BACKGROUND: Edoxaban is a once-daily (QD) oral, direct factor Xa inhibitor in 
+clinical development for the prevention of stroke in patients with non-valvular 
+atrial fibrillation (NVAF). The aim of this study was to evaluate the safety of 
+edoxaban in Japanese patients with NVAF.
+METHODS AND RESULTS: A total of 536 NVAF patients (CHADS2 ≥1) were randomized to 
+receive double-blinded edoxaban 30, 45, or 60 mg QD or open-label warfarin 
+(international normalized ratio [INR] 2.0-3.0 for age <70 years; 1.6-2.6 for age 
+≥70 years) for 12 weeks. The primary endpoint was the incidence of all bleeding 
+events (major, clinically relevant non-major, and minor bleeds). Patients 
+underwent CT and/or MRI to assess asymptomatic intracranial hemorrhage (ICH). 
+Secondary endpoints included thromboembolic events and pharmacodynamic indices. 
+The mean incidence of all bleeding events for edoxaban 30, 45, and 60mg, and 
+warfarin was 18.5%, 22.4%, 27.7%, and 20.0%, respectively. There were no 
+statistically significant differences among the edoxaban groups and no 
+significant differences from the warfarin group. There were no asymptomatic ICH 
+events in any group. One episode of cerebral infarction was observed in the 
+edoxaban 45-mg group. Subgroup analysis suggested low body weight (≤60kg) was 
+associated with higher bleeding risk.
+CONCLUSIONS: Edoxaban 30, 45, and 60mg QD in patients with NVAF was associated 
+with a numerical increase in all bleeding across the dose range, but this was 
+not statistically significant, nor was any dose compared with warfarin.
+
+DOI: 10.1253/circj.cj-11-1140
+PMID: 22664798 [Indexed for MEDLINE]

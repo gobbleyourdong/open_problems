@@ -202,7 +202,7 @@ If true: confinement for SU(2) d ≤ 4 at all couplings (Tomboulis 2007).
          Mass gap likely follows (confinement + spectral theory).
 -/
 -- conjecture tomboulis_5_15 : ...
--- This is the KEY open problem identified by the theory track.
+-- This is the KEY open problem identified by the Even Instance.
 
 /-! ## Theorem Count:
     - sandwich_to_zero: PROVED (clean squeeze argument)

@@ -1,0 +1,248 @@
+{
+  "T1DM": {
+    "total_trials": 4498,
+    "sample_size": 100,
+    "phases": {
+      "PHASE4": 6,
+      "PHASE2": 14,
+      "NA": 62,
+      "PHASE1": 9,
+      "EARLY_PHASE1": 1,
+      "PHASE3": 8
+    },
+    "statuses": {
+      "COMPLETED": 66,
+      "TERMINATED": 1,
+      "ACTIVE_NOT_RECRUITING": 3,
+      "NOT_YET_RECRUITING": 5,
+      "WITHDRAWN": 3,
+      "RECRUITING": 7,
+      "UNKNOWN": 13,
+      "SUSPENDED": 2
+    },
+    "completed_with_results": 20
+  },
+  "Myocarditis": {
+    "total_trials": 32,
+    "sample_size": 32,
+    "phases": {
+      "NA": 29,
+      "PHASE4": 2,
+      "PHASE3": 1
+    },
+    "statuses": {
+      "COMPLETED": 19,
+      "TERMINATED": 1,
+      "RECRUITING": 3,
+      "UNKNOWN": 6,
+      "ACTIVE_NOT_RECRUITING": 2,
+      "NOT_YET_RECRUITING": 1
+    },
+    "completed_with_results": 1
+  },
+  "DCM": {
+    "total_trials": 295,
+    "sample_size": 100,
+    "phases": {
+      "NA": 68,
+      "PHASE3": 5,
+      "PHASE4": 4,
+      "PHASE2": 15,
+      "PHASE1": 8
+    },
+    "statuses": {
+      "COMPLETED": 41,
+      "UNKNOWN": 25,
+      "WITHDRAWN": 1,
+      "RECRUITING": 19,
+      "NOT_YET_RECRUITING": 5,
+      "TERMINATED": 6,
+      "ACTIVE_NOT_RECRUITING": 3
+    },
+    "completed_with_results": 7
+  },
+  "ME/CFS": {
+    "total_trials": 363,
+    "sample_size": 100,
+    "phases": {
+      "NA": 80,
+      "EARLY_PHASE1": 2,
+      "PHASE1": 6,
+      "PHASE3": 4,
+      "PHASE2": 8
+    },
+    "statuses": {
+      "RECRUITING": 23,
+      "COMPLETED": 50,
+      "AVAILABLE": 1,
+      "SUSPENDED": 4,
+      "ACTIVE_NOT_RECRUITING": 4,
+      "UNKNOWN": 13,
+      "TERMINATED": 1,
+      "ENROLLING_BY_INVITATION": 2,
+      "NOT_YET_RECRUITING": 2
+    },
+    "completed_with_results": 7
+  },
+  "Pancreatitis": {
+    "total_trials": 448,
+    "sample_size": 100,
+    "phases": {
+      "NA": 78,
+      "PHASE1": 1,
+      "PHASE3": 2,
+      "PHASE4": 9,
+      "PHASE2": 8,
+      "EARLY_PHASE1": 2
+    },
+    "statuses": {
+      "COMPLETED": 46,
+      "UNKNOWN": 25,
+      "NOT_YET_RECRUITING": 5,
+      "ACTIVE_NOT_RECRUITING": 3,
+      "RECRUITING": 17,
+      "TERMINATED": 4
+    },
+    "completed_with_results": 4
+  },
+  "Pericarditis": {
+    "total_trials": 62,
+    "sample_size": 62,
+    "phases": {
+      "PHASE3": 12,
+      "NA": 33,
+      "PHASE2": 11,
+      "PHASE4": 5,
+      "EARLY_PHASE1": 1
+    },
+    "statuses": {
+      "NOT_YET_RECRUITING": 4,
+      "COMPLETED": 20,
+      "ENROLLING_BY_INVITATION": 5,
+      "TERMINATED": 4,
+      "WITHDRAWN": 1,
+      "ACTIVE_NOT_RECRUITING": 5,
+      "UNKNOWN": 10,
+      "SUSPENDED": 1,
+      "RECRUITING": 12
+    },
+    "completed_with_results": 3
+  },
+  "Hepatitis": {
+    "total_trials": 4136,
+    "sample_size": 100,
+    "phases": {
+      "PHASE2": 22,
+      "PHASE3": 15,
+      "NA": 37,
+      "PHASE4": 12,
+      "PHASE1": 13,
+      "EARLY_PHASE1": 1
+    },
+    "statuses": {
+      "COMPLETED": 66,
+      "UNKNOWN": 14,
+      "NOT_YET_RECRUITING": 2,
+      "WITHDRAWN": 5,
+      "TERMINATED": 9,
+      "ACTIVE_NOT_RECRUITING": 2,
+      "RECRUITING": 2
+    },
+    "completed_with_results": 22
+  },
+  "Pleurodynia": {
+    "total_trials": 4,
+    "sample_size": 4,
+    "phases": {
+      "NA": 4
+    },
+    "statuses": {
+      "COMPLETED": 3,
+      "UNKNOWN": 1
+    },
+    "completed_with_results": 0
+  },
+  "Aseptic Meningitis": {
+    "total_trials": 93,
+    "sample_size": 93,
+    "phases": {
+      "PHASE4": 5,
+      "PHASE2": 10,
+      "NA": 60,
+      "PHASE3": 10,
+      "PHASE1": 7,
+      "EARLY_PHASE1": 1
+    },
+    "statuses": {
+      "COMPLETED": 52,
+      "RECRUITING": 10,
+      "UNKNOWN": 15,
+      "WITHDRAWN": 4,
+      "TERMINATED": 3,
+      "NOT_YET_RECRUITING": 6,
+      "NO_LONGER_AVAILABLE": 1,
+      "ENROLLING_BY_INVITATION": 1,
+      "ACTIVE_NOT_RECRUITING": 1
+    },
+    "completed_with_results": 9
+  },
+  "Encephalitis": {
+    "total_trials": 232,
+    "sample_size": 100,
+    "phases": {
+      "NA": 40,
+      "PHASE2": 22,
+      "PHASE1": 8,
+      "PHASE4": 13,
+      "PHASE3": 17
+    },
+    "statuses": {
+      "COMPLETED": 61,
+      "UNKNOWN": 16,
+      "RECRUITING": 10,
+      "WITHDRAWN": 3,
+      "TERMINATED": 4,
+      "ACTIVE_NOT_RECRUITING": 3,
+      "NOT_YET_RECRUITING": 2,
+      "NO_LONGER_AVAILABLE": 1
+    },
+    "completed_with_results": 16
+  },
+  "Orchitis": {
+    "total_trials": 5,
+    "sample_size": 5,
+    "phases": {
+      "NA": 4,
+      "PHASE4": 1
+    },
+    "statuses": {
+      "COMPLETED": 2,
+      "RECRUITING": 1,
+      "UNKNOWN": 2
+    },
+    "completed_with_results": 0
+  },
+  "Neonatal Sepsis": {
+    "total_trials": 302,
+    "sample_size": 100,
+    "phases": {
+      "PHASE3": 11,
+      "NA": 68,
+      "PHASE4": 6,
+      "PHASE2": 8,
+      "PHASE1": 6,
+      "EARLY_PHASE1": 1
+    },
+    "statuses": {
+      "NOT_YET_RECRUITING": 5,
+      "COMPLETED": 54,
+      "TERMINATED": 6,
+      "ACTIVE_NOT_RECRUITING": 3,
+      "UNKNOWN": 21,
+      "WITHDRAWN": 2,
+      "RECRUITING": 8,
+      "SUSPENDED": 1
+    },
+    "completed_with_results": 10
+  }
+}

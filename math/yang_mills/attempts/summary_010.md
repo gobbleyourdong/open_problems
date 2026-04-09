@@ -1,4 +1,4 @@
-# Summary After 10 Attempts — Yang-Mills theory track
+# Summary After 10 Attempts — Yang-Mills Even Instance
 
 **Date**: 2026-04-07
 **Phase**: 2 (Exploration, mid-phase)

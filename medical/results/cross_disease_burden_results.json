@@ -1,0 +1,473 @@
+{
+  "model": "cross_disease_burden_v2",
+  "date": "2026-04-08",
+  "diseases": {
+    "T1DM": {
+      "full_name": "Type 1 Diabetes Mellitus",
+      "cvb_serotypes": [
+        "CVB1",
+        "CVB4"
+      ],
+      "cvb_annual_new_cases": 189000,
+      "cvb_prevalent_cases": 2940000,
+      "mortality_annual": 17500,
+      "cvb_attributable_pct": 35,
+      "daly": {
+        "yll": 262500,
+        "yld": 2045652,
+        "total_daly": 2308152,
+        "disability_weight": 0.049,
+        "avg_age_death": 60
+      },
+      "prevention": {
+        "vaccine": {
+          "dalys_averted": 2077337,
+          "cases_prevented_annually": 170100,
+          "deaths_prevented_annually": 15750,
+          "coverage_assumption_pct": 90
+        },
+        "fluoxetine_fmd": {
+          "dalys_reduced": 686109,
+          "cases_improved": 1176000,
+          "protocol_efficacy_pct": 40
+        }
+      },
+      "annual_economic_burden_usd": 23520000000,
+      "colchicine_applicable": false,
+      "fluoxetine_fmd_applicable": true,
+      "vaccine_preventable_pct": 90
+    },
+    "Myocarditis": {
+      "full_name": "Viral Myocarditis",
+      "cvb_serotypes": [
+        "CVB3",
+        "CVB2"
+      ],
+      "cvb_annual_new_cases": 900000,
+      "cvb_prevalent_cases": 1050000,
+      "mortality_annual": 175000,
+      "cvb_attributable_pct": 50,
+      "daly": {
+        "yll": 5250000,
+        "yld": 1294125,
+        "total_daly": 6544125,
+        "disability_weight": 0.145,
+        "avg_age_death": 45
+      },
+      "prevention": {
+        "vaccine": {
+          "dalys_averted": 5562506,
+          "cases_prevented_annually": 765000,
+          "deaths_prevented_annually": 148750,
+          "coverage_assumption_pct": 85
+        },
+        "fluoxetine_fmd": {
+          "dalys_reduced": 913605,
+          "cases_improved": 367500,
+          "protocol_efficacy_pct": 35
+        }
+      },
+      "annual_economic_burden_usd": 45000000000,
+      "colchicine_applicable": false,
+      "fluoxetine_fmd_applicable": true,
+      "vaccine_preventable_pct": 85
+    },
+    "DCM": {
+      "full_name": "Dilated Cardiomyopathy",
+      "cvb_serotypes": [
+        "CVB3",
+        "CVB4"
+      ],
+      "cvb_annual_new_cases": 174000,
+      "cvb_prevalent_cases": 870000,
+      "mortality_annual": 87000,
+      "cvb_attributable_pct": 30,
+      "daly": {
+        "yll": 1131000,
+        "yld": 3356808,
+        "total_daly": 4487808,
+        "disability_weight": 0.212,
+        "avg_age_death": 62
+      },
+      "prevention": {
+        "vaccine": {
+          "dalys_averted": 3141466,
+          "cases_prevented_annually": 121800,
+          "deaths_prevented_annually": 60900,
+          "coverage_assumption_pct": 70
+        },
+        "fluoxetine_fmd": {
+          "dalys_reduced": 756187,
+          "cases_improved": 217500,
+          "protocol_efficacy_pct": 25
+        }
+      },
+      "annual_economic_burden_usd": 261000000000,
+      "colchicine_applicable": false,
+      "fluoxetine_fmd_applicable": true,
+      "vaccine_preventable_pct": 70
+    },
+    "ME_CFS": {
+      "full_name": "Myalgic Encephalomyelitis / Chronic Fatigue Syndrome",
+      "cvb_serotypes": [
+        "CVB1",
+        "CVB2",
+        "CVB3",
+        "CVB4",
+        "CVB5"
+      ],
+      "cvb_annual_new_cases": 357000,
+      "cvb_prevalent_cases": 7140000,
+      "mortality_annual": 0,
+      "cvb_attributable_pct": 42,
+      "daly": {
+        "yll": 0,
+        "yld": 17802876,
+        "total_daly": 17802876,
+        "disability_weight": 0.274,
+        "avg_age_death": 75
+      },
+      "prevention": {
+        "vaccine": {
+          "dalys_averted": 10681726,
+          "cases_prevented_annually": 214200,
+          "deaths_prevented_annually": 0,
+          "coverage_assumption_pct": 60
+        },
+        "fluoxetine_fmd": {
+          "dalys_reduced": 4272690,
+          "cases_improved": 2142000,
+          "protocol_efficacy_pct": 30
+        }
+      },
+      "annual_economic_burden_usd": 178500000000,
+      "colchicine_applicable": false,
+      "fluoxetine_fmd_applicable": true,
+      "vaccine_preventable_pct": 60
+    },
+    "Pancreatitis": {
+      "full_name": "Viral Pancreatitis (Acute)",
+      "cvb_serotypes": [
+        "CVB1",
+        "CVB4"
+      ],
+      "cvb_annual_new_cases": 202500,
+      "cvb_prevalent_cases": 202500,
+      "mortality_annual": 4860,
+      "cvb_attributable_pct": 7.5,
+      "daly": {
+        "yll": 82620,
+        "yld": 31590,
+        "total_daly": 114210,
+        "disability_weight": 0.195,
+        "avg_age_death": 58
+      },
+      "prevention": {
+        "vaccine": {
+          "dalys_averted": 102789,
+          "cases_prevented_annually": 182250,
+          "deaths_prevented_annually": 4374,
+          "coverage_assumption_pct": 90
+        },
+        "fluoxetine_fmd": {
+          "dalys_reduced": 10012,
+          "cases_improved": 40500,
+          "protocol_efficacy_pct": 20
+        }
+      },
+      "annual_economic_burden_usd": 2430000000,
+      "colchicine_applicable": false,
+      "fluoxetine_fmd_applicable": true,
+      "vaccine_preventable_pct": 90
+    },
+    "Pericarditis": {
+      "full_name": "Viral Pericarditis",
+      "cvb_serotypes": [
+        "CVB1",
+        "CVB2",
+        "CVB3",
+        "CVB4",
+        "CVB5"
+      ],
+      "cvb_annual_new_cases": 462000,
+      "cvb_prevalent_cases": 462000,
+      "mortality_annual": 5082,
+      "cvb_attributable_pct": 21.3,
+      "daly": {
+        "yll": 101640,
+        "yld": 28829,
+        "total_daly": 130469,
+        "disability_weight": 0.052,
+        "avg_age_death": 55
+      },
+      "prevention": {
+        "vaccine": {
+          "dalys_averted": 110899,
+          "cases_prevented_annually": 392700,
+          "deaths_prevented_annually": 4320,
+          "coverage_assumption_pct": 85
+        },
+        "fluoxetine_fmd": {
+          "dalys_reduced": 18744,
+          "cases_improved": 161700,
+          "protocol_efficacy_pct": 35
+        }
+      },
+      "annual_economic_burden_usd": 3927000000,
+      "colchicine_applicable": true,
+      "fluoxetine_fmd_applicable": true,
+      "vaccine_preventable_pct": 85
+    },
+    "Hepatitis": {
+      "full_name": "CVB Hepatitis (Acute + Neonatal)",
+      "cvb_serotypes": [
+        "CVB1",
+        "CVB3",
+        "CVB4"
+      ],
+      "cvb_annual_new_cases": 370000,
+      "cvb_prevalent_cases": 370000,
+      "mortality_annual": 54500,
+      "cvb_attributable_pct": 100,
+      "daly": {
+        "yll": 4082050,
+        "yld": 500832,
+        "total_daly": 4582882,
+        "disability_weight": 0.282,
+        "avg_age_death": 0.1
+      },
+      "prevention": {
+        "vaccine": {
+          "dalys_averted": 4353738,
+          "cases_prevented_annually": 351500,
+          "deaths_prevented_annually": 51775,
+          "coverage_assumption_pct": 95
+        },
+        "fluoxetine_fmd": {
+          "dalys_reduced": 812640,
+          "cases_improved": 185000,
+          "protocol_efficacy_pct": 50
+        }
+      },
+      "annual_economic_burden_usd": 5550000000,
+      "colchicine_applicable": false,
+      "fluoxetine_fmd_applicable": true,
+      "vaccine_preventable_pct": 95
+    },
+    "Pleurodynia": {
+      "full_name": "Pleurodynia (Bornholm Disease)",
+      "cvb_serotypes": [
+        "CVB3",
+        "CVB5",
+        "CVB1"
+      ],
+      "cvb_annual_new_cases": 38500,
+      "cvb_prevalent_cases": 38500,
+      "mortality_annual": 4,
+      "cvb_attributable_pct": 100,
+      "daly": {
+        "yll": 40,
+        "yld": 35,
+        "total_daly": 75,
+        "disability_weight": 0.018,
+        "avg_age_death": 65
+      },
+      "prevention": {
+        "vaccine": {
+          "dalys_averted": 75,
+          "cases_prevented_annually": 38500,
+          "deaths_prevented_annually": 4,
+          "coverage_assumption_pct": 100
+        },
+        "fluoxetine_fmd": {
+          "dalys_reduced": 24,
+          "cases_improved": 23100,
+          "protocol_efficacy_pct": 60
+        }
+      },
+      "annual_economic_burden_usd": 57750000,
+      "colchicine_applicable": false,
+      "fluoxetine_fmd_applicable": true,
+      "vaccine_preventable_pct": 100
+    },
+    "Aseptic_Meningitis": {
+      "full_name": "Aseptic Meningitis (Enteroviral / CVB)",
+      "cvb_serotypes": [
+        "CVB1",
+        "CVB2",
+        "CVB3",
+        "CVB4",
+        "CVB5"
+      ],
+      "cvb_annual_new_cases": 470000,
+      "cvb_prevalent_cases": 470000,
+      "mortality_annual": 2350,
+      "cvb_attributable_pct": 29.75,
+      "daly": {
+        "yll": 94000,
+        "yld": 15745,
+        "total_daly": 109745,
+        "disability_weight": 0.134,
+        "avg_age_death": 35
+      },
+      "prevention": {
+        "vaccine": {
+          "dalys_averted": 82309,
+          "cases_prevented_annually": 352500,
+          "deaths_prevented_annually": 1762,
+          "coverage_assumption_pct": 75
+        },
+        "fluoxetine_fmd": {
+          "dalys_reduced": 18358,
+          "cases_improved": 211500,
+          "protocol_efficacy_pct": 45
+        }
+      },
+      "annual_economic_burden_usd": 3055000000,
+      "colchicine_applicable": false,
+      "fluoxetine_fmd_applicable": true,
+      "vaccine_preventable_pct": 75
+    },
+    "Encephalitis": {
+      "full_name": "Enteroviral / CVB Encephalitis",
+      "cvb_serotypes": [
+        "CVB3",
+        "CVB4"
+      ],
+      "cvb_annual_new_cases": 118600,
+      "cvb_prevalent_cases": 118600,
+      "mortality_annual": 8895,
+      "cvb_attributable_pct": 20,
+      "daly": {
+        "yll": 400275,
+        "yld": 92567,
+        "total_daly": 492842,
+        "disability_weight": 0.223,
+        "avg_age_death": 30
+      },
+      "prevention": {
+        "vaccine": {
+          "dalys_averted": 344989,
+          "cases_prevented_annually": 83020,
+          "deaths_prevented_annually": 6226,
+          "coverage_assumption_pct": 70
+        },
+        "fluoxetine_fmd": {
+          "dalys_reduced": 77654,
+          "cases_improved": 47440,
+          "protocol_efficacy_pct": 40
+        }
+      },
+      "annual_economic_burden_usd": 10081000000,
+      "colchicine_applicable": false,
+      "fluoxetine_fmd_applicable": true,
+      "vaccine_preventable_pct": 70
+    },
+    "Orchitis": {
+      "full_name": "Viral Orchitis",
+      "cvb_serotypes": [
+        "CVB5",
+        "CVB3"
+      ],
+      "cvb_annual_new_cases": 20000,
+      "cvb_prevalent_cases": 60000,
+      "mortality_annual": 0,
+      "cvb_attributable_pct": 25,
+      "daly": {
+        "yll": 0,
+        "yld": 3240,
+        "total_daly": 3240,
+        "disability_weight": 0.036,
+        "avg_age_death": 75
+      },
+      "prevention": {
+        "vaccine": {
+          "dalys_averted": 2592,
+          "cases_prevented_annually": 16000,
+          "deaths_prevented_annually": 0,
+          "coverage_assumption_pct": 80
+        },
+        "fluoxetine_fmd": {
+          "dalys_reduced": 778,
+          "cases_improved": 18000,
+          "protocol_efficacy_pct": 30
+        }
+      },
+      "annual_economic_burden_usd": 720000000,
+      "colchicine_applicable": false,
+      "fluoxetine_fmd_applicable": true,
+      "vaccine_preventable_pct": 80
+    },
+    "Neonatal_Sepsis": {
+      "full_name": "Neonatal CVB Sepsis",
+      "cvb_serotypes": [
+        "CVB1",
+        "CVB2",
+        "CVB3",
+        "CVB4",
+        "CVB5"
+      ],
+      "cvb_annual_new_cases": 90000,
+      "cvb_prevalent_cases": 90000,
+      "mortality_annual": 54000,
+      "cvb_attributable_pct": 3,
+      "daly": {
+        "yll": 4047300,
+        "yld": 1061910,
+        "total_daly": 5109210,
+        "disability_weight": 0.414,
+        "avg_age_death": 0.05
+      },
+      "prevention": {
+        "vaccine": {
+          "dalys_averted": 4853750,
+          "cases_prevented_annually": 85500,
+          "deaths_prevented_annually": 51300,
+          "coverage_assumption_pct": 95
+        },
+        "fluoxetine_fmd": {
+          "dalys_reduced": 1238231,
+          "cases_improved": 54000,
+          "protocol_efficacy_pct": 60
+        }
+      },
+      "annual_economic_burden_usd": 2250000000,
+      "colchicine_applicable": false,
+      "fluoxetine_fmd_applicable": true,
+      "vaccine_preventable_pct": 95
+    }
+  },
+  "totals": {
+    "cvb_annual_new_cases": 3391600,
+    "cvb_prevalent_cases": 13811600,
+    "mortality_annual": 409191,
+    "total_daly": 41685634,
+    "yll_total": 15451425,
+    "yld_total": 26234209,
+    "economic_burden_usd": 536090750000,
+    "vaccine_dalys_averted": 31314176,
+    "vaccine_deaths_prevented": 345161,
+    "vaccine_cases_prevented": 2773070,
+    "fluoxetine_fmd_dalys_reduced": 8805032,
+    "fluoxetine_fmd_cases_improved": 4644240
+  },
+  "statistics": {
+    "headline_annual_cases": 3391600,
+    "headline_prevalent_cases": 13811600,
+    "headline_annual_deaths": 409191,
+    "headline_dalys": 41685634,
+    "headline_yll": 15451425,
+    "headline_yld": 26234209,
+    "headline_economic_burden_usd": 536090750000,
+    "vaccine_dalys_averted": 31314176,
+    "vaccine_pct_of_total_dalys": 75.1,
+    "vaccine_deaths_prevented": 345161,
+    "vaccine_cases_prevented": 2773070,
+    "fluoxetine_fmd_dalys_reduced": 8805032,
+    "fluoxetine_fmd_pct_of_total_dalys": 21.1,
+    "fluoxetine_fmd_cases_improved": 4644240,
+    "top_daly_disease": "ME_CFS",
+    "top_death_disease": "Myocarditis",
+    "top_economic_disease": "DCM"
+  }
+}

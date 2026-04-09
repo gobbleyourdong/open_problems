@@ -1,0 +1,41 @@
+1. Front Immunol. 2021 Oct 1;12:737964. doi: 10.3389/fimmu.2021.737964.
+eCollection  2021.
+
+Environmental Determinants of Type 1 Diabetes: From Association to Proving 
+Causality.
+
+Quinn LM(1)(2), Wong FS(3), Narendran P(1)(2).
+
+Author information:
+(1)Institute of Immunology and Immunotherapy, Research College of Medical and 
+Dental Sciences, University of Birmingham, Birmingham, United Kingdom.
+(2)Diabetes Research Group, Division of Infection and Immunity, School of 
+Medicine, Cardiff University, Cardiff, United Kingdom.
+(3)Department of Diabetes, University Hospitals of Birmingham NHS Foundation 
+Trust, Birmingham, United Kingdom.
+
+The rising incidence of type 1 diabetes (T1D) cannot be ascribed to genetics 
+alone, and causative environmental triggers and drivers must also be 
+contributing. The prospective TEDDY study has provided the greatest 
+contributions in modern time, by addressing misconceptions and refining the 
+search strategy for the future. This review outlines the evidence to date to 
+support the pathways from association to causality, across all stages of T1D 
+(seroconversion to beta cell failure). We focus on infections and vaccinations; 
+infant growth and childhood obesity; the gut microbiome and the lifestyle 
+factors which cultivate it. Of these, the environmental determinants which have 
+the most supporting evidence are enterovirus infection, rapid weight gain in 
+early life, and the microbiome. We provide an infographic illustrating the key 
+environmental determinants in T1D and their likelihood of effect. The next steps 
+are to investigate these environmental triggers, ideally though gold-standard 
+randomised controlled trials and further prospective studies, to help explore 
+public health prevention strategies.
+
+Copyright © 2021 Quinn, Wong and Narendran.
+
+DOI: 10.3389/fimmu.2021.737964
+PMCID: PMC8518604
+PMID: 34659229 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that the research was 
+conducted in the absence of any commercial or financial relationships that could 
+be construed as a potential conflict of interest.

@@ -95,7 +95,7 @@ This confirms: at anti-frustration, Q > 0 for all N, and the Key Lemma
 holds with margin growing as Σ K.
 
 The question is whether anti-frustration is ACHIEVABLE at the vorticity
-maximum. The numerical track's data suggests it's close to achieved.
+maximum. The Odd instance's data suggests it's close to achieved.
 -/
 
 /-- For N modes at anti-frustration: Q = 5N + 36·K_sum > 0 always. -/

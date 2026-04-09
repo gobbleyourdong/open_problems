@@ -1,0 +1,45 @@
+1. Immunol Lett. 2025 Dec;276:107060. doi: 10.1016/j.imlet.2025.107060. Epub 2025
+ Jul 13.
+
+Genetic and transcriptional dysregulation of innate antiviral immune pathways in 
+type 1 diabetes.
+
+Mønsted MØ(1), Pedersen K(1), Jensen MH(2), Kaur S(3), Sustacha SC(1), Holm 
+LJ(1), Buschard K(1), Pociot F(3), Haupt-Jorgensen M(1).
+
+Author information:
+(1)The Bartholin Institute, Department of Pathology, Rigshospitalet, Copenhagen, 
+Denmark.
+(2)The Bartholin Institute, Department of Pathology, Rigshospitalet, Copenhagen, 
+Denmark. Electronic address: mathias.hoej.jensen.01@regionh.dk.
+(3)Translational Type 1 Diabetes Research, Clinical Research, Steno Diabetes 
+Center Copenhagen, Herlev, Denmark.
+
+Innate antiviral immune pathways (InAIPs) are dysregulated in islets of type 1 
+diabetes (T1D) patients, implying how enterovirus might contribute to beta-cell 
+autoimmunity. However, it is unclear whether similar dysregulation occurs in the 
+intestine, contributing to pathologies like barrier dysfunction. Thus, we used a 
+published genome-wide association study to identify polymorphisms in intestinal 
+permeability and InAIP genes. We compared female prediabetic non-obese diabetic 
+(NOD) and C57BL/6 mice and their jejunal epithelial RNA profile by GeneChip 
+analysis. The potential link between dysregulation of InAIP genes and increased 
+intestinal permeability was assessed by measuring trans-epithelial electrical 
+resistance in intestinal Caco-2 cells upon R837 toll-like receptor 7 
+stimulation. There was genetic predisposition to T1D among intestinal 
+permeability genes. However, InAIP genes contained more promising T1D-associated 
+polymorphisms, especially for TNFA, OAS3, PIGR, CD55, NOD2, and IFIH1. Comparing 
+prediabetic NOD with C57BL/6 mice revealed age-dependent dysregulation of 
+several InAIP genes (Ifih1, Rnase1 etc.) in jejunum. Lastly, mimicking an 
+enterovirus infection with R837 stimulation of Caco-2 cells increased intestinal 
+permeability. We demonstrate genetic and transcriptional dysregulation of InAIPs 
+in T1D and their potential involvement in intestinal barrier dysfunction, 
+providing new clues to the disease-manifesting mechanisms of enterovirus 
+infection.
+
+Copyright © 2025. Published by Elsevier B.V.
+
+DOI: 10.1016/j.imlet.2025.107060
+PMID: 40664317 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of competing interest Authors 
+declare no conflict of interest.

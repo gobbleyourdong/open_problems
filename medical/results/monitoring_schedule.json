@@ -1,0 +1,839 @@
+{
+  "generated": "2026-04-08T22:31:11.110708",
+  "visit_months": [
+    0,
+    1,
+    3,
+    6,
+    9,
+    12,
+    18,
+    24
+  ],
+  "tests": [
+    {
+      "name": "Fasting C-Peptide",
+      "code": "004051",
+      "tier": 1,
+      "cost_usd": 45,
+      "category": "Beta Cell Function",
+      "specimen": "Serum (fasting 12hr)",
+      "fasting_required": true,
+      "schedule_months": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        18,
+        24
+      ],
+      "lab": "LabCorp/Quest",
+      "notes": "PRIMARY ENDPOINT. Gold standard for residual beta cell function. Draw fasting AM. Previous level 0.9 ng/mL at Dx (12/2019).",
+      "total_cost_24mo": 315
+    },
+    {
+      "name": "Stimulated C-Peptide (MMTT)",
+      "code": "MMTT",
+      "tier": 1,
+      "cost_usd": 150,
+      "category": "Beta Cell Function",
+      "specimen": "Serum (timed draws at 0, 30, 60, 90, 120 min after Boost)",
+      "fasting_required": true,
+      "schedule_months": [
+        0,
+        6,
+        12,
+        24
+      ],
+      "lab": "Endocrine clinic",
+      "notes": "THE gold standard. Mixed Meal Tolerance Test using Boost drink. More sensitive than fasting C-peptide. Requires clinic visit with timed blood draws. Peak C-peptide at 60-90 min is the key value.",
+      "total_cost_24mo": 600
+    },
+    {
+      "name": "HbA1c",
+      "code": "001453",
+      "tier": 1,
+      "cost_usd": 20,
+      "category": "Glycemic Control",
+      "specimen": "Whole blood (EDTA)",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        18,
+        24
+      ],
+      "lab": "LabCorp/Quest",
+      "notes": "Reflects 3-month average glucose. Lags real-time changes. Target: <7.0% ADA, <6.5% on protocol.",
+      "total_cost_24mo": 140
+    },
+    {
+      "name": "hs-CRP",
+      "code": "120766",
+      "tier": 1,
+      "cost_usd": 25,
+      "category": "Inflammation",
+      "specimen": "Serum",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        1,
+        3,
+        6,
+        12,
+        24
+      ],
+      "lab": "LabCorp/Quest",
+      "notes": "Fastest inflammation marker to respond. Expect decline within 1-3 months if protocol reducing systemic inflammation. >10 mg/L = investigate infection.",
+      "total_cost_24mo": 150
+    },
+    {
+      "name": "25-OH Vitamin D",
+      "code": "081950",
+      "tier": 1,
+      "cost_usd": 40,
+      "category": "Compliance/Immune",
+      "specimen": "Serum",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        1,
+        3,
+        6,
+        12,
+        24
+      ],
+      "lab": "LabCorp/Quest",
+      "notes": "Compliance marker + immune modulator. Target 50-70 ng/mL. If >100 ng/mL, reduce dose (hypercalcemia risk).",
+      "total_cost_24mo": 240
+    },
+    {
+      "name": "ALT",
+      "code": "001545",
+      "tier": 1,
+      "cost_usd": 15,
+      "category": "Hepatic Safety",
+      "specimen": "Serum",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        1,
+        3,
+        6,
+        12,
+        18,
+        24
+      ],
+      "lab": "LabCorp/Quest",
+      "notes": "Fluoxetine hepatotoxicity screen. Normal <40 U/L. If >80 (2x ULN), recheck in 2 weeks. If >120 (3x ULN), reduce/stop fluoxetine. Hy's Law: ALT >3x ULN + bilirubin >2x ULN = STOP immediately.",
+      "total_cost_24mo": 105
+    },
+    {
+      "name": "AST",
+      "code": "001123",
+      "tier": 1,
+      "cost_usd": 15,
+      "category": "Hepatic Safety",
+      "specimen": "Serum",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        1,
+        3,
+        6,
+        12,
+        18,
+        24
+      ],
+      "lab": "LabCorp/Quest",
+      "notes": "Paired with ALT. AST/ALT ratio helps differentiate drug effect from other causes.",
+      "total_cost_24mo": 105
+    },
+    {
+      "name": "Troponin I (high-sensitivity)",
+      "code": "164921",
+      "tier": 1,
+      "cost_usd": 30,
+      "category": "Cardiac Safety",
+      "specimen": "Serum",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        6,
+        12,
+        24
+      ],
+      "lab": "LabCorp/Quest",
+      "notes": "SAFETY MARKER. Any value >14 ng/L = active myocardial injury. Immediate cardiology consult required. Screens for occult CVB myocarditis.",
+      "total_cost_24mo": 120
+    },
+    {
+      "name": "GAD65 Autoantibodies",
+      "code": "164350",
+      "tier": 2,
+      "cost_usd": 85,
+      "category": "Autoimmune Status",
+      "specimen": "Serum",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        6,
+        12,
+        24
+      ],
+      "lab": "LabCorp/Quest",
+      "notes": "Autoimmune marker. Slow to change. >20% decline over 6-12 months suggests immune tolerance improving. Most persistent autoantibody in T1DM.",
+      "total_cost_24mo": 340
+    },
+    {
+      "name": "IA-2 Autoantibodies",
+      "code": "164355",
+      "tier": 2,
+      "cost_usd": 85,
+      "category": "Autoimmune Status",
+      "specimen": "Serum",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        12,
+        24
+      ],
+      "lab": "LabCorp/Quest",
+      "notes": "Autoimmune marker. Combined with GAD65 for full staging. Often declines faster than GAD65.",
+      "total_cost_24mo": 255
+    },
+    {
+      "name": "Fasting Insulin",
+      "code": "004333",
+      "tier": 2,
+      "cost_usd": 30,
+      "category": "Beta Cell Function",
+      "specimen": "Serum (fasting 12hr)",
+      "fasting_required": true,
+      "schedule_months": [
+        0,
+        6,
+        12,
+        24
+      ],
+      "lab": "LabCorp/Quest",
+      "notes": "Enables HOMA-B (beta cell function) and HOMA-IR (insulin resistance) calculation. Important context for C-peptide interpretation. Note: exogenous insulin must be accounted for (draw before morning dose).",
+      "total_cost_24mo": 120
+    },
+    {
+      "name": "NT-proBNP",
+      "code": "250913",
+      "tier": 2,
+      "cost_usd": 40,
+      "category": "Cardiac Safety",
+      "specimen": "Serum",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        12,
+        24
+      ],
+      "lab": "LabCorp/Quest",
+      "notes": "Heart failure marker. Normal for age >65: <300 pg/mL. >300 = cardiology referral. >900 = urgent evaluation.",
+      "total_cost_24mo": 120
+    },
+    {
+      "name": "Treg Count (CD4+CD25+FoxP3+)",
+      "code": "Flow cytometry panel",
+      "tier": 2,
+      "cost_usd": 200,
+      "category": "Immune Function",
+      "specimen": "Whole blood (heparinized, FRESH \u2014 must process within 6hr)",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        6,
+        12
+      ],
+      "lab": "Academic immunology lab",
+      "notes": "Most informative immune marker for butyrate/vitamin D response. Requires specialized flow cytometry lab. Normal: 5-10% of CD4+. Must process fresh \u2014 cannot ship frozen.",
+      "total_cost_24mo": 600
+    },
+    {
+      "name": "Lipid Panel (full fractionation)",
+      "code": "303756",
+      "tier": 2,
+      "cost_usd": 35,
+      "category": "Metabolic",
+      "specimen": "Serum (fasting 12hr)",
+      "fasting_required": true,
+      "schedule_months": [
+        0,
+        12,
+        24
+      ],
+      "lab": "LabCorp/Quest",
+      "notes": "Total, LDL, HDL, VLDL, TG. Patient reports high total with low LDL/VLDL. Track changes with protocol (FMD/keto may affect lipid profile).",
+      "total_cost_24mo": 105
+    },
+    {
+      "name": "TSH",
+      "code": "004259",
+      "tier": 2,
+      "cost_usd": 25,
+      "category": "Thyroid (co-autoimmune)",
+      "specimen": "Serum",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        12,
+        24
+      ],
+      "lab": "LabCorp/Quest",
+      "notes": "ADA-recommended annual screen. Autoimmune thyroid co-occurs in 17-30% of T1DM. If abnormal, add Free T4 and TPO antibodies.",
+      "total_cost_24mo": 75
+    },
+    {
+      "name": "Glucose CV (from CGM data)",
+      "code": "N/A (calculated)",
+      "tier": 2,
+      "cost_usd": 0,
+      "category": "Glycemic Control",
+      "specimen": "N/A (download from CGM software)",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        1,
+        3,
+        6,
+        9,
+        12,
+        18,
+        24
+      ],
+      "lab": "Patient's CGM (Dexcom/Libre)",
+      "notes": "Coefficient of variation from CGM. Target <36%. Free if already wearing CGM. Calculate from 14-day report. Download at each visit.",
+      "total_cost_24mo": 0
+    },
+    {
+      "name": "ZnT8 Autoantibodies",
+      "code": "164382",
+      "tier": 3,
+      "cost_usd": 85,
+      "category": "Autoimmune Status",
+      "specimen": "Serum",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        12,
+        24
+      ],
+      "lab": "LabCorp/Quest",
+      "notes": "Completes autoantibody panel. Often declines with disease duration regardless. Lower priority than GAD65/IA-2.",
+      "total_cost_24mo": 255
+    },
+    {
+      "name": "Insulin Autoantibodies (IAA)",
+      "code": "086215",
+      "tier": 3,
+      "cost_usd": 60,
+      "category": "Autoimmune Status",
+      "specimen": "Serum",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        24
+      ],
+      "lab": "LabCorp/Quest",
+      "notes": "May be confounded by exogenous insulin use. Baseline and endpoint only.",
+      "total_cost_24mo": 120
+    },
+    {
+      "name": "Enterovirus PCR (stool RT-PCR)",
+      "code": "Research",
+      "tier": 3,
+      "cost_usd": 150,
+      "category": "Viral Status",
+      "specimen": "Stool sample",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        6,
+        12,
+        24
+      ],
+      "lab": "Research virology lab",
+      "notes": "Detects active CVB shedding. Research-grade test \u2014 not available at standard labs. Academic virology lab or send-out to DiViD-affiliated center.",
+      "total_cost_24mo": 600
+    },
+    {
+      "name": "Serum IFN-alpha",
+      "code": "Quest 36718",
+      "tier": 3,
+      "cost_usd": 75,
+      "category": "Viral Status",
+      "specimen": "Serum",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        12
+      ],
+      "lab": "Quest/specialty",
+      "notes": "Chronic elevation indicates persistent viral immune activation. Marker of ongoing TLR3/RIG-I/MDA5 stimulation.",
+      "total_cost_24mo": 150
+    },
+    {
+      "name": "Anti-CVB Neutralizing Antibodies",
+      "code": "Research",
+      "tier": 3,
+      "cost_usd": 200,
+      "category": "Viral Status",
+      "specimen": "Serum",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        12
+      ],
+      "lab": "Research virology lab",
+      "notes": "Neutralizing vs total antibodies ratio. Low neutralizing titers may indicate non-protective immune response. Research lab only.",
+      "total_cost_24mo": 400
+    },
+    {
+      "name": "NK Cell Cytotoxicity",
+      "code": "Flow/51Cr release",
+      "tier": 3,
+      "cost_usd": 250,
+      "category": "ME/CFS (if applicable)",
+      "specimen": "Whole blood (fresh, same-day processing)",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        12
+      ],
+      "lab": "Specialized immunology lab",
+      "notes": "Only if ME/CFS symptoms present. Normal: 15-40% lysis at 50:1 E:T ratio. Requires specialized immunology lab.",
+      "total_cost_24mo": 500
+    },
+    {
+      "name": "Lactate:Pyruvate Ratio",
+      "code": "Specialty",
+      "tier": 3,
+      "cost_usd": 80,
+      "category": "ME/CFS (if applicable)",
+      "specimen": "Serum (exercise-free for 24hr)",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        12
+      ],
+      "lab": "Specialty metabolic lab",
+      "notes": "Mitochondrial function marker. Only if fatigue/PEM symptoms present. Normal: 10-20.",
+      "total_cost_24mo": 160
+    },
+    {
+      "name": "Proinsulin:C-Peptide Ratio",
+      "code": "Specialty",
+      "tier": 3,
+      "cost_usd": 100,
+      "category": "Beta Cell Stress",
+      "specimen": "Serum (fasting 12hr)",
+      "fasting_required": true,
+      "schedule_months": [
+        0,
+        12
+      ],
+      "lab": "Specialty endocrine lab",
+      "notes": "Elevated ratio = beta cell ER stress. Stressed beta cells produce neoantigens that amplify autoimmune attack. Decline indicates reduced beta cell stress.",
+      "total_cost_24mo": 200
+    },
+    {
+      "name": "Zonulin",
+      "code": "Specialty",
+      "tier": 3,
+      "cost_usd": 90,
+      "category": "Gut Permeability",
+      "specimen": "Serum",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        12
+      ],
+      "lab": "Vibrant Wellness / Genova",
+      "notes": "Intestinal permeability marker. Elevated in T1DM. Guides gut barrier repair interventions (glutamine, zinc carnosine, butyrate).",
+      "total_cost_24mo": 180
+    },
+    {
+      "name": "Echocardiogram",
+      "code": "93306",
+      "tier": 3,
+      "cost_usd": 300,
+      "category": "Cardiac Safety",
+      "specimen": "Imaging (transthoracic)",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        12
+      ],
+      "lab": "Cardiology/imaging center",
+      "notes": "Baseline ejection fraction (EF). Normal >55%. Screens for occult CVB cardiomyopathy. Repeat annually or if troponin rises.",
+      "total_cost_24mo": 600
+    },
+    {
+      "name": "Microbiome 16S Sequencing",
+      "code": "N/A (consumer)",
+      "tier": 3,
+      "cost_usd": 150,
+      "category": "Gut Microbiome",
+      "specimen": "Stool sample (kit)",
+      "fasting_required": false,
+      "schedule_months": [
+        0,
+        12
+      ],
+      "lab": "Viome / Ombre / GI-MAP",
+      "notes": "Profiles gut bacteria. Key targets: butyrate producers (Faecalibacterium, Roseburia) and D-lactate producers. Consumer kits: Viome, Ombre, or clinical GI-MAP.",
+      "total_cost_24mo": 300
+    },
+    {
+      "name": "D-Lactate (serum)",
+      "code": "Specialty",
+      "tier": 3,
+      "cost_usd": 75,
+      "category": "Gut Metabolic",
+      "specimen": "Serum",
+      "fasting_required": true,
+      "schedule_months": [
+        0,
+        12
+      ],
+      "lab": "Genova / Doctor's Data",
+      "notes": "D-lactate from gut bacteria may drive inappropriate gluconeogenesis. Elevated levels may partly explain glucose excursions beyond dietary carbs.",
+      "total_cost_24mo": 150
+    }
+  ],
+  "cost_summary": {
+    "tier_1_total_24mo": 1775,
+    "tier_2_total_24mo": 1615,
+    "tier_3_total_24mo": 3615,
+    "grand_total_24mo": 7005
+  },
+  "per_visit_costs": {
+    "month_0": {
+      "tests": [
+        "Fasting C-Peptide",
+        "Stimulated C-Peptide (MMTT)",
+        "HbA1c",
+        "hs-CRP",
+        "25-OH Vitamin D",
+        "ALT",
+        "AST",
+        "Troponin I (high-sensitivity)",
+        "GAD65 Autoantibodies",
+        "IA-2 Autoantibodies",
+        "Fasting Insulin",
+        "NT-proBNP",
+        "Treg Count (CD4+CD25+FoxP3+)",
+        "Lipid Panel (full fractionation)",
+        "TSH",
+        "Glucose CV (from CGM data)",
+        "ZnT8 Autoantibodies",
+        "Insulin Autoantibodies (IAA)",
+        "Enterovirus PCR (stool RT-PCR)",
+        "Serum IFN-alpha",
+        "Anti-CVB Neutralizing Antibodies",
+        "NK Cell Cytotoxicity",
+        "Lactate:Pyruvate Ratio",
+        "Proinsulin:C-Peptide Ratio",
+        "Zonulin",
+        "Echocardiogram",
+        "Microbiome 16S Sequencing",
+        "D-Lactate (serum)"
+      ],
+      "tier_1_cost": 340,
+      "tier_2_cost": 500,
+      "tier_3_cost": 1615,
+      "total_cost": 2455,
+      "fasting_required": true,
+      "special_labs_needed": [
+        "Endocrine clinic",
+        "Academic immunology lab",
+        "Research virology lab",
+        "Quest/specialty",
+        "Research virology lab",
+        "Specialized immunology lab",
+        "Specialty metabolic lab",
+        "Specialty endocrine lab",
+        "Vibrant Wellness / Genova",
+        "Cardiology/imaging center",
+        "Viome / Ombre / GI-MAP",
+        "Genova / Doctor's Data"
+      ]
+    },
+    "month_1": {
+      "tests": [
+        "hs-CRP",
+        "25-OH Vitamin D",
+        "ALT",
+        "AST",
+        "Glucose CV (from CGM data)"
+      ],
+      "tier_1_cost": 95,
+      "tier_2_cost": 0,
+      "tier_3_cost": 0,
+      "total_cost": 95,
+      "fasting_required": false,
+      "special_labs_needed": []
+    },
+    "month_3": {
+      "tests": [
+        "Fasting C-Peptide",
+        "HbA1c",
+        "hs-CRP",
+        "25-OH Vitamin D",
+        "ALT",
+        "AST",
+        "Glucose CV (from CGM data)"
+      ],
+      "tier_1_cost": 160,
+      "tier_2_cost": 0,
+      "tier_3_cost": 0,
+      "total_cost": 160,
+      "fasting_required": true,
+      "special_labs_needed": []
+    },
+    "month_6": {
+      "tests": [
+        "Fasting C-Peptide",
+        "Stimulated C-Peptide (MMTT)",
+        "HbA1c",
+        "hs-CRP",
+        "25-OH Vitamin D",
+        "ALT",
+        "AST",
+        "Troponin I (high-sensitivity)",
+        "GAD65 Autoantibodies",
+        "Fasting Insulin",
+        "Treg Count (CD4+CD25+FoxP3+)",
+        "Glucose CV (from CGM data)",
+        "Enterovirus PCR (stool RT-PCR)"
+      ],
+      "tier_1_cost": 340,
+      "tier_2_cost": 315,
+      "tier_3_cost": 150,
+      "total_cost": 805,
+      "fasting_required": true,
+      "special_labs_needed": [
+        "Endocrine clinic",
+        "Academic immunology lab",
+        "Research virology lab"
+      ]
+    },
+    "month_9": {
+      "tests": [
+        "Fasting C-Peptide",
+        "HbA1c",
+        "Glucose CV (from CGM data)"
+      ],
+      "tier_1_cost": 65,
+      "tier_2_cost": 0,
+      "tier_3_cost": 0,
+      "total_cost": 65,
+      "fasting_required": true,
+      "special_labs_needed": []
+    },
+    "month_12": {
+      "tests": [
+        "Fasting C-Peptide",
+        "Stimulated C-Peptide (MMTT)",
+        "HbA1c",
+        "hs-CRP",
+        "25-OH Vitamin D",
+        "ALT",
+        "AST",
+        "Troponin I (high-sensitivity)",
+        "GAD65 Autoantibodies",
+        "IA-2 Autoantibodies",
+        "Fasting Insulin",
+        "NT-proBNP",
+        "Treg Count (CD4+CD25+FoxP3+)",
+        "Lipid Panel (full fractionation)",
+        "TSH",
+        "Glucose CV (from CGM data)",
+        "ZnT8 Autoantibodies",
+        "Enterovirus PCR (stool RT-PCR)",
+        "Serum IFN-alpha",
+        "Anti-CVB Neutralizing Antibodies",
+        "NK Cell Cytotoxicity",
+        "Lactate:Pyruvate Ratio",
+        "Proinsulin:C-Peptide Ratio",
+        "Zonulin",
+        "Echocardiogram",
+        "Microbiome 16S Sequencing",
+        "D-Lactate (serum)"
+      ],
+      "tier_1_cost": 340,
+      "tier_2_cost": 500,
+      "tier_3_cost": 1555,
+      "total_cost": 2395,
+      "fasting_required": true,
+      "special_labs_needed": [
+        "Endocrine clinic",
+        "Academic immunology lab",
+        "Research virology lab",
+        "Quest/specialty",
+        "Research virology lab",
+        "Specialized immunology lab",
+        "Specialty metabolic lab",
+        "Specialty endocrine lab",
+        "Vibrant Wellness / Genova",
+        "Cardiology/imaging center",
+        "Viome / Ombre / GI-MAP",
+        "Genova / Doctor's Data"
+      ]
+    },
+    "month_18": {
+      "tests": [
+        "Fasting C-Peptide",
+        "HbA1c",
+        "ALT",
+        "AST",
+        "Glucose CV (from CGM data)"
+      ],
+      "tier_1_cost": 95,
+      "tier_2_cost": 0,
+      "tier_3_cost": 0,
+      "total_cost": 95,
+      "fasting_required": true,
+      "special_labs_needed": []
+    },
+    "month_24": {
+      "tests": [
+        "Fasting C-Peptide",
+        "Stimulated C-Peptide (MMTT)",
+        "HbA1c",
+        "hs-CRP",
+        "25-OH Vitamin D",
+        "ALT",
+        "AST",
+        "Troponin I (high-sensitivity)",
+        "GAD65 Autoantibodies",
+        "IA-2 Autoantibodies",
+        "Fasting Insulin",
+        "NT-proBNP",
+        "Lipid Panel (full fractionation)",
+        "TSH",
+        "Glucose CV (from CGM data)",
+        "ZnT8 Autoantibodies",
+        "Insulin Autoantibodies (IAA)",
+        "Enterovirus PCR (stool RT-PCR)"
+      ],
+      "tier_1_cost": 340,
+      "tier_2_cost": 300,
+      "tier_3_cost": 295,
+      "total_cost": 935,
+      "fasting_required": true,
+      "special_labs_needed": [
+        "Endocrine clinic",
+        "Research virology lab"
+      ]
+    }
+  },
+  "minimum_monitoring_set": {
+    "total_cost_24mo": 425,
+    "tests": [
+      {
+        "name": "Fasting C-Peptide",
+        "visits": [
+          0,
+          6,
+          12
+        ],
+        "cost": 135
+      },
+      {
+        "name": "HbA1c",
+        "visits": [
+          0,
+          6,
+          12
+        ],
+        "cost": 60
+      },
+      {
+        "name": "ALT",
+        "visits": [
+          0,
+          1,
+          3,
+          6,
+          12
+        ],
+        "cost": 75
+      },
+      {
+        "name": "25-OH Vitamin D",
+        "visits": [
+          0,
+          3
+        ],
+        "cost": 80
+      },
+      {
+        "name": "hs-CRP",
+        "visits": [
+          0,
+          3
+        ],
+        "cost": 50
+      },
+      {
+        "name": "Glucose CV (CGM)",
+        "visits": "every visit",
+        "cost": 0
+      },
+      {
+        "name": "Daily insulin dose log",
+        "visits": "continuous",
+        "cost": 0
+      }
+    ],
+    "add_if_possible": [
+      {
+        "name": "GAD65 Autoantibodies",
+        "visits": [
+          0,
+          12
+        ],
+        "cost": 170
+      },
+      {
+        "name": "Troponin I",
+        "visits": [
+          0
+        ],
+        "cost": 30
+      }
+    ]
+  },
+  "safety_abort_criteria": [
+    {
+      "marker": "Troponin I",
+      "threshold": ">14 ng/L",
+      "action": "STOP protocol. Immediate cardiology consult."
+    },
+    {
+      "marker": "ALT",
+      "threshold": ">120 U/L (3x ULN)",
+      "action": "Reduce fluoxetine to 10mg. If ALT + bilirubin elevated (Hy's Law), STOP."
+    },
+    {
+      "marker": "NT-proBNP",
+      "threshold": ">900 pg/mL",
+      "action": "Urgent cardiac evaluation. Likely symptomatic heart failure."
+    },
+    {
+      "marker": "hs-CRP",
+      "threshold": ">10 mg/L sustained",
+      "action": "Investigate infection source. Not protocol-related."
+    }
+  ]
+}

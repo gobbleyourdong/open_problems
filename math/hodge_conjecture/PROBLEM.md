@@ -27,7 +27,7 @@ On a non-singular complex projective algebraic variety, every Hodge class is a r
 - Derived categories
 - Motivic cohomology
 
-## systematic approach Phase: 0 (Not started)
+## Sigma Method Phase: 0 (Not started)
 
 ## Notes
 - Most algebraic/geometric of the Clay problems

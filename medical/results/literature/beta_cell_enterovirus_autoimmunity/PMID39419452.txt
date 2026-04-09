@@ -1,0 +1,70 @@
+1. Antiviral Res. 2024 Nov;231:106021. doi: 10.1016/j.antiviral.2024.106021. Epub
+ 2024 Oct 15.
+
+Vemurafenib inhibits the replication of diabetogenic enteroviruses in intestinal 
+epithelial and pancreatic beta cells.
+
+Butrym M(1), Byvald F(2), Blanter M(3), Ringqvist EE(4), Vasylovska S(5), 
+Marjomäki V(6), Lau J(7), Stone VM(8), Flodström-Tullberg M(9).
+
+Author information:
+(1)Center for Infectious Medicine, Department of Medicine Huddinge / ANA Futura, 
+Karolinska Institutet, Alfred Nobels Allé 8, 141 52, Stockholm, Sweden. 
+Electronic address: marta.butrym@ki.se.
+(2)Center for Infectious Medicine, Department of Medicine Huddinge / ANA Futura, 
+Karolinska Institutet, Alfred Nobels Allé 8, 141 52, Stockholm, Sweden. 
+Electronic address: fabian.byvald@ki.se.
+(3)Center for Infectious Medicine, Department of Medicine Huddinge / ANA Futura, 
+Karolinska Institutet, Alfred Nobels Allé 8, 141 52, Stockholm, Sweden. 
+Electronic address: m.l.blanter@lumc.nl.
+(4)Center for Infectious Medicine, Department of Medicine Huddinge / ANA Futura, 
+Karolinska Institutet, Alfred Nobels Allé 8, 141 52, Stockholm, Sweden. 
+Electronic address: emma.ringqvist@ki.se.
+(5)Department of Medical Cell Biology, Uppsala University, BOX 571, 751 23, 
+Uppsala, Sweden. Electronic address: svitlana.vasylovska@mcb.uu.se.
+(6)Department of Biological and Environmental Science, University of Jyväskylä, 
+P.O. Box 35, FI-40014, Jyväskylä, Finland. Electronic address: 
+varpu.s.marjomaki@jyu.fi.
+(7)Department of Medical Cell Biology, Uppsala University, BOX 571, 751 23, 
+Uppsala, Sweden. Electronic address: joey.lau@mcb.uu.se.
+(8)Center for Infectious Medicine, Department of Medicine Huddinge / ANA Futura, 
+Karolinska Institutet, Alfred Nobels Allé 8, 141 52, Stockholm, Sweden. 
+Electronic address: virginia.stone@ki.se.
+(9)Center for Infectious Medicine, Department of Medicine Huddinge / ANA Futura, 
+Karolinska Institutet, Alfred Nobels Allé 8, 141 52, Stockholm, Sweden. 
+Electronic address: malin.flodstrom-tullberg@ki.se.
+
+Enteroviruses, which infect via the gut, have been implicated in type 1 diabetes 
+(T1D) development. Prolonged faecal shedding of enterovirus has been associated 
+with islet autoimmunity. Additionally, enteroviral proteins and viral RNA have 
+been detected in the pancreatic islets of individuals with recent-onset T1D, 
+implicating their possible role in beta cell destruction. Despite this, no 
+approved antiviral drugs currently exist that specifically target enterovirus 
+infections for utilisation in disease interventions. Drug repurposing allows for 
+the discovery of new clinical uses for existing drugs and can expedite drug 
+discovery. Previously, the cancer drug Vemurafenib demonstrated unprecedented 
+antiviral activity against several enteroviruses. In the present study, we 
+assessed the efficacy of Vemurafenib and an analogue thereof in preventing 
+infection or reducing the replication of enteroviruses associated with T1D. We 
+tested Vemurafenib in intestinal epithelial cells (IECs) and insulin-producing 
+beta cells. Additionally, we established a protocol for infecting human stem 
+cell-derived islets (SC-islets) and used Vemurafenib and its analogue in this 
+model. Our studies revealed that Vemurafenib exhibited strong antiviral 
+properties in IECs and a beta cell line. The antiviral effect was also seen with 
+the Vemurafenib analogue. SC-islets expressed the viral receptors CAR and DAF, 
+with their highest expression in insulin- and glucagon-positive cells, 
+respectively. SC-islets were successfully infected by CVBs and the antiviral 
+activity of Vemurafenib and its analogue was confirmed in most SC-islet batches. 
+In summary, our observations suggest that Vemurafenib and its analogue warrant 
+further exploration as potential antiviral agents for the treatment of 
+enterovirus-induced diseases, including T1D.
+
+Copyright © 2024 The Authors. Published by Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.antiviral.2024.106021
+PMID: 39419452 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of competing interest The authors 
+declare that they have no known competing financial interests or personal 
+relationships that could have appeared to influence the work reported in this 
+paper.

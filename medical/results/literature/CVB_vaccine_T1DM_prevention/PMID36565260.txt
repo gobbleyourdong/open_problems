@@ -1,0 +1,26 @@
+1. Virologie (Montrouge). 2022 DéCembre 01;26(6):415-430. doi: 
+10.1684/vir.2022.0976.
+
+[Coxsackievirus B infection and pathogenesis of type 1 diabetes].
+
+[Article in French]
+
+Nekoua MP, Mercier A, Vergez I, Morvan C, Mbani CJ, Sane F, Lobert D, Engelmann 
+I, Romond MB, Alidjinou EK, Hober D.
+
+Epidemiological and experimental studies suggest that enteroviruses (EV) and 
+particularly coxsackieviruses B (CVB) are likely to trigger or accelerate the 
+onset of islet autoimmunity and the development of type 1 diabetes (T1D) in 
+genetically susceptible individuals. Several mutually non-exclusive mechanisms 
+have been proposed to explain the involvement of CVB in the pathogenesis of T1D. 
+CVB can infect and persist in the intestine, thymic cells, 
+monocytes/macrophages, ductal cells and pancreatic β-cells, which leads to 
+structural or functional alterations of these cells. A chronic inflammatory 
+response and disruption of tolerance towards β-cells due to CVB infections are 
+able to promote the recruitment and activation of pre-existing autoreactive 
+T-cells and the destruction of β-cells. Vaccine or therapeutic strategies to 
+control EV infections have been developed and open perspectives for the 
+prevention or treatment of T1D.
+
+DOI: 10.1684/vir.2022.0976
+PMID: 36565260 [Indexed for MEDLINE]

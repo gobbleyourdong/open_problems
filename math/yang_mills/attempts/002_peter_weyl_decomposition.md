@@ -160,7 +160,7 @@ Lanczos algorithm on the sparse transfer matrix.
 If gap > 0 at β_continuum: evidence for mass gap.
 With interval arithmetic: CERTIFIED gap.
 
-## THE systematic approach QUESTION
+## THE SIGMA METHOD QUESTION
 
 Can we find algebraic identities in the representation basis that constrain
 the spectral gap?

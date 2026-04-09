@@ -78,7 +78,7 @@ help: if W is monotone for general (not self-similar) flows → no Type II eithe
 dG/dt ≤ -2νΩ₁ + C·||ω||_{L²}. The right side is not uniformly bounded.
 Need: either a better functional (Option c) or a closing argument (Option b).
 
-## The Gap as a NUMBER (per systematic approach v3)
+## The Gap as a NUMBER (per Sigma Method v3)
 
 **Gap 2**: Define R_II = sup_{Type II solutions} [blowup rate]/[diffusion rate].
 If R_II < 1: no Type II blowup. Unknown if Type II solutions even exist.
@@ -87,7 +87,7 @@ If R_II < 1: no Type II blowup. Unknown if Type II solutions even exist.
 If G_max < ∞: finite growth rate → exponential enstrophy → no blowup.
 The number G_max is computable on specific flows (Taylor-Green, Kida, ABC flow).
 
-**For the numerical track**: compute G_max on:
+**For the Odd instance**: compute G_max on:
 1. Taylor-Green vortex (the standard blowup candidate)
 2. Kida vortex
 3. ABC flow (Beltrami, exactly solves Euler)

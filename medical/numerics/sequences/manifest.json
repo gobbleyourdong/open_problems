@@ -1,0 +1,74 @@
+{
+  "CVB1": {
+    "accession": "M16560.1",
+    "length": 7389,
+    "gc_pct": 47.2,
+    "description": "Coxsackievirus B1, complete genome",
+    "cds_features": {
+      "coxsackievirus B1 polyprotein": {
+        "start": 741,
+        "end": 7290
+      }
+    }
+  },
+  "CVB2": {
+    "accession": "AF085363.1",
+    "length": 7411,
+    "gc_pct": 47.9,
+    "description": "Coxsackievirus B2 strain Ohio-1 polyprotein gene, complete cds",
+    "cds_features": {
+      "polyprotein": {
+        "start": 742,
+        "end": 7306
+      }
+    }
+  },
+  "CVB3": {
+    "accession": "M88483.1",
+    "length": 7399,
+    "gc_pct": 47.7,
+    "description": "Coxsackievirus B3 mRNA, complete genome",
+    "cds_features": {
+      "polyprotein": {
+        "start": 742,
+        "end": 7300
+      }
+    }
+  },
+  "CVB4": {
+    "accession": "X05690.1",
+    "length": 7395,
+    "gc_pct": 47.7,
+    "description": "Coxsackievirus B4 complete genome",
+    "cds_features": {
+      "polyprotein CB4": {
+        "start": 743,
+        "end": 7295
+      }
+    }
+  },
+  "CVB5": {
+    "accession": "AF114383.1",
+    "length": 7400,
+    "gc_pct": 47.8,
+    "description": "Coxsackievirus B5 strain Faulkner, complete genome",
+    "cds_features": {
+      "polyprotein": {
+        "start": 742,
+        "end": 7300
+      }
+    }
+  },
+  "CVB6": {
+    "accession": "AF105342.1",
+    "length": 7398,
+    "gc_pct": 47.9,
+    "description": "Coxsackievirus B6 strain Schmitt, complete genome",
+    "cds_features": {
+      "polyprotein": {
+        "start": 743,
+        "end": 7298
+      }
+    }
+  }
+}

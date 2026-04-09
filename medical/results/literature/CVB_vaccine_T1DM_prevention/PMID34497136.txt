@@ -1,0 +1,44 @@
+1. Diabetes. 2021 Dec;70(12):2871-2878. doi: 10.2337/db21-0193. Epub 2021 Sep 8.
+
+Coxsackievirus B Vaccines Prevent Infection-Accelerated Diabetes in NOD Mice and 
+Have No Disease-Inducing Effect.
+
+Stone VM(1), Butrym M(1), Hankaniemi MM(2), Sioofy-Khojine AB(2), Hytönen 
+VP(2)(3), Hyöty H(2)(3), Flodström-Tullberg M(4).
+
+Author information:
+(1)Center for Infectious Medicine, Department of Medicine Huddinge, Karolinska 
+Institutet, Karolinska University Hospital, Stockholm, Sweden.
+(2)Faculty of Medicine and Health Technology, Tampere University, Tampere, 
+Finland.
+(3)Fimlab Laboratories, Tampere, Finland.
+(4)Center for Infectious Medicine, Department of Medicine Huddinge, Karolinska 
+Institutet, Karolinska University Hospital, Stockholm, Sweden 
+malin.flodstrom-tullberg@ki.se.
+
+Enteroviruses, including the Coxsackievirus Bs (CVB), have been implicated as 
+causal agents in human type 1 diabetes. Immunization of at-risk individuals with 
+a CVB vaccine provides an attractive strategy for elucidating the role of CVBs 
+in the disease etiology. Previously, we have shown that an inactivated 
+whole-virus vaccine covering all CVB serotypes (CVB1-6) is safe to administer 
+and highly immunogenic in preclinical models, including nonhuman primates. 
+Before initiating clinical trials with this type of vaccine, it was also 
+important to address 1) whether the vaccine itself induces adverse immune 
+reactions, including accelerating diabetes onset in a diabetes-prone host, and 
+2) whether the vaccine can prevent CVB-induced diabetes in a well-established 
+disease model. Here, we present results from studies in which female NOD mice 
+were left untreated, mock-vaccinated, or vaccinated with CVB1-6 vaccine and 
+monitored for insulitis occurrence or diabetes development. We demonstrate that 
+vaccination induces virus-neutralizing antibodies without altering insulitis 
+scores or the onset of diabetes. We also show that NOD mice vaccinated with a 
+CVB1 vaccine are protected from CVB-induced accelerated disease onset. Taken 
+together, these studies show that CVB vaccines do not alter islet inflammation 
+or accelerate disease progression in an animal model that spontaneously develops 
+autoimmune type 1 diabetes. However, they can prevent CVB-mediated disease 
+progression in the same model.
+
+© 2021 by the American Diabetes Association.
+
+DOI: 10.2337/db21-0193
+PMCID: PMC8660981
+PMID: 34497136 [Indexed for MEDLINE]

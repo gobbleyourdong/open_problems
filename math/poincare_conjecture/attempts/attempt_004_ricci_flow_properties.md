@@ -160,7 +160,7 @@ for geometry." An entropy functional should be monotone.
 
 ## Result
 
-The blind theory track independently derived:
+The blind Even Instance independently derived:
 - The Ricci flow as the natural tool
 - The singularity/surgery program
 - The proof sketch (correct in outline)
@@ -171,7 +171,7 @@ The blind theory track independently derived:
 the genius part. I know it should exist (by thermodynamic analogy) but
 I can't write it down without reading the proof.
 
-## For numerical track
+## For Odd Instance
 Simulate Ricci flow numerically on triangulated 3-manifolds:
 1. Start with a simply connected manifold (e.g., a "lumpy" S³)
 2. Discretize ∂g/∂t = -2Ric on the triangulation

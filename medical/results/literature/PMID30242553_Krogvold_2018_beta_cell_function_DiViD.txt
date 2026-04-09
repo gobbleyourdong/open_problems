@@ -1,0 +1,39 @@
+1. Brain Imaging Behav. 2019 Dec;13(6):1580-1589. doi: 10.1007/s11682-018-9965-2.
+
+Openness to experience and psychophysiological interaction patterns during 
+divergent thinking.
+
+Sun J(1)(2), Shi L(1)(2), Chen Q(1)(2), Yang W(1)(2), Wei D(1)(2), Zhang 
+J(1)(2), Zhang Q(1)(2), Qiu J(3)(4)(5).
+
+Author information:
+(1)Key Laboratory of Cognition and Personality (SWU), Ministry of Education, 
+Chongqing, 400715, China.
+(2)Faculty of Psychology, Southwest University, No.2, TianSheng Road, Beibei 
+District, Chongqing, 400715, China.
+(3)Key Laboratory of Cognition and Personality (SWU), Ministry of Education, 
+Chongqing, 400715, China. qiuj318@swu.edu.cn.
+(4)Faculty of Psychology, Southwest University, No.2, TianSheng Road, Beibei 
+District, Chongqing, 400715, China. qiuj318@swu.edu.cn.
+(5)Southwest University Branch, Collaborative Innovation Center of Assessment 
+toward Basic Education Quality, Beijing Normal University, Beijing, 100875, 
+China. qiuj318@swu.edu.cn.
+
+Creativity is the ability to produce something novel and useful. Various tasks 
+have been used to explore the neural bases of creativity. However, studies 
+exploring the relationship between the brain regions during divergent thinking 
+are still rare. Given that the brain works in networks, exploring the functional 
+connectivity (FC) patterns during divergent thinking is important. The present 
+study explored the FC patterns during alternative uses task and its relationship 
+with openness to experience. Psychophysiological interaction results 
+corroborated that the inferior parietal lobule was positively connected to the 
+precuneus and middle temporal gyrus. Middle frontal gyrus/superior frontal gyrus 
+was positively connected to the precuneus and supramarginal gyrus. Individual 
+difference analysis revealed that openness to experience was positively related 
+to the strength of FCs between some key regions of default mode, cognitive 
+control and salience networks. Findings confirmed the network-based mechanisms 
+underlying creativity and the neural basis of individual differences of openness 
+to experience.
+
+DOI: 10.1007/s11682-018-9965-2
+PMID: 30242553 [Indexed for MEDLINE]

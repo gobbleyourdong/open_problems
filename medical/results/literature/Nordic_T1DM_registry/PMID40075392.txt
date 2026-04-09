@@ -1,0 +1,68 @@
+1. Cardiovasc Diabetol. 2025 Mar 12;24(1):117. doi: 10.1186/s12933-024-02561-z.
+
+Cardiometabolic risk factors and disease trends for atrial fibrillation in 
+individuals with type 1 diabetes: a nationwide registry study.
+
+El Khalili L(1), El Khalili L(1), Rawshani A(1)(2), Borén J(1)(2), Bhatt DL(3), 
+Gerstein HC(4), McGuire DK(5)(6), Helleryd E(1)(2), Omerovic E(1)(2), Eliasson 
+B(1), Råmunddal T(1)(2), Sattar N(7), Rawshani A(8)(9)(10).
+
+Author information:
+(1)Department of Molecular and Clinical Medicine, Institute of Medicine, 
+University of Gothenburg, Gothenburg, Sweden.
+(2)Wallenberg Laboratory for Cardiovascular and Metabolic Research, Institute of 
+Medicine, University of Gothenburg, Gothenburg, Sweden.
+(3)Icahn School of Medicine at Mount Sinai Health System, New York, USA.
+(4)Population Health Research Institute, McMaster University and Hamilton Health 
+Sciences, Hamilton, ON, Canada.
+(5)Department of Internal Medicine, University of Texas Southwestern Medical 
+Center, Dallas, TX, USA.
+(6)Parkland Health and Hospital System, Dallas, TX, USA.
+(7)Institute of Cardiovascular and Medical Sciences, British Heart Foundation 
+Glasgow Cardiovascular Research Centre, London, UK.
+(8)Department of Molecular and Clinical Medicine, Institute of Medicine, 
+University of Gothenburg, Gothenburg, Sweden. aidin.rawshani@gu.se.
+(9)Wallenberg Laboratory for Cardiovascular and Metabolic Research, Institute of 
+Medicine, University of Gothenburg, Gothenburg, Sweden. aidin.rawshani@gu.se.
+(10)Wallenberglaboratoriet, Sahlgrenska Universitetssjukhuset, Bruna Stråket 16, 
+413 45, Göteborg, Sweden. aidin.rawshani@gu.se.
+
+OBJECTIVE: To investigate standardized incidence of atrial fibrillation (AF) in 
+individuals with type 1 diabetes (T1DMM) compared with matched controls from the 
+general population. Additionally, to examine optimal levels- and relative 
+importance of risk factors associated with AF and numbers of risk factors 
+necessary to reduce excess risk in individuals with T1DM.
+RESEARCH DESIGN AND METHODS: The study included individuals with T1DM between 
+2001 and 2019 and matched controls without T1DM. The outcome of interest was the 
+first occurrence of AF. Standardized incidence rates and Cox regression were 
+used for analyzing incidence and risk associations.
+RESULTS: The study comprises analyses of data from 36,069 persons with T1DM and 
+165,705 matched controls; average age 34.1; 43.2% women. Incidence rates per 
+100,000 person years for AF in persons with T1DM declined between 2001 and 2019 
+from 671 to 494; also in controls from 568 to 317. However, results shows that 
+those without cardiovascular disease at baseline, did not display a similar rate 
+reduction over time. During this period, people with T1DM had a 1.34-fold (95% 
+CI 1.24-1.46) higher adjusted hazard for incident AF than controls when 
+adjusting for sociodemographic factors. This hazard was attenuated to 0.95 (95% 
+CI 0.87-1.03) after also accounting for coronary, cerebrovascular, kidney 
+disease and heart failure; among those with T1DM. In those, with several risk 
+factors at baseline, we observed a hazard ratio from 1.61 (95%, 1.07-2.43), and 
+there was also an indication of clear risk reduction in those with zero risk 
+factors, albeit non-significant (HR 0.60, 95% CI 0.35-1.04). In the T1DM cohort, 
+the first available value of hemoglobin A1c, systolic blood pressure, body mass 
+index and estimated glomerular filtration rate were each independently 
+associated with incident AF and we noticed a clear linear risk increase for 
+several cardiometabolic risk factors.
+CONCLUSIONS: The crude incidence of AF was higher for persons with versus 
+without T1DM, and declined significantly in both groups. Adjusting for 
+data-derived predictors of AF attenuated higher risks, suggesting that the 
+higher AF risk for persons with T1DM is driven by its common comorbidities.
+
+© 2024. The Author(s).
+
+DOI: 10.1186/s12933-024-02561-z
+PMCID: PMC11905555
+PMID: 40075392 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declarations. Competing Interests: The authors 
+declare no competing interests.
