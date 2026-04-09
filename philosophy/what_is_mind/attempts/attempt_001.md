@@ -70,7 +70,7 @@ Whether the two always come apart is contested. That they *can* come apart in pr
 
 **P-side.** IIT makes the strongest quantitative claim in the literature: phenomenal consciousness IS this measurable quantity. The identity is stipulated, not derived — and that is a substantive move.
 
-**Status for Sigma Method.** IIT is the single theory on this list that *quantifies the phenomenal side*. It does what the Method demands: turns the gap into a number. Whether the number correctly tracks phenomenal reality is the empirical-philosophical fight. But the move is the right shape.
+**Status for systematic approach.** IIT is the single theory on this list that *quantifies the phenomenal side*. It does what the Method demands: turns the gap into a number. Whether the number correctly tracks phenomenal reality is the empirical-philosophical fight. But the move is the right shape.
 
 **Verdict.** The only candidate quantitative theory of P-consciousness. Controversial; partially falsifiable; respected for the shape of its attempt even by those who reject it. Worth sustained examination. See attempt_002.
 
@@ -152,7 +152,7 @@ The three positions predict three different futures for the language question. P
 
 ## Why this is the right frame
 
-The Sigma Method cares about surrounding gaps, quantifying them, and documenting dead ends as theorems. Under the three-mountain frame:
+The systematic approach cares about surrounding gaps, quantifying them, and documenting dead ends as theorems. Under the three-mountain frame:
 
 - **Quantification.** β offers a candidate number (Φ). γ offers a program of measurement (indistinguishability under blind tests). α offers no number but makes no quantitative commitments either.
 - **Dead ends as theorems.** Each of the non-surviving variants walked in attempt 001s for meaning, language, and mind is a documented dead end. Many collapse cleanly into α, β, or γ. Others (Chinese Room, strong embodiment) are shown to attack functional theories at the phenomenal level and therefore miss.
@@ -170,4 +170,4 @@ Thus: **the zombie thought experiment selects between the three positions.** If 
 
 ## Next attempt
 
-**attempt_002** (what_is_mind) — push on position β (IIT) specifically. Can Φ be estimated or bounded for transformers at any scale? Is the IIT prediction for a current frontier LLM a number we could actually compute or bound? If not exactly, what is the tightest upper or lower bound available? The Sigma Method demands numbers. IIT is the only theory offering one at the P-level. Take it seriously enough to try to compute it.
+**attempt_002** (what_is_mind) — push on position β (IIT) specifically. Can Φ be estimated or bounded for transformers at any scale? Is the IIT prediction for a current frontier LLM a number we could actually compute or bound? If not exactly, what is the tightest upper or lower bound available? The systematic approach demands numbers. IIT is the only theory offering one at the P-level. Take it seriously enough to try to compute it.

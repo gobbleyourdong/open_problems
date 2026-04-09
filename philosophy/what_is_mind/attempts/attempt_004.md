@@ -73,13 +73,13 @@ These are weak predictions but they are not empty.
 
 α does not compete with β and γ for the same explanatory work. β and γ are positive theories that claim to explain phenomenal consciousness in terms of something else. α is the position that denies this can be done and treats phenomenal consciousness as a primitive that must be lived with.
 
-The Sigma Method calls this the **null hypothesis**. The null is not what you hope is true. The null is what you fall back to if the positive hypotheses fail. α earns its place by being the principled null.
+The systematic approach calls this the **null hypothesis**. The null is not what you hope is true. The null is what you fall back to if the positive hypotheses fail. α earns its place by being the principled null.
 
 **The null is non-empty.** Defending α amounts to saying: "If your positive theory closes the gap, I am refuted. If your positive theory doesn't close the gap, we are both in the position of acknowledging that the gap remains, and I will add that this is what I expected."
 
 This is not vacuous. Many scientific programs have a similar structure (e.g., the Standard Model versus "there is physics beyond the Standard Model" — the second claim makes weak predictions that are tested by every null result in collider experiments).
 
-## The Sigma Method verdict on α
+## The systematic approach verdict on α
 
 | Criterion | α performance |
 |-----------|---------------|

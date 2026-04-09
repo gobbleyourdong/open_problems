@@ -9,7 +9,7 @@
 
 ## Why this is the gap
 
-The Sigma Method requires the gap to be a number, not a concept. In the language question, the cleanest number on the table right now is the **sample-complexity ratio** between human and LLM language acquisition: **four to six orders of magnitude**.
+The systematic approach requires the gap to be a number, not a concept. In the language question, the cleanest number on the table right now is the **sample-complexity ratio** between human and LLM language acquisition: **four to six orders of magnitude**.
 
 Every ontology of language (Universal Grammar, embodiment, usage-based, distributional) can be re-stated as a claim about what closes that ratio. That is progress: the metaphysical positions become empirical predictions.
 

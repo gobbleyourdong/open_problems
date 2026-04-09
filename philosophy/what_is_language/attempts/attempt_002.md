@@ -5,7 +5,7 @@
 
 ## Why sample complexity
 
-The Sigma Method demands that the gap be a number. In math, that is a theorem statement (Liouville on R³). In biology, it is a concentration (>1.5μM in pancreatic tissue). In philosophy, the gap is usually a definition — but before retreating to definitions, try every quantifiable handle first.
+The systematic approach demands that the gap be a number. In math, that is a theorem statement (Liouville on R³). In biology, it is a concentration (>1.5μM in pancreatic tissue). In philosophy, the gap is usually a definition — but before retreating to definitions, try every quantifiable handle first.
 
 In the language question, the one handle that is unambiguously measurable right now is **sample complexity**: how much linguistic input does a system need to reach fluent production?
 
@@ -108,7 +108,7 @@ No ontology is killed by this attempt. Two are sharpened into quantitative, test
 - **UG sharpened:** there is a sample-complexity threshold below which general learners fail. Find it. Measure it.
 - **Embodiment sharpened:** grounding acts as a compression prior on linguistic learning. Quantify the compression.
 
-Both are now empirical programs rather than metaphysical positions. The Sigma Method calls this progress.
+Both are now empirical programs rather than metaphysical positions. The systematic approach calls this progress.
 
 ## Next attempt
 

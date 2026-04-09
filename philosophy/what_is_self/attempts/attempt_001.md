@@ -108,7 +108,7 @@ Thomas Metzinger, *Being No One* (2003), carried the Parfitian dissolution into 
 
 **The positions that survive Parfit are exactly the positions that support γ.** This is not a coincidence. Both Parfit and γ are motivated by the same underlying thought: "the self" is not a substance or continuous entity, it is a functional-representational structure that does the work we attribute to selfhood.
 
-This convergence is itself evidence. Two independent lines of argument — thought experiments about personal identity, and theories of phenomenal consciousness — land on the same minimal-self conclusion. The Sigma Method would call this a Multiple Mountains convergence.
+This convergence is itself evidence. Two independent lines of argument — thought experiments about personal identity, and theories of phenomenal consciousness — land on the same minimal-self conclusion. The systematic approach would call this a Multiple Mountains convergence.
 
 ## The unusual status of the self question
 
@@ -116,7 +116,7 @@ Most tier-0 generative questions in this scaffold have a wide-open gap. The self
 
 The residual gap is therefore mostly sociological: what makes the Parfitian picture so hard to accept even when the argument is granted? And is that difficulty of acceptance evidence that the picture is missing something phenomenologically, or evidence that the phenomenology is simply misleading us?
 
-**The honest assessment for the Sigma Method:**
+**The honest assessment for the systematic approach:**
 
 - The logical gap is mostly closed. Parfit + Metzinger + bundle/no-self traditions converge.
 - The phenomenological gap is partial. Felt continuous selfhood is real and is accounted for by the self-model being transparent to itself. Whether this account is satisfying is disputed.

@@ -1,0 +1,72 @@
+{
+  "bekenstein_bound_bits": 2.618594000030124e+100,
+  "holographic_bound_bits": 3.3580304251857604e+123,
+  "CMB_photon_count": 1.4658867431873103e+89,
+  "log10_holographic_bits": 123.52608462671282,
+  "simulation_costs": [
+    {
+      "precision": "human_neuron",
+      "dx_m": 1e-06,
+      "dt_s": 0.001,
+      "N_cells": 3.5666344116479574e+98,
+      "N_timesteps": 4.3549488e+20,
+      "state_bits_per_step": 1.3695876140728156e+101,
+      "total_simulation_bits": 5.964483936401272e+121,
+      "log10_state_bits": 101.13658981978915,
+      "log10_total_bits": 121.77557287327562
+    },
+    {
+      "precision": "cell_biology",
+      "dx_m": 1e-09,
+      "dt_s": 1e-09,
+      "N_cells": 3.566634411647956e+107,
+      "N_timesteps": 4.3549487999999995e+26,
+      "state_bits_per_step": 1.3695876140728151e+110,
+      "total_simulation_bits": 5.964483936401269e+136,
+      "log10_state_bits": 110.13658981978915,
+      "log10_total_bits": 136.77557287327562
+    },
+    {
+      "precision": "atom",
+      "dx_m": 1e-10,
+      "dt_s": 1e-15,
+      "N_cells": 3.566634411647957e+110,
+      "N_timesteps": 4.354948799999999e+32,
+      "state_bits_per_step": 1.3695876140728153e+113,
+      "total_simulation_bits": 5.964483936401269e+145,
+      "log10_state_bits": 113.13658981978915,
+      "log10_total_bits": 145.77557287327562
+    },
+    {
+      "precision": "nuclear",
+      "dx_m": 1e-15,
+      "dt_s": 1e-24,
+      "N_cells": 3.566634411647955e+125,
+      "N_timesteps": 4.3549488000000006e+41,
+      "state_bits_per_step": 1.3695876140728148e+128,
+      "total_simulation_bits": 5.9644839364012686e+169,
+      "log10_state_bits": 128.13658981978915,
+      "log10_total_bits": 169.77557287327562
+    },
+    {
+      "precision": "Planck",
+      "dx_m": 1.61625502392855e-35,
+      "dt_s": 5.391246446661944e-44,
+      "N_cells": 8.447514227533989e+184,
+      "N_timesteps": 8.077814366465143e+60,
+      "state_bits_per_step": 3.2438454633730514e+187,
+      "total_simulation_bits": 2.620318148662761e+248,
+      "log10_state_bits": 187.5110601562657,
+      "log10_total_bits": 248.41835402483895
+    }
+  ],
+  "physical_law_k_bits": 24000,
+  "quantum_interpretations": {
+    "N_decoherence_events_estimate": 1e+120,
+    "Copenhagen_total_bits": 1e+120,
+    "log10_Copenhagen_bits": 120.0,
+    "MWI_total_branches": "2^(10^120)",
+    "log10_MWI_bits": 1e+120,
+    "key_point": "Both interpretations agree on measurement predictions. Copenhagen: 10^120 bits. MWI: 2^(10^120) bits (incomprehensibly larger). Underdetermination: observations cannot distinguish them."
+  }
+}

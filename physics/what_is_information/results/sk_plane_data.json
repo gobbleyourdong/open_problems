@@ -1,0 +1,181 @@
+{
+  "sample_bytes": 10000,
+  "records": [
+    {
+      "label": "random_bytes",
+      "category": "RANDOM",
+      "sample_bytes": 10000,
+      "shannon_bits_per_byte": 7.982409,
+      "gzip_ratio": 1.0023,
+      "bzip2_ratio": 1.0494,
+      "lzma_ratio": 1.006,
+      "quadrant_gzip": "Hi-S/Hi-K",
+      "true_k_note": "K=MAX (no program shorter than the string)"
+    },
+    {
+      "label": "constant_zeros",
+      "category": "CONSTANT",
+      "sample_bytes": 10000,
+      "shannon_bits_per_byte": -0.0,
+      "gzip_ratio": 0.0045,
+      "bzip2_ratio": 0.0046,
+      "lzma_ratio": 0.0108,
+      "quadrant_gzip": "Lo-S/Lo-K",
+      "true_k_note": "K=MIN (trivial program)"
+    },
+    {
+      "label": "period_2",
+      "category": "PERIODIC",
+      "sample_bytes": 10000,
+      "shannon_bits_per_byte": 1.0,
+      "gzip_ratio": 0.0046,
+      "bzip2_ratio": 0.0042,
+      "lzma_ratio": 0.0112,
+      "quadrant_gzip": "Lo-S/Lo-K",
+      "true_k_note": "K=tiny (2-char cycle)"
+    },
+    {
+      "label": "period_16",
+      "category": "PERIODIC",
+      "sample_bytes": 10000,
+      "shannon_bits_per_byte": 4.0,
+      "gzip_ratio": 0.007,
+      "bzip2_ratio": 0.0081,
+      "lzma_ratio": 0.0124,
+      "quadrant_gzip": "Lo-S/Lo-K",
+      "true_k_note": "K=tiny (16-char cycle)"
+    },
+    {
+      "label": "fibonacci_word",
+      "category": "MORPHIC",
+      "sample_bytes": 10000,
+      "shannon_bits_per_byte": 0.959442,
+      "gzip_ratio": 0.0109,
+      "bzip2_ratio": 0.005,
+      "lzma_ratio": 0.0156,
+      "quadrant_gzip": "Lo-S/Lo-K",
+      "true_k_note": "K=small (morphism a\u2192ab, b\u2192a)"
+    },
+    {
+      "label": "thue_morse",
+      "category": "MORPHIC",
+      "sample_bytes": 10000,
+      "shannon_bits_per_byte": 1.0,
+      "gzip_ratio": 0.0132,
+      "bzip2_ratio": 0.0075,
+      "lzma_ratio": 0.0192,
+      "quadrant_gzip": "Lo-S/Lo-K",
+      "true_k_note": "K=small (popcount mod 2)"
+    },
+    {
+      "label": "pi_digits",
+      "category": "MATH",
+      "sample_bytes": 10000,
+      "shannon_bits_per_byte": 3.32125,
+      "gzip_ratio": 0.5102,
+      "bzip2_ratio": 0.4369,
+      "lzma_ratio": 0.454,
+      "quadrant_gzip": "Lo-S/Lo-K",
+      "true_k_note": "K=O(1) \u2014 gzip BLIND to this"
+    },
+    {
+      "label": "e_digits",
+      "category": "MATH",
+      "sample_bytes": 10000,
+      "shannon_bits_per_byte": 3.321316,
+      "gzip_ratio": 0.5084,
+      "bzip2_ratio": 0.4381,
+      "lzma_ratio": 0.4536,
+      "quadrant_gzip": "Lo-S/Lo-K",
+      "true_k_note": "K=O(1) \u2014 gzip BLIND to this"
+    },
+    {
+      "label": "sqrt2_digits",
+      "category": "MATH",
+      "sample_bytes": 10000,
+      "shannon_bits_per_byte": 3.321463,
+      "gzip_ratio": 0.5082,
+      "bzip2_ratio": 0.4367,
+      "lzma_ratio": 0.4488,
+      "quadrant_gzip": "Lo-S/Lo-K",
+      "true_k_note": "K=O(1) \u2014 gzip BLIND to this"
+    },
+    {
+      "label": "english_prose",
+      "category": "NATURAL",
+      "sample_bytes": 10000,
+      "shannon_bits_per_byte": 4.131164,
+      "gzip_ratio": 0.0435,
+      "bzip2_ratio": 0.0695,
+      "lzma_ratio": 0.0492,
+      "quadrant_gzip": "Hi-S/Lo-K",
+      "true_k_note": "K=medium (human language regularity)"
+    },
+    {
+      "label": "source_code_python",
+      "category": "NATURAL",
+      "sample_bytes": 10000,
+      "shannon_bits_per_byte": 4.499848,
+      "gzip_ratio": 0.0406,
+      "bzip2_ratio": 0.0627,
+      "lzma_ratio": 0.0448,
+      "quadrant_gzip": "Hi-S/Lo-K",
+      "true_k_note": "K=medium (code vocabulary)"
+    },
+    {
+      "label": "incremental_uint32",
+      "category": "STRUCT",
+      "sample_bytes": 10000,
+      "shannon_bits_per_byte": 4.116064,
+      "gzip_ratio": 0.461,
+      "bzip2_ratio": 0.1328,
+      "lzma_ratio": 0.138,
+      "quadrant_gzip": "Hi-S/Lo-K",
+      "true_k_note": "K=small (i++ program)"
+    },
+    {
+      "label": "dna_random",
+      "category": "RANDOM4",
+      "sample_bytes": 10000,
+      "shannon_bits_per_byte": 1.999882,
+      "gzip_ratio": 0.3208,
+      "bzip2_ratio": 0.2817,
+      "lzma_ratio": 0.3092,
+      "quadrant_gzip": "Lo-S/Lo-K",
+      "true_k_note": "K=HIGH (4-symbol random)"
+    },
+    {
+      "label": "base64_random",
+      "category": "RANDOM64",
+      "sample_bytes": 10000,
+      "shannon_bits_per_byte": 5.99423,
+      "gzip_ratio": 0.7595,
+      "bzip2_ratio": 0.7675,
+      "lzma_ratio": 0.788,
+      "quadrant_gzip": "Hi-S/Hi-K",
+      "true_k_note": "K=HIGH (64-symbol random)"
+    },
+    {
+      "label": "rle_random_runs",
+      "category": "MIXED",
+      "sample_bytes": 10000,
+      "shannon_bits_per_byte": 7.596052,
+      "gzip_ratio": 0.1528,
+      "bzip2_ratio": 0.2032,
+      "lzma_ratio": 0.1228,
+      "quadrant_gzip": "Hi-S/Lo-K",
+      "true_k_note": "K=medium (locally repetitive, globally random)"
+    },
+    {
+      "label": "lz77_adversarial",
+      "category": "ADVERSARIAL",
+      "sample_bytes": 10000,
+      "shannon_bits_per_byte": 7.979962,
+      "gzip_ratio": 1.0023,
+      "bzip2_ratio": 1.0475,
+      "lzma_ratio": 1.006,
+      "quadrant_gzip": "Hi-S/Hi-K",
+      "true_k_note": "K=medium (LCG \u2014 short program, bad local patterns)"
+    }
+  ]
+}

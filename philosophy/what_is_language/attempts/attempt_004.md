@@ -110,7 +110,7 @@ Either way, progress on **what_is_language** now goes through progress on **what
 
 attempts 001–004 have been climbing one mountain: the behavioral-measurement mountain. That mountain shows a single wall — phenomenal consciousness — and the behavioral separators have mostly dissolved before reaching it.
 
-The Sigma Method says: when one mountain hits a wall, find another. Candidate alternative mountains for the language question:
+The systematic approach says: when one mountain hits a wall, find another. Candidate alternative mountains for the language question:
 
 - **Mountain B — Diachronic / evolutionary.** How did language arise as a biological trait? What selection pressure fixed it? Comparative animal communication, protolanguage, gene candidates (FOXP2), cultural transmission dynamics. This mountain treats language as a natural-history object rather than a capacity.
 - **Mountain C — Neural / substrate.** What does language look like in the brain? Broca, Wernicke, the arcuate fasciculus, aphasias as natural ablation studies, the neural code for syntax. This mountain treats language as a neurological artifact.

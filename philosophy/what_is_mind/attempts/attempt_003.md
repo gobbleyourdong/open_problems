@@ -119,7 +119,7 @@ The crucial disagreement: **β credits phenomenal consciousness to loop topology
 
 **Feasibility.** Each of the four systems is buildable at small scale (<1B parameters) today. The measurement protocols are known. The experiment is a real research project, not a thought experiment. Estimated cost: tractable for a mid-size academic lab or one motivated research team.
 
-**Status.** To my knowledge, no one has run this specific experiment. It is a gap in the empirical literature that the Sigma Method analysis makes visible.
+**Status.** To my knowledge, no one has run this specific experiment. It is a gap in the empirical literature that the systematic approach analysis makes visible.
 
 ## Consequences for the gap
 

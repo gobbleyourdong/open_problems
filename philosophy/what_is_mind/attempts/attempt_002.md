@@ -5,7 +5,7 @@
 
 ## Why attempt this computation
 
-The Sigma Method requires the gap to become a number. Of the three positions on phenomenal consciousness identified in attempt_001 (α primitivism, β integrated information, γ illusionism), only β offers a number at the phenomenal level. If IIT makes a concrete, quantifiable prediction for current LLMs, it is *the* quantitative handle the whole three-mountain program needs.
+The systematic approach requires the gap to become a number. Of the three positions on phenomenal consciousness identified in attempt_001 (α primitivism, β integrated information, γ illusionism), only β offers a number at the phenomenal level. If IIT makes a concrete, quantifiable prediction for current LLMs, it is *the* quantitative handle the whole three-mountain program needs.
 
 This attempt takes IIT at face value and asks: what does it predict?
 

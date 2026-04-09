@@ -1,0 +1,36 @@
+{
+  "observed_vacuum_energy_J_per_m3": 5.9237108648909675e-27,
+  "QFT_prediction_Planck_J_per_m3": 2.933847828682001e+111,
+  "QFT_prediction_EW_J_per_m3": 1.320478260587058e+43,
+  "QFT_prediction_QCD_J_per_m3": 2.112765216939293e+32,
+  "gap_Planck_orders_of_magnitude": 137.69,
+  "gap_EW_orders_of_magnitude": 69.35,
+  "gap_QCD_orders_of_magnitude": 58.55,
+  "Planck_length_m": 1.61625502392855e-35,
+  "Planck_energy_J": 1956081636.0991087,
+  "cosmological_constant_m2": 1.1056e-52,
+  "de_Sitter_temperature_K": 2.2124430495832145e-30,
+  "CMB_temperature_K": 2.725,
+  "casimir_effect": [
+    {
+      "separation_nm": 1,
+      "pressure_Pa": -1300125772.447753,
+      "equivalent_atm": -12831.2437448582
+    },
+    {
+      "separation_nm": 10,
+      "pressure_Pa": -130012.577245,
+      "equivalent_atm": -1.2831243745
+    },
+    {
+      "separation_nm": 100,
+      "pressure_Pa": -13.001258,
+      "equivalent_atm": -0.0001283124
+    },
+    {
+      "separation_nm": 1000,
+      "pressure_Pa": -0.0013,
+      "equivalent_atm": -1.28e-08
+    }
+  ]
+}

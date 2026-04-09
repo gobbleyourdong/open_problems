@@ -1,0 +1,283 @@
+{
+  "zeno_partial_sums": [
+    {
+      "k": 1,
+      "term": 0.5,
+      "partial_sum": 0.5,
+      "error": 0.5,
+      "log10_error": -0.3010299956639812
+    },
+    {
+      "k": 2,
+      "term": 0.25,
+      "partial_sum": 0.75,
+      "error": 0.25,
+      "log10_error": -0.6020599913279624
+    },
+    {
+      "k": 3,
+      "term": 0.125,
+      "partial_sum": 0.875,
+      "error": 0.125,
+      "log10_error": -0.9030899869919435
+    },
+    {
+      "k": 4,
+      "term": 0.0625,
+      "partial_sum": 0.9375,
+      "error": 0.0625,
+      "log10_error": -1.2041199826559248
+    },
+    {
+      "k": 5,
+      "term": 0.03125,
+      "partial_sum": 0.96875,
+      "error": 0.03125,
+      "log10_error": -1.505149978319906
+    },
+    {
+      "k": 6,
+      "term": 0.015625,
+      "partial_sum": 0.984375,
+      "error": 0.015625,
+      "log10_error": -1.806179973983887
+    },
+    {
+      "k": 7,
+      "term": 0.0078125,
+      "partial_sum": 0.9921875,
+      "error": 0.0078125,
+      "log10_error": -2.1072099696478683
+    },
+    {
+      "k": 8,
+      "term": 0.00390625,
+      "partial_sum": 0.99609375,
+      "error": 0.00390625,
+      "log10_error": -2.4082399653118496
+    },
+    {
+      "k": 9,
+      "term": 0.001953125,
+      "partial_sum": 0.998046875,
+      "error": 0.001953125,
+      "log10_error": -2.709269960975831
+    },
+    {
+      "k": 10,
+      "term": 0.0009765625,
+      "partial_sum": 0.9990234375,
+      "error": 0.0009765625,
+      "log10_error": -3.010299956639812
+    },
+    {
+      "k": 11,
+      "term": 0.00048828125,
+      "partial_sum": 0.99951171875,
+      "error": 0.00048828125,
+      "log10_error": -3.311329952303793
+    },
+    {
+      "k": 12,
+      "term": 0.000244140625,
+      "partial_sum": 0.999755859375,
+      "error": 0.000244140625,
+      "log10_error": -3.612359947967774
+    },
+    {
+      "k": 13,
+      "term": 0.0001220703125,
+      "partial_sum": 0.9998779296875,
+      "error": 0.0001220703125,
+      "log10_error": -3.9133899436317554
+    },
+    {
+      "k": 14,
+      "term": 6.103515625e-05,
+      "partial_sum": 0.99993896484375,
+      "error": 6.103515625e-05,
+      "log10_error": -4.214419939295737
+    },
+    {
+      "k": 15,
+      "term": 3.0517578125e-05,
+      "partial_sum": 0.999969482421875,
+      "error": 3.0517578125e-05,
+      "log10_error": -4.515449934959718
+    }
+  ],
+  "achilles_steps": [
+    {
+      "step": 1,
+      "time_elapsed": 1.0,
+      "x_achilles": 2.0,
+      "x_tortoise": 2.0,
+      "gap": 0.5,
+      "time_remaining": 0.0
+    },
+    {
+      "step": 2,
+      "time_elapsed": 1.5,
+      "x_achilles": 3.0,
+      "x_tortoise": 2.5,
+      "gap": 0.25,
+      "time_remaining": -0.5
+    },
+    {
+      "step": 3,
+      "time_elapsed": 1.75,
+      "x_achilles": 3.5,
+      "x_tortoise": 2.75,
+      "gap": 0.125,
+      "time_remaining": -0.75
+    },
+    {
+      "step": 4,
+      "time_elapsed": 1.875,
+      "x_achilles": 3.75,
+      "x_tortoise": 2.875,
+      "gap": 0.0625,
+      "time_remaining": -0.875
+    },
+    {
+      "step": 5,
+      "time_elapsed": 1.9375,
+      "x_achilles": 3.875,
+      "x_tortoise": 2.9375,
+      "gap": 0.03125,
+      "time_remaining": -0.9375
+    },
+    {
+      "step": 6,
+      "time_elapsed": 1.96875,
+      "x_achilles": 3.9375,
+      "x_tortoise": 2.96875,
+      "gap": 0.015625,
+      "time_remaining": -0.96875
+    },
+    {
+      "step": 7,
+      "time_elapsed": 1.984375,
+      "x_achilles": 3.96875,
+      "x_tortoise": 2.984375,
+      "gap": 0.0078125,
+      "time_remaining": -0.984375
+    },
+    {
+      "step": 8,
+      "time_elapsed": 1.9921875,
+      "x_achilles": 3.984375,
+      "x_tortoise": 2.9921875,
+      "gap": 0.00390625,
+      "time_remaining": -0.9921875
+    },
+    {
+      "step": 9,
+      "time_elapsed": 1.99609375,
+      "x_achilles": 3.9921875,
+      "x_tortoise": 2.99609375,
+      "gap": 0.001953125,
+      "time_remaining": -0.99609375
+    },
+    {
+      "step": 10,
+      "time_elapsed": 1.998046875,
+      "x_achilles": 3.99609375,
+      "x_tortoise": 2.998046875,
+      "gap": 0.0009765625,
+      "time_remaining": -0.998046875
+    },
+    {
+      "step": 11,
+      "time_elapsed": 1.9990234375,
+      "x_achilles": 3.998046875,
+      "x_tortoise": 2.9990234375,
+      "gap": 0.00048828125,
+      "time_remaining": -0.9990234375
+    },
+    {
+      "step": 12,
+      "time_elapsed": 1.99951171875,
+      "x_achilles": 3.9990234375,
+      "x_tortoise": 2.99951171875,
+      "gap": 0.000244140625,
+      "time_remaining": -0.99951171875
+    },
+    {
+      "step": 13,
+      "time_elapsed": 1.999755859375,
+      "x_achilles": 3.99951171875,
+      "x_tortoise": 2.999755859375,
+      "gap": 0.0001220703125,
+      "time_remaining": -0.999755859375
+    },
+    {
+      "step": 14,
+      "time_elapsed": 1.9998779296875,
+      "x_achilles": 3.999755859375,
+      "x_tortoise": 2.9998779296875,
+      "gap": 6.103515625e-05,
+      "time_remaining": -0.9998779296875
+    },
+    {
+      "step": 15,
+      "time_elapsed": 1.99993896484375,
+      "x_achilles": 3.9998779296875,
+      "x_tortoise": 2.99993896484375,
+      "gap": 3.0517578125e-05,
+      "time_remaining": -0.99993896484375
+    }
+  ],
+  "achilles_meeting_time": 1.0,
+  "quantum_action": {
+    "Planck_time_s": 5.391125280988461e-44,
+    "Planck_length_m": 1.6162186993734714e-35,
+    "Planck_energy_eV": 1.2209175677455684e+28,
+    "electron_Compton_wavelength_m": 3.8617553404223976e-13,
+    "tennis_ball_deBroglie_m": 6.167086649122807e-35,
+    "proton_LHC_deBroglie_m": 3.035799697513792e-20,
+    "Planck_time_as_fraction_of_s": 5.391125280988461e-44,
+    "discreteness_scale_m": 1.6162186993734714e-35
+  },
+  "k_change_analysis": [
+    {
+      "transition": "stopped_clock",
+      "K_S1": 0.0745,
+      "K_S2": 0.0745,
+      "K_S2_given_S1": 0.0113,
+      "delta_K": 0.0
+    },
+    {
+      "transition": "slow_motion_dx=0.001",
+      "K_S1": 0.08,
+      "K_S2": 0.08,
+      "K_S2_given_S1": 0.0178,
+      "delta_K": 0.0
+    },
+    {
+      "transition": "fast_motion_dx=100",
+      "K_S1": 0.0755,
+      "K_S2": 0.0745,
+      "K_S2_given_S1": 0.016,
+      "delta_K": -0.0011
+    },
+    {
+      "transition": "phase_transition_water_ice",
+      "K_S1": 0.0742,
+      "K_S2": 0.0746,
+      "K_S2_given_S1": 0.0373,
+      "delta_K": 0.0004
+    },
+    {
+      "transition": "random_states",
+      "K_S1": 1.023,
+      "K_S2": 1.023,
+      "K_S2_given_S1": 1.001,
+      "delta_K": 0.0
+    }
+  ],
+  "stopped_clock": {
+    "K_bits_per_timestamp": 143.73,
+    "note": "A stopped clock at t1 and t2 differ ONLY by their timestamps. The K-content of one second is ~log2(1/t_P) \u2248 140 bits. So from a K-information perspective, the stopped clock IS 'changing' by 140 bits/second \u2014 but only in its time-coordinate, not in its physical state. Whether this counts as 'real change' is the philosophical question."
+  }
+}
