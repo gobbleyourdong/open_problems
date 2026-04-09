@@ -8,15 +8,15 @@ This file is the landing page for the philosophy track. Each question has its ow
 
 | # | Question | Status | Gap shape | Key finding |
 |---|----------|--------|-----------|-------------|
-| 1 | [what_is_language](./what_is_language/) | Phase 2 | Sample-complexity ratio 10⁴–10⁶ + hosting residue | LLM existence proof forces the behavioral reduction; two mountains (behavioral + functional) converge on hosting |
+| 1 | [what_is_language](./what_is_language/) | Phase 2 | Gap = 10^5.5; mechanisms over-explain it; HOST properties need architecture not scale | LLM existence proof forces reduction; Odd confirms gap budget: known mechanisms collectively close gap; 4/6 HOST benchmarks require architectural fixes |
 | 2 | [what_is_meaning](./what_is_meaning/) | Phase 2 | A/P bifurcation; P-meaning routes through mind fork | Every major theory is a theory of A-meaning; P-meaning is the phenomenal residue |
-| 3 | [what_is_mind](./what_is_mind/) | Phase 2, partly formalized | α/β/γ three-position fork | β predicts Φ=0 for feedforward transformers by the feedforward theorem; γ gives G×L quantitative proxy; formal incompatibility theorem in `what_is_mind/lean/ThreePositions.lean` |
+| 3 | [what_is_mind](./what_is_mind/) | Phase 2, formalized + numerically confirmed | α/β/γ three-position fork | β: Φ=0 **numerically confirmed** (Odd result_002: state-independent → Φ=0 exactly); γ: G×L + buildable 4-system experiment speced; Lean: ThreePositions.lean + Odd's phi scripts |
 | 4 | [what_is_self](./what_is_self/) | Phase 1 | Parfit-Metzinger closure + phenomenological residue | Unusual status: main logical gap closed decades ago; residue is inherited from mind fork |
 | 5 | [what_is_knowing](./what_is_knowing/) | Phase 1 | A-knowing reduces to compressed model generalization | LLMs force decision on testimony: reductionism is untenable; LLMs have substantial A-knowing |
 | 6 | [what_is_number](./what_is_number/) | Phase 2 | Gödel residue quantified as B(S), Chaitin's bits provable in S | Mathematics is the purest test for γ — γ passes; compression answers Wigner's unreasonable effectiveness; Gödel incompleteness becomes a horizon property with B(ZFC) ≈ 10⁴ |
 | 7 | [what_is_life](./what_is_life/) | Phase 1 | Ordinary scientific residue on NASA + compression refinement | Life question has more consensus than the scaffold credits; boundary-case adjudication remains |
 | 8 | [what_is_good](./what_is_good/) | Phase 1 | Moral internalism = γ specialized; naturalist realism via compression | Hume's is-ought gap dissolves under the compression view; cross-cultural convergence explained |
-| 9 | [what_is_beauty](./what_is_beauty/) | Phase 1 | α/β/γ specialized to aesthetic response | Beauty = self-model's phenomenal response to high compression efficiency, relative to observer priors |
+| 9 | [what_is_beauty](./what_is_beauty/) | Phase 1 (shallow falsified, deep pending) | α/β/γ + compression-beauty via deep LM priors | Odd falsified shallow compression metrics; theory refined: deep LM NLL is the correct test; if it correlates, compression-beauty confirmed |
 
 ## Phase legend
 

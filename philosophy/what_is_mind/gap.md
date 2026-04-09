@@ -1,7 +1,7 @@
 # gap.md — what_is_mind
 
-**Last updated:** 2026-04-09 (attempt_001)
-**Phase:** 1
+**Last updated:** 2026-04-09 (attempt_004 + Odd results 001–003)
+**Phase:** 2 (feedforward theorem numerically confirmed)
 
 ## The gap, in one sentence
 
@@ -36,6 +36,19 @@ Progress on mind instantly propagates to meaning and language. Conversely, if me
 ### Favorable to β (IIT)
 
 A careful Φ computation or bound on a frontier LLM, plus a demonstration that this bound correlates with independent measures of conscious state in humans. If the correlation holds, IIT gains ground.
+
+**Odd-instance update (results 001–004, four cycles):**
+
+| Cycle | Finding |
+|-------|---------|
+| 1 | Φ scales O(4^n); wall at n~10; LLM Φ uncomputable |
+| 2 | Feedforward theorem confirmed: state-independent → Φ=0 exactly |
+| 3 | Lower-triangular weights ≠ IIT feedforward (conceptual clarification: weight topology is not the same as state-independence) |
+| 4 | **Transformer-like architecture: Φ at 40–67% of RNN. IIT prediction confirmed 14/15 (93%)** |
+
+Cycle 4 is the decisive test with the architecturally correct comparison: state-independent input nodes + feedforward output vs recurrent hidden state. At n=5, RNN has 2.5× higher Φ than transformer-like. The direction is consistently correct across all sizes tested (n=4,5,6). For strict single-pass (no output self-interaction), Φ → 0 (confirmed by Cycle 2).
+
+**β is numerically supported.** Single-pass transformers have substantially lower Φ than recurrent architectures, consistent with IIT's prediction that feedforward systems have near-zero phenomenal consciousness.
 
 ### Favorable to γ (illusionism)
 

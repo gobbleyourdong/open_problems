@@ -1,0 +1,149 @@
+{
+  "description": "Grover vs classical exhaustive vs DPLL scaling comparison",
+  "date": "2026-04-09",
+  "dpll_fit": {
+    "source": "sat_scaling.py results",
+    "model": "67.7 * 2^(n/14.24)",
+    "A": 67.7,
+    "k": 14.24,
+    "r_squared": 0.9
+  },
+  "grover_model": {
+    "oracle_calls": "pi/4 * sqrt(2^n)",
+    "doubling_period_variables": 2,
+    "success_prob_at_optimal_iter": "sin^2((2k+1)*arcsin(1/sqrt(N))) \u2248 1"
+  },
+  "classical_model": {
+    "expected_queries": "(2^n + 1) / 2",
+    "doubling_period_variables": 1
+  },
+  "comparison_table": [
+    {
+      "n": 4,
+      "N": 16,
+      "classical_queries": 8.5,
+      "grover_queries": 3.1416,
+      "grover_optimal_iterations": 3,
+      "dpll_ratio_estimate": 82.2522,
+      "quantum_speedup_factor": 2.7056,
+      "theoretical_grover_speedup": 4.0
+    },
+    {
+      "n": 6,
+      "N": 64,
+      "classical_queries": 32.5,
+      "grover_queries": 6.2832,
+      "grover_optimal_iterations": 6,
+      "dpll_ratio_estimate": 90.6624,
+      "quantum_speedup_factor": 5.1725,
+      "theoretical_grover_speedup": 8.0
+    },
+    {
+      "n": 8,
+      "N": 256,
+      "classical_queries": 128.5,
+      "grover_queries": 12.5664,
+      "grover_optimal_iterations": 12,
+      "dpll_ratio_estimate": 99.9325,
+      "quantum_speedup_factor": 10.2257,
+      "theoretical_grover_speedup": 16.0
+    },
+    {
+      "n": 10,
+      "N": 1024,
+      "classical_queries": 512.5,
+      "grover_queries": 25.1327,
+      "grover_optimal_iterations": 25,
+      "dpll_ratio_estimate": 110.1504,
+      "quantum_speedup_factor": 20.3917,
+      "theoretical_grover_speedup": 32.0
+    },
+    {
+      "n": 12,
+      "N": 4096,
+      "classical_queries": 2048.5,
+      "grover_queries": 50.2655,
+      "grover_optimal_iterations": 50,
+      "dpll_ratio_estimate": 121.4131,
+      "quantum_speedup_factor": 40.7536,
+      "theoretical_grover_speedup": 64.0
+    },
+    {
+      "n": 14,
+      "N": 16384,
+      "classical_queries": 8192.5,
+      "grover_queries": 100.531,
+      "grover_optimal_iterations": 100,
+      "dpll_ratio_estimate": 133.8274,
+      "quantum_speedup_factor": 81.4923,
+      "theoretical_grover_speedup": 128.0
+    }
+  ],
+  "simulation_results": [
+    {
+      "n": 4,
+      "N": 16,
+      "target": 3,
+      "optimal_iterations": 3,
+      "simulated_prob": 0.96131897,
+      "theoretical_prob": 0.96131897,
+      "oracle_calls": 3
+    },
+    {
+      "n": 6,
+      "N": 64,
+      "target": 3,
+      "optimal_iterations": 6,
+      "simulated_prob": 0.99658568,
+      "theoretical_prob": 0.99658568,
+      "oracle_calls": 6
+    },
+    {
+      "n": 8,
+      "N": 256,
+      "target": 140,
+      "optimal_iterations": 12,
+      "simulated_prob": 0.99994704,
+      "theoretical_prob": 0.99994704,
+      "oracle_calls": 12
+    },
+    {
+      "n": 10,
+      "N": 1024,
+      "target": 501,
+      "optimal_iterations": 25,
+      "simulated_prob": 0.99946124,
+      "theoretical_prob": 0.99946124,
+      "oracle_calls": 25
+    },
+    {
+      "n": 12,
+      "N": 4096,
+      "target": 1828,
+      "optimal_iterations": 50,
+      "simulated_prob": 0.99994535,
+      "theoretical_prob": 0.99994535,
+      "oracle_calls": 50
+    },
+    {
+      "n": 14,
+      "N": 16384,
+      "target": 4572,
+      "optimal_iterations": 100,
+      "simulated_prob": 0.99999978,
+      "theoretical_prob": 0.99999978,
+      "oracle_calls": 100
+    }
+  ],
+  "key_findings": {
+    "doubling_periods": {
+      "classical_exhaustive": 1,
+      "grover_quantum": 2,
+      "dpll_structured": 14.24
+    },
+    "quantum_advantage": "2^(n/2) \u2014 exponential growth, not polynomial",
+    "grover_effect": "halves the exponent (n -> n/2), does not collapse to polynomial",
+    "p_vs_np_implication": "Grover reduces the K-search exponent by 2x but cannot make NP problems polynomial-time. The compression asymmetry (find >> verify) persists in BQP.",
+    "physical_church_turing": "Grover is classically simulable with O(N^1.5) overhead. This script is the simulation. BQP does not violate Church-Turing; it accesses a larger but still Turing-computable K-function class."
+  }
+}

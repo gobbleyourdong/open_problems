@@ -1,0 +1,45 @@
+{
+  "corpus_size": 100000,
+  "analyses": [
+    {
+      "level": "byte",
+      "n_tokens": 100000,
+      "vocab_size": 37,
+      "H_bits_per_token": 4.27804,
+      "H_max": 5.209453,
+      "H_saturation": 0.821207,
+      "gzip_ratio": 0.07951,
+      "H_over_K": 53.805058
+    },
+    {
+      "level": "char_trigram",
+      "n_tokens": 99998,
+      "vocab_size": 906,
+      "H_bits_per_token": 9.198265,
+      "H_max": 9.823367,
+      "H_saturation": 0.936366,
+      "gzip_ratio": 0.038171,
+      "H_over_K": 240.976713
+    },
+    {
+      "level": "word",
+      "n_tokens": 14946,
+      "vocab_size": 168,
+      "H_bits_per_token": 6.731966,
+      "H_max": 7.392317,
+      "H_saturation": 0.910671,
+      "gzip_ratio": 0.079757,
+      "H_over_K": 84.405535
+    },
+    {
+      "level": "bigram",
+      "n_tokens": 14945,
+      "vocab_size": 320,
+      "H_bits_per_token": 8.059382,
+      "H_max": 8.321928,
+      "H_saturation": 0.968451,
+      "gzip_ratio": 0.048481,
+      "H_over_K": 166.239084
+    }
+  ]
+}

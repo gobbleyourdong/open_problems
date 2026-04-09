@@ -1,7 +1,7 @@
 # gap.md — what_is_time
 
-**Last updated:** 2026-04-09 (attempt_001)
-**Phase:** 1
+**Last updated:** 2026-04-09 (attempt_001 + Odd micro_macro_K correction)
+**Phase:** 1 (arrow claim refined by numerics)
 
 ## The gap, in one sentence
 
@@ -20,6 +20,10 @@ See attempt_001. Key moves:
 ## Three residual questions
 
 - **R1.** Why this specific arrow direction? The standard answers (low-entropy initial conditions, statistical mechanics) remain load-bearing; the compression view reframes rather than replaces them. Whether the reframing adds predictive power is open.
+
+**Odd-instance correction (micro_macro_K findings):** My original claim — "microscale K-structure decreases along the thermodynamic arrow; macroscale K-structure can increase" — was imprecise. The Odd instance's particle simulation found: gzip-K is flat for micro (noise-level) and INCREASES for macro (fewer zero-runs as entropy grows). The discrepancy is because gzip-K ≠ algorithmic K (same lesson as the information track's π example).
+
+**Corrected claim:** "The compressibility GAIN from macro vs micro description increases along the thermodynamic arrow — not because micro-K decreases, but because macro-K stays bounded (short description: 'uniform') while the micro state grows increasingly incompressible (500 random floats)." The arrow is about the divergence between description levels, not about either level's K moving monotonically.
 - **R2.** Does any primitivist account of felt time (the α specialization applied to time) survive, or does γ-plus-physics fully account for the phenomenology?
 - **R3.** In emergent-time programs (entanglement-first, information-first), where does "time" first appear in the bottom-up construction? If time is genuinely emergent, what substrate property makes it possible?
 

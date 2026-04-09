@@ -1,0 +1,277 @@
+{
+  "observed_rho_Lambda_J_per_m3": 5.9237108648909675e-27,
+  "photon_only_Planck_J_per_m3": 2.933847828682001e+111,
+  "photon_only_gap_log10": 137.6948437317853,
+  "planck_cutoff": {
+    "cutoff_J": 1956081636.0991087,
+    "cutoff_label": "Planck scale (~1.956e9 J)",
+    "rho_boson_J_per_m3": 4.107386960154801e+112,
+    "rho_fermion_J_per_m3": -1.3202315229069006e+113,
+    "rho_total_J_per_m3": -9.094928268914205e+112,
+    "dof_boson": 28,
+    "dof_fermion": 90,
+    "net_signed_dof": -62,
+    "gap_bosons_only_log10": 138.84097176746354,
+    "gap_sm_total_log10": 139.1862054256196,
+    "orders_saved_by_fermions": -0.34523365815604734,
+    "species": [
+      {
+        "name": "Photon (\u03b3)",
+        "stat": "boson",
+        "n_dof": 2,
+        "mass_GeV": 0.0,
+        "rho_J_per_m3": 2.933847828682001e+111
+      },
+      {
+        "name": "W\u00b1 boson",
+        "stat": "boson",
+        "n_dof": 6,
+        "mass_GeV": 80.4,
+        "rho_J_per_m3": 8.801543486046004e+111
+      },
+      {
+        "name": "Z boson",
+        "stat": "boson",
+        "n_dof": 3,
+        "mass_GeV": 91.2,
+        "rho_J_per_m3": 4.400771743023002e+111
+      },
+      {
+        "name": "Higgs (H)",
+        "stat": "boson",
+        "n_dof": 1,
+        "mass_GeV": 125.25,
+        "rho_J_per_m3": 1.4669239143410006e+111
+      },
+      {
+        "name": "Gluons (g\u00d78)",
+        "stat": "boson",
+        "n_dof": 16,
+        "mass_GeV": 0.0,
+        "rho_J_per_m3": 2.347078262945601e+112
+      },
+      {
+        "name": "Electron (e)",
+        "stat": "fermion",
+        "n_dof": 4,
+        "mass_GeV": 0.000511,
+        "rho_J_per_m3": -5.867695657364002e+111
+      },
+      {
+        "name": "Muon (\u03bc)",
+        "stat": "fermion",
+        "n_dof": 4,
+        "mass_GeV": 0.1057,
+        "rho_J_per_m3": -5.867695657364002e+111
+      },
+      {
+        "name": "Tau (\u03c4)",
+        "stat": "fermion",
+        "n_dof": 4,
+        "mass_GeV": 1.777,
+        "rho_J_per_m3": -5.867695657364002e+111
+      },
+      {
+        "name": "Neutrino \u03bde",
+        "stat": "fermion",
+        "n_dof": 2,
+        "mass_GeV": 0.0,
+        "rho_J_per_m3": -2.933847828682001e+111
+      },
+      {
+        "name": "Neutrino \u03bd\u03bc",
+        "stat": "fermion",
+        "n_dof": 2,
+        "mass_GeV": 0.0,
+        "rho_J_per_m3": -2.933847828682001e+111
+      },
+      {
+        "name": "Neutrino \u03bd\u03c4",
+        "stat": "fermion",
+        "n_dof": 2,
+        "mass_GeV": 0.0,
+        "rho_J_per_m3": -2.933847828682001e+111
+      },
+      {
+        "name": "Up quark (u)",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 0.0022,
+        "rho_J_per_m3": -1.7603086972092008e+112
+      },
+      {
+        "name": "Down quark (d)",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 0.0047,
+        "rho_J_per_m3": -1.7603086972092008e+112
+      },
+      {
+        "name": "Strange quark (s)",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 0.096,
+        "rho_J_per_m3": -1.7603086972092008e+112
+      },
+      {
+        "name": "Charm quark (c)",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 1.27,
+        "rho_J_per_m3": -1.7603086972092008e+112
+      },
+      {
+        "name": "Bottom quark (b)",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 4.18,
+        "rho_J_per_m3": -1.7603086972092008e+112
+      },
+      {
+        "name": "Top quark (t)",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 173.1,
+        "rho_J_per_m3": -1.7603086972092008e+112
+      }
+    ]
+  },
+  "ew_cutoff": {
+    "cutoff_J": 1.602176634e-08,
+    "cutoff_label": "Electroweak scale (~100 GeV)",
+    "rho_boson_J_per_m3": 1.7826456517925282e+44,
+    "rho_fermion_J_per_m3": -5.149865216289527e+44,
+    "rho_total_J_per_m3": -3.367219564496999e+44,
+    "dof_boson": 28,
+    "dof_fermion": 90,
+    "net_signed_dof": -62,
+    "gap_bosons_only_log10": 70.47847117163984,
+    "gap_sm_total_log10": 70.7546775835788,
+    "orders_saved_by_fermions": -0.2762064119389578,
+    "species": [
+      {
+        "name": "Photon (\u03b3)",
+        "stat": "boson",
+        "n_dof": 2,
+        "mass_GeV": 0.0,
+        "rho_J_per_m3": 1.320478260587058e+43
+      },
+      {
+        "name": "W\u00b1 boson",
+        "stat": "boson",
+        "n_dof": 6,
+        "mass_GeV": 80.4,
+        "rho_J_per_m3": 3.961434781761174e+43
+      },
+      {
+        "name": "Z boson",
+        "stat": "boson",
+        "n_dof": 3,
+        "mass_GeV": 91.2,
+        "rho_J_per_m3": 1.980717390880587e+43
+      },
+      {
+        "name": "Higgs (H)",
+        "stat": "boson",
+        "n_dof": 1,
+        "mass_GeV": 125.25,
+        "rho_J_per_m3": 0.0
+      },
+      {
+        "name": "Gluons (g\u00d78)",
+        "stat": "boson",
+        "n_dof": 16,
+        "mass_GeV": 0.0,
+        "rho_J_per_m3": 1.0563826084696463e+44
+      },
+      {
+        "name": "Electron (e)",
+        "stat": "fermion",
+        "n_dof": 4,
+        "mass_GeV": 0.000511,
+        "rho_J_per_m3": -2.640956521174116e+43
+      },
+      {
+        "name": "Muon (\u03bc)",
+        "stat": "fermion",
+        "n_dof": 4,
+        "mass_GeV": 0.1057,
+        "rho_J_per_m3": -2.640956521174116e+43
+      },
+      {
+        "name": "Tau (\u03c4)",
+        "stat": "fermion",
+        "n_dof": 4,
+        "mass_GeV": 1.777,
+        "rho_J_per_m3": -2.640956521174116e+43
+      },
+      {
+        "name": "Neutrino \u03bde",
+        "stat": "fermion",
+        "n_dof": 2,
+        "mass_GeV": 0.0,
+        "rho_J_per_m3": -1.320478260587058e+43
+      },
+      {
+        "name": "Neutrino \u03bd\u03bc",
+        "stat": "fermion",
+        "n_dof": 2,
+        "mass_GeV": 0.0,
+        "rho_J_per_m3": -1.320478260587058e+43
+      },
+      {
+        "name": "Neutrino \u03bd\u03c4",
+        "stat": "fermion",
+        "n_dof": 2,
+        "mass_GeV": 0.0,
+        "rho_J_per_m3": -1.320478260587058e+43
+      },
+      {
+        "name": "Up quark (u)",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 0.0022,
+        "rho_J_per_m3": -7.922869563522348e+43
+      },
+      {
+        "name": "Down quark (d)",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 0.0047,
+        "rho_J_per_m3": -7.922869563522348e+43
+      },
+      {
+        "name": "Strange quark (s)",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 0.096,
+        "rho_J_per_m3": -7.922869563522348e+43
+      },
+      {
+        "name": "Charm quark (c)",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 1.27,
+        "rho_J_per_m3": -7.922869563522348e+43
+      },
+      {
+        "name": "Bottom quark (b)",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 4.18,
+        "rho_J_per_m3": -7.922869563522348e+43
+      },
+      {
+        "name": "Top quark (t)",
+        "stat": "fermion",
+        "n_dof": 12,
+        "mass_GeV": 173.1,
+        "rho_J_per_m3": 0.0
+      }
+    ]
+  },
+  "sm_dof_boson": 28,
+  "sm_dof_fermion": 90,
+  "sm_net_dof": -62,
+  "note": "Formula: rho_i = sign_i * n_i * hbar*c * k_max^4 / (32*pi^2). All species use E_Planck as cutoff (massive particles decoupled if mass > cutoff). Exact SUSY would give net_dof=0 and exact cancellation."
+}

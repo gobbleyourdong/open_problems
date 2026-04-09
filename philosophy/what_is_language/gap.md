@@ -1,7 +1,7 @@
 # gap.md — what_is_language
 
-**Last updated:** 2026-04-09 (attempt_002)
-**Phase:** 1 (moving toward 2)
+**Last updated:** 2026-04-09 (attempt_002 + Odd result_001 gap budget)
+**Phase:** 2 (gap quantified + mechanisms over-explain it)
 
 ## The gap, in one sentence
 
@@ -54,6 +54,18 @@ No single mechanism is proven to close the full 10⁶. Each has evidence for par
 | Architectural inductive bias | unclear, often <10× | Tree-RNN vs. transformer ablations |
 
 Adding these multiplicatively, you get maybe 10³–10⁴×. That leaves 10²–10³× unaccounted for. **The residue is the real gap.**
+
+### Odd-instance update (result_001 — gap budget analysis)
+
+The numerical instance ran the full stacked analysis with revised literature estimates and found:
+
+- **Raw gap is 10^5.5** (not 10^6 as I estimated) — central estimates give 333,000×, not 10^6×.
+- **Known mechanisms OVER-EXPLAIN the gap by ~50×** when stacked multiplicatively (total stacked compression 10^7.2 vs raw gap 10^5.5).
+- **Three interpretations:** (A) mechanism estimates are individually inflated by 2–3×, which would collapse the total to match the gap exactly; (B) mechanisms don't stack multiplicatively (shared variance); (C) the gap is larger than estimated because LLM "fluency" is ill-defined.
+- **UG only needs ×2.2** to close the gap if all other mechanisms contribute at literature estimates. This is a falsifiable, non-extraordinary claim.
+- **The gap budget confirms the three-mountain connection:** the mechanisms contributing most compression (grounding ×10, active learning ×5, world knowledge ×20) are ALL host properties. The gap is a HOST problem, not a language problem — the same conclusion as attempt_003 reached from behavioral analysis.
+
+**Implication for the gap statement:** The gap is no longer "what accounts for the 10^6× compression?" It is "the known mechanisms collectively account for the gap; the residual question is whether they stack multiplicatively or overlap, and whether the fluency definition is precise enough to make the gap measurement well-defined."
 
 ## The anti-problem
 

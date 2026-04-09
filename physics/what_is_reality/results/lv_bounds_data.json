@@ -1,0 +1,140 @@
+{
+  "description": "LIV bounds from GRB 090510: simulator precision constraints",
+  "date": "2026-04-09",
+  "constants": {
+    "hbar_Js": 1.055e-34,
+    "c_ms": 299800000.0,
+    "eV_J": 1.602e-19,
+    "l_P_m": 1.616e-35,
+    "E_P_eV": 1.2209e+28,
+    "E_P_J": 1956100000.0
+  },
+  "grb_090510_data": {
+    "source": "Abdo et al. 2009, Nature 462, 331-334",
+    "luminosity_distance_m": 7.3e+26,
+    "E_high_eV": 31000000000.0,
+    "E_low_eV": 100000000.0,
+    "Delta_E_eV": 30900000000.0,
+    "Delta_t_s_upper_bound": 0.86
+  },
+  "liv_bounds": {
+    "linear_n1": {
+      "n": 1,
+      "label": "linear LIV",
+      "prefactor": 1.0,
+      "E_P_min_J": 14015667033.83651,
+      "E_P_min_eV": 8.748855826364862e+28,
+      "log10_E_P_min_eV": 28.941951259789462,
+      "E_P_actual_eV": 1.2209e+28,
+      "log10_E_P_actual_eV": 28.086680093734625,
+      "ratio_E_P_min_to_E_P": 7.16590697548109,
+      "log10_ratio": 0.8552711660548378,
+      "LIV_ruled_out_at_Planck": "True",
+      "interpretation": "E_P_min > E_P: linear LIV at the Planck scale is RULED OUT by GRB 090510."
+    },
+    "quadratic_n2": {
+      "n": 2,
+      "label": "quadratic LIV",
+      "prefactor": 1.5,
+      "Delta_E2_J2": 2.4662885799599996e-17,
+      "E_P_min_sq_J2": 104.7437049139814,
+      "E_P_min_J": 10.234437205532183,
+      "E_P_min_eV": 6.388537581480763e+19,
+      "log10_E_P_min_eV": 19.80540145393599,
+      "E_P_actual_eV": 1.2209e+28,
+      "log10_E_P_actual_eV": 28.086680093734625,
+      "ratio_E_P_min_to_E_P": 5.232646065591583e-09,
+      "log10_ratio": -8.281278639798634,
+      "LIV_ruled_out_at_Planck": "False",
+      "interpretation": "E_P_min = 6.389e+19 eV \u2014 Planck-scale quadratic LIV not yet excluded. Bound is 5.23e-09 \u00d7 E_P."
+    }
+  },
+  "simulator_cell_size": {
+    "linear_n1": {
+      "bound_label": "linear LIV (n=1)",
+      "E_P_min_J": 14015667033.83651,
+      "l_eff_max_m": 2.2566817493339248e-36,
+      "log10_l_eff_max_m": -35.64652968339171,
+      "l_P_m": 1.616e-35,
+      "ratio_l_eff_to_lP": 0.13964614785482207,
+      "log10_ratio_l_eff_to_lP": -0.8549710398302763,
+      "interpretation": "Simulator cell size \u2264 2.257e-36 m = 1.396e-01 \u00d7 l_P"
+    },
+    "quadratic_n2": {
+      "bound_label": "quadratic LIV (n=2)",
+      "E_P_min_J": 10.234437205532183,
+      "l_eff_max_m": 3.090438620591968e-27,
+      "log10_l_eff_max_m": -26.50997987753824,
+      "l_P_m": 1.616e-35,
+      "ratio_l_eff_to_lP": 191240013.6504931,
+      "log10_ratio_l_eff_to_lP": 8.281578766023195,
+      "interpretation": "Simulator cell size \u2264 3.090e-27 m = 1.912e+08 \u00d7 l_P"
+    }
+  },
+  "lcdm_k_bits": {
+    "parameters": [
+      {
+        "name": "Omega_b_h2",
+        "value": 0.02237,
+        "sigma": 0.00015,
+        "description": "baryon density",
+        "k_bits": 7.2204589454506
+      },
+      {
+        "name": "Omega_c_h2",
+        "value": 0.12,
+        "sigma": 0.0012,
+        "description": "cold dark matter density",
+        "k_bits": 6.643856189774724
+      },
+      {
+        "name": "100_theta_s",
+        "value": 1.04092,
+        "sigma": 0.00031,
+        "description": "acoustic scale angle",
+        "k_bits": 11.713303358491016
+      },
+      {
+        "name": "tau",
+        "value": 0.054,
+        "sigma": 0.007,
+        "description": "reionization optical depth",
+        "k_bits": 2.9475325801058645
+      },
+      {
+        "name": "ln10^10_As",
+        "value": 3.044,
+        "sigma": 0.014,
+        "description": "primordial amplitude",
+        "k_bits": 7.764397721445941
+      },
+      {
+        "name": "n_s",
+        "value": 0.965,
+        "sigma": 0.004,
+        "description": "spectral index",
+        "k_bits": 7.914385132155442
+      }
+    ],
+    "total_bits": 44.20393392742359,
+    "method": "log2(central_value / uncertainty) per parameter"
+  },
+  "total_k_specification": {
+    "SM_lagrangian_bits": 24000,
+    "lcdm_6param_bits": 44.20393392742359,
+    "total_kspec_bits": 24044.203933927423,
+    "log10_kspec": 4.381010402835248,
+    "log10_S_holo_universe": 124.0,
+    "compression_ratio_log10": 119.61898959716476,
+    "interpretation": "K_total = 24044.2 bits encodes a universe with 10^124 bits of S-information. Compression ratio: 10^120."
+  },
+  "connection_to_simulation_cost": {
+    "r_obs_m": 4.4e+26,
+    "l_P_m": 1.616e-35,
+    "log10_planck_cells": 184.30503396014285,
+    "log10_planck_sim_state_bits": 186.88936518451038,
+    "log10_holographic_bound": 124,
+    "planck_sim_exceeds_holo_bound": true
+  },
+  "r2_implication": "LIV bounds rule out Planck-lattice classical simulation (linear LIV excluded). This favors continuous-spacetime S-informationalism OR K-informationalism over discrete-lattice simulation hypothesis. However, the bound does NOT distinguish K-informationalism (laws are primary, spacetime emergent) from continuous-substrate S-informationalism. No current experiment can make this distinction. R2 remains open."
+}

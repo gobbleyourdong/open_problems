@@ -1,0 +1,327 @@
+{
+  "constants": {
+    "k_B_J_per_K": 1.380649e-23,
+    "T_brain_K": 310.0,
+    "ln2": 0.6931471805599453,
+    "Landauer_unit_at_T_brain_J": 2.9666781812480147e-21
+  },
+  "unitary_evolution": {
+    "steps": [
+      {
+        "label": "|00> initial",
+        "amplitudes_real": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "amplitudes_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "probabilities": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "norm": 1.0,
+        "K_change_bits": 0.0,
+        "K_change_note": "Initial state: K-change = 0 (nothing happened yet)"
+      },
+      {
+        "label": "(H\u2297I)|00> = |+>|0>",
+        "amplitudes_real": [
+          0.7071067811865475,
+          0.0,
+          0.7071067811865475,
+          0.0
+        ],
+        "amplitudes_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "probabilities": [
+          0.4999999999999999,
+          0.0,
+          0.4999999999999999,
+          0.0
+        ],
+        "norm": 0.9999999999999999,
+        "gate_applied": "H\u2297I (Hadamard on qubit 0)",
+        "fidelity_with_previous": 0.5,
+        "K_change_bits": 0.0,
+        "K_change_note": "State changed: fidelity = 0.5000 < 1 (states are different). BUT K(psi_new | psi_old, H\u2297I) = 0 because psi_new is computable deterministically from psi_old and H\u2297I. No new information created."
+      },
+      {
+        "label": "Bell state: (|00>+|11>)/sqrt(2)",
+        "amplitudes_real": [
+          0.7071067811865475,
+          0.0,
+          0.0,
+          0.7071067811865475
+        ],
+        "amplitudes_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "probabilities": [
+          0.4999999999999999,
+          0.0,
+          0.0,
+          0.4999999999999999
+        ],
+        "norm": 0.9999999999999999,
+        "gate_applied": "CNOT (control=q0, target=q1)",
+        "fidelity_with_previous": 0.25,
+        "K_change_bits": 0.0,
+        "K_change_note": "State changed: fidelity = 0.2500 < 1. Entanglement created. BUT K(Bell | |+>|0>, CNOT) = 0. The Bell state is EXACTLY determined by the previous state and the gate. Entanglement is not K-change."
+      },
+      {
+        "label": "(T\u2297I) Bell state",
+        "amplitudes_real": [
+          0.7071067811865475,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "amplitudes_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.4999999999999999
+        ],
+        "probabilities": [
+          0.4999999999999999,
+          0.0,
+          0.0,
+          0.4999999999999999
+        ],
+        "norm": 0.9999999999999999,
+        "gate_applied": "T\u2297I (T-gate on qubit 0)",
+        "fidelity_with_previous": 0.8535533905932738,
+        "K_change_bits": 0.0,
+        "K_change_note": "Phase rotation applied. Fidelity = 0.8536. State is observationally indistinguishable from Bell state in the computational basis (same probabilities), but differs in phase. K(new | old, T\u2297I) = 0 still \u2014 it is deterministic."
+      }
+    ],
+    "final_state_label": "(T\u2297I) Bell state",
+    "summary": {
+      "conclusion": "Across 3 unitary steps, the quantum state rotated substantially (fidelities: [0.5, 0.25, 0.8536]). Yet K-change = 0 at every step. Unitary evolution is: (1) deterministic, (2) reversible, (3) information-preserving. These three properties force K-change = 0. The Schrodinger equation generates S-information change (the wave function rotates) but ZERO K-information change (the new state is fully compressed as 'apply U to psi_old').",
+      "total_K_change_bits": 0.0,
+      "unitary_steps": 3
+    },
+    "bell_state_probabilities": [
+      0.4999999999999999,
+      0.0,
+      0.0,
+      0.4999999999999999
+    ]
+  },
+  "measurement_cases": [
+    {
+      "label": "maximally_mixed",
+      "P_outcome_0": 0.5,
+      "P_outcome_1": 0.5,
+      "alpha_amplitude": 0.7071067811865476,
+      "beta_amplitude": 0.7071067811865476,
+      "K_unitary_change_bits": 0.0,
+      "K_measure_if_0_bits": 1.0,
+      "K_measure_if_1_bits": 1.0,
+      "expected_K_change_bits": 1.0,
+      "Shannon_entropy_H_bits": 1.0,
+      "E_landauer_expected_J": 2.9666781812480147e-21,
+      "E_landauer_if_0_J": 2.9666781812480147e-21,
+      "E_landauer_if_1_J": 2.9666781812480147e-21,
+      "T_brain_K": 310.0,
+      "note": "|psi> = 0.7071|0> + 0.7071|1>. Measuring: K-change = 1.0000 bits if |0>, 1.0000 bits if |1>. Expected = H = 1.0000 bits. Landauer cost (expected) = 2.9667e-21 J at T=310.0K."
+    },
+    {
+      "label": "slightly_biased",
+      "P_outcome_0": 0.7,
+      "P_outcome_1": 0.30000000000000004,
+      "alpha_amplitude": 0.8366600265340756,
+      "beta_amplitude": 0.5477225575051662,
+      "K_unitary_change_bits": 0.0,
+      "K_measure_if_0_bits": 0.5145731728297583,
+      "K_measure_if_1_bits": 1.7369655941662059,
+      "expected_K_change_bits": 0.8812908992306927,
+      "Shannon_entropy_H_bits": 0.8812908992306927,
+      "E_landauer_expected_J": 2.614506482080139e-21,
+      "E_landauer_if_0_J": 1.5265730044896078e-21,
+      "E_landauer_if_1_J": 5.1530179297913775e-21,
+      "T_brain_K": 310.0,
+      "note": "|psi> = 0.8367|0> + 0.5477|1>. Measuring: K-change = 0.5146 bits if |0>, 1.7370 bits if |1>. Expected = H = 0.8813 bits. Landauer cost (expected) = 2.6145e-21 J at T=310.0K."
+    },
+    {
+      "label": "strongly_biased",
+      "P_outcome_0": 0.9,
+      "P_outcome_1": 0.09999999999999998,
+      "alpha_amplitude": 0.9486832980505138,
+      "beta_amplitude": 0.3162277660168379,
+      "K_unitary_change_bits": 0.0,
+      "K_measure_if_0_bits": 0.15200309344504995,
+      "K_measure_if_1_bits": 3.3219280948873626,
+      "expected_K_change_bits": 0.4689955935892811,
+      "Shannon_entropy_H_bits": 0.4689955935892811,
+      "E_landauer_expected_J": 1.3913589946027816e-21,
+      "E_landauer_if_0_J": 4.509442608056328e-22,
+      "E_landauer_if_1_J": 9.855091598777123e-21,
+      "T_brain_K": 310.0,
+      "note": "|psi> = 0.9487|0> + 0.3162|1>. Measuring: K-change = 0.1520 bits if |0>, 3.3219 bits if |1>. Expected = H = 0.4690 bits. Landauer cost (expected) = 1.3914e-21 J at T=310.0K."
+    },
+    {
+      "label": "nearly_classical",
+      "P_outcome_0": 0.99,
+      "P_outcome_1": 0.010000000000000009,
+      "alpha_amplitude": 0.99498743710662,
+      "beta_amplitude": 0.10000000000000005,
+      "K_unitary_change_bits": 0.0,
+      "K_measure_if_0_bits": 0.014499569695115089,
+      "K_measure_if_1_bits": 6.6438561897747235,
+      "expected_K_change_bits": 0.08079313589591124,
+      "Shannon_entropy_H_bits": 0.08079313589591124,
+      "E_landauer_expected_J": 2.396872334570056e-22,
+      "E_landauer_if_0_J": 4.301555705198286e-23,
+      "E_landauer_if_1_J": 1.9710183197554238e-20,
+      "T_brain_K": 310.0,
+      "note": "|psi> = 0.9950|0> + 0.1000|1>. Measuring: K-change = 0.0145 bits if |0>, 6.6439 bits if |1>. Expected = H = 0.0808 bits. Landauer cost (expected) = 2.3969e-22 J at T=310.0K."
+    },
+    {
+      "label": "pure_0",
+      "P_outcome_0": 0.9999999999,
+      "P_outcome_1": 1.000000082740371e-10,
+      "alpha_amplitude": 0.99999999995,
+      "beta_amplitude": 1.0000000413701846e-05,
+      "K_unitary_change_bits": 0.0,
+      "K_measure_if_0_bits": 1.442695160330221e-10,
+      "K_measure_if_1_bits": 33.219280829504505,
+      "expected_K_change_bits": 3.4661978738266075e-09,
+      "Shannon_entropy_H_bits": 3.4661978738266075e-09,
+      "E_landauer_expected_J": 1.0283093604169654e-29,
+      "E_landauer_if_0_J": 4.280012254343773e-31,
+      "E_landauer_if_1_J": 9.855091563364147e-20,
+      "T_brain_K": 310.0,
+      "note": "|psi> = 1.0000|0> + 0.0000|1>. Measuring: K-change = 0.0000 bits if |0>, 33.2193 bits if |1>. Expected = H = 0.0000 bits. Landauer cost (expected) = 1.0283e-29 J at T=310.0K."
+    },
+    {
+      "label": "pure_1",
+      "P_outcome_0": 1e-10,
+      "P_outcome_1": 0.9999999999,
+      "alpha_amplitude": 1e-05,
+      "beta_amplitude": 0.99999999995,
+      "K_unitary_change_bits": 0.0,
+      "K_measure_if_0_bits": 33.219280948873624,
+      "K_measure_if_1_bits": 1.442695160330221e-10,
+      "expected_K_change_bits": 3.4661976109059578e-09,
+      "Shannon_entropy_H_bits": 3.4661976109059578e-09,
+      "E_landauer_expected_J": 1.02830928241687e-29,
+      "E_landauer_if_0_J": 9.855091598777124e-20,
+      "E_landauer_if_1_J": 4.280012254343773e-31,
+      "T_brain_K": 310.0,
+      "note": "|psi> = 0.0000|0> + 1.0000|1>. Measuring: K-change = 33.2193 bits if |0>, 0.0000 bits if |1>. Expected = H = 0.0000 bits. Landauer cost (expected) = 1.0283e-29 J at T=310.0K."
+    },
+    {
+      "label": "symmetric_30_70",
+      "P_outcome_0": 0.3,
+      "P_outcome_1": 0.7,
+      "alpha_amplitude": 0.5477225575051661,
+      "beta_amplitude": 0.8366600265340756,
+      "K_unitary_change_bits": 0.0,
+      "K_measure_if_0_bits": 1.7369655941662063,
+      "K_measure_if_1_bits": 0.5145731728297583,
+      "expected_K_change_bits": 0.8812908992306927,
+      "Shannon_entropy_H_bits": 0.8812908992306927,
+      "E_landauer_expected_J": 2.614506482080139e-21,
+      "E_landauer_if_0_J": 5.153017929791378e-21,
+      "E_landauer_if_1_J": 1.5265730044896078e-21,
+      "T_brain_K": 310.0,
+      "note": "|psi> = 0.5477|0> + 0.8367|1>. Measuring: K-change = 1.7370 bits if |0>, 0.5146 bits if |1>. Expected = H = 0.8813 bits. Landauer cost (expected) = 2.6145e-21 J at T=310.0K."
+    },
+    {
+      "label": "symmetric_25_75",
+      "P_outcome_0": 0.25,
+      "P_outcome_1": 0.75,
+      "alpha_amplitude": 0.5,
+      "beta_amplitude": 0.8660254037844386,
+      "K_unitary_change_bits": 0.0,
+      "K_measure_if_0_bits": 2.0,
+      "K_measure_if_1_bits": 0.4150374992788438,
+      "expected_K_change_bits": 0.8112781244591328,
+      "Shannon_entropy_H_bits": 0.8112781244591328,
+      "E_landauer_expected_J": 2.406801110756721e-21,
+      "E_landauer_if_0_J": 5.9333563624960294e-21,
+      "E_landauer_if_1_J": 1.2312826935102846e-21,
+      "T_brain_K": 310.0,
+      "note": "|psi> = 0.5000|0> + 0.8660|1>. Measuring: K-change = 2.0000 bits if |0>, 0.4150 bits if |1>. Expected = H = 0.8113 bits. Landauer cost (expected) = 2.4068e-21 J at T=310.0K."
+    }
+  ],
+  "maximally_superposed_qubit": {
+    "label": "maximally_superposed_qubit",
+    "P_outcome_0": 0.5,
+    "P_outcome_1": 0.5,
+    "K_unitary_change_bits": 0.0,
+    "K_measurement_bits": 1.0,
+    "Shannon_H_bits": 1.0,
+    "E_landauer_J": 2.9666781812480147e-21,
+    "E_landauer_eV": 0.018516548789264235,
+    "T_brain_K": 310.0,
+    "note": "Max superposition: H = 1 bit. Unitary rotation: K-change = 0 bits (free). Measurement: K-change = 1 bit. Landauer floor = 2.9667e-21 J = 1.8517e-02 eV at T=310.0K."
+  },
+  "brain_decoherence_budget": {
+    "n_neurons": 100000000000.0,
+    "firing_rate_Hz": 100.0,
+    "decoherence_events_per_s": 1000000000000.0,
+    "K_bits_per_event": 1.0,
+    "total_K_rate_bits_per_s": 1000000000000.0,
+    "E_landauer_per_event_J": 2.9666781812480147e-21,
+    "E_landauer_total_W": 2.966678181248015e-09,
+    "E_brain_actual_W": 20.0,
+    "ratio_actual_to_landauer": 6741546867.610172,
+    "E_actual_per_AP_J": 2e-12,
+    "ratio_per_AP_actual_to_land": 674154686.7610173,
+    "T_brain_K": 310.0,
+    "decoherence_per_neuron_per_s": 10.0,
+    "note": "Estimated 1.00e+12 decoherence events/s in brain. Each costs >= 2.9667e-21 J (Landauer at T=310.0K). Total minimum power = 2.9667e-09 W = 2.9667e+00 nW. Actual brain power = 20.0 W. Ratio = 6.7415e+09 (6.742 billion \u00d7 Landauer floor). Per action potential: Landauer = 2.9667e-21 J, actual = 2.0000e-12 J, ratio = 6.7415e+08."
+  },
+  "S_vs_K_distinction": {
+    "S_dynamics_frequency_Hz": 100000000000000.0,
+    "K_update_frequency_Hz": 1000.0,
+    "ratio_S_to_K_timescales": 100000000000.0,
+    "S_bits_2qubit_continuous": 512,
+    "S_bits_rate_per_s": 5.12e+16,
+    "K_bits_per_measurement": 1.0,
+    "K_bits_rate_per_s": 1000.0,
+    "K_to_S_rate_ratio": 1.953125e-14,
+    "note": "S-dynamics (Schrodinger) runs at ~1e+14 Hz for molecular systems. K-updates (measurement/decoherence) run at ~1e+03 Hz (neural timescale). S-to-K timescale ratio: 1e+11\u00d7 \u2014 S is 1e+11\u00d7 faster than K. S-bit rate for 2-qubit system: 5.12e+16 bits/s. K-bit rate from measurements: 1.00e+03 bits/s. K/S rate ratio: 1.95e-14. Phenomenal flow tracks K-updates (decoherence), not S-rotations."
+  },
+  "bell_state_measurement": {
+    "state": "Bell state (|00> + |11>) / sqrt(2)",
+    "P_qubit0_0": 0.5,
+    "P_qubit0_1": 0.5,
+    "K_qubit0_bits": 1.0,
+    "K_qubit1_given_qubit0_bits": 0.0,
+    "K_total_bell_measurement_bits": 1.0,
+    "K_total_independent_bits": 2.0,
+    "mutual_information_bits": 1.0,
+    "E_landauer_bell_J": 2.9666781812480147e-21,
+    "E_landauer_independent_J": 5.9333563624960294e-21,
+    "T_brain_K": 310.0,
+    "note": "Bell state full measurement: K = 1.0 bit total (entanglement shares 1 bit). Two independent qubits: K = 2.0 bits total. Mutual information I(q0;q1) = 1.0 bit \u2014 entanglement 'pre-compresses' the measurement outcome by exactly I. Landauer cost: Bell = 2.9667e-21 J, independent = 5.9334e-21 J."
+  },
+  "key_findings": {
+    "unitary_K_change_bits": 0.0,
+    "measurement_K_change_1bit_J": 2.9666781812480147e-21,
+    "brain_K_rate_bits_per_s": 1000000000000.0,
+    "brain_Landauer_floor_W": 2.966678181248015e-09,
+    "brain_actual_W": 20.0,
+    "brain_overhead_factor": 6741546867.610172,
+    "entanglement_K_saving_bits": 1.0,
+    "S_to_K_timescale_ratio": 100000000000.0
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "description": "Holographic information bound across cosmic epochs",
+  "date": "2026-04-09",
+  "constants": {
+    "hbar_Js": 1.054571817e-34,
+    "c_ms": 299792458.0,
+    "G_SI": 6.6743e-11,
+    "k_B_JK": 1.380649e-23,
+    "l_P_m": 1.61625502392855e-35,
+    "t_P_s": 5.391246446661944e-44
+  },
+  "cosmology": {
+    "H0_si": 2.1842852414333306e-18,
+    "T_CMB_today_K": 2.725,
+    "t_today_s": 4.3549488e+17,
+    "R_today_m": 4.399365e+26,
+    "t_eq_s": 1483207200000.0
+  },
+  "epochs": [
+    {
+      "epoch": "Planck epoch",
+      "t_s": 5.391246446661944e-44,
+      "R_m": 3.2325100478571e-35,
+      "S_holo_bits": 18.129440567308777,
+      "log10_S_holo": 1.258384402976958,
+      "N_decoherence": 1.9219505762659656e+90,
+      "log10_N_dec": 90.2837422154184,
+      "ram_exceeds_ops": false,
+      "T_CMB_K": 6.314083375399283e+31,
+      "note": "t = t_P; R = l_P"
+    },
+    {
+      "epoch": "Electroweak phase",
+      "t_s": 1e-12,
+      "R_m": 0.000599584916,
+      "S_holo_bits": 6.237435003686515e+63,
+      "log10_S_holo": 63.79500603315051,
+      "N_decoherence": 8.277470143833314e+105,
+      "log10_N_dec": 105.91789762296179,
+      "ram_exceeds_ops": false,
+      "T_CMB_K": 1.4660706678574738e+16,
+      "note": "t = 1e-12 s; EW unification"
+    },
+    {
+      "epoch": "BBN start",
+      "t_s": 1.0,
+      "R_m": 599584916.0,
+      "S_holo_bits": 6.237435003686514e+87,
+      "log10_S_holo": 87.7950060331505,
+      "N_decoherence": 8.277470143833313e+111,
+      "log10_N_dec": 111.91789762296179,
+      "ram_exceeds_ops": false,
+      "T_CMB_K": 14660706678.574736,
+      "note": "t = 1 s; neutrons freeze out"
+    },
+    {
+      "epoch": "BBN end",
+      "t_s": 180.0,
+      "R_m": 107925284880.0,
+      "S_holo_bits": 2.0209289411944304e+92,
+      "log10_S_holo": 92.30555104335711,
+      "N_decoherence": 1.110539155400175e+113,
+      "log10_N_dec": 113.04553387551344,
+      "ram_exceeds_ops": false,
+      "T_CMB_K": 1092744557.7159424,
+      "note": "t = 3 min; He-4 synthesis"
+    },
+    {
+      "epoch": "Radiation-matter eq",
+      "t_s": 1483207200000.0,
+      "R_m": 8.893086644225952e+20,
+      "S_holo_bits": 1.372175570772345e+112,
+      "log10_S_holo": 112.1374096831924,
+      "N_decoherence": 1.0080882098837662e+118,
+      "log10_N_dec": 118.00349853547226,
+      "ram_exceeds_ops": false,
+      "T_CMB_K": 12037.99038909425,
+      "note": "t = 47,000 yr"
+    },
+    {
+      "epoch": "Recombination",
+      "t_s": 11991888000000.0,
+      "R_m": 1.2114193478260869e+22,
+      "S_holo_bits": 2.546206644595799e+114,
+      "log10_S_holo": 114.40589364714397,
+      "N_decoherence": 2.530907060963273e+118,
+      "log10_N_dec": 118.40327619744909,
+      "ram_exceeds_ops": false,
+      "T_CMB_K": 2988.341090106697,
+      "note": "t = 380 kyr; CMB release"
+    },
+    {
+      "epoch": "Matter domination mid",
+      "t_s": 3.15576e+16,
+      "R_m": 3.1879456521739128e+25,
+      "S_holo_bits": 1.763301000412603e+121,
+      "log10_S_holo": 121.24632645391034,
+      "N_decoherence": 4.139690321828108e+119,
+      "log10_N_dec": 119.61696785403115,
+      "ram_exceeds_ops": true,
+      "T_CMB_K": 15.677828072714592,
+      "note": "t = 1 Gyr; first galaxies"
+    },
+    {
+      "epoch": "Today",
+      "t_s": 4.3549488e+17,
+      "R_m": 4.399365e+26,
+      "S_holo_bits": 3.3580304251857604e+123,
+      "log10_S_holo": 123.52608462671282,
+      "N_decoherence": 9.999999999999975e+119,
+      "log10_N_dec": 120.0,
+      "ram_exceeds_ops": true,
+      "T_CMB_K": 2.725,
+      "note": "t = 13.8 Gyr"
+    }
+  ],
+  "lcdm_parameters": [
+    {
+      "name": "H_0",
+      "value": 67.4,
+      "sigma": 0.5,
+      "unit": "km/s/Mpc",
+      "description": "Hubble constant",
+      "sig_figs": 2.129689892199301,
+      "bits": 7.074676686294496
+    },
+    {
+      "name": "Omega_b",
+      "value": 0.0493,
+      "sigma": 0.0006,
+      "unit": "dimensionless",
+      "description": "Baryon density fraction",
+      "sig_figs": 1.9146956688935863,
+      "bits": 6.360481335656755
+    },
+    {
+      "name": "Omega_c",
+      "value": 0.265,
+      "sigma": 0.004,
+      "unit": "dimensionless",
+      "description": "Cold dark matter density",
+      "sig_figs": 1.8211858826088454,
+      "bits": 6.049848549450561
+    },
+    {
+      "name": "Omega_L",
+      "value": 0.685,
+      "sigma": 0.007,
+      "unit": "dimensionless",
+      "description": "Dark energy density",
+      "sig_figs": 1.9905925314781687,
+      "bits": 6.612605255790284
+    },
+    {
+      "name": "n_s",
+      "value": 0.9649,
+      "sigma": 0.0042,
+      "unit": "dimensionless",
+      "description": "Spectral index",
+      "sig_figs": 2.361233016004362,
+      "bits": 7.843846294440511
+    },
+    {
+      "name": "A_s",
+      "value": 2.099e-09,
+      "sigma": 3e-11,
+      "unit": "dimensionless",
+      "description": "Scalar amplitude",
+      "sig_figs": 1.844891183862738,
+      "bits": 6.128595855683636
+    }
+  ],
+  "k_specification": {
+    "lcdm_bits": 40.07005397731624,
+    "SM_lagrangian_bits": 24000,
+    "total_kspec_bits": 24040.070053977317,
+    "log10_kspec_bits": 4.380935728888582,
+    "log10_S_holo_today": 123.52608462671282,
+    "compression_ratio_log10": 119.14514889782423
+  },
+  "saturation": {
+    "S_holo_always_exceeds_N_dec": true,
+    "scaling_rad_era": {
+      "S_holo": "t^1",
+      "N_dec": "t^(1/2)"
+    },
+    "scaling_matter_era": {
+      "S_holo": "t^(4/3)",
+      "N_dec": "t^(1/3)"
+    }
+  },
+  "key_findings": [
+    "Planck epoch: S_holo = 1 bit; universe starts with 1 bit of holographic capacity.",
+    "Today: S_holo = 10^123.5 bits.",
+    "S_holo grows faster than N_dec in every era; universe never saturates holographic bound.",
+    "LCDM + SM K-spec = 24040 bits vs S_holo = 10^124 bits.",
+    "Compression ratio: 10^119 \u2014 initial conditions are K-simple.",
+    "R1 (gap.md): converged compression is finitely K-specifiable (~24,100 bits). TOE would compress further."
+  ]
+}

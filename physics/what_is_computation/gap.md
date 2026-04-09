@@ -25,6 +25,8 @@ See attempt_001. The central reframing moves:
 - **R2.** Is P ≠ NP? If yes, compression-finding is categorically harder than compression-verifying. If no, insight reduces to checking. The answer has philosophical consequences for what cognition fundamentally does.
 - **R3.** What does BQP strictly containing P imply about the substrate-dependence of K-manipulation? Does quantum access a different K-function class, or just a faster path?
 
+**Odd-instance answer (Grover simulation):** BQP gives a halved exponent for unstructured search (doubling period k=2 vs k=1 classical). But **structured classical search (DPLL, k≈14) already provides far larger effective advantage** than Grover for problems with exploitable K-structure. The structure/no-structure divide matters more than the classical/quantum divide. The compression asymmetry (finding >> verifying) persists in BQP: even with Grover, finding costs 2^(n/2) while verifying costs O(n). Physical Church-Turing preserved. R3 is now largely answered: substrate affects the doubling period constant, not the fundamental asymmetry.
+
 ## Sky bridges
 
 - **physics/what_is_information** — S/K bifurcation; computation is K-manipulation.

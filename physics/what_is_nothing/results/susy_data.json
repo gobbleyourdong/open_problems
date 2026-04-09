@@ -1,0 +1,205 @@
+{
+  "description": "SUSY cancellation residual vacuum energy computation. Tracks how the cosmological constant gap reduces as SUSY-breaking scale m\u0303 varies.",
+  "date": "2026-04-09",
+  "script": "numerics/susy_cancellation.py",
+  "constants": {
+    "hbar_Js": 1.054571817e-34,
+    "c_ms": 299792458.0,
+    "GeV_J": 1.6021766339999998e-10,
+    "hbar_c_Jm": 3.161526771559562e-26,
+    "hbar_c_GeVm": 1.9732698033839645e-16,
+    "E_Planck_J": 1956081636.0991087,
+    "E_Planck_GeV": 1.2208901282098643e+19,
+    "rho_Lambda_J_m3": 5.9237108648909675e-27,
+    "geV4_to_SI_factor": 2.0852156883572555e+37
+  },
+  "sm_dof": {
+    "boson": 28,
+    "fermion": 90,
+    "total": 118,
+    "net_signed": -62,
+    "mssm_total": 236
+  },
+  "unit_crosscheck": {
+    "photon_only_computed_J_m3": 2.9338478286820017e+111,
+    "photon_only_known_J_m3": 2.933847828682001e+111,
+    "ratio": 1.0000000000000002,
+    "pass": true
+  },
+  "exact_susy": {
+    "rho_J_m3": 0.0,
+    "gap": 0.0,
+    "note": "Exact SUSY: all superpartner masses = SM masses. Perfect cancellation. \u03c1 = 0."
+  },
+  "sweep": [
+    {
+      "m_tilde_GeV": 10,
+      "label": "10 GeV",
+      "rho_simple_GeV4": 7472.437293622411,
+      "rho_canon_GeV4": 63.32573977646111,
+      "rho_detailed_GeV4": -36339444.27880658,
+      "rho_simple_J_m3": 1.5581643474927283e+41,
+      "rho_canon_J_m3": 1.3204782605870578e+39,
+      "rho_detailed_J_m3": -7.57755793163518e+44,
+      "gap_simple": 2.6303855522857428e+67,
+      "gap_canon": 2.22914029854724e+65,
+      "gap_detailed": -1.279191051768975e+71,
+      "log10_gap_simple": 67.42001941045096,
+      "log10_gap_canon": 65.34813740314485,
+      "log10_gap_detailed": 71.10693541276058
+    },
+    {
+      "m_tilde_GeV": 100,
+      "label": "100 GeV (EW scale)",
+      "rho_simple_GeV4": 74724372.93622412,
+      "rho_canon_GeV4": 633257.397764611,
+      "rho_detailed_GeV4": 1019005.9706586599,
+      "rho_simple_J_m3": 1.5581643474927285e+45,
+      "rho_canon_J_m3": 1.320478260587058e+43,
+      "rho_detailed_J_m3": 2.1248472365471508e+43,
+      "gap_simple": 2.6303855522857434e+71,
+      "gap_canon": 2.2291402985472396e+69,
+      "gap_detailed": 3.587020509628235e+69,
+      "log10_gap_simple": 71.42001941045096,
+      "log10_gap_canon": 69.34813740314485,
+      "log10_gap_detailed": 69.55473385986328
+    },
+    {
+      "m_tilde_GeV": 1000.0,
+      "label": "1 TeV (LHC-accessible SUSY)",
+      "rho_simple_GeV4": 747243729362.2411,
+      "rho_canon_GeV4": 6332573977.6461115,
+      "rho_detailed_GeV4": 373585521500.62305,
+      "rho_simple_J_m3": 1.558164347492728e+49,
+      "rho_canon_J_m3": 1.320478260587058e+47,
+      "rho_detailed_J_m3": 7.79006390376226e+48,
+      "gap_simple": 2.6303855522857425e+75,
+      "gap_canon": 2.22914029854724e+73,
+      "gap_detailed": 1.3150648438857666e+75,
+      "log10_gap_simple": 75.42001941045096,
+      "log10_gap_canon": 73.34813740314485,
+      "log10_gap_detailed": 75.11894716776682
+    },
+    {
+      "m_tilde_GeV": 10000.0,
+      "label": "10 TeV",
+      "rho_simple_GeV4": 7472437293622411.0,
+      "rho_canon_GeV4": 63325739776461.11,
+      "rho_detailed_GeV4": 3736218610468024.5,
+      "rho_simple_J_m3": 1.5581643474927284e+53,
+      "rho_canon_J_m3": 1.3204782605870578e+51,
+      "rho_detailed_J_m3": 7.790821661680271e+52,
+      "gap_simple": 2.630385552285743e+79,
+      "gap_canon": 2.2291402985472397e+77,
+      "gap_detailed": 1.3151927633496457e+79,
+      "log10_gap_simple": 79.42001941045096,
+      "log10_gap_canon": 77.34813740314485,
+      "log10_gap_detailed": 79.11898941056249
+    },
+    {
+      "m_tilde_GeV": 100000.0,
+      "label": "100 TeV",
+      "rho_simple_GeV4": 7.472437293622411e+19,
+      "rho_canon_GeV4": 6.332573977646111e+17,
+      "rho_detailed_GeV4": 3.736218646807571e+19,
+      "rho_simple_J_m3": 1.5581643474927284e+57,
+      "rho_canon_J_m3": 1.320478260587058e+55,
+      "rho_detailed_J_m3": 7.7908217374560625e+56,
+      "gap_simple": 2.630385552285743e+83,
+      "gap_canon": 2.22914029854724e+81,
+      "gap_detailed": 1.315192776141592e+83,
+      "log10_gap_simple": 83.42001941045096,
+      "log10_gap_canon": 81.34813740314485,
+      "log10_gap_detailed": 83.11898941478657
+    },
+    {
+      "m_tilde_GeV": 10000000000.0,
+      "label": "1e10 GeV (GUT-ish)",
+      "rho_simple_GeV4": 7.472437293622411e+39,
+      "rho_canon_GeV4": 6.332573977646111e+37,
+      "rho_detailed_GeV4": 3.7362186468112066e+39,
+      "rho_simple_J_m3": 1.558164347492728e+77,
+      "rho_canon_J_m3": 1.320478260587058e+75,
+      "rho_detailed_J_m3": 7.790821737463643e+76,
+      "gap_simple": 2.6303855522857426e+103,
+      "gap_canon": 2.2291402985472398e+101,
+      "gap_detailed": 1.3151927761428717e+103,
+      "log10_gap_simple": 103.42001941045096,
+      "log10_gap_canon": 101.34813740314485,
+      "log10_gap_detailed": 103.11898941478698
+    },
+    {
+      "m_tilde_GeV": 1000000000000000.0,
+      "label": "1e15 GeV (near-GUT)",
+      "rho_simple_GeV4": 7.4724372936224116e+59,
+      "rho_canon_GeV4": 6.33257397764611e+57,
+      "rho_detailed_GeV4": 3.736218646811205e+59,
+      "rho_simple_J_m3": 1.5581643474927284e+97,
+      "rho_canon_J_m3": 1.3204782605870578e+95,
+      "rho_detailed_J_m3": 7.790821737463641e+96,
+      "gap_simple": 2.630385552285743e+123,
+      "gap_canon": 2.2291402985472396e+121,
+      "gap_detailed": 1.3151927761428714e+123,
+      "log10_gap_simple": 123.42001941045096,
+      "log10_gap_canon": 121.34813740314485,
+      "log10_gap_detailed": 123.11898941478698
+    },
+    {
+      "m_tilde_GeV": 1.2208901282098643e+19,
+      "label": "1.221e+19 GeV (Planck)",
+      "rho_simple_GeV4": 1.6602313406591037e+76,
+      "rho_canon_GeV4": 1.4069757124229692e+74,
+      "rho_detailed_GeV4": 8.301156703295517e+75,
+      "rho_simple_J_m3": 3.461940437844762e+113,
+      "rho_canon_J_m3": 2.9338478286820017e+111,
+      "rho_detailed_J_m3": 1.7309702189223807e+113,
+      "gap_simple": 5.844209004803416e+139,
+      "gap_canon": 4.952719495596115e+137,
+      "gap_detailed": 2.9221045024017073e+139,
+      "log10_gap_simple": 139.76672573909144,
+      "log10_gap_canon": 137.6948437317853,
+      "log10_gap_detailed": 139.46569574342746
+    }
+  ],
+  "milestones": {
+    "gap_139.2": {
+      "target_log10_gap": 139.2,
+      "m_tilde_GeV": 2.9037929681098875e+19,
+      "note": "SM Planck cutoff \u2014 SUSY gives no improvement at this m\u0303"
+    },
+    "gap_60": {
+      "target_log10_gap": 60,
+      "m_tilde_GeV": 0.46022017074738414,
+      "note": "Electroweak-era gap level"
+    },
+    "gap_20": {
+      "target_log10_gap": 20,
+      "m_tilde_GeV": 4.602201707473842e-11,
+      "note": "20 orders from observed"
+    },
+    "gap_0": {
+      "target_log10_gap": 0,
+      "m_tilde_GeV": 4.602201707473842e-16,
+      "m_tilde_eV": 4.6022017074738414e-07,
+      "m_tilde_meV": 0.0004602201707473842,
+      "note": "Exact match to observed \u03c1_\u039b \u2014 the 'meV SUSY' fine-tuning"
+    }
+  },
+  "tev_focus": {
+    "m_tilde_GeV": 1000.0,
+    "log10_gap_canonical": 73.34813740314485,
+    "log10_gap_mssm_full": 75.42001941045096,
+    "log10_gap_detailed": 75.11894716776682,
+    "rho_canon_J_m3": 1.320478260587058e+47,
+    "note": "LHC-motivated SUSY breaking scale; gap still ~10^60"
+  },
+  "fine_tuning_summary": {
+    "sm_gap_log10": 139.2,
+    "susy_1tev_gap_log10": 73.34813740314485,
+    "susy_meV_gap_log10": 0.0,
+    "required_m_tilde_for_exact_meV": 4.602201707473842e-16,
+    "required_m_tilde_meV": 0.0004602201707473841,
+    "lhc_lower_bound_GeV": 1000.0,
+    "fine_tuning_ratio_meV_vs_LHC": 2.1728730367815672e+18
+  }
+}

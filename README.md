@@ -17,13 +17,13 @@ Seven Clay Millennium Prize Problems. Lean 4 formalizations. SOS certificates. Z
 
 | Problem | Status | Lean Theorems | Certificates | Gap |
 |---------|--------|:------------:|:------------:|-----|
-| **Navier-Stokes** | Phase 4 | 22 (0 sorry) | N=3-20, 0 failures | c(N) -> 0 as N -> inf |
-| **Yang-Mills** | Phase 3 | 8 | Finite lattice gap | FKG for SU(2) gauge |
-| **P vs NP** | Phase 1 | 11 | N/A | Faster SAT for P/poly |
-| **Riemann Hypothesis** | Phase 1 | 4 | N/A | No framework |
-| **Birch & Swinnerton-Dyer** | Phase 1 | 3 | N/A | Rank-2 Gross-Zagier |
-| **Hodge Conjecture** | Phase 1 | 2 | N/A | Motivic t-structure |
-| **Poincare** | (solved) | 8 | N/A | 12/12 blind (Perelman) |
+| **Navier-Stokes** | Phase 4 | 30+ (0 sorry) | N=3-20, 0 failures | c(N) ~ 1.2/N, prove decay |
+| **Yang-Mills** | Phase 3 | 15+ | GC > 0 all beta | FKG for SU(2) gauge |
+| **P vs NP** | Phase 1 | 15+ (0 sorry) | Phase transition mapped | 3 barriers formalized |
+| **Riemann Hypothesis** | Phase 1 | 5+ | Li n=1000, Robin | Certificate equivalence (meta-theorem) |
+| **Birch & Swinnerton-Dyer** | Phase 1 | 3 | L-values computed | Rank-2 Gross-Zagier |
+| **Hodge Conjecture** | Phase 2 | 4 | Fermat cubic verified | Motivic t-structure |
+| **Poincare** | (solved) | 11 (0 sorry) | N/A | 12/12 blind (Perelman) |
 
 Each problem directory contains:
 - `PROBLEM.md` — formal statement + known results
@@ -50,12 +50,12 @@ Zero failures across 15,000+ configurations.
 
 ## medical/
 
-One virus. Twelve diseases. One protocol.
+One virus. Fifteen diseases. One protocol.
 
 <p align="center">
   <img src="medical/cvb_structure.png" alt="CVB Capsid Protomer — PDB 9TKM" width="800"/>
 </p>
-<p align="center"><i>Coxsackievirus B1 capsid protomer — first-ever atomic structure (PDB: 9TKM, 2025)</i></p>
+<p align="center"><i>Coxsackievirus B1 capsid protomer — VP1 (blue), VP2 (orange), VP3 (green). First CVB atomic structure (PDB: 9TKM, 2025). Rendered from raw PDB coordinates.</i></p>
 
 All caused by **Coxsackievirus B** (CVB) — same pathogen, same persistence mechanism (5' terminal deletion), same proteases doing damage.
 
@@ -75,6 +75,7 @@ All caused by **Coxsackievirus B** (CVB) — same pathogen, same persistence mec
 | **Neonatal Sepsis** | Multi-organ, high mortality | Earliest seeding event |
 | **Eczema** | Gut-skin axis / Th2 skewing | LGG + barrier repair |
 | **Psoriasis** | IL-17/Th17 driven | Gut-immune connection |
+| **Infertility** | Immune-privileged reservoir (testes) | CVB5 orchitis → subfertility |
 
 ### CVB Druggable Targets (with IC50 data)
 
@@ -96,6 +97,35 @@ All caused by **Coxsackievirus B** (CVB) — same pathogen, same persistence mec
 
 The methodology used to coordinate the work across math, medicine, physics, and philosophy is developed in a separate private workshop. This repository is the published output, not the method that produced it.
 
+## physics/
+
+Six tier-0 questions about how reality works at the fundamental level.
+
+| Question | What's at stake |
+|----------|----------------|
+| **what_is_reality** | Simulation hypothesis, ontology, QM interpretations |
+| **what_is_time** | Block universe vs presentism, arrow of time |
+| **what_is_nothing** | Quantum vacuum, why is there something |
+| **what_is_change** | Zeno, dynamics, continuity |
+| **what_is_information** | Shannon, Wheeler's "it from bit", holographic principle |
+| **what_is_computation** | Church-Turing, quantum computation, pancomputationalism |
+
+## philosophy/
+
+Nine tier-0 questions about meaning, value, mind, and knowing.
+
+| Question | What's at stake |
+|----------|----------------|
+| **what_is_mind** | Hard problem of consciousness, IIT, panpsychism |
+| **what_is_knowing** | Epistemology after Gettier, what LLMs prove about knowledge |
+| **what_is_meaning** | Reference vs use vs distributional semantics |
+| **what_is_good** | Moral realism, Hume's is-ought gap |
+| **what_is_beauty** | Aesthetics, symmetry, evolutionary signals |
+| **what_is_self** | Personal identity, the transporter paradox |
+| **what_is_language** | Universal grammar vs distributional, what LLMs prove |
+| **what_is_number** | Platonism, formalism, is math discovered or invented |
+| **what_is_life** | Demarcation, autopoiesis, origin of life |
+
 ## Structure
 
 ```
@@ -109,9 +139,18 @@ open_problems/
     hodge_conjecture/    <- Hodge conjecture
     poincare_conjecture/ <- Poincare (solved, blind reconstruction)
   medical/
-    t1dm/                <- Type 1 Diabetes (63 attempts)
+    t1dm/                <- Type 1 Diabetes (70+ attempts)
     myocarditis/         <- Viral myocarditis
     me_cfs/              <- Chronic fatigue syndrome
+    ...15 diseases total
+  physics/
+    what_is_reality/     <- Simulation, ontology, QM interpretations
+    what_is_time/        <- Block universe, arrow of time
+    ...6 tier-0 questions
+  philosophy/
+    what_is_mind/        <- Hard problem, consciousness
+    what_is_knowing/     <- Epistemology, Gettier
+    ...9 tier-0 questions
     ...12 more CVB diseases
 ```
 
