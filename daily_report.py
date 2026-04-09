@@ -197,26 +197,19 @@ def generate_pdf(commits, new_files, highlights, lean_count, sorry_count):
     story.append(Paragraph(f"{now} | {len(commits)} commits | {len(set(new_files))} new files | "
                            f"{lean_count} theorems | {sorry_count} sorry", sub_style))
 
-    # Metrics row — compact
-    metrics = [
-        [Paragraph(f'<font color="#c026d3"><b>THEOREMS</b></font>', item_style),
-         Paragraph(f'<font color="#22d3ee" size="10"><b>{lean_count}</b></font>', item_style),
-         Paragraph(f'<font color="#c026d3"><b>SORRY</b></font>', item_style),
-         Paragraph(f'<font color="{"#ef4444" if sorry_count > 0 else "#22d3ee"}" size="10"><b>{sorry_count}</b></font>', item_style),
-         Paragraph(f'<font color="#c026d3"><b>COMMITS</b></font>', item_style),
-         Paragraph(f'<font color="#22d3ee" size="10"><b>{len(commits)}</b></font>', item_style),
-         Paragraph(f'<font color="#c026d3"><b>FILES</b></font>', item_style),
-         Paragraph(f'<font color="#22d3ee" size="10"><b>{len(set(new_files))}</b></font>', item_style)]
-    ]
-    t = Table(metrics, colWidths=[0.85*inch, 0.5*inch, 0.7*inch, 0.5*inch, 0.9*inch, 0.5*inch, 0.65*inch, 0.7*inch])
-    t.setStyle(TableStyle([
-        ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#1a1230')),
-        ('BOX', (0, 0), (-1, -1), 0.5, accent),
-        ('TOPPADDING', (0, 0), (-1, 0), 3),
-        ('BOTTOMPADDING', (0, 0), (-1, 0), 3),
-        ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
-    ]))
-    story.append(t)
+    # Metrics — single row, no wrapping
+    sorry_color = "#ef4444" if sorry_count > 0 else "#22d3ee"
+    metrics_style = ParagraphStyle('Metrics', parent=styles['Normal'], fontSize=11,
+                                    alignment=TA_CENTER, textColor=light, leading=16)
+    story.append(Paragraph(
+        f'<font color="#c026d3">THEOREMS</font> <font color="#22d3ee"><b>{lean_count}</b></font>'
+        f'&nbsp;&nbsp;&nbsp;&nbsp;'
+        f'<font color="#c026d3">SORRY</font> <font color="{sorry_color}"><b>{sorry_count}</b></font>'
+        f'&nbsp;&nbsp;&nbsp;&nbsp;'
+        f'<font color="#c026d3">COMMITS</font> <font color="#22d3ee"><b>{len(commits)}</b></font>'
+        f'&nbsp;&nbsp;&nbsp;&nbsp;'
+        f'<font color="#c026d3">FILES</font> <font color="#22d3ee"><b>{len(set(new_files))}</b></font>',
+        metrics_style))
     story.append(Spacer(1, 4))
 
     # Domain bars — compact
