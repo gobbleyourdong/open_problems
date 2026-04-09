@@ -26,6 +26,45 @@ WITH VACCINE:
   └── Neonatal sepsis (maternal antibodies protect neonate)
 ```
 
+## Sequence Conservation — What the Genomic Data Tells Us About Antigen Design
+
+Real CVB1–6 genome analysis (pattern 013, attempt 072) provides new precision for antigen selection:
+
+| Protein/Region | Conservation | Surface-exposed? | Vaccine use |
+|----------------|-------------|-----------------|-------------|
+| VP1 capsid | ~40% | YES (serotype determinant) | Serotype-specific neutralization — multivalent required |
+| VP2 capsid | ~55% | YES | Better cross-reactivity than VP1 |
+| VP3 capsid | ~50% | YES | Moderate cross-reactivity |
+| **3A membrane anchor** | **97.4% conserved** | NO (internal) | **T cell target (CTL) — pan-serotype** |
+| 2C ATPase | ~38% | NO (replication complex) | Drug target (fluoxetine), limited vaccine use |
+| 5' cloverleaf nt 1-10 | **100% conserved** | RNA (not protein) | Diagnostic target, not vaccine antigen |
+
+### The 3A Insight: Adding a Cellular Immunity Component
+
+The 3A protein at 97.4% conservation is the most conserved CVB protein. It is membrane-anchored and NOT surface-exposed on the virion — so antibodies against 3A will NOT neutralize extracellular CVB.
+
+**However**: 3A peptides are presented by MHC class I on infected cells, making them targets for cytotoxic T lymphocytes (CTL). A vaccine that generates 3A-specific CTL would:
+1. Kill CVB-infected cells regardless of serotype (97.4% sequence conservation = high cross-reactivity)
+2. **Target the intracellular phase** — including TD mutant-infected cells (which are invisible to antibodies but still present 3A peptides)
+3. Complement the humoral arm (VP1-VP3 antibodies clear extracellular WT; 3A CTL clear intracellular persistent virus)
+
+**This is the missing arm of the CVB vaccine design**: current candidates (VLP-ΔVP4, inactivated, recombinant VP1) all focus on antibody-mediated neutralization of extracellular virus. None specifically target the intracellular persistence phase.
+
+**Proposed new vaccine design: BiComponent CVB Vaccine**
+```
+Humoral arm:   VLP-ΔVP4 (VP1-VP3, 5 serotypes) → neutralizing antibodies → prevent/clear WT
+Cellular arm:  3A protein or 3A synthetic peptides → 3A-specific CTL → kill TD-infected cells
+
+Combined effect:
+  WT CVB → antibodies neutralize → no persistence established
+  IF persistence establishes (some will) → 3A CTL patrol tissue → kill infected cells
+  → Much lower probability of chronic disease even in vaccinated individuals
+```
+
+This would be the first vaccine to address both the acute (WT, extracellular) AND chronic (TD, intracellular) phases of CVB infection. No current vaccine candidate targets the chronic phase.
+
+**Priority recommendation**: add 3A peptide library to mRNA vaccine design alongside VP1-VP3 capsid antigens.
+
 ## The Candidates
 
 ### 1. Soppela VLP-ΔVP4 (Most Promising)
