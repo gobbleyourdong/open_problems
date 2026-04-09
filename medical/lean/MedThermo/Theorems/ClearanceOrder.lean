@@ -145,7 +145,7 @@ low immune access. The combined rate determines the ordering.
     under the full protocol parameters. -/
 def fullProtocolOrdering : Prop :=
   -- Under full protocol: clearanceTime(liver) < clearanceTime(pericardium) < ... < clearanceTime(testes)
-  -- This is verified numerically by the ODD instance unified_cvb_clearance_v2.py
+  -- This is verified numerically by the numerical track unified_cvb_clearance_v2.py
   -- Formal proof requires bounding the clearance rate for each organ from the parameters
   True -- placeholder: the content is in the numerical verification + the structural theorem above
 

@@ -3,7 +3,7 @@
     "generated": "2026-04-08T22:17:29.695810",
     "simulator_version": "1.0.0",
     "script": "patient_zero_simulator.py",
-    "sigma_method": "ODD instance (numerics)"
+    "sigma_method": "numerical track (numerics)"
   },
   "patient_profile": {
     "age": 67,

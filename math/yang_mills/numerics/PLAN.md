@@ -1,7 +1,7 @@
 # Yang-Mills Mass Gap — Numerical Experiments Plan
 
 **Date**: 2026-04-07
-**Machine**: DGX Spark (GB10 Blackwell, 128.5GB unified memory)
+**Machine**: GPU workstation (GB10 Blackwell, 128.5GB unified memory)
 **Goal**: Computational certification of the mass gap in 4D SU(2) pure gauge theory,
 preceding any analytical proof attempt.
 

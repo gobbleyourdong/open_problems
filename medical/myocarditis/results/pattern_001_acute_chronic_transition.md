@@ -150,5 +150,5 @@ After Rx:   Dystrophin_synthesis > Dystrophin_destruction → recovery
 ## Status
 - Pattern identified from ODE modeling and literature synthesis
 - Numerics complete: cvb3_cardiac_kinetics.py, dystrophin_cleavage_model.py
-- Awaiting: Lean formalization of the inequality reversal (EVEN instance)
+- Awaiting: Lean formalization of the inequality reversal (theory track)
 - Awaiting: Literature deep-dive on fluoxetine cardiac PK (papers/)

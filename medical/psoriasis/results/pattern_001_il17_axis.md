@@ -156,5 +156,5 @@ protective profile: gut integrity + Treg sufficiency + low NLRP3 activity.
 
 - ODE model complete: numerics/il17_il23_axis_model.py
 - Biologic vs. protocol comparison and NF-κB strategy analysis implemented
-- Next: Lean formalization of the Treg/Th17 pivot (EVEN instance)
+- Next: Lean formalization of the Treg/Th17 pivot (theory track)
 - Next: Literature mine for apremilast + T1DM overlap (papers/)

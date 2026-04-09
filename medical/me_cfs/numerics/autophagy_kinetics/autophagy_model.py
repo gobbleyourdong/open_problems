@@ -10,7 +10,7 @@ References:
   - Takahashi et al. 2018: FMD-induced autophagy kinetics
   - Longo & Mattson 2014: Intermittent fasting and cellular autophagy
 
-Author: ODD instance (REQ-006)
+Author: numerical track (REQ-006)
 """
 
 import numpy as np

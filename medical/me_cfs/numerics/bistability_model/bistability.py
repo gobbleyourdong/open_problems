@@ -18,7 +18,7 @@ Bistability mechanism:
   - Health attractor: V→0 removes all drivers → N,M,A → 0 → F → 1
   - Disease attractor: V low but non-zero, I elevated → self-sustaining loop
 
-Author: ODD instance (REQ-011)
+Author: numerical track (REQ-011)
 """
 
 import numpy as np

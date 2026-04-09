@@ -141,4 +141,4 @@ This certificate validates the following model parameters:
 
 *systematic approach -- ODD Instance (numerics)*
 *Certificate issued: 2026-04-08*
-*Review status: Pending EVEN instance verification*
+*Review status: Pending theory track verification*

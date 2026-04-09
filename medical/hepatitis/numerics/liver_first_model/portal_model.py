@@ -20,7 +20,7 @@ References:
   - CVB hepatic tropism: Fohlman et al. 1990
   - Portal flow: ~1.5 L/min (standard physiology)
 
-Author: ODD instance (REQ-010)
+Author: numerical track (REQ-010)
 """
 
 import numpy as np

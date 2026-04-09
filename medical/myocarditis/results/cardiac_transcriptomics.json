@@ -1,0 +1,1777 @@
+{
+  "metadata": {
+    "analysis_date": "2026-04-08",
+    "analysis_script": "/home/jb/medical_problems/numerics/transcriptomics/analyze_cardiac_v2.py",
+    "datasets": {
+      "GSE1457": {
+        "title": "CVB3 cardiac time course \u2014 male A/J mice",
+        "platform": "GPL81 (Affymetrix MG-U74Av2)",
+        "scale": "MAS5_linear",
+        "n_samples": 7,
+        "groups": [
+          "day3_PBS",
+          "day3_CVB3",
+          "day9_PBS",
+          "day9_CVB3",
+          "day30_PBS",
+          "day30_CVB3"
+        ],
+        "note": "All samples are pooled (n=1 per group) \u2014 no statistical test possible"
+      },
+      "GSE35182": {
+        "title": "Sex differences CVB3 myocarditis 10+90 dpi \u2014 BALB/c mice",
+        "platform": "GPL6246 (Affymetrix Mouse Gene ST 1.0)",
+        "scale": "log2_RMA",
+        "n_samples": 24,
+        "n_per_group": 3,
+        "probe_coverage_note": "4 of 26 target genes found via curated probe map"
+      },
+      "GSE19496": {
+        "title": "Genetic susceptibility CVB3 myocarditis (day 4) \u2014 4 mouse strains",
+        "platform": "GPL6887 (Illumina MouseWG-6 v2)",
+        "scale": "log2_RMA",
+        "n_samples": 24,
+        "strains": {
+          "AJ": "susceptible",
+          "B10A": "resistant",
+          "B6": "moderate",
+          "CSS3": "congenic"
+        },
+        "probe_coverage_note": "5 of 26 target genes found"
+      },
+      "GSE19303": {
+        "title": "Human DCM endomyocardial biopsies \u2014 before/after IA/IgG treatment",
+        "platform": "GPL570 (Affymetrix HG-U133 Plus 2.0)",
+        "scale": "MAS5_linear",
+        "n_dcm_baseline": 40,
+        "n_dcm_followup": 33,
+        "n_controls": 8,
+        "n_total": 81,
+        "virus_breakdown": {
+          "virus: PVB19": 18,
+          "virus: negative": 44,
+          "virus: HHV6": 10,
+          "virus: PVB19/HHV6": 1,
+          "virus: HSV-1": 1,
+          "virus: HHV6-B": 1,
+          "virus: PVB19,HHV6": 1,
+          "virus: EBV,": 1,
+          "virus: HHV6 A": 1,
+          "virus: HHV6 B": 1,
+          "virus: HHV6B, EBV": 1,
+          "virus: EBV": 1
+        },
+        "probe_coverage_note": "27 genes from extended GPL570 probe map"
+      }
+    }
+  },
+  "fold_changes": {
+    "GSE1457_murine_CVB3_timecourse": {
+      "day3_CVB3_vs_PBS": {
+        "Dmd": {
+          "mean_case": 647.6,
+          "mean_ctrl": 669.7,
+          "log2fc": -0.042,
+          "fc": 0.9713,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Lamp2": {
+          "mean_case": 1777.1,
+          "mean_ctrl": 171.6,
+          "log2fc": 2.789,
+          "fc": 6.9113,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Ifit1": {
+          "mean_case": 139.2,
+          "mean_ctrl": 34.65,
+          "log2fc": 0.829,
+          "fc": 1.7765,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Ifit2": {
+          "mean_case": 525.2,
+          "mean_ctrl": 84.9,
+          "log2fc": 1.7576,
+          "fc": 3.3813,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Mx1": {
+          "mean_case": 1766.6,
+          "mean_ctrl": 1228.6,
+          "log2fc": 0.4905,
+          "fc": 1.4049,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Isg15": {
+          "mean_case": 27.8,
+          "mean_ctrl": -41.4,
+          "log2fc": 1.1249,
+          "fc": 2.1809,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Nfkb1": {
+          "mean_case": 97.0,
+          "mean_ctrl": 9.2,
+          "log2fc": 0.8512,
+          "fc": 1.804,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Bcl2": {
+          "mean_case": 9125.9,
+          "mean_ctrl": 8713.9,
+          "log2fc": 0.0659,
+          "fc": 1.0467,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Bax": {
+          "mean_case": 255.2,
+          "mean_ctrl": 132.7,
+          "log2fc": 0.6102,
+          "fc": 1.5264,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Casp3": {
+          "mean_case": 507.6,
+          "mean_ctrl": 713.4,
+          "log2fc": -0.4208,
+          "fc": 0.747,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Col1a1": {
+          "mean_case": -61.6,
+          "mean_ctrl": -58.5,
+          "log2fc": -0.112,
+          "fc": 0.9253,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Fn1": {
+          "mean_case": 45.3,
+          "mean_ctrl": 109.1,
+          "log2fc": -0.5252,
+          "fc": 0.6949,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Myh7": {
+          "mean_case": 1159.9,
+          "mean_ctrl": 1248.3,
+          "log2fc": -0.0978,
+          "fc": 0.9344,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Myh6": {
+          "mean_case": -7.6,
+          "mean_ctrl": -40.8,
+          "log2fc": 0.6423,
+          "fc": 1.5608,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Tnni3": {
+          "mean_case": 373.1,
+          "mean_ctrl": 370.8,
+          "log2fc": 0.007,
+          "fc": 1.0049,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Cxadr": {
+          "mean_case": 12413.4,
+          "mean_ctrl": 11274.1,
+          "log2fc": 0.1377,
+          "fc": 1.1002,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Becn1": {
+          "mean_case": 211.4,
+          "mean_ctrl": 712.4,
+          "log2fc": -1.3834,
+          "fc": 0.3833,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Sqstm1": {
+          "mean_case": 3190.8,
+          "mean_ctrl": 1796.3,
+          "log2fc": 0.7953,
+          "fc": 1.7354,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Foxp3": {
+          "mean_case": 225.5,
+          "mean_ctrl": 666.6,
+          "log2fc": -1.2358,
+          "fc": 0.4246,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Foxp1": {
+          "mean_case": -73.8,
+          "mean_ctrl": -58.9,
+          "log2fc": -0.6496,
+          "fc": 0.6375,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        }
+      },
+      "day9_CVB3_vs_PBS": {
+        "Dmd": {
+          "mean_case": 1055.9,
+          "mean_ctrl": 728.1,
+          "log2fc": 0.4811,
+          "fc": 1.3958,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Lamp2": {
+          "mean_case": 527.1,
+          "mean_ctrl": 136.9,
+          "log2fc": 1.4044,
+          "fc": 2.6471,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Ifit1": {
+          "mean_case": 27.9,
+          "mean_ctrl": 44.2,
+          "log2fc": -0.1731,
+          "fc": 0.887,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Ifit2": {
+          "mean_case": 1519.8,
+          "mean_ctrl": 67.1,
+          "log2fc": 3.277,
+          "fc": 9.6936,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Mx1": {
+          "mean_case": 1474.4,
+          "mean_ctrl": 1508.7,
+          "log2fc": -0.0311,
+          "fc": 0.9787,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Isg15": {
+          "mean_case": 14.8,
+          "mean_ctrl": 23.4,
+          "log2fc": -0.1042,
+          "fc": 0.9303,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Nfkb1": {
+          "mean_case": 181.3,
+          "mean_ctrl": 70.8,
+          "log2fc": 0.7198,
+          "fc": 1.647,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Bcl2": {
+          "mean_case": 21479.3,
+          "mean_ctrl": 10776.2,
+          "log2fc": 0.9885,
+          "fc": 1.9841,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Bax": {
+          "mean_case": 285.9,
+          "mean_ctrl": 257.0,
+          "log2fc": 0.1123,
+          "fc": 1.081,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Casp3": {
+          "mean_case": 763.0,
+          "mean_ctrl": 732.4,
+          "log2fc": 0.0521,
+          "fc": 1.0368,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Col1a1": {
+          "mean_case": 19.0,
+          "mean_ctrl": -86.7,
+          "log2fc": 3.1615,
+          "fc": 8.9474,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Fn1": {
+          "mean_case": 200.8,
+          "mean_ctrl": 165.9,
+          "log2fc": 0.1779,
+          "fc": 1.1313,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Myh7": {
+          "mean_case": 1452.2,
+          "mean_ctrl": 1280.1,
+          "log2fc": 0.1695,
+          "fc": 1.1247,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Myh6": {
+          "mean_case": -102.6,
+          "mean_ctrl": -6.8,
+          "log2fc": null,
+          "fc": -0.0279,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Tnni3": {
+          "mean_case": 845.9,
+          "mean_ctrl": 495.9,
+          "log2fc": 0.6666,
+          "fc": 1.5873,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Cxadr": {
+          "mean_case": 13991.4,
+          "mean_ctrl": 11833.2,
+          "log2fc": 0.2398,
+          "fc": 1.1809,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Becn1": {
+          "mean_case": 210.2,
+          "mean_ctrl": 489.3,
+          "log2fc": -0.9258,
+          "fc": 0.5264,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Sqstm1": {
+          "mean_case": 4013.6,
+          "mean_ctrl": 2041.2,
+          "log2fc": 0.942,
+          "fc": 1.9212,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Foxp3": {
+          "mean_case": 735.7,
+          "mean_ctrl": 502.2,
+          "log2fc": 0.4727,
+          "fc": 1.3877,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Foxp1": {
+          "mean_case": -105.3,
+          "mean_ctrl": 75.9,
+          "log2fc": null,
+          "fc": -0.0301,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        }
+      },
+      "day30_CVB3_vs_PBS": {
+        "Dmd": {
+          "mean_case": 974.4,
+          "mean_ctrl": 83.0,
+          "log2fc": 2.5536,
+          "fc": 5.871,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Lamp2": {
+          "mean_case": 1599.2,
+          "mean_ctrl": 134.3,
+          "log2fc": 2.8584,
+          "fc": 7.2522,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Ifit1": {
+          "mean_case": -43.45,
+          "mean_ctrl": -17.0,
+          "log2fc": -0.5536,
+          "fc": 0.6813,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Ifit2": {
+          "mean_case": 173.0,
+          "mean_ctrl": 4.5,
+          "log2fc": 1.3854,
+          "fc": 2.6124,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Mx1": {
+          "mean_case": 1226.1,
+          "mean_ctrl": 128.7,
+          "log2fc": 2.5357,
+          "fc": 5.7984,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Isg15": {
+          "mean_case": 11.0,
+          "mean_ctrl": -0.9,
+          "log2fc": 0.1636,
+          "fc": 1.1201,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Nfkb1": {
+          "mean_case": -19.1,
+          "mean_ctrl": 0.4,
+          "log2fc": -0.3115,
+          "fc": 0.8058,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Bcl2": {
+          "mean_case": 11086.4,
+          "mean_ctrl": 713.3,
+          "log2fc": 3.7818,
+          "fc": 13.7543,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Bax": {
+          "mean_case": 230.9,
+          "mean_ctrl": 5.9,
+          "log2fc": 1.6437,
+          "fc": 3.1246,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Casp3": {
+          "mean_case": 725.8,
+          "mean_ctrl": 49.7,
+          "log2fc": 2.4637,
+          "fc": 5.5164,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Col1a1": {
+          "mean_case": 26.2,
+          "mean_ctrl": -6.4,
+          "log2fc": 0.4311,
+          "fc": 1.3483,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Fn1": {
+          "mean_case": 116.8,
+          "mean_ctrl": 8.4,
+          "log2fc": 1.0,
+          "fc": 2.0,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Myh7": {
+          "mean_case": 1126.8,
+          "mean_ctrl": 171.2,
+          "log2fc": 2.1775,
+          "fc": 4.5236,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Myh6": {
+          "mean_case": -28.0,
+          "mean_ctrl": 0.4,
+          "log2fc": -0.4797,
+          "fc": 0.7171,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Tnni3": {
+          "mean_case": 508.6,
+          "mean_ctrl": 47.3,
+          "log2fc": 2.0467,
+          "fc": 4.1317,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Cxadr": {
+          "mean_case": 12056.0,
+          "mean_ctrl": 1023.3,
+          "log2fc": 3.4359,
+          "fc": 10.8217,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Becn1": {
+          "mean_case": 250.8,
+          "mean_ctrl": 29.6,
+          "log2fc": 1.4366,
+          "fc": 2.7068,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Sqstm1": {
+          "mean_case": 2060.5,
+          "mean_ctrl": 199.5,
+          "log2fc": 2.8507,
+          "fc": 7.2137,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Foxp3": {
+          "mean_case": 738.9,
+          "mean_ctrl": 53.4,
+          "log2fc": 2.4512,
+          "fc": 5.4687,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        },
+        "Foxp1": {
+          "mean_case": -190.5,
+          "mean_ctrl": -15.6,
+          "log2fc": null,
+          "fc": -1.0723,
+          "pval": null,
+          "n_case": 1,
+          "n_ctrl": 1,
+          "scale": "MAS5_linear"
+        }
+      }
+    },
+    "GSE35182_sex_differences": {
+      "male_10dpi_CVB3_vs_PBS": {
+        "Ifit1": {
+          "mean_case": 5.3908,
+          "mean_ctrl": 5.4991,
+          "log2fc": -0.1083,
+          "fc": 0.9277,
+          "pval": 0.0721,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Casp1": {
+          "mean_case": 8.7414,
+          "mean_ctrl": 8.7119,
+          "log2fc": 0.0295,
+          "fc": 1.0207,
+          "pval": 0.7974,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Foxp3": {
+          "mean_case": 6.1721,
+          "mean_ctrl": 6.6124,
+          "log2fc": -0.4403,
+          "fc": 0.737,
+          "pval": 0.0055,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Becn1": {
+          "mean_case": 2.4402,
+          "mean_ctrl": 2.6897,
+          "log2fc": -0.2495,
+          "fc": 0.8412,
+          "pval": 0.0481,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        }
+      },
+      "female_10dpi_CVB3_vs_PBS": {
+        "Ifit1": {
+          "mean_case": 5.4271,
+          "mean_ctrl": 5.4217,
+          "log2fc": 0.0054,
+          "fc": 1.0037,
+          "pval": 0.9572,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Casp1": {
+          "mean_case": 8.779,
+          "mean_ctrl": 8.9149,
+          "log2fc": -0.1359,
+          "fc": 0.9101,
+          "pval": 0.0908,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Foxp3": {
+          "mean_case": 6.2351,
+          "mean_ctrl": 6.4148,
+          "log2fc": -0.1798,
+          "fc": 0.8828,
+          "pval": 0.2707,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Becn1": {
+          "mean_case": 2.5495,
+          "mean_ctrl": 2.733,
+          "log2fc": -0.1835,
+          "fc": 0.8806,
+          "pval": 0.3173,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        }
+      },
+      "male_90dpi_CVB3_vs_PBS": {
+        "Ifit1": {
+          "mean_case": 5.426,
+          "mean_ctrl": 5.4561,
+          "log2fc": -0.0301,
+          "fc": 0.9793,
+          "pval": 0.85,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Casp1": {
+          "mean_case": 8.1729,
+          "mean_ctrl": 8.0262,
+          "log2fc": 0.1468,
+          "fc": 1.1071,
+          "pval": 0.3497,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Foxp3": {
+          "mean_case": 5.9541,
+          "mean_ctrl": 6.1678,
+          "log2fc": -0.2137,
+          "fc": 0.8623,
+          "pval": 0.0628,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Becn1": {
+          "mean_case": 2.6756,
+          "mean_ctrl": 2.5597,
+          "log2fc": 0.1158,
+          "fc": 1.0836,
+          "pval": 0.5025,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        }
+      },
+      "female_90dpi_CVB3_vs_PBS": {
+        "Ifit1": {
+          "mean_case": 5.299,
+          "mean_ctrl": 5.4098,
+          "log2fc": -0.1108,
+          "fc": 0.9261,
+          "pval": 0.4001,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Casp1": {
+          "mean_case": 8.1456,
+          "mean_ctrl": 8.0846,
+          "log2fc": 0.0609,
+          "fc": 1.0431,
+          "pval": 0.5,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Foxp3": {
+          "mean_case": 5.9375,
+          "mean_ctrl": 6.2036,
+          "log2fc": -0.2661,
+          "fc": 0.8316,
+          "pval": 0.0262,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Becn1": {
+          "mean_case": 2.4727,
+          "mean_ctrl": 2.6734,
+          "log2fc": -0.2007,
+          "fc": 0.8702,
+          "pval": 0.64,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        }
+      }
+    },
+    "GSE19496_strain_susceptibility": {
+      "AJ_susceptible": {
+        "Mx1": {
+          "mean_case": 3.2917,
+          "mean_ctrl": 3.2346,
+          "log2fc": 0.0571,
+          "fc": 1.0404,
+          "pval": 0.8339,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Casp1": {
+          "mean_case": 3.0187,
+          "mean_ctrl": 2.7942,
+          "log2fc": 0.2245,
+          "fc": 1.1683,
+          "pval": 0.3028,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Bcl2": {
+          "mean_case": 3.2786,
+          "mean_ctrl": 3.2246,
+          "log2fc": 0.0541,
+          "fc": 1.0382,
+          "pval": 0.7006,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Cxadr": {
+          "mean_case": 3.1624,
+          "mean_ctrl": 3.3163,
+          "log2fc": -0.1539,
+          "fc": 0.8988,
+          "pval": 0.5964,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Becn1": {
+          "mean_case": 2.6735,
+          "mean_ctrl": 3.0479,
+          "log2fc": -0.3745,
+          "fc": 0.7714,
+          "pval": 0.0396,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        }
+      },
+      "B10A_resistant": {
+        "Mx1": {
+          "mean_case": 3.8309,
+          "mean_ctrl": 3.5358,
+          "log2fc": 0.2951,
+          "fc": 1.227,
+          "pval": 0.2922,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Casp1": {
+          "mean_case": 3.302,
+          "mean_ctrl": 3.4,
+          "log2fc": -0.0979,
+          "fc": 0.9344,
+          "pval": 0.5794,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Bcl2": {
+          "mean_case": 3.5291,
+          "mean_ctrl": 3.7742,
+          "log2fc": -0.2451,
+          "fc": 0.8438,
+          "pval": 0.4092,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Cxadr": {
+          "mean_case": 3.8929,
+          "mean_ctrl": 3.6957,
+          "log2fc": 0.1972,
+          "fc": 1.1465,
+          "pval": 0.2564,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Becn1": {
+          "mean_case": 2.8859,
+          "mean_ctrl": 2.9948,
+          "log2fc": -0.1089,
+          "fc": 0.9273,
+          "pval": 0.563,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        }
+      },
+      "B6_moderate": {
+        "Mx1": {
+          "mean_case": 2.3907,
+          "mean_ctrl": 2.3293,
+          "log2fc": 0.0614,
+          "fc": 1.0435,
+          "pval": 0.7921,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Casp1": {
+          "mean_case": 2.1164,
+          "mean_ctrl": 2.0025,
+          "log2fc": 0.1139,
+          "fc": 1.0822,
+          "pval": 0.5897,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Bcl2": {
+          "mean_case": 2.1747,
+          "mean_ctrl": 2.1214,
+          "log2fc": 0.0533,
+          "fc": 1.0376,
+          "pval": 0.8527,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Cxadr": {
+          "mean_case": 3.2893,
+          "mean_ctrl": 2.5256,
+          "log2fc": 0.7637,
+          "fc": 1.6978,
+          "pval": 0.1893,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Becn1": {
+          "mean_case": 2.0127,
+          "mean_ctrl": 1.9057,
+          "log2fc": 0.107,
+          "fc": 1.077,
+          "pval": 0.7087,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        }
+      },
+      "CSS3_congenic": {
+        "Mx1": {
+          "mean_case": 2.474,
+          "mean_ctrl": 2.2299,
+          "log2fc": 0.2441,
+          "fc": 1.1843,
+          "pval": 0.5367,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Casp1": {
+          "mean_case": 1.9665,
+          "mean_ctrl": 2.206,
+          "log2fc": -0.2395,
+          "fc": 0.8471,
+          "pval": 0.2345,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Bcl2": {
+          "mean_case": 2.3092,
+          "mean_ctrl": 2.0918,
+          "log2fc": 0.2174,
+          "fc": 1.1626,
+          "pval": 0.52,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Cxadr": {
+          "mean_case": 3.2032,
+          "mean_ctrl": 2.8681,
+          "log2fc": 0.3351,
+          "fc": 1.2614,
+          "pval": 0.3303,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        },
+        "Becn1": {
+          "mean_case": 1.7296,
+          "mean_ctrl": 2.2819,
+          "log2fc": -0.5522,
+          "fc": 0.682,
+          "pval": 0.0402,
+          "n_case": 3,
+          "n_ctrl": 3,
+          "scale": "log2_RMA"
+        }
+      }
+    },
+    "GSE19303_human_DCM": {
+      "DCM_baseline_vs_healthy_controls": {
+        "DMD": {
+          "mean_case": 180.0461,
+          "mean_ctrl": 185.7994,
+          "log2fc": -0.0293,
+          "fc": 0.9799,
+          "pval": 0.6334,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "LAMP1": {
+          "mean_case": 334.0007,
+          "mean_ctrl": 352.9524,
+          "log2fc": -0.0617,
+          "fc": 0.9582,
+          "pval": 0.313,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "LAMP2": {
+          "mean_case": 4331.903,
+          "mean_ctrl": 5074.8173,
+          "log2fc": -0.2236,
+          "fc": 0.8564,
+          "pval": 0.0059,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "IFIT1": {
+          "mean_case": 1660.1876,
+          "mean_ctrl": 1673.0734,
+          "log2fc": -0.0105,
+          "fc": 0.9927,
+          "pval": 0.9334,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "IFIT3": {
+          "mean_case": 119.5235,
+          "mean_ctrl": 96.4215,
+          "log2fc": 0.1604,
+          "fc": 1.1176,
+          "pval": 0.0513,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "MX1": {
+          "mean_case": 1288.5587,
+          "mean_ctrl": 1407.0727,
+          "log2fc": -0.1182,
+          "fc": 0.9214,
+          "pval": 0.1785,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "ISG15": {
+          "mean_case": 208.8851,
+          "mean_ctrl": 221.4665,
+          "log2fc": -0.0576,
+          "fc": 0.9609,
+          "pval": 0.6835,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "CASP1": {
+          "mean_case": 639.1062,
+          "mean_ctrl": 398.1445,
+          "log2fc": 0.5692,
+          "fc": 1.4837,
+          "pval": 0.0089,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "IL1B": {
+          "mean_case": 41.2073,
+          "mean_ctrl": 39.1186,
+          "log2fc": 0.0215,
+          "fc": 1.015,
+          "pval": 0.6971,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "NFKB1": {
+          "mean_case": 103.4632,
+          "mean_ctrl": 85.0195,
+          "log2fc": 0.1371,
+          "fc": 1.0997,
+          "pval": 0.0355,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "BCL2": {
+          "mean_case": 210.8255,
+          "mean_ctrl": 239.2241,
+          "log2fc": -0.1261,
+          "fc": 0.9163,
+          "pval": 0.3926,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "CASP3": {
+          "mean_case": 319.3727,
+          "mean_ctrl": 266.2161,
+          "log2fc": 0.1955,
+          "fc": 1.1452,
+          "pval": 0.1109,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "COL1A1": {
+          "mean_case": 1101.4067,
+          "mean_ctrl": 727.2636,
+          "log2fc": 0.5383,
+          "fc": 1.4523,
+          "pval": 0.1058,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "FN1": {
+          "mean_case": 953.2088,
+          "mean_ctrl": 618.1347,
+          "log2fc": 0.5525,
+          "fc": 1.4666,
+          "pval": 0.0453,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "MYH7": {
+          "mean_case": 102.8993,
+          "mean_ctrl": 81.3675,
+          "log2fc": 0.1618,
+          "fc": 1.1187,
+          "pval": 0.054,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "MYH6": {
+          "mean_case": 147.239,
+          "mean_ctrl": 200.757,
+          "log2fc": -0.2827,
+          "fc": 0.8221,
+          "pval": 0.0432,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "FOXP3": {
+          "mean_case": 151.8266,
+          "mean_ctrl": 126.1603,
+          "log2fc": 0.1551,
+          "fc": 1.1135,
+          "pval": 0.4781,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "BECN1": {
+          "mean_case": 40.6535,
+          "mean_ctrl": 36.2948,
+          "log2fc": 0.0454,
+          "fc": 1.032,
+          "pval": 0.6139,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "THBS1": {
+          "mean_case": 80.7372,
+          "mean_ctrl": 86.6606,
+          "log2fc": -0.0465,
+          "fc": 0.9683,
+          "pval": 0.4625,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "TGFB1": {
+          "mean_case": 534.8677,
+          "mean_ctrl": 408.817,
+          "log2fc": 0.3193,
+          "fc": 1.2477,
+          "pval": 0.4275,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "TGFB2": {
+          "mean_case": 174.1432,
+          "mean_ctrl": 143.7169,
+          "log2fc": 0.1697,
+          "fc": 1.1248,
+          "pval": 0.107,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "NPPB": {
+          "mean_case": 138.2032,
+          "mean_ctrl": 79.9057,
+          "log2fc": 0.405,
+          "fc": 1.324,
+          "pval": 0.0008,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "TNF": {
+          "mean_case": 149.2985,
+          "mean_ctrl": 131.7356,
+          "log2fc": 0.1054,
+          "fc": 1.0758,
+          "pval": 0.5672,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "STAT1": {
+          "mean_case": 47.8339,
+          "mean_ctrl": 42.8085,
+          "log2fc": 0.0499,
+          "fc": 1.0352,
+          "pval": 0.42,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "VIM": {
+          "mean_case": 2934.7465,
+          "mean_ctrl": 1927.639,
+          "log2fc": 0.5818,
+          "fc": 1.4967,
+          "pval": 0.0256,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "ACTA2": {
+          "mean_case": 2899.8014,
+          "mean_ctrl": 1392.4701,
+          "log2fc": 1.0072,
+          "fc": 2.01,
+          "pval": 0.0122,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        },
+        "CTGF": {
+          "mean_case": 158.9954,
+          "mean_ctrl": 59.3076,
+          "log2fc": 0.7011,
+          "fc": 1.6258,
+          "pval": 0.1372,
+          "n_case": 40,
+          "n_ctrl": 8,
+          "scale": "MAS5_linear"
+        }
+      },
+      "DCM_posttreatment_vs_baseline": {
+        "DMD": {
+          "mean_case": 184.4255,
+          "mean_ctrl": 180.0461,
+          "log2fc": 0.0224,
+          "fc": 1.0156,
+          "pval": 0.5493,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "LAMP1": {
+          "mean_case": 334.7972,
+          "mean_ctrl": 334.0007,
+          "log2fc": 0.0026,
+          "fc": 1.0018,
+          "pval": 0.9445,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "LAMP2": {
+          "mean_case": 4338.8272,
+          "mean_ctrl": 4331.903,
+          "log2fc": 0.0023,
+          "fc": 1.0016,
+          "pval": 0.967,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "IFIT1": {
+          "mean_case": 1679.2445,
+          "mean_ctrl": 1660.1876,
+          "log2fc": 0.0155,
+          "fc": 1.0108,
+          "pval": 0.8459,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "IFIT3": {
+          "mean_case": 120.2073,
+          "mean_ctrl": 119.5235,
+          "log2fc": 0.0045,
+          "fc": 1.0031,
+          "pval": 0.9292,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "MX1": {
+          "mean_case": 1277.5298,
+          "mean_ctrl": 1288.5587,
+          "log2fc": -0.0115,
+          "fc": 0.9921,
+          "pval": 0.8157,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "ISG15": {
+          "mean_case": 187.3381,
+          "mean_ctrl": 208.8851,
+          "log2fc": -0.1043,
+          "fc": 0.9302,
+          "pval": 0.2302,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "CASP1": {
+          "mean_case": 628.8983,
+          "mean_ctrl": 639.1062,
+          "log2fc": -0.0201,
+          "fc": 0.9862,
+          "pval": 0.8483,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "IL1B": {
+          "mean_case": 42.3357,
+          "mean_ctrl": 41.2073,
+          "log2fc": 0.0115,
+          "fc": 1.008,
+          "pval": 0.7451,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "NFKB1": {
+          "mean_case": 99.6513,
+          "mean_ctrl": 103.4632,
+          "log2fc": -0.0273,
+          "fc": 0.9813,
+          "pval": 0.437,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "BCL2": {
+          "mean_case": 212.9131,
+          "mean_ctrl": 210.8255,
+          "log2fc": 0.0097,
+          "fc": 1.0067,
+          "pval": 0.9134,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "CASP3": {
+          "mean_case": 330.1397,
+          "mean_ctrl": 319.3727,
+          "log2fc": 0.0366,
+          "fc": 1.0257,
+          "pval": 0.6246,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "COL1A1": {
+          "mean_case": 1016.9273,
+          "mean_ctrl": 1101.4067,
+          "log2fc": -0.1052,
+          "fc": 0.9297,
+          "pval": 0.5736,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "FN1": {
+          "mean_case": 854.9191,
+          "mean_ctrl": 953.2088,
+          "log2fc": -0.1413,
+          "fc": 0.9067,
+          "pval": 0.3183,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "MYH7": {
+          "mean_case": 101.0333,
+          "mean_ctrl": 102.8993,
+          "log2fc": -0.0133,
+          "fc": 0.9908,
+          "pval": 0.7723,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "MYH6": {
+          "mean_case": 134.8701,
+          "mean_ctrl": 147.239,
+          "log2fc": -0.074,
+          "fc": 0.95,
+          "pval": 0.3092,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "FOXP3": {
+          "mean_case": 148.7387,
+          "mean_ctrl": 151.8266,
+          "log2fc": -0.0178,
+          "fc": 0.9877,
+          "pval": 0.8736,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "BECN1": {
+          "mean_case": 32.3232,
+          "mean_ctrl": 40.6535,
+          "log2fc": -0.0881,
+          "fc": 0.9408,
+          "pval": 0.0909,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "THBS1": {
+          "mean_case": 86.0388,
+          "mean_ctrl": 80.7372,
+          "log2fc": 0.0417,
+          "fc": 1.0293,
+          "pval": 0.3025,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "TGFB1": {
+          "mean_case": 466.2073,
+          "mean_ctrl": 534.8677,
+          "log2fc": -0.1651,
+          "fc": 0.8919,
+          "pval": 0.494,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "TGFB2": {
+          "mean_case": 166.8068,
+          "mean_ctrl": 174.1432,
+          "log2fc": -0.0391,
+          "fc": 0.9732,
+          "pval": 0.5595,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "NPPB": {
+          "mean_case": 133.5399,
+          "mean_ctrl": 138.2032,
+          "log2fc": -0.0285,
+          "fc": 0.9804,
+          "pval": 0.6549,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "TNF": {
+          "mean_case": 195.4958,
+          "mean_ctrl": 149.2985,
+          "log2fc": 0.2453,
+          "fc": 1.1853,
+          "pval": 0.147,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "STAT1": {
+          "mean_case": 43.9454,
+          "mean_ctrl": 47.8339,
+          "log2fc": -0.0385,
+          "fc": 0.9737,
+          "pval": 0.237,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "VIM": {
+          "mean_case": 2814.9763,
+          "mean_ctrl": 2934.7465,
+          "log2fc": -0.0581,
+          "fc": 0.9605,
+          "pval": 0.6671,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "ACTA2": {
+          "mean_case": 2697.2846,
+          "mean_ctrl": 2899.8014,
+          "log2fc": -0.1008,
+          "fc": 0.9325,
+          "pval": 0.5673,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        },
+        "CTGF": {
+          "mean_case": 131.3532,
+          "mean_ctrl": 158.9954,
+          "log2fc": -0.1628,
+          "fc": 0.8933,
+          "pval": 0.4874,
+          "n_case": 33,
+          "n_ctrl": 40,
+          "scale": "MAS5_linear"
+        }
+      }
+    }
+  },
+  "model_crossvalidation": {
+    "DMD": {
+      "predicted": "DOWN",
+      "observed_log2fc": -0.029,
+      "observed_fc": 0.98,
+      "pval": 0.6334,
+      "match": "MATCH",
+      "rationale": "CVB 2A protease cleaves dystrophin; chronic exposure depletes pool",
+      "observed_direction": "DOWN"
+    },
+    "COL1A1": {
+      "predicted": "UP",
+      "observed_log2fc": 0.538,
+      "observed_fc": 1.452,
+      "pval": 0.1058,
+      "match": "MATCH",
+      "rationale": "Fibrosis accumulation is core DCM progression mechanism",
+      "observed_direction": "UP"
+    },
+    "FN1": {
+      "predicted": "UP",
+      "observed_log2fc": 0.552,
+      "observed_fc": 1.467,
+      "pval": 0.0453,
+      "match": "MATCH",
+      "rationale": "Fibronectin marks active ECM remodeling / fibrosis",
+      "observed_direction": "UP"
+    },
+    "MYH7": {
+      "predicted": "UP",
+      "observed_log2fc": 0.162,
+      "observed_fc": 1.119,
+      "pval": 0.054,
+      "match": "MATCH",
+      "rationale": "Fetal MHC isoform re-expression in failing heart (conserved)",
+      "observed_direction": "UP"
+    },
+    "MYH6": {
+      "predicted": "DOWN",
+      "observed_log2fc": -0.283,
+      "observed_fc": 0.822,
+      "pval": 0.0432,
+      "match": "MATCH",
+      "rationale": "Adult MHC isoform downregulated in heart failure",
+      "observed_direction": "DOWN"
+    },
+    "TNNI3": {
+      "predicted": "DOWN",
+      "observed_log2fc": null,
+      "match": "NOT FOUND",
+      "rationale": "Cardiomyocyte loss reduces total cardiac troponin"
+    },
+    "NLRP3": {
+      "predicted": "UP",
+      "observed_log2fc": null,
+      "match": "NOT FOUND",
+      "rationale": "Inflammasome drives chronic sterile inflammation in DCM"
+    },
+    "IL1B": {
+      "predicted": "UP",
+      "observed_log2fc": 0.022,
+      "observed_fc": 1.015,
+      "pval": 0.6971,
+      "match": "MATCH",
+      "rationale": "NLRP3 inflammasome downstream effector",
+      "observed_direction": "UP"
+    },
+    "BCL2": {
+      "predicted": "DOWN",
+      "observed_log2fc": -0.126,
+      "observed_fc": 0.916,
+      "pval": 0.3926,
+      "match": "MATCH",
+      "rationale": "Net pro-apoptotic shift in DCM cardiomyocytes",
+      "observed_direction": "DOWN"
+    },
+    "BAX": {
+      "predicted": "UP",
+      "observed_log2fc": null,
+      "match": "NOT FOUND",
+      "rationale": "Pro-apoptotic Bcl2 family member elevated in DCM"
+    },
+    "LAMP1": {
+      "predicted": "DOWN",
+      "observed_log2fc": -0.062,
+      "observed_fc": 0.958,
+      "pval": 0.313,
+      "match": "MATCH",
+      "rationale": "Lysosomal biogenesis impaired in failing heart",
+      "observed_direction": "DOWN"
+    },
+    "LAMP2": {
+      "predicted": "DOWN",
+      "observed_log2fc": -0.224,
+      "observed_fc": 0.856,
+      "pval": 0.0059,
+      "match": "MATCH",
+      "rationale": "Lysosomal membrane protein; reduced in cardiac failure",
+      "observed_direction": "DOWN"
+    },
+    "ATG7": {
+      "predicted": "DOWN",
+      "observed_log2fc": null,
+      "match": "NOT FOUND",
+      "rationale": "Autophagy impairment contributes to proteotoxic stress in DCM"
+    },
+    "BECN1": {
+      "predicted": "DOWN",
+      "observed_log2fc": 0.045,
+      "observed_fc": 1.032,
+      "pval": 0.6139,
+      "match": "MISMATCH",
+      "rationale": "Reduced autophagic flux in failing heart (mTOR driven)",
+      "observed_direction": "UP"
+    },
+    "CXADR": {
+      "predicted": "DOWN",
+      "observed_log2fc": null,
+      "match": "NOT FOUND",
+      "rationale": "CVB receptor internalized/downregulated post-infection"
+    },
+    "IFIT1": {
+      "predicted": "UP",
+      "observed_log2fc": -0.011,
+      "observed_fc": 0.993,
+      "pval": 0.9334,
+      "match": "MISMATCH",
+      "rationale": "IFN signature if viral remnants present in DCM myocardium",
+      "observed_direction": "DOWN"
+    },
+    "MX1": {
+      "predicted": "UP",
+      "observed_log2fc": -0.118,
+      "observed_fc": 0.921,
+      "pval": 0.1785,
+      "match": "MISMATCH",
+      "rationale": "ISG marking ongoing IFN response",
+      "observed_direction": "DOWN"
+    },
+    "SQSTM1": {
+      "predicted": "UP",
+      "observed_log2fc": null,
+      "match": "NOT FOUND",
+      "rationale": "Autophagy substrate accumulates when flux impaired"
+    },
+    "NFKB1": {
+      "predicted": "UP",
+      "observed_log2fc": 0.137,
+      "observed_fc": 1.1,
+      "pval": 0.0355,
+      "match": "MATCH",
+      "rationale": "NF-kB activation central to inflammatory DCM",
+      "observed_direction": "UP"
+    },
+    "CASP3": {
+      "predicted": "UP",
+      "observed_log2fc": 0.196,
+      "observed_fc": 1.145,
+      "pval": 0.1109,
+      "match": "MATCH",
+      "rationale": "Executioner caspase elevated in apoptotic DCM",
+      "observed_direction": "UP"
+    }
+  },
+  "crossval_summary": {
+    "genes_tested": 14,
+    "matches_direction_only": 11,
+    "matches_statistically_significant": 4,
+    "mismatches": 3,
+    "not_found": 6,
+    "accuracy_direction_pct": 78.6,
+    "note": "Direction match uses any-direction threshold (any positive=UP, any negative=DOWN). Significant matches: FN1(p=0.045), MYH6(p=0.043), NFKB1(p=0.036), LAMP2(p=0.006). Mismatches: IFIT1, MX1 (IFN, CVB-specific prediction not applicable to PVB19/HHV6 cohort), BECN1 (biphasic autophagy in DCM)."
+  }
+}

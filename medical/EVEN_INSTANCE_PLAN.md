@@ -1,7 +1,7 @@
 # EVEN Instance Work Plan — Post-ODD Handoff
 
 ## Status
-ODD instance completed 11 rounds. EVEN instance completed 12 rounds on scaffolded problems + 3 rounds on skin diseases. This plan covers the formalization work triggered by ODD's deliverables.
+numerical track completed 11 rounds. theory track completed 12 rounds on scaffolded problems + 3 rounds on skin diseases. This plan covers the formalization work triggered by ODD's deliverables.
 
 ## Progress Log
 

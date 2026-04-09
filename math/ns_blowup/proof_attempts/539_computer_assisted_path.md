@@ -95,9 +95,9 @@ Combined with the spectral tail bound (file 462):
 | Interval arithmetic | 2× overhead | +same |
 | Spectral tail | Paper writing | ~1 day |
 
-**Total: ~1-2 weeks of dedicated computation on the DGX Spark.**
+**Total: ~1-2 weeks of dedicated computation on the GPU workstation.**
 
 ## 539. Computer-assisted proof path: grid + Lipschitz certification.
 ## Verified for worst N=3 config (Q_min = 2.53, margin 1.5 above Lip bound).
-## Full certification feasible in ~1-2 weeks on DGX Spark.
+## Full certification feasible in ~1-2 weeks on GPU workstation.
 ## This would be the FIRST computer-assisted proof of NS regularity on T³.

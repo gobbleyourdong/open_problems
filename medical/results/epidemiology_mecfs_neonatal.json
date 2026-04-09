@@ -160,7 +160,7 @@
 
   "search_metadata": {
     "GEO_search_date": "2026-04-08",
-    "Entrez_email": "gobbleyourdong@users.noreply.github.com",
+    "Entrez_email": "noreply@example.com",
     "queries_run": [
       {"db": "gds", "term": "myalgic encephalomyelitis[Title] OR chronic fatigue syndrome[Title]", "count": 17},
       {"db": "gds", "term": "ME/CFS AND enterovirus", "count": 0},

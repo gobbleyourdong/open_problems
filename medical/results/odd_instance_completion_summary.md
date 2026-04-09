@@ -368,7 +368,7 @@
 
 ---
 
-# SECTION 5: WHAT THE ODD INSTANCE WOULD DO WITH MORE ROUNDS
+# SECTION 5: WHAT THE numerical track WOULD DO WITH MORE ROUNDS
 
 ## Diminishing Returns Analysis
 
@@ -395,7 +395,7 @@ Rounds 13+: Sub-1% improvement per round                 -> Asymptotic
 | ME/CFS bistability phase portrait (REQ-011) | Quantitative separatrix, intervention sensitivity | MODERATE -- would be publishable finding if done rigorously |
 | Liver-first clearance simulation (REQ-010) | Compartmental PK/PD validation of clearance order | YES -- expected to confirm existing prediction |
 
-### What Would NOT Be Worth Doing (ODD instance)
+### What Would NOT Be Worth Doing (numerical track)
 
 | Task | Why Not |
 |------|---------|
@@ -407,11 +407,11 @@ Rounds 13+: Sub-1% improvement per round                 -> Asymptotic
 
 ### What the EVEN Instance Can Do That the ODD Instance Cannot
 
-1. **Formal proofs**: The ODD instance produces numerical evidence. The theory track produces logical certainty.
-2. **Literature review**: The ODD instance uses hardcoded parameters from known papers. The theory track can find NEW papers that change parameters.
-3. **Synthesis**: The ODD instance produces data. The theory track produces narrative.
-4. **Gap identification**: The ODD instance finds WHAT is unknown. The theory track identifies WHY it matters and HOW to resolve it.
-5. **Publication writing**: The ODD instance produces technical documentation. The theory track produces readable science.
+1. **Formal proofs**: The numerical track produces numerical evidence. The theory track produces logical certainty.
+2. **Literature review**: The numerical track uses hardcoded parameters from known papers. The theory track can find NEW papers that change parameters.
+3. **Synthesis**: The numerical track produces data. The theory track produces narrative.
+4. **Gap identification**: The numerical track finds WHAT is unknown. The theory track identifies WHY it matters and HOW to resolve it.
+5. **Publication writing**: The numerical track produces technical documentation. The theory track produces readable science.
 
 ---
 

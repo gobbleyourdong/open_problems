@@ -77,7 +77,7 @@ Margin: 31% (worst -0.172 vs -0.250). Strict from 2/3 < 3/4.
 3. Sobolev tail: standard analysis for K² > 25.
 4. Interval arithmetic: upgrade floating-point to intervals (46% margin trivial).
 
-Estimated: **1-2 weeks on DGX Spark** for full certification.
+Estimated: **1-2 weeks on GPU workstation** for full certification.
 
 ## THE ANALYTICAL PATH (harder but cleaner)
 

@@ -146,5 +146,5 @@ The protocol at ~$60/month is predicted to achieve ~35-55% on the same scale.
 - ODE model complete: numerics/barrier_dysfunction_model.py
 - Scenario comparison and dose-response functions runnable
 - CVB gut-skin axis link modeled and quantified
-- Next: Lean formalization of the Treg pivot inequality (EVEN instance)
+- Next: Lean formalization of the Treg pivot inequality (theory track)
 - Next: Empirical tracking with SCORAD alongside T1DM metrics

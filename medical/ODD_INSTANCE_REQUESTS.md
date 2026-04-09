@@ -1,6 +1,6 @@
 # numerical track Request Queue — Computational / Numerical Tasks
 
-> These are tasks identified by the EVEN instance that require brute-force computation, data analysis, structural biology, or numerical work. The numerical track should work through these in priority order.
+> These are tasks identified by the theory track that require brute-force computation, data analysis, structural biology, or numerical work. The numerical track should work through these in priority order.
 
 ## Priority 1: Immediate Value
 
@@ -148,4 +148,4 @@ Each request should result in:
 - Code in `[disease]/numerics/[task_name]/`
 - Results summary in `[disease]/results/[task_name]_results.md`
 - Raw data/figures in `[disease]/results/[task_name]/`
-- The EVEN instance will pick up results and formalize findings
+- The theory track will pick up results and formalize findings

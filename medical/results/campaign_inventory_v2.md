@@ -1,7 +1,7 @@
 # Campaign Inventory v2 -- Complete Cross-Disease CVB Model Suite
 
 ## Date: 2026-04-08
-## Author: ODD instance (numerics/brute-force)
+## Author: numerical track (numerics/brute-force)
 ## Purpose: HANDOFF DOCUMENT for the theory track and comprehensive status tracker
 
 ---
@@ -467,7 +467,7 @@ The systematic approach CVB campaign now spans **12 diseases** with **45 Python 
 **If the theory track reads ONE file, it should be this one.** Here is what needs formalization:
 
 ### Critical (blocking)
-1. **Proof: CVB TD mutant persistence is necessary and sufficient for all 12 diseases.** The ODD instance has numerical models showing TD mutants as the common mechanism. The EVEN instance should formalize this as a logical chain with certified bounds.
+1. **Proof: CVB TD mutant persistence is necessary and sufficient for all 12 diseases.** The numerical track has numerical models showing TD mutants as the common mechanism. The theory track should formalize this as a logical chain with certified bounds.
 
 2. **Proof: The full protocol achieves systemic eradication.** The v2 model shows 8/8 organ clearance. This needs formal verification that the clearance is robust to parameter uncertainty (not just at the central estimate).
 

@@ -48,7 +48,7 @@ The proof requires EITHER:
 (a) An analytical bound on C using the Biot-Savart geometry, OR
 (b) A computer-assisted proof via grid+Lipschitz+interval arithmetic
 
-Option (b) is feasible (~1-2 weeks on DGX Spark, file 539).
+Option (b) is feasible (~1-2 weeks on GPU workstation, file 539).
 Option (a) remains elusive (the coupling between polarization angles
 prevents simple per-pair bounds from closing the gap).
 

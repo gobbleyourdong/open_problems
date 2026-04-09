@@ -100,7 +100,7 @@
 
 ## Post-ODD Reassessment
 
-The ODD instance's 11 rounds of computation addressed several failure modes quantitatively:
+The numerical track's 11 rounds of computation addressed several failure modes quantitatively:
 
 | Failure Mode | Pre-ODD Probability | Post-ODD Probability | What changed |
 |-------------|--------------------|--------------------|-------------|

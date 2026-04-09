@@ -31,7 +31,7 @@
 
 ## The Gap Is No Longer Theoretical
 
-After 64 attempts and 11 ODD instance rounds:
+After 64 attempts and 11 numerical track rounds:
 - The mechanism is mapped (attempts 001-063)
 - The math is formalized (attempt 064, ODD's 9-state ODE)
 - The pharmacology is reconciled (IC50 reconciliation)

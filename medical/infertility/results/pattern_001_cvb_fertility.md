@@ -218,5 +218,5 @@ parameters: count, motility, DFI, and viscosity.
 - ODE model complete: numerics/cvb_fertility_impact.py
 - PubMed literature: results/literature/cvb_infertility_abstracts.json (10 records)
 - Literature summary: results/literature/pubmed_search_summary.md
-- Next: Lean formalization of the fluoxetine/BTB/fertility inequality (EVEN instance)
+- Next: Lean formalization of the fluoxetine/BTB/fertility inequality (theory track)
 - Next: Clinical protocol document integrating male + female optimization

@@ -57,7 +57,7 @@ What remains for a COMPLETE proof:
 ```
 
 Runtime: <1s per config (N=3), ~2s (N=4), ~5s (N=5), ~15s (N=6).
-Tool: cvxpy + SCS solver. All on DGX Spark.
+Tool: cvxpy + SCS solver. All on GPU workstation.
 
 ## 604. 8,222 certificates. 0 failures. Floor increases with N.
 ## N=3 is the hardest (floor 5.43). N=6 is easiest (floor 11.00).

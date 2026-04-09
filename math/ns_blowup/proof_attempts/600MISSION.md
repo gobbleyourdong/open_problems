@@ -123,7 +123,7 @@ Sobolev decay for modes beyond K²_max. Standard harmonic analysis, ~1 page.
 Combine: identity (proven) + SOS certificate (computed) + tail bound (standard)
 + barrier framework (proven) + Seregin (proven) = NS regularity on T³.
 
-## Available Tools on DGX Spark
+## Available Tools on GPU workstation
 
 ```
 cvxpy 1.8.2: ['CLARABEL', 'HIGHS', 'OSQP', 'SCIPY', 'SCS']

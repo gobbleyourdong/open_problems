@@ -1,7 +1,7 @@
 # Attempt 067: CVB Disease Network Topology — Myocarditis as Keystone
 
 ## Source
-ODD instance pattern 008 (`results/pattern_008_disease_network.md`), derived from `numerics/disease_network.py`.
+numerical track pattern 008 (`results/pattern_008_disease_network.md`), derived from `numerics/disease_network.py`.
 
 ## The Discovery
 

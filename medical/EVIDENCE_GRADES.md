@@ -29,7 +29,7 @@
 - Mechanism: binds CVB 2C ATPase (Ulferts 2013)
 - In vivo (mouse): fluoxetine reduced CVB titers and protected against myocarditis (Benkahla 2018)
 - **Weakness**: no human trial for CVB specifically. 20mg oral fluoxetine achieves ~0.5-1.5 μM plasma concentration — AT or BELOW the in vitro IC50 for some assays. Tissue concentrations may be higher (Vd is large) but this is ESTIMATED, not measured in the context of CVB clearance.
-- **Critical question**: does 20mg fluoxetine achieve sufficient tissue concentration in pancreas/heart/muscle/brain to inhibit CVB 2C ATPase? This is ODD INSTANCE REQ-005. Until answered, the dosing is uncertain.
+- **Critical question**: does 20mg fluoxetine achieve sufficient tissue concentration in pancreas/heart/muscle/brain to inhibit CVB 2C ATPase? This is numerical track REQ-005. Until answered, the dosing is uncertain.
 - **Verdict**: Mechanism is real. In vitro and mouse data are solid. Human dose adequacy is the gap.
 
 ### CLAIM 3: Fasting/FMD induces autophagy sufficient to clear TD mutants
@@ -104,7 +104,7 @@ Ranked by impact on the campaign if the claim is WRONG:
 
 ## Post-ODD Grade Updates
 
-The ODD instance completed 11 rounds of computational work. Several claims have shifted:
+The numerical track completed 11 rounds of computational work. Several claims have shifted:
 
 | Claim | Pre-ODD Grade | Post-ODD Grade | What changed |
 |-------|--------------|---------------|-------------|
@@ -132,7 +132,7 @@ Ranked by impact if wrong:
 
 ## What This Means (Updated)
 
-The protocol has moved from **"mechanistically sound but clinically unproven"** to **"mechanistically sound, computationally validated, clinically unproven."** The ODD instance closed the modeling gap. The remaining gap is clinical:
+The protocol has moved from **"mechanistically sound but clinically unproven"** to **"mechanistically sound, computationally validated, clinically unproven."** The numerical track closed the modeling gap. The remaining gap is clinical:
 
 1. Getting the patient's C-peptide (tests the core T1DM model)
 2. Running the pericarditis trial (tests CVB persistence → recurrence)

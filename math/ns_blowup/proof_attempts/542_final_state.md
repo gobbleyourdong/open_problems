@@ -58,7 +58,7 @@ Gives |S|²_F < |ω|², S²ê ≤ (2/3)|ω|² < (3/4)|ω|².
 
 ## COMPUTER-ASSISTED PROOF STATUS
 
-Grid + Lipschitz certification running on DGX Spark:
+Grid + Lipschitz certification running on GPU workstation:
 
 | K² | N=2 | N=3 | N=4 | Status |
 |----|-----|-----|-----|--------|
@@ -89,7 +89,7 @@ A finer grid (M=80 instead of 40) would certify them.
    proof using the Biot-Savart geometry would close the gap.
 
 2. **Computer-assisted proof**: Certify all K²≤25 with grid+Lipschitz,
-   then apply Sobolev tail. ~1-2 weeks on DGX Spark.
+   then apply Sobolev tail. ~1-2 weeks on GPU workstation.
 
 3. **Prove C > -|ω|²/4 using C_aa > 0**: From file 537, if
    C_ab+C_bb ≥ -|ω|²/4 (margin 3.2%) then C > -|ω|²/4 from

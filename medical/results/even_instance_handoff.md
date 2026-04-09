@@ -11,7 +11,7 @@
 
 ## What the ODD Instance Did Across 8 Rounds
 
-The ODD instance executed 8 rounds of numerical computation, progressing from a single-disease T1DM model to a fully cross-validated 12-disease computational framework. Each round built on the previous:
+The numerical track executed 8 rounds of numerical computation, progressing from a single-disease T1DM model to a fully cross-validated 12-disease computational framework. Each round built on the previous:
 
 | Round | Focus | Key Deliverable |
 |-------|-------|-----------------|
@@ -86,7 +86,7 @@ The ODD instance executed 8 rounds of numerical computation, progressing from a 
 | 13 | Eczema | 0* | 0 | 0 | 0 | 0 | N/A (not CVB-caused) |
 | 14 | Psoriasis | 0* | 0 | 0 | 0 | 0 | N/A (not CVB-caused) |
 
-*Eczema and psoriasis are immune-dysregulation co-beneficiaries, not CVB-caused. They have theory track scaffolding (attempts, models, gap, anti-problem) but no ODD instance numerics.
+*Eczema and psoriasis are immune-dysregulation co-beneficiaries, not CVB-caused. They have theory track scaffolding (attempts, models, gap, anti-problem) but no numerical track numerics.
 
 **Totals: 46 Python scripts, 31+ results documents, 27 certs, 162 figures.**
 
@@ -98,7 +98,7 @@ The ODD instance executed 8 rounds of numerical computation, progressing from a 
 
 ### A1. Formalize the inequality R > D as a rigorous mathematical framework
 
-**What**: The T1DM model centers on dB/dt = R(t) - D(t), where B is beta cell mass, R is total regeneration, D is total destruction. The ODD instance has a 9-state ODE model (`t1dm/numerics/beta_cell_dynamics.py`, `t1dm/numerics/anti_problem_spontaneous_remission.py`) showing that the full protocol reverses this inequality.
+**What**: The T1DM model centers on dB/dt = R(t) - D(t), where B is beta cell mass, R is total regeneration, D is total destruction. The numerical track has a 9-state ODE model (`t1dm/numerics/beta_cell_dynamics.py`, `t1dm/numerics/anti_problem_spontaneous_remission.py`) showing that the full protocol reverses this inequality.
 
 **Why this is critical**: This is the core mathematical claim of the entire campaign. If R > D can be formalized with certified bounds, every downstream claim (clearance, remission, protocol efficacy) follows.
 
@@ -115,7 +115,7 @@ The ODD instance executed 8 rounds of numerical computation, progressing from a 
 
 ### A2. Formalize the "no HLA genotype protects all organs" theorem
 
-**What**: The ODD instance HLA model (`numerics/hla_risk_model.py`) demonstrates that HLA alleles that protect one organ (e.g., DQ6 protects pancreas from T1DM) can increase risk for another (e.g., slight CNS risk). The negative correlation between T1DM and cardiac disease risks (r ~ -0.3 to -0.5) is quantified.
+**What**: The numerical track HLA model (`numerics/hla_risk_model.py`) demonstrates that HLA alleles that protect one organ (e.g., DQ6 protects pancreas from T1DM) can increase risk for another (e.g., slight CNS risk). The negative correlation between T1DM and cardiac disease risks (r ~ -0.3 to -0.5) is quantified.
 
 **Why this is critical**: This is a publishable theorem with clinical implications for screening. "No HLA genotype is universally protective" is a strong formal claim that needs proof, not just Monte Carlo.
 
@@ -131,7 +131,7 @@ The ODD instance executed 8 rounds of numerical computation, progressing from a 
 
 ### A3. Write attempt documents for each major finding
 
-**What**: The ODD instance has produced results documents (pattern_001 through pattern_010) but these are NOT in systematic approach attempt format. The theory track should convert key findings into formal attempt documents that fit the attempts/ lineage.
+**What**: The numerical track has produced results documents (pattern_001 through pattern_010) but these are NOT in systematic approach attempt format. The theory track should convert key findings into formal attempt documents that fit the attempts/ lineage.
 
 **Findings that need attempt documents**:
 1. The v1-to-v2 PK correction (pattern 005) -- this IS the key discovery
@@ -169,7 +169,7 @@ The ODD instance executed 8 rounds of numerical computation, progressing from a 
 **Claim**: liver < pericardium < heart < CNS < gut < pancreas < muscle < testes (where "<" means "clears faster than").
 
 **What needs proving**:
-- Is this ordering ROBUST under parameter perturbation? (The ODD instance sensitivity analysis suggests yes, but there is no formal proof.)
+- Is this ordering ROBUST under parameter perturbation? (The numerical track sensitivity analysis suggests yes, but there is no formal proof.)
 - Under what parameter regimes does the ordering change? (e.g., if brain:plasma ratio drops below 5x, does CNS move behind muscle?)
 - Are there patient-specific scenarios (e.g., high testicular fluoxetine accumulation) where the order reverses?
 
@@ -189,7 +189,7 @@ The ODD instance executed 8 rounds of numerical computation, progressing from a 
 
 ### B3. Write the convergence document (attempt_030-style synthesis)
 
-**What**: A single document that synthesizes ALL findings across all 12 diseases, all 8 ODD instance rounds, and all theory track scaffolding into a coherent narrative. This is the "paper outline" document.
+**What**: A single document that synthesizes ALL findings across all 12 diseases, all 8 numerical track rounds, and all theory track scaffolding into a coherent narrative. This is the "paper outline" document.
 
 The existing `CONVERGENCE.md` is a good start but is structured as a hierarchy/roadmap, not a formal synthesis. The theory track should produce a document that could serve as the skeleton of a publication.
 
@@ -258,7 +258,7 @@ The existing `CONVERGENCE.md` is a good start but is structured as a hierarchy/r
 
 ### C3. Write the anti-problem document (anti_problem.md)
 
-**What**: A root-level anti-problem document that synthesizes all 12+ disease-level anti-problems into a unified anti-problem framework. The ODD instance ran the cross-disease anti-problem analysis (`numerics/anti_problem_cross_disease.py`) and the theory track has individual disease anti-problems, but there is no single document asking: "What does a person who is exposed to CVB but develops NONE of the 12 diseases look like?"
+**What**: A root-level anti-problem document that synthesizes all 12+ disease-level anti-problems into a unified anti-problem framework. The numerical track ran the cross-disease anti-problem analysis (`numerics/anti_problem_cross_disease.py`) and the theory track has individual disease anti-problems, but there is no single document asking: "What does a person who is exposed to CVB but develops NONE of the 12 diseases look like?"
 
 **Answer from the numerics**: Such a person has (1) rapid WT clearance via strong NK + CD8 response, (2) no TD mutant formation or rapid autophagy-mediated TD clearance, (3) high Treg/Teff ratio preventing autoimmunity, (4) DQ6-type HLA providing efficient viral presentation without organ-specific autoimmunity. The protocol CREATES this phenotype pharmacologically.
 
@@ -370,7 +370,7 @@ The existing `CONVERGENCE.md` is a good start but is structured as a hierarchy/r
 ## Questions the ODD Instance Could Not Answer Computationally
 
 ### Q1: Is the fluoxetine-CVB IC50 really 1 uM in vivo?
-**Status**: Zuo 2018 reports ~1 uM in cell culture. Protein binding (97% for fluoxetine) means free drug is ~3% of total. But fluoxetine accumulates intracellularly via lysosomotropic trapping (pKa 10.05), which may compensate. The ODD instance used the in vitro IC50 for the unified model and a higher in vivo estimate for dedicated models. Resolution requires pharmacokinetic first principles, not more Monte Carlo.
+**Status**: Zuo 2018 reports ~1 uM in cell culture. Protein binding (97% for fluoxetine) means free drug is ~3% of total. But fluoxetine accumulates intracellularly via lysosomotropic trapping (pKa 10.05), which may compensate. The numerical track used the in vitro IC50 for the unified model and a higher in vivo estimate for dedicated models. Resolution requires pharmacokinetic first principles, not more Monte Carlo.
 
 ### Q2: Do TD mutants undergo autophagy at the same rate as wild-type?
 **Status**: The model assumes yes (same autophagy susceptibility). If TD mutants have altered autophagy susceptibility (e.g., 5' deletion affects autophagosome targeting), clearance timelines could be significantly longer. No experimental data distinguishes TD vs WT autophagy rates. This is an EXPERIMENTALLY OPEN question.
@@ -390,7 +390,7 @@ The existing `CONVERGENCE.md` is a good start but is structured as a hierarchy/r
 **Status**: We have 19F-MRS data for brain (Bolo 2000, Karson 1993), tissue distribution data for testes (Tanrikut 2010), but no direct measurement for pancreas. The model uses a low estimate (sub-IC50 at standard doses), relying on autophagy for pancreatic clearance. If pancreatic fluoxetine is higher than expected, clearance would be faster.
 
 ### Q7: What is the state of CVB vaccine clinical trials?
-**Status**: The ODD instance modeled vaccine impact assuming 85% efficacy. Soppela VLP-deltaVP4 is in preclinical. Are there any Phase I trials? mRNA candidates? This affects the "long-term endgame" timeline.
+**Status**: The numerical track modeled vaccine impact assuming 85% efficacy. Soppela VLP-deltaVP4 is in preclinical. Are there any Phase I trials? mRNA candidates? This affects the "long-term endgame" timeline.
 
 ### Q8: Has anyone tested fluoxetine in a CVB animal model since Zuo 2018?
 **Status**: Zuo 2018 is the primary reference. If there are follow-up studies (positive or negative), they would directly affect the central claim.
@@ -483,7 +483,7 @@ Requirements: the patient's consent, physician supervision, IRB or equivalent et
 
 ## What Additional Validation Would Reviewers Require?
 
-1. **For Paper 1 (computational)**: Sensitivity analysis showing robustness to +/-50% parameter variation (ODD instance has +/-30%; needs extension). Comparison to at least one published enteroviral ODE model. Discussion of model limitations (single-strain, no spatial heterogeneity, no stochastic effects).
+1. **For Paper 1 (computational)**: Sensitivity analysis showing robustness to +/-50% parameter variation (numerical track has +/-30%; needs extension). Comparison to at least one published enteroviral ODE model. Discussion of model limitations (single-strain, no spatial heterogeneity, no stochastic effects).
 
 2. **For Paper 2 (fluoxetine)**: Reviewers will want animal model data or at minimum retrospective human data. The SSRI-pericarditis database query (REQ-007) would partially satisfy this.
 
@@ -525,6 +525,6 @@ For the theory track's convenience, here is where to find everything:
 
 ---
 
-*End of theory track Handoff. The ODD instance has mapped ~80% of the noise space. The remaining 20% is edge cases and refinements. The theory track's job is to take these numerical findings and forge them into formal proofs, certified claims, and publication-ready documents.*
+*End of theory track Handoff. The numerical track has mapped ~80% of the noise space. The remaining 20% is edge cases and refinements. The theory track's job is to take these numerical findings and forge them into formal proofs, certified claims, and publication-ready documents.*
 
 *ODD Instance, signing off.*

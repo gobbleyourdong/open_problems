@@ -1,0 +1,1984 @@
+{
+  "analysis_metadata": {
+    "date": "2026-04-08",
+    "analyst": "numerical track",
+    "datasets": {
+      "GSE293840": {
+        "description": "cfRNA RNA-seq",
+        "cases": 93,
+        "controls": 75,
+        "total_genes": 60708,
+        "expressed_genes": 14242,
+        "sig_degs": 891
+      },
+      "GSE268212": {
+        "description": "CD8 T cell RNA-seq",
+        "cases": 14,
+        "controls": 14,
+        "total_genes": 58884,
+        "expressed_genes": 16572,
+        "sig_degs": 3135
+      }
+    }
+  },
+  "GSE293840_cfRNA": {
+    "top20_upregulated": [
+      {
+        "gene_id": "ENSG00000229807.13",
+        "symbol": "XIST",
+        "log2FC": 1.597,
+        "fdr": 0.0505
+      },
+      {
+        "gene_id": "ENSG00000252835.1",
+        "symbol": "SCARNA21",
+        "log2FC": 1.004,
+        "fdr": 0.0782
+      },
+      {
+        "gene_id": "ENSG00000085265.11",
+        "symbol": "FCN1",
+        "log2FC": 0.981,
+        "fdr": 0.0552
+      },
+      {
+        "gene_id": "ENSG00000123384.14",
+        "symbol": "LRP1",
+        "log2FC": 0.974,
+        "fdr": 0.0613
+      },
+      {
+        "gene_id": "ENSG00000212232.1",
+        "symbol": "SNORD17",
+        "log2FC": 0.921,
+        "fdr": 0.0892
+      },
+      {
+        "gene_id": "ENSG00000265206.5",
+        "symbol": "MIR142HG",
+        "log2FC": 0.914,
+        "fdr": 0.1042
+      },
+      {
+        "gene_id": "ENSG00000263934.5",
+        "symbol": "SNORD3A",
+        "log2FC": 0.904,
+        "fdr": 0.1354
+      },
+      {
+        "gene_id": "ENSG00000142102.16",
+        "symbol": "PGGHG",
+        "log2FC": 0.901,
+        "fdr": 0.0484
+      },
+      {
+        "gene_id": "ENSG00000240356.6",
+        "symbol": "RPL23AP7",
+        "log2FC": 0.897,
+        "fdr": 0.2145
+      },
+      {
+        "gene_id": "ENSG00000155657.28",
+        "symbol": "TTN",
+        "log2FC": 0.897,
+        "fdr": 0.0522
+      },
+      {
+        "gene_id": "ENSG00000207445.1",
+        "symbol": "SNORD15B",
+        "log2FC": 0.884,
+        "fdr": 0.0943
+      },
+      {
+        "gene_id": "ENSG00000252010.1",
+        "symbol": "SCARNA5",
+        "log2FC": 0.854,
+        "fdr": 0.126
+      },
+      {
+        "gene_id": "ENSG00000038427.16",
+        "symbol": "VCAN",
+        "log2FC": 0.845,
+        "fdr": 0.1201
+      },
+      {
+        "gene_id": "ENSG00000264940.5",
+        "symbol": "SNORD3C",
+        "log2FC": 0.831,
+        "fdr": 0.0937
+      },
+      {
+        "gene_id": "ENSG00000163534.15",
+        "symbol": "FCRL1",
+        "log2FC": 0.806,
+        "fdr": 0.0543
+      },
+      {
+        "gene_id": "ENSG00000206585.1",
+        "symbol": "RNVU1-7",
+        "log2FC": 0.802,
+        "fdr": 0.0887
+      },
+      {
+        "gene_id": "ENSG00000267121.6",
+        "symbol": "FMNL1-DT",
+        "log2FC": 0.8,
+        "fdr": 0.0548
+      },
+      {
+        "gene_id": "ENSG00000203709.12",
+        "symbol": "MIR29B2CHG",
+        "log2FC": 0.799,
+        "fdr": 0.0707
+      },
+      {
+        "gene_id": "ENSG00000242574.9",
+        "symbol": "HLA-DMB",
+        "log2FC": 0.785,
+        "fdr": 0.0968
+      },
+      {
+        "gene_id": "ENSG00000197536.11",
+        "symbol": "CARINH",
+        "log2FC": 0.783,
+        "fdr": 0.0484
+      }
+    ],
+    "top20_downregulated": [
+      {
+        "gene_id": "ENSG00000183878.16",
+        "symbol": "UTY",
+        "log2FC": -0.604,
+        "fdr": 0.4705
+      },
+      {
+        "gene_id": "ENSG00000131002.12",
+        "symbol": "TXLNGY",
+        "log2FC": -0.586,
+        "fdr": 0.4999
+      },
+      {
+        "gene_id": "ENSG00000067048.17",
+        "symbol": "DDX3Y",
+        "log2FC": -0.575,
+        "fdr": 0.4976
+      },
+      {
+        "gene_id": "ENSG00000202111.1",
+        "symbol": "VTRNA1-2",
+        "log2FC": -0.559,
+        "fdr": 0.0521
+      },
+      {
+        "gene_id": "ENSG00000198692.10",
+        "symbol": "EIF1AY",
+        "log2FC": -0.531,
+        "fdr": 0.496
+      },
+      {
+        "gene_id": "ENSG00000248538.8",
+        "symbol": "PPP1R3B-DT",
+        "log2FC": -0.508,
+        "fdr": 0.3208
+      },
+      {
+        "gene_id": "ENSG00000071909.19",
+        "symbol": "MYO3B",
+        "log2FC": -0.461,
+        "fdr": 0.0649
+      },
+      {
+        "gene_id": "ENSG00000148848.15",
+        "symbol": "ADAM12",
+        "log2FC": -0.455,
+        "fdr": 0.1122
+      },
+      {
+        "gene_id": "ENSG00000225972.1",
+        "symbol": "MTND1P23",
+        "log2FC": -0.446,
+        "fdr": 0.0584
+      },
+      {
+        "gene_id": "ENSG00000138772.13",
+        "symbol": "ANXA3",
+        "log2FC": -0.44,
+        "fdr": 0.082
+      },
+      {
+        "gene_id": "ENSG00000129824.16",
+        "symbol": "RPS4Y1",
+        "log2FC": -0.435,
+        "fdr": 0.5358
+      },
+      {
+        "gene_id": "ENSG00000012817.16",
+        "symbol": "KDM5D",
+        "log2FC": -0.434,
+        "fdr": 0.5236
+      },
+      {
+        "gene_id": "ENSG00000114374.13",
+        "symbol": "USP9Y",
+        "log2FC": -0.409,
+        "fdr": 0.5626
+      },
+      {
+        "gene_id": "ENSG00000210174.1",
+        "symbol": "MT-TR",
+        "log2FC": -0.393,
+        "fdr": 0.2297
+      },
+      {
+        "gene_id": "ENSG00000154620.6",
+        "symbol": "TMSB4Y",
+        "log2FC": -0.385,
+        "fdr": 0.4779
+      },
+      {
+        "gene_id": "ENSG00000067646.12",
+        "symbol": "ZFY",
+        "log2FC": -0.371,
+        "fdr": 0.5295
+      },
+      {
+        "gene_id": "ENSG00000109272.4",
+        "symbol": "PF4V1",
+        "log2FC": -0.367,
+        "fdr": 0.1132
+      },
+      {
+        "gene_id": "ENSG00000237473.2",
+        "symbol": "ENSG00000237473.2",
+        "log2FC": -0.36,
+        "fdr": 0.0505
+      },
+      {
+        "gene_id": "ENSG00000278791.1",
+        "symbol": "ENSG00000278791.1",
+        "log2FC": -0.352,
+        "fdr": 0.194
+      },
+      {
+        "gene_id": "ENSG00000156535.15",
+        "symbol": "CD109",
+        "log2FC": -0.338,
+        "fdr": 0.0509
+      }
+    ],
+    "gene_sets": {
+      "ENERGY_MITOCHONDRIAL": {
+        "n_genes_queried": 14,
+        "n_found": 14,
+        "n_up_significant": 0,
+        "n_down_significant": 0,
+        "n_up_any": 0,
+        "n_down_any": 0,
+        "genes": {
+          "NDUFS1": {
+            "log2FC": 0.199,
+            "pval": 0.00014,
+            "fdr": 0.0477,
+            "mean_case_log2CPM": 5.467,
+            "mean_ctrl_log2CPM": 5.268,
+            "direction": "UNCHANGED",
+            "significant": true,
+            "ensembl": "ENSG00000023228"
+          },
+          "NDUFS2": {
+            "log2FC": 0.286,
+            "pval": 0.00453,
+            "fdr": 0.0745,
+            "mean_case_log2CPM": 4.187,
+            "mean_ctrl_log2CPM": 3.901,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000158864"
+          },
+          "NDUFV1": {
+            "log2FC": 0.327,
+            "pval": 0.00295,
+            "fdr": 0.064,
+            "mean_case_log2CPM": 4.138,
+            "mean_ctrl_log2CPM": 3.811,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000167792"
+          },
+          "UQCRC1": {
+            "log2FC": 0.273,
+            "pval": 0.00877,
+            "fdr": 0.1017,
+            "mean_case_log2CPM": 4.065,
+            "mean_ctrl_log2CPM": 3.792,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000010256"
+          },
+          "UQCRC2": {
+            "log2FC": 0.222,
+            "pval": 0.00286,
+            "fdr": 0.0634,
+            "mean_case_log2CPM": 4.865,
+            "mean_ctrl_log2CPM": 4.642,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000140740"
+          },
+          "ATP5F1B": {
+            "log2FC": 0.212,
+            "pval": 0.00506,
+            "fdr": 0.0782,
+            "mean_case_log2CPM": 5.521,
+            "mean_ctrl_log2CPM": 5.309,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000110955"
+          },
+          "COX4I1": {
+            "log2FC": 0.113,
+            "pval": 0.06048,
+            "fdr": 0.308,
+            "mean_case_log2CPM": 7.368,
+            "mean_ctrl_log2CPM": 7.255,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000131143"
+          },
+          "COX5A": {
+            "log2FC": 0.05,
+            "pval": 0.42286,
+            "fdr": 0.7232,
+            "mean_case_log2CPM": 4.849,
+            "mean_ctrl_log2CPM": 4.799,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000178741"
+          },
+          "SDHA": {
+            "log2FC": 0.341,
+            "pval": 0.00121,
+            "fdr": 0.0509,
+            "mean_case_log2CPM": 2.649,
+            "mean_ctrl_log2CPM": 2.308,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000073578"
+          },
+          "SDHB": {
+            "log2FC": 0.21,
+            "pval": 0.02622,
+            "fdr": 0.1866,
+            "mean_case_log2CPM": 4.339,
+            "mean_ctrl_log2CPM": 4.129,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000117118"
+          },
+          "TFAM": {
+            "log2FC": 0.263,
+            "pval": 0.0132,
+            "fdr": 0.126,
+            "mean_case_log2CPM": 4.053,
+            "mean_ctrl_log2CPM": 3.79,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000108064"
+          },
+          "PPARGC1A": {
+            "log2FC": 0.119,
+            "pval": 0.01453,
+            "fdr": 0.1327,
+            "mean_case_log2CPM": 0.286,
+            "mean_ctrl_log2CPM": 0.168,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000109819"
+          },
+          "PRKAA1": {
+            "log2FC": -0.039,
+            "pval": 0.25861,
+            "fdr": 0.6124,
+            "mean_case_log2CPM": 6.473,
+            "mean_ctrl_log2CPM": 6.512,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000132356"
+          },
+          "PRKAA2": {
+            "log2FC": 0.055,
+            "pval": 0.22846,
+            "fdr": 0.6018,
+            "mean_case_log2CPM": 0.219,
+            "mean_ctrl_log2CPM": 0.164,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000162409"
+          }
+        }
+      },
+      "IMMUNE_NK_FUNCTION": {
+        "n_genes_queried": 13,
+        "n_found": 13,
+        "n_up_significant": 2,
+        "n_down_significant": 0,
+        "n_up_any": 2,
+        "n_down_any": 0,
+        "genes": {
+          "KLRB1": {
+            "log2FC": 0.301,
+            "pval": 0.00624,
+            "fdr": 0.0857,
+            "mean_case_log2CPM": 3.213,
+            "mean_ctrl_log2CPM": 2.912,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000111796"
+          },
+          "KLRD1": {
+            "log2FC": 0.518,
+            "pval": 0.00018,
+            "fdr": 0.0477,
+            "mean_case_log2CPM": 4.096,
+            "mean_ctrl_log2CPM": 3.578,
+            "direction": "UP",
+            "significant": true,
+            "ensembl": "ENSG00000134539"
+          },
+          "KLRK1": {
+            "log2FC": 0.206,
+            "pval": 0.00039,
+            "fdr": 0.0477,
+            "mean_case_log2CPM": 0.353,
+            "mean_ctrl_log2CPM": 0.147,
+            "direction": "UNCHANGED",
+            "significant": true,
+            "ensembl": "ENSG00000213809"
+          },
+          "NCR1": {
+            "log2FC": 0.314,
+            "pval": 0.00383,
+            "fdr": 0.0698,
+            "mean_case_log2CPM": 1.773,
+            "mean_ctrl_log2CPM": 1.459,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000189430"
+          },
+          "NCR3": {
+            "log2FC": -0.072,
+            "pval": 0.09281,
+            "fdr": 0.3929,
+            "mean_case_log2CPM": 0.106,
+            "mean_ctrl_log2CPM": 0.178,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000267069"
+          },
+          "NKG7": {
+            "log2FC": 0.318,
+            "pval": 0.00522,
+            "fdr": 0.0792,
+            "mean_case_log2CPM": 5.159,
+            "mean_ctrl_log2CPM": 4.841,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000105374"
+          },
+          "GZMA": {
+            "log2FC": 0.371,
+            "pval": 0.00101,
+            "fdr": 0.0505,
+            "mean_case_log2CPM": 2.925,
+            "mean_ctrl_log2CPM": 2.554,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000145649"
+          },
+          "GZMB": {
+            "log2FC": 0.379,
+            "pval": 0.00141,
+            "fdr": 0.0522,
+            "mean_case_log2CPM": 3.963,
+            "mean_ctrl_log2CPM": 3.584,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000100453"
+          },
+          "GZMH": {
+            "log2FC": 0.337,
+            "pval": 0.01502,
+            "fdr": 0.1351,
+            "mean_case_log2CPM": 2.339,
+            "mean_ctrl_log2CPM": 2.002,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000100450"
+          },
+          "PRF1": {
+            "log2FC": 0.6,
+            "pval": 0.00016,
+            "fdr": 0.0477,
+            "mean_case_log2CPM": 4.018,
+            "mean_ctrl_log2CPM": 3.418,
+            "direction": "UP",
+            "significant": true,
+            "ensembl": "ENSG00000180644"
+          },
+          "IFNG": {
+            "log2FC": 0.089,
+            "pval": 0.1337,
+            "fdr": 0.476,
+            "mean_case_log2CPM": 0.383,
+            "mean_ctrl_log2CPM": 0.294,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000111537"
+          },
+          "TBX21": {
+            "log2FC": 0.314,
+            "pval": 0.0099,
+            "fdr": 0.1076,
+            "mean_case_log2CPM": 4.366,
+            "mean_ctrl_log2CPM": 4.052,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000073861"
+          },
+          "EOMES": {
+            "log2FC": 0.262,
+            "pval": 0.01491,
+            "fdr": 0.1345,
+            "mean_case_log2CPM": 2.779,
+            "mean_ctrl_log2CPM": 2.517,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000163508"
+          }
+        }
+      },
+      "VIRAL_PERSISTENCE_ISG": {
+        "n_genes_queried": 11,
+        "n_found": 11,
+        "n_up_significant": 0,
+        "n_down_significant": 0,
+        "n_up_any": 0,
+        "n_down_any": 0,
+        "genes": {
+          "IFIT1": {
+            "log2FC": 0.143,
+            "pval": 0.30514,
+            "fdr": 0.6124,
+            "mean_case_log2CPM": 2.949,
+            "mean_ctrl_log2CPM": 2.807,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000185745"
+          },
+          "IFIT2": {
+            "log2FC": 0.115,
+            "pval": 0.36971,
+            "fdr": 0.6672,
+            "mean_case_log2CPM": 4.393,
+            "mean_ctrl_log2CPM": 4.278,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000119922"
+          },
+          "IFIT3": {
+            "log2FC": 0.175,
+            "pval": 0.21239,
+            "fdr": 0.5805,
+            "mean_case_log2CPM": 4.416,
+            "mean_ctrl_log2CPM": 4.241,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000119917"
+          },
+          "MX1": {
+            "log2FC": 0.224,
+            "pval": 0.13657,
+            "fdr": 0.4815,
+            "mean_case_log2CPM": 5.552,
+            "mean_ctrl_log2CPM": 5.329,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000157601"
+          },
+          "ISG15": {
+            "log2FC": 0.21,
+            "pval": 0.09182,
+            "fdr": 0.3908,
+            "mean_case_log2CPM": 2.987,
+            "mean_ctrl_log2CPM": 2.777,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000187608"
+          },
+          "OAS1": {
+            "log2FC": 0.341,
+            "pval": 0.01357,
+            "fdr": 0.1279,
+            "mean_case_log2CPM": 4.528,
+            "mean_ctrl_log2CPM": 4.187,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000089127"
+          },
+          "OAS2": {
+            "log2FC": 0.202,
+            "pval": 0.10221,
+            "fdr": 0.4129,
+            "mean_case_log2CPM": 4.947,
+            "mean_ctrl_log2CPM": 4.746,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000111335"
+          },
+          "DDX58": {
+            "log2FC": 0.371,
+            "pval": 0.02232,
+            "fdr": 0.1699,
+            "mean_case_log2CPM": 1.647,
+            "mean_ctrl_log2CPM": 1.276,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000107201"
+          },
+          "IFIH1": {
+            "log2FC": 0.303,
+            "pval": 0.00394,
+            "fdr": 0.0708,
+            "mean_case_log2CPM": 4.165,
+            "mean_ctrl_log2CPM": 3.862,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000115267"
+          },
+          "STAT1": {
+            "log2FC": 0.372,
+            "pval": 0.00279,
+            "fdr": 0.0628,
+            "mean_case_log2CPM": 6.606,
+            "mean_ctrl_log2CPM": 6.234,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000115415"
+          },
+          "IRF7": {
+            "log2FC": 0.189,
+            "pval": 0.12343,
+            "fdr": 0.4554,
+            "mean_case_log2CPM": 3.383,
+            "mean_ctrl_log2CPM": 3.194,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000185507"
+          }
+        }
+      },
+      "FOXP1_TREG": {
+        "n_genes_queried": 5,
+        "n_found": 5,
+        "n_up_significant": 0,
+        "n_down_significant": 0,
+        "n_up_any": 1,
+        "n_down_any": 0,
+        "genes": {
+          "FOXP1": {
+            "log2FC": 0.508,
+            "pval": 0.00236,
+            "fdr": 0.0598,
+            "mean_case_log2CPM": 4.95,
+            "mean_ctrl_log2CPM": 4.442,
+            "direction": "UP",
+            "significant": false,
+            "ensembl": "ENSG00000114861"
+          },
+          "FOXP3": {
+            "log2FC": 0.173,
+            "pval": 0.10102,
+            "fdr": 0.4105,
+            "mean_case_log2CPM": 1.87,
+            "mean_ctrl_log2CPM": 1.698,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000049768"
+          },
+          "IL2RA": {
+            "log2FC": 0.232,
+            "pval": 0.05664,
+            "fdr": 0.2964,
+            "mean_case_log2CPM": 1.487,
+            "mean_ctrl_log2CPM": 1.255,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000134460"
+          },
+          "CTLA4": {
+            "log2FC": 0.124,
+            "pval": 0.14411,
+            "fdr": 0.496,
+            "mean_case_log2CPM": 0.514,
+            "mean_ctrl_log2CPM": 0.39,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000163599"
+          },
+          "TGFB1": {
+            "log2FC": -0.064,
+            "pval": 0.42728,
+            "fdr": 0.7276,
+            "mean_case_log2CPM": 10.287,
+            "mean_ctrl_log2CPM": 10.351,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000105329"
+          }
+        }
+      },
+      "CVB_TARGETS": {
+        "n_genes_queried": 5,
+        "n_found": 5,
+        "n_up_significant": 0,
+        "n_down_significant": 0,
+        "n_up_any": 0,
+        "n_down_any": 0,
+        "genes": {
+          "LAMP1": {
+            "log2FC": -0.046,
+            "pval": 0.49462,
+            "fdr": 0.7909,
+            "mean_case_log2CPM": 6.18,
+            "mean_ctrl_log2CPM": 6.226,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000185896"
+          },
+          "LAMP2": {
+            "log2FC": -0.028,
+            "pval": 0.66293,
+            "fdr": 0.9286,
+            "mean_case_log2CPM": 4.338,
+            "mean_ctrl_log2CPM": 4.366,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000005893"
+          },
+          "CXADR": {
+            "log2FC": 0.046,
+            "pval": 0.25435,
+            "fdr": 0.6124,
+            "mean_case_log2CPM": 0.174,
+            "mean_ctrl_log2CPM": 0.127,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000154639"
+          },
+          "SNAP29": {
+            "log2FC": 0.039,
+            "pval": 0.45138,
+            "fdr": 0.7513,
+            "mean_case_log2CPM": 6.568,
+            "mean_ctrl_log2CPM": 6.529,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000099940"
+          },
+          "DMD": {
+            "log2FC": 0.154,
+            "pval": 0.14768,
+            "fdr": 0.5028,
+            "mean_case_log2CPM": 2.781,
+            "mean_ctrl_log2CPM": 2.626,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000198947"
+          }
+        }
+      },
+      "AUTOPHAGY": {
+        "n_genes_queried": 7,
+        "n_found": 7,
+        "n_up_significant": 0,
+        "n_down_significant": 0,
+        "n_up_any": 0,
+        "n_down_any": 0,
+        "genes": {
+          "ATG7": {
+            "log2FC": 0.402,
+            "pval": 0.00724,
+            "fdr": 0.0923,
+            "mean_case_log2CPM": 4.046,
+            "mean_ctrl_log2CPM": 3.644,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000197548"
+          },
+          "BECN1": {
+            "log2FC": 0.04,
+            "pval": 0.32301,
+            "fdr": 0.615,
+            "mean_case_log2CPM": 6.513,
+            "mean_ctrl_log2CPM": 6.473,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000126581"
+          },
+          "MAP1LC3B": {
+            "log2FC": -0.129,
+            "pval": 0.01083,
+            "fdr": 0.1128,
+            "mean_case_log2CPM": 8.196,
+            "mean_ctrl_log2CPM": 8.325,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000140941"
+          },
+          "SQSTM1": {
+            "log2FC": 0.013,
+            "pval": 0.77859,
+            "fdr": 1.0,
+            "mean_case_log2CPM": 7.219,
+            "mean_ctrl_log2CPM": 7.206,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000161011"
+          },
+          "ATG12": {
+            "log2FC": 0.181,
+            "pval": 0.00623,
+            "fdr": 0.0857,
+            "mean_case_log2CPM": 4.482,
+            "mean_ctrl_log2CPM": 4.3,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000145782"
+          },
+          "ATG16L1": {
+            "log2FC": 0.189,
+            "pval": 0.01055,
+            "fdr": 0.1112,
+            "mean_case_log2CPM": 4.52,
+            "mean_ctrl_log2CPM": 4.331,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000085978"
+          },
+          "ULK1": {
+            "log2FC": 0.219,
+            "pval": 0.0153,
+            "fdr": 0.1366,
+            "mean_case_log2CPM": 4.603,
+            "mean_ctrl_log2CPM": 4.384,
+            "direction": "UNCHANGED",
+            "significant": false,
+            "ensembl": "ENSG00000177169"
+          }
+        }
+      }
+    }
+  },
+  "GSE268212_CD8": {
+    "top20_upregulated": [
+      {
+        "gene_id": "ENSG00000091129",
+        "symbol": "NRCAM",
+        "log2FC": 4.281,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000238241",
+        "symbol": "CCR12P",
+        "log2FC": 4.092,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000183691",
+        "symbol": "NOG",
+        "log2FC": 3.5,
+        "fdr": 0.0001
+      },
+      {
+        "gene_id": "ENSG00000173114",
+        "symbol": "LRRN3",
+        "log2FC": 3.297,
+        "fdr": 0.0006
+      },
+      {
+        "gene_id": "ENSG00000135960",
+        "symbol": "EDAR",
+        "log2FC": 3.291,
+        "fdr": 0.0001
+      },
+      {
+        "gene_id": "ENSG00000158966",
+        "symbol": "CACHD1",
+        "log2FC": 3.155,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000075340",
+        "symbol": "ADD2",
+        "log2FC": 3.123,
+        "fdr": 0.0001
+      },
+      {
+        "gene_id": "ENSG00000169855",
+        "symbol": "ROBO1",
+        "log2FC": 2.973,
+        "fdr": 0.0005
+      },
+      {
+        "gene_id": "ENSG00000131686",
+        "symbol": "CA6",
+        "log2FC": 2.929,
+        "fdr": 0.0001
+      },
+      {
+        "gene_id": "ENSG00000181690",
+        "symbol": "PLAG1",
+        "log2FC": 2.896,
+        "fdr": 0.0001
+      },
+      {
+        "gene_id": "ENSG00000112655",
+        "symbol": "PTK7",
+        "log2FC": 2.864,
+        "fdr": 0.0002
+      },
+      {
+        "gene_id": "ENSG00000232208",
+        "symbol": "ENSG00000232208",
+        "log2FC": 2.863,
+        "fdr": 0.0001
+      },
+      {
+        "gene_id": "ENSG00000047634",
+        "symbol": "SCML1",
+        "log2FC": 2.851,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000232021",
+        "symbol": "LEF1-AS1",
+        "log2FC": 2.843,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000120057",
+        "symbol": "SFRP5",
+        "log2FC": 2.822,
+        "fdr": 0.0003
+      },
+      {
+        "gene_id": "ENSG00000234456",
+        "symbol": "MAGI2-AS3",
+        "log2FC": 2.813,
+        "fdr": 0.0007
+      },
+      {
+        "gene_id": "ENSG00000134765",
+        "symbol": "DSC1",
+        "log2FC": 2.807,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000172985",
+        "symbol": "SH3RF3",
+        "log2FC": 2.806,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000134193",
+        "symbol": "REG4",
+        "log2FC": 2.796,
+        "fdr": 0.0002
+      },
+      {
+        "gene_id": "ENSG00000281106",
+        "symbol": "TMEM272",
+        "log2FC": 2.786,
+        "fdr": 0.0001
+      }
+    ],
+    "top20_downregulated": [
+      {
+        "gene_id": "ENSG00000100450",
+        "symbol": "GZMH",
+        "log2FC": -5.449,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000105374",
+        "symbol": "NKG7",
+        "log2FC": -5.207,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000115523",
+        "symbol": "GNLY",
+        "log2FC": -5.145,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000062524",
+        "symbol": "LTK",
+        "log2FC": -5.138,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000111796",
+        "symbol": "KLRB1",
+        "log2FC": -5.103,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000178573",
+        "symbol": "MAF",
+        "log2FC": -4.7,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000077984",
+        "symbol": "CST7",
+        "log2FC": -4.681,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000115956",
+        "symbol": "PLEK",
+        "log2FC": -4.628,
+        "fdr": 0.0001
+      },
+      {
+        "gene_id": "ENSG00000180739",
+        "symbol": "S1PR5",
+        "log2FC": -4.623,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000004399",
+        "symbol": "PLXND1",
+        "log2FC": -4.59,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000073861",
+        "symbol": "TBX21",
+        "log2FC": -4.541,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000000938",
+        "symbol": "FGR",
+        "log2FC": -4.494,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000145649",
+        "symbol": "GZMA",
+        "log2FC": -4.487,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000026751",
+        "symbol": "SLAMF7",
+        "log2FC": -4.466,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000126822",
+        "symbol": "PLEKHG3",
+        "log2FC": -4.425,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000135842",
+        "symbol": "NIBAN1",
+        "log2FC": -4.372,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000115607",
+        "symbol": "IL18RAP",
+        "log2FC": -4.337,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000135362",
+        "symbol": "PRR5L",
+        "log2FC": -4.301,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000100453",
+        "symbol": "GZMB",
+        "log2FC": -4.254,
+        "fdr": 0.0
+      },
+      {
+        "gene_id": "ENSG00000181036",
+        "symbol": "FCRL6",
+        "log2FC": -4.246,
+        "fdr": 0.0001
+      }
+    ],
+    "gene_sets": {
+      "ENERGY_MITOCHONDRIAL": {
+        "n_genes_queried": 14,
+        "n_found": 14,
+        "n_up_significant": 1,
+        "n_down_significant": 1,
+        "n_up_any": 1,
+        "n_down_any": 1,
+        "genes": {
+          "NDUFS1": {
+            "log2FC": 0.012,
+            "pval": 0.90959,
+            "fdr": 1.0,
+            "mean_case_log2CPM": 5.227,
+            "mean_ctrl_log2CPM": 5.215,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "NDUFS2": {
+            "log2FC": 0.622,
+            "pval": 0.00112,
+            "fdr": 0.0263,
+            "mean_case_log2CPM": 6.175,
+            "mean_ctrl_log2CPM": 5.552,
+            "direction": "UP",
+            "significant": true
+          },
+          "NDUFV1": {
+            "log2FC": 0.086,
+            "pval": 0.38789,
+            "fdr": 0.7604,
+            "mean_case_log2CPM": 7.251,
+            "mean_ctrl_log2CPM": 7.165,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "UQCRC1": {
+            "log2FC": -0.119,
+            "pval": 0.35454,
+            "fdr": 0.7256,
+            "mean_case_log2CPM": 5.893,
+            "mean_ctrl_log2CPM": 6.012,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "UQCRC2": {
+            "log2FC": 0.19,
+            "pval": 0.08086,
+            "fdr": 0.508,
+            "mean_case_log2CPM": 6.607,
+            "mean_ctrl_log2CPM": 6.417,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "ATP5F1B": {
+            "log2FC": -0.094,
+            "pval": 0.27019,
+            "fdr": 0.703,
+            "mean_case_log2CPM": 7.945,
+            "mean_ctrl_log2CPM": 8.038,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "COX4I1": {
+            "log2FC": 0.449,
+            "pval": 0.0019,
+            "fdr": 0.0389,
+            "mean_case_log2CPM": 9.227,
+            "mean_ctrl_log2CPM": 8.778,
+            "direction": "UNCHANGED",
+            "significant": true
+          },
+          "COX5A": {
+            "log2FC": -0.539,
+            "pval": 0.00249,
+            "fdr": 0.0475,
+            "mean_case_log2CPM": 4.435,
+            "mean_ctrl_log2CPM": 4.974,
+            "direction": "DOWN",
+            "significant": true
+          },
+          "SDHA": {
+            "log2FC": 0.271,
+            "pval": 0.17605,
+            "fdr": 0.6884,
+            "mean_case_log2CPM": 3.95,
+            "mean_ctrl_log2CPM": 3.68,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "SDHB": {
+            "log2FC": -0.045,
+            "pval": 0.79741,
+            "fdr": 1.0,
+            "mean_case_log2CPM": 4.93,
+            "mean_ctrl_log2CPM": 4.975,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "TFAM": {
+            "log2FC": 0.453,
+            "pval": 0.00716,
+            "fdr": 0.1044,
+            "mean_case_log2CPM": 6.38,
+            "mean_ctrl_log2CPM": 5.927,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "PPARGC1A": {
+            "log2FC": 0.068,
+            "pval": 0.78832,
+            "fdr": 1.0,
+            "mean_case_log2CPM": 0.782,
+            "mean_ctrl_log2CPM": 0.714,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "PRKAA1": {
+            "log2FC": 0.111,
+            "pval": 0.18754,
+            "fdr": 0.6963,
+            "mean_case_log2CPM": 7.314,
+            "mean_ctrl_log2CPM": 7.203,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "PRKAA2": {
+            "log2FC": 0.245,
+            "pval": 0.29864,
+            "fdr": 0.703,
+            "mean_case_log2CPM": 0.632,
+            "mean_ctrl_log2CPM": 0.387,
+            "direction": "UNCHANGED",
+            "significant": false
+          }
+        }
+      },
+      "IMMUNE_NK_FUNCTION": {
+        "n_genes_queried": 13,
+        "n_found": 13,
+        "n_up_significant": 0,
+        "n_down_significant": 10,
+        "n_up_any": 0,
+        "n_down_any": 11,
+        "genes": {
+          "KLRB1": {
+            "log2FC": -5.103,
+            "pval": 0.0,
+            "fdr": 0.0,
+            "mean_case_log2CPM": 0.772,
+            "mean_ctrl_log2CPM": 5.875,
+            "direction": "DOWN",
+            "significant": true
+          },
+          "KLRD1": {
+            "log2FC": -3.919,
+            "pval": 0.0,
+            "fdr": 0.0002,
+            "mean_case_log2CPM": 2.416,
+            "mean_ctrl_log2CPM": 6.335,
+            "direction": "DOWN",
+            "significant": true
+          },
+          "KLRK1": {
+            "log2FC": 0.286,
+            "pval": 0.33962,
+            "fdr": 0.7079,
+            "mean_case_log2CPM": 3.881,
+            "mean_ctrl_log2CPM": 3.596,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "NCR1": {
+            "log2FC": -0.763,
+            "pval": 0.00267,
+            "fdr": 0.0502,
+            "mean_case_log2CPM": 0.038,
+            "mean_ctrl_log2CPM": 0.801,
+            "direction": "DOWN",
+            "significant": false
+          },
+          "NCR3": {
+            "log2FC": -0.01,
+            "pval": 0.93284,
+            "fdr": 1.0,
+            "mean_case_log2CPM": 0.11,
+            "mean_ctrl_log2CPM": 0.12,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "NKG7": {
+            "log2FC": -5.207,
+            "pval": 0.0,
+            "fdr": 0.0,
+            "mean_case_log2CPM": 2.869,
+            "mean_ctrl_log2CPM": 8.076,
+            "direction": "DOWN",
+            "significant": true
+          },
+          "GZMA": {
+            "log2FC": -4.487,
+            "pval": 0.0,
+            "fdr": 0.0,
+            "mean_case_log2CPM": 2.923,
+            "mean_ctrl_log2CPM": 7.41,
+            "direction": "DOWN",
+            "significant": true
+          },
+          "GZMB": {
+            "log2FC": -4.254,
+            "pval": 0.0,
+            "fdr": 0.0,
+            "mean_case_log2CPM": 0.806,
+            "mean_ctrl_log2CPM": 5.06,
+            "direction": "DOWN",
+            "significant": true
+          },
+          "GZMH": {
+            "log2FC": -5.449,
+            "pval": 0.0,
+            "fdr": 0.0,
+            "mean_case_log2CPM": 1.071,
+            "mean_ctrl_log2CPM": 6.521,
+            "direction": "DOWN",
+            "significant": true
+          },
+          "PRF1": {
+            "log2FC": -3.298,
+            "pval": 0.0,
+            "fdr": 0.0,
+            "mean_case_log2CPM": 4.189,
+            "mean_ctrl_log2CPM": 7.487,
+            "direction": "DOWN",
+            "significant": true
+          },
+          "IFNG": {
+            "log2FC": -4.037,
+            "pval": 0.0,
+            "fdr": 0.0,
+            "mean_case_log2CPM": 1.208,
+            "mean_ctrl_log2CPM": 5.245,
+            "direction": "DOWN",
+            "significant": true
+          },
+          "TBX21": {
+            "log2FC": -4.541,
+            "pval": 0.0,
+            "fdr": 0.0,
+            "mean_case_log2CPM": 2.012,
+            "mean_ctrl_log2CPM": 6.554,
+            "direction": "DOWN",
+            "significant": true
+          },
+          "EOMES": {
+            "log2FC": -2.844,
+            "pval": 0.0,
+            "fdr": 0.0001,
+            "mean_case_log2CPM": 3.004,
+            "mean_ctrl_log2CPM": 5.848,
+            "direction": "DOWN",
+            "significant": true
+          }
+        }
+      },
+      "VIRAL_PERSISTENCE_ISG": {
+        "n_genes_queried": 11,
+        "n_found": 11,
+        "n_up_significant": 0,
+        "n_down_significant": 1,
+        "n_up_any": 1,
+        "n_down_any": 3,
+        "genes": {
+          "IFIT1": {
+            "log2FC": 0.599,
+            "pval": 0.02851,
+            "fdr": 0.2716,
+            "mean_case_log2CPM": 1.762,
+            "mean_ctrl_log2CPM": 1.163,
+            "direction": "UP",
+            "significant": false
+          },
+          "IFIT2": {
+            "log2FC": -1.06,
+            "pval": 0.00581,
+            "fdr": 0.0893,
+            "mean_case_log2CPM": 2.124,
+            "mean_ctrl_log2CPM": 3.184,
+            "direction": "DOWN",
+            "significant": false
+          },
+          "IFIT3": {
+            "log2FC": -1.173,
+            "pval": 0.00146,
+            "fdr": 0.0321,
+            "mean_case_log2CPM": 0.94,
+            "mean_ctrl_log2CPM": 2.113,
+            "direction": "DOWN",
+            "significant": true
+          },
+          "MX1": {
+            "log2FC": -0.113,
+            "pval": 0.45809,
+            "fdr": 0.8252,
+            "mean_case_log2CPM": 5.329,
+            "mean_ctrl_log2CPM": 5.443,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "ISG15": {
+            "log2FC": -0.059,
+            "pval": 0.88424,
+            "fdr": 1.0,
+            "mean_case_log2CPM": 3.912,
+            "mean_ctrl_log2CPM": 3.971,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "OAS1": {
+            "log2FC": -0.75,
+            "pval": 0.00461,
+            "fdr": 0.0751,
+            "mean_case_log2CPM": 2.252,
+            "mean_ctrl_log2CPM": 3.002,
+            "direction": "DOWN",
+            "significant": false
+          },
+          "OAS2": {
+            "log2FC": -0.396,
+            "pval": 0.04641,
+            "fdr": 0.373,
+            "mean_case_log2CPM": 5.374,
+            "mean_ctrl_log2CPM": 5.77,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "DDX58": {
+            "log2FC": 0.054,
+            "pval": 0.61698,
+            "fdr": 0.9548,
+            "mean_case_log2CPM": 5.457,
+            "mean_ctrl_log2CPM": 5.403,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "IFIH1": {
+            "log2FC": -0.102,
+            "pval": 0.46469,
+            "fdr": 0.831,
+            "mean_case_log2CPM": 5.08,
+            "mean_ctrl_log2CPM": 5.182,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "STAT1": {
+            "log2FC": 0.103,
+            "pval": 0.59935,
+            "fdr": 0.941,
+            "mean_case_log2CPM": 7.413,
+            "mean_ctrl_log2CPM": 7.309,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "IRF7": {
+            "log2FC": 0.001,
+            "pval": 0.99596,
+            "fdr": 1.0,
+            "mean_case_log2CPM": 4.246,
+            "mean_ctrl_log2CPM": 4.246,
+            "direction": "UNCHANGED",
+            "significant": false
+          }
+        }
+      },
+      "FOXP1_TREG": {
+        "n_genes_queried": 5,
+        "n_found": 5,
+        "n_up_significant": 1,
+        "n_down_significant": 3,
+        "n_up_any": 1,
+        "n_down_any": 3,
+        "genes": {
+          "FOXP1": {
+            "log2FC": 0.802,
+            "pval": 0.0,
+            "fdr": 0.0002,
+            "mean_case_log2CPM": 7.934,
+            "mean_ctrl_log2CPM": 7.132,
+            "direction": "UP",
+            "significant": true
+          },
+          "FOXP3": {
+            "log2FC": -0.112,
+            "pval": 0.73052,
+            "fdr": 1.0,
+            "mean_case_log2CPM": 1.986,
+            "mean_ctrl_log2CPM": 2.098,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "IL2RA": {
+            "log2FC": -2.105,
+            "pval": 0.0001,
+            "fdr": 0.0043,
+            "mean_case_log2CPM": 1.014,
+            "mean_ctrl_log2CPM": 3.119,
+            "direction": "DOWN",
+            "significant": true
+          },
+          "CTLA4": {
+            "log2FC": -1.185,
+            "pval": 0.00089,
+            "fdr": 0.0224,
+            "mean_case_log2CPM": 2.423,
+            "mean_ctrl_log2CPM": 3.609,
+            "direction": "DOWN",
+            "significant": true
+          },
+          "TGFB1": {
+            "log2FC": -1.214,
+            "pval": 0.0,
+            "fdr": 0.0,
+            "mean_case_log2CPM": 7.572,
+            "mean_ctrl_log2CPM": 8.787,
+            "direction": "DOWN",
+            "significant": true
+          }
+        }
+      },
+      "CVB_TARGETS": {
+        "n_genes_queried": 5,
+        "n_found": 5,
+        "n_up_significant": 0,
+        "n_down_significant": 0,
+        "n_up_any": 0,
+        "n_down_any": 0,
+        "genes": {
+          "LAMP1": {
+            "log2FC": -0.323,
+            "pval": 0.00887,
+            "fdr": 0.1213,
+            "mean_case_log2CPM": 7.091,
+            "mean_ctrl_log2CPM": 7.414,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "LAMP2": {
+            "log2FC": -0.209,
+            "pval": 0.18168,
+            "fdr": 0.6914,
+            "mean_case_log2CPM": 5.121,
+            "mean_ctrl_log2CPM": 5.33,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "CXADR": {
+            "log2FC": -0.068,
+            "pval": 0.82386,
+            "fdr": 1.0,
+            "mean_case_log2CPM": 1.15,
+            "mean_ctrl_log2CPM": 1.218,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "SNAP29": {
+            "log2FC": -0.128,
+            "pval": 0.35646,
+            "fdr": 0.7277,
+            "mean_case_log2CPM": 4.699,
+            "mean_ctrl_log2CPM": 4.827,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "DMD": {
+            "log2FC": 0.381,
+            "pval": 0.32151,
+            "fdr": 0.703,
+            "mean_case_log2CPM": 1.664,
+            "mean_ctrl_log2CPM": 1.283,
+            "direction": "UNCHANGED",
+            "significant": false
+          }
+        }
+      },
+      "AUTOPHAGY": {
+        "n_genes_queried": 7,
+        "n_found": 7,
+        "n_up_significant": 0,
+        "n_down_significant": 2,
+        "n_up_any": 0,
+        "n_down_any": 2,
+        "genes": {
+          "ATG7": {
+            "log2FC": -0.087,
+            "pval": 0.55087,
+            "fdr": 0.9026,
+            "mean_case_log2CPM": 3.832,
+            "mean_ctrl_log2CPM": 3.92,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "BECN1": {
+            "log2FC": -0.036,
+            "pval": 0.70405,
+            "fdr": 1.0,
+            "mean_case_log2CPM": 6.013,
+            "mean_ctrl_log2CPM": 6.049,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "MAP1LC3B": {
+            "log2FC": -0.911,
+            "pval": 0.0,
+            "fdr": 0.0003,
+            "mean_case_log2CPM": 5.964,
+            "mean_ctrl_log2CPM": 6.875,
+            "direction": "DOWN",
+            "significant": true
+          },
+          "SQSTM1": {
+            "log2FC": -0.593,
+            "pval": 0.00056,
+            "fdr": 0.0157,
+            "mean_case_log2CPM": 5.141,
+            "mean_ctrl_log2CPM": 5.734,
+            "direction": "DOWN",
+            "significant": true
+          },
+          "ATG12": {
+            "log2FC": -0.089,
+            "pval": 0.32648,
+            "fdr": 0.703,
+            "mean_case_log2CPM": 6.108,
+            "mean_ctrl_log2CPM": 6.198,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "ATG16L1": {
+            "log2FC": -0.006,
+            "pval": 0.97891,
+            "fdr": 1.0,
+            "mean_case_log2CPM": 5.589,
+            "mean_ctrl_log2CPM": 5.594,
+            "direction": "UNCHANGED",
+            "significant": false
+          },
+          "ULK1": {
+            "log2FC": -0.302,
+            "pval": 0.09272,
+            "fdr": 0.5418,
+            "mean_case_log2CPM": 5.5,
+            "mean_ctrl_log2CPM": 5.801,
+            "direction": "UNCHANGED",
+            "significant": false
+          }
+        }
+      }
+    }
+  },
+  "cvb_mecfs_overlap": {
+    "n_cvb_genes_tested": 110,
+    "cfRNA": {
+      "n_overlapping": 14,
+      "n_same_direction": 11,
+      "pct_same_direction": 78.6,
+      "n_same_sig": 0,
+      "overlap_details": [
+        {
+          "gene": "ATG7",
+          "pathway": "AUTOPHAGY (key clearance mechanism)",
+          "log2FC_cvb": 1.08,
+          "direction_cvb": "UP",
+          "log2FC_mecfs": 0.402,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": true,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "DDX58",
+          "pathway": "INTERFERON (should be suppressed in persistence)",
+          "log2FC_cvb": 1.05,
+          "direction_cvb": "UP",
+          "log2FC_mecfs": 0.371,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": true,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "IFIH1",
+          "pathway": "INTERFERON (should be suppressed in persistence)",
+          "log2FC_cvb": 1.46,
+          "direction_cvb": "UP",
+          "log2FC_mecfs": 0.303,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": true,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "MX1",
+          "pathway": "INTERFERON (should be suppressed in persistence)",
+          "log2FC_cvb": 0.86,
+          "direction_cvb": "UP",
+          "log2FC_mecfs": 0.224,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": true,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "ISG15",
+          "pathway": "INTERFERON (should be suppressed in persistence)",
+          "log2FC_cvb": 0.53,
+          "direction_cvb": "UP",
+          "log2FC_mecfs": 0.21,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": true,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "OAS2",
+          "pathway": "INTERFERON (should be suppressed in persistence)",
+          "log2FC_cvb": 0.84,
+          "direction_cvb": "UP",
+          "log2FC_mecfs": 0.202,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": true,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "ATG12",
+          "pathway": "AUTOPHAGY (key clearance mechanism)",
+          "log2FC_cvb": -0.88,
+          "direction_cvb": "DOWN",
+          "log2FC_mecfs": 0.181,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": false,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "IFIT3",
+          "pathway": "INTERFERON (should be suppressed in persistence)",
+          "log2FC_cvb": 1.81,
+          "direction_cvb": "UP",
+          "log2FC_mecfs": 0.175,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": true,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "DMD",
+          "pathway": "CVB-SPECIFIC TARGETS (from our models)",
+          "log2FC_cvb": -5.05,
+          "direction_cvb": "DOWN",
+          "log2FC_mecfs": 0.154,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": false,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "IFIT1",
+          "pathway": "INTERFERON (should be suppressed in persistence)",
+          "log2FC_cvb": 2.45,
+          "direction_cvb": "UP",
+          "log2FC_mecfs": 0.143,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": true,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "IFIT2",
+          "pathway": "INTERFERON (should be suppressed in persistence)",
+          "log2FC_cvb": 1.86,
+          "direction_cvb": "UP",
+          "log2FC_mecfs": 0.115,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": true,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "LAMP1",
+          "pathway": "AUTOPHAGY (key clearance mechanism)",
+          "log2FC_cvb": -0.68,
+          "direction_cvb": "DOWN",
+          "log2FC_mecfs": -0.046,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": true,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "CXADR",
+          "pathway": "CVB-SPECIFIC TARGETS (from our models)",
+          "log2FC_cvb": -5.0,
+          "direction_cvb": "DOWN",
+          "log2FC_mecfs": 0.046,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": false,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "LAMP2",
+          "pathway": "AUTOPHAGY (key clearance mechanism)",
+          "log2FC_cvb": -1.43,
+          "direction_cvb": "DOWN",
+          "log2FC_mecfs": -0.028,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": true,
+          "mecfs_significant": false
+        }
+      ]
+    },
+    "CD8": {
+      "n_overlapping": 14,
+      "n_same_direction": 6,
+      "pct_same_direction": 42.9,
+      "n_same_sig": 0,
+      "overlap_details": [
+        {
+          "gene": "IFIT3",
+          "pathway": "INTERFERON (should be suppressed in persistence)",
+          "log2FC_cvb": 1.81,
+          "direction_cvb": "UP",
+          "log2FC_mecfs": -1.173,
+          "direction_mecfs": "DOWN",
+          "same_direction": false,
+          "mecfs_significant": true
+        },
+        {
+          "gene": "IFIT2",
+          "pathway": "INTERFERON (should be suppressed in persistence)",
+          "log2FC_cvb": 1.86,
+          "direction_cvb": "UP",
+          "log2FC_mecfs": -1.06,
+          "direction_mecfs": "DOWN",
+          "same_direction": false,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "IFIT1",
+          "pathway": "INTERFERON (should be suppressed in persistence)",
+          "log2FC_cvb": 2.45,
+          "direction_cvb": "UP",
+          "log2FC_mecfs": 0.599,
+          "direction_mecfs": "UP",
+          "same_direction": true,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "OAS2",
+          "pathway": "INTERFERON (should be suppressed in persistence)",
+          "log2FC_cvb": 0.84,
+          "direction_cvb": "UP",
+          "log2FC_mecfs": -0.396,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": false,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "DMD",
+          "pathway": "CVB-SPECIFIC TARGETS (from our models)",
+          "log2FC_cvb": -5.05,
+          "direction_cvb": "DOWN",
+          "log2FC_mecfs": 0.381,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": false,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "LAMP1",
+          "pathway": "AUTOPHAGY (key clearance mechanism)",
+          "log2FC_cvb": -0.68,
+          "direction_cvb": "DOWN",
+          "log2FC_mecfs": -0.323,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": true,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "LAMP2",
+          "pathway": "AUTOPHAGY (key clearance mechanism)",
+          "log2FC_cvb": -1.43,
+          "direction_cvb": "DOWN",
+          "log2FC_mecfs": -0.209,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": true,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "MX1",
+          "pathway": "INTERFERON (should be suppressed in persistence)",
+          "log2FC_cvb": 0.86,
+          "direction_cvb": "UP",
+          "log2FC_mecfs": -0.113,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": false,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "IFIH1",
+          "pathway": "INTERFERON (should be suppressed in persistence)",
+          "log2FC_cvb": 1.46,
+          "direction_cvb": "UP",
+          "log2FC_mecfs": -0.102,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": false,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "ATG12",
+          "pathway": "AUTOPHAGY (key clearance mechanism)",
+          "log2FC_cvb": -0.88,
+          "direction_cvb": "DOWN",
+          "log2FC_mecfs": -0.089,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": true,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "ATG7",
+          "pathway": "AUTOPHAGY (key clearance mechanism)",
+          "log2FC_cvb": 1.08,
+          "direction_cvb": "UP",
+          "log2FC_mecfs": -0.087,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": false,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "CXADR",
+          "pathway": "CVB-SPECIFIC TARGETS (from our models)",
+          "log2FC_cvb": -5.0,
+          "direction_cvb": "DOWN",
+          "log2FC_mecfs": -0.068,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": true,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "ISG15",
+          "pathway": "INTERFERON (should be suppressed in persistence)",
+          "log2FC_cvb": 0.53,
+          "direction_cvb": "UP",
+          "log2FC_mecfs": -0.059,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": false,
+          "mecfs_significant": false
+        },
+        {
+          "gene": "DDX58",
+          "pathway": "INTERFERON (should be suppressed in persistence)",
+          "log2FC_cvb": 1.05,
+          "direction_cvb": "UP",
+          "log2FC_mecfs": 0.054,
+          "direction_mecfs": "UNCHANGED",
+          "same_direction": true,
+          "mecfs_significant": false
+        }
+      ]
+    }
+  }
+}

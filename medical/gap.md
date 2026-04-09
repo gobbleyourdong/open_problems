@@ -5,7 +5,7 @@
 
 ## Current Gap (post-ODD, post-IC50 reconciliation)
 
-The ODD instance built the computational framework. The IC50 reconciliation resolved the biggest model divergence. The gap has narrowed to TWO remaining uncertainties:
+The numerical track built the computational framework. The IC50 reconciliation resolved the biggest model divergence. The gap has narrowed to TWO remaining uncertainties:
 
 ### Gap 1: Subcellular pharmacology of fluoxetine in CVB-infected cells
 **What**: fluoxetine concentrates intracellularly via lysosomotropic trapping. But CVB remodels intracellular membranes to create replication organelles. Does fluoxetine accumulate NEAR the 2C ATPase target (good) or get trapped in lysosomes AWAY from it (bad)?
