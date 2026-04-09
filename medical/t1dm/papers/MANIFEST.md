@@ -1,5 +1,28 @@
 # T1DM Paper Arsenal — Manifest
 
+## Bioinformatics / Transcriptomics Papers (new — patterns 013-017)
+
+| # | Paper | Journal | Year | Key Finding | Relevance |
+|---|-------|---------|------|-------------|-----------|
+| B1 | Chapman NM, Kim KS, Drescher KM, et al. — "5' terminal deletions..." | Cell Microbiol | 2008 | Patient-derived CVB TD mutants cluster at 15-35 nt deletion | TD mutant biology foundation |
+| B2 | Andino R et al. — poliovirus/picornavirus 5' cloverleaf replication | EMBO J | 1993 | Cloverleaf structure required for (+) strand synthesis | TD mutant mechanism |
+| B3 | Toyoda H et al. — CVB cloverleaf function | J Virol | 2007 | PCBP2 binds SL-b for replication | Cloverleaf functional domains |
+| B4 | Kim KS et al. — TD mutant persistence in chronic myocarditis | J Med Virol | 2005 | TD mutants detected in chronic cardiac disease | Persistence in cardiac tissue |
+| B5 | Kemball CC et al. — CVB subverts autophagy | Cell Host Microbe | 2010 | CVB 2BC + 3A hijack autophagosomes for replication | LAMP2 block mechanism |
+| B6 | Jackson WT — autophagy and picornaviruses | J Virol | 2005 | Non-canonical autophagy in CVB | TD autophagy susceptibility |
+| B7 | Zuo J et al. — fluoxetine inhibits CVB | PLOS Pathog | 2012 | IC50 ~1 μM in cell culture, 2C ATPase target | Fluoxetine antiviral primary citation |
+| B8 | Gofshteyn JS et al. — SSRIs and enteroviruses | J Infect Dis | 2020 | Multiple CVB serotypes inhibited by fluoxetine | Pan-serotype efficacy |
+| B9 | Bolo NR et al. — ¹⁹F-MRS brain fluoxetine | Neuropsychopharmacol | 2000 | Brain fluoxetine = 15x plasma (direct measurement) | Lysosomotropic accumulation |
+| B10 | Tanrikut C et al. — SSRI testicular penetration | Fertil Steril | 2010 | SSRI penetrates blood-testis barrier | Fluoxetine testes concentration |
+| B11 | GSE184831 — persistent CVB1 in human PANC-1 | GEO | 2024 | FOXP1 -67x, LAMP2 -2.7x, DMD -32x, PI4KB +1.5x | Key transcriptomic validation |
+| B12 | GSE278756 — acute CVB4 in beta cell lines | GEO | 2024 | IFN suppressed in acute phase; FOXP1 -1.6x | IFN flip acute baseline |
+| B13 | GSE293840 — ME/CFS plasma cfRNA (n=168) | GEO | 2025 | 34/62 genes significant; MT-ND3 biomarker p=0.002 | Disease biomarker validation |
+| B14 | Youm YH et al. — BHB suppresses NLRP3 | Nat Med | 2015 | BHB blocks K⁺ efflux → NLRP3 inhibition; threshold ~1mM | NLRP3 mechanism (Grade A-) |
+| B15 | Cheng CW et al. — FMD regenerates beta cells | Cell | 2017 | Ngn3 progenitors activated during refeeding | r_source FMD term |
+| B16 | FOXP1 required for Treg homeostasis | Immunity | 2019 | PMID:31125332: FOXP1 drives Treg differentiation | FOXP1 Treg mechanism |
+| B17 | FOXP1 Treg homeostasis replication | J Immunol | 2025 | PMID:40794436: confirms FOXP1 essential for Treg | FOXP1 evidence second study |
+| B18 | FOXP1 in T1DM susceptibility locus | Diabetes | 2014 | PMID:24752729: FOXP1 locus overlaps T1DM GRS | FOXP1 disease link |
+
 ## Landmark Papers (2024-2026)
 
 | # | Paper | Journal | Year | Key Finding |
