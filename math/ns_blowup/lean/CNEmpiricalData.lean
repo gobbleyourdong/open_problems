@@ -37,12 +37,13 @@
 
 /-- Measured c(N) values from the numerical track. -/
 def c_measured : ℕ → Option ℝ
-  | 3  => some 0.285
-  | 5  => some 0.355    -- CORRECTED (was 0.252)
-  | 6  => some 0.368    -- NEW: global peak
-  | 7  => some 0.366    -- CORRECTED (was 0.296)
-  | 8  => some 0.143
-  | 10 => some 0.119
+  | 3  => some 0.3333   -- exact: 1/3
+  | 4  => some 0.3616   -- rigorous cert: ≤ 0.4563
+  | 5  => some 0.3553   -- DE 100 k-tuples
+  | 6  => some 0.3677   -- NEW PEAK, rigorous cert: ≤ 0.6389
+  | 7  => some 0.3660   -- DE 60 k-tuples
+  | 8  => some 0.3327   -- CORRECTED (was 0.143 at low effort)
+  | 10 => some 0.25     -- DE lower effort
   | 13 => some 0.086
   | 15 => some 0.094
   | 16 => some 0.096
@@ -61,8 +62,8 @@ theorem C_empirical_lt_three_quarters : C_empirical < 3/4 := by
 theorem c5_measured : (0.355 : ℝ) < 3/4 := by norm_num
 theorem c6_measured : (0.368 : ℝ) < 3/4 := by norm_num
 theorem c7_measured : (0.366 : ℝ) < 3/4 := by norm_num
-theorem c8_measured : (0.143 : ℝ) < 3/4 := by norm_num
-theorem c10_measured : (0.119 : ℝ) < 3/4 := by norm_num
+theorem c8_measured : (0.3327 : ℝ) < 3/4 := by norm_num
+theorem c10_measured : (0.25 : ℝ) < 3/4 := by norm_num
 theorem c13_measured : (0.086 : ℝ) < 3/4 := by norm_num
 theorem c15_measured : (0.094 : ℝ) < 3/4 := by norm_num
 theorem c16_measured : (0.096 : ℝ) < 3/4 := by norm_num
@@ -71,8 +72,8 @@ theorem c16_measured : (0.096 : ℝ) < 3/4 := by norm_num
 theorem c5_le_C : (0.355 : ℝ) ≤ C_empirical := by unfold C_empirical; norm_num
 theorem c6_le_C : (0.368 : ℝ) ≤ C_empirical := by unfold C_empirical; norm_num
 theorem c7_le_C : (0.366 : ℝ) ≤ C_empirical := by unfold C_empirical; norm_num
-theorem c8_le_C : (0.143 : ℝ) ≤ C_empirical := by unfold C_empirical; norm_num
-theorem c10_le_C : (0.119 : ℝ) ≤ C_empirical := by unfold C_empirical; norm_num
+theorem c8_le_C : (0.3327 : ℝ) ≤ C_empirical := by unfold C_empirical; norm_num
+theorem c10_le_C : (0.25 : ℝ) ≤ C_empirical := by unfold C_empirical; norm_num
 theorem c13_le_C : (0.086 : ℝ) ≤ C_empirical := by unfold C_empirical; norm_num
 theorem c15_le_C : (0.094 : ℝ) ≤ C_empirical := by unfold C_empirical; norm_num
 theorem c16_le_C : (0.096 : ℝ) ≤ C_empirical := by unfold C_empirical; norm_num
