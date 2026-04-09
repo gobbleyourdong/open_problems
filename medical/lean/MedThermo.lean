@@ -18,7 +18,9 @@ import MedThermo.CellBiology.ReplicationDestruction
 import MedThermo.Pharmacology.IC50
 import MedThermo.Theorems.HLAParadox
 import MedThermo.Theorems.ClearanceOrder
+import MedThermo.Theorems.InequalityReversal
 import MedThermo.CellBiology.ViralPersistence
 import MedThermo.Thermodynamics.FreeEnergy
 import MedThermo.CellBiology.ImmunePrivilege
--- import MedThermo.Thermodynamics.NonEquilibrium
+-- import MedThermo.Thermodynamics.NonEquilibrium   -- planned: dissipative structures
+import MedThermo.Pharmacology.Lysosomotropic
