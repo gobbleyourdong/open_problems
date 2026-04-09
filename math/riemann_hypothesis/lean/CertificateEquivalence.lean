@@ -18,27 +18,45 @@
   See `attempts/attempt_009_li_structure.md`.
 -/
 
-/-! ## The Comparison Framework -/
+/-! ## The Comparison Framework
 
-/-- A "problem" has a conjecture and a certificate that can be
-    numerically verified. The relationship between them determines
-    whether the Sigma Method can advance. -/
+    HISTORY: the original version of this file had a latent vacuousness
+    bug — `ProblemAndCertificate` carried a mandatory
+    `implies : Certificate → Conjecture` field, which made the
+    `¬ (Certificate → Conjecture)` clause in `IsWeakCertificate`
+    unsatisfiable. Every `ProblemAndCertificate` value shipped with a
+    proof of the implication, so no value could ever satisfy its
+    negation. The downstream theorem `sigma_method_stuck_on_RH` was
+    technically true but for the wrong reason: `SigmaMethodCanAdvance`
+    was vacuously false for ALL inputs, independently of the h_equiv
+    hypothesis.
+
+    The bug was caught when another instance tried to REUSE the
+    structure at a new angle (see `~/sigma/lean/SigmaMethod.lean`,
+    Section 2). Reuse-from-a-different-angle is what exposes the drift
+    single-author formalizations hide. Fix: drop the `implies` field.
+    The relationship between Certificate and Conjecture is what we
+    CLASSIFY, not a mandatory structural constraint.
+-/
+
+/-- A "problem" has a conjecture and a candidate certificate that can be
+    numerically verified. The relationship between them (which direction
+    of implication holds, if any) is what the Sigma Method classifies. -/
 structure ProblemAndCertificate where
   Conjecture : Prop
   Certificate : Prop
-  /-- Whether the certificate implies the conjecture (complete path) -/
-  implies : Certificate → Conjecture
 
 /-- A "weak" certificate is strictly weaker than the conjecture:
     the conjecture implies the certificate but not vice versa.
-    This gives a proof route via the certificate. -/
+    This gives a proof route via the certificate + intermediate
+    theorems → conjecture. -/
 def IsWeakCertificate (P : ProblemAndCertificate) : Prop :=
   (P.Conjecture → P.Certificate) ∧
   ¬ (P.Certificate → P.Conjecture)
 
 /-- An "equivalent" certificate is the same as the conjecture.
-    This means the certificate numerically confirms the conjecture but
-    doesn't help PROVE it. -/
+    Numerical verification restates the conjecture rather than advancing
+    a proof route. -/
 def IsEquivalentCertificate (P : ProblemAndCertificate) : Prop :=
   P.Conjecture ↔ P.Certificate
 
