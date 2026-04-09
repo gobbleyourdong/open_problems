@@ -31,6 +31,10 @@ The T1DM protocol treats the whole virus, not just the pancreas. But we need to 
 | **CBC with differential** | Immune cell counts | Normal ranges | Lymphopenia, NK count |
 | **HbA1c** | Glycemic control (T1DM baseline) | <7% target | Baseline |
 | **C-peptide (fasting + stimulated)** | Beta cell function (the KEY measurement) | >0.6 ng/mL = residual function | Any positive = hope |
+| **GADA (GAD65 antibody)** | LADA screen — T1DM vs T2DM distinction | Negative | Positive = LADA confirmed → switch from sulfonylurea, CVB protocol indicated |
+| **TSH + free T4** | Thyroid function | TSH 0.4-4.0 mIU/L | Abnormal TSH |
+| **Anti-TPO antibody** | Hashimoto's co-screen (25-30% of T1DM) | <35 IU/mL | Positive → thyroid CVB co-involvement likely |
+| **Anti-transglutaminase-2 (anti-TG2)** | Celiac disease co-screen (5-10% of T1DM) | <7 U/mL | Positive → celiac (Disease 17 candidate), GADA + anti-TG2 = full polyglandular screen |
 
 ### Tier 2: CVB-Specific (Research/Specialty Lab, ~$200-400)
 
@@ -104,8 +108,10 @@ C-peptide:
 
 ## Priority Order
 
-1. **C-peptide** (fasting + stimulated) — this determines whether the protocol can work for T1DM
-2. **Cardiac panel** (troponin, BNP, +/- MRI) — safety before starting drugs
+1. **C-peptide** (fasting + stimulated) — determines whether the protocol can work for T1DM
+2. **GADA** — identifies LADA (better prognosis if positive); change medication class immediately
+3. **Anti-TPO + TSH** — thyroid co-screen (25-30% T1DM); anti-TPO decline validates protocol
+4. **Cardiac panel** (troponin, BNP, +/- MRI) — safety before starting drugs
 3. **Liver panel** (ALT, AST, GGT) — drug dosing safety
 4. **CVB serology** — confirm viral hypothesis
 5. **Immune panel** (NK, Tregs, cytokines) — optimize protocol targeting
