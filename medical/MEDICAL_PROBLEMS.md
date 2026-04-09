@@ -18,10 +18,11 @@
 | 12 | **Neonatal Sepsis** | `neonatal_sepsis/` | Gap, model, anti-problem, 2 attempts | Phase 2 | Multi-organ, high mortality, earliest seeding |
 | 13 | **Atopic Dermatitis / Eczema** | `eczema/` | Gap, model, anti-problem, 3 attempts, manifest | Phase 2 | NOT CVB — Th2/IgE; shared NLRP3, gut-skin axis, Treg deficit |
 | 14 | **Psoriasis** | `psoriasis/` | Gap, model, anti-problem, 3 attempts, manifest | Phase 2 | NOT CVB — Th17/IL-23; shared NF-κB/TNF-α, NLRP3, Treg/Th17 balance |
+| 15 | **Infertility (M+F)** | `infertility/` | Gap, anti-problem, 3 attempts | Phase 2 | Mitochondrial + inflammatory + microbiome substrate; viscosity is the underrated male factor |
 
 ## The Unifying Thesis
 
-**One protocol. Fourteen diseases. Two categories.**
+**One protocol. Fifteen diseases. Three categories.**
 
 ### Category 1: CVB-caused (diseases 1-12)
 All 12 share:
@@ -39,14 +40,19 @@ Not CVB-caused, but share:
 - Gut dysbiosis → immune dysregulation
 - Bistable attractor dynamics
 
-### The Shared Mechanism
-**Tregs are the universal brake.** Every disease involves insufficient Treg suppression of a pathogenic T helper response. The protocol's Treg-restoring components (butyrate, vitamin D, BHB, WHM→IL-10) address all 14 diseases.
+### Category 3: Optimization-responsive conditions (disease 15)
+Not a single-pathway disease, but responds to the same upstream substrate:
+- **Infertility** (male and female factor): mitochondrial dysfunction (egg quality, sperm motility), oxidative stress (sperm DNA damage), gut/vaginal microbiome dysbiosis, hormonal optimization, inflammation
+- The "easy conceiver" phenotype overlaps almost perfectly with the "CVB-resistant" phenotype
 
-The T1DM protocol (attempt 001-063) is the most developed. Its anti-inflammatory and immune-modulating components are disease-agnostic. The antiviral arm (fluoxetine, autophagy) applies to CVB diseases only.
+### The Shared Mechanism
+**Tregs are the universal brake. Mitochondria are the universal energy.** Every disease involves either insufficient Treg suppression OR mitochondrial dysfunction (or both). The protocol addresses both: Treg-restoring components (butyrate, vitamin D, BHB) AND mitochondrial support (CoQ10, omega-3, fasting/FMD, NAD+ precursors).
+
+The T1DM protocol (attempt 001-063) is the most developed. Its anti-inflammatory and immune-modulating components are disease-agnostic. The antiviral arm (fluoxetine, autophagy) applies to CVB diseases only. The mitochondrial arm applies to ALL 15.
 
 ## Method
 
-Same as `gobbleyourdong/math_problems` — see `SIGMA_METHOD.md`.
+Same as `<private repo>` — see `SIGMA_METHOD.md`.
 
 Adapted for biology:
 - "Lean theorems" → mechanistic pathway models (formalized where possible)

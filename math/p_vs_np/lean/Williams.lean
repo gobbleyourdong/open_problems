@@ -37,10 +37,13 @@ axiom time_hierarchy (f g : ℕ → ℕ) :
 /-- Nondeterministic Time Hierarchy:
     NTIME(f(n)) ⊊ NTIME(g(n)) when g grows sufficiently faster.
     Gives: NP ⊊ NEXP (NP is strictly contained in NEXP). -/
-theorem np_strict_subset_nexp :
-    -- NP = NTIME(n^O(1)) ⊊ NTIME(2^{n^O(1)}) = NEXP
-    -- Proved by the nondeterministic time hierarchy theorem.
-    True := by trivial
+axiom np_subset_nexp_proper : Prop  -- "NP ⊊ NEXP", abstracted
+
+/-- The strictness: NP is PROPERLY contained in NEXP.
+    Proof: NTIME hierarchy theorem (Cook 1972 / Seiferas-Fischer-Meyer 1978).
+    Hypothesis assumed; the theorem records the structural fact. -/
+theorem np_strict_subset_nexp (h : np_subset_nexp_proper) :
+    np_subset_nexp_proper := h
 
 -- ============================================================================
 -- THE WILLIAMS METHOD
@@ -67,16 +70,21 @@ def CircuitClass := ℕ → Prop  -- abstracted
     5. But the time hierarchy says NEXP needs time 2^{n^Ω(1)}.
     6. Contradiction. Therefore NEXP ⊄ C. ∎
 -/
-theorem williams_method (C : CircuitClass)
-    -- If C-SAT has a slightly-superpolynomial algorithm:
-    (h_alg : True)  -- C-SAT ∈ DTIME(2^n / n^{ω(1)})
-    :
-    -- Then NEXP is not contained in C
-    True := by
-  -- The proof is a contradiction:
-  -- Assume NEXP ⊆ C → use h_alg to simulate NEXP too fast
-  -- → contradicts time hierarchy theorem
-  trivial
+/-- The Williams method as a logical implication.
+    Given:
+    - "C-SAT has a fast algorithm" (h_alg)
+    - "If C-SAT is fast and NEXP ⊆ C, time hierarchy is contradicted" (h_chain)
+    Then: NEXP ⊄ C. -/
+theorem williams_method
+    (C_sat_fast : Prop)
+    (nexp_in_C : Prop)
+    (time_hierarchy_holds : Prop)
+    (h_chain : C_sat_fast ∧ nexp_in_C → ¬ time_hierarchy_holds)
+    (h_alg : C_sat_fast)
+    (h_th : time_hierarchy_holds) :
+    ¬ nexp_in_C := by
+  intro h_nexp
+  exact h_chain ⟨h_alg, h_nexp⟩ h_th
 
 /-- Williams (2011): ACC⁰-SAT ∈ DTIME(2^n / 2^{n^ε}) for some ε > 0.
     This is faster than brute force 2^n.
@@ -85,10 +93,19 @@ axiom williams_2011_algorithm :
     -- ACC⁰-SAT has a non-trivial algorithm
     True
 
-theorem williams_2011_lower_bound :
-    -- NEXP ⊄ ACC⁰
-    -- Proof: williams_2011_algorithm + williams_method
-    True := by trivial
+/-- The Williams 2011 result: NEXP ⊄ ACC⁰.
+    Stated as a hypothetical conclusion to be derived from the
+    williams_method and williams_2011_algorithm. The actual derivation
+    requires the full complexity-theoretic apparatus. -/
+axiom williams_2011_lower_bound : Prop  -- "NEXP ⊄ ACC⁰"
+
+/-- The structural derivation: combining the algorithm with the method
+    yields the lower bound. The actual NEXP ⊄ ACC⁰ statement is recorded
+    as an axiom because it requires the full Williams 2011 paper to derive. -/
+theorem williams_2011_chain
+    (h_alg : Prop) (h_method : h_alg → williams_2011_lower_bound)
+    (alg : h_alg) :
+    williams_2011_lower_bound := h_method alg
 
 -- ============================================================================
 -- WHY IT STOPS AT TC⁰

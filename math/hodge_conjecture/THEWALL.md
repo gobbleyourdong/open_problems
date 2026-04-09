@@ -144,12 +144,12 @@ mathematical object (motivic t-structure), not a property of specific objects.
 
 ## Session Targets
 
-### Immediate (Odd Instance)
+### Immediate (numerical track)
 1. Implement the cycle search for cubic fourfolds (Fermat first)
 2. Compute period matrices for abelian 6-folds with CM
 3. Verify Weil class algebraicity for specific CM types at g = 6
 
-### Session 2 (Even Instance)
+### Session 2 (theory track)
 1. Formal Lean definitions of Hodge classes, cycle class map
 2. Study Weil class constructions at g = 6 (the frontier)
 3. Deformation theory: obstruction H¹(N_{Z/X}) for cycle deformation

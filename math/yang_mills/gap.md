@@ -125,7 +125,7 @@ cannot vanish at any finite β.
 - [x] Balaban obstruction precisely identified (attempt_005)
 - [x] Finite lattice mass gap theorem stated (FiniteLatticeGap.lean)
 - [x] Character expansion implemented + tested (su2_character_expansion.py)
-- [x] Odd instance numerical campaign started (Session 3, Cycle 6)
+- [x] numerical track numerical campaign started (Session 3, Cycle 6)
   - 4⁴ SU(2) lattice, β=1.0-4.0, 150 configs
   - ⟨P⟩ matches theory (β=1: 0.243 vs 0.25 prediction)
   - **Correlator decay**: C(r) drops 50-200x from r=0→1 at ALL β=1.5-4.0
@@ -138,5 +138,5 @@ cannot vanish at any finite β.
 - [x] SZZ/Nissim correction: strong coupling only (attempt_012)
 - [x] (5.15) reduced to FKG in character basis (attempt_018)
 - [ ] Lean proofs of gauge invariance
-- [ ] Odd instance MK decimation test (Request 1)
+- [ ] numerical track MK decimation test (Request 1)
 - [ ] FKG for lattice gauge theory — literature check

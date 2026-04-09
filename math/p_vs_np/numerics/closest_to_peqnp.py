@@ -12,7 +12,7 @@ Strategy:
 4. Promise problems: guaranteed structure that algorithms exploit
 5. Average-case vs worst-case: random instances might be easier
 
-The SIGMA METHOD question: is the gap a NUMBER that we can measure
+The systematic approach question: is the gap a NUMBER that we can measure
 and track? Like NS's c(N), can we define c(structure) that captures
 how far a problem class is from P?
 """

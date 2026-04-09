@@ -12,7 +12,7 @@
 
   ALWAYS: coh(N) ∈ [0, N] (Cauchy-Schwarz upper bound, non-neg lower)
   TRIVIAL: coh(N) ≤ N (by Cauchy-Schwarz)
-  EMPIRICAL: coh(N) ≤ 3 for all measured N (Odd instance, 2670 configs)
+  EMPIRICAL: coh(N) ≤ 3 for all measured N (numerical track, 2670 configs)
 
   If coh(N) stays O(1): |Sω|² ≤ coh(N) × Σ|F_i|² ≤ 3 × N × (1/4) = 3N/4
   Combined with |ω|² ≥ N: ratio ≤ (3N/4) / N² = 3/(4N) → 0.
@@ -115,7 +115,7 @@ The remaining task: prove coherence O(1) analytically.
 This is a CONCENTRATION RESULT — it says the strain perturbations F_i
 behave like a random walk (variance grows linearly in N, not N²).
 
-The Odd instance has measured this for N up to 26. The analytical proof
+The numerical track has measured this for N up to 26. The analytical proof
 would likely use a concentration inequality (Chernoff, Bernstein, etc.).
 -/
 

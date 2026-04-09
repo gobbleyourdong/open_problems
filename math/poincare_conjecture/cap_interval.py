@@ -6,7 +6,7 @@ For ALL mode subsets with |k|² ≤ 2 (9 unique k-vectors):
 certify S²ê/|ω|² < 3/4 with rigorous floating-point bounds.
 """
 import sys
-sys.path.insert(0, '/home/jb/ComfyUI/CelebV-HQ/ns_blowup')
+sys.path.insert(0, '/path/to/ComfyUI/CelebV-HQ/ns_blowup')
 from interval import Interval
 import numpy as np
 from itertools import combinations, product as iprod

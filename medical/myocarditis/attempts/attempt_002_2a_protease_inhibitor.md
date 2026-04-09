@@ -50,7 +50,7 @@ For myocarditis/DCM, you need to stop dystrophin cleavage FAST because cardiomyo
 
 ## The Immediate Experiment (numerical track Request)
 
-**REQUEST TO ODD INSTANCE:**
+**REQUEST TO numerical track:**
 1. Download CVB3 2A crystal structure from PDB
 2. Characterize active site geometry: pocket volume, electrostatic surface, hydrogen bond donors/acceptors
 3. Virtual screen FDA-approved drugs (DrugBank) against 2A active site using AutoDock/Vina

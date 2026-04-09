@@ -5,7 +5,7 @@ Run this BEFORE any large certification to catch bugs.
 """
 import numpy as np
 import sys
-sys.path.insert(0, '/home/jb/ComfyUI/CelebV-HQ/ns_blowup')
+sys.path.insert(0, '/path/to/ComfyUI/CelebV-HQ/ns_blowup')
 from sos_certifier import sos_certify, get_K_shell, build_Q_and_W
 from itertools import product as iproduct
 

@@ -68,7 +68,7 @@ Onset vs Diagnosis:
 
 ## Immediate Action (numerical track Task)
 
-**REQUEST TO ODD INSTANCE:**
+**REQUEST TO numerical track:**
 1. Pull CDC enteroviral surveillance data (NREVSS) by year, serotype, region
 2. Pull SEARCH/EURODIAB T1DM incidence data by year, age, region
 3. Compute cross-correlation with lags 0-10 years

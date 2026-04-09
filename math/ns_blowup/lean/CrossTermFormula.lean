@@ -14,7 +14,7 @@
 
   PROOF: Expand the rank-2 strain tensors and use Tr(a⊗b · c⊗d) = (a·c)(b·d).
 
-  This is item #2 from the Odd instance's "ready to formalize" list.
+  This is item #2 from the numerical track's "ready to formalize" list.
   Verified to machine epsilon across 50K random mode pairs.
 -/
 
@@ -214,5 +214,5 @@ can form at the vorticity maximum.
     Total: 4 proved, 0 sorry
 
     The ring tactic handles the entire computation.
-    Verified against 50K numerical tests (Odd instance).
+    Verified against 50K numerical tests (numerical track).
 -/

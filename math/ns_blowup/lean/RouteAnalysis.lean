@@ -15,7 +15,7 @@
   The gap = Liouville conjecture for bounded ancient NS on R³.
   Every path converges here.
 
-  Author: Jason Burton, Independent Researcher
+  Author: the author, Independent Researcher
   Date: April 7, 2026
 -/
 

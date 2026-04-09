@@ -1,7 +1,7 @@
 # Attempt 066: The PK Correction — From 6/8 Organs to 8/8 Organs
 
 ## Source
-ODD instance pattern 005 (`results/pattern_005_corrected_clearance_order.md`), derived from `numerics/unified_cvb_clearance_v2.py`.
+numerical track pattern 005 (`results/pattern_005_corrected_clearance_order.md`), derived from `numerics/unified_cvb_clearance_v2.py`.
 
 ## The Discovery
 

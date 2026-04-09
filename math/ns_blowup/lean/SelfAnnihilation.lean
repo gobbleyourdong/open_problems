@@ -1,5 +1,5 @@
 /-
-  Navier-Stokes: The Self-Annihilation Identity (Odd Instance Discovery)
+  Navier-Stokes: The Self-Annihilation Identity (numerical track Discovery)
 
   KEY IDENTITY: S_k v_k = 0
 
@@ -20,7 +20,7 @@
   comes entirely from mode-mode interactions, which partially cancel.
   The self-interaction is identically zero.
 
-  Discovered by Odd instance (81bab61). Formalized here.
+  Discovered by numerical track (81bab61). Formalized here.
 -/
 
 -- Self-contained vector algebra (consistent with StrainVorticity.lean)

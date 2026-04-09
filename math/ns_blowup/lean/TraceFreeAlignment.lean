@@ -61,7 +61,7 @@ theorem trace_free_bound_tight (t : ℝ) (ht : t ≠ 0) :
 
 /-! ## The Intermediate Eigenvalue Bound (STRONGER)
 
-Odd instance discovery (95a7834): vorticity aligns with the INTERMEDIATE
+numerical track discovery (95a7834): vorticity aligns with the INTERMEDIATE
 eigenvector e₂ at the vorticity maximum, not e₃. This gives a 4x tighter bound.
 
 For trace-free S with λ₁ ≥ λ₂ ≥ λ₃ and λ₁+λ₂+λ₃ = 0:
@@ -155,9 +155,9 @@ theorem key_lemma_via_intermediate_alignment
 theorem intermediate_alignment_relaxes_frobenius :
     (3:ℝ) / 4 < 9 / 2 := by norm_num
 
-/-! ## The Alignment Conjecture (Updated per Odd Instance 95a7834)
+/-! ## The Alignment Conjecture (Updated per numerical track 95a7834)
 
-Odd instance discovery: at vorticity maxima on T³:
+numerical track discovery: at vorticity maxima on T³:
 - ω aligns with e₂ (INTERMEDIATE eigenvector), reproducing Ashurst (1987)
 - α/|ω| ≈ 0: stretching rate is ZERO at vorticity maximum
 - S²ê/|ω|² ≈ 0.05 (max 0.31): massive 60% margin from 0.75 threshold

@@ -144,7 +144,7 @@ expectation ⟨O⟩_per ≥ ⟨O⟩_anti, not to individual blocks.
 
 ## The Remaining Wall
 
-After 32 theory track attempts:
+After 32 even-instance attempts:
 
 **The wall is the same one Ito-Seiler identified in 2007.**
 

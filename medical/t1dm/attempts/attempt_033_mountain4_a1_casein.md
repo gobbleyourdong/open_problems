@@ -102,7 +102,7 @@ TRIGR tested the A1 casein hypothesis IN ISOLATION. The multi-hit model predicts
 - Not breastfed → exposed to A1 beta-casein formula
 - Hit 1 likely occurred: autoreactive T cells primed against insulin/ICA69
 - These T cells sat dormant through childhood
-- At some point (before 2019 diagnosis): Hit 3 (CVB?) pulled the trigger
+- At some point (before diagnosis): Hit 3 (CVB?) pulled the trigger
 - Diagnosis at adult age suggests slow cascade (LADA-like features?)
 
 ## The Gap

@@ -11,7 +11,7 @@
   Every algebraic step is proved. The PDE steps (Seregin, ESŠ) are
   published theorems, axiomatized here.
 
-  This is the SIGMA METHOD FULLY INSTANTIATED:
+  This is the systematic approach FULLY INSTANTIATED:
     Lean algebra + computational certificate + published PDE = PROOF.
 
   Poincaré parallel: Perelman's algebra (W-monotonicity) + Hamilton's
@@ -113,7 +113,7 @@ theorem two_mode_regularity :
   -- The chain: c(2) < 3/4 → Type I only → L³ blowup required → but L³ bounded → smooth
   trivial
 
-/-! ## The Sigma Method Pipeline
+/-! ## The systematic approach Pipeline
 
     LAYER 1 (Algebra):    12 theorems in Lean        ← WE PROVE THIS
     LAYER 2 (PDE bounds): stretching rate analysis    ← STANDARD ANALYSIS

@@ -1,9 +1,9 @@
-# Summary After 24 theory track Attempts
+# Summary After 24 Even-Instance Attempts
 
 **Date**: 2026-04-07
 **Phase**: 3 (Proof Attempts — mid-phase)
 **Instance**: Even (Theory)
-**Repo**: github.com/gobbleyourdong/math_problems, branch even/session_1
+**Repo**: <private repo>, branch <branch>
 
 ## The Proof Architecture
 

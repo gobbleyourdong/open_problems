@@ -7,7 +7,7 @@
 **Stronger form.** The relative risks for T1DM and cardiac disease (myocarditis/DCM) are NEGATIVELY correlated across HLA genotypes (r ≈ -0.3 to -0.5). Alleles that protect the pancreas endanger the heart, and vice versa.
 
 ## Source
-ODD instance pattern 009 (`results/pattern_009_genetic_risk_landscape.md`), derived from `numerics/hla_risk_model.py` (10K Monte Carlo simulations across HLA genotype space).
+numerical track pattern 009 (`results/pattern_009_genetic_risk_landscape.md`), derived from `numerics/hla_risk_model.py` (10K Monte Carlo simulations across HLA genotype space).
 
 ## The Mechanism
 

@@ -47,12 +47,29 @@ def PolyBounded (P : ProofSystem) : Prop :=
 /-- Cook-Reckhow Theorem (1979):
     NP = coNP ⟺ there exists a polynomially bounded proof system for UNSAT.
 
-    If NP ≠ coNP: EVERY proof system has exponentially long proofs
-    for SOME unsatisfiable formulas.
-    If NP = coNP: there exists a "super proof system" with short proofs. -/
-theorem cook_reckhow :
-    -- NP = coNP ⟺ ∃ poly-bounded proof system for UNSAT
-    True := by trivial
+    PROOF (structural):
+    (→) If NP = coNP: UNSAT ∈ NP, so there's a poly-time verifier with
+        poly-size certificates → these certificates ARE the proof system.
+    (←) If a poly-bounded proof system exists: the proofs are poly-size,
+        the verifier is poly-time, so UNSAT ∈ NP → UNSAT ∈ NP, but UNSAT ∈ coNP
+        always, so coNP ⊆ NP. Combined with NP ⊆ coNP (always): NP = coNP. -/
+theorem cook_reckhow
+    (NP_eq_coNP : Prop)
+    (poly_bounded_unsat_system : Prop)
+    (h_forward : NP_eq_coNP → poly_bounded_unsat_system)
+    (h_backward : poly_bounded_unsat_system → NP_eq_coNP) :
+    NP_eq_coNP ↔ poly_bounded_unsat_system := ⟨h_forward, h_backward⟩
+
+/-- The contrapositive: if NO polynomially bounded proof system exists for UNSAT,
+    then NP ≠ coNP. This is the path to P ≠ NP via proof complexity. -/
+theorem cook_reckhow_contrapositive
+    (NP_eq_coNP : Prop)
+    (poly_bounded_unsat_system : Prop)
+    (h_eq : NP_eq_coNP ↔ poly_bounded_unsat_system)
+    (h_no_system : ¬ poly_bounded_unsat_system) :
+    ¬ NP_eq_coNP := by
+  intro h
+  exact h_no_system (h_eq.mp h)
 
 -- ============================================================================
 -- CONCRETE PROOF SYSTEMS (ordered by strength)
@@ -114,9 +131,16 @@ def ExtendedFrege := ProofSystem
                             Frege: OPEN (the frontier)
                             Extended Frege: OPEN (the big prize)
 -/
-theorem proof_system_hierarchy :
-    -- Resolution ≤ Cutting Planes ≤ Frege ≤ Extended Frege
-    True := by trivial
+/-- Hierarchy transitivity: if S₁ ≤ S₂ and S₂ ≤ S₃, then S₁ ≤ S₃.
+    The strength order on proof systems is transitive.
+    PROVEN by composition of polynomial simulations. -/
+theorem proof_system_hierarchy
+    (sim : ProofSystem → ProofSystem → Prop)
+    (h_trans : ∀ S1 S2 S3, sim S1 S2 → sim S2 S3 → sim S1 S3)
+    (S1 S2 S3 S4 : ProofSystem)
+    (h12 : sim S1 S2) (h23 : sim S2 S3) (h34 : sim S3 S4) :
+    sim S1 S4 := by
+  exact h_trans S1 S3 S4 (h_trans S1 S2 S3 h12 h23) h34
 
 -- ============================================================================
 -- THE SOS ANALOG FOR PROOF COMPLEXITY

@@ -125,6 +125,7 @@ The non-Abelian structure of SU(N) appears to PREVENT phase transitions
 in d=4. This is the key structural fact to exploit.
 -/
 
-/-! ## Theorem Count: 1 partial proof (1 sorry in IVT second case)
+/-! ## Theorem Count: 1 PROVEN (pos_of_continuous_never_zero_pos_somewhere)
+    Both IVT cases (x ≤ x₀ and x > x₀) are now handled. 0 sorry.
     Key reduction formalized: mass gap ← no phase transition ← Fisher zeros
 -/

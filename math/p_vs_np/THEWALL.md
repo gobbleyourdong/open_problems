@@ -63,7 +63,7 @@ blocked all progress since Williams' 2011 breakthrough.
 | Barriers | 0 meta-barriers | THREE provable barriers |
 | Approach space | Many routes survive | Almost nothing survives |
 | Independence | Not suspected | Possible (Pi_2 statement) |
-| Sigma Method | Maps the space, finds gaps | Maps barriers, can't get through |
+| systematic approach | Maps the space, finds gaps | Maps barriers, can't get through |
 
 P vs NP is the only Millennium Problem that:
 1. Asks for a NEGATIVE (no algorithm exists)
@@ -71,15 +71,15 @@ P vs NP is the only Millennium Problem that:
 3. Might be INDEPENDENT of standard axioms (ZFC)
 4. Has NO computational evidence possible
 
-## The Sigma Method Assessment
+## The systematic approach Assessment
 
-### What the Sigma Method CAN do:
+### What the systematic approach CAN do:
 - Map the three barriers precisely ✓
 - Identify surviving approaches (Williams, GCT) ✓
 - Formalize barrier statements in Lean ✓
-- Study specific circuit classes computationally (Odd instance)
+- Study specific circuit classes computationally (numerical track)
 
-### What the Sigma Method CANNOT do:
+### What the systematic approach CANNOT do:
 - Produce certificates (non-existence can't be certified)
 - Find a "gradient correlation" (no single quantity to compute)
 - Build an iron fortress (no sequence of increasing evidence)
@@ -92,7 +92,7 @@ simultaneously avoids relativization, natural proofs, and algebrization.
 No such technique is known. Williams' paradigm and GCT are the only
 candidates, and both face their own enormous technical barriers.
 
-The Sigma Method maps the space. The space says: "come back with new math."
+The systematic approach maps the space. The space says: "come back with new math."
 
 ## Comparison: All Seven Clay Problems
 

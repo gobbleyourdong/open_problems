@@ -5,7 +5,7 @@ Step 1: Find worst S²ê/|ω|² config (float, Nelder-Mead)
 Step 2: Verify that float result + interval rounding < 0.75
 """
 import sys
-sys.path.insert(0, '/home/jb/ComfyUI/CelebV-HQ/ns_blowup')
+sys.path.insert(0, '/path/to/ComfyUI/CelebV-HQ/ns_blowup')
 from interval import Interval
 import numpy as np
 from scipy.optimize import minimize

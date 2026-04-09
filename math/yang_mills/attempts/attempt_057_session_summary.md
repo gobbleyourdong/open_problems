@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Instance**: Odd (Numerics)
-**Repo**: github.com/gobbleyourdong/math_problems, branch odd/session_1
+**Repo**: <private repo>, branch <branch>
 
 ## What We Found
 

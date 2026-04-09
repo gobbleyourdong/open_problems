@@ -1,5 +1,5 @@
 /-
-  Navier-Stokes: The Sign Conjecture (Odd Instance Discovery)
+  Navier-Stokes: The Sign Conjecture (numerical track Discovery)
 
   CONJECTURE: At the vorticity maximum x* on T³ with N Fourier modes,
   the strain cross-term is non-positive:
@@ -15,7 +15,7 @@
   Note: cross-term CAN be positive at arbitrary points.
   The conjecture is specifically about the vorticity-maximizing vertex.
 
-  This formalizes the connection discovered by the Odd instance between
+  This formalizes the connection discovered by the numerical track between
   the sign pattern optimization and the depletion mechanism.
 -/
 
@@ -48,7 +48,7 @@ def strain_sq (diag : ℝ) (strain_cross : ℝ) : ℝ := diag / 2 + 2 * strain_c
     Formally: for the sign pattern σ* = argmax_σ |ω(σ)|²,
     Σ_{j<k} Tr(Ŝ_j^T Ŝ_k) · σ*_j · σ*_k ≤ 0.
 
-    STATUS: **REFUTED** by Odd instance (cb5c400). S_cross CAN be positive.
+    STATUS: **REFUTED** by numerical track (cb5c400). S_cross CAN be positive.
     However, the weaker bound ||S||²_F/|ω|² < 3/4 holds across all 4138
     configs tested. The sign conjecture was too strong, but the Key Lemma
     still holds. See TraceFreeAlignment.lean for the alignment route. -/
@@ -101,7 +101,7 @@ theorem sign_stronger_than_depletion :
 
 /-! ## Per-Pair Mechanism (pair_mechanism.py discovery)
 
-The Odd instance's pair_mechanism.py found that the per-pair
+The numerical track's pair_mechanism.py found that the per-pair
 strain-to-vorticity ratio depends on the ANGLE θ between wavevectors:
   - k_j ∥ k_k (θ=0): ratio = 1/2 (no extra cancellation)
   - k_j ⊥ k_k (θ=π/2): ratio → 0 (maximal cancellation)

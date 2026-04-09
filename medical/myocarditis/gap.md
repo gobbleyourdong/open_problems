@@ -1,6 +1,6 @@
 # Viral Myocarditis — Gap Analysis (Post-ODD Update)
 
-## ODD Instance Findings
+## numerical track Findings
 - Cardiac clearance time: 0.37 years (4.5 months) with full protocol
 - Myocarditis is the "keystone disease" in the disease network (pattern 008) — clearing cardiac CVB has largest downstream impact
 - HLA paradox: DR3/DR4 (T1DM risk alleles) may PROTECT the heart (different antigen presentation)
