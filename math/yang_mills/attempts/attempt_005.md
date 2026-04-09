@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 1 (Paper Arsenal — nearing completion)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 
 ## The Obstruction, Precisely
 

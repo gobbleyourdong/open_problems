@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 1 (Domain Shift)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 
 ## The Problem with the Standard Framing
 

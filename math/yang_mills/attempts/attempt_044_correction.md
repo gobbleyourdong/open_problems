@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 4 (Verification — self-correction)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 
 ## The Error in Attempt 042
 

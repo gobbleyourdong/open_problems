@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 3 (Proof Architecture)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 
 ## The Leap from Case-by-Case to Uniform
 

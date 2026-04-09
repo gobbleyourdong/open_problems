@@ -1,7 +1,7 @@
 # Pattern 007: Li Criterion Extended to n=60 — ALL POSITIVE
 
 **Date**: 2026-04-07
-**Instance**: Odd
+**Track**: numerical
 
 ## Results (K=100 zeros, mpmath 40-digit precision)
 

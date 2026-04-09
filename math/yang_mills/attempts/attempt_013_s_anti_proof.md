@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 2 (Theory via Numerics)
-**Instance**: Odd
+**Track**: numerical
 
 ## The Statement
 

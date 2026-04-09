@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 3 (Proof Attempts — verification)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 
 ## Checking Each Step
 

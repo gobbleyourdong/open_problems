@@ -1,7 +1,7 @@
 # Pattern 061: Two-Loop GC = C/β² VERIFIED by MC Data
 
 **Date**: 2026-04-07
-**Instance**: Odd
+**Track**: numerical
 **Cross-checking**: theory track attempt_056
 
 ## The theory track's Claim

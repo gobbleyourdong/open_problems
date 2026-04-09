@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 4 (Proof Architecture)
-**Instance**: Odd
+**Track**: numerical
 
 ## The Proof Structure
 

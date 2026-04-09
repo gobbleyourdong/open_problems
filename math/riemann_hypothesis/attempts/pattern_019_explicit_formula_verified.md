@@ -1,7 +1,7 @@
 # Pattern 019: Weil Explicit Formula VERIFIED — Zeros ↔ Primes Match
 
 **Date**: 2026-04-07
-**Instance**: Odd
+**Track**: numerical
 
 ## Result
 

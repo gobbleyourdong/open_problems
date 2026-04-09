@@ -1,7 +1,7 @@
 # NS Even 007 — Honest Summary: What We Proved and What's Open
 
 **Date**: 2026-04-07
-**Instance**: Even (Odd role on NS)
+**Track**: theory (Odd role on NS)
 
 ## What We ACTUALLY Proved (Formally)
 

@@ -1,7 +1,7 @@
 # NS Even 002 — Option (b): Bound ωSω ≤ C|∇ω|²
 
 **Date**: 2026-04-07
-**Instance**: Even (Odd role on NS)
+**Track**: theory (Odd role on NS)
 
 ## The Question
 

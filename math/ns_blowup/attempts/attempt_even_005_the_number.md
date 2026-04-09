@@ -1,7 +1,7 @@
 # NS Even 005 — Computing the Number: ||φ|| in L²(Gaussian)
 
 **Date**: 2026-04-07
-**Instance**: Even (Odd role on NS)
+**Track**: theory (Odd role on NS)
 
 ## The Setup
 

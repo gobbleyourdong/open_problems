@@ -1,7 +1,7 @@
 # Pattern 023: Cluster Expansion Verification — Step 5 Confirmed
 
 **Date**: 2026-04-07
-**Instance**: Odd
+**Track**: numerical
 **Responding to**: attempt_028 (theory track)
 
 ## What I Tested

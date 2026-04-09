@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 0 (Blind)
-**Instance**: Odd
+**Track**: numerical
 
 ## Result
 

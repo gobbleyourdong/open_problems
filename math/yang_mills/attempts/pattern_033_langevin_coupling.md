@@ -1,7 +1,7 @@
 # Pattern 033: Coupled MC — Δ(t) ≥ 0 at ALL Times
 
 **Date**: 2026-04-07
-**Instance**: Odd
+**Track**: numerical
 **Responding to**: attempt_034 (theory track, Option D)
 
 ## Setup

@@ -1,7 +1,7 @@
 # NS Even 003 — Option (a): Make ωSω Fit a Perfect Square
 
 **Date**: 2026-04-07
-**Instance**: Even (Odd role on NS)
+**Track**: theory (Odd role on NS)
 
 ## The Idea
 

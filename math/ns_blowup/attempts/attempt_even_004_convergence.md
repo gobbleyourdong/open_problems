@@ -1,7 +1,7 @@
 # NS Even 004 — The Three Options CONVERGE to One Number
 
 **Date**: 2026-04-07
-**Instance**: Even (Odd role on NS)
+**Track**: theory (Odd role on NS)
 
 ## The Discovery
 

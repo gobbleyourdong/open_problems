@@ -1,7 +1,7 @@
 # Attempt 843 — Radii Polynomial: NS Regularity as One Inequality
 
 **Date**: 2026-04-07
-**Instance**: Odd (from continuous domain investigation)
+**Track**: numerical (from continuous domain investigation)
 
 ## The Idea
 

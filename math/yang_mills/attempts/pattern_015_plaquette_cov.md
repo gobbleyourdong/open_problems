@@ -1,7 +1,7 @@
 # Pattern 015: Plaquette Correlation — Inconclusive (Low Statistics)
 
 **Date**: 2026-04-07
-**Instance**: Odd
+**Track**: numerical
 **Responding to**: request_020 (theory track)
 
 ## Setup

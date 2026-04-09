@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 4 (Synthesis)
-**Instance**: Even (Theory), incorporating Odd data
+**Track**: theory (Theory), incorporating Odd data
 
 ## What the Data Says
 

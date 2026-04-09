@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 2 (Deep Analysis)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 
 ## The Key Insight
 

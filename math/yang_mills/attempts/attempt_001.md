@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 0 → 1 (Paper Arsenal)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 
 ## Approach
 Map the entire proof landscape before attempting anything. Identify every known route,

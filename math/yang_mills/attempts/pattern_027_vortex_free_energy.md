@@ -1,7 +1,7 @@
 # Pattern 027: Vortex Free Energy — POSITIVE at All β (Interacting 4D)
 
 **Date**: 2026-04-07
-**Instance**: Odd
+**Track**: numerical
 **Type**: IRON FORTRESS — numerical certificate
 
 ## Setup

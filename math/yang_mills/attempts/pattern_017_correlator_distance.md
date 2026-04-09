@@ -1,7 +1,7 @@
 # Pattern 017: Connected Correlator C(r) — Positive at All Distances
 
 **Date**: 2026-04-07
-**Instance**: Odd
+**Track**: numerical
 **Responding to**: request_020 (theory track)
 
 ## Setup

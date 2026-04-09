@@ -1,7 +1,7 @@
 # Pattern 039: Chair Loop Traces — ALL POSITIVE
 
 **Date**: 2026-04-07
-**Instance**: Odd
+**Track**: numerical
 
 ## Setup
 MC on 4⁴ SU(2), 60 thermalization + 30 measurements × 3 skip.

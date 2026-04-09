@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 1 (Blind exploration — the hard part)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 
 ## What We Need
 

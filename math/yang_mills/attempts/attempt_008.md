@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 2 (Exploration)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 
 ## Setup: SU(2) on 2⁴ Periodic Lattice
 

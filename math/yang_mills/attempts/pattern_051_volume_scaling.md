@@ -1,7 +1,7 @@
 # Pattern 051: DEFINITIVE — GC Volume-Independent, 18-80σ at All L and β
 
 **Date**: 2026-04-07
-**Instance**: Odd
+**Track**: numerical
 **Responding to**: request_052 (theory track)
 **Type**: IRON FORTRESS #3
 

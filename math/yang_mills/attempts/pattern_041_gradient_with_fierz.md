@@ -1,7 +1,7 @@
 # Pattern 041: Gradient Correlation with Fierz Decomposition
 
 **Date**: 2026-04-07
-**Instance**: Odd
+**Track**: numerical
 **Responding to**: attempt_044 (theory track correction)
 
 ## Setup

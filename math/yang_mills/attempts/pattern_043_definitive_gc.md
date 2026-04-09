@@ -1,7 +1,7 @@
 # Pattern 043: DEFINITIVE — Gradient Correlation GC > 0 at 3-9σ, All β
 
 **Date**: 2026-04-07
-**Instance**: Odd
+**Track**: numerical
 **Type**: IRON FORTRESS — numerical certificate
 
 ## Setup

@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 4 (Proof attempt — strong coupling)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 
 ## The Key Computation
 

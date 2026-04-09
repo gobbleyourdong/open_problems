@@ -1,7 +1,7 @@
 # NS Even 001 — Computing dW_NS/dt: Where the Transfer Breaks
 
 **Date**: 2026-04-07
-**Instance**: Even (cross-problem transfer from Poincaré)
+**Track**: theory (cross-problem transfer from Poincaré)
 
 ## The Computation
 

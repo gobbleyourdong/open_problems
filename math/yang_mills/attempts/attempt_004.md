@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 1→2 (Arsenal → Formalization)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 
 ## Observation
 

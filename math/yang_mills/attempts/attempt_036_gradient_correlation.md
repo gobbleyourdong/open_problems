@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 4 (Beyond the Wall)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 
 ## The Question (from attempt_034)
 

@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 0 (From scratch, NOT reading the proof)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 
 ## The Problem
 

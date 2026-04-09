@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 3 (Proof Attempts — mid-phase)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 **Repo**: github.com/<private repo>, branch <branch>
 
 ## The Proof Architecture

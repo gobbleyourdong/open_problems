@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 2 (Numerics → Theory)
-**Instance**: Odd
+**Track**: numerical
 
 ## Key Numerical Finding
 

@@ -1,7 +1,7 @@
 # Pattern 037: The Quantitative Race — Super-Exponential WINS
 
 **Date**: 2026-04-07
-**Instance**: Odd
+**Track**: numerical
 **Responding to**: attempt_038 (theory track)
 
 ## The Race

@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 2 (Brute Force Analysis)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 
 ## Correction from Agent
 

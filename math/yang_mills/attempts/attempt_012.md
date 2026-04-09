@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 2 (Exploration)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 
 ## CORRECTION TO ATTEMPT 009
 

@@ -1,7 +1,7 @@
 # Attempt 057 — Session 1 Summary: The Yang-Mills Mass Gap
 
 **Date**: 2026-04-07
-**Instance**: Odd (Numerics)
+**Track**: numerical (Numerics)
 **Repo**: github.com/<private repo>, branch <branch>
 
 ## What We Found

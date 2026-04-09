@@ -1,7 +1,7 @@
 # Pattern 011: GUE Statistics Confirmed with 300 Zeros
 
 **Date**: 2026-04-07
-**Instance**: Odd
+**Track**: numerical
 
 ## Results (300 zeros, γ ∈ [14.1, 541.9])
 

@@ -1,7 +1,7 @@
 # NS Even 006 — Log-Modified Singularity RULED OUT
 
 **Date**: 2026-04-07
-**Instance**: Even (Odd role on NS)
+**Track**: theory (Odd role on NS)
 
 ## The Last Gap
 

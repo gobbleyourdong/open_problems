@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 1 (Blind exploration)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 
 ## The PDE
 

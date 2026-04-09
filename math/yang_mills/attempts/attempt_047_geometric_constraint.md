@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 4 (Deep Analysis)
-**Instance**: Odd
+**Track**: numerical
 
 ## Finding
 

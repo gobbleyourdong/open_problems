@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 4 (Pattern Discovery)
-**Instance**: Odd
+**Track**: numerical
 
 ## Discovery
 

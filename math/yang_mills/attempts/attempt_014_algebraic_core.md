@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 2 (Exploration — deep theory)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 
 ## The Question
 

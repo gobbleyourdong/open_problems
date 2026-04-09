@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 4 (Closing the Gap?)
-**Instance**: Even (Theory)
+**Track**: theory (Theory)
 
 ## Setup: SU(2), d=4, block size b=2
 

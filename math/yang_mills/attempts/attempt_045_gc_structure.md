@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 4 (Analytical Attack)
-**Instance**: Odd
+**Track**: numerical
 
 ## The Fierz Decomposition (verified numerically)
 

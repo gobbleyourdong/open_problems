@@ -2,7 +2,7 @@
 
 **Date**: 2026-04-07
 **Phase**: 0 (Blind attack)
-**Instance**: Odd
+**Track**: numerical
 
 ## Key Finding
 
