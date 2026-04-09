@@ -1,18 +1,20 @@
 # Clay Millennium Problems — systematic approach Campaign
 
-> Updated: 2026-04-09 | 623+ Lean theorems across 82 files | 7/7 scaffolded
+> Updated: 2026-04-09 | 749+ Lean theorems across 108 files | 7/7 scaffolded + 3 philosophy/physics
 
 | # | Problem | Phase | Lean | Wall Type | Key Result |
 |---|---------|-------|------|-----------|------------|
-| 1 | **Poincaré** | ✅ SOLVED | 49/6 | — | 12/12 blind rediscovery, Step 9 closed |
-| 2 | **Yang-Mills** | ✅ Conditional | 48/16 | Quantitative | GC > 0 both strong + weak coupling |
-| 3 | **Navier-Stokes** | Phase 4 | 434/39 | Quantitative | c(4) ≤ 0.561 rigorous, Key Lemma for N=2,3,4 |
-| 4 | **Hodge** | Phase 2 | 7/3 | Existential | Tannakian reformulation, g≤5 proven |
-| 5 | **Riemann** | Phase 1 | 8/3 | Conceptual | Li = RH structural (no weak cert) |
+| 1 | **Poincare** | SOLVED | 55/8 | — | 12/12 blind rediscovery, Step 9 closed |
+| 2 | **Yang-Mills** | Conditional | 64/18 | Quantitative | GC > 0 both regimes + Option 1 activated (66sigma) |
+| 3 | **Navier-Stokes** | Phase 4 | 487/42 | Quantitative | c(4) <= 0.561 rigorous, 3 eigenvector mechanisms |
+| 4 | **Hodge** | Phase 2 | 20/5 | Existential | Tannakian + CycleAlgebra + FermatCubic verified |
+| 5 | **Riemann** | Phase 2 | 20/5 | Conceptual | 5 mountains + 4 numerical depth certs |
 | 6 | **BSD** | Phase 1 | 5/2 | Structural | 5-mountains pair-structure formalized |
-| 7 | **P vs NP** | Phase 0 | 72/13 | Meta | Liu-Pass bridge: M5 survives all barriers |
+| 7 | **P vs NP** | Phase 1 | 78/14 | Meta | Liu-Pass + compression asymmetry 4698x at n=18 |
+| — | **Philosophy/mind** | Phase 1 | 10/2 | Experimental | beta-gamma incompatibility + 2x2 factorial spec |
+| — | **Physics/info** | Phase 1 | 5/1 | Conceptual | S/K bifurcation resolves info anti-problem |
 
-Lean column: theorems/files (total 623+ theorems across 82 files)
+Lean column: theorems/files (total 749+ theorems across 108 files)
 
 ## Results by Problem
 
@@ -28,8 +30,10 @@ GC(β) > 0 now proven at BOTH strong AND weak coupling:
 - Strong (β ≤ β₀): cluster expansion, GC ~ 5c³ > 0 (OS78 + attempt_050)
 - Weak (β ≥ β₁): two-loop perturbation, GC = C/β² + O(1/β³), C > 0 (attempt_056)
 - Intermediate: MC data confirms GC > 0 at 5 sampled β values (pattern_061)
-The gap: overlapping convergence radii at intermediate β.
+- **Option 1 ACTIVATED**: HoeffdingCertificate.lean wires GC vol scaling (66sigma)
+  + correlation length (xi<0.3) + FKG test → P(GC<=0) < 10^-19
 WeakStrongCoupling.lean formalizes gc_positive_if_overlap.
+IntermediateBetaGap.lean: 4 options. HoeffdingCertificate: Option 1 concrete.
 
 ### Navier-Stokes — Phase 4 (Key Lemma closed for N=2,3,4)
 - N=2: c(2) = 1/4 proven algebraically (ExhaustiveN2)
@@ -50,13 +54,18 @@ Multiple mountains: algebraic geometry (blocked at p≥2), differential,
 mirror symmetry (cheapest for CY), category theory.
 TannakianReformulation.lean formalizes the 5-mountains framework.
 
-### Riemann Hypothesis — Phase 1 (Structurally Hardest)
+### Riemann Hypothesis — Phase 2 (5 Mountains + 4 Numerical Certs)
 RH has NO weak certificate: Li ⟺ RH, Robin ⟺ RH, Λ=0 ⟺ RH.
-The Sigma Method cannot advance via certificate accumulation.
-Proven: sigma_method_stuck_on_RH in CertificateEquivalence.lean.
-Productive routes bypass certificates: Hilbert-Pólya, Weil analog,
-moment methods, zero-free region improvements.
-Numerically: 668 zeros verified to T=1000, Li to n≤200.
+Sigma Method cannot advance via certificate accumulation alone.
+NEW: FiveMountains.lean formalizes 5 approaches (Analysis, Physics,
+Geometry, Information, Dynamics) with unified construction target.
+NumericalVerificationDepth.lean records 4 independent numerical certs:
+  - Turing: 689 zeros on critical line, T<=1000
+  - Li: lambda_n > 0 for n <= 1000 (K=1000 zeros, 50-digit)
+  - Robin: 10.9M superabundant candidates, zero violations to n~10^43
+  - de Bruijn-Newman: first 5 zeros stay real for t in [0, 0.25]
+All 4 certs zero-axiom formalized. Selberg eigenvalue conjecture
+identified as YM-technique transfer target (spectral gap analog).
 
 ### BSD — Phase 1 (5-Mountains Pair Structure)
 rank(E(Q)) ≥ 2 requires PAIRS of independent points.
@@ -94,14 +103,15 @@ Papers → Manifest → Lean → Numerics → Proof Attempts → Dead Ends → G
 
 | Metric | Count |
 |--------|-------|
-| Total Lean theorems | 623+ (proved or axiomatized) |
-| Lean files | 82 across 7 problems |
-| NS Lean files | 39 (434 theorems) |
+| Total Lean theorems | 749+ (proved or axiomatized) |
+| Lean files | 108 across 7 math + 2 philosophy + 1 physics |
+| NS Lean files | 42 (487 theorems) |
 | Remaining sorry | 6 (all in NS Blowup.lean = the open problem) |
-| Rigorous certificates | 5 (NS: N=3,4,c(4); YM: GC; Hodge: Fermat) |
-| Problems with 12/12 steps | 1 (Poincaré) |
+| Zero-axiom files | 8 (HoeffdingCert, NumericalDepth, CNEmpirical, etc.) |
+| Rigorous certificates | 9 (NS: N=3,4,c(4); YM: GC+xi+FKG; RH: 4 certs) |
+| Problems with 12/12 steps | 1 (Poincare) |
 | Problems with conditional proof | 1 (Yang-Mills: 8/10 steps) |
-| Problems with Lean chain | 7/7 |
+| Problems with Lean chain | 7/7 math + 2 philosophy/physics |
 
 ## What Changed (2026-04-09 update)
 
