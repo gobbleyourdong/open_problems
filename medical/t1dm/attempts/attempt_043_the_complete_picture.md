@@ -2,7 +2,7 @@
 
 ## the patient
 
-Male, diagnosed December 2019. C-peptide (residual) ng/mL at diagnosis (just below normal — most beta cells still alive). Not breastfed (formula-fed, A1 beta-casein exposure). Went 5 years insulin-free on keto diet. Now on 2 units Humalog per meal, 18:6 IF, 15-20g carbs per meal. High total cholesterol, low LDL, low VLDL (high HDL implied). Doctor noted T1DM patients commonly have high cholesterol and thyroiditis.
+Male, diagnosed December 2019. C-peptide 0.9 ng/mL at diagnosis (just below normal — most beta cells still alive). Not breastfed (formula-fed, A1 beta-casein exposure). Went 5 years insulin-free on keto diet. Now on 2 units Humalog per meal, 18:6 IF, 15-20g carbs per meal. High total cholesterol, low LDL, low VLDL (high HDL implied). Doctor noted T1DM patients commonly have high cholesterol and thyroiditis.
 
 ## The Complete Cascade — From Birth to Now
 
@@ -75,7 +75,7 @@ CHILDHOOD → ADULTHOOD
 │
 DECEMBER 2019: DIAGNOSIS
 │
-├── C-peptide (residual) (barely below normal — caught EARLY)
+├── C-peptide 0.9 (barely below normal — caught EARLY)
 ├── Beta cells: ~60-80% remaining (based on low insulin needs)
 ├── The cascade had been running for years but beta cell regeneration
 │   (Butler: NEVER stops) kept pace almost entirely

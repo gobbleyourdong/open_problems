@@ -1,44 +1,22 @@
-# CVB Orchitis — Gap Analysis (Initial)
+# CVB Orchitis — Gap Analysis (Post-ODD Update)
 
-## The Unique Feature: Immune Privilege
+## Previous Gap
+"Is testicular CVB persistence real? Does the protocol reach the testes?"
 
-The testes are one of the body's immunologically privileged sites (along with the brain, eyes, and — relevantly — pancreatic islets). The blood-testis barrier (BTB) restricts immune cell access, which means:
+## Resolved by numerical track
 
-1. CVB that reaches the testes can persist with minimal immune surveillance
-2. TD mutants in testes are HARDER to clear than in other organs
-3. The testes become a **reservoir** for reinfection of other organs
+1. **Fluoxetine reaches testes**: BTB penetration 2.5x plasma, Sertoli cell accumulation 3x → effective concentration 2.25 μM at 20mg (2.25x above IC50)
+2. **At 60mg**: testicular concentration 6.75 μM (6.75x above IC50, 87% inhibition)
+3. **Clearance time**: unified v2 predicts 0.77yr (9 months) at 20mg; dedicated orchitis model predicts 3.5yr
+4. **IC50 reconciliation**: divergence traced to different IC50 assumptions. Consensus: 9-18 months at 20mg, 9-12 months at 60mg
 
-## The Gap
+## Current Gap
 
-### Is testicular CVB persistence real?
-- CVB5 tropism for Sertoli cells is documented
-- But testicular biopsy for CVB detection is almost never performed
-- The gap is diagnostic: **we don't know the prevalence of testicular CVB persistence**
+**Male-specific dosing**: ODD found that 20mg fluoxetine gives only 69% inhibition in testes (vs 82% in brain). Males may need 60mg for reliable testicular clearance. This is a **dosing gap**, not a mechanism gap.
 
-### Does it matter for the systemic protocol?
-If the testes harbor TD mutants:
-- Clearing CVB from pancreas, heart, muscle is insufficient — the reservoir reseeds
-- The antiviral protocol must achieve testicular penetration
-- Fluoxetine DOES cross the BTB (high volume of distribution, lipophilic)
-- Itraconazole has poor testicular penetration
+**The semen RT-PCR question**: still unanswered — no data on whether CVB is detectable in human semen. This determines whether the testicular reservoir is clinically relevant or theoretical.
 
-## Anti-Problem
-"Do male T1DM patients have subclinical testicular dysfunction?"
-
-Check:
-- Testosterone levels (total + free)
-- FSH/LH (Sertoli/Leydig cell function markers)
-- Semen analysis if fertility concerns
-- Testicular ultrasound (inflammation, atrophy)
-
-If male T1DM patients have lower testosterone or impaired spermatogenesis at higher rates than expected: evidence for testicular CVB persistence.
-
-## Protocol Adaptation
-- Same CVB clearance protocol as T1DM
-- Fluoxetine penetrates BTB: good
-- FMD/autophagy: acts systemically including testes
-- **Add**: testicular function monitoring for male CVB-protocol patients
-- **Consider**: if testicular reservoir is confirmed, extended antiviral course may be needed
-
-## Convergence
-Orchitis matters not for itself (usually self-limiting) but as a **reservoir problem**. If you clear CVB everywhere except the testes, the testes reseed everything. The protocol must be systemic — and fluoxetine's pharmacokinetics support this.
+## Dose Recommendation
+- Females: 20mg fluoxetine (no testes)
+- Males: 60mg fluoxetine preferred (testes at 87% inhibition vs 69% at 20mg)
+- Monitor: semen enteroviral RT-PCR if feasible

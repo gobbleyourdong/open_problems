@@ -1,4 +1,20 @@
-# Viral Myocarditis — Gap Analysis (Initial)
+# Viral Myocarditis — Gap Analysis (Post-ODD Update)
+
+## numerical track Findings
+- Cardiac clearance time: 0.37 years (4.5 months) with full protocol
+- Myocarditis is the "keystone disease" in the disease network (pattern 008) — clearing cardiac CVB has largest downstream impact
+- HLA paradox: DR3/DR4 (T1DM risk alleles) may PROTECT the heart (different antigen presentation)
+- CVB3 is the primary cardiotropic serotype (pattern 010)
+- Kühl precedent validated by model: IFN-β equivalent achievable with oral fluoxetine
+
+## Current Gap: TIMING (unchanged but quantified)
+The gap remains timing — catching myocarditis before fibrosis. ODD quantified:
+- Pre-fibrotic: protocol halts progression, LVEF recoverable (+10-23%)
+- Post-fibrotic: progression stopped but existing fibrosis irreversible
+- the patient: cardiac MRI determines which scenario
+
+---
+## Original Analysis (retained below)
 
 ## The Pattern From T1DM
 
