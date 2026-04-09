@@ -135,8 +135,14 @@ Ferritin > 300 ng/mL:
 □ Zinc 15mg + Copper 2mg daily
 □ CoQ10 600mg daily (with fat-containing meal) — Complex I cofactor; mt-ND3 target
 □ NAD+ precursor: NMN 500mg or NR 500mg daily (morning) — mitochondrial repair
-□ Trehalose 2g daily (in water, with any meal) — TFEB activator → lysosomal biogenesis → mitigates LAMP2 block identified in CVB-infected cells; $15/month, food-grade, no interactions
+□ Trehalose 2g daily (in water, with any meal) — TFEB activator → lysosomal biogenesis; $15/month, food-grade
    NOTE: trehalose is a disaccharide; use pure crystalline form (not a sweetener blend)
+□ Vitamin K2 (MK-7 form) 100-200μg daily — REQUIRED with VitD 5000 IU to prevent
+   soft-tissue calcium deposition; VDR activation increases calcium absorption
+□ GABA 500mg daily (with food) — alpha→beta transdifferentiation (R₃ term);
+   synergistic with FMD refeeding window; take in evenings (mild calming effect)
+□ Increase Butyrate to 4,000mg/day by end of week 2 (start at 1g, add 1g every 3 days)
+   [CRITICAL DOSE CHANGE from initial 300mg — 4-6g needed for FOXP1/HDAC mechanism]
 
 DO NOT START YET:
   × Fluoxetine (wait for baseline stabilization)
