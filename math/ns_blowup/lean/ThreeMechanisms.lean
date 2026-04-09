@@ -97,12 +97,19 @@ theorem n3_traceless :
     n3_mechanism.lambda_1 + n3_mechanism.lambda_2 + n3_mechanism.lambda_3 = 0 := by
   unfold n3_mechanism; norm_num
 
-/-! ## N=4: Distributed Depletion Mechanism (The Peak) -/
+/-! ## N=4: Distributed Depletion Mechanism
+
+CORRECTION: N=4 is no longer the global peak. Re-verification with
+higher effort (60-100 k-tuples, 150 iter × 12 pop DE) found:
+  c(5) = 0.355, c(6) = 0.368 (NEW PEAK), c(7) = 0.366
+The landscape is FLATTER than previously believed (0.35-0.37 for N=4-7).
+All values still well below 0.75 (margin >= 51%). -/
 
 /-- At N=4, the strain eigenvalues are {1.42, -0.07, -1.35}, larger than
     N=3. The direction ê splits 46%/53% between λ₁ and λ₃, giving
     cos(Sê,ê) ≈ 0.05 (near-perpendicular). The ratio 0.362 is the
-    GLOBAL PEAK of the Key Lemma worst-case curve.
+    LOCAL peak for the distributed depletion mechanism (N=4), but
+    the GLOBAL PEAK has shifted to c(6) = 0.368 after correction.
 
     From `N4WorstCase.lean` via the rigorous c(4) certificate, c(4) ≤ 0.561
     with 25% margin from the 3/4 threshold. The 0.362 value is the best
@@ -169,8 +176,10 @@ theorem three_mechanisms_distinct :
     mechanism_at_N 2 ≠ mechanism_at_N 4 := by
   refine ⟨?_, ?_, ?_⟩ <;> decide
 
-/-- The ratio values at N = 2, 3, 4 are strictly ordered (the "ramp"). -/
-theorem ratio_ramp_up_to_peak :
+/-- The ratio values at N = 2, 3, 4 are strictly ordered (ramp up to N=4).
+    NOTE: the ramp continues to c(6)=0.368 (the true peak), but we only
+    prove the N=2,3,4 ordering here since those are the rigorously certified values. -/
+theorem ratio_ramp_up_to_n4 :
     n2_mechanism.ratio < n3_mechanism.ratio ∧
     n3_mechanism.ratio < n4_mechanism.ratio_best := by
   unfold n2_mechanism n3_mechanism n4_mechanism

@@ -5,23 +5,26 @@
   vorticity maximum for N-mode configurations, N = 3 through 16
   (attempts/attempt_845_decreasing_trend.md).
 
-  DATA:
-    N=3:  c(3)  = 0.285
-    N=5:  c(5)  = 0.252
-    N=8:  c(8)  = 0.143
-    N=10: c(10) = 0.119
+  DATA (CORRECTED — cn_vertex_method_correction.md update):
+    N=3:  c(3)  = 0.285   (low-effort)
+    N=5:  c(5)  = 0.355   (corrected: was 0.252 at low effort)
+    N=6:  c(6)  = 0.368   (NEW GLOBAL PEAK — was 0.316)
+    N=7:  c(7)  = 0.366   (corrected: was 0.296)
+    N=8:  c(8)  = 0.143   (low-effort, may need correction)
+    N=10: c(10) = 0.119   (low-effort)
     N=13: c(13) = 0.086
     N=15: c(15) = 0.094
     N=16: c(16) = 0.096
 
   Combined with the rigorous certs:
     N=2:  c(2)  = 1/4  = 0.25 (proven in KeyLemmaN2.lean)
-    N=3:  c(3)  = 1/3  ≈ 0.333 (proven in KeyLemmaN3.lean; measured 0.285 ≤ rigorous 1/3)
+    N=3:  c(3)  = 1/3  ≈ 0.333 (proven in KeyLemmaN3.lean)
     N=4:  c(4)  ≤ 0.561 (rigorous cert, see N4WorstCase.lean)
 
-  The MAXIMUM measured c(N) for N ≥ 5 is 0.252 at N=5, well below 3/4.
-  This provides the concrete "C" bound needed by
-  `MonotoneDecrease.unified_key_lemma_conditional`.
+  The MAXIMUM measured c(N) is now c(6) = 0.368, not c(4) = 0.362.
+  The c(N) landscape is FLATTER than previously believed (0.35-0.37
+  for N=4-7). All values still well below 3/4 (margin >= 51%).
+  C_empirical updated to 0.38 for N >= 5.
 
   This file:
     1. Records the measured data as definitions
@@ -35,7 +38,9 @@
 /-- Measured c(N) values from the numerical track. -/
 def c_measured : ℕ → Option ℝ
   | 3  => some 0.285
-  | 5  => some 0.252
+  | 5  => some 0.355    -- CORRECTED (was 0.252)
+  | 6  => some 0.368    -- NEW: global peak
+  | 7  => some 0.366    -- CORRECTED (was 0.296)
   | 8  => some 0.143
   | 10 => some 0.119
   | 13 => some 0.086
@@ -43,24 +48,29 @@ def c_measured : ℕ → Option ℝ
   | 16 => some 0.096
   | _  => none
 
-/-- The maximum measured c(N) for N ≥ 5 is at most 0.26. -/
-def C_empirical : ℝ := 0.26
+/-- The maximum measured c(N) for N ≥ 5 is at most 0.38.
+    CORRECTED: was 0.26 before re-verification with higher effort. -/
+def C_empirical : ℝ := 0.38
 
-/-- C_empirical is strictly below 3/4 (with 65% margin). -/
+/-- C_empirical is strictly below 3/4 (with 49% margin). -/
 theorem C_empirical_lt_three_quarters : C_empirical < 3/4 := by
   unfold C_empirical; norm_num
 
 /-! ## Each Measured Value Is Below 3/4 -/
 
-theorem c5_measured : (0.252 : ℝ) < 3/4 := by norm_num
+theorem c5_measured : (0.355 : ℝ) < 3/4 := by norm_num
+theorem c6_measured : (0.368 : ℝ) < 3/4 := by norm_num
+theorem c7_measured : (0.366 : ℝ) < 3/4 := by norm_num
 theorem c8_measured : (0.143 : ℝ) < 3/4 := by norm_num
 theorem c10_measured : (0.119 : ℝ) < 3/4 := by norm_num
 theorem c13_measured : (0.086 : ℝ) < 3/4 := by norm_num
 theorem c15_measured : (0.094 : ℝ) < 3/4 := by norm_num
 theorem c16_measured : (0.096 : ℝ) < 3/4 := by norm_num
 
-/-- Each measured value for N ≥ 5 is bounded by C_empirical = 0.26. -/
-theorem c5_le_C : (0.252 : ℝ) ≤ C_empirical := by unfold C_empirical; norm_num
+/-- Each measured value for N ≥ 5 is bounded by C_empirical = 0.38. -/
+theorem c5_le_C : (0.355 : ℝ) ≤ C_empirical := by unfold C_empirical; norm_num
+theorem c6_le_C : (0.368 : ℝ) ≤ C_empirical := by unfold C_empirical; norm_num
+theorem c7_le_C : (0.366 : ℝ) ≤ C_empirical := by unfold C_empirical; norm_num
 theorem c8_le_C : (0.143 : ℝ) ≤ C_empirical := by unfold C_empirical; norm_num
 theorem c10_le_C : (0.119 : ℝ) ≤ C_empirical := by unfold C_empirical; norm_num
 theorem c13_le_C : (0.086 : ℝ) ≤ C_empirical := by unfold C_empirical; norm_num
@@ -69,16 +79,16 @@ theorem c16_le_C : (0.096 : ℝ) ≤ C_empirical := by unfold C_empirical; norm_
 
 /-! ## The Max Measured Value -/
 
-/-- The maximum measured c(N) value across all tested N (including N=3)
-    is c(3) = 0.285, achieved at the smallest tested configuration. -/
-def c_max_measured : ℝ := 0.285
+/-- The maximum measured c(N) value across all tested N is now
+    c(6) = 0.368, the NEW GLOBAL PEAK (corrected from c(4) = 0.362). -/
+def c_max_measured : ℝ := 0.368
 
 theorem c_max_measured_lt_three_quarters : c_max_measured < 3/4 := by
   unfold c_max_measured; norm_num
 
-/-- The max measured value has margin > 60% from the Key Lemma threshold. -/
+/-- The max measured value has margin > 50% from the Key Lemma threshold. -/
 theorem c_max_has_large_margin :
-    3/4 - c_max_measured > 0.46 := by
+    3/4 - c_max_measured > 0.38 := by
   unfold c_max_measured; norm_num
 
 /-! ## The Decreasing Trend (Empirical Observation)
@@ -95,12 +105,13 @@ measurement noise (fewer k-tuples sampled at larger N). The
 underlying trend is clearly monotonic DOWN.
 -/
 
-/-- The empirical decrease ratio over the measured range. -/
-def decrease_ratio : ℝ := 0.285 / 0.096
+/-- The empirical decrease ratio: peak c(6)=0.368 to c(16)=0.096. -/
+def decrease_ratio : ℝ := 0.368 / 0.096
 
-/-- c(3) is approximately 3× larger than c(16). -/
+/-- c(6) is approximately 3.8× larger than c(16) — the ratio still
+    decreases at large N even though the peak shifted from N=4 to N=6. -/
 theorem decrease_ratio_approx :
-    decrease_ratio > 2.9 ∧ decrease_ratio < 3.0 := by
+    decrease_ratio > 3.8 ∧ decrease_ratio < 3.9 := by
   unfold decrease_ratio
   refine ⟨?_, ?_⟩ <;> norm_num
 
