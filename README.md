@@ -50,42 +50,30 @@ Zero failures across 15,000+ configurations.
 
 ## medical/
 
-One virus. Fifteen diseases. One protocol.
+Open medical problems. Mechanism-first research with IC50 data, Lean formalizations, and computational models.
 
 <p align="center">
   <img src="medical/cvb_structure.png" alt="CVB Capsid Protomer — PDB 9TKM" width="800"/>
 </p>
 <p align="center"><i>Coxsackievirus B1 capsid protomer — VP1 (blue), VP2 (orange), VP3 (green). First CVB atomic structure (PDB: 9TKM, 2025). Rendered from raw PDB coordinates.</i></p>
 
-All caused by **Coxsackievirus B** (CVB) — same pathogen, same persistence mechanism (5' terminal deletion), same proteases doing damage.
-
-| Disease | Connection | Key Target |
-|---------|-----------|------------|
-| **Type 1 Diabetes** | Beta cell autoimmune destruction | 5 druggable targets characterized |
-| **Viral Myocarditis** | Cardiomyocyte lysis (CVB3) | 2A cleaves dystrophin |
-| **Dilated Cardiomyopathy** | Chronic dystrophin cleavage | TD mutant persistence |
-| **ME/CFS** | Persistent CVB in muscle/CNS | NK cell dysfunction loop |
-| **Pancreatitis** | Exocrine pancreas (CVB1/B4) | Direct viral cytolysis |
-| **Pericarditis** | NLRP3-driven inflammation | Colchicine responsive |
-| **Hepatitis** | Hepatocyte lysis | Severe in neonates |
-| **Pleurodynia** | Intercostal muscle infection | Sentinel symptom |
-| **Aseptic Meningitis** | CNS invasion | Usually self-limiting |
-| **Encephalitis** | Brain parenchyma | Rare but serious |
-| **Orchitis** | Immune-privileged reservoir | CVB5 |
-| **Neonatal Sepsis** | Multi-organ, high mortality | Earliest seeding event |
-| **Eczema** | Gut-skin axis / Th2 skewing | LGG + barrier repair |
-| **Psoriasis** | IL-17/Th17 driven | Gut-immune connection |
-| **Infertility** | Immune-privileged reservoir (testes) | CVB5 orchitis → subfertility |
-
-### CVB Druggable Targets (with IC50 data)
-
-| Target | Best Compound | IC50/EC50 | Mechanism |
-|--------|--------------|-----------|-----------|
-| OSBP cholesterol | Itraconazole | 2 uM | Blocks cholesterol delivery to viral ROs |
-| 2C ATPase | (S)-Fluoxetine | 0.4 uM | Locks hexamer via allosteric pocket |
-| NLRP3 inflammasome | BHB (endogenous) | 1 mM | Prevents K+ efflux + ASC assembly |
-| Autophagy redirect | Fasting (TFEB) | N/A | Overwhelms viral hijacking |
-| NF-kB transcription | Epinephrine | endogenous | beta-arrestin-2 sequesters IKKalpha |
+| Disease | Mechanism | Status |
+|---------|-----------|--------|
+| **Type 1 Diabetes** | Autoimmune beta cell destruction | 70+ attempts, 5 druggable targets |
+| **Viral Myocarditis** | Cardiomyocyte lysis | Dystrophin cleavage model |
+| **Dilated Cardiomyopathy** | Chronic structural damage | ODE progression model |
+| **ME/CFS** | Persistent infection + immune exhaustion | Energy-metabolism coupling |
+| **Pancreatitis** | Exocrine destruction | Seeding model |
+| **Pericarditis** | NLRP3 inflammasome | Recurrence probability model |
+| **Hepatitis** | Hepatocyte lysis | Neonatal severity gradient |
+| **Pleurodynia** | Muscle inflammation | Epidemic correlation |
+| **Aseptic Meningitis** | CNS invasion | BBB permeability model |
+| **Encephalitis** | Brain parenchyma | CNS clearance model |
+| **Orchitis** | Immune-privileged reservoir | Clearance feasibility |
+| **Neonatal Sepsis** | Multi-organ | Antibody threshold model |
+| **Eczema** | Gut-skin axis / Th2 skewing | Barrier + microbiome |
+| **Psoriasis** | IL-17/Th17 driven | Amplification loop model |
+| **Infertility** | Immune-privileged reservoir | Male + female factor |
 
 ## How This Works
 

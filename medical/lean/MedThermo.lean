@@ -22,6 +22,7 @@ import MedThermo.Theorems.InequalityReversal
 import MedThermo.CellBiology.ViralPersistence
 import MedThermo.Thermodynamics.FreeEnergy
 import MedThermo.CellBiology.ImmunePrivilege
+import MedThermo.Pharmacology.DrugPK
 import MedThermo.Pharmacology.DKASafety
 import MedThermo.Thermodynamics.NonEquilibrium
 import MedThermo.Pharmacology.Lysosomotropic
