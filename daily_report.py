@@ -144,128 +144,132 @@ def categorize_files(files):
     return dict(cats)
 
 
+def _dark_bg(canvas, doc):
+    """Draw dark background on every page."""
+    canvas.saveState()
+    canvas.setFillColor(colors.HexColor('#0f0a1a'))
+    canvas.rect(0, 0, doc.pagesize[0], doc.pagesize[1], fill=1, stroke=0)
+    # Subtle scanlines
+    canvas.setStrokeColor(colors.HexColor('#1a1230'))
+    canvas.setLineWidth(0.3)
+    for y in range(0, int(doc.pagesize[1]), 4):
+        canvas.line(0, y, doc.pagesize[0], y)
+    # Magenta border
+    canvas.setStrokeColor(colors.HexColor('#c026d3'))
+    canvas.setLineWidth(1.5)
+    canvas.rect(8, 8, doc.pagesize[0]-16, doc.pagesize[1]-16, fill=0, stroke=1)
+    canvas.restoreState()
+
+
 def generate_pdf(commits, new_files, highlights, lean_count, sorry_count):
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     cats = categorize_files(new_files)
 
     doc = SimpleDocTemplate(OUTPUT_PDF, pagesize=letter,
                             topMargin=0.4*inch, bottomMargin=0.3*inch,
-                            leftMargin=0.5*inch, rightMargin=0.5*inch)
+                            leftMargin=0.6*inch, rightMargin=0.6*inch)
 
     styles = getSampleStyleSheet()
-    title_style = ParagraphStyle('T', parent=styles['Title'], fontSize=16, spaceAfter=2)
-    sub_style = ParagraphStyle('Sub', parent=styles['Normal'], fontSize=9,
-                               textColor=colors.HexColor('#666'), alignment=TA_CENTER, spaceAfter=6)
-    section_style = ParagraphStyle('Sec', parent=styles['Heading3'], fontSize=11,
-                                   textColor=colors.HexColor('#1a1a2e'), spaceBefore=8, spaceAfter=3)
-    item_style = ParagraphStyle('Item', parent=styles['Normal'], fontSize=8, leading=10,
-                                leftIndent=10, spaceBefore=1)
-    metric_style = ParagraphStyle('Met', parent=styles['Normal'], fontSize=9)
-    footer_style = ParagraphStyle('Foot', parent=styles['Normal'], fontSize=7,
-                                  textColor=colors.HexColor('#999'), alignment=TA_CENTER)
+    # All text is light on dark
+    light = colors.HexColor('#e2e0ea')
+    dim = colors.HexColor('#8b85a0')
+    accent = colors.HexColor('#c026d3')  # magenta
+    green = colors.HexColor('#22d3ee')
+    orange = colors.HexColor('#f59e0b')
+    red = colors.HexColor('#ef4444')
 
-    accent = colors.HexColor('#6b21a8')
-    header_bg = colors.HexColor('#1a1a2e')
+    title_style = ParagraphStyle('T', parent=styles['Title'], fontSize=15, spaceAfter=1,
+                                  textColor=colors.white, fontName='Helvetica-Bold')
+    sub_style = ParagraphStyle('Sub', parent=styles['Normal'], fontSize=8,
+                               textColor=dim, alignment=TA_CENTER, spaceAfter=4)
+    section_style = ParagraphStyle('Sec', parent=styles['Heading3'], fontSize=9,
+                                   textColor=accent, spaceBefore=5, spaceAfter=2,
+                                   fontName='Helvetica-Bold')
+    item_style = ParagraphStyle('Item', parent=styles['Normal'], fontSize=7, leading=9,
+                                leftIndent=8, spaceBefore=0, textColor=light)
+    footer_style = ParagraphStyle('Foot', parent=styles['Normal'], fontSize=6,
+                                  textColor=dim, alignment=TA_CENTER)
 
     story = []
 
     # Header
-    story.append(Paragraph("ALL YOUR PROBLEMS — Daily Highlights", title_style))
-    story.append(Paragraph(f"{now} | {len(commits)} commits | {len(set(new_files))} new files", sub_style))
+    story.append(Paragraph("ALL YOUR PROBLEMS ARE BELONG TO US", title_style))
+    story.append(Paragraph(f"{now} | {len(commits)} commits | {len(set(new_files))} new files | "
+                           f"{lean_count} theorems | {sorry_count} sorry", sub_style))
 
-    # Metrics bar
+    # Metrics row — compact
     metrics = [
-        ["Lean Theorems", str(lean_count), "Sorry", str(sorry_count),
-         "Commits (24h)", str(len(commits)), "New Files", str(len(set(new_files)))]
+        [Paragraph(f'<font color="#c026d3"><b>THEOREMS</b></font>', item_style),
+         Paragraph(f'<font color="#22d3ee" size="10"><b>{lean_count}</b></font>', item_style),
+         Paragraph(f'<font color="#c026d3"><b>SORRY</b></font>', item_style),
+         Paragraph(f'<font color="{"#ef4444" if sorry_count > 0 else "#22d3ee"}" size="10"><b>{sorry_count}</b></font>', item_style),
+         Paragraph(f'<font color="#c026d3"><b>COMMITS</b></font>', item_style),
+         Paragraph(f'<font color="#22d3ee" size="10"><b>{len(commits)}</b></font>', item_style),
+         Paragraph(f'<font color="#c026d3"><b>FILES</b></font>', item_style),
+         Paragraph(f'<font color="#22d3ee" size="10"><b>{len(set(new_files))}</b></font>', item_style)]
     ]
-    t = Table(metrics, colWidths=[1.1*inch, 0.6*inch, 0.6*inch, 0.5*inch,
-                                   1.1*inch, 0.6*inch, 0.8*inch, 0.6*inch])
+    t = Table(metrics, colWidths=[0.85*inch, 0.5*inch, 0.7*inch, 0.5*inch, 0.9*inch, 0.5*inch, 0.65*inch, 0.7*inch])
     t.setStyle(TableStyle([
-        ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#f3e8ff')),
-        ('FONTSIZE', (0, 0), (-1, 0), 8),
-        ('FONTNAME', (0, 0), (0, 0), 'Helvetica-Bold'),
-        ('FONTNAME', (2, 0), (2, 0), 'Helvetica-Bold'),
-        ('FONTNAME', (4, 0), (4, 0), 'Helvetica-Bold'),
-        ('FONTNAME', (6, 0), (6, 0), 'Helvetica-Bold'),
-        ('ALIGN', (1, 0), (1, 0), 'CENTER'),
-        ('ALIGN', (3, 0), (3, 0), 'CENTER'),
-        ('ALIGN', (5, 0), (5, 0), 'CENTER'),
-        ('ALIGN', (7, 0), (7, 0), 'CENTER'),
-        ('TEXTCOLOR', (1, 0), (1, 0), accent),
-        ('TEXTCOLOR', (3, 0), (3, 0), colors.red if sorry_count > 0 else colors.green),
-        ('BOX', (0, 0), (-1, -1), 0.5, colors.HexColor('#d8b4fe')),
-        ('TOPPADDING', (0, 0), (-1, 0), 4),
-        ('BOTTOMPADDING', (0, 0), (-1, 0), 4),
+        ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#1a1230')),
+        ('BOX', (0, 0), (-1, -1), 0.5, accent),
+        ('TOPPADDING', (0, 0), (-1, 0), 3),
+        ('BOTTOMPADDING', (0, 0), (-1, 0), 3),
+        ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
     ]))
     story.append(t)
-    story.append(Spacer(1, 6))
+    story.append(Spacer(1, 4))
 
-    # Domain activity bar
+    # Domain bars — compact
     if cats:
-        story.append(Paragraph("Activity by Domain", section_style))
-        domain_items = []
+        story.append(Paragraph("DOMAINS", section_style))
         for domain in sorted(cats.keys()):
-            bar_len = min(cats[domain], 40)
+            pct = min(cats[domain] / max(max(cats.values()), 1), 1.0)
+            bar_len = int(pct * 35)
             bar = chr(9608) * bar_len
-            domain_items.append([domain, str(cats[domain]), bar])
-        dt = Table(domain_items, colWidths=[1.2*inch, 0.5*inch, 5*inch])
-        dt.setStyle(TableStyle([
-            ('FONTSIZE', (0, 0), (-1, -1), 8),
-            ('FONTNAME', (0, 0), (0, -1), 'Helvetica-Bold'),
-            ('TEXTCOLOR', (2, 0), (2, -1), accent),
-            ('TOPPADDING', (0, 0), (-1, -1), 1),
-            ('BOTTOMPADDING', (0, 0), (-1, -1), 1),
-        ]))
-        story.append(dt)
-        story.append(Spacer(1, 4))
+            story.append(Paragraph(
+                f'<font color="#8b85a0" size="7">{domain:<14}</font> '
+                f'<font color="#c026d3" size="7">{bar}</font> '
+                f'<font color="#22d3ee" size="7">{cats[domain]}</font>',
+                item_style))
 
-    # Highlight sections — only show non-empty ones
-    sections = [
-        ("New Lean Theorems", highlights["lean"], colors.HexColor('#059669')),
-        ("Certificates & Verifications", highlights["certs"], colors.HexColor('#0284c7')),
-        ("Key Findings", highlights["findings"], accent),
-        ("New Numerics / Datasets", highlights["datasets"], colors.HexColor('#d97706')),
-        ("Medical Progress", highlights["diseases"], colors.HexColor('#dc2626')),
-        ("Physics & Philosophy", highlights["physics"], colors.HexColor('#7c3aed')),
+    # Highlight sections — compact, max 4 items each
+    sec_map = [
+        ("LEAN", highlights["lean"], green),
+        ("CERTS", highlights["certs"], colors.HexColor('#3b82f6')),
+        ("FINDINGS", highlights["findings"], accent),
+        ("NUMERICS", highlights["datasets"], orange),
+        ("MEDICAL", highlights["diseases"], red),
+        ("PHYSICS + PHILOSOPHY", highlights["physics"], colors.HexColor('#a78bfa')),
     ]
 
-    for sec_title, items, sec_color in sections:
+    for sec_title, items, sec_color in sec_map:
         if not items:
             continue
-        story.append(Paragraph(f'<font color="#{sec_color.hexval()[2:]}">{chr(9632)}</font> {sec_title}',
-                               section_style))
-        for item in items[:6]:
-            # Escape XML entities
+        hex_c = '#%02x%02x%02x' % (int(sec_color.red*255), int(sec_color.green*255), int(sec_color.blue*255))
+        story.append(Paragraph(f'<font color="{hex_c}">{chr(9632)} {sec_title}</font>', section_style))
+        for item in items[:4]:
             safe = item.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-            story.append(Paragraph(f'<font color="#666">{chr(8226)}</font> {safe}', item_style))
+            story.append(Paragraph(f'<font color="#8b85a0">{chr(8226)}</font> {safe}', item_style))
 
-    # Top commits (compact)
-    story.append(Spacer(1, 6))
-    story.append(HRFlowable(width="100%", thickness=0.5, color=colors.HexColor('#e5e7eb')))
-    story.append(Paragraph("Recent Commits", section_style))
-
-    commit_lines = []
-    for c in commits[:12]:
+    # Recent commits — very compact, max 8
+    story.append(Spacer(1, 3))
+    story.append(Paragraph(f'<font color="{accent.hexval()}">{chr(9632)} RECENT COMMITS</font>', section_style))
+    for c in commits[:8]:
         time_short = c["date"].split(" ")[1][:5] if " " in c["date"] else ""
-        msg = c["msg"][:75]
+        msg = c["msg"][:70]
         safe_msg = msg.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-        commit_lines.append(
-            Paragraph(f'<font color="#999" size="7">{c["hash"]} {time_short}</font> '
-                      f'<font size="7.5">{safe_msg}</font>', item_style)
-        )
-    for cl in commit_lines:
-        story.append(cl)
-
-    if len(commits) > 12:
-        story.append(Paragraph(f'<font color="#999" size="7">... +{len(commits)-12} more</font>',
-                               item_style))
+        story.append(Paragraph(
+            f'<font color="#555" size="6">{c["hash"]} {time_short}</font> '
+            f'<font color="#a0a0b0" size="6.5">{safe_msg}</font>',
+            item_style))
+    if len(commits) > 8:
+        story.append(Paragraph(f'<font color="#555" size="6">+{len(commits)-8} more</font>', item_style))
 
     # Footer
-    story.append(Spacer(1, 8))
-    story.append(Paragraph(f"Generated {now} | gobbleyourdong/open_problems | turbogranny",
-                           footer_style))
+    story.append(Spacer(1, 6))
+    story.append(Paragraph(f"gobbleyourdong/open_problems | turbogranny | {now}", footer_style))
 
-    doc.build(story)
+    doc.build(story, onFirstPage=_dark_bg, onLaterPages=_dark_bg)
     return OUTPUT_PDF
 
 
