@@ -139,15 +139,15 @@ It DOES:
 - Build the infrastructure that genius needs to operate
 - Verify genius when it arrives (certificates + Lean)
 
-## The Score (Updated Session 3)
+## The Score (Updated 2026-04-09)
 
 | Problem | Phase | Certificates | Wall Type | Key Number |
 |---------|-------|-------------|-----------|------------|
-| Poincaré | SOLVED (blind) | — | — | W-entropy ≥ 0 |
-| Yang-Mills | Conditional proof | 544K MC + interval arith | Quantitative | GC(β∈[2,8]) > 0 |
-| NS | Phase 4 (6 mountains) | N=3,4 rigorous + 3310 alignment | Quantitative | α/|ω| ≈ 0, S²ê/|ω|² < 0.25 |
-| Hodge | Phase 1 (periods) | Fermat cubic verified | Existential | Cycle degree bound |
-| BSD | Phase 1 (L-values) | 228 curves, 6/6 BSD match | Structural | Rank-2 construction |
-| RH | Phase 1 (Turing) | 689 zeros to T=1000 | Conceptual | Λ ∈ [0, 0.22] |
-| P vs NP | Phase 0 (barriers) | 56 Lean theorems | Meta | NEXP ⊄ TC⁰ |
-| **TOTAL** | | **~595K measurements** | | |
+| Poincaré | ✅ SOLVED (12/12 blind) | Step 9 closed | — | W-entropy ≥ 0 |
+| Yang-Mills | ✅ Conditional (8/10) | 544K MC + strong + weak coupling | Quantitative | GC(β) > 0 all β |
+| NS | Phase 4 (N=2,3,4 closed) | c(4) ≤ 0.5608 rigorous | Quantitative | c(4) = 0.3616 peak |
+| Hodge | Phase 2 (Tannakian) | g ≤ 5 proven, 4 mountains | Existential | Weil classes g ≥ 6 |
+| BSD | Phase 1 (5 mountains) | Rank 0-1 proved | Structural | Rank-2 pair missing |
+| RH | Phase 1 (stuck) | 668 zeros T=1000, Li n≤200 | Conceptual | Li ⟺ RH (no weak cert) |
+| P vs NP | Phase 0 (5 mountains) | 72 Lean theorems | Meta | Liu-Pass bridge alive |
+| **TOTAL** | | **~600K measurements, 623 Lean thms** | | |
