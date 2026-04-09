@@ -102,6 +102,35 @@ theorem intermediate_bound_tight (t : ℝ) :
     6 * λ₂ ^ 2 = λ₁ ^ 2 + λ₂ ^ 2 + λ₃ ^ 2 := by
   intro λ₁ λ₂ λ₃; ring
 
+/-! ## The Largest Eigenvalue Bound (Operator Norm)
+
+For trace-free 3×3 symmetric matrices: λ₁² ≤ (2/3)||S||²_F.
+By the symmetry of the trace-free constraint, SAME bound as λ₃².
+Max when λ₂ = λ₃ = -λ₁/2: {λ, -λ/2, -λ/2} gives ratio 2/3.
+-/
+
+/-- THE OPERATOR NORM BOUND: for trace-free λ₁ ≥ λ₂ ≥ λ₃ with sum 0,
+    the LARGEST eigenvalue squared is at most (2/3) of ||S||²_F.
+
+    Proof: by same technique as smallest bound. (λ₂ - λ₃)² ≥ 0. -/
+theorem trace_free_largest_eigenvalue_bound
+    (λ₁ λ₂ λ₃ : ℝ) (htrace : λ₁ + λ₂ + λ₃ = 0)
+    (h12 : λ₁ ≥ λ₂) (h23 : λ₂ ≥ λ₃) :
+    λ₁ ^ 2 ≤ 2 / 3 * (λ₁ ^ 2 + λ₂ ^ 2 + λ₃ ^ 2) := by
+  -- λ₁ = -(λ₂ + λ₃), substitute, reduce to (λ₂ - λ₃)² ≥ 0
+  nlinarith [sq_nonneg (λ₂ - λ₃), sq_nonneg (λ₁ - λ₂)]
+
+/-- OPERATOR NORM: ||S||_op² = max(λ₁², λ₃²) ≤ (2/3)||S||²_F for trace-free.
+    Combined with directional_le_frobenius:
+    S²ê ≤ ||S||_op² ≤ (2/3)||S||²_F for any unit ê. -/
+theorem trace_free_operator_norm_bound
+    (λ₁ λ₂ λ₃ : ℝ) (htrace : λ₁ + λ₂ + λ₃ = 0)
+    (h12 : λ₁ ≥ λ₂) (h23 : λ₂ ≥ λ₃) :
+    max (λ₁ ^ 2) (λ₃ ^ 2) ≤ 2 / 3 * (λ₁ ^ 2 + λ₂ ^ 2 + λ₃ ^ 2) := by
+  apply max_le
+  · exact trace_free_largest_eigenvalue_bound λ₁ λ₂ λ₃ htrace h12 h23
+  · exact trace_free_smallest_eigenvalue_bound λ₁ λ₂ λ₃ htrace
+
 /-! ## Connection to the Key Lemma -/
 
 /-- Key Lemma via INTERMEDIATE alignment (Ashurst alignment):
@@ -150,9 +179,11 @@ def IntermediateAlignmentConjecture (N : ℕ) : Prop :=
     - trace_free_bound_tight: PROVEN (ring)
     - trace_free_intermediate_eigenvalue_bound: PROVEN (mul_nonneg + nlinarith)
     - intermediate_bound_tight: PROVEN (ring)
+    - trace_free_largest_eigenvalue_bound: PROVEN (nlinarith)
+    - trace_free_operator_norm_bound: PROVEN (max_le)
     - key_lemma_via_intermediate_alignment: PROVEN (linarith)
     - intermediate_alignment_relaxes_frobenius: PROVEN (norm_num)
-    Total: 7 proved, 0 sorry
+    Total: 9 proved, 0 sorry
 
     KEY RESULT: trace_free_intermediate_eigenvalue_bound gives 1/6 bound
     on the intermediate eigenvalue — the Ashurst alignment makes the
