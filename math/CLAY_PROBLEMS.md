@@ -1,6 +1,6 @@
 # Clay Millennium Problems — systematic approach Campaign
 
-> Updated: 2026-04-09 | 749+ Lean theorems across 108 files | 7/7 scaffolded + 3 philosophy/physics
+> Updated: 2026-04-09 | 862 Lean theorems across 118 files | 7 math + 7 philosophy/physics domains
 
 | # | Problem | Phase | Lean | Wall Type | Key Result |
 |---|---------|-------|------|-----------|------------|
@@ -103,15 +103,17 @@ Papers → Manifest → Lean → Numerics → Proof Attempts → Dead Ends → G
 
 | Metric | Count |
 |--------|-------|
-| Total Lean theorems | 749+ (proved or axiomatized) |
-| Lean files | 108 across 7 math + 2 philosophy + 1 physics |
-| NS Lean files | 42 (487 theorems) |
+| Total Lean theorems | 862 (proved or axiomatized) |
+| Lean files | 118 across 12 domains |
+| Math Lean files | 105 (7 Clay problems) |
+| Philosophy/Physics Lean | 13 (5 domains) |
+| NS Lean files | 49 (477 theorems, largest single problem) |
 | Remaining sorry | 6 (all in NS Blowup.lean = the open problem) |
-| Zero-axiom files | 8 (HoeffdingCert, NumericalDepth, CNEmpirical, etc.) |
+| Zero-axiom files | 12+ (HoeffdingCert, BekensteinGap, BrainKFlow, etc.) |
 | Rigorous certificates | 9 (NS: N=3,4,c(4); YM: GC+xi+FKG; RH: 4 certs) |
 | Problems with 12/12 steps | 1 (Poincare) |
 | Problems with conditional proof | 1 (Yang-Mills: 8/10 steps) |
-| Problems with Lean chain | 7/7 math + 2 philosophy/physics |
+| Domains with Lean chain | 12 (7 math + 5 philosophy/physics) |
 
 ## What Changed (2026-04-09 update)
 
