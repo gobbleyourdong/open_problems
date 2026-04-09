@@ -139,7 +139,8 @@ theorem conditional_monotone_decrease
     cN1 ≤ cN := h_step
 
 /-- Combined with key_lemma_all_N from BoundPropagation:
-    c(4) < 3/4 + monotone decrease (via coherence) → Key Lemma ∀ N. -/
+    c(4) < 3/4 + monotone decrease (via coherence) → Key Lemma ∀ N.
+    This version assumes POINTWISE monotone decrease. -/
 theorem complete_key_lemma_conditional
     (c4 : ℝ) (h4 : c4 < 3/4)
     (cN : ℕ → ℝ) (h_decr : ∀ N, N ≥ 4 → cN (N+1) ≤ cN N)
@@ -152,6 +153,45 @@ theorem complete_key_lemma_conditional
     have := h_decr k hk
     linarith
 
+/-! ## Weakened Hypothesis: Bounded Supremum
+
+The numerical track found that POINTWISE monotone decrease is NOT verified:
+c(9) and c(11) show apparent increases (likely measurement artifacts from
+fewer k-tuples sampled, but not rigorously excluded). However, the trend
+is clearly decreasing on average: c(4)=0.362, c(13)=0.170.
+
+The correct hypothesis is WEAKER: `sup_{N ≥ 4} c(N) ≤ C` for some C < 3/4.
+This doesn't require pointwise decrease, just a uniform upper bound.
+
+See `attempts/monotone_decrease_verdict.md` for the full numerical analysis.
+-/
+
+/-- The bounded-supremum version: if c(N) is uniformly bounded by C < 3/4
+    for all N ≥ 4, the Key Lemma holds for all N ≥ 4. -/
+theorem key_lemma_from_bounded_supremum
+    (cN : ℕ → ℝ) (C : ℝ)
+    (h_C : C < 3/4)
+    (h_sup : ∀ N, N ≥ 4 → cN N ≤ C)
+    (N : ℕ) (hN : N ≥ 4) :
+    cN N < 3/4 := lt_of_le_of_lt (h_sup N hN) h_C
+
+/-- The unified Key Lemma conditional: given c(2)=1/4, c(3)=1/3, c(4) bound,
+    and bounded supremum for N ≥ 4, the Key Lemma holds for ALL N ≥ 2.
+
+    This is the WEAKENED version of `nf_complete_conditional` from N4WorstCase
+    that doesn't require pointwise monotone decrease. -/
+theorem unified_key_lemma_conditional
+    (C : ℝ) (h_C : C < 3/4)
+    (cN : ℕ → ℝ)
+    (h2 : cN 2 = 1/4) (h3 : cN 3 = 1/3)
+    (h_sup : ∀ N, N ≥ 4 → cN N ≤ C)
+    (N : ℕ) (hN : N ≥ 2) :
+    cN N < 3/4 := by
+  interval_cases N
+  · rw [h2]; norm_num
+  · rw [h3]; norm_num
+  all_goals (exact key_lemma_from_bounded_supremum cN C h_C h_sup _ (by omega))
+
 /-! ## Theorem Count:
     - marginal_vorticity_lower: PROVEN (positivity)
     - marginal_omega_4th: PROVEN (ring)
@@ -159,10 +199,21 @@ theorem complete_key_lemma_conditional
     - monotone_asymptotic: trivial (analysis in comments)
     - coherence_bound: PROVEN (cases on N sign)
     - conditional_monotone_decrease: PROVEN (passthrough)
-    - complete_key_lemma_conditional: PROVEN (induction)
-    Total: 6 proved + 1 trivial, 0 sorry
+    - complete_key_lemma_conditional: PROVEN (induction, STRONG hypothesis)
+    - key_lemma_from_bounded_supremum: PROVEN (WEAK hypothesis, transitivity)
+    - unified_key_lemma_conditional: PROVEN (combines cases + bounded sup)
+    Total: 8 proved + 1 trivial, 0 sorry
 
-    KEY THEOREM: complete_key_lemma_conditional shows that
-    c(4) < 3/4 + monotone decrease → Key Lemma for ALL N ≥ 4.
-    Combined with KeyLemmaN2 and KeyLemmaN3, this covers all N ≥ 2.
+    KEY THEOREMS:
+    - complete_key_lemma_conditional: needs POINTWISE monotone decrease
+      (refuted by numerical track — not used)
+    - unified_key_lemma_conditional: needs BOUNDED SUPREMUM only
+      (weaker, sufficient, matches numerical track)
+
+    Combined with KeyLemmaN2 and KeyLemmaN3, unified_key_lemma_conditional
+    gives the Key Lemma for all N ≥ 2 conditional on:
+      c(N) ≤ C for N ≥ 4, with C < 3/4
+
+    From the c(4) rigorous certificate: C = 0.561 works for N=4.
+    For N ≥ 5: bounded sup needs verification but numerically clear.
 -/
