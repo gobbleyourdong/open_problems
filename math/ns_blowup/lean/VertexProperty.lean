@@ -12,7 +12,7 @@
     max_{s∈{±1}^N, θ∈[0,π]^N} |Sω|² / |ω|⁴
   No spatial optimization on T³ needed. The continuous domain is eliminated.
 
-  Discovered by numerical track (8b260ec). Verified 1200 configs, N=3-10.
+  Discovered by Odd instance (8b260ec). Verified 1200 configs, N=3-10.
 -/
 
 /-! ## Core Lemma: Convex quadratic max at endpoint -/

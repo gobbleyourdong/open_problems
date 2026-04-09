@@ -2,7 +2,7 @@
   Yang-Mills Existence and Mass Gap — Core Definitions
 
   Phase 1: Formalize the mathematical objects before attempting proofs.
-  Following the systematic approach: definitions first, identities second, proofs third.
+  Following the Sigma Method: definitions first, identities second, proofs third.
 
   Convention: We work in Euclidean signature (R⁴ or T⁴) throughout.
   The Minkowski theory is reconstructed via Osterwalder-Schrader.

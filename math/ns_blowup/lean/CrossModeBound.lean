@@ -13,7 +13,7 @@
     N(N-1) terms, but coherence ≈ 3 (massive cancellation).
     → |Sω|²/|ω|² stays bounded → Key Lemma holds.
 
-  Discovered by numerical track (cbc5807). Bound tight (worst=0.500).
+  Discovered by Odd instance (cbc5807). Bound tight (worst=0.500).
   Verified: 50K random tests, 0 violations.
 -/
 

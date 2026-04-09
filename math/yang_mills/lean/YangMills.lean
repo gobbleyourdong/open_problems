@@ -2,7 +2,7 @@
   Yang-Mills Mass Gap — Lean Axiom Framework
   Phase 0: Define the mathematical objects needed for the proof.
 
-  Following the systematic approach: formalize what's PROVEN, not what's conjectured.
+  Following the sigma method: formalize what's PROVEN, not what's conjectured.
   Start with the lattice, where everything is rigorous.
 -/
 

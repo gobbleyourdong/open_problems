@@ -20,7 +20,7 @@
     Regression coefficient = Cov(K,D)/Var(D) = Var(K)/Var(D) = 1/2.
     So K ≈ D/2 (in the regression sense).
 
-  Author: the author, Independent Researcher
+  Author: Jason Burton, Independent Researcher
   Date: April 7, 2026
 -/
 

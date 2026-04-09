@@ -163,7 +163,7 @@ theorem gct_uses_stability_as_compactness :
     - Stability: gives the infinite bridge (Church-Ellenberg-Farb)
     - Full program: estimated 100+ years (Mulmuley)
 
-    GCT is the P vs NP approach most analogous to the systematic approach:
+    GCT is the P vs NP approach most analogous to the sigma method:
     it reduces an infinite question to a sequence of finite computations
     (Kronecker/plethysm coefficients) and uses structural arguments
     (stability) for the infinite bridge. -/

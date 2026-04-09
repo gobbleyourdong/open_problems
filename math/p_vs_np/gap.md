@@ -87,14 +87,14 @@ Could P vs NP be independent of ZFC?
 - Would mean: no proof exists, the question is "meaningless" in ZFC
 - Most researchers think this is unlikely but can't rule it out
 
-## What the systematic approach Can Do
+## What the Sigma Method Can Do
 
 Unlike the other Clay problems, P vs NP has:
 - **No numerical certificates** (you can't "verify" P ≠ NP computationally)
 - **No iron fortress** (there's no sequence of increasingly strong evidence)
 - **No gradient correlation** (no single quantity to compute)
 
-The systematic approach is WEAKEST here because:
+The Sigma Method is WEAKEST here because:
 1. The problem is a NEGATIVE (non-existence of algorithms)
 2. Three barriers PROVABLY block most natural approaches
 3. No computational component (you can't brute-force non-existence)
@@ -111,7 +111,7 @@ P vs NP is likely the HARDEST of all Millennium Problems because:
 3. No computational or numerical evidence can help
 4. The problem might be INDEPENDENT of ZFC
 
-The systematic approach can MAP the space but has the least traction here.
+The Sigma Method can MAP the space but has the least traction here.
 The problem may require fundamentally new mathematical foundations
 (like Grothendieck's schemes for the Weil conjectures, or Perelman's
 entropy for Poincaré).

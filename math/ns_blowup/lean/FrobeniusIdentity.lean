@@ -14,7 +14,7 @@
   Proved analytically in file 511 of the 842-attempt NS campaign.
   Verified numerically to machine precision (error < 10⁻¹⁴).
 
-  UPDATED (theory track, Session 3): Replaced trivial placeholders
+  UPDATED (Even instance, Session 3): Replaced trivial placeholders
   with real proofs using Fin 3 → ℝ algebra (consistent with
   StrainVorticity.lean). No Mathlib dependency for core theorems.
 -/

@@ -1,6 +1,6 @@
 # THE WALL — Hodge Conjecture
 
-> 7 theory track attempts. 1 research agent. 6 analytical domains deployed.
+> 7 even-instance attempts. 1 research agent. 6 analytical domains deployed.
 > 1 worked example (Fermat cubic: verified). The generator works.
 > The wall is structural: the motivic t-structure doesn't exist yet.
 
@@ -144,12 +144,12 @@ mathematical object (motivic t-structure), not a property of specific objects.
 
 ## Session Targets
 
-### Immediate (numerical track)
+### Immediate (Odd Instance)
 1. Implement the cycle search for cubic fourfolds (Fermat first)
 2. Compute period matrices for abelian 6-folds with CM
 3. Verify Weil class algebraicity for specific CM types at g = 6
 
-### Session 2 (theory track)
+### Session 2 (Even Instance)
 1. Formal Lean definitions of Hodge classes, cycle class map
 2. Study Weil class constructions at g = 6 (the frontier)
 3. Deformation theory: obstruction H¹(N_{Z/X}) for cycle deformation

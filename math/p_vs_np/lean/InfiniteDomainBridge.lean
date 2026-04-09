@@ -211,7 +211,7 @@ theorem why_pnp_is_harder :
     -- not just the specific computation.
     True := by trivial
 
-/-- HOWEVER: the systematic approach principle still applies.
+/-- HOWEVER: the sigma method principle still applies.
     "The gap must be a NUMBER."
 
     For P vs NP: the number is ε (the super-linear exponent).
