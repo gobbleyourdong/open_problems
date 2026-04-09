@@ -173,6 +173,21 @@
 **Output**: `results/gse274264_primary_islet_analysis.json`, `results/pattern_018_primary_islet_scrnaseq.md`
 **Priority**: CRITICAL — primary human islet data is the highest-quality evidence in the campaign. Every confirmed finding upgrades from "cell line data" to "human tissue data."
 
+### REQ-014: Unified CVB Clearance Model v4 — LAMP2-Corrected
+**Source**: t1dm/attempts/attempt_080_lamp2_clearance_order_theory.md, orchitis/attempts/attempt_003, hepatitis/attempts/attempt_003, encephalitis/attempts/attempt_003
+**Task**:
+1. Update `numerics/unified_cvb_clearance_v2.py` (or create v4) to incorporate organ-specific LAMP2 correction factors:
+   - `LAMP2_BASELINE = {'liver': 4.0, 'pericardium': 1.5, 'heart': 1.0, 'gut': 1.2, 'pancreas': 0.8, 'brain_glia': 0.9, 'brain_neuron': 0.6, 'muscle': 0.7, 'testes': 0.4}`
+   - `kappa_effective(organ) = LAMP2_BASELINE[organ] / 2.7`  (2.7 = CVB suppression factor from GSE184831)
+   - With trehalose: `kappa_trehalose(organ) = kappa_effective + 0.35` (estimated TFEB correction)
+2. For CNS: split into two sub-compartments (glial κ=0.67 vs neuronal κ=0.22) with separate clearance curves
+3. Re-run cross-validation: does LAMP2-corrected model produce better agreement with dedicated models?
+4. Generate updated clearance tables: without trehalose, with trehalose
+5. Sensitivity analysis: how much does trehalose correction matter at ±50% of estimated correction factor?
+
+**Output**: `numerics/unified_cvb_clearance_v4.py`, `results/pattern_019_lamp2_corrected_clearance_v4.md`
+**Why**: v2 diverges 4.5× for testes and 3.4× for CNS. v4 with LAMP2 correction should reproduce dedicated model results. This is the most important model improvement since v2.
+
 ## Formatting for numerical track
 
 Each request should result in:

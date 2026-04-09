@@ -30,15 +30,22 @@ Every disease uses the same antiviral + anti-inflammatory foundation:
 
 | Component | Mechanism | Cost/mo | Diseases addressed |
 |-----------|-----------|---------|-------------------|
-| Fluoxetine 20mg | CVB 2C ATPase inhibitor | $4 | All 12 (primary antiviral) |
+| Fluoxetine 20–60mg | CVB 2C ATPase inhibitor | $4–8 | All 12 (primary antiviral; 60mg for males) |
 | FMD (5-day/month) | Autophagy → TD mutant clearance | $50 | All 12 (clears persistent virus) |
+| **Trehalose 2g/day** | **TFEB → lysosomal biogenesis → LAMP2 bypass** | **$15** | **All 12 (critical for low-LAMP2 organs: CNS, testes, muscle)** |
 | BHB (keto/exogenous) | NLRP3 inflammasome suppression | $30 | All 12 (anti-inflammatory) |
 | Vitamin D 5000 IU | Treg induction | $10 | All 12 (immune regulation) |
 | Omega-3 3g EPA/DHA | Resolvin production | $30 | All 12 (anti-inflammatory) |
-| Butyrate 300mg TID | Gut barrier + FOXP3 → Tregs | $25 | All 12 (immune regulation) |
+| Butyrate **4–6g/day** | Gut barrier + FOXP3/FOXP1 → Tregs | $45 | All 12 (immune regulation; dose matters for FOXP1 restoration) |
+| CoQ10 600mg + NAD+ | Mitochondrial Complex I support | $40 | ME/CFS (primary), all others (supportive) |
 | Colchicine 0.5mg | NLRP3 microtubule block | $5 | Pericarditis (standard), all others (adjunct) |
 
-**Core protocol cost: ~$155/month.** All generic. All OTC or commonly prescribed.
+**Core protocol cost: ~$170/month.** All generic. All OTC or commonly prescribed.
+
+**Protocol update (post-bioinformatics):**
+- Trehalose added: addresses LAMP2 block confirmed in CVB-infected human cells (GSE184831). Critical for testes (κ_effective = 0.15 without trehalose → 0.40 with), CNS (0.22 → 0.50), muscle (0.26 → 0.55).
+- Butyrate increased 300mg → 4–6g: FOXP1 mechanism (−67x in persistent infection) requires HDAC-level dose for tissue-local Treg restoration.
+- CoQ10/NAD+ added: MT-ND3 Complex I dysfunction confirmed in 93 ME/CFS patients (GSE293840).
 
 ## Disease-Specific Additions
 
@@ -50,7 +57,7 @@ Every disease uses the same antiviral + anti-inflammatory foundation:
 | ME/CFS | PEM-safe sequencing, GABA | Avoid crash, neurotransmitter support |
 | Pericarditis | NSAIDs (acute phase) | Standard of care, short course |
 | Encephalitis | Pocapavir, IVIG, dexamethasone | Emergency escalation |
-| Neonatal sepsis | IVIG, pocapavir | Passive immunity, direct antiviral |
+| Neonatal sepsis | IVIG **+ IV trehalose (novel hypothesis)**, pocapavir | IVIG handles WT; trehalose addresses κ_effective=0.15 in neonatal cells |
 | Pancreatitis | Bowel rest (acute) | Standard supportive care |
 | Hepatitis | LFT monitoring | Drug safety, not treatment |
 | Orchitis | Testosterone monitoring | Detect Leydig cell damage |
@@ -62,7 +69,7 @@ Every disease uses the same antiviral + anti-inflammatory foundation:
 Ranked by feasibility and speed to proof:
 
 ### Tier 1: Can start now (existing drugs, clear endpoints)
-1. **Pericarditis**: colchicine ± fluoxetine for recurrent pericarditis (12-month recurrence endpoint, n=120)
+1. **Pericarditis (RCT v3)**: 3-arm trial — colchicine alone | colchicine+fluoxetine | full protocol (adds trehalose + FMD). **9-month treatment duration** (LAMP2-corrected pericardial clearance = 8 months). cfRNA NLRP3 as biomarker endpoint. n=65/arm, 195 total. See pericarditis/attempts/attempt_003 for full design.
 2. **T1DM**: the patient protocol (n=1, stimulated C-peptide at 3-6 months)
 
 ### Tier 2: Can start with modest infrastructure
