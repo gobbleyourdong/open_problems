@@ -40,7 +40,7 @@ verdict: "Not yet publishable, highly promising, worthy future submission"
 
 ### Can ignore for now:
 - Budden citations "feel speculative" — we already softened this
-- "arXiv (Burton 2026, SIREN)" — reviewer confused us with someone else
+- "arXiv (Author 2026, SIREN)" — reviewer confused us with someone else
 
 ## Key Quote
 "One of the most creative hybrid attacks on the Navier-Stokes regularity

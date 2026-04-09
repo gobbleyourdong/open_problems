@@ -18,7 +18,7 @@
   - Luo-Hou 2014 (MMS): Boundary blowup for Euler
   - Hou 2022 (FoCM): Interior blowup for NS, viscosity enhances singularity
   - Chen-Hou 2025 (PNAS): Computer-assisted proof for 2D Boussinesq
-  - Burton 2026 (arXiv:2603.18061): SIREN residual diagnostic
+  - Author 2026 (arXiv:2603.18061): SIREN residual diagnostic
 -/
 
 import Problems.NavierStokes.Navierstokes

@@ -132,5 +132,5 @@ Primary source under review: final_paper_watermarked.pdf (user-provided manuscri
 [1] Clay Mathematics Institute, "Navier-Stokes Equation" page. The page currently labels the problem "Unsolved."
 [2] G. Seregin, "A certain necessary condition of potential blow up for Navier-Stokes equations," arXiv:1104.3615. The
 abstract states a necessary condition involving blow-up of the L^3 norm.
-[3] GitHub repository URL cited in the manuscript: https://github.com/jasonburton/ns-regularity-sos. The URL returned
+[3] GitHub repository URL cited in the manuscript: https://github.com/turbogranny/ns-regularity-sos. The URL returned
 404 Not Found when checked during preparation of this shareable report.
