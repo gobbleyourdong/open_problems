@@ -46,6 +46,9 @@ SESSION_*.md
 STATUS_*.md
 **/SCRATCHPAD.md
 
+# Infographics (generated locally, not source)
+infographics/
+
 # Sigma method itself (lives only in ~/SIGMA_METHOD.md)
 SIGMA_METHOD.md
 .commit_lock.sh
