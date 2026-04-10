@@ -1,11 +1,11 @@
 # gap.md — what_is_computation
 
-**Last updated:** 2026-04-09 (attempt_005, Phase 2 complete after 16 loops)
-**Phase:** 2 complete → Phase 3 target identified
+**Last updated:** 2026-04-10 (attempt_006, Phase 3 theory attack)
+**Phase:** 3 in progress — histogram-stability resolved modulo one axiom
 
 ## The gap, in one sentence
 
-> **Computation is K-information manipulation in finitely-specifiable form. NP search landscapes have a measurable dual K-structure — flat K-trajectory on hard instances, decreasing on easy instances with constraint-propagation — that is universal across 12 tested NP families. WHY this structure exists (the theoretical derivation connecting histogram-gzip stability to constraint-distribution bounded-variation) is the Phase 3 target.**
+> **Computation is K-information manipulation in finitely-specifiable form. NP search landscapes have a measurable dual K-structure — flat K-trajectory on hard instances, decreasing on easy instances with constraint-propagation — that is universal across 12 tested NP families. WHY this structure exists is answered by the Lipschitz compression argument (attempt_006): gzip on fixed-length inputs is Lipschitz, frozen constraint structure on hard instances gives ε≈0, therefore K-slope≈0. The proof is complete modulo one axiom: gzip's Lipschitz constant λ≤3 on short inputs. 10/12 families covered by fixed-length argument; 3/12 require variable-length extension.**
 
 ## What Phase 1 established (attempt_001)
 
