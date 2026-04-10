@@ -17,13 +17,14 @@ Seven Clay Millennium Prize Problems. Lean 4 formalizations. SOS certificates. Z
 
 | Problem | Status | Lean Theorems | Certificates | Gap |
 |---------|--------|:------------:|:------------:|-----|
-| **Navier-Stokes** | Phase 4 | 30+ (0 sorry) | N=3-20, 0 failures | c(N) ~ 1.2/N, prove decay |
+| **Navier-Stokes** | Phase 4 | 30+ (0 sorry) | N=3-12, 0 failures | c(N) ~ 1.2/N, prove decay |
 | **Yang-Mills** | Phase 3 | 15+ | GC > 0 all beta | FKG for SU(2) gauge |
-| **P vs NP** | Phase 1 | 15+ (0 sorry) | Phase transition mapped | 3 barriers formalized |
+| **P vs NP** | Phase 1 | 15+ (0 sorry) | Phase transition + 3 new certs | 3 barriers formalized |
 | **Riemann Hypothesis** | Phase 1 | 5+ | Li n=1000, Robin | Certificate equivalence (meta-theorem) |
-| **Birch & Swinnerton-Dyer** | Phase 1 | 3 | L-values computed | Rank-2 Gross-Zagier |
+| **Birch & Swinnerton-Dyer** | Phase 1 | 3 | L-values rank-0 | Rank-2 Gross-Zagier |
 | **Hodge Conjecture** | Phase 2 | 4 | Fermat cubic verified | Motivic t-structure |
 | **Poincare** | (solved) | 11 (0 sorry) | N/A | 12/12 blind (Perelman) |
+| **Prime Numbers** | Phase 1 | — | 29 verified (Artin, Brun, Cramér, Sato-Tate, ...) | Open conjectures mapped |
 
 Each problem directory contains:
 - `PROBLEM.md` — formal statement + known results
@@ -46,6 +47,14 @@ N=20: c = 0.025
 
 Decay: c(N) ~ 1.2/N. Threshold: 0.75.
 Zero failures across 15,000+ configurations.
+N=12 certification in progress (9/13 complete, floor ≥ 19.30).
+```
+
+### Lean Totals
+
+```
+Theorems: 1,182+
+Sorry:    128
 ```
 
 ## medical/
@@ -59,7 +68,7 @@ Open medical problems. Mechanism-first research with IC50 data, Lean formalizati
 
 | Disease | Mechanism | Status |
 |---------|-----------|--------|
-| **Type 1 Diabetes** | Autoimmune beta cell destruction | 70+ attempts, 5 druggable targets |
+| **Type 1 Diabetes** | Autoimmune beta cell destruction | 94+ attempts, 5 druggable targets |
 | **Viral Myocarditis** | Cardiomyocyte lysis | Dystrophin cleavage model |
 | **Dilated Cardiomyopathy** | Chronic structural damage | ODE progression model |
 | **ME/CFS** | Persistent infection + immune exhaustion | Energy-metabolism coupling |
@@ -74,6 +83,7 @@ Open medical problems. Mechanism-first research with IC50 data, Lean formalizati
 | **Eczema** | Gut-skin axis / Th2 skewing | Barrier + microbiome |
 | **Psoriasis** | IL-17/Th17 driven | Amplification loop model |
 | **Infertility** | Immune-privileged reservoir | Male + female factor |
+| **Perioral Dermatitis** | Cathelicidin/Demodex/contactant | 4-mountain model, behavioral wall |
 
 ## How This Works
 
@@ -96,7 +106,7 @@ Six tier-0 questions about how reality works at the fundamental level.
 | **what_is_nothing** | Quantum vacuum, why is there something |
 | **what_is_change** | Zeno, dynamics, continuity |
 | **what_is_information** | Shannon, Wheeler's "it from bit", holographic principle |
-| **what_is_computation** | Church-Turing, quantum computation, pancomputationalism |
+| **what_is_computation** | Church-Turing, quantum computation, pancomputationalism, ternary efficiency, digital goods value, software entropy |
 
 ## philosophy/
 
@@ -126,8 +136,9 @@ open_problems/
     birch_swinnerton_dyer/ <- BSD conjecture
     hodge_conjecture/    <- Hodge conjecture
     poincare_conjecture/ <- Poincare (solved, blind reconstruction)
+    prime_numbers/       <- Open prime conjectures (Artin, twin primes, Cramér, ...)
   medical/
-    t1dm/                <- Type 1 Diabetes (70+ attempts)
+    t1dm/                <- Type 1 Diabetes (94+ attempts)
     myocarditis/         <- Viral myocarditis
     me_cfs/              <- Chronic fatigue syndrome
     ...15 diseases total
@@ -139,6 +150,7 @@ open_problems/
     what_is_mind/        <- Hard problem, consciousness
     what_is_knowing/     <- Epistemology, Gettier
     ...9 tier-0 questions
+    perioral_dermatitis/  <- POD (4-mountain model, behavioral wall)
     ...12 more CVB diseases
 ```
 
