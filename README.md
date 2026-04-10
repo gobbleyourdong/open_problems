@@ -23,7 +23,7 @@ Seven Clay Millennium Prize Problems. Lean 4 formalizations. SOS certificates. Z
 | **Riemann Hypothesis** | Phase 1 | 5+ | Li n=1000, Robin | Certificate equivalence (meta-theorem) |
 | **Birch & Swinnerton-Dyer** | Phase 1 | 3 | L-values rank-0 | Rank-2 Gross-Zagier |
 | **Hodge Conjecture** | Phase 2 | 4 | Fermat cubic verified | Motivic t-structure |
-| **Poincare** | (solved) | 11 (0 sorry) | N/A | 12/12 blind (Perelman) |
+| **Poincare** | (solved) | 11 (0 sorry) | 15 verified (Ricci flow, Hamilton-Ivey, extinction, ...) | 12/12 blind (Perelman) |
 | **Prime Numbers** | Phase 1 | — | 29 verified (Artin, Brun, Cramér, Sato-Tate, ...) | Open conjectures mapped |
 
 Each problem directory contains:
