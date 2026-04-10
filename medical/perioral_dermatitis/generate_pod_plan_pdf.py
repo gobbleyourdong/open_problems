@@ -83,42 +83,58 @@ def build_story(s):
         "1990s.",
         s["body"]))
     story.append(Paragraph(
-        "Here is the key thing to understand: <b>most pediatric perioral "
-        "dermatitis is caused or perpetuated by topical steroid creams.</b> "
-        "The steroid helps for a few days, the rash comes back worse when you "
-        "stop, you (or the doctor) reapply, and the cycle becomes chronic. "
-        "The cure requires completely stopping the steroid and tolerating "
-        "1–3 weeks of visible worsening before improvement begins. That "
-        "&quot;it gets worse before it gets better&quot; phase is the hardest "
-        "part of the protocol — and the reason most kids end up with chronic "
-        "POD is that parents and pediatricians cannot tolerate watching the "
-        "rash flare and reapply the steroid.",
+        "POD has several overlapping contributors: toothpaste ingredients "
+        "(fluoride, the SLS foaming agent, mint and cinnamon flavorings), "
+        "lip balms, cosmetics, sunscreens, and Demodex mites (which live "
+        "on everyone's face and multiply when the local immune system is "
+        "off balance). The protocol below addresses multiple contributors "
+        "at once. It is stricter than what most dermatologists prescribe, "
+        "but it works when followed.",
         s["body"]))
     story.append(Paragraph(
-        "There are also other contributors: toothpaste ingredients (fluoride, "
-        "the SLS foaming agent, mint and cinnamon flavorings), lip balms, "
-        "cosmetics, sunscreens, and Demodex mites (which live on everyone's "
-        "face and multiply when the local immune system is suppressed by "
-        "steroids). The protocol below addresses all of these at once. It is "
-        "stricter than what most dermatologists prescribe, but it works when "
-        "followed.",
+        "<b>Important note about topical steroids:</b> if a topical steroid "
+        "(hydrocortisone, fluticasone, desonide, mometasone, triamcinolone, "
+        "clobetasol, anything ending in -one or -olone) has been applied to "
+        "the rash — even OTC hydrocortisone — it should come off the face "
+        "completely. Steroids on the face cause a rebound cycle in POD. "
+        "If no topical steroid has been in the rotation for this rash, "
+        "skip the rebound-flare section later in this document; the "
+        "protocol will be simpler.",
         s["body"]))
     story.append(hr())
 
-    # 1. Stop the fluticasone
-    story.append(Paragraph("1. Stop the fluticasone — #1 priority", s["h3"]))
+    # 1. Metronidazole
     story.append(Paragraph(
-        "<b>Why:</b> Fluticasone is a topical corticosteroid. Steroids on a "
-        "child's face cause or perpetuate POD via a rebound cycle: helps "
-        "short-term, flares worse when stopped, leading to reapplication and "
-        "chronicity. The steroid is the problem, not the treatment.",
+        "1. Metronidazole 0.75% — the current treatment", s["h3"]))
+    story.append(Paragraph(
+        "<b>What:</b> Metronidazole 0.75% (brand names MetroGel, MetroCream, "
+        "MetroLotion). Prescription. Not a steroid. First-line topical "
+        "treatment for perioral dermatitis in children.",
         s["body"]))
     story.append(Paragraph(
-        "<b>How:</b> Stop applying it completely. Do not put it back on even "
-        "if the rash looks worse over the next 1–3 weeks. The worsening IS "
-        "the treatment working.",
+        "<b>Why:</b> Metronidazole reduces the local inflammatory response "
+        "and has mild anti-Demodex activity (Demodex is a mite that can "
+        "contribute to POD). It is safe for children and does NOT cause "
+        "the rebound cycle that steroids cause.",
         s["body"]))
-    story.append(Paragraph("<b>Cost:</b> Free (stopping something)", s["body"]))
+    story.append(Paragraph(
+        "<b>How:</b> Thin layer twice daily on the affected area after "
+        "gently washing the face with plain water or CeraVe Hydrating "
+        "Cleanser. Expect to use for 4–6 weeks before full effect. Apply "
+        "to the surrounding skin, not the lips themselves.",
+        s["body"]))
+    story.append(Paragraph(
+        "<b>Important — gel vs cream vs lotion:</b> if the prescription "
+        "is for the <b>gel</b> and it stings when applied, call the "
+        "pediatrician and ask for the <b>cream</b> or <b>lotion</b> "
+        "formulation instead. Same drug, gentler vehicle. The gel uses "
+        "an alcohol base that stings on inflamed skin. The cream and "
+        "lotion do not. Kids' faces tolerate the cream/lotion much better.",
+        s["body"]))
+    story.append(Paragraph(
+        "<b>Cost:</b> ~$15–30 with insurance, up to $60 without. Generic "
+        "metronidazole is widely available.",
+        s["body"]))
     story.append(hr())
 
     # 2. Non-fluoride toothpaste
@@ -150,34 +166,9 @@ def build_story(s):
     story.append(Paragraph("<b>Cost:</b> ~$5–8 per tube", s["body"]))
     story.append(hr())
 
-    # 3. Metronidazole cream
+    # 3. CeraVe (was 4)
     story.append(Paragraph(
-        "3. Metronidazole cream 0.75% (prescription)", s["h3"]))
-    story.append(Paragraph(
-        "<b>What:</b> MetroCream or MetroLotion — the 0.75% formulation. "
-        "<b>Ask for the cream or lotion, NOT the gel.</b> The gel uses an "
-        "alcohol vehicle that stings on already-inflamed skin. The cream is "
-        "much better tolerated for children's faces.",
-        s["body"]))
-    story.append(Paragraph(
-        "<b>Why:</b> Metronidazole is the first-line topical treatment for "
-        "POD. It reduces local inflammation, has mild anti-Demodex activity, "
-        "and is not a steroid (so no rebound cycle). It is safe for children.",
-        s["body"]))
-    story.append(Paragraph(
-        "<b>How:</b> Thin layer twice daily on the affected area. Apply after "
-        "washing the face with plain water or CeraVe Hydrating Cleanser. "
-        "Expect to use it for 4–6 weeks. Do not use it on the lips themselves, "
-        "only on the surrounding skin where the rash is.",
-        s["body"]))
-    story.append(Paragraph(
-        "<b>Cost:</b> ~$15–30 with insurance, up to $60 without. Generic "
-        "metronidazole is widely available.", s["body"]))
-    story.append(hr())
-
-    # 4. CeraVe
-    story.append(Paragraph(
-        "4. CeraVe Moisturizing Cream — barrier repair", s["h3"]))
+        "3. CeraVe Moisturizing Cream — barrier repair", s["h3"]))
     story.append(Paragraph(
         "<b>What:</b> CeraVe Moisturizing Cream (the tub) or Daily "
         "Moisturizing Lotion. <b>AVOID:</b> CeraVe SA Cream or SA Lotion "
@@ -199,9 +190,9 @@ def build_story(s):
     story.append(Paragraph("<b>Cost:</b> ~$15/month", s["body"]))
     story.append(hr())
 
-    # 5. Vitamin D
+    # 4. Vitamin D (was 5)
     story.append(Paragraph(
-        "5. Vitamin D — keep the current dose, do not megadose", s["h3"]))
+        "4. Vitamin D — keep the current dose, do not megadose", s["h3"]))
     story.append(Paragraph(
         "<b>What:</b> Standard pediatric vitamin D supplementation "
         "(400–1000 IU/day depending on age). <b>Do not switch to &quot;high "
@@ -225,8 +216,8 @@ def build_story(s):
         "<b>Cost:</b> ~$10/month (continue existing)", s["body"]))
     story.append(hr())
 
-    # 6. Probiotic
-    story.append(Paragraph("6. Probiotic — keep the current one", s["h3"]))
+    # 5. Probiotic (was 6)
+    story.append(Paragraph("5. Probiotic — keep the current one", s["h3"]))
     story.append(Paragraph(
         "<b>What:</b> Whatever probiotic is already in use from the eczema "
         "protocol (Culturelle Kids or equivalent).",
@@ -241,61 +232,67 @@ def build_story(s):
         "<b>Cost:</b> ~$20/month (continue existing)", s["body"]))
     story.append(hr())
 
-    # For the rebound flare
-    story.append(Paragraph("For the Rebound Flare — the hard part", s["h2"]))
+    # Timeline of improvement (no rebound — no steroid being withdrawn)
+    story.append(Paragraph("Timeline of improvement", s["h2"]))
     story.append(Paragraph(
-        "This is the part where most people give up and restart the steroid. "
-        "If you do, the cycle resets and nothing works. Hold the line.",
+        "Metronidazole is slow. It does not produce dramatic overnight "
+        "improvement. Here is what to expect when the protocol is followed:",
         s["body"]))
     story.append(Paragraph(
-        "<b>Days 1–7:</b> The rash will look worse. Redness increases. New "
-        "bumps may appear. This is the treatment working, not failing.",
+        "<b>Week 1:</b> Mild reduction in redness. New bumps may still form. "
+        "Patience required.",
         s["bullet"]))
     story.append(Paragraph(
-        "<b>Days 7–14:</b> The rash plateaus at its worst. You will be very "
-        "tempted to put the fluticasone back on. <b>Do not.</b>",
+        "<b>Weeks 2–3:</b> Pustules start drying up. Fewer new bumps. The "
+        "clear zone at the lip border may become more obvious as surrounding "
+        "redness fades.",
         s["bullet"]))
     story.append(Paragraph(
-        "<b>Days 14–21:</b> First signs of improvement. Redness starts "
-        "fading. New bumps stop forming.",
+        "<b>Weeks 4–6:</b> Noticeable overall improvement. Skin texture "
+        "smoothing. Residual pink marks may persist even after papules are "
+        "gone — those fade over weeks.",
         s["bullet"]))
     story.append(Paragraph(
-        "<b>Weeks 3–6:</b> Rapid improvement. The clear zone around the "
-        "lips expands. The rash resolves.",
-        s["bullet"]))
-    story.append(Paragraph(
-        "<b>Call the pediatrician if:</b> fever, skin is weeping honey-colored "
-        "crust (possible bacterial infection), or the child is losing sleep "
-        "from pain. Otherwise, continue the protocol through the worsening "
-        "phase.",
+        "<b>Call the pediatrician if:</b> the rash is getting dramatically "
+        "worse rather than slowly improving, there is fever, the skin is "
+        "weeping honey-colored crust (possible bacterial infection), or "
+        "the child is in real discomfort.",
         s["body"]))
     story.append(hr())
 
     # If metronidazole isn't enough
     story.append(Paragraph(
-        "If the metronidazole isn't enough after 4 weeks", s["h2"]))
+        "If the metronidazole isn't enough after 4–6 weeks", s["h2"]))
     story.append(Paragraph(
         "Ask the pediatrician about one of these next-line options:",
         s["body"]))
     story.append(Paragraph(
-        "<b>Topical pimecrolimus (Elidel)</b> — non-steroid "
-        "anti-inflammatory, safe for children's faces. Can replace or "
-        "supplement metronidazole.",
+        "<b>Topical pimecrolimus (Elidel)</b> — non-steroid calcineurin "
+        "inhibitor, safe for children's faces. Can replace or supplement "
+        "metronidazole. (You may have had this before. If so, the derm "
+        "can re-prescribe.)",
         s["bullet"]))
     story.append(Paragraph(
         "<b>Oral azithromycin</b> — a 5–10 day course. Standard "
         "second-line for pediatric POD. Oral tetracyclines (doxycycline, "
         "minocycline) are contraindicated in children under 8.",
         s["bullet"]))
+    story.append(Paragraph(
+        "<b>Topical ivermectin (Soolantra)</b> — anti-Demodex cream. "
+        "FDA-approved for rosacea in adults, used off-label in pediatric "
+        "POD. If the POD is Demodex-driven, this can work when "
+        "metronidazole alone is not enough.",
+        s["bullet"]))
     story.append(hr())
 
     # What to avoid
     story.append(Paragraph("What to Avoid", s["h2"]))
     story.append(Paragraph(
-        "<b>Any topical steroid on the face</b> — hydrocortisone, fluticasone, "
-        "desonide, mometasone, triamcinolone, betamethasone, clobetasol, or "
-        "anything ending in -one or -olone. Even over-the-counter "
-        "hydrocortisone 1% should come off.",
+        "<b>Any topical steroid on the face going forward</b> — "
+        "hydrocortisone, fluticasone, desonide, mometasone, triamcinolone, "
+        "betamethasone, clobetasol, or anything ending in -one or -olone. "
+        "Even OTC hydrocortisone 1% should stay off the face. Steroids "
+        "perpetuate POD even when they initially seem to help.",
         s["bullet"]))
     story.append(Paragraph(
         "<b>Heavy occlusive products around the mouth</b> — Aquaphor, "
@@ -320,12 +317,11 @@ def build_story(s):
     story.append(Paragraph("Total Monthly Cost", s["h2"]))
     cost_data = [
         ["Item", "Cost"],
-        ["Stop fluticasone", "$0"],
-        ["Non-fluoride toothpaste", "~$8"],
-        ["Metronidazole cream", "~$15–30"],
-        ["CeraVe moisturizer", "~$15"],
-        ["Vitamin D", "~$10 (continue)"],
-        ["Probiotic", "~$20 (continue)"],
+        ["Metronidazole 0.75% (cream/lotion)", "~$15–30"],
+        ["Non-fluoride, SLS-free toothpaste", "~$8"],
+        ["CeraVe Moisturizing Cream", "~$15"],
+        ["Vitamin D (continue from eczema plan)", "~$10"],
+        ["Probiotic (continue from eczema plan)", "~$20"],
         ["Total", "~$70/month"],
     ]
     table = Table(cost_data, colWidths=[3.0 * inch, 1.8 * inch])
@@ -347,56 +343,32 @@ def build_story(s):
     story.append(table)
     story.append(hr())
 
-    # What to expect
-    story.append(Paragraph("What to Expect", s["h2"]))
-    story.append(Paragraph(
-        "<b>Weeks 1–2:</b> Rash looks worse (rebound flare). Hardest part. "
-        "Hold the line.", s["bullet"]))
-    story.append(Paragraph(
-        "<b>Week 2–3:</b> Worst of the flare plateaus. Do not reapply the "
-        "steroid.", s["bullet"]))
-    story.append(Paragraph(
-        "<b>Weeks 3–6:</b> Rapid improvement. Clear zone expands. Rash "
-        "fades.", s["bullet"]))
-    story.append(Paragraph(
-        "<b>Months 2–3:</b> Complete or near-complete resolution if all "
-        "triggers were addressed.", s["bullet"]))
-    story.append(Paragraph(
-        "<b>Long-term:</b> Avoid topical steroids on the face permanently. "
-        "If a new rash appears, get it properly diagnosed before putting "
-        "anything on it.",
-        s["bullet"]))
-    story.append(hr())
-
     # The Key Idea
     story.append(Paragraph("The Key Idea", s["h2"]))
     story.append(Paragraph(
-        "Most POD treatment is a cycle of &quot;which cream do we try next?&quot; "
-        "The real question is &quot;what keeps bringing it back?&quot; There "
-        "are four things happening at the same time:",
+        "Most POD treatment is a cycle of &quot;which cream do we try "
+        "next?&quot; The real question is &quot;what keeps bringing it "
+        "back?&quot; There are three things happening at the same time:",
         s["body"]))
     story.append(Paragraph(
-        "<b>The steroid cream is the cause, not the cure</b> — stop it and "
-        "tolerate the rebound",
+        "<b>Toothpaste residue lands on the skin twice daily</b> — swap "
+        "to non-fluoride, SLS-free, unflavored",
         s["bullet"]))
     story.append(Paragraph(
-        "<b>Toothpaste residue lands on the skin twice daily</b> — swap to "
-        "non-fluoride, SLS-free, unflavored",
+        "<b>Demodex mites multiply when local immunity is off balance</b> "
+        "— metronidazole reduces both mites and inflammation",
         s["bullet"]))
     story.append(Paragraph(
-        "<b>Demodex mites multiply when local immunity is suppressed</b> — "
-        "metronidazole reduces both mites and inflammation",
+        "<b>The skin barrier needs gentle repair</b> — ceramide "
+        "moisturizer, not heavy occlusives",
         s["bullet"]))
     story.append(Paragraph(
-        "<b>The skin barrier needs gentle repair</b> — ceramide moisturizer, "
-        "not heavy occlusives",
-        s["bullet"]))
-    story.append(Paragraph(
-        "Address all four at once, and the cycle breaks. The mechanism is "
-        "understood and the drugs work — the reason POD becomes chronic is "
-        "that the treatment requires tolerating 1–3 weeks of visible "
-        "worsening, and without written expectations most parents reapply "
-        "the steroid during that window.",
+        "Address all three at once, and the cycle breaks. Metronidazole "
+        "is slow — expect 4–6 weeks to full improvement, not overnight "
+        "results. If the kid ever has a topical steroid prescribed for "
+        "this rash, refuse it politely and ask for a non-steroid "
+        "alternative — steroids on the face perpetuate POD rather than "
+        "treating it.",
         s["body"]))
     story.append(hr())
 
