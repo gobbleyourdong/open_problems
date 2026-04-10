@@ -1,11 +1,11 @@
 # gap.md — what_is_change
 
-**Last updated:** 2026-04-09 (attempt_001)
-**Phase:** 1
+**Last updated:** 2026-04-10 (attempt_002, theory track)
+**Phase:** 2 (theory formalization complete, Lean files written)
 
 ## The gap, in one sentence
 
-> **Change is the structured dynamics of compressible states: successive states related by rules shorter to specify than the states themselves. Zeno's paradoxes are resolved mathematically by calculus and ontologically by the compression view plus the S/K bifurcation. The six competing ontologies (Parmenidean, Heraclitean, block, process, dispositional, Humean) are compatible complementary emphases rather than rivals. The remaining gap is whether the compression reading requires a specific theory of causation (regularity, counterfactual, interventionist, structural) to be complete.**
+> **Change is the structured dynamics of compressible states: successive states related by rules shorter to specify than the states themselves. Zeno's paradoxes are resolved mathematically by calculus and ontologically by the compression view plus the S/K bifurcation. The six competing ontologies (Parmenidean, Heraclitean, block, process, dispositional, Humean) are compatible complementary emphases rather than rivals. The causation question (R1) is resolved: interventionist causation with K-weights, where every causal claim has an exact K-budget via the Szilard conservation law. The remaining gap is deriving the K-change hierarchy timescales from first principles.**
 
 ## Why this is the gap
 

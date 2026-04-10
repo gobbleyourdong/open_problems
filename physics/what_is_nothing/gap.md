@@ -1,11 +1,11 @@
 # gap.md — what_is_nothing
 
-**Last updated:** 2026-04-09 (attempt_001)
-**Phase:** 1
+**Last updated:** 2026-04-10 (attempt_002, theory track)
+**Phase:** 2 (Parmenidean K-argument formalized, CC decomposed, fine-tuning dissolved)
 
 ## The gap, in one sentence
 
-> **"Nothing" has been four distinct concepts (empty room, physical vacuum, quantum vacuum, metaphysical non-being), and only the fourth is the real tier-0 question. Senses 1–3 are increasingly refined physics and are not nothing in the metaphysical sense. Sense 4 is conceptually unstable under the compression-strengthened Parmenidean argument: zero K-content is not a specifiable state. The residual questions are the quantum-vacuum-energy cosmological constant problem (sense 3, real physics) and "why these specific laws" (inherited by what_is_reality).**
+> **"Nothing" has been four distinct concepts (empty room, physical vacuum, quantum vacuum, metaphysical non-being), and only the fourth is the real tier-0 question. Senses 1–3 are increasingly refined physics and are not nothing in the metaphysical sense. Sense 4 is conceptually unstable under the compression-strengthened Parmenidean argument: zero K-content is not a specifiable state. The Parmenidean K-argument is now formalized in ParmenidesK.lean: nothing is not specifiable (diagonal argument). The CC problem is decomposed into four independent components: (a) mechanism [UNRESOLVED], (b) fine-tuning [DISSOLVED under log-uniform prior, P=56%], (c) selection [RESOLVED via landscape, 10^361 viable vacua], (d) evolution [ACTIVE, running vacuum K-MDL preferred, discriminable by 2030]. Total residual: ~1,713 bits of undetermined specification.**
 
 ## Why this is the gap
 

@@ -1,11 +1,11 @@
 # gap.md — what_is_reality
 
-**Last updated:** 2026-04-09 (attempt_001)
-**Phase:** 1
+**Last updated:** 2026-04-10 (attempt_002, theory track)
+**Phase:** 2 (ontology convergence formalized, Lean files written)
 
 ## The gap, in one sentence
 
-> **Reality IS its converged compression — the regularity stack that competent compressors must converge on given sufficient observations. The seven classical ontologies (physicalism, mathematical universe, informationalism, process, idealism, neutral monism, relational) are not competitors but different vocabularies for the same converged stack. The residual gap is whether that stack is finitely K-specifiable, whether the Parmenidean impossibility of genuine nothingness holds, and whether the S-vs-K informationalism debate has an experimental resolution.**
+> **Reality IS its converged compression — the regularity stack that competent compressors must converge on given sufficient observations. The seven classical ontologies (physicalism, mathematical universe, informationalism, process, idealism, neutral monism, relational) are not competitors but different vocabularies for the same converged stack. R1 (finite K-specifiability) is ANSWERED: K_laws = 21,834 bits. R3 (Parmenidean impossibility) is PROVED in ParmenidesK.lean. R2 (S-vs-K discriminant) is characterized as quasi-metaphysical: BH Page curve, inaccessible by ~10^57 universe-ages. Ontology convergence proved: seven schemes, one output. Simulation hypothesis K-MDL falsified (22,449 > 21,834 bits, zero prediction gain).**
 
 ## Why this is the gap
 
