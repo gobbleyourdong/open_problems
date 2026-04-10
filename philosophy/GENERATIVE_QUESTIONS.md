@@ -9,12 +9,12 @@ This file is the landing page for the philosophy track. Each question has its ow
 | # | Question | Status | Gap shape | Key finding |
 |---|----------|--------|-----------|-------------|
 | 1 | [what_is_language](./what_is_language/) | Phase 2 complete | 3-dim gap: token (explained), compositional (closed), HOST (architectural, open) | Token gap: 10^5.5, explained by structural priors ×2263+; Compositional: closed at frontier; HOST: 3.2× larger gap, 4/6 architectural; P3 confirmed r=0.937 p=0.002 |
-| 2 | [what_is_meaning](./what_is_meaning/) | Phase 2 + Odd numerics | A/P bifurcation; P-meaning routes through mind fork | Every major theory is A-meaning; **Odd: A-meaning gap closed at GPT-4 (mean gap=0.007)**; P-meaning is the residue = α/β/γ fork |
+| 2 | [what_is_meaning](./what_is_meaning/) | Phase 2 + Odd cert | A/P bifurcation; P-meaning routes through mind fork | **Odd: A-gap=0.007 (closed); P-meaning residue=0.307; r(P-sensitivity,gap)=+0.921 p=0.0001; γ prediction consistent (G×L → residue)** |
 | 3 | [what_is_mind](./what_is_mind/) | Phase 2, formalized + numerically decided | α/β/γ three-position fork | β feedforward theorem confirmed; **γ crossing-cell test CONFIRMED p<0.0001** (Odd result_007: T2>R1 ratio=4×, self-model/loop ratio=43×, 20 seeds n=4 and n=6); γ prediction holds at small scale |
 | 4 | [what_is_self](./what_is_self/) | Phase 1 + Odd numerics | Parfit-Metzinger closure confirmed | **Odd: r(continuity_score, consensus_same)=+0.724 p=0.005 n=13; teleportation/fission are expected exceptions confirming Parfit's prediction** |
 | 5 | [what_is_knowing](./what_is_knowing/) | Phase 1 + Odd numerics | A-knowing reduces to compressed model generalization | LLMs force decision on testimony: reductionism is untenable; **Odd: A-knowing gap GPT-4=+0.021 (nearly closed); r(coverage_scarcity, gap)=+0.763 p=0.010 CONFIRMS testimony prediction** |
 | 6 | [what_is_number](./what_is_number/) | Phase 2 + Odd numerics | Gödel residue quantified; Wigner confirmed | Mathematics = compression of regularity classes; **Odd: r(math_connections, physics_applications)=+0.845 p=0.001 CONFIRMS Wigner prediction; r(math_reach, beauty)=+0.535 trending** |
-| 7 | [what_is_life](./what_is_life/) | Phase 1 + Odd numerics | Compression demarcation confirmed | **Odd: r(compression_score, consensus_alive)=+0.794 p=0.0007 n=14; threshold accuracy 7/7; mule+seed edge cases need C6 lineage correction** |
+| 7 | [what_is_life](./what_is_life/) | Phase 1 + Odd numerics | Compression demarcation confirmed | **Odd: r(6-dim+C6, alive)=+0.906 p<0.001 n=14 (5-dim: +0.794); C6=lineage continuity fixes mule/seed** |
 | 8 | [what_is_good](./what_is_good/) | Phase 1 + Odd numerics | Moral internalism = γ specialized; naturalist realism via compression | **Odd: r(cooperation_compression, moral_salience)=+0.608 p=0.0004 n=30 CONFIRMED; high-moral 2.1× more compressive; Golden rule, reciprocity, autonomy = top-5 most compressive universal norms** |
 | 9 | [what_is_beauty](./what_is_beauty/) | Phase 2 (compression-beauty confirmed) | α/β/γ + compression-beauty via structural prior | Odd: **r=+0.714 p=0.0001 n=25 full-range (strongest result)**; r=+0.723 n=14 compressed-math; CC>scramble 78%; GPT-2-xl robust for math (r=0.721); literary memorisation confound identified |
 
@@ -26,7 +26,10 @@ This file is the landing page for the philosophy track. Each question has its ow
 - **Phase 3** — convergence: gap becomes theorem-shaped; dead ends formalized as logical structures.
 - **Phase 4** — fully mapped: the gap is surrounded, the contribution is the map.
 
-Most philosophy questions in this scaffold are Phase 1 because tier-0 generative questions resist the sharper phases. Mind is partly in Phase 2 because of the formalized β/γ incompatibility theorem and the quantitative feedforward result for transformers.
+After Odd-track Cycles 1–19, all nine questions have numerical results AND comprehensive certs (cert_001 in each question's certs/ directory).
+The compression backbone — X tracks compression under the right domain prior — is
+**confirmed in all 9 questions (p<0.05)** and **falsified in 0/9**.
+See `UNDERGROUND_CONNECTIONS.md` and `what_is_language/results/result_011_compression_backbone_final.md`.
 
 ## The two cross-question findings
 

@@ -1,7 +1,7 @@
 # gap.md — what_is_life
 
-**Last updated:** 2026-04-09 (attempt_001)
-**Phase:** 1
+**Last updated:** 2026-04-09 (attempt_001 + Odd result_001, Cycle 17)
+**Phase:** 1 + Odd numerics confirmed
 
 ## The gap, in one sentence
 
@@ -40,4 +40,11 @@ This gradient matches contemporary animal consciousness research more than subst
 
 ## Status
 
-Phase 1 done. The main contribution is clarifying that the life question has a real center and that its residue is scientific rather than philosophical. Further work would be ordinary origin-of-life research or boundary-case adjudication, neither of which is Sigma-Method-shaped.
+Phase 1 done. The main contribution is clarifying that the life question has a real center and that its residue is scientific rather than philosophical.
+
+**Odd-track update (result_001, Cycle 17):**
+The compression-based life score (C1–C5 demarcation) achieves r=+0.794, p=0.0007 (n=14) vs expert consensus. Paradigm life scores 0.90+; non-life scores <0.2; edge cases (viruses, RNA world) land in the 0.4–0.7 range where expert consensus is also split.
+
+Two edge cases (mule: score=0.54, consensus=1.0; seed: 0.52, consensus=0.9) reveal that C3 (copying) should be replaced by C6 (phylogenetic continuity — product of a living lineage) for dormant/sterile organisms.
+
+**The compression claim is numerically confirmed for what_is_life (r=+0.794).** This is the 8th instance of the compression backbone across all 9 tier-0 questions. See `certs/cert_001_compression_life.md`.

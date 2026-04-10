@@ -1,7 +1,7 @@
 # gap.md — what_is_self
 
-**Last updated:** 2026-04-09 (attempt_001)
-**Phase:** 1 (with unusual status — see below)
+**Last updated:** 2026-04-09 (attempt_001 + Odd result_001, Cycle 17)
+**Phase:** 1 + Odd numerics confirmed
 
 ## The gap, in one sentence
 
@@ -59,4 +59,11 @@ The fact that under (ii) the anti-problem has many actual instances (all of them
 
 ## Status
 
-Phase 1 done, with an honest note that much of the closure was done by Parfit and Metzinger decades ago and that this attempt is primarily describing the received position rather than deriving a new one. The contribution is the explicit linkage between the self question and the γ position at the mind level.
+Phase 1 done. The main contribution is describing the Parfit-Metzinger closure and linking it to γ.
+
+**Odd-track update (result_001, Cycle 17):**
+Psychological continuity score (P1–P5, Parfit-weighted) achieves r=+0.724, p=0.005 (n=13) vs consensus same-person verdicts. Monotone: same (0.821) > borderline (0.596) > different (0.387).
+
+Teleportation and fission are the expected exceptions — high continuity but uncertain/negative identity consensus. This IS Parfit's confirmation: the score measures what matters (continuity), not strict identity.
+
+**The Parfit-Metzinger claim is numerically supported.** Psychological continuity (the Odd proxy) predicts personal identity verdicts significantly across 13 canonical thought experiments. See `certs/cert_001_continuity_self.md`.

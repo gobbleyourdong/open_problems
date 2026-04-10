@@ -1,0 +1,331 @@
+{
+  "experiment_1_gauge": {
+    "K_state_lorenz_bits": 1008,
+    "K_state_gauged_bits": 1976,
+    "K_state_coulomb_bits": 888,
+    "K_state_change_pct_gauged": 96.03174603174604,
+    "K_state_change_pct_coulomb": 11.904761904761905,
+    "K_laws_lorenz_bits": 2640,
+    "K_laws_general_bits": 2904,
+    "K_laws_coulomb_bits": 3192,
+    "K_laws_range_bits": 552,
+    "K_laws_mean_bits": 2912.0,
+    "K_laws_fractional_variation": 0.18956043956043955,
+    "K_laws_approximately_invariant": true,
+    "verdict": "K_state is gauge-DEPENDENT; K_laws is approximately gauge-INVARIANT"
+  },
+  "experiment_2_unitary": {
+    "steps": [
+      {
+        "step": 0,
+        "gate": "|00>",
+        "state_real": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "state_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "gzip_bits": 192,
+        "delta_pct": 0.0
+      },
+      {
+        "step": 1,
+        "gate": "H\u2297I",
+        "state_real": [
+          0.7071067811865475,
+          0.0,
+          0.7071067811865475,
+          0.0
+        ],
+        "state_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "gzip_bits": 232,
+        "delta_pct": 20.833333333333332
+      },
+      {
+        "step": 2,
+        "gate": "CNOT",
+        "state_real": [
+          0.7071067811865475,
+          0.0,
+          0.0,
+          0.7071067811865475
+        ],
+        "state_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "gzip_bits": 232,
+        "delta_pct": 0.0
+      },
+      {
+        "step": 3,
+        "gate": "T\u2297I",
+        "state_real": [
+          0.7071067811865475,
+          0.0,
+          0.0,
+          0.5
+        ],
+        "state_imag": [
+          0.0,
+          0.0,
+          0.0,
+          0.4999999999999999
+        ],
+        "gzip_bits": 232,
+        "delta_pct": 0.0
+      },
+      {
+        "step": 4,
+        "gate": "I\u2297H",
+        "state_real": [
+          0.4999999999999999,
+          0.4999999999999999,
+          0.35355339059327373,
+          -0.35355339059327373
+        ],
+        "state_imag": [
+          0.0,
+          0.0,
+          0.3535533905932737,
+          -0.3535533905932737
+        ],
+        "gzip_bits": 272,
+        "delta_pct": 17.24137931034483
+      },
+      {
+        "step": 5,
+        "gate": "I\u2297S",
+        "state_real": [
+          0.4999999999999999,
+          0.0,
+          0.35355339059327373,
+          0.3535533905932737
+        ],
+        "state_imag": [
+          0.0,
+          0.4999999999999999,
+          0.3535533905932737,
+          -0.35355339059327373
+        ],
+        "gzip_bits": 272,
+        "delta_pct": 0.0
+      },
+      {
+        "step": 6,
+        "gate": "CNOT",
+        "state_real": [
+          0.4999999999999999,
+          0.0,
+          0.3535533905932737,
+          0.35355339059327373
+        ],
+        "state_imag": [
+          0.0,
+          0.4999999999999999,
+          -0.35355339059327373,
+          0.3535533905932737
+        ],
+        "gzip_bits": 280,
+        "delta_pct": 2.9411764705882355
+      },
+      {
+        "step": 7,
+        "gate": "H\u2297I",
+        "state_real": [
+          0.6035533905932736,
+          0.24999999999999994,
+          0.10355339059327376,
+          -0.24999999999999994
+        ],
+        "state_imag": [
+          -0.24999999999999994,
+          0.6035533905932736,
+          0.24999999999999994,
+          0.10355339059327376
+        ],
+        "gzip_bits": 344,
+        "delta_pct": 22.857142857142858
+      },
+      {
+        "step": 8,
+        "gate": "T\u2297I",
+        "state_real": [
+          0.6035533905932736,
+          0.24999999999999994,
+          -0.10355339059327372,
+          -0.24999999999999997
+        ],
+        "state_imag": [
+          -0.24999999999999994,
+          0.6035533905932736,
+          0.24999999999999997,
+          -0.10355339059327372
+        ],
+        "gzip_bits": 344,
+        "delta_pct": 0.0
+      }
+    ],
+    "gzip_bits_min": 192,
+    "gzip_bits_max": 344,
+    "spread_pct": 79.16666666666667,
+    "true_K_change_pct": 0.0,
+    "verdict": "gzip-K fluctuates 79% under unitary evolution; true K-change = 0"
+  },
+  "experiment_3_ncd_table": {
+    "ncd_matrix": {
+      "information|computation": 0.836182,
+      "information|time": 0.870922,
+      "information|change": 0.826147,
+      "information|reality": 0.838315,
+      "information|nothing": 0.862672,
+      "computation|time": 0.865248,
+      "computation|change": 0.853964,
+      "computation|reality": 0.855978,
+      "computation|nothing": 0.882647,
+      "time|change": 0.84701,
+      "time|reality": 0.850543,
+      "time|nothing": 0.868914,
+      "change|reality": 0.872283,
+      "change|nothing": 0.858926,
+      "reality|nothing": 0.791511
+    },
+    "ranked_pairs": [
+      {
+        "a": "reality",
+        "b": "nothing",
+        "ncd": 0.791511,
+        "rank": 1
+      },
+      {
+        "a": "information",
+        "b": "change",
+        "ncd": 0.826147,
+        "rank": 2
+      },
+      {
+        "a": "information",
+        "b": "computation",
+        "ncd": 0.836182,
+        "rank": 3
+      },
+      {
+        "a": "information",
+        "b": "reality",
+        "ncd": 0.838315,
+        "rank": 4
+      },
+      {
+        "a": "time",
+        "b": "change",
+        "ncd": 0.84701,
+        "rank": 5
+      },
+      {
+        "a": "time",
+        "b": "reality",
+        "ncd": 0.850543,
+        "rank": 6
+      },
+      {
+        "a": "computation",
+        "b": "change",
+        "ncd": 0.853964,
+        "rank": 7
+      },
+      {
+        "a": "computation",
+        "b": "reality",
+        "ncd": 0.855978,
+        "rank": 8
+      },
+      {
+        "a": "change",
+        "b": "nothing",
+        "ncd": 0.858926,
+        "rank": 9
+      },
+      {
+        "a": "information",
+        "b": "nothing",
+        "ncd": 0.862672,
+        "rank": 10
+      },
+      {
+        "a": "computation",
+        "b": "time",
+        "ncd": 0.865248,
+        "rank": 11
+      },
+      {
+        "a": "time",
+        "b": "nothing",
+        "ncd": 0.868914,
+        "rank": 12
+      },
+      {
+        "a": "information",
+        "b": "time",
+        "ncd": 0.870922,
+        "rank": 13
+      },
+      {
+        "a": "change",
+        "b": "reality",
+        "ncd": 0.872283,
+        "rank": 14
+      },
+      {
+        "a": "computation",
+        "b": "nothing",
+        "ncd": 0.882647,
+        "rank": 15
+      }
+    ],
+    "hub_count": {
+      "information": 3,
+      "computation": 1,
+      "time": 1,
+      "change": 2,
+      "reality": 2,
+      "nothing": 1
+    },
+    "cluster_ncds": {
+      "K-manipulation": 0.836182,
+      "K-dynamics": 0.84701,
+      "K-ontology": 0.791511
+    },
+    "avg_within": 0.824901,
+    "avg_between": 0.8588799166666666,
+    "separation": 0.033978916666666636,
+    "tightest_pair": {
+      "pair": [
+        "reality",
+        "nothing"
+      ],
+      "ncd": 0.791511
+    },
+    "loosest_pair": {
+      "pair": [
+        "computation",
+        "nothing"
+      ],
+      "ncd": 0.882647
+    },
+    "hub_problem": "information",
+    "hub_appearances": 3
+  }
+}

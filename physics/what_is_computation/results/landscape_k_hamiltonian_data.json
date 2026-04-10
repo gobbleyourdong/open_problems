@@ -1,0 +1,1697 @@
+{
+  "label": "landscape_k_hamiltonian",
+  "date": "2026-04-09",
+  "proxy": "constraint-remnant: valid-next + unvisited-adjacency",
+  "configs": [
+    {
+      "n": 20,
+      "p": 0.05,
+      "desc": "sparse-20"
+    },
+    {
+      "n": 20,
+      "p": 0.2,
+      "desc": "moderate-20"
+    },
+    {
+      "n": 30,
+      "p": 0.05,
+      "desc": "sparse-30"
+    },
+    {
+      "n": 30,
+      "p": 0.2,
+      "desc": "moderate-30"
+    }
+  ],
+  "results": [
+    {
+      "instance": 0,
+      "n": 20,
+      "edge_prob": 0.05,
+      "n_edges": 31,
+      "solved": true,
+      "budget_exhausted": false,
+      "decisions": 1689,
+      "steps": 1690,
+      "time_ms": 7.898,
+      "n_k_records": 338,
+      "k_initial": 1.0135,
+      "k_final": 0.0,
+      "k_mean": 1.123,
+      "k_slope": -0.003007,
+      "k_trend": "decreasing",
+      "k_trajectory_head": [
+        {
+          "step": 5,
+          "depth": 5,
+          "k_proxy": 1.013514,
+          "encoded_len": 74
+        },
+        {
+          "step": 10,
+          "depth": 9,
+          "k_proxy": 1.244444,
+          "encoded_len": 45
+        },
+        {
+          "step": 15,
+          "depth": 14,
+          "k_proxy": 1.954545,
+          "encoded_len": 22
+        },
+        {
+          "step": 20,
+          "depth": 12,
+          "k_proxy": 1.777778,
+          "encoded_len": 27
+        },
+        {
+          "step": 25,
+          "depth": 13,
+          "k_proxy": 1.84,
+          "encoded_len": 25
+        },
+        {
+          "step": 30,
+          "depth": 13,
+          "k_proxy": 1.740741,
+          "encoded_len": 27
+        },
+        {
+          "step": 35,
+          "depth": 12,
+          "k_proxy": 1.689655,
+          "encoded_len": 29
+        },
+        {
+          "step": 40,
+          "depth": 13,
+          "k_proxy": 1.84,
+          "encoded_len": 25
+        },
+        {
+          "step": 45,
+          "depth": 12,
+          "k_proxy": 1.724138,
+          "encoded_len": 29
+        },
+        {
+          "step": 50,
+          "depth": 17,
+          "k_proxy": 0.0,
+          "encoded_len": 9
+        },
+        {
+          "step": 55,
+          "depth": 12,
+          "k_proxy": 1.612903,
+          "encoded_len": 31
+        },
+        {
+          "step": 60,
+          "depth": 17,
+          "k_proxy": 0.0,
+          "encoded_len": 11
+        },
+        {
+          "step": 65,
+          "depth": 11,
+          "k_proxy": 1.472222,
+          "encoded_len": 36
+        },
+        {
+          "step": 70,
+          "depth": 14,
+          "k_proxy": 1.954545,
+          "encoded_len": 22
+        },
+        {
+          "step": 75,
+          "depth": 16,
+          "k_proxy": 0.0,
+          "encoded_len": 16
+        },
+        {
+          "step": 80,
+          "depth": 13,
+          "k_proxy": 1.913043,
+          "encoded_len": 23
+        },
+        {
+          "step": 85,
+          "depth": 12,
+          "k_proxy": 1.666667,
+          "encoded_len": 30
+        },
+        {
+          "step": 90,
+          "depth": 14,
+          "k_proxy": 2.0,
+          "encoded_len": 21
+        },
+        {
+          "step": 95,
+          "depth": 8,
+          "k_proxy": 1.148148,
+          "encoded_len": 54
+        },
+        {
+          "step": 100,
+          "depth": 13,
+          "k_proxy": 1.769231,
+          "encoded_len": 26
+        }
+      ]
+    },
+    {
+      "instance": 1,
+      "n": 20,
+      "edge_prob": 0.05,
+      "n_edges": 26,
+      "solved": true,
+      "budget_exhausted": false,
+      "decisions": 260,
+      "steps": 261,
+      "time_ms": 0.9858,
+      "n_k_records": 52,
+      "k_initial": 1.0278,
+      "k_final": 0.0,
+      "k_mean": 1.2141,
+      "k_slope": -0.020153,
+      "k_trend": "decreasing",
+      "k_trajectory_head": [
+        {
+          "step": 5,
+          "depth": 5,
+          "k_proxy": 1.027778,
+          "encoded_len": 72
+        },
+        {
+          "step": 10,
+          "depth": 10,
+          "k_proxy": 1.325581,
+          "encoded_len": 43
+        },
+        {
+          "step": 15,
+          "depth": 15,
+          "k_proxy": 0.0,
+          "encoded_len": 18
+        },
+        {
+          "step": 20,
+          "depth": 16,
+          "k_proxy": 0.0,
+          "encoded_len": 16
+        },
+        {
+          "step": 25,
+          "depth": 13,
+          "k_proxy": 1.84,
+          "encoded_len": 25
+        },
+        {
+          "step": 30,
+          "depth": 15,
+          "k_proxy": 0.0,
+          "encoded_len": 18
+        },
+        {
+          "step": 35,
+          "depth": 14,
+          "k_proxy": 1.807692,
+          "encoded_len": 26
+        },
+        {
+          "step": 40,
+          "depth": 11,
+          "k_proxy": 1.545455,
+          "encoded_len": 33
+        },
+        {
+          "step": 45,
+          "depth": 13,
+          "k_proxy": 1.913043,
+          "encoded_len": 23
+        },
+        {
+          "step": 50,
+          "depth": 13,
+          "k_proxy": 1.807692,
+          "encoded_len": 26
+        },
+        {
+          "step": 55,
+          "depth": 17,
+          "k_proxy": 0.0,
+          "encoded_len": 10
+        },
+        {
+          "step": 60,
+          "depth": 13,
+          "k_proxy": 1.875,
+          "encoded_len": 24
+        },
+        {
+          "step": 65,
+          "depth": 11,
+          "k_proxy": 1.485714,
+          "encoded_len": 35
+        },
+        {
+          "step": 70,
+          "depth": 14,
+          "k_proxy": 0.0,
+          "encoded_len": 19
+        },
+        {
+          "step": 75,
+          "depth": 10,
+          "k_proxy": 1.288889,
+          "encoded_len": 45
+        },
+        {
+          "step": 80,
+          "depth": 13,
+          "k_proxy": 1.84,
+          "encoded_len": 25
+        },
+        {
+          "step": 85,
+          "depth": 16,
+          "k_proxy": 0.0,
+          "encoded_len": 14
+        },
+        {
+          "step": 90,
+          "depth": 16,
+          "k_proxy": 0.0,
+          "encoded_len": 16
+        },
+        {
+          "step": 95,
+          "depth": 11,
+          "k_proxy": 1.421053,
+          "encoded_len": 38
+        },
+        {
+          "step": 100,
+          "depth": 14,
+          "k_proxy": 1.954545,
+          "encoded_len": 22
+        }
+      ]
+    },
+    {
+      "instance": 2,
+      "n": 20,
+      "edge_prob": 0.05,
+      "n_edges": 28,
+      "solved": true,
+      "budget_exhausted": false,
+      "decisions": 1092,
+      "steps": 1093,
+      "time_ms": 4.7236,
+      "n_k_records": 218,
+      "k_initial": 1.0588,
+      "k_final": 0.0,
+      "k_mean": 1.2153,
+      "k_slope": -0.004879,
+      "k_trend": "decreasing",
+      "k_trajectory_head": [
+        {
+          "step": 5,
+          "depth": 5,
+          "k_proxy": 1.058824,
+          "encoded_len": 68
+        },
+        {
+          "step": 10,
+          "depth": 10,
+          "k_proxy": 1.357143,
+          "encoded_len": 42
+        },
+        {
+          "step": 15,
+          "depth": 12,
+          "k_proxy": 1.7,
+          "encoded_len": 30
+        },
+        {
+          "step": 20,
+          "depth": 14,
+          "k_proxy": 2.05,
+          "encoded_len": 20
+        },
+        {
+          "step": 25,
+          "depth": 15,
+          "k_proxy": 0.0,
+          "encoded_len": 16
+        },
+        {
+          "step": 30,
+          "depth": 14,
+          "k_proxy": 2.0,
+          "encoded_len": 21
+        },
+        {
+          "step": 35,
+          "depth": 16,
+          "k_proxy": 0.0,
+          "encoded_len": 14
+        },
+        {
+          "step": 40,
+          "depth": 16,
+          "k_proxy": 0.0,
+          "encoded_len": 13
+        },
+        {
+          "step": 45,
+          "depth": 10,
+          "k_proxy": 1.288889,
+          "encoded_len": 45
+        },
+        {
+          "step": 50,
+          "depth": 14,
+          "k_proxy": 1.875,
+          "encoded_len": 24
+        },
+        {
+          "step": 55,
+          "depth": 16,
+          "k_proxy": 0.0,
+          "encoded_len": 14
+        },
+        {
+          "step": 60,
+          "depth": 17,
+          "k_proxy": 0.0,
+          "encoded_len": 10
+        },
+        {
+          "step": 65,
+          "depth": 16,
+          "k_proxy": 0.0,
+          "encoded_len": 15
+        },
+        {
+          "step": 70,
+          "depth": 14,
+          "k_proxy": 1.875,
+          "encoded_len": 24
+        },
+        {
+          "step": 75,
+          "depth": 15,
+          "k_proxy": 0.0,
+          "encoded_len": 19
+        },
+        {
+          "step": 80,
+          "depth": 9,
+          "k_proxy": 1.288889,
+          "encoded_len": 45
+        },
+        {
+          "step": 85,
+          "depth": 13,
+          "k_proxy": 1.913043,
+          "encoded_len": 23
+        },
+        {
+          "step": 90,
+          "depth": 13,
+          "k_proxy": 1.913043,
+          "encoded_len": 23
+        },
+        {
+          "step": 95,
+          "depth": 11,
+          "k_proxy": 1.514286,
+          "encoded_len": 35
+        },
+        {
+          "step": 100,
+          "depth": 12,
+          "k_proxy": 1.645161,
+          "encoded_len": 31
+        }
+      ]
+    },
+    {
+      "instance": 0,
+      "n": 20,
+      "edge_prob": 0.2,
+      "n_edges": 57,
+      "solved": true,
+      "budget_exhausted": false,
+      "decisions": 274,
+      "steps": 275,
+      "time_ms": 0.4553,
+      "n_k_records": 55,
+      "k_initial": 0.902,
+      "k_final": 0.0,
+      "k_mean": 0.3514,
+      "k_slope": -0.016703,
+      "k_trend": "decreasing",
+      "k_trajectory_head": [
+        {
+          "step": 5,
+          "depth": 5,
+          "k_proxy": 0.901961,
+          "encoded_len": 102
+        },
+        {
+          "step": 10,
+          "depth": 10,
+          "k_proxy": 1.116667,
+          "encoded_len": 60
+        },
+        {
+          "step": 15,
+          "depth": 15,
+          "k_proxy": 1.952381,
+          "encoded_len": 21
+        },
+        {
+          "step": 20,
+          "depth": 18,
+          "k_proxy": 0.0,
+          "encoded_len": 8
+        },
+        {
+          "step": 25,
+          "depth": 15,
+          "k_proxy": 1.952381,
+          "encoded_len": 21
+        },
+        {
+          "step": 30,
+          "depth": 17,
+          "k_proxy": 0.0,
+          "encoded_len": 9
+        },
+        {
+          "step": 35,
+          "depth": 16,
+          "k_proxy": 0.0,
+          "encoded_len": 14
+        },
+        {
+          "step": 40,
+          "depth": 16,
+          "k_proxy": 0.0,
+          "encoded_len": 14
+        },
+        {
+          "step": 45,
+          "depth": 17,
+          "k_proxy": 0.0,
+          "encoded_len": 13
+        },
+        {
+          "step": 50,
+          "depth": 19,
+          "k_proxy": 0.0,
+          "encoded_len": 4
+        },
+        {
+          "step": 55,
+          "depth": 17,
+          "k_proxy": 0.0,
+          "encoded_len": 10
+        },
+        {
+          "step": 60,
+          "depth": 17,
+          "k_proxy": 0.0,
+          "encoded_len": 11
+        },
+        {
+          "step": 65,
+          "depth": 18,
+          "k_proxy": 0.0,
+          "encoded_len": 8
+        },
+        {
+          "step": 70,
+          "depth": 15,
+          "k_proxy": 1.952381,
+          "encoded_len": 21
+        },
+        {
+          "step": 75,
+          "depth": 17,
+          "k_proxy": 0.0,
+          "encoded_len": 9
+        },
+        {
+          "step": 80,
+          "depth": 17,
+          "k_proxy": 0.0,
+          "encoded_len": 8
+        },
+        {
+          "step": 85,
+          "depth": 14,
+          "k_proxy": 1.740741,
+          "encoded_len": 27
+        },
+        {
+          "step": 90,
+          "depth": 17,
+          "k_proxy": 0.0,
+          "encoded_len": 10
+        },
+        {
+          "step": 95,
+          "depth": 13,
+          "k_proxy": 1.612903,
+          "encoded_len": 31
+        },
+        {
+          "step": 100,
+          "depth": 17,
+          "k_proxy": 0.0,
+          "encoded_len": 10
+        }
+      ]
+    },
+    {
+      "instance": 1,
+      "n": 20,
+      "edge_prob": 0.2,
+      "n_edges": 54,
+      "solved": true,
+      "budget_exhausted": false,
+      "decisions": 10183,
+      "steps": 10184,
+      "time_ms": 20.489,
+      "n_k_records": 2036,
+      "k_initial": 0.9,
+      "k_final": 0.0,
+      "k_mean": 0.5064,
+      "k_slope": -0.000442,
+      "k_trend": "decreasing",
+      "k_trajectory_head": [
+        {
+          "step": 5,
+          "depth": 5,
+          "k_proxy": 0.9,
+          "encoded_len": 100
+        },
+        {
+          "step": 10,
+          "depth": 10,
+          "k_proxy": 1.204082,
+          "encoded_len": 49
+        },
+        {
+          "step": 15,
+          "depth": 15,
+          "k_proxy": 1.863636,
+          "encoded_len": 22
+        },
+        {
+          "step": 20,
+          "depth": 18,
+          "k_proxy": 0.0,
+          "encoded_len": 6
+        },
+        {
+          "step": 25,
+          "depth": 14,
+          "k_proxy": 1.703704,
+          "encoded_len": 27
+        },
+        {
+          "step": 30,
+          "depth": 19,
+          "k_proxy": 0.0,
+          "encoded_len": 5
+        },
+        {
+          "step": 35,
+          "depth": 17,
+          "k_proxy": 0.0,
+          "encoded_len": 11
+        },
+        {
+          "step": 40,
+          "depth": 15,
+          "k_proxy": 2.0,
+          "encoded_len": 20
+        },
+        {
+          "step": 45,
+          "depth": 16,
+          "k_proxy": 0.0,
+          "encoded_len": 16
+        },
+        {
+          "step": 50,
+          "depth": 17,
+          "k_proxy": 0.0,
+          "encoded_len": 8
+        },
+        {
+          "step": 55,
+          "depth": 15,
+          "k_proxy": 2.0,
+          "encoded_len": 20
+        },
+        {
+          "step": 60,
+          "depth": 16,
+          "k_proxy": 0.0,
+          "encoded_len": 16
+        },
+        {
+          "step": 65,
+          "depth": 19,
+          "k_proxy": 0.0,
+          "encoded_len": 4
+        },
+        {
+          "step": 70,
+          "depth": 14,
+          "k_proxy": 1.84,
+          "encoded_len": 25
+        },
+        {
+          "step": 75,
+          "depth": 16,
+          "k_proxy": 0.0,
+          "encoded_len": 15
+        },
+        {
+          "step": 80,
+          "depth": 17,
+          "k_proxy": 0.0,
+          "encoded_len": 9
+        },
+        {
+          "step": 85,
+          "depth": 14,
+          "k_proxy": 1.740741,
+          "encoded_len": 27
+        },
+        {
+          "step": 90,
+          "depth": 18,
+          "k_proxy": 0.0,
+          "encoded_len": 7
+        },
+        {
+          "step": 95,
+          "depth": 19,
+          "k_proxy": 0.0,
+          "encoded_len": 5
+        },
+        {
+          "step": 100,
+          "depth": 15,
+          "k_proxy": 0.0,
+          "encoded_len": 19
+        }
+      ]
+    },
+    {
+      "instance": 2,
+      "n": 20,
+      "edge_prob": 0.2,
+      "n_edges": 63,
+      "solved": true,
+      "budget_exhausted": false,
+      "decisions": 266,
+      "steps": 267,
+      "time_ms": 0.5209,
+      "n_k_records": 53,
+      "k_initial": 0.9192,
+      "k_final": 0.0,
+      "k_mean": 0.5033,
+      "k_slope": -0.017677,
+      "k_trend": "decreasing",
+      "k_trajectory_head": [
+        {
+          "step": 5,
+          "depth": 5,
+          "k_proxy": 0.919192,
+          "encoded_len": 99
+        },
+        {
+          "step": 10,
+          "depth": 10,
+          "k_proxy": 1.105263,
+          "encoded_len": 57
+        },
+        {
+          "step": 15,
+          "depth": 15,
+          "k_proxy": 1.909091,
+          "encoded_len": 22
+        },
+        {
+          "step": 20,
+          "depth": 17,
+          "k_proxy": 0.0,
+          "encoded_len": 9
+        },
+        {
+          "step": 25,
+          "depth": 17,
+          "k_proxy": 0.0,
+          "encoded_len": 13
+        },
+        {
+          "step": 30,
+          "depth": 19,
+          "k_proxy": 0.0,
+          "encoded_len": 4
+        },
+        {
+          "step": 35,
+          "depth": 18,
+          "k_proxy": 0.0,
+          "encoded_len": 6
+        },
+        {
+          "step": 40,
+          "depth": 15,
+          "k_proxy": 1.869565,
+          "encoded_len": 23
+        },
+        {
+          "step": 45,
+          "depth": 18,
+          "k_proxy": 0.0,
+          "encoded_len": 7
+        },
+        {
+          "step": 50,
+          "depth": 16,
+          "k_proxy": 0.0,
+          "encoded_len": 18
+        },
+        {
+          "step": 55,
+          "depth": 16,
+          "k_proxy": 0.0,
+          "encoded_len": 13
+        },
+        {
+          "step": 60,
+          "depth": 14,
+          "k_proxy": 1.633333,
+          "encoded_len": 30
+        },
+        {
+          "step": 65,
+          "depth": 19,
+          "k_proxy": 0.0,
+          "encoded_len": 4
+        },
+        {
+          "step": 70,
+          "depth": 20,
+          "k_proxy": 0.0,
+          "encoded_len": 2
+        },
+        {
+          "step": 75,
+          "depth": 18,
+          "k_proxy": 0.0,
+          "encoded_len": 8
+        },
+        {
+          "step": 80,
+          "depth": 17,
+          "k_proxy": 0.0,
+          "encoded_len": 11
+        },
+        {
+          "step": 85,
+          "depth": 18,
+          "k_proxy": 0.0,
+          "encoded_len": 6
+        },
+        {
+          "step": 90,
+          "depth": 14,
+          "k_proxy": 1.62069,
+          "encoded_len": 29
+        },
+        {
+          "step": 95,
+          "depth": 19,
+          "k_proxy": 0.0,
+          "encoded_len": 4
+        },
+        {
+          "step": 100,
+          "depth": 19,
+          "k_proxy": 0.0,
+          "encoded_len": 4
+        }
+      ]
+    },
+    {
+      "instance": 0,
+      "n": 30,
+      "edge_prob": 0.05,
+      "n_edges": 45,
+      "solved": true,
+      "budget_exhausted": false,
+      "decisions": 12916,
+      "steps": 12917,
+      "time_ms": 60.3525,
+      "n_k_records": 2583,
+      "k_initial": 0.9016,
+      "k_final": 0.0,
+      "k_mean": 1.2389,
+      "k_slope": -0.000349,
+      "k_trend": "decreasing",
+      "k_trajectory_head": [
+        {
+          "step": 5,
+          "depth": 5,
+          "k_proxy": 0.901639,
+          "encoded_len": 122
+        },
+        {
+          "step": 10,
+          "depth": 10,
+          "k_proxy": 0.978022,
+          "encoded_len": 91
+        },
+        {
+          "step": 15,
+          "depth": 15,
+          "k_proxy": 1.086957,
+          "encoded_len": 69
+        },
+        {
+          "step": 20,
+          "depth": 20,
+          "k_proxy": 1.363636,
+          "encoded_len": 44
+        },
+        {
+          "step": 25,
+          "depth": 25,
+          "k_proxy": 1.95,
+          "encoded_len": 20
+        },
+        {
+          "step": 30,
+          "depth": 22,
+          "k_proxy": 1.677419,
+          "encoded_len": 31
+        },
+        {
+          "step": 35,
+          "depth": 23,
+          "k_proxy": 1.84,
+          "encoded_len": 25
+        },
+        {
+          "step": 40,
+          "depth": 23,
+          "k_proxy": 1.625,
+          "encoded_len": 32
+        },
+        {
+          "step": 45,
+          "depth": 22,
+          "k_proxy": 1.724138,
+          "encoded_len": 29
+        },
+        {
+          "step": 50,
+          "depth": 22,
+          "k_proxy": 1.777778,
+          "encoded_len": 27
+        },
+        {
+          "step": 55,
+          "depth": 21,
+          "k_proxy": 1.542857,
+          "encoded_len": 35
+        },
+        {
+          "step": 60,
+          "depth": 26,
+          "k_proxy": 0.0,
+          "encoded_len": 14
+        },
+        {
+          "step": 65,
+          "depth": 20,
+          "k_proxy": 1.404762,
+          "encoded_len": 42
+        },
+        {
+          "step": 70,
+          "depth": 22,
+          "k_proxy": 1.7,
+          "encoded_len": 30
+        },
+        {
+          "step": 75,
+          "depth": 25,
+          "k_proxy": 0.0,
+          "encoded_len": 18
+        },
+        {
+          "step": 80,
+          "depth": 25,
+          "k_proxy": 2.0,
+          "encoded_len": 20
+        },
+        {
+          "step": 85,
+          "depth": 28,
+          "k_proxy": 0.0,
+          "encoded_len": 8
+        },
+        {
+          "step": 90,
+          "depth": 21,
+          "k_proxy": 1.5,
+          "encoded_len": 38
+        },
+        {
+          "step": 95,
+          "depth": 26,
+          "k_proxy": 0.0,
+          "encoded_len": 15
+        },
+        {
+          "step": 100,
+          "depth": 25,
+          "k_proxy": 0.0,
+          "encoded_len": 17
+        }
+      ]
+    },
+    {
+      "instance": 1,
+      "n": 30,
+      "edge_prob": 0.05,
+      "n_edges": 53,
+      "solved": false,
+      "budget_exhausted": true,
+      "decisions": 30000,
+      "steps": 30001,
+      "time_ms": 118.5456,
+      "n_k_records": 6000,
+      "k_initial": 0.8806,
+      "k_final": 1.913,
+      "k_mean": 1.2131,
+      "k_slope": 0.000172,
+      "k_trend": "increasing",
+      "k_trajectory_head": [
+        {
+          "step": 5,
+          "depth": 5,
+          "k_proxy": 0.880597,
+          "encoded_len": 134
+        },
+        {
+          "step": 10,
+          "depth": 10,
+          "k_proxy": 0.979167,
+          "encoded_len": 96
+        },
+        {
+          "step": 15,
+          "depth": 15,
+          "k_proxy": 1.142857,
+          "encoded_len": 63
+        },
+        {
+          "step": 20,
+          "depth": 20,
+          "k_proxy": 1.588235,
+          "encoded_len": 34
+        },
+        {
+          "step": 25,
+          "depth": 21,
+          "k_proxy": 1.724138,
+          "encoded_len": 29
+        },
+        {
+          "step": 30,
+          "depth": 19,
+          "k_proxy": 1.473684,
+          "encoded_len": 38
+        },
+        {
+          "step": 35,
+          "depth": 21,
+          "k_proxy": 1.777778,
+          "encoded_len": 27
+        },
+        {
+          "step": 40,
+          "depth": 17,
+          "k_proxy": 1.235294,
+          "encoded_len": 51
+        },
+        {
+          "step": 45,
+          "depth": 22,
+          "k_proxy": 1.913043,
+          "encoded_len": 23
+        },
+        {
+          "step": 50,
+          "depth": 23,
+          "k_proxy": 1.954545,
+          "encoded_len": 22
+        },
+        {
+          "step": 55,
+          "depth": 22,
+          "k_proxy": 1.807692,
+          "encoded_len": 26
+        },
+        {
+          "step": 60,
+          "depth": 25,
+          "k_proxy": 0.0,
+          "encoded_len": 14
+        },
+        {
+          "step": 65,
+          "depth": 19,
+          "k_proxy": 1.5,
+          "encoded_len": 38
+        },
+        {
+          "step": 70,
+          "depth": 21,
+          "k_proxy": 1.777778,
+          "encoded_len": 27
+        },
+        {
+          "step": 75,
+          "depth": 20,
+          "k_proxy": 1.514286,
+          "encoded_len": 35
+        },
+        {
+          "step": 80,
+          "depth": 19,
+          "k_proxy": 1.414634,
+          "encoded_len": 41
+        },
+        {
+          "step": 85,
+          "depth": 24,
+          "k_proxy": 0.0,
+          "encoded_len": 18
+        },
+        {
+          "step": 90,
+          "depth": 18,
+          "k_proxy": 1.340909,
+          "encoded_len": 44
+        },
+        {
+          "step": 95,
+          "depth": 21,
+          "k_proxy": 1.777778,
+          "encoded_len": 27
+        },
+        {
+          "step": 100,
+          "depth": 20,
+          "k_proxy": 1.527778,
+          "encoded_len": 36
+        }
+      ]
+    },
+    {
+      "instance": 2,
+      "n": 30,
+      "edge_prob": 0.05,
+      "n_edges": 52,
+      "solved": false,
+      "budget_exhausted": true,
+      "decisions": 30000,
+      "steps": 30001,
+      "time_ms": 126.0176,
+      "n_k_records": 6000,
+      "k_initial": 0.8915,
+      "k_final": 1.5758,
+      "k_mean": 1.3035,
+      "k_slope": 0.000114,
+      "k_trend": "increasing",
+      "k_trajectory_head": [
+        {
+          "step": 5,
+          "depth": 5,
+          "k_proxy": 0.891473,
+          "encoded_len": 129
+        },
+        {
+          "step": 10,
+          "depth": 10,
+          "k_proxy": 0.988764,
+          "encoded_len": 89
+        },
+        {
+          "step": 15,
+          "depth": 15,
+          "k_proxy": 1.15,
+          "encoded_len": 60
+        },
+        {
+          "step": 20,
+          "depth": 15,
+          "k_proxy": 1.192982,
+          "encoded_len": 57
+        },
+        {
+          "step": 25,
+          "depth": 20,
+          "k_proxy": 1.7,
+          "encoded_len": 30
+        },
+        {
+          "step": 30,
+          "depth": 19,
+          "k_proxy": 1.527778,
+          "encoded_len": 36
+        },
+        {
+          "step": 35,
+          "depth": 17,
+          "k_proxy": 1.291667,
+          "encoded_len": 48
+        },
+        {
+          "step": 40,
+          "depth": 17,
+          "k_proxy": 1.291667,
+          "encoded_len": 48
+        },
+        {
+          "step": 45,
+          "depth": 22,
+          "k_proxy": 1.954545,
+          "encoded_len": 22
+        },
+        {
+          "step": 50,
+          "depth": 19,
+          "k_proxy": 1.5,
+          "encoded_len": 38
+        },
+        {
+          "step": 55,
+          "depth": 18,
+          "k_proxy": 1.386364,
+          "encoded_len": 44
+        },
+        {
+          "step": 60,
+          "depth": 22,
+          "k_proxy": 1.875,
+          "encoded_len": 24
+        },
+        {
+          "step": 65,
+          "depth": 18,
+          "k_proxy": 1.355556,
+          "encoded_len": 45
+        },
+        {
+          "step": 70,
+          "depth": 15,
+          "k_proxy": 1.189655,
+          "encoded_len": 58
+        },
+        {
+          "step": 75,
+          "depth": 18,
+          "k_proxy": 1.377778,
+          "encoded_len": 45
+        },
+        {
+          "step": 80,
+          "depth": 23,
+          "k_proxy": 0.0,
+          "encoded_len": 18
+        },
+        {
+          "step": 85,
+          "depth": 21,
+          "k_proxy": 1.7,
+          "encoded_len": 30
+        },
+        {
+          "step": 90,
+          "depth": 23,
+          "k_proxy": 1.954545,
+          "encoded_len": 22
+        },
+        {
+          "step": 95,
+          "depth": 19,
+          "k_proxy": 1.527778,
+          "encoded_len": 36
+        },
+        {
+          "step": 100,
+          "depth": 23,
+          "k_proxy": 0.0,
+          "encoded_len": 19
+        }
+      ]
+    },
+    {
+      "instance": 0,
+      "n": 30,
+      "edge_prob": 0.2,
+      "n_edges": 119,
+      "solved": true,
+      "budget_exhausted": false,
+      "decisions": 21960,
+      "steps": 21961,
+      "time_ms": 43.5014,
+      "n_k_records": 4392,
+      "k_initial": 0.7626,
+      "k_final": 0.0,
+      "k_mean": 0.5042,
+      "k_slope": -0.000174,
+      "k_trend": "decreasing",
+      "k_trajectory_head": [
+        {
+          "step": 5,
+          "depth": 5,
+          "k_proxy": 0.762557,
+          "encoded_len": 219
+        },
+        {
+          "step": 10,
+          "depth": 10,
+          "k_proxy": 0.821192,
+          "encoded_len": 151
+        },
+        {
+          "step": 15,
+          "depth": 15,
+          "k_proxy": 0.909091,
+          "encoded_len": 99
+        },
+        {
+          "step": 20,
+          "depth": 20,
+          "k_proxy": 1.208333,
+          "encoded_len": 48
+        },
+        {
+          "step": 25,
+          "depth": 24,
+          "k_proxy": 0.0,
+          "encoded_len": 16
+        },
+        {
+          "step": 30,
+          "depth": 23,
+          "k_proxy": 1.807692,
+          "encoded_len": 26
+        },
+        {
+          "step": 35,
+          "depth": 25,
+          "k_proxy": 0.0,
+          "encoded_len": 14
+        },
+        {
+          "step": 40,
+          "depth": 26,
+          "k_proxy": 0.0,
+          "encoded_len": 10
+        },
+        {
+          "step": 45,
+          "depth": 24,
+          "k_proxy": 0.0,
+          "encoded_len": 18
+        },
+        {
+          "step": 50,
+          "depth": 21,
+          "k_proxy": 1.384615,
+          "encoded_len": 39
+        },
+        {
+          "step": 55,
+          "depth": 24,
+          "k_proxy": 0.0,
+          "encoded_len": 19
+        },
+        {
+          "step": 60,
+          "depth": 26,
+          "k_proxy": 0.0,
+          "encoded_len": 10
+        },
+        {
+          "step": 65,
+          "depth": 25,
+          "k_proxy": 0.0,
+          "encoded_len": 14
+        },
+        {
+          "step": 70,
+          "depth": 24,
+          "k_proxy": 2.05,
+          "encoded_len": 20
+        },
+        {
+          "step": 75,
+          "depth": 25,
+          "k_proxy": 0.0,
+          "encoded_len": 17
+        },
+        {
+          "step": 80,
+          "depth": 27,
+          "k_proxy": 0.0,
+          "encoded_len": 8
+        },
+        {
+          "step": 85,
+          "depth": 24,
+          "k_proxy": 1.95,
+          "encoded_len": 20
+        },
+        {
+          "step": 90,
+          "depth": 25,
+          "k_proxy": 0.0,
+          "encoded_len": 13
+        },
+        {
+          "step": 95,
+          "depth": 25,
+          "k_proxy": 0.0,
+          "encoded_len": 14
+        },
+        {
+          "step": 100,
+          "depth": 26,
+          "k_proxy": 0.0,
+          "encoded_len": 10
+        }
+      ]
+    },
+    {
+      "instance": 1,
+      "n": 30,
+      "edge_prob": 0.2,
+      "n_edges": 116,
+      "solved": true,
+      "budget_exhausted": false,
+      "decisions": 1294,
+      "steps": 1295,
+      "time_ms": 3.2907,
+      "n_k_records": 259,
+      "k_initial": 0.765,
+      "k_final": 0.0,
+      "k_mean": 0.7806,
+      "k_slope": -0.002965,
+      "k_trend": "decreasing",
+      "k_trajectory_head": [
+        {
+          "step": 5,
+          "depth": 5,
+          "k_proxy": 0.764977,
+          "encoded_len": 217
+        },
+        {
+          "step": 10,
+          "depth": 10,
+          "k_proxy": 0.821918,
+          "encoded_len": 146
+        },
+        {
+          "step": 15,
+          "depth": 15,
+          "k_proxy": 0.955556,
+          "encoded_len": 90
+        },
+        {
+          "step": 20,
+          "depth": 20,
+          "k_proxy": 1.270833,
+          "encoded_len": 48
+        },
+        {
+          "step": 25,
+          "depth": 25,
+          "k_proxy": 2.0,
+          "encoded_len": 20
+        },
+        {
+          "step": 30,
+          "depth": 27,
+          "k_proxy": 0.0,
+          "encoded_len": 10
+        },
+        {
+          "step": 35,
+          "depth": 29,
+          "k_proxy": 0.0,
+          "encoded_len": 4
+        },
+        {
+          "step": 40,
+          "depth": 24,
+          "k_proxy": 1.954545,
+          "encoded_len": 22
+        },
+        {
+          "step": 45,
+          "depth": 25,
+          "k_proxy": 0.0,
+          "encoded_len": 17
+        },
+        {
+          "step": 50,
+          "depth": 23,
+          "k_proxy": 1.75,
+          "encoded_len": 28
+        },
+        {
+          "step": 55,
+          "depth": 27,
+          "k_proxy": 0.0,
+          "encoded_len": 10
+        },
+        {
+          "step": 60,
+          "depth": 25,
+          "k_proxy": 1.952381,
+          "encoded_len": 21
+        },
+        {
+          "step": 65,
+          "depth": 29,
+          "k_proxy": 0.0,
+          "encoded_len": 4
+        },
+        {
+          "step": 70,
+          "depth": 27,
+          "k_proxy": 0.0,
+          "encoded_len": 9
+        },
+        {
+          "step": 75,
+          "depth": 22,
+          "k_proxy": 1.472222,
+          "encoded_len": 36
+        },
+        {
+          "step": 80,
+          "depth": 27,
+          "k_proxy": 0.0,
+          "encoded_len": 12
+        },
+        {
+          "step": 85,
+          "depth": 26,
+          "k_proxy": 0.0,
+          "encoded_len": 14
+        },
+        {
+          "step": 90,
+          "depth": 23,
+          "k_proxy": 1.689655,
+          "encoded_len": 29
+        },
+        {
+          "step": 95,
+          "depth": 27,
+          "k_proxy": 0.0,
+          "encoded_len": 8
+        },
+        {
+          "step": 100,
+          "depth": 26,
+          "k_proxy": 0.0,
+          "encoded_len": 10
+        }
+      ]
+    },
+    {
+      "instance": 2,
+      "n": 30,
+      "edge_prob": 0.2,
+      "n_edges": 115,
+      "solved": false,
+      "budget_exhausted": true,
+      "decisions": 30000,
+      "steps": 30001,
+      "time_ms": 84.1488,
+      "n_k_records": 6000,
+      "k_initial": 0.7804,
+      "k_final": 1.6333,
+      "k_mean": 0.8259,
+      "k_slope": 0.000142,
+      "k_trend": "increasing",
+      "k_trajectory_head": [
+        {
+          "step": 5,
+          "depth": 5,
+          "k_proxy": 0.780374,
+          "encoded_len": 214
+        },
+        {
+          "step": 10,
+          "depth": 10,
+          "k_proxy": 0.838028,
+          "encoded_len": 142
+        },
+        {
+          "step": 15,
+          "depth": 15,
+          "k_proxy": 0.97561,
+          "encoded_len": 82
+        },
+        {
+          "step": 20,
+          "depth": 20,
+          "k_proxy": 1.378378,
+          "encoded_len": 37
+        },
+        {
+          "step": 25,
+          "depth": 22,
+          "k_proxy": 1.875,
+          "encoded_len": 24
+        },
+        {
+          "step": 30,
+          "depth": 23,
+          "k_proxy": 1.954545,
+          "encoded_len": 22
+        },
+        {
+          "step": 35,
+          "depth": 20,
+          "k_proxy": 1.358974,
+          "encoded_len": 39
+        },
+        {
+          "step": 40,
+          "depth": 23,
+          "k_proxy": 2.0,
+          "encoded_len": 21
+        },
+        {
+          "step": 45,
+          "depth": 25,
+          "k_proxy": 0.0,
+          "encoded_len": 15
+        },
+        {
+          "step": 50,
+          "depth": 20,
+          "k_proxy": 1.35,
+          "encoded_len": 40
+        },
+        {
+          "step": 55,
+          "depth": 24,
+          "k_proxy": 0.0,
+          "encoded_len": 16
+        },
+        {
+          "step": 60,
+          "depth": 23,
+          "k_proxy": 1.913043,
+          "encoded_len": 23
+        },
+        {
+          "step": 65,
+          "depth": 22,
+          "k_proxy": 1.689655,
+          "encoded_len": 29
+        },
+        {
+          "step": 70,
+          "depth": 25,
+          "k_proxy": 0.0,
+          "encoded_len": 14
+        },
+        {
+          "step": 75,
+          "depth": 27,
+          "k_proxy": 0.0,
+          "encoded_len": 8
+        },
+        {
+          "step": 80,
+          "depth": 21,
+          "k_proxy": 1.459459,
+          "encoded_len": 37
+        },
+        {
+          "step": 85,
+          "depth": 24,
+          "k_proxy": 2.05,
+          "encoded_len": 20
+        },
+        {
+          "step": 90,
+          "depth": 23,
+          "k_proxy": 1.913043,
+          "encoded_len": 23
+        },
+        {
+          "step": 95,
+          "depth": 24,
+          "k_proxy": 2.05,
+          "encoded_len": 20
+        },
+        {
+          "step": 100,
+          "depth": 25,
+          "k_proxy": 0.0,
+          "encoded_len": 17
+        }
+      ]
+    }
+  ]
+}

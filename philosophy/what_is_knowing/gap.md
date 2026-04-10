@@ -53,3 +53,6 @@ After the attempt, three genuine open questions remain:
 ## Status
 
 Phase 1 done. Further work would target R1 (the compression reduction of A-knowing) most profitably.
+
+**Odd-track (Cycles 14):** A-knowing gap = 0.021 at GPT-4 (near-CLOSED; GPT-4-turbo surpasses). r(coverage_scarcity, domain_gap)=+0.763, p=0.010 — testimony coverage predicts knowing gap. Reid (non-reductionism) empirically confirmed. P-knowing routes through α/β/γ. See certs/cert_001_a_knowing.md.
+

@@ -1,0 +1,251 @@
+{
+  "parameters": {
+    "N_particles": 100,
+    "box": 1.0,
+    "radius": 0.02,
+    "dt": 0.005,
+    "v_sigma": 1.5,
+    "N_steps": 500,
+    "grid_res": 8,
+    "nmi_rep": 50,
+    "nmi_lag": 20,
+    "seed": 137
+  },
+  "lyapunov_params": {
+    "lambda_per_step": 0.11048455,
+    "epsilon": 1e-08,
+    "t_macro_steps": 166.726,
+    "source": "lyapunov_data.json (hard-disk collisional gas, N=60)"
+  },
+  "calibration": {
+    "vx_rms": 1.4439,
+    "crossing_time_steps": 69.3,
+    "crossing_matches_t_macro": false
+  },
+  "timescales": {
+    "t_macro_lyapunov": 166.7,
+    "t_sat_entropy_95pct": 41,
+    "t_NMI_half_decay": 1,
+    "S_min": 4.881077,
+    "S_max": 5.771014,
+    "delta_S": 0.889937,
+    "NMI_mem_initial": 0.752809,
+    "NMI_mem_equil_floor": 0.41,
+    "NMI_mem_at_t_macro": 0.407767
+  },
+  "monotonicity": {
+    "NMI_mem_decrease_fraction": 0.498,
+    "correlation_dS_dNMI_mem": 0.712645
+  },
+  "three_arrows_converge": false,
+  "step_data": [
+    {
+      "t": 0,
+      "S_t": 4.914785,
+      "NMI_mem": 0.752809,
+      "NMI_lag20": 0.39,
+      "lya_delta": 1e-08,
+      "lya_log": -18.420681
+    },
+    {
+      "t": 20,
+      "S_t": 5.460819,
+      "NMI_mem": 0.39,
+      "NMI_lag20": 0.45098,
+      "lya_delta": 9.11e-08,
+      "lya_log": -16.21099
+    },
+    {
+      "t": 40,
+      "S_t": 5.678563,
+      "NMI_mem": 0.382353,
+      "NMI_lag20": 0.45098,
+      "lya_delta": 8.304e-07,
+      "lya_log": -14.001299
+    },
+    {
+      "t": 60,
+      "S_t": 5.571014,
+      "NMI_mem": 0.401961,
+      "NMI_lag20": 0.475728,
+      "lya_delta": 7.5678e-06,
+      "lya_log": -11.791608
+    },
+    {
+      "t": 80,
+      "S_t": 5.672271,
+      "NMI_mem": 0.398058,
+      "NMI_lag20": 0.417476,
+      "lya_delta": 6.89646e-05,
+      "lya_log": -9.581917
+    },
+    {
+      "t": 100,
+      "S_t": 5.523465,
+      "NMI_mem": 0.378641,
+      "NMI_lag20": 0.433962,
+      "lya_delta": 0.0006284678,
+      "lya_log": -7.372226
+    },
+    {
+      "t": 120,
+      "S_t": 5.554918,
+      "NMI_mem": 0.386792,
+      "NMI_lag20": 0.45283,
+      "lya_delta": 0.0057271644,
+      "lya_log": -5.162535
+    },
+    {
+      "t": 140,
+      "S_t": 5.568367,
+      "NMI_mem": 0.394231,
+      "NMI_lag20": 0.423077,
+      "lya_delta": 0.0521910767,
+      "lya_log": -2.952844
+    },
+    {
+      "t": 160,
+      "S_t": 5.592271,
+      "NMI_mem": 0.372549,
+      "NMI_lag20": 0.45098,
+      "lya_delta": 0.4756120662,
+      "lya_log": -0.743153
+    },
+    {
+      "t": 180,
+      "S_t": 5.61327,
+      "NMI_mem": 0.382353,
+      "NMI_lag20": 0.441176,
+      "lya_delta": 1.0,
+      "lya_log": 1.466538
+    },
+    {
+      "t": 200,
+      "S_t": 5.655916,
+      "NMI_mem": 0.4,
+      "NMI_lag20": 0.425743,
+      "lya_delta": 1.0,
+      "lya_log": 3.676229
+    },
+    {
+      "t": 220,
+      "S_t": 5.578172,
+      "NMI_mem": 0.366337,
+      "NMI_lag20": 0.451923,
+      "lya_delta": 1.0,
+      "lya_log": 5.88592
+    },
+    {
+      "t": 240,
+      "S_t": 5.648367,
+      "NMI_mem": 0.403846,
+      "NMI_lag20": 0.451923,
+      "lya_delta": 1.0,
+      "lya_log": 8.095611
+    },
+    {
+      "t": 260,
+      "S_t": 5.675916,
+      "NMI_mem": 0.386139,
+      "NMI_lag20": 0.442308,
+      "lya_delta": 1.0,
+      "lya_log": 10.305302
+    },
+    {
+      "t": 280,
+      "S_t": 5.614918,
+      "NMI_mem": 0.394231,
+      "NMI_lag20": 0.432692,
+      "lya_delta": 1.0,
+      "lya_log": 12.514993
+    },
+    {
+      "t": 300,
+      "S_t": 5.525721,
+      "NMI_mem": 0.365385,
+      "NMI_lag20": 0.442308,
+      "lya_delta": 1.0,
+      "lya_log": 14.724684
+    },
+    {
+      "t": 320,
+      "S_t": 5.613919,
+      "NMI_mem": 0.365385,
+      "NMI_lag20": 0.457143,
+      "lya_delta": 1.0,
+      "lya_log": 16.934375
+    },
+    {
+      "t": 340,
+      "S_t": 5.544722,
+      "NMI_mem": 0.4,
+      "NMI_lag20": 0.419048,
+      "lya_delta": 1.0,
+      "lya_log": 19.144066
+    },
+    {
+      "t": 360,
+      "S_t": 5.648367,
+      "NMI_mem": 0.393939,
+      "NMI_lag20": 0.485714,
+      "lya_delta": 1.0,
+      "lya_log": 21.353757
+    },
+    {
+      "t": 380,
+      "S_t": 5.654918,
+      "NMI_mem": 0.371429,
+      "NMI_lag20": 0.457143,
+      "lya_delta": 1.0,
+      "lya_log": 23.563448
+    },
+    {
+      "t": 400,
+      "S_t": 5.520819,
+      "NMI_mem": 0.394231,
+      "NMI_lag20": 0.480769,
+      "lya_delta": 1.0,
+      "lya_log": 25.773139
+    },
+    {
+      "t": 420,
+      "S_t": 5.663465,
+      "NMI_mem": 0.421569,
+      "NMI_lag20": 0.446602,
+      "lya_delta": 1.0,
+      "lya_log": 27.98283
+    },
+    {
+      "t": 440,
+      "S_t": 5.662467,
+      "NMI_mem": 0.38835,
+      "NMI_lag20": 0.475728,
+      "lya_delta": 1.0,
+      "lya_log": 30.192521
+    },
+    {
+      "t": 460,
+      "S_t": 5.602467,
+      "NMI_mem": 0.378641,
+      "NMI_lag20": 0.446602,
+      "lya_delta": 1.0,
+      "lya_log": 32.402212
+    },
+    {
+      "t": 480,
+      "S_t": 5.623465,
+      "NMI_mem": 0.372549,
+      "NMI_lag20": 0.460784,
+      "lya_delta": 1.0,
+      "lya_log": 34.611903
+    },
+    {
+      "t": 500,
+      "S_t": 5.69327,
+      "NMI_mem": 0.41,
+      "NMI_lag20": null,
+      "lya_delta": 1.0,
+      "lya_log": 36.821594
+    }
+  ]
+}

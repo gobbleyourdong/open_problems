@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "script": "numerics/k_debt_payments.py",
+    "date": "2026-04-09",
+    "baseline_K_SM_GR_bits": 21834
+  },
+  "section1_gw_k_debt_payments": {
+    "o3_events": 90,
+    "bayes_factor_per_event_conservative": 10.0,
+    "bits_per_event": 3.321928094887362,
+    "bits_paid_o3": 298.97352853986257,
+    "lqg_k_debt_bits": 1000,
+    "fraction_paid_o3": 0.2989735285398626,
+    "remaining_debt_after_o3_bits": 701.0264714601374,
+    "o4_rate_events_per_year": 300,
+    "events_needed_total": 302,
+    "events_needed_o4": 212,
+    "years_o4_to_clear_debt": 0.7066666666666667,
+    "polarisation_bits": 66.43856189774725,
+    "dispersion_bits_conservative": 90.0,
+    "sensitivity_table": [
+      {
+        "bf": 2,
+        "bits_per_event": 1.0,
+        "events_to_clear": 1000,
+        "o4_years": 3.033333333333333
+      },
+      {
+        "bf": 5,
+        "bits_per_event": 2.321928094887362,
+        "events_to_clear": 431,
+        "o4_years": 1.1366666666666667
+      },
+      {
+        "bf": 10,
+        "bits_per_event": 3.321928094887362,
+        "events_to_clear": 302,
+        "o4_years": 0.7066666666666667
+      },
+      {
+        "bf": 100,
+        "bits_per_event": 6.643856189774724,
+        "events_to_clear": 151,
+        "o4_years": 0.20333333333333334
+      },
+      {
+        "bf": 1000,
+        "bits_per_event": 9.965784284662087,
+        "events_to_clear": 101,
+        "o4_years": 0.03666666666666667
+      }
+    ]
+  },
+  "section2_multiverse_k_costs": [
+    {
+      "level": "SM+GR (baseline)",
+      "K_laws_bits": 21834,
+      "K_extra_bits": 0,
+      "K_total_bits": 21834,
+      "MDL_status": "preferred (K-minimum)",
+      "rationale": "21,834-bit SM+GR description. All observations consistent. No extra specification needed."
+    },
+    {
+      "level": "Level I (distant Hubble volumes)",
+      "K_laws_bits": 21834,
+      "K_extra_bits": 0,
+      "K_total_bits": 21834,
+      "MDL_status": "K-tied with SM+GR",
+      "rationale": "Same laws, same constants, same program. Level-I regions are just different outputs of the same K-short program. K_extra = 0. Cannot be observed: no MDL advantage or penalty."
+    },
+    {
+      "level": "Level II (eternal inflation / landscape)",
+      "K_laws_bits": 21834,
+      "K_extra_bits": 2161,
+      "K_total_bits": 23995,
+      "MDL_status": "K-more expensive (+2161 bits vs SM+GR)",
+      "rationale": "Must encode the inflaton potential or string landscape that generates the distribution of physical constants. Best case K_extra \u2248 1000-2161 bits. Pays off only if it explains fine-tuning of Lambda or Higgs mass \u2014 which SM+GR cannot explain. Tentatively not preferred until that prediction is made precise."
+    },
+    {
+      "level": "Level III (MWI / all quantum branches)",
+      "K_laws_bits": 21834,
+      "K_extra_bits": 0,
+      "K_total_bits": 21834,
+      "MDL_status": "K-tied with SM+GR (K-preferred over Copenhagen by 330-530 bits)",
+      "rationale": "Branching is deterministic under the unitary evolution already in SM+GR. No extra K needed to specify MWI. MWI saves the Copenhagen 'collapse' postulate (~330-530 bits of extra K in Copenhagen). K(MWI) = K(SM+GR) = 21,834 bits. K(Copenhagen) \u2248 22,164-22,364 bits."
+    },
+    {
+      "level": "Level IV (mathematical multiverse)",
+      "K_laws_bits": 21834,
+      "K_extra_bits": 500,
+      "K_total_bits": 22334,
+      "MDL_status": "K-more expensive (+500 bits vs SM+GR)",
+      "rationale": "Must specify what 'all consistent mathematical structures' means. Requires encoding foundation axioms (ZFC? higher-order logic?) and a selection/measure principle over all such structures. K_extra \u2248 500 bits. Makes no new falsifiable predictions beyond SM+GR in any accessible region. Not MDL-preferred."
+    }
+  ],
+  "section3_simulation_hypothesis": [
+    {
+      "name": "Conservative (deterministic laws, simple layer)",
+      "K_sim_physics": 21834,
+      "K_layer": 500,
+      "K_selection": 0,
+      "K_total": 22334,
+      "K_extra_vs_SMGR": 500
+    },
+    {
+      "name": "Mid-range (deterministic laws, complex layer)",
+      "K_sim_physics": 21834,
+      "K_layer": 10000,
+      "K_selection": 0,
+      "K_total": 31834,
+      "K_extra_vs_SMGR": 10000
+    },
+    {
+      "name": "Pessimistic (tabulated laws, complex layer)",
+      "K_sim_physics": 21834,
+      "K_layer": 10000,
+      "K_selection": 21834,
+      "K_total": 53668,
+      "K_extra_vs_SMGR": 31834
+    }
+  ],
+  "section4_unified_table": [
+    {
+      "framework": "SM+GR (baseline)",
+      "K_total_bits": 21834,
+      "K_extra_bits": 0,
+      "MDL_status": "MDL winner \u2014 K-minimum"
+    },
+    {
+      "framework": "SM+GR + Level I multiverse",
+      "K_total_bits": 21834,
+      "K_extra_bits": 0,
+      "MDL_status": "K-tied (same program, unobservable extra regions)"
+    },
+    {
+      "framework": "SM+GR + MWI (Level III)",
+      "K_total_bits": 21834,
+      "K_extra_bits": 0,
+      "MDL_status": "K-tied; preferred over Copenhagen by 330-530 bits"
+    },
+    {
+      "framework": "Causal Set Theory",
+      "K_total_bits": 21934,
+      "K_extra_bits": 100,
+      "MDL_status": "K-debt: +100 bits; needs 30/30 unique correct predictions"
+    },
+    {
+      "framework": "CCC (Penrose)",
+      "K_total_bits": 22300,
+      "K_extra_bits": 466,
+      "MDL_status": "K-debt: +466 bits; Hawking point evidence needed"
+    },
+    {
+      "framework": "SM+GR + Copenhagen QM",
+      "K_total_bits": 22164,
+      "K_extra_bits": 330,
+      "MDL_status": "K-disfavoured vs MWI by 330 bits (collapse postulate overhead)"
+    },
+    {
+      "framework": "SM+GR + Level IV multiverse",
+      "K_total_bits": 22334,
+      "K_extra_bits": 500,
+      "MDL_status": "K-debt: +500 bits; no unique predictions"
+    },
+    {
+      "framework": "LQG",
+      "K_total_bits": 22834,
+      "K_extra_bits": 1000,
+      "MDL_status": "K-debt: +1000 bits; ~302 GW events to clear (O4 ~1 yr)"
+    },
+    {
+      "framework": "SM+GR + Simulation hypothesis",
+      "K_total_bits": 22334,
+      "K_extra_bits": 500,
+      "MDL_status": "K-debt: \u2265+500 bits; no confirmed unique predictions"
+    },
+    {
+      "framework": "SM+GR + Level II (landscape)",
+      "K_total_bits": 23995,
+      "K_extra_bits": 2161,
+      "MDL_status": "K-debt: +2161 bits; may explain Lambda fine-tuning"
+    },
+    {
+      "framework": "String/M-theory",
+      "K_total_bits": 23995,
+      "K_extra_bits": 2161,
+      "MDL_status": "K-debt: +2161 bits; no confirmed unique predictions"
+    },
+    {
+      "framework": "Simulation (pessimistic)",
+      "K_total_bits": 53668,
+      "K_extra_bits": 31834,
+      "MDL_status": "K-debt: +~32k bits; deeply disfavoured"
+    }
+  ],
+  "key_findings": {
+    "o3_bits_paid_against_lqg": 298.97352853986257,
+    "lqg_fraction_paid_by_o3": 0.2989735285398626,
+    "o4_years_to_clear_lqg_debt": 0.7066666666666667,
+    "k_minimal_multiverse_levels": [
+      "Level I",
+      "Level III (MWI)"
+    ],
+    "simulation_k_extra_min_bits": 500,
+    "mdl_winner": "SM+GR",
+    "mdl_winner_K_bits": 21834
+  }
+}

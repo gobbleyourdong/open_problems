@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "script": "numerics/vacuum_transitions.py",
+    "generated": "2026-04-09",
+    "description": "Vacuum phase transitions K-costs, Landauer costs, and why K_laws != 0"
+  },
+  "physical_constants": {
+    "k_B_J_K": 1.38e-23,
+    "eV_to_J": 1.60218e-19,
+    "GeV_to_J": 1.60218e-10,
+    "MeV_to_J": 1.60218e-13,
+    "T_EW_GeV": 160.0,
+    "T_QCD_MeV": 170.0,
+    "T_EW_K": 1857599999999999.8,
+    "T_QCD_K": 1973700000000.0
+  },
+  "phase_transitions": [
+    {
+      "name": "Electroweak symmetry breaking",
+      "label": "EW",
+      "T_K": 1857599999999999.8,
+      "t_s": 1e-12,
+      "g_star_before": 106.75,
+      "g_star_after": 106.75,
+      "delta_F_J_m3": -2.4818665327008745e+45,
+      "delta_S_J_m3_K": 1.3360607949509446e+30,
+      "delta_S_bits_per_m3": 1.3967596255086188e+53,
+      "landauer_E_per_bit_J": 1.7768744795992528e-08,
+      "landauer_cost_J_m3": 2.4818665327008742e+45,
+      "K_vacuum_before_bits": 50,
+      "K_vacuum_after_bits": 150,
+      "K_potential_bits": 100,
+      "delta_K_bits": 100
+    },
+    {
+      "name": "QCD confinement / chiral symmetry breaking",
+      "label": "QCD",
+      "T_K": 1973700000000.0,
+      "t_s": 1e-06,
+      "g_star_before": 61.75,
+      "g_star_after": 17.25,
+      "delta_F_J_m3": -8.498994844437218e+34,
+      "delta_S_J_m3_K": 4.30612293886468e+22,
+      "delta_S_bits_per_m3": 4.501755224172668e+45,
+      "landauer_E_per_bit_J": 1.8879291345742062e-11,
+      "landauer_cost_J_m3": 8.498994844437217e+34,
+      "K_vacuum_before_bits": 100,
+      "K_vacuum_after_bits": 400,
+      "K_potential_bits": 300,
+      "delta_K_bits": 300
+    }
+  ],
+  "inflation": {
+    "model": "chaotic inflation V(phi)=m^2 phi^2/2",
+    "N_efolds": 60,
+    "expansion_per_dimension": 1.142e+26,
+    "m_inflaton_Planck_units": 1e-05,
+    "delta_m_Planck_units": 1e-06,
+    "K_m_bits": 3.3219280948873626,
+    "K_inflation_Lagrangian_bits": 200,
+    "K_inflation_total_bits": 203.32192809488737,
+    "problems_solved": 3,
+    "K_efficiency_problems_per_bit": 0.014754925984175911,
+    "bits_per_problem": 67.77397603162913,
+    "K_saving_vs_3_separate_explanations_bits": 96.67807190511263
+  },
+  "something_vs_nothing": {
+    "K_SM_vacuum_bits": 21616,
+    "K_nothing_bits": 0,
+    "delta_K_existence_bits": 21616,
+    "explanations": [
+      {
+        "label": "a",
+        "name": "Anthropic selection",
+        "K_explanation_bits": 50,
+        "K_obs_given_explanation_bits": 10000,
+        "K_MDL_total_bits": 10050,
+        "resolves_delta_K": false,
+        "verdict": "Viable but incomplete: explains why K \u2265 K_min, not why K = 21616 specifically. Does not explain the fine structure of the SM."
+      },
+      {
+        "label": "b",
+        "name": "Mathematical Universe Hypothesis (Tegmark MUH)",
+        "K_explanation_bits": 30,
+        "K_obs_given_explanation_bits": 100,
+        "K_MDL_total_bits": 130,
+        "resolves_delta_K": true,
+        "verdict": "K-cheapest explanation (~30 bits). Predicts the universe has the minimum K consistent with observers \u2014 testable in principle if we could enumerate all observer-compatible structures. Does not explain the 21616-bit value; claims it is the inevitable minimum."
+      },
+      {
+        "label": "c",
+        "name": "Random selection among consistent structures",
+        "K_explanation_bits": 500,
+        "K_obs_given_explanation_bits": 21616,
+        "K_MDL_total_bits": 22116,
+        "resolves_delta_K": false,
+        "verdict": "K-expensive (~500 bits of meta-specification). Does not resolve the question \u2014 it merely defers it to 'which meta-distribution?' K-MDL verdict: dominated by explanations (a) and (b)."
+      }
+    ],
+    "K_MDL_winner": "b_MUH",
+    "K_MDL_winner_total_bits": 130,
+    "K_simplest_account_bits": 130,
+    "MUH_K_compression_bits": 21486
+  },
+  "k_budget_summary": {
+    "K_nothing_bits": 0,
+    "K_after_inflation_bits": 203.32192809488737,
+    "K_after_EW_bits": 303.32192809488737,
+    "K_after_QCD_bits": 603.3219280948874,
+    "K_SM_vacuum_total_bits": 21616,
+    "K_state_given_laws_after_transitions_bits": 603.3219280948874,
+    "K_remainder_in_laws_bits": 21012.678071905113,
+    "Landauer_cost_EW_J_m3": 2.4818665327008742e+45,
+    "Landauer_cost_QCD_J_m3": 8.498994844437217e+34
+  },
+  "main_finding": "The SM vacuum has K = 21616 bits vs K = 0 for true nothing. Phase transitions add \u0394K = +100 (EW) and +300 (QCD) bits to the state description. Inflation costs 203 bits and solves 3 problems at 0.0148 problems/bit. The K-MDL-preferred answer to 'why something rather than nothing?' is the Mathematical Universe Hypothesis (~130 bits total), which compresses the existence question by ~21486 bits vs a raw SM description."
+}

@@ -1,0 +1,741 @@
+{
+  "meta": {
+    "script": "sat_vs_ca_kchange.py",
+    "date": "2026-04-09",
+    "n_vars": 30,
+    "seeds": [
+      17,
+      53,
+      103
+    ],
+    "n_instances": 3,
+    "elapsed_s": 0.03,
+    "formula": "K_change = NCD(x,y) \u00d7 min(C(x),C(y)); norm by mean gzip-K"
+  },
+  "ca_baselines": {
+    "Rule 184": {
+      "wolfram_class": 2,
+      "desc": "periodic",
+      "mean_kchange_abs": 8.77284,
+      "mean_gzip_K": 26.93,
+      "norm_kchange": 0.3258
+    },
+    "Rule 110": {
+      "wolfram_class": 4,
+      "desc": "universal",
+      "mean_kchange_abs": 32.58661,
+      "mean_gzip_K": 44.7,
+      "norm_kchange": 0.729
+    },
+    "Rule 90": {
+      "wolfram_class": 3,
+      "desc": "additive chaotic",
+      "mean_kchange_abs": 37.968351,
+      "mean_gzip_K": 30.57,
+      "norm_kchange": 1.242
+    },
+    "Rule 30": {
+      "wolfram_class": 3,
+      "desc": "chaotic",
+      "mean_kchange_abs": 37.901465,
+      "mean_gzip_K": 57.22,
+      "norm_kchange": 0.6624
+    }
+  },
+  "ca_class_norms": {
+    "2": 0.3258,
+    "4": 0.729,
+    "3": 0.9522
+  },
+  "hard_sat": {
+    "alpha": 4.3,
+    "n_clauses": 129,
+    "mean_kchange": 55.7562,
+    "mean_gz_state": 229.79,
+    "mean_norm_kc": 0.273178,
+    "n_solved": 3,
+    "wolfram_class": 2,
+    "classification": "periodic",
+    "instances": [
+      {
+        "seed": 17,
+        "n_vars": 30,
+        "n_clauses": 129,
+        "alpha": 4.3,
+        "label": "Hard SAT \u03b1=4.3",
+        "solved": true,
+        "steps": 18,
+        "n_traj": 12,
+        "mean_kchange": 61.1639,
+        "mean_gz_state": 228.0,
+        "mean_norm_kc": 0.292009,
+        "trajectory": [
+          {
+            "step": 2,
+            "ncd": 0.176339,
+            "k_change": 72.1228,
+            "cx": 448,
+            "cy": 409,
+            "mean_gz": 428.5,
+            "norm_kc": 0.168315
+          },
+          {
+            "step": 3,
+            "ncd": 0.332518,
+            "k_change": 112.3912,
+            "cx": 409,
+            "cy": 338,
+            "mean_gz": 373.5,
+            "norm_kc": 0.300914
+          },
+          {
+            "step": 4,
+            "ncd": 0.627219,
+            "k_change": 117.9172,
+            "cx": 338,
+            "cy": 188,
+            "mean_gz": 263.0,
+            "norm_kc": 0.448354
+          },
+          {
+            "step": 7,
+            "ncd": 0.618421,
+            "k_change": 116.2632,
+            "cx": 188,
+            "cy": 304,
+            "mean_gz": 246.0,
+            "norm_kc": 0.472614
+          },
+          {
+            "step": 9,
+            "ncd": 0.184211,
+            "k_change": 51.5789,
+            "cx": 304,
+            "cy": 280,
+            "mean_gz": 292.0,
+            "norm_kc": 0.17664
+          },
+          {
+            "step": 11,
+            "ncd": 0.160714,
+            "k_change": 42.2679,
+            "cx": 280,
+            "cy": 263,
+            "mean_gz": 271.5,
+            "norm_kc": 0.155683
+          },
+          {
+            "step": 12,
+            "ncd": 0.13308,
+            "k_change": 33.1369,
+            "cx": 263,
+            "cy": 249,
+            "mean_gz": 256.0,
+            "norm_kc": 0.129441
+          },
+          {
+            "step": 13,
+            "ncd": 0.160643,
+            "k_change": 37.4297,
+            "cx": 249,
+            "cy": 233,
+            "mean_gz": 241.0,
+            "norm_kc": 0.15531
+          },
+          {
+            "step": 14,
+            "ncd": 0.60515,
+            "k_change": 83.5107,
+            "cx": 233,
+            "cy": 138,
+            "mean_gz": 185.5,
+            "norm_kc": 0.450193
+          },
+          {
+            "step": 15,
+            "ncd": 0.673913,
+            "k_change": 41.1087,
+            "cx": 138,
+            "cy": 61,
+            "mean_gz": 99.5,
+            "norm_kc": 0.413153
+          },
+          {
+            "step": 16,
+            "ncd": 0.508197,
+            "k_change": 18.2951,
+            "cx": 61,
+            "cy": 36,
+            "mean_gz": 48.5,
+            "norm_kc": 0.377218
+          },
+          {
+            "step": 17,
+            "ncd": 0.305556,
+            "k_change": 7.9444,
+            "cx": 36,
+            "cy": 26,
+            "mean_gz": 31.0,
+            "norm_kc": 0.256272
+          }
+        ],
+        "time_ms": 6.969
+      },
+      {
+        "seed": 53,
+        "n_vars": 30,
+        "n_clauses": 129,
+        "alpha": 4.3,
+        "label": "Hard SAT \u03b1=4.3",
+        "solved": true,
+        "steps": 8,
+        "n_traj": 6,
+        "mean_kchange": 47.0714,
+        "mean_gz_state": 234.25,
+        "mean_norm_kc": 0.220532,
+        "trajectory": [
+          {
+            "step": 2,
+            "ncd": 0.204082,
+            "k_change": 81.2245,
+            "cx": 441,
+            "cy": 398,
+            "mean_gz": 419.5,
+            "norm_kc": 0.193622
+          },
+          {
+            "step": 3,
+            "ncd": 0.123116,
+            "k_change": 46.5377,
+            "cx": 398,
+            "cy": 378,
+            "mean_gz": 388.0,
+            "norm_kc": 0.119942
+          },
+          {
+            "step": 4,
+            "ncd": 0.298942,
+            "k_change": 94.7646,
+            "cx": 378,
+            "cy": 317,
+            "mean_gz": 347.5,
+            "norm_kc": 0.272704
+          },
+          {
+            "step": 5,
+            "ncd": 0.892744,
+            "k_change": 41.959,
+            "cx": 317,
+            "cy": 47,
+            "mean_gz": 182.0,
+            "norm_kc": 0.230544
+          },
+          {
+            "step": 6,
+            "ncd": 0.382979,
+            "k_change": 12.2553,
+            "cx": 47,
+            "cy": 32,
+            "mean_gz": 39.5,
+            "norm_kc": 0.310261
+          },
+          {
+            "step": 7,
+            "ncd": 0.21875,
+            "k_change": 5.6875,
+            "cx": 32,
+            "cy": 26,
+            "mean_gz": 29.0,
+            "norm_kc": 0.196121
+          }
+        ],
+        "time_ms": 3.65
+      },
+      {
+        "seed": 103,
+        "n_vars": 30,
+        "n_clauses": 129,
+        "alpha": 4.3,
+        "label": "Hard SAT \u03b1=4.3",
+        "solved": true,
+        "steps": 14,
+        "n_traj": 8,
+        "mean_kchange": 59.0333,
+        "mean_gz_state": 227.12,
+        "mean_norm_kc": 0.306992,
+        "trajectory": [
+          {
+            "step": 2,
+            "ncd": 0.124434,
+            "k_change": 52.7602,
+            "cx": 442,
+            "cy": 424,
+            "mean_gz": 433.0,
+            "norm_kc": 0.121848
+          },
+          {
+            "step": 3,
+            "ncd": 0.242925,
+            "k_change": 90.6108,
+            "cx": 424,
+            "cy": 373,
+            "mean_gz": 398.5,
+            "norm_kc": 0.22738
+          },
+          {
+            "step": 4,
+            "ncd": 0.184987,
+            "k_change": 64.0054,
+            "cx": 373,
+            "cy": 346,
+            "mean_gz": 359.5,
+            "norm_kc": 0.17804
+          },
+          {
+            "step": 5,
+            "ncd": 0.595376,
+            "k_change": 122.052,
+            "cx": 346,
+            "cy": 205,
+            "mean_gz": 275.5,
+            "norm_kc": 0.44302
+          },
+          {
+            "step": 8,
+            "ncd": 0.717073,
+            "k_change": 78.161,
+            "cx": 205,
+            "cy": 109,
+            "mean_gz": 157.0,
+            "norm_kc": 0.497841
+          },
+          {
+            "step": 10,
+            "ncd": 0.513761,
+            "k_change": 34.9358,
+            "cx": 109,
+            "cy": 68,
+            "mean_gz": 88.5,
+            "norm_kc": 0.394755
+          },
+          {
+            "step": 12,
+            "ncd": 0.25,
+            "k_change": 14.5,
+            "cx": 68,
+            "cy": 58,
+            "mean_gz": 63.0,
+            "norm_kc": 0.230159
+          },
+          {
+            "step": 13,
+            "ncd": 0.586207,
+            "k_change": 15.2414,
+            "cx": 58,
+            "cy": 26,
+            "mean_gz": 42.0,
+            "norm_kc": 0.36289
+          }
+        ],
+        "time_ms": 4.884
+      }
+    ]
+  },
+  "easy_sat": {
+    "alpha": 2.0,
+    "n_clauses": 60,
+    "mean_kchange": 25.6558,
+    "mean_gz_state": 120.32,
+    "mean_norm_kc": 0.229988,
+    "n_solved": 3,
+    "wolfram_class": 2,
+    "classification": "periodic",
+    "instances": [
+      {
+        "seed": 17,
+        "n_vars": 30,
+        "n_clauses": 60,
+        "alpha": 2.0,
+        "label": "Easy SAT \u03b1=2.0",
+        "solved": true,
+        "steps": 16,
+        "n_traj": 14,
+        "mean_kchange": 23.5788,
+        "mean_gz_state": 104.64,
+        "mean_norm_kc": 0.222993,
+        "trajectory": [
+          {
+            "step": 2,
+            "ncd": 0.223684,
+            "k_change": 45.1842,
+            "cx": 228,
+            "cy": 202,
+            "mean_gz": 215.0,
+            "norm_kc": 0.210159
+          },
+          {
+            "step": 3,
+            "ncd": 0.222772,
+            "k_change": 41.2129,
+            "cx": 202,
+            "cy": 185,
+            "mean_gz": 193.5,
+            "norm_kc": 0.212986
+          },
+          {
+            "step": 4,
+            "ncd": 0.27027,
+            "k_change": 42.7027,
+            "cx": 185,
+            "cy": 158,
+            "mean_gz": 171.5,
+            "norm_kc": 0.248995
+          },
+          {
+            "step": 5,
+            "ncd": 0.177215,
+            "k_change": 25.8734,
+            "cx": 158,
+            "cy": 146,
+            "mean_gz": 152.0,
+            "norm_kc": 0.17022
+          },
+          {
+            "step": 6,
+            "ncd": 0.226027,
+            "k_change": 30.2877,
+            "cx": 146,
+            "cy": 134,
+            "mean_gz": 140.0,
+            "norm_kc": 0.216341
+          },
+          {
+            "step": 7,
+            "ncd": 0.365672,
+            "k_change": 39.4925,
+            "cx": 134,
+            "cy": 108,
+            "mean_gz": 121.0,
+            "norm_kc": 0.326385
+          },
+          {
+            "step": 8,
+            "ncd": 0.231481,
+            "k_change": 21.7593,
+            "cx": 108,
+            "cy": 94,
+            "mean_gz": 101.0,
+            "norm_kc": 0.215438
+          },
+          {
+            "step": 9,
+            "ncd": 0.276596,
+            "k_change": 21.5745,
+            "cx": 94,
+            "cy": 78,
+            "mean_gz": 86.0,
+            "norm_kc": 0.250866
+          },
+          {
+            "step": 10,
+            "ncd": 0.282051,
+            "k_change": 17.7692,
+            "cx": 78,
+            "cy": 63,
+            "mean_gz": 70.5,
+            "norm_kc": 0.252046
+          },
+          {
+            "step": 11,
+            "ncd": 0.206349,
+            "k_change": 11.5556,
+            "cx": 63,
+            "cy": 56,
+            "mean_gz": 59.5,
+            "norm_kc": 0.194211
+          },
+          {
+            "step": 12,
+            "ncd": 0.303571,
+            "k_change": 13.3571,
+            "cx": 56,
+            "cy": 44,
+            "mean_gz": 50.0,
+            "norm_kc": 0.267143
+          },
+          {
+            "step": 13,
+            "ncd": 0.181818,
+            "k_change": 6.9091,
+            "cx": 44,
+            "cy": 38,
+            "mean_gz": 41.0,
+            "norm_kc": 0.168514
+          },
+          {
+            "step": 14,
+            "ncd": 0.210526,
+            "k_change": 6.7368,
+            "cx": 38,
+            "cy": 32,
+            "mean_gz": 35.0,
+            "norm_kc": 0.192481
+          },
+          {
+            "step": 15,
+            "ncd": 0.21875,
+            "k_change": 5.6875,
+            "cx": 32,
+            "cy": 26,
+            "mean_gz": 29.0,
+            "norm_kc": 0.196121
+          }
+        ],
+        "time_ms": 4.142
+      },
+      {
+        "seed": 53,
+        "n_vars": 30,
+        "n_clauses": 60,
+        "alpha": 2.0,
+        "label": "Easy SAT \u03b1=2.0",
+        "solved": true,
+        "steps": 15,
+        "n_traj": 13,
+        "mean_kchange": 23.9065,
+        "mean_gz_state": 111.92,
+        "mean_norm_kc": 0.22498,
+        "trajectory": [
+          {
+            "step": 2,
+            "ncd": 0.230435,
+            "k_change": 46.3174,
+            "cx": 230,
+            "cy": 201,
+            "mean_gz": 215.5,
+            "norm_kc": 0.21493
+          },
+          {
+            "step": 3,
+            "ncd": 0.154229,
+            "k_change": 28.8408,
+            "cx": 201,
+            "cy": 187,
+            "mean_gz": 194.0,
+            "norm_kc": 0.148664
+          },
+          {
+            "step": 4,
+            "ncd": 0.219251,
+            "k_change": 36.615,
+            "cx": 187,
+            "cy": 167,
+            "mean_gz": 177.0,
+            "norm_kc": 0.206864
+          },
+          {
+            "step": 5,
+            "ncd": 0.167665,
+            "k_change": 25.3174,
+            "cx": 167,
+            "cy": 151,
+            "mean_gz": 159.0,
+            "norm_kc": 0.159229
+          },
+          {
+            "step": 6,
+            "ncd": 0.258278,
+            "k_change": 34.0927,
+            "cx": 151,
+            "cy": 132,
+            "mean_gz": 141.5,
+            "norm_kc": 0.240938
+          },
+          {
+            "step": 7,
+            "ncd": 0.204545,
+            "k_change": 24.5455,
+            "cx": 132,
+            "cy": 120,
+            "mean_gz": 126.0,
+            "norm_kc": 0.194805
+          },
+          {
+            "step": 8,
+            "ncd": 0.341667,
+            "k_change": 32.8,
+            "cx": 120,
+            "cy": 96,
+            "mean_gz": 108.0,
+            "norm_kc": 0.303704
+          },
+          {
+            "step": 9,
+            "ncd": 0.28125,
+            "k_change": 21.9375,
+            "cx": 96,
+            "cy": 78,
+            "mean_gz": 87.0,
+            "norm_kc": 0.252155
+          },
+          {
+            "step": 10,
+            "ncd": 0.25641,
+            "k_change": 16.9231,
+            "cx": 78,
+            "cy": 66,
+            "mean_gz": 72.0,
+            "norm_kc": 0.235043
+          },
+          {
+            "step": 11,
+            "ncd": 0.333333,
+            "k_change": 17.6667,
+            "cx": 66,
+            "cy": 53,
+            "mean_gz": 59.5,
+            "norm_kc": 0.296919
+          },
+          {
+            "step": 12,
+            "ncd": 0.207547,
+            "k_change": 9.1321,
+            "cx": 53,
+            "cy": 44,
+            "mean_gz": 48.5,
+            "norm_kc": 0.18829
+          },
+          {
+            "step": 13,
+            "ncd": 0.340909,
+            "k_change": 10.9091,
+            "cx": 44,
+            "cy": 32,
+            "mean_gz": 38.0,
+            "norm_kc": 0.287081
+          },
+          {
+            "step": 14,
+            "ncd": 0.21875,
+            "k_change": 5.6875,
+            "cx": 32,
+            "cy": 26,
+            "mean_gz": 29.0,
+            "norm_kc": 0.196121
+          }
+        ],
+        "time_ms": 4.269
+      },
+      {
+        "seed": 103,
+        "n_vars": 30,
+        "n_clauses": 60,
+        "alpha": 2.0,
+        "label": "Easy SAT \u03b1=2.0",
+        "solved": true,
+        "steps": 11,
+        "n_traj": 9,
+        "mean_kchange": 29.4822,
+        "mean_gz_state": 144.39,
+        "mean_norm_kc": 0.241991,
+        "trajectory": [
+          {
+            "step": 2,
+            "ncd": 0.116883,
+            "k_change": 25.8312,
+            "cx": 231,
+            "cy": 221,
+            "mean_gz": 226.0,
+            "norm_kc": 0.114297
+          },
+          {
+            "step": 3,
+            "ncd": 0.126697,
+            "k_change": 26.4796,
+            "cx": 221,
+            "cy": 209,
+            "mean_gz": 215.0,
+            "norm_kc": 0.123161
+          },
+          {
+            "step": 4,
+            "ncd": 0.272727,
+            "k_change": 49.0909,
+            "cx": 209,
+            "cy": 180,
+            "mean_gz": 194.5,
+            "norm_kc": 0.252395
+          },
+          {
+            "step": 5,
+            "ncd": 0.111111,
+            "k_change": 19.2222,
+            "cx": 180,
+            "cy": 173,
+            "mean_gz": 176.5,
+            "norm_kc": 0.108908
+          },
+          {
+            "step": 6,
+            "ncd": 0.283237,
+            "k_change": 41.9191,
+            "cx": 173,
+            "cy": 148,
+            "mean_gz": 160.5,
+            "norm_kc": 0.261178
+          },
+          {
+            "step": 7,
+            "ncd": 0.243243,
+            "k_change": 32.3514,
+            "cx": 148,
+            "cy": 133,
+            "mean_gz": 140.5,
+            "norm_kc": 0.230259
+          },
+          {
+            "step": 8,
+            "ncd": 0.62406,
+            "k_change": 40.5639,
+            "cx": 133,
+            "cy": 65,
+            "mean_gz": 99.0,
+            "norm_kc": 0.409736
+          },
+          {
+            "step": 9,
+            "ncd": 0.446154,
+            "k_change": 18.7385,
+            "cx": 65,
+            "cy": 42,
+            "mean_gz": 53.5,
+            "norm_kc": 0.350252
+          },
+          {
+            "step": 10,
+            "ncd": 0.428571,
+            "k_change": 11.1429,
+            "cx": 42,
+            "cy": 26,
+            "mean_gz": 34.0,
+            "norm_kc": 0.327731
+          }
+        ],
+        "time_ms": 2.442
+      }
+    ]
+  },
+  "comparison": {
+    "ca_class2_norm": 0.3258,
+    "ca_class3_norm": 0.9522,
+    "ca_class4_norm": 0.729,
+    "hard_norm": 0.273178,
+    "easy_norm": 0.229988,
+    "ratio_hard_vs_easy": 1.1878,
+    "hard_dist_to_class3": 0.679,
+    "hard_dist_to_class2": 0.0526,
+    "easy_dist_to_class2": 0.0958,
+    "hard_classification": "Class 2 (periodic)",
+    "easy_classification": "Class 2 (periodic)"
+  }
+}

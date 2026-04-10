@@ -1,0 +1,1721 @@
+{
+  "label": "landscape_k_coloring_v2",
+  "date": "2026-04-09",
+  "encoding": "fixed-size per-node state, sentinel 255 for unassigned",
+  "configs": [
+    {
+      "n": 30,
+      "density": 1.5,
+      "desc": "easy-30 (density 1.5n)"
+    },
+    {
+      "n": 30,
+      "density": 2.3,
+      "desc": "hard-30 (phase transition ~2.35n)"
+    },
+    {
+      "n": 50,
+      "density": 1.5,
+      "desc": "easy-50 (density 1.5n)"
+    },
+    {
+      "n": 50,
+      "density": 2.3,
+      "desc": "hard-50 (phase transition)"
+    }
+  ],
+  "results": [
+    {
+      "instance": 0,
+      "n_nodes": 30,
+      "edge_density": 1.5,
+      "n_edges": 45,
+      "solved": true,
+      "budget_exhausted": false,
+      "decisions": 17790,
+      "steps": 17791,
+      "time_ms": 144.7248,
+      "n_k_records": 5930,
+      "k_initial": 0.8333,
+      "k_final": 1.3667,
+      "k_min": 0.8333,
+      "k_max": 1.4333,
+      "k_mean": 1.329,
+      "k_slope": 9e-05,
+      "k_trend": "increasing",
+      "k_trajectory_head": [
+        {
+          "step": 3,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.833333
+        },
+        {
+          "step": 6,
+          "depth": 5,
+          "n_assigned": 5,
+          "k_proxy": 0.866667
+        },
+        {
+          "step": 9,
+          "depth": 8,
+          "n_assigned": 8,
+          "k_proxy": 0.966667
+        },
+        {
+          "step": 12,
+          "depth": 11,
+          "n_assigned": 11,
+          "k_proxy": 1.0
+        },
+        {
+          "step": 15,
+          "depth": 14,
+          "n_assigned": 14,
+          "k_proxy": 1.1
+        },
+        {
+          "step": 18,
+          "depth": 17,
+          "n_assigned": 17,
+          "k_proxy": 1.2
+        },
+        {
+          "step": 21,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 24,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.266667
+        },
+        {
+          "step": 27,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.266667
+        },
+        {
+          "step": 30,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 33,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 36,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.166667
+        },
+        {
+          "step": 39,
+          "depth": 18,
+          "n_assigned": 18,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 42,
+          "depth": 18,
+          "n_assigned": 18,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 45,
+          "depth": 18,
+          "n_assigned": 18,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 48,
+          "depth": 15,
+          "n_assigned": 15,
+          "k_proxy": 1.133333
+        },
+        {
+          "step": 51,
+          "depth": 18,
+          "n_assigned": 18,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 54,
+          "depth": 18,
+          "n_assigned": 18,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 57,
+          "depth": 18,
+          "n_assigned": 18,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 60,
+          "depth": 17,
+          "n_assigned": 17,
+          "k_proxy": 1.166667
+        }
+      ]
+    },
+    {
+      "instance": 1,
+      "n_nodes": 30,
+      "edge_density": 1.5,
+      "n_edges": 45,
+      "solved": true,
+      "budget_exhausted": false,
+      "decisions": 3381,
+      "steps": 3382,
+      "time_ms": 25.1538,
+      "n_k_records": 1127,
+      "k_initial": 0.8333,
+      "k_final": 1.3667,
+      "k_min": 0.8333,
+      "k_max": 1.4,
+      "k_mean": 1.1995,
+      "k_slope": 0.000474,
+      "k_trend": "increasing",
+      "k_trajectory_head": [
+        {
+          "step": 3,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.833333
+        },
+        {
+          "step": 6,
+          "depth": 5,
+          "n_assigned": 5,
+          "k_proxy": 0.866667
+        },
+        {
+          "step": 9,
+          "depth": 8,
+          "n_assigned": 8,
+          "k_proxy": 0.933333
+        },
+        {
+          "step": 12,
+          "depth": 11,
+          "n_assigned": 11,
+          "k_proxy": 1.033333
+        },
+        {
+          "step": 15,
+          "depth": 14,
+          "n_assigned": 14,
+          "k_proxy": 1.066667
+        },
+        {
+          "step": 18,
+          "depth": 17,
+          "n_assigned": 17,
+          "k_proxy": 1.166667
+        },
+        {
+          "step": 21,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 1.266667
+        },
+        {
+          "step": 24,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 27,
+          "depth": 18,
+          "n_assigned": 18,
+          "k_proxy": 1.2
+        },
+        {
+          "step": 30,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 33,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 1.266667
+        },
+        {
+          "step": 36,
+          "depth": 18,
+          "n_assigned": 18,
+          "k_proxy": 1.166667
+        },
+        {
+          "step": 39,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.2
+        },
+        {
+          "step": 42,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 45,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 48,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 51,
+          "depth": 15,
+          "n_assigned": 15,
+          "k_proxy": 1.1
+        },
+        {
+          "step": 54,
+          "depth": 18,
+          "n_assigned": 18,
+          "k_proxy": 1.166667
+        },
+        {
+          "step": 57,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.166667
+        },
+        {
+          "step": 60,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 1.2
+        }
+      ]
+    },
+    {
+      "instance": 2,
+      "n_nodes": 30,
+      "edge_density": 1.5,
+      "n_edges": 45,
+      "solved": true,
+      "budget_exhausted": false,
+      "decisions": 471,
+      "steps": 472,
+      "time_ms": 4.0369,
+      "n_k_records": 157,
+      "k_initial": 0.8333,
+      "k_final": 1.2333,
+      "k_min": 0.8333,
+      "k_max": 1.4,
+      "k_mean": 1.2234,
+      "k_slope": 0.002564,
+      "k_trend": "increasing",
+      "k_trajectory_head": [
+        {
+          "step": 3,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.833333
+        },
+        {
+          "step": 6,
+          "depth": 5,
+          "n_assigned": 5,
+          "k_proxy": 0.933333
+        },
+        {
+          "step": 9,
+          "depth": 8,
+          "n_assigned": 8,
+          "k_proxy": 0.966667
+        },
+        {
+          "step": 12,
+          "depth": 11,
+          "n_assigned": 11,
+          "k_proxy": 1.033333
+        },
+        {
+          "step": 15,
+          "depth": 14,
+          "n_assigned": 14,
+          "k_proxy": 1.033333
+        },
+        {
+          "step": 18,
+          "depth": 17,
+          "n_assigned": 17,
+          "k_proxy": 1.1
+        },
+        {
+          "step": 21,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 1.166667
+        },
+        {
+          "step": 24,
+          "depth": 23,
+          "n_assigned": 23,
+          "k_proxy": 1.266667
+        },
+        {
+          "step": 27,
+          "depth": 26,
+          "n_assigned": 26,
+          "k_proxy": 1.333333
+        },
+        {
+          "step": 30,
+          "depth": 28,
+          "n_assigned": 28,
+          "k_proxy": 1.333333
+        },
+        {
+          "step": 33,
+          "depth": 28,
+          "n_assigned": 28,
+          "k_proxy": 1.3
+        },
+        {
+          "step": 36,
+          "depth": 26,
+          "n_assigned": 26,
+          "k_proxy": 1.366667
+        },
+        {
+          "step": 39,
+          "depth": 28,
+          "n_assigned": 28,
+          "k_proxy": 1.366667
+        },
+        {
+          "step": 42,
+          "depth": 28,
+          "n_assigned": 28,
+          "k_proxy": 1.366667
+        },
+        {
+          "step": 45,
+          "depth": 23,
+          "n_assigned": 23,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 48,
+          "depth": 21,
+          "n_assigned": 21,
+          "k_proxy": 1.166667
+        },
+        {
+          "step": 51,
+          "depth": 24,
+          "n_assigned": 24,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 54,
+          "depth": 27,
+          "n_assigned": 27,
+          "k_proxy": 1.3
+        },
+        {
+          "step": 57,
+          "depth": 26,
+          "n_assigned": 26,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 60,
+          "depth": 28,
+          "n_assigned": 28,
+          "k_proxy": 1.3
+        }
+      ]
+    },
+    {
+      "instance": 0,
+      "n_nodes": 30,
+      "edge_density": 2.3,
+      "n_edges": 69,
+      "solved": true,
+      "budget_exhausted": false,
+      "decisions": 5540,
+      "steps": 5541,
+      "time_ms": 42.7997,
+      "n_k_records": 1847,
+      "k_initial": 0.8333,
+      "k_final": 1.3333,
+      "k_min": 0.8333,
+      "k_max": 1.4667,
+      "k_mean": 1.2285,
+      "k_slope": 0.000271,
+      "k_trend": "increasing",
+      "k_trajectory_head": [
+        {
+          "step": 3,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.833333
+        },
+        {
+          "step": 6,
+          "depth": 5,
+          "n_assigned": 5,
+          "k_proxy": 0.933333
+        },
+        {
+          "step": 9,
+          "depth": 8,
+          "n_assigned": 8,
+          "k_proxy": 0.933333
+        },
+        {
+          "step": 12,
+          "depth": 11,
+          "n_assigned": 11,
+          "k_proxy": 1.033333
+        },
+        {
+          "step": 15,
+          "depth": 14,
+          "n_assigned": 14,
+          "k_proxy": 1.066667
+        },
+        {
+          "step": 18,
+          "depth": 17,
+          "n_assigned": 17,
+          "k_proxy": 1.133333
+        },
+        {
+          "step": 21,
+          "depth": 16,
+          "n_assigned": 16,
+          "k_proxy": 1.133333
+        },
+        {
+          "step": 24,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.2
+        },
+        {
+          "step": 27,
+          "depth": 15,
+          "n_assigned": 15,
+          "k_proxy": 1.1
+        },
+        {
+          "step": 30,
+          "depth": 18,
+          "n_assigned": 18,
+          "k_proxy": 1.166667
+        },
+        {
+          "step": 33,
+          "depth": 17,
+          "n_assigned": 17,
+          "k_proxy": 1.166667
+        },
+        {
+          "step": 36,
+          "depth": 18,
+          "n_assigned": 18,
+          "k_proxy": 1.2
+        },
+        {
+          "step": 39,
+          "depth": 10,
+          "n_assigned": 10,
+          "k_proxy": 1.0
+        },
+        {
+          "step": 42,
+          "depth": 13,
+          "n_assigned": 13,
+          "k_proxy": 1.0
+        },
+        {
+          "step": 45,
+          "depth": 16,
+          "n_assigned": 16,
+          "k_proxy": 1.1
+        },
+        {
+          "step": 48,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.166667
+        },
+        {
+          "step": 51,
+          "depth": 15,
+          "n_assigned": 15,
+          "k_proxy": 1.066667
+        },
+        {
+          "step": 54,
+          "depth": 18,
+          "n_assigned": 18,
+          "k_proxy": 1.133333
+        },
+        {
+          "step": 57,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.166667
+        },
+        {
+          "step": 60,
+          "depth": 8,
+          "n_assigned": 8,
+          "k_proxy": 0.966667
+        }
+      ]
+    },
+    {
+      "instance": 1,
+      "n_nodes": 30,
+      "edge_density": 2.3,
+      "n_edges": 69,
+      "solved": true,
+      "budget_exhausted": false,
+      "decisions": 7591,
+      "steps": 7592,
+      "time_ms": 57.3808,
+      "n_k_records": 2530,
+      "k_initial": 0.8333,
+      "k_final": 1.4,
+      "k_min": 0.8333,
+      "k_max": 1.4667,
+      "k_mean": 1.2306,
+      "k_slope": 0.000224,
+      "k_trend": "increasing",
+      "k_trajectory_head": [
+        {
+          "step": 3,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.833333
+        },
+        {
+          "step": 6,
+          "depth": 5,
+          "n_assigned": 5,
+          "k_proxy": 0.933333
+        },
+        {
+          "step": 9,
+          "depth": 8,
+          "n_assigned": 8,
+          "k_proxy": 0.966667
+        },
+        {
+          "step": 12,
+          "depth": 11,
+          "n_assigned": 11,
+          "k_proxy": 1.066667
+        },
+        {
+          "step": 15,
+          "depth": 14,
+          "n_assigned": 14,
+          "k_proxy": 1.133333
+        },
+        {
+          "step": 18,
+          "depth": 17,
+          "n_assigned": 17,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 21,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 1.266667
+        },
+        {
+          "step": 24,
+          "depth": 23,
+          "n_assigned": 23,
+          "k_proxy": 1.3
+        },
+        {
+          "step": 27,
+          "depth": 26,
+          "n_assigned": 26,
+          "k_proxy": 1.366667
+        },
+        {
+          "step": 30,
+          "depth": 13,
+          "n_assigned": 13,
+          "k_proxy": 1.133333
+        },
+        {
+          "step": 33,
+          "depth": 16,
+          "n_assigned": 16,
+          "k_proxy": 1.233333
+        },
+        {
+          "step": 36,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.3
+        },
+        {
+          "step": 39,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 1.333333
+        },
+        {
+          "step": 42,
+          "depth": 10,
+          "n_assigned": 10,
+          "k_proxy": 1.1
+        },
+        {
+          "step": 45,
+          "depth": 13,
+          "n_assigned": 13,
+          "k_proxy": 1.1
+        },
+        {
+          "step": 48,
+          "depth": 14,
+          "n_assigned": 14,
+          "k_proxy": 1.166667
+        },
+        {
+          "step": 51,
+          "depth": 14,
+          "n_assigned": 14,
+          "k_proxy": 1.166667
+        },
+        {
+          "step": 54,
+          "depth": 7,
+          "n_assigned": 7,
+          "k_proxy": 1.0
+        },
+        {
+          "step": 57,
+          "depth": 10,
+          "n_assigned": 10,
+          "k_proxy": 1.1
+        },
+        {
+          "step": 60,
+          "depth": 13,
+          "n_assigned": 13,
+          "k_proxy": 1.166667
+        }
+      ]
+    },
+    {
+      "instance": 2,
+      "n_nodes": 30,
+      "edge_density": 2.3,
+      "n_edges": 69,
+      "solved": false,
+      "budget_exhausted": true,
+      "decisions": 50000,
+      "steps": 50001,
+      "time_ms": 355.5912,
+      "n_k_records": 16666,
+      "k_initial": 0.8333,
+      "k_final": 1.3333,
+      "k_min": 0.8333,
+      "k_max": 1.3667,
+      "k_mean": 1.2334,
+      "k_slope": 3e-05,
+      "k_trend": "increasing",
+      "k_trajectory_head": [
+        {
+          "step": 3,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.833333
+        },
+        {
+          "step": 6,
+          "depth": 5,
+          "n_assigned": 5,
+          "k_proxy": 0.933333
+        },
+        {
+          "step": 9,
+          "depth": 8,
+          "n_assigned": 8,
+          "k_proxy": 0.966667
+        },
+        {
+          "step": 12,
+          "depth": 11,
+          "n_assigned": 11,
+          "k_proxy": 1.033333
+        },
+        {
+          "step": 15,
+          "depth": 14,
+          "n_assigned": 14,
+          "k_proxy": 1.066667
+        },
+        {
+          "step": 18,
+          "depth": 17,
+          "n_assigned": 17,
+          "k_proxy": 1.166667
+        },
+        {
+          "step": 21,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 1.2
+        },
+        {
+          "step": 24,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 1.2
+        },
+        {
+          "step": 27,
+          "depth": 18,
+          "n_assigned": 18,
+          "k_proxy": 1.133333
+        },
+        {
+          "step": 30,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.166667
+        },
+        {
+          "step": 33,
+          "depth": 17,
+          "n_assigned": 17,
+          "k_proxy": 1.1
+        },
+        {
+          "step": 36,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 1.2
+        },
+        {
+          "step": 39,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 1.2
+        },
+        {
+          "step": 42,
+          "depth": 18,
+          "n_assigned": 18,
+          "k_proxy": 1.2
+        },
+        {
+          "step": 45,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.2
+        },
+        {
+          "step": 48,
+          "depth": 17,
+          "n_assigned": 17,
+          "k_proxy": 1.1
+        },
+        {
+          "step": 51,
+          "depth": 16,
+          "n_assigned": 16,
+          "k_proxy": 1.133333
+        },
+        {
+          "step": 54,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.166667
+        },
+        {
+          "step": 57,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 1.166667
+        },
+        {
+          "step": 60,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 1.166667
+        }
+      ]
+    },
+    {
+      "instance": 0,
+      "n_nodes": 50,
+      "edge_density": 1.5,
+      "n_edges": 75,
+      "solved": true,
+      "budget_exhausted": false,
+      "decisions": 3268,
+      "steps": 3269,
+      "time_ms": 21.3174,
+      "n_k_records": 1089,
+      "k_initial": 0.5,
+      "k_final": 0.96,
+      "k_min": 0.5,
+      "k_max": 0.98,
+      "k_mean": 0.9278,
+      "k_slope": 0.000423,
+      "k_trend": "increasing",
+      "k_trajectory_head": [
+        {
+          "step": 3,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.5
+        },
+        {
+          "step": 6,
+          "depth": 5,
+          "n_assigned": 5,
+          "k_proxy": 0.56
+        },
+        {
+          "step": 9,
+          "depth": 8,
+          "n_assigned": 8,
+          "k_proxy": 0.62
+        },
+        {
+          "step": 12,
+          "depth": 11,
+          "n_assigned": 11,
+          "k_proxy": 0.64
+        },
+        {
+          "step": 15,
+          "depth": 14,
+          "n_assigned": 14,
+          "k_proxy": 0.7
+        },
+        {
+          "step": 18,
+          "depth": 17,
+          "n_assigned": 17,
+          "k_proxy": 0.74
+        },
+        {
+          "step": 21,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 0.74
+        },
+        {
+          "step": 24,
+          "depth": 23,
+          "n_assigned": 23,
+          "k_proxy": 0.78
+        },
+        {
+          "step": 27,
+          "depth": 26,
+          "n_assigned": 26,
+          "k_proxy": 0.82
+        },
+        {
+          "step": 30,
+          "depth": 29,
+          "n_assigned": 29,
+          "k_proxy": 0.84
+        },
+        {
+          "step": 33,
+          "depth": 32,
+          "n_assigned": 32,
+          "k_proxy": 0.88
+        },
+        {
+          "step": 36,
+          "depth": 35,
+          "n_assigned": 35,
+          "k_proxy": 0.92
+        },
+        {
+          "step": 39,
+          "depth": 35,
+          "n_assigned": 35,
+          "k_proxy": 0.92
+        },
+        {
+          "step": 42,
+          "depth": 34,
+          "n_assigned": 34,
+          "k_proxy": 0.9
+        },
+        {
+          "step": 45,
+          "depth": 31,
+          "n_assigned": 31,
+          "k_proxy": 0.86
+        },
+        {
+          "step": 48,
+          "depth": 34,
+          "n_assigned": 34,
+          "k_proxy": 0.9
+        },
+        {
+          "step": 51,
+          "depth": 34,
+          "n_assigned": 34,
+          "k_proxy": 0.88
+        },
+        {
+          "step": 54,
+          "depth": 33,
+          "n_assigned": 33,
+          "k_proxy": 0.9
+        },
+        {
+          "step": 57,
+          "depth": 35,
+          "n_assigned": 35,
+          "k_proxy": 0.92
+        },
+        {
+          "step": 60,
+          "depth": 33,
+          "n_assigned": 33,
+          "k_proxy": 0.9
+        }
+      ]
+    },
+    {
+      "instance": 1,
+      "n_nodes": 50,
+      "edge_density": 1.5,
+      "n_edges": 75,
+      "solved": true,
+      "budget_exhausted": false,
+      "decisions": 33854,
+      "steps": 33855,
+      "time_ms": 216.9539,
+      "n_k_records": 11285,
+      "k_initial": 0.5,
+      "k_final": 0.92,
+      "k_min": 0.5,
+      "k_max": 0.98,
+      "k_mean": 0.8875,
+      "k_slope": 3.7e-05,
+      "k_trend": "increasing",
+      "k_trajectory_head": [
+        {
+          "step": 3,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.5
+        },
+        {
+          "step": 6,
+          "depth": 5,
+          "n_assigned": 5,
+          "k_proxy": 0.56
+        },
+        {
+          "step": 9,
+          "depth": 8,
+          "n_assigned": 8,
+          "k_proxy": 0.58
+        },
+        {
+          "step": 12,
+          "depth": 11,
+          "n_assigned": 11,
+          "k_proxy": 0.62
+        },
+        {
+          "step": 15,
+          "depth": 14,
+          "n_assigned": 14,
+          "k_proxy": 0.64
+        },
+        {
+          "step": 18,
+          "depth": 17,
+          "n_assigned": 17,
+          "k_proxy": 0.66
+        },
+        {
+          "step": 21,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 0.72
+        },
+        {
+          "step": 24,
+          "depth": 23,
+          "n_assigned": 23,
+          "k_proxy": 0.74
+        },
+        {
+          "step": 27,
+          "depth": 26,
+          "n_assigned": 26,
+          "k_proxy": 0.8
+        },
+        {
+          "step": 30,
+          "depth": 29,
+          "n_assigned": 29,
+          "k_proxy": 0.82
+        },
+        {
+          "step": 33,
+          "depth": 32,
+          "n_assigned": 32,
+          "k_proxy": 0.86
+        },
+        {
+          "step": 36,
+          "depth": 34,
+          "n_assigned": 34,
+          "k_proxy": 0.9
+        },
+        {
+          "step": 39,
+          "depth": 34,
+          "n_assigned": 34,
+          "k_proxy": 0.9
+        },
+        {
+          "step": 42,
+          "depth": 34,
+          "n_assigned": 34,
+          "k_proxy": 0.84
+        },
+        {
+          "step": 45,
+          "depth": 33,
+          "n_assigned": 33,
+          "k_proxy": 0.86
+        },
+        {
+          "step": 48,
+          "depth": 33,
+          "n_assigned": 33,
+          "k_proxy": 0.86
+        },
+        {
+          "step": 51,
+          "depth": 33,
+          "n_assigned": 33,
+          "k_proxy": 0.86
+        },
+        {
+          "step": 54,
+          "depth": 28,
+          "n_assigned": 28,
+          "k_proxy": 0.82
+        },
+        {
+          "step": 57,
+          "depth": 31,
+          "n_assigned": 31,
+          "k_proxy": 0.86
+        },
+        {
+          "step": 60,
+          "depth": 34,
+          "n_assigned": 34,
+          "k_proxy": 0.88
+        }
+      ]
+    },
+    {
+      "instance": 2,
+      "n_nodes": 50,
+      "edge_density": 1.5,
+      "n_edges": 75,
+      "solved": false,
+      "budget_exhausted": true,
+      "decisions": 50000,
+      "steps": 50001,
+      "time_ms": 212.1437,
+      "n_k_records": 16666,
+      "k_initial": 0.5,
+      "k_final": 0.9,
+      "k_min": 0.5,
+      "k_max": 0.98,
+      "k_mean": 0.9192,
+      "k_slope": 2.4e-05,
+      "k_trend": "increasing",
+      "k_trajectory_head": [
+        {
+          "step": 3,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.5
+        },
+        {
+          "step": 6,
+          "depth": 5,
+          "n_assigned": 5,
+          "k_proxy": 0.52
+        },
+        {
+          "step": 9,
+          "depth": 8,
+          "n_assigned": 8,
+          "k_proxy": 0.58
+        },
+        {
+          "step": 12,
+          "depth": 11,
+          "n_assigned": 11,
+          "k_proxy": 0.64
+        },
+        {
+          "step": 15,
+          "depth": 14,
+          "n_assigned": 14,
+          "k_proxy": 0.66
+        },
+        {
+          "step": 18,
+          "depth": 17,
+          "n_assigned": 17,
+          "k_proxy": 0.66
+        },
+        {
+          "step": 21,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 0.68
+        },
+        {
+          "step": 24,
+          "depth": 23,
+          "n_assigned": 23,
+          "k_proxy": 0.72
+        },
+        {
+          "step": 27,
+          "depth": 26,
+          "n_assigned": 26,
+          "k_proxy": 0.72
+        },
+        {
+          "step": 30,
+          "depth": 29,
+          "n_assigned": 29,
+          "k_proxy": 0.76
+        },
+        {
+          "step": 33,
+          "depth": 32,
+          "n_assigned": 32,
+          "k_proxy": 0.78
+        },
+        {
+          "step": 36,
+          "depth": 35,
+          "n_assigned": 35,
+          "k_proxy": 0.8
+        },
+        {
+          "step": 39,
+          "depth": 37,
+          "n_assigned": 37,
+          "k_proxy": 0.84
+        },
+        {
+          "step": 42,
+          "depth": 35,
+          "n_assigned": 35,
+          "k_proxy": 0.84
+        },
+        {
+          "step": 45,
+          "depth": 34,
+          "n_assigned": 34,
+          "k_proxy": 0.8
+        },
+        {
+          "step": 48,
+          "depth": 37,
+          "n_assigned": 37,
+          "k_proxy": 0.86
+        },
+        {
+          "step": 51,
+          "depth": 34,
+          "n_assigned": 34,
+          "k_proxy": 0.82
+        },
+        {
+          "step": 54,
+          "depth": 32,
+          "n_assigned": 32,
+          "k_proxy": 0.8
+        },
+        {
+          "step": 57,
+          "depth": 35,
+          "n_assigned": 35,
+          "k_proxy": 0.84
+        },
+        {
+          "step": 60,
+          "depth": 37,
+          "n_assigned": 37,
+          "k_proxy": 0.88
+        }
+      ]
+    },
+    {
+      "instance": 0,
+      "n_nodes": 50,
+      "edge_density": 2.3,
+      "n_edges": 114,
+      "solved": false,
+      "budget_exhausted": true,
+      "decisions": 50000,
+      "steps": 50001,
+      "time_ms": 321.9863,
+      "n_k_records": 16666,
+      "k_initial": 0.5,
+      "k_final": 0.76,
+      "k_min": 0.5,
+      "k_max": 1.0,
+      "k_mean": 0.8629,
+      "k_slope": 1.6e-05,
+      "k_trend": "increasing",
+      "k_trajectory_head": [
+        {
+          "step": 3,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.5
+        },
+        {
+          "step": 6,
+          "depth": 5,
+          "n_assigned": 5,
+          "k_proxy": 0.56
+        },
+        {
+          "step": 9,
+          "depth": 8,
+          "n_assigned": 8,
+          "k_proxy": 0.62
+        },
+        {
+          "step": 12,
+          "depth": 11,
+          "n_assigned": 11,
+          "k_proxy": 0.64
+        },
+        {
+          "step": 15,
+          "depth": 14,
+          "n_assigned": 14,
+          "k_proxy": 0.7
+        },
+        {
+          "step": 18,
+          "depth": 17,
+          "n_assigned": 17,
+          "k_proxy": 0.74
+        },
+        {
+          "step": 21,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 0.8
+        },
+        {
+          "step": 24,
+          "depth": 23,
+          "n_assigned": 23,
+          "k_proxy": 0.82
+        },
+        {
+          "step": 27,
+          "depth": 26,
+          "n_assigned": 26,
+          "k_proxy": 0.86
+        },
+        {
+          "step": 30,
+          "depth": 29,
+          "n_assigned": 29,
+          "k_proxy": 0.88
+        },
+        {
+          "step": 33,
+          "depth": 31,
+          "n_assigned": 31,
+          "k_proxy": 0.9
+        },
+        {
+          "step": 36,
+          "depth": 30,
+          "n_assigned": 30,
+          "k_proxy": 0.9
+        },
+        {
+          "step": 39,
+          "depth": 31,
+          "n_assigned": 31,
+          "k_proxy": 0.88
+        },
+        {
+          "step": 42,
+          "depth": 27,
+          "n_assigned": 27,
+          "k_proxy": 0.86
+        },
+        {
+          "step": 45,
+          "depth": 30,
+          "n_assigned": 30,
+          "k_proxy": 0.88
+        },
+        {
+          "step": 48,
+          "depth": 31,
+          "n_assigned": 31,
+          "k_proxy": 0.86
+        },
+        {
+          "step": 51,
+          "depth": 31,
+          "n_assigned": 31,
+          "k_proxy": 0.88
+        },
+        {
+          "step": 54,
+          "depth": 24,
+          "n_assigned": 24,
+          "k_proxy": 0.84
+        },
+        {
+          "step": 57,
+          "depth": 27,
+          "n_assigned": 27,
+          "k_proxy": 0.86
+        },
+        {
+          "step": 60,
+          "depth": 30,
+          "n_assigned": 30,
+          "k_proxy": 0.88
+        }
+      ]
+    },
+    {
+      "instance": 1,
+      "n_nodes": 50,
+      "edge_density": 2.3,
+      "n_edges": 114,
+      "solved": false,
+      "budget_exhausted": true,
+      "decisions": 50000,
+      "steps": 50001,
+      "time_ms": 189.5548,
+      "n_k_records": 16666,
+      "k_initial": 0.5,
+      "k_final": 0.78,
+      "k_min": 0.5,
+      "k_max": 0.96,
+      "k_mean": 0.8261,
+      "k_slope": 1.7e-05,
+      "k_trend": "increasing",
+      "k_trajectory_head": [
+        {
+          "step": 3,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.5
+        },
+        {
+          "step": 6,
+          "depth": 5,
+          "n_assigned": 5,
+          "k_proxy": 0.56
+        },
+        {
+          "step": 9,
+          "depth": 8,
+          "n_assigned": 8,
+          "k_proxy": 0.58
+        },
+        {
+          "step": 12,
+          "depth": 11,
+          "n_assigned": 11,
+          "k_proxy": 0.62
+        },
+        {
+          "step": 15,
+          "depth": 14,
+          "n_assigned": 14,
+          "k_proxy": 0.64
+        },
+        {
+          "step": 18,
+          "depth": 17,
+          "n_assigned": 17,
+          "k_proxy": 0.7
+        },
+        {
+          "step": 21,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 0.76
+        },
+        {
+          "step": 24,
+          "depth": 23,
+          "n_assigned": 23,
+          "k_proxy": 0.76
+        },
+        {
+          "step": 27,
+          "depth": 23,
+          "n_assigned": 23,
+          "k_proxy": 0.76
+        },
+        {
+          "step": 30,
+          "depth": 26,
+          "n_assigned": 26,
+          "k_proxy": 0.8
+        },
+        {
+          "step": 33,
+          "depth": 29,
+          "n_assigned": 29,
+          "k_proxy": 0.84
+        },
+        {
+          "step": 36,
+          "depth": 28,
+          "n_assigned": 28,
+          "k_proxy": 0.84
+        },
+        {
+          "step": 39,
+          "depth": 31,
+          "n_assigned": 31,
+          "k_proxy": 0.88
+        },
+        {
+          "step": 42,
+          "depth": 28,
+          "n_assigned": 28,
+          "k_proxy": 0.82
+        },
+        {
+          "step": 45,
+          "depth": 31,
+          "n_assigned": 31,
+          "k_proxy": 0.86
+        },
+        {
+          "step": 48,
+          "depth": 30,
+          "n_assigned": 30,
+          "k_proxy": 0.84
+        },
+        {
+          "step": 51,
+          "depth": 25,
+          "n_assigned": 25,
+          "k_proxy": 0.8
+        },
+        {
+          "step": 54,
+          "depth": 28,
+          "n_assigned": 28,
+          "k_proxy": 0.84
+        },
+        {
+          "step": 57,
+          "depth": 31,
+          "n_assigned": 31,
+          "k_proxy": 0.88
+        },
+        {
+          "step": 60,
+          "depth": 30,
+          "n_assigned": 30,
+          "k_proxy": 0.86
+        }
+      ]
+    },
+    {
+      "instance": 2,
+      "n_nodes": 50,
+      "edge_density": 2.3,
+      "n_edges": 114,
+      "solved": false,
+      "budget_exhausted": true,
+      "decisions": 50000,
+      "steps": 50001,
+      "time_ms": 91.8476,
+      "n_k_records": 16666,
+      "k_initial": 0.5,
+      "k_final": 0.9,
+      "k_min": 0.5,
+      "k_max": 0.94,
+      "k_mean": 0.8624,
+      "k_slope": 2.4e-05,
+      "k_trend": "increasing",
+      "k_trajectory_head": [
+        {
+          "step": 3,
+          "depth": 2,
+          "n_assigned": 2,
+          "k_proxy": 0.5
+        },
+        {
+          "step": 6,
+          "depth": 5,
+          "n_assigned": 5,
+          "k_proxy": 0.52
+        },
+        {
+          "step": 9,
+          "depth": 8,
+          "n_assigned": 8,
+          "k_proxy": 0.58
+        },
+        {
+          "step": 12,
+          "depth": 11,
+          "n_assigned": 11,
+          "k_proxy": 0.64
+        },
+        {
+          "step": 15,
+          "depth": 14,
+          "n_assigned": 14,
+          "k_proxy": 0.7
+        },
+        {
+          "step": 18,
+          "depth": 17,
+          "n_assigned": 17,
+          "k_proxy": 0.72
+        },
+        {
+          "step": 21,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 0.74
+        },
+        {
+          "step": 24,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 0.76
+        },
+        {
+          "step": 27,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 0.76
+        },
+        {
+          "step": 30,
+          "depth": 19,
+          "n_assigned": 19,
+          "k_proxy": 0.76
+        },
+        {
+          "step": 33,
+          "depth": 18,
+          "n_assigned": 18,
+          "k_proxy": 0.74
+        },
+        {
+          "step": 36,
+          "depth": 21,
+          "n_assigned": 21,
+          "k_proxy": 0.76
+        },
+        {
+          "step": 39,
+          "depth": 21,
+          "n_assigned": 21,
+          "k_proxy": 0.8
+        },
+        {
+          "step": 42,
+          "depth": 17,
+          "n_assigned": 17,
+          "k_proxy": 0.74
+        },
+        {
+          "step": 45,
+          "depth": 20,
+          "n_assigned": 20,
+          "k_proxy": 0.78
+        },
+        {
+          "step": 48,
+          "depth": 23,
+          "n_assigned": 23,
+          "k_proxy": 0.84
+        },
+        {
+          "step": 51,
+          "depth": 26,
+          "n_assigned": 26,
+          "k_proxy": 0.86
+        },
+        {
+          "step": 54,
+          "depth": 29,
+          "n_assigned": 29,
+          "k_proxy": 0.88
+        },
+        {
+          "step": 57,
+          "depth": 31,
+          "n_assigned": 31,
+          "k_proxy": 0.88
+        },
+        {
+          "step": 60,
+          "depth": 31,
+          "n_assigned": 31,
+          "k_proxy": 0.88
+        }
+      ]
+    }
+  ]
+}

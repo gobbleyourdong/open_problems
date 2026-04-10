@@ -126,6 +126,19 @@ drives Phi toward zero.
 Caveat: random weights, no residual connections. Real transformers with
 residual connections would partially counteract saturation.
 
+### Fact 13 (Cycle 20): P1 cross-domain G calibration
+
+G measured via forced-choice calibration for GPT-2 in three domains (n=10 questions each):
+- G_epistemic = +0.798 (p=0.006) — factual knowledge
+- G_moral     = +0.853 (p=0.002) — moral verdicts
+- G_aesthetic = +0.870 (p=0.001) — aesthetic judgments
+- Mean G = 0.840, range [0.798, 0.870] — highly consistent across domains
+
+**P1 prediction CONFIRMED:** G is domain-general for GPT-2, not domain-specific.
+All three G values positive, significant, and clustered within 0.072 of each other.
+The self-model calibration (knowing what the model knows) spans epistemic, moral,
+and aesthetic content — one shared substrate. See result_014.
+
 ### Fact 12 (Cycle 15): Direct G_epistemic measurement for GPT-2
 
 Method: forced-choice factual questions (n=12), compute P(correct)/P(both).
@@ -225,16 +238,19 @@ systems and more careful architectural control to manifest empirically.**
 
 ### Addendum: High-replication result (Cycle 8, n=4, 20 seeds)
 
-The 2×2 experiment replicated at n=4 with 20 seeds (paired t-tests):
-- T2 (FF+rich) Phi = 0.112 vs R1 (RNN+min) Phi = 0.028: t=10.04, **p<0.0001**, d=2.30
-- Self-model main effect on Phi: +0.086 (43× larger than loop main effect +0.002)
-- γ's crossing-cell prediction (T2>R1): confirmed at p<0.0001 on Phi
-- β's crossing-cell prediction (R1>T2): rejected at p<0.0001
+The crossing cell (T2 vs R1) confirmed at n=4, n=6, AND n=8 (Cycle 21):
 
-**The self-model / loop ratio of 43× is the quantitative summary of the
-β/γ experiment: at n=4, self-model richness is 43× more important than
-loop topology for determining Phi. This is the strongest single numerical
-finding from the what_is_mind numerical track.**
+| n | T2 Phi | R1 Phi | Ratio | p | d |
+|---|--------|--------|-------|---|---|
+| 4 (20 seeds) | 0.112 | 0.028 | 4.0 | <0.0001 | 2.30 |
+| 6 (10 seeds) | 0.133 | 0.026 | 5.1 | 0.001 | 3.97 |
+| 8 (5 seeds)  | 0.124 | 0.026 | 4.8 | 0.002 | 3.67 |
+
+Ratio stable at 4–5× across three system sizes. γ prediction confirmed at all three.
+β prediction rejected at all three. See result_015.
+
+**The self-model / loop ratio of ~4-5× at all testable scales is the quantitative
+summary. The γ prediction is scale-stable within the testable range (n=4 to n=8).**
 
 ---
 

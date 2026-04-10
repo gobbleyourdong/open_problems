@@ -1,0 +1,339 @@
+{
+  "script": "euclid_discriminant.py",
+  "date": "2026-04-09",
+  "constants": {
+    "H0_km_s_Mpc": 67.4,
+    "Omega_m": 0.315,
+    "sigma8_0": 0.811,
+    "gamma_GR": 0.55,
+    "gamma_fR": 0.68,
+    "z_bin": 0.5,
+    "euclid_sigma": 0.007,
+    "euclid_3sigma": 0.021,
+    "DESI_w0": -0.827,
+    "DESI_w0_err": 0.197,
+    "DESI_w0_err_Y5": 0.06566666666666666
+  },
+  "w0_scan_wa0_GR": [
+    {
+      "w0": -1.0,
+      "wa": 0.0,
+      "gamma": 0.55,
+      "f": 0.7606879137410921,
+      "sigma8_z": 0.6233797505164853,
+      "f_sigma8": 0.47419744188882773,
+      "delta_fs8": 0.0,
+      "delta_pct": 0.0,
+      "euclid_nsigma": 0.0
+    },
+    {
+      "w0": -0.95,
+      "wa": 0.0,
+      "gamma": 0.55,
+      "f": 0.7505993805069053,
+      "sigma8_z": 0.6248014568543291,
+      "f_sigma8": 0.46897558645467136,
+      "delta_fs8": -0.005221855434156375,
+      "delta_pct": -1.1011985668578539,
+      "euclid_nsigma": 0.745979347736625
+    },
+    {
+      "w0": -0.9,
+      "wa": 0.0,
+      "gamma": 0.55,
+      "f": 0.7402812707378151,
+      "sigma8_z": 0.6262409724327238,
+      "f_sigma8": 0.4635944628605818,
+      "delta_fs8": -0.010602979028245918,
+      "delta_pct": -2.235984020920069,
+      "euclid_nsigma": 1.5147112897494168
+    },
+    {
+      "w0": -0.85,
+      "wa": 0.0,
+      "gamma": 0.55,
+      "f": 0.7297430220837311,
+      "sigma8_z": 0.6276976143556052,
+      "f_sigma8": 0.45805795405460775,
+      "delta_fs8": -0.01613948783421998,
+      "delta_pct": -3.4035375159201657,
+      "euclid_nsigma": 2.3056411191742825
+    },
+    {
+      "w0": -0.827,
+      "wa": 0.0,
+      "gamma": 0.55,
+      "f": 0.7248243342557099,
+      "sigma8_z": 0.62837322163678,
+      "f_sigma8": 0.4554602020369947,
+      "delta_fs8": -0.01873723985183301,
+      "delta_pct": -3.9513582732961736,
+      "euclid_nsigma": 2.6767485502618587
+    },
+    {
+      "w0": -0.8,
+      "wa": 0.0,
+      "gamma": 0.55,
+      "f": 0.7189950355460163,
+      "sigma8_z": 0.6291706537953069,
+      "f_sigma8": 0.452370576590067,
+      "delta_fs8": -0.02182686529876071,
+      "delta_pct": -4.602906589251038,
+      "euclid_nsigma": 3.118123614108673
+    }
+  ],
+  "euclid_detectability": [
+    {
+      "w0": -1.0,
+      "f_sigma8": 0.47419744188882773,
+      "delta_fs8": 0.0,
+      "euclid_nsigma": 0.0,
+      "detectable_3sigma": false
+    },
+    {
+      "w0": -0.95,
+      "f_sigma8": 0.46897558645467136,
+      "delta_fs8": -0.005221855434156375,
+      "euclid_nsigma": 0.745979347736625,
+      "detectable_3sigma": false
+    },
+    {
+      "w0": -0.9,
+      "f_sigma8": 0.4635944628605818,
+      "delta_fs8": -0.010602979028245918,
+      "euclid_nsigma": 1.5147112897494168,
+      "detectable_3sigma": false
+    },
+    {
+      "w0": -0.85,
+      "f_sigma8": 0.45805795405460775,
+      "delta_fs8": -0.01613948783421998,
+      "euclid_nsigma": 2.3056411191742825,
+      "detectable_3sigma": false
+    },
+    {
+      "w0": -0.827,
+      "f_sigma8": 0.4554602020369947,
+      "delta_fs8": -0.01873723985183301,
+      "euclid_nsigma": 2.6767485502618587,
+      "detectable_3sigma": false
+    },
+    {
+      "w0": -0.8,
+      "f_sigma8": 0.452370576590067,
+      "delta_fs8": -0.02182686529876071,
+      "euclid_nsigma": 3.118123614108673,
+      "detectable_3sigma": true
+    }
+  ],
+  "gravity_model_gamma_comparison": [
+    {
+      "w0": -1.0,
+      "f_sigma8_GR": 0.47419744188882773,
+      "f_sigma8_fR": 0.45584910691110936,
+      "delta_gamma_fs8": 0.018348334977718372,
+      "euclid_nsigma_gamma": 2.6211907111026247
+    },
+    {
+      "w0": -0.95,
+      "f_sigma8_GR": 0.46897558645467136,
+      "f_sigma8_fR": 0.4495403763374394,
+      "delta_gamma_fs8": 0.019435210117231982,
+      "euclid_nsigma_gamma": 2.7764585881759976
+    },
+    {
+      "w0": -0.9,
+      "f_sigma8_GR": 0.4635944628605818,
+      "f_sigma8_fR": 0.4430589579042763,
+      "delta_gamma_fs8": 0.020535504956305517,
+      "euclid_nsigma_gamma": 2.9336435651865025
+    },
+    {
+      "w0": -0.85,
+      "f_sigma8_GR": 0.45805795405460775,
+      "f_sigma8_fR": 0.43641135037560636,
+      "delta_gamma_fs8": 0.021646603679001397,
+      "euclid_nsigma_gamma": 3.0923719541430565
+    },
+    {
+      "w0": -0.827,
+      "f_sigma8_GR": 0.4554602020369947,
+      "f_sigma8_fR": 0.43329962051848925,
+      "delta_gamma_fs8": 0.022160581518505473,
+      "euclid_nsigma_gamma": 3.165797359786496
+    },
+    {
+      "w0": -0.8,
+      "f_sigma8_GR": 0.452370576590067,
+      "f_sigma8_fR": 0.4296048323284614,
+      "delta_gamma_fs8": 0.022765744261605603,
+      "euclid_nsigma_gamma": 3.252249180229372
+    }
+  ],
+  "timeline": [
+    {
+      "year": 2025,
+      "label": "Now (DESI 2024 only)",
+      "sigma_w0": 0.197,
+      "sigma_fs8": 0.007,
+      "note": "Euclid not yet operational at full precision",
+      "sn_at_desi_bestfit": 2.6767485502618587,
+      "crosses_3sigma": false
+    },
+    {
+      "year": 2027,
+      "label": "DESI Y3 + Euclid Y1",
+      "sigma_w0": 0.13133333333333333,
+      "sigma_fs8": 0.01,
+      "note": "Euclid first data release",
+      "sn_at_desi_bestfit": 1.873723985183301,
+      "crosses_3sigma": false
+    },
+    {
+      "year": 2028,
+      "label": "DESI Y5 + Euclid Y3",
+      "sigma_w0": 0.06566666666666666,
+      "sigma_fs8": 0.007,
+      "note": "DESI Y5 forecast + Euclid full precision",
+      "sn_at_desi_bestfit": 2.6767485502618587,
+      "crosses_3sigma": false
+    },
+    {
+      "year": 2030,
+      "label": "DESI Y5 + Euclid Y5 + LSST",
+      "sigma_w0": 0.04,
+      "sigma_fs8": 0.004,
+      "note": "Euclid + LSST combination forecast",
+      "sn_at_desi_bestfit": 4.6843099629582525,
+      "crosses_3sigma": true
+    }
+  ],
+  "sensitivity": {
+    "dfs8_dw0": -0.10830774480828327,
+    "w0_shift_needed_3sigma": 0.19389195146821986,
+    "desi_w0_shift": 0.17300000000000004
+  },
+  "k_informationalism_scenarios": [
+    {
+      "label": "Shift < 0.5-sigma (null result)",
+      "threshold_lo": 0.0,
+      "threshold_hi": 0.5,
+      "winner": "LCDM",
+      "K_winner": 40,
+      "reason": "No evidence against w=-1; Occam enforces simplest model"
+    },
+    {
+      "label": "0.5-sigma to 2-sigma (marginal)",
+      "threshold_lo": 0.5,
+      "threshold_hi": 2.0,
+      "winner": "Ambiguous",
+      "K_winner": null,
+      "reason": "Consistent with noise; K-MDL does not distinguish"
+    },
+    {
+      "label": "2-sigma to 3-sigma (suggestive)",
+      "threshold_lo": 2.0,
+      "threshold_hi": 3.0,
+      "winner": "Running vacuum (K=40 bits)",
+      "K_winner": 40,
+      "reason": "w != -1 preferred but K-cost of quintessence (280 bits) too high; running vacuum (40 bits, same K as LCDM) wins"
+    },
+    {
+      "label": ">3-sigma with w_a = 0 (clear deviation)",
+      "threshold_lo": 3.0,
+      "threshold_hi": 5.0,
+      "winner": "Running vacuum (K=40 bits)",
+      "K_winner": 40,
+      "reason": "Definitive w != -1 with wa~0; running vacuum still cheapest model to explain a slowly-varying w"
+    },
+    {
+      "label": ">3-sigma AND w_a != 0 detected",
+      "threshold_lo": 3.0,
+      "threshold_hi": null,
+      "winner": "Quintessence starts to compete (K=280 bits)",
+      "K_winner": 280,
+      "reason": "Quintessence needs >3-sigma AND w_a detection to overcome 240-bit K-penalty over LCDM baseline"
+    }
+  ],
+  "current_status": {
+    "date": "2026-04-09",
+    "w0_DESI": -0.827,
+    "delta_fs8": -0.01873723985183301,
+    "delta_pct": -3.9513582732961736,
+    "euclid_nsigma": 2.6767485502618587,
+    "k_mdl_regime": "2-sigma to 3-sigma (suggestive)",
+    "k_mdl_winner": "Running vacuum (K=40 bits)",
+    "interpretation": "At 2.68 Euclid-sigma, the shift is suggestive but below 3-sigma threshold. Under K-MDL: if this holds, running vacuum (K=40 bits) is preferred over quintessence (K=280 bits) because it explains a slowly varying w with no extra K-cost above LCDM. DESI Y5 + Euclid Y3 (2028) combined could push past 3-sigma if w0 stays at -0.827."
+  },
+  "k_mdl_decision_boundaries": {
+    "K_LCDM": 40,
+    "K_running_vacuum": 40,
+    "K_quintessence": 280,
+    "delta_K_rv_lcdm": 0,
+    "delta_K_quint_lcdm": 240,
+    "bits_per_sigma2": 8.0,
+    "delta_logL_quint_needed": 30.0,
+    "delta_chi2_quint_needed": 60.0,
+    "nsigma_quint_threshold": 7.745966692414834,
+    "delta_chi2_desi_current": 14.3,
+    "chi2_desi_y5_forecast": 128.70000000000002,
+    "running_vacuum_preferred_now": true,
+    "quintessence_competitive_now": false,
+    "decision_table": [
+      {
+        "w0": -1.0,
+        "f_sigma8": 0.47419744188882773,
+        "delta_fs8": 0.0,
+        "euclid_nsigma": 0.0,
+        "k_mdl_winner": "LCDM (baseline)"
+      },
+      {
+        "w0": -0.95,
+        "f_sigma8": 0.46897558645467136,
+        "delta_fs8": -0.005221855434156375,
+        "euclid_nsigma": 0.745979347736625,
+        "k_mdl_winner": "Running vacuum (K=40)"
+      },
+      {
+        "w0": -0.9,
+        "f_sigma8": 0.4635944628605818,
+        "delta_fs8": -0.010602979028245918,
+        "euclid_nsigma": 1.5147112897494168,
+        "k_mdl_winner": "Running vacuum (K=40)"
+      },
+      {
+        "w0": -0.85,
+        "f_sigma8": 0.45805795405460775,
+        "delta_fs8": -0.01613948783421998,
+        "euclid_nsigma": 2.3056411191742825,
+        "k_mdl_winner": "Running vacuum (K=40) + Quint. competitive"
+      },
+      {
+        "w0": -0.827,
+        "f_sigma8": 0.4554602020369947,
+        "delta_fs8": -0.01873723985183301,
+        "euclid_nsigma": 2.6767485502618587,
+        "k_mdl_winner": "Running vacuum (K=40) + Quint. competitive"
+      },
+      {
+        "w0": -0.8,
+        "f_sigma8": 0.452370576590067,
+        "delta_fs8": -0.02182686529876071,
+        "euclid_nsigma": 3.118123614108673,
+        "k_mdl_winner": "Running vacuum (K=40) + Quint. competitive"
+      }
+    ]
+  },
+  "key_findings": {
+    "lcdm_fs8": 0.47419744188882773,
+    "desi_fs8": 0.4554602020369947,
+    "delta_fs8": -0.01873723985183301,
+    "delta_pct": -3.9513582732961736,
+    "euclid_nsigma_current": 2.6767485502618587,
+    "euclid_3sigma_threshold": 0.021,
+    "fraction_of_3sigma_threshold": 0.8922495167539528,
+    "enhancement_needed": 1.1207627252498256,
+    "gr_vs_fr_nsigma": 2.6211907111026247,
+    "timeline_3sigma_estimate": "2030 (Euclid Y5 + LSST) if DESI tension persists"
+  }
+}

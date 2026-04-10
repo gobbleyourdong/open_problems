@@ -37,3 +37,6 @@ See attempt_001. Briefly:
 ## Status
 
 Phase 1 done. The moral question is fully load-coupled to the rest of the argument chain and a specific meta-ethical position (naturalist moral realism via compression) emerges as the best supported by the cross-question analysis.
+
+**Odd-track (Cycles 16,18):** r(cooperation_compression_ratio, moral_salience)=+0.608, p=0.0004, n=30. High-moral structures 2.1× more compressive. Golden rule, reciprocity, autonomy = top compressive universal norms. See certs/cert_001_cooperation_compression.md.
+

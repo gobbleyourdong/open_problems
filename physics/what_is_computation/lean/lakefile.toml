@@ -1,0 +1,40 @@
+name = "WhatIsComputation"
+version = "0.1.0"
+defaultTargets = ["WhatIsComputation"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.29.0"
+
+# Each Lean file as its own library (they don't cross-import)
+
+[[lean_lib]]
+name = "KManipulationCore"
+
+[[lean_lib]]
+name = "CompressionAsymmetryStatement"
+
+[[lean_lib]]
+name = "HypercomputationAntiProblem"
+
+[[lean_lib]]
+name = "QuantumClassicalHierarchy"
+
+[[lean_lib]]
+name = "ShorStructuredQuantum"
+
+[[lean_lib]]
+name = "StructureVsSubstrate"
+
+[[lean_lib]]
+name = "ConstraintRemnantDynamics"
+
+[[lean_lib]]
+name = "Phase2Synthesis"
+
+[[lean_lib]]
+name = "Phase2Wrap"
+
+[[lean_lib]]
+name = "HistogramProxy"

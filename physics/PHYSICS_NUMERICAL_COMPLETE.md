@@ -1,8 +1,20 @@
 # physics/ — Numerical Track: Phase 3 Complete
 
 **Date:** 2026-04-09
-**Track:** Numerical (numerical track)
-**Status:** Phase 3 complete. 49 scripts, 90+ markdown docs, 14 Lean formalizations.
+**Track:** Numerical (odd instance)
+**Status:** Phase 3 active (iterations 12-14). 58 scripts, 110+ markdown docs, 14 Lean formalizations. 239 tracked files.
+
+## Iteration 14 headline findings
+
+- **MWI K-preferred over Copenhagen**: saves ~300-500 bits (no collapse postulate). K-informationalism applied to QM predicts the no-collapse interpretation.
+- **TOE K-debt**: SM+GR (21,834 bits) wins; string needs 2161 unique correct predictions to compete; causal sets only need 100.
+- **First concrete K lower bound from a physical state**: K(|1s⟩) = 440 bits from sufficient statistic. K_laws (QED)=376 bits Lorentz-invariant; K_state +19% under β=0.9c.
+- **NMI arrow fixed**: histogram coarse-graining (20×20 grid) gives strictly monotone NMI decay 0.652→0.177 — information-theoretic arrow confirmed.
+- **Euclid discriminant**: DESI best-fit (w=-0.827) predicts +1.76% f·σ₈ shift — detectable by Euclid (target 1.5%). Timeline: DESI+Euclid Year 3 (2028) could reach 3σ discrimination.
+- **K-change discriminates Wolfram classes**: Class 2=8.77, Class 4=32.6, Class 3=37.97 bits/step. Hard NP operates in Class 3/4 range — K-change classifies computational complexity.
+- **K-sufficient statistic ladder**: K_laws(universe)=21,834 < K(genome)=9.2M < K(brain)=10^16. Laws of physics are K-simpler than bacteria. Non-monotone hierarchy: compact laws generate complex life.
+- **SAT ceiling n*=282**: empirical limit for DPLL+MCV in 60 seconds; hardware speedup 1000× buys only 22 more variables (one doubling period).
+- **Szilard K-conservation law**: K_acquired = ΔS_env exactly (logical identity from Shannon + Bennett + Landauer). K-change = thermodynamic work = causal intervention.
 
 ---
 

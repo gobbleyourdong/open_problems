@@ -1,0 +1,1304 @@
+{
+  "metadata": {
+    "script": "rna_protein_K.py",
+    "date": "2026-04-09",
+    "track": "numerical / what_is_change",
+    "context": "Szilard K-cert confirms four-way equality. K-change rate discriminates Wolfram classes (Class 3 = 37.97 bytes/step). Biological change at neural level (Kramers) is in Class 4 range. K-change hierarchy spans 30 orders from decoherence (10^13 bits/s) to evolution (10^-9 bits/s)."
+  },
+  "constants": {
+    "k_B_J_per_K": 1.380649e-23,
+    "T_body_K": 310.0,
+    "ln2": 0.6931471805599453,
+    "landauer_per_bit_J": 2.9666781812480147e-21
+  },
+  "section1_rna_folding": {
+    "sequence": "GCGCAUAUGCGCAUAUGCGC",
+    "n_nucleotides": 20,
+    "steps": [
+      {
+        "step": 1,
+        "pair_added": [
+          0,
+          9
+        ],
+        "nts": [
+          "G",
+          "C"
+        ],
+        "energy_kcal": -3.0,
+        "n_pairs_so_far": 1,
+        "K_bytes": 109,
+        "dK_bytes": 13,
+        "wolfram_analog": "Class 3 (chaotic)"
+      },
+      {
+        "step": 5,
+        "pair_added": [
+          1,
+          8
+        ],
+        "nts": [
+          "C",
+          "G"
+        ],
+        "energy_kcal": -3.0,
+        "n_pairs_so_far": 2,
+        "K_bytes": 112,
+        "dK_bytes": 3,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "step": 10,
+        "pair_added": [
+          2,
+          11
+        ],
+        "nts": [
+          "G",
+          "C"
+        ],
+        "energy_kcal": -3.0,
+        "n_pairs_so_far": 3,
+        "K_bytes": 117,
+        "dK_bytes": 5,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "step": 14,
+        "pair_added": [
+          3,
+          10
+        ],
+        "nts": [
+          "C",
+          "G"
+        ],
+        "energy_kcal": -3.0,
+        "n_pairs_so_far": 4,
+        "K_bytes": 119,
+        "dK_bytes": 2,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "step": 25,
+        "pair_added": [
+          4,
+          13
+        ],
+        "nts": [
+          "A",
+          "U"
+        ],
+        "energy_kcal": -2.0,
+        "n_pairs_so_far": 5,
+        "K_bytes": 124,
+        "dK_bytes": 5,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "step": 27,
+        "pair_added": [
+          5,
+          12
+        ],
+        "nts": [
+          "U",
+          "A"
+        ],
+        "energy_kcal": -2.0,
+        "n_pairs_so_far": 6,
+        "K_bytes": 125,
+        "dK_bytes": 1,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "step": 30,
+        "pair_added": [
+          6,
+          15
+        ],
+        "nts": [
+          "A",
+          "U"
+        ],
+        "energy_kcal": -2.0,
+        "n_pairs_so_far": 7,
+        "K_bytes": 128,
+        "dK_bytes": 3,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "step": 32,
+        "pair_added": [
+          7,
+          14
+        ],
+        "nts": [
+          "U",
+          "A"
+        ],
+        "energy_kcal": -2.0,
+        "n_pairs_so_far": 8,
+        "K_bytes": 128,
+        "dK_bytes": 0,
+        "wolfram_analog": "Class 1 (fixed point)"
+      }
+    ],
+    "final_pairs": [
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        7,
+        14
+      ]
+    ],
+    "n_final_pairs": 8,
+    "final_K_bytes": 128,
+    "total_energy_kcal": -20.0,
+    "mean_dK_bytes": 4.0,
+    "first_half_mean_dK": 5.75,
+    "second_half_mean_dK": 2.25,
+    "k_gradient_confirmed": true,
+    "interpretation": "RNA folding exhibits a K-gradient: dK is high at the start (exploring secondary structure space) and converges to 0 when the structure is fully determined.  This falling K-change trajectory is the opposite of SAT hard instances (flat K) and is characteristic of Class 4 (complex, computation-universal) dynamics."
+  },
+  "section2_protein_motion": {
+    "model": "10-residue coupled harmonic oscillators (overdamped Langevin)",
+    "n_residues": 10,
+    "trajectory_window_size": 10,
+    "steps": [
+      {
+        "t": 1,
+        "regime": "near_equilibrium",
+        "K_bytes": 92,
+        "dK_bytes": 56,
+        "mean_displacement": 0.1649,
+        "wolfram_analog": "Class 3 (chaotic)"
+      },
+      {
+        "t": 2,
+        "regime": "near_equilibrium",
+        "K_bytes": 122,
+        "dK_bytes": 30,
+        "mean_displacement": 0.3167,
+        "wolfram_analog": "Class 3 (chaotic)"
+      },
+      {
+        "t": 3,
+        "regime": "near_equilibrium",
+        "K_bytes": 152,
+        "dK_bytes": 30,
+        "mean_displacement": 0.3713,
+        "wolfram_analog": "Class 3 (chaotic)"
+      },
+      {
+        "t": 4,
+        "regime": "near_equilibrium",
+        "K_bytes": 189,
+        "dK_bytes": 37,
+        "mean_displacement": 0.5312,
+        "wolfram_analog": "Class 3 (chaotic)"
+      },
+      {
+        "t": 5,
+        "regime": "near_equilibrium",
+        "K_bytes": 208,
+        "dK_bytes": 19,
+        "mean_displacement": 0.4609,
+        "wolfram_analog": "Class 3 (chaotic)"
+      },
+      {
+        "t": 6,
+        "regime": "near_equilibrium",
+        "K_bytes": 242,
+        "dK_bytes": 34,
+        "mean_displacement": 0.6095,
+        "wolfram_analog": "Class 3 (chaotic)"
+      },
+      {
+        "t": 7,
+        "regime": "near_equilibrium",
+        "K_bytes": 272,
+        "dK_bytes": 30,
+        "mean_displacement": 0.6076,
+        "wolfram_analog": "Class 3 (chaotic)"
+      },
+      {
+        "t": 8,
+        "regime": "near_equilibrium",
+        "K_bytes": 305,
+        "dK_bytes": 33,
+        "mean_displacement": 0.5329,
+        "wolfram_analog": "Class 3 (chaotic)"
+      },
+      {
+        "t": 9,
+        "regime": "near_equilibrium",
+        "K_bytes": 337,
+        "dK_bytes": 32,
+        "mean_displacement": 0.613,
+        "wolfram_analog": "Class 3 (chaotic)"
+      },
+      {
+        "t": 10,
+        "regime": "near_equilibrium",
+        "K_bytes": 365,
+        "dK_bytes": 28,
+        "mean_displacement": 0.731,
+        "wolfram_analog": "Class 3 (chaotic)"
+      },
+      {
+        "t": 11,
+        "regime": "near_equilibrium",
+        "K_bytes": 368,
+        "dK_bytes": 3,
+        "mean_displacement": 0.8728,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 12,
+        "regime": "near_equilibrium",
+        "K_bytes": 373,
+        "dK_bytes": 5,
+        "mean_displacement": 0.8328,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 13,
+        "regime": "near_equilibrium",
+        "K_bytes": 375,
+        "dK_bytes": 2,
+        "mean_displacement": 1.0378,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 14,
+        "regime": "near_equilibrium",
+        "K_bytes": 377,
+        "dK_bytes": 2,
+        "mean_displacement": 1.1059,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 15,
+        "regime": "near_equilibrium",
+        "K_bytes": 378,
+        "dK_bytes": 1,
+        "mean_displacement": 0.7645,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 16,
+        "regime": "near_equilibrium",
+        "K_bytes": 376,
+        "dK_bytes": 2,
+        "mean_displacement": 0.9248,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 17,
+        "regime": "near_equilibrium",
+        "K_bytes": 379,
+        "dK_bytes": 3,
+        "mean_displacement": 1.0801,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 18,
+        "regime": "near_equilibrium",
+        "K_bytes": 381,
+        "dK_bytes": 2,
+        "mean_displacement": 1.1833,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 19,
+        "regime": "near_equilibrium",
+        "K_bytes": 380,
+        "dK_bytes": 1,
+        "mean_displacement": 1.1563,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 20,
+        "regime": "near_equilibrium",
+        "K_bytes": 381,
+        "dK_bytes": 1,
+        "mean_displacement": 1.2273,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 21,
+        "regime": "near_equilibrium",
+        "K_bytes": 381,
+        "dK_bytes": 0,
+        "mean_displacement": 1.2011,
+        "wolfram_analog": "Class 1 (fixed)"
+      },
+      {
+        "t": 22,
+        "regime": "near_equilibrium",
+        "K_bytes": 380,
+        "dK_bytes": 1,
+        "mean_displacement": 1.2799,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 23,
+        "regime": "near_equilibrium",
+        "K_bytes": 379,
+        "dK_bytes": 1,
+        "mean_displacement": 1.4722,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 24,
+        "regime": "near_equilibrium",
+        "K_bytes": 381,
+        "dK_bytes": 2,
+        "mean_displacement": 1.4103,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 25,
+        "regime": "near_equilibrium",
+        "K_bytes": 382,
+        "dK_bytes": 1,
+        "mean_displacement": 1.5065,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 26,
+        "regime": "near_equilibrium",
+        "K_bytes": 385,
+        "dK_bytes": 3,
+        "mean_displacement": 1.6956,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 27,
+        "regime": "near_equilibrium",
+        "K_bytes": 382,
+        "dK_bytes": 3,
+        "mean_displacement": 1.4455,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 28,
+        "regime": "near_equilibrium",
+        "K_bytes": 381,
+        "dK_bytes": 1,
+        "mean_displacement": 1.5563,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 29,
+        "regime": "near_equilibrium",
+        "K_bytes": 382,
+        "dK_bytes": 1,
+        "mean_displacement": 1.3734,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 30,
+        "regime": "near_equilibrium",
+        "K_bytes": 385,
+        "dK_bytes": 3,
+        "mean_displacement": 1.5082,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 31,
+        "regime": "near_equilibrium",
+        "K_bytes": 384,
+        "dK_bytes": 1,
+        "mean_displacement": 1.5335,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 32,
+        "regime": "near_equilibrium",
+        "K_bytes": 389,
+        "dK_bytes": 5,
+        "mean_displacement": 1.5127,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 33,
+        "regime": "near_equilibrium",
+        "K_bytes": 391,
+        "dK_bytes": 2,
+        "mean_displacement": 1.7182,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 34,
+        "regime": "near_equilibrium",
+        "K_bytes": 392,
+        "dK_bytes": 1,
+        "mean_displacement": 1.73,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 35,
+        "regime": "near_equilibrium",
+        "K_bytes": 388,
+        "dK_bytes": 4,
+        "mean_displacement": 1.592,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 36,
+        "regime": "near_equilibrium",
+        "K_bytes": 387,
+        "dK_bytes": 1,
+        "mean_displacement": 1.6622,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 37,
+        "regime": "near_equilibrium",
+        "K_bytes": 388,
+        "dK_bytes": 1,
+        "mean_displacement": 1.843,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 38,
+        "regime": "near_equilibrium",
+        "K_bytes": 386,
+        "dK_bytes": 2,
+        "mean_displacement": 1.776,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 39,
+        "regime": "near_equilibrium",
+        "K_bytes": 379,
+        "dK_bytes": 7,
+        "mean_displacement": 1.817,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 40,
+        "regime": "near_equilibrium",
+        "K_bytes": 382,
+        "dK_bytes": 3,
+        "mean_displacement": 1.7596,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 41,
+        "regime": "near_equilibrium",
+        "K_bytes": 385,
+        "dK_bytes": 3,
+        "mean_displacement": 1.7656,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 42,
+        "regime": "near_equilibrium",
+        "K_bytes": 387,
+        "dK_bytes": 2,
+        "mean_displacement": 1.9034,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 43,
+        "regime": "near_equilibrium",
+        "K_bytes": 391,
+        "dK_bytes": 4,
+        "mean_displacement": 1.6159,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 44,
+        "regime": "near_equilibrium",
+        "K_bytes": 393,
+        "dK_bytes": 2,
+        "mean_displacement": 1.6401,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 45,
+        "regime": "near_equilibrium",
+        "K_bytes": 394,
+        "dK_bytes": 1,
+        "mean_displacement": 1.5924,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 46,
+        "regime": "near_equilibrium",
+        "K_bytes": 396,
+        "dK_bytes": 2,
+        "mean_displacement": 1.6465,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 47,
+        "regime": "near_equilibrium",
+        "K_bytes": 398,
+        "dK_bytes": 2,
+        "mean_displacement": 1.6593,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 48,
+        "regime": "near_equilibrium",
+        "K_bytes": 398,
+        "dK_bytes": 0,
+        "mean_displacement": 1.4364,
+        "wolfram_analog": "Class 1 (fixed)"
+      },
+      {
+        "t": 49,
+        "regime": "near_equilibrium",
+        "K_bytes": 398,
+        "dK_bytes": 0,
+        "mean_displacement": 1.3592,
+        "wolfram_analog": "Class 1 (fixed)"
+      },
+      {
+        "t": 50,
+        "regime": "near_equilibrium",
+        "K_bytes": 397,
+        "dK_bytes": 1,
+        "mean_displacement": 1.2863,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 51,
+        "regime": "conformational_transition",
+        "K_bytes": 395,
+        "dK_bytes": 2,
+        "mean_displacement": 0.9726,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 52,
+        "regime": "conformational_transition",
+        "K_bytes": 390,
+        "dK_bytes": 5,
+        "mean_displacement": 1.9539,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 53,
+        "regime": "conformational_transition",
+        "K_bytes": 394,
+        "dK_bytes": 4,
+        "mean_displacement": 2.3794,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 54,
+        "regime": "conformational_transition",
+        "K_bytes": 394,
+        "dK_bytes": 0,
+        "mean_displacement": 2.7303,
+        "wolfram_analog": "Class 1 (fixed)"
+      },
+      {
+        "t": 55,
+        "regime": "conformational_transition",
+        "K_bytes": 392,
+        "dK_bytes": 2,
+        "mean_displacement": 2.7252,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 56,
+        "regime": "conformational_transition",
+        "K_bytes": 391,
+        "dK_bytes": 1,
+        "mean_displacement": 2.8239,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 57,
+        "regime": "conformational_transition",
+        "K_bytes": 392,
+        "dK_bytes": 1,
+        "mean_displacement": 2.9244,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 58,
+        "regime": "conformational_transition",
+        "K_bytes": 384,
+        "dK_bytes": 8,
+        "mean_displacement": 2.7856,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 59,
+        "regime": "conformational_transition",
+        "K_bytes": 387,
+        "dK_bytes": 3,
+        "mean_displacement": 3.0561,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 60,
+        "regime": "conformational_transition",
+        "K_bytes": 381,
+        "dK_bytes": 6,
+        "mean_displacement": 2.921,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 61,
+        "regime": "conformational_transition",
+        "K_bytes": 380,
+        "dK_bytes": 1,
+        "mean_displacement": 3.0559,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 62,
+        "regime": "conformational_transition",
+        "K_bytes": 380,
+        "dK_bytes": 0,
+        "mean_displacement": 2.958,
+        "wolfram_analog": "Class 1 (fixed)"
+      },
+      {
+        "t": 63,
+        "regime": "conformational_transition",
+        "K_bytes": 380,
+        "dK_bytes": 0,
+        "mean_displacement": 2.9969,
+        "wolfram_analog": "Class 1 (fixed)"
+      },
+      {
+        "t": 64,
+        "regime": "conformational_transition",
+        "K_bytes": 378,
+        "dK_bytes": 2,
+        "mean_displacement": 3.0738,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 65,
+        "regime": "conformational_transition",
+        "K_bytes": 382,
+        "dK_bytes": 4,
+        "mean_displacement": 3.167,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 66,
+        "regime": "conformational_transition",
+        "K_bytes": 383,
+        "dK_bytes": 1,
+        "mean_displacement": 3.0752,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 67,
+        "regime": "conformational_transition",
+        "K_bytes": 378,
+        "dK_bytes": 5,
+        "mean_displacement": 3.154,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 68,
+        "regime": "conformational_transition",
+        "K_bytes": 382,
+        "dK_bytes": 4,
+        "mean_displacement": 3.1361,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 69,
+        "regime": "conformational_transition",
+        "K_bytes": 379,
+        "dK_bytes": 3,
+        "mean_displacement": 3.0777,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 70,
+        "regime": "conformational_transition",
+        "K_bytes": 381,
+        "dK_bytes": 2,
+        "mean_displacement": 3.0885,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 71,
+        "regime": "post_transition_eq",
+        "K_bytes": 385,
+        "dK_bytes": 4,
+        "mean_displacement": 2.8296,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 72,
+        "regime": "post_transition_eq",
+        "K_bytes": 386,
+        "dK_bytes": 1,
+        "mean_displacement": 2.5689,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 73,
+        "regime": "post_transition_eq",
+        "K_bytes": 387,
+        "dK_bytes": 1,
+        "mean_displacement": 2.8007,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 74,
+        "regime": "post_transition_eq",
+        "K_bytes": 386,
+        "dK_bytes": 1,
+        "mean_displacement": 2.632,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 75,
+        "regime": "post_transition_eq",
+        "K_bytes": 388,
+        "dK_bytes": 2,
+        "mean_displacement": 2.38,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 76,
+        "regime": "post_transition_eq",
+        "K_bytes": 385,
+        "dK_bytes": 3,
+        "mean_displacement": 2.4465,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 77,
+        "regime": "post_transition_eq",
+        "K_bytes": 390,
+        "dK_bytes": 5,
+        "mean_displacement": 2.1023,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 78,
+        "regime": "post_transition_eq",
+        "K_bytes": 389,
+        "dK_bytes": 1,
+        "mean_displacement": 2.0044,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 79,
+        "regime": "post_transition_eq",
+        "K_bytes": 393,
+        "dK_bytes": 4,
+        "mean_displacement": 1.8135,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 80,
+        "regime": "post_transition_eq",
+        "K_bytes": 393,
+        "dK_bytes": 0,
+        "mean_displacement": 1.8638,
+        "wolfram_analog": "Class 1 (fixed)"
+      },
+      {
+        "t": 81,
+        "regime": "post_transition_eq",
+        "K_bytes": 394,
+        "dK_bytes": 1,
+        "mean_displacement": 1.7458,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 82,
+        "regime": "post_transition_eq",
+        "K_bytes": 398,
+        "dK_bytes": 4,
+        "mean_displacement": 1.9224,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 83,
+        "regime": "post_transition_eq",
+        "K_bytes": 399,
+        "dK_bytes": 1,
+        "mean_displacement": 1.8439,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 84,
+        "regime": "post_transition_eq",
+        "K_bytes": 397,
+        "dK_bytes": 2,
+        "mean_displacement": 1.9278,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 85,
+        "regime": "post_transition_eq",
+        "K_bytes": 401,
+        "dK_bytes": 4,
+        "mean_displacement": 2.1356,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 86,
+        "regime": "post_transition_eq",
+        "K_bytes": 396,
+        "dK_bytes": 5,
+        "mean_displacement": 2.2329,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 87,
+        "regime": "post_transition_eq",
+        "K_bytes": 394,
+        "dK_bytes": 2,
+        "mean_displacement": 2.1078,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 88,
+        "regime": "post_transition_eq",
+        "K_bytes": 385,
+        "dK_bytes": 9,
+        "mean_displacement": 1.7663,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 89,
+        "regime": "post_transition_eq",
+        "K_bytes": 381,
+        "dK_bytes": 4,
+        "mean_displacement": 1.77,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 90,
+        "regime": "post_transition_eq",
+        "K_bytes": 382,
+        "dK_bytes": 1,
+        "mean_displacement": 1.7943,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 91,
+        "regime": "post_transition_eq",
+        "K_bytes": 385,
+        "dK_bytes": 3,
+        "mean_displacement": 1.788,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 92,
+        "regime": "post_transition_eq",
+        "K_bytes": 384,
+        "dK_bytes": 1,
+        "mean_displacement": 1.9066,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 93,
+        "regime": "post_transition_eq",
+        "K_bytes": 383,
+        "dK_bytes": 1,
+        "mean_displacement": 1.7626,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 94,
+        "regime": "post_transition_eq",
+        "K_bytes": 385,
+        "dK_bytes": 2,
+        "mean_displacement": 2.1157,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 95,
+        "regime": "post_transition_eq",
+        "K_bytes": 385,
+        "dK_bytes": 0,
+        "mean_displacement": 1.8402,
+        "wolfram_analog": "Class 1 (fixed)"
+      },
+      {
+        "t": 96,
+        "regime": "post_transition_eq",
+        "K_bytes": 388,
+        "dK_bytes": 3,
+        "mean_displacement": 1.9818,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 97,
+        "regime": "post_transition_eq",
+        "K_bytes": 383,
+        "dK_bytes": 5,
+        "mean_displacement": 2.0945,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 98,
+        "regime": "post_transition_eq",
+        "K_bytes": 386,
+        "dK_bytes": 3,
+        "mean_displacement": 1.8841,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 99,
+        "regime": "post_transition_eq",
+        "K_bytes": 389,
+        "dK_bytes": 3,
+        "mean_displacement": 1.7437,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 100,
+        "regime": "post_transition_eq",
+        "K_bytes": 388,
+        "dK_bytes": 1,
+        "mean_displacement": 1.6101,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 101,
+        "regime": "post_transition_eq",
+        "K_bytes": 385,
+        "dK_bytes": 3,
+        "mean_displacement": 1.7095,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 102,
+        "regime": "post_transition_eq",
+        "K_bytes": 385,
+        "dK_bytes": 0,
+        "mean_displacement": 1.4655,
+        "wolfram_analog": "Class 1 (fixed)"
+      },
+      {
+        "t": 103,
+        "regime": "post_transition_eq",
+        "K_bytes": 388,
+        "dK_bytes": 3,
+        "mean_displacement": 1.2155,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 104,
+        "regime": "post_transition_eq",
+        "K_bytes": 384,
+        "dK_bytes": 4,
+        "mean_displacement": 1.0959,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 105,
+        "regime": "post_transition_eq",
+        "K_bytes": 382,
+        "dK_bytes": 2,
+        "mean_displacement": 1.0904,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 106,
+        "regime": "post_transition_eq",
+        "K_bytes": 384,
+        "dK_bytes": 2,
+        "mean_displacement": 1.3387,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 107,
+        "regime": "post_transition_eq",
+        "K_bytes": 381,
+        "dK_bytes": 3,
+        "mean_displacement": 1.2198,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 108,
+        "regime": "post_transition_eq",
+        "K_bytes": 381,
+        "dK_bytes": 0,
+        "mean_displacement": 1.4977,
+        "wolfram_analog": "Class 1 (fixed)"
+      },
+      {
+        "t": 109,
+        "regime": "post_transition_eq",
+        "K_bytes": 377,
+        "dK_bytes": 4,
+        "mean_displacement": 1.5401,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 110,
+        "regime": "post_transition_eq",
+        "K_bytes": 375,
+        "dK_bytes": 2,
+        "mean_displacement": 1.5486,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 111,
+        "regime": "post_transition_eq",
+        "K_bytes": 374,
+        "dK_bytes": 1,
+        "mean_displacement": 1.8119,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 112,
+        "regime": "post_transition_eq",
+        "K_bytes": 379,
+        "dK_bytes": 5,
+        "mean_displacement": 1.8997,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 113,
+        "regime": "post_transition_eq",
+        "K_bytes": 384,
+        "dK_bytes": 5,
+        "mean_displacement": 1.8925,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 114,
+        "regime": "post_transition_eq",
+        "K_bytes": 382,
+        "dK_bytes": 2,
+        "mean_displacement": 1.9631,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 115,
+        "regime": "post_transition_eq",
+        "K_bytes": 385,
+        "dK_bytes": 3,
+        "mean_displacement": 2.0351,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 116,
+        "regime": "post_transition_eq",
+        "K_bytes": 381,
+        "dK_bytes": 4,
+        "mean_displacement": 2.1101,
+        "wolfram_analog": "Class 4 (complex)"
+      },
+      {
+        "t": 117,
+        "regime": "post_transition_eq",
+        "K_bytes": 382,
+        "dK_bytes": 1,
+        "mean_displacement": 2.1863,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 118,
+        "regime": "post_transition_eq",
+        "K_bytes": 382,
+        "dK_bytes": 0,
+        "mean_displacement": 2.0476,
+        "wolfram_analog": "Class 1 (fixed)"
+      },
+      {
+        "t": 119,
+        "regime": "post_transition_eq",
+        "K_bytes": 383,
+        "dK_bytes": 1,
+        "mean_displacement": 1.9903,
+        "wolfram_analog": "Class 2 (regular)"
+      },
+      {
+        "t": 120,
+        "regime": "post_transition_eq",
+        "K_bytes": 387,
+        "dK_bytes": 4,
+        "mean_displacement": 2.1105,
+        "wolfram_analog": "Class 4 (complex)"
+      }
+    ],
+    "regimes": {
+      "near_equilibrium": {
+        "n_steps": 50,
+        "mean_K_bytes": 353.46,
+        "mean_dK_bytes": 8.22,
+        "wolfram_class": "Class 3 (chaotic / random walk)",
+        "physical_meaning": "Random walk in harmonic well: each snapshot is unpredictably different from the last.  Trajectory is high-K (low compressibility) per step \u2014 Class 3 at the trajectory level."
+      },
+      "conformational_transition": {
+        "n_steps": 20,
+        "mean_K_bytes": 385.15,
+        "mean_dK_bytes": 2.7,
+        "wolfram_class": "Class 4 (complex / directed)",
+        "physical_meaning": "Directed motion toward new basin: consecutive snapshots follow a structured, predictable trajectory (biased Langevin).  Trajectory is structured (Class 4): lower dK per step because each window compresses well against the previous (same direction)."
+      },
+      "post_transition_eq": {
+        "n_steps": 50,
+        "mean_K_bytes": 386.12,
+        "mean_dK_bytes": 2.52,
+        "wolfram_class": "Class 4 (complex / directed)",
+        "physical_meaning": "Settled in new energy basin: small oscillations around new equilibrium.  Trajectory is regular (Class 2): low, correlated K-change per step."
+      }
+    },
+    "k_ordering_confirmed": {
+      "near_eq_ge_transition": true,
+      "transition_ge_settled": true
+    },
+    "interpretation": "Trajectory K-change discriminates protein motion regimes: near-equilibrium random walk (Class 3, high dK per step) > directed conformational transition (Class 4, moderate dK) > settled equilibrium (Class 2, low dK). The transition is LESS K-chaotic than random diffusion because it is directed and structured.  This is the K-change signature of functional protein motion: structured, computation-like (Class 4), not random."
+  },
+  "section3_k_change_table": [
+    {
+      "process": "Quantum decoherence (ion channel)",
+      "timescale_s": 1e-13,
+      "K_change_per_event_bits": 1.0,
+      "K_rate_bits_per_s": 10000000000000.0,
+      "wolfram_class": "Class 3 / boundary",
+      "regime": "quantum \u2192 classical boundary",
+      "source": "quantum_K_change.py",
+      "notes": "Each decoherence event: 1 bit of K-change. Rate: 10^13 Hz per ion channel. At this scale, quantum superposition collapses to a classical bit \u2014 maximum entropy production per unit time. Nominally Class 3 but the events are structureless (coin-flip); the aggregate Kramers gating that follows is where Class 4 structure emerges."
+    },
+    {
+      "process": "Ion channel Kramers gating (single channel)",
+      "timescale_s": 0.001,
+      "K_change_per_event_bits": 1.0,
+      "K_rate_bits_per_s": 1000.0,
+      "wolfram_class": "Class 4 (complex)",
+      "regime": "thermal / Kramers",
+      "source": "brain_k_flow.py + landauer_cascade.py",
+      "notes": "Single ion channel gating: ~1 kHz, 1 bit/crossing. The structured temporal pattern of channel openings encodes membrane potential information \u2014 Class 4 complexity at the single-channel level.  Aggregate (all brain channels): 8.6\u00d710^20 bits/s."
+    },
+    {
+      "process": "RNA secondary structure folding (20 nt)",
+      "timescale_s": 0.0001,
+      "K_change_per_event_bits": 32.0,
+      "K_rate_bits_per_s": 320000.0,
+      "wolfram_class": "Class 4 (complex)",
+      "regime": "biochemical / folding",
+      "source": "rna_protein_K.py (this script)",
+      "notes": "Greedy-folding simulation of GCGCAUAUGCGCAUAUGCGC (20 nt). Mean dK = 4.00 bytes/step = 32.0 bits/step. K-gradient confirmed = True. Falling K-change (high early, low late) is the hallmark of Class 4: a computation converging on its answer."
+    },
+    {
+      "process": "Protein thermal fluctuations (near-eq, random walk)",
+      "timescale_s": 1e-06,
+      "K_change_per_event_bits": 65.76,
+      "K_rate_bits_per_s": 65760000.0,
+      "wolfram_class": "Class 3 (trajectory) / Class 2 (snapshot)",
+      "regime": "thermal / near-equilibrium",
+      "source": "rna_protein_K.py (this script)",
+      "notes": "Near-equilibrium random walk: trajectory mean dK = 8.22 bytes/step = 65.8 bits/step.  Trajectory K is HIGH (Class 3): each snapshot is unpredictably different from the last.  Snapshot K is LOW (Class 2): single configuration is correlated and regular.  The distinction between trajectory K and snapshot K is the key: near-eq motion is Class 3 at the trajectory level."
+    },
+    {
+      "process": "Protein conformational change (directed domain motion)",
+      "timescale_s": 1e-06,
+      "K_change_per_event_bits": 21.6,
+      "K_rate_bits_per_s": 21600000.0,
+      "wolfram_class": "Class 4 (complex / directed)",
+      "regime": "conformational / directed transition",
+      "source": "rna_protein_K.py (this script)",
+      "notes": "Directed conformational transition: trajectory mean dK = 2.70 bytes/step = 21.6 bits/step.  LOWER trajectory dK than near-eq random walk because the motion is directed (structured Langevin bias).  This is Class 4: the trajectory is structured and compressible (consecutive snapshots are correlated along the transition path). Functional protein motion is MORE K-structured than random diffusion."
+    },
+    {
+      "process": "Neuron action potential firing",
+      "timescale_s": 0.001,
+      "K_change_per_event_bits": 1.0,
+      "K_rate_bits_per_s": 860000000000.0,
+      "wolfram_class": "Class 4 (complex)",
+      "regime": "neural / integrative",
+      "source": "brain_k_flow.py",
+      "notes": "86 billion neurons \u00d7 10 Hz average firing \u00d7 1 bit/spike = 8.6\u00d710^11 bits/s total brain firing K-rate. The temporal structure of spike trains encodes information in a highly complex, structured pattern \u2014 canonical Class 4."
+    },
+    {
+      "process": "Synaptic transmission (whole brain)",
+      "timescale_s": 0.001,
+      "K_change_per_event_bits": 1.0,
+      "K_rate_bits_per_s": 1500000000000000.0,
+      "wolfram_class": "Class 4 (complex)",
+      "regime": "neural / network",
+      "source": "brain_k_flow.py",
+      "notes": "150 trillion synapses \u00d7 10 Hz \u00d7 1 bit/event = 1.5\u00d710^15 bits/s. Synaptic weight patterns (long-term potentiation) create structured K-memory \u2014 Class 4."
+    },
+    {
+      "process": "DNA replication (polymerase)",
+      "timescale_s": 0.001,
+      "K_change_per_event_bits": 2.0,
+      "K_rate_bits_per_s": 2000.0,
+      "wolfram_class": "Class 4 (complex)",
+      "regime": "genomic / replication",
+      "source": "landauer_cascade.py",
+      "notes": "1000 bp/s \u00d7 2 bits/bp = 2000 bits/s. The proofreading machinery selects among competing nucleotides \u2014 a structured, computation-like process (Hopfield kinetic proofreading). Class 4: information-directed, structured, error-correcting."
+    },
+    {
+      "process": "Evolution (mutation fixation, per lineage)",
+      "timescale_s": 631000000000000.0,
+      "K_change_per_event_bits": 1.0,
+      "K_rate_bits_per_s": 1.13e-09,
+      "wolfram_class": "Class 4 (complex) / integrative",
+      "regime": "evolutionary / population",
+      "source": "landauer_cascade.py",
+      "notes": "Functional genome K = 135 Mbits accumulated over 3.8 Gyr. Rate = 1.13\u00d710^-9 bits/s per lineage.  At the population level (Ne \u2248 10^4): 13\u00d7 Maxwell-demon efficiency, encoding log2(Ne) \u2248 13 bits per fixation event. The slowest Class 4 process in biology."
+    }
+  ],
+  "section4_key_finding": {
+    "title": "The Living Cell Operates Predominantly in Class 4 K-change",
+    "statement": "Biological processes span the full range of Wolfram computational classes when measured by their K-change rate per step.  Near-equilibrium biochemistry (thermal protein fluctuations) exhibits Class 2 (small, regular K-change).  Functional protein motions, RNA folding, and neural spike trains operate in Class 4 (moderate, structured, computation-like K-change) \u2014 the same class as cellular automaton rules that support universal computation.  Chaotic signaling cascades and maximum-decoherence events reach Class 3 (high, unpredictable K-change).  Evolution sits at the low end of Class 4: extremely low K-rate per unit time, but structured (population-level parallelism gives >1x Maxwell-demon efficiency) and computation-universal over geological timescales.  The key observation: the LIVING CELL selectively sustains Class 4 K-change dynamics in its functional machinery (enzymes, RNA, signaling networks) while keeping background near-equilibrium processes in Class 2. This selective Class 4 operation is the K-change signature of life: a thermodynamic system that has evolved to maintain computation-universal K-change precisely where functional information processing is required.",
+    "wolfram_class_map": {
+      "Class 1 (fixed point)": {
+        "description": "K-change = 0 per step.  Dead molecule at T = 0.",
+        "biological_example": "Crystal at absolute zero (unphysical limit)",
+        "K_rate_range_bits_per_s": "0"
+      },
+      "Class 2 (regular)": {
+        "description": "Small, correlated K-change.  Periodic or nearly-periodic.",
+        "biological_example": "Near-equilibrium protein vibrations, circadian rhythms",
+        "K_rate_range_bits_per_s": "< 10^3 (per molecule)"
+      },
+      "Class 4 (complex)": {
+        "description": "Moderate, structured K-change.  Computation-universal.",
+        "biological_example": "RNA folding, protein domain motion, neural firing, DNA replication",
+        "K_rate_range_bits_per_s": "10^3 \u2014 10^15"
+      },
+      "Class 3 (chaotic)": {
+        "description": "High, unpredictable K-change.  No long-range structure.",
+        "biological_example": "Decoherence events, chaotic signaling cascades",
+        "K_rate_range_bits_per_s": "> 10^13 (per molecule)"
+      }
+    },
+    "class4_as_life_signature": "Class 4 dynamics \u2014 the edge between order and chaos \u2014 is the only Wolfram class that supports universal computation.  Life exploits this window: RNA folding converges on a unique structure (not random), protein domain motions switch between defined states (not chaotic), and neural networks integrate sparse spike patterns (not white noise) into coherent cognitive representations.  The cell is a Class 4 K-change machine, running just above the Landauer floor at biological temperatures."
+  }
+}

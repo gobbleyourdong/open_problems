@@ -21,6 +21,9 @@ asymmetry. Even with Grover, finding costs 2^(n/2) while verifying
 costs O(n). The ratio is still exponential.
 -/
 
+import Mathlib.Data.Real.Basic
+import Mathlib.Tactic.NormNum
+
 /-! ## The Three Search Strategies -/
 
 /-- A search strategy characterized by its doubling period:

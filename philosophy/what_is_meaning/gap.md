@@ -52,3 +52,6 @@ The anti-problem is thus the same gap stated in reverse: does A-meaningful-but-P
 ## Status
 
 Phase 1 done (bifurcation established). Phase 2 (testing position ii empirically) is the next region of work.
+
+**Odd-track (Cycles 13,19):** A-meaning gap = 0.007 at GPT-4 (CLOSED). P-meaning residue = 0.307 (OPEN). r(P-sensitivity, LLM-human gap)=+0.921, p=0.0001. γ prediction consistent: (1-G×L)×0.307≈0.270 vs observed 0.307. See certs/cert_001_meaning_gap.md.
+

@@ -23,6 +23,9 @@ The four-tier K-search hierarchy:
   k=1 (Exhaustive) < k=2 (Grover) << k=14 (DPLL) <<< ∞ (Shor = polynomial)
 -/
 
+import Mathlib.Data.Real.Basic
+import Mathlib.Tactic.NormNum
+
 /-! ## Factoring Complexity at Each Regime -/
 
 /-- Operations required to factor an n-bit number. -/

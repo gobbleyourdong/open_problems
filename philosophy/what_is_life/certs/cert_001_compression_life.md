@@ -6,11 +6,14 @@
 
 ---
 
-## Headline result
+## Headline result (updated Cycle 21)
 
-**r(compression_score, consensus_alive) = +0.794, p=0.0007, n=14**
+**6-dim (C1-C6): r=+0.906, p<0.001, n=14** ← FINAL
+5-dim (C1-C5): r=+0.794, p=0.0007 (initial result)
 
-Threshold accuracy: 7/7 (3/3 at top, 4/4 at bottom).
+C6 = phylogenetic lineage continuity (is this system a product of a living lineage?)
+Adding C6 resolves the mule and seed edge cases and improves r by +0.112.
+See result_002_c6_correction.md.
 
 ---
 

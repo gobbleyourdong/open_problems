@@ -1,0 +1,115 @@
+{
+  "script": "sm_vacuum_K.py",
+  "date": "2026-04-09",
+  "context": {
+    "k_1s_certified_bits": 440,
+    "k_sm_lagrangian_bits": 21549,
+    "k_sm_gr_total_bits": 21834,
+    "source_k_1s": "k_state_correlation.py exp3 sufficient statistic",
+    "source_k_lagrangian": "k_spec_completeness.py"
+  },
+  "sec1_sm_vacuum_k": {
+    "k_lagrangian_bits": 21549,
+    "components": {
+      "higgs_vev": {
+        "value_gev": 246.22,
+        "uncertainty_gev": 0.02,
+        "k_bits": 13.59,
+        "formula": "log2(246.22/0.02)"
+      },
+      "theta_qcd": {
+        "upper_bound": 1e-10,
+        "k_bits": 33.22,
+        "formula": "log2(1/10^-10)"
+      },
+      "mu_ew_scale": {
+        "mz_gev": 91.1876,
+        "uncertainty_gev": 0.0021,
+        "k_bits": 15.41,
+        "formula": "log2(91.1876/0.0021)"
+      },
+      "lambda_qcd": {
+        "value_mev": 213.0,
+        "uncertainty_mev": 8.0,
+        "k_bits": 4.73,
+        "formula": "log2(213.0/8.0)"
+      }
+    },
+    "k_vevs_total_bits": 66.95,
+    "k_sm_vacuum_bits": 21615.9
+  },
+  "sec2_comparison": {
+    "k_1s_bits": 440.0,
+    "k_sm_vacuum_bits": 21615.9,
+    "ratio_sm_to_1s": 49.1,
+    "hydrogen_hamiltonian_terms": 2,
+    "sm_lagrangian_sectors": 4,
+    "sm_free_parameters": 19
+  },
+  "sec3_vacuum_hierarchy": {
+    "trivial_vacuum": {
+      "k_estimate_bits": 0,
+      "text_bytes": 147,
+      "gzip_bits": 1112,
+      "gzip_ratio": 0.9456,
+      "note": "K=0 by definition: no structure to specify"
+    },
+    "free_scalar_vacuum": {
+      "k_estimate_bits": 200,
+      "text_bytes": 272,
+      "gzip_bits": 1696,
+      "gzip_ratio": 0.7794,
+      "note": "Klein-Gordon eq + 1 mass parameter"
+    },
+    "qed_vacuum": {
+      "k_estimate_bits": 2000,
+      "text_bytes": 404,
+      "gzip_bits": 2320,
+      "gzip_ratio": 0.7178,
+      "note": "QED Lagrangian + alpha + m_e"
+    },
+    "qcd_vacuum": {
+      "k_estimate_bits": 3000,
+      "text_bytes": 502,
+      "gzip_bits": 2888,
+      "gzip_ratio": 0.7191,
+      "note": "QCD Lagrangian + alpha_s + theta_QCD + 6 quark masses + Lambda_QCD"
+    },
+    "sm_vacuum": {
+      "k_estimate_bits": 21616,
+      "text_bytes": 781,
+      "gzip_bits": 4024,
+      "gzip_ratio": 0.644,
+      "note": "K(SM Lagrangian) + K(Higgs VEV + theta + mu_EW + Lambda_QCD)"
+    },
+    "sm_gr_vacuum": {
+      "k_estimate_bits": 21834,
+      "text_bytes": 471,
+      "gzip_bits": 2680,
+      "gzip_ratio": 0.7113,
+      "note": "SM vacuum + GR (Newton G, cosmological constant, Planck mass)"
+    }
+  },
+  "sec4_gzip_failure": {
+    "sm_lagrangian_compact_bytes": 779,
+    "sm_lagrangian_compact_gzip_bits": 3640,
+    "sm_lagrangian_compact_gzip_ratio": 0.5841,
+    "sm_lagrangian_verbose_gzip_bits": 4152,
+    "sm_lagrangian_verbose_gzip_ratio": 0.0666,
+    "k_true_sm_bits": 21549,
+    "gzip_underestimate_factor": 5.9201,
+    "hydrogen_k_true_bits": 440,
+    "hydrogen_gzip_n16_bits": 696,
+    "hydrogen_gzip_n1024_bits": 30976,
+    "hydrogen_overestimate_n1024": 70.4
+  },
+  "key_findings": {
+    "k_sm_vacuum_bits": 21615.9,
+    "k_vevs_overhead_bits": 66.95,
+    "vev_fraction_of_total_pct": 0.31,
+    "ratio_sm_vacuum_to_1s": 49.1,
+    "r1_conclusion": "K_lower(state) = K(Hamiltonian + quantum numbers). For SM vacuum: K_lower = K(SM Lagrangian) + K(VEVs) \u2248 21,616 bits. The SM vacuum IS the SM laws \u2014 VEVs add <1% overhead.",
+    "gzip_failure_mode_sm": "UNDERESTIMATE (Lagrangian text already compact)",
+    "gzip_failure_mode_wavefunction": "OVERESTIMATE (gzip cannot find short formula)"
+  }
+}
