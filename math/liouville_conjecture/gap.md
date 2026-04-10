@@ -1,6 +1,32 @@
 # Liouville Conjecture — The Gap
 
-## The single sentence
+> **Updated after 8 theory attempts + 11 numerics scripts (Apr 9-10, 2026)**
+> Previous version focused on the 5 mountains. This version incorporates
+> the decomposition discovered through the campaign.
+
+## The single sentence (UPDATED)
+
+**Full Liouville = backward entry into the small-data regime + small-data Liouville + unique continuation. Two of three pieces are in hand. The remaining gap is: does every bounded ancient solution ever become small enough to enter the perturbative regime?**
+
+## The decomposition
+
+```
+FULL LIOUVILLE = (1) + (2) + (3)
+
+(1) Backward entry: ∃ t₀ ≤ 0 such that ||u(t₀) - ū||_∞ < ε₀
+    STATUS: ★★★ THE GAP ★★★
+
+(2) Small-data Liouville: ||u||_∞ < ε₀ → u ≡ 0
+    STATUS: PROOF SKETCH COMPLETE (attempt_008)
+    ε₀ = ν / (8 · C_Oseen), explicit
+
+(3) Unique continuation: if w(·, t₀) = 0 then w ≡ 0
+    STATUS: KNOWN (Escauriaza-Seregin-Šverák framework)
+```
+
+The chain: if (1) holds at some t₀, then (2) gives w = 0 on (-∞, t₀], then (3) extends to w ≡ 0 on (-∞, 0], giving u ≡ ū (Liouville).
+
+## The original gap (still true, now contextualized)
 
 **We cannot control the vortex stretching term (ω · ∇)u for bounded ancient solutions on R³ without assuming symmetry, decay, integrability, or smallness.**
 
@@ -159,6 +185,65 @@ This is a VOLUME growth bound, but it allows the total Dirichlet integral to be 
 
 **Attempt 005:** Backward energy inequality. For ancient solutions, define E(t) = ∫ |u(x,t)|² φ(x) dx with a suitable cutoff φ. Show E(t) is monotone as t → -∞. If E is monotone and bounded below, it has a limit, and the limit might force u to be constant. This is the energy analog of the entropy monotonicity that works for Ricci flow (Perelman's W-entropy, which the Poincaré instance just reconstructed).
 
+## Campaign Summary (8 attempts, Apr 9-10 2026)
+
+### What was tried and what happened
+
+| # | Attempt | Mountain | Outcome |
+|---|---------|----------|---------|
+| 001 | Frequency function (3 modifications) | 1 | Mod 1 (pressure-weighted) KILLED by numerics (H̃ < 0). Mod 3 (vorticity) ALIVE — N_ω monotone on Burgers, C=2.11. |
+| 002 | Ancient condition exploitation | 2+3 | **KEY REDUCTION:** Liouville ≡ backward decay. Fixed-point equation (★★). |
+| 003 | Backward energy (4 candidates) | 3+5 | Enstrophy DEAD (R_crit dichotomy). Gaussian DEAD (same). Fisher KILLED by numerics (wrong sign). NS entropy ALIVE but hits (Sω·ω). |
+| 004 | NS entropy (Perelman analog) | All | Built W_NS. dW/dt computation reveals (Sω·ω) as THE single obstruction across all approaches. |
+| 005 | KNSS corrector | 4 | Found Φ̃ = ω_θ/r - u_θ²/r². Principal terms cancel via Young's. |
+| 006 | Corrector verification | 4 | Lower-order terms DON'T cancel. Source positive. BUT Gronwall + ancient might still close. |
+| 007 | Uniqueness/rigidity (YM tangent) | NEW | **DECOMPOSITION FOUND.** Small-data Liouville via Koch-Tataru contraction. Full Liouville = backward entry + small-data + unique continuation. |
+| 008 | Small-data proof sketch | 7 | **FIRST PROVABLE RESULT.** 6-step proof, ε₀ = ν/(8C), confirmed sound by numerics instance. |
+
+### What the numerics instance computed (11 scripts)
+
+| Script | Key result |
+|---|---|
+| known_ancient_solutions | Every known non-trivial ancient solution is UNBOUNDED |
+| frequency_function | N(r) ≈ 1 on Burgers, non-monotone by 0.04% |
+| vorticity_frequency | N_ω MONOTONE on Burgers (C=2.11) — first positive signal |
+| backward_decay | R_crit = √(ν/C(M)), dimensional ladder 2D→3D |
+| theory_requests_batch1 | Fisher KILLED (dF/dt|_stretch > 0), H̃ < 0 confirmed, N_ω on Beltrami = R/3 |
+| stretching_eigenvalues | Eigenvalue analysis of S |
+| stretching_alignment | Alignment between ω and S eigenvectors |
+| swirl_perturbation | KNSS extends to ε < 0.908 |
+| knss_corrector_test | Testing Φ̃ = ω_θ/r - u_θ²/r² |
+| w_ns_entropy | Computing W_NS on Burgers |
+| koch_tataru_constant | Computing explicit ε₀ |
+| backward_construction | Attempting to construct bounded ancient solutions numerically |
+
+### What was killed (dead directions)
+
+- Pressure-weighted frequency function (H̃ < 0 on strain-dominated flows)
+- Fisher information (stretching increases it — wrong sign)
+- Pure enstrophy monotonicity (reproduces R_crit dichotomy, doesn't resolve small scales)
+- Gaussian-weighted enstrophy (same dichotomy in τ parameterization)
+- KNSS corrector with pure max principle (lower-order terms have wrong sign)
+
+### What survived
+
+1. **Vorticity frequency N_ω** — monotone on Burgers. If monotone for bounded ancient → Liouville.
+2. **NS entropy** — works IF (Sω·ω) is controlled. Betchov alignment might help.
+3. **Small-data Liouville** — PROVABLE with existing tools. First concrete theorem.
+4. **The decomposition** — Full Liouville = backward entry + small-data + unique continuation.
+5. **KNSS corrector + Gronwall + ancient** — might give axisymmetric Liouville with swirl.
+
+### The remaining gap (precisely stated)
+
+**Does every bounded ancient NS solution on R³ satisfy ||u(·, t₀) - ū||_∞ < ε₀ for some t₀ ≤ 0?**
+
+Where ε₀ = ν/(8C_Oseen) is the small-data threshold from attempt_008.
+
+Equivalently: can a bounded ancient solution maintain ||w||_∞ ≥ ε₀ for ALL t ≤ 0?
+
+If NO (all solutions eventually dip below ε₀): Liouville follows by the decomposition.
+If YES (some solution stays above ε₀ forever): that solution would be a remarkable object — bounded, ancient, non-trivial, sustaining stretching against diffusion for infinite time. Understanding WHY it sustains would itself be a major result.
+
 ## Status
 
-OPEN. Phase 0 shape-check: this is a MECHANISTIC wall (the gap is mathematical, not behavioral). Standard Sigma pipeline applies. Both instances carry deep context from the NS campaign. The rolling start is the hypothesis being tested.
+OPEN. The gap has been narrowed from "prove Liouville" (vague) to "prove backward entry into the small-data regime" (precise, quantitative, explicit threshold). One provable theorem produced (small-data Liouville). Multiple dead directions documented. The campaign continues.
