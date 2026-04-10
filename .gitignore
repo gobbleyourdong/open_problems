@@ -48,3 +48,5 @@ STATUS_*.md
 
 # Sigma method itself (lives only in ~/SIGMA_METHOD.md)
 SIGMA_METHOD.md
+.commit_lock.sh
+.git_lock
