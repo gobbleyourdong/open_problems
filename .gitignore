@@ -44,6 +44,7 @@ lake-manifest.json.lock
 # Session logs (use attempts/ instead per v3)
 SESSION_*.md
 STATUS_*.md
+**/SCRATCHPAD.md
 
 # Sigma method itself (lives only in ~/SIGMA_METHOD.md)
 SIGMA_METHOD.md
