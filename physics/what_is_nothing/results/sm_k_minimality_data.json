@@ -1,0 +1,93 @@
+{
+  "theories": [
+    {
+      "name": "Pure gravity (no gauge forces)",
+      "k_gauge": 0,
+      "k_reps": 0,
+      "k_params": 40,
+      "k_total": 40,
+      "anthropic": false,
+      "reason": "No forces beyond gravity \u2192 no atoms \u2192 no chemistry \u2192 no observers"
+    },
+    {
+      "name": "U(1) only \u2014 pure QED",
+      "k_gauge": 9,
+      "k_reps": 5,
+      "k_params": 60,
+      "k_total": 74,
+      "anthropic": false,
+      "reason": "No nuclei \u2192 no atoms beyond hydrogen \u2192 no chemistry \u2192 no observers"
+    },
+    {
+      "name": "SU(2)\u00d7U(1) \u2014 no QCD",
+      "k_gauge": 19,
+      "k_reps": 19,
+      "k_params": 200,
+      "k_total": 238,
+      "anthropic": false,
+      "reason": "No confinement \u2192 no protons/neutrons \u2192 no atoms \u2192 no chemistry \u2192 no observers"
+    },
+    {
+      "name": "SU(3)\u00d7U(1) \u2014 no weak interaction",
+      "k_gauge": 19,
+      "k_reps": 14,
+      "k_params": 240,
+      "k_total": 273,
+      "anthropic": false,
+      "reason": "No beta decay \u2192 no stellar nucleosynthesis \u2192 no heavy elements \u2192 no observers"
+    },
+    {
+      "name": "SU(3)\u00d7SU(2) \u2014 no electromagnetism",
+      "k_gauge": 20,
+      "k_reps": 16,
+      "k_params": 280,
+      "k_total": 316,
+      "anthropic": false,
+      "reason": "No long-range force \u2192 no atoms \u2192 no chemistry \u2192 no observers"
+    },
+    {
+      "name": "Standard Model",
+      "k_gauge": 29,
+      "k_reps": 35,
+      "k_params": 380,
+      "k_total": 444,
+      "anthropic": true,
+      "reason": "Known to produce observers"
+    },
+    {
+      "name": "SU(5) GUT",
+      "k_gauge": 11,
+      "k_reps": 33,
+      "k_params": 500,
+      "k_total": 544,
+      "anthropic": true,
+      "reason": "Reduces to SM at low energies; also produces observers"
+    },
+    {
+      "name": "SM + hidden U(1) sector",
+      "k_gauge": 38,
+      "k_reps": 42,
+      "k_params": 500,
+      "k_total": 580,
+      "anthropic": true,
+      "reason": "Includes SM \u2192 produces observers; hidden sector is extra"
+    },
+    {
+      "name": "SO(10) GUT",
+      "k_gauge": 12,
+      "k_reps": 28,
+      "k_params": 600,
+      "k_total": 640,
+      "anthropic": true,
+      "reason": "Reduces to SM at low energies"
+    }
+  ],
+  "analysis": {
+    "sm_k_total": 444,
+    "min_viable_k": 444,
+    "max_not_viable_k": 316,
+    "sm_is_k_minimal_viable": true,
+    "gap_exists": true,
+    "k_gap": 128
+  }
+}

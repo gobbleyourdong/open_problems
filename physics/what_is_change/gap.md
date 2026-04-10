@@ -21,7 +21,7 @@ See attempt_001. Key moves:
 
 - **R1.** Which specific theory of causation is best supported by the compression view? The view is neutral, but a sharp causal metaphysics would be added value.
 - **R2.** Continuous vs discrete dynamics — does the compression view commit either way? Zeno's paradoxes are less puzzling under discrete time but the compression resolution does not depend on the answer.
-- **R3.** Physical change vs phenomenal flow — the relationship to the time question's self-model story is tight but not formally worked out.
+- **R3.** Physical change vs phenomenal flow — **RESOLVED by time track (2026-04-10).** The time track's R2 resolution establishes: phenomenal time flow = self-model's report of K-accumulation rate (50 bits/s at Level 4 of the temporal causal chain). Every known phenomenology of flow (anesthesia, meditation, flow states, fever, hypothermia) maps to K-rate without residue. The "relationship to the time question's self-model story" is now formally worked out: change provides the content, time provides the dimension, and γ (from what_is_mind) provides the phenomenal report. See `physics/what_is_time/attempts/attempt_005.md` (cross-track validation).
 
 ## Sky bridges
 

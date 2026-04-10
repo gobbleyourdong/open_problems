@@ -1,0 +1,90 @@
+{
+  "parameters": {
+    "n_flux": 100,
+    "q_max": 9,
+    "n_samples": 500000,
+    "seed": 42
+  },
+  "landscape": {
+    "rho_min": 1504,
+    "rho_max": 4130,
+    "rho_mean": 2850.29,
+    "k_mean": 250.01
+  },
+  "anthropic_window": {
+    "threshold": 2239,
+    "n_vacua": 5030,
+    "fraction_percent": 1.006
+  },
+  "k_gradient": {
+    "k_bottom_mean": 0.0,
+    "k_top_mean": 222.57,
+    "delta_k": 222.57,
+    "n_bottom": 0,
+    "n_top": 5030
+  },
+  "k_weighted": {
+    "uniform_mean_rho": 2153.4,
+    "k_weighted_mean_rho": 1560.8712,
+    "ratio": 0.724839,
+    "shift_factor": 1.38
+  },
+  "k_minimal_vacuum": {
+    "k": 191,
+    "rho": 1504,
+    "position_pct": 67.17,
+    "median_k": 223,
+    "median_rho": 2210
+  },
+  "boltzmann_brain": {
+    "k_ordinary": 191,
+    "k_boltzmann": 10000,
+    "suppression_log10": 2953.0
+  },
+  "decile_analysis": [
+    {
+      "decile": 7,
+      "rho_range": [
+        1338,
+        1561
+      ],
+      "count": 1,
+      "mean_k": 191.0,
+      "min_k": 191,
+      "max_k": 191
+    },
+    {
+      "decile": 8,
+      "rho_range": [
+        1561,
+        1784
+      ],
+      "count": 5,
+      "mean_k": 208.2,
+      "min_k": 199,
+      "max_k": 217
+    },
+    {
+      "decile": 9,
+      "rho_range": [
+        1784,
+        2007
+      ],
+      "count": 309,
+      "mean_k": 214.07119741100323,
+      "min_k": 195,
+      "max_k": 236
+    },
+    {
+      "decile": 10,
+      "rho_range": [
+        2007,
+        2240
+      ],
+      "count": 4715,
+      "mean_k": 223.1510074231177,
+      "min_k": 198,
+      "max_k": 250
+    }
+  ]
+}

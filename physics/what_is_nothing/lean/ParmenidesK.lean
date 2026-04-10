@@ -17,6 +17,8 @@ the concept, when instantiated, destroys the property it names.
 
 SHARED: This file's core theorem is referenced by both
   physics/what_is_nothing/ and physics/what_is_reality/
+
+STANDALONE: Compiles with Lean 4.29.0, no Mathlib required.
 -/
 
 /-! ## Core Definitions -/
@@ -24,8 +26,8 @@ SHARED: This file's core theorem is referenced by both
 /-- A state in some state space, abstractly represented. -/
 structure PhysState where
   name : String
-  k_content : ℕ            -- K-complexity in bits (using ℕ for decidability)
-  has_properties : Bool     -- does this state have any distinguishing properties?
+  k_content : Nat            -- K-complexity in bits
+  has_properties : Bool       -- does this state have any distinguishing properties?
 
 /-- A state is specifiable iff it can be distinguished from other states,
     which requires having properties, which requires K > 0. -/
@@ -41,7 +43,7 @@ inductive NothingSense where
   | metaphysical      : NothingSense   -- absolute non-being; no structure at all
 
 /-- K-content of each sense. -/
-def k_of_sense : NothingSense → ℕ
+def k_of_sense : NothingSense → Nat
   | .empty_room       => 10000    -- room has walls, air, spacetime: >>0
   | .physical_vacuum  => 5000     -- has EM fields, gravity, spacetime: >0
   | .quantum_vacuum   => 21616    -- K(SM Lagrangian) = 21,616 bits
@@ -81,14 +83,14 @@ theorem nothing_not_specifiable :
 theorem vacuum_is_specifiable :
     specifiable quantum_vacuum := by
   constructor
-  · simp [quantum_vacuum]; omega
+  · simp [quantum_vacuum]
   · simp [quantum_vacuum]
 
 /-- An empty room IS specifiable. -/
 theorem room_is_specifiable :
     specifiable empty_room := by
   constructor
-  · simp [empty_room]; omega
+  · simp [empty_room]
   · simp [empty_room]
 
 /-! ## Only Sense (d) Fails -/
@@ -98,7 +100,7 @@ theorem first_three_senses_specifiable :
     k_of_sense .empty_room > 0 ∧
     k_of_sense .physical_vacuum > 0 ∧
     k_of_sense .quantum_vacuum > 0 := by
-  simp [k_of_sense]; omega
+  simp [k_of_sense]
 
 /-- Only sense (d) has K = 0. -/
 theorem only_metaphysical_has_zero_k :
@@ -106,7 +108,7 @@ theorem only_metaphysical_has_zero_k :
     k_of_sense .empty_room > 0 ∧
     k_of_sense .physical_vacuum > 0 ∧
     k_of_sense .quantum_vacuum > 0 := by
-  simp [k_of_sense]; omega
+  simp [k_of_sense]
 
 /-! ## Consequence: "Why Something?" Dissolves -/
 
@@ -133,24 +135,24 @@ theorem vacuum_k_is_sm :
     "Nothing" (sense c) is richer than "nothing" (sense a). -/
 theorem vacuum_richer_than_room :
     quantum_vacuum.k_content > empty_room.k_content := by
-  simp [quantum_vacuum, empty_room]; omega
+  simp [quantum_vacuum, empty_room]
 
 /-! ## Objections Quantified -/
 
 /-- The Meinongian objection saves "nothing" as a concept but gives it
     structure. Under K-informationalism, subsisting = having K > 0 in
     some specification system. The Meinongian pays K to save the concept. -/
-def meinongian_k_cost : ℕ := 200  -- Meinongian ontology machinery
+def meinongian_k_cost : Nat := 200  -- Meinongian ontology machinery
 
 /-- The dialetheist objection weakens logic to accommodate contradictions.
     Paraconsistent logic has K > classical logic (the machinery adds bits). -/
-def dialetheist_k_cost : ℕ := 500  -- paraconsistency machinery
+def dialetheist_k_cost : Nat := 500  -- paraconsistency machinery
 
 /-- The Parmenidean response has K-cost ≈ 0 (just deny nothing is a state). -/
-def parmenidean_k_cost : ℕ := 1    -- one bit: "nothing is incoherent"
+def parmenidean_k_cost : Nat := 1    -- one bit: "nothing is incoherent"
 
 /-- Parmenidean response is K-MDL preferred over both objections. -/
 theorem parmenidean_wins_mdl :
     parmenidean_k_cost < meinongian_k_cost ∧
     parmenidean_k_cost < dialetheist_k_cost := by
-  simp [parmenidean_k_cost, meinongian_k_cost, dialetheist_k_cost]; omega
+  simp [parmenidean_k_cost, meinongian_k_cost, dialetheist_k_cost]

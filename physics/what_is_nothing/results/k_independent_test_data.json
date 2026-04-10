@@ -1,0 +1,194 @@
+{
+  "parameters": {
+    "n_flux": 100,
+    "q_max": 9,
+    "n_samples": 200000,
+    "seed": 42
+  },
+  "window": {
+    "threshold": 2238,
+    "n_vacua": 2007
+  },
+  "methods": {
+    "Method1_original": {
+      "quintiles": [
+        {
+          "quintile": 1,
+          "rho_min": 1504,
+          "rho_max": 2096,
+          "rho_mean": 2019.074812967581,
+          "k_mean": 216.4563591022444,
+          "k_min": 191,
+          "k_max": 236,
+          "n": 401
+        },
+        {
+          "quintile": 2,
+          "rho_min": 2097,
+          "rho_max": 2153,
+          "rho_mean": 2127.4513715710723,
+          "k_mean": 221.4339152119701,
+          "k_min": 204,
+          "k_max": 241,
+          "n": 401
+        },
+        {
+          "quintile": 3,
+          "rho_min": 2154,
+          "rho_max": 2191,
+          "rho_mean": 2173.86783042394,
+          "k_mean": 223.4862842892768,
+          "k_min": 200,
+          "k_max": 240,
+          "n": 401
+        },
+        {
+          "quintile": 4,
+          "rho_min": 2191,
+          "rho_max": 2217,
+          "rho_mean": 2204.496259351621,
+          "k_mean": 224.8054862842893,
+          "k_min": 206,
+          "k_max": 246,
+          "n": 401
+        },
+        {
+          "quintile": 5,
+          "rho_min": 2217,
+          "rho_max": 2238,
+          "rho_mean": 2227.6832917705738,
+          "k_mean": 225.7356608478803,
+          "k_min": 204,
+          "k_max": 250,
+          "n": 401
+        }
+      ],
+      "k_gradient": 9.28,
+      "gradient_positive": true,
+      "uniform_mean_rho": 2150.6,
+      "k_weighted_mean_rho": 1522.9827,
+      "shift_factor": 1.41
+    },
+    "Method2_MDL": {
+      "quintiles": [
+        {
+          "quintile": 1,
+          "rho_min": 1504,
+          "rho_max": 2096,
+          "rho_mean": 2019.074812967581,
+          "k_mean": 533.3406926304458,
+          "k_min": 476.8553337677574,
+          "k_max": 575.7982059311202,
+          "n": 401
+        },
+        {
+          "quintile": 2,
+          "rho_min": 2097,
+          "rho_max": 2153,
+          "rho_mean": 2127.4513715710723,
+          "k_mean": 543.8515705578004,
+          "k_min": 503.6505527059544,
+          "k_max": 578.8299140538119,
+          "n": 401
+        },
+        {
+          "quintile": 3,
+          "rho_min": 2154,
+          "rho_max": 2191,
+          "rho_mean": 2173.86783042394,
+          "k_mean": 546.5347630273839,
+          "k_min": 488.17276935247463,
+          "k_max": 585.4587782027032,
+          "n": 401
+        },
+        {
+          "quintile": 4,
+          "rho_min": 2191,
+          "rho_max": 2217,
+          "rho_mean": 2204.496259351621,
+          "k_mean": 550.3697194052992,
+          "k_min": 504.16387243462515,
+          "k_max": 584.940961420549,
+          "n": 401
+        },
+        {
+          "quintile": 5,
+          "rho_min": 2217,
+          "rho_max": 2238,
+          "rho_mean": 2227.6832917705738,
+          "k_mean": 552.6189433410939,
+          "k_min": 515.2328579932009,
+          "k_max": 589.5378832008995,
+          "n": 401
+        }
+      ],
+      "k_gradient": 19.28,
+      "gradient_positive": true,
+      "uniform_mean_rho": 2150.6,
+      "k_weighted_mean_rho": 2010.013,
+      "shift_factor": 1.07
+    },
+    "Method3_gzip": {
+      "quintiles": [
+        {
+          "quintile": 1,
+          "rho_min": 1504,
+          "rho_max": 2096,
+          "rho_mean": 2019.074812967581,
+          "k_mean": 624.8179551122195,
+          "k_min": 600,
+          "k_max": 640,
+          "n": 401
+        },
+        {
+          "quintile": 2,
+          "rho_min": 2097,
+          "rho_max": 2153,
+          "rho_mean": 2127.4513715710723,
+          "k_mean": 625.5960099750623,
+          "k_min": 600,
+          "k_max": 640,
+          "n": 401
+        },
+        {
+          "quintile": 3,
+          "rho_min": 2154,
+          "rho_max": 2191,
+          "rho_mean": 2173.86783042394,
+          "k_mean": 625.9950124688279,
+          "k_min": 600,
+          "k_max": 640,
+          "n": 401
+        },
+        {
+          "quintile": 4,
+          "rho_min": 2191,
+          "rho_max": 2217,
+          "rho_mean": 2204.496259351621,
+          "k_mean": 626.3940149625935,
+          "k_min": 600,
+          "k_max": 640,
+          "n": 401
+        },
+        {
+          "quintile": 5,
+          "rho_min": 2217,
+          "rho_max": 2238,
+          "rho_mean": 2227.6832917705738,
+          "k_mean": 627.2119700748129,
+          "k_min": 600,
+          "k_max": 648,
+          "n": 401
+        }
+      ],
+      "k_gradient": 2.39,
+      "gradient_positive": true,
+      "uniform_mean_rho": 2150.6,
+      "k_weighted_mean_rho": 2150.3172,
+      "shift_factor": 1.0
+    }
+  },
+  "agreement": {
+    "all_positive_gradient": true
+  }
+}

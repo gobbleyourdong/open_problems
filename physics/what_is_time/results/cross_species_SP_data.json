@@ -1,0 +1,118 @@
+{
+  "script": "cross_species_SP.py",
+  "date": "2026-04-10",
+  "constants": {
+    "delta_E_kT": 16.58,
+    "T_ref_K": 310.0,
+    "k_ref_Hz": 1002.8,
+    "B_ref_bps": 50.0,
+    "N_moments": 128,
+    "SP_ref_s": 2.56
+  },
+  "species_predictions": [
+    {
+      "species": "Human",
+      "T_body_K": 310.0,
+      "kramers_rate_Hz": 1002.8,
+      "bandwidth_bps": 50.0,
+      "SP_kramers_s": 2.56,
+      "SP_ecological_s": 2.828,
+      "N_ecological": 141.4,
+      "n_qubits_eco": 7.14,
+      "t_order_ms": 20.0,
+      "compression_scale": 1.0,
+      "notes": "Baseline. SP = 2.56 s measured."
+    },
+    {
+      "species": "Hummingbird",
+      "T_body_K": 313.0,
+      "kramers_rate_Hz": 1175.5,
+      "bandwidth_bps": 19.54,
+      "SP_kramers_s": 6.552,
+      "SP_ecological_s": 1.0,
+      "N_ecological": 19.5,
+      "n_qubits_eco": 4.29,
+      "t_order_ms": 51.18,
+      "compression_scale": 3.0,
+      "notes": "Fastest avian metabolism. Ecological timescale ~1 s."
+    },
+    {
+      "species": "Cat",
+      "T_body_K": 311.5,
+      "kramers_rate_Hz": 1086.1,
+      "bandwidth_bps": 36.1,
+      "SP_kramers_s": 3.545,
+      "SP_ecological_s": 2.449,
+      "N_ecological": 88.4,
+      "n_qubits_eco": 6.47,
+      "t_order_ms": 27.7,
+      "compression_scale": 1.5,
+      "notes": "Predator with fast reaction. Ecological timescale ~2 s."
+    },
+    {
+      "species": "Elephant",
+      "T_body_K": 309.0,
+      "kramers_rate_Hz": 950.4,
+      "bandwidth_bps": 94.78,
+      "SP_kramers_s": 1.351,
+      "SP_ecological_s": 4.899,
+      "N_ecological": 464.3,
+      "n_qubits_eco": 8.86,
+      "t_order_ms": 10.55,
+      "compression_scale": 0.5,
+      "notes": "Largest land brain. Slow ecological dynamics."
+    },
+    {
+      "species": "Mouse",
+      "T_body_K": 310.0,
+      "kramers_rate_Hz": 1002.8,
+      "bandwidth_bps": 5.0,
+      "SP_kramers_s": 25.6,
+      "SP_ecological_s": 0.671,
+      "N_ecological": 3.4,
+      "n_qubits_eco": 1.75,
+      "t_order_ms": 200.0,
+      "compression_scale": 10.0,
+      "notes": "Small brain, fast dynamics. High compression ratio."
+    },
+    {
+      "species": "Fruit fly (Drosophila)",
+      "T_body_K": 298.0,
+      "kramers_rate_Hz": 514.3,
+      "bandwidth_bps": 0.26,
+      "SP_kramers_s": 499.111,
+      "SP_ecological_s": 0.224,
+      "N_ecological": 0.1,
+      "n_qubits_eco": 0,
+      "t_order_ms": 3899.3,
+      "compression_scale": 100.0,
+      "notes": "Ectotherm. ~100K neurons. Very fast dynamics."
+    },
+    {
+      "species": "Green iguana",
+      "T_body_K": 308.0,
+      "kramers_rate_Hz": 900.4,
+      "bandwidth_bps": 8.98,
+      "SP_kramers_s": 14.255,
+      "SP_ecological_s": 4.472,
+      "N_ecological": 40.2,
+      "n_qubits_eco": 5.33,
+      "t_order_ms": 111.37,
+      "compression_scale": 5.0,
+      "notes": "Ectotherm. Slow ecological dynamics except escape."
+    },
+    {
+      "species": "Hypothetical AI (LLM)",
+      "T_body_K": 310.0,
+      "kramers_rate_Hz": 1002.8,
+      "bandwidth_bps": 50000.0,
+      "SP_kramers_s": 0.003,
+      "SP_ecological_s": 134.164,
+      "N_ecological": 6708203.9,
+      "n_qubits_eco": 22.68,
+      "t_order_ms": 0.02,
+      "compression_scale": 0.001,
+      "notes": "Not Kramers-gated. B_digital ~ 1000 bits/s. Speculative."
+    }
+  ]
+}
