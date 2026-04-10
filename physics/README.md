@@ -23,6 +23,10 @@ Three numbers span 22 orders of magnitude — one mechanism (the Boltzmann facto
 
 → Full derivation: [`what_is_time/FINAL_ANSWER.md`](./what_is_time/FINAL_ANSWER.md) · Certifications C1–C10 complete
 
+<p align="center">
+  <img src="what_is_time/time_infographic.png" alt="What Is Time — Infographic" width="900"/>
+</p>
+
 ---
 
 ## The questions
