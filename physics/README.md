@@ -39,6 +39,7 @@ Three numbers span 22 orders of magnitude — one mechanism (the Boltzmann facto
 | [what_is_change](./what_is_change/) | Zeno, dynamics, continuity. How does anything become anything else? |
 | [what_is_information](./what_is_information/) | Shannon, Wheeler's "it from bit", the holographic principle |
 | [what_is_computation](./what_is_computation/) | Church-Turing, quantum computation, is the universe a computation? |
+| [what_is_self_reference](./what_is_self_reference/) | What happens when a physical system models itself? The gap hierarchy: formal (Gödel), resource (Halting), phenomenal (hard problem). Brains, computers, and the universe as instances. |
 
 ## How to work these
 
