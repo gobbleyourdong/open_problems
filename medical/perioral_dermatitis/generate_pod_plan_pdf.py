@@ -216,8 +216,38 @@ def build_story(s):
         "<b>Cost:</b> ~$10/month (continue existing)", s["body"]))
     story.append(hr())
 
-    # 5. Probiotic (was 6)
-    story.append(Paragraph("5. Probiotic — keep the current one", s["h3"]))
+    # 5. Sulfur soap
+    story.append(Paragraph(
+        "5. Sulfur soap — natural anti-Demodex, safe for kids", s["h3"]))
+    story.append(Paragraph(
+        "<b>What:</b> A mild sulfur soap bar (De La Cruz sulfur ointment, "
+        "Grandpa's Pine Tar &amp; Sulfur soap, or any 6–10% precipitated "
+        "sulfur soap). Available at most drugstores and Amazon. OTC, no "
+        "prescription needed.",
+        s["body"]))
+    story.append(Paragraph(
+        "<b>Why:</b> Sulfur kills Demodex mites (tiny face mites that can "
+        "contribute to POD). It has been used safely on children for over "
+        "a century for scabies and other skin conditions. Unlike tea tree "
+        "oil, sulfur is <b>non-toxic if accidentally ingested</b> in tiny "
+        "amounts — important for a child who puts hands and toys in his "
+        "mouth.",
+        s["body"]))
+    story.append(Paragraph(
+        "<b>How:</b> Lather gently on the affected area once a day (morning "
+        "or evening). Leave for 30 seconds. Rinse thoroughly. Follow with "
+        "metronidazole, then CeraVe. Continue for 2–4 weeks.",
+        s["body"]))
+    story.append(Paragraph(
+        "<b>The drawback:</b> it smells like rotten eggs. The smell "
+        "dissipates after rinsing. Some kids don't mind; others protest. "
+        "Worth trying.",
+        s["body"]))
+    story.append(Paragraph("<b>Cost:</b> ~$5–10", s["body"]))
+    story.append(hr())
+
+    # 6. Probiotic
+    story.append(Paragraph("6. Probiotic — keep the current one", s["h3"]))
     story.append(Paragraph(
         "<b>What:</b> Whatever probiotic is already in use from the eczema "
         "protocol (Culturelle Kids or equivalent).",
@@ -230,6 +260,127 @@ def build_story(s):
         s["body"]))
     story.append(Paragraph(
         "<b>Cost:</b> ~$20/month (continue existing)", s["body"]))
+    story.append(hr())
+
+    # 7. Mid-day face wash
+    story.append(Paragraph(
+        "7. Mid-day face wash — clear daytime buildup", s["h3"]))
+    story.append(Paragraph(
+        "<b>What:</b> A gentle face wash around lunchtime or right after "
+        "school — just plain water on a soft cloth, or a CeraVe Hydrating "
+        "Cleanser wipe.",
+        s["body"]))
+    story.append(Paragraph(
+        "<b>Why:</b> The rash is best in the morning and worst in the "
+        "evening. That pattern means daytime contactants (toothpaste "
+        "residue, food residue, paint, dirt, hand-transferred contaminants) "
+        "accumulate on the skin through the day. A mid-day wash resets the "
+        "accumulation clock. This is especially important on school days.",
+        s["body"]))
+    story.append(Paragraph(
+        "<b>How:</b> Gently wipe the perioral area with a damp soft cloth. "
+        "No scrubbing. Pat dry. Apply a thin layer of CeraVe. Takes "
+        "30 seconds. Can be done by a teacher's aide or school nurse if "
+        "arranged.",
+        s["body"]))
+    story.append(Paragraph("<b>Cost:</b> Free", s["body"]))
+    story.append(hr())
+
+    # Investigate the school trigger
+    story.append(Paragraph(
+        "Investigate the School Trigger", s["h2"]))
+    story.append(Paragraph(
+        "The rash going away during a week at home and returning at school "
+        "is a near-diagnostic signal that something in the school "
+        "environment is a trigger. Ask the teacher specifically about:",
+        s["body"]))
+    story.append(Paragraph(
+        "<b>Classroom soap</b> — what brand is at the sink? Many school "
+        "soaps contain fragrance, SLS, or antibacterial agents that can "
+        "trigger POD. Send him with his own fragrance-free soap if possible.",
+        s["bullet"]))
+    story.append(Paragraph(
+        "<b>Hand sanitizer</b> — alcohol-based sanitizers are very drying "
+        "and can irritate perioral skin when transferred by hand. Send him "
+        "with a gentle, fragrance-free hand sanitizer or soap instead.",
+        s["bullet"]))
+    story.append(Paragraph(
+        "<b>Post-lunch tooth brushing</b> — some schools have a post-lunch "
+        "brushing program with school-provided toothpaste (fluoride, SLS, "
+        "flavored). If so, send him with his own non-fluoride, SLS-free "
+        "paste.",
+        s["bullet"]))
+    story.append(Paragraph(
+        "<b>Art supplies</b> — paints, markers, play-doh, slime, glitter "
+        "glue — anything that gets on hands and then transfers to the face. "
+        "Which activities does he do on the days it's worst?",
+        s["bullet"]))
+    story.append(Paragraph(
+        "<b>Toys he mouths</b> — identify specific toys and either clean "
+        "them frequently, remove them from his access, or provide a safe "
+        "dedicated chew item instead.",
+        s["bullet"]))
+    story.append(Paragraph(
+        "<b>Desk and surface cleaners</b> — industrial cleaning sprays "
+        "used on desks leave residue that transfers to hands and then "
+        "face.",
+        s["bullet"]))
+    story.append(hr())
+
+    # Breaking the rubbing and mouthing loops
+    story.append(Paragraph(
+        "Breaking the Rubbing and Mouthing Loops", s["h2"]))
+    story.append(Paragraph(
+        "These two behaviors are probably the biggest daily amplifiers of "
+        "the rash. Each can be interrupted with replacement strategies "
+        "that work better than just saying &quot;stop.&quot;",
+        s["body"]))
+    story.append(Paragraph(
+        "<b>Hand rubbing:</b> He rubs the rash with the back of his hand "
+        "when it's irritated. Each rub transfers hand contaminants to "
+        "inflamed skin AND mechanically damages the barrier.",
+        s["body"]))
+    story.append(Paragraph(
+        "Interventions:", s["body"]))
+    story.append(Paragraph(
+        "A fabric wristband or small Band-Aid on the back of the rubbing "
+        "hand — acts as a tactile reminder (he feels the band before he "
+        "touches his face)",
+        s["bullet"]))
+    story.append(Paragraph(
+        "A fidget toy or squeeze ball to hold when he feels the urge",
+        s["bullet"]))
+    story.append(Paragraph(
+        "Frequent thin moisturizer on the rash area — reduces the dryness "
+        "and itch that drives the rubbing in the first place",
+        s["bullet"]))
+    story.append(Paragraph(
+        "Short fingernails (less trauma from any scratching)",
+        s["bullet"]))
+    story.append(Paragraph(
+        "Praise when he resists the urge (positive reinforcement)",
+        s["bullet"]))
+    story.append(Spacer(1, 6))
+    story.append(Paragraph(
+        "<b>Toy mouthing:</b> Toys carry other kids' saliva, plastic "
+        "residue, cleaning products, and dirt. Every toy-in-mouth episode "
+        "transfers contaminants to hands and face.",
+        s["body"]))
+    story.append(Paragraph(
+        "Interventions:", s["body"]))
+    story.append(Paragraph(
+        "Offer a sanctioned chew item: food-grade silicone chewy, chilled "
+        "teether (if age-appropriate), or crunchy snacks at regular times",
+        s["bullet"]))
+    story.append(Paragraph(
+        "Identify which toys he prefers to mouth — either clean them "
+        "more frequently or swap for a safe alternative",
+        s["bullet"]))
+    story.append(Paragraph(
+        "Consider whether the mouthing is sensory-seeking, anxiety, or "
+        "just habit — replacement strategies (give him something TO chew) "
+        "usually work better than prohibition",
+        s["bullet"]))
     story.append(hr())
 
     # Timeline of improvement (no rebound — no steroid being withdrawn)
@@ -319,10 +470,11 @@ def build_story(s):
         ["Item", "Cost"],
         ["Metronidazole 0.75% (cream/lotion)", "~$15–30"],
         ["Non-fluoride, SLS-free toothpaste", "~$8"],
+        ["Sulfur soap", "~$5–10"],
         ["CeraVe Moisturizing Cream", "~$15"],
         ["Vitamin D (continue from eczema plan)", "~$10"],
         ["Probiotic (continue from eczema plan)", "~$20"],
-        ["Total", "~$70/month"],
+        ["Total", "~$75–95/month"],
     ]
     table = Table(cost_data, colWidths=[3.0 * inch, 1.8 * inch])
     table.setStyle(TableStyle([

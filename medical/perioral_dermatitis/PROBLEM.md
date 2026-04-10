@@ -41,6 +41,20 @@ The condition responds to withdrawal of causative agents + low-dose anti-inflamm
 - **Duration:** weeks to months; chronic if steroid-perpetuated
 - **Pediatric variant:** identical distribution but often more monomorphic papules, can involve eyelids
 
+### Underreported clinical features (diagnostic signals worth asking about)
+
+These are features that are not always captured in textbook descriptions but are clinically diagnostic when present:
+
+- **Diurnal pattern:** in contactant-driven cases, POD is often best in the morning and progressively worse through afternoon and evening. Morning appearance represents the baseline; evening appearance represents baseline plus cumulative daytime trigger exposure plus mechanical trauma plus cortisol decline. If this pattern is present, the disease is likely contactant + mechanical rather than primarily infectious or Demodex-driven.
+
+- **Environmental correlation (home vs school vs vacation):** in children, the single most diagnostic observation is whether POD improves during periods away from routine environments. A POD that clears during a week at home and recurs on returning to school is a near-diagnostic signal for an environmental trigger at school. Conversely, a POD that persists unchanged regardless of environment is more likely infectious or Demodex-driven. This distinction is often missed because the observation is never elicited in the clinic visit.
+
+- **Mechanical amplification from self-rubbing:** children with POD often rub the affected area with the back of the hand or sleeve when it becomes irritated. This produces a self-reinforcing loop — itch/burn → rub → more inflammation → more itch. Breaking this loop is a major intervention separate from any drug treatment. The rubbing also transfers daytime contaminants (food, other kids' saliva, paints, markers, dirt) directly onto the inflamed area.
+
+- **Oral habits and toy-mouthing:** in younger children, hand-to-mouth and toy-to-mouth behaviors create a contaminant transfer pathway. The toy collects plastic residue, cleaning product residue, shared oral bacteria, and daytime environmental contactants; it then contacts the perioral area directly, OR the hand that manipulates it does. Frequent toy-mouthing (multiple times per day) is a diagnostic signal and a modifiable behavior.
+
+- **Post-meal worsening:** if POD worsens specifically after meals (particularly meals that involve significant mouth contact with food, sauces, or drinks), food residue and post-meal mouth cleaning behaviors are in play. Cinnamon, citric, and acidic foods are common triggers; so is wiping the mouth with fabric that has detergent residue.
+
 ## Differential Diagnosis (Commonly Confused With)
 
 | Condition | Distinguishing feature |

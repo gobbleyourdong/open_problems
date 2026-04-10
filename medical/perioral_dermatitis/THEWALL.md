@@ -39,9 +39,33 @@ This multi-hit model explains:
 
 ## The Wall
 
-**The wall for POD is a caregiver-compliance wall, not a biological wall.**
+**The wall for POD is NOT a single wall.** There are at least two distinct wall types depending on the case variant:
 
-This is unusual for a disease. The mechanism is understood. The treatment protocol is known. The drugs work. The wall is at a different layer entirely: **the prescribed treatment requires tolerating visible worsening for 1-3 weeks before improvement begins, and caregivers of affected children cannot sustain that toleration without continuous reinforcement.**
+### Wall Type A — Steroid Rebound Compliance (textbook POD)
+
+When a topical steroid is in the rotation, the wall is caregiver compliance with the 1-3 week rebound flare after steroid withdrawal. This is the classical wall described in dermatology literature.
+
+### Wall Type B — Environmental Trigger Identification (contactant-driven POD)
+
+When no steroid is involved, the wall is **finding and eliminating the environmental contactant**. The drugs (metronidazole, pimecrolimus) reduce symptoms, but the rash recurs as long as the trigger is present. This wall is harder than Wall A because the trigger is often unidentified and embedded in routine (toothpaste, school environment, oral habits, mechanical rubbing).
+
+**Diagnostic signal distinguishing A from B:**
+- Wall A: rash is constant regardless of environment, worsens on steroid withdrawal
+- Wall B: rash has diurnal variation (morning best, evening worst), environment-dependent (clears at home, returns at school), mechanically amplified by habitual rubbing
+
+**In cases where both are active** (steroid rebound + environmental trigger), both walls must be addressed simultaneously. Removing the steroid without finding the trigger produces incomplete resolution. Finding the trigger without removing the steroid produces relapse.
+
+### Wall Type B — why it is actually harder
+
+Wall A has a known trajectory: stop steroid → tolerate 1-3 weeks → resolution. The caregiver just has to endure.
+
+Wall B has no predetermined trajectory because the trigger may be:
+- A toothpaste ingredient (easy to swap)
+- A school-specific product (harder — requires investigation, teacher cooperation)
+- A behavioral habit (rubbing, toy-mouthing — requires behavioral modification in a child)
+- Multiple simultaneous triggers (requires elimination protocol, one variable at a time)
+
+Wall B is a detective problem, not an endurance problem. It requires the caregiver and clinician to elicit the right questions (diurnal pattern? environment correlation? mechanical habits? oral behaviors?) and then systematically eliminate candidates. Most clinicians do not ask these questions because the textbook presents POD as a steroid-rebound disease (Wall A) and does not cover Wall B.
 
 ### Why this is actually the wall
 
