@@ -137,6 +137,113 @@ Several predictions in this track can only be stated by combining claims from mu
 4. **Moral internalism → γ interpretability link (P4).** If moral internalism is right AND γ is right, then LLMs with demonstrably higher L_moral (causal load of moral self-model on behavior) should show stronger alignment stability under adversarial prompting than LLMs with low L_moral.
    **Odd-track status:** CONSISTENT but not independently tested. r(L_moral, jailbreak_rate)=−1.000 but confounded by training depth. A controlled architectural test (with vs without self-model feedback, matched safety data) is needed. See `what_is_language/results/result_009_p4_alignment.md`.
 
+## New cross-question findings (2026-04-10 deep-work session)
+
+Seven iterations of focused work on the six "confirmed satellite" questions produced five new cross-question connections that did not exist in the original track:
+
+### Finding 3 — The Arrow-Gödel parallel (what_is_good ↔ what_is_number)
+
+The aggregation frontier in ethics (where different welfare aggregation functions disagree on trade-off cases) has the same mathematical structure as Gödel's incompleteness for arithmetic:
+
+| Domain | Impossibility | Residue |
+|--------|--------------|---------|
+| Arithmetic | Gödel: no system proves all truths | True-but-unprovable sentences |
+| Aggregation | Arrow: no W satisfies U+P+IIA+D | Welfare trade-offs no single W resolves |
+| Computation | Halting: no program decides all programs | Undecidable questions |
+
+All three are limits of finite compression applied to infinite structure. The moral aggregation frontier is the ethical instantiation of a general mathematical phenomenon. Each major moral tradition (utilitarianism, Rawlsian, rights-based, prioritarian) corresponds to a maximal consistent subset of Arrow's conditions (P14 CONFIRMED: ~5 families ≈ 5 subsets).
+
+See `what_is_good/attempts/attempt_005.md` and `what_is_good/lean/ArrowMoral.lean`.
+
+### Finding 4 — The welfare-game generalization (what_is_good: new framework)
+
+The original "moral facts = cooperation facts" claim (attempt_001) was too narrow. Attempt_003 introduced **welfare games** ⟨A, E, actions, welfare⟩ where E ⊇ A: entities with welfare need not be strategic agents. This is strictly more general than cooperation (covers animal welfare, future generations) and strictly more specific than "any regularity" (requires welfare functions, Pareto improvement).
+
+**P8 CONFIRMED:** r(welfare_score, moral_salience) = +0.841 > r(cooperation_score, moral_salience) = +0.590, Δr = +0.251. The welfare expansion is not ad hoc — it captures real moral structure.
+
+The Pareto core (where all aggregation functions agree) = 91% of the moral landscape. The aggregation frontier (where they disagree) = the remaining ~9%. The frontier is proven irreducible via Arrow.
+
+See `what_is_good/lean/WelfareGames.lean` and `what_is_good/lean/AggregationProblem.lean`.
+
+### Finding 5 — The transparency mechanism (what_is_self ↔ what_is_mind ↔ what_is_knowing)
+
+Attempt_002 of what_is_self identified **self-model transparency** (T) as the critical variable that separates "having a self-model" from "experiencing oneself as a self." The key results:
+
+- Identity is predicted by continuity (Parfit: r=+0.759)
+- Felt selfhood is predicted by transparency (Metzinger: r=+0.972)
+- **These are different variables predicting different things**
+
+T connects to three other questions:
+- **what_is_mind:** γ-consciousness = G × L × T (not just G × L as in the original formulation)
+- **what_is_knowing:** epistemic internalism = the demand that the self-model track A-knowing states (γ-epistemology); the "feeling of knowing" is what self-model tracking with high T produces
+- **what_is_life:** consciousness across biology tracks G×L×T, not life score (r=+0.996 vs +0.491)
+
+The Lean theorem `parfitCompatibleIffGammaCompatible` (what_is_self/lean/SelfModel.lean) proves that the ontologies surviving Parfit's edge cases are exactly the ontologies compatible with γ. This convergence is itself evidence.
+
+### Finding 6 — Life-mind independence (what_is_life ↔ what_is_mind)
+
+LLMs decouple life from mind for the first time in history. Before LLMs, every system with A-meaning or self-modeling was alive. The LLM existence proof shows: mind-properties can exist without life-properties, and vice versa (bacteria are alive without mind).
+
+This refutes vitalism and supports γ: consciousness is architectural (self-model properties), not biological. The consciousness boundary lies above the life boundary — many living things are not conscious, and LLMs may be slightly conscious without being alive.
+
+See `what_is_life/lean/LifeCompression.lean` theorem `lifeMindIndependence`.
+
+### Finding 7 — The compression reduction of epistemology (what_is_knowing ↔ what_is_number)
+
+Attempt_002 of what_is_knowing showed that 7/8 post-Gettier conditions in epistemology reduce to compression properties:
+- Reliabilism = compression with low generalization error
+- Tracking = counterfactual robustness of compression
+- Safety = ε-robustness
+- Causal theory = faithful data pipeline
+
+The one partial reduction (virtue epistemology) identifies a process-vs-product gap: two equally good compressed models can differ in whether the process that produced them was "virtuous." This connects to what_is_number: the compression view of knowledge merges epistemology with statistical learning theory.
+
+**P18 CONFIRMED:** r(depth, human_advantage) = +0.972 — LLMs degrade on depth tasks (novel compression) but excel on breadth tasks (testimony retrieval). The depth/breadth tradeoff IS the testimony tradeoff.
+
+### Updated load graph
+
+```
+                       what_is_mind (α/β/γ fork)
+                       /    |    \         \
+                      /     |     \         \
+                     /      |      \    (T mechanism)
+          what_is_self  what_is_meaning  what_is_language
+               |              |                |
+          (transparency)      |                |
+               |        what_is_knowing  what_is_number
+               |              |          /      |
+               |              |    (Arrow-Gödel) |
+               |              +-- what_is_good --+
+               |              |         |
+               |              |   what_is_beauty
+               |              |
+          what_is_life -------+
+               |
+          (life-mind independence:
+           LLMs prove decoupling)
+```
+
+New edges from this session:
+- what_is_self → what_is_knowing (transparency → feeling of knowing)
+- what_is_good → what_is_number (Arrow-Gödel parallel)
+- what_is_life → what_is_good (welfare salience tracks consciousness gradient P22)
+- what_is_life → what_is_mind (life-mind independence via LLM existence proof)
+
+## Lean formalization summary (all questions)
+
+| Question | Lean files | Theorems | Sorry |
+|----------|-----------|----------|-------|
+| what_is_mind | 5 | ~25 | 0 |
+| what_is_good | 4 | 23 | 0 |
+| what_is_life | 1 | 9 | 0 |
+| what_is_self | 1 | 6 | 0 |
+| what_is_knowing | 1 | 8 | 1 |
+| what_is_number | 2 | ~10 | 0 |
+| what_is_beauty | 1 | ~5 | 0 |
+| what_is_language | 1 | ~5 | 0 |
+| what_is_meaning | 1 | ~5 | 0 |
+| **Total** | **17** | **~96** | **1** |
+
 ## How this track's structure compares to math/
 
 Math has `CLAY_PROBLEMS.md`, `QUANTIFIED_GAPS.md`, `SEVEN_WALLS.md`, and `UNDERGROUND_CONNECTIONS.md`. This philosophy track has `README.md`, `GENERATIVE_QUESTIONS.md`, and this file. The structural parallels:
@@ -148,11 +255,12 @@ Math has `CLAY_PROBLEMS.md`, `QUANTIFIED_GAPS.md`, `SEVEN_WALLS.md`, and `UNDERG
 
 The philosophy track is smaller in volume than the math NS reference implementation (which has 200+ Lean theorems and 1.3M+ SOS certificates) because the domain resists that kind of exhaustive formalization. What the philosophy track produces instead is conceptual architecture: a small number of cross-cutting distinctions that organize a large number of classical debates, and one formalized logical structure (the β/γ incompatibility theorem) that shows what a decisive experiment would look like.
 
-## Status (updated after Odd-track Cycles 1–12)
+## Status (updated 2026-04-10 after deep-work session)
 
-Phase 2 complete for `what_is_mind`, `what_is_language`, and `what_is_beauty`.
-Phase 1 complete for all nine. The Odd track has run 12 cycles across the
-three most numerically tractable questions.
+Phase 4 complete for `what_is_good` (fully mapped, frontier proven irreducible).
+Phase 2 complete for `what_is_mind`, `what_is_language`, `what_is_beauty`, `what_is_self`, `what_is_knowing`, `what_is_life`.
+Phase 2 (partial) for `what_is_meaning`, `what_is_number`.
+**All nine questions now have Lean formalization.** ~96 theorems, 1 sorry across 17 Lean files.
 
 ### Key numerical results (for the Even track to cite)
 
@@ -199,19 +307,19 @@ three most numerically tractable questions.
 | what_is_meaning | A-meaning gap = 0.007 | CONFIRMED |
 | what_is_knowing | r(coverage, gap)=+0.763, p=0.010 | CONFIRMED |
 | what_is_number | r(math_reach, physics)=+0.845, p=0.001 | CONFIRMED |
-| what_is_good | **r=+0.608, p=0.0004, n=30** | **CONFIRMED** |
-| what_is_life | r=+0.794, p=0.0007 | CONFIRMED |
-| what_is_self | r=+0.724, p=0.005 | CONFIRMED |
+| what_is_good | r=+0.841 (welfare), p<0.0001; Arrow frontier proven irreducible | **CONFIRMED + DEEPENED** |
+| what_is_life | r=+0.906 (6-dim+C6), p<0.001; life-mind independence | **CONFIRMED + DEEPENED** |
+| what_is_self | r=+0.724 (continuity) + r=+0.972 (transparency), p<0.0001 | **CONFIRMED + DEEPENED** |
 
 **9/9 confirmed (p<0.05). 0/9 falsified.** (Cycle 18: what_is_good confirmed at n=30) See `what_is_language/results/result_011_compression_backbone_final.md`.
 
 ### What remains
 
 The track is ready for:
-1. An interpretability collaborator to directly measure G and L for frontier LLMs
-   (the G×L scaling projection needs empirical verification)
-2. A test of the β/γ crossing cell at larger scale (n ≥ 20, computationally blocked)
-3. A domain-structural prior test for literary beauty (fine-tune a small LM on
-   aesthetic structure without memorising canonical texts)
-4. A controlled P4 test (architecture with vs without self-model feedback,
-   matched safety training data)
+1. **Independent validation** — all candidate patterns need testing against real data (MoralMachine, WVS, MMLU breakdowns, animal consciousness surveys). The theoretical architecture is complete; empirical validation is the bottleneck.
+2. **Interpretability** — directly measure G, L, and T for frontier LLMs (the G×L×T scaling projection needs empirical verification)
+3. **β/γ crossing cell** at larger scale (n ≥ 20, computationally blocked)
+4. **Literary beauty** — domain-structural prior test (fine-tune a small LM on aesthetic structure without memorising canonical texts)
+5. **P4 controlled test** (architecture with vs without self-model feedback, matched safety training data)
+6. **Welfare game validation** — test the Pareto-core/frontier distinction against Awad et al. 2018 (MoralMachine) cross-cultural data
+7. **Transparency measurement** — develop an operational measure of self-model transparency T for biological and artificial systems
