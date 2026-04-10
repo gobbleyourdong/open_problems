@@ -1,8 +1,7 @@
 # Liouville Conjecture — The Gap
 
-> **Updated after 8 theory attempts + 11 numerics scripts (Apr 9-10, 2026)**
-> Previous version focused on the 5 mountains. This version incorporates
-> the decomposition discovered through the campaign.
+> **Updated after 8 theory attempts + 14 numerics scripts + 4 agent experiments (Apr 9-10, 2026)**
+> Incorporates the decomposition, agent stall-point analysis, and cold-start feedback.
 
 ## The single sentence (UPDATED)
 
@@ -18,7 +17,7 @@ FULL LIOUVILLE = (1) + (2) + (3)
 
 (2) Small-data Liouville: ||u||_∞ < ε₀ → u ≡ 0
     STATUS: PROOF SKETCH COMPLETE (attempt_008)
-    ε₀ = ν / (8 · C_Oseen), explicit
+    ε₀ = ν / (8 · C_Oseen) ≈ 0.111 at ν = 1 (C_Oseen = 2/√π ≈ 1.128)
 
 (3) Unique continuation: if w(·, t₀) = 0 then w ≡ 0
     STATUS: KNOWN (Escauriaza-Seregin-Šverák framework)
@@ -215,7 +214,27 @@ This is a VOLUME growth bound, but it allows the total Dirichlet integral to be 
 | knss_corrector_test | Testing Φ̃ = ω_θ/r - u_θ²/r² |
 | w_ns_entropy | Computing W_NS on Burgers |
 | koch_tataru_constant | Computing explicit ε₀ |
-| backward_construction | Attempting to construct bounded ancient solutions numerically |
+| backward_construction | **FAILS: every non-constant mode diverges backward** |
+| forward_decay_rate | 2D enters ε₀ ball; R³ decay time diverges as L→∞ |
+| oseen_kernel_verification | Raw temporal integral diverges; BMO⁻¹ needed |
+
+### Backward construction result (critical — was missing from prior version)
+
+Every attempt to construct a bounded non-constant ancient solution fails:
+- 2D: each Fourier mode grows as e^{νk²|t|} backward → unbounded
+- 3D: modes with k > √(C(M)/ν) grow backward despite stretching
+- Explicit backward Euler: anti-diffusion causes exponential growth even with spectral cutoff
+**STRONG EVIDENCE FOR LIOUVILLE.** No bounded non-constant ancient solution can be constructed.
+
+### Agent experiment results (4 Sonnet agents on backward entry)
+
+| Agent | Hint | Stall point |
+|-------|------|-------------|
+| 1 | Beltrami | (Sω·ω) sign — predicted cluster |
+| 3 | None | local ≠ uniform convergence at ∞ — predicted cluster |
+| 4 | Pressure | **OUTLIER: pressure gauge c(t) undetermined** |
+
+**New obstruction from Agent 4**: The Bernoulli function B = |u|²/2 + p has bounded gradient (∇B bounded by parabolic regularity) but B ITSELF is not bounded because p ∈ BMO. The ambient pressure c(t) is gauge-free and undetermined. If bounded ancient ⟹ u → const at |x| → ∞, pressure normalizes and B is bounded. This BYPASSES (Sω·ω).
 
 ### What was killed (dead directions)
 
@@ -227,11 +246,11 @@ This is a VOLUME growth bound, but it allows the total Dirichlet integral to be 
 
 ### What survived
 
-1. **Vorticity frequency N_ω** — monotone on Burgers. If monotone for bounded ancient → Liouville.
-2. **NS entropy** — works IF (Sω·ω) is controlled. Betchov alignment might help.
-3. **Small-data Liouville** — PROVABLE with existing tools. First concrete theorem.
-4. **The decomposition** — Full Liouville = backward entry + small-data + unique continuation.
-5. **KNSS corrector + Gronwall + ancient** — might give axisymmetric Liouville with swirl.
+1. **Small-data Liouville** — PROVABLE. ε₀ = ν/(8C) ≈ 0.111 at ν=1. First theorem.
+2. **The decomposition** — Full Liouville = backward entry + small-data + unique continuation.
+3. **Vorticity frequency N_ω** — monotone on Burgers (C=2.11). If general → Liouville.
+4. **KNSS corrector + Gronwall + ancient** — might give axisymmetric Liouville with swirl.
+5. **Pressure/Bernoulli route (NEW from agent experiment)** — ∇B bounded; if u → const at ∞ then B bounded → bypasses (Sω·ω) entirely. Spatial decay at ∞ for ancient bounded might be EASIER than stretching control.
 
 ### The remaining gap (precisely stated)
 
