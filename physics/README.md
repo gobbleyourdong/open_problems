@@ -2,7 +2,28 @@
 
 > The questions physics doesn't answer but generates.
 
-Physics as a discipline grew out of natural philosophy in the 17th century. The questions that started natural philosophy are still open. Physics can measure how things behave, but the question of *what* they are — and whether they exist independently of measurement — is upstream of any specific physical theory.
+---
+
+## FINAL ANSWER: What Is Time?
+
+**Time is not one thing. It is five levels, each built on the last.**
+
+| Level | What | Key Number |
+|-------|------|-----------|
+| **1. Thermodynamic Arrow** | Time flows in the direction of entropy increase | ΔS = +0.698 bits |
+| **2. Lyapunov Arrow** | Chaos locks in the arrow — reversal fails after 167 steps | λ = 0.110/step |
+| **3. Neural Arrow** | Your brain integrates 128 quantum-clock moments at 50 bits/s | **SP = 2.56 seconds** |
+| **4. Phenomenal** | Whether integration IS experience (the residual gap) | → what_is_mind |
+
+The specious present (2.56s) is derived **parameter-free** from Kramers ion-channel kinetics + Page-Wootters quantum clock. Two independent physics domains combine arithmetically to reproduce the measured duration of "now."
+
+**Testable prediction:** the specious present is temperature-dependent. At 33°C (hypothermia): 3.18s (+24%). At 42°C (fever): 1.97s (−23%). Q₁₀ ≈ 1.7 distinguishes this from alternative models.
+
+Three numbers span 22 orders of magnitude — one mechanism (the Boltzmann factor) connects them all.
+
+→ Full derivation: [`what_is_time/FINAL_ANSWER.md`](./what_is_time/FINAL_ANSWER.md) · Certifications C1–C10 complete
+
+---
 
 ## The questions
 
