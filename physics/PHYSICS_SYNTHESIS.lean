@@ -98,13 +98,24 @@ def what_is_change : PhysicsProblem := {
   theorem_count := 44
 }
 
-/-- All six problems. -/
+/-- 7th problem, added 2026-04-10. Self-reference as physics. -/
+def what_is_self_reference : PhysicsProblem := {
+  question := "What is self-reference?"
+  k_answer := "Self-reference = K-simple universe producing subsystems that model themselves. Three mechanisms: information barrier (K-flat), resource barrier (K-increasing), structural absence (zero layers = consciousness)."
+  k_laws_role := "K_laws small (21,834) makes self-reference possible: subsystems can model laws because K_laws << subsystem K-capacity"
+  key_number := 71
+  key_number_description := "Integrated (brain 1.4×) is 71× cheaper than separated (JVM 101×). DGX Spark measurement."
+  lean_file_count := 6
+  theorem_count := 29
+}
+
+/-- All seven problems. -/
 def all_problems : List PhysicsProblem :=
   [what_is_reality, what_is_information, what_is_computation,
-   what_is_time, what_is_nothing, what_is_change]
+   what_is_time, what_is_nothing, what_is_change, what_is_self_reference]
 
-/-- Six problems total. -/
-theorem six_problems : all_problems.length = 6 := by decide
+/-- Seven problems total. -/
+theorem seven_problems : all_problems.length = 7 := by decide
 
 /-! ## §2 The Three NCD Clusters
 
