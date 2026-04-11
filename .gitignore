@@ -53,3 +53,7 @@ infographics/
 SIGMA_METHOD.md
 .commit_lock.sh
 .git_lock
+
+# Infrastructure scripts (local tooling, not research)
+triage.py
+daily_report.py
