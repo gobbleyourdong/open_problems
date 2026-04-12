@@ -2552,3 +2552,36 @@ Ceramide ↔ S1P rheostat (Spiegel 2003): pro-apoptotic ceramide vs. pro-surviva
 4. **iNKT, pDC, IFN-λ, adenosine, Siglecs, H4R**: below threshold.
 
 *Gap.md updated: 2026-04-12 | Ninety-second iteration | Leukotrienes 5-LOX FLAP LTB4 BLT1 CysLT1 CysLT mast cell 7th mast cell T1DM NOD BLT1 KO insulitis montelukast omega-3 LTB5 ME/CFS Ott 2010 Ford-Hutchinson 1994 Kim 2010 Maes 2012 | run_107*
+
+---
+
+### Extension 93 — Lipoxins: LXA4/ATL/FPR2/Annexin A1 — AA-Derived Pro-Resolving Mediators (run_108)
+
+**Gap confirmed:** run_020 covers ONLY omega-3-derived SPMs (resolvins D/E, protectins, maresins). Lipoxins from arachidonic acid were completely absent. run_002 has one line misattributing lipoxins to DHA; run_096 has one-line aside. No prior run covers LXA4 biosynthesis, ATL, FPR2/ALX receptor, or Annexin A1.
+
+**New mechanisms added (run_108):**
+- LXA4 biosynthesis: AA → 15-LOX-1 → 15-HPETE → 5-LOX → LXA4 [transcellular, M2 macrophages + epithelial cells; Serhan 1984]
+- ATL (aspirin-triggered LXA4 = 15-epi-LXA4): aspirin-acetylated COX-2 + AA → 15R-HETE → 5-LOX → ATL [distinct from run_020's AT-resolvins from EPA; Clish 1999 PNAS]
+- FPR2/ALX: ligand-biased GPCR; LXA4/ATL → Gαi → ANXA1 upregulation; serum amyloid A (SAA) → FPR2 → pro-inflammatory (biased agonism)
+- Annexin A1 (ANXA1): corticosteroid-mimetic mechanism; PLA2 ↓ → AA release ↓; glucocorticoid-inducible lipocortin; first in framework; safe for rosacea (no steroid rosacea risk)
+- LXA4 → FPR2 on mast cells → Gαi → cAMP ↓ → degranulation ↓ [first endogenous mast cell INHIBITOR in framework; Godson 2002; Perretti 2009]
+- LXA4 → FPR2 on Th17 → RORγt ↓ → IL-17A ↓ [Bystrom 2008; Ariel 2005]
+- LXA4 → FPR2 → TGF-β → Foxp3 [6th Node A input — MODERATE CONFIDENCE; Levy 2001; Serhan 2014]
+- VDR → 15-LOX ↑ → LXA4 ↑ [4th calcitriol benefit; mechanistic link between vitamin D and resolution capacity]
+- 15-LOX/5-LOX M1/M2 switch: M1 macrophage → 5-LOX dominant → LTA4 → LTB4/CysLTs (run_107); M2 macrophage → 15-LOX dominant → 15-HPETE → LXA4 (run_108)
+- Aspirin + omega-3 synergy: aspirin → ATL (from AA) + AT-resolvins (from EPA) simultaneously [dual SPM production; fully mechanistically explained]
+
+**Post-run_108 micro-survey:**
+- Endocannabinoids/CB2: one list mention in run_015; CB2 on mast cells, macrophages, T cells; evidence thinner than lipoxins; below current threshold.
+- PAR-1/thrombin: mast cell amplifier; limited rosacea-specific evidence; below threshold.
+- Galectin-3: phymatous fibrosis; too narrow; below threshold.
+- iNKT, pDC, IFN-λ, adenosine, Siglecs, H4R: below threshold.
+- Framework likely approaching mechanistic saturation after run_108.
+
+**Remaining genuine gaps (end of ninety-third iteration):**
+1. **Küpers 2019 PACE EWAS**: not executable.
+2. **Endocannabinoids/CB2**: one list mention; below current threshold.
+3. **iNKT, pDC, IFN-λ, adenosine, Siglecs, H4R**: below threshold.
+4. Framework approaching saturation.
+
+*Gap.md updated: 2026-04-12 | Ninety-third iteration | Lipoxins LXA4 ATL 15-epi-LXA4 aspirin-triggered FPR2 ALX Annexin A1 ANXA1 mast cell inhibitor Th17 RORγt Treg Foxp3 Node A VDR 15-LOX 5-LOX M1 M2 switch aspirin omega-3 synergy AT-resolvin corticosteroid-mimetic | run_108*

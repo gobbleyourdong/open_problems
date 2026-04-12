@@ -609,3 +609,21 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 4. **Potential therapeutic angle**: Zileuton (5-LOX inhibitor): blocks LTB4 and CysLT production upstream; not standard of care; hepatotoxicity risk limits use. Omega-3 EPA (competitive substrate) is the safe protocol option.
 
 **Cross-reference: run_107 dysbiosis framework | Leukotrienes 5-LOX LTB4 BLT1 NK cells ME/CFS omega-3 EPA LTB5 | Maes 2012 Ford-Hutchinson 1994 Kim 2010**
+
+---
+
+### run_108 Cross-Reference: LXA4/ATL/FPR2/Annexin A1 — Failed Resolution in ME/CFS; FPR2 Biased Agonism; ANXA1
+
+**Mechanisms relevant to ME/CFS:**
+
+1. **Failed resolution in ME/CFS — LXA4 deficiency**: ME/CFS is characterized by persistent low-grade inflammation despite absence of active pathogen (or resolved initial trigger). The run_108 framework predicts: persistent M1 macrophage polarization → 5-LOX dominant → LTB4/CysLTs (run_107) + loss of 15-LOX activity → LXA4 deficiency → FPR2-mediated resolution brake absent. The "failed switch" from inflammation to resolution is now mechanistically complete: M1 polarization simultaneously produces inflammatory mediators AND removes pro-resolving mediators.
+
+2. **FPR2 biased agonism — SAA as pro-inflammatory FPR2 ligand**: Serum amyloid A (SAA), which is elevated in ME/CFS during PEM (post-exertional malaise) events (Natelson work), is also a FPR2 ligand — but drives pro-inflammatory signaling (not Gαi/resolution). This means FPR2 can be engaged by SAA → paradoxical pro-inflammatory output from a receptor that LXA4 uses for resolution. Competition between LXA4 (resolving) and SAA (pro-inflammatory) at FPR2 may contribute to resolution failure in PEM.
+
+3. **Omega-3 + aspirin → ATL + AT-resolvins**: ME/CFS patients taking omega-3 (already in protocol for anti-inflammatory benefits) who tolerate low-dose aspirin would produce BOTH AT-resolvins (EPA route; run_020) and ATL (AA + aspirin-acetylated COX-2; run_108). The combined SPM production is mechanistically synergistic for resolution. However: aspirin use in ME/CFS is complicated by hypersensitivity in some patients; low-dose aspirin requires individual assessment.
+
+4. **VDR → 15-LOX → LXA4 (vitamin D deficiency in ME/CFS)**: Vitamin D deficiency is prevalent in ME/CFS (Castro-Marrero 2017). VDR → 15-LOX → LXA4 pathway means D-deficient ME/CFS patients have impaired resolution capacity at the 15-LOX level, independent of immune cell counts or M1/M2 balance. Vitamin D repletion addresses resolution axis directly.
+
+5. **ANXA1 in ME/CFS neuroimmune context**: Annexin A1 suppresses microglial activation and neuroinflammation via FPR2 in the CNS (Perretti lab data). ME/CFS has neuroinflammation evidence (Nakatomi 2014 J Nucl Med: PET imaging). ANXA1-mediated FPR2 signaling in microglia could be relevant to neuroinflammation component. No ME/CFS-specific ANXA1 data; mechanistically plausible.
+
+**Cross-reference: run_108 dysbiosis framework | LXA4 ATL FPR2 ALX Annexin A1 ANXA1 failed resolution M1 M2 switch SAA biased agonism PEM VDR 15-LOX calcitriol omega-3 aspirin synergy neuroinflammation | Serhan 1984 Clish 1999 Perretti 2009 Levy 2001 Serhan 2014**

@@ -4758,3 +4758,47 @@ The BLT1 route is unique: it creates a POSITIVE FEEDBACK LOOP within the islet. 
 Omega-3 EPA → LTB5 (weak BLT1 activity) is now the MECHANISTICALLY UNDERSTOOD intervention for breaking this amplification loop. Ensuring adequate EPA levels (≥1g EPA/day from fish oil/algal oil) is important not just for prostanoid reduction but specifically for BLT1 competition.
 
 *Updated: 2026-04-12 | Phase 4 eighty-first extension | Leukotrienes 5-LOX FLAP BLT1 CysLT1 LTB4 LTC4 LTD4 mast cell 7th T1DM islet T cell homing omega-3 LTB5 montelukast ME/CFS Ott 2010 Ford-Hutchinson 1994 Kim 2010 | run_107*
+
+---
+
+## Phase 4 Extension 82: LXA4/ATL Resolution Axis — Restoring the Endogenous Brake That Dysbiosis Silences
+
+### The Missing Half of the AA Story
+
+The framework has thoroughly mapped how arachidonic acid drives inflammation: COX-2 → PGE2 (run_055); 5-LOX → LTB4/CysLTs (run_107). But AA has a SECOND arm — the resolution arm — that the framework had completely missed. When macrophage polarization is M2 (tissue-resolving), the same AA that feeds 5-LOX instead goes to 15-LOX-1 → 15-HPETE → LXA4. The M1/M2 ratio is the molecular switch that determines whether AA produces inflammation or resolution.
+
+In rosacea/T1DM/ME-CFS, persistent dysbiosis locks macrophages into M1. The result is not just excess PGE2 and LTB4 — it is ALSO the loss of LXA4 production capacity. The resolution brake fails not because of increased production of LXA4-degrading enzymes (though 15-PGDH is relevant), but because of substrate redirection: the same AA goes to the pro-inflammatory arms.
+
+### Annexin A1: The Corticosteroid-Mimetic Without Rosacea Risk
+
+This is clinically important. Glucocorticoids (topical or systemic) are routinely used in inflammatory skin conditions, but in rosacea they cause "steroid rosacea" — paradoxical worsening after taper, Demodex amplification, skin barrier destruction, telangiectasia formation. The mechanism is that corticosteroids suppress ANXA1, and when they are withdrawn, the ANXA1 that the glucocorticoids were driving (their endogenous mechanism) is gone — leaving the patient worse than baseline.
+
+LXA4/ATL → FPR2 → ANXA1 upregulation provides the SAME downstream mechanism (PLA2 suppression → AA release ↓ → prostanoid + leukotriene production ↓) WITHOUT activating glucocorticoid receptors. This is the only intervention in the framework that provides corticosteroid-equivalent anti-inflammatory benefit without the telangiectasia-formation and Demodex-amplification risks specific to rosacea.
+
+Practical implication: aspirin (low-dose → ATL via aspirin-acetylated COX-2 + AA) and omega-3 EPA (→ AT-resolvins from run_020) work synergistically. Aspirin does NOT block EPA-derived AT-resolvin production (EPA is not a COX-2 substrate for prostanoids; aspirin-acetylated COX-2 still processes EPA → AT-resolvins). This is now the mechanistically complete explanation for why aspirin + omega-3 is more than additive for rosacea.
+
+### Mast Cell: The First Endogenous Inhibitor
+
+Across 108 runs, the framework has identified 7 routes for mast cell ACTIVATION (NK1R/SP; MRGPRX2/CGRP; VPAC1/PAC1; ST2/IL-33; IgE; S1PR2; CysLT1). Run_108 provides the first endogenous INHIBITOR: LXA4 → FPR2 → Gαi → cAMP ↓ → degranulation ↓. This matters because current pharmacological mast cell management (ketotifen, cromolyn, montelukast) is all exogenous. Restoring endogenous LXA4 production → endogenous mast cell brake that works continuously, not just when a drug is present.
+
+### VDR → 15-LOX: The 4th Calcitriol Benefit
+
+The framework previously had three calcitriol benefits (Treg induction, AMP upregulation, barrier repair). Run_108 adds a fourth: VDR → 15-LOX ↑ → LXA4 ↑. Vitamin D deficiency in rosacea/T1DM (both documented — run_012 context) means BOTH the direct Treg effect AND the 15-LOX/LXA4 resolution capacity are impaired simultaneously. This creates a multiplicative deficit: fewer Tregs AND less LXA4. Vitamin D repletion addresses both arms.
+
+### T1DM: LXA4 as 6th Node A Input (Moderate Confidence)
+
+The five established Node A inputs are: IL-2 (run_025); TGF-β/rapamycin (T-index); calcitriol (run_012); EGFR via GLP-1R/insulin (run context); butyrate (run_034). LXA4 → FPR2 → TGF-β → Foxp3 is the proposed 6th. The mechanism is plausible (Levy 2001; Serhan 2014) but the in vivo T1DM Treg data is less direct than the five established inputs. Flag as moderate confidence until T1DM-specific LXA4/Treg data strengthens.
+
+### The Resolution Axis Is Now Complete
+
+The framework now has a complete resolution axis:
+- Omega-3 EPA/DHA → AT-resolvins/protectins/maresins (run_020): exogenous supplementation route
+- Aspirin-acetylated COX-2 + EPA → AT-resolvins (run_020); + AA → ATL (run_108): aspirin augments BOTH
+- LXA4 from AA via M2 macrophage 15-LOX route (run_108): endogenous tissue resolution
+- VDR → 15-LOX ↑ → LXA4 ↑ (run_108): vitamin D status gates endogenous resolution capacity
+- FPR2 on Treg precursors → Foxp3 → sustained resolution (run_108 + Node A framework)
+- Annexin A1 (ANXA1): the terminal effector common to corticosteroid AND LXA4 anti-inflammatory mechanisms
+
+The dysbiosis → M1 macrophage polarization is not just driving inflammation — it is actively dismantling the resolution axis by redirecting AA away from 15-LOX toward 5-LOX, starving the tissue of its own endogenous brake. Correcting M1/M2 balance (via butyrate, omega-3, calcitriol, EGCG — all existing protocol elements) now has a new mechanistic justification: rebuilding LXA4 production capacity.
+
+*Updated: 2026-04-12 | Phase 4 eighty-second extension | LXA4 ATL aspirin-triggered LXA4 15-epi-LXA4 FPR2 ALX Annexin A1 ANXA1 mast cell inhibitor 15-LOX 5-LOX M1 M2 switch corticosteroid-mimetic steroid rosacea VDR calcitriol 4th benefit Node A 6th input T1DM Treg aspirin omega-3 synergy Serhan 1984 Clish 1999 Godson 2002 Perretti 2009 Bystrom 2008 Ariel 2005 Serhan 2014 Levy 2001 | run_108*

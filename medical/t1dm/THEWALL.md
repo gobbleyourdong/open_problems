@@ -715,3 +715,21 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 5. **Montelukast (CysLT1 antagonist) for T1DM + asthma comorbidity**: rosacea + asthma + T1DM triple comorbidity → montelukast addresses asthma (primary) + rosacea mast cell propagation (secondary). No direct T1DM-specific BLT1 effect (montelukast is CysLT1-selective, not BLT1).
 
 **Cross-reference: run_107 dysbiosis framework | Leukotrienes 5-LOX BLT1 LTB4 CysLT1 LTC4 T1DM NOD insulitis islet homing omega-3 EPA LTB5 montelukast | Ott 2010 Ford-Hutchinson 1994 Kim 2010**
+
+---
+
+### run_108 Cross-Reference: LXA4/ATL/FPR2/Annexin A1 — Resolution Axis; 6th Node A Input Candidate; VDR 4th Benefit
+
+**Mechanisms specific to T1DM:**
+
+1. **LXA4 → FPR2 → TGF-β → Foxp3 (6th Node A input — MODERATE CONFIDENCE)**: LXA4 on Treg precursors → FPR2 → TGF-β upregulation → Foxp3 induction → Treg expansion. Node A currently has 5 established inputs (IL-2, TGF-β/rapamycin, calcitriol, GLP-1R/insulin signaling, butyrate). LXA4 is a mechanistically plausible 6th (Levy 2001; Serhan 2014) but T1DM-specific Treg data not yet available. Flag: moderate confidence.
+
+2. **VDR → 15-LOX ↑ → LXA4 ↑ (4th calcitriol benefit)**: Vitamin D deficiency (documented in T1DM — run_012 context) impairs BOTH direct Treg induction AND LXA4 production capacity simultaneously. Multiplicative deficit: fewer Tregs AND less endogenous resolution. Vitamin D repletion target ≥40-60 ng/mL addresses both arms.
+
+3. **LXA4 → FPR2 on islet macrophages → pro-resolving phenotype**: Islet macrophages in early T1DM shift toward M1 → 5-LOX dominant → LTB4 (run_107 islet homing amplifier). Restoring M2 polarity → 15-LOX dominant → LXA4 → FPR2 → ANXA1 on islet macrophages → local inflammation resolution within the islet. This closes the islet-level resolution axis: M1 = run_107 LTB4 amplifier; M2 = run_108 LXA4 brake.
+
+4. **Aspirin + omega-3 synergy (T1DM prevention context)**: Low-dose aspirin → ATL (from AA via aspirin-acetylated COX-2); omega-3 EPA → AT-resolvins (run_020). Combined: two distinct SPM production routes operating simultaneously. The dual-pathway SPM production may be relevant for early T1DM prevention (NOD model uses various anti-inflammatory interventions before insulitis peak).
+
+5. **Annexin A1 in islet context**: Pancreatic macrophages express ANXA1; ANXA1-deficient mice have exaggerated pancreatic inflammation (Perretti/D'Acquisto work). ANXA1 is a potential islet-protective mediator beyond rosacea context. No T1DM-specific ANXA1 clinical data; mechanistically plausible from pancreatic macrophage biology.
+
+**Cross-reference: run_108 dysbiosis framework | LXA4 ATL aspirin-triggered FPR2 ALX Annexin A1 ANXA1 Node A 6th input Treg Foxp3 VDR 15-LOX calcitriol 4th benefit islet macrophage M1 M2 | Serhan 1984 Clish 1999 Godson 2002 Perretti 2009 Levy 2001 Serhan 2014**

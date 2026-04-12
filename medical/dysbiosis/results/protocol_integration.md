@@ -3455,3 +3455,54 @@ For T1DM rosacea patients with evidence of active autoimmunity (positive anti-GA
 - Not standard of care but mechanistically informative for refractory T1DM autoimmunity management
 
 *Protocol_integration.md Part 9bg — 2026-04-12 | Leukotrienes 5-LOX CysLT1 BLT1 mast cell montelukast omega-3 EPA T1DM islet homing urinary LTE4 | run_107*
+
+---
+
+### Part 9bh — LXA4/ATL/FPR2 Resolution Axis: Protocol Implications (run_108)
+
+This run completes the arachidonic acid bifurcation map:
+- **Pro-inflammatory arm** (runs 055, 107): COX-2 → PGE2; 5-LOX → LTB4/CysLTs
+- **Pro-resolving arm** (run_108): 15-LOX-1 → LXA4 → FPR2 → Annexin A1
+
+#### No New Agents Required — Mechanism Explains Existing Protocol Choices
+
+The striking finding from run_108 is that the protocol's existing agents (aspirin, omega-3, vitamin D, EGCG) are ALREADY driving LXA4/ATL production. The mechanism was previously unexplained; run_108 fills it in:
+
+1. **Low-dose aspirin (existing: run_055 context)**: aspirin-acetylated COX-2 + AA → ATL (15-epi-LXA4). The anti-inflammatory benefit of low-dose aspirin in rosacea is now mechanistically attributed to ATL production, not just COX-2 inhibition. Does NOT block EPA-derived AT-resolvins (aspirin-acetylated COX-2 still processes EPA).
+
+2. **Omega-3 EPA/DHA (existing: run_020, run_033)**: EPA → AT-resolvins (established) + EPA competes 5-LOX → less LTB4 → more AA available for 15-LOX → more LXA4. Dual mechanism now explicit.
+
+3. **Vitamin D / calcitriol (existing: run_012)**: VDR → 15-LOX ↑ → LXA4 ↑. Fourth calcitriol benefit. Vitamin D repletion targets (serum 25-OH-D ≥40-60 ng/mL) already in protocol; run_108 adds resolution-axis rationale.
+
+4. **EGCG (existing: run_008 context)**: SphK1 inhibition (run_106) + Nrf2 (run_008) + NF-κB; M2 polarization promotion → 15-LOX ↑. Indirect LXA4 augmentation.
+
+#### Aspirin Caution in Rosacea: ATL vs. COX-2 Trade-off
+
+Low-dose aspirin (81mg) → substantial ATL production with minimal COX-2-mediated PGE2 suppression. Full-dose aspirin (325mg+) → greater COX-2 suppression but potentially more GI/platelet risk and may suppress PGI2 (endothelial-protective prostacyclin). Protocol recommendation: maintain low-dose aspirin (81mg/day) specifically for ATL benefit when tolerated; avoid COX-2-selective NSAIDs (celecoxib) which eliminate both PGE2 AND ATL.
+
+#### Annexin A1: Marker for Steroid Weaning
+
+For patients who have been using topical corticosteroids and need to taper (steroid rosacea prevention): the ANXA1 mechanism predicts that abrupt steroid cessation → ANXA1 withdrawal → rebound inflammation. Protocol strategy during taper:
+- Begin low-dose aspirin + increase omega-3 dose 2 weeks BEFORE starting corticosteroid taper
+- This pre-loads ATL/LXA4 → FPR2 → ANXA1 endogenous pathway to substitute for corticosteroid-driven ANXA1
+- Taper can proceed with reduced rebound risk
+- NOT standard of care; mechanistically plausible from run_108 but clinical validation lacking
+
+#### Node A / T1DM: LXA4 Treg Induction
+
+For T1DM patients in node A monitoring phase:
+- LXA4 → FPR2 → TGF-β → Foxp3: moderate confidence (Levy 2001; Serhan 2014); not yet T1DM-validated
+- Vitamin D repletion (4th benefit: VDR → 15-LOX → LXA4 → FPR2 → Treg) = compounding Treg benefit
+- No new monitoring required; track VD levels as standard (already in T-index v4)
+
+#### Mast Cell Management: Adding the Endogenous Brake
+
+The mast cell management framework now has a fourth layer beyond stabilizer + montelukast + antihistamine:
+1. Mast cell stabilizer (ketotifen/cromolyn): prevent initial IgE/MRGPRX2/ST2 degranulation
+2. Montelukast (CysLT1 antagonist): prevent CysLT1-driven autocrine propagation
+3. Antihistamine: block histamine H1R
+4. **LXA4/ATL (via aspirin + omega-3 + VD)**: restore endogenous FPR2 → Gαi → degranulation ↓ brake
+
+Layer 4 is the only layer that reinforces endogenous inhibition rather than pharmacologically blocking specific pathways. It works continuously as long as resolution mediator production is maintained by the protocol.
+
+*Protocol_integration.md Part 9bh — 2026-04-12 | LXA4 ATL aspirin-triggered FPR2 Annexin A1 ANXA1 mast cell endogenous inhibitor VDR 15-LOX vitamin D calcitriol 4th benefit T1DM Node A Treg aspirin low-dose omega-3 synergy steroid rosacea taper | run_108*
