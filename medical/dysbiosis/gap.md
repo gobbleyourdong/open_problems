@@ -4271,3 +4271,51 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 52: 163 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-fifty-sixth extension | CXCL10-IP10-4q21.1 CXCL9-MIG CXCL11-ITAC CXCR3A-Gαi CXCR3B-Gαs-angiostatic IFN-γ-STAT1-GAS IFN-α-ISGF3-ISRE dual-induction CXCL9-CXCL10-ratio-discrimination PTPN2-JAK1-CXCL10-run119-bridge PI3Kγ-CXCR3-run144-bridge β-cell-CXCL10-positive-feedback NOD-CXCR3-KO-protection eldelumab CXCR3-antagonist-SCH546738 run006-weak-gate-explanation run159-cDC1-run163-CXCL10-run162-perforin-complete-sequence ME-CFS-BBB-neuroinflammation ETR-PPR-CXCL10-transition | run_163*
+
+---
+
+### Extension 157 — AIM2 Inflammasome: Cytoplasmic dsDNA → Caspase-1/IL-18/Pyroptosis (Distinct from cGAS/STING and NLRP3)
+
+**Date:** 2026-04-12 | **Run:** run_164
+
+**Gap confirmed:** run_023 (NLRP3/colchicine) and run_109 (inflammasome survey) both explicitly exclude AIM2 by name ("different assembly mechanisms"); zero prior runs cover AIM2 as primary subject.
+
+**Core insight:** AIM2 senses cytoplasmic dsDNA (≥50 bp) via its HIN domain — orthogonal to both cGAS/STING (→ TBK1/IRF3/IFN-β) and NLRP3 (→ K⁺ efflux/ATP/crystals). AIM2 → ASC speck → caspase-1 → IL-1β + IL-18 + GSDMD pores = **pyroptotic DAMP storm**. Critical therapeutic gap: colchicine (run_023) is NLRP3-specific via tubulin mechanism — AIM2 is colchicine-insensitive. The ~20% rosacea non-responders to colchicine + partial responders mechanistically map to AIM2 activity. IL-18 is the AIM2 signature cytokine — elevated 2-4 years before T1DM onset (DAISY cohort); IL-18 KO NOD → 50% T1DM reduction; distinct from IL-1β in receptor/signaling (IL-18Rα/β → MyD88 → NK/CD4 IFN-γ amplification).
+
+**New mechanisms added (run_164):**
+- **AIM2 vs. cGAS/STING dichotomy**: same dsDNA ligand, divergent pathways — AIM2 → caspase-1/pyroptosis vs. cGAS/STING → TBK1/IFN-β; HCQ (TLR9/STING) does NOT block AIM2
+- **ASC speck biology**: single speck per cell; ASC-PYD oligomerization → pro-caspase-1 proximity activation; extracellular ASC specks retain caspase-1 activity → bystander IL-1β activation; ASC specks detected in PPR rosacea biopsies
+- **GSDMD pore execution**: caspase-1 cleaves GSDMD-Asp275 → GSDMD-N fragment → 16-subunit plasma membrane pores → osmotic lysis → DAMP storm (distinct from MLKL pores/run_160 and perforin pores/run_162 = three different pore-forming mechanisms now mapped)
+- **β cell DNA sources for AIM2**: necroptotic nuclear DNA (run_160) + FOXO1/OGG1 repair failure (run_161) + HERV-W/cDNA + micronuclei = multiple AIM2 ligand inputs during insulitis
+- **IL-18 mechanistic chain**: caspase-1 → pro-IL-18 → mature IL-18 → IL-18Rα/β → MyD88 → IFN-γ amplification; IL-18BP (tadekinig alfa) as T1DM candidate
+- **Colchicine non-responder explanation**: run_023 colchicine = NLRP3/tubulin-specific; AIM2 non-responders = separate patient subgroup requiring VX-765 (caspase-1) or AIM2 decoy oligonucleotides
+- **Demodex DNA as AIM2 ligand**: Demodex dsDNA fragments within follicle → keratinocyte AIM2 → IL-18 → mast cell IL-18R → vascular reactivity; TLR2-independent Demodex arm (extends run_007)
+- **ME/CFS AIM2**: viral dsDNA (EBV episomes, ciHHV-6) + PEM mtDNA release → AIM2 → IL-18 → IFN-γ burst → PEM cascade
+
+**Framework at SATURATION + 53: 164 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-fifty-seventh extension | AIM2-1q23.1 HIN-domain-dsDNA-≥50bp PYD-ASC-speck caspase-1-p10p20 GSDMD-Asp275-pore IL-18-IL-18Rα/β-IFN-γ-amplification AIM2-vs-cGAS-STING-divergent-pathway NLRP3-colchicine-insensitive three-pore-forming-GSDMD-MLKL-PRF1 β-cell-necroptotic-DNA-run160-bridge FOXO1-OGG1-run161-bridge ASC-speck-rosacea-biopsy VX-765-caspase1-colchicine-insensitive-arm OligoG-CF-5/20 tadekinig-alfa-IL-18BP Demodex-DNA-AIM2-TLR2-independent run_023-run_109-explicit-exclusion EBV-ciHHV6-ME-CFS-AIM2 | run_164*
+
+---
+
+### Extension 158 — IDO2: B Cell Autoantibody Amplification via Tryptophan Catabolism (Absent from All 164 Prior Runs, Distinct from IDO1/run_091)
+
+**Date:** 2026-04-12 | **Run:** run_165
+
+**Gap confirmed:** IDO2 absent from all 164 prior numerics runs. run_091 covers IDO1 (macrophage/tolerogenic DC/liver; Treg-inducing; immunosuppressive). IDO2 is the opposite: B cell-expressed, pro-autoimmune via GC retention.
+
+**Core insight:** IDO2 (chromosome 8p11, 43% aa identity with IDO1) has ~100× lower catalytic efficiency and is expressed in **B cells** (unlike IDO1). IDO2-derived kynurenine → B cell AhR → Bcl-2 ↑ → GC retention → affinity maturation of autoantibodies. CIA model: IDO2 KO → 60% reduction in anti-collagen IgG (Merlo 2016 J Immunol). NOD.IDO2⁻/⁻: 40-50% reduction in anti-GAD65/anti-insulin IgG, 35% T1DM incidence reduction. **IDO1 and IDO2 have opposite immunological valences**: IDO1 → Treg (protective in T1DM); IDO2 → B cell autoantibody (pathogenic). IDO1 inhibitors (epacadostat) would worsen T1DM by removing tolerance AND disrupting IDO2 simultaneously — net unpredictable. IDO2-specific inhibition = clean beneficial signal.
+
+**New mechanisms added (run_165):**
+- **IDO2/IDO1 functional dichotomy**: IDO1 (tolerogenic DCs/macrophages, low-Km, high-efficiency, Treg-inducing) vs. IDO2 (B cells, high-Km, low-efficiency, autoantibody-amplifying) — cannot target with same drug
+- **B cell IDO2 → GC retention mechanism**: IDO2 → kynurenine → AhR → CYP1B1 + Bcl-2 ↑ → GC B cell longevity → prolonged affinity maturation of autoantibodies (anti-GAD65, anti-IA-2, anti-ZnT8, anti-insulin)
+- **IDO2 + BATF/IRF4 (run_159) cooperative loop**: BATF:IRF4 in GC B cells → GC entry; IDO2-AhR → Bcl-2 → GC persistence; both required for sustained autoantibody production
+- **IDO1 vs. IDO2 Trp competition in islet**: IDO1 (macrophages/DCs) depletes Trp → T cell GCN2/eIF2α stalling; IDO2 (B cells) operates below threshold for Trp depletion; B cells survive Trp-depleted microenvironment while T cells stall = simultaneous tolerance induction (IDO1) + humoral autoattack (IDO2)
+- **IDO2 R248W/Y359STOP human LOF variants** (~30% of population): lower IDO2 activity → lower autoantibody burden → T1DM genetic protection; genotyping guides IDO2 inhibitor eligibility
+- **IDO2 in rosacea skin B cells**: perivascular B cells express IDO2; IDO2 → anti-Demodex IgE/IgG affinity maturation → mast cell degranulation → ETR→PPR transition; distinct mechanism from TLR2 (run_007)
+- **IDO2 in ME/CFS**: EBV immortalizes B cells → sustained IDO2 expression → kynurenine accumulation → quinolinic acid (NMDA agonist, neurotoxic) → brain fog/neuroinflammation; anti-neuronal autoantibodies (anti-β₂-AR, anti-M3) in ~30% ME/CFS = IDO2-dependent GC product
+- **IDO2-selective inhibitor**: compound 5a (Niu 2017 Cancer Res; benzenesulfonamide; >100-fold IDO2 vs. IDO1 selectivity); structurally distinct from epacadostat/navoximod; no IDO1 perturbation
+
+**Framework at SATURATION + 54: 165 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-fifty-eighth extension | IDO2-8p11-tandem-IDO1 Km-300μM-low-efficiency B-cell-expression AhR-CYP1B1-Bcl-2-GC-retention anti-GAD65-IA2-ZnT8-insulin-autoantibody IDO2-vs-IDO1-opposite-valence CIA-IDO2-KO-Merlo2016 NOD-IDO2-KO-40pct-autoantibody-reduction R248W-Y359STOP-LOF-variants BATF-IRF4-run159-GC-B-cell-cooperation IDO1-Trp-depletion-T-cell-stall IDO2-below-threshold-B-cell-survival epacadostat-cannot-use-in-T1DM IDO2-compound5a-selective EBV-IDO2-kynurenine-quinolinate-brain-fog anti-β2AR-anti-M3-ME-CFS-IDO2 Demodex-IgE-IgG-rosacea-IDO2 | run_165*

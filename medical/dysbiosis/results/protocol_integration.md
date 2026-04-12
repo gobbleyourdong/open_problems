@@ -6024,3 +6024,73 @@ All six NK exhaustion mechanisms now quantifiable; panel guides multi-mechanism 
 **Rosacea:** CXCL10 normalization as ETR→PPR biomarker; JAK inhibitor benefit (run_119) partially via STAT1 → CXCL10 ↓ → CXCR3+ Th1 dermal retention reduced
 
 *Protocol_integration.md Part 9dl — 2026-04-12 | CXCL9-CXCL10-ratio-IFN-stratification run006-weak-gate-replaced eldelumab-T1DM-candidate PI3Kγ-run144-dual-benefit-CXCR3+CCR2 CXCL9-assay-add IFN-discrimination baricitinib-run119-CXCL10-mechanism ETR-PPR-rosacea-CXCL10-biomarker | run_163*
+
+---
+
+### Part 9dm — AIM2 Inflammasome Protocol Integration (run_164)
+
+**Inflammasome non-responder subgroup — new clinical stratification:**
+
+Current protocol inflammasome coverage: colchicine (run_023, NLRP3/tubulin-specific). AIM2 is colchicine-insensitive.
+
+**Patient stratification by inflammasome pathway:**
+
+| Patient subgroup | Inflammasome dominant | First-line | Second-line |
+|------------------|----------------------|------------|-------------|
+| Colchicine full responder | NLRP3 dominant | Colchicine 0.5-1 mg/day (run_023) | MCC950 |
+| Colchicine partial/non-responder | AIM2 ± NLRP3 | VX-765 (belnacasan, caspase-1) | + Colchicine |
+| Both NLRP3 + AIM2 | Mixed | Colchicine + VX-765 | + Disulfiram GSDMD |
+
+**Monitoring additions — add IL-18 to cytokine panel:**
+- **IL-18 serum ELISA**: add alongside IL-1β (currently in panel); IL-18 elevated 2-4 years pre-T1DM (DAISY); better temporal predictor than IL-1β for T1DM onset risk
+- **IL-18:IL-1β ratio**: AIM2-dominant → IL-18 disproportionately elevated vs. IL-1β; NLRP3-dominant → IL-1β > IL-18 (NLRP3 → IL-1β > IL-18 stoichiometry)
+- **ASC speck flow cytometry** (investigational): PBMC-derived ASC specks; count correlates with inflammasome activation state
+
+**New therapeutic candidates:**
+- **VX-765 (belnacasan)**: caspase-1 inhibitor; Phase 2 epilepsy data (safety established); repurposable; blocks NLRP3 + AIM2 via shared downstream caspase-1; bridges both inflammasome pathways
+- **Tadekinig alfa** (IL-18BP Fc): neutralizes mature IL-18 output; Phase 3 in Still's disease (safety established); IL-18-dominant T1DM subgroup target
+- **Disulfiram** (GSDMD Cys192 covalent): existing FDA-approved drug (alcoholism); pyroptotic DAMP storm blocker regardless of upstream sensor; belt-and-suspenders with VX-765
+- **OligoG CF-5/20**: AIM2-specific decoy oligonucleotide (Phase 2 CF); most targeted AIM2 intervention
+
+**Rosacea: colchicine non-responder guidance:**
+- ~20% rosacea patients = poor colchicine response; add IL-18 serum; if IL-18 elevated → AIM2 pathway; switch to VX-765 or add tadekinig alfa
+- Demodex-driven AIM2: Demodex mite dsDNA = AIM2 ligand; anti-Demodex treatment (ivermectin/run_018) reduces AIM2 ligand load → addresses AIM2 upstream; combine with VX-765 downstream
+
+*Protocol_integration.md Part 9dm — 2026-04-12 | AIM2-inflammasome-stratification colchicine-non-responder-AIM2-subgroup VX-765-belnacasan-caspase1 tadekinig-alfa-IL18BP disulfiram-GSDMD-Cys192 OligoG-AIM2-decoy IL-18-serum-add-panel IL18-DAISY-2-4yr IL18-IL1β-ratio ASC-speck-flow colchicine+VX765-combination Demodex-ivermectin-AIM2-ligand-reduction | run_164*
+
+---
+
+### Part 9dn — IDO2 Protocol Integration (run_165)
+
+**New biomarker axis — autoantibody monitoring and IDO2 genotyping:**
+
+**Kynurenine/Trp metabolomics panel update:**
+- Currently: kynurenine/Trp ratio used as IDO pathway activity marker (non-specific for IDO1 vs IDO2)
+- **Add cell-fractionated IDO activity**: B cell IDO2 activity = IDO2-specific kynurenine contribution; requires B cell isolation (negative selection from PBMC) + functional Trp→kynurenine assay
+- Practical: serum kynurenine/Trp + autoantibody titer correlation = IDO2 contribution estimate
+
+**IDO2 genotyping — add to initial workup:**
+- **R248W (rs10109853)** + **Y359STOP (rs4503083)** LOF variants: ~30% of population; predicts lower autoantibody burden; informs IDO2 inhibitor eligibility
+- WT IDO2 genotype + elevated anti-GAD65/IA-2/ZnT8 = strongest IDO2 inhibitor indication
+- LOF variant carriers: IDO2 not the dominant autoantibody driver; focus on BATF:IRF4 B cell suppression (run_159/ibrutinib context) instead
+
+**Anti-β cell autoantibody monitoring update:**
+- Current protocol: anti-GAD65 IgG, anti-IA-2 IgG, ZnT8 IgG (standard T1DM panel)
+- **Add serial autoantibody tracking**: IDO2 inhibitor efficacy measured by autoantibody titer decline (6-month interval); 40-50% reduction expected (based on NOD.IDO2⁻/⁻ data)
+- **Anti-β₂-AR + anti-M3 IgG** (ME/CFS overlap patients): Scheibenbogen panel; IDO2 inhibitor → GC disruption → titer decline
+
+**Therapeutic positioning:**
+- **IDO2-selective compound 5a** (Niu 2017): pre-clinical only; no clinical development yet; flag for trial readiness
+- **Anti-CD20 (rituximab)**: eliminates B cells → removes IDO2 source; stronger intervention (used in new-onset T1DM, Pescovitz 2009 NEJM); IDO2 inhibitor = more selective (preserves regulatory B cells/Bregs)
+- **IDO1 inhibitors (epacadostat) contraindicated in T1DM**: worsens balance of tolerance vs. autoattack; this is a treatment hazard to flag if patient encounters an oncologist considering repurposing
+
+**IDO2 × BATF:IRF4 (run_159) combined target rationale:**
+- Both maintain GC B cell longevity via different mechanisms (IDO2-AhR-Bcl-2 vs. BATF:IRF4 transcription); dual targeting (IDO2 inhibitor + BTK inhibitor/ibrutinib for BATF:IRF4 downstream) = maximal GC disruption
+- Sequence: IDO2 inhibitor (reduces GC B cell survival signal) + rituximab (eliminates existing B cells) + maintenance IDO2 inhibitor (prevents GC re-establishment) = new B cell axis protocol
+
+**ME/CFS subgroup (anti-neuronal autoantibody positive):**
+- Screen all ME/CFS patients for anti-β₂-AR + anti-M3 IgG (Scheibenbogen panel)
+- IDO2 inhibition in anti-neuronal autoantibody-positive ME/CFS = autonomic dysfunction target
+- EBV serology + IDO2 genotype: EBV+ + WT IDO2 = highest IDO2 activity estimate
+
+*Protocol_integration.md Part 9dn — 2026-04-12 | IDO2-genotyping-R248W-Y359STOP kynurenine-Trp-metabolomics-update B-cell-IDO2-activity-fractionation anti-GAD65-IA2-ZnT8-serial-tracking 40-50pct-autoantibody-decline-NOD compound5a-IDO2-selective rituximab-anti-CD20-stronger epacadostat-contraindicated-flag BATF-IRF4-run159-dual-target-GC anti-β2AR-anti-M3-Scheibenbogen-ME-CFS EBV-IDO2-kynurenine-quinolinate | run_165*

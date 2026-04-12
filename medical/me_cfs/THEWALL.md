@@ -1634,3 +1634,29 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 2. **PEM CXCL10 spike**: exercise → IFN-γ pulse → CXCL10 → CXCR3+ T cell/NK activation → PEM cascade; CXCL10 post-exertion correlates with PEM severity
 
 *ME/CFS THEWALL cross-reference run_163: 2026-04-12 | CXCL10-Hornig2015 CXCR3-microglia-CNS-neuroinflammation PEM-CXCL10-spike-exercise IFN-γ-monocyte-CXCL10-source | run_163*
+
+---
+
+### Cross-reference: run_164 — AIM2 Inflammasome: EBV/HHV-6 DNA, PEM IL-18 Spike, NK Pyroptosis
+
+**Relevance: MODERATE**
+
+1. **Viral dsDNA AIM2 ligands**: EBV episomes + HHV-6 integrated chromosomal regions (ciHHV-6) = AIM2 ligands during reactivation; AIM2 → caspase-1 → IL-18 → IFN-γ amplification in ME/CFS innate activation cycle
+2. **PEM AIM2 spike**: physical stress → mitochondrial membrane permeabilization → mtDNA cytoplasmic release → AIM2 partial activation → IL-18 burst → symptom cascade (IL-18 on dorsal horn neurons → pain amplification)
+3. **NK AIM2 pyroptosis**: AIM2 activation in NK cells → GSDMD → NK pyroptosis → NK number ↓ (mechanism beyond perforin depletion/run_162); explains NK count reduction in severe ME/CFS
+4. **HCQ does not block AIM2**: HCQ blocks TLR9 (run_122) and STING endosomal trafficking; AIM2 is cytoplasmic/direct — HCQ-resistant viral DNA sensing arm
+
+*ME/CFS THEWALL cross-reference run_164: 2026-04-12 | AIM2-EBV-HHV6-dsDNA ciHHV6 caspase-1-IL18-PEM-spike NK-pyroptosis-AIM2 HCQ-does-not-block-AIM2 PEM-mtDNA-AIM2-partial VX-765-caspase1-ME-CFS IL-18-dorsal-horn-pain | run_164*
+
+---
+
+### Cross-reference: run_165 — IDO2: EBV B Cell Immortalization, Quinolinate Neurotoxicity, Anti-Neuronal Autoantibodies
+
+**Relevance: MODERATE**
+
+1. **EBV immortalized B cells → sustained IDO2**: EBV-transformed B cells constitutively express IDO2 → chronic kynurenine → downstream quinolinic acid (NMDA agonist) → excitotoxicity → cognitive dysfunction ("brain fog")
+2. **Anti-neuronal autoantibodies (IDO2-dependent)**: anti-β₂-adrenergic receptor IgG + anti-M3 muscarinic IgG in ~30% ME/CFS (Scheibenbogen 2018 J Transl Med) = IDO2-sustained GC products → autonomic dysfunction (orthostatic intolerance, POTS-like)
+3. **Kynurenine pathway dysregulation**: IDO2 contributes to elevated kynurenine/Trp ratio in ME/CFS → serotonin precursor depletion → sleep/mood dysregulation; picolinic acid → zinc chelation
+4. **IDO2 inhibition in ME/CFS**: compound 5a → B cell GC disruption → anti-β₂-AR/anti-M3 antibody titer reduction → autonomic symptom improvement (investigational)
+
+*ME/CFS THEWALL cross-reference run_165: 2026-04-12 | IDO2-EBV-immortalized-B-cell kynurenine-quinolinate-excitotoxicity brain-fog-NMDA-agonist anti-β2AR-anti-M3-Scheibenbogen2018 POTS-orthostatic-intolerance kynurenine-Trp-ratio-serotonin-depletion compound5a-IDO2-inhibitor IDO1-run091-opposite-valence | run_165*

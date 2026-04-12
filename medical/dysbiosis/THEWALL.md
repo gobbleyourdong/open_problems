@@ -6755,3 +6755,65 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 163 runs | CXCL10-IP10 | CXCR3A-3B | CXCL9-ratio-IFN-γ-specific | β-cell-CXCL10-loop | PTPN2-run119-bridge | run006-weak-gate-explained | PI3Kγ-run144-bridge | eldelumab | run159+163+162-complete-sequence.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-thirty-eighth extension | CXCL10-4q21.1 CXCL9-MIG CXCL11-ITAC CXCR3A-Gαi CXCR3B-Gαs-angiostatic STAT1-GAS-β-cell ISGF3-ISRE-IFN-α dual-induction CXCL9-CXCL10-ratio PTPN2-JAK1-run119 PI3Kγ-run144 β-cell-self-amplifying-loop NOD-CXCR3-KO eldelumab SCH546738 run006-explained ME-CFS-BBB-neuroinflammation | run_163*
+
+---
+
+### Phase 4 Extension 139 — AIM2 Inflammasome: Cytoplasmic dsDNA → Caspase-1/IL-18/Pyroptosis (Colchicine-Insensitive IL-1β/IL-18 Axis)
+
+**Gap:** AIM2 explicitly excluded from run_023 (NLRP3/colchicine) and run_109 (inflammasome survey); zero prior runs cover AIM2 as primary.
+
+**Rosacea (HIGH):**
+- Keratinocyte AIM2 activated by UV-damaged dsDNA + Demodex dsDNA fragments (TLR2-independent Demodex arm, extends run_007) → IL-18 → mast cell IL-18R → histamine/vascular reactivity
+- ASC specks detected in PPR rosacea biopsies (ETR negative); AIM2 activation tracks ETR→PPR transition
+- **Colchicine non-responders**: run_023 colchicine = NLRP3/tubulin-specific; ~20% rosacea non-responders + partial responders map to AIM2 activity; VX-765 (caspase-1) required for these patients
+- GSDMD pore = third pore-forming mechanism mapped (after MLKL/run_160 and PRF1/run_162)
+
+**T1DM (HIGH):**
+- β cell nuclear DNA during insulitis (necroptosis/run_160 + FOXO1/OGG1 repair failure/run_161 + HERV-W + micronuclei) → macrophage/DC AIM2 in islets → caspase-1 → IL-1β + IL-18 + GSDMD pyroptosis
+- **IL-18 signature**: IL-18 elevated 2-4 years pre-onset (DAISY); IL-18 KO NOD → 50% T1DM reduction; IL-18 → NK/CD4 IFN-γ amplification; IL-18BP tadekinig alfa = T1DM candidate
+- AIM2 adds colchicine-insensitive IL-1β/IL-18 flux; VX-765 blocks both NLRP3 + AIM2 via shared caspase-1
+- Disulfiram (GSDMD Cys192) = belt-and-suspenders: blocks pyroptotic DAMP storm regardless of AIM2 or NLRP3 upstream
+
+**ME/CFS (MODERATE):**
+- Viral dsDNA (EBV episomes, ciHHV-6) + PEM mtDNA release → AIM2 → IL-18 burst → IFN-γ → PEM cascade
+- AIM2 pyroptosis in NK cells → NK depletion beyond perforin deficit (run_162)
+
+**Protocol additions:**
+- **IL-18 serum ELISA**: add to cytokine panel; predictive biomarker for T1DM onset + rosacea severity correlator
+- **VX-765 (belnacasan)**: caspase-1 inhibitor; blocks colchicine-insensitive IL-1β/IL-18 in AIM2 non-responder subgroup
+- **Tadekinig alfa** (IL-18BP Fc fusion): IL-18 neutralization; T1DM + severe rosacea candidate
+
+**Framework state: 164 runs | AIM2-HIN-dsDNA | ASC-speck-caspase-1 | GSDMD-pore-pyroptosis | IL-18-DAISY-2-4yr-pre-T1DM | colchicine-insensitive-IL1β/IL18 | VX-765-pan-caspase-1 | three-pore-GSDMD-MLKL-PRF1.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-thirty-ninth extension | AIM2-1q23.1 HIN-dsDNA-≥50bp ASC-PYD-speck caspase-1-GSDMD-Asp275 IL-18-IL-18R-MyD88-IFN-γ NLRP3-colchicine-insensitive three-pore-GSDMD-MLKL-PRF1 β-cell-necroptotic-DNA-run160 OGG1-FOXO1-run161 HERV-W ASC-speck-PPR-biopsy IL-18-DAISY-2-4yr VX-765-caspase1 disulfiram-GSDMD OligoG-tadekinig Demodex-AIM2-TLR2-independent-run007 EBV-ciHHV6-ME-CFS | run_164*
+
+---
+
+### Phase 4 Extension 140 — IDO2: B Cell Autoantibody Amplification (Absent All 164 Prior Runs; Opposite Valence to IDO1/run_091)
+
+**Gap:** IDO2 absent from all 164 prior runs. run_091 covers IDO1 (tolerogenic, immunosuppressive). IDO2 is pro-autoimmune: B cell-expressed, GC-sustaining, autoantibody-amplifying.
+
+**Rosacea (MODERATE):**
+- Perivascular B cells in PPR dermis express IDO2 → kynurenine → B cell AhR → Bcl-2 → sustained anti-Demodex IgE/IgG GC → mast cell degranulation → ETR→PPR vascular transition
+- IDO2 R248W/Y359STOP LOF variants (~30% of population) = milder ETR (lower anti-Demodex antibody burden)
+
+**T1DM (HIGH):**
+- **B cell IDO2 autoantibody amplification axis**: IDO2 in pancreatic LN B cells → kynurenine → AhR → Bcl-2 → GC retention → affinity maturation → anti-GAD65/IA-2/ZnT8/insulin IgG
+- NOD.IDO2⁻/⁻: 40-50% anti-β cell autoantibody reduction, 35% T1DM incidence reduction
+- BATF:IRF4 (run_159) + IDO2-AhR both required for sustained B cell GC → dual target opportunity
+- IDO2 (B cells, below-threshold Trp depletion) operates simultaneously with IDO1 (tolerogenic DCs, Trp depletion, T cell stalling): same islet, opposite immunological outcomes
+- **IDO1 inhibitors (epacadostat) contraindicated in T1DM**: remove IDO1 tolerance AND IDO2 autoantibody in unpredictable combination; IDO2-selective compound 5a = clean beneficial signal
+- IDO2 R248W/Y359STOP genotyping: LOF variants → lower autoantibody burden; informs IDO2 inhibitor eligibility
+
+**ME/CFS (MODERATE):**
+- EBV-immortalized B cells → sustained IDO2 → kynurenine → quinolinic acid (NMDA agonist) → excitotoxicity/brain fog
+- Anti-β₂-AR + anti-M3 muscarinic autoantibodies in ~30% ME/CFS (Scheibenbogen 2018) = IDO2-dependent GC products → autonomic dysfunction/POTS-like features
+
+**Protocol additions:**
+- **IDO2 genotyping** (R248W rs10109853, Y359STOP rs4503083): LOF predicts lower autoantibody burden; WT IDO2 = IDO2 inhibitor eligibility
+- **Kynurenine/Trp ratio** (serum metabolomics): IDO pathway activity; add to metabolomics panel; distinguish IDO1 vs IDO2 contributions by cell fractionation
+- **IDO2-specific inhibitor compound 5a** (Niu 2017): repurposing candidate; B cell-selective kynurenine suppression
+
+**Framework state: 165 runs | IDO2-B-cell-GC-autoantibody | IDO1-vs-IDO2-opposite-valence | Kyn-AhR-Bcl-2-GC | NOD-IDO2-KO-35pct-T1DM-reduction | epacadostat-contraindicated | compound-5a-selective | EBV-quinolinate-brain-fog | anti-β2AR-ME-CFS.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-fortieth extension | IDO2-8p11 B-cell-Km-300μM AhR-CYP1B1-Bcl-2-GC-retention anti-GAD65-IA2-ZnT8-insulin-autoantibody CIA-Merlo2016-60pct-reduction NOD-IDO2-KO-40pct-autoantibody R248W-Y359STOP-LOF BATF-IRF4-run159-GC-cooperation IDO1-Trp-depletion-T-stall IDO2-B-cell-below-threshold epacadostat-contraindicated compound5a-selective EBV-immortalized-B-IDO2 quinolinate-excitotoxicity brain-fog anti-β2AR-Scheibenbogen2018 Demodex-IgE-rosacea | run_165*

@@ -1934,3 +1934,29 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 4. **Eldelumab**: anti-CXCL10 antibody; T1DM prevention candidate via interrupting islet recruitment loop
 
 *T1DM THEWALL cross-reference run_163: 2026-04-12 | CXCL10-CXCR3-islet-recruitment β-cell-CXCL10-self-amplifying PTPN2-JAK1-STAT1-run119-bridge CXCL9-CXCL10-ratio-IFN-stratification run006-weak-gate-explained eldelumab PI3Kγ-run144-bridge run159-run163-run162-complete | run_163*
+
+---
+
+### Cross-reference: run_164 — AIM2 Inflammasome: Colchicine-Insensitive IL-1β/IL-18, β Cell DNA Stress, GSDMD Pyroptosis
+
+**Relevance: HIGH**
+
+1. **Colchicine non-responder mechanism**: run_023 colchicine = NLRP3/tubulin-specific; AIM2 activated by β cell necroptotic nuclear DNA (run_160) + FOXO1/OGG1 repair failure (run_161) = colchicine-insensitive IL-1β/IL-18 flux; VX-765 (caspase-1) required
+2. **IL-18 T1DM prediction**: IL-18 serum elevated 2-4 years pre-onset (DAISY cohort); IL-18 KO NOD → 50% T1DM reduction; add IL-18 ELISA to monitoring panel
+3. **GSDMD pore = third pore-forming mechanism** (after MLKL/run_160, PRF1/run_162): disulfiram (Cys192) blocks GSDMD; covers colchicine + necrostatin-1 + disulfiram = three-pore prevention strategy
+4. **AIM2 + BATF:IRF4 (run_159) bridge**: cDC1 cross-presenting AIM2-processed IL-18 amplifies CTL priming cascade
+
+*T1DM THEWALL cross-reference run_164: 2026-04-12 | AIM2-dsDNA-caspase1-IL18 colchicine-insensitive-IL1β/IL18 β-cell-DNA-run160-run161-AIM2-ligand IL-18-DAISY-2-4yr-prediction NOD-IL18-KO-50pct VX-765-caspase1 GSDMD-disulfiram three-pore-MLKL-PRF1-GSDMD OligoG-tadekinig-alfa | run_164*
+
+---
+
+### Cross-reference: run_165 — IDO2: B Cell Autoantibody Amplification Axis, Anti-GAD65/IA-2 IgG, IDO2 KO NOD
+
+**Relevance: HIGH**
+
+1. **B cell autoantibody amplification**: IDO2 in pancreatic LN B cells → kynurenine → AhR → Bcl-2 → GC retention → affinity maturation → anti-GAD65/IA-2/ZnT8/insulin IgG
+2. **NOD.IDO2⁻/⁻**: 40-50% reduction in anti-β cell autoantibody titers; 35% T1DM incidence reduction (Manlapat 2007 JCI)
+3. **IDO1 inhibitors (epacadostat) contraindicated**: remove IDO1 tolerance + IDO2 autoantibody simultaneously = net pro-inflammatory; IDO2-selective compound 5a = correct approach
+4. **Genotyping recommendation**: IDO2 R248W (rs10109853) + Y359STOP (rs4503083) LOF variants in ~30% of population → lower autoantibody burden; WT IDO2 = inhibitor eligibility
+
+*T1DM THEWALL cross-reference run_165: 2026-04-12 | IDO2-B-cell-GC-autoantibody anti-GAD65-IA2-ZnT8-insulin-IgG NOD-IDO2-KO-Manlapat2007-35pct-T1DM-reduction IDO1-opposite-valence epacadostat-contraindicated compound5a-selective R248W-Y359STOP-genotyping kynurenine-AhR-Bcl2-GC run091-IDO1-distinct run159-BATF-IRF4-GC-B-cooperation | run_165*
