@@ -3463,3 +3463,27 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 17: 128 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-twenty-first extension | CLEC16A KIAA0350 BEACH WD40 MHC-II autophagy NRBF2 Beclin-1 selective autophagy TEC mitophagy AIRE central tolerance negative selection autoreactive T cell 8th stratification rs12708716 NMN NR SIRT3 PINK1 Parkin FOXO3a dermal DC Langerhans cell Th1 priming Barrett 2009 Cooper 2012 Kishida 2015 Marín-Rubio 2017 | run_128*
+
+---
+
+## Extension 122: ErbB3/NRG1 — Neuregulin Receptor / β Cell Survival RTK / Skin Barrier / T1DM GWAS 9th Stratification
+
+**Date:** 2026-04-12 | **Run:** run_129
+
+**Gap confirmed:** ERBB3, ErbB3, NRG1, neuregulin, heregulin completely absent from 128 prior runs and gap.md.
+
+**Core insight:** ErbB3 (kinase-dead EGFR-family RTK; obligate ErbB2 heterodimer partner) is activated by NRG1 (neuregulin-1) → ErbB2/ErbB3 → 6× PI3K binding sites → PI3K/Akt → β cell survival (Bad/FOXO1) and keratinocyte barrier (filaggrin/claudin-1). ERBB3 rs2292239 is a replicated T1DM GWAS hit (Hakonarson 2007 NEJM). Same risk allele → reduced β cell ErbB3 survival + reduced keratinocyte ErbB3 barrier = bidirectional pleiotropic vulnerability specific to T1DM+rosacea overlap.
+
+**New mechanisms added (run_129):**
+- **First RTK-class β cell survival pathway**: ErbB3/PI3K/Akt → Bad/FOXO1 (completes receptor-class coverage: GPCR/GLP-1R + nuclear receptor/VDR + RTK/ErbB3)
+- **9th genetic stratification point**: ERBB3 rs2292239; bidirectional risk (β cell + skin barrier)
+- **18th β cell contributing death mechanism**: NRG1 signal withdrawal during insulitis (pericyte/endothelial damage → NRG1 loss → ErbB3/Akt ↓ → Bad dephosphorylation → apoptosis)
+- **C-fiber NRG1 type III → ErbB3 barrier repair**: alongside CGRP/SP flush signals, C-fibers shed NRG1 → keratinocyte ErbB3 barrier maintenance; ERBB3 risk allele → repair component deficient
+- **Topical niacinamide escalation for ERBB3 risk carriers**: niacinamide → PPARγ → ceramide/filaggrin/claudin-1 provides ErbB3-INDEPENDENT barrier compensation; first-line (not adjunctive) in rs2292239 risk allele patients
+
+**Also assessed and killed:**
+- PARP/ENDIT (oral nicotinamide β cell protection via PARP inhibition): COVERED in run_078 (NAD+/PARP connection) and run_063 (niacinamide 4th mechanism for cGAS-STING/DNA repair); no new gap
+
+**Framework at SATURATION + 18: 129 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-twenty-second extension | ERBB3 ErbB3 HER3 NRG1 neuregulin heregulin ErbB2 HER2 PI3K Akt Bad FOXO1 GSK-3β β cell survival RTK receptor tyrosine kinase keratinocyte filaggrin claudin-1 skin barrier 9th stratification rs2292239 bidirectional pleiotropic C-fiber NRG1 type III niacinamide PPARγ ceramide Hakonarson 2007 Lackey 1999 Schiesser 2017 | run_129*

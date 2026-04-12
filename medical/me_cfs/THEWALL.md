@@ -948,3 +948,17 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 3. **No direct ME/CFS-specific CLEC16A evidence**: No GWAS signal for CLEC16A in ME/CFS; no mechanistic evidence for AIRE or central tolerance defects as primary ME/CFS drivers.
 
 *ME/CFS THEWALL cross-reference run_128: 2026-04-12 | CLEC16A MHC-II autophagy AIRE central tolerance LOW ME/CFS relevance NMN NR SIRT3 PINK1 Parkin mitophagy 3rd mechanism mitochondrial dysfunction Barrett 2009 Kishida 2015*
+
+---
+
+### Cross-reference: run_129 — ErbB3/NRG1 (MODERATE ME/CFS Relevance via Neuregulin/ErbB4)
+
+**Assessment:** ErbB3 primary value is T1DM + rosacea. Moderate ME/CFS relevance via neuregulin/ErbB4 axis in CNS.
+
+1. **NRG1/ErbB4 in CNS (indirect ME/CFS connection)**: NRG1 → ErbB4 (distinct from ErbB3; ErbB4 is active kinase, expressed on neurons/oligodendrocytes) → GABAergic interneuron function → synaptic plasticity. ME/CFS: cognitive dysfunction/brain fog may involve NRG1/ErbB4 signaling disruption in prefrontal cortex. This is NOT ErbB3 directly (ErbB3 is the T1DM/rosacea-relevant isoform), but documents that the NRG1 family has ME/CFS CNS relevance via ErbB4.
+
+2. **C-fiber NRG1 → barrier/neurogenic**: ME/CFS post-viral neuropathy (small fiber neuropathy, documented in subset of ME/CFS): NRG1 from C-fibers promotes Schwann cell myelination maintenance via ErbB2/ErbB3 on Schwann cells → impaired NRG1/ErbB3 in peripheral nerves could contribute to small fiber neuropathy in ME/CFS. Speculative but mechanistically plausible.
+
+3. **No direct ERBB3 GWAS signal for ME/CFS**: no actionable stratification or OTC recommendation from ERBB3 for ME/CFS specifically.
+
+*ME/CFS THEWALL cross-reference run_129: 2026-04-12 | ERBB3 ErbB3 NRG1 neuregulin ErbB4 CNS GABAergic interneuron cognitive dysfunction brain fog Schwann cell small fiber neuropathy C-fiber MODERATE ME/CFS indirect relevance Hakonarson 2007*

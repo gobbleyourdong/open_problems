@@ -1103,3 +1103,19 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 5. **Protocol escalation for CLEC16A risk carriers**: Maximum peripheral Treg stack (calcitriol 5000 IU/day + berberine 1500 mg/day + Vitamin A 3000–5000 IU/day) to suppress the elevated autoreactive T cell burden that escaped reduced AIRE-mediated deletion.
 
 *T1DM THEWALL cross-reference run_128: 2026-04-12 | CLEC16A KIAA0350 BEACH WD40 MHC-II autophagy NRBF2 Beclin-1 AIRE central tolerance TEC mitophagy PINK1 Parkin negative selection autoreactive T cell thymus 8th stratification rs12708716 NMN SIRT3 FOXO3a peripheral Treg escalation Barrett 2009 Cooper 2012 Kishida 2015*
+
+---
+
+### Cross-reference: run_129 — ErbB3/NRG1 / β Cell Survival RTK / T1DM GWAS 9th Stratification
+
+**Gap:** ErbB3, NRG1, neuregulin/heregulin completely absent from 128 prior runs. First RTK-class β cell survival mechanism.
+
+1. **T1DM GWAS 9th stratification — ERBB3 rs2292239**: Hakonarson 2007 NEJM (first T1DM GWAS); Cooper 2012 Nat Genet (confirmation). Risk allele → ERBB3 expression reduced in β cells → less NRG1/ErbB3/ErbB2 signaling.
+
+2. **First RTK-class β cell survival**: ErbB3 (kinase-dead; obligate ErbB2 heterodimer) → 6× PI3K p85-binding sites → PI3K maximally activated → PIP3 → PDK1 → Akt → Bad (Ser136 phospho → Bcl-2 free), FOXO1 (nuclear exclusion → Bim↓), GSK-3β (Ser9 phospho → inhibited). Protects against cytokine-induced β cell apoptosis (IL-1β + IFN-γ; Lackey 1999 Diabetes; Schiesser 2017 Diabetes). Completes receptor-class coverage: GPCR/GLP-1R (run_098), nuclear receptor/VDR (run_031/056), RTK/ErbB3 (this run).
+
+3. **18th β cell contributing death mechanism — NRG1 withdrawal**: Insulitis → pericyte/endothelial damage → NRG1 secretion from islet vasculature reduced → ErbB3/Akt ↓ → Bad dephosphorylated → Bcl-2 displaced → apoptosis amplified. This paracrine NRG1 loss during active insulitis is a new death mechanism NOT addressed by any prior protocol element.
+
+4. **Protocol escalation for ERBB3 risk allele patients**: ErbB3/Akt arm constitutively reduced → maximize other β cell survival pathways: GLP-1R agonist (cAMP/SIRT1 arm) + calcitriol 5000 IU/day (VDR/Bcl-2 arm) + BHB/FMD (NLRP3↓/anti-apoptotic arm).
+
+*T1DM THEWALL cross-reference run_129: 2026-04-12 | ERBB3 ErbB3 HER3 NRG1 neuregulin heregulin ErbB2 HER2 kinase-dead PI3K Akt Bad FOXO1 GSK-3β β cell survival RTK first receptor tyrosine kinase 9th stratification rs2292239 NRG1 withdrawal 18th β cell death insulitis endothelial Hakonarson 2007 Cooper 2012 Lackey 1999 Schiesser 2017*

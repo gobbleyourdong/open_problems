@@ -4639,3 +4639,53 @@ Rosacea: CLEC16A risk allele → anti-Demodex more critical; anti-Th1 escalation
 ```
 
 *Protocol_integration.md Part 9cc — 2026-04-12 | CLEC16A KIAA0350 MHC-II autophagy NRBF2 Beclin-1 AIRE central tolerance TEC mitophagy PINK1 Parkin FOXO3a SIRT3 NMN NR NAD 3rd mechanism 8th genetic stratification rs12708716 peripheral Treg escalation calcitriol berberine Vitamin A dermal DC MHC-II Th1 Barrett 2009 Cooper 2012 Kishida 2015 | run_128*
+
+---
+
+## Part 9cd — ErbB3/NRG1 Protocol Integration (run_129)
+
+### ErbB3/NRG1 β Cell Survival RTK — Bidirectional Risk Allele Management
+
+**New mechanism (run_129):** ErbB3/NRG1 → PI3K/Akt β cell survival (first RTK class in framework). ERBB3 rs2292239 bidirectional pleiotropic risk: β cell survival ↓ + keratinocyte barrier ↓. 9th genetic stratification point.
+
+**9th Genetic Stratification: ERBB3 rs2292239**
+
+Testing: ERBB3 rs2292239 C allele (T1DM risk, OR ~1.2 per allele; European frequency ~30–40%)
+
+Risk implications:
+- β cell: NRG1/ErbB3/PI3K/Akt → Bad/FOXO1 reduced → β cell less protected against insulitis cytokine exposure
+- Skin: keratinocyte ErbB3 expression ↓ → filaggrin/claudin-1/ceramide ↓ → skin barrier impaired → lower rosacea trigger threshold
+
+Protocol implications for ERBB3 risk allele carriers:
+
+**T1DM arm:**
+```
+β cell survival stack is MORE critical in ERBB3 risk allele patients:
+  GLP-1R agonist (prescription) — cAMP/SIRT1 arm compensates
+  Calcitriol 5000 IU/day — VDR/Bcl-2 arm compensates
+  BHB/FMD — NLRP3↓ + anti-apoptotic compensates
+  (ErbB3/Akt arm is constitutively reduced; other pathways must fully cover)
+```
+
+**Rosacea arm:**
+```
+Topical niacinamide: ESCALATE to FIRST-LINE (from adjunctive) in ERBB3 risk carriers:
+  Mechanism: niacinamide → PPARγ → ceramide synthases + filaggrin/claudin-1
+  Effect: ErbB3-INDEPENDENT barrier restoration (not requiring ErbB3 signaling)
+  Dose: 4% niacinamide cream BID (existing run_025 recommendation; priority upgraded)
+  Rationale: ERBB3 risk allele patients have chronic constitutive barrier deficit;
+             niacinamide is the only available OTC pathway that bypasses this deficit
+```
+
+**C-Fiber Context:**
+- Rosacea neurogenic patients (thermosensitive/TRPV4-dominant phenotype): C-fiber activation → NRG1 shedding → ErbB3 barrier repair. ERBB3 risk allele patients SPECIFICALLY: C-fiber activation provides flush signal (CGRP/SP) but NOT effective barrier repair (ErbB3 deficient) → more trigger-dependent barrier damage without repair → accelerated rosacea progression
+- Quercetin (TRPV4 blocker) + topical niacinamide (barrier restoration) = primary combination for ERBB3 risk allele neurogenic rosacea phenotype
+
+```
+ERBB3 rs2292239 protocol summary:
+T1DM:   maximize existing β cell survival stack (GLP-1R + calcitriol + BHB)
+Rosacea: topical niacinamide 4% BID → FIRST-LINE barrier agent
+C-fiber: quercetin (TRPV4) + niacinamide (barrier repair) for neurogenic phenotype
+```
+
+*Protocol_integration.md Part 9cd — 2026-04-12 | ERBB3 ErbB3 HER3 NRG1 neuregulin ErbB2 HER2 PI3K Akt Bad FOXO1 β cell survival RTK keratinocyte filaggrin claudin-1 ceramide skin barrier 9th stratification rs2292239 bidirectional niacinamide PPARγ first-line barrier compensation C-fiber neurogenic TRPV4 quercetin Hakonarson 2007 Schiesser 2017 | run_129*

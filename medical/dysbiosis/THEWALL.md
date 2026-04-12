@@ -5620,3 +5620,35 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 128 runs | CLEC16A MHC-II autophagy | 8th stratification rs12708716 | FIRST central tolerance/AIRE mechanism | TEC mitophagy → AIRE | NMN/NR 3rd mechanism SIRT3/PINK1 | dermal DC MHC-II threshold | CLEC16A risk allele escalation.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-third extension | CLEC16A KIAA0350 BEACH WD40 MHC-II autophagy NRBF2 Beclin-1 AIRE central tolerance TEC mitophagy PINK1 Parkin FOXO3a SIRT3 negative selection autoreactive T cell 8th stratification rs12708716 Barrett 2009 Cooper 2012 Kishida 2015 | run_128*
+
+---
+
+### Phase 4 Extension 104 — ErbB3/NRG1 / β Cell Survival RTK / Skin Barrier / T1DM GWAS
+
+**Run:** run_129 | **Date:** 2026-04-12
+
+**Rosacea:**
+- ErbB3 on keratinocytes; NRG1 from dermal C-fiber neurons (type III, membrane-anchored; shed by ADAM10/17)
+- NRG1/ErbB3/ErbB2 → PI3K/Akt → filaggrin, claudin-1, loricrin, ceramide synthases → skin barrier
+- ERBB3 rs2292239 risk allele → reduced keratinocyte ErbB3 expression → chronic barrier impairment → lower flushing threshold → rosacea more reactive
+- C-fiber NRG1 shedding during activation: C-fibers send BOTH flush signal (CGRP/SP) AND barrier repair signal (NRG1); ERBB3 risk allele → repair signal lost → net inflammatory balance tilted
+- Topical niacinamide = ErbB3-independent barrier compensation via PPARγ → ceramide/filaggrin; first-line in ERBB3 risk carriers
+
+**T1DM:**
+- ERBB3 rs2292239 = 9th genetic stratification point (Hakonarson 2007 NEJM; Cooper 2012 Nat Genet)
+- NRG1/ErbB3/ErbB2 → 6× PI3K p85 binding → PI3K maximally activated → Akt → Bad/FOXO1 → β cell survival
+- First RTK-class β cell survival mechanism in framework (GPCR: GLP-1R run_098; nuclear receptor: VDR run_031/056; RTK: ErbB3 this run)
+- NRG1 source in islets: endothelial cells + stellate cells; insulitis → pericyte/endothelial damage → NRG1 withdrawal → ErbB3/Akt ↓ → 18th β cell death contributing mechanism
+- ERBB3 risk allele protocol: existing β cell survival elements (calcitriol + GLP-1R agonist + BHB) become especially critical (compensate for reduced ErbB3/Akt arm)
+
+**Bidirectional pleiotropic risk:**
+- ERBB3 rs2292239 creates dual vulnerability: β cell survival ↓ (T1DM) + keratinocyte barrier ↓ (rosacea sensitization)
+- Explains part of the genetic co-occurrence of T1DM + rosacea beyond shared HLA/immune axes
+- Joins CLEC16A (run_128) as mechanistically explaining multi-disease genetic overlap
+
+**ME/CFS:**
+- LOW relevance: no ERBB3 GWAS signal for ME/CFS; NRG1/ErbB4 is relevant to neurotrophism but ErbB3 specifically not established in ME/CFS
+
+**Framework state: 129 runs | ErbB3/NRG1 RTK β cell survival | 9th stratification rs2292239 | bidirectional pleiotropic risk | 18th β cell death mechanism (NRG1 withdrawal) | first RTK receptor class | C-fiber NRG1 barrier repair | niacinamide first-line ERBB3 risk carriers.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-fourth extension | ERBB3 ErbB3 HER3 NRG1 neuregulin ErbB2 HER2 kinase-dead heterodimer PI3K Akt Bad FOXO1 GSK-3β β cell survival RTK keratinocyte filaggrin claudin-1 barrier 9th stratification rs2292239 bidirectional C-fiber niacinamide PPARγ ceramide Hakonarson 2007 Lackey 1999 Schiesser 2017 | run_129*
