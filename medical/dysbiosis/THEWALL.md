@@ -304,3 +304,246 @@ Dysbiosis framework imported into POD problem. Key finding: anti_problem.md C2 c
 
 *Updated: 2026-04-12 | Phase 4 complete + extension | 8 mountains, 10+ bridges | resolution biology written | genetic floor quantified | POD cross-pollination done*
 *See results/ directory for: protocol_integration.md, confirmation_bias_audit.md, bridge_kill_roi.md, t_index_decision_tree.md, cross_pollination_import.md, resolution_biology.md*
+
+---
+
+## Phase 4 Third Extension — 2026-04-12
+
+### TRPV1 as Neurogenic Flushing Convergence Node (run_015)
+
+TRPV1 (transient receptor potential vanilloid 1) is the sensory nerve channel where three arms
+of the framework converge to produce the rosacea flushing phenotype:
+- M2 arm: KLK5 → LL-37 → TRPV1 activation (direct; Buhl 2017 documented)
+- M3 arm: IFN-α → upregulates TRPV1 expression + NK1R in sensory neurons → lower baseline threshold
+- M8 arm: Substance P → phosphorylates TRPV1 → threshold drops from 43°C to ~37°C → body temperature activates
+
+**Diagnostic rule:** Burning/stinging sensation + heat triggers + poor antihistamine response =
+TRPV1 neurogenic arm dominant. Itch + food triggers + antihistamine response = histamine/mast
+cell arm dominant (DAO/M8 compound, run_013).
+
+**Protocol addition:** TRPV1 is the 4th mechanism for M8 treatment benefit (after M1, M4, HERV-W).
+SP sensitization of TRPV1 explains emotional stress → body warmth → flushing (threshold lowered
+to ambient temperature level). Capsaicin desensitization (topical 0.025-0.075% BID × 6 weeks)
+or intradermal Botox (blocks SP/CGRP release) address this arm specifically.
+
+**New positive feedback loop:** TRPV1 → SP release → mast cell degranulation → tryptase → PAR-2
+on sensory nerve → further TRPV1 sensitization. Explains why rosacea flares ESCALATE within an episode.
+
+See `numerics/run_015_trpv1_neurogenic_flushing.md`.
+
+### Sex Hormone × M2 Bridge (attempt_018)
+
+A second, independent M5↔M2 mechanism operates via androgens, distinct from the IGF-1/mTORC1
+arm identified in attempt_009:
+
+Insulin resistance (poor T1DM glycemic control) → SHBG suppression (hepatic) → free testosterone ↑ →
+5α-reductase type 1 in sebaceous glands → DHT → sebocyte hyperplasia → sebum ↑ → Malassezia
+substrate enlarged → M2 amplified.
+
+**Sex specificity:** Male T1DM patients are most affected (10-20× baseline testosterone → small
+SHBG reduction = large absolute free T increase). Female T1DM with PCOS features (30% of T1DM
+women) show the same mechanism through ovarian androgen excess.
+
+**Key clinical insight:** The androgen arm produces ANATOMICAL sebaceous gland hyperplasia —
+this takes weeks-months to reverse even after glycemic control is restored. The IGF-1 arm is faster
+(hours to days). Combined: poor T1DM control attacks M2 from two directions simultaneously.
+
+**Protocol addition:** Male T1DM patients with HbA1c >8% + severe seb derm refractory to standard
+care → add SHBG + free testosterone to T-index workup. If SHBG low + free T high → glycemic
+optimization is primary; topical finasteride (2%) or spironolactone (for women) addresses the
+androgen component directly.
+
+See `attempts/attempt_018_sex_hormone_m2_sebum_bridge.md`.
+
+### Ocular Rosacea / Chalazion Extension of M2+M4 (run_016)
+
+Demodex folliculorum colonizes EYELASH follicles — the same mite that drives facial rosacea via
+the M2+M4 bridge also operates in periorbital tissue. Three mechanisms:
+1. Physical obstruction: Demodex plugs meibomian gland openings → MGD → chalazion
+2. B. oleronius (Demodex gut bacteria): TLR2+TLR4 → NF-κB → IL-6/IL-1β/TNF-α → lid margin
+   inflammation → meibomian gland metaplasia → waxy plug → blocked gland
+3. Demodex lipases → altered meibum composition → saponification → crystalline duct plugging
+
+**Clinical trap:** Recurrent chalazia (30-40% recurrence after I&C) are treated as "sterile
+granulomas" without Demodex workup. Mechanism is Demodex/B. oleronius-driven (same as facial
+rosacea papules). Türk 2019: TTO lid scrubs reduce recurrence from 40% → 12% at 1 year.
+
+**M3 connection:** IFN-α (from M3 arm) → pDC priming → B. oleronius-driven response amplified
+in eyelid tissue → T1DM patients with elevated IFN-α2 are expected to have more severe ocular
+rosacea and higher chalazion recurrence than rosacea patients without T1DM.
+
+**Protocol addition:** Recurrent chalazion in rosacea/T1DM patient → Demodex lash count →
+TTO lid scrubs BID × 6 weeks (OUST/Cliradex) + doxycycline 40mg/day × 12 weeks (B. oleronius
+TLR2-driven inflammation).
+
+See `numerics/run_016_chalazion_ocular_rosacea.md`.
+
+*Updated: 2026-04-12 | Phase 4 third extension | 8 mountains, 16+ bridges/mechanisms*
+*New convergence nodes identified: TRPV1 (M2+M3+M8 flushing), androgen axis (M5→M2 second path)*
+*Ocular extension: M2+M4 bridge applies to periorbital tissue (meibomian glands → chalazion)*
+*Protocol additions: capsaicin desensitization, Botox (2nd line), TTO lid scrubs, SHBG workup in male T1DM*
+
+---
+
+## Phase 4 Fourth Extension — 2026-04-12
+
+### Rosacea Non-Responder Phenotype Taxonomy (run_017)
+
+Three previously independently-analyzed sustaining loops assembled into a unified clinical taxonomy:
+- **Type 1 (KLK5/mTORC1 loop)**: ivermectin removes Demodex but KLK5-mTORC1 feedback persists → azelaic acid (KLK5 inhibitor) + anti-IL-23 is correct escalation. Biomarker: serum LL-37 elevated.
+- **Type 2 (NLRP3/pyroptosis loop)**: gasdermin D → pyroptosis → DAMPs → re-prime NLRP3 → self-sustaining. T1DM hyperglycemia constitutively primes this loop. → BHB + colchicine + IF is correct treatment. Biomarker: IL-18 elevated.
+- **Type 3 (HERV-W inflammatory loop)**: MSRV-Env → IL-6/TNF-α → NF-κB in HERV-W promoter → autonomous after stress resolves. → Gut/sleep protocol; antivirals explicitly wrong. Biomarker: MSRV-Env elevated + CVB/EBV negative.
+
+**Novel:** All-three archetype (severe T1DM + chronic stress + rosacea grade III-IV) has highest CVD risk via shared NLRP3/IL-1β mechanism (CANTOS trial implication). The multi-target converged protocol addresses all three loops simultaneously — not redundant but mechanistically necessary.
+
+Tier 1 non-responder panel: serum LL-37 + IL-18 + IFN-α2 + CVB status. Tier 2: MSRV-Env if IFN-α elevated + CVB negative.
+
+See `numerics/run_017_rosacea_nonresponder_phenotyping.md`.
+
+### Vitamin D / VDR / Treg Axis (run_018)
+
+VDR (vitamin D receptor) is expressed on Foxp3+ Tregs. VDR activation maintains Foxp3 stability against IL-23-driven plasticity — the same conversion that drives M4 threshold lowering.
+
+68% of T1DM patients have 25(OH)D₃ <30 ng/mL (insufficient). This constitutes a **third independent M4-lowering input** not in T-index v3:
+1. IFN-α arm (M3) — already in Node D
+2. Th17 arm (M1) — already in Node C
+3. VDR arm (NEW) — low 25(OH)D₃ → Tregs less stable → M4 lowered
+
+**Novel — butyrate × vitamin D synergy:** Butyrate (HDAC inhibitor) upregulates VDR protein expression in T cells → same vitamin D level becomes more efficiently utilized → synergistic Foxp3 induction greater than additive. Protocol implication: correct vitamin D AFTER butyrate is established; the upregulated VDR maximizes benefit.
+
+**Second M5↔M6 maternal arm:** Maternal 25(OH)D₃ → fetal VDR expression during neonatal Treg imprinting → M6 structural floor modified. Additive to maternal fiber → SCFA → Foxp3 CNS methylation arm (attempt_014).
+
+Node E (25(OH)D₃) proposed for T-index v3. Protocol: supplement to 40-60 ng/mL with D₃ + K₂ MK-7.
+
+See `numerics/run_018_vitamin_d_vdr_treg_axis.md`.
+
+### Phageome / ΦPgI Analysis (run_019)
+
+ΦPgI (P. gingivalis phage) is temperate — limits whole-phage therapy. The relevant clinical approach is **phage-derived endolysins**: cell-wall-cleaving enzymes that kill P. gingivalis without phage replication, do not trigger resistance (target essential peptidoglycan), and do not require sIgA cooperation.
+
+**Why this matters for the framework specifically:** The M8→M7 sIgA-protease self-amplifying loop (attempt_015-B3) means standard periodontal treatment fails because P. gingivalis IgA protease destroys the sIgA needed to sustain clearance. Endolysins bypass this entirely — they are the ONLY M7 intervention not dependent on sIgA cooperation.
+
+Status: pre-clinical (3-5 years from clinical use). Current-day substitute: prioritize M8 cortisol normalization to restore sIgA before SRP; extended antibiotic course + LGG 90-day for recurrent periodontitis in M8-active patients.
+
+See `numerics/run_019_phageome_pg_bacteriophage.md`.
+
+*Updated: 2026-04-12 | Phase 4 fourth extension | 8 mountains, 17+ mechanisms*
+*Non-responder taxonomy: three types (KLK5, NLRP3, HERV-W) with distinct biomarker panels and treatment algorithms*
+*Vitamin D: third independent M4-lowering input; butyrate synergy (VDR upregulation → superadditive Foxp3); Node E proposed*
+*Phageome: ΦPgI endolysins bypass sIgA-protease loop; pre-clinical 3-5 years; mechanism formalized*
+
+---
+
+## Phase 4 Fifth Extension — 2026-04-12
+
+### Zinc Deficiency: Four Framework Nodes (run_024)
+
+T1DM osmotic diuresis drives urinary zinc excretion at 3-5× the normal rate → 40-60% of T1DM patients are zinc deficient at baseline (Cunningham 1994 Diabetes Care meta-analysis). This single deficiency simultaneously degrades four independent framework nodes:
+
+**Node 1 — Gut barrier (M1):** Intestinal alkaline phosphatase (IAP) is zinc-dependent and detoxifies LPS by removing lipid A phosphates. Zinc deficiency → IAP activity ↓ → same gut LPS becomes more bioactive → more TLR4 stimulation → more IL-23/Th17 in GALT → I-FABP rises. Additionally: ZO-1, claudin-3, occludin all require zinc-dependent metalloprotease regulation → tight junction disassembly → physical leak.
+
+**Node 2 — KLK5/LL-37 regulation (M2):** Zn²⁺ inhibits KLK5 serine protease via histidine residue binding near the active site. Zinc deficiency → KLK5 hyperactive → more LL-37 processing → Loop 1 threshold lowered. Also: systemic zinc deficiency recreates at the skin surface the Zn²⁺ deficit that zinc pyrithione (dandruff/seb derm treatment) addresses topically → Malassezia colonization easier.
+
+**Node 3 — "Ghost Tregs" (M4 critical):** FOXP3 is a zinc finger transcription factor — multiple ZF domains coordinate zinc ions for DNA-binding configuration. **Zinc deficiency → Foxp3 protein present but ZF domains cannot fully engage DNA → reduced transcriptional repression of CD25, CTLA-4, IL-2R promoters → Treg is functionally impaired despite normal cell count** (Maywald 2017 J Immunol). The T-index Node A (Foxp3+ cell count) can be **falsely reassuring** in zinc-deficient T1DM patients — it counts cells, not functional suppressive activity. This is a systemic flaw in T-index interpretation for zinc-deficient patients.
+
+**Node 4 — NLRP3 inhibition (Loop 2):** Zn²⁺ blocks P2X7 receptor (the ATP-gated K+ efflux channel that initiates NLRP3 activation after pyroptosis) and competes at NLRP3's ATPase domain. Zinc deficiency → NLRP3 activates at lower ATP/DAMP threshold. Zinc is the **fourth independent NLRP3 inhibition pathway** alongside BHB, colchicine, and melatonin.
+
+**Protocol:** Order serum zinc at T-index baseline. Zinc glycinate or zinc picolinate 25-30mg elemental/day with meals. If supplementing >6 months: copper monitoring (1-2mg/day copper if >50mg/day zinc). Node A interpretation for zinc-deficient patients requires functional Treg assay, not just cell count.
+
+See `numerics/run_024_zinc_deficiency.md`.
+
+---
+
+### Sebaceous Local NLRP3 Loop — Loop 4 (run_025)
+
+The three non-responder loops (run_017) address SYSTEMIC NLRP3 sources reaching skin via circulation. This run identifies a fourth loop that is **SKIN-LOCAL and GUT-INDEPENDENT**.
+
+Sebocytes express the full NLRP3 inflammasome (Toll 2017 J Invest Dermatol IHC). UV radiation drives squalene peroxidation (squalene = 12% of sebum, six double bonds → highly peroxidation-susceptible). Malassezia lipases amplify by generating arachidonic acid substrates + TLR2-active odd-chain fatty acids. Result: squalene-OOH acts as both TLR2 agonist (NLRP3 priming) and cholesterol crystal-like NLRP3 activator (K+ efflux via membrane perturbation).
+
+**The full local loop:**
+```
+UV + Malassezia lipases → squalene-OOH → sebocyte NLRP3 → IL-1β + IL-18
+    ↓ → keratinocyte KLK5 ↑ → more LL-37 → TRPV1 → Ca²⁺ → more sebocyte NLRP3
+    ↓ → neutrophil infiltration → elastase + MPO → more squalene-OOH → loop maintained
+```
+
+Once established, this loop continues even when gut dysbiosis is resolved, CVB is cleared, and sleep is optimized. It is the mechanistic explanation for **UV-worsened, follicular-distribution rosacea papules persisting after all systemic loops are controlled.**
+
+**Non-responder Loop 4 summary:**
+
+| Feature | Loop 4 (Sebaceous/Oxidative NLRP3) |
+|---------|--------------------------------------|
+| Primary activator | UV + Malassezia lipases → squalene-OOH |
+| Location | Sebaceous unit — skin-local |
+| Systemic BHB/colchicine | Partial (sebocyte penetration uncertain) |
+| **Primary treatment** | **Topical niacinamide 4% BID + topical vitamin E + SPF 50** |
+| Distinguishing trigger | UV worsening; follicular distribution |
+| IFN-α | Normal/low (not IFN-α driven) |
+
+**Treatment:** Topical niacinamide 4% cream BID (NAD+→SIRT1→NLRP3 K496 deacetylation in sebocytes + direct squalene-OOH reduction). Topical vitamin E serum 1-2% applied before UV exposure (squalene peroxidation scavenger upstream of NLRP3 activation). SPF 50+ broad-spectrum (UV input blockade; the single highest-leverage Loop 4 intervention). Azelaic acid 15% BID if LL-37 also elevated (KLK5 inhibition → less TRPV1-Ca²⁺ input to sebocyte NLRP3).
+
+See `numerics/run_025_sebaceous_nlrp3_local_loop.md`.
+
+---
+
+### Psoriasis Cross-Pollination (psoriasis/attempts/attempt_005)
+
+Three non-responder loops applied to psoriasis partial biologic non-response (30-40% of patients):
+- **Loop 1** (KLK5/LL-37/IFN-α): LL-37 is the primary psoriasis autoantigen; LL-37-DNA complexes → pDC TLR9 → IFN-α → KLK5 ↑ → more LL-37 → loop. IL-23 blockade reduces Th17 downstream but does not break this upstream loop. Treatment: azelaic acid (KLK5 inhibition) + topical rapamycin 0.2% (mTORC1 arm).
+- **Loop 3** (HERV-W): HERV-W elevated in psoriatic skin (Gross 2000 Exp Dermatol; Balada 2010 Autoimmun Rev). NF-κB sustaining loop continues after IL-23 is blocked. Treatment: gut/sleep protocol + colchicine (NF-κB arm).
+
+**VDR-butyrate synergy confirmed for psoriasis:** Butyrate upregulates VDR → same vitamin D produces more Foxp3 induction → Tregs more stable against IL-23-driven Foxp3→RORγt conversion. The protocol combination (butyrate 4-6g + VitD 5000 IU) is mechanistically synergistic, not redundant.
+
+**RCT confirmation of gut-skin M1↔M4 axis:** SEQUENCE trial (risankizumab for Crohn's disease → secondary psoriasis improvement) is RCT-level evidence that treating the gut treats the skin — the same GALT Th17 trafficking mechanism operating in dysbiosis M1↔M4 bridge.
+
+**M6 floor as psoriasis severity predictor:** C-section + early antibiotics → lower Foxp3 CNS2 methylation → lower Treg structural floor → adult butyrate/VitD raises Treg count but cannot restore the floor → under chronic IL-23 stimulation, low-M6 patients have lower maximum Treg suppressive ceiling → predict slower biologic response and higher baseline PASI.
+
+See `psoriasis/attempts/attempt_005_dysbiosis_framework_import.md`.
+
+*Updated: 2026-04-12 | Phase 4 fifth extension | 8 mountains, 25+ mechanisms*
+*Zinc: four-node deficiency in T1DM; "ghost Tregs" — Node A count misleading in zinc-deficient patients; zinc = fourth NLRP3 inhibitor*
+*Loop 4: sebaceous/oxidative NLRP3 — skin-local, UV-driven, gut-independent; topical niacinamide + vitamin E + SPF 50 specific treatment*
+*Psoriasis: HERV-W elevated (RCT); VDR-butyrate synergy; SEQUENCE trial M1↔M4 confirmation; M6 floor = severity predictor*
+
+---
+
+## Phase 4 Sixth Extension — 2026-04-12
+
+### Akkermansia muciniphila: Three-Path Trophic Keystone (run_026)
+
+Akkermansia is the most consistently depleted commensal in T1DM, rosacea, psoriasis, and IBD.
+It is not merely a biomarker — it is structurally load-bearing in the gut barrier via three independent paths:
+
+**Path 1 — Amuc_1100 → TLR2 → Tight Junctions:**
+Akkermansia outer membrane protein Amuc_1100 → TLR2 on intestinal epithelial cells → limited, non-inflammatory NF-κB arm → ZO-1/occludin/claudin-3 upregulation → paracellular barrier tightened → I-FABP ↓. This is mechanistically distinct from butyrate's HDAC → tight junction gene expression. **Critical: Amuc_1100 is heat-stable → pasteurized A. muciniphila retains this effect.** Depommier 2019 Nat Med used pasteurized A. muciniphila in metabolic syndrome patients → improved insulin sensitivity + reduced LPS-binding protein (gut permeability marker).
+
+**Path 2 — Trophic Chain → F. prausnitzii → Butyrate:**
+Akkermansia occupies the mucus layer and degrades mucin glycoproteins → releases oligosaccharides → F. prausnitzii (butyrate producer) uses these as substrate. Akkermansia depletion → F. prausnitzii loses substrate → endogenous butyrate production falls even if F. prausnitzii is present. **This is why exogenous butyrate 4-6g/day is effective without restoring Akkermansia first — it bypasses the trophic chain.** Akkermansia restoration → endogenous butyrate production restored as a complementary second tier.
+
+**Path 3 — Mucus Layer Thinning:**
+Akkermansia remodels the mucus layer — its metabolic end-products stimulate goblet cells to produce fresh MUC2. Depletion → mucus thins → luminal bacteria gain physical access to the inner mucus layer → IEL activation → local IL-23 → GALT Th17 priming. This mechanism is independent of paracellular permeability (Path 1) and SCFA production (Path 2).
+
+**Protocol:** Pasteurized A. muciniphila as second-tier addition if Node C I-FABP persists after 8-12 weeks of exogenous butyrate + fiber. Dose: ~3.8 × 10^10 CFU equivalent/day (Depommier 2019). Polyphenol co-supplement (pomegranate, cranberry, grape seed extract) expands endogenous Akkermansia (Anhê 2015).
+
+See `numerics/run_026_akkermansia_muciniphila.md`.
+
+### Sulforaphane/Nrf2: Multi-Mountain Bridge Compound (run_027)
+
+Sulforaphane (SFN, from broccoli sprout extract) is the most potent OTC Nrf2 activator. Nrf2 is the master antioxidant transcription factor (→ HO-1, NQO1, GPx, glutathione synthesis). This single compound connects four framework targets:
+
+**Bridge 1 — Loop 3 (HERV-W/NF-κB):** Nrf2 and NF-κB p65 compete for CBP/p300 coactivator. Nrf2 activation → CBP/p300 occupied → less available for NF-κB → Loop 3 sustaining NF-κB activity reduced. **This makes SFN a second NF-κB suppressor alongside colchicine (IKK disruption); the mechanisms are independent and additive for Loop 3.**
+
+**Bridge 2 — Loop 4 (Sebaceous/Oxidative NLRP3):** Nrf2 → GCLM/GCLC → glutathione ↑ → GPx → squalene-OOH scavenging INTRACELLULARLY in sebocytes. This complements topical vitamin E (which scavenges squalene-OOH in extracellular sebum). Systemic Nrf2 activation + topical vitamin E = two-level antioxidant defense for Loop 4.
+
+**Bridge 3 — ME/CFS Mitochondria:** Nrf2 → HO-1 → CO → PGC-1α (mitochondrial biogenesis regulator). SFN supplementation → PGC-1α → TFAM → mt-DNA replication → new Complex I assembly → MT-ND3 structural deficit recovery. **SFN + CoQ10 + NMN = three independent mechanisms: biogenesis signal (SFN/PGC-1α) + cofactor (CoQ10 within Complex I) + substrate (NMN/NAD+ for repair enzymes).** Add to ME/CFS protocol.
+
+**Bridge 4 — Gut Barrier (M1):** Nrf2 → HO-1 → CO + bilirubin in enterocytes → anti-apoptotic → reduced enterocyte oxidative death → I-FABP ↓. Third independent gut barrier mechanism alongside butyrate (HDAC) and Akkermansia (Amuc_1100/TLR2).
+
+**Protocol:** Broccoli sprout extract standardized to 30-50mg SFN/day with largest meal. Synergistic with colchicine (Loop 3), topical vitamin E (Loop 4), CoQ10/NMN (ME/CFS). Separate from narrow therapeutic index drugs (CYP1A2/2B6 induction).
+
+See `numerics/run_027_sulforaphane_nrf2.md`.
+
+*Updated: 2026-04-12 | Phase 4 sixth extension | 8 mountains, 27+ mechanisms*
+*Akkermansia: three independent M1 mechanism paths; Depommier 2019 RCT pasteurized form; trophic chain explains why exogenous butyrate bypasses the need for Akkermansia restoration first*
+*Sulforaphane: single OTC compound bridges Loop 3 (NF-κB), Loop 4 (sebocyte GPx), ME/CFS (PGC-1α mitochondrial biogenesis), and M1 (enterocyte HO-1)*
+*SFN + colchicine = dual NF-κB suppression; SFN + topical vitamin E = two-level antioxidant for Loop 4; SFN + CoQ10 + NMN = ME/CFS mitochondrial triad*

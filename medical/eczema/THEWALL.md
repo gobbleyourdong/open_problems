@@ -60,3 +60,48 @@ Eczema patients who expect the protocol to work like dupilumab will be disappoin
 Patients who understand that the protocol is targeting root cause (gut dysbiosis → Treg failure → Th2 dominance) rather than symptoms (IL-4/IL-13 blockade) will set appropriate expectations.
 
 **For the patient**: if you have both T1DM and eczema, the T1DM protocol should improve your eczema as a side effect over months 3-6. Track your flare frequency alongside your C-peptide. The improvement in eczema will be evidence that the Treg restoration arm is working.
+
+---
+
+## Phase 4 Update — 2026-04-12 (Dysbiosis Framework Import)
+
+### M8 Amplifier in Eczema
+
+Eczema flares under stress are among the most consistently reported clinical observations. The M8 mechanism (from `../dysbiosis/attempts/attempt_013_m8_neuroimmune_hpa.md`) provides the molecular explanation:
+
+**M8 → Eczema:**
+- CRH → dermal mast cell CRHR1 → degranulation → histamine + tryptase → skin barrier disruption → more allergen penetration → Th2 primed
+- Substance P → keratinocyte TLR → IL-31 production → itch intensification (IL-31 is THE itch cytokine in eczema, produced by Th2 but ALSO driven by neuropeptides directly)
+- Cortisol → immunosuppression (short-term: cortisol reduces eczema acutely) → then GR downregulation → Treg function impaired → Th2 rebounds worse (explains the "stress clears it then it comes back worse" pattern)
+
+**Clinical implication:** When eczema flares occur without dietary change and during a documented stress period → M8 is the driver. M8-targeted interventions:
+- Sleep 7-9h (reduces cortisol; single most effective eczema M8 intervention)
+- Quercetin 500mg BID: mast cell stabilizer → reduces stress-triggered mast cell degranulation
+- MBSR or mindfulness practice (documented to reduce eczema severity in small RCTs; mechanism is cortisol normalization → less CRH-driven mast cell priming)
+- **Do NOT add more topical steroids in response to a stress flare** — steroids will acutely suppress but worsen rebound when removed, and worsen GR downregulation with chronic use
+
+### M6 Floor in Eczema (Structural Risk)
+
+Early-life dysbiosis (C-section, antibiotics, formula feeding) reduces the structural Treg floor (M6) — the same mechanism that affects rosacea and T1DM. For eczema:
+- Lower M6 floor → fewer thymus-derived Foxp3+ Tregs → less suppression of Th2 → eczema
+- The M6 floor is NOT modifiable in adulthood BUT the gut protocol (butyrate 4-6g + Akkermansia + LGG) partially compensates by inducing PERIPHERAL Tregs via gut SCFA
+- The partial compensation mechanism: high-dose butyrate → HDAC inhibition at Foxp3 CNS1/CNS3 → pTreg induction (peripherally induced) → adds to the diminished thymic pool
+
+**Key point for eczema patients with low M6 history:** The timeline for improvement is LONGER (months 6-9 rather than 3-6) because the starting Treg pool is lower — it takes more time to build up pTreg compensatory pool via dietary SCFA. Patience and consistent fiber/butyrate dosing are required.
+
+### M1↔M8 Bidirectional Loop in Eczema
+
+The M1↔M8 bidirectional loop (attempt_016) applies directly:
+- Eczema gut dysbiosis (M1) → reduced SCFA → HPA hypersensitivity → M8 more reactive to any stress
+- Stress (M8) → CRH → mast cells → barrier disruption → Th2 primed → M1 worsened
+
+This explains why eczema worsening seems correlated with both gut symptoms AND stress simultaneously — they are driving each other. Treatment of the gut (M1 first) should reduce HPA reactivity, which then reduces the stress-driven flare frequency.
+
+**Updated patient expectations with M8 and M6 incorporated:**
+- Month 1-3: gut improvement begins → HPA reactivity starts declining (M1→M8 loop breaking)
+- Month 3-6: Treg pool building (butyrate → pTreg induction); stress flare frequency reduces
+- Month 6-9 (low M6 floor patients): Treg pool reaches adequate compensation level
+- Year 1+: stable remission if protocol maintained; stress flares now managed with M8 interventions
+
+*Updated: 2026-04-12 | M8 amplifier + M6 floor + M1↔M8 loop imported from dysbiosis framework*
+*See `../dysbiosis/attempts/` for full mechanism derivations*

@@ -112,6 +112,7 @@ Bridge legend:
   015-B3: M8→M7  CAND   — cortisol → sIgA suppression → P. gingivalis facilitated
   016-B1: M1→M8  CAND   — gut dysbiosis → reduced SCFA → HPA hypersensitivity (Sudo 2004)
   016-B2: M1→M8  CAND   — gut LPS → enteroendocrine CRF → HPA priming (without external stress)
+  014-B5: M8→M3  CAND   — cortisol → GRE in HERV-W LTR → MSRV-Env → IFN-α (stress activates endogenous retrovirus)
 ```
 
 ---
@@ -133,10 +134,15 @@ Bridge legend:
 | M8→M7 (cortisol → sIgA suppression → P. gingivalis facilitated) | 015-B3 | Bosch 2011 review + Wimmer 2002 + Plummer 1993 | Salivary IgA × cortisol × P. gingivalis counts prospective cohort |
 | M1→M8 (gut dysbiosis → SCFA loss → HPA hypersensitivity) | 016-B1 | Sudo 2004 J Physiol (GF mouse HPA); Yano 2015 Cell (gut serotonin) | Gut protocol → cortisol reduction WITHOUT stress intervention RCT |
 | M1→M8 (gut LPS → enteroendocrine CRF → HPA priming) | 016-B2 | Enteroendocrine CRF literature; Theoharides 2012 | I-FABP × hair cortisol correlation controlling for PSS-10 |
+| M8→M3 via HERV-W (cortisol → GRE → MSRV-Env → IFN-α) | 014/run014 | Löwer 1993 (GRE in HERV-W LTR); Levet 2019 (MSRV-Env in T1DM) | IFN-α elevation in high-cortisol patients without CVB; MSRV-Env assay |
+
+| M3+M8→TRPV1 convergence (IFN-α + SP → neurogenic flushing; LL-37 direct) | run_015 | Buhl 2017 J Allergy Clin Immunol (LL-37 → TRPV1); Steinhoff 2003 Nat Med (SP/TRPV1/PAR-2) | IFN-α Simoa × TRPV1 expression on facial skin biopsies; capsazepine RCT in high LL-37 patients |
+| M5↔M2 (androgen arm): insulin resistance → SHBG ↓ → DHT → sebum → Malassezia ↑ | 018 | Thiboutot 2003 (SRD5A1 in sebaceous glands); Ding 2007 (insulin → SHBG suppression) | SHBG × Malassezia density in T1DM cohort; finasteride 2% topical RCT in male T1DM + seb derm |
+| M2+M4 ocular extension: Demodex → eyelash follicles → meibomian gland → chalazion | run_016 | Türk 2019 Br J Ophthalmol (TTO reduces recurrence); Lacey 2007 (B. oleronius TLR2) | T1DM vs. control Demodex lash counts; IFN-α2 × ocular rosacea severity correlation |
 
 **Status: M3↔M7, M1↔M4, M2+M4 loop, M6↔M4, M5↔M6, M8→M1, M1↔M8 combined = STRONG CANDIDATES.**
-**M3↔M2, M5↔M7, M7→M1, M8→M4, M8→M7, M1→M8 individual = CANDIDATES.**
-**8 mountains, 12+ bridges. M1↔M8 is a closed bidirectional loop. M8 amplifier connects to all other mountains.**
+**M3↔M2, M5↔M7, M7→M1, M8→M4, M8→M7, M1→M8 individual, M8→M3/HERV-W, M5↔M2-androgen, M2+M4-ocular = CANDIDATES.**
+**8 mountains, 16+ bridges/mechanisms. M1↔M8 is a closed bidirectional loop. M8 connects to ALL mountains. TRPV1 is the shared convergence node where M2+M3+M8 produce neurogenic flushing.**
 
 ---
 

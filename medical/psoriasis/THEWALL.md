@@ -70,3 +70,29 @@ The wall for psoriasis is cost: generic apremilast doesn't exist yet at the time
 **The wall is apremilast going generic.** When it does, the protocol + generic apremilast becomes a $120/month alternative to $2,400/month biologics with comparable PASI response. That's the clinical breakthrough for psoriasis patients.
 
 **Immediate action**: if the patient has psoriasis alongside T1DM, start the protocol. Track PASI at 3 and 6 months. When generic apremilast becomes available, add it. The protocol establishes the Treg/FOXP1 foundation; apremilast will provide the final IL-23 hit.
+
+---
+
+## Phase 4 Update — 2026-04-12 (Dysbiosis Framework Cross-Pollination)
+
+### Non-Responder Loop Taxonomy Applied to Psoriasis
+
+30-40% of biologic-treated psoriasis patients are partial/non-responders. The dysbiosis non-responder framework explains why (see `attempts/attempt_005_dysbiosis_framework_import.md`):
+
+**Loop 1 (KLK5/LL-37/IFN-α in psoriasis):** LL-37 is the PRIMARY psoriasis autoantigen — LL-37-DNA complexes → pDC TLR9 → IFN-α → KLK5 ↑ → more LL-37 → self-amplifying loop. IL-23 blockade reduces downstream Th17 but does not break this upstream loop. Treatment: azelaic acid (KLK5 inhibitor topically) + topical rapamycin 0.2% (mTORC1 arm in keratinocytes).
+
+**Loop 3 (HERV-W in psoriasis):** HERV-W sequences are elevated in psoriatic skin (Gross 2000 Exp Dermatol; Balada 2010 Autoimmun Rev — MSRV-Env in psoriatic PBMCs). HERV-W → TLR4 → NF-κB → IL-6/TNF-α sustaining loop independent of IL-23. IL-23 blockade does not address this. Treatment: gut/sleep protocol + colchicine 0.5mg BID (NF-κB suppression arm; same dual-loop mechanism as in rosacea).
+
+### VDR-Butyrate Synergy Confirmed for Psoriasis
+
+Butyrate (4-6g/day) HDAC inhibition → VDR upregulation in Tregs → same vitamin D dose produces superadditive Foxp3 induction. Tregs become more stable against IL-23-driven Foxp3→RORγt conversion. The protocol combination (butyrate + VitD₃ 5000 IU) is mechanistically synergistic, not coincidentally combined.
+
+### SEQUENCE Trial as RCT Confirmation
+
+Risankizumab (IL-23 inhibitor) is FDA-approved for BOTH psoriasis (ULTIMMA) and Crohn's disease (SEQUENCE trial). The SEQUENCE trial finding — treating Crohn's → secondary psoriasis improvement — is RCT-level confirmation of the M1↔M4 gut-skin GALT Th17 trafficking mechanism. Psoriasis patients with concurrent IBD should receive gut intervention as a primary psoriasis treatment component.
+
+### M6 Structural Floor as Psoriasis Severity Predictor
+
+C-section delivery + early antibiotic exposure → reduced SCFA during neonatal Treg imprinting → lower Foxp3 CNS2 methylation → lower structural Treg floor. Under chronic IL-23 stimulation (psoriatic skin), this floor is the final limit on Treg suppression of Th17. **Prediction:** psoriasis patients with C-section/early antibiotics have higher baseline PASI, lower Foxp3+/CD4+ ratio, and slower biologic response rate (needs more IL-23 suppression to compensate for lower Treg ceiling).
+
+*Updated: 2026-04-12 | Dysbiosis Phase 4 cross-pollination | Three non-responder loops | VDR-butyrate synergy | SEQUENCE trial M1↔M4 | M6 floor severity predictor*

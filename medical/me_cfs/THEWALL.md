@@ -110,3 +110,70 @@ The wall is:
 ME/CFS is not harder than T1DM to treat — it's harder to **study** because the medical community spent 40 years denying it existed. The biology is tractable. The biomarker exists. The protocol is ready.
 
 **The wall is stigma and nihilism. The science is not.**
+
+---
+
+## Phase 4 Update — 2026-04-12 (Dysbiosis Framework Cross-Pollination)
+
+### M1↔M8 HPA Exhaustion Explains ME/CFS Hypocortisolism
+
+The dysbiosis sigma campaign's M1↔M8 bidirectional loop provides a mechanistic explanation for
+ME/CFS hypocortisolism (not "adrenal fatigue" — HPA exhaustion from chronic gut-driven stimulation):
+
+**Phase 1:** CVB → gut dysbiosis → gut enteroendocrine CRF + reduced SCFA/GPR41 dampening →
+HPA chronically overstimulated → elevated cortisol for months-years.
+**Phase 2:** Chronic HPA overstimulation → GR downregulation in hippocampus → negative feedback
+fails → HPA exhaustion → hypocortisolism = the ME/CFS end state.
+
+**Implication:** Treating gut dysbiosis with butyrate + fiber should allow HPA recovery over 6-12 months.
+Expect transient cortisol RISE during gut treatment — do not interpret as worsening.
+
+### Three Non-Responder Loops in ME/CFS Chronification
+
+- **Loop 2 (NLRP3/pyroptosis):** NLRP3 +37% in ME/CFS PBMCs (documented). CVB 2B viroporin → K+ efflux → NLRP3 → IL-1β → neuroinflammation. Treatment: BHB + **colchicine 0.5mg BID** (add to protocol; currently missing) + IF.
+- **Loop 3 (HERV-W):** EBV-triggered ME/CFS → HERV-W reactivated → NF-κB sustaining loop. EBV clears; HERV-W continues. Explains EBV-ME/CFS persisting after valacyclovir. Treatment: gut/sleep + colchicine (NF-κB arm).
+
+### TRPV1 Central Sensitization as Second PEM Mechanism
+
+Chronic IFN-α → TRPV1 upregulation in sensory neurons → threshold drops to body temperature →
+any exertion (heat) → TRPV1 fires → disproportionate pain/fatigue = PEM.
+Second mechanism alongside mitochondrial ATP deficit.
+Treatment: LDN (low-dose naltrexone) 1.5-4.5mg/day.
+
+### Protocol Additions
+
+| Addition | Mechanism | Notes |
+|----------|-----------|-------|
+| Colchicine 0.5mg BID | Loop 2 (NLRP3 assembly) + Loop 3 (NF-κB/HERV-W) | **NEVER combine with itraconazole (fatal CYP3A4)** |
+| Omega-3 → 4g/day (not 3g) | RvD1 DAMP clearance; breaks NLRP3 re-priming cycle | Requires 12+ weeks for phospholipid remodeling |
+| LDN 1.5-4.5mg/day | TRPV1/microglial sensitization → PEM | PEM-dominant patients |
+
+See `attempts/attempt_006_dysbiosis_framework_import.md` for full analysis.
+
+### Sulforaphane: ME/CFS Mitochondrial Biogenesis Addition (run_027)
+
+**SFN + CoQ10 + NMN = three independent mitochondrial mechanisms for Complex I recovery:**
+
+```
+Sulforaphane → Nrf2 → HO-1 → CO → soluble guanylyl cyclase → cGMP → PKG → PGC-1α
+    (PGC-1α = master mitochondrial biogenesis regulator)
+    ↓ → TFAM → mt-DNA replication → new Complex I units assembled
+    → MT-ND3 structural deficit recovery (months)
+
+CoQ10 600mg/day: cofactor WITHIN Complex I electron transfer chain
+NMN 500mg/day: NAD+ precursor → mitochondrial repair enzymes (sirtuins, PARP)
+```
+
+Three mechanisms attack three different bottlenecks: PGC-1α biogenesis signal (SFN) + electron
+transfer cofactor within existing Complex I (CoQ10) + NAD+ substrate for repair enzymes (NMN).
+These are not redundant — they are sequential: NMN → repair existing Complex I + enable SIRT3
+deacetylation; CoQ10 → maximize efficiency of repaired Complex I; SFN → generate new Complex I
+units to replace those too damaged to repair.
+
+**Protocol addition:** Broccoli sprout extract standardized to 50mg sulforaphane/day (mitochondrial
+biogenesis dose). Start after CoQ10 + NMN are established (Week 1 in the existing sequence).
+SFN can be added at Week 2-3; no interaction with CoQ10 or NMN.
+
+See `numerics/run_027_sulforaphane_nrf2.md` (dysbiosis directory).
+
+*Updated: 2026-04-12 | Dysbiosis framework Phase 4 cross-pollination | Three loops | HPA exhaustion | TRPV1 PEM | Sulforaphane mitochondrial triad*

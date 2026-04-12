@@ -91,8 +91,12 @@ Any dysbiosis attempt should check:
 | attempt_014_m5_m6_maternal_treg.md | M5↔M6 | **Sky bridge** — maternal fiber → fetal Treg floor | STRONG CANDIDATE |
 | attempt_015_m8_sky_bridges.md | M8→M4/M1/M7 | **Sky bridges** — M8 formal connections (3 bridges) | M8→M1: STRONG; M8→M4/M7: CANDIDATE |
 | attempt_016_m1_m8_bidirectional_loop.md | M1→M8 | **Sky bridge** — gut dysbiosis → HPA dysregulation (bottom-up, closes loop) | CANDIDATE (Sudo 2004 GF mouse; human data limited) |
+| attempt_017_m8_m3_herv_w_bridge.md | M8→M3 | **Sky bridge** — cortisol → GRE in HERV-W LTR → MSRV-Env → IFN-α (stress activates endogenous retrovirus) | CANDIDATE (GRE documented Löwer 1993; in vivo dose-response not tested) |
+| attempt_018_sex_hormone_m2_sebum_bridge.md | M5↔M2 | **Sky bridge** — insulin resistance → SHBG ↓ → free T → DHT → sebaceous hyperplasia → M2 amplified | CANDIDATE (mechanism established; T1DM + skin dysbiosis cohort not tested) |
 
-**8 mountains. 12+ sky bridges. M1↔M8 is a closed bidirectional loop. Novel: M6 × M8 interaction — early-life dysbiosis permanently reduces HPA dampening capacity.**
+| attempt_019_sex_differentiated_rosacea_phenotype.md | M2+M4+M5+M8 | **Clinical taxonomy** — male vs. female T1DM + rosacea phenotype differential (androgen arm, estrogen/NLRP3, perimenopausal loop) | CLINICAL MAP (mechanisms established; novel assembly as diagnostic taxonomy) |
+
+**8 mountains. 15+ sky bridges. M1↔M8 is a closed bidirectional loop. TRPV1 as M2+M3+M8 convergence node. Three independent non-responder loops. Sex-differentiated phenotype map.**
 
 See `../results/phase3_synthesis.md` for the complete mountain connection map and bridge evidence table.
 See `../results/protocol_integration.md` for the complete actionable protocol synthesis.

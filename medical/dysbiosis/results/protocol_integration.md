@@ -368,10 +368,279 @@ Run once at protocol initiation. Results modify T-index thresholds permanently.
 
 ---
 
-*Compiled: 2026-04-12 | Post-Phase 4 complete synthesis*
-*Sources: attempts 001-015, numerics runs 001-009, phase3_synthesis.md, resolution_biology.md*
-*Framework status: 8 mountains, 10+ sky bridges (6 strong candidate, 5 candidate)*
-*Part 8b added: genetic floor T-index adjustment (HLA-DR3, NOD2, TLR4, IL23R)*
+---
+
+## Part 8c: Sex Hormone Workup (Male T1DM + Refractory Seb Derm)
+
+Add to T-index baseline panel if: male patient, HbA1c >8%, seborrheic dermatitis refractory
+to standard topical antifungals + gut protocol.
+
+| Test | What it adds | Interpretation |
+|------|-------------|----------------|
+| SHBG (serum) | Hepatic insulin exposure; low = insulin resistance → free androgen excess | Low SHBG (<20 nmol/L men; <30 nmol/L women) → androgen arm active |
+| Free Androgen Index (calculated: total T × 100 / SHBG) | M5↔M2 androgen bridge activity | FAI >50 (men) → DHT likely elevated → sebum substrate enlarged |
+| DHT (dihydrotestosterone) | Confirms 5α-reductase step active in sebaceous glands | Elevated DHT → sebaceous gland hyperplasia is the M2 amplifier |
+
+**Intervention if androgen arm confirmed:**
+- Primary: glycemic optimization (reduces portal insulin → SHBG normalizes over 4-8 weeks)
+- Male: topical finasteride 2% (5α-reductase type 1 inhibitor; reduces DHT in sebaceous glands)
+- Female (PCOS features): spironolactone 50-100mg/day (androgen receptor blocker; first-line for PCOS + acne/seb derm)
+- Note: sebaceous gland hyperplasia reverses SLOWLY (weeks-months) after androgen normalization — antifungal response improves on this longer timeline
+
+See `attempts/attempt_018_sex_hormone_m2_sebum_bridge.md`.
+
+## Part 8d: TRPV1 Neurogenic Flushing Arm (Burning/Stinging Phenotype)
+
+Add if: rosacea flushing with burning/stinging sensation, heat + emotional triggers, poor antihistamine response.
+
+**Diagnostic rule:**
+- Burning/stinging sensation + heat triggers + no antihistamine benefit → TRPV1 arm dominant
+- Itch + food/wine triggers + antihistamine improves → Histamine/mast cell arm (run_003 + run_013)
+- Both → compound TRPV1 + histamine (common; treat both arms)
+
+**Protocol for TRPV1 arm:**
+1. **Ivermectin 1% cream** (BID × 12 weeks): kills Demodex → reduces LL-37 production → less TRPV1 direct activation (already in protocol; ensures this arm is covered first)
+2. **M8 protocol** (sleep + MBSR): reduces SP/CRH release → TRPV1 threshold stays at 43°C (not sensitized to body temperature) — TRPV1 sensitization prevention is a 4th mechanism for M8 treatment benefit
+3. **Capsaicin 0.025% cream** (BID × 6 weeks): TRPV1 desensitization via SP depletion + receptor internalization → flushing threshold raised. Initial burning expected weeks 1-2; tolerance develops. Use only after ruling out active rosacea redness (may flare transiently).
+4. **Botox intradermal** (1-2U/cm², forehead/cheeks, expert procedure): blocks SP/CGRP release from sensory nerve terminals → neurogenic vasodilation interrupted; 4-6 month duration; second-line for refractory neurosensory rosacea
+
+See `numerics/run_015_trpv1_neurogenic_flushing.md`.
+
+## Part 8e: Ocular Rosacea / Recurrent Chalazion
+
+Add if: rosacea patient with recurrent chalazia (2+ in 2 years), blepharitis with collarettes at lash base.
+
+**Diagnostic:**
+- Demodex lash microscopy: epilate 2-3 lashes, mount in saline, direct microscopy; >2 mites/lash = significant
+- Collarette pattern at lash base (waxy cylindrical sleeves) = Demodex-specific sign; distinguishes from bacterial blepharitis
+
+**Protocol:**
+1. **TTO lid scrubs** (OUST or Cliradex): BID × 6 weeks, then QD indefinitely. Active compound: terpinen-4-ol kills Demodex. Reduces chalazion recurrence from 40% → 12% (Türk 2019).
+2. **Doxycycline 40mg/day** (anti-inflammatory dose, same as for rosacea): suppresses B. oleronius-driven TLR2/TLR4 inflammation in lid margin; use in combination with TTO for recurrent chalazia
+3. **If on ivermectin already** for facial rosacea: systemic coverage extends to eyelash Demodex; add TTO for local meibomian gland deblocking
+4. **Warm compresses + lid massage**: symptomatic; does NOT address Demodex; use as supportive adjunct
+
+See `numerics/run_016_chalazion_ocular_rosacea.md`.
+
+---
+
+---
+
+## Part 8f: Node E — Vitamin D Status (T-Index Addition)
+
+Add 25(OH)D₃ to the baseline T-index panel. It is a third independent M4-lowering input
+(alongside IFN-α arm/Node D and Th17 arm/Node C) in T1DM patients.
+
+**Measurement:** Serum 25(OH)D₃ (vitamin D, 25-hydroxy). Quest/LabCorp standard panel ~$40.
+
+| Level | Clinical meaning | Action |
+|-------|-----------------|--------|
+| >40 ng/mL | Optimal VDR activation; Treg Foxp3 stability maintained | Maintain; reassess annually |
+| 20-40 ng/mL | Insufficient; partial Treg VDR activation; M4 partially lowered by this arm | Supplement D₃ 2000 IU/day; retest 8 weeks |
+| <20 ng/mL | Deficient; significant M4 lowering; Treg Foxp3 stability compromised | Supplement D₃ 4000 IU/day + K₂ MK-7 100-200 mcg; retest 8 weeks |
+
+**Supplementation protocol:**
+- Form: Vitamin D₃ (not D₂) + K₂ MK-7 (directs calcium to bone; reduces soft-tissue calcification risk)
+- Sequence: Start butyrate 4-6g/day first (2-4 weeks) → then measure 25(OH)D₃ and correct
+  (butyrate upregulates VDR expression → same vitamin D level more efficiently utilized → synergistic Foxp3 induction)
+- Target: 40-60 ng/mL; do not exceed 100 ng/mL (hypercalcemia risk)
+
+**Genetic floor addition (to Part 8b):**
+VDR Fok1 polymorphism (rs2228570): 'F' allele → shorter VDR protein → less efficient transcription
+factor → carriers need higher 25(OH)D₃ (target 50-70 ng/mL rather than 40-60 ng/mL).
+Testable via 23andMe raw data (rs2228570: AA/AG = Ff/ff = low efficiency; GG = FF = higher efficiency).
+
+See `numerics/run_018_vitamin_d_vdr_treg_axis.md`.
+
+---
+
+## Part 8g: Non-Responder Sub-Typing Protocol
+
+For any rosacea patient inadequately controlled at 12 weeks on: ivermectin 1% cream + standard care.
+
+### Tier 1 Panel (order simultaneously)
+
+| Test | Interpretation |
+|------|---------------|
+| Serum LL-37 (cathelicidin) | Elevated → Loop 1 (KLK5/mTORC1) active; add azelaic acid 15% |
+| Serum IL-18 | Elevated → Loop 2 (NLRP3/pyroptosis) active; add BHB + colchicine + IF |
+| IFN-α2 Simoa | Elevated → M3 arm active (context for all loops; essential baseline) |
+| CVB PCR (stool) | Positive → CVB 2B viroporin feeding Loop 2; antivirals + BHB combination |
+| HbA1c | >8% → constitutive NLRP3 priming (T1DM amplifier); glycemic optimization is co-treatment for Loop 2 |
+
+### Tier 2 Panel (if IFN-α elevated + CVB negative)
+
+| Test | Interpretation |
+|------|---------------|
+| MSRV-Env protein (specialty lab) | Elevated → Loop 3 (HERV-W) active; gut/sleep protocol; NO antivirals |
+| VCA IgM + EA-D IgG (EBV reactivation) | Positive → EBV is HERV-W trigger; valacyclovir for EBV secondarily addresses HERV-W |
+| Hair cortisol (3-month window) | Elevated → M8 is sustaining HERV-W via GRE; stress normalization is primary |
+
+### Treatment by Loop Type
+
+| Loop | Primary treatment | What to avoid |
+|------|-----------------|---------------|
+| Type 1 (LL-37 elevated) | Azelaic acid 15% gel BID; anti-IL-23 biologic if refractory | Ivermectin alone insufficient |
+| Type 2 (IL-18 elevated) | BHB 10-20g/day + IF (20:4) + colchicine 0.5mg BID + HbA1c <7.5% | Antivirals alone insufficient |
+| Type 3 (MSRV-Env elevated, CVB neg) | Gut dysbiosis protocol + sleep/MBSR; timeline 3-6 months | Fluoxetine/itraconazole ineffective; may delay correct treatment |
+| All-three archetype | Simultaneous multi-target: azelaic acid + BHB/IF/colchicine + gut/sleep | Sequential treatment prolongs cross-loop amplification |
+
+See `numerics/run_017_rosacea_nonresponder_phenotyping.md`.
+
+---
+
+---
+
+## Part 8h: Zinc Status Workup and Protocol
+
+**When to order:** At T-index v3 baseline, simultaneously with Node A (Foxp3), Node C (I-FABP), Node D (IFN-α2), Node E (25(OH)D₃).
+
+**Why this matters for T-index interpretation — the "Ghost Treg" problem:**
+FOXP3 is a zinc finger transcription factor. Zinc deficiency impairs Foxp3 DNA-binding without reducing Foxp3 protein abundance. In zinc-deficient patients, Node A (Foxp3+ cell count) appears normal but Treg suppressive function is reduced per cell. **Node A can be falsely reassuring in zinc-deficient T1DM patients.** If Node A appears adequate but Loop 1/2/3 activity persists unexplained, check zinc before concluding Treg count is sufficient.
+
+**Mechanism cascade:**
+- T1DM osmotic diuresis → 3-5× normal urinary zinc → 40-60% T1DM patients zinc deficient
+- Zinc deficiency simultaneously impairs: gut barrier (IAP + tight junctions), KLK5 regulation (M2), Foxp3 zinc fingers (M4), NLRP3 inhibition at P2X7 + ATPase (Loop 2)
+
+### Measurement
+
+| Test | Notes |
+|------|-------|
+| Serum zinc (plasma preferred) | Normal: 70-120 µg/dL; avoid hemolyzed samples (hemolysis falsely elevates) |
+| RBC zinc (if serum borderline) | Reflects intracellular zinc better; longer half-life than serum |
+
+### Supplementation
+
+| Parameter | Specification |
+|-----------|--------------|
+| Form | Zinc glycinate or zinc picolinate (highest bioavailability; superior to zinc oxide) |
+| Dose (repletion) | 25-30mg elemental zinc/day with meals (food reduces nausea) |
+| Dose (maintenance, after 8-12 weeks) | 15-25mg/day |
+| Timing | Separate from iron and calcium supplementation (compete for ZIP/ZnT transporters) |
+| Butyrate interaction | Additive on gut barrier — butyrate (enterocyte fuel + HDAC→tight junction genes) + zinc (tight junction protein assembly) are complementary; both should be maintained |
+| Copper monitoring | If supplementing >6 months or >50mg/day: check serum copper/ceruloplasmin; supplement 1-2mg copper/day if depleted |
+
+**Zinc as fourth NLRP3 inhibition pathway:**
+- BHB: K+ efflux blockade (Youm 2015)
+- Colchicine: NLRP3+ASC colocalization blocked (Misawa 2013)
+- Melatonin/SIRT1: NLRP3 K496 deacetylation (Xia 2018)
+- Zinc: P2X7 blockade + NLRP3 ATPase competition (Bhatt 2020)
+
+The zinc + BHB combination blocks different steps (P2X7 input + K+ efflux signaling) → predict additive/synergistic NLRP3 suppression at Loop 2.
+
+See `numerics/run_024_zinc_deficiency.md`.
+
+---
+
+## Part 8i: Loop 4 (Sebaceous/Oxidative NLRP3) Protocol
+
+**When to apply:** Rosacea papules continuing despite:
+- I-FABP normalized (M1 treated)
+- IFN-α2 normalized (M3 treated)
+- Sleep optimized, cortisol normal (M8 treated)
+- Serum LL-37 and IL-18 not elevated (Loops 1 and 2 not dominant)
+
+**Characteristic presentation:** Central face, follicular distribution; worsened by UV and outdoor activity; NOT primarily stress-triggered; NOT primarily nocturnal/heat-triggered.
+
+**Mechanism:** UV → squalene peroxidation in sebaceous unit (Malassezia lipases amplify). Squalene-OOH activates NLRP3 in sebocytes (inflammasome-competent, distinct from macrophages). Local IL-1β → neutrophil infiltration → elastase + MPO → more squalene-OOH → self-sustaining. This loop is SKIN-LOCAL and does not respond to systemic BHB/colchicine unless sebocyte penetration is sufficient.
+
+### Loop 4 Intervention Sequence
+
+| Step | Intervention | Mechanism | Notes |
+|------|-------------|-----------|-------|
+| 1 | **SPF 50+ broad-spectrum daily** | UV blockade → squalene-OOH production reduced | Primary loop input blockade; most important single intervention |
+| 2 | **Topical niacinamide 4% cream BID** | NAD+→SIRT1→NLRP3 K496 deacetylation in sebocytes; direct squalene-OOH reduction | Draelos 2019 J Cosmet Dermatol; apply morning + evening |
+| 3 | **Topical vitamin E serum 1-2%** | Squalene peroxide scavenger in sebum; breaks peroxidation-NLRP3 cycle upstream | Apply before UV exposure; Thiele 2001 Free Radic Biol Med |
+| 4 | **Azelaic acid 15% gel BID** (if LL-37 also elevated) | KLK5 inhibition → less LL-37 → less TRPV1-Ca²⁺ input to sebocyte NLRP3 | Second-line; add if Loop 1 + Loop 4 concurrent |
+| 5 | **Ketoconazole 2% shampoo foam × 5 min before rinse, 2-3×/week** (if Malassezia active) | Reduces Malassezia lipase activity → reduces arachidonic acid substrate for squalene-OOH generation | Use if concurrent seb derm component; clinical assessment or PCR |
+
+**Note on ivermectin and Loop 4:** Ivermectin (Demodex-clearing) reduces Loop 4 inputs by: (a) removing B. oleronius TLR2 priming of sebocytes, (b) reducing Malassezia anaerobic microenvironment via follicular occlusion reduction. Ivermectin addresses Loop 4 inputs but does not directly suppress sebocyte NLRP3 — niacinamide + vitamin E address the sebocyte-intrinsic loop activity remaining after Demodex clearance.
+
+See `numerics/run_025_sebaceous_nlrp3_local_loop.md`.
+
+---
+
+---
+
+## Part 8j: Akkermansia muciniphila Protocol
+
+**When to use:** Second-tier addition for gut barrier, indicated when Node C I-FABP remains elevated (>200 pg/mL) after 8-12 weeks of:
+- Dietary fiber 25-35g/day (varied sources)
+- Exogenous butyrate 4-6g/day (sodium/calcium butyrate)
+
+**Rationale for sequencing (butyrate first, Akkermansia second):**
+Exogenous butyrate at 4-6g/day bypasses the Akkermansia → F. prausnitzii → endogenous butyrate trophic chain. It works independently of microbiome colonization status. Akkermansia supplementation addresses the TLR2/Amuc_1100 → tight junction mechanism (a DIFFERENT pathway than butyrate's HDAC → tight junction gene expression) and the physical mucus barrier. These are additive, not redundant.
+
+### Supplementation
+
+| Parameter | Specification |
+|-----------|--------------|
+| Form | Pasteurized A. muciniphila (heat-stable Amuc_1100 survives GI; safe for immunocompromised) |
+| Dose | ~3.8 × 10^10 CFU equivalent/day (Depommier 2019 Nat Med dose) |
+| Timing | With largest meal (food + mucus secretion creates substrate) |
+| Duration | 3 months before reassessing Node C |
+| Prebiotic co-supplement (optional) | Polyphenol extract (pomegranate, cranberry, or grape seed) — expands endogenous Akkermansia; inulin/FOS provides mucin precursor galactose substrates |
+
+**What Akkermansia adds that butyrate does not:**
+- Amuc_1100 → TLR2 → tight junction upregulation (independent of HDAC)
+- Mucus layer remodeling → physical barrier thickness maintained
+- Trophic support for F. prausnitzii → endogenous butyrate production recovery (slower, months)
+
+**What butyrate adds that Akkermansia does not:**
+- Immediate HDAC inhibition → Foxp3 CNS2 demethylation → Treg stability
+- VDR upregulation for vitamin D synergy
+- Enterocyte fuel (direct metabolic support)
+
+**Zinc interaction:** Zinc (Part 8h) + Akkermansia + butyrate = three independent gut barrier mechanisms. Zinc restores IAP (LPS detoxification) + ZO-1 assembly; Akkermansia provides TLR2/Amuc_1100 tight junction signaling; butyrate provides HDAC → tight junction gene expression. All three can be used simultaneously without competition.
+
+See `numerics/run_026_akkermansia_muciniphila.md`.
+
+---
+
+## Part 8k: Sulforaphane Protocol
+
+**When to use:** Consider for any of the following indications:
+- Loop 3 (HERV-W) activity (NF-κB supplement to colchicine)
+- Loop 4 (sebaceous NLRP3) in UV-exposed skin (systemic antioxidant complement to topical vitamin E)
+- ME/CFS with mitochondrial damage (CoQ10 + NMN + SFN triad)
+- Refractory gut barrier compromise despite butyrate + Akkermansia (enterocyte cytoprotection)
+
+**Mechanistic positions:**
+
+| Loop/Mountain | Mechanism | Synergy with |
+|--------------|-----------|-------------|
+| Loop 3 (HERV-W/NF-κB) | Nrf2 → CBP/p300 competition → NF-κB transcription ↓ | Colchicine (IKK blockade) |
+| Loop 4 (sebaceous NLRP3) | Nrf2 → GPx + GSH → squalene-OOH intracellular scavenging | Topical vitamin E (extracellular sebum) |
+| ME/CFS (Complex I) | Nrf2 → HO-1 → CO → PGC-1α → mitochondrial biogenesis | CoQ10 600mg + NMN 500mg |
+| M1 (gut barrier) | Nrf2 → HO-1 → enterocyte cytoprotection + bilirubin NF-κB ↓ | Butyrate, Akkermansia |
+
+### Supplementation
+
+| Parameter | Specification |
+|-----------|--------------|
+| Form | Broccoli sprout extract standardized to sulforaphane content OR stabilized SFN product |
+| Anti-inflammatory dose | 30mg SFN/day (Nrf2 induction in PBMCs, Fahey 2015) |
+| ME/CFS mitochondrial dose | 50mg SFN/day (PGC-1α response is dose-dependent) |
+| Timing | With largest meal (myrosinase activity requires food matrix; raw/cold preferred) |
+| Commercial options | Avmacol, TruBroc, Sulforaphane Gold (standardized products) |
+
+**Drug interactions:** SFN induces CYP1A2 and CYP2B6 (secondary to Nrf2 → CAR/PXR pathway).
+- Colchicine: metabolized by CYP3A4 — minimal SFN interaction expected; safe co-administration
+- Warfarin: CYP2C9 — not directly affected by SFN; but HO-1/bilirubin may confound INR interpretation
+- Review medications for CYP1A2/2B6 substrates before starting (theophylline, clozapine, efavirenz)
+
+**Note for Loop 3 patients:** SFN + colchicine 0.5mg BID = complementary NF-κB suppression via
+two independent mechanisms. This combination is not in any standard protocol but is mechanistically
+justified and OTC (SFN) + generic (colchicine). No known pharmacokinetic interaction.
+
+See `numerics/run_027_sulforaphane_nrf2.md`.
+
+---
+
+*Compiled: 2026-04-12 | Post-Phase 4 sixth extension synthesis*
+*Sources: attempts 001-019, numerics runs 001-027, phase3_synthesis.md, resolution_biology.md*
+*Framework status: 8 mountains, 27+ mechanisms (6 strong candidate, 13 candidate, 4 convergence nodes)*
+*Parts 8j/k added: Akkermansia second-tier gut barrier protocol, Sulforaphane multi-mountain bridge protocol*
 *Part 9 confidence unchanged: assembly is research-grade synthesis requiring physician review*
 *De-escalation criteria: see results/resolution_biology.md*
 *Next update: when T-index v3 measurements or genetic floor panel results are available*
