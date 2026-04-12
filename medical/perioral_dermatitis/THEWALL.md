@@ -192,3 +192,141 @@ POD as a medical research problem is essentially closed — the 4-mountain integ
 The research question for POD is no longer "what causes it?" or "what treats it?" The research question is "how do we get caregivers and primary-care clinicians to recognize it and correctly apply the treatment in time?"
 
 See `anti_problem.md` for the Phase 4 analysis of what would falsify this entire model.
+
+---
+
+## Phase 4 Dysbiosis Framework Import — 2026-04-12
+
+### Steroid Rebound Explained at Molecular Level
+
+The compliance wall (Wall Type A) is maintained partly because caregivers lack a mechanistic
+model for the rebound. The dysbiosis framework provides this model:
+
+```
+Topical steroid (chronic) → glucocorticoid receptor (GR) → NF-κB suppressed → KLK5 activity ↓ →
+    LL-37 production ↓ → NLRP3 priming ↓ → visible inflammation suppressed (apparent improvement)
+    SIMULTANEOUSLY: local immune suppression → Demodex proliferates (standard known mechanism)
+
+Steroid withdrawal →
+    1. KLK5 REBOUND: GR suppression lifted → KLK5 transcription + activity surges above baseline
+       (mTORC1 disinhibited → KLK5 mRNA ↑) → LL-37 ↑↑ → TLR2 + TRPV1 simultaneous activation
+    2. NLRP3 DISINHIBITION: GR → NF-κB inhibition was suppressing NLRP3 priming; now NF-κB
+       is active again → NLRP3 primed → any K+ efflux signal (from Demodex viroporin-like activity
+       or from keratinocyte stress) → NLRP3 activates → IL-1β burst → acute inflammatory response
+    3. Demodex IMMUNE RESPONSE: suppressed T cell response now re-activates against expanded
+       Demodex population → TLR2 primed by B. oleronius + Demodex antigenic load
+
+    TOTAL: three simultaneous inflammatory mechanisms re-activate → the rebound
+```
+
+**Clinical use of this mechanism for caregiver communication:**
+The rebound is NOT an allergic reaction or a worsening infection. It is the PREDICTABLE consequence
+of three inflammatory brakes being released simultaneously. The underlying disease is now VISIBLE
+for the first time (steroids were masking it). Treatment (metronidazole, ivermectin, doxycycline)
+addresses the actual causes; the inflammation will subside as treatment takes effect.
+
+### TRPV1: The Mechanism of POD Burning and Stinging
+
+The burning/stinging symptom of POD (and especially its rebound) is TRPV1-mediated:
+- Chronic steroid → TRPV1 expression suppressed (GR → TRPV1 transcription ↓ at ARE)
+- Steroid withdrawal → TRPV1 upregulated (post-suppression rebound)
+- LL-37 rebound (KLK5 rebound above) → direct TRPV1 agonist (Buhl 2017 J Allergy Clin Immunol)
+- Substance P (neuropeptide, elevated under stress + perioral sensitization) → TRPV1 threshold ↓
+→ TRPV1 fires at body temperature → burning without visible cause
+
+**Practical implication:** The burning/stinging in POD rebound is not bacterial infection pain — it
+is neurogenic TRPV1 activation. It responds to TRPV1 desensitization (not to oral antibiotics
+given for burning alone). Capsaicin 0.025% (BID × 6 weeks, after the acute rebound has resolved)
+desensitizes TRPV1 and reduces burning recurrence. Do NOT apply during active rebound (paradoxical
+worsening from initial TRPV1 agonism before desensitization).
+
+See `../dysbiosis/numerics/run_015_trpv1_neurogenic_flushing.md`.
+
+### Zinc Deficiency as POD Risk Factor
+
+Zinc deficiency → KLK5 hyperactive (Zn²⁺ inhibits KLK5 serine protease at histidine residues).
+In zinc-deficient patients, the KLK5/LL-37 loop threshold is chronically lower → easier to
+initiate POD from any upstream trigger (steroid, Demodex, contactant).
+
+**Clinical note:** Acrodermatitis enteropathica (severe zinc deficiency) produces perioral lesions
+clinically similar to POD — the perioral location of zinc deficiency dermatosis is not coincidental.
+In adults with refractory POD: check serum zinc. Zinc glycinate 25-30mg/day if deficient.
+
+See `../dysbiosis/numerics/run_024_zinc_deficiency.md`.
+
+### Loop 4 Topicals for Perioral Skin (Sebaceous NLRP3)
+
+Sebocytes in perioral pilosebaceous units express the full NLRP3 inflammasome. UV + Malassezia
+lipases → squalene peroxide → sebocyte NLRP3 → IL-1β in perioral units. In POD that persists
+after Demodex treatment (ivermectin) + contactant removal + steroid withdrawal:
+
+- **Topical niacinamide 4% cream BID:** NAD+→SIRT1→NLRP3 K496 deacetylation in sebocytes;
+  also reduces KLK5 indirectly (NF-κB blunted → less KLK5 priming). Safe for perioral skin.
+- **SPF 30+ daily:** UV is the primary squalene peroxidation driver for Loop 4.
+- Avoid topical vitamin E immediately around mouth (can cause contact dermatitis in perioral zone
+  in sensitive patients; test on arm first).
+
+See `../dysbiosis/numerics/run_025_sebaceous_nlrp3_local_loop.md`.
+
+*Updated: 2026-04-12 | Phase 4 dysbiosis framework cross-pollination*
+*Steroid rebound: triple mechanism — KLK5 mTORC1 rebound + NLRP3 disinhibition + Demodex immune re-activation*
+*TRPV1: burning/stinging is neurogenic (TRPV1), not bacterial; capsaicin desensitization after acute phase resolves*
+*Zinc deficiency → KLK5 hyperactive → lower POD threshold; check serum zinc in refractory cases*
+*Loop 4 topicals: niacinamide 4% + SPF for perioral sebaceous NLRP3 after Demodex/contactant addressed*
+
+---
+
+### C. acnes and Loop 4 in Perioral Context (run_038 import)
+
+**POD + acne comorbidity — shared Loop 4 mechanism:**
+Perioral pilosebaceous units are colonized by BOTH Malassezia and C. acnes. In POD patients
+with concurrent acne-prone skin, BOTH Loop 4 triggers are active simultaneously:
+- C. acnes TLR2 → NF-κB → NLRP3 priming (Signal 1)
+- C. acnes porphyrins + UV/blue light → squalene-OOH (Signal 2)
+- Malassezia lipase → squalene-OOH (Signal 2, second source)
+
+**Blue light devices — contraindicated in POD/combined phenotype:**
+Blue light (415nm) phototherapy for acne excites C. acnes porphyrins → singlet oxygen → squalene-
+OOH burst → transient NLRP3 flare. In POD, NLRP3 is already sensitized (steroid rebound phase,
+Demodex, mTORC1 rebound). Blue light therapy in the perioral area → squalene-OOH burst →
+NLRP3 spike → worse POD flare. Contraindicated in perioral area, especially during POD active phase.
+
+**If blue light cannot be avoided:**
+Pre-treat perioral area with niacinamide 4% cream + tocopherol oil immediately before blue light
+session (not just SPF — SPF blocks UV but blue light is VISIBLE, not UV; standard SPF does not
+protect against 415nm blue light squalene-OOH). Topical antioxidant application is the only
+available squalene-OOH scavenger option.
+
+See `../dysbiosis/numerics/run_038_cutibacterium_acnes_loop4.md`.
+
+*Updated: 2026-04-12 | C. acnes/Loop 4 cross-pollination from dysbiosis run_038*
+*Blue light phototherapy contraindicated in perioral area during active POD: C. acnes porphyrins → squalene-OOH → NLRP3 flare*
+*Pre-treat with niacinamide 4% + tocopherol if blue light unavoidable (SPF does not block 415nm blue light)*
+
+---
+
+### Capsaicin Desensitization for POD Burning/Stinging (run_042 import)
+
+**TRPV1/SP mechanism in POD burning:**
+POD burning and stinging symptoms are driven by TRPV1+ nociceptor sensitization (as previously
+noted in run_025 context: TRPV1 → SP + CGRP). Capsaicin desensitization 0.025% × 4 weeks
+depletes SP from TRPV1+ nerve endings → burning/stinging ↓ + NK1R-mediated mast cell activation
+↓ → neurogenic component of POD resolved.
+
+**Important POD-specific caveat:**
+Do NOT start capsaicin during active flare or in the steroid rebound phase (skin is hypersensitive;
+initial burning will be severe and patient will stop treatment). Timeline:
+1. Weeks 1-4: complete steroid withdrawal + topical azelaic acid
+2. Weeks 4-8: acute flare resolved, skin barrier partially recovered
+3. Week 8+: introduce capsaicin 0.025% at night to a SMALL test area (forehead/chin margin —
+   not full perioral). If tolerated, expand to full perioral zone over 2 weeks.
+
+**Additional benefit: SP → NK1R → KLK5 reduction:**
+SP depletion → less NK1R activation on keratinocytes → less KLK5 transcription → lower
+LL-37 → less Loop 1 KLK5 self-amplification. Addresses the Loop 1 neurogenic arm in POD.
+
+See `../dysbiosis/numerics/run_042_mast_cell_stabilization.md`.
+
+*Updated: 2026-04-12 | Capsaicin/TRPV1 cross-pollination from dysbiosis run_042*
+*POD: capsaicin desensitization for burning/stinging — START at Week 8 only (after acute flare resolved)*
+*SP depletion → dual benefit: neurogenic burning ↓ (TRPV1/NK1R mast cell) + Loop 1 KLK5 neurogenic entry ↓*

@@ -177,3 +177,59 @@ SFN can be added at Week 2-3; no interaction with CoQ10 or NMN.
 See `numerics/run_027_sulforaphane_nrf2.md` (dysbiosis directory).
 
 *Updated: 2026-04-12 | Dysbiosis framework Phase 4 cross-pollination | Three loops | HPA exhaustion | TRPV1 PEM | Sulforaphane mitochondrial triad*
+
+---
+
+### IFN-α → NLRP3 Bridge in ME/CFS: Low-Grade IFN-α Drives Microglial NLRP3 Sensitization (run_040 import)
+
+**ME/CFS IFN signature:** ME/CFS has a documented low-grade type I IFN signature (Montoya 2017
+PNAS: elevated IFN-α + IFN-β at the cytokine protein level; confirmed across multiple cohorts).
+The same M3 mechanism (HERV-W/EBV/enteroviruses → pDC → IRF7 → IFN-α) is plausible in ME/CFS.
+
+**IFN-α → NLRP3 in microglial cells (CNS NLRP3):**
+Microglia express IFNAR and respond to IFN-α with ISGF3 → NLRP3 ↑. In ME/CFS with persistent
+low-grade IFN-α: microglial NLRP3 constitutively elevated → same ATP/ROS signal → MORE IL-1β
+in CNS → neuroinflammation → symptom amplification (cognitive impairment, fatigue, pain).
+
+**Therapeutic implication:**
+BHB + colchicine (Loop 2 arm) now has additional rationale in ME/CFS beyond the gut-systemic
+NLRP3 bridge — chronic low-grade IFN-α → microglial NLRP3 primed → blocking assembly at
+the NLRP3 level is relevant even if the upstream IFN-α source cannot be fully eliminated.
+
+**Existing ME/CFS protocol integration:**
+Add to ME/CFS protocol: IF (12-14h) or 1,3-butanediol 15g/day (if extended fasting not tolerated
+given PEM risk) → BHB → microglial NLRP3 assembly block. Complements existing
+CoQ10 + NMN + SFN mitochondrial triad.
+
+See `../dysbiosis/numerics/run_040_ifna_nlrp3_m3_loop2_bridge.md`.
+
+*Updated: 2026-04-12 | IFN-α/NLRP3 cross-pollination from dysbiosis run_040*
+*ME/CFS: persistent low-grade IFN-α → microglial NLRP3 primed via ISGF3 → neuroinflammation amplification; BHB has CNS NLRP3-block rationale beyond gut-systemic axis*
+
+---
+
+### Spermidine and Mitophagy: Primary Pathology Target in ME/CFS (run_041 import)
+
+**Mitophagy deficiency is documented in ME/CFS (Missailidis 2020):**
+ME/CFS PBMCs → reduced mitophagy flux → damaged mitochondria accumulate → chronic mtROS →
+Complex I inhibition → energy deficit → PEM (post-exertional malaise) amplified.
+
+**Spermidine → mitophagy → clears accumulated damaged mitochondria:**
+Spermidine → EP300 acetyltransferase inhibition → Beclin-1 deacetylated → VPS34 active →
+autophagosome formation → PINK1/Parkin mitophagy → damaged mitochondria with low ΔΨm removed.
+Result: reduced mtROS → less microglial NLRP3 activation (via run_040 IFN-α bridge + direct
+mtROS Signal 2 source) → less neuroinflammation → PEM threshold raised.
+
+**ME/CFS-specific rationale for prioritizing spermidine:**
+Unlike rosacea (where mtROS → NLRP3 is SECONDARY to other triggers), in ME/CFS the damaged
+mitochondria ARE the primary pathology. Spermidine → mitophagy targets the root cause of
+mtROS generation in ME/CFS, not just a downstream consequence.
+
+**Protocol addition:** 1-3mg spermidine/day (wheat germ 2 tbsp/day or SpermidineLIFE 1.2mg
+capsule/day). Add AFTER CoQ10 + NMN + SFN mitochondrial triad established (Week 4+). Not a
+substitute for the triad — complements by clearing cells that triad cannot rescue.
+
+See `../dysbiosis/numerics/run_041_spermidine_autophagy_nlrp3.md`.
+
+*Updated: 2026-04-12 | Spermidine/mitophagy cross-pollination from dysbiosis run_041*
+*ME/CFS: damaged mitochondria are primary pathology; spermidine → mitophagy → removes source; more mechanistically targeted in ME/CFS than in rosacea context*

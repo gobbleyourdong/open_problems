@@ -96,3 +96,32 @@ Risankizumab (IL-23 inhibitor) is FDA-approved for BOTH psoriasis (ULTIMMA) and 
 C-section delivery + early antibiotic exposure → reduced SCFA during neonatal Treg imprinting → lower Foxp3 CNS2 methylation → lower structural Treg floor. Under chronic IL-23 stimulation (psoriatic skin), this floor is the final limit on Treg suppression of Th17. **Prediction:** psoriasis patients with C-section/early antibiotics have higher baseline PASI, lower Foxp3+/CD4+ ratio, and slower biologic response rate (needs more IL-23 suppression to compensate for lower Treg ceiling).
 
 *Updated: 2026-04-12 | Dysbiosis Phase 4 cross-pollination | Three non-responder loops | VDR-butyrate synergy | SEQUENCE trial M1↔M4 | M6 floor severity predictor*
+
+---
+
+### Vitamin K2/MK-7: Fifth NF-κB Suppressor for Loop 3 in Psoriasis (run_039 import)
+
+**Bacteroidetes depletion is documented in psoriasis (independent of T1DM):**
+Scher 2015 eLife: psoriatic skin + psoriatic arthritis → Bacteroidetes ↓ (specifically
+Bacteroides + Prevotella; MK-7 producers). Psoriasis patients are thus K2-deficient from gut
+dysbiosis by the same mechanism as T1DM, independent of T1DM comorbidity.
+
+**K2 → Gas6/Axl → SOCS1 → NF-κB suppression in psoriasis:**
+Loop 3 (HERV-W NF-κB sustaining loop) is a psoriasis non-responder mechanism. SOCS1 from
+Gas6/Axl signaling inactivates the assembled IKK complex → IκBα not phosphorylated → NF-κB p65
+stays sequestered → HERV-W promoter not driven → Loop 3 broken. This is the fifth independent
+NF-κB mechanism alongside colchicine, sulforaphane, vagal CAP, and CAPE.
+
+**Psoriasis-specific: MGP + psoriatic arthritis calcification:**
+Enthesitis calcification (calcaneal spurs, tendon calcification at entheses) is driven partly
+by inadequate MGP-mediated calcium crystal inhibition. MK-7 180µg/day → MGP carboxylated →
+entheseal calcium deposition reduced. This is a secondary benefit for psoriatic arthritis patients.
+
+**Add to psoriasis protocol:** MK-7 180µg/day (with dietary fat; warfarin contraindication check).
+Complements existing colchicine + sulforaphane + VDR-butyrate protocol for Loop 3 NF-κB arm.
+
+See `../dysbiosis/numerics/run_039_vitamin_k2_mk7_nfkb.md`.
+
+*Updated: 2026-04-12 | K2/MK-7 cross-pollination from dysbiosis run_039*
+*Bacteroidetes ↓ in psoriasis (Scher 2015) → K2 deficiency → Gas6/Axl SOCS1 → NF-κB disinhibited: Loop 3 amplified*
+*MK-7 180µg/day adds fifth NF-κB mechanism; also addresses entheseal calcification in psoriatic arthritis*

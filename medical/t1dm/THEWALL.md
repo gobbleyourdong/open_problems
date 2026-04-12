@@ -107,3 +107,47 @@ Adjusted expectation: B* probability 50–65% (vs 65–80% for early-onset). Not
 The T1DM cure is an inequality reversal. The inequality has been formally proved achievable under protocol conditions (Lean 4, 0 sorry). The protocol is $170/month and available today. The biology has been validated at the genomic, transcriptomic, and computational levels. The mathematics is machine-certified.
 
 **The wall is a blood draw and a bottle of trehalose.** Everything else is done.
+
+---
+
+## Intra-Islet NLRP3 Loop — β Cell Self-Destruction Mechanism (run_043 import from dysbiosis)
+
+**β cells express NLRP3 and produce their own IL-1β:**
+Hyperglycemia → β cell mtROS (Complex I/III) + palmitate → ceramide → NLRP3 Signal 2 →
+β cell NLRP3 activation → caspase-1 → pro-IL-1β matured → secreted BY β CELLS THEMSELVES.
+
+**Intra-islet loop:**
+```
+One damaged β cell → IL-1β → adjacent β cells → IL-1R → NF-κB → iNOS → NO → β cell apoptosis
+    AND → NLRP3 upregulation in adjacent β cells → more IL-1β
+    AND → DAMPs (ATP, HMGB1) from dying β cells → NLRP3 Signal 2 in neighboring β cells
+→ Self-amplifying β cell destruction independent of immune cell infiltration
+```
+
+**Why anakinra (IL-1Ra) failed in T1DM RCTs (Moran 2013):**
+IL-1Ra blocks IL-1R but NOT NLRP3 assembly → caspase-1 still cleaves gasdermin D → β cell
+pyroptosis proceeds. The signal is produced but the receptor is blocked — production and the
+non-IL-1β caspase-1 substrates are unaffected.
+
+**NLRP3 inhibitors outperform IL-1Ra mechanistically:**
+Colchicine → NLRP3+ASC colocalization blocked → caspase-1 NOT activated → IL-1β NOT produced
+AND gasdermin NOT cleaved → BOTH IL-1β-mediated and pyroptotic death prevented simultaneously.
+
+**Urgent implication for new-onset T1DM:**
+New-onset T1DM + C-peptide > 0.2 nmol/L + elevated IFN-α2 (Node D, if measured):
+- β cell NLRP3 is being primed by BOTH IFN-α/ISGF3 (M3 arm) AND intra-islet IL-1β autocrine
+- Initiate NLRP3 inhibition protocol within first 3-6 months of diagnosis:
+  - Colchicine 0.5mg BID (NLRP3 assembly block)
+  - 12-14h IF or 1,3-butanediol (BHB = K+ efflux block)
+  - Spermidine 1-3mg/day (mitophagy → clears damaged β cell mitochondria)
+  - Melatonin 0.5mg (K496 deacetylation in β cells)
+
+**Novel RCT prediction:** Colchicine 0.5mg BID in new-onset T1DM → C-peptide preservation at
+12 months exceeds anakinra-treated historical controls and insulin-only controls. No such trial
+exists; this is the largest untested mechanistic prediction in the T1DM framework.
+
+See `../dysbiosis/numerics/run_043_beta_cell_nlrp3_intraislet.md` for full analysis.
+
+*Updated: 2026-04-12 | β cell NLRP3 intra-islet loop import from dysbiosis run_043*
+*Anakinra failure explained: IL-1Ra → blocks signaling not production; gasdermin pyroptosis proceeds; NLRP3 inhibitors (colchicine) prevent both pathways*
+*Priority: C-peptide positive new-onset T1DM + elevated Node D → NLRP3 inhibition is β cell preservation; start within 3-6 months of diagnosis*

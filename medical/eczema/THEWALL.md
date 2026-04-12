@@ -105,3 +105,84 @@ This explains why eczema worsening seems correlated with both gut symptoms AND s
 
 *Updated: 2026-04-12 | M8 amplifier + M6 floor + M1↔M8 loop imported from dysbiosis framework*
 *See `../dysbiosis/attempts/` for full mechanism derivations*
+
+---
+
+## Phase 4 Second Extension — 2026-04-12
+
+### NLRP3 Loop 2 Treatment in Eczema
+
+NLRP3 is active in eczema keratinocytes via an eczema-specific alarmin cascade:
+barrier disruption → keratinocyte IL-33 release → IL-33 → Th2 priming + NLRP3 activation
+simultaneously. NLRP3 → caspase-1 → IL-1β → amplifies Th2 cytokine production (IL-4/IL-13).
+
+**If eczema persists despite standard protocol:** BHB (IF 20:4 or exogenous) + colchicine 0.5mg BID
+blocks NLRP3 at K+ efflux step (BHB) and assembly step (colchicine). Addresses the IL-33 →
+NLRP3 → IL-1β loop that runs in parallel with the gut Th2 axis.
+
+### Zinc Deficiency in Eczema
+
+Serum zinc is commonly low in eczema (particularly childhood extensive eczema):
+- Zinc → skin antimicrobial defense; deficiency → S. aureus colonization easier (S. aureus
+  colonizes 90% of eczema lesions; releases α-toxin → further barrier disruption → more IL-33)
+- Zinc → ZO-1/occludin tight junctions in skin → zinc deficiency → epidermal barrier dysfunction
+- Zinc → Foxp3 zinc finger domains → "ghost Tregs" → less Th2 suppression per Treg counted
+
+**Add serum zinc to eczema workup.** Zinc glycinate 25-30mg/day. S. aureus decolonization
+(dilute bleach baths already endorsed) + zinc repletion → dual S. aureus suppression.
+
+### Akkermansia + Sulforaphane for Eczema Gut-Skin Axis
+
+**Akkermansia (pasteurized):** Second-tier gut barrier addition if I-FABP elevated after 8-12
+weeks of fiber + butyrate. Amuc_1100 → TLR2 → tight junction upregulation complements butyrate's
+HDAC mechanism → less allergen translocation → less systemic Th2 priming.
+
+**Sulforaphane 30-50mg SFN/day:** Nrf2 → HO-1 → enterocyte cytoprotection (reduces I-FABP) AND
+Nrf2/CBP competition → NF-κB ↓ in skin (reduces IL-33 amplification from secondary NF-κB
+activation in keratinocytes). Add after butyrate foundation established.
+
+### Vagal CAP in Eczema — Itch-Scratch Sympathetic Loop
+
+Itch → scratching → stress arousal → sympathetic dominance → vagal withdrawal → CAP suppressed →
+NF-κB ↑ in keratinocytes → more IL-33 → more NLRP3 + Th2 → more itch. CAP restoration breaks
+this loop:
+
+- Diaphragmatic breathing (4-7-8 pattern): respiratory sinus arrhythmia → direct vagal activation
+- Quercetin 500mg BID: mast cell stabilizer → reduces itch trigger intensity that initiates loop
+- Cold compress on lesional skin: local cold receptor → vagal → α7-nAChR → NF-κB ↓ locally
+
+HRV monitoring (wearable) identifies low-vagal-tone nights (poor sleep → sympathetic dominant)
+that predict next-day eczema flare risk — allows preemptive quercetin/breathing intervention.
+
+*Updated: 2026-04-12 | Phase 4 second extension | NLRP3 Loop 2 treatment | Zinc workup | Akkermansia second-tier | Sulforaphane | Vagal CAP itch-scratch loop*
+
+---
+
+### M1→M8 C5a Bridge and Mast Cell Stabilization in Eczema (run_042 import)
+
+**C5a → mast cell degranulation in eczema:**
+Eczema → skin barrier disruption → allergen penetration → IgE sensitization → CLASSICAL mast
+cell activation (IgE pathway). But ALSO: gut dysbiosis (documented in eczema; Kirjavainen 2001)
+→ LPS → complement → C5a → dermal mast cell → INDEPENDENT of allergen/IgE. This means gut
+repair (butyrate + fiber + Akkermansia restoration) directly reduces mast cell-driven itch-scratch
+by reducing C5a generation — gut intervention is a skin itch intervention.
+
+**SP/TRPV1 arm in eczema itch:**
+TRPV1+ itch-initiating neurons in eczema skin are sensitized (increased TRPV1 expression in
+eczema lesional skin vs. controls; Stander 2004). SP → NK1R on mast cells AND keratinocytes →
+TSLP production → Th2 priming (the canonical eczema atopic march). Capsaicin desensitization
+(0.025% × 4 weeks) would theoretically reduce SP-mediated TSLP production → reduce Th2 priming.
+
+**Practical limitation in eczema:** Active eczema lesions have disrupted barrier; capsaicin
+on broken skin → intense burning → compliance fails. Apply ONLY to clinically clear skin areas
+for maintenance (between flares), not to active lesions.
+
+**Quercetin (already in protocol above) is the primary OTC mast cell stabilizer for eczema:**
+Quercetin 500mg BID → cAMP ↑ → mast cell granule release ↓ for BOTH IgE-mediated (allergen)
+AND non-IgE-mediated (C5a, SP) inputs. No tolerance; safe long-term.
+
+See `../dysbiosis/numerics/run_042_mast_cell_stabilization.md`.
+
+*Updated: 2026-04-12 | Mast cell stabilization cross-pollination from dysbiosis run_042*
+*M1→M8 C5a bridge: gut dysbiosis → C5a → dermal mast cell → itch independent of allergen; gut repair = skin itch intervention*
+*Capsaicin limited to clear-skin maintenance in eczema (active lesions contraindicated due to barrier disruption)*

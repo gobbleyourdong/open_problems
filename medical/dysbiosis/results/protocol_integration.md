@@ -219,7 +219,12 @@ primary driver.
 - Timing: evening dose, after food (gastric acid protection)
 
 **Gut barrier support:**
-- **Butyrate (sodium butyrate or tributyrin)**: Foxp3 epigenetic imprinting via HDAC inhibition at CNS1/CNS3; **TARGET 4-6g/day** (FOXP1 mechanism requires HDAC-level dose — confirmed in broader CVB campaign; 600mg is commercially common but sub-therapeutic for Treg induction). Titrate up from 600mg over 4-6 weeks to minimize GI gas. Enteric-coated preferred. Tributyrin is better tolerated than sodium butyrate. Alternative: 40g+/day dietary fiber + LGG probiotic approaches similar endogenous butyrate production.
+- **Butyrate — REVISED DELIVERY PROTOCOL (run_032):** Foxp3 epigenetic imprinting via HDAC inhibition at CNS1/CNS3. Oral sodium butyrate 4-6g/day delivers only 15-25% to colon (the target site); the rest is absorbed in small intestine. **Revised approach provides 3-4× more colonic exposure:**
+  - **Phase 1 (Weeks 0-8):** Microencapsulated/enteric-coated butyrate 2-3g/day (60-80% colonic delivery) PLUS tributyrin 3g/day (40-60% colonic, no odor — better compliance). Combined effective colonic dose ≈ 8-10g/day unprotected equivalent.
+  - **Phase 2 (Weeks 8+):** Add resistant starch (raw potato starch, uncooked, Bob's Red Mill) starting 5g/day → increase to 20-30g/day over 4 weeks. Ferments to butyrate in situ (100% colonic). Requires F. prausnitzii present — Phase 1 butyrate feeds F. prausnitzii → enables Phase 2.
+  - **Long-term:** Resistant starch 20-30g/day (endogenous) + tributyrin 1-2g/day (supplementary). Colonic-targeted; sustainable; lower cost than high-dose sodium butyrate.
+  - **VDR synergy:** GALT Treg VDR upregulation requires colonic butyrate; colonic-targeted delivery improves the butyrate × vitamin D synergy (run_018) by 2-4× vs. unprotected sodium butyrate.
+  - See `numerics/run_032_butyrate_delivery.md`.
 - Berberine: SCFA-like effect + NLRP3 suppression; 500mg BID with food
 - Glutamine: enterocyte fuel + tight junction support; 5g BID (especially if I-FABP elevated)
 - Zinc carnosine: documented mucosal repair at gastric/gut level; 75mg/day
@@ -288,7 +293,7 @@ loop that was unmasked, not caused, by dupilumab.
 
 | Timepoint | Measurement | Purpose |
 |-----------|-------------|---------|
-| Baseline | Node C (I-FABP) + Node D (IFN-α2 Simoa) + P. gingivalis IgG + CXCL10 + hsCRP + zinc | Set T-index v3 baseline |
+| Baseline | Node C (I-FABP) + Node D (IFN-α2 Simoa) + P. gingivalis IgG + CXCL10 + hsCRP + zinc + **total IGF-1 + IGFBP-3** | Set T-index v3 baseline; calculate IGF-1/IGFBP-3 molar ratio (>0.20 = elevated free IGF-1 → glycemic optimization priority) |
 | Baseline | M6 history questionnaire | Structural floor modifier |
 | Baseline | Periodontal assessment | If P.g. seropositive: start scaling before other additions |
 | Week 4-8 | IFN-α2 Simoa repeat (if elevated at baseline) | Assess response to antiviral protocol |
@@ -637,10 +642,643 @@ See `numerics/run_027_sulforaphane_nrf2.md`.
 
 ---
 
-*Compiled: 2026-04-12 | Post-Phase 4 sixth extension synthesis*
-*Sources: attempts 001-019, numerics runs 001-027, phase3_synthesis.md, resolution_biology.md*
-*Framework status: 8 mountains, 27+ mechanisms (6 strong candidate, 13 candidate, 4 convergence nodes)*
-*Parts 8j/k added: Akkermansia second-tier gut barrier protocol, Sulforaphane multi-mountain bridge protocol*
+---
+
+## Part 8l: Loop 1 Non-Responder — Topical Rapamycin Protocol
+
+**Indication:** Loop 1 (LL-37 elevated) non-responder after:
+- Ivermectin 1% cream BID × 12 weeks (Demodex cleared)
+- Azelaic acid 15% gel BID × 12 weeks (KLK5 protease activity inhibited)
+- LL-37 remains elevated; papulopustular rosacea continues
+
+**Mechanism position:** Azelaic acid inhibits KLK5 ACTIVITY. Topical rapamycin inhibits KLK5
+TRANSCRIPTION (mTORC1 → S6K1 → KLK5 mRNA). These are sequential steps — dual blockade is
+more complete than either alone. Rapamycin also inhibits sebocyte mTORC1 → SREBP-1 → sebum
+production (Loop 4 co-benefit).
+
+### Treatment
+
+| Parameter | Specification |
+|-----------|--------------|
+| Compound | Sirolimus (rapamycin) 0.2% in suitable cream vehicle (compounded; not commercially available) |
+| Dose/frequency | QD-BID on lesional skin only |
+| Duration | 3-month trial before reassessing serum LL-37 |
+| Avoid | Active wounds, irritated barrier-disrupted skin (mTORC1 required for wound healing) |
+
+### Treatment Ladder (Loop 1)
+
+| Level | Intervention | Target | Escalate when |
+|-------|-------------|--------|---------------|
+| 1 | Ivermectin 1% cream BID | Demodex TLR2 priming | At diagnosis |
+| 2 | Azelaic acid 15% gel BID | KLK5 protease activity | If LL-37 elevated at 12 weeks |
+| **3** | **Topical rapamycin 0.2% (add to level 2)** | **mTORC1 → KLK5 transcription** | **Azelaic acid insufficient** |
+| 4 | Anti-IL-23 biologic (guselkumab 100mg Q8W) | IL-23 → Th17 systemic blockade | Severe refractory |
+
+**Combination for Loop 1 + Loop 4 concurrent:** Rapamycin 0.2% + niacinamide 4% BID + topical
+vitamin E + azelaic acid 15% + SPF 50. Five topicals addressing both loops from multiple angles.
+
+See `numerics/run_028_topical_rapamycin_loop1.md`.
+
+---
+
+## Part 8m: M8 Vagal (CAP) Restoration Protocol
+
+**Indication:** Add to all M8-active patients (cortisol elevated, stress-triggered flares, poor
+HRV, TRPV1-dominant flushing pattern). This is the PARASYMPATHETIC ARM of M8 treatment,
+complementary to the sympathetic arm (sleep, MBSR, LDN).
+
+**Mechanism:** Vagal → cholinergic anti-inflammatory pathway → α7-nAChR on macrophages →
+IKK-β inhibited → NF-κB ↓ + HMGB1 ↓. Provides Loop 3 NF-κB suppression, Loop 2 DAMP
+clearance, and IFN-α damping in spleen — all via neural reflex, not pharmacological.
+
+### Daily CAP Protocol
+
+| Intervention | Mechanism | Dose/frequency |
+|-------------|-----------|----------------|
+| Cold shower (already endorsed) | Diving reflex → vagal → α7-nAChR | 30-60 seconds cold, BID |
+| Diaphragmatic breathing (4-7-8 pattern) | Respiratory sinus arrhythmia → vagal | 10 min BID (before bed + morning) |
+| HRV monitoring (wearable) | Vagal tone proxy; flare-risk indicator | Daily morning readout |
+
+### HRV Interpretation
+
+| HRV reading | Interpretation | Action |
+|-------------|----------------|--------|
+| High HRV (above 7-day average) | CAP active; low inflammatory risk | Standard protocol |
+| Low HRV (>15% below average) | CAP withdrawn; sympathetic dominant | Extra cold + breathing; reduce stress inputs; monitor for flare |
+| Chronically low HRV baseline | Consider autonomic neuropathy (in T1DM) or LDN 1.5-4.5mg/day | Assess T1DM neuropathy workup if HRV does not respond to cold |
+
+### NF-κB Triple Suppression (for Loop 3 / M8 overlap patients)
+
+Patients with HERV-W active (Loop 3) + M8 dominant + Loop 2 active benefit from layering all
+three NF-κB pathways simultaneously:
+
+| Agent | Target | Independent of others |
+|-------|--------|----------------------|
+| Colchicine 0.5mg BID | IKK disruption + p65 translocation blocked | Yes |
+| Sulforaphane 30mg/day | CBP/p300 competition | Yes |
+| Cold + breathing (vagal CAP) | α7-nAChR → IKK-β inhibition | Yes |
+
+All three NF-κB suppression mechanisms are independent and additive. No pharmacokinetic
+interactions between colchicine and SFN (different metabolic pathways). CAP is non-pharmacological.
+
+See `numerics/run_029_vagal_anti_inflammatory_m8.md`.
+
+---
+
+---
+
+## Part 8n: M7 Revised Protocol — Triple Red Complex
+
+**Indication:** P. gingivalis IgG positive + prior SRP with recurrence OR salivary PCR positive
+for T. denticola and/or T. forsythia in addition to P. gingivalis.
+
+**Key additions to standard M7 protocol:**
+
+T. denticola dentilisin runs a second IgA-protease self-amplifying loop — identical to P.
+gingivalis's loop but with a different enzyme. LGG sIgA restoration is countered by BOTH IgA
+proteases. Antibiotic treatment must suppress T. denticola before LGG-driven sIgA restoration
+is meaningful. T. denticola motility enables deep anaerobic pocket colonization that SRP misses.
+
+T. forsythia BspA → TLR4 → TRIF → IFN-β = oral M3 arm loading independent of P. gingivalis.
+Essential oil mouthwash (Listerine formulation) specifically disrupts T. forsythia outer sheath.
+
+### Revised M7 Sequence (Triple Red Complex Confirmed)
+
+| Step | Intervention | Target | Duration |
+|------|-------------|--------|---------|
+| 1 | M8 HPA normalization (sleep, MBSR, adaptogens) | sIgA recovery requires non-suppressed cortisol | Before or concurrent with step 2 |
+| 2 | Scaling + root planing | Physical biofilm removal | 1-2 sessions |
+| 3 | Chlorhexidine 0.12% BID | Prevent immediate recolonization | 4 weeks post-SRP |
+| 4 | Metronidazole 400mg BID | T. denticola + T. forsythia + P. gingivalis (anaerobes) | 7 days |
+| 5 | Essential oil mouthwash BID (Listerine original) | T. forsythia outer sheath disruption | Ongoing maintenance |
+| 6 | LGG 10^10 CFU/day | sIgA restoration (now effective with both IgA proteases suppressed) | 90 days |
+| 7 | Doxycycline 40mg/day | Sub-antimicrobial MMP inhibition (collagen protection) | 3 months |
+
+**Monitoring:** Salivary PCR panel (OralDNA Labs) at baseline + 3 months post-treatment.
+Target: all three red complex species reduced to below threshold at 3 months.
+
+**Standard M7 protocol (P. gingivalis alone):** Unchanged (see Part 3, M7 arm section).
+
+See `numerics/run_030_oral_red_complex.md`.
+
+### Thyroiditis Cross-Reference (for T1DM patients)
+
+25-30% of T1DM patients have concurrent autoimmune thyroid disease (polyglandular syndrome).
+The same dysbiosis framework mechanisms apply: M3 (CVB → IFN-α → Th1/CD8+ → anti-TPO),
+M4 (zinc ghost Tregs + VDR), Loop 2 (NLRP3 in thyrocytes), Loop 3 (HERV-W in Hashimoto's).
+
+**Thyroid-specific addition:** Selenium 200µg/day (selenomethionine) → Cooper 2000 meta-analysis:
+40-60% anti-TPO titer reduction. Thyroid has highest selenium demand per gram of any tissue.
+GPx4 + deiodinase (T4→T3 conversion) + thioredoxin reductase are all selenium-dependent.
+
+**Screen at T1DM diagnosis:** anti-TPO + anti-Tg + TSH + FT4. If positive with normal TSH:
+start protocol NOW (intervention window before follicle destruction). Do not wait for TSH to rise.
+
+See `../thyroiditis/THEWALL.md` for full thyroiditis analysis.
+
+---
+
+*Compiled: 2026-04-12 | Post-Phase 4 eighth extension synthesis*
+*Sources: attempts 001-019, numerics runs 001-030, thyroiditis/THEWALL.md, phase3_synthesis.md, resolution_biology.md*
+*Framework status: 8 mountains, 31+ mechanisms (6 strong candidate, 17 candidate, 4 convergence nodes)*
+*Parts 8n added: M7 triple red complex revised protocol + T. denticola dentilisin second IgA protease loop*
+*Thyroiditis cross-reference: selenium 200µg/day; anti-TPO screening at T1DM diagnosis*
 *Part 9 confidence unchanged: assembly is research-grade synthesis requiring physician review*
 *De-escalation criteria: see results/resolution_biology.md*
 *Next update: when T-index v3 measurements or genetic floor panel results are available*
+
+---
+
+## Part 8o: Circadian Disruption — Shift Worker Protocol
+
+**Indication:** Patient reports rotating or night shifts, irregular sleep schedule, or HRV suppressed
+with no identifiable psychological stressor. M8 BMAL1 arm is active when circadian rhythm is
+disrupted beyond what sleep hygiene alone can address.
+
+**Mechanism:** Shift work → BMAL1 amplitude ↓ 30-60% in macrophages → NLRP3 transcription
+disinhibited (BMAL1 arm, run_035) PLUS melatonin suppressed → SIRT1 → K496 not deacetylated
+(melatonin arm, run_022). Double NLRP3 disinhibition from a single occupational exposure.
+
+### Shift Worker M8 Protocol
+
+| Intervention | Mechanism | Evidence | Timing |
+|-------------|----------|---------|--------|
+| Time-restricted eating (TRE, 8-10h window) | Peripheral clock re-synchronization via mealtime nutrient cues independent of light schedule | Chaix 2019 Cell Metab: TRE in night workers → improved metabolic markers | Fixed daily eating window regardless of shift timing |
+| Morning light therapy (10,000 lux, 20-30 min) | SCN re-entrainment → peripheral clock synchrony → BMAL1 amplitude improved | Established for circadian re-entrainment in shift workers | Immediately after waking (regardless of clock time) |
+| Melatonin 0.5mg | SIRT1/K496 arm even when BMAL1 arm is disrupted | Run_022 dosing | 60-90 min before intended sleep |
+| Colchicine 0.5mg BID | NLRP3 assembly block — compensates for elevated NLRP3 protein from BMAL1 deficiency | Misawa 2013; Loop 2 evidence | Standard dosing |
+
+**Priority order for shift workers:** TRE first (lowest barrier; addresses root peripheral clock
+mechanism) → add light therapy if TRE insufficient → melatonin 0.5mg always (addresses sleep arm)
+→ colchicine (if NLRP3-driven inflammation still elevated after circadian normalization attempts).
+
+**Note:** REV-ERBα agonism (SR9009) directly activates the BMAL1→NLRP3 repression mechanism
+but is pre-clinical only; not recommended OTC.
+
+See `numerics/run_035_circadian_bmal1_nlrp3.md`.
+
+---
+
+## Part 8p: Propolis/CAPE — Fourth NF-κB Suppressor and Multi-Mountain OTC
+
+**Indication:** Loop 3 (NF-κB sustaining HERV-W transcription) not adequately suppressed with
+existing three-pathway approach (colchicine + sulforaphane + vagal CAP). Or: topical antifungal
+for M2 Malassezia preferred over prescription ketoconazole (OTC option). Or: M7 mouthwash
+alternative to chlorhexidine (no staining, no taste alteration).
+
+**Mechanism:** CAPE (caffeic acid phenethyl ester) → dual NF-κB block: (1) IKKβ catalytic site
+inhibition → IκBα not phosphorylated; (2) p65 Cys38 alkylation → p65 cannot bind κB DNA.
+Co-present quercetin → NLRP3 NACHT ATPase inhibition (MCC950-like). Propolis thus provides
+NF-κB priming block (CAPE) + NLRP3 activation block (quercetin) simultaneously.
+
+### Propolis Protocol by Application
+
+| Application | Form | Dose | Target |
+|------------|------|------|--------|
+| Oral (Loop 3 NF-κB + NLRP3) | Standardized propolis extract (≥5% CAPE) | 300-500mg BID with food | Loop 3 NF-κB sustaining + NLRP3 NACHT inhibition |
+| Topical (M2 Malassezia) | Propolis tincture 20-30% diluted 1:3-1:5 in carrier oil (argan/jojoba) | Apply BID to seb derm/perioral/scalp areas | Malassezia CYP51 inhibition (same target as ketoconazole) |
+| Mouthwash (M7) | 2-3% propolis in water OR commercial propolis mouthwash | 30mL BID × 4 weeks post-SRP | P. gingivalis + T. denticola + T. forsythia (MIC inhibitory) |
+
+**Contraindication:** Bee/pollen allergy → cross-reaction risk in ~5-15% of bee-allergic patients.
+Patch test before topical use; start oral at low dose if allergy history uncertain.
+
+**Bioavailability caveat:** CAPE oral bioavailability uncertain — intestinal esterases may hydrolyze
+CAPE → caffeic acid before systemic absorption. Clinical anti-inflammatory evidence is empirical
+(CRP reduction in RCTs) but plasma CAPE levels not confirmed. This limits confidence in the oral
+Loop 3 arm; the topical and mouthwash applications (direct contact, no systemic absorption required)
+have higher confidence.
+
+**Additive with colchicine for Loop 3:**
+- Colchicine: IKK complex FORMATION blocked (upstream)
+- CAPE: IKKβ catalytic activity + p65 DNA binding blocked (downstream)
+- Together: three-point NF-κB block
+
+See `numerics/run_036_propolis_cape_nfkb.md`.
+
+---
+
+*Compiled: 2026-04-12 | Post-Phase 4 ninth extension synthesis*
+*Sources: attempts 001-019, numerics runs 001-036, all sibling THEWALL.md files*
+*Framework status: 8 mountains, 36+ mechanisms | Four NF-κB suppressors | Five M8 mechanisms | Four NLRP3 inhibition pathways*
+*Parts 8o-8p added: Circadian shift worker protocol (BMAL1/TRE) + Propolis/CAPE multi-mountain OTC*
+*Next update: when T-index v3 measurements, genetic floor panel, or BHB pharmacokinetics analysis available*
+
+---
+
+## Part 8q: Vitamin K2 (MK-7) — Fifth NF-κB Suppressor + T1DM Vascular Protection
+
+**Indication:** All T1DM + dysbiosis patients. Gut dysbiosis depletes Bacteroidetes (MK-7
+producers) → functional K2 deficiency is probable in T1DM with established M1 dysbiosis.
+Additionally relevant for patients with dp-ucMGP >400 pmol/L (confirmed K2 insufficiency).
+
+**Why T1DM-specific:** M1 dysbiosis → Bacteroidetes ↓ → MK-7 synthesis ↓ → Gas6 not gamma-
+carboxylated → Axl/Mer TAM receptor signaling impaired → SOCS1 not upregulated → IKK-β
+assembled complex remains active → NF-κB not restrained. M1 simultaneously activates NF-κB
+(LPS/TLR4) AND removes its restraint (K2 deficit). Restoring K2 addresses the restraint arm.
+
+### MK-7 Protocol
+
+| Parameter | Specification |
+|-----------|--------------|
+| Form | MK-7 (menaquinone-7), not MK-4; natto-derived or synthetic all-trans |
+| Dose | 180µg/day |
+| Timing | With a fat-containing meal (fat-soluble vitamin; bile acids required) |
+| Monitoring | dp-ucMGP at baseline + 3 months; target <200 pmol/L |
+| Contraindication | Warfarin (direct K antagonism) — check anticoagulant status |
+| Cost | ~$10-20/month |
+
+**Three benefits from single intervention:**
+1. Gas6/Axl/SOCS1 → NF-κB suppression (fifth independent pathway, NLRP3 priming reduced)
+2. MGP carboxylation → vascular calcification inhibited (T1DM complication prevention)
+3. Osteocalcin/GPRC6A → peripheral insulin sensitization (improves glycemic control → M5 effect)
+
+**Lab to add at T-index baseline:** dp-ucMGP (desphospho-uncarboxylated Matrix Gla Protein) —
+specialty assay (VitaK/LabCorp). If unavailable: presume functional K2 deficiency in T1DM +
+established gut dysbiosis and supplement empirically.
+
+See `numerics/run_039_vitamin_k2_mk7_nfkb.md`.
+
+---
+
+## Part 8r: BHB Protocol Extension — Exogenous 1,3-Butanediol for Non-Fasting NLRP3 Blockade
+
+**Indication:** T1DM patients for whom >12h fasting is contraindicated (hypoglycemia risk,
+eating disorder history, pediatric). Or: Loop 2 (IL-18-driven) not responding to 12-14h IF
+alone and extended fasting is not safe.
+
+**Mechanism:** 1,3-Butanediol → hepatic ADH → β-hydroxybutyrate → plasma BHB 1.5-2.5 mM at
+60-90 min → above 500 µM NLRP3 IC50 for 2-3h (Youm 2015 threshold). GRAS-classified. Practical
+cost (~$15-30/month at 15g/day).
+
+### Exogenous BHB Protocol
+
+| Parameter | Specification |
+|-----------|--------------|
+| Form | 1,3-Butanediol (liquid) |
+| Dose | 15g once daily; start at 7-10g × 2 weeks, then titrate to 15g |
+| Timing | Morning (to extend overnight fast's BHB window) |
+| Safety gate | Blood glucose must be <180 mg/dL before dosing; do NOT use if glucose >250 mg/dL |
+| Monitoring | Abbott Precision Xtra ketone meter at 60 min post-dose; target >0.5 mM |
+| Duration | Ongoing as needed; re-assess at 12 weeks (Loop 2 markers: IL-18, CRP) |
+| Contraindications | Uncontrolled T1DM; DKA risk; fever/illness; alcohol (both use ADH → competition) |
+
+**Combination with IF:** 1,3-BD can be combined with modified IF (12h fast → 1,3-BD at hour 12
+→ extends NLRP3 blockade 2-3h further without extending the fast). Net NLRP3 coverage per day:
+~12h endogenous (fasting) + 2-3h exogenous (1,3-BD) = ~14-15h.
+
+**Alternative form (research/high-resource):** Ketone ester 25g/day (Cox 2016: peak BHB 3.3 mM,
+3-4h duration) — pharmacologically superior but ~$1,000/month; not practical for chronic use.
+
+See `numerics/run_037_exogenous_bhb_pharmacokinetics.md`.
+
+---
+
+*Compiled: 2026-04-12 | Post-Phase 4 tenth extension synthesis*
+*Sources: attempts 001-019, numerics runs 001-039, all sibling THEWALL.md files*
+*Framework status: 8 mountains, 39+ mechanisms | Five NF-κB suppressors | Five M8 mechanisms | Four NLRP3 inhibition pathways*
+*Parts 8q-8r added: Vitamin K2/MK-7 (fifth NF-κB suppressor + vascular protection) + 1,3-butanediol exogenous BHB extension*
+*Next update: IFN-α → NLRP3 direct bridge analysis; mast cell stabilization; spermidine/autophagy*
+
+---
+
+## Part 8s: T-Index Revision — Node D (IFN-α2 Simoa) as Loop 2 Co-Treatment Trigger
+
+**New architectural implication from run_040:** M3 IFN-α directly primes NLRP3 (ISGF3 →
+NLRP3 ISRE). Node D elevation → Loop 2 NLRP3 protein constitutively elevated from BOTH
+NF-κB priming (Node C / gut leakage) AND IFN-α priming (Node D / M3 arm).
+
+**T-index decision logic update:**
+
+| Node D (IFN-α2) | Node C (I-FABP) | Clinical implication |
+|----------------|----------------|---------------------|
+| Normal | Normal | Standard protocol; no Loop 2 priority |
+| Normal | Elevated | Gut repair first; Loop 2 treatment standard |
+| Elevated | Normal | **Loop 2 treatment urgently even with normal gut barrier** — IFN-α is the NLRP3 primer; M3 intervention (sleep, colchicine NF-κB arm) co-treatment |
+| Elevated | Elevated | **Double NLRP3 priming — Loop 2 treatment at highest priority; both Node C and Node D interventions simultaneously** |
+
+**Loop 2 treatment hierarchy remains unchanged:**
+1. BHB (12-16h IF or 1,3-butanediol 15g/day if fasting contraindicated)
+2. Colchicine 0.5mg BID
+3. Melatonin 0.5mg
+4. Zinc 25mg/day
+
+**M3 intervention for Node D reduction (reduces IFN-α priming source):**
+- Sleep quality (reduces pDC IFN-α production — sleep deprivation → pDC activation)
+- Colchicine NF-κB arm (reduces HERV-W transcription → less MSRV-Env → less TLR4 → less IFN-α)
+- Gut repair (less LPS → less TLR4 → TRIF → less IFN-β → less autocrine NLRP3 priming)
+
+**β cell preservation note (for early/new-onset T1DM):**
+If C-peptide > 0.2 nmol/L at diagnosis: Node D elevation → IFN-α priming β cell NLRP3 →
+accelerated β cell destruction. M3 intervention (especially sleep + colchicine) should be
+initiated urgently alongside insulin therapy to preserve residual β cell function.
+
+See `numerics/run_040_ifna_nlrp3_m3_loop2_bridge.md`.
+
+---
+
+*Compiled: 2026-04-12 | Post-Phase 4 eleventh extension synthesis*
+*Sources: attempts 001-019, numerics runs 001-040, all sibling THEWALL.md files*
+*Framework status: 8 mountains, 40+ mechanisms | Five NF-κB suppressors | Five M8 mechanisms | Four NLRP3 inhibition pathways*
+*Part 8s added: T-index Node D / Loop 2 co-treatment decision matrix; β cell preservation urgency for C-peptide positive T1DM*
+*Architectural change: M3 and Loop 2 are connected via IFN-α → NLRP3 ISRE — not independent pathways*
+*Next update: spermidine/autophagy analysis; F. prausnitzii monitoring threshold definition; mast cell stabilization*
+
+---
+
+## Part 8t: Spermidine — Fifth NLRP3 Inhibition Pathway via Mitophagy
+
+**Indication:** Loop 2 (IL-18 elevated, gasdermin D activation suspected) not fully controlled
+with BHB + colchicine + melatonin + zinc. Or: patient cannot achieve adequate IF for BHB
+(T1DM hypoglycemia) AND 1,3-butanediol is in use but NLRP3 markers still elevated. Spermidine
+addresses a mechanistically distinct NLRP3 arm (Signal 2 source removal) not addressed by
+any of the four existing inhibition pathways.
+
+**Mechanism:** Spermidine → EP300 acetyltransferase inhibition → Beclin-1 deacetylation →
+mitophagy (PINK1/Parkin) → damaged mitochondria removed → mtROS, mtDNA, cardiolipin (all
+NLRP3 Signal 2 activators) eliminated before NLRP3 receives the activation signal.
+
+### Spermidine Protocol
+
+| Parameter | Specification |
+|-----------|--------------|
+| Target dose | 1-3mg spermidine/day |
+| Food-first | Wheat germ 2 tbsp/day (IF no celiac) OR mushrooms 150g + aged cheese 30g + legumes 100g/day |
+| Supplement | SpermidineLIFE 1.2mg/capsule once daily (with food) |
+| Cost | ~$30-50/month (supplement); dietary sources ~$5-10/month additional food cost |
+| Timing | With food (polyamine absorption is food-dependent) |
+| T1DM + celiac | Wheat germ contraindicated; mushroom/legume route; supplement is gluten-free |
+| Sequencing | Level 2: add after BHB + colchicine established (does NOT replace BHB/colchicine) |
+
+**Complementary to IF:** IF → mTORC1 → ULK1 → autophagy (mTORC1-dependent pathway);
+spermidine → EP300 → Beclin-1 → autophagy (EP300-dependent, active in FED state). They are
+additive — spermidine provides mitophagy between IF windows when mTORC1 is active.
+
+See `numerics/run_041_spermidine_autophagy_nlrp3.md`.
+
+---
+
+## Summary: Five NLRP3 Inhibition Pathways (Phase 4 Complete Reference)
+
+All five pathways are mechanistically orthogonal — no single drug/nutrient covers more than two:
+
+| Pathway | Compound | Target | Confidence |
+|---------|---------|--------|-----------|
+| 1. K+ efflux blockade | BHB (IF or 1,3-butanediol) | Pannexin-1/P2X7 | High (Youm 2015 Cell) |
+| 2. Assembly blockade | Colchicine 0.5mg BID | NLRP3+ASC colocalization | High (Misawa 2013) |
+| 3. K496 deacetylation | Melatonin 0.5mg → SIRT1 | NLRP3 conformational gate | Moderate (Xia 2018) |
+| 4. P2X7/ATPase block | Zinc 25mg/day | P2X7 receptor + NLRP3 ATPase | Moderate (Bhatt 2020) |
+| 5. Signal 2 source removal | Spermidine 1-3mg/day | mtROS/mtDNA/cardiolipin via mitophagy | Moderate (Eisenberg 2016) |
+
+## Summary: Five NF-κB Suppression Pathways (Phase 4 Complete Reference)
+
+| Pathway | Compound | Target | Confidence |
+|---------|---------|--------|-----------|
+| 1. IKK complex assembly | Colchicine 0.5mg BID | Microtubule → IKK scaffold | High |
+| 2. CBP coactivator competition | Sulforaphane 30-50mg/day | Nrf2 → p300 unavailable | Moderate |
+| 3. IKKβ inhibitory phosphorylation | Vagal CAP (cold, breathing) | α7-nAChR → JAK2/STAT3 → IKKβ | Moderate |
+| 4. IKKβ active site + p65 alkylation | Propolis/CAPE 300-500mg BID | IKKβ catalytic + p65 Cys38 | Moderate (bioavailability caveat) |
+| 5. SOCS1 → IKK complex inactivation | MK-7 180µg/day | Gas6 → Axl → SOCS1 → NEMO | Moderate |
+
+---
+
+*Compiled: 2026-04-12 | Post-Phase 4 twelfth extension synthesis*
+*Sources: attempts 001-019, numerics runs 001-041, all sibling THEWALL.md files*
+*Framework status: 8 mountains, 41+ mechanisms | FIVE NLRP3 inhibition pathways | FIVE NF-κB suppressors | FIVE M8 mechanisms*
+*Part 8t added: spermidine/mitophagy — fifth NLRP3 inhibition pathway*
+*Summary tables: all five NLRP3 and NF-κB pathways with confidence levels*
+*Next update: mast cell stabilization arm; F. prausnitzii monitoring threshold definition*
+
+---
+
+## Part 8u: Mast Cell Stabilization — Quercetin + Capsaicin for M8 Effector and Loop 1 Neurogenic
+
+**Indication:** M8-dominant rosacea (flushing > papulopustular) that persists after stress
+reduction + sleep + HRV improvement. Patient identifies: "I flush with heat, sun, wine, hot
+drinks even when calm." OR: Loop 1 (KLK5 hyperactivity) that is partly driven by neurogenic
+SP/NK1R input rather than purely microbial TLR2 stimulation.
+
+**Key insight:** Mast cell receives four inputs (CRH, SP/TRPV1, C5a, squalene-OOH). Standard
+M8 protocol addresses only CRH. Quercetin + capsaicin address SP/NK1R arm and stabilize mast
+cell at the effector level regardless of input.
+
+### Mast Cell Stabilization Protocol
+
+| Intervention | Dose/Route | Target | Notes |
+|-------------|-----------|--------|-------|
+| Quercetin phytosome | 500mg BID with food | All mast cell inputs (cAMP/Ca2+) | Already present if using propolis (run_036); if propolis used, no additional quercetin needed |
+| Capsaicin 0.025% cream | Once daily × 4 weeks → 2-3×/week maintenance | SP/NK1R arm + Loop 1 KLK5 neurogenic | Initial burning expected; start small area; avoid eye/nasal area; apply at night |
+
+**Dual-mountain benefit of capsaicin:**
+SP depletion → NK1R on mast cells NOT triggered (M8 ↓) + NK1R on keratinocytes NOT triggered
+(KLK5 not induced → Loop 1 neurogenic entry ↓). Order: establish KLK5 topical treatment
+(azelaic acid) first; add capsaicin at week 3-4 when acute phase is manageable.
+
+**Sequence with existing protocol:**
+Week 1-2: Standard M8 (sleep, MBSR, cold/breathing); Start azelaic acid  
+Week 3: Add capsaicin 0.025% at night (after azelaic acid) — small area initially  
+Week 4+: Add quercetin 500mg BID (or propolis with quercetin already covers this)  
+Month 2: Assess M8 flushing frequency; if CGRP-dominant flushing persists (hot drink trigger
+specifically, not sun/heat), discuss anti-CGRP option with prescriber
+
+**M1→M8 gut-flushing link:** gut repair (butyrate + fiber + I-FABP monitoring) reduces C5a
+generation → dermal mast cell C5aR1 input ↓ → M8 flushing reduced even without dedicated
+mast cell stabilizer. Node C improvement will show as M8 flushing reduction — this is the
+mechanism.
+
+See `numerics/run_042_mast_cell_stabilization.md`.
+
+---
+
+*Compiled: 2026-04-12 | Post-Phase 4 thirteenth extension synthesis*
+*Sources: attempts 001-019, numerics runs 001-042, all sibling THEWALL.md files*
+*Framework status: 8 mountains, 42+ mechanisms | Five NLRP3 pathways | Five NF-κB suppressors | Five M8 mechanisms | Four mast cell inputs*
+*Part 8u: mast cell stabilization — quercetin (already in propolis) + capsaicin (dual M8/Loop 1 SP depletion)*
+*M1→M8 C5a bridge formalized: gut repair is a direct mast cell stabilization intervention via complement*
+
+---
+
+## Part 8v: M7 Extended — H. pylori Screening and Eradication Protocol
+
+**When to screen:** Rosacea patient with EITHER: (a) dyspeptic symptoms (heartburn, early
+satiety, epigastric pain, nausea, bloating), OR (b) first-degree family history of gastric
+cancer or peptic ulcer disease, OR (c) recalcitrant M8-dominant rosacea not responding to
+standard protocol within 12 weeks.
+
+**Mechanism:** H. pylori CagA → NF-κB → NLRP3 priming (Signal 1) + VacA → K+ efflux →
+NLRP3 activation (Signal 2). Both signals simultaneously from a single gastric pathogen.
+H. pylori-positive rosacea patients have 2.47× higher odds of rosacea (Gravina 2015 meta-
+analysis) and 62-80% show rosacea improvement after eradication.
+
+### H. pylori Protocol
+
+| Step | Action | Notes |
+|------|--------|-------|
+| 1. Screen | Stool H. pylori antigen test (sensitivity 94%, specificity 97%) | Preferred for current infection vs. serology |
+| 2. If positive: eradicate | Triple therapy: PPI + amoxicillin 1g BID + clarithromycin 500mg BID × 14 days | Quadruple if clarithromycin resistance suspected |
+| 3. Concurrent | LGG 10^10 CFU/day (start Day 1, continue 90 days) | Prevents P. gingivalis gut colonization during PPI-induced acid suppression |
+| 4. Stop PPI | Day 15 (immediately after 14-day antibiotic course) | Restores gastric acid → closes P. gingivalis transit window |
+| 5. Confirm | UBT or stool antigen at 4-6 weeks (≥2 weeks after last PPI) | False negative if PPI too recent |
+| 6. Assess | Rosacea flare frequency at 3 and 6 months | Improvement expected in 62-80% of H. pylori-positive cases |
+
+**T1DM note:** H. pylori eradication → HOMA-IR reduced (insulin resistance improvement; Tang
+2019). Adds metabolic benefit beyond rosacea for T1DM patients with H. pylori.
+
+**Not universal screening:** Dyspeptic symptoms or family history are the indicated triggers.
+H. pylori test-and-treat in asymptomatic rosacea is not evidence-based.
+
+See `numerics/run_044_helicobacter_pylori_m7_extension.md`.
+
+---
+
+*Compiled: 2026-04-12 | Post-Phase 4 fourteenth extension synthesis*
+*Sources: attempts 001-019, numerics runs 001-044, all sibling THEWALL.md files*
+*Framework status: 8 mountains, 44+ mechanisms | Five NLRP3 pathways | Five NF-κB suppressors | Five M8 mechanisms | M7 extended to gastric compartment*
+*Part 8v added: H. pylori M7 gastric protocol — screen, eradicate, concurrent LGG, confirm, assess response*
+*Next update: M6 rosacea integration; F. prausnitzii monitoring threshold; hepatitis cross-pollination; PCOS/IGF-1*
+
+---
+
+## Part 8w: M6 Floor Assessment and Protocol Adjustment
+
+**Indication:** Any T1DM + rosacea patient at intake. The M6 floor is a FIXED PARAMETER that
+determines protocol response ceiling. Identifying low-floor patients avoids frustration and
+sets correct expectations.
+
+**M6 floor assessment (from patient history — no lab required):**
+
+Score 1 point each:
+- C-section birth (patient's own birth, not maternal)
+- 3+ antibiotic courses in first year of life (recurrent ear infections, pneumonia)
+- Formula-fed (not breastfed, or breastfed <4 months)
+- Early childhood autoimmune disease onset (atopic dermatitis before age 3, childhood IBD,
+  juvenile arthritis)
+
+| Score | M6 floor | Expected protocol response | Protocol adjustment |
+|-------|---------|--------------------------|---------------------|
+| 0 | High | 80-90% improvement; complete remission possible | Standard protocol |
+| 1 | Moderate | 70-80% improvement; sustained management | Standard protocol |
+| 2-3 | Low | 50-70% improvement; frequent triggers remain | See below |
+| 4 | Very low | <50% improvement; expect chronic management | See below + discuss biologic ladder |
+
+**Protocol adjustments for low M6 floor (score ≥2):**
+
+| Parameter | Standard protocol | M6-adjusted protocol |
+|-----------|-----------------|---------------------|
+| Butyrate target | 4g/day | 6g/day from Day 1 (microencapsulated priority) |
+| Zinc timing | Add after Node A measured | Concurrent with butyrate from Day 1 |
+| Colchicine timing | Month 3 if Node B elevated | Month 1 (reduces Treg→Th17 trigger) |
+| IF | 12-14h goal | 14-16h goal; maximize mTORC1 suppression |
+| Response expectation | Remission possible | Improved control; symptom frequency/severity reduced |
+
+**Node A lab benchmark for M6:** Foxp3+/CD4+ ratio <15% at baseline = confirms low M6 floor.
+If M6 history and Node A <15%: protocol above applies. If M6 history but Node A ≥18%: prior
+compensatory mechanisms have partially offset M6 deficit; standard protocol.
+
+See `numerics/run_045_m6_early_life_rosacea.md`.
+
+---
+
+*Compiled: 2026-04-12 | Post-Phase 4 fifteenth extension synthesis*
+*Sources: attempts 001-019, numerics runs 001-045, all sibling THEWALL.md files*
+*Framework status: 8 mountains ALL formally analyzed | Five NLRP3 pathways | Five NF-κB suppressors | Five M8 mechanisms | 45+ mechanisms*
+*Part 8w: M6 floor assessment (4-point history score) + protocol adjustment table for low-floor patients*
+*M6 is the fixed structural limit — the ceiling of achievable response*
+*Next update: Demodex formal analysis; PCOS/IGF-1; hepatitis cross-pollination; F. prausnitzii monitoring threshold*
+
+---
+
+## Part 8x: Demodex Assessment + Ivermectin Protocol (M2 Mite Arm)
+
+**When to assess Demodex:** Papulopustular rosacea OR any rosacea phenotype not improving at
+12 weeks on standard protocol. Ivermectin is not first-line (standard NF-κB + NLRP3 protocol
+first); it is specifically indicated for Demodex-driven disease.
+
+**Mechanism:** Bacillus oleronius (endosymbiont IN Demodex) → TLR4 → dual NLRP3 activation
+(Signal 1: NF-κB priming; Signal 2: K+ efflux via peptidoglycan/NOD). Ivermectin kills Demodex
+(removes B. oleronius source) AND directly blocks NF-κB p65 nuclear entry via importin α/β-1
+= sixth NF-κB suppressor.
+
+### Demodex Protocol
+
+| Step | Action | Details |
+|------|--------|---------|
+| 1. Assess | SSSB (skin surface biopsy) at forehead/chin | ≥5/cm² = elevated density; indicates active B. oleronius TLR4 stimulation |
+| 2. Treat | Ivermectin 1% cream (Soolantra) once daily to full face | 12-16 weeks; ATTRACT trial: 50-70% papulopustule reduction |
+| 3. Combine | Colchicine 0.5mg BID concurrent | Upstream (IKK formation) + ivermectin downstream (p65 nuclear entry) = near-complete NF-κB block |
+| 4. Confirm | Repeat SSSB at 16 weeks (if available) | Target <5/cm² |
+| 5. Maintain | Ivermectin 3×/week after remission | Demodex density rebounds within 3 months of complete cessation |
+
+**T1DM note:** More sebum from IGF-1 → more Demodex food → density elevates more easily in
+T1DM → Demodex-driven B. oleronius TLR4 stimulation is a T1DM-specific amplifier. Glycemic
+control (HbA1c <7.5%) → IGF-1 ↓ → less sebum → Demodex density ↓ (indirect).
+
+**Cost:** Ivermectin 1% cream (Soolantra branded): ~$400+/month without insurance; generic
+ivermectin 1% cream: ~$30-60/month. Generic formulation is equivalent.
+
+See `numerics/run_046_demodex_rosacea_nlrp3.md`.
+
+---
+
+*Compiled: 2026-04-12 | Post-Phase 4 sixteenth extension synthesis*
+*Sources: attempts 001-019, numerics runs 001-046, all sibling THEWALL.md files*
+*Framework status: 8 mountains ALL analyzed | SIX NF-κB suppressors | Five NLRP3 pathways | Five M8 mechanisms | 46+ mechanisms*
+*Part 8x: Demodex/ivermectin protocol — when to screen, treat, maintain*
+*Ivermectin: sixth NF-κB suppressor (importin α/β-1 → p65 nuclear entry) + Demodex kill = dual mechanism*
+*All protocol parts (8a-8x) now compiled; framework mapping at its most comprehensive state*
+
+---
+
+## Part 8y: F. prausnitzii Restoration Monitoring and Gut 5-HT Normalizer
+
+**F. prausnitzii "restored" definition (previously undefined in protocol):**
+
+| Marker | Target | Method |
+|--------|--------|--------|
+| Stool F. prausnitzii relative abundance | >5% of total reads | GI microbiome PCR panel (Genova GI Effects, Biomesight, or equivalent) |
+| Fecal calprotectin | <50 µg/g | Standard fecal calprotectin ELISA (LabCorp/Quest) |
+| Fecal short-chain fatty acids | >50 mM total SCFA (butyrate >10 mM) | GI Effects extended panel (optional) |
+
+**Timing:** stool microbiome at baseline + 12 weeks post-butyrate/fiber initiation. If F.
+prausnitzii <5% at 12 weeks: increase resistant starch to 30g/day + consider Akkermansia
+second-tier (run_026: pasteurized Akkermansia supplement). Fecal calprotectin as interim
+inflammatory marker at 8 weeks.
+
+---
+
+## Part 8z: Gut Serotonin / 5-HT and Red Wine/Hot Drink Trigger
+
+**Why HbA1c <7.5% reduces rosacea flushing (serotonin mechanism):**
+T1DM hyperglycemia → mTORC1 → TPH1 ↑ in enterochromaffin cells → more EC 5-HT → elevated
+plasma 5-HT → 5-HT2A on dermal vasculature → vasodilation + mast cell sensitization.
+HbA1c <7.5% → less hyperglycemia → TPH1 ↓ → EC 5-HT normalization → less flushing trigger
+sensitivity. This is a FOURTH glycemic control → flushing benefit beyond: (1) NLRP3 priming
+↓, (2) sebum ↓, (3) Demodex density ↓.
+
+**Quercetin (propolis) triple mechanism:**
+1. Mast cell cAMP ↑ → stabilization (run_042)
+2. NLRP3 NACHT ATPase inhibition (run_036)
+3. PI3K/mTOR inhibition → TPH1 ↓ → EC 5-HT ↓ (run_047)
+Quercetin (via propolis or standalone 500mg BID phytosome) addresses M8 mast cell, NLRP3
+Loop 2 priming, AND EC serotonin — three independent flushing/inflammation arms.
+
+**Red wine/hot drink dietary guidance:**
+- Mechanism: ethanol → SERT inhibition → 5-HT accumulates + heat → TRPV1 → SP/CGRP +
+  fermentation 5-HT precursor load = three simultaneous M8 triggers
+- Practical: avoid red wine WITH hot drinks or within 2h of high-tryptophan foods (aged cheese,
+  cured meats) to prevent triple-trigger convergence; each alone is tolerable for most patients
+
+**CGRP pharmacological gap (noted):**
+Capsaicin desensitization (run_042) depletes SP but CGRP stores replenish independently.
+CGRP-direct arteriolar vasodilation persists after SP depletion in some patients (heat flushing
+CGRP-dominant component). Anti-CGRP biologics (erenumab, rimegepant) block this arm but are
+prescription and not established for rosacea flushing. Note as unaddressed arm at the OTC level.
+
+See `numerics/run_047_gut_serotonin_flushing.md`.
+
+---
+
+*Compiled: 2026-04-12 | Post-Phase 4 seventeenth extension synthesis*
+*Sources: attempts 001-019, numerics runs 001-047, all sibling THEWALL.md files*
+*Framework status: 8 mountains ALL analyzed | SIX NF-κB suppressors | Five NLRP3 pathways | Five M8 mechanisms | 47+ mechanisms | 23 gap.md extensions this session*
+*Parts 8y-8z added: F. prausnitzii monitoring definition + gut 5-HT / HbA1c-flushing fourth mechanism + quercetin triple mechanism + CGRP pharmacological gap noted*
+*Framework mapping is now at its most comprehensive state as of 2026-04-12*

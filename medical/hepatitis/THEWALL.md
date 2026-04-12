@@ -85,3 +85,34 @@ The wall for hepatitis is not mechanical — it's conceptual. Clinicians and pat
 **The solution**: pre-counsel patients and physicians: "You will likely see ALT rise in weeks 1-4. This is expected. It means the liver is clearing CVB. Monitor it. If it rises above 3× ULN or doesn't normalize by week 6, we investigate. Otherwise: this is the protocol working."
 
 One conversation at the beginning saves the entire protocol from being prematurely terminated.
+
+---
+
+## M7 → Hepatic Amplification: P. gingivalis Bacteremia + CVB Hepatitis (dysbiosis run_044 import)
+
+**P. gingivalis → portal → Kupffer cell NF-κB:**
+P. gingivalis bacteremia (from periodontitis) → P. gingivalis LPS in portal circulation →
+Kupffer cells (hepatic macrophages) → TLR4 → NF-κB → hepatic inflammatory tone ↑.
+
+**In CVB hepatitis context:**
+Concurrent P. gingivalis bacteremia + CVB hepatitis:
+- Kupffer cells already activated by P. gingivalis LPS → NF-κB primed → same CVB → MORE
+  Kupffer cell IL-6, TNF-α output → hepatic inflammation amplified
+- NF-κB-primed hepatocytes: same CVB titer → more hepatocyte apoptosis → higher ALT/AST
+- Clinical consequence: P. gingivalis-positive patients with CVB hepatitis → more severe
+  transaminase elevation; slower hepatic clearance
+
+**Prediction:** CVB hepatitis patients with concurrent periodontitis → higher peak ALT, longer
+normalization time. Periodontal treatment as adjunct in CVB hepatitis with periodontitis is
+mechanistically indicated.
+
+**M7 protocol during CVB hepatitis:**
+Propolis mouthwash (run_036: broad-spectrum anti-P. gingivalis/T. denticola/T. forsythia
+activity) + chlorhexidine 0.12% × 4 weeks → reduces oral P. gingivalis load → less portal
+bacteremia → less Kupffer cell NF-κB priming during CVB hepatitis.
+
+See `../dysbiosis/numerics/run_044_helicobacter_pylori_m7_extension.md` and run_030 for full M7 protocol.
+
+*Updated: 2026-04-12 | M7 hepatic bridge cross-pollination from dysbiosis run_044*
+*P. gingivalis → portal → Kupffer cell TLR4/NF-κB primes hepatic inflammation → amplifies CVB hepatitis severity*
+*Propolis mouthwash + chlorhexidine during CVB hepatitis: reduces oral P. gingivalis burden → less Kupffer cell amplification*
