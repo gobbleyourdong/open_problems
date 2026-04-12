@@ -769,3 +769,23 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 5. **Iron-NLRP3 additive to intraislet NLRP3 (run_043)**: macrophage iron → Fenton → NLRP3 Signal 2 in islet macrophages → adds to the intraislet NLRP3/IL-1β loop (run_043). Iron-loaded islet macrophages are more NLRP3-reactive; reducing systemic hepcidin → reducing islet macrophage iron load = complementary to colchicine/BHB NLRP3 inhibition.
 
 **Cross-reference: run_110 dysbiosis framework | Hepcidin HAMP ferroportin FPN1 iron Fenton hydroxyl radical ferroptosis GPX4 selenium HFE T1DM 8th beta cell death mechanism IL-6 STAT3 ferritin | Nemeth 2004 Drakesmith 2012 Dixon 2012 Bloomer 2022 Swaminathan 2007**
+
+---
+
+### run_111 Cross-Reference: Osteopontin (OPN/SPP1) — NOD KO Data; Dual Islet Mechanism; T1DM Activity Marker
+
+**Mechanisms specific to T1DM:**
+
+1. **OPN KO NOD mice → reduced insulitis + delayed T1DM incidence** (Rittling & Singh 2015): the most direct T1DM-OPN evidence. OPN from islet macrophages simultaneously (a) retains autoreactive T cells via CD44 ligation and (b) displaces Tregs from the islet microenvironment. This dual mechanism makes OPN uniquely damaging in T1DM islets.
+
+2. **OPN → CD44 on autoreactive T cells → islet retention**: mirror of the Treg displacement mechanism; promotes effector T cell accumulation in islets. Combined with LTB4/BLT1 islet homing (run_107), OPN provides a SECOND T cell islet-retention mechanism.
+
+3. **OPN → Th1 stability → IFN-γ sustained**: T1DM is Th1-dominant in early insulitis phase; OPN from activated macrophages → locks in Th1 commitment → sustained IFN-γ → MHC-I ↑ on β cells → CTL killing (run_025). OPN is upstream of the Th1-mediated β cell attack.
+
+4. **iOPN → MyD88 → TLR9 amplification**: Intracellular OPN in pDCs → TLR9 signaling → IFN-α production amplified. This is a new mechanism connecting OPN to Node D (IFN-α production) in T1DM. IFN-α → HERV-W/M3 mountain. OPN in pDCs amplifies the IFN-α signal already targeted by HCQ.
+
+5. **Plasma OPN as T1DM insulitis activity marker**: rising OPN (>50 ng/mL) in T1DM + rosacea patients with positive anti-islet antibodies = active insulitis; useful as optional escalation trigger for intensified gut barrier + M1 suppression protocol. Not standard of care.
+
+6. **OPN and β cell integrin αvβ3**: β cells express integrin αvβ3; OPN → αvβ3 → Src → β cell stress signaling. Not a direct death mechanism but increases β cell vulnerability to concurrent immune attack. Additive to the 8 established death mechanisms (runs through 110).
+
+**Cross-reference: run_111 dysbiosis framework | Osteopontin OPN SPP1 NOD mouse KO insulitis reduced T cell islet retention CD44 Treg displacement Th1 stability iOPN MyD88 TLR9 IFN-α pDC integrin αvβ3 β cell | Ashkar 2000 Shinohara 2006 Rittling 2015**

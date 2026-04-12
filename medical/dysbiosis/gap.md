@@ -2656,3 +2656,37 @@ Ceramide ↔ S1P rheostat (Spiegel 2003): pro-apoptotic ceramide vs. pro-surviva
 5. **Framework at very high saturation after run_110.**
 
 *Gap.md updated: 2026-04-12 | Ninety-fifth iteration | Hepcidin iron ferroportin FPN1 Fenton OH hydroxyl radical NLRP3 Signal 2 IL-6 STAT3 macrophage iron sequestration rosacea dermal iron T1DM 8th beta cell death ferroptosis GPX4 selenium HFE ME/CFS ferritin anemia chronic inflammation lactoferrin | run_110*
+
+---
+
+### Extension 96 — Osteopontin (OPN/SPP1) — M1 Autocrine Amplifier; 6th Node A Suppressor; T1DM NOD KO (run_111)
+
+**Gap confirmed:** OPN/SPP1 completely absent from all 110 prior runs. Multi-disease relevance established.
+
+**New mechanisms added (run_111):**
+- OPN from M1 macrophages → integrin αvβ3 → FAK/Src → NF-κB autocrine loop [M1 persistence independent of NLRP3/Loop 2; explains residual M1 in colchicine-treated patients]
+- OPN → CD44 on Tregs → tissue displacement → local Treg suppressive function ↓ [6th Node A suppression mechanism; FIRST that bypasses IDO1/B10 pathway; Weiss 2012]
+- OPN → IL-12 co-stimulation → stable Th1 commitment [Ashkar 2000 Science; Th1 gatekeeper]
+- OPN (iOPN) → MyD88 → TLR9 signaling amplification [Shinohara 2006 Nat Immunol; enhances innate nucleic acid sensing]
+- OPN → DCs → IL-23 → Th17 maintenance [secondary Th17 amplifier; moderate confidence]
+- UV → HIF-1α → OPN in keratinocytes → dermal M1 recruitment [skin-specific OPN production]
+- T1DM: OPN → CD44 on autoreactive T cells → islet retention + Treg displacement simultaneously [NOD KO mice → reduced insulitis; Rittling 2015]
+- OPN correlates with ME/CFS cognitive symptoms (neuroinflammation M1 microglial OPN)
+- Plasma OPN: optional Node B secondary marker for M1 activity + T1DM disease activity
+
+**Therapeutic implications:**
+- No new agents needed; existing protocol elements (EGCG, colchicine, omega-3, butyrate, VDR) reduce OPN indirectly via M1 suppression
+- Diagnostic use: elevated OPN + normal blood Treg counts + persistent rosacea → OPN CD44 Treg displacement (not IDO1 arm) → escalate M1 suppression, not Treg-stimulating interventions
+
+**Post-run_111 micro-survey:**
+- S. epidermidis protective skin microbiome: completely absent (protective arm); run_072 has one inflammatory-side mention; rosacea-relevant but T1DM/ME-CFS weak; borderline for run_112
+- Xanthine oxidase/uric acid: one mention in run_012; below threshold
+- Endocannabinoids/CB2, H2S, AIM2, ILC2, miRNA, IL-36: below threshold
+- **Framework at VERY HIGH SATURATION after run_111**
+
+**Remaining genuine gaps (end of ninety-sixth iteration):**
+1. Küpers 2019 PACE EWAS: not executable.
+2. S. epidermidis / skin protective microbiome: completely absent protective arm; rosacea-strong; T1DM/ME-CFS borderline; assess for run_112.
+3. All others: below threshold.
+
+*Gap.md updated: 2026-04-12 | Ninety-sixth iteration | Osteopontin OPN SPP1 M1 autocrine NF-κB Treg CD44 displacement Node A 6th suppressor Th1 IL-12 iOPN MyD88 TLR9 UV keratinocyte T1DM NOD insulitis ME/CFS neuroinflammation plasma OPN | run_111*

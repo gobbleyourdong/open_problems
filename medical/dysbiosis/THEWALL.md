@@ -4915,3 +4915,42 @@ This run resolves a frequent clinical frustration in ME/CFS management. Patients
 The mechanism is now clear: hepcidin from chronic IL-6 locks iron inside macrophages. Supplementing iron gives the macrophages MORE substrate for Fenton chemistry. The right answer is to reduce the IL-6 signal that drives hepcidin — which the protocol already does (NF-κB suppression, gut barrier restoration, Node B monitoring). Serum ferritin can serve as a Node B secondary marker precisely because it reflects macrophage iron loading as a proxy for IL-6/hepcidin activity.
 
 *Updated: 2026-04-12 | Phase 4 eighty-fourth extension | Hepcidin iron ferroportin FPN1 Fenton hydroxyl radical NLRP3 Signal 2 nutritional immunity IL-6 STAT3 HAMP macrophage iron dermal rosacea T1DM 8th beta cell death ferroptosis GPX4 selenium HFE hemochromatosis ME/CFS ferritin anemia chronic inflammation lactoferrin oral iron supplementation failure | run_110*
+
+---
+
+## Phase 4 Extension 85: Osteopontin — The M1 Alarm That Shuts Off the Treg Response
+
+### OPN as the Missing Link in Persistent Inflammation
+
+The framework has mapped 13 NF-κB activation mechanisms, 5 NLRP3 priming signals, 5 Node A suppression pathways, and 7 mast cell activation routes. Yet some patients maintain brisk inflammation despite seemingly adequate protocol coverage — including persistent rosacea despite documented M1 suppression and apparently intact blood Treg populations.
+
+OPN provides the missing link. OPN from M1 macrophages does two things simultaneously: it sustains the M1 state autocrinally (without requiring continued NLRP3 input) AND displaces Tregs from the inflamed tissue via CD44 competition. The result: the anti-inflammatory system is intact in the circulation but functionally absent at the site of inflammation.
+
+This explains a specific clinical phenotype: patients with NORMAL Node A Treg counts in blood + PERSISTENT local rosacea inflammation + PARTIAL response to colchicine/EGCG protocol. Their Tregs are present but not working where they need to work. Blood Treg counts (the T-index v4 Node A metric) measure circulating Tregs, not tissue Tregs — and OPN selectively displaces tissue Tregs while circulating Tregs remain unaffected.
+
+### The Th1 Gateway Function
+
+OPN's role as a Th1 gatekeeper (Ashkar 2000) is not widely appreciated clinically. In conditions where IL-12 is present but Th1 commitment is unstable (common in early-stage inflammation), OPN acts as the locking mechanism: OPN → CD44 on T cells + IL-12 receptor upregulation → STABLE, committed Th1. Without OPN, partial Th1 → reversible; with OPN, Th1 becomes locked-in.
+
+This connects directly to the M3 mountain: stable Th1 → sustained IFN-γ → HERV-W loop maintenance. OPN-driven Th1 stability is therefore a contributor to M3 loop lock-in, operating upstream of the IFN-γ → HERV-W → IFN-α amplification. Reducing OPN (via M1 suppression) → unstable/reversible Th1 → M3 loop vulnerability increases → easier to break the loop with HCQ.
+
+### T1DM: One Molecule, Dual Islet Catastrophe
+
+In the islet, OPN creates conditions for maximal autoimmune attack:
+1. CD44 on autoreactive T cells: OPN retains them in the islet
+2. CD44 on Tregs: OPN displaces them from the islet
+
+One molecule simultaneously removes the brakes and floors the accelerator. The NOD mouse data (OPN KO → reduced insulitis) is consistent with this dual mechanism. It also explains why NOD mice have such explosive insulitis once it starts — OPN from the first few activated macrophages → Treg displacement + autoreactive T cell retention → rapid escalation.
+
+### Clinical Implication: When to Suspect OPN-Mediated Treg Failure
+
+Clinical scenario:
+- Rosacea patient on full protocol (EGCG + colchicine + omega-3 + butyrate + VDR)
+- Node A measured: Foxp3+ Tregs NORMAL (>8% CD4+) in blood
+- Rosacea still active; Node B still elevated
+
+This is the OPN-Treg displacement scenario. The blood Treg count is misleading — the Tregs are there but OPN is blocking their access to inflamed skin. The correct response is NOT to add more Treg-stimulating interventions (more AKG/Vit C, more calcitriol) but to REDUCE OPN further by intensifying M1 suppression. The existing protocol elements (EGCG, colchicine, butyrate) should be optimized for dose/adherence before adding new elements.
+
+Optional: plasma OPN measurement to confirm (elevated OPN + normal Treg count + persistent inflammation = OPN-Treg displacement pattern).
+
+*Updated: 2026-04-12 | Phase 4 eighty-fifth extension | Osteopontin OPN SPP1 M1 autocrine integrin αvβ3 FAK Src NF-κB Treg CD44 tissue displacement Node A 6th suppressor T1DM islet dual mechanism Th1 gatekeeper IFN-γ M3 amplification clinical phenotype normal Treg blood persistent rosacea | run_111*

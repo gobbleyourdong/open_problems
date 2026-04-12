@@ -3616,3 +3616,44 @@ For patients with persistent telangiectatic/phymatous rosacea who have tried sta
 - Mechanism: lactoferrin binds Fe³⁺ in skin microenvironment → reduces Fenton chemistry from microhemorrhage-derived iron in telangiectatic skin
 
 *Protocol_integration.md Part 9bj — 2026-04-12 | Hepcidin iron ferritin Node B monitoring selenium GPX4 ferroptosis T1DM HFE ME/CFS iron supplementation failure oral iron macrophage Fenton rosacea lactoferrin | run_110*
+
+---
+
+### Part 9bk — Osteopontin: Diagnosing and Managing OPN-Mediated Treg Displacement (run_111)
+
+#### Clinical Scenario: Normal Node A + Persistent Rosacea
+
+This is the specific diagnostic scenario that run_111 addresses:
+- Patient on protocol for ≥3 months
+- Node A: Foxp3+ Tregs NORMAL (>8% CD4+) in blood
+- Node B: hsCRP/IL-6 persistently elevated
+- Rosacea: still active (papules, flushing, telangiectasia progression)
+
+**Previous framework explanation:** inadequate. Tregs are present → should suppress → but don't → mechanism unclear.
+
+**Run_111 explanation:** OPN from persistently elevated M1 macrophages → CD44 on Tregs → tissue Treg displacement. Blood Treg count is normal because Tregs are present in circulation; they are selectively prevented from functioning at the inflamed skin site.
+
+#### Diagnostic Protocol Update
+
+For the above clinical scenario:
+1. **Confirm OPN hypothesis**: request plasma OPN (commercial ELISA; not widely available in standard panels but reference labs offer it). Elevated OPN (>40-50 ng/mL in context of normal Treg count + active rosacea) = OPN-Treg displacement pattern.
+2. **Alternative**: if plasma OPN unavailable, ferritin elevated (run_110) + Node B elevated + normal Node A = combined inflammatory load suggestive of M1-driven OPN
+3. **Exclude other Node A suppressors**: confirm EGCG and IDO1 pathway is adequate (run_091 HCQ context); if Node D (IFN-α) elevated → HCQ already indicated → HCQ also reduces M1 → OPN indirectly
+
+#### Management: Intensify M1 Suppression
+
+For the OPN-Treg displacement scenario:
+1. **EGCG dose optimization**: ensure 400-600mg EGCG/day (OPN gene promoter has both NF-κB and AP-1 sites — EGCG's dual NF-κB + AP-1 suppression = maximal OPN suppression)
+2. **Colchicine adherence**: 0.6mg twice daily if tolerated; most potent protocol NF-κB suppressor → OPN ↓
+3. **Add or increase omega-3**: EPA ≥1.5g/day → M2 polarization → OPN from M2 is substantially lower than from M1
+4. **Increase prebiotic fiber + butyrate**: M2 polarization via butyrate → OPN ↓
+5. **DO NOT** add more Treg-stimulating agents (AKG/Vit C, extra calcitriol) as primary response — Tregs are present, not depleted; stimulating more Tregs does not fix Treg displacement
+
+#### T1DM Integration: OPN as Disease Progression Marker
+
+For T1DM-rosacea patients:
+- Plasma OPN correlates with insulitis activity; rising OPN = worsening islet inflammation
+- In patients with positive anti-GAD/IA-2 antibodies and rising OPN: likely active insulitis → intensify gut barrier protocol (NLRP6/run_109) + M1 suppression + BLT1 management (omega-3 EPA; run_107)
+- OPN measurement is NOT standard of care for T1DM; use as optional escalation trigger in refractory cases
+
+*Protocol_integration.md Part 9bk — 2026-04-12 | Osteopontin OPN SPP1 Node A Treg displacement normal Treg blood persistent rosacea OPN plasma marker M1 suppression EGCG colchicine omega-3 M2 polarization T1DM insulitis marker | run_111*

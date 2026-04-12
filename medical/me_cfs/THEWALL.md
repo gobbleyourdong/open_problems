@@ -666,3 +666,21 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 5. **PEM (post-exertional malaise) and acute hepcidin surge**: exercise/exertion in ME/CFS → acute IL-6 release → hepcidin acute surge → transient iron redistribution → acute anemia component during PEM + acute Fenton load increase. This may contribute to the worsening of fatigue and cognitive symptoms in the 24-72 hours after exertion (hepcidin-driven acute Fenton surge in macrophages/microglia).
 
 **Cross-reference: run_110 dysbiosis framework | Hepcidin HAMP ferroportin FPN1 iron Fenton ferritin elevation anemia chronic inflammation oral iron supplementation failure ME/CFS neuroinflammation microglial iron PEM post-exertional malaise | Nemeth 2004 Drakesmith 2012 Nakatomi 2014**
+
+---
+
+### run_111 Cross-Reference: Osteopontin (OPN/SPP1) — Neuroinflammation; Cognitive Symptoms; M1 Microglial Amplification
+
+**Mechanisms relevant to ME/CFS:**
+
+1. **OPN from activated microglia → CNS M1 autocrine amplification**: M1-state microglia (ME/CFS neuroinflammation; Nakatomi 2014) → OPN production → OPN → integrin αvβ3 on microglia → NF-κB → more M1 activation = same autocrine loop as peripheral macrophages but within the CNS. This contributes to the persistence of neuroinflammation in ME/CFS independent of new peripheral inflammatory signals.
+
+2. **Elevated plasma OPN correlated with ME/CFS cognitive symptoms**: some ME/CFS cohort data suggests plasma OPN elevation correlates with cognitive impairment severity (brain fog). If CNS OPN amplifies microglial M1 activity, this is consistent with the neuroinflammation explanation for cognitive symptoms in ME/CFS.
+
+3. **OPN → CD44 on CNS Tregs → neuroinflammation persistence**: Tregs patrol the CNS (via choroid plexus entry), and their suppressive function can be disrupted by OPN → CD44. CNS Treg displacement → neuroinflammatory site without Treg regulation → ME/CFS neuroinflammation persistence despite peripheral immune management.
+
+4. **OPN as systemic biomarker for ME/CFS inflammatory load**: Plasma OPN (reflecting systemic M1 macrophage + M1 microglial activity) is a candidate systemic marker of ME/CFS disease activity. Not validated for ME/CFS; mechanistically plausible.
+
+5. **Protocol implication**: M1 suppression protocol (EGCG, omega-3, butyrate) → OPN ↓ in periphery → potentially reduces OPN reaching CNS → reduces microglial OPN autocrine loop → may improve cognitive symptoms over time. This is indirect and long-latency (CNS changes slower than skin changes). Not testable without neuroimaging or CSF OPN measurement.
+
+**Cross-reference: run_111 dysbiosis framework | Osteopontin OPN SPP1 M1 microglia CNS neuroinflammation autocrine amplification CD44 CNS Treg displacement ME/CFS cognitive impairment brain fog plasma OPN | Ashkar 2000 Shinohara 2006 Weiss 2012 Nakatomi 2014**
