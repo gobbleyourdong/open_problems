@@ -1023,3 +1023,21 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 5. **6th genetic stratification — clinical action**: BACH2 rs3757247 genotyping via standard SNP panel. Risk allele carriers: (a) heightened emphasis on Vitamin A, sulforaphane (BACH2 Cys protection), Loop 4 management; (b) closer monitoring of Treg quality (CD73 expression, suppression assay, FOXP3+ instability markers); (c) earlier honeymoon-preserving intervention.
 
 *T1DM THEWALL cross-reference run_123: 2026-04-12 | BACH2 rs3757247 T1DM GWAS Cooper 2008 Nat Genet Roychoudhuri 2013 Nature Treg identity BLIMP-1 PRDM1 Cys574 oxidation ex-Treg B cell central tolerance autoreactive B cell autoantibodies IAA GADA insulitis ROS feedforward Vitamin A RA RAR RXR retinyl palmitate 6th stratification*
+
+---
+
+### Cross-reference: run_124 — LRG1/ALK1 → Diabetic Retinopathy Mechanism / Serum LRG1 Monitoring
+
+**Run_124 T1DM relevance:**
+
+1. **Diabetic retinopathy via LRG1/ALK1/Smad1/5**: Chronically elevated IL-1β/TNF-α in T1DM (insulitis + systemic inflammation + hyperglycemia → TXNIP → IL-1β) → retinal macrophage LRG1 ↑ → retinal endothelial ALK1 → Smad1/5 → VEGFR2 ↑ + ID1 ↑ → retinal neovascularization. This is the molecular mechanism bridging T1DM chronic inflammation → DR, distinct from (and additive with) hyperglycemia → PKC → VEGF. Explains why some T1DM patients with DR show inadequate response to anti-VEGF monotherapy: LRG1 drives VEGF-independent angiogenesis via VEGFR2 upregulation.
+
+2. **Serum LRG1 as DR risk biomarker**: Huang 2018 (Diabetes Care): serum LRG1 is elevated in T1DM/T2DM patients with diabetic retinopathy vs. those without; graded by DR severity (no DR < non-proliferative < proliferative). In T1DM+rosacea ETR overlap patients: serum LRG1 monitors both facial telangiectasia activity AND retinopathy risk simultaneously.
+
+3. **ARBs gain new LRG1/DR mechanism**: Ang II → macrophage IL-1β → LRG1 → retinal ALK1 → DR. ARBs → Ang II ↓ → macrophage IL-1β ↓ → LRG1 ↓ = 4th mechanistic rationale for ARBs over ACE-I in T1DM rosacea (joining run_092 systemic RAAS, run_095 bradykinin, run_099 chymase-Ang II).
+
+4. **TXNIP/LRG1/DR feedforward**: hyperglycemia → TXNIP (run_112) → IL-1β in β cells and macrophages → LRG1 ↑ → retinal ALK1 → DR. Tight glucose control → TXNIP ↓ → LRG1 ↓ = concrete molecular mechanism linking HbA1c to DR prevention.
+
+5. **Anti-LRG1 clinical development**: iSNKP20 (anti-LRG1 mAb) in clinical trials for DR. Not OTC; signals that pharmaceutical validation of LRG1/ALK1 as a DR target is underway.
+
+*T1DM THEWALL cross-reference run_124: 2026-04-12 | LRG1 ALK1 ACVRL1 Smad1 Smad5 angiogenesis diabetic retinopathy VEGFR2 ID1 IL-1beta TNF-alpha macrophage ARB Ang II TXNIP glucose HbA1c iSNKP20 serum LRG1 biomarker Wang 2020 JCI Huang 2018 Diabetes Care*

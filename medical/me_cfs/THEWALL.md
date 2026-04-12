@@ -874,3 +874,17 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 **Evidence level: LOW-MODERATE** — mechanism is well-supported in general immunology; direct BACH2 data in ME/CFS is absent; chronic PI3K/Akt and Treg dysfunction in ME/CFS is established indirectly.
 
 *ME/CFS THEWALL cross-reference run_123: 2026-04-12 | BACH2 Treg identity ex-Treg BLIMP-1 PRDM1 chronic PI3K Akt FoxO1 BACH2 loss IFN-gamma microglial neuroinflammation brain fog Vitamin A RA RAR RXR NRF2 sulforaphane Cys574 Roychoudhuri 2013*
+
+---
+
+### Cross-reference: run_124 — LRG1/ALK1 Vascular Remodeling in ME/CFS
+
+**Run_124 ME/CFS relevance:**
+
+1. **Microglial LRG1 → CNS vascular remodeling**: Chronic microglial activation in ME/CFS → IL-1β/TNF-α production from activated microglia → LRG1 from reactive microglia → brain endothelial ALK1 → Smad1/5 → aberrant CNS angiogenesis/vascular remodeling. Mechanistically plausible; no direct ME/CFS LRG1 data. May contribute to blood-brain barrier abnormalities documented in ME/CFS neuroimaging studies.
+
+2. **Post-exertional LRG1 spike**: Exercise → muscle macrophage activation → LRG1 release → systemic LRG1 elevation. In ME/CFS, exaggerated macrophage activation post-exercise (PEM) could generate an LRG1 spike → aberrant vascular remodeling responses. Speculative.
+
+**Evidence level: LOW** — mechanistic inference only; no ME/CFS-specific LRG1 data.
+
+*ME/CFS THEWALL cross-reference run_124: 2026-04-12 | LRG1 ALK1 angiogenesis microglial CNS vascular remodeling IL-1beta TNF-alpha post-exertional macrophage activation*

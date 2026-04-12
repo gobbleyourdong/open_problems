@@ -5456,3 +5456,37 @@ Chronic immune activation → persistent PI3K/Akt → FoxO1 phosphorylation/excl
 **Framework state: 123 runs | BACH2 Treg identity | Loop 4 oxidative → Treg failure FIRST BRIDGE | T1DM GWAS rs3757247 | B cell tolerance | ex-Treg IL-17/IFN-γ | Vitamin A new OTC | 6th stratification | NRF2/FMD new mechanisms.**
 
 *Updated: 2026-04-12 | Phase 4 ninety-eighth extension | BACH2 BTB-CNC MafK BLIMP-1 PRDM1 Treg identity plasticity ex-Treg Cys574 oxidation nuclear export Loop4 ROS bridge FoxO1 PI3K Akt T1DM GWAS rs3757247 Cooper 2008 Roychoudhuri 2013 Vitamin A RA RAR RXR retinyl palmitate NRF2 sulforaphane FMD FoxO1 6th genetic stratification | run_123*
+
+---
+
+### Phase 4 Extension 99 — LRG1 / ALK1 / Smad1/5 / Rosacea ETR / Diabetic Retinopathy
+
+**Run_124 — LRG1 TGF-β Co-Receptor Switch | 2026-04-12**
+
+**Mechanism summary:**
+LRG1 (secreted by macrophages under IL-1β/TNF-α/IL-6 stimulus) → binds TGF-β1 → ternary complex with ALK1 (ACVRL1)/endoglin → Smad1/5 phosphorylation → ID1, VEGFR2, Hey2 expression → endothelial sprouting angiogenesis. Opposes endogenous BMP9/GDF2 → ALK1 anti-angiogenic counter-signal. First TGF-β → ALK1 → pro-angiogenic axis in framework; all prior TGF-β coverage is ALK5/Smad2/3 (anti-inflammatory/Treg/barrier).
+
+**Rosacea — 5th ETR telangiectasia mechanism:**
+Loop 2 active → macrophage LRG1 secretion → dermal endothelial ALK1 → Smad1/5 → VEGFR2 ↑ + sprouting → telangiectasia formation. VEGF-independent: explains why existing protocol's IL-1β/VEGF reduction provides only partial ETR control. Baseline macrophage LRG1 from chronic M1 dysbiosis (persistent even between flares) explains quiescent-interval telangiectasia progression — a clinically documented pattern where new telangiectasias form despite absence of active flare. Telangiectasias = structural (require PDL/IPL once formed); LRG1 suppression prevents NEW formation.
+
+**T1DM — diabetic retinopathy via same ALK1 axis:**
+Chronically elevated IL-1β/TNF-α in T1DM (Loop 2 + hyperglycemia → TXNIP → IL-1β) → retinal macrophage (microglial) LRG1 ↑ → retinal endothelial ALK1 → Smad1/5 → VEGFR2 ↑ → pathological neovascularization. Serum LRG1 is a graded biomarker for DR severity (no DR < non-proliferative DR < proliferative DR; Huang 2018 Diabetes Care). LRG1 explains why some T1DM patients show DR progression despite anti-VEGF therapy (LRG1 drives VEGF-independent angiogenesis via VEGFR2 upregulation). ARBs (run_092) → Ang II ↓ → macrophage IL-1β ↓ → LRG1 ↓ = new mechanistic rationale for ARB protection in DR.
+
+**ME/CFS — LOW-MODERATE:**
+Chronic microglial activation → LRG1 from microglia → brain endothelial ALK1 → CNS vascular remodeling; speculative; no direct ME/CFS LRG1 data.
+
+**Kill-first:**
+- VEGF/NF-AT (run_120): VEGF-DEPENDENT; LRG1 mechanism is VEGF-INDEPENDENT. Not killed.
+- FGF-2/PTX3 (run_105): FGF-2 → FGFR → ERK; PTX3 sequesters FGF-2 (does not affect LRG1/ALK1). Not killed.
+- IL-1β suppression (existing runs): reduces LRG1 induction upstream but doesn't model LRG1/ALK1 as mechanism; doesn't address baseline LRG1 or provide monitoring point. Partially upstream, not killed.
+- TGF-β (Treg/barrier context): ALK5/Smad2/3 axis; completely different from ALK1/Smad1/5. Not killed.
+
+**Protocol additions:**
+- Serum LRG1: optional monitoring biomarker for T1DM+ETR overlap patients with progressive ETR; elevated = intensify anti-Loop-2 + ophthalmology DR screening
+- Existing anti-Loop-2 interventions gain LRG1/angiogenesis mechanistic rationale
+- ARBs gain new LRG1/DR benefit
+- Omega-3/EPA: M1 resolution → LRG1 ↓ = new anti-angiogenic omega-3 mechanism
+
+**Framework state: 124 runs | LRG1 → TGF-β → ALK1 → Smad1/5 | 5th ETR mechanism | VEGF-independent | co-receptor switch | DR mechanism | serum LRG1 monitoring | ARB/omega-3 new mechanisms.**
+
+*Updated: 2026-04-12 | Phase 4 ninety-ninth extension | LRG1 leucine-rich alpha-2-glycoprotein ALK1 ACVRL1 endoglin TGF-beta1 Smad1 Smad5 ID1 VEGFR2 angiogenesis ETR telangiectasia diabetic retinopathy BMP9 GDF2 IL-1beta TNF-alpha macrophage iSNKP20 Wang 2020 JCI Huang 2018 Diabetes Care | run_124*

@@ -4389,3 +4389,52 @@ BACH2 support stack (new in run_123):
 ```
 
 *Protocol_integration.md Part 9bx — 2026-04-12 | BACH2 BLIMP-1 PRDM1 Treg identity ex-Treg plasticity Vitamin A retinoic acid RAR RXR retinyl palmitate BACH2 Cys574 NRF2 sulforaphane GSH FoxO1 FMD PI3K Akt 6th genetic stratification rs3757247 Cooper 2008 Roychoudhuri 2013 | run_123*
+
+---
+
+## Part 9by — LRG1/ALK1 Protocol Integration (run_124)
+
+### Serum LRG1 — Optional Monitoring Biomarker
+
+**When to check:** T1DM patients with rosacea (ETR subtype) who show progressive telangiectasia formation despite active anti-Loop-2 protocol. Also: any T1DM patient at risk for diabetic retinopathy (>5 years T1DM).
+
+**Interpretation:**
+- Elevated LRG1 (above reference range) → macrophage LRG1 secretion active → ALK1 pro-angiogenic signaling ongoing
+- Action: (1) Intensify Loop 2 suppression (confirm colchicine compliance; add berberine if not already on; ensure omega-3 ≥2g EPA/day); (2) Check TXNIP/glucose control (T1DM: tight HbA1c → TXNIP ↓ → IL-1β ↓ → LRG1 ↓); (3) Ophthalmology DR screening if T1DM patient with elevated LRG1
+
+**Note:** Serum LRG1 assay is a research/specialty test; not standard clinical panel. Commercial availability varies by region. This is an *optional* node — not required for standard protocol.
+
+### New Mechanistic Rationale for Existing Interventions
+
+**Anti-Loop-2 medications (colchicine, BHB, quercetin, berberine, NF-κB suppressors):**
+All reduce macrophage activation → IL-1β/TNF-α ↓ → LRG1 transcription ↓ → ALK1/Smad1/5 ↓ → less telangiectasia formation. This adds "vascular protection via LRG1 suppression" to the existing rationale for continuous (not pulsed) anti-Loop-2 protocol.
+
+**ARBs (run_092):**
+Ang II → macrophage IL-1β → LRG1 → DR. ARBs → Ang II ↓ → LRG1 ↓ → retinal ALK1 ↓ → DR protection. This is a **new mechanistic rationale for ARBs in DR prevention** beyond their established blood pressure/RAAS effects. For T1DM+rosacea patients requiring antihypertensive: ARBs over ACE-I (4 independent mechanisms: run_092 systemic RAAS, run_095 bradykinin, run_099 chymase-Ang II, **run_124 LRG1/DR**).
+
+**Omega-3/EPA (run_089):**
+EPA → resolvin D1 → FPR2 → M1→M2 macrophage resolution → LRG1 secretion ↓ (new anti-angiogenic mechanism for omega-3 supplementation). This adds a specific vascular benefit to the existing omega-3 anti-inflammatory rationale.
+
+**Tight glucose control (T1DM):**
+Hyperglycemia → TXNIP (run_112) → IL-1β → LRG1 → DR. Tight HbA1c → TXNIP ↓ → LRG1 ↓ = a concrete vascular protection mechanism linking glucose control to DR prevention at the molecular level (beyond generic oxidative stress).
+
+### Clinical Decision Tree for ETR Progression
+
+```
+ETR patient with ongoing telangiectasia formation despite anti-inflammatory protocol:
+  
+  Step 1: Is Loop 2 fully suppressed?
+    → Confirm colchicine 0.5mg BID, BHB (FMD cycling), quercetin 1g/day, omega-3 ≥2g EPA/day
+    → Check Node B (hsCRP, IL-6) — if elevated, Loop 2 not controlled
+  
+  Step 2: If Loop 2 controlled but ETR progressive → check serum LRG1
+    → Elevated: → TXNIP/glucose axis driving LRG1 (T1DM: tighten HbA1c; ensure berberine onboard)
+    → Normal LRG1: → other ETR mechanisms active (FGF-2/run_105, S1P/run_106)
+  
+  Step 3: Dermatology referral for existing telangiectasias
+    → PDL or IPL: only modality that removes structural telangiectasias
+    → Protocol addresses new formation prevention; PDL addresses existing structures
+    → Both needed for full ETR management
+```
+
+*Protocol_integration.md Part 9by — 2026-04-12 | LRG1 ALK1 ACVRL1 TGF-beta Smad1 Smad5 angiogenesis ETR telangiectasia diabetic retinopathy serum LRG1 monitoring ARB DR omega-3 anti-angiogenic TXNIP glucose LRG1 loop PDL IPL Wang 2020 JCI Huang 2018 | run_124*

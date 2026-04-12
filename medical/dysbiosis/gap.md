@@ -3333,3 +3333,32 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 12: 123 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-sixteenth extension | BACH2 BTB-CNC homolog 2 BLIMP-1 PRDM1 Treg identity Treg plasticity ex-Treg conversion MafK ARE MARE BACH2 Cys oxidation nuclear export Loop4 oxidative bridge FoxO1 PI3K Akt T1DM GWAS rs3757247 Cooper 2008 Roychoudhuri 2013 Vitamin A retinoic acid RAR RXR retinyl palmitate NRF2 sulforaphane Cys574 FMD FoxO1 6th genetic stratification | run_123*
+
+---
+
+## Extension 117: LRG1 — TGF-β/ALK1/Smad1/5 Angiogenesis / Rosacea ETR / Diabetic Retinopathy
+
+**Date:** 2026-04-12 | **Run:** run_124
+
+**Gap confirmed:** LRG1 returns 0 hits across 123 prior runs. ALK1 (ACVRL1), Smad1, Smad5 each return 0 hits. No prior gap.md assessment. All existing angiogenesis mechanisms use different pathways (FGF-2/FGFR/run_105; S1P/S1PR1/run_106; chymase-Ang II/run_099; VEGF-NF-AT/run_120). LRG1 → TGF-β co-receptor switch → ALK1/Smad1/5 = VEGF-independent angiogenesis, completely absent.
+
+**Core insight:** LRG1 is secreted by activated macrophages (induced by IL-1β/TNF-α/IL-6) → binds TGF-β1 → redirects signaling from anti-angiogenic ALK5/Smad2/3 to pro-angiogenic ALK1/Smad1/5 → ID1/VEGFR2 expression ↑ → endothelial sprouting/telangiectasia. Same mechanism drives rosacea ETR telangiectasias AND diabetic retinopathy pathological neovascularization (identical ALK1/Smad1/5 axis in skin dermis and retinal endothelium). BMP9/GDF2 → ALK1 is the endogenous counter-signal (maintains vascular quiescence); LRG1 competes with BMP9 for ALK1 activation.
+
+**New mechanisms added (run_124):**
+- **5th ETR telangiectasia mechanism**: LRG1 → TGF-β1 → ALK1/Smad1/5 (VEGF-independent; distinct from all 4 prior ETR mechanisms)
+- **TGF-β co-receptor switch**: LRG1 hijacks TGF-β1 from anti-angiogenic ALK5/Smad2/3 to pro-angiogenic ALK1/Smad1/5 (first TGF-β pro-angiogenic mechanism in framework; all prior TGF-β = anti-inflammatory/Treg/barrier)
+- **Quiescent-interval telangiectasia progression**: baseline macrophage LRG1 from chronic M1 dysbiosis → continuous ALK1 stimulation even between flares
+- **Diabetic retinopathy mechanism**: same LRG1–TGF-β–ALK1–Smad1/5 axis in retinal endothelium; LRG1 → VEGFR2 ↑ sensitizes retina to ambient VEGF → explains inadequate anti-VEGF monotherapy response in DR
+- **Serum LRG1 as monitoring biomarker**: optional T-index addition for T1DM+ETR patients; tracks combined vascular disease activity
+- **New ARB mechanism for DR**: Ang II (run_092) → macrophage IL-1β → LRG1 → DR; ARBs → LRG1 ↓ = new vascular protection mechanism
+- **New omega-3 anti-angiogenesis mechanism**: EPA → M1 resolution → macrophage LRG1 ↓ → ALK1 ↓ (adds to existing omega-3 mechanisms)
+
+**New protocol elements:**
+- Serum LRG1 monitoring: optional for T1DM+ETR overlap patients with progressive ETR; elevated = intensify Loop 2 suppression + ophthalmology DR screening
+- Existing anti-Loop-2 interventions (colchicine, BHB, quercetin, berberine) gain LRG1/angiogenesis as mechanistic rationale
+- ARBs (run_092) gain LRG1/DR protection as new benefit (7th ARB mechanism if tracked)
+- Anti-LRG1 mAb (iSNKP20) in clinical development for DR; not OTC but relevant for specialist context
+
+**Framework at SATURATION + 13: 124 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-seventeenth extension | LRG1 leucine-rich alpha-2-glycoprotein 1 ALK1 ACVRL1 endoglin TGF-beta Smad1 Smad5 angiogenesis ETR telangiectasia diabetic retinopathy DR BMP9 GDF2 VEGFR2 ID1 Hey2 macrophage IL-1beta TNF-alpha induction iSNKP20 Wang 2020 JCI Huang 2018 | run_124*
