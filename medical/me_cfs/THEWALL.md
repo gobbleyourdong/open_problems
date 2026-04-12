@@ -1586,3 +1586,28 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
    - IRF4 dosage pathway connects viral reactivation → Tfh expansion → autonomic autoantibody production
 
 *ME/CFS THEWALL cross-reference run_159: 2026-04-12 | BATF-IRF4-TOX-terminal-CD8-exhaustion EBV-HHV6-chronic-antigen Tcf1-progenitor-to-terminal-transition IRF4-Tfh-autonomic-autoantibodies-run104 ME-CFS-cytotoxic-dysfunction | run_159*
+
+---
+
+### Cross-reference: run_160 — RIPK1/RIPK3/MLKL Necroptosis: ME/CFS RIPK3 Elevation, EBV vICA→Necroptosis→IFN-α
+
+**Relevance: MODERATE**
+
+1. **EBV vICA → necroptosis default in ME/CFS**:
+   - EBV encodes vICA (viral caspase-8 inhibitor) → caspase-8 blocked → EBV-infected cells default to RIPK3/MLKL necroptosis → mtDNA release → TLR9 → pDC IFN-α → M3 amplification
+   - RIPK3 elevated in ME/CFS PBMCs; mechanism: chronic viral antigen → sustained RIPK3 low-level activation
+   - PEM: activity → RIPK3 spike → sub-threshold necroptosis → DAMP → innate activation → post-exertional fatigue cascade
+
+*ME/CFS THEWALL cross-reference run_160: 2026-04-12 | RIPK3-elevated-ME-CFS EBV-vICA-caspase8-block necroptosis-default mtDNA-TLR9-IFN-α-M3 PEM-RIPK3-DAMP-innate | run_160*
+
+---
+
+### Cross-reference: run_161 — FOXO1/FOXO3 β Cell: FOXO3 T Cell Quiescence, Oxidative Stress
+
+**Relevance: LOW-MODERATE**
+
+1. **FOXO3 in ME/CFS T cell quiescence**:
+   - Chronic oxidative stress → FOXO3 nuclear → T cell quiescence gene program → consistent with ME/CFS immune hypo-responsiveness phenotype
+   - FOXO3 → SIRT3 → mitochondrial protection (run_090 context); FOXO3 nuclear in PEM may contribute to post-exertional T cell deactivation
+
+*ME/CFS THEWALL cross-reference run_161: 2026-04-12 | FOXO3-T-cell-quiescence-ME-CFS oxidative-stress-FOXO3-nuclear SIRT3-mitochondrial-run090 run135-Treg-FOXO1-DISTINCT | run_161*

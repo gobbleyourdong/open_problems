@@ -6638,3 +6638,63 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 159 runs | BATF-bZIP-JUN | BATF3-IRF8-cDC1 | XCR1-Clec9a-cross-presentation | MHC-I-CD8-CTL-priming | Ferris2014-T1DM-prevention | AICE-composite-Th17-pioneer | IRF4-dosage-Treg-Tfh-Th17 | eTreg-ICOS-BATF | TOX-BATF-IRF4-exhaustion | run128-cDC2-MHC-II-DISTINCT.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-thirty-fourth extension | BATF-14q24.3 BATF3-1q32.3 IRF4-6p25.3 bZIP JUN-heterodimer AICE-composite-element cDC1-XCR1-Clec9a-DNGR-1 BATF3-IRF8-cDC1-master Ferris2014-JCI-T1DM-prevention Hildner2008-Science β-cell-debris-cross-presentation Rab7-TAP1-MHC-I PLN-CD8-CTL BATF-Th17-pioneer chromatin-opening BATF-KO-Th17-failure IRF4-low-Treg IRF4-high-Th17-plasma-exhaustion eTreg-ICOS-BATF-islet TOX-BATF-IRF4-terminal-exhaustion run128-cDC2-DISTINCT-MHC-II run104-Tfh-IRF4-extension run158-mTOR-metabolic-orthogonal run152-R620W-IRF4-Treg-paradox | run_159*
+
+---
+
+### Phase 4 Extension 135 — RIPK1/RIPK3/MLKL Necroptosis: 26th β Cell Death Mode, Necrosome DAMP Storm, Necrostatin-1
+
+**Gap:** RIPK3/MLKL/necrosome absent from 159 runs as primary; run_113 covers only A20 prevention of RIPK1 entry into necrosome (upstream regulatory); execution machinery = unmapped.
+
+**Rosacea (HIGH):**
+- Keratinocyte necroptosis: UV/Demodex → caspase-8 saturated → RIPK3 default → MLKL pore → keratinocyte DAMP release (HMGB1/IL-1α/mtDNA) → TLR4/NF-κB dermal macrophage → Loop 2 priming
+- Necroptotic keratinocyte debris = strongest innate trigger in Loop 2 (all DAMPs simultaneously vs. apoptosis which is immunologically quiet)
+- Necrostatin-1 topical: theoretical keratinocyte necroptosis blockade in UV-driven flares
+
+**T1DM (HIGH):**
+- **26th β cell death mechanism**: RIPK3/MLKL necroptosis = fourth membrane-disruption mode (apoptosis/pyroptosis/ferroptosis/necroptosis)
+- **DAMP storm**: necroptotic β cell simultaneously fires TLR4/NF-κB (HMGB1), TLR9/IFN-α (mtDNA), ST2/IL-1β (IL-33/run_099), P2X7/NLRP3 (ATP), and cDC1 cross-presentation (run_159) — five amplification loops from one β cell death event
+- **A20/run_113 mechanistic bridge**: A20 haploinsufficiency → RIPK1 accumulates → apoptosis→necroptosis shift; explains why TNFAIP3 GWAS risk allele produces catastrophic insulitis (DAMP storm) not just accelerated apoptosis
+- Necrostatin-1 (RIPK1 kinase-specific) + A20 support (run_113) = compound protection
+- Dabrafenib (RIPK3 inhibitor, Mandal 2014 Cell): NOD mouse T1DM protection via necroptosis blockade
+
+**ME/CFS (MODERATE):**
+- RIPK3 elevated in ME/CFS PBMCs; EBV vICA (caspase-8 inhibitor) → EBV-infected cells default to necroptosis → mtDNA → TLR9 → IFN-α → M3/Node D amplification
+- PEM: activity → transient RIPK3 activation → sub-threshold necroptosis → DAMP spike → PEM innate activation
+
+**Protocol additions:**
+- **Necrostatin-1 (Nec-1s)**: T1DM β cell protection; first necroptosis-specific therapeutic in framework
+- **Avoid caspase-8 inhibitors** in T1DM/autoimmune: caspase-8 ↓ → necroptosis default → DAMP storm
+- **DAMP monitoring**: HMGB1 serum + mtDNA as necroptosis activity markers; elevated = active necroptotic β cell death
+
+**Framework state: 160 runs | RIPK1-kinase-scaffold-dichotomy | RIPK3-Ser227 | MLKL-Thr357 | RHIM-amyloid-necrosome | 26th-β-cell-death | DAMP-5-loop-storm | A20-run113-mechanistic-bridge | necrostatin-1 | dabrafenib-RIPK3 | keratinocyte-Loop2.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-thirty-fifth extension | RIPK1-Ser166-kinase RIPK3-Ser227 MLKL-4HB-pore RHIM-domain-amyloid scaffold-vs-kinase-dichotomy A20-K48-Ub-bridge-run113 apoptosis-to-necroptosis-shift DAMP-storm-5-loops HMGB1-TLR4 mtDNA-TLR9-IFN-α IL33-ST2-run099 ATP-P2X7-NLRP3 cDC1-run159 26th-β-cell-death necrostatin-1-Nec-1s dabrafenib-Mandal2014-Cell keratinocyte-UV-Loop2 EBV-vICA-necroptosis-ME-CFS | run_160*
+
+---
+
+### Phase 4 Extension 136 — FOXO1/FOXO3 β Cell: PDX1 Nuclear Exclusion, Directionality Paradox, Triple Proliferative Arrest
+
+**Gap:** β Cell FOXO1/PDX1 nuclear exclusion absent from all 160 runs; run_135 covers only lymphocyte/Treg FOXO1; β cell context entirely unmapped.
+
+**Rosacea (MODERATE):**
+- FOXO3 + NRF2 in keratinocytes → antioxidant response (MnSOD/catalase) under UV exposure; FOXO3 nuclear in sun-damaged skin → G1 arrest; FOXO3 rs2802292 longevity SNP → better photoprotection
+- Sebocyte FOXO1: PI3K/Akt active → FOXO1 cytoplasmic → SREBP-1c ↑ → sebum ↑ (insulin resistance → skin sebum; Loop 4 connection via FOXO1/Akt)
+
+**T1DM (HIGH):**
+- **FOXO1 nuclear → PDX1 exclusion**: insulitis ROS/JNK → Akt ↓ → FOXO1 nuclear → PDX1 nuclear exclusion → insulin gene ↓ → GSIS failure in LIVING β cells; β cell dysfunction before death (26th β cell dysfunction mechanism)
+- **Directionality paradox**: insulitis Akt suppression → FOXO1 nuclear → Treg (FOXP3 maintained = beneficial) vs. β cell (PDX1 excluded = harmful); same FOXO1 translocation event simultaneously preserves tolerance and destroys insulin secretion
+- **Triple proliferative arrest — COMPLETE**: EZH2/Cdkn2a/CDK4 (run_157) + mTOR/cyclin D/CDK4 (run_158) + FOXO1/p27^Kip1/CDK2 (run_161) = all CDK checkpoints disabled during insulitis; β cell regeneration = zero capacity
+- SIRT1 → FOXO1 deacetylation → third SIRT1 β cell mechanism (UCP2/GSIS run_147 + IRS-2/insulin-signaling run_147 + FOXO1/FasL-suppression run_161); NMN/NR protocol now has three β cell SIRT1 mechanistic rationales
+- AS1842856 (FOXO1 DBD inhibitor, Langlet 2017 Cell): β cell proliferation + dedifferentiation reversal; novel therapeutic target
+
+**ME/CFS (LOW-MODERATE):**
+- FOXO3a in ME/CFS T cells: chronic oxidative stress → FOXO3 nuclear → T cell quiescence phenotype (consistent with CFATIGUE); FOXO3 → SIRT3 → mitochondrial protection (run_090 connection)
+
+**Protocol additions:**
+- **NMN/NR (existing run_147)** now has third β cell SIRT1 mechanism via FOXO1; reinforce existing protocol
+- **FOXO1 inhibitor AS1842856**: novel investigational; β cell regeneration; targeted delivery challenge
+- **ROS protection upstream** (selenium/GPX4 + alpha-tocopherol): prevent JNK activation → FOXO1 stays cytoplasmic
+
+**Framework state: 161 runs | FOXO1-13q14.11 | PDX1-exclusion-β-cell-dysfunction | Akt-Ser256-14-3-3 | directionality-paradox-Treg-vs-β-cell | triple-proliferative-arrest-157-158-161 | SIRT1-FOXO1-third-mechanism | FOXO3-keratinocyte-NRF2 | AS1842856 | run135-Treg-FOXO1-DISTINCT.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-thirty-sixth extension | FOXO1-13q14.11 DBD-forkhead 14-3-3 Akt-Thr24-Ser256 PDX1-nuclear-exclusion insulin-gene-↓ JNK-Akt-FOXO1 Kitamura2005-NatMed directionality-paradox-Treg-β-cell triple-arrest-EZH2-mTOR-FOXO1-157-158-161 SIRT1-FOXO1-FasL-BNIP3-run147 p27-CDK2-G1S FOXO3-NRF2-keratinocyte FasL-apoptosis-necroptosis-switch-run160 AS1842856-Langlet2017-Cell FOXO3-rs2802292-longevity run135-Treg-DISTINCT | run_161*

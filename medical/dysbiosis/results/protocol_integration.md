@@ -5914,3 +5914,67 @@ All six NK exhaustion mechanisms now quantifiable; panel guides multi-mechanism 
 - eTreg (ICOS+BATF+) panel addition: flow cytometry CD4+FOXP3+ICOS+BATF+ for islet Treg subset characterization
 
 *Protocol_integration.md Part 9dh — 2026-04-12 | cDC1-XCR1-Clec9a-cross-presentation-target anti-Clec9a-T1DM-prevention Ferris2014-JCI BATF3-IRF8-cDC1 MHC-I-CD8-CTL-upstream run128-cDC2-parallel IRF4-dosage-monitoring-Treg-Th17 R620W-IRF4-stratification-run152 BET-inhibitor-BATF-IRF4-Th17 eTreg-ICOS-BATF-IL2-run151 terminal-exhaustion-TOX-BATF-chronic-islet | run_159*
+
+---
+
+### Part 9di — RIPK1/RIPK3/MLKL Necroptosis Protocol Integration (run_160)
+
+**New therapeutics and safety guidance — necroptosis axis:**
+
+**Necrostatin-1 (Nec-1s) — first necroptosis-specific T1DM candidate:**
+- Mechanism: RIPK1 Ser166 kinase-specific inhibitor → necrosome formation blocked; NF-κB scaffold function PRESERVED
+- Indication: T1DM β cell protection (especially A20/TNFAIP3 risk allele carriers); rosacea UV-driven keratinocyte DAMP attenuation
+- Dose: pre-clinical only (NOD mouse studies); no human trial yet; watch ClinicalTrials.gov
+
+**Dabrafenib (RIPK3 repurposing):**
+- Mandal 2014 Cell: RIPK3 inhibition (off-target of RAF kinase inhibitor) → NOD mouse T1DM protection
+- Caution: RAF oncology drug with serious adverse effects; repurposing requires dedicated T1DM trial
+- Monitor in oncology patients receiving dabrafenib for T1DM protective signal
+
+**CRITICAL: avoid caspase-8 inhibitors in T1DM:**
+- Caspase-8 normally cleaves RIPK1/RIPK3 → prevents necroptosis; inhibiting caspase-8 forces necroptosis default
+- Z-VAD (pan-caspase inhibitor) contraindicated in β cell context: blocks apoptosis → necroptosis shift → DAMP storm
+- Flag any clinical use of caspase inhibitors in T1DM/autoimmune patients
+
+**HMGB1/mtDNA as necroptosis activity biomarkers:**
+- Serum HMGB1: elevated = active necroptotic β cell (or keratinocyte) death
+- cf-mtDNA (cell-free mitochondrial DNA): TLR9-activating DAMP; elevated in insulitis flares
+- Add to monitoring panel alongside C-peptide decline rate for necroptosis-driven rapid progression
+
+**A20/run_113 compound strategy:**
+- TNFAIP3 genotyping for A20 haploinsufficiency in T1DM staging: rs2230926 + other risk alleles
+- A20 haploinsufficiency carriers: PRIORITIZE necroptosis blockade (Nec-1s) + RIPK1-K48-Ub restoration
+- Compound: necrostatin-1 (execution block) + NFκB-protective A20 inducers (butyrate/run_113) + β cell protection
+
+*Protocol_integration.md Part 9di — 2026-04-12 | necrostatin-1-RIPK1-kinase-specific dabrafenib-RIPK3-Mandal2014 avoid-caspase8-inhibitors necroptosis-DAMP-storm HMGB1-serum-biomarker cf-mtDNA-TLR9 TNFAIP3-A20-haploinsufficiency-stratification A20+Nec1s-compound 26th-β-cell-death-necroptosis | run_160*
+
+---
+
+### Part 9dj — FOXO1/FOXO3 β Cell Protocol Integration (run_161)
+
+**NMN/NR protocol — third β cell SIRT1 mechanism confirmed:**
+
+**SIRT1/FOXO1 β cell axis (extending run_147 NMN protocol rationale):**
+- Prior rationale (run_147): SIRT1 → UCP2-K222/GSIS restoration + IRS-2-K1173/insulin signaling
+- **New rationale (run_161)**: SIRT1 → FOXO1 deacetylation → FasL/BNIP3 pro-apoptotic genes suppressed; MnSOD/catalase protective output maintained
+- B12 (run_145/EZH2) + NMN/NR (run_147/SIRT1→FOXO1) + selenium/GPX4 (run_143/ferroptosis) = comprehensive β cell epigenetic + apoptotic + oxidative protection stack
+
+**Triple proliferative arrest — protocol context:**
+- Three gates disabled in insulitis: EZH2/CDK4 (run_157) + mTOR/cyclin D (run_158) + FOXO1/CDK2 (run_161)
+- Three upstream interventions to partially restore:
+  1. B12/betaine → EZH2/SETD7 SAM substrate (run_157/145)
+  2. Ultra-low rapamycin → mTOR cyclin D partial restoration (run_158)
+  3. NMN/NR → SIRT1 → FOXO1 deacetylation → FasL ↓ + indirect p27 modulation (run_161)
+- Combined: multi-gate proliferative restoration strategy targeting all three checkpoints
+
+**Directionality paradox — clinical implication:**
+- Any intervention reducing Akt activity (for Treg benefit) simultaneously worsens β cell FOXO1 translocation
+- Rapamycin (run_158): mTORC2/SGK1/FOXO1 Treg homing preserved; but mTORC1 ↓ → Akt ↓ in β cells → FOXO1 nuclear ↑ (marginal; lower priority than Treg expansion benefit at ultra-low dose)
+- ROS reduction (selenium/alpha-tocopherol/NMN): prevents JNK activation → Akt preserved → FOXO1 cytoplasmic → β cell protection; net positive
+
+**FOXO1 inhibitor AS1842856 (investigational):**
+- Langlet 2017 Cell: β cell regeneration + dedifferentiation reversal
+- Systemic contraindication: reduces MnSOD/catalase → ROS ↑; immune FOXO1 inhibition → Treg FOXO1 cytoplasmic = RUN_135 PROBLEM (FOXP3 ↓)
+- Requires β cell-targeted delivery (islet nanoparticle or AAV islet tropism)
+
+*Protocol_integration.md Part 9dj — 2026-04-12 | SIRT1-FOXO1-FasL-BNIP3-run147-third NMN-NR-three-β-cell-SIRT1 triple-proliferative-arrest-157-158-161 B12-EZH2-rapamycin-mTOR-NMN-SIRT1-three-gate-restoration directionality-paradox-Akt-Treg-vs-β-cell ROS-reduction-FOXO1-cytoplasmic AS1842856-β-cell-targeted-only | run_161*

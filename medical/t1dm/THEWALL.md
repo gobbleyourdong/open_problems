@@ -1876,3 +1876,36 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
    - IL-2 (run_151) + ICOS agonism → BATF ↑ in eTreg → enhanced islet suppression
 
 *T1DM THEWALL cross-reference run_159: 2026-04-12 | BATF3-cDC1-XCR1-Clec9a Ferris2014-JCI-T1DM-prevention β-cell-debris-MHC-I-cross-presentation PLN-CD8-CTL-priming run128-cDC2-MHC-II-DISTINCT IRF4-low-Treg IRF4-R620W-Treg-paradox-run152 IRF4-intermediate-Tfh-anti-β-cell-IgG-run104 eTreg-ICOS-BATF-islet IL2-ICOS-BATF-combination-run151 | run_159*
+
+---
+
+### Cross-reference: run_160 — RIPK1/RIPK3/MLKL Necroptosis: 26th β Cell Death, DAMP Storm, A20 Bridge
+
+**Relevance: HIGH**
+
+1. **26th β cell death mechanism — DAMP storm cascade**:
+   - RIPK3/MLKL necroptosis = fourth membrane-disruption mode; fires five amplification loops simultaneously (TLR4/HMGB1, TLR9/mtDNA/IFN-α, ST2/IL-33/run_099, P2X7/NLRP3, cDC1/run_159)
+   - A20 haploinsufficiency (run_113) → RIPK1 accumulates → apoptosis→necroptosis shift = mechanistic explanation for TNFAIP3 GWAS severity
+   - Necrostatin-1 (RIPK1 kinase-specific) + dabrafenib (RIPK3, Mandal 2014 Cell NOD): first necroptosis-specific T1DM therapeutics
+
+2. **Avoid caspase-8 inhibitors** in T1DM context — caspase-8 ↓ forces necroptosis default
+
+*T1DM THEWALL cross-reference run_160: 2026-04-12 | RIPK3-MLKL-necroptosis-26th-β-cell-death DAMP-5-loops A20-run113-mechanistic-bridge necrostatin-1 dabrafenib-Mandal2014 apoptosis-necroptosis-shift HMGB1-TLR4 mtDNA-TLR9 ATP-P2X7-NLRP3 | run_160*
+
+---
+
+### Cross-reference: run_161 — FOXO1/FOXO3 β Cell: PDX1 Exclusion, Directionality Paradox, Triple Proliferative Arrest
+
+**Relevance: HIGH**
+
+1. **FOXO1 nuclear → PDX1 exclusion (26th β cell dysfunction mechanism)**:
+   - Insulitis JNK/Akt ↓ → FOXO1 nuclear → PDX1 excluded → insulin gene ↓ → GSIS failure in LIVING β cells
+   - Directionality paradox: same Akt suppression → FOXO1 nuclear = beneficial in Tregs (FOXP3 ✓) but harmful in β cells (PDX1 excluded); insulitis simultaneously preserves tolerance and destroys β cell function via the same FOXO1 event
+
+2. **Triple proliferative arrest — complete**:
+   - EZH2/CDK4 (run_157) + mTOR/cyclin D (run_158) + FOXO1/p27/CDK2 (run_161) = all CDK checkpoints disabled; β cell regeneration = zero during active insulitis
+
+3. **SIRT1/FOXO1 β cell (third mechanism)**:
+   - SIRT1 → FOXO1 deacetylation → FasL/BNIP3 suppressed; NMN/NR protocol (run_147) has third mechanistic rationale
+
+*T1DM THEWALL cross-reference run_161: 2026-04-12 | FOXO1-PDX1-exclusion-β-cell-dysfunction Kitamura2005-NatMed directionality-paradox-Treg-vs-β-cell triple-arrest-157-158-161 SIRT1-FOXO1-run147-third-mechanism AS1842856-β-cell-regeneration run135-Treg-FOXO1-DISTINCT | run_161*
