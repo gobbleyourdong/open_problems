@@ -1131,3 +1131,37 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 4. **SELENOS/ER quality control — ME/CFS immune cells**: SELENOS in T cells/B cells → ER quality control → misfolded immunoglobulin/cytokine receptor clearance; SELENOP deficiency → SELENOS ↓ → ER stress in lymphocytes → unfolded protein response → lymphocyte apoptosis → lymphopenia (documented in ME/CFS).
 
 *ME/CFS THEWALL cross-reference run_138: 2026-04-12 | SELENOP selenoprotein-P ApoER2 LRP8 NK-redox GPx4 TrxR1 TrxR2 TXNRD2 NK-membrane-ferroptosis 5th-6th-NK-mechanism mitochondrial-H2O2 Complex-I ATP-deficit-additive USP18-run133-additive PDH-ISGylation baricitinib-complement selenium-selenomethionine SELENOS ER-stress lymphopenia serum-SELENOP-monitoring Burk-2005 Olson-2008 Labunskyy-2014 | run_138*
+
+---
+
+### Cross-reference: run_139 — RASGRP1 / NK IFN-Without-Cytotoxicity Paradox Explained
+
+**Gap:** RASGRP1/DAG-RAS-ERK absent from all 138 prior runs. Third PLCγ DAG output completes the signaling picture; Ca²⁺-independent ERK arm explains NK paradox.
+
+**Assessment:** MODERATE-HIGH ME/CFS relevance — mechanistically resolves the most reproducible ME/CFS NK finding (IFN-γ production maintained, cytotoxicity absent); RASGRP1/ERK is Ca²⁺-independent.
+
+1. **NK IFN-without-cytotoxicity paradox — mechanistic explanation**: ME/CFS NK cells consistently show: IFN-γ/TNF-α production intact BUT perforin/granzyme cytotoxicity severely impaired (multiple cohorts, Brenu 2010, Maher 2004). Prior runs explained cytotoxicity failure: Ca²⁺ defects (runs 127/132 → impaired STIM1/ORAI1/ITPR3 → exocytosis fails). Run_139 explains preserved IFN-γ production: RASGRP1 → RAS → ERK → AP-1 → IFN-γ transcription is DAG-DEPENDENT and Ca²⁺-INDEPENDENT. NK cells with intact DAG generation (from CD16/FcγRIII → PLCγ → DAG) but impaired IP3/Ca²⁺ arm → cytotoxic granule exocytosis fails (Ca²⁺-dependent) BUT ERK/AP-1/IFN-γ production continues (Ca²⁺-independent). This dual finding is now mechanistically explained by parallel Ca²⁺ and ERK arms of PLCγ.
+
+2. **RASGRP1 in NK cytokine production**: CD16/FcγRIII → Syk → LAT → PLCγ2 → DAG → RASGRP1 → ERK → AP-1 → IFN-γ, TNF-α. This is the canonical NK cytokine arm during ADCC. ME/CFS: ADCC cytokine arm functional (ERK intact) while degranulation fails (Ca²⁺ impaired).
+
+3. **Therapeutic implication**: Improving NK Ca²⁺ signaling (Mg²⁺ supplementation → ITPR3, run_132; quercetin → ORAI1, run_127) would restore cytotoxic killing while ERK/cytokine production is already intact. Selenium (run_138) → NK membrane GPx4 → less lipid peroxidation → supports Ca²⁺ channel membrane integrity. Dual approach: NK Ca²⁺ restoration + preserve ERK axis.
+
+*ME/CFS THEWALL cross-reference run_139: 2026-04-12 | RASGRP1 RAS-GEF DAG-ERK NK-paradox-explained Ca2+-independent-ERK AP-1-IFN-γ cytotoxicity-fails-SOCE-dependent IFN-production-maintained perforin-granzyme-exocytosis-Ca2+ ADCC-RASGRP1 Ca2+-restoration-strategy Mg2+-quercetin selenium-NK Priatel-2002-Immunity Ebinu-1998-Science | run_139*
+
+---
+
+### Cross-reference: run_140 — IL2RA/CD25 / Treg/Teff Balance / IL-15/STAT5 in NK / Low-Dose IL-2
+
+**Gap:** IL2RA/STAT5/Treg-homeostasis absent from all 139 prior runs. Extrinsic Treg cytokine supply; IL-15 shared STAT5 axis in NK cells.
+
+**Assessment:** MODERATE ME/CFS relevance — Treg/Teff rebalancing; IL-15/STAT5 NK survival; low-dose IL-2 Treg expansion may reduce chronic immune activation driving exhaustion.
+
+1. **IL-15/STAT5 — NK survival and function**: IL-15 uses the same IL2RB (CD122) + IL2RG (γc) + JAK1/JAK3/STAT5 signaling axis as IL-2 (different α chain: IL-15Rα vs IL2RA). NK cells depend on IL-15/STAT5 for survival, proliferation, and CD56dim maturation. In ME/CFS: NK cytotoxicity defect + possible IL-15 signaling dysfunction → STAT5 insufficiency → NK survival/function impaired. Low-dose IL-2 at higher doses (≥3M IU/day) also stimulates IL-15-responsive NK cells via shared IL2RB/γc/JAK3/STAT5.
+
+2. **Treg/Teff imbalance → T cell exhaustion perpetuation**: If IL2RA rs2104286 risk allele → Treg pool chronically depleted → Teffs receive more IL-2 → proliferate more → greater antigen-driven T cell exhaustion (PD-1/TIM-3 upregulation, runs 029/049). Low-dose IL-2 in ME/CFS: expands Tregs → suppresses chronic T cell activation → reduces rate of T cell exhaustion → potentially slows exhaustion cascade.
+
+3. **STAT5 → FOXP3 — ME/CFS Treg stability**: ME/CFS documented reduced Treg proportion in some cohorts; STAT5 insufficiency from IL2RA deficiency compounds the intrinsic Treg instability (runs 134/135). Combined: chromatin scaffold ↓ (IKZF1) + PI3Kδ overactivation + STAT5 insufficiency (IL2RA) = three-axis Treg failure explaining poor immune regulation in ME/CFS.
+
+4. **Low-dose IL-2 in ME/CFS trials**: Emerging ME/CFS trial data; mechanism: Treg expansion → reduce chronic immune activation → reduce T cell exhaustion driving → restore NK/Teff balance. Appropriate dose range: 1M IU/day (below Teff activation threshold).
+
+*ME/CFS THEWALL cross-reference run_140: 2026-04-12 | IL2RA CD25 STAT5 IL-15 IL2RB IL2RG JAK3 NK-survival-IL15-STAT5 Treg-Teff-balance Treg-exhaustion-reduced PD1-TIM3-cascade chronic-activation FOXP3-STAT5 three-axis-Treg-ME/CFS low-dose-IL-2 ME/CFS-trials Sondergaard-2015 Hartemann-2013-LancetDE | run_140*

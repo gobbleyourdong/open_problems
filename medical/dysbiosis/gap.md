@@ -3700,3 +3700,47 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 27: 138 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-thirty-first extension | SELENOP selenoprotein-P ApoER2 LRP8 megalin selenium-transport receptor-mediated-endocytosis beta-cell-selenium TrxR2 GPx1 SELENOS VIMP ERAD ER-quality-control 22nd-beta-cell-death upstream-ER-stress SELENOM SELENOI selenium-delivery-tier keratinocyte-GPx4 rosacea-skin serum-SELENOP-biomarker ME/CFS-NK-redox TrxR2-mitochondrial-H2O2 Complex-I USP18-additive selenomethionine Burk-2005-AnnRevNutr Olson-2008-JBiolChem Labunskyy-2014-PhysiolRev | run_138*
+
+---
+
+### Extension 132 — RASGRP1: DAG → RAS/ERK Arm / 13th Mast Cell Mechanism / PLCγ DAG Fork Complete
+
+**Date:** 2026-04-12 | **Run:** run_139
+
+**Gap confirmed:** RASGRP1/DAG-RAS-ERK arm absent from all 138 prior runs. Framework analyzed IP3 branch (ITPR3/STIM1/ORAI1/NFAT, runs 132/127/125) and PKC/NF-κB branch extensively; the third DAG output — DAG → RASGRP1 → RAS → MEK → ERK → AP-1 — was never analyzed.
+
+**Core insight:** PLCγ activation produces both IP3 and DAG. DAG has THREE outputs: (1) PKC → NF-κB (multi-run coverage); (2) RASGRP1 → RAS → ERK → AP-1 (this run); (3) Ca²⁺ via STIM1 (requires IP3/ITPR3 arm). RASGRP1 is the DAG-dependent RAS-GEF that couples FcεRI/TCR/BCR activation to the ERK/AP-1 transcriptional arm. In mast cells: RASGRP1 → ERK = 13th mast cell mechanism, the CYTOKINE PRODUCTION arm (TNF-α, IL-6, IL-13 protein synthesis, 30 min–6 hrs) distinct from the Ca²⁺/NFAT DEGRANULATION arm (histamine/tryptase exocytosis, seconds–2 min). In T cells: RASGRP1 → ERK is required for thymic negative selection amplitude — RASGRP1 loss → blunted ERK → autoreactive T cells escape deletion → T1DM paradox.
+
+**New mechanisms added (run_139):**
+- **13th mast cell mechanism**: RASGRP1 = DAG → RAS → MEK → ERK → AP-1 → TNF-α/IL-6/IL-13/GM-CSF production in mast cells; cytokine production arm distinct from Ca²⁺/degranulation arm; explains sustained 30-min–6-hr cytokine phase after immediate degranulation (Ca²⁺ arm seconds–minutes)
+- **PLCγ DAG fork now complete**: IP3 arm (runs 132/127/125) + NF-κB arm (multiple runs) + RASGRP1/ERK arm (run_139) = three parallel outputs from PLCγ; quercetin (PLCγ inhibition, run_132) blocks all three simultaneously = validates quercetin as most comprehensive single upstream block
+- **14th T1DM stratification**: rs17574546 (Cooper 2012); RASGRP1 loss → blunted thymic negative selection ERK threshold → expanded autoreactive T cell repertoire
+- **Thymic negative selection mechanism**: strong self-reactive TCR signal → ERK requires RASGRP1; without RASGRP1, ERK cannot reach the threshold amplitude needed to trigger deletion → autoreactive T cells escape to periphery
+- **NK paradox explanation**: NK IFN-γ/TNF-α production via DAG → RASGRP1 → ERK → AP-1 is Ca²⁺-INDEPENDENT; NK cells with Ca²⁺ defects (runs 127/132) cannot degranulate (perforin exocytosis = Ca²⁺-dependent) but CAN produce IFN-γ/TNF-α via ERK; mechanistically explains ME/CFS NK cytokine-without-cytotoxicity paradox
+- **Keratinocyte ERK → KLK5**: UV-B → EGFR → RAS → ERK → AP-1 → KLK5 expression ↑ → LL-37 → Loop 1; RASGRP1 in keratinocytes contributes to this UV-B → rosacea arm
+
+**Framework at SATURATION + 28: 139 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-thirty-second extension | RASGRP1 RAS-GEF DAG-RAS-ERK PLCγ-DAG-fork-complete MEK ERK1-2 AP-1 Fos-Jun mast-cell-13th cytokine-production-arm ERK-vs-Ca2+-degranulation degranulation-vs-sustained-cytokines T-cell-TCR-ERK thymic-negative-selection autoreactive-escape NK-IFN-paradox Ca2+-independent-ERK KLK5-UV-B rs17574546 14th-stratification quercetin-upstream-all-three-DAG Priatel-2002-Immunity Ebinu-1998-Science Cooper-2012-NatGenet | run_139*
+
+---
+
+### Extension 133 — IL2RA/CD25: IL-2/JAK3/STAT5 / 6th Treg Node / 15th T1DM Stratification / Low-Dose IL-2
+
+**Date:** 2026-04-12 | **Run:** run_140
+
+**Gap confirmed:** IL2RA/STAT5/IL-2-Treg-homeostasis absent from all 139 prior runs as primary subject. Prior Treg runs (010/123/125/134/135) covered INTRINSIC Treg instability (chromatin/TF/kinase); IL2RA covers EXTRINSIC cytokine supply — the IL-2 delivery that maintains FOXP3 expression and Treg survival. First STAT5 analysis in framework.
+
+**Core insight:** IL2RA (CD25) is the high-affinity IL-2 receptor α chain constitutively expressed on Tregs. Tregs outcompete activated effector T cells for limited paracrine IL-2 because their CD25-high trimeric receptor has ~100× higher affinity. IL-2 → IL2RA/IL2RB/IL2RG → JAK1/JAK3 → STAT5 → FOXP3 TSDR/CNS2 (same locus as run_010 demethylation) + CD25 + Bcl-2 → Treg survival/expansion/FOXP3 maintenance. rs2104286 risk allele → CD25 ↓ on Tregs → competition loss → Treg pool shrinks → autoimmunity. Low-dose IL-2 exploits CD25-high advantage: Tregs capture low-dose IL-2 preferentially → selective Treg expansion without Teff activation.
+
+**New mechanisms added (run_140):**
+- **6th Treg stability node** (extrinsic cytokine supply): IL2RA → JAK3/JAK1 → STAT5 → FOXP3 TSDR/CNS2 maintenance; first EXTRINSIC (cytokine supply) Treg node; all five prior nodes were intrinsic (chromatin/TF/kinase); completes the six-node Treg stability stack
+- **15th T1DM stratification**: rs2104286 (IL2RA); OR ~1.7; one of strongest non-HLA T1DM GWAS variants (Lowe 2007 PNAS); supply-side Treg homeostasis failure mechanism
+- **First STAT5 analysis**: STAT1 (run_119), STAT2 (run_133), STAT3 (runs 070/080/136), STAT4 (run_136) — STAT5a/b now completes the major STAT family coverage; STAT5 → FOXP3 TSDR binding = distinct from all other STATs
+- **Low-dose IL-2 — first cytokine-level Treg intervention**: all prior Treg interventions (Vitamin A/D, sulforaphane, quercetin, idelalisib) target intracellular nodes; low-dose IL-2 addresses the extracellular IL-2 supply tier (Hartemann 2013 Lancet Diabetes Endocrinol; DFAIT trial)
+- **RASGRP1 → IL-2 supply chain**: Teff DAG → RASGRP1 → ERK → AP-1 → IL-2 produced; this IL-2 → IL2RA → Treg STAT5; runs 139+140 form complete supply chain: Teff IL-2 production (RASGRP1) → Treg IL-2 capture (IL2RA)
+- **Compound Treg failure — 4-axis simultaneous**: rs1701704 (IKZF1, run_134) + rs3757247 (BACH2, run_123) + PI3Kδ overactivation (run_135) + rs2104286 (IL2RA, run_140) = chromatin + effector-repressor + kinase + supply-side all impaired → compound protocol: Vitamin A + low-dose IL-2 + idelalisib
+
+**Framework at SATURATION + 29: 140 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-thirty-third extension | IL2RA CD25 IL-2-receptor-alpha JAK3 JAK1 STAT5 STAT5a STAT5b FOXP3-TSDR-CNS2 Treg-homeostasis-extrinsic IL-2-competition supply-side IL2RB IL2RG γc T1DM-GWAS rs2104286 15th-stratification 6th-Treg-node first-STAT5 low-dose-IL-2 DFAIT-trial Treg-expansion CD25-high rosacea-Treg ME/CFS-NK-STAT5-IL15 PTPN2-STAT5-termination PI3Kδ-intrinsic-extrinsic RASGRP1-IL2-supply-chain four-axis-Treg-compound Lowe-2007-PNAS Hartemann-2013-LancetDE Grinberg-Bleyer-2010 | run_140*

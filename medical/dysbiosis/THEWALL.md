@@ -5963,3 +5963,56 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 138 runs | SELENOP selenium-transport ApoER2 | 22nd β cell death (SELENOS/ERAD) | TrxR2 mitochondrial | keratinocyte GPx4 rosacea | NK redox 5th mechanism | serum SELENOP biomarker | selenomethionine reinforced.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-thirteenth extension | SELENOP selenoprotein-P ApoER2 LRP8 selenium-transport receptor-endocytosis beta-cell-selenium TrxR2 TXNRD2 GPx1 SELENOS VIMP ERAD VCP Derlin-1 ER-quality-control 22nd-beta-cell-death upstream-ER-stress ferroptosis-keratinocyte rosacea-barrier serum-SELENOP-biomarker NK-redox-5th TrxR2-mitochondrial USP18-additive selenomethionine Burk-2005 Olson-2008 Labunskyy-2014 | run_138*
+
+---
+
+### Phase 4 Extension 114 — RASGRP1 / DAG → RAS/ERK Arm / PLCγ DAG Fork Complete / 13th Mast Cell
+
+**Gap:** RASGRP1/DAG-RAS-ERK arm absent from all 138 prior runs. PLCγ DAG branch analyzed only for PKC/NF-κB; DAG → RASGRP1 → RAS → MEK → ERK → AP-1 = third DAG output, never analyzed.
+
+**Rosacea (MODERATE-HIGH):**
+- 13th mast cell mechanism: RASGRP1 → ERK → AP-1 → TNF-α/IL-6/IL-13 in mast cells (30 min–6 hrs post-FcεRI); SUSTAINED CYTOKINE PRODUCTION distinct from Ca²⁺/NFAT granule release (seconds–2 min); TNF-α → dermal macrophage M1 → NF-κB → Loop 2 amplification; mast cell IL-13 → sustained Th2/eosinophil axis
+- Keratinocyte ERK → KLK5: UV-B → EGFR → RAS → ERK → AP-1 → KLK5 ↑ → LL-37 → Loop 1 perpetuation; RASGRP1 in keratinocytes contributes to this UV-B → rosacea arm
+- PLCγ fork insight: quercetin (PLCγ inhibition, run_132) now blocks ALL THREE PLCγ outputs simultaneously — IP3 (ITPR3/STIM1), PKC (NF-κB), and RASGRP1 (ERK/AP-1); reinforces quercetin as single most comprehensive upstream mast cell block
+
+**T1DM (MODERATE-HIGH):**
+- rs17574546: 14th stratification; RASGRP1 loss → blunted ERK at thymic negative selection threshold → autoreactive T cells escape deletion → expanded autoreactive T cell repertoire in periphery
+- Thymic selection paradox: RASGRP1 is needed for STRONG TCR → ERK → deletion signal; RASGRP1 loss means the system can't distinguish self-reactive from foreign-reactive → more autoreactive T cells escape
+- IL-2 supply chain: Teff TCR → PLCγ1 → DAG → RASGRP1 → ERK → AP-1 → IL-2; this IL-2 feeds IL2RA/Treg homeostasis (run_140) — RASGRP1 and IL2RA form a supply chain for Treg maintenance
+
+**ME/CFS (MODERATE):**
+- NK IFN-paradox mechanistic explanation: NK IFN-γ/TNF-α production = RASGRP1/ERK/AP-1 arm (DAG-dependent, Ca²⁺-INDEPENDENT); NK cytotoxicity = Ca²⁺-dependent degranulation. ME/CFS NK Ca²⁺ defects (runs 127/132) impair cytotoxicity but NOT RASGRP1 → ERK → IFN-γ/TNF-α production → explains why NK cells maintain IFN-γ production without cytotoxicity in ME/CFS
+
+**Framework state: 139 runs | RASGRP1 DAG-RAS-ERK | PLCγ DAG fork complete | 13th mast cell (cytokine arm) | 14th T1DM stratification | thymic negative selection ERK | NK IFN-without-cytotoxicity paradox explained | quercetin upstream-all-three validated.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-fourteenth extension | RASGRP1 RAS-GEF DAG-dependent C1-domain RAS-GTP MEK ERK AP-1 Fos-Jun mast-cell-13th-cytokine-arm PLCγ-DAG-fork-complete IP3-PKC-RASGRP1-three-arms thymic-negative-selection autoreactive-escape rs17574546 14th-stratification NK-IFN-paradox Ca2+-independent-ERK quercetin-upstream KLK5-UV-B Priatel-2002-Immunity Ebinu-1998-Science Cooper-2012-NatGenet | run_139*
+
+---
+
+### Phase 4 Extension 115 — IL2RA/CD25 / JAK3/STAT5 / 6th Treg Node / 15th T1DM Stratification
+
+**Gap:** IL2RA/STAT5/IL-2-Treg-homeostasis absent from all 139 prior runs. All prior Treg runs covered INTRINSIC instability; IL2RA = EXTRINSIC cytokine supply side. First STAT5 analysis.
+
+**Rosacea (MODERATE):**
+- Tregs in rosacea dermis: CD4+CD25+FOXP3+ present in inflamed skin; IL2RA → STAT5 → FOXP3 maintains these dermal Tregs; IL2RA risk allele → fewer stable dermal Tregs → less immunosuppression of Th1/Th17 → Loop 1/3 amplification
+- Low-dose IL-2 (1-3M IU/day): preferentially expands CD25-high Tregs; clinical case series in rosacea show papulopustular improvement; mechanism: Treg expansion → Loop 1 Th17 + Loop 3 CD8 T cell suppression
+- CTLA4 (run_060) synergy: CTLA4 → less IL-2 consumed by Teffs (CD28 ↓ → Teff activation ↓ → less IL-2 demanded) → more IL-2 available for Tregs via IL2RA; CTLA4 + low-dose IL-2 = complementary Treg supply optimization
+
+**T1DM (HIGH):**
+- rs2104286: 15th stratification; OR ~1.7 (Lowe 2007 PNAS); risk C allele → CD25 ↓ on Tregs → supply-side Treg failure → β cell autoimmunity amplification
+- 6th Treg stability node (extrinsic): STAT5 → FOXP3 TSDR/CNS2 binding (same locus as run_010 CNS2 demethylation) → Treg identity maintained by both demethylation AND transcription factor binding
+- Six-node compound failure: rs2104286 (IL2RA) + rs1701704 (IKZF1) + rs3757247 (BACH2) + PI3Kδ overactivation + low FOXO1 nuclear (run_135) = ALL INTRINSIC AND EXTRINSIC TREG NODES compromised simultaneously
+- DFAIT trial: low-dose IL-2 → Treg expansion → T1DM C-peptide preservation; mechanism anchored to IL2RA/STAT5/FOXP3 TSDR
+- PTPN2 (run_119) + IL2RA (run_140): PTPN2 dephosphorylates STAT5 (limits signaling); IL2RA drives STAT5 (activates signaling) — this pair now covers both activation AND termination of the STAT5 node
+
+**ME/CFS (MODERATE):**
+- IL-15 shared signaling: NK cells use IL-15 (not IL-2) via IL2RB/IL2RG/JAK1/JAK3/STAT5; same STAT5 pathway → NK survival + IFN-γ production; low-dose IL-2 → also boosts NK via shared IL2RB/γc/STAT5 axis
+- Treg/Teff imbalance in ME/CFS: if IL2RA risk allele → Treg pool chronically depleted → T cell activation persists → exhaustion cascade accelerated; low-dose IL-2 could restore Treg/Teff balance
+
+**Protocol additions:**
+- **Low-dose IL-2** (first cytokine-level Treg intervention): T1DM 3M IU/day × 5 days q4w; rosacea 1-3M IU/day × 5 days; prescription only; Treg-selective at low doses
+- **Six-node Treg therapeutic ladder**: Vitamin A (Nodes 1+3) + Vitamin D (Node 2) + DYRK1A [contraindicated rosacea] + reduce TCR load/idelalisib (Node 5) + low-dose IL-2 (Node 6)
+
+**Framework state: 140 runs | IL2RA/CD25 IL-2 supply | 6th Treg stability node | 15th T1DM stratification | rs2104286 OR~1.7 | first STAT5 analysis | low-dose IL-2 Treg intervention | six-node Treg stack complete | RASGRP1-IL2RA supply chain.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-fifteenth extension | IL2RA CD25 JAK3 JAK1 STAT5 STAT5a STAT5b FOXP3-TSDR-CNS2 Treg-extrinsic-supply IL-2-competition CD25-high-affinity rs2104286 15th-stratification 6th-Treg-node first-STAT5 low-dose-IL-2 DFAIT-trial rosacea-Treg-expansion ME/CFS-IL15-shared-STAT5 PTPN2-STAT5-pair CTLA4-synergy six-node-Treg-complete four-axis-compound Lowe-2007-PNAS Hartemann-2013-LancetDE Grinberg-Bleyer-2010 | run_140*

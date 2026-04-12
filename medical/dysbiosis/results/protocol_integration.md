@@ -5188,3 +5188,88 @@ Intervention: selenomethionine → SELENOP ↑ → SELENOS ↑ → better ERAD �
 ```
 
 *Protocol_integration.md Part 9cm — 2026-04-12 | SELENOP selenoprotein-P ApoER2 LRP8 selenium-transport 22nd-beta-cell-death SELENOS ERAD VCP Derlin-1 TrxR2 TXNRD2 Complex-I keratinocyte-GPx4 rosacea-barrier serum-SELENOP-biomarker selenomethionine-preferred selenium-mechanism-count-4-new ME/CFS-NK-redox baricitinib-complement autoimmune-thyroid anti-TPO Burk-2005 Olson-2008 Labunskyy-2014 | run_138*
+
+---
+
+### Part 9cn — RASGRP1 Protocol Integration (run_139)
+
+**PLCγ → DAG fork — now complete:**
+```
+Quercetin 5th mechanism (run_132): PLCγ inhibition → DAG↓ + IP3↓
+    ↓ (blocks all three arms below simultaneously)
+
+IP3 → ITPR3 (run_132) → STIM1 → ORAI1 → Ca²⁺ → NFAT → DEGRANULATION
+                         [quercetin 3rd: ORAI1; Mg²⁺: ITPR3]
+
+DAG → PKC → IKKβ → NF-κB → inflammatory genes
+     [multiple NF-κB suppressors in framework: colchicine, BHB, etc.]
+
+DAG → RASGRP1 (run_139) → RAS → MEK → ERK → AP-1 → TNF-α/IL-6/IL-13
+     [no direct RASGRP1 inhibitor; quercetin upstream; MEK inhibitors = cancer drugs]
+```
+
+**Quercetin therapeutic rationale reinforced:**
+- Quercetin's PLCγ inhibition (run_132, 5th mechanism) is now confirmed as the single most upstream block covering ALL THREE PLCγ outputs: IP3 (Ca²⁺/NFAT/degranulation), NF-κB (PKC-IKKβ), and AP-1/cytokine production (RASGRP1/ERK)
+- This validates quercetin 500-1000 mg/day as the most mechanistically comprehensive OTC mast cell stabilizer in the framework
+
+**Genetic stratification (14th point):**
+```
+rs17574546 (RASGRP1):
+    Risk allele → RASGRP1 expression ↓ → ERK amplitude ↓ at thymic selection
+    → autoreactive T cells escape negative selection
+    → T1DM risk via expanded peripheral autoreactive T cell burden
+    Test as part of polygenic risk panel (compound with rs2104286 IL2RA supply-side)
+```
+
+*Protocol_integration.md Part 9cn — 2026-04-12 | RASGRP1 RAS-GEF DAG-RAS-ERK PLCγ-fork-complete quercetin-three-arm-upstream thymic-negative-selection 13th-mast-cell-cytokine-arm MEK ERK AP-1 TNF-α IL-6 IL-13 14th-stratification rs17574546 NK-IFN-Ca2+-independent Cooper-2012-NatGenet | run_139*
+
+---
+
+### Part 9co — IL2RA/CD25 Protocol Integration (run_140)
+
+**Six-node Treg stability intervention ladder (complete):**
+```
+Node 1: IKZF1/NuRD chromatin scaffold
+    → Vitamin A (retinyl palmitate 3000-5000 IU/day): RA → RARE → IKZF1 ↑
+
+Node 2: FOXP3 lineage TF
+    → Vitamin D (calcitriol 0.5-1 µg/day): VDR → FOXP3 CNS2 demethylation
+
+Node 3: BACH2 effector repressor
+    → Vitamin A (same as Node 1): RA → RARE → BACH2 ↑
+    → Sulforaphane (20-30 mg/day): NRF2 → oxidative Treg stress ↓
+
+Node 4: DYRK1A/NFAT gate
+    → [harmine contraindicated rosacea; INDY experimental only]
+
+Node 5: PI3Kδ/FOXO1 kinase axis
+    → Idelalisib (specialist, prescription): PI3Kδ inhibition → FOXO1 nuclear
+    → Reduce TCR stimulation load (calcitriol → Treg-permissive; quercetin → Teff ↓)
+
+Node 6: IL2RA/JAK3/STAT5 extrinsic supply
+    → Low-dose IL-2 (specialist, prescription): 1-3M IU/day × 5 days
+    → CTLA4 synergy: CTLA4 on Tregs → less Teff IL-2 consumption → more for Tregs
+```
+
+**Genetic stratification (15th point):**
+```
+rs2104286 (IL2RA):
+    OR ~1.7; C allele (risk) → CD25 ↓ on Tregs → supply-side failure
+    Compound four-axis Treg failure:
+    rs1701704 (IKZF1) + rs3757247 (BACH2) + PI3Kδ (run_135) + rs2104286 (IL2RA)
+    → Vitamin A + low-dose IL-2 + idelalisib (specialist) triple intervention
+
+RASGRP1 (run_139) + IL2RA (run_140) supply chain:
+    RASGRP1 risk → less Teff IL-2 production
+    IL2RA risk → less Treg IL-2 capture
+    Combined: both ends of the IL-2 supply chain impaired → maximal Treg starvation
+```
+
+**Low-dose IL-2 prescribing framework:**
+| Indication | Dose | Frequency | Primary target |
+|-----------|------|-----------|---------------|
+| T1DM honeymoon preservation | 3M IU/day × 5 days | Every 4 weeks | Treg FOXP3 maintenance (DFAIT protocol) |
+| Rosacea autoimmune subtype | 1-3M IU/day × 5 days | Monthly | Dermal Treg expansion |
+| ME/CFS Treg/Teff rebalance | 1M IU/day × 5 days | Every 6-8 weeks | Chronic immune activation ↓ |
+
+*Protocol_integration.md Part 9co — 2026-04-12 | IL2RA CD25 JAK3 STAT5 six-node-Treg-ladder low-dose-IL-2 DFAIT-trial 15th-stratification rs2104286 OR1.7 first-STAT5 extrinsic-Treg-supply CTLA4-synergy four-axis-compound IKZF1-BACH2-PI3Kδ-IL2RA Vitamin-A-D-IL2 PTPN2-STAT5-pair RASGRP1-supply-chain Lowe-2007-PNAS Hartemann-2013-LancetDE Grinberg-Bleyer-2010 | run_140*

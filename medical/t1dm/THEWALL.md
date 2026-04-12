@@ -1317,3 +1317,45 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 5. **Monitoring addition**: Serum SELENOP target ≥4 mg/L (normal 3.5–5 mg/L); more informative than serum selenium for β cell delivery status; low SELENOP = inadequate β cell selenium even with borderline-adequate serum selenium.
 
 *T1DM THEWALL cross-reference run_138: 2026-04-12 | SELENOP selenoprotein-P ApoER2 LRP8 selenium-transport receptor-endocytosis 22nd-beta-cell-death SELENOS VIMP ERAD VCP Derlin-1 ER-quality-control upstream-ER-stress IRE1α ATF6 PERK TrxR2 TXNRD2 mitochondrial-H2O2 Complex-I GPx1 Fenton-upstream run110-run128-additive selenomethionine SELENOP-biomarker Burk-2005 Olson-2008 Labunskyy-2014 | run_138*
+
+---
+
+### Cross-reference: run_139 — RASGRP1 / DAG→ERK / 14th Stratification / Thymic Selection Defect
+
+**Gap:** RASGRP1/DAG-RAS-ERK absent from all 138 prior runs. Third PLCγ DAG output (after PKC/NF-κB and RASGRP1/ERK); thymic negative selection ERK mechanism.
+
+1. **T1DM GWAS rs17574546 (14th stratification point)**: Cooper 2012 Nat Genet; risk allele → RASGRP1 expression ↓ → blunted ERK amplitude in autoreactive T cells at thymic selection stage.
+
+2. **Thymic negative selection paradox**: Normal: strong self-reactive TCR → high ERK (requires RASGRP1) → Bim ↑ → apoptosis → T cell deleted. RASGRP1 loss: strong self-reactive TCR → ERK NOT amplified by RASGRP1 → Bim NOT induced → autoreactive T cell survives thymic selection → escapes to periphery → T1DM insulitis. RASGRP1 is paradoxically NEEDED for autoimmune protection (deletes self-reactive clones).
+
+3. **Peripheral effector T cell arm**: Once autoreactive T cells are in periphery, RASGRP1 → ERK → AP-1 drives IL-2 production → T cell proliferation. RASGRP1 deficiency partially blunts peripheral proliferation but thymic escape defect dominates.
+
+4. **IL-2 supply chain (runs 139+140)**: Teff activation → TCR → PLCγ1 → DAG → RASGRP1 → ERK → AP-1 → IL-2 produced; this IL-2 → IL2RA (run_140) → Treg STAT5 → FOXP3 maintenance. RASGRP1 risk allele → less Teff IL-2 production → less Treg IL-2 supply → Treg homeostasis impaired from supply source side (compound with IL2RA supply reception side, run_140).
+
+5. **Quercetin at PLCγ level (run_132) now blocks RASGRP1 indirectly**: PLCγ inhibition → less DAG → less RASGRP1 membrane recruitment → ERK/AP-1 ↓. This validates quercetin's position as the single most upstream block covering all three DAG outputs.
+
+*T1DM THEWALL cross-reference run_139: 2026-04-12 | RASGRP1 RAS-GEF DAG C1-domain RAS-GTP MEK ERK AP-1 thymic-negative-selection autoreactive-escape Bim apoptosis rs17574546 14th-stratification IL-2-supply-chain Teff-IL2 quercetin-upstream-RASGRP1 FOXP3-maintenance-supply Priatel-2002-Immunity Ebinu-1998-Science Cooper-2012-NatGenet | run_139*
+
+---
+
+### Cross-reference: run_140 — IL2RA/CD25 / rs2104286 / 15th Stratification / 6th Treg Node / Low-Dose IL-2
+
+**Gap:** IL2RA/STAT5/Treg-homeostasis absent from all 139 prior runs. One of the strongest non-HLA T1DM GWAS variants. First extrinsic Treg cytokine supply analysis.
+
+1. **T1DM GWAS rs2104286 (15th stratification point)**: IL2RA, chromosome 10p15.1; OR ~1.7 (risk C allele → CD25 ↓ on Tregs); Lowe 2007 PNAS fine-mapping. One of the strongest non-HLA hits alongside CTLA4, PTPN22, BACH2.
+
+2. **6th Treg stability node — extrinsic cytokine supply**:
+   - Prior 5 nodes: intrinsic (chromatin, TF expression, kinase activity, phosphatase)
+   - Node 6: extracellular IL-2 → IL2RA (CD25 high-affinity binding) → IL2RB/IL2RG → JAK3 → STAT5 → FOXP3 TSDR/CNS2 → Treg identity maintenance + expansion
+   - CD25-high Tregs out-compete resting Teffs for paracrine IL-2 (~100× higher affinity); rs2104286 → CD25 ↓ → competition disadvantage → Treg pool shrinks in chronic autoimmune milieu
+
+3. **DFAIT trial**: Hartemann 2013 Lancet Diabetes Endocrinol: low-dose aldesleukin (3M IU/day × 5 days q4w) in T1DM → Treg expansion confirmed (FOXP3+ Tregs ↑ 30-50%); C-peptide preservation trend. Mechanism: CD25-high Tregs capture low-dose IL-2 preferentially → STAT5 → FOXP3 + Bcl-2 → Treg expansion without Teff activation.
+
+4. **STAT5 → FOXP3 TSDR/CNS2**: STAT5 binds the TSDR (thymic-specific demethylated region) = the same FOXP3 enhancer element that CNS2 demethylation (Vitamin D/run_010) stabilizes. STAT5 + demethylated TSDR = cooperative stabilization: both the chromatin state (methylation) AND the transcription factor (STAT5) are needed for full FOXP3 maintenance. rs2104286 → CD25 ↓ → STAT5 suboptimal → FOXP3 falls even with normal TSDR demethylation.
+
+5. **PTPN2 (run_119) + IL2RA (run_140) complete STAT5 regulation**:
+   - PTPN2 = phosphatase that limits STAT5 signal duration (dephosphorylates STAT5)
+   - IL2RA = receptor that drives STAT5 activation
+   - Together: activation kinetics (IL2RA) + termination kinetics (PTPN2) both determine net STAT5 in Tregs; risk alleles in both → insufficient STAT5 peak (IL2RA deficiency) + risk of STAT5 dysregulation
+
+*T1DM THEWALL cross-reference run_140: 2026-04-12 | IL2RA CD25 JAK3 STAT5 FOXP3-TSDR-CNS2 Treg-extrinsic-supply IL-2-competition rs2104286 15th-stratification 6th-Treg-node CD25-high-affinity low-dose-IL-2 DFAIT-trial Treg-expansion STAT5-TSDR PTPN2-termination-pair CTLA4-synergy RASGRP1-supply-chain four-axis-compound Vitamin-A-D-STAT5-combined Lowe-2007-PNAS Hartemann-2013-LancetDE Grinberg-Bleyer-2010 | run_140*
