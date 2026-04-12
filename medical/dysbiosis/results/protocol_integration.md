@@ -5403,3 +5403,74 @@ rs1990760 AT/TT (risk):
 ```
 
 *Protocol_integration.md Part 9cr — 2026-04-12 | SLC7A11 xCT GSH-substrate GPx4 ferroptosis-canonical ACSL4 PUFA-PE FSP1 CoQ10H2 NAC-primary-addition CoQ10-ubiquinol-new-mechanism sulforaphane-NRF2-SLC7A11-new pioglitazone-ACSL4-third-mechanism four-tier-anti-ferroptotic 23rd-beta-cell-death UV-keratinocyte-ferroptosis NAC-ME/CFS-NK selenium-complementary run110-run138-additive Dixon-2012 Jiang-2015 Doll-2019 | run_143*
+
+---
+
+### Part 9cs — PI3Kγ/PIK3CG Protocol Integration (run_144)
+
+**New mechanistic insight — myeloid PI3K arm:**
+
+PI3Kδ (run_135) blocks the lymphocyte arm of T1DM autoimmunity. PI3Kγ (run_144) blocks the myeloid arm (macrophage insulitis infiltration, HDAC7-driven M1 polarization). These are orthogonal isoforms with distinct upstream inputs (RTK vs. GPCR) and distinct therapeutic targets.
+
+**Therapeutic additions:**
+
+**Duvelisib (dual PI3Kδ+PI3Kγ):**
+- Blocks both lymphoid arm (PI3Kδ: Treg/T cell) and myeloid arm (PI3Kγ: macrophage insulitis)
+- Approved for CLL/SLL; off-label investigation in T1DM prevention context
+- Preferred over idelalisib (PI3Kδ only) when macrophage insulitis is prominent (confirmed by biopsy or imaging)
+- For rosacea: blocks both FcεRI/IgE mast cell degranulation (PI3Kδ) AND MRGPRX2/GPCR mast cell migration (PI3Kγ)
+
+**Macrophage insulitis staging consideration:**
+| Insulitis Feature | PI3K Isoform | Drug |
+|------------------|-------------|------|
+| Lymphocyte-predominant insulitis | PI3Kδ | Idelalisib |
+| Mixed macrophage + lymphocyte | PI3Kδ + PI3Kγ | Duvelisib |
+| Macrophage-predominant (early pre-T1DM) | PI3Kγ | Eganelisib (IPI-549) or duvelisib |
+
+**HDAC7/M2 polarization as therapeutic readout:**
+- PI3Kγ inhibition → cAMP ↑ → PKA ↑ → HDAC7 export (measurable by subcellular fractionation/IF in biopsy macrophages)
+- In vivo surrogate: IL-10 ↑ / IL-12p70 ↓ ratio in peripheral blood monocytes after PI3Kγ inhibitor treatment → M2 shift confirmed
+
+**Existing protocol augmented:**
+- C5 inhibitor context (not in framework): C5aR1/PI3Kγ axis = rationale for complement inhibition (eculizumab, avacopan) in insulitis-positive T1DM at-risk individuals
+- Doxycycline (rosacea, existing): anti-CXCL8/MMP-9 mechanism → CXCR2 → PI3Kγ transducer blunted; consistent with existing use
+
+*Protocol_integration.md Part 9cs — 2026-04-12 | PIK3CG PI3Kγ myeloid GPCR Gβγ CCL2-CCR2-insulitis C5aR1-complement CXCR2-neutrophil HDAC7-cAMP-M2 duvelisib-dual-PI3Kδ-PI3Kγ idelalisib-PI3Kδ-only eganelisib-IPI549-selective insulitis-staging-table HDAC7-M2-readout IL10-IL12-ratio rosacea-dual-mast-isoform doxycycline-CXCR2-PI3Kγ run135-PI3Kδ-complement | run_144*
+
+---
+
+### Part 9ct — SETD7/KMT7 Protocol Integration (run_145)
+
+**New monitoring and therapeutic implications:**
+
+**B12 monitoring — SETD7/Treg rationale (new indication for existing practice):**
+
+| Patient Group | Risk | SETD7 Connection | Action |
+|--------------|------|-----------------|--------|
+| Metformin-treated T1DM | B12 malabsorption → SAH ↑ → SETD7 inhibited | FOXP3-K302me1 ↓ → Treg unstable | Annual B12 + homocysteine; supplement if B12 <300 pg/mL |
+| ME/CFS with mitochondrial dysfunction | Folate cycle impaired → SAM ↓ | SETD7 substrate depletion → NK/Treg epigenetic drift | B12 + methylfolate + betaine |
+| All T1DM at-risk with rosacea | General methylation support | SETD7 multi-substrate protection | B12 + folate baseline optimization |
+
+**SAM support stack (OTC):**
+- B12 (methylcobalamin 1000 mcg/day): homocysteine → methionine via BHMT/MS; prevents SAH accumulation
+- Methylfolate (5-MTHF 400-800 mcg/day): one-carbon cycle; SAM regeneration cofactor
+- Betaine (trimethylglycine, 500-1000 mg/day): BHMT pathway; B12-independent homocysteine → methionine
+- Methionine-rich diet: SAM direct precursor
+→ All support SETD7 cofactor availability → FOXP3-K302me1 + islet enhancer + p53 stability maintained
+
+**LSD1 inhibition (new pharmacological angle):**
+- LSD1 (KDM1A) removes K302me1 from FOXP3 → FOXP3 destabilization
+- LSD1 inhibitors in clinical development (oncology): ORY-1001 (iadademstat), tranylcypromine, GSK2879552
+- Repurposing rationale: LSD1 inhibition → K302me1 preserved → FOXP3 stable → Treg function maintained during insulitis
+- Low-dose LSD1 inhibitor + GSK-3β inhibitor (run_114) = dual FOXP3 stabilization at two distinct sites (K302me1 AND Ser418 phosphorylation)
+
+**β cell enhancer monitoring context:**
+- SETD7-KO islets: ~50% GSIS reduction; functional equivalent = early T1DM β cell dedifferentiation
+- Serum c-peptide trajectory in T1DM: gradual c-peptide decline may reflect SETD7/enhancer collapse preceding cell death
+- Intervention window: restoring SAM availability (B12/betaine) may slow dedifferentiation before β cell death is complete
+
+**Existing protocol augmented:**
+- Sulforaphane (NRF2): NRF2 → NQO1/HO-1 → oxidative stress ↓ → preserves SETD7 SET domain cysteines from oxidation; connects run_143 NRF2/SLC7A11 and run_145 SETD7 protection via common anti-oxidant mechanism
+- Pioglitazone/PPARγ: PPARγ → NRF2 upregulation in some contexts → SETD7 cysteine preservation; additive with ACSL4 ↓ (run_143)
+
+*Protocol_integration.md Part 9ct — 2026-04-12 | SETD7 KMT7 H3K4me1 FOXP3-K302me1 SAM-B12-monitoring metformin-B12-SETD7 methylfolate-betaine-methionine-stack SAH-homocysteine LSD1-KDM1A-inhibitor ORY1001-iadademstat dual-FOXP3-stabilization-K302-Ser418 β-cell-dedifferentiation-c-peptide-trajectory islet-enhancer-50pct-GSIS NF-κB-RelA-termination oxidative-SETD7-cysteine sulforaphane-NRF2-SETD7-protection B12-annual-monitoring-metformin ME/CFS-SAM-mitochondrial run114-GSK3β-FOXP3-additive | run_145*
