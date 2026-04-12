@@ -126,3 +126,61 @@ The user's multi-target intervention stack (CVB protocol) is, functionally, an i
 Dysbiosis is at the state where individual-organ-system correlations are well-mapped, causal arrows are mostly open, intervention tools are blunt, and the integrative model is missing. The sigma method can map these gaps and rule out hypotheses via stall-point analysis on instances, but crossing to mechanism requires wet-lab work outside the method's domain.
 
 **Sigma recommendation**: use the method to identify which mountain has the highest KILL ROI — the treatment prediction most likely to be falsified by existing data. That's where to focus numerics first.
+
+---
+
+## Post-Phase 3 Update — 2026-04-11
+
+### Gap: Gut-Skin Axis — RESOLVED (dominant mechanism identified)
+
+Of the 6 mechanisms listed above, the dominant mechanism for skin inflammatory disease is **#3 (GALT immune education / T-cell reprogramming via IL-23/Th17 axis)**, not #1 (LPS translocation).
+
+Evidence: Published review (PMID 38654394) states "acute systemic inflammation alone does not trigger skin-specific responses." LBP NOT elevated in isolated psoriasis (only elevated with concurrent metabolic syndrome). I-FABP elevated in psoriasis (r=0.78 with PASI). Risankizumab/ustekinumab dual IBD+skin outcomes consistent with shared IL-23 axis.
+
+Mechanism: gut dysbiosis → IL-23 → GALT Th17 priming → dual-homing T cells (α4β7+/CLA+) → skin-draining lymph nodes → IL-23 in skin → Treg plasticity (Foxp3+ → IL-17A-producing) → threshold lowered.
+
+LPS (mechanism #1) is a contributing amplifier in metabolic syndrome context but NOT the primary gut-skin driver for isolated skin dysbiosis disease.
+
+### Gap: Host Threshold — PARTIALLY RESOLVED (two inputs identified)
+
+The threshold (M4/THE WALL) is now understood to be jointly set by TWO independent, modifiable inputs:
+
+1. **IFN-α arm (M3):** CVB → chronic IFN-α → pDC expansion → skin pDC threshold lowered for B. oleronius → IL-23 → Th17 loop
+2. **Th17 arm (M1):** Gut dysbiosis → GALT Th17 → skin Treg plasticity via IL-23
+
+Both arms share a common final pathway: pDC/IL-23/Th17 → functional Treg depletion. T-index v3 proposed with Node D (IFN-α) added to Node C (I-FABP for gut arm). Molecular mechanism of Treg plasticity confirmed (PMID 31776355, IL-23 converts Foxp3+ Tregs to IL-17A producers in human psoriatic skin).
+
+**Still unresolved:** no single clinical assay for the threshold STATE itself. T-index v3 is a proxy, not a measurement.
+
+### Gap: The Integration Gap — SUBSTANTIALLY ADDRESSED
+
+The convergent mechanism is now assembled (see `results/phase3_synthesis.md`):
+
+Shared pDC/IFN-α/IL-23 axis connects:
+- Gut dysbiosis (M1) via Th17 trafficking
+- Virome (M3, CVB) via chronic IFN-α
+- Oral dysbiosis (M7, P. gingivalis) via M3→M7 bridge (CAR upregulation)
+- Skin dysbiosis (M2) via threshold modulation
+
+Epidemiological signature: T1DM + rosacea co-occurrence OR 2.59 (Egeberg JAAD 2016). Explained by CVB→IFN-α→pDC priming of rosacea loop in T1DM patients.
+
+**This is not proven** — it is 4 strong candidate sky bridges assembled into a coherent framework. Each requires one decisive test:
+- M3↔M7: nPOD dual IHC (Graves + Richardson labs)
+- M1↔M4: risankizumab SEQUENCE trial co-morbidity subgroup
+- M3↔M2: IFN-α Simoa stratifies rosacea risk within T1DM cohort
+- M2+M4 loop: ivermectin + azelaic acid RCT in rosacea non-responders
+
+### Gaps Remaining Unaddressed
+
+1. **M6 (early-life)→M4**: Does early-life dysbiosis permanently set IL-23/Th17 baseline? Untested.
+2. **The "healthy baseline" problem**: No consensus on what a healthy microbiome is. Unchanged.
+3. **Intervention precision**: Phage therapy is pre-clinical. FMT is blunt. Unchanged.
+4. **CVB-specific causal arrows**: pDC expansion in T1DM might be from non-CVB IFN sources. The M3 arm is real; whether CVB is the specific driver (vs. other IFN sources) is the uncertain step.
+
+### Assay Kills Post-Phase 3
+
+- **Zonulin (commercial kit)**: DEAD. Measures C3, not zonulin. Replace with L:M ratio (Genova) or FABP2+LBP.
+- **CVB IgG serology for persistence**: DEAD as a persistence marker. Measures past exposure only.
+- **CXCL10 as IFN-α cascade gate**: WEAK. Only ~50% sensitive in T1DM. Use as supportive, not exclusive gate. IFN-α2 Simoa should be ordered based on clinical context.
+
+*Gap.md updated: 2026-04-11 | Post-Phase 3 | See results/phase3_synthesis.md for full framework*
