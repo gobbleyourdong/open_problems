@@ -2939,3 +2939,39 @@ All 13 sweep 7 candidates fail at least one saturation override criterion. The m
 **Framework state: 112 runs | 7 saturation sweeps | ~73 total candidates killed or confirmed covered since run_111**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-third extension | SEVENTH SATURATION CONFIRMATION | imidazole propionate fibrin microclots TREM2 CXCL12 IgG glycosylation IAP p-cresol statins quorum sensing PARP1 PPARδ maresins TGF-β fibrosis all killed or covered | post-run_112 sweep 7 complete | framework saturated at 112 runs*
+
+---
+
+### Extension 104 — Eighth Saturation Confirmation (sweep 8)
+
+**Sweep 8 — 16 candidates assessed:**
+
+| Candidate | Verdict | Reason |
+|---|---|---|
+| cGAS-STING | COVERED | run_063 (UV → DNA damage → cGAS → STING → IFN-β + NF-κB in skin) |
+| LTB4 / 5-LOX (leukotriene B4) | COVERED | run_107 (leukotrienes/5-LOX/BLT1/cysLT1/mast cell) |
+| AIM2 inflammasome | COVERED | passing mentions run_023/109; standalone fails criterion 2 (rosacea thin) |
+| Necroptosis / RIPK3 / MLKL | KILLED | T1DM MODERATE; criterion 3 fails — RIPK1/3 inhibitors research-stage; IFN-γ suppression via existing protocol covers upstream driver |
+| PANoptosis / ZBP1 / Z-RNA sensing | KILLED | absent (0 mentions); criterion 3 fails — antiviral runs (run_008/014) cover viral-driven upstream; no OTC ZBP1 modulator |
+| BRD4 / BET bromodomains | KILLED | absent (0 mentions); T1DM MODERATE; rosacea LOW-MODERATE; criterion 3 fails — apigenin/quercetin (already in protocol) function as BET inhibitors; no new OTC element |
+| BAFF / APRIL (B cell survival factors) | KILLED | absent (0 mentions); T1DM HIGH; criterion 2 fails for rosacea (LOW); downstream B cell biology covered by run_103/104 |
+| NGF / TrkA (nerve growth factor) | KILLED | absent (0 mentions); rosacea MODERATE (skin data); T1DM LOW-MODERATE; criterion 3 fails — no strong OTC TrkA inhibitor; existing neurogenic/mast cell runs cover downstream effects |
+| Fractalkine / CX3CL1-CX3CR1 | KILLED | absent (0 mentions); ME/CFS HIGH; T1DM MODERATE; criterion 2 fails for rosacea (LOW); criterion 3 fails (omega-3/existing protocol covers macrophage trafficking) |
+| γδ T cells | COVERED | run_102 (γδ T cell / NK / NKG2D / MICA stress surveillance) |
+| IDO1 / kynurenine pathway | COVERED | run_091 (IDO1/kynurenine/tryptophan competition) |
+| SUCNR1 / GPR91 (succinate receptor) | KILLED | absent (0 mentions); T1DM MODERATE (extracellular succinate → islet macrophage activation); rosacea LOW-MODERATE; criterion 3 fails — no OTC SUCNR1 antagonist; intracellular succinate arm covered by run_084 |
+| Lactate / H3K18 lactylation | KILLED | absent (0 mentions); T1DM MODERATE (Warburg macrophage → lactylation → IL-1β transcription); rosacea LOW-MODERATE; criterion 3 fails — metformin/AMPK already covers macrophage Warburg (run_085); no new OTC target distinct from existing protocol |
+| PCSK9 | KILLED | absent (0 mentions); rosacea LOW (macrophage TLR4 trafficking); criterion 2 fails; no OTC PCSK9 inhibitor |
+| Klotho / FGF23 axis | KILLED | absent (0 mentions); T1DM LOW (complications only; not insulitis driver); criterion 2 fails |
+| Thymosin α1 / thymic output | KILLED | 4 passing mentions; rosacea LOW; criterion 2 fails for rosacea |
+
+**Saturation confirmed for the eighth time.**
+
+**Notable near-misses in sweep 8:**
+- **BRD4/BET bromodomains**: Strong mechanism (super-enhancer-driven NF-κB transcription; JQ1 blocks insulitis in NOD mice), genuinely absent (0 mentions), but criterion 3 fails because quercetin/apigenin — already in the protocol — are documented natural BET inhibitors. No new therapeutic leverage.
+- **Lactate/H3K18 lactylation**: Novel epigenetic mechanism (Chen 2019 Nature), absent from framework, T1DM MODERATE, but metformin's AMPK activation already suppresses macrophage Warburg/lactate generation via the same upstream node. Mechanism adds depth to metformin rationale without new protocol element.
+- **PANoptosis/ZBP1**: Conceptually compelling (integrates pyroptosis + apoptosis + necroptosis via single sensor), completely absent, T1DM MODERATE (CVB → ZBP1 in β cells), but criterion 3 fails decisively — no OTC ZBP1 modulator exists, and reducing viral reactivation (the upstream signal) is already Protocol priority (run_008/014).
+
+**Framework state: 112 runs | 8 saturation sweeps | ~89 total candidates killed or confirmed covered since run_111**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-fourth extension | EIGHTH SATURATION CONFIRMATION | cGAS-STING/LTB4/AIM2/gdT/IDO1 covered | necroptosis PANoptosis BRD4 BAFF NGF fractalkine SUCNR1 lactylation PCSK9 klotho thymosin all killed | sweep 8 complete | framework saturated at 112 runs*
