@@ -5341,3 +5341,30 @@ PTPN2 rs45450798 added to optional genetic panel (HFE/run_110, TNFAIP3/run_113, 
 **Framework state: 119 runs | 3rd LL-37 transcriptional input (IFN-γ/JAK1/STAT1) | PTPN2 5th genetic stratification | T1DM GWAS mechanistic link | IFN-γ monitoring new T-index component.**
 
 *Updated: 2026-04-12 | Phase 4 ninety-fourth extension | PTPN2 TC-PTP JAK1 STAT1 Y701 CAMP cathelicidin LL-37 Loop 1 third arm IFN-gamma rosacea T1DM GWAS Smyth 2008 iNOS NOS2 gut permeability claudin-2 CXCL10 GAS element Schauber 2009 Filer 2017 baricitinib 5th stratification | run_119*
+
+---
+
+### Phase 4 — Extension 95 (run_120): TRPV4 Warm Thermal Trigger + Keratinocyte Ca²⁺ + Gut Permeability
+
+**The gap:** All 119 prior runs contain no molecular explanation for the clinically dominant rosacea trigger class: warm temperature exposure (27–35°C). The framework has TRPV1 (43°C noxious heat; runs 015, 095) and TRPA1 (cold/reactive electrophiles; run_093) but not TRPV4, the keratinocyte sensor that activates at physiological warmth.
+
+**Rosacea — warm thermal trigger receptor:**
+TRPV4 in keratinocytes activates at 27–35°C — the temperature range of hot weather (30°C), warm baths (38–40°C skin surface), and exercise heat load. Activation → Ca²⁺ influx → calcineurin/NF-AT (new transcription factor in framework) + PKC/ERK/AP-1 → IL-8, VEGF-A, PGE2. EET pathway: UV → PLA2 → AA → CYP2C8/CYP2J2 → 5,6-EET → TRPV4 → Ca²⁺ (explains UV as TRPV4-mediated trigger complementing M3/photochemical mechanisms). Sweating/hypoosmolarity → cell swelling → TRPV4 (explains exercise and humid-environment triggers). TRPV4 connects to Loop 1 via Ca²⁺ → PKC → ERK → KLK5 upregulation (4th upstream Loop 1 trigger).
+
+**T1DM — gut permeability + β cell calcium:**
+Gut epithelial TRPV4: exercise/heat → osmotic stress → TRPV4 → RhoA/ROCK → MLC → tight junction contraction → paracellular permeability ↑ → antigen spillover (thermal/osmotic extension of gut permeability cascade, run_059, run_119). β cell TRPV4: IL-1β in inflamed islets sensitizes TRPV4 → threshold shift → chronic Ca²⁺ influx at normal body temperature (37°C) → ER Ca²⁺ depletion → UPR (run_098) → apoptosis feedforward. Kalia 2018 Sci Rep: TRPV4 confirmed in mouse pancreatic islets.
+
+**Kill-first:**
+- TRPV1 (runs 015/095): 43°C threshold — rosacea warm triggers operate at 27–35°C; different receptor, different ligands, different downstream (TRPV4 lacks capsaicin sensitivity; TRPV4 activates calcineurin/NF-AT which TRPV1 does not). Not killed.
+- TRPA1 (run_093): <17°C cold + reactive electrophiles. Temperature range opposite to TRPV4. Not killed.
+- NF-κB coverage: TRPV4 → Ca²⁺ → calcineurin → NF-AT is a Ca²⁺-dependent, calcineurin-mediated pathway distinct from IκK/NF-κB. NF-AT is absent from all prior runs. Not killed.
+
+**Protocol additions:**
+- Quercetin (existing run_003) = TRPV4 inhibitor (IC50 ~1–2 μM, Vriens 2009); NEW: time quercetin 60–90min pre-heat/UV exposure as thermal trigger prophylaxis
+- TRPV4 thermal avoidance: skin surface <27°C target; showers <26°C; exercise cooling protocol (ice packs)
+- Omega-3/EPA (run_005) → AA ↓ → EET ↓ → TRPV4 EET-activation ↓ (new mechanism arm for existing intervention)
+- Mg²⁺ (T-index) = TRPV4 Ca²⁺ influx modulator; Mg²⁺ deficiency → TRPV4 hypersensitivity
+
+**Framework state: 120 runs | TRPV4 warm trigger complete | NF-AT pathway new | 4th Loop 1 upstream trigger | gut permeability thermal mechanism | β cell sensitization feedforward.**
+
+*Updated: 2026-04-12 | Phase 4 ninety-fifth extension | TRPV4 warm temperature 27 35 celsius keratinocyte calcium calcineurin NF-AT PKC ERK AP-1 EET epoxyeicosatrienoic CYP2C8 UV hypoosmolarity rosacea thermal trigger Loop 1 KLK5 gut permeability RhoA ROCK MLC tight junction beta cell IL-1beta sensitization ER stress quercetin IC50 omega-3 EET | run_120*

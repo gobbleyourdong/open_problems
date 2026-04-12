@@ -951,3 +951,19 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 5. **Honeymoon protocol — 7th mechanism**: PTPN2 LOF + baricitinib Rx pathway = addressing STAT1-driven iNOS arm of β cell death. Framework now has 7 simultaneous honeymoon β cell protection mechanisms (runs 112-114, 116-119).
 
 *T1DM THEWALL cross-reference run_119: 2026-04-12 | PTPN2 TC-PTP JAK1 STAT1 Y701 iNOS NOS2 beta cell death GWAS rs45450798 Smyth 2008 intestinal gut permeability claudin-2 Filer 2017 baricitinib JAK inhibitor 5th genetic stratification IFN-gamma monitoring Th1 insulitis*
+
+---
+
+### Cross-reference: run_120 — TRPV4 Warm Thermal Trigger + Gut Permeability + β Cell Ca²⁺
+
+**Run_120 T1DM relevance:**
+
+1. **Gut TRPV4 → exercise-triggered permeability spike**: Exercise generates simultaneous thermal (gut luminal temperature ↑) and osmotic (fluid shift) activation of intestinal epithelial TRPV4 → Ca²⁺ → RhoA → ROCK → MLC phosphorylation → tight junction contraction → paracellular permeability ↑. In T1DM-predisposed individuals with background M1 dysbiosis, this exercise/heat-triggered permeability spike → microbial antigen translocation → systemic TLR4 activation → β cell inflammation amplification. **Clinical implication:** exercise protocol for T1DM honeymoon patients should include quercetin pre-exercise (TRPV4 inhibitor; IC50 ~1–2 μM) to reduce this permeability spike.
+
+2. **β cell TRPV4 sensitization by IL-1β**: Kalia 2018 (Sci Rep): TRPV4 expressed in mouse pancreatic islets; in inflammatory milieu, IL-1β sensitizes TRPV4 → activation threshold shifts from ~37°C to ~33°C → chronic Ca²⁺ influx at normal body temperature → ER Ca²⁺ depletion → UPR activation (run_098) → apoptosis feedforward. This creates an IL-1β → TRPV4 → ER stress feedback loop within inflamed islets. **Implication:** interventions that reduce islet IL-1β (NLRP3/run_023, BHB/run_112, IL-37/run_118) also de-sensitize β cell TRPV4 → reduce Ca²⁺ → reduce ER stress (second mechanism for same interventions).
+
+3. **Gut TRPV4 complements run_119 claudin-2 mechanism**: Run_119 (PTPN2 → STAT1 → claudin-2 upregulation) is a **signaling** mechanism of gut permeability under IFN-γ-high conditions. Run_120 (TRPV4 → RhoA → MLC → tight junction contraction) is a **physical/osmotic** mechanism under exercise/heat conditions. Both increase paracellular flux but via orthogonal mechanisms — a patient with PTPN2 LOF genotype + high thermal exercise load has BOTH mechanisms active simultaneously.
+
+4. **NF-AT in β cells**: Calcineurin/NF-AT in β cells is normally involved in insulin gene transcription regulation; chronic TRPV4 → Ca²⁺ overload → calcineurin hyperactivation → NF-AT → NFAT-driven inflammatory gene expression in β cells (this is the same calcineurin/NF-AT used by cytotoxic lymphocytes and is suppressed by cyclosporin/tacrolimus in transplant rejection — suggesting a potential pathway where chronic Ca²⁺ → NF-AT → autoimmune amplification).
+
+*T1DM THEWALL cross-reference run_120: 2026-04-12 | TRPV4 gut permeability RhoA ROCK MLC tight junction exercise osmotic thermal beta cell Ca2+ ER stress IL-1beta sensitization Kalia 2018 quercetin pre-exercise protocol NF-AT calcineurin claudin-2 run_119 parallel permeability*

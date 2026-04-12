@@ -804,3 +804,21 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 4. **PTPN2 genotyping in ME/CFS context**: If PTPN2 risk allele + elevated IFN-γ → JAK inhibitor consideration (baricitinib has been studied in Long COVID complications; case reports showing benefit in hyperinflammatory Long-COVID post-viral states).
 
 *ME/CFS THEWALL cross-reference run_119: 2026-04-12 | PTPN2 JAK1 STAT1 iNOS microglial neuroinflammation IFN-gamma Long COVID post-viral baricitinib claudin-2 gut barrier persistence loop*
+
+---
+
+### Cross-reference: run_120 — TRPV4 Post-Exertional Malaise + BBB + Neuroinflammation
+
+**Run_120 ME/CFS relevance:**
+
+1. **Post-exertional malaise (PEM) mechanism via gut TRPV4**: Exercise → gut luminal temperature ↑ + osmotic stress → intestinal TRPV4 → RhoA/ROCK → tight junction disruption → endotoxemia (LPS/peptidoglycan) → systemic TLR4 activation → delayed systemic inflammatory cascade 1–2hr post-exercise. This mechanistically fits the PEM onset pattern in ME/CFS (delayed peak, not during exercise). **Orthogonal to mitochondrial PEM hypothesis** (run_078 ROS/oxidative burst): a gut-origin, TRPV4-mediated endotoxemia mechanism explains PEM in patients without demonstrable mitochondrial dysfunction.
+
+2. **Blood-brain barrier TRPV4**: BBB endothelial cells express TRPV4; hyperthermia/hypo-osmolarity (from post-exercise fluid shifts) → TRPV4 → BBB permeability ↑ → transient CNS access for peripheral inflammatory mediators → neuroinflammatory spike → cognitive dysfunction ("brain fog"). Post-exercise BBB TRPV4 opening is a distinct mechanism from the chronic low-grade BBB permeability documented by PET studies in ME/CFS.
+
+3. **Microglial TRPV4**: Microglial TRPV4 activated by mechanical/osmotic stimuli and warm temperatures → Ca²⁺ → NLRP3 priming (run_023) → IL-1β/IL-18 → neuroinflammation. Temperature dysregulation in ME/CFS (aberrant thermoregulation, subnormal body temperature) may reflect impaired TRPV4-mediated neuroinflammatory feedback. In contrast, febrile responses post-exertion → microglial TRPV4 → NLRP3 → worsened neuroinflammation.
+
+4. **TRPV4 in dorsal root ganglia/allodynia**: TRPV4 expressed in DRG neurons; mechanical activation → pain hypersensitivity; relevant to fibromyalgia overlap in ME/CFS (widespread musculoskeletal pain, allodynia). The thermomechanical sensitivity of TRPV4 matches the symptom profile of ME/CFS patients who report increased pain with physical activity.
+
+**Evidence level: MODERATE** — mechanistic inference for ME/CFS; PEM-gut permeability connection is the strongest angle; no dedicated ME/CFS × TRPV4 studies available (2026).
+
+*ME/CFS THEWALL cross-reference run_120: 2026-04-12 | TRPV4 PEM post-exertional malaise gut permeability RhoA ROCK tight junction endotoxemia TLR4 BBB blood-brain barrier neuroinflammation microglial NLRP3 DRG allodynia fibromyalgia brain fog delayed inflammatory cascade exercise*
