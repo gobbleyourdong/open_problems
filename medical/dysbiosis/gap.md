@@ -3052,3 +3052,30 @@ All 13 sweep 7 candidates fail at least one saturation override criterion. The m
 **Framework at SATURATION + 3: 114 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-sixth extension | GSK-3β Foxp3 protein degradation STUB1 ubiquitination proteasomal induction-destruction dissociation Node A non-responder berberine OTC 14th NF-κB CREB CBP 11th beta cell death MCL-1 T1DM Treg functional deficiency rosacea skin Treg ETR PPR ME/CFS M1 microglia | run_114 | GSDMB TREM1 CaMKII NLRX1 OX40 UPRmt ESCRT killed sweep 10*
+
+---
+
+### Extension 107 — CARD9/CBM Complex: Fungal Pattern Recognition Gap (run_115)
+
+**Gap confirmed:** CARD9, Dectin-2, CBM complex (BCL10-MALT1-CARD9), gut mycobiome, caprylic acid — all absent from 114 prior runs. Malassezia analysis in runs 025/033/038 covers TLR2 lipase outputs, not C-type lectin/Syk/CBM recognition. Dectin-1 appears once in run_046 (passing Demodex chitin reference) — not CARD9/Th17 coverage.
+
+**Core insight:** The framework has modeled Malassezia as a lipid-secreting pathogen (TLR2 priming → NLRP3). What is absent: Malassezia recognized as a *fungal* pathogen via Dectin-2 on skin DCs → CBM complex → Th17. This produces a fundamentally different output (IL-17 rather than IL-1β) and requires a different therapeutic approach (antifungal load reduction, not just NLRP3 inhibition). Simultaneously, gut Candida overgrowth in T1DM through the same CARD9/Dectin-1 core pathway — zero prior coverage — creates gut IL-17, gut permeability, and antigen spillover as a T1DM progression mechanism.
+
+**MALT1 → A20 connection (run_113 × run_115):** MALT1 (CBM protease subunit) directly cleaves A20/TNFAIP3 (Staal 2011 Immunity). Fungal CARD9 stimulation thus accelerates A20 depletion from run_113. Malassezia-high rosacea patients → faster PPR progression because MALT1 actively destroys the NF-κB brake. Caprylic acid / MCT oil → less Candida → less CARD9 → less MALT1 → A20 preserved longer. This links the antifungal arm upstream to the A20 preservation strategy.
+
+**New mechanisms added (run_115):**
+- **15th NF-κB activation mechanism**: CARD9/CBM → TAK1 → IKKβ → NF-κB (fungal-specific CLR arm; first non-TLR/non-cytokine NF-κB mechanism in framework)
+- **Butyrate 4th mechanism**: HDAC inhibition → Candida yeast-to-hypha transition suppression → reduced Dectin-1/CARD9 activation (adds to: Treg induction, tight junction maintenance, LPS/A20 recovery from run_113)
+- **3rd genetic stratification monitoring point**: CARD9 rs4077515 (S12N protective variant) — adds to HFE run_110, TNFAIP3 run_113
+- Dectin-2/CARD9 rosacea → IL-17 → KLK5/CXCL8 (new origin node for Th17 in skin, independent of TLR2 Th17 upstream)
+- MALT1 protease as double-A20-destructor when CARD9 pathway active
+
+**New protocol element:**
+- **Caprylic acid / MCT oil** (1–3 tsp/day with meals; titrate slowly for GI tolerance): new OTC gut antifungal element for Candida colonization reduction → less CARD9/Dectin-1 activation → less gut NF-κB/IL-17 → less intestinal permeability. Also supports Malassezia management topically via capric acid (C10:0) component. Caution: run_033 found C10:0+ effective vs. Malassezia; caprylic acid (C8:0) primarily effective vs. gut Candida.
+- **Stool Candida culture / Candida IgG**: new monitoring for T1DM/rosacea gut phenotype
+- **CARD9 rs4077515 genotyping**: 3rd genetic stratification point for mycobiome-sensitive phenotypes
+- **Butyrate + caprylic acid**: complementary antifungal mechanisms; additive for Candida management
+
+**Framework at SATURATION + 4: 115 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-seventh extension | CARD9 CBM complex Dectin-2 Dectin-1 Malassezia Candida mycobiome fungal pattern recognition CLR Syk BCL10 MALT1 protease A20 cleavage Th17 IL-17 rosacea T1DM gut dysbiosis ME/CFS caprylic acid MCT oil CARD9 S12N rs4077515 15th NF-κB butyrate 4th mechanism 3rd genetic stratification | run_115*

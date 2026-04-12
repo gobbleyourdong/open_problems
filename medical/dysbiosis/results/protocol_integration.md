@@ -3856,3 +3856,67 @@ Run_113 (A20) and run_114 (GSK-3β) together explain why rosacea progresses desp
 Both run on the same platform: chronic inflammation → each brake progressively consumed/destroyed. The convergence point is that early continuous protocol (run_113 rationale) AND early berberine addition (run_114 rationale) prevent both brake failures from establishing, keeping rosacea in the reversible ETR phenotype.
 
 *Protocol_integration.md Part 9bo — 2026-04-12 | GSK-3β Foxp3 protein stability STUB1 berberine OTC Node A non-responder 4th branch calcitriol+berberine dual-level Treg T1DM honeymoon triple benefit induction-destruction dissociation 11th beta cell death MCL-1 berberine+metformin interaction rosacea ETR PPR A20+GSK-3β convergence | run_114*
+
+---
+
+### Part 9bp — CARD9/CBM/Mycobiome: Caprylic Acid as New OTC Element (run_115)
+
+#### New Protocol Element: Caprylic Acid / MCT Oil
+
+**Mechanism:** Caprylic acid (C8:0) and capric acid (C10:0) in MCT oil disrupt fungal cell membranes (medium-chain fatty acids → membrane disorganization → osmotic lysis). Targets:
+- **Gut Candida** (caprylic acid C8:0): reduces Dectin-1/CARD9 gut activation → less gut NF-κB/IL-17 → less intestinal permeability
+- **Skin Malassezia** (capric acid C10:0, topical): toxic to Malassezia above C8 threshold (run_033 established); MCT oil applied topically reduces Malassezia load
+
+**Dosing (oral):** MCT oil 1 teaspoon/day with food → increase to 3 teaspoons/day over 1–2 weeks as tolerated
+- Titrate slowly: caprylic/capric acid can cause nausea, cramping, loose stool at initiation
+- Therapeutic range: 5–15g MCT oil/day (each teaspoon ≈ 5g, containing ~3g C8:0 + ~1.5g C10:0)
+- Food equivalents: coconut oil (~8% caprylic acid), but concentrated MCT oil provides therapeutic dose more reliably
+
+**Patient selection:** Prioritize in:
+1. T1DM with gut symptoms + high glycemic variability (Candida-prone due to glucose-rich gut lumen)
+2. Rosacea with seborrheic dermatitis overlap (Malassezia-heavy phenotype)
+3. ME/CFS with gut dysbiosis / self-reported yeast overgrowth
+4. CARD9 rs4077515 normal allele (higher CARD9 responsiveness; test if genetic panel used)
+5. Stool Candida culture positive or elevated Candida IgG serology
+
+**Monitoring:**
+- Stool Candida culture (Sabouraud agar) at baseline and 3 months for T1DM gut phenotype
+- Candida IgG/IgA serology: estimates systemic fungal immune exposure (optional)
+- CARD9 rs4077515 genotyping: 3rd genetic stratification point (add to optional panel alongside HFE, TNFAIP3)
+
+#### Connection to Existing Protocol Elements
+
+**Caprylic acid + butyrate (complementary antifungal mechanisms):**
+- Butyrate: HDAC inhibition → Candida yeast-to-hypha suppression (butyrate 4th mechanism; run_115)
+- Caprylic acid: direct membrane disruption → Candida cell death
+- Different mechanisms → additive for gut Candida management; use together for maximal effect
+- No interaction concern; timing flexible (can be with same meal)
+
+**Caprylic acid + A20/run_113 upstream connection:**
+- Fungal CARD9 activation → MALT1 protease → cleaves A20/TNFAIP3 (Staal 2011 Immunity)
+- MCT oil reduces gut/skin fungal load → less CARD9 → less MALT1 → less A20 destruction
+- Caprylic acid is therefore upstream support for the A20 preservation rationale of run_113
+- In rosacea: Malassezia-heavy patients → both CARD9/MALT1-A20 cleavage AND chronic inflammation A20 depletion; MCT oil addresses the fungal arm
+
+**Caprylic acid + berberine (run_114):**
+- Berberine: some in vitro antifungal vs. Candida, but primary mechanism is GSK-3β inhibition
+- Caprylic acid: primary mechanism is membrane disruption; more potent and specific for gut Candida
+- Complementary; no interaction concern; together they address both the fungal load and the downstream signaling
+
+#### 15th NF-κB Mechanism and Clinical Context
+
+CARD9/CBM → TAK1 → IKKβ → NF-κB (fungal-specific C-type lectin arm) is the first non-TLR, non-cytokine NF-κB mechanism in the framework. Clinical significance:
+- In patients with persistent rosacea flares despite full protocol (incl. berberine/run_114 + continuous protocol/run_113): consider adding MCT oil + antifungal skin management → may address the CARD9/Th17 input driving residual inflammation
+- Malassezia-driven IL-17 cannot be suppressed by NF-κB inhibitors (berberine, calcitriol) without also addressing the Dectin-2 upstream trigger
+- Th17/IL-17 → KLK5 amplification connects to Loop 1 (existing non-responder loop) — fungal axis adds a new Loop 1 feeding mechanism
+
+#### T1DM Gut Mycobiome Protocol
+
+In T1DM patients with gut-prominent phenotype (bloating, altered motility, high glycemic variability correlated with gut state):
+1. **Screen**: stool Candida culture + Candida IgG
+2. **If positive**: add MCT oil 1–3 tsp/day (titrate as above)
+3. **Concurrent**: butyrate (existing protocol) → butyrate 4th mechanism (HDAC → Candida hypha suppression) additive with MCT oil direct kill
+4. **Monitor**: repeat stool Candida culture at 3 months; glycemic variability tracking
+5. **Rationale**: Candida → CARD9 → NF-κB + Th17 → gut permeability → antigen spillover → systemic immune activation → islet immune injury. Treating Candida reduces this cascade.
+
+*Protocol_integration.md Part 9bp — 2026-04-12 | CARD9 CBM complex Dectin-2 Dectin-1 Malassezia Candida mycobiome caprylic acid MCT oil OTC new element gut antifungal CARD9 S12N rs4077515 stool Candida monitoring 3rd genetic stratification A20 MALT1 cleavage run_113 upstream 15th NF-κB butyrate 4th mechanism complementary | run_115*

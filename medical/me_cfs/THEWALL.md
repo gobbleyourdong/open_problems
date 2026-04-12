@@ -724,3 +724,21 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 3. **Berberine and ME/CFS**: Berberine → GSK-3β inhibition → microglial M2 shift + CNS Treg stabilization + AMPK activation (documented mitochondrial support). Berberine's combined CNS anti-inflammatory + metabolic effects make it relevant to ME/CFS, though direct ME/CFS clinical data is absent.
 
 **Cross-reference: run_114 dysbiosis framework | GSK-3β Foxp3 protein stability berberine microglia M1 M2 CNS Treg CNS Tr1 neuroinflammation ME/CFS PEM | Hoeflich 2000 Nature Guo 2012 PNAS**
+
+---
+
+### run_115 cross-reference: CARD9/CBM Mycobiome — Gut Candida and Neuroinflammation
+
+**ME/CFS-specific mechanisms from run_115 (BONUS tier — plausible, clinically observed, mechanism coherent):**
+
+1. **Candida/fungal overgrowth prevalence**: Self-reported and clinically documented Candida overgrowth is highly prevalent in ME/CFS cohorts. Whether cause or consequence of gut dysbiosis, Candida generates CARD9/MALT1-driven gut inflammation that is mechanistically distinct from bacterial LPS/TLR4 activation.
+
+2. **CARD9/gut Candida → systemic IL-17 → neuroinflammation**: CARD9/CBM → Th17 → gut IL-17 + TNF-α → intestinal permeability → systemic IL-17 elevation. IL-17R is expressed on brain endothelial cells and astrocytes. Systemic IL-17 → BBB permeability increase + microglial IL-17-driven activation → amplifies the CNS inflammatory state relevant to ME/CFS cognitive symptoms.
+
+3. **MALT1 → A20 cleavage in ME/CFS gut**: A20 depletion from chronic inflammation (run_113) is worsened by MALT1 protease activity when gut Candida is present. ME/CFS patients with gut-prominent phenotype (IBS-ME overlap) + high Candida → compounded NF-κB brake failure → more severe systemic inflammation.
+
+4. **Butyrate 4th mechanism (HDAC → Candida hypha suppression)**: ME/CFS gut intervention rationale for butyrate gains a new mechanism: beyond Treg induction and barrier maintenance, butyrate suppresses Candida hyphal transition → less CARD9 input → less gut IL-17 → reduced systemic immune load.
+
+5. **Protocol note for ME/CFS**: MCT oil (caprylic acid 1–3 tsp/day) may benefit ME/CFS patients with self-reported or confirmed gut Candida. Titrate slowly (GI tolerance limiting factor). Complementary with butyrate (additive antifungal + different mechanisms). Does not address the central energy metabolism / PEM cycle but reduces one systemic inflammatory input.
+
+*ME/CFS THEWALL cross-reference run_115: 2026-04-12 | CARD9 CBM Candida gut mycobiome neuroinflammation IL-17 BBB systemic cytokines MALT1 A20 depletion butyrate 4th mechanism HDAC hypha MCT caprylic acid gut dysbiosis IBS-ME overlap*

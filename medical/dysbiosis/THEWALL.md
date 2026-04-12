@@ -5172,3 +5172,53 @@ GSK-3β activates NF-κB via co-activator redistribution (CREB inactivation → 
 **Framework state: 114 runs | 11th β cell death mechanism | 14th NF-κB mechanism | first Foxp3 protein stability mechanism | berberine as new OTC protocol element.**
 
 *Updated: 2026-04-12 | Phase 4 eighty-ninth extension | GSK-3β Foxp3 Ser418 STUB1 ubiquitination proteasomal degradation induction-destruction dissociation Node A non-responder berberine OTC 14th NF-κB CREB CBP 11th beta cell death MCL-1 BAD apoptosis T1DM Treg functional deficiency rosacea ETR PPR ME/CFS microglia | run_114*
+
+---
+
+### Phase 4 Extension 90 — CARD9/CBM: Fungal Recognition Missing from Framework (run_115)
+
+**The gap:** Three Malassezia runs (025/033/038) model the yeast as a lipid-secreting organism: lipases → TLR2 priming → NLRP3 activation. None analyzes how the immune system recognizes Malassezia as a *fungus*. Dectin-2 on skin DCs recognizes Malassezia cell wall mannans → Syk → BCL10-MALT1-CARD9 (CBM complex) → NF-κB + Th17. This is mechanistically distinct (different PRR, different adaptor, IL-17 instead of IL-1β output) and completely absent.
+
+**CARD9/CBM → Th17 in rosacea:**
+- Dectin-2 on skin Langerhans cells and plasmacytoid DCs → recognizes Malassezia high-mannose structures
+- CARD9/CBM → TAK1 → NF-κB = **15th NF-κB activation mechanism** (first non-TLR, non-cytokine arm)
+- CARD9/CBM → IL-6/IL-23 context → Th17 differentiation → IL-17A/F → KLK5 upregulation + CXCL8 → neutrophil recruitment
+- IL-17 output is a new upstream origin for the Th17 skin signature, independent of TLR2/bacterial axis
+- Evidence: Sparber 2014 J Immunol (Dectin-2 required for Malassezia IL-17 induction in DCs); Buhl 2015 JACI (rosacea Th17 signature); CARD9-KO mice impaired skin fungal IL-17 (Drummond 2011)
+
+**T1DM arm — gut Candida/CARD9:**
+- T1DM gut mycobiome: elevated Candida (TEDDY study offspring; hyperglycemia → glucose-rich lumen → Candida niche)
+- Dectin-1 on gut macrophages/DCs → CARD9/CBM → NF-κB + gut IL-17 → tight junction disruption → antigen spillover
+- Leaky gut → pancreatic islet antigen cross-reactivity → T1DM progression pathway
+- Evidence tier: MODERATE (epidemiological Candida elevation + mechanistic pathway; not GWAS-direct)
+
+**MALT1 → A20 cross-run connection (run_113 × run_115):**
+- MALT1 is the protease subunit of the CBM complex and cleaves A20/TNFAIP3 directly (Staal 2011 Immunity)
+- Every fungal CARD9 activation event accelerates A20 destruction (in addition to chronic inflammation depletion)
+- Malassezia-heavy rosacea → MALT1 double-hits A20 → faster ETR→PPR
+- Treating Malassezia/Candida (MCT oil/caprylic acid) → less CARD9 → less MALT1 → A20 preserved
+- Upstream support for the A20 preservation strategy articulated in run_113
+
+**Butyrate 4th mechanism:**
+- HDAC inhibition (existing butyrate rationale) → Candida yeast-to-hypha suppression (hypha requires HDAC-dependent gene expression)
+- Less Candida hyphal form → less Dectin-1 activation → less CARD9 → less gut NF-κB/IL-17
+- Previously: Treg induction (M1) + tight junction (M1/gut) + LPS/A20 recovery (run_113)
+- New 4th mechanism: antifungal effect via epigenetic hypha suppression → CARD9 input attenuation
+
+**New protocol element — caprylic acid/MCT oil:**
+- Caprylic acid (C8:0) in MCT oil: gut Candida antifungal (cell membrane disruption); 1–3 tsp/day with meals
+- C10:0 (capric acid) in MCT oil: Malassezia-toxic (noted in run_033: short-chain FA above C8 toxic to Malassezia)
+- MCT oil addresses both organisms via its C8/C10 composition — gut systemic (caprylic) + topical skin (capric)
+- New OTC element not previously in protocol; complements butyrate with antifungal specificity
+- Titrate slowly: GI tolerance (nausea/cramping) is the limiting factor at initiation
+
+**3rd genetic stratification point:**
+- CARD9 rs4077515 (S12N): IBD protective variant → impaired CARD9 signaling → less gut mycobiome inflammation
+- Normal allele patients → higher CARD9 responsiveness → more Candida-driven gut NF-κB → consider earlier MCT/antifungal
+- Panel now: HFE C282Y/H63D (run_110) + TNFAIP3 rs2327832/rs6920220 (run_113) + CARD9 rs4077515 (run_115)
+
+**ME/CFS bonus:** Candida/fungal overgrowth prevalent in ME/CFS; CARD9 gut → systemic IL-17 → BBB permeability → neuroinflammation adds a gut mycobiome mechanism for CNS symptoms.
+
+**Framework state: 115 runs | 15th NF-κB mechanism | Butyrate 4th mechanism | 3rd genetic stratification | caprylic acid OTC new element.**
+
+*Updated: 2026-04-12 | Phase 4 ninetieth extension | CARD9 CBM complex Dectin-2 Dectin-1 Malassezia Candida mycobiome fungal pattern recognition CLR Syk BCL10 MALT1 protease A20 cleavage Th17 IL-17 rosacea T1DM gut ME/CFS caprylic acid MCT oil butyrate 4th mechanism CARD9 S12N rs4077515 15th NF-κB 3rd genetic stratification | run_115*

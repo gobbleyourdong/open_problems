@@ -845,3 +845,31 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 5. **Interaction with TNFAIP3 (run_113)**: Patients with TNFAIP3 risk allele (A20 haploinsufficiency) AND high GSK-3β activity have double-impaired β cell protection: NF-κB brake (A20) fails + immune tolerance brake (Treg/Foxp3) fails simultaneously. These patients have the highest β cell loss rate and the strongest indication for both continuous NF-κB suppression (run_113) and berberine (run_114).
 
 **Cross-reference: run_114 dysbiosis framework | GSK-3β Foxp3 Ser418 STUB1 ubiquitination Treg functional deficiency induction-destruction dissociation 11th beta cell death MCL-1 BAD intrinsic apoptosis berberine OTC GSK-3β inhibitor Node A non-responder dual-level Treg support | Guo 2012 PNAS Brusko 2008 PNAS Mussmann 2007 J Biol Chem Hoeflich 2000 Nature**
+
+---
+
+### run_115 cross-reference: CARD9/CBM Gut Mycobiome — Candida, NF-κB, and Caprylic Acid
+
+**T1DM-specific mechanisms from run_115:**
+
+1. **Gut Candida overgrowth in T1DM**: T1DM patients show elevated gut Candida colonization (hyperglycemia → glucose-rich gut lumen = Candida growth substrate; TEDDY offspring cohort data). Candida overgrowth is both a consequence and potential amplifier of T1DM.
+
+2. **CARD9/Dectin-1 gut pathway**: Candida cell wall β-glucan → Dectin-1 on gut macrophages/DCs → Syk → CBM complex (BCL10-MALT1-CARD9) → TAK1 → NF-κB (15th NF-κB mechanism) + Th17. Produces gut IL-17 → tight junction disruption → intestinal permeability → antigen spillover → systemic immune activation → islet-reactive T cell amplification.
+
+3. **Leaky gut / antigen spillover cascade**: CARD9/Th17 gut IL-17 + TNF-α → ZO-1/claudin-1 downregulation → microbial antigens and dietary peptides (gliadin) access mesenteric LN → molecular mimicry + bystander activation of islet-reactive T cells. Mechanistic link between gut mycobiome and pancreatic autoimmunity.
+
+4. **Butyrate 4th mechanism (HDAC → Candida hypha suppression)**: Candida yeast-to-hypha transition requires HDAC-dependent gene expression. Butyrate HDAC inhibition suppresses this switch → keeps Candida in less virulent yeast form → less Dectin-1 stimulation → less CARD9/NF-κB. Adds a new T1DM-relevant benefit to the butyrate protocol rationale.
+
+5. **MALT1 → A20 cleavage (T1DM gut)**: MALT1 (CBM protease) cleaves A20/TNFAIP3 (run_113). T1DM patients with TNFAIP3 risk alleles (run_113) + high gut Candida → double A20 impairment: genetic haploinsufficiency + MALT1 active cleavage. Worst-case NF-κB brake failure in T1DM gut.
+
+6. **CARD9 rs4077515 (S12N) as 3rd genetic stratification point**: In T1DM patients with gut-prominent phenotype, CARD9 genotyping stratifies fungal immune response. Normal allele → higher CARD9 responsiveness → more Candida-driven gut inflammation → earlier MCT/antifungal protocol.
+
+7. **New protocol element — caprylic acid/MCT oil**: 1–3 tsp/day MCT oil with meals → gut Candida membrane disruption → reduces CARD9 input → less gut NF-κB/IL-17 → less intestinal permeability. Complementary with butyrate (different mechanisms: membrane kill + HDAC/hypha). T1DM gut phenotype selection criteria: stool Candida positive, high glycemic variability correlated with gut symptoms, ME/CFS comorbid gut dysbiosis.
+
+**Combined TNFAIP3 + CARD9 impairment in T1DM:**
+- TNFAIP3 risk allele → A20 haploinsufficiency → NF-κB brake impaired (run_113)
+- CARD9 normal allele + high gut Candida → MALT1 cleaves A20 (run_115)
+- Together: both genetic and fungal-driven A20 destruction → maximal NF-κB dysregulation in T1DM gut
+- Protocol: TNFAIP3 + CARD9 genotyping together for gut-phenotype T1DM risk stratification
+
+*T1DM THEWALL cross-reference run_115: 2026-04-12 | CARD9 CBM Dectin-1 Candida gut mycobiome NF-κB Th17 gut permeability antigen spillover MALT1 A20 cleavage run_113 butyrate 4th mechanism HDAC hypha caprylic acid MCT OTC CARD9 rs4077515 TNFAIP3 combined impairment*
