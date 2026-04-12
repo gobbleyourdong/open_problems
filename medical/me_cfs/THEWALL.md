@@ -1683,3 +1683,25 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 2. **Atopic comorbidities**: ME/CFS elevated rates of atopy → GATA3+ Th2 background → GATA3+ ILC2 primed; GATA3 as ME/CFS atopic axis TF
 
 *ME/CFS THEWALL cross-reference run_167: 2026-04-12 | GATA3-ILC2-TSLP-IL25-IL33 ME-CFS-MCAS-overlap IL4-IL13-mast-cell-T-cell-independent GATA3-atopic-comorbidity-ME-CFS run099-IL33-barrier | run_167*
+
+---
+
+### Cross-reference: run_168 — IRF1: NK Double-Deficit (IRF1 + T-bet), ISG Paradox in ME/CFS
+
+**Relevance: MODERATE**
+
+1. **NK IRF1 + T-bet double-deficit**: NK PRF1/GZMB requires both T-bet (run_166) AND IRF1 transcription factor binding; chronic SOCS1/USP18 (run_133) IFN desensitization → NK IRF1 ↓ in parallel with NK T-bet ↓ = double transcriptional perforin deficit; explains severity of NK perforin loss in ME/CFS
+2. **ISG paradox**: ME/CFS shows high ISG expression (ISG15, OAS, MX1 — all IRF1 targets) but NK perforin ↓ → IRF1 drives ISGs normally but PRF1 specifically requires T-bet co-occupancy; T-bet ↓ is the limiting factor despite intact IRF1 for non-perforin ISGs
+
+*ME/CFS THEWALL cross-reference run_168: 2026-04-12 | NK-IRF1+T-bet-run166-double-perforin-deficit SOCS1-USP18-run133-IFN-desensitization ISG-paradox-ME-CFS PRF1-requires-IRF1+T-bet | run_168*
+
+---
+
+### Cross-reference: run_169 — NLRC5: EBV HLA-I Escape, NK KIR Evasion
+
+**Relevance: MODERATE**
+
+1. **EBV HLA-I evasion via NLRC5 maintenance**: EBV-infected cells maintain high NLRC5 → high HLA-I → NK KIR3DL1 inhibitory signal → NK cannot kill EBV-infected cells via missing-self mechanism; EBV EBNA1 simultaneously suppresses NKG2D ligands (run_102) = dual NK evasion
+2. **CD8 CTL exhaustion loop**: EBV-infected cells → NLRC5 → HLA-I → present EBV peptides → CD8 T cell activation → chronic antigen → TOX/run_159 exhaustion cascade in ME/CFS
+
+*ME/CFS THEWALL cross-reference run_169: 2026-04-12 | NLRC5-EBV-HLA-I-maintain NK-KIR3DL1-inhibition EBV-missing-self-escape EBNA1-NKG2D-run102-dual-NK-evasion CD8-EBV-peptide-exhaustion-run159 | run_169*

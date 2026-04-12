@@ -6151,3 +6151,55 @@ Current protocol inflammasome coverage: colchicine (run_023, NLRP3/tubulin-speci
 - Monitor: CXCL9/CXCL10 ratio (run_163) should decline if Th1 component reduces; if persists → mixed subtype → add JAK inhibitor
 
 *Protocol_integration.md Part 9dp — 2026-04-12 | GATA3:T-bet-skin-biopsy-IHC dupilumab-GATA3-rosacea-subtype T-bet-dominant-baricitinib run119 skin-Treg-GATA3+FOXP3+ST2+-count IL-2-run151+IL33-run099-skin-Treg-restoration IDO2-AhR-GATA3-β-cell-run165 FOXO1-run161-additive NMN-run147-GATA3-combination atopic-history-IgE-GATA3-proxy | run_167*
+
+---
+
+### Part 9dq — IRF1 Protocol Integration (run_168)
+
+**Baricitinib non-responder management — TNF/NF-κB→IRF1 gap:**
+
+Current protocol: baricitinib (run_119/JAK1 inhibitor) blocks IFN-γ/STAT1→IRF1. But TNF→NF-κB→IRF1 arm is JAK1-independent.
+
+**Non-responder stratification for IRF1 axis:**
+- **Partial baricitinib responders** (T1DM: C-peptide preserved but still declining; rosacea: partial flushing reduction): measure TNF in serum/islet biopsy; if TNF elevated → NF-κB→IRF1 arm active → add anti-TNF
+- **Anti-TNF candidates for T1DM**: etanercept (TNF-R2-Fc; weekly SC); adalimumab (anti-TNF IgG1); used in RA/psoriasis → T1DM trial data limited; repurposing rationale strong (IRF1 dual-arm blockade)
+- **Combination**: baricitinib (STAT1→IRF1) + etanercept (NF-κB→IRF1) = complete IRF1 induction suppression = iNOS ↓ + MHC-I ↓ + CXCL9 ↓
+
+**Monitoring — add nitrotyrosine to oxidative panel:**
+- **Serum nitrotyrosine** (ELISA): peroxynitrite (ONOO⁻) damage marker; elevated = IRF1/iNOS active; correlates with β cell NOS2 induction
+- Monitor alongside existing: 8-OHdG (oxidative DNA damage), HNE (lipid peroxidation/run_093); IRF1/iNOS adds the reactive nitrogen species dimension
+- NMN/NR (run_147): if nitrotyrosine elevated + NAD⁺ metabolomics low → PARP-1 hyperactivation = IRF1/iNOS downstream; NMN prioritized in this subgroup
+
+**CXCL9 panel update (run_163 complement):**
+- CXCL9 (ISRE-selective, IRF1-driven) elevation = IRF1 active; add CXCL9 to IFN stratification panel if not already done; high CXCL9 = IRF1 active = iNOS/MHC-I program engaged
+
+*Protocol_integration.md Part 9dq — 2026-04-12 | IRF1-baricitinib-gap TNF-NF-κB-IRF1-JAK-insensitive anti-TNF-etanercept-adalimumab baricitinib+anti-TNF-combination nitrotyrosine-ONOO⁻-panel-add 8-OHdG-HNE-nitrotyrosine-trio PARP1-NAD+-NMN-run147 CXCL9-IRF1-run163-complement | run_168*
+
+---
+
+### Part 9dr — NLRC5 Protocol Integration (run_169)
+
+**β Cell immune privilege — CTL recognition prevention strategy:**
+
+**NLRC5 + IRF1 dual HLA-I suppression rationale:**
+- Current: baricitinib (run_119) reduces IRF1-inducible HLA-I (inducible arm); NLRC5 constitutive floor persists
+- Complete HLA-I suppression: baricitinib (IRF1 arm) + EZH2 maintainer in β cells (NLRC5 arm, run_157) = near-zero β cell HLA-I → CTL cannot recognize β cells
+- EZH2 maintainer strategy (run_157): β cell-targeted SAM/B12 or tazemetostat-low-dose (run_157 caveat: systemic high-dose harmful; β cell targeted low-dose = maintain EZH2 in β cells specifically) → H3K27me3 at NLRC5 enhancer maintained
+
+**GWAS-guided precision:**
+- Add **NLRC5 16q13 genotyping** to initial T1DM workup panel
+- LOF variant carriers: lower constitutive HLA-I → lower CTL killing contribution → NLRC5 not the dominant driver; IRF1-inducible arm more important → baricitinib more likely sufficient alone
+- WT/high-NLRC5 genotype: constitutive HLA-I floor dominant → EZH2 maintainer strategy most needed
+
+**β Cell HLA-I monitoring:**
+- **β cell HLA-A/B/C IHC** (pancreatic biopsy if available, or pancreatic organoid PBMC co-culture): NLRC5 activity readout
+- High HLA-I → CTL-dominant T1DM → target both HLA-I arms + CTL migration (eldelumab/run_163) + perforin (disulfiram/run_164 context) for complete anti-CTL protocol
+- **B2M serum level**: shed β₂-microglobulin (NLRC5 downstream TAP-loaded MHC-I = B2M on surface); elevated B2M in T1DM = islet HLA-I surge proxy
+
+**Three MHC route atlas — now complete:**
+- MHC-I endogenous (β cell): NLRC5 (constitutive) + IRF1 (inducible) → HLA-A/B/C → CD8 CTL
+- MHC-II (DCs): CIITA/CLEC16A (run_128) → HLA-DR/DQ/DP → CD4 Th1/Tfh
+- MHC-I cross-presentation (cDC1): BATF3/IRF4 (run_159) → HLA-I → CD8 CTL (exogenous antigens)
+- Integrated coverage: all three routes now mapped with distinct therapeutic targets
+
+*Protocol_integration.md Part 9dr — 2026-04-12 | NLRC5-HLA-I-floor baricitinib-gap-NLRC5 EZH2-maintainer-NLRC5-run157 NLRC5-16q13-genotype LOF-vs-WT-HLA-I HLA-A/B/C-IHC-biopsy B2M-serum-proxy three-MHC-routes-complete CIITA-run128-MHC-II cDC1-run159 IRF1-run168-inducible NLRC5-run169-constitutive | run_169*
