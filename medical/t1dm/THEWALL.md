@@ -827,3 +827,21 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 6. **Butyrate third mechanism**: Butyrate (rifaximin/probiotic/prebiotic) → gut barrier repair → less LPS → less TLR4 load → less A20 consumed → A20 levels recover → NF-κB self-termination restored. This adds a third mechanism to the run_032 butyrate rationale specifically relevant to T1DM (complements HDAC inhibition and NLRP3 suppression).
 
 **Cross-reference: run_113 dysbiosis framework | A20 TNFAIP3 NF-κB deubiquitinase K63 TRAF6 K48 RIP1 haploinsufficiency GWAS 6q23 10th beta cell death necroptosis DAMP IL-33 HMGB1 TNFAIP3 genotyping monitoring continuous protocol butyrate third mechanism | Barrett 2009 Nat Genet Lee 2000 Science Liuwantara 2006 Immunity Vereecke 2010 J Exp Med**
+
+---
+
+### run_114 Cross-Reference: GSK-3β — Foxp3 Protein Destruction in Islet Tregs and Direct β Cell Apoptosis
+
+**T1DM-specific mechanisms:**
+
+1. **Islet Treg Foxp3 protein degradation**: T1DM produces chronic TNF-α/IL-6 → SOCS → PI3K/Akt impaired in islet Tregs → GSK-3β constitutively active → Foxp3 Ser418 phosphorylated → STUB1 ubiquitination → proteasomal degradation. This explains the well-documented T1DM phenotype of near-normal Foxp3+ Treg numbers but profoundly impaired suppressive function (Brusko 2008 PNAS). The mechanism is distinct from all existing Treg-induction runs (VDR/calcitriol, TET2/AKG) which address transcriptional induction; GSK-3β addresses protein-level destruction.
+
+2. **11th β cell death mechanism — direct GSK-3β pro-apoptotic signaling**: GSK-3β in β cells → phosphorylates MCL-1 (anti-apoptotic Bcl-2 family) → MCL-1 ubiquitinated/degraded → Bcl-2/Bax imbalance shifts pro-apoptotic → β cell intrinsic apoptosis. Also: GSK-3β → BAD activation (phosphatase removes GSK-3β-dependent inhibitory phosphate from BAD) → BAD active → cytochrome c release. This is independent of immune-mediated death (Mussmann 2007 J Biol Chem).
+
+3. **Dual-arm T1DM mechanism**: GSK-3β simultaneously (1) destroys islet Treg Foxp3 → immune tolerance failure and (2) directly kills β cells via MCL-1/BAD. Berberine inhibits both with a single compound.
+
+4. **T1DM honeymoon triple benefit (berberine)**: (1) GSK-3β inhibition → islet Treg Foxp3 preserved → better immune tolerance; (2) GSK-3β inhibition → β cell MCL-1 protected → less direct apoptosis; (3) AMPK activation → reduced post-meal glucose → less TXNIP activation (run_112) → less intrinsic β cell NLRP3. Berberine 1000–1500 mg/day is the highest-leverage single OTC addition for T1DM honeymoon management.
+
+5. **Interaction with TNFAIP3 (run_113)**: Patients with TNFAIP3 risk allele (A20 haploinsufficiency) AND high GSK-3β activity have double-impaired β cell protection: NF-κB brake (A20) fails + immune tolerance brake (Treg/Foxp3) fails simultaneously. These patients have the highest β cell loss rate and the strongest indication for both continuous NF-κB suppression (run_113) and berberine (run_114).
+
+**Cross-reference: run_114 dysbiosis framework | GSK-3β Foxp3 Ser418 STUB1 ubiquitination Treg functional deficiency induction-destruction dissociation 11th beta cell death MCL-1 BAD intrinsic apoptosis berberine OTC GSK-3β inhibitor Node A non-responder dual-level Treg support | Guo 2012 PNAS Brusko 2008 PNAS Mussmann 2007 J Biol Chem Hoeflich 2000 Nature**

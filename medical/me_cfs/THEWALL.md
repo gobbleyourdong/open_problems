@@ -710,3 +710,17 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 3. **Butyrate/gut intervention and A20 recovery**: Gut dysbiosis → chronic LPS → TLR4 → A20 consumption (even at baseline, without PEM). Gut intervention (rifaximin + probiotics + prebiotics) → reduced LPS → reduced baseline TLR4 load → A20 depletion rate decreases → microglial A20 levels recover → NF-κB self-termination restored between PEM events. This gives a third mechanism for gut intervention in ME/CFS beyond gut barrier (run_024) and SCFA (run_032).
 
 **Cross-reference: run_113 dysbiosis framework | A20 TNFAIP3 NF-κB negative feedback microglia PEM ratchet A20 depletion neuroinflammation chronification TLR4 LPS gut dysbiosis butyrate third mechanism | Lee 2000 Science Vereecke 2010 J Exp Med**
+
+---
+
+### run_114 Cross-Reference: GSK-3β — Microglial M1 Polarization and CNS Treg Destabilization
+
+**ME/CFS-specific mechanisms:**
+
+1. **Microglial GSK-3β → M1 polarization**: Chronic neuroinflammation in ME/CFS → elevated CNS TNF-α/IL-6 → microglial PI3K/Akt impaired → GSK-3β constitutively active in microglia → promotes M1 polarization (GSK-3β inhibition shifts microglia toward M2/resolution phenotype). Evidence: LOW-MODERATE (microglial GSK-3β established; ME/CFS-specific data absent).
+
+2. **CNS Treg/Tr1 destabilization**: CNS-resident Tregs and Tr1 cells maintain neuroinflammatory tone. Under chronic PEM-driven cytokine load → GSK-3β → Foxp3/IL-10 producing cell function impaired → neuroinflammation unchecked. This parallels the peripheral Treg mechanism but operates in the CNS.
+
+3. **Berberine and ME/CFS**: Berberine → GSK-3β inhibition → microglial M2 shift + CNS Treg stabilization + AMPK activation (documented mitochondrial support). Berberine's combined CNS anti-inflammatory + metabolic effects make it relevant to ME/CFS, though direct ME/CFS clinical data is absent.
+
+**Cross-reference: run_114 dysbiosis framework | GSK-3β Foxp3 protein stability berberine microglia M1 M2 CNS Treg CNS Tr1 neuroinflammation ME/CFS PEM | Hoeflich 2000 Nature Guo 2012 PNAS**
