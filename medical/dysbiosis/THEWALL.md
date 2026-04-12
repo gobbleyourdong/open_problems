@@ -5764,3 +5764,35 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 132 runs | ITPR3/IP3R3 ER Ca²⁺ release | upstream trigger for run_127 | two-step Ca²⁺ architecture completed | 10th mast cell mechanism | 20th β cell death (ITPR3 Ca²⁺ overload) | three-node T cell Ca²⁺ gate | quercetin 5th mechanism (PLCγ) | Mg²⁺ ITPR3 mechanism | T1DM GWAS rs3181505.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-seventh extension | ITPR3 IP3R3 IP3-receptor ER-Ca2+-release PLC PLCγ PLCβ IP3 DAG CICR biphasic-Ca2+ Mg2+-ITPR3-block STIM1-upstream two-step-Ca2+-architecture 10th-mast-cell-mechanism 20th-beta-cell-death T1DM-GWAS rs3181505 Lowe-2007-PNAS three-node-Ca2+-gate DYRK1A-NFAT quercetin-5th PLCγ-inhibition Mg2+-new-mechanism ER-mito-microdomains GLP-1R-PKA-ITPR3 NK-ME/CFS-Ca2+-defect Foskett-2007 Berridge-2009 | run_132*
+
+---
+
+### Phase 4 Extension 108 — USP18 / ISG15 / IFN Signal Termination / OFF-Switch / ME/CFS IFN Persistence
+
+**Gap:** USP18/ISG15/ISGylation completely absent from all 132 prior runs. All prior IFN runs (006/063/130) covered production; USP18 is the termination/OFF-switch — orthogonal mechanism.
+
+**Rosacea (MODERATE):**
+- USP18 = OFF-switch for cGAS/STING/IFN-β (run_063 = ON-switch): complete keratinocyte IFN cycle now described — UV-B/cGAS → IFN-β (run_063) → STAT1 → ISGs → USP18 → IFNAR2 block → STAT1 off (run_133)
+- Chronic rosacea: NF-κB (LL-37/TLR2) → USP18 promoter suppression → impaired IFN-β termination → STAT1 tonic → CXCL10 between-flare baseline elevated
+- USP18 insufficient cycle → persistent type I IFN signature in rosacea skin → Th1 amplification → Loop 3 perpetuation
+
+**T1DM (MODERATE-HIGH):**
+- β cell USP18 terminates the type I IFN (run_006) and type III IFN (run_130) bursts after viral clearance
+- Impaired β cell USP18 → IFN signal doesn't terminate → sustained STAT1 → MHC-I hyperexpression + CXCL10 production → prolonged window for CD8 T cell recognition + recruitment → accelerated insulitis
+- 21st β cell death: IFNAR2 not blocked → sustained PKR/eIF2α → translation inhibition → ER stress → intrinsic apoptosis; ISGylation overflow → metabolic enzyme dysfunction
+- Honeymoon shortening: each viral episode → IFN burst without adequate USP18 termination → cumulative insulitis damage → honeymoon compression
+
+**ME/CFS (HIGH):**
+- USP18 insufficiency = mechanistic basis for chronic IFN signature in ME/CFS without active infection
+- Post-viral: viral chromatin remodeling OR oxidative inactivation of USP18 → tonic STAT1 activation → ISG persistence months/years
+- ISG15 accumulation (without USP18 deconjugase): ISGylation of metabolic enzymes (pyruvate dehydrogenase, complexes I/III) → mitochondrial dysfunction → ATP deficit → fatigue cascade; free ISG15 secreted as cytokine → immune cell activation
+- CXCL10 Node D 4th source: impaired USP18 → tonic STAT1 → CXCL10 background; explains chronically elevated Node D in ME/CFS independent of new IFN production
+
+**Protocol additions:**
+- JAK inhibitors (baricitinib/tofacitinib): functionally mimic USP18 → block STAT1 phosphorylation; ME/CFS trials in progress; rosacea: topical ruxolitinib (JAK1/2 inhibitor) approved for atopic dermatitis, off-label rosacea rationale anchored
+- Zinc/quercetin/calcitriol: reduce IFN production magnitude (runs 130, 127, 132) → less USP18 demand → adequate termination even with limited USP18 capacity
+- Node D 4-source interpretation: pDC type I + β cell type III + gut IEC type III (run_130) + impaired USP18 termination (run_133); pattern: if Node D chronically elevated even post-acute-viral course → USP18 insufficiency contribution probable → JAK inhibitor consideration
+
+**Framework state: 133 runs | USP18/ISG15 IFN OFF-switch | first IFN terminator | 21st β cell death | ME/CFS IFN persistence mechanism | CXCL10 Node D 4th source | JAK inhibitor rationale | run_063 ON + run_133 OFF = complete keratinocyte IFN cycle.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-eighth extension | USP18 UBP43 ISG15 ISGylation IFNAR2-binding JAK1-block STAT1-termination IFN-negative-feedback OFF-switch ISG15-deconjugase cGAS-IFN-β-run063-complement IFN-persistence ME/CFS-ISG-signature CXCL10-Node-D-4th-source 21st-beta-cell-death sustained-STAT1 MHC-I-persistent CXCL10-chronic JAK-inhibitors baricitinib ruxolitinib free-ISG15-cytokine Malakhova-2006-EMBO Arimoto-2017-Nat-Struct Zhang-2015-Nature | run_133*

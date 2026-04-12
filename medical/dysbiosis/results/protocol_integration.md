@@ -4869,3 +4869,58 @@ Sustained SOCE → NFAT (with DYRK1A gate, run_125)
 | NMN/NR | 3 | TEC SIRT3/PINK1/AIRE (run_128) |
 
 *Protocol_integration.md Part 9cg — 2026-04-12 | ITPR3 IP3R3 ER-Ca2+-release IP3 PLCγ PLC STIM1-upstream ORAI1-downstream two-step-Ca2+-architecture quercetin-5th-mechanism PLCγ-inhibition Mg2+-new-mechanism ITPR3-pore-block T-index-Mg2+ mast-cell-rosacea T-cell-insulitis beta-cell-protection CM4620 DYRK1A-gate NK-ME/CFS-Ca2+-stack rs3181505 Lowe-2007 Foskett-2007 | run_132*
+
+---
+
+### Part 9ch — USP18/ISG15 IFN Termination Protocol Integration (run_133)
+
+**IFN signal lifecycle — now complete in framework:**
+
+```
+IFN production:
+  Type I (pDC):          run_006  — IFNAR1/2 ubiquitous
+  Type I (cGAS/IFN-β):   run_063  — keratinocyte/fibroblast
+  Type III (β cell):     run_130  — IFNLR1 epithelial
+
+IFN termination:
+  USP18 (run_133):
+    ├── IFNAR2 block → JAK1 excluded → STAT1 OFF (type I IFN)
+    ├── IFNLR1 block → STAT1 OFF (type III IFN, cross-arm)
+    └── ISG15-deconjugase → de-amplifies ISGylation positive feedback
+
+Failure mode:
+  Impaired USP18 → tonic STAT1 → persistent ISGs → CXCL10 (Node D) + MHC-I + IDO1
+```
+
+**CXCL10 Node D interpretation (updated to 4 sources):**
+
+```
+Source 1: pDC type I IFN → IFNAR → STAT1 → CXCL10      (run_006; acute viral)
+Source 2: β cell type III IFN → IFNLR1 → STAT1 → CXCL10 (run_130; post-CVB 2-4 wks)
+Source 3: gut IEC type III IFN persistence → CXCL10      (run_130; chronic ME/CFS)
+Source 4: impaired USP18 → tonic STAT1 → CXCL10          (run_133; IFN termination failure)
+
+Pattern differentiation:
+- Acute spike + resolves: source 1 or 2; zinc + quercetin; 2-4 wk self-limited
+- Chronic + ME/CFS: source 3 or 4; zinc + quercetin indirect; JAK inhibitor direct target
+- Chronic + no ME/CFS + T1DM: consider all four; calcitriol (IRF3) + JAK inhibitor
+
+Pattern diagnosis:
+if Node D chronically elevated AND acute viral treatment course completed:
+    → sources 3 (gut IEC) or 4 (USP18 termination failure) most probable
+    → referral consideration: ME/CFS specialist + baricitinib trial discussion
+```
+
+**JAK inhibitor integration:**
+```
+OTC stack:               zinc + quercetin + calcitriol  ← reduce IFN production
+Clinical:                baricitinib/tofacitinib         ← block STAT1 (USP18 mimetic)
+Topical rosacea (Rx):    ruxolitinib cream               ← block local STAT1 (USP18 bypass)
+
+Pharmacological rationale for JAK inhibitors in this framework:
+  baricitinib (JAK1/2): blocks STAT1 phosphorylation → functional USP18 mimetic
+  tofacitinib (JAK1/3): similar; also affects IL-2/STAT5 (less specific for IFN)
+  ruxolitinib (JAK1/2): topical/systemic; rosacea + ME/CFS IFN suppression
+```
+
+*Protocol_integration.md Part 9ch — 2026-04-12 | USP18 UBP43 ISG15 ISGylation IFNAR2-block JAK1-block STAT1-termination IFN-OFF-switch 21st-beta-cell-death ME/CFS-IFN-persistence CXCL10-4th-source tonic-STAT1 Node-D-4-source-interpretation JAK-inhibitors baricitinib tofacitinib ruxolitinib IFN-lifecycle-complete run006-run063-run130-run133 Malakhova-2006 Zhang-2015 Arimoto-2017 | run_133*

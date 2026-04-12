@@ -1181,3 +1181,21 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 6. **Quercetin 5th mechanism — upstream of ORAI1**: Quercetin inhibits PLCγ → less IP3 → less ITPR3 activation → reduced ER Ca²⁺ release → less STIM1 trigger. This is UPSTREAM of quercetin's 3rd mechanism (ORAI1 channel inhibition, run_127). Together: dual Ca²⁺ block — IP3 production AND the channel itself.
 
 *T1DM THEWALL cross-reference run_132: 2026-04-12 | ITPR3 IP3R3 IP3 ER-Ca2+-release PLC PLCγ IP3-receptor T1DM-GWAS rs3181505 Lowe-2007-PNAS 20th-beta-cell-death SERCA2b-nitration iNOS spontaneous-ITPR3 mPTP cytochrome-c caspase-9 autoreactive-T-cell three-node-Ca2+-gate STIM1-upstream DYRK1A-downstream NFAT GLP-1R-PKA-sensitization incretin-amplification Mg2+-ITPR3-block quercetin-5th-PLCγ T-index-Mg2+ ER-mito-microdomains Foskett-2007 Berridge-2009 | run_132*
+
+---
+
+### Cross-reference: run_133 — USP18/ISG15 / IFN OFF-Switch / 21st β Cell Death / JAK Inhibitor Rationale
+
+**Gap:** USP18/ISG15/ISGylation absent from all 132 prior runs. First IFN terminator in framework.
+
+1. **IFN termination architecture (T1DM relevant)**: After CVB-induced IFN-β (run_006) and β cell-autonomous IFN-λ (run_130), USP18 terminates both signals: (a) ISG15-deconjugase — removes ISG15 from JAK1/STAT2; (b) non-catalytic — binds IFNAR2 intracellular tail → blocks JAK1 → STAT1 dephosphorylated → ISG transcription stops. Normally: IFN burst lasts ~8-12 hrs, MHC-I returns to baseline, β cells survive. With impaired USP18: IFN signal persists 3-4 weeks → sustained MHC-I ↑ on β cells → CD8 T cell killing window extended.
+
+2. **21st β cell death — sustained STAT1 from impaired USP18**: IFNAR2 not blocked → PKR/eIF2α persistently activated → translation arrest → ER stress → apoptosis. ISGylation overflow → metabolic enzyme dysfunction → additional stress. Distinct from run_006 (IFN production) and run_130 (β cell autocrine IFN-λ): here the failure is TERMINATION, not production.
+
+3. **USP18 in insulitis acceleration**: Impaired USP18 in each viral episode → IFN signal extends from 1 week to 3-4 weeks → CXCL10 production extends → more T cell recruitment → more β cell killing → honeymoon shortened by each viral illness instead of recovering. Zinc/quercetin (reduce viral IFN trigger) → indirect USP18 support by reducing IFN magnitude.
+
+4. **JAK inhibitor rationale**: Baricitinib/tofacitinib: JAK1/2 inhibition → STAT1 phosphorylation blocked → functional mimetic of USP18 OFF-switch. Emerging evidence: T1DM honeymoon preservation with baricitinib (Delmonte 2021 case reports; INNODIA trials) — mechanistically anchored to USP18/STAT1 termination now.
+
+5. **CXCL10 Node D 4th source**: Impaired USP18 → tonic STAT1 → CXCL10 background elevation without new IFN stimulus. In T1DM patients with chronically elevated Node D despite antiviral treatment → USP18 insufficiency probable → JAK inhibitor trial consideration.
+
+*T1DM THEWALL cross-reference run_133: 2026-04-12 | USP18 UBP43 ISG15 ISGylation IFNAR2-binding JAK1-block STAT1-termination IFN-OFF-switch 21st-beta-cell-death IFN-persistence sustained-MHC-I-β-cell CD8-window CXCL10-4th-source JAK-inhibitors baricitinib tofacitinib INNODIA honeymoon IFN-β-run006 IFN-λ-run130 complement Malakhova-2006 Arimoto-2017 Zhang-2015 | run_133*

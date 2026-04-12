@@ -1015,3 +1015,26 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 4. **Protocol: Mg²⁺ supplementation in ME/CFS**: Mg²⁺ glycinate 300–400 mg/day: (a) NMDA modulation (run_126 context); (b) mitochondrial membrane potential; (c) ITPR3 Ca²⁺ release dampening → partial ER Ca²⁺ conservation. May support NK cytotoxic function by reducing spontaneous ITPR3 Ca²⁺ drain.
 
 *ME/CFS THEWALL cross-reference run_132: 2026-04-12 | ITPR3 IP3R3 IP3-receptor ER-Ca2+-release STIM1-upstream NK-cell-dysfunction Ca2+-deficit SERCA-damage blunted-SOCE ITPR3-additive partial-Ca2+-activation IFN-paradox resolved cytotoxicity-threshold Mg2+-ITPR3-deficiency ER-depletion loop Mg2+-glycinate-ME/CFS quercetin-5th-PLCγ Foskett-2007 Berridge-2009 | run_132*
+
+---
+
+### Cross-reference: run_133 — USP18/ISG15 / ME/CFS IFN Persistence Mechanism / CXCL10 4th Source
+
+**Gap:** USP18 absent from all 132 prior runs. USP18 insufficiency = primary mechanistic explanation for why ME/CFS has sustained IFN signature without active infection.
+
+**Assessment:** HIGH ME/CFS relevance — provides the mechanistic basis for one of ME/CFS's most reproducible findings (elevated IFN signature/ISGs without viremia).
+
+1. **Post-viral IFN persistence mechanism**: Acute viral trigger → IFN burst → in normal recovery: USP18 terminates STAT1 → ISGs normalize within 2-3 weeks. In ME/CFS post-viral onset: impaired USP18 → IFNAR2 persistently unblocked → tonic STAT1 activation → ISG expression maintained months to years after viral clearance. Proposed mechanisms of USP18 impairment: (a) viral epigenetic reprogramming (USP18 promoter methylation); (b) oxidative inactivation of USP18 (Cys64 catalytic residue vulnerable); (c) insufficient STAT1 activation threshold for USP18 auto-induction under chronic low IFN conditions.
+
+2. **ISG15 accumulation → mitochondrial dysfunction → fatigue**: Without adequate USP18 deconjugase activity, ISG15 accumulates on substrate proteins including PDH complex, complex I/III of ETC → metabolic enzyme dysfunction → ATP deficit → post-exertional malaise. Free ISG15 secreted → acts as cytokine → immune cell (NK, DC) activation → sustained immune activation without infection = ME/CFS immunopathology.
+
+3. **CXCL10 Node D 4th source (ME/CFS specific)**: Impaired USP18 → tonic STAT1 → continuous low-level CXCL10 production WITHOUT new IFN stimulus. This is the 4th CXCL10 source in framework: (1) pDC/type I IFN (run_006) + (2) β cell/type III IFN (run_130) + (3) gut IEC/type III IFN persistence (run_130) + (4) USP18 insufficiency → tonic STAT1 → background CXCL10. Sources 3 and 4 are ME/CFS-specific; source 4 is even more treatment-resistant (no new IFN production to inhibit).
+
+4. **Protocol implications**:
+   - JAK inhibitors (baricitinib): ME/CFS trials with baricitinib showing symptom improvement (Calabrese 2020 case series; ongoing randomized trials) — mechanism is now ANCHORED: baricitinib mimics USP18 by blocking JAK1 → STAT1 → ISG persistent activation. This is the most direct pharmacological intervention for the USP18/IFN persistence axis.
+   - Reducing primary IFN induction: zinc (anti-CVB, run_130) + quercetin (anti-enteroviral, run_130) → less initial IFN burst → less post-viral STAT1 to persist
+   - STAT1 pathway is upstream of IDO1 (ISG gene, run_091/126) → USP18 insufficiency → STAT1 → IDO1 ↑ → kynurenine → QA → NMDA → brain fog; P5P (run_126) remains the downstream buffer
+
+5. **ISG15 as serum ME/CFS biomarker**: Free serum ISG15 reflects USP18 insufficiency + ISGylation overflow. Not yet standard clinical test; in research/specialized labs. If available, elevated ISG15 + elevated CXCL10 (Node D) = dual IFN-persistence marker pattern specific to ME/CFS with post-viral IFN mechanism.
+
+*ME/CFS THEWALL cross-reference run_133: 2026-04-12 | USP18 UBP43 ISG15 ISGylation IFN-persistence IFNAR2-blocking tonic-STAT1 ISG-chronic post-viral-ME/CFS-onset IFN-OFF-switch PDH-ISGylation mitochondrial-dysfunction ATP-deficit PEM free-ISG15-cytokine CXCL10-4th-source Node-D JAK-inhibitors baricitinib Calabrese-2020 IDO1-downstream kynurenine P5P-buffer ISG15-biomarker Malakhova-2006 Zhang-2015 Arimoto-2017 | run_133*

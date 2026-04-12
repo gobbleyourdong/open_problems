@@ -3566,3 +3566,26 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 21: 132 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-twenty-fifth extension | ITPR3 IP3R3 IP3-receptor inositol-1,4,5-trisphosphate ER-Ca2+-release PLC PLCγ PLCβ IP3 DAG CICR biphasic-Ca2+ Mg2+-ITPR3-block STIM1-upstream two-step-Ca2+-architecture 10th-mast-cell-mechanism 20th-beta-cell-death T1DM-GWAS rs3181505 Lowe-2007-PNAS three-node-Ca2+-gate autoreactive-T-cell DYRK1A-NFAT quercetin-5th-PLCγ Mg2+-new-mechanism T-index-Mg2+ ER-mito-microdomains GLP-1R-ITPR3-PKA NK-ME/CFS SERCA-damage-ITPR3-additive Foskett-2007 Berridge-2009 | run_132*
+
+---
+
+### Extension 126 — USP18 / ISG15 / IFN Signal Termination / Negative Feedback OFF-Switch
+
+**Date:** 2026-04-12 | **Run:** run_133
+
+**Gap confirmed:** USP18/ISG15/ISGylation completely absent from all 132 prior runs. ISG15 mentioned TWICE in run_002 and FIVE times in run_130 — all as an ISG product (ISG15 → ER stress), NOT as the USP18 substrate or the termination mechanism. No prior run analyzed IFN TERMINATION.
+
+**Core insight:** USP18 is the primary negative regulator of type I (and type III) IFN signaling. TWO mechanisms: (1) catalytic — removes ISG15 conjugates from JAK1/STAT1/IRF3 (deconjugase); (2) non-catalytic — binds IFNAR2 intracellular domain → blocks JAK1 → STAT1 NOT phosphorylated → ISG transcription stops. USP18 is itself an ISG → classic self-limiting feedback: IFN → ISGs → USP18 → IFNAR2 block → IFN signaling stops ~8 hrs after peak. All prior IFN runs (run_006, run_063, run_130) covered production; USP18 covers the OFF-switch.
+
+**New mechanisms added (run_133):**
+- **First IFN terminator in framework**: USP18/IFNAR2 negative feedback = OFF-switch for run_006 (type I IFN), run_063 (cGAS/IFN-β), and run_130 (type III IFN); same USP18 cross-terminates all three IFN programs
+- **Rosacea**: impaired USP18 cycle in chronic inflammation → STAT1 tonically active → CXCL10 background elevation between flares; connects run_063 (IFN-β ON) → run_133 (USP18 OFF) as complete keratinocyte IFN cycle
+- **21st β cell death**: viral IFN burst → impaired USP18 → IFNAR2 not blocked → sustained STAT1 → prolonged MHC-I ↑ + CXCL10 + PKR/eIF2α → accelerated β cell destruction during insulitis; distinct from run_006 (IFN production) and run_130 (β cell-autonomous type III IFN)
+- **ME/CFS sustained IFN signature**: impaired USP18 → tonic STAT1 → ISG persistence without active infection; explains chronic CXCL10 (Node D) elevation; ISG15 accumulation → ISGylation of metabolic enzymes → mitochondrial dysfunction → fatigue; USP18 insufficiency = mechanistic basis for post-viral ME/CFS IFN chronification (distinct from gut IEC type III persistence, run_130)
+- **CXCL10 Node D 4th source**: (1) pDC/type I (run_006) + (2) β cell/type III (run_130) + (3) gut IEC/type III (run_130) + **(4) impaired USP18 termination → tonic STAT1 → background CXCL10** — explains chronic Node D elevation independent of new IFN production
+- **JAK inhibitor rationale anchored**: baricitinib/tofacitinib functional mimics of USP18 → block STAT1 phosphorylation that USP18 fails to prevent; ME/CFS trials + rosacea topical ruxolitinib gains mechanistic basis
+- **Zinc/quercetin/calcitriol indirect USP18 support**: reduce IFN production magnitude → less USP18 demand → adequate termination with limited USP18 capacity
+
+**Framework at SATURATION + 22: 133 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-twenty-sixth extension | USP18 UBP43 ISG15 ISGylation ubiquitin-like IFNAR2-binding JAK1-block STAT1-termination IFN-negative-feedback OFF-switch ISG15-deconjugase non-catalytic IFNAR2 IFN-persistence ME/CFS-ISG-signature CXCL10-Node-D-4th-source 21st-beta-cell-death USP18-run063-OFF-switch rosacea-IFN-termination JAK-inhibitors baricitinib ruxolitinib free-ISG15-cytokine pseudo-TORCH interferonopathy Malakhova-2006-EMBO Arimoto-2017-Nat-Struct Zhang-2015-Nature | run_133*
