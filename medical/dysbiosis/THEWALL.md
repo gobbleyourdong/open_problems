@@ -5689,3 +5689,40 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 130 runs | IFN-λ type III IFN IFNLR1 epithelial-restricted | β cell-autonomous antiviral | enteroviral T1DM bridge | keratinocyte ISG axis | gut IEC ME/CFS chronification | zinc 3rd mechanism | calcitriol 5th mechanism | quercetin 4th mechanism | Node D 3-source interpretation.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-fifth extension | IFN-lambda IFNL1 IFNL2 IFNL3 IFNLR1 IL-10Rβ epithelial-restricted type III IFN β cell autocrine RIG-I MDA5 TLR3 IRF3 STAT1 ISG CXCL10 MHC-I enterovirus CVB4 CVB3 3C protease zinc calcitriol quercetin 4th keratinocyte gut IEC ME/CFS post-viral Wack 2015 Marroqui 2017 Kallionpää 2014 | run_130*
+
+---
+
+### Phase 4 Extension 106 — THBS1/TSP-1 / CD36 / Endogenous Anti-Angiogenic / 6th ETR Mechanism
+
+**Gap:** THBS1/TSP-1/CD36/thrombospondin-1 completely absent from all 130 prior runs. Dominant endogenous anti-angiogenic restraint in skin microvasculature never analyzed.
+
+**Rosacea (HIGH):**
+- TSP-1 homotrimeric matricellular glycoprotein (keratinocyte/EC/pericyte-secreted) with three anti-angiogenic axes: (1) type 1 TSR domain → CD36 (fatty acid translocase / scavenger receptor) → Fyn kinase → caspase-3/8 → EC apoptosis; (2) NTD → VEGFR2 direct antagonism (competes with VEGF-A); (3) CTD → CD47 → Gi → eNOS ↓ → NO ↓ → vasodilation/angiogenesis ↓
+- Rosacea mechanism: NF-κB (LL-37/KLK5/TLR2 activation) actively represses THBS1 transcription; UV-B/ROS → TSP-1 glycoprotein oxidative damage → CD36-binding activity lost; net = EC apoptosis brake lost + VEGF/VEGFR2 unopposed → telangiectasia
+- **Yin-yang with run_124**: LRG1/ALK1 = pro-angiogenic INDUCTION (run_124); TSP-1/CD36 = anti-angiogenic RESTRAINT (run_131); together = complete telangiectasia mechanism
+- 6th ETR mechanism position (prior: ANGPT1/TIE2, IFN-β/cGAS ISGs, SPHK1/S1P barrier, VDR/calcitriol-indirect, and run_124 identifies the pro-angiogenic driver)
+
+**T1DM (MODERATE-HIGH):**
+- Diabetic retinopathy: pericyte TSP-1 ↓ (hyperglycemia → AGE formation → RAGE → NF-κB → THBS1 ↓; TSP-1 protein glycation → CD36-binding impaired) → VEGF-driven retinal neovascularization; complementary to run_124 LRG1/ALK1 DR axis
+- Diabetic nephropathy: TSP-1 KRFK motif → latent TGF-β activation → active TGF-β → Smad2 → glomerulosclerosis/collagen IV accumulation (pathological TGF-β arm, distinct from anti-angiogenic arm)
+- **CD36/palmitate/ceramide → 19th β cell death mechanism**: palmitate → CD36 (receptor named first time in framework) → ceramide de novo synthesis → ER stress → β cell apoptosis; distinct from run_106 (palmitate lipotoxicity via ER protein misfolding — CD36 as entry receptor was not named)
+- Macrophage CD36/TSP-1 efferocytosis: TSP-1 ↓ in hyperglycemia → efferocytosis of apoptotic β cells impaired → DAMP accumulation → NLRP3 amplification (run_002 amplification loop)
+
+**ME/CFS (LOW-MODERATE, speculative):**
+- Platelet hyperactivation in ME/CFS → ↑ platelet TSP-1 release; possible CD47/eNOS → NO ↓ → microvascular hypoperfusion contribution (parallel to S1P/eNOS run_087)
+- Primary relevance: lipotoxicity/CD36 axis in context of ME/CFS metabolic dysfunction
+
+**New OTC mechanisms:**
+- **Calcitriol 6th mechanism**: VDR → THBS1 promoter (VDR response element) → TSP-1 ↑ → anti-angiogenic signaling restored; reinforces existing calcitriol recommendation for both rosacea (telangiectasia) and DR prevention
+- **Niacinamide 3rd mechanism**: PPARγ → THBS1 transcriptional activation (PPAR response element in THBS1 promoter) → TSP-1 ↑ in keratinocytes; 3rd mechanistic basis for topical/oral niacinamide in rosacea
+- **Berberine anti-lipotoxic (CD36 arm)**: AMPK → CD36 surface expression ↓ → palmitate uptake ↓ → ceramide ↓ → β cell protection
+
+**Protocol additions:**
+- Calcitriol 5000 IU/day: 6th mechanism now includes TSP-1 angiogenic balance restoration
+- Niacinamide (topical 4–5% / oral 500 mg): 3rd mechanism established (PPARγ → THBS1)
+- Run_124 + run_131 combined angiogenic protocol: calcitriol → both THBS1 ↑ (run_131) + VASH2/ALK1 ↓ (run_124) → dual-axis restoration; most rational antiangiogenic OTC in framework
+- T1DM complications: fenofibrate (PPAR-α/γ) reduces CD36 surface expression → lipotoxicity + DR protection (FIELD trial rationale mechanistically anchored)
+
+**Framework state: 131 runs | THBS1/TSP-1/CD36 endogenous anti-angiogenic | 6th ETR mechanism | yin-yang LRG1/ALK1 | 19th β cell death (CD36 lipotoxicity) | calcitriol 6th mechanism | niacinamide 3rd mechanism | calcitriol+niacinamide dual angiogenic restoration.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-sixth extension | THBS1 TSP-1 thrombospondin-1 CD36 scavenger-receptor fatty-acid-translocase type-1-TSR KRFK Fyn caspase-3 EC-apoptosis VEGFR2-antagonism CD47 eNOS NO TGF-β matricellular NF-κB-THBS1-repression UV-ROS telangiectasia ETR 6th yin-yang LRG1-ALK1 diabetic-retinopathy pericyte AGE RAGE glomerulosclerosis lipotoxicity palmitate ceramide 19th-beta-cell-death efferocytosis DAMP NLRP3 calcitriol-6th-mechanism VDR niacinamide-3rd-mechanism PPARγ berberine-AMPK-CD36 rs1478604 rs1761667 Jiménez-2000-Nat-Med Silverstein-2009-Sci-Signal Bhattacharya-2008-PNAS | run_131*

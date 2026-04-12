@@ -3512,3 +3512,33 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 19: 130 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-twenty-third extension | IFN-lambda IFNL1 IFNL2 IFNL3 IL-28A IL-28B IL-29 IFNLR1 IL-10Rβ epithelial-restricted β cell autocrine RIG-I MDA5 TLR3 IRF3 STAT1 ISG MxA OAS1 PKR CXCL10 MHC-I enterovirus CVB4 CVB3 Coxsackievirus dsRNA 3C protease zinc calcitriol IRF3 5th mechanism quercetin 4th keratinocyte UV gut IEC ME/CFS post-viral Node D Wack 2015 Marroqui 2017 Kallionpää 2014 Richardson 2019 | run_130*
+
+---
+
+### Extension 124 — THBS1 / TSP-1 / CD36 / Endogenous Anti-Angiogenic Restraint
+
+**Date:** 2026-04-12 | **Run:** run_131
+
+**Gap confirmed:** THBS1/TSP-1/thrombospondin-1/CD36 completely absent from all 130 prior runs. Endogenous anti-angiogenic matrix protein never analyzed despite being the dominant anti-angiogenic restraint in skin microvasculature.
+
+**Core insight:** TSP-1 is a homotrimeric matricellular glycoprotein secreted by keratinocytes, ECs, pericytes, and platelets. Three anti-angiogenic mechanisms: (1) type 1 TSR domain → CD36 (fatty acid translocase/scavenger receptor) → Fyn kinase → caspase-3/8 → endothelial cell apoptosis; (2) NTD → VEGFR2 antagonism; (3) CTD → CD47 → Gi → eNOS ↓ → NO ↓. In rosacea: NF-κB (LL-37/KLK5/TLR2) + UV-B/ROS → THBS1 ↓ → telangiectasia. Yin-yang with run_124 LRG1/ALK1 (pro-angiogenic induction).
+
+**New mechanisms added (run_131):**
+- **Rosacea: 6th ETR mechanism** — TSP-1/CD36/Fyn → EC apoptosis brake; VEGFR2 antagonism; CD47/eNOS/NO restraint; NF-κB/UV-ROS → THBS1 ↓ → telangiectasia
+- **Run_124 yin-yang**: LRG1/ALK1 (pro-angiogenic INDUCTION) ↔ TSP-1/CD36 (anti-angiogenic RESTRAINT) — complete telangiectasia mechanism
+- **DR**: pericyte TSP-1 ↓ (AGE/RAGE → NF-κB → THBS1 ↓; TSP-1 glycation → CD36-binding impaired) → retinal neovascularization
+- **DN**: TSP-1 KRFK → latent TGF-β activation → Smad2 → glomerulosclerosis (pathological arm)
+- **CD36/palmitate/ceramide — 19th β cell death**: palmitate → CD36 → ceramide de novo → ER stress → apoptosis; CD36 receptor named first time in framework
+- **Macrophage efferocytosis**: TSP-1 ↓ → efferocytosis deficient → DAMP → NLRP3 (run_002 amplification)
+- **Calcitriol 6th mechanism**: VDR → THBS1 promoter → TSP-1 ↑
+- **Niacinamide 3rd mechanism**: PPARγ → THBS1 ↑ (PPARγ response element in THBS1 promoter)
+- **Berberine**: AMPK → CD36 ↓ → palmitate uptake ↓ → ceramide ↓ → β cell lipotoxicity protection
+
+**Killed in this sweep (not warranting own runs):**
+- HTRA1: rosacea LEKTI/KLK5/LL-37 cleaver — MODERATE rosacea, T1DM weak; criterion 2 borderline; defer
+- CEBPB/C/EBPβ: sebocyte/macrophage differentiation; criterion 2 marginal fail
+- BNIP3/NIX: mitophagy receptors downstream of PINK1/Parkin (run_128); criterion 4 partially fails (run_128 covers upstream)
+
+**Framework at SATURATION + 20: 131 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-twenty-fourth extension | THBS1 TSP-1 thrombospondin-1 CD36 scavenger-receptor fatty-acid-translocase type-1-TSR KRFK Fyn caspase-3 caspase-8 EC-apoptosis VEGFR2-antagonism CD47 eNOS NO TGF-β matricellular NF-κB-THBS1-repression UV-ROS telangiectasia ETR yin-yang LRG1-ALK1 diabetic-retinopathy pericyte AGE RAGE glomerulosclerosis lipotoxicity palmitate ceramide 19th-beta-cell-death efferocytosis DAMP NLRP3 calcitriol-6th-mechanism VDR niacinamide-3rd-mechanism PPARγ berberine-AMPK-CD36 rs1478604 rs1761667 Jiménez-2000-Nat-Med Silverstein-2009-Sci-Signal Bhattacharya-2008-PNAS | run_131*

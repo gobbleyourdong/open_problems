@@ -1137,3 +1137,23 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 5. **Post-viral monitoring protocol**: Acute GI viral illness (CVB-like) in honeymoon patient → zinc 25–40 mg/day acute + quercetin 1000 mg + glucose monitoring 4–6 weeks post-illness (ISG-mediated β cell dysfunction → transient glucose instability before overt insulitis).
 
 *T1DM THEWALL cross-reference run_130: 2026-04-12 | IFN-lambda type III IFN IFNLR1 IL-10Rβ β cell autocrine CVB4 CVB3 enterovirus RIG-I MDA5 IRF3 STAT1 ISG MHC-I CXCL10 PKR insulin T1DM bridge zinc 3rd mechanism calcitriol 5th mechanism post-viral monitoring Wack 2015 Marroqui 2017 Kallionpää 2014 Richardson 2019 Oikarinen 2012*
+
+---
+
+### Cross-reference: run_131 — THBS1/TSP-1 / CD36 / Anti-Angiogenic / 19th β Cell Death / Calcitriol 6th Mechanism
+
+**Gap:** THBS1/TSP-1/CD36/thrombospondin-1 completely absent from all 130 prior runs. Endogenous anti-angiogenic restraint and CD36 lipotoxicity receptor not analyzed.
+
+1. **Diabetic retinopathy — pericyte TSP-1 depletion**: Normal retinal vasculature: pericytes produce TSP-1 → restrains EC proliferation via CD36/Fyn/caspase + VEGFR2 antagonism. Early DR: hyperglycemia → AGE → RAGE → NF-κB → THBS1 ↓ in pericytes; additionally: TSP-1 protein glycation → CD36-binding domain impaired → functional loss. Net: VEGF/LRG1 (run_124) unopposed → retinal neovascularization. Complementary to run_124 LRG1/ALK1 DR axis (together: pro-angiogenic induction + anti-angiogenic restraint loss).
+
+2. **Diabetic nephropathy — TSP-1/TGF-β/glomerulosclerosis**: TSP-1 type 1 TSR KRFK motif activates latent TGF-β → Smad2 → glomerulosclerosis/collagen IV accumulation. This is the pathological TGF-β arm of TSP-1 (distinct from the anti-angiogenic CD36/Fyn arm). Explains mechanism behind TSP-1 elevation → fibrotic DN progression.
+
+3. **CD36/palmitate/ceramide — 19th β cell death mechanism**: Palmitate (saturated FA) → CD36 (fatty acid translocase) → ceramide de novo synthesis → ER stress → mitochondrial dysfunction → β cell apoptosis. This names CD36 as the lipotoxicity ENTRY RECEPTOR for the first time in the framework (distinct from run_106 which covered palmitate-driven ER stress via protein misfolding without naming CD36).
+
+4. **Macrophage CD36/efferocytosis/insulitis amplification**: Macrophage CD36 + TSP-1 → efferocytosis of apoptotic β cells (tolerogenic clearance). TSP-1 ↓ in hyperglycemia → efferocytosis impaired → secondary necrosis → DAMP release → NLRP3 (run_002) amplification → insulitis acceleration loop.
+
+5. **Calcitriol 6th mechanism**: VDR → THBS1 promoter (VDR response element) → TSP-1 ↑ → CD36/Fyn anti-angiogenic restored + VEGFR2 antagonism. This adds DR prevention rationale to calcitriol (already: Bcl-2/β cell survival run_031, TXNIP run_056, Foxp3 run_006, PTPN2 run_012, IRF3 run_130). Calcitriol now mechanistically justified for DR via 2 mechanisms (run_124 ALK1 ↓ + run_131 THBS1 ↑).
+
+6. **Berberine anti-lipotoxic (CD36 arm)**: AMPK → CD36 surface expression ↓ → less palmitate uptake → ceramide ↓ → β cell lipotoxicity protection. Reinforces existing berberine recommendation.
+
+*T1DM THEWALL cross-reference run_131: 2026-04-12 | THBS1 TSP-1 CD36 thrombospondin-1 anti-angiogenic VEGFR2-antagonism Fyn caspase diabetic-retinopathy pericyte AGE RAGE NF-κB THBS1-repression glycation CD36-binding-impaired LRG1-complement VEGF neovascularization DN TGF-β glomerulosclerosis collagen-IV palmitate ceramide 19th-beta-cell-death lipotoxicity efferocytosis DAMP NLRP3 calcitriol-6th-mechanism VDR THBS1-promoter DR-prevention berberine AMPK Jiménez-2000 Silverstein-2009 Bhattacharya-2008*

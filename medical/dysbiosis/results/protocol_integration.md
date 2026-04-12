@@ -4761,3 +4761,59 @@ Node D: 3-source interpretation (pDC/type I + β cell/type III + gut IEC/type II
 ```
 
 *Protocol_integration.md Part 9ce — 2026-04-12 | IFN-lambda type III IFN IFNLR1 β cell autocrine enterovirus CVB4 CVB3 3C protease zinc 3rd mechanism calcitriol 5th mechanism IRF3 quercetin 4th mechanism antiviral CXCL10 Node D 3-source post-viral protocol honeymoon monitoring glucose variability gut IEC ME/CFS Wack 2015 Marroqui 2017 Kallionpää 2014 Richardson 2019 | run_130*
+
+---
+
+### Part 9cf — THBS1/TSP-1/CD36 Anti-Angiogenic Protocol Integration (run_131)
+
+**Angiogenic balance protocol (run_124 + run_131 combined):**
+
+```
+Pro-angiogenic axis (run_124):  LRG1/ALK1/SMAD1/5 — INDUCED in rosacea/DR
+Anti-angiogenic axis (run_131): TSP-1/CD36/Fyn/VEGFR2 — SUPPRESSED in rosacea/DR
+
+Restoration strategy:
+Calcitriol 5000 IU/day:
+  run_124: VASH2/ALK1 ↓ (Smad1/5 ↓)           [anti-LRG1 arm]
+  run_131: VDR → THBS1 promoter → TSP-1 ↑       [pro-TSP-1 arm]  ← 6th calcitriol mechanism
+  Net: dual-axis angiogenic balance restoration
+
+Niacinamide 500 mg/day oral or 4% topical:
+  run_129: PPARγ → ceramide/filaggrin (barrier)
+  run_131: PPARγ → THBS1 → TSP-1 ↑             ← 3rd niacinamide mechanism
+
+Berberine 500 mg BID:
+  run_025: AMPK → glucose metabolism
+  run_128: NAD+/SIRT3 → TEC mitophagy support
+  run_131: AMPK → CD36 ↓ → palmitate/ceramide lipotoxicity ↓  ← new CD36 mechanism
+```
+
+**T1DM complications protocol update:**
+
+```
+Lipotoxicity monitoring (high SFA diet patients):
+  Palmitate → CD36 → ceramide de novo → ER stress → β cell apoptosis (19th death mechanism)
+  Berberine: AMPK → CD36 ↓              [lipotoxicity reduction]
+  Calcitriol: VDR → THBS1 ↑             [angiogenic balance]
+  Fenofibrate (clinical, off-label DR): PPAR-α/γ → CD36 ↓ [FIELD/ACCORD rationale]
+
+Diabetic retinopathy prevention:
+  Calcitriol = most mechanistically complete DR OTC:
+    run_031: Bcl-2/β cell survival
+    run_056: TXNIP ↓
+    run_124: VASH2/ALK1 ↓ (anti-neovascularization)
+    run_131: THBS1 ↑ (TSP-1 restoration, anti-neovascularization)
+```
+
+**Updated OTC mechanism summary (run_131):**
+
+| OTC | Count | Latest mechanism |
+|-----|-------|-----------------|
+| Calcitriol | **6** | + VDR → THBS1 → TSP-1 ↑ (anti-angiogenic) |
+| Niacinamide | **3** | + PPARγ → THBS1 → TSP-1 ↑ (anti-angiogenic) |
+| Quercetin | 4 | anti-enteroviral (run_130) |
+| Zinc | 3 | anti-CVB 3C protease (run_130) |
+| NMN/NR | 3 | TEC SIRT3/PINK1/AIRE (run_128) |
+| Berberine | multi | + AMPK → CD36 ↓ → lipotoxicity protection |
+
+*Protocol_integration.md Part 9cf — 2026-04-12 | THBS1 TSP-1 CD36 anti-angiogenic ETR yin-yang LRG1-ALK1 calcitriol-6th-mechanism VDR THBS1-promoter niacinamide-3rd-mechanism PPARγ THBS1 berberine AMPK CD36 lipotoxicity palmitate ceramide 19th-beta-cell-death diabetic-retinopathy pericyte DR fenofibrate FIELD ACCORD Jiménez-2000 Silverstein-2009 Bhattacharya-2008 | run_131*

@@ -981,3 +981,19 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
    - Quercetin: antiviral 4th mechanism → reduces gut viral RNA load → less IFNLR1 → less IDO1 amplification
 
 *ME/CFS THEWALL cross-reference run_130: 2026-04-12 | IFN-lambda type III IFN IFNLR1 gut IEC intestinal epithelium post-viral ME/CFS chronification CXCL10 Node D 3rd source IDO1 kynurenine QA ISG ISG15 mitochondrial dysfunction fatigue brain fog zinc quercetin P5P post-viral onset mechanism Wack 2015 Kallionpää 2014*
+
+---
+
+### Cross-reference: run_131 — THBS1/TSP-1 / CD36 / Anti-Angiogenic / Microvascular Hypoperfusion
+
+**Gap:** THBS1/TSP-1/CD36 completely absent from all 130 prior runs. Primary relevance = CD47/eNOS/NO axis in microvascular dysfunction.
+
+**Assessment:** LOW-MODERATE ME/CFS relevance; speculative; primary framework value is in rosacea/T1DM. Included as mechanistic hypothesis for ME/CFS microvascular contribution.
+
+1. **CD47/eNOS → NO ↓ → hypoperfusion (speculative)**: Platelet hyperactivation in ME/CFS (documented: fibrin microclots, platelet activation biomarkers) → platelet dense-granule TSP-1 release → CD47 (integrin-associated protein) → Gi → adenylyl cyclase inhibition → cAMP ↓ → PKA ↓ → eNOS Ser1177 phosphorylation ↓ → NO ↓ → microvascular dilation impaired → tissue hypoxia → PEM contribution. Parallel to S1P/eNOS axis (run_087). However: causal direction uncertain — does platelet TSP-1 elevation cause or result from ME/CFS endothelial dysfunction?
+
+2. **Niacinamide 3rd mechanism (ME/CFS cross-relevance)**: PPARγ → THBS1 ↑. Niacinamide recommended in framework for skin barrier (run_129). The PPARγ-THBS1 mechanism may also contribute to ME/CFS vascular normalization (speculative).
+
+3. **Not a priority ME/CFS mechanism**: CD36 lipotoxicity (palmitate → ceramide → β cell death) is T1DM-specific. DR/DN complications are T1DM-specific. The ME/CFS angle is indirect and secondary.
+
+*ME/CFS THEWALL cross-reference run_131: 2026-04-12 | THBS1 TSP-1 CD36 anti-angiogenic CD47 eNOS NO microvascular hypoperfusion platelet hyperactivation fibrin microclots PEM cAMP PKA S1P-parallel run_087 speculative niacinamide PPARγ Silverstein-2009 | run_131*
