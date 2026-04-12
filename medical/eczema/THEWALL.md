@@ -222,3 +222,45 @@ See `../dysbiosis/numerics/run_054_ahr_indole_tryptophan.md`.
 *IL-22 is a critical AD barrier repair cytokine; Th2 suppresses AhR → less IL-22 = barrier ↓ cycle*
 *L. reuteri → gut IAld → systemic AhR → skin keratinocyte + ILC3 AhR supported → IL-22 ↑ → barrier partial compensation*
 *Tapinarof (Phase 3 AhR agonist for AD): validates AhR/IL-22 as the therapeutic direction for barrier-deficient AD*
+
+---
+
+## Cross-pollination from dysbiosis run_072 — Ceramide Barrier Deficit in Eczema (Parallel)
+
+**Eczema ceramide deficit is even more severe and better characterized than rosacea:**
+
+Atopic dermatitis ceramide deficit: ceramide-1 (acylceramide) ↓ 65-75% in AD skin vs. 58%
+in rosacea (Motta 1994 J Invest Dermatol; Imokawa 1991 J Invest Dermatol: first to quantify
+ceramide deficit in AD). FLG (filaggrin) mutations in AD → reduced ceramide synthesis
+coordination (filaggrin → urocanic acid + NMF; also coordinates ceramide lamellar body
+exocytosis timing).
+
+**Key parallel:** rosacea and eczema share the constitutive ceramide deficit → barrier
+disruption → TLR2/4 amplification pathway. In both conditions, barrier restoration with
+topical ceramide reduces inflammation independent of immunosuppression.
+
+**IL-4/IL-13 (type 2 cytokines) → ceramide synthesis ↓:**
+In eczema: Th2 cytokines (IL-4/IL-13) → STAT6 → SPT (serine palmitoyltransferase)
+transcription ↓ → de novo ceramide synthesis ↓ → further barrier loss → more allergen
+penetration → more Th2 → [cycle]. Dupilumab (anti-IL-4Rα) breaks this by blocking
+IL-4/IL-13 → restoring SPT → ceramide synthesis recovery.
+
+**For eczema protocol:** topical ceramide moisturizer (CeraVe, EltaMD) is a foundational
+treatment; mechanism now mechanistically explained in sigma framework context.
+
+**Cross-references:** dysbiosis run_072 (ceramide barrier); VDR → UGCG mechanism applies equally to eczema
+*Cross-pollination: 2026-04-12 | Ceramide barrier eczema TLR2 TLR4 filaggrin IL-4/IL-13 SPT Dupilumab*
+
+---
+
+## Eczema Cross-Reference: run_077 (PPARγ → p65 Transrepression)
+
+**Eczema relevance: Th2-driven NF-κB + IL-4/IL-13 barrier disruption**
+
+PPARγ is expressed in keratinocytes and acts as a Th2 counter-regulator:
+
+1. **NF-κB in eczema**: IL-4/IL-13 → STAT6 → filaggrin ↓ + ceramide synthase ↓ → barrier disruption → TLR2/4 → NF-κB activation → Th2 amplification. PPARγ → p65 transrepression interrupts this loop at the NF-κB → cytokine transcription step
+2. **Niacinamide in eczema**: topical niacinamide → PPARγ activation → p65 transrepression + CerS3 ceramide synthesis (run_076) — dual PPARγ benefit in eczema; the transrepression mechanism is an additional anti-inflammatory arm beyond ceramide restoration
+3. **Pioglitazone**: case reports of TZDs improving eczema (Sood 2012); the PPARγ → NF-κB transrepression mechanism is the molecular basis
+
+**Cross-reference: run_077 dysbiosis framework | PPARγ p65 transrepression | eczema Th2 NF-κB | topical niacinamide dual benefit**

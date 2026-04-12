@@ -311,3 +311,106 @@ This explains the clinical correlation between poor glycemic control and rosacea
 
 **Cross-references:** dysbiosis run_069 (AMPK/NLRP3 Ser291); run_052 (eNOS uncoupling in T1DM); run_060 (AGE-RAGE)
 *Cross-pollination: 2026-04-12 | AMPK NLRP3 Ser291 hyperglycemia T1DM HbA1c metformin complex I*
+
+---
+
+## Cross-pollination from dysbiosis run_073 — GLP-1RA Anti-Inflammatory in T1DM
+
+**GLP-1RA four anti-inflammatory mechanisms — direct T1DM relevance:**
+
+GLP-1R is expressed on T1DM β cells (the incretin effect). Beyond glucose control, GLP-1RA
+→ GLP-1R on islet macrophages → cAMP/PKA → NF-κB ↓ → less IL-1β toward β cells
+(run_043: IL-1β → β cell NLRP3 priming). This is a DIRECT ISLET anti-inflammatory effect.
+
+**GLP-1RA → β cell preservation potential:**
+In new-onset T1DM with residual β cell mass: GLP-1RA adjunct to insulin
+→ Islet macrophage NF-κB ↓ → IL-1β ↓ → β cell NLRP3 Signal 1A ↓ → less β cell pyroptosis
+→ C-peptide preservation at 12-24 months
+(Mathieu 2015 Lancet Diabetes Endocrinol: liraglutide in new-onset T1DM → C-peptide AUC
+preserved at 52 weeks vs. placebo, p=0.005 — the LIRAGLUTIDE-T1DM trial; mechanism aligns)
+
+**This provides mechanistic explanation for Mathieu 2015:** the GLP-1RA benefit in T1DM
+is not just glycemic (incretin effect minimal in T1DM due to β cell loss) but anti-inflammatory
+via islet macrophage NF-κB ↓ → less IL-1β loop amplification → slower pyroptotic β cell loss.
+
+**Cross-references:** dysbiosis run_073 (GLP-1R mechanisms); run_043 (β cell NLRP3); Mathieu 2015 Lancet
+*Cross-pollination: 2026-04-12 | GLP-1RA β cell C-peptide preservation NF-κB islet macrophage Mathieu 2015*
+
+---
+
+## T1DM Cross-Reference: run_077 (PPARγ → p65 Transrepression)
+
+**T1DM relevance: PPARγ agonists in insulin resistance + islet inflammation**
+
+PPARγ → p65 transrepression (Jiang 1998 Nature) applies directly to T1DM pathology:
+
+1. **Islet macrophage inflammation**: PPARγ activation → p65 transrepression → reduces IL-1β + TNFα in islet-infiltrating macrophages → less bystander β cell damage during active insulitis
+2. **T1DM + insulin resistance**: Pioglitazone (TZD, full PPARγ agonist) used off-label in T1DM + insulin resistance (TURBO study) → insulin sensitization + macrophage M1→M2 shift + adiponectin ↑ → addresses the iatrogenic adiposity/resistin loop (run_066)
+3. **Cumulative polyphenol protocol**: T1DM patients taking quercetin + resveratrol + EGCG + EPA + niacinamide → PPARγ convergence node activated → islet macrophage NF-κB transrepressed without requiring pioglitazone adverse effects
+
+**Cross-reference: run_077 dysbiosis framework | tenth NF-κB suppressor | PPARγ convergence node | T1DM islet inflammation context**
+
+---
+
+## T1DM Cross-Reference: run_078 (Urolithin A — PINK1/Parkin Mitophagy)
+
+**T1DM relevance: β cell mitophagy + hyperglycemia-driven mitochondrial damage**
+
+1. **β cell mitochondrial quality**: T1DM hyperglycemia → excessive mitochondrial ROS in residual β cells + pancreatic ductal cells → NLRP3 activation within islets → further insulitis promotion. UA → PINK1/Parkin mitophagy → damaged β cell mitochondria cleared → reduced intraislet NLRP3 Signal 2
+2. **Double mitophagy deficit in T1DM**: M1 dysbiosis depletes both spermidine (polyamine bacteria ↓) and UA (Actinobacteria/Gordonibacter ↓) simultaneously → β cells + immune cells lose both mitophagy arms → compounded mtROS
+3. **Actinobacteria in T1DM**: T1DM gut dysbiosis specifically depletes Actinobacteria (Murri 2013 Gut: Actinobacteria 2.3-fold reduced) → Gordonibacter urolithinfaciens ↓ → UA non-producer phenotype acquired, not innate, in T1DM patients
+4. **Mitopure supplement**: T1DM patients should be considered for UA supplement (Mitopure 500-1000mg/day) as adjunct to spermidine given the compounded mitophagy deficit
+
+**Cross-reference: run_078 dysbiosis framework | Urolithin A PINK1 Parkin | T1DM Actinobacteria depletion | β cell mitophagy**
+
+---
+
+## T1DM Cross-Reference: run_079 (PPARγ → RORγt → Th17 ↓)
+
+**T1DM relevance: Th17/Treg imbalance as fundamental T1DM pathology + islet AhR/IL-22**
+
+T1DM is fundamentally characterized by Treg/Th17 imbalance driving β cell destruction (Bluestone 2010 Sci Transl Med). PPARγ → RORγt suppression → Th17 ↓ is directly relevant:
+
+1. **β cell protection**: Th17 (IL-17A) → NF-κB in β cells → inflammatory gene expression → accelerated β cell loss in new-onset T1DM. PPARγ → RORγt ↓ → IL-17A ↓ → less islet Th17 damage
+2. **Four Th17-driving inputs in T1DM**: IS ↑ (AhR) + leptin/STAT3 ↑ + secondary BA ↓ (less FXR-Treg promotion) + fundamental Treg deficit. PPARγ/RORγt suppression provides direct counter to all four simultaneously
+3. **Pioglitazone in T1DM**: TURBO study (pioglitazone off-label in T1DM + IR) showed C-peptide preservation effect — potentially mediated through combined PPARγ → RORγt ↓ (Th17) + p65 transrepression (macrophage NF-κB)
+
+**Cross-reference: run_079 dysbiosis framework | PPARγ RORγt Th17 | T1DM Treg/Th17 imbalance | β cell protection | pioglitazone**
+
+---
+
+## T1DM Cross-Reference: run_080 (AhR → Th22 → IL-22 → STAT3 → KLK5)
+
+**T1DM relevance: islet IL-22 + AhR in β cell inflammation**
+
+1. **Islet IL-22**: T1DM islets show IL-22 expression in infiltrating T cells (Hanifi-Moghaddam 2009); IL-22 → STAT3 in β cells → β cell apoptosis (IL-22 can be directly cytotoxic to β cells via STAT3-driven apoptosis genes at high concentration). IS → AhR → Th22 → islet IL-22 = additional β cell damage pathway
+2. **AhR context in T1DM**: T1DM inflammatory milieu (high IL-6, low TGF-β) biases AhR toward Th22/Th17 rather than Treg — even low IS ↑ can drive this shift. IS reduction via L. reuteri is particularly important in T1DM for restoring AhR regulatory balance
+3. **Sixth KLK5 input**: IL-22/STAT3 is relevant if T1DM patients have concurrent rosacea — both IS → Th22 → IL-22 and gut dysbiosis → reduced L. reuteri/IAd converge on dermal IL-22/STAT3/KLK5
+
+**Cross-reference: run_080 dysbiosis framework | AhR Th22 IL-22 STAT3 | T1DM islet inflammation | IS L. reuteri AhR balance**
+
+---
+
+## T1DM Cross-Reference: run_081 (NETs — T1DM-Enhanced NETosis)
+
+**T1DM relevance: hyperglycemia-driven NETosis as islet pathology + vascular damage**
+
+1. **Islet NETs**: T1DM islets show neutrophil infiltration (early T1DM; NOD mice). T1DM-enhanced NETosis → NETs in islet microenvironment → NET-DNA/LL-37 → pDC TLR9 → IFN-α amplification within islets → β cell IFN signaling → MHC-I upregulation → CTL recognition → accelerated β cell destruction
+2. **Vascular NETs**: T1DM → NET-MPO/NE → endothelial damage → vascular inflammation → atherosclerosis acceleration (T1DM cardiovascular risk). NET-driven endothelial NF-κB + IFN-β → VCAM-1 ↑ → immune cell adhesion → plaque formation
+3. **Colchicine for T1DM cardiovascular**: Colchicine → NETosis ↓ (run_081 seventh mechanism) provides direct cardiovascular benefit in T1DM beyond its rosacea anti-NF-κB role. COLCOT trial: colchicine → cardiovascular events ↓ post-MI; mechanism likely includes NETosis + NLRP3 inhibition
+4. **Glycemic control → NETosis reduction**: direct T1DM therapeutic target for NETosis. HbA1c <7% target addresses enhanced NETosis
+
+**Cross-reference: run_081 dysbiosis framework | NETs NETosis T1DM hyperglycemia | islet β cell IFN-α | vascular NETs cardiovascular | colchicine COLCOT**
+
+---
+
+## T1DM Cross-Reference: run_084 (Macrophage Immunometabolism — Succinate/Itaconate)
+
+**T1DM relevance: islet macrophage immunometabolism + β cell HIF-1α + VEGF**
+
+1. **Islet macrophage succinate → HIF-1α → IL-1β**: IL-1β is the primary β cell toxin in T1DM insulitis. Islet macrophages under chronic LPS (dysbiosis) + high glucose → enhanced succinate accumulation → HIF-1α → IL-1β ↑ → β cell NLRP3 + apoptosis
+2. **HIF-1α → VEGF in T1DM vasculature**: VEGF ↑ → proliferative diabetic retinopathy (DR) and nephropathy. Succinate → HIF-1α → VEGF is a contributing mechanism to T1DM microvascular complications
+3. **Itaconate in β cells**: β cells express IRG1 (limited). Sulforaphane → Nrf2 → HO-1 in β cells → protection from oxidative/inflammatory stress
+4. **Homocysteine in T1DM**: Metformin-B12 depletion → homocysteine ↑ → endothelial dysfunction + oxidative stress → independently worsens T1DM vascular complications. B12 monitoring protects both HERV-W (M3) and vascular integrity
+
+**Cross-reference: run_084+085 dysbiosis framework | macrophage succinate HIF-1α islet IL-1β | VEGF retinopathy | metformin B12 homocysteine vascular | Mg²⁺ AMPK**

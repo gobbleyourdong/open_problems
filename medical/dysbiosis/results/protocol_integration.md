@@ -2081,3 +2081,466 @@ For patients with inadequate response at 3 months despite NF-κB suppression pro
 Signal 1D bypass was the mechanism — this is a testable prediction.**
 
 *Protocol_integration.md Part 9t — 2026-04-12 | Signal 1D STAT3 leptin IL-6 non-responder checklist four NLRP3 priming sources*
+
+---
+
+## Part 9u — TMAO Reduction Protocol (run_071)
+
+### Mechanism Context
+TMAO from dietary choline/carnitine → gut Prevotella/Fusobacterium → liver FMO3:
+- TLR4 sensitizer: lowers EC50 for LPS-driven NF-κB 3-5× (synergistic with M1/M7 LPS)
+- NLRP3 Signal 2: cathepsin B → direct assembly activation independent of TLR4
+
+### Dietary Protocol
+
+| Food | Carnitine/Choline | Guidance |
+|------|------------------|----------|
+| Beef/lamb | 150-180mg carnitine/100g | Limit to ≤2 servings/week |
+| Eggs (yolk) | 250mg choline/yolk | ≤5 yolks/week (egg whites safe) |
+| Cruciferous veg choline | Vegetable source | No restriction (Lactobacillus-safe choline) |
+| Fish/seafood | TMAO directly (but small contribution) | No specific restriction needed |
+
+### New Supplement: Resveratrol
+
+| Agent | Dose | Mechanism | Note |
+|-------|------|-----------|------|
+| Trans-resveratrol | 200-500mg/day with food | FMO3 inhibition (TMAO ↓ 38%) + SIRT1 → NLRP3 K496 ↓ | Check CYP3A4 drug interactions |
+
+**Stacking note:** Resveratrol + melatonin + spermidine = triple SIRT1/NLRP3 K496 stimulation
+(resveratrol → SIRT1; melatonin → SIRT1; spermidine → SIRT1 via mitophagy/longevity).
+No additive toxicity; three independent SIRT1 activation routes.
+
+### L. reuteri DSM 17938 (already in protocol)
+No dose change. The existing L. reuteri protocol provides incidental TMAO benefit
+through competitive displacement of Prevotella — no additional probiotic needed.
+
+### M7 Protocol Cross-Benefit
+S. salivarius K12 (run_051) → F. nucleatum ↓ → oral TMA production ↓ → systemic TMAO ↓.
+No protocol change; this is an additional benefit of the existing M7 colonization protocol.
+
+*Protocol_integration.md Part 9u — 2026-04-12 | TMAO dietary carnitine choline resveratrol FMO3 SIRT1*
+
+---
+
+## Part 9v — Ceramide Barrier Protocol (run_072)
+
+### Mechanism Context
+Ceramide-1 constitutively 58% lower in rosacea SC (Borgia 2010) → TEWL ↑ → PAMP penetration
+→ TLR2/4 → NF-κB → keratinocyte NLRP3. Self-amplifying: inflammation further suppresses
+ceramide synthesis. Node E (VDR) → UGCG → endogenous ceramide repair (long-term).
+
+### Topical Protocol
+
+**Moisturizer:** Ceramide-containing formulation BID (morning + evening)
+- Required composition: ceramide NP or AP + ceramide EOS + cholesterol + palmitic/stearic FA
+- Examples: CeraVe Moisturizing Cream; La Roche-Posay Toleriane; EltaMD Barrier Renewal Complex
+- Evidence: TEWL ↓ 31%; erythema ↓ 24% × 4 weeks (Darlenski 2013)
+
+**Cleanser:** pH-balanced (pH 5.5-6.5), SLS-free
+- SLS (sodium lauryl sulfate) directly disrupts SC ceramide bilayer → avoid
+- Suitable: gentle syndet bars; Vanicream Gentle Facial Cleanser; CeraVe Hydrating Cleanser
+
+**Timing:** Apply moisturizer within 3 minutes post-cleansing (wet-skin application
+maximizes ceramide integration into partially hydrated SC).
+
+### Long-term Ceramide Repair: Node E (VDR)
+
+Node E >60 ng/mL → VDR → UGCG → endogenous ceramide synthesis ↑ (Bikle 2012).
+This is the ROOT CAUSE treatment for the ceramide deficit; topical is symptomatic/supportive.
+Node E optimization alone partially corrects the SC ceramide deficit over weeks-months.
+Topical ceramide provides faster symptomatic relief while Node E protocol takes effect.
+
+### Updated Node E (25(OH)D3) Target: Three Mechanisms
+
+| Mechanism | Pathway | Target |
+|-----------|---------|--------|
+| M4 Treg expansion | VDR → Foxp3 VDRE −700 | >60 ng/mL |
+| NF-κB suppression | VDR → p65 sequestration + IκBα ↑ | >60 ng/mL |
+| SC ceramide synthesis | VDR → UGCG promoter → ceramide ↑ | >60 ng/mL (same target) |
+
+*Protocol_integration.md Part 9v — 2026-04-12 | Ceramide SC barrier topical moisturizer Node E UGCG VDR three mechanisms*
+
+---
+
+## Part 9w — GLP-1RA Specialist-Adjunct Protocol (run_073)
+
+### Indication (T1DM rosacea, specialist-managed)
+- Waist ≥94 cm (M) / ≥80 cm (W) AND
+- Inadequate adipokine protocol response (waist not falling after 12 weeks of metformin + exercise) OR
+- Cardiometabolic co-morbidity requiring GLP-1RA independently
+
+### Mechanism Context (Four Mechanisms)
+1. PKA → IKKβ Ser177/181 → NF-κB ↓ (ninth NF-κB suppressor)
+2. EPAC1 → LKB1 → AMPK → NLRP3 Ser291 (extends run_069)
+3. Visceral fat ↓ → resistin ↓ + leptin ↓ + adiponectin ↑ (Signal 1A + 1D both ↓)
+4. Macrophage M1 → M2 → calprotectin self-amplification loop attenuated
+
+### Agents (prescription; specialist oversight required)
+
+| Agent | Dose (starting) | Titration | T1DM note |
+|-------|----------------|-----------|----------|
+| Semaglutide (Ozempic/Wegovy) | 0.25mg/week SQ × 4 weeks | Up to 1-2.4mg/week | Reduce insulin doses 15-20%; monitor for hypoglycemia |
+| Liraglutide (Victoza/Saxenda) | 0.6mg/day × 1 week | Up to 1.8mg/day | Same insulin adjustment |
+
+**Not for insulin replacement. GLP-1RA is always adjunct to basal-bolus insulin in T1DM.**
+
+### Nine NF-κB Suppressors — Complete Priority Order
+
+For most T1DM rosacea patients, implement in this order:
+1-8 (OTC/lifestyle): Colchicine → Sulforaphane → VDR/D3 → MK-7 → CAPE/propolis → Vagal → L-citrulline → Ivermectin (topical)
+9 (specialist-adjunct): GLP-1RA — only when waist threshold met + first-line inadequate
+
+*Protocol_integration.md Part 9w — 2026-04-12 | GLP-1R semaglutide liraglutide ninth NF-κB suppressor specialist adjunct T1DM visceral adiposity*
+
+---
+
+## Part 9x — Dual AhR Problem: Indoxyl Sulfate Reduction (run_074)
+
+### Mechanism Context
+IS → pathological AhR → Th17 → IL-17A → NF-κB → KLK5 (Loop 1 activation from M1 gut).
+Simultaneously: IAd ↓ (L. reuteri depleted) → beneficial AhR/IL-22 arm weakened.
+T1DM amplification: renal IS clearance ↓ + gastroparesis → more tryptophan → more IS.
+
+### No New Protocol Agents Required
+
+L. reuteri DSM 17938 (already in protocol from run_054) addresses both AhR arms:
+- IAd production → beneficial AhR/ILC3/IL-22 ↑
+- Clostridial competitive displacement → IS production ↓
+
+**Updated L. reuteri DSM 17938 mechanism count: five**
+
+| Mechanism | Run |
+|-----------|-----|
+| IAd → AhR/ILC3/IL-22 → gut barrier | run_054 |
+| Competitive H. pylori displacement (gastric) | run_054 (M7 adjunct) |
+| F. nucleatum displacement → oral TMA ↓ → TMAO ↓ | run_071 |
+| Clostridium competitive displacement → IS ↓ → pathological AhR ↓ | run_074 |
+| Akkermansia synergy (fiber + L. reuteri → microbiome diversification) | M1 context |
+
+### Dietary Note
+High-fiber, Mediterranean-pattern diet → L. reuteri/Bifidobacterium enrichment →
+simultaneous TMAO ↓ (run_071) + IS ↓ (this run) + IAd ↑ (run_054) + butyrate ↑ (M1 barrier).
+Diet is the most impactful single lifestyle intervention for M1 gut dysbiosis-related pathways.
+
+*Protocol_integration.md Part 9x — 2026-04-12 | Indoxyl sulfate IS AhR L. reuteri five mechanisms dietary fiber*
+
+---
+
+## Part 9y — FXR/TGR5 Secondary Bile Acid Protocol (run_075)
+
+### Mechanism Context
+M1 dysbiosis → Lachnospiraceae ↓ → secondary BA (DCA, LCA) ↓ → FXR NF-κB suppression ↓ + TGR5 endogenous GLP-1 ↓. IS (run_074) additionally oxidizes FXR protein → compounded BA signaling failure in T1DM.
+
+### Primary Protocol: Dietary Fiber (Lachnospiraceae Restoration)
+High-fiber Mediterranean diet → Lachnospiraceae/Ruminococcaceae enrichment → 7α-dehydroxylation restored → secondary BA pool ↑. This is the primary approach (no new supplement needed beyond existing fiber/prebiotic recommendations).
+
+### Optional: UDCA
+| Agent | Dose | Indication | Note |
+|-------|------|-----------|------|
+| UDCA (ursodeoxycholic acid) | 250-500mg/day with meals | M1 dysbiosis not responding to fiber | FXR + TGR5 agonist; OTC in EU; Rx in US; evidence gap in rosacea |
+
+UDCA is investigational in this context — mechanistically justified but not trialed in rosacea. Position as optional adjunct for patients with confirmed gut dysbiosis + inadequate response to primary M1 protocol.
+
+### Clinical Implication
+GLP-1RAs (run_073, Part 9w) are more effective in patients with M1 dysbiosis because they are replacing the depleted endogenous TGR5/GLP-1 signal. Sequence recommendation: address M1 dysbiosis first (restore endogenous GLP-1 via fiber + probiotics); consider GLP-1RA only after M1 optimization.
+
+---
+
+## Part 9z — Topical Niacinamide Protocol Update (run_076)
+
+### Mechanism Context
+Niacinamide's fifth mechanism: PPARγ → CerS3 → SC ceramide ↑ (specifically ceramide-EOS/acylceramide = 58% depleted fraction in rosacea). NAD+-independent; synergistic with topical ceramide moisturizer and Node E/VDR ceramide packaging.
+
+### Updated Topical Niacinamide Protocol
+
+**Form:** Topical 2-5% niacinamide (nicotinamide) — NOT oral niacin (no flush)
+**Dose:** 2-5% concentration (2% adequate per Gehring 2004; 5% more rapid per Tanno 2000)
+**Timing:** BID (morning + evening); apply before ceramide moisturizer
+**Application:** After pH-balanced cleanser → niacinamide serum (60-second absorption) → ceramide moisturizer
+
+### Complete Topical Barrier Protocol (Three-Layer)
+
+| Layer | Product type | Mechanism | Effect timeline |
+|-------|-------------|-----------|----------------|
+| 1 (first) | Niacinamide 2-5% serum | PPARγ → CerS3 → ceramide synthesis ↑ | 2-4 weeks |
+| 2 (second) | Ceramide moisturizer (NP/AP/EOS + cholesterol + FA) | Exogenous SC ceramide delivery | Days |
+| 3 (systemic) | VDR/Node E (D3 4000-6000 IU/day) | UGCG → ceramide packaging/secretion ↑ | Weeks-months |
+
+*Protocol_integration.md Parts 9y+9z — 2026-04-12 | FXR TGR5 UDCA bile acid / Niacinamide PPARγ CerS3 ceramide three-layer barrier protocol*
+
+---
+
+## Part 9aa — PPARγ Convergence Node Protocol (run_077)
+
+### Mechanism Context
+PPARγ → p65 transrepression = tenth NF-κB suppressor. Five existing protocol agents (quercetin, resveratrol, EGCG, omega-3/EPA, niacinamide) all partially activate PPARγ → p65 RHD sequestration → NF-κB target gene ↓ at the DNA binding step. This is orthogonal to all upstream IKKβ/importin mechanisms.
+
+### Protocol Integration
+No new agents required. The tenth NF-κB suppressor is delivered by the existing polyphenol/lipid cluster:
+
+| Agent | Already in protocol | PPARγ contribution |
+|-------|-------------------|-------------------|
+| Quercetin 500-1000mg/day | Yes (run_031) | Full PPARγ agonist at high concentrations |
+| Resveratrol 200-500mg/day | Yes (run_071) | Partial direct PPARγ agonism |
+| EGCG 400-800mg/day | Yes (run_058) | Partial PPARγ agonism |
+| Omega-3/EPA 2-4g/day | Yes (run_035) | EPA as weak PPARγ ligand |
+| Niacinamide 2-5% topical | Yes (run_076) | PGC-1α → PPARγ (moderate) |
+
+**Combined action**: cumulative PPARγ activation across five agents → sustained p65 transrepression → tenth NF-κB suppressor delivered by protocol already in place.
+
+**Pioglitazone**: Full PPARγ agonist; 10-100× more potent than dietary agents; specialist-only option for T1DM patients with documented insulin resistance + active rosacea. Not for routine use (adverse effects: weight gain, fluid retention, bladder cancer risk with extended use). Requires endocrinology co-management.
+
+---
+
+## Part 9ab — Urolithin A Mitophagy Protocol (run_078)
+
+### Mechanism Context
+Urolithin A (UA) → PINK1 → Parkin → selective mitophagy → damaged mitochondria cleared → mtROS ↓ → NLRP3 Signal 2 ↓. Parallel to spermidine (run_041, EP300/Beclin-1), but PINK1/Parkin pathway is mechanistically independent. Both pathways simultaneously depleted in T1DM dysbiosis (Actinobacteria ↓ → Gordonibacter ↓ → UA ↓; polyamine bacteria ↓ → spermidine ↓). Combined restoration → more complete mitochondrial quality control than either alone.
+
+### Dietary Protocol (Primary — UA Producers)
+| Food | Amount | Ellagitannin content | Notes |
+|------|--------|---------------------|-------|
+| Pomegranate juice | 1 cup (240 mL)/day | ~500-1000mg punicalagin | Highest ellagitannin density |
+| Raspberries/strawberries | 100g/day | Moderate ellagitannin | Vitamin C benefit concurrent |
+| Walnuts | 30g/day | Pedunculagin (ellagic acid) | Also omega-3/ALA benefit |
+
+### Supplement Protocol (Secondary — Non-Producers or T1DM Actinobacteria Depletion)
+| Agent | Dose | Indication | Availability |
+|-------|------|-----------|-------------|
+| Mitopure (Amazentis) — synthetic UA | 500-1000mg/day | Non-producer or confirmed Gordonibacter depletion | OTC in US/EU |
+
+**Sequencing**: food-based protocol first for all patients. If T1DM gut dysbiosis documented or suspected Actinobacteria depletion → add Mitopure concurrently with pomegranate food protocol.
+
+### Coordination with Spermidine Protocol (run_041)
+Spermidine (1-2mg/day supplement or wheat germ/fermented foods) + UA (food or supplement) → both mitophagy pathways activated simultaneously → maximally reduced mtROS. Recommend both as part of the NLRP3 Signal 2 reduction strategy (alongside melatonin, BHB, zinc, AMPK/metformin).
+
+*Protocol_integration.md Parts 9aa + 9ab — 2026-04-12 | PPARγ p65 transrepression polyphenol cluster / Urolithin A PINK1 Parkin mitophagy pomegranate Mitopure spermidine parallel*
+
+---
+
+## Part 9ac — PPARγ → RORγt → Th17 Suppression (run_079)
+
+### Mechanism Context
+PPARγ → RORγt suppression = third Th17 suppression mechanism (alongside omega-3/GPR120, run_062; IS reduction/L. reuteri, run_074). Acts in T cells at the RORγt transcription factor level. Same polyphenol cluster as run_077 (quercetin + resveratrol + EGCG + EPA + niacinamide); no new protocol agents.
+
+### Protocol Note
+No new supplement or dietary changes required beyond the existing polyphenol cluster. The five polyphenol agents already recommended for their primary mechanisms collectively deliver three PPARγ-mediated benefits:
+1. SC ceramide synthesis ↑ (run_076) — topical niacinamide/CerS3
+2. Macrophage NF-κB ↓ (run_077) — all five agents cumulative
+3. T cell Th17 ↓ (run_079) — all five agents cumulative
+
+### Three-Mechanism Th17 Suppression Summary
+
+| Mechanism | Protocol element | Notes |
+|-----------|----------------|-------|
+| Omega-3/GPR120 → STAT3 ↓ (run_062) | EPA/DHA 2-4g/day | Fatty acid receptor pathway |
+| IS reduction → AhR normalization (run_074) | L. reuteri DSM 17938 + fiber | Gut microbiome upstream |
+| PPARγ → RORγt ↓ (run_079) | Polyphenol cluster (QR-EG-EP-NA) | T cell transcription factor |
+
+For T1DM patients with active Th17-driven rosacea flares: all three mechanisms operate simultaneously. Consider pioglitazone (specialist, T1DM + insulin resistance documented) for more complete PPARγ → RORγt + p65 suppression.
+
+*Protocol_integration.md Part 9ac — 2026-04-12 | PPARγ RORγt Th17 adaptive immune three Th17 suppressors polyphenol cluster*
+
+---
+
+## Part 9ad — AhR → Th22 → IL-22/STAT3 → KLK5 Coverage (run_080)
+
+### Mechanism Context
+Sixth KLK5 transcription input: IL-22/STAT3 (IS → AhR → Th22 → IL-22 → JAK1/TYK2 → STAT3 → KLK5). Parallel to the Th17/IL-17A arm (run_074, fifth input). Both IS-driven AhR arms converge on KLK5 via different promoter elements (NF-κB site: IL-17A; STAT3 site: IL-22).
+
+### Protocol Coverage
+This pathway is already covered by existing protocol elements — no new interventions required:
+
+**Upstream (IS elimination):**
+- L. reuteri DSM 17938 + prebiotic fiber → IS ↓ → AhR activation ↓ → BOTH Th17 and Th22 arms reduced simultaneously
+
+**Downstream (STAT3 suppression):**
+- Quercetin 500-1000mg/day → STAT3-Tyr705 dephosphorylation
+- MK-7 100-180 µg/day → SOCS1 → JAK2 inhibition → STAT3 phosphorylation ↓
+- HRV biofeedback → vagal α7-nAChR → STAT3 inhibition
+
+**AhR milieu normalization:**
+- Restoring L. reuteri + fiber → IAd (beneficial AhR ligand) ↑ → inflammatory milieu shifts toward regulatory → AhR activation biased toward Treg rather than Th17/Th22
+
+### Confirmation of Framework Completeness
+Run_080 confirms that the sixth KLK5 input is covered by existing protocol from two directions. The framework now accounts for all six KLK5 transcription inputs with explicit coverage for each.
+
+*Protocol_integration.md Part 9ad — 2026-04-12 | AhR Th22 IL-22 STAT3 KLK5 sixth input protocol coverage confirmed*
+
+---
+
+## Part 9ae — NETs Protocol (run_081)
+
+### Mechanism Context
+T1DM hyperglycemia → enhanced NETosis (Menegazzo 2012) → NETs in papulopustular lesions → compound activation: Signal 1A (HMGB1/TLR4) + Signal 1B (LL-37/DNA/TLR9/pDC → IFN-α; cGAS-STING → IFN-β) + Signal 2 (MPO/HOCl → mROS) + Loop 1 (NET-LL-37 local release) + Loop 2 (NET-HMGB1). Colchicine seventh mechanism: NETosis ↓ 60-70% via tubulin inhibition (Schauer 2014).
+
+### Protocol Elements Addressing NETs
+
+**Primary: glycemic control**
+Glucose normalization → PKC-β deactivated → NETosis threshold restored to non-T1DM level.
+This is the most impactful single intervention for T1DM-enhanced NETosis.
+Metric: HbA1c <7% (ideally <6.5% for papulopustular-dominant T1DM rosacea patients).
+
+**Secondary: colchicine 0.5mg/day (already in protocol)**
+NETosis inhibition via tubulin is the seventh mechanism of colchicine — already prescribed.
+No dose change needed; this benefit is delivered by the existing protocol.
+
+**Tertiary: omega-3 EPA/DHA 2-4g/day (already in protocol)**
+Resolvin E1 → PMN apoptosis favored over NETosis → less tissue neutrophil burden over time.
+
+### Clinical Monitoring
+Papulopustular T1DM rosacea with poor glycemic control (HbA1c >8%) → highest NET burden.
+Consider serum MPO-DNA complex measurement (research assay; not routine) if available.
+Practical: if papulopustular rosacea is NOT responding to standard protocol → check HbA1c.
+NET-driven amplification may be the cause of non-response in poorly controlled T1DM.
+
+---
+
+## Part 9af — Azelaic Acid Full Mechanism Protocol (run_082)
+
+### Protocol Update
+Azelaic acid (Finacea 15% gel or Azelex 20% cream) — upgrade from "KLK5 inhibitor" to four-mechanism topical agent:
+
+| Mechanism | Protocol benefit | Synergy |
+|-----------|----------------|---------|
+| KLK5 activity inhibition (immediate) | Loop 1 interruption | + colchicine (NET-LL-37 ↓) |
+| DHODH → T cell proliferation ↓ (days) | Local Th17 expansion ↓ | + ivermectin (double DHODH) |
+| 5α-Reductase → DHT → KLK5 transcription ↓ (weeks) | Loop 1 long-term suppression | + zinc (additive 5α-RI) |
+| ROS scavenging → 4-HNE ↓ (concurrent) | NLRP3 Signal 2 ↓ | + omega-3 antioxidants |
+
+**Updated position**: AzA is not "anti-Loop-1 only" — it addresses Loop 1 (dual: activity + transcription), local Th17 expansion (DHODH), and NLRP3 Signal 2 (ROS). A genuine multi-mechanism topical.
+
+**Application**: Finacea 15% gel BID (morning + evening), applied to affected facial areas after pH-balanced cleanser. If combining with topical niacinamide: apply niacinamide first (60s) → then AzA → then ceramide moisturizer. AzA may cause transient stinging in first 2 weeks (resolves with continued use).
+
+*Protocol_integration.md Parts 9ae + 9af — 2026-04-12 | NETs T1DM glycemic control NETosis / Azelaic acid AzA four mechanisms dual KLK5 DHODH 5α-reductase ROS*
+
+---
+
+## Part 9ag — Topical Combination Protocol: Double DHODH (run_083)
+
+### Mechanism Context
+Ivermectin 1% cream (second mechanism: DHODH inhibition, Varghese 2021) + Azelaic acid 15% gel (DHODH mechanism 2, run_082) = double DHODH inhibition from two distinct binding sites. Explains combination clinical superiority (Taieb 2015 J Eur Acad Dermatol Venereol).
+
+### Updated Topical Combination Sequence
+
+**Morning + Evening — papulopustular rosacea:**
+1. pH-balanced cleanser
+2. Topical niacinamide 2-5% serum (60s absorption; PPARγ/CerS3 + MLCK + SIRT1/NLRP3)
+3. Azelaic acid 15% gel (Finacea) — dual KLK5 suppressor + DHODH #1 + ROS scavenging
+4. Ivermectin 1% cream (Soolantra) — NF-κB importin + DHODH #2 [alternate PM if AzA AM]
+5. Ceramide moisturizer (SPF 50 in AM)
+
+Note: AzA + ivermectin can be applied in same session (different vehicles; no interaction).
+If skin sensitivity limits full BID for both: AzA AM, ivermectin PM (alternating) maintains double DHODH inhibition.
+
+---
+
+## Part 9ah — Doxycycline Specialist-Adjunct Protocol (run_083)
+
+### Indication
+Sub-antimicrobial doxycycline (Oracea 40mg MR, once daily) for T1DM rosacea patients with:
+- Node F Orange (SAF 2.0-2.8) or Red (SAF >2.8): AGE-RAGE loop breaking
+- Persistent papulopustular rosacea despite full topical protocol: HA/TLR4 + IGFBP-3/Loop 1 benefits
+- MMP-9 biomarker elevation if measured (research setting)
+
+### Duration
+Maximum 3-6 month courses. Review at each 3-month mark.
+Always co-prescribe L. reuteri DSM 17938 probiotic for M1 microbiome protection.
+L. reuteri is intrinsically doxycycline-resistant → survives co-administration.
+
+### Mechanism Summary
+Doxycycline 40mg MR → MMP-9 ↓ → three simultaneous framework benefits:
+- TLR4 ↓ (HA fragmentation suppressed)
+- Loop 1 ↓ (IGFBP-3 preserved → free IGF-1 ↓ → mTORC1 ↓ → KLK5 transcription ↓)
+- AGE-RAGE amplification loop broken (RAGE ligand surface ↓)
+
+*Protocol_integration.md Parts 9ag + 9ah — 2026-04-12 | AzA ivermectin double DHODH / Doxycycline MMP-9 Node F specialist-adjunct*
+
+---
+
+## Part 9ai — Macrophage Immunometabolism Protocol Integration (run_084)
+
+### Mechanism Context
+Succinate → PHD2 → HIF-1α (normoxic) → IL-1β ↑ (Tannahill 2013): metabolic Signal 1C route. Itaconate → IRG1 → KEAP1/Nrf2 + p65 Cys38 (Lampropoulou 2016): endogenous counter-regulation mimicked by sulforaphane + CAPE already in protocol.
+
+### Protocol Coverage
+No new agents required. Existing protocol elements address immunometabolism:
+
+| Metabolic target | Protocol element | Mechanism |
+|----------------|-----------------|-----------|
+| Succinate accumulation ↓ | BHB/ketogenic + metformin | Less Warburg shift → less succinate |
+| HIF-1α stabilization ↓ | BHB + omega-3 + OSA treatment | PHD2 less inhibited |
+| Itaconate KEAP1/Nrf2 | Broccoli sprouts 75g/day (sulforaphane) | Dietary KEAP1 alkylator |
+| Itaconate p65 Cys38 | Propolis BID (CAPE) | Dietary p65 Cys38 alkylator |
+
+---
+
+## Part 9aj — Metformin-B12 Paradox + Magnesium Protocol (run_085)
+
+### B12/Folate Monitoring (Metformin Users — ALL T1DM Patients on Metformin)
+
+**Annual blood work addition:**
+- Serum B12 (target >300 pmol/L; action <300: supplement)
+- Plasma homocysteine (target <10 µmol/L; elevated = functional deficiency)
+- RBC folate (target >10 nmol/L; action <10: supplement)
+
+**Supplementation if depleted:**
+- Methylcobalamin 1000 µg/day **sublingual** (not oral tablet — bypasses metformin-cubilin competition)
+- L-methylfolate (5-MTHF) 400-800 µg/day (not folic acid — bypasses MTHFR enzyme)
+
+### Magnesium Protocol (All T1DM Patients)
+
+| HbA1c | Dose | Form | Monitoring |
+|-------|------|------|-----------|
+| <7% | 200mg elemental/day | Magnesium glycinate | Annual serum Mg²⁺ |
+| 7-8% | 300mg elemental/day | Magnesium glycinate | Twice yearly |
+| >8% | 400mg elemental/day | Magnesium glycinate or malate | Quarterly |
+
+Target: serum Mg²⁺ 0.85-1.0 mmol/L.
+Magnesium malate alternative: malate is also a Krebs intermediate (counter to succinate accumulation in run_084 context — minor supplemental benefit).
+
+*Protocol_integration.md Parts 9ai + 9aj — 2026-04-12 | Macrophage immunometabolism (no new agents) / Metformin B12 monitoring + Mg²⁺ supplementation*
+
+---
+
+## Part 9ak — AKG / Treg Stabilization Protocol (run_086)
+
+### Mechanism Context
+Foxp3 TSDR (FOXP3 CNS2) demethylation by TET2 (AKG co-factor) → stable Foxp3 expression resistant to Th17 conversion under IL-6/TNFα. Shim 2021 Nature: AKG → 60% → 15% Treg-to-Th17 conversion rate under IL-6 stress. Additive to existing Treg induction (VDR + L. reuteri/IAd + melatonin).
+
+### Protocol — Node A Non-Responders
+
+**Indication**: Node A <8% CD4+ Foxp3+ at 6-month check despite full standard protocol.
+
+| Agent | Dose | Form | Purpose |
+|-------|------|------|---------|
+| Calcium alpha-ketoglutarate (Ca-AKG) | 300-600mg/day | OTC nutritional supplement | TET2 → TSDR demethylation → Treg stability |
+
+Start Ca-AKG → recheck Node A at 6 months. Additive to VDR/D3 + L. reuteri + melatonin.
+
+### AKG Secondary Benefits
+- mTORC1 attenuation → KLK5 transcription input #1 ↓
+- Collagen P4H co-factor → improved collagen crosslinking → telangiectasia support
+- 2-HG antagonism → TET2 protected in inflammatory environment
+
+*Protocol_integration.md Part 9ak — 2026-04-12 | AKG TET2 Foxp3 TSDR Treg stability Ca-AKG Node A non-responders*
+
+---
+
+## Part 9al — Vitamin C + AKG: Complete TET Co-Factor Protocol (run_087)
+
+### Mechanism Context
+TET dioxygenases require Fe²⁺ (recycled by vitamin C) + AKG (organic substrate, run_086) + O2. T1DM depletes intracellular vitamin C via GLUT1 competition (hyperglycemia) and oxidative consumption. Blaschke 2013 + Yue 2019: ascorbate → TET activity ↑ → TSDR demethylation → Foxp3 stable.
+
+### Combined TET Protocol for Node A Non-Responders
+
+| Agent | Dose | Purpose | Form |
+|-------|------|---------|------|
+| Ca-AKG (run_086) | 300-600mg/day | TET organic co-substrate | OTC supplement |
+| Vitamin C (run_087) | 500-1000mg/day | TET Fe²⁺ recycling | Ascorbic acid OTC |
+
+**Application**: for T1DM rosacea patients with Node A <8% CD4+ Foxp3+ at 6-month check despite full standard protocol (VDR + L. reuteri + melatonin). Add Ca-AKG + vitamin C. Recheck Node A at 6 months.
+
+**CGM compatibility**: vitamin C 500mg/day safe with Dexcom G6/G7. For doses >500mg, verify CGM model. Consider splitting dose (morning + evening) to keep peak plasma levels lower.
+
+*Protocol_integration.md Part 9al — 2026-04-12 | Vitamin C TET Fe²⁺ AKG synergy Node A Treg stabilization Foxp3 TSDR*

@@ -302,3 +302,57 @@ provide partial adipokine benefit without PEM trigger.
 
 **Cross-references:** dysbiosis run_066 (resistin adipokine TLR4); me_cfs spermidine/mitophagy and IFN-α/microglial NLRP3 prior entries
 *Cross-pollination: 2026-04-12 | Leptin resistin adipokine TLR4 microglial NF-κB ME/CFS neuroinflammation exercise-PEM paradox*
+
+---
+
+## ME/CFS Cross-Reference: run_077 (PPARγ → p65 Transrepression)
+
+**ME/CFS relevance: microglial + CNS immune NF-κB, PPARγ in neuroinflammation**
+
+PPARγ is expressed in microglia and CNS macrophages. Neuroinflammatory NF-κB activation in ME/CFS (elevated IL-6, TNFα in CSF; microglial activation on PET) → PPARγ agonists could suppress CNS NF-κB via p65 transrepression mechanism.
+
+- **Pioglitazone in ME/CFS**: off-label use proposed (Holtorf 2014) for mitochondrial dysfunction + neuroinflammation in ME/CFS; the PPARγ → NF-κB transrepression mechanism is now formalized as the molecular basis
+- **Cumulative polyphenol protocol**: quercetin + resveratrol + EGCG → additive PPARγ activation in microglia → CNS NF-κB transrepression; mechanistically independent of peripheral effects
+
+**Cross-reference: run_077 dysbiosis framework | PPARγ p65 transrepression | ME/CFS neuroinflammation | microglial NF-κB**
+
+---
+
+## ME/CFS Cross-Reference: run_078 (Urolithin A — PINK1/Parkin Mitophagy)
+
+**ME/CFS relevance: mitochondrial dysfunction as core ME/CFS pathology**
+
+ME/CFS hallmark: mitochondrial dysfunction with impaired oxidative phosphorylation, elevated mtROS, and deficient mitophagy. UA/PINK1/Parkin mitophagy pathway is directly relevant:
+
+1. **Mitochondrial clearance deficit**: PINK1 mutations are linked to Parkinson's; subthreshold PINK1/Parkin impairment in ME/CFS (not Parkinson's level, but reduced capacity) → damaged mitochondria accumulate → ATP deficit + mtROS → fatigue + cognitive impairment
+2. **UA as mitophagy support**: Ryu 2016 Cell Metab: UA in aged mice → mitochondrial quality ↑ → exercise tolerance ↑. ME/CFS exercise intolerance may partly reflect mitochondrial quality degradation responsive to UA
+3. **Parallel to spermidine**: spermidine (run_041) already identified as relevant to ME/CFS mitochondrial quality; UA/PINK1/Parkin is an independent parallel arm; both warranted in ME/CFS protocol
+4. **Gut dysbiosis in ME/CFS**: ME/CFS gut dysbiosis (reduced Actinobacteria documented; Giloteaux 2016 Microbiome) → Gordonibacter ↓ → UA non-producer phenotype in ME/CFS patients; supplement (Mitopure) recommended
+
+**Cross-reference: run_078 dysbiosis framework | Urolithin A PINK1 Parkin mitophagy | ME/CFS mitochondrial dysfunction | exercise intolerance**
+
+---
+
+## ME/CFS Cross-Reference: run_079 (PPARγ → RORγt → Th17 ↓)
+
+**ME/CFS relevance: Th17 elevation in ME/CFS + neuroinflammatory T cell trafficking**
+
+ME/CFS: Th17 cells elevated in peripheral blood (Loebel 2016 Brain Behav Immun); IL-17A elevated in ME/CFS CSF (ILC3 + Th17 both implicated in neuroinflammation). PPARγ → RORγt → Th17 ↓:
+1. Polyphenol protocol (quercetin + resveratrol + EGCG) → PPARγ → RORγt → peripheral Th17 ↓ → less CNS Th17 trafficking → reduced neuroinflammation
+2. ME/CFS gut dysbiosis (Giloteaux 2016: reduced Actinobacteria + Lachnospiraceae) → IS ↑ → AhR → Th17 ↑; PPARγ/RORγt provides downstream counter to this IS-driven Th17 elevation
+
+**Cross-reference: run_079 dysbiosis framework | PPARγ RORγt Th17 | ME/CFS neuroinflammation | peripheral Th17 Loebel 2016**
+
+---
+
+## ME/CFS Cross-Reference: run_084 (Macrophage Immunometabolism)
+
+**ME/CFS relevance: metabolic dysfunction + macrophage activation syndrome**
+
+ME/CFS: macrophage activation with Warburg-like metabolic shift documented (Naviaux 2016 PNAS: metabolomic evidence for cellular danger response in ME/CFS). Succinate → HIF-1α → IL-1β pathway is directly relevant:
+
+1. **ME/CFS metabolomics**: succinate elevated in ME/CFS plasma (Yamano 2016: Krebs cycle intermediates dysregulated). Succinate → HIF-1α → IL-1β would contribute to ME/CFS neuroinflammation
+2. **Itaconate deficit**: if ME/CFS macrophages have impaired IRG1/itaconate production (chronically stimulated, tolerance state), then sulforaphane + CAPE provide functional compensation
+3. **Magnesium in ME/CFS**: hypomagnesemia documented in ME/CFS (Cox 1991 Lancet: RBC Mg²⁺ low; Mg²⁺ IV injection → improved symptom scores). Connection to AMPK → NLRP3 → neuroinflammation in ME/CFS
+
+**Cross-reference: run_084+085 dysbiosis framework | macrophage succinate HIF-1α | ME/CFS metabolomics Warburg | Mg²⁺ deficiency Cox 1991**

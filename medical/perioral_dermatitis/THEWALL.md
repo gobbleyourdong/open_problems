@@ -364,3 +364,16 @@ See `../dysbiosis/numerics/run_051_oral_probiotics_salivarius.md`.
 *Updated: 2026-04-12 | S. salivarius K12 cross-pollination from dysbiosis run_051*
 *POD: oral microbiome → perioral skin continuous LPS priming via saliva; K12 → salivaricin B → P. gingivalis reduction → perioral TLR4 priming reduced*
 *CAUTION: Chlorhexidine + oral antibiotics (doxycycline) → Candida overgrowth risk in POD; use propolis mouthwash instead*
+
+---
+
+## Perioral Dermatitis Cross-Reference: run_078 (Urolithin A — PINK1/Parkin Mitophagy)
+
+**Perioral dermatitis relevance: steroid-induced mitochondrial stress + barrier repair**
+
+Perioral dermatitis frequently follows topical steroid use or fluorinated toothpaste exposure → epidermal barrier disruption + keratinocyte oxidative stress. UA → PINK1/Parkin mitophagy applies:
+
+1. **Steroid-induced mitochondrial stress**: topical steroids → keratinocyte mitochondrial dysfunction (glucocorticoid receptor → PGC-1α suppression → mitochondrial biogenesis ↓) → damaged mitochondria accumulate → mtROS → NLRP3 → IL-1β → perioral inflammation
+2. **UA mitophagy as steroid recovery support**: during topical steroid withdrawal phase, UA supplementation → PINK1/Parkin mitophagy → clears accumulated damaged keratinocyte mitochondria → accelerates resolution
+
+**Cross-reference: run_078 dysbiosis framework | Urolithin A PINK1 Parkin | perioral dermatitis steroid withdrawal | keratinocyte mitophagy**

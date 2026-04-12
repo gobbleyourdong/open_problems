@@ -214,3 +214,27 @@ interrupting this calprotectin self-amplification loop.
 
 **Cross-references:** dysbiosis run_068 (S100A8/A9 TLR4 fifth endogenous TLR4 activator); Foell 2007 Lancet
 *Cross-pollination: 2026-04-12 | S100A8/A9 calprotectin TLR4 NF-κB self-amplifying psoriasis Foell 2007*
+
+---
+
+## Psoriasis Cross-Reference: run_079 (PPARγ → RORγt → Th17 ↓)
+
+**Psoriasis relevance: Th17/IL-17A is the primary psoriasis effector — PPARγ is a natural counter**
+
+Psoriasis is a Th17-dominant disease (IL-17A, IL-17F, IL-22 all elevated; IL-23/Th17 axis is the primary biologic target with ixekizumab, secukinumab). PPARγ → RORγt suppression is directly relevant:
+
+1. **Pioglitazone in psoriasis**: TZD case reports (Mittal 2009; Akaishi 2011) showing PPARγ agonists improve psoriatic skin. The PPARγ → RORγt → Th17 mechanism is the likely molecular basis for the anti-psoriatic effect
+2. **PPARγ polyphenol cluster**: quercetin + resveratrol + EGCG in psoriasis → PPARγ → RORγt ↓ → IL-17A ↓. Three independent mechanisms converging on the same psoriasis driver (Th17) from a dietary polyphenol protocol
+3. **IL-22 in psoriasis**: IL-22 drives keratinocyte hyperproliferation in psoriasis (acanthosis). AhR → Th22 → IL-22 (run_080) — gut dysbiosis in psoriasis (documented; Eppinga 2016) → IS ↑ → AhR → Th22 → IL-22 → psoriatic plaque hyperproliferation. L. reuteri → IS ↓ → AhR → Th22 ↓ → less IL-22-driven keratinocyte hyperproliferation
+
+**Cross-reference: run_079+080 dysbiosis framework | PPARγ RORγt Th17 / AhR Th22 IL-22 | psoriasis Th17-dominant | pioglitazone L. reuteri**
+
+---
+
+## Psoriasis Cross-Reference: run_081 (NETs — Enhanced NETosis in Psoriasis)
+
+**Psoriasis relevance: NETs are established psoriasis amplifiers**
+
+NETs are well-documented in psoriasis (Naegele 2019 J Invest Dermatol: NET components elevated in psoriasis lesions; PAD4 expression elevated in psoriatic skin). Psoriasis: neutrophils in Munro's microabscesses → NETs → LL-37/DNA → pDC TLR9 → IFN-α → ISGF3 → NLRP3 Signal 1B. Same mechanism as proposed for T1DM rosacea (run_081). Colchicine's NETosis inhibition (run_081 seventh mechanism) may contribute to colchicine's observed benefit in psoriatic arthritis (MACE trial).
+
+**Cross-reference: run_081 dysbiosis framework | NETs psoriasis Munro's microabscesses | colchicine psoriatic arthritis**
