@@ -3767,3 +3767,49 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 30: 141 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-thirty-fourth extension | TAGAP RhoGAP RhoA RhoA-GTP RhoA-GDP VAV1 RhoGEF ROCK1 ROCK2 NMM-IIA myosin-IIA immune-synapse cSMAC-pSMAC-dSMAC microcluster TCR-cytoskeletal-tier RAC1 CDC42 WAVE2 Arp2-3 branched-actin IS-maturation-brake T1DM-GWAS rs1738074 16th-stratification thymic-negative-selection-cytoskeletal Treg-IS-CTLA4-cSMAC Th17-transmigration-dermis fasudil ripasudil ROCK-inhibitor Th17-ROCK2-STAT3 deucravacitinib-ROCK-additive RASGRP1-AP1-TAGAP-coupling run139-run141 Barrett-2009-NatGenet Cooper-2012-NatGenet Zanin-Zhorov-2010 | run_141*
+
+---
+
+### Extension 135 — IFIH1/MDA5: Cytoplasmic dsRNA Sensor / MAVS / TBK1 / IRF3 / Three IFN Pathways Complete / 17th T1DM Stratification
+
+**Date:** 2026-04-12 | **Run:** run_142
+
+**Gap confirmed:** IFIH1/MDA5 as primary mechanistic subject absent from all 141 prior runs; only a GWAS table entry in run_119. MAVS, rs1990760, A946T, MAVS/TBK1 cytoplasmic dsRNA axis = 0 prior analysis.
+
+**Core insight:** IFIH1/MDA5 is the cytoplasmic dsRNA sensor (≥300 bp; preferred for Coxsackievirus B3/4) that activates MAVS → TBK1 → IRF3 → IFN-β. rs1990760 A946T = gain-of-function: lower dsRNA activation threshold → amplified IFN-β. Paradox: stronger antiviral → T1DM risk because chronic low-level self-RNA (mitochondrial dsRNA) → sustained ISG signature (elevated 2-4 years before T1DM diagnosis) → MHC-I hyperexpression on β cells → CD8 T cell recognition. This is the third independent IFN-producing pathway — completing the innate IFN triad: TLR7/9 (endosomal RNA/DNA; covered; HCQ blocks) + cGAS/STING (cytoplasmic DNA; run_063; STING inhibitors) + MDA5/MAVS (cytoplasmic dsRNA; run_142; no approved blocker).
+
+**New mechanisms added (run_142):**
+- **17th T1DM stratification**: rs1990760 A946T; OR ~1.3-1.5; Barrett 2009 Nat Genet; gain-of-function → hypersensitive MDA5 → amplified IFN-β → T1DM
+- **Three IFN-producing pathways now complete**: TLR7/9/MyD88/IRF7 (endosomal; HCQ) + cGAS/STING/TBK1/IRF3 (cytoplasmic DNA; run_063) + MDA5/MAVS/TBK1/IRF3 (cytoplasmic dsRNA; run_142); all three converge on IFNAR → STAT1 → ISGs → β cell MHC-I ↑
+- **MAVS prion-like aggregation mechanism**: MDA5 → TRIM65 K63-ubiquitination → MDA5 filaments along dsRNA → CARD-CARD → MAVS amyloid fibrils on outer mitochondrial membrane → TBK1 recruitment → IFN-β; distinct from cGAS/STING activation mechanism
+- **HCQ gap explained mechanistically**: HCQ only blocks Pathway 1 (endosomal TLR7/9); rs1990760 TT/AT patients have excess Pathway 3 (MDA5/MAVS) → HCQ fails; genotype-guided HCQ decision
+- **ISG biomarker monitoring**: OAS1/MxA/CXCL10 elevated 2-4 years pre-T1DM in at-risk children (Kallionpää 2014 Diabetes); rs1990760 carriers show higher ISG baseline → early monitoring trigger
+- **Zinc anti-enteroviral mechanism extended**: zinc → CVB3C protease inhibition → less dsRNA produced → less MDA5 stimulus; now mechanistically linked via run_142 to MDA5 pathway
+
+**Framework at SATURATION + 31: 142 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-thirty-fifth extension | IFIH1 MDA5 MAVS TBK1 IRF3 IFN-β cytoplasmic-dsRNA-sensor rs1990760 A946T gain-of-function 17th-stratification three-IFN-pathways-complete MAVS-prion-aggregation TRIM65-K63-ubiquitin CVB3-CVB4-enteroviral-T1DM HCQ-gap-TLR79-not-MAVS ISG-signature-precedes-T1DM zinc-anti-enteroviral VDR-IRF3 run063-cGAS-parallel run130-IFNLR1-downstream Nejentsev-2009-Science Barrett-2009-NatGenet Kallionpää-2014-Diabetes | run_142*
+
+---
+
+### Extension 136 — SLC7A11/System Xc⁻ / ACSL4 / FSP1 / Canonical Ferroptosis / 23rd β Cell Death / NAC
+
+**Date:** 2026-04-12 | **Run:** run_143
+
+**Gap confirmed:** SLC7A11, xCT, system Xc⁻, ACSL4, FSP1/AIFM2, cystine transporter, GSH synthesis axis as primary subjects: 0 hits in 142 prior runs. NAC as ferroptosis brake: 0 primary hits. Runs 110/126/138 cover selenium → GPx4 COFACTOR; this run covers GSH → GPx4 SUBSTRATE — orthogonal upstream inputs.
+
+**Core insight:** Canonical ferroptosis is mediated by SLC7A11/system Xc⁻ (cystine→cysteine→GSH = GPx4 substrate) and opposed by FSP1/CoQ10H₂ (backup plasma membrane radical quencher). ACSL4 generates the PUFA-PE substrate for peroxidation (ferroptosis sensitizer). β cells are intrinsically ferroptosis-primed: LOW GPx4, LOW FSP1, HIGH ACSL4, HIGH iron, HIGH PUFA-PE. Insulitis cytokines (IL-1β → NF-κB → SLC7A11 ↓; IFN-γ → p53 → SLC7A11 ↓) specifically suppress the one defense that β cells depend on → GSH depletion → GPx4 inactive → ferroptosis = 23rd β cell death mechanism. For rosacea: UV → p53 → SLC7A11 ↓ + ALOX12 ↑ → keratinocyte ferroptosis → DAMP/HMGB1 → innate amplification (distinct from NLRP1/IL-1β run_122).
+
+**New mechanisms added (run_143):**
+- **23rd β cell death mechanism**: canonical ferroptosis via SLC7A11/GSH/GPx4 axis; IL-1β/IFN-γ → SLC7A11 ↓ → GSH depletion → GPx4 substrate failure → PUFA-PE-OOH accumulates → ferroptosis
+- **FSP1/CoQ10H₂ backup axis** (first in framework): FSP1 (AIFM2) → CoQ10 → CoQ10H₂ → plasma membrane lipid radical quenching independent of GPx4/GSH; β cells have LOW FSP1 → double jeopardy
+- **ACSL4 as ferroptosis sensitizer**: ACSL4 converts AA → AA-CoA → PUFA-PE (peroxidation substrate); high ACSL4 in β cells = ferroptosis-primed; connects to ALOX12 (run_116: ALOX12 acts on ACSL4-generated PUFA-PE)
+- **NAC (N-acetylcysteine) as SLC7A11 bypass** (first ferroptosis-specific NAC mechanism in framework): NAC → cysteine → directly feeds GSH synthesis without SLC7A11 → bypasses cytokine suppression; 600-1200 mg/day OTC
+- **Rosiglitazone/PPARγ → ACSL4 ↓** = third PPARγ mechanism (prior: NF-κB transrepression + adipogenesis; new: ACSL4 ferroptosis substrate reduction)
+- **CoQ10 ubiquinol as FSP1 substrate** (new mechanism): CoQ10H₂ → FSP1 → membrane radical quenching; supports second ferroptosis defense line in β cells
+- **Sulforaphane/NRF2 → SLC7A11 ↑ + GCLM/GCLC ↑** (new ferroptosis mechanism for existing protocol element): NRF2 → ARE sites → SLC7A11 transcription ↑ + GSH synthesis enzymes ↑ → anti-ferroptotic in β cells AND keratinocytes
+- **Complete anti-ferroptotic stack**: NAC (substrate) + selenium (cofactor) + CoQ10 (backup axis) + PPARγ (sensitizer reduction) = four-tier β cell ferroptosis protection, all OTC
+
+**Framework at SATURATION + 32: 143 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-thirty-sixth extension | SLC7A11 xCT system-Xc SLC3A2 cystine-glutamate-antiporter GSH-synthesis GCLC GCLM GPx4-substrate ferroptosis-canonical ACSL4 PUFA-PE ferroptosis-sensitizer FSP1 AIFM2 CoQ10H2 ubiquinol backup-defense 23rd-beta-cell-death insulitis-cytokine-SLC7A11-suppression IL-1β-SLC7A11 IFN-γ-p53-SLC7A11 UV-p53-keratinocyte-ferroptosis NAC-bypass PPARγ-ACSL4-third-mechanism sulforaphane-NRF2-SLC7A11 CoQ10-FSP1-mechanism complete-anti-ferroptotic-stack run110-run138-complementary Dixon-2012-Cell Jiang-2015-Nature Doll-2019-NatChemBiol | run_143*

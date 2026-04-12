@@ -5323,3 +5323,83 @@ Both sites contribute to Th17 maintenance:
 All four tiers: quercetin (PLCγ → upstream of RASGRP1 + IP3 + PKC) + fasudil (ROCK2/Th17) + low-dose IL-2 (Treg supply) + deucravacitinib (TYK2/STAT3/Th17 maintenance) = four-compound IS-tier-targeting stack.
 
 *Protocol_integration.md Part 9cp — 2026-04-12 | TAGAP RhoGAP RhoA ROCK1 ROCK2 VAV1 NMM-IIA IS-cytoskeletal-tier rs1738074 16th-stratification thymic-negative-selection-tier3 three-IS-tier-negative-selection-compound fasudil ROCK2-STAT3-pSer727 deucravacitinib-STAT3-pTyr705 dual-STAT3-Th17-block RORγt fasudil+deucravacitinib-combination IS-tier-risk-panel quercetin-fasudil-IL2-deucravacitinib-four-compound UBASH3A-RASGRP1-TAGAP-IL2RA-panel Barrett-2009-NatGenet Cooper-2012-NatGenet Zanin-Zhorov-2010 | run_141*
+
+---
+
+### Part 9cq — IFIH1/MDA5 Protocol Integration (run_142)
+
+**New monitoring additions:**
+
+**rs1990760 genotyping (IFIH1, 17th T1DM stratification):**
+- A946T gain-of-function; T allele → hypersensitive MDA5 → amplified IFN-β from viral/self-RNA
+- ISG blood signature monitoring: OAS1, MxA, CXCL10 annually in at-risk children with rs1990760 AT/TT
+- Post-viral GI illness → ISG recheck at 4-6 weeks → if elevated → autoantibody panel
+- Add to genetic panel: rs1990760 (IFIH1) + rs2104286 (IL2RA) + rs1738074 (TAGAP) + rs17574546 (RASGRP1) + rs11203203 (UBASH3A) + rs34536443 (TYK2)
+
+**HCQ stratification by rs1990760 genotype:**
+```
+rs1990760 AA (protective):
+  IFN predominantly from Pathway 1 (TLR7/9) → HCQ effective → standard HCQ dosing
+  
+rs1990760 AT/TT (risk):
+  IFN predominantly from Pathway 3 (MDA5/MAVS) → HCQ ineffective alone
+  → Use zinc (anti-enteroviral substrate reduction) + Vitamin D (VDR/IRF3 ↓) instead
+  → If Pathway 2 (cGAS/STING) also elevated: add STING inhibitor (research/compassionate use)
+```
+
+**New therapeutic additions:**
+
+**Zinc (mechanism extended):**
+- Prior zinc rationale (runs 059/129): anti-enteroviral via CVB 3C protease inhibition → less viral replication
+- New mechanism (run_142): less viral replication → less dsRNA produced → less MDA5 activation → less IFN-β
+- Same supplement, new mechanistic rationale in MDA5/MAVS tier
+
+**Enteroviral monitoring protocol:**
+| Trigger | Action | Population |
+|---------|--------|-----------|
+| CVB-like GI illness (fever + diarrhea + abdominal pain) | Zinc 30 mg/day × 14 days immediately | All T1DM at-risk |
+| Post-viral ISG signature elevation | Autoantibody panel (IAA/GADA/IA-2A/ZnT8A) | rs1990760 AT/TT |
+| 2+ rising autoantibodies | T1DM prevention trial referral | Any at-risk |
+
+*Protocol_integration.md Part 9cq — 2026-04-12 | IFIH1 MDA5 MAVS TBK1 IRF3 IFN-β rs1990760-A946T 17th-stratification HCQ-stratification Pathway1-TLR79-AA Pathway3-MAVS-AT-TT ISG-monitoring OAS1-MxA-CXCL10 zinc-MDA5-mechanism-extended enteroviral-monitoring-protocol CVB-action-plan three-IFN-complete zinc-VDR-non-HCQ-approach Kallionpää-2014 Barrett-2009 Nejentsev-2009 | run_142*
+
+---
+
+### Part 9cr — SLC7A11/Ferroptosis Protocol Integration (run_143)
+
+**New therapeutic additions — anti-ferroptotic stack for β cells:**
+
+**Complete four-tier anti-ferroptotic protocol:**
+
+| Tier | Intervention | Mechanism | Dose | Status |
+|------|-------------|-----------|------|--------|
+| Substrate (GSH) | **NAC** | Cysteine bypass → GSH → GPx4 substrate | 600-1200 mg/day oral | OTC; new primary ferroptosis indication |
+| Substrate (GSH) | Sulforaphane (existing) | NRF2 → SLC7A11 ↑ + GCLM/GCLC ↑ → GSH ↑ | Existing protocol dose | New ferroptosis mechanism |
+| Cofactor (Sec) | Selenium/SELENOP (existing) | Sec incorporation → GPx4 active site | Runs 110/126/138 doses | Existing; complementary |
+| Backup (CoQ10H₂) | **CoQ10 ubiquinol** | FSP1 → CoQ10H₂ → membrane radical quenching | 100-200 mg/day ubiquinol | New mechanism for existing supplement |
+| Sensitizer ↓ | Pioglitazone (PPARγ) | PPARγ → ACSL4 ↓ → PUFA-PE ↓ → substrate ↓ | Existing dose | Third PPARγ mechanism |
+
+**NAC (new primary addition):**
+- N-acetylcysteine: cysteine donor; bypasses SLC7A11 when cytokine-suppressed
+- T1DM: β cell protection during insulitis phase (IL-1β/IFN-γ → SLC7A11 ↓ bypassed)
+- Rosacea: keratinocyte protection (UV → p53 → SLC7A11 ↓ bypassed)
+- ME/CFS: NK membrane ferroptosis protection + PEM oxidative component
+- Additive with selenium: NAC = substrate; selenium = cofactor; both needed for GPx4
+
+**CoQ10 ubiquinol (mechanism extended):**
+- Prior rationale: mitochondrial electron transport; run_128 mitophagy support
+- New mechanism (run_143): FSP1/CoQ10H₂ = second ferroptosis defense line; membrane lipid radical quenching independent of GPx4
+- Preferred form: ubiquinol (reduced) > ubiquinone (oxidized) for FSP1 axis
+
+**Anti-ferroptotic compound — β cell protection stacking:**
+```
+β cell under insulitis (IL-1β + IFN-γ):
+  SLC7A11 suppressed → NAC (bypass) + sulforaphane (NRF2 → SLC7A11 ↑) compensate
+  Selenium → GPx4 Sec cofactor maintained
+  CoQ10 ubiquinol → FSP1 backup if GPx4 inadequate
+  Pioglitazone → ACSL4 ↓ → less PUFA-PE substrate to peroxidize
+  Iron chelation (lactoferrin/zinc, run_110) → less Fenton propagation
+  → Multi-tier ferroptosis protection against 23rd β cell death mechanism
+```
+
+*Protocol_integration.md Part 9cr — 2026-04-12 | SLC7A11 xCT GSH-substrate GPx4 ferroptosis-canonical ACSL4 PUFA-PE FSP1 CoQ10H2 NAC-primary-addition CoQ10-ubiquinol-new-mechanism sulforaphane-NRF2-SLC7A11-new pioglitazone-ACSL4-third-mechanism four-tier-anti-ferroptotic 23rd-beta-cell-death UV-keratinocyte-ferroptosis NAC-ME/CFS-NK selenium-complementary run110-run138-additive Dixon-2012 Jiang-2015 Doll-2019 | run_143*

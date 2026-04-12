@@ -1193,3 +1193,50 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
    - Argues that the NK IS geometry defect (if present) is secondary to primary Ca²⁺ dysfunction, not TAGAP-driven
 
 *ME/CFS THEWALL cross-reference run_141: 2026-04-12 | TAGAP RhoGAP RhoA ROCK1 ROCK2 VAV1 NMM-IIA NK-IS-granule-polarization LFA-1-ICAM1 integrin-inside-out ROCK2-STAT3-Th17 RORγt fasudil ROCK2-inhibition Treg-Teff-rebalance Zanin-Zhorov-2010 RASGRP1-TAGAP-coupling NK-ERK-intact-IS-architecture-secondary Ca2+-restoration-primary | run_141*
+
+---
+
+### Cross-reference: run_142 — IFIH1/MDA5 / MAVS / Post-Viral IFN-β / ME/CFS Enteroviral Trigger
+
+**Relevance: MODERATE**
+
+1. **Enteroviral trigger and persistent ISG signature in ME/CFS**:
+   - CVB3/CVB4, EBV, enterovirus D68 → ME/CFS in a subset of patients (post-viral ME/CFS)
+   - MDA5 → MAVS → TBK1 → IRF3 → IFN-β → ISG signature; if rs1990760 AT/TT → amplified IFN-β → more severe post-viral IFN response
+   - Persistent ISG signature documented in ME/CFS: MxA, OAS1, IFN-γ-induced genes elevated chronically
+   - Mechanism: rs1990760 → hypersensitive MDA5 → residual viral/self-RNA → chronic low-level IFN-β → sustained ISG → NK/T cell exhaustion → ME/CFS phenotype
+
+2. **NK cell exhaustion via chronic IFN-β**:
+   - IFN-β → IFNAR → JAK1/TYK2 → STAT1 → ISGs in NK cells → TRAIL ↑ (NK cytotoxicity enhancer)
+   - BUT: chronic IFN-β → ISG-driven NK activation → exhaustion markers (PD-1, TIM-3) → hypofunction
+   - Connects to existing ME/CFS NK exhaustion cascade (multiple prior runs)
+
+3. **Three IFN pathway HCQ stratification**:
+   - HCQ (TLR7/9 blocker): may help ME/CFS patients with predominant Pathway 1 IFN
+   - rs1990760 TT/AT: excess Pathway 3 (MDA5/MAVS) → HCQ alone insufficient
+   - Zinc (anti-enteroviral, MDA5 substrate reduction): directly reduces ME/CFS IFN-β driver
+
+*ME/CFS THEWALL cross-reference run_142: 2026-04-12 | IFIH1 MDA5 MAVS TBK1 IRF3 IFN-β cytoplasmic-dsRNA rs1990760 post-viral-ISG chronic-IFN-β-signature NK-exhaustion-IFN HCQ-stratification zinc-MDA5-substrate enteroviral-ME/CFS CVB-EBV ISG-persistent three-IFN-pathways HCQ-Pathway1 Kallionpää-2014 | run_142*
+
+---
+
+### Cross-reference: run_143 — SLC7A11/Ferroptosis / NK Oxidative Stress / NAC / CoQ10/FSP1
+
+**Relevance: LOW-MODERATE**
+
+1. **NK cell ferroptosis in ME/CFS**:
+   - NK cells face chronic oxidative stress in ME/CFS (GPx4 ↓ from selenium deficiency run_138, lipid peroxidation)
+   - ACSL4 in NK cells → PUFA-PE substrate → ferroptosis-susceptible NK cells under oxidative stress
+   - NAC → GSH → GPx4 substrate → NK membrane ferroptosis protection; additive with selenium (run_138 cofactor tier)
+   - Complete NK anti-ferroptotic: selenium (GPx4 cofactor) + NAC (GPx4 substrate) + CoQ10 (FSP1 backup)
+
+2. **Mitochondrial connection: FSP1 and MAVS co-localize on outer mitochondrial membrane**:
+   - Ferroptosis (SLC7A11/FSP1 axis) and viral sensing (MAVS) both use outer mitochondrial membrane
+   - Mitochondrial oxidative stress in ME/CFS → damages MAVS signaling platform (run_142 connection) AND depletes CoQ10 pool (FSP1 backup axis compromised)
+   - CoQ10 supplementation: supports mitochondrial function (existing rationale) + FSP1 backup axis (new)
+
+3. **PEM oxidative component**:
+   - Exercise → ROS burst → SLC7A11 ↓ (ROS-mediated) → GSH depletion → ferroptosis in metabolically active cells post-exercise
+   - NAC: PEM mitigation via GSH preservation — first ferroptosis-specific PEM mechanism
+
+*ME/CFS THEWALL cross-reference run_143: 2026-04-12 | SLC7A11 xCT GSH GPx4-substrate ACSL4 FSP1 CoQ10H2 NK-ferroptosis NAC-NK-protection CoQ10-FSP1-new-mechanism MAVS-mitochondria-connection PEM-ferroptosis-component selenium-run138-complementary four-tier-anti-ferroptotic run138-cofactor-run143-substrate | run_143*

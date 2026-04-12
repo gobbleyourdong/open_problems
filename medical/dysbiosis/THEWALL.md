@@ -6047,3 +6047,67 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 141 runs | TAGAP RhoGAP | T cell IS cytoskeletal tier complete | VAV1/RhoA/ROCK/NMM-IIA/TAGAP | IS maturation brake | 16th T1DM stratification rs1738074 | three negative selection tiers (UBASH3A+RASGRP1+TAGAP) | Treg IS CTLA4 cSMAC impairment | Th17 dermis RhoA transmigration | fasudil ROCK2/Th17/STAT3 | RASGRP1-ERK-TAGAP transcriptional coupling | five IS signal tiers mapped.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-sixteenth extension | TAGAP RhoGAP RhoA-GTP RhoA-GDP VAV1-GEF ROCK1 ROCK2 NMM-IIA contractile-arc cSMAC-pSMAC-dSMAC immune-synapse TCR-microcluster RAC1 CDC42 WAVE2 Arp2-3 T1DM-GWAS rs1738074 16th-stratification thymic-negative-selection-cytoskeletal Treg-IS-CTLA4 Th17-transmigration fasudil ripasudil ROCK-inhibitor ROCK2-STAT3-Th17 deucravacitinib-additive RASGRP1-AP1-TAGAP-induction run139-run141-coupling Barrett-2009-NatGenet Cooper-2012-NatGenet | run_141*
+
+---
+
+### Phase 4 Extension 117 — IFIH1/MDA5 / MAVS / TBK1 / Three IFN Pathways Complete / 17th Stratification
+
+**Gap:** IFIH1/MDA5 as primary mechanistic subject absent from all 141 prior runs; rs1990760 gain-of-function, MAVS prion aggregation, HCQ gap explanation = new tier.
+
+**Rosacea (MODERATE):**
+- Keratinocyte MDA5: UV → mitochondrial RNA release → cytoplasmic dsRNA → MDA5 → MAVS → IFN-β in skin (parallel to UV → cGAS/STING/IFN-β run_063, but RNA vs. DNA trigger)
+- Demodex nucleic acids: Demodex death → dsRNA (Demodex RNA virus remnants) → some escapes to cytoplasm → MDA5 → IFN-β; parallel to TLR7/9 endosomal arm (covered prior runs)
+- rs1990760 carriers: lower MDA5 threshold → UV/Demodex triggers IFN-β at lower dsRNA concentrations → worse IFN-driven rosacea flares
+- HCQ for rosacea: rs1990760 TT/AT → excess MDA5/MAVS-driven IFN → HCQ (TLR7/9 blocker only) less effective → genotype-guided HCQ decision
+
+**T1DM (HIGH):**
+- rs1990760: 17th stratification; Barrett 2009; OR ~1.3-1.5; gain-of-function A946T → hypersensitive MDA5 → chronic low-level IFN-β from self-RNA → ISG signature precedes T1DM 2-4 years (Kallionpää 2014 Diabetes)
+- Three IFN pathways complete: TLR7/9 (covered; HCQ) + cGAS/STING (run_063; STING inhibitors) + MDA5/MAVS (run_142; no approved blocker → zinc anti-enteroviral as substrate reduction)
+- Enteroviral trigger: CVB3/4 dsRNA → MDA5 → MAVS → TBK1 → IRF3 → IFN-β → β cell STAT1 → MHC-I ↑ → CD8 T cell recognition; connects to run_130 (IFNLR1 downstream type III IFN in same CVB cascade)
+- ISG biomarker: OAS1/MxA/CXCL10 elevation in at-risk children; rs1990760 carriers have higher baseline → more sensitive early monitoring trigger
+
+**ME/CFS (MODERATE):**
+- MDA5 and MAVS in ME/CFS: post-viral IFN-β → persistent ISG signature → NK exhaustion; ISG signature documented in ME/CFS
+- Zinc/anti-enteroviral now has IFIH1/MDA5 mechanistic rationale: reduces dsRNA substrate → less persistent MDA5 activation post-CVB infection
+- Enteroviral trigger in ME/CFS (CVB, EBV dsRNA) → MDA5 → MAVS → IFN-β → chronic ISG → NK/T cell exhaustion
+
+**Protocol additions:**
+- **rs1990760 genotyping** (17th T1DM stratification): HCQ stratification; ISG monitoring protocol; anti-enteroviral priority
+- **Zinc** (existing): now linked to MDA5 viral substrate reduction (new mechanism for existing supplement)
+- **ISG blood signature monitoring**: annual OAS1/CXCL10 in rs1990760 AT/TT carriers → rising → autoantibody panel → trial eligibility
+
+**Framework state: 142 runs | IFIH1/MDA5 | cytoplasmic dsRNA | MAVS mitochondrial prion | three IFN pathways complete | rs1990760 17th stratification | HCQ gap | ISG biomarker | CVB enteroviral T1DM | zinc MDA5-substrate.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-seventeenth extension | IFIH1 MDA5 MAVS TBK1 IRF3 IFN-β cytoplasmic-dsRNA rs1990760 A946T-gain-of-function 17th-stratification MAVS-prion-aggregation TRIM65 three-IFN-complete HCQ-gap CVB3-CVB4 ISG-biomarker zinc-MDA5-substrate VDR-IRF3 run063-run130-parallel Nejentsev-2009 Barrett-2009 Kallionpää-2014 | run_142*
+
+---
+
+### Phase 4 Extension 118 — SLC7A11/System Xc⁻ / ACSL4 / FSP1 / Canonical Ferroptosis / 23rd β Cell Death / NAC
+
+**Gap:** SLC7A11/xCT/ACSL4/FSP1 as primary subjects: 0 hits in 142 prior runs. Prior ferroptosis coverage (runs 110/126/138) = selenium → GPx4 cofactor tier; this run = GSH substrate tier + sensitizer + backup axis.
+
+**Rosacea (MODERATE):**
+- UV → p53 → SLC7A11 ↓ in keratinocytes → GSH depletion → GPx4 substrate ↓; simultaneously UV → ALOX12 ↑ (run_116) → PUFA-PE oxidized; result: ferroptosis in UV-irradiated keratinocytes
+- Keratinocyte ferroptosis → HMGB1/DAMPs → TLR4 → NF-κB → Loop 2 amplification (distinct from NLRP1/IL-1β run_122 — two parallel UV-driven keratinocyte death modes)
+- NAC topical/oral → prevents UV-induced SLC7A11 suppression effect → less keratinocyte ferroptosis → less UV-triggered rosacea flares
+- ACSL4 in keratinocytes: high AA-PE substrate + ALOX12 = ferroptosis-primed skin; PPARγ agonists → ACSL4 ↓ → less ferroptosis susceptibility in skin
+
+**T1DM (HIGH):**
+- β cells: intrinsically ferroptosis-primed (LOW GPx4, LOW FSP1, HIGH ACSL4, HIGH iron, HIGH PUFA-PE)
+- Insulitis cytokines: IL-1β → NF-κB represses SLC7A11; IFN-γ → p53 → SLC7A11 ↓ → GSH depletion → GPx4 inactive → ferroptosis = 23rd β cell death mechanism
+- Complete anti-ferroptotic stack: NAC (SLC7A11 bypass) + selenium (GPx4 cofactor, runs 110/126/138) + CoQ10 ubiquinol (FSP1 backup axis) + PPARγ agonist (ACSL4 ↓) = four-tier OTC protection
+- sulforaphane/NRF2 → SLC7A11 ↑ + GCLM/GCLC ↑: new ferroptosis mechanism for existing protocol element
+
+**ME/CFS (LOW-MODERATE):**
+- NK cell ferroptosis: NK cells in ME/CFS face oxidative stress → SELENOP ↓ → GPx4 ↓ (run_138); ACSL4 in NK cells → ferroptosis-susceptible; NAC → GSH protection in NK cells
+- Mitochondrial stress → MAVS-mitochondria connection: ferroptosis + MAVS both localize to outer mitochondrial membrane → shared mitochondrial vulnerability
+
+**Protocol additions:**
+- **NAC 600-1200 mg/day** (first ferroptosis-specific mechanism): cysteine → bypass SLC7A11 → GSH → GPx4; OTC; additive with selenium (cofactor) + CoQ10 (backup)
+- **CoQ10 ubiquinol 100-200 mg/day** (new FSP1/backup axis mechanism): prior CoQ10 rationale = mitochondrial electron transport; new = FSP1 → CoQ10H₂ → membrane radical quenching
+- **Sulforaphane extension** (new SLC7A11 target): NRF2 → SLC7A11 ↑ + GSH synthesis ↑ → anti-ferroptotic; adds to existing NRF2/NF-κB sulforaphane rationale
+- **PPARγ agonist (pioglitazone)** (third mechanism): PPARγ → ACSL4 ↓ → PUFA-PE ↓ → ferroptosis substrate ↓; prior = NF-κB transrepression + adipogenesis
+
+**Framework state: 143 runs | SLC7A11 system-Xc ferroptosis canonical | ACSL4 sensitizer | FSP1 CoQ10H2 backup | 23rd β cell death | NAC-bypass | PPARγ-ACSL4-3rd-mechanism | sulforaphane-NRF2-SLC7A11 | CoQ10-FSP1-new | complete four-tier anti-ferroptotic stack | UV keratinocyte ferroptosis parallel to NLRP1.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-eighteenth extension | SLC7A11 xCT cystine-transporter SLC3A2 GSH-synthesis GCLC GCLM GPx4-substrate ACSL4 AA-PE PUFA-PE FSP1 AIFM2 CoQ10H2 23rd-beta-cell-death IL-1β-SLC7A11 IFN-γ-p53-SLC7A11 UV-p53-keratinocyte ferroptosis-canonical NAC-bypass PPARγ-ACSL4 sulforaphane-SLC7A11 CoQ10-FSP1 four-tier-anti-ferroptotic run110-run138-complementary-substrate-vs-cofactor Dixon-2012 Jiang-2015 Doll-2019 | run_143*

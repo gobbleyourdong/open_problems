@@ -1396,3 +1396,59 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
    - Both STAT3 sites contribute; fasudil + deucravacitinib = orthogonal STAT3 dual block for insulitis Th17
 
 *T1DM THEWALL cross-reference run_141: 2026-04-12 | TAGAP RhoGAP RhoA-GTP ROCK1 ROCK2 NMM-IIA VAV1-GEF cSMAC-pSMAC IS-maturation-brake rs1738074 16th-stratification thymic-negative-selection-tier3-cytoskeletal UBASH3A-RASGRP1-TAGAP-three-tiers RASGRP1-ERK-TAGAP-coupling compound-IS-defect Treg-IS-CTLA4-cSMAC IL2RA-quantity-TAGAP-function PI3Kδ-FOXO1-three-axis-Treg fasudil ROCK2-STAT3-RORγt deucravacitinib-STAT3-dual-block Barrett-2009-NatGenet Cooper-2012-NatGenet Zanin-Zhorov-2010 | run_141*
+
+---
+
+### Cross-reference: run_142 — IFIH1/MDA5 / MAVS / rs1990760 / 17th T1DM Stratification / Three IFN Complete
+
+**Relevance: HIGH**
+
+1. **17th T1DM genetic stratification — rs1990760 A946T (IFIH1)**:
+   - GWAS: Barrett 2009 Nat Genet; Cooper 2012 ImmunoChip; gain-of-function allele
+   - A946T → lower dsRNA activation threshold → hypersensitive MDA5 → amplified IFN-β
+   - Chronic self-RNA (mitochondrial dsRNA) → sustained ISG signature → MHC-I ↑ on β cells → enhanced CD8 T cell recognition → T1DM initiation
+   - ISG biomarker: OAS1/MxA/CXCL10 elevated 2-4 years before T1DM onset in rs1990760 AT/TT carriers (Kallionpää 2014 Diabetes)
+
+2. **Enteroviral T1DM trigger — mechanistic anchor**:
+   - CVB3/CVB4 dsRNA replication intermediates → MDA5 → MAVS → TBK1 → IRF3 → IFN-β
+   - Connects to run_130 (IFNLR1/IFN-λ same CVB cascade): MDA5/MAVS = PRODUCTION tier; IFNLR1 = RECEPTOR tier
+   - Both converge on β cell STAT1 → ISGs → MHC-I ↑ → CD8 killing
+
+3. **Three IFN pathways now complete — therapeutic stratification**:
+   - Pathway 1 (TLR7/9): HCQ blocks → rs1990760 AA carriers (low MDA5) → HCQ-responsive
+   - Pathway 2 (cGAS/STING): STING inhibitors, SPF/niacinamide → run_063 coverage
+   - Pathway 3 (MDA5/MAVS): no approved blocker → zinc (anti-enteroviral substrate reduction); VDR/calcitriol (IRF3 ↓ downstream)
+   - rs1990760 TT/AT → excess Pathway 3 → HCQ fails → use zinc + VDR instead of HCQ
+
+4. **Monitoring protocol for rs1990760 carriers**:
+   - Annual ISG blood signature test (OAS1, CXCL10) in at-risk children
+   - Post-viral GI illness → recheck ISG 4-6 weeks → if elevated → autoantibody panel (IAA/GADA/IA-2A/ZnT8A)
+   - Rising antibody titers → T1DM prevention trial eligibility
+   - Add rs1990760 to genetic risk panel alongside: PTPN2, IL2RA, UBASH3A, RASGRP1, TAGAP, TYK2
+
+*T1DM THEWALL cross-reference run_142: 2026-04-12 | IFIH1 MDA5 MAVS TBK1 IRF3 IFN-β cytoplasmic-dsRNA rs1990760-A946T 17th-stratification gain-of-function ISG-precedes-T1DM CVB3-CVB4-enteroviral three-IFN-complete HCQ-Pathway1-only zinc-anti-enteroviral VDR-IRF3 ISG-monitoring-protocol rs1990760-panel MAVS-prion run130-IFNLR1-complement Nejentsev-2009 Barrett-2009 Kallionpää-2014 | run_142*
+
+---
+
+### Cross-reference: run_143 — SLC7A11/Ferroptosis Canonical / 23rd β Cell Death / NAC / FSP1/CoQ10
+
+**Relevance: HIGH**
+
+1. **23rd β cell death mechanism — canonical ferroptosis via SLC7A11/GSH axis**:
+   - β cells are intrinsically ferroptosis-primed: LOW GPx4 + LOW FSP1 + HIGH ACSL4 + HIGH iron + HIGH PUFA-PE
+   - Insulitis cytokines: IL-1β → NF-κB represses SLC7A11 promoter; IFN-γ → p53 → SLC7A11 ↓ → GSH depletion → GPx4 substrate fails → PUFA-PE-OOH accumulates → ferroptosis
+   - Distinction from run_110 (iron/Fenton) and runs 110/126/138 (selenium → GPx4 cofactor): substrate tier (GSH via SLC7A11) vs. cofactor tier (Sec via selenium) — orthogonal upstream inputs
+
+2. **Complete anti-ferroptotic stack (four tiers)**:
+   - Substrate (GSH): NAC (SLC7A11 bypass; cysteine → GSH) + sulforaphane/NRF2 → SLC7A11 ↑ + GCLM/GCLC ↑
+   - Cofactor (Sec): selenium/selenomethionine/SELENOP (runs 110/126/138)
+   - Backup (CoQ10H₂): CoQ10 ubiquinol → FSP1 → membrane radical quenching (new mechanism for CoQ10)
+   - Sensitizer reduction: PPARγ agonist (pioglitazone) → ACSL4 ↓ → less PUFA-PE substrate
+   - All OTC; highly complementary
+
+3. **New compound mechanisms for existing protocol elements**:
+   - Sulforaphane: NRF2 → SLC7A11 ↑ (anti-ferroptotic substrate upregulation) = new ferroptosis mechanism
+   - CoQ10: FSP1 backup axis = new mechanism (prior = mitochondrial electron transport)
+   - PPARγ (pioglitazone): → ACSL4 ↓ = third PPARγ mechanism (prior = NF-κB transrepression + adipogenesis)
+
+*T1DM THEWALL cross-reference run_143: 2026-04-12 | SLC7A11 xCT cystine-transporter GSH-synthesis GCLC GCLM GPx4-substrate ACSL4 PUFA-PE FSP1 AIFM2 CoQ10H2 23rd-beta-cell-death IL-1β-SLC7A11 IFN-γ-p53-SLC7A11 NAC-bypass CoQ10-FSP1-backup sulforaphane-NRF2-SLC7A11 PPARγ-ACSL4-third four-tier-OTC-anti-ferroptotic run110-run138-cofactor-vs-substrate-complementary Dixon-2012 Jiang-2015 Doll-2019 | run_143*
