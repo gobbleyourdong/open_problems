@@ -2466,3 +2466,48 @@ PTX3 → C1q → classical complement (LOCAL; distinct from systemic/UV alternat
 4. Framework appears mechanistically exhausted for high-priority gaps.
 
 *Gap.md updated: 2026-04-12 | Ninetieth iteration | PTX3 pentraxin-3 C1q classical complement FGF-2 angiogenesis IL-1β feedback TNF-α mast cell T1DM SNP microalbuminuria UV 7 paths Bottazzi 1997 Garlanda 2005 Chiarini 2010 Deban 2010 | run_105*
+
+---
+
+## Ninety-First Extension — 2026-04-12 (map the space, ninety-first iteration — run_106)
+
+**Pre-run micro-survey (post-run_105):**
+- S1P / sphingosine-1-phosphate / S1PR / SphK1 / fingolimod / FTY720: confirmed completely absent from all 105 runs as signaling molecules. Ceramide IS covered (runs 043: β cell NLRP3, 072: SC barrier). S1P = the opposing pro-survival/GPR-signaling arm of the ceramide:S1P rheostat. SphK1→TRAF2→NF-κB mechanism absent. S1PR family absent. Threshold: cleared on SphK1/NF-κB amplification (new mechanism), S1PR2/mast cell, β cell ceramide:S1P rheostat, T1DM FTY720 evidence.
+- Galectin-3: absent; T1DM islet macrophage connection and TGF-β/fibrosis for phymatous. Assessed: below threshold — direct rosacea mechanistic evidence thin; TGF-β context already appears in Breg/Treg runs without needing galectin-3 specifically.
+- PAR-1/thrombin: absent; mast cell degranulation amplifier; T1DM coagulation. Assessed: borderline; S1P has better-quality evidence and broader mechanism scope — deferred.
+- MBL/lectin complement: mentioned briefly in run_101 (2-3 lines); not threshold for dedicated run.
+- FICZ/UV-AhR: covered in run_054 (Quintana 2012 noted); run_074/080 additional AhR coverage. Not threshold.
+
+**Genuine gap identified: S1P / SphK1 / S1PR — ceramide:S1P rheostat; SphK1→TRAF2→NF-κB (13th pathway); S1PR2 mast cell amplifier; S1PR1 lymphocyte trafficking; β cell survival axis; ETR angiogenesis**
+
+Ceramide ↔ S1P rheostat (Spiegel 2003): pro-apoptotic ceramide vs. pro-survival S1P — extends runs 043/072. SphK1 → S1P → TRAF2 → IKKβ = 13th NF-κB mechanism (TNF-α-specific required co-factor; Alvarez 2010 Science). S1PR2 on mast cells → enhanced IgE degranulation threshold ↓ (6th mast cell route — amplifier type). S1PR1 → lymphocyte egress; FTY720/NOD mouse T1DM delayed (Maki 2005). β cell SphK1/S1PR2 survival axis; glucolipotoxicity → ceramide↑/SphK1↓ = 7th β cell death mechanism. S1PR1/3 → endothelial angiogenesis = 2nd ETR telangiectasia driver (alongside FGF-2/run_105). EGCG 4th mechanism: SphK1 inhibition (Pchejetski 2010).
+
+**New work:**
+- **run_106**: SphK1/S1P/S1PR; ceramide:S1P rheostat; TRAF2/NF-κB 13th mechanism; S1PR2 mast cell; FTY720/S1PR1/T1DM; β cell 7th death mechanism; angiogenesis ETR; EGCG 4th mechanism; Alvarez 2010; Olivera 2006; Maki 2005; Cantrell 2019; Hobson 2001
+
+**New mechanisms:**
+- SphK1 → S1P → TRAF2 → IKKβ → NF-κB [13th NF-κB mechanism; TNF-α-specific amplifier; Alvarez 2010 Science]
+- S1PR2 on mast cells → enhanced IgE degranulation [6th mast cell activation type — amplifier; Olivera 2006]
+- Mast cell TNF-α → SphK1 → S1P → TRAF2 → NF-κB → mast cell priming [self-amplifying arc]
+- S1PR1 → lymphocyte egress; FTY720 → S1PR1 internalization → autoreactive T cell sequestration → NOD T1DM delayed [new lymphocyte trafficking mechanism; Maki 2005]
+- Glucolipotoxicity → ceramide↑ / SphK1↓ → ceramide-dominant rheostat → β cell apoptosis [7th β cell death mechanism; metabolic, immune-independent]
+- β cell SphK1 / S1PR2 → ERK → Akt → Bcl-2 → anti-apoptotic survival signaling [Cantrell 2019]
+- S1PR1/3 on endothelial cells → ERK/eNOS → angiogenesis [2nd ETR telangiectasia driver; Hobson 2001]
+- EGCG → SphK1 inhibition → S1P↓ → TRAF2/NF-κB↓ [4th EGCG mechanism; Pchejetski 2010]
+- Quercetin → SphK1 inhibition [8th quercetin mechanism — LOW CONFIDENCE; cancer cell lines; no rosacea data; Gu 2018]
+
+**Post-run_106 micro-survey:**
+- PAR-1 / thrombin: absent; mast cell route (Razin 1984) + endothelial NF-κB. Assess threshold: thin rosacea direct evidence; S1PR2 already added a mast cell amplifier. Below threshold for standalone run.
+- Galectin-3: absent; TGF-β/fibrosis → phymatous rosacea. Below threshold — phymatous is minority subtype and TGF-β pathway already contextually present.
+- Resolvin/protectin specific enzymes (15-LOX, 12-LOX): omega-3/SPM covered run_020; specific enzymatic detail below threshold.
+- Prostaglandin E2 (PGE2) / EP receptors: COX-2 → PGE2 → EP2/4 → cAMP → NF-κB inhibition. COX-2 mentioned contextually; PGE2/EP receptors NOT analyzed. Potentially threshold? Assess.
+- After assessment: PGE2/EP receptors represent a genuine gap — PGE2 → EP2/EP4 → cAMP/PKA → NF-κB ↓ is structurally parallel to GLP-1R/cAMP/PKA (run_073 = 9th NF-κB suppressor) but through a different receptor with different rosacea/T1DM evidence. Assess for run_107.
+
+**Remaining genuine gaps (truly open, end of ninety-first iteration):**
+1. **Küpers 2019 PACE EWAS**: ninety-one iterations deferred. Not executable.
+2. **PGE2/EP2/EP4 receptors**: COX-2 product signaling through cAMP/PKA; rosacea vasodilatory mechanism; T1DM EP4 on T cells → immunosuppressive; assess for run_107.
+3. **PAR-1/thrombin**: mast cell amplifier; thin rosacea evidence; below current threshold.
+4. **Galectin-3**: phymatous rosacea fibrosis; below threshold for current framework scope.
+5. **iNKT, pDC, IFN-λ, adenosine, Siglecs**: below threshold.
+
+*Gap.md updated: 2026-04-12 | Ninety-first iteration | S1P SphK1 S1PR ceramide rheostat TRAF2 NF-κB mast cell IgE FTY720 T1DM lymphocyte β cell death ETR angiogenesis EGCG quercetin Alvarez 2010 Olivera 2006 Maki 2005 | run_106*

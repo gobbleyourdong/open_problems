@@ -579,3 +579,17 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 4. **PTX3 as biomarker of endothelial activation**: If serum PTX3 is accessible, elevated PTX3 with normal CRP in ME/CFS would suggest local endothelial/tissue inflammation without systemic hepatic APR — consistent with ME/CFS immune phenotype where standard inflammatory markers are often within normal limits.
 
 **Cross-reference: run_105 dysbiosis framework | PTX3 endothelial complement FGF-2 anti-β2-AR IgG NK dysfunction vascular ME/CFS | Bottazzi 1997 Garlanda 2005 Deban 2010 Loebel 2016**
+
+---
+
+### run_106 Cross-Reference: S1P — NK Trafficking via S1PR5; Neuroinflammation/FTY720
+
+**Mechanisms relevant to ME/CFS:**
+
+1. **S1PR5 on NK cells → NK egress from lymph nodes**: NK dysfunction is the most replicated ME/CFS immune finding (Brenu 2011, run_102). S1PR5 controls NK cell trafficking from bone marrow/lymph nodes to periphery. If S1PR5 signaling is impaired in ME/CFS, NK cells could be retained in lymph nodes → peripheral NK depletion → impaired NK cytotoxicity. This provides a molecular explanation for peripheral NK dysfunction distinct from intrinsic NK functional defects. Evidence is speculative — no direct ME/CFS S1PR5 data — but mechanistically plausible.
+
+2. **FTY720 trial rationale for ME/CFS**: FTY720 (fingolimod) proposed for ME/CFS neuroinflammation (Tronstad 2017 and others). Mechanism: S1PR5 on CNS oligodendrocytes → neuroprotective; S1PR1 on astrocytes → BBB regulation. ME/CFS neuroinflammation (Nakatomi 2014 PET evidence) could be partially addressable via S1P/S1PR pathway. Not currently standard of care; mechanistic rationale exists.
+
+3. **S1P → SphK1 → TRAF2 → NF-κB in endothelial cells**: activated endothelial cells (anti-β2-AR IgG mechanism; run_104) → TNF-α → SphK1 → S1P → TRAF2 → NF-κB amplification in vascular endothelium → persistent endothelial NF-κB activation → vascular inflammation → orthostatic intolerance. EGCG→SphK1 inhibition could reduce this endothelial amplification.
+
+**Cross-reference: run_106 dysbiosis framework | S1P SphK1 S1PR5 NK trafficking ceramide rheostat FTY720 neuroinflammation ME/CFS | Alvarez 2010 Olivera 2006 Tronstad 2017**

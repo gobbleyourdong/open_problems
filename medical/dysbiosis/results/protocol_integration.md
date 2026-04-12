@@ -3361,3 +3361,62 @@ For T1DM rosacea patients: Annual monitoring addition (if available):
 - Intervention priority in this scenario: Node C (gut barrier) → reduce endotoxemia → reduce TLR4/NF-κB → reduce PTX3 source. This reinforces the hierarchy: Node C management upstream of all complement mechanisms.
 
 *Protocol_integration.md Part 9be — 2026-04-12 | PTX3 C1q complement FGF-2 ETR telangiectasia Loop 2 colchicine quercetin T1DM microalbuminuria Node B Node C HCQ | run_105*
+
+---
+
+## Part 9bf — S1P / SphK1 / S1PR: EGCG 4th Mechanism; β Cell Ceramide Management; T1DM Trafficking (run_106)
+
+### Protocol Additions and Clarifications
+
+**EGCG: Updated to 4 Mechanisms**
+
+| # | Mechanism | Evidence |
+|---|---|---|
+| 1 | PPARγ activation → NF-κB transrepression | run_077 |
+| 2 | Nrf2 activation → antioxidant/HO-1 | run_027 context |
+| 3 | IDO1 inhibition → tryptophan preservation → IAd → Treg | run_091 |
+| 4 | **SphK1 inhibition → S1P↓ → TRAF2/NF-κB↓** | **run_106 (Pchejetski 2010; Bao 2014)** |
+
+EGCG now interrupts two independent NF-κB activation routes directly: PPARγ transrepression (mechanism 1; generic NF-κB transrepression) and SphK1 inhibition (mechanism 4; specifically blocks TNF-α-driven SphK1→TRAF2→IKKβ). In patients where TNF-α is the dominant mast cell product driving NF-κB, EGCG's SphK1 inhibition may be clinically important. Dose: EGCG already in protocol (from green tea extract or EGCG caps); no dose change needed.
+
+**NF-κB Suppression Updated to 13 Mechanisms**
+
+SphK1→S1P→TRAF2→IKKβ is the 13th NF-κB mechanism. The new mechanism is specifically relevant when TNF-α is the dominant activating cytokine. Protocol agents addressing it:
+- EGCG (SphK1 inhibition; mechanisms 1+4)
+- Sulforaphane (Nrf2/CBP competition; run_027)
+- Omega-3/PPAR-α (run_089; indirect TRAF2/NF-κB reduction via HIF-1α/succinate ↓)
+- TNF-α upstream reduction (mast cell stabilization → less TNF-α → less SphK1 activation)
+
+No new agents needed — existing protocol already addresses the SphK1 node via EGCG.
+
+### T1DM: Glycemic/Lipid Management → Ceramide:S1P Rheostat
+
+For T1DM patients, the 7th β cell death mechanism (glucolipotoxicity → ceramide:S1P shift) is METABOLICALLY actionable — independent of immune management:
+
+**Priority interventions for T1DM ceramide:S1P management:**
+1. Reduce palmitate exposure: reduced dietary saturated fat (palmitate C16:0 → SMase → ceramide → NLRP3 Signal 2; run_043)
+2. Tight glycemic control: less glucolipotoxicity → less SMase activation → less ceramide
+3. EGCG: SphK1 preservation → more S1P → pro-survival rheostat maintained
+4. Omega-3 EPA/DHA: partial SMase inhibition; shifts LDL-C and FFA composition toward less palmitoyl ceramide production
+
+Protocol note: For T1DM rosacea patients with elevated fasting triglycerides or high saturated fat intake + active rosacea + deteriorating β cell reserve → ceramide/SphK1 management directly relevant. HbA1c alone does not capture glucolipotoxicity peaks (postprandial lipemia); fasting TG + ApoB can serve as proxies.
+
+### Mast Cell S1PR2 Amplification: Clinical Significance
+
+For patients with persistent IgE-mediated mast cell activity (documented allergen sensitization, elevated specific IgE, seasonal rosacea flares coinciding with allergen seasons):
+
+- S1PR2 amplification: S1P (elevated in inflammatory state) → lowers IgE degranulation threshold
+- This means: even low-level allergen exposure in a high-S1P environment can trigger amplified mast cell response
+- Protocol implication: in IgE-dominant patients, reducing the inflammatory S1P load (EGCG→SphK1↓) is an ADJUNCT to mast cell stabilization — it raises the degranulation threshold back toward baseline
+- No new agents needed: EGCG + ketotifen (mast cell stabilizer) combination addresses both sides: S1PR2 threshold (via SphK1↓) and direct mast cell membrane stabilization
+
+### S1PR1/FTY720: Not Recommending, But Understanding
+
+FTY720 (fingolimod) is FDA-approved for MS but NOT recommended in this protocol — it requires specialist monitoring (cardiac, ophthalmologic, infection risk). The mechanism (autoreactive T cell sequestration via S1PR1) provides mechanistic context:
+
+- Patients with T1DM + rosacea who are started on fingolimod for a concurrent MS indication → may also benefit via reduced autoreactive T cell islet infiltration + reduced skin-homing T cells
+- If a T1DM rosacea patient has MS and begins fingolimod: flag for potential rosacea improvement monitoring (T cell trafficking reduction may reduce ETR/PPR activity as additional benefit)
+
+This is the only clinical note for FTY720/S1PR1 — not a protocol recommendation.
+
+*Protocol_integration.md Part 9bf — 2026-04-12 | S1P SphK1 S1PR ceramide EGCG 4th mechanism NF-κB 13 pathways β cell mast cell S1PR2 FTY720 T1DM | run_106*

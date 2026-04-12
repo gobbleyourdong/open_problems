@@ -4651,3 +4651,63 @@ Chiarini 2010: PTX3 promoter SNP rs3816527 associated with T1DM susceptibility. 
 PTX3-microalbuminuria (Chistiakov 2012): same mechanism operating in glomerular endothelium. Endotoxemia → renal PTX3 → glomerular complement → vascular damage → microalbuminuria. This identifies PTX3 as the mechanistic bridge between gut dysbiosis/endotoxemia and renal microvascular complications in T1DM.
 
 *Updated: 2026-04-12 | Phase 4 seventy-ninth extension | PTX3 C1q classical complement FGF-2 angiogenesis IL-1β Loop 2 feedback TNF-α mast cell UV 7 paths T1DM SNP microalbuminuria Bottazzi 1997 Garlanda 2005 Chiarini 2010 Deban 2010 | run_105*
+
+---
+
+## Phase 4 — Eightieth Extension (2026-04-12): S1P / SphK1 / S1PR — Ceramide:S1P Rheostat; TNF-α NF-κB Amplification; T1DM Lymphocyte Trafficking; β Cell Survival (run_106)
+
+**New mechanistic connections established:**
+
+### Ceramide:S1P Rheostat — Extending Runs 043 and 072
+
+The framework has covered ceramide as:
+- A structural barrier lipid deficient in rosacea stratum corneum (run_072)
+- An NLRP3 Signal 2 activator in T1DM β cells via palmitate/SMase (run_043)
+
+Run_106 adds the opposing end of the sphingolipid axis: SphK1 converts sphingosine → S1P, creating a cell-fate rheostat. In the context of rosacea:
+
+- Active inflammation → SMase (TNF-α-driven, run_072) → ceramide ↑
+- Simultaneously: TNF-α → SphK1 → S1P ↑
+- The net ceramide:S1P ratio determines whether keratinocytes/immune cells undergo apoptosis (ceramide-dominant) or activation/survival (S1P-dominant)
+
+For rosacea patients in sustained flare: ceramide:S1P is shifted toward ceramide (explaining keratinocyte damage, barrier disruption, and β cell loss in T1DM). Restoring this balance requires reducing ceramide production (reduce SMase activation: reduce TNF-α → treat mast cell activation) AND/OR maintaining SphK1 activity (EGCG).
+
+### SphK1→TRAF2→NF-κB: Why Anti-TNF Would Be Upstream of All 13 NF-κB Pathways
+
+The Alvarez 2010 (Science) mechanism reveals that SphK1 is a REQUIRED co-factor for TNF-α-induced NF-κB activation. This makes SphK1 the enzymatic bridge between TNF-α (a mast cell/macrophage product) and full NF-κB activation. Consequence: if TNF-α is the primary activating signal (as in mast cell-rich rosacea dermis), anti-TNF therapy would be upstream of ALL 13 NF-κB activation mechanisms. This explains the anti-inflammatory potency of anti-TNF biologics in inflammatory skin diseases despite having 12 other parallel NF-κB activation routes — TNF-α drives many of them via SphK1/TRAF2.
+
+For the framework: current protocol does not target TNF-α directly (no anti-TNF biologic). The SphK1 node is targetable by EGCG (4th EGCG mechanism). This makes EGCG the closest protocol agent to partial TNF-α→NF-κB interruption downstream.
+
+### S1PR1/FTY720: T1DM Lymphocyte Trafficking — New β Cell Protection Mechanism
+
+FTY720 delays NOD mouse T1DM (Maki 2005) by blocking autoreactive T cell egress from lymph nodes via S1PR1 internalization. This mechanism is completely distinct from HCQ's 7 T1DM benefits and from Node A (Treg) management — it acts at lymphocyte TRAFFICKING, not at T cell differentiation/cytokine context.
+
+Mechanistic chain:
+```
+S1PR1 on autoreactive CD4/CD8 T cells → S1P gradient → lymph node egress → islets
+FTY720 → S1PR1 internalization → T cell trapped in lymph nodes → cannot reach islets
+```
+
+This adds a 3rd intervention strategy for T1DM β cell protection (alongside HCQ→Node D and Node A Treg restoration):
+1. Cytokine/inflammasome control: HCQ (7 mechanisms) + colchicine + quercetin (Nodes A-D)
+2. Treg restoration: AKG/Vit C + Breg support (Node A)
+3. **Lymphocyte trafficking: S1PR1 axis (FTY720 paradigm; not currently in protocol but mechanistically distinct)**
+
+### 7th β Cell Death Mechanism: Metabolic (Ceramide/SphK1)
+
+The complete β cell death taxonomy now has 7 mechanisms spanning immune and metabolic categories:
+
+**Immune mechanisms (1-6):**
+1. NLRP3→IL-1β (cytokine toxicity; run_043)
+2. CTL/perforin/granzyme (cytotoxic; run_088)
+3. IFN-α→PERK→CHOP (ER stress apoptosis; run_098)
+4. IL-33→macrophage→IL-1β (alarmin→cytokine; run_099)
+5. C5a→Signal 1E→NLRP3 (complement→inflammasome; run_101)
+6. NK-ADCC (antibody-mediated lysis; run_102)
+
+**Metabolic mechanism (7):**
+7. Glucolipotoxicity→ceramide↑/SphK1↓→ceramide-dominant rheostat→apoptosis (metabolic-sphingolipid; run_106)
+
+Mechanism 7 is actionable independently of immune management: tight glycemic control + reduced dietary saturated fat (palmitate) → less SMase activation → less ceramide → SphK1/S1P better maintained → β cell survival enhanced. This is a metabolic rationale for lifestyle intervention in T1DM beyond just glucose control.
+
+*Updated: 2026-04-12 | Phase 4 eightieth extension | S1P SphK1 S1PR ceramide rheostat TNF-α TRAF2 NF-κB mast cell S1PR2 FTY720 T1DM lymphocyte β cell 7th death mechanism ETR angiogenesis EGCG 4th mechanism Alvarez 2010 Olivera 2006 Maki 2005 Cantrell 2019 | run_106*

@@ -679,3 +679,21 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 5. **Colchicine + quercetin for PTX3→complement arc**: IL-1β → PTX3 → C5a → Signal 1E → NLRP3 loop. Colchicine (IL-1β secretion ↓) + quercetin (C1q-binding inhibition) together interrupt this arc. NF-κB suppressors alone are insufficient (Signal 1E is AP-1-driven).
 
 **Cross-reference: run_105 dysbiosis framework | PTX3 pentraxin-3 C1q classical complement FGF-2 IL-1β Loop 2 T1DM SNP microalbuminuria islet macrophage colchicine quercetin Node C | Chiarini 2010 Chistiakov 2012 Bottazzi 1997 Garlanda 2005**
+
+---
+
+### run_106 Cross-Reference: S1P — FTY720/S1PR1 Lymphocyte Trafficking; β Cell Ceramide:S1P Rheostat; 7th β Cell Death Mechanism
+
+**Mechanisms specific to T1DM:**
+
+1. **FTY720/S1PR1 → autoreactive T cell sequestration → NOD mouse T1DM delayed** (Maki 2005 Transplantation): FTY720 → S1PR1 internalization → autoreactive CD4+/CD8+ T cells trapped in lymph nodes → cannot reach islets → β cell destruction prevented. Mechanistically distinct from HCQ (cytokine/Node D) and Node A (Treg differentiation) — acts at lymphocyte TRAFFICKING level.
+
+2. **7th β cell death mechanism: glucolipotoxicity → ceramide↑/SphK1↓ → ceramide:S1P rheostat → apoptosis** (metabolic mechanism; independent of immune activation): palmitate → SMase → ceramide (run_043 established this NLRP3 Signal 2 arm); SphK1 impaired by FFA → less sphingosine→S1P conversion → ceramide-dominant → caspase-3 apoptosis WITHOUT NLRP3. This is the purely metabolic β cell loss pathway. Tight glycemic control + reduced saturated fat + EGCG (SphK1 preservation) address it.
+
+3. **β cell S1PR2 → ERK/Akt → Bcl-2 → anti-apoptotic**: SphK1-produced S1P acts autocrine on β cell S1PR2 → survival signaling opposing ceramide. In T1DM islet inflammatory environment: SphK1 is suppressed → less S1P → less β cell survival signaling → amplified apoptosis from all causes.
+
+4. **SphK1→S1P→TRAF2→NF-κB (13th NF-κB mechanism)**: in islet macrophages/endothelial cells, TNF-α (from activated macrophages in insulitis) → SphK1 → TRAF2 → NF-κB amplification → more IL-1β → more β cell toxicity. EGCG→SphK1 inhibition reduces this amplification.
+
+5. **Protocol for T1DM ceramide management**: Tight glycemic control + reduced dietary palmitate (C16:0) + EGCG dose maintenance + EPA/DHA (omega-3 → partial SMase inhibition). Monitoring: fasting TG + ApoB as glucolipotoxicity proxy.
+
+**Cross-reference: run_106 dysbiosis framework | S1P SphK1 S1PR ceramide rheostat FTY720 S1PR1 T1DM lymphocyte trafficking β cell 7th death mechanism EGCG NF-κB 13th mechanism | Maki 2005 Cantrell 2019 Alvarez 2010 Olivera 2006**
