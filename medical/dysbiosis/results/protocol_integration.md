@@ -4817,3 +4817,55 @@ Diabetic retinopathy prevention:
 | Berberine | multi | + AMPK → CD36 ↓ → lipotoxicity protection |
 
 *Protocol_integration.md Part 9cf — 2026-04-12 | THBS1 TSP-1 CD36 anti-angiogenic ETR yin-yang LRG1-ALK1 calcitriol-6th-mechanism VDR THBS1-promoter niacinamide-3rd-mechanism PPARγ THBS1 berberine AMPK CD36 lipotoxicity palmitate ceramide 19th-beta-cell-death diabetic-retinopathy pericyte DR fenofibrate FIELD ACCORD Jiménez-2000 Silverstein-2009 Bhattacharya-2008 | run_131*
+
+---
+
+### Part 9cg — ITPR3/IP3R3 Ca²⁺ Signaling Protocol Integration (run_132)
+
+**Complete Ca²⁺ signaling stack — run_127 + run_132 combined:**
+
+```
+IP3 Production: PLC (PLCγ/PLCβ) → IP3
+    ↓ [Quercetin 5th mechanism: PLCγ inhibition → IP3 ↓]
+IP3R3/ITPR3 (ER Ca²⁺ RELEASE, run_132)
+    ↓ [Mg²⁺ blocks ITPR3 → dampens Ca²⁺ release amplitude]
+ER Ca²⁺ depletion → STIM1 sensor (run_127)
+    ↓
+ORAI1 CRAC channel (run_127)
+    ↓ [Quercetin 3rd mechanism: ORAI1 direct inhibition]
+    ↓ [CM4620/RO2959: clinical CRAC inhibitors]
+Sustained SOCE → NFAT (with DYRK1A gate, run_125)
+```
+
+**OTC Ca²⁺ intervention summary:**
+
+| OTC | Mechanism | Node blocked |
+|-----|-----------|-------------|
+| Quercetin | PLCγ → IP3 ↓ (5th mech) | Upstream of ITPR3 |
+| Mg²⁺ | ITPR3 pore block (new mech) | ER Ca²⁺ release |
+| Quercetin | ORAI1 inhibition (3rd mech) | Ca²⁺ entry |
+| CM4620 (clinical) | ORAI1/CRAC (run_127) | Ca²⁺ entry |
+
+**Quercetin 5th mechanism added:**
+- PLCγ inhibitory → IP3 ↓ → ITPR3 activation ↓ → ER Ca²⁺ release ↓ → less STIM1 trigger
+- Full quercetin mechanism list: (1) NLRP3 + (2) TRPV4 + (3) ORAI1 + (4) anti-enteroviral + **(5) PLCγ/IP3/ITPR3**
+- Quercetin is now the ONLY OTC in the framework with mechanisms at BOTH IP3/ER-release level AND ORAI1/Ca²⁺-entry level
+
+**Mg²⁺ protocol update:**
+- T-index Mg²⁺ node target: serum ≥ 0.8 mmol/L (existing)
+- New mechanism: ITPR3 inhibitory → mast cell (rosacea) + T cell (T1DM) + β cell (protection from Ca²⁺ overload) dampening
+- Practical: Mg²⁺ glycinate or citrate 300–400 mg/day; preferred form for GI tolerance and bioavailability
+- Priority phenotypes: rosacea with mast cell phenotype (frequent flushing/stinging) + T1DM rs3181505 risk allele carriers
+
+**Updated OTC mechanism summary (run_132):**
+
+| OTC | Count | Latest mechanisms |
+|-----|-------|-----------------|
+| Quercetin | **5** | + PLCγ → IP3 → ITPR3 ↓ (upstream Ca²⁺) |
+| Mg²⁺ | **3** | + ITPR3 pore block (alongside NMDA + mitochondria) |
+| Calcitriol | 6 | VDR → THBS1 (run_131) |
+| Niacinamide | 3 | PPARγ → THBS1 (run_131) |
+| Zinc | 3 | anti-CVB 3C protease (run_130) |
+| NMN/NR | 3 | TEC SIRT3/PINK1/AIRE (run_128) |
+
+*Protocol_integration.md Part 9cg — 2026-04-12 | ITPR3 IP3R3 ER-Ca2+-release IP3 PLCγ PLC STIM1-upstream ORAI1-downstream two-step-Ca2+-architecture quercetin-5th-mechanism PLCγ-inhibition Mg2+-new-mechanism ITPR3-pore-block T-index-Mg2+ mast-cell-rosacea T-cell-insulitis beta-cell-protection CM4620 DYRK1A-gate NK-ME/CFS-Ca2+-stack rs3181505 Lowe-2007 Foskett-2007 | run_132*

@@ -1157,3 +1157,27 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 6. **Berberine anti-lipotoxic (CD36 arm)**: AMPK → CD36 surface expression ↓ → less palmitate uptake → ceramide ↓ → β cell lipotoxicity protection. Reinforces existing berberine recommendation.
 
 *T1DM THEWALL cross-reference run_131: 2026-04-12 | THBS1 TSP-1 CD36 thrombospondin-1 anti-angiogenic VEGFR2-antagonism Fyn caspase diabetic-retinopathy pericyte AGE RAGE NF-κB THBS1-repression glycation CD36-binding-impaired LRG1-complement VEGF neovascularization DN TGF-β glomerulosclerosis collagen-IV palmitate ceramide 19th-beta-cell-death lipotoxicity efferocytosis DAMP NLRP3 calcitriol-6th-mechanism VDR THBS1-promoter DR-prevention berberine AMPK Jiménez-2000 Silverstein-2009 Bhattacharya-2008*
+
+---
+
+### Cross-reference: run_132 — ITPR3/IP3R3 / ER Ca²⁺ Release / T1DM GWAS rs3181505 / 20th β Cell Death
+
+**Gap:** ITPR3/IP3R3/IP3 receptor completely absent from all 131 prior runs. The ER Ca²⁺ RELEASE step — upstream trigger for STIM1/ORAI1 (run_127) — not analyzed.
+
+1. **T1DM GWAS rs3181505**: ITPR3 (6p21.31) independently associated with T1DM after HLA conditioning (Lowe 2007 PNAS, OR 1.35). Risk T-allele → enhanced IP3R3 Ca²⁺ release kinetics → dual pathological consequence: (a) β cell Ca²⁺ overload under inflammatory conditions → 20th β cell death; (b) autoreactive T cells → enhanced TCR → IP3 → ITPR3 → STIM1 (run_127) → ORAI1 → NFAT → IL-2/IFN-γ → more aggressive insulitis.
+
+2. **Complete Ca²⁺ architecture — β cell insulin secretion**: IP3 (from PLCβ/GLP-1R amplification) → ITPR3 → ER Ca²⁺ release → (a) exocytosis trigger; (b) ER-mito Ca²⁺ microdomains → PDH/IDH/α-KGDH → NADH → ATP → KATP closure → amplified depolarization → insulin secretion amplification. GLP-1R/cAMP/PKA (run_098) → ITPR3 sensitization = molecular basis for incretin amplification.
+
+3. **20th β cell death — ITPR3-mediated Ca²⁺ overload**: Cytokine (IL-1β/IFN-γ) → iNOS → NO → SERCA2b nitration → ER Ca²⁺ depletion → spontaneous ITPR3 opening (depletion-sensitized) → chronic Ca²⁺ leak → ER-mito Ca²⁺ → mPTP (mitochondrial permeability transition pore) → cytochrome c → caspase-9 → intrinsic apoptosis. Distinct from run_127 (SOCE/Ca²⁺ entry): here the problem is Ca²⁺ RELEASE without adequate ER refilling.
+
+4. **Three-node Ca²⁺ gate in autoreactive T cells (complete cascade)**:
+   - Node 1: ITPR3 (run_132) — IP3-triggered ER Ca²⁺ release → STIM1 trigger
+   - Node 2: STIM1/ORAI1 (run_127) — SOCE maintenance → sustained Ca²⁺ plateau
+   - Node 3: DYRK1A/NFAT (run_125) — NFAT phosphorylation/nuclear export gate
+   - Pharmacological targeting: quercetin (PLCγ/IP3 + ORAI1) + harmine/INDY (DYRK1A) + Mg²⁺ (ITPR3 block); CAUTION: harmine rosacea contraindication (run_125)
+
+5. **Mg²⁺ mechanism — ITPR3 blocking**: Cytosolic Mg²⁺ (0.5–1 mM) blocks ITPR3 pore → dampens ER Ca²⁺ release amplitude. Mg²⁺ deficiency (serum < 0.8 mmol/L) → ITPR3 hyperactivation → amplified Ca²⁺ → amplified NFAT → more aggressive insulitis. T-index Mg²⁺ node (existing ≥ 0.8 mmol/L target) now triple-anchored: NMDA + mitochondria + ITPR3.
+
+6. **Quercetin 5th mechanism — upstream of ORAI1**: Quercetin inhibits PLCγ → less IP3 → less ITPR3 activation → reduced ER Ca²⁺ release → less STIM1 trigger. This is UPSTREAM of quercetin's 3rd mechanism (ORAI1 channel inhibition, run_127). Together: dual Ca²⁺ block — IP3 production AND the channel itself.
+
+*T1DM THEWALL cross-reference run_132: 2026-04-12 | ITPR3 IP3R3 IP3 ER-Ca2+-release PLC PLCγ IP3-receptor T1DM-GWAS rs3181505 Lowe-2007-PNAS 20th-beta-cell-death SERCA2b-nitration iNOS spontaneous-ITPR3 mPTP cytochrome-c caspase-9 autoreactive-T-cell three-node-Ca2+-gate STIM1-upstream DYRK1A-downstream NFAT GLP-1R-PKA-sensitization incretin-amplification Mg2+-ITPR3-block quercetin-5th-PLCγ T-index-Mg2+ ER-mito-microdomains Foskett-2007 Berridge-2009 | run_132*

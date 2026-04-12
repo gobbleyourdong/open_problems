@@ -997,3 +997,21 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 3. **Not a priority ME/CFS mechanism**: CD36 lipotoxicity (palmitate → ceramide → β cell death) is T1DM-specific. DR/DN complications are T1DM-specific. The ME/CFS angle is indirect and secondary.
 
 *ME/CFS THEWALL cross-reference run_131: 2026-04-12 | THBS1 TSP-1 CD36 anti-angiogenic CD47 eNOS NO microvascular hypoperfusion platelet hyperactivation fibrin microclots PEM cAMP PKA S1P-parallel run_087 speculative niacinamide PPARγ Silverstein-2009 | run_131*
+
+---
+
+### Cross-reference: run_132 — ITPR3/IP3R3 / ER Ca²⁺ Release / NK Cell Dysfunction Extension
+
+**Gap:** ITPR3/IP3R3 completely absent from all 131 prior runs. Extends run_127 (STIM1/ORAI1) ME/CFS NK cell model by adding the upstream trigger.
+
+**Assessment:** MODERATE ME/CFS relevance — extends the run_127 NK dysfunction model with an upstream node; Mg²⁺/ITPR3 mechanism relevant to ME/CFS given documented Mg²⁺ deficiency.
+
+1. **NK cell Ca²⁺ defect — ITPR3 upstream extension**: Run_127 (STIM1/ORAI1) showed: SERCA oxidation → pre-clustered STIM1 → blunted peak CRAC → NK cytotoxicity defect. Run_132 extends: when ER Ca²⁺ stores are depleted (SERCA damage) → IP3 → ITPR3 → releases LESS Ca²⁺ (low starting inventory) → smaller STIM1-activating depletion signal → blunted SOCE amplitude. Net: ITPR3 dysfunction (due to upstream SERCA damage) is additive with STIM1 pre-clustering in causing NK cytotoxicity failure. Both mechanisms converge on the same Ca²⁺ deficit.
+
+2. **IFN signature vs cytotoxicity paradox resolved more fully**: Why ME/CFS NK cells produce IFN-γ but fail at cytotoxicity? Partial Ca²⁺ activation (via ITPR3 alone, without full SOCE sustenance) achieves threshold for some NFAT-dependent gene expression (IFN-γ, cytokines require moderate Ca²⁺) but NOT for perforin/granzyme exocytosis (requires high, sustained Ca²⁺ — both ITPR3 peak AND SOCE plateau). ITPR3 adds the mechanistic explanation for the partial-Ca²⁺-activation state.
+
+3. **Mg²⁺ mechanism — ME/CFS relevance**: ME/CFS patients frequently have intracellular Mg²⁺ deficiency (documented in RBC Mg²⁺ studies). Mg²⁺ deficiency → ITPR3 hyperactivation → paradoxically may FURTHER deplete ER Ca²⁺ (spontaneous leak) → less Ca²⁺ available for subsequent activation. This creates a self-perpetuating Ca²⁺ deficit loop: Mg²⁺ low → ITPR3 hyperactive → ER depleted → STIM1 pre-clustered (run_127) → blunted SOCE.
+
+4. **Protocol: Mg²⁺ supplementation in ME/CFS**: Mg²⁺ glycinate 300–400 mg/day: (a) NMDA modulation (run_126 context); (b) mitochondrial membrane potential; (c) ITPR3 Ca²⁺ release dampening → partial ER Ca²⁺ conservation. May support NK cytotoxic function by reducing spontaneous ITPR3 Ca²⁺ drain.
+
+*ME/CFS THEWALL cross-reference run_132: 2026-04-12 | ITPR3 IP3R3 IP3-receptor ER-Ca2+-release STIM1-upstream NK-cell-dysfunction Ca2+-deficit SERCA-damage blunted-SOCE ITPR3-additive partial-Ca2+-activation IFN-paradox resolved cytotoxicity-threshold Mg2+-ITPR3-deficiency ER-depletion loop Mg2+-glycinate-ME/CFS quercetin-5th-PLCγ Foskett-2007 Berridge-2009 | run_132*

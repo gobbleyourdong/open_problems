@@ -5726,3 +5726,41 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 131 runs | THBS1/TSP-1/CD36 endogenous anti-angiogenic | 6th ETR mechanism | yin-yang LRG1/ALK1 | 19th β cell death (CD36 lipotoxicity) | calcitriol 6th mechanism | niacinamide 3rd mechanism | calcitriol+niacinamide dual angiogenic restoration.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-sixth extension | THBS1 TSP-1 thrombospondin-1 CD36 scavenger-receptor fatty-acid-translocase type-1-TSR KRFK Fyn caspase-3 EC-apoptosis VEGFR2-antagonism CD47 eNOS NO TGF-β matricellular NF-κB-THBS1-repression UV-ROS telangiectasia ETR 6th yin-yang LRG1-ALK1 diabetic-retinopathy pericyte AGE RAGE glomerulosclerosis lipotoxicity palmitate ceramide 19th-beta-cell-death efferocytosis DAMP NLRP3 calcitriol-6th-mechanism VDR niacinamide-3rd-mechanism PPARγ berberine-AMPK-CD36 rs1478604 rs1761667 Jiménez-2000-Nat-Med Silverstein-2009-Sci-Signal Bhattacharya-2008-PNAS | run_131*
+
+---
+
+### Phase 4 Extension 107 — ITPR3/IP3R3 / IP3-Triggered ER Ca²⁺ Release / T1DM GWAS / Two-Step Ca²⁺ Architecture
+
+**Gap:** ITPR3/IP3R3/IP3 receptor completely absent from all 131 prior runs. The ER Ca²⁺ RELEASE step — the upstream trigger for STIM1/ORAI1 (run_127) — never analyzed.
+
+**Rosacea (HIGH):**
+- IgE/FcεRI → PLCγ → IP3 → ITPR3 (ER Ca²⁺ release) → ER depletion → STIM1 (run_127) → ORAI1 → SOCE → mast cell degranulation
+- ITPR3 is DIRECTLY UPSTREAM of run_127: it provides the ER Ca²⁺ depletion signal that STIM1 senses
+- Two-step Ca²⁺ architecture completed: Step 1 = ITPR3 (ER release, fast peak); Step 2 = STIM1/ORAI1 (SOCE, sustained plateau)
+- 10th mast cell stabilization mechanism: first at the IP3/ER-release level
+- UV-B/PAR2 → PLCγ/PLCβ → IP3 → ITPR3 → Ca²⁺ → PKC/NF-κB → LL-37/inflammatory response in keratinocytes
+- Quercetin 5th mechanism: PLCγ inhibition → IP3 ↓ → ITPR3 ↓ (upstream of ORAI1 block, 3rd mechanism)
+
+**T1DM (HIGH):**
+- rs3181505 T-allele (6p21.31): independent T1DM association after HLA conditioning (Lowe 2007 PNAS); risk allele → enhanced IP3R3 signaling
+- β cell: GLP-1R/cAMP/PKA → ITPR3 sensitization → amplified ER Ca²⁺ → incretin amplification (run_098 connection); ER-mito Ca²⁺ microdomains → ATP production amplification
+- 20th β cell death: cytokine/iNOS → SERCA2b nitration → spontaneous ITPR3 opening → ER-mito Ca²⁺ overload → mPTP → cytochrome c → caspase-9 → apoptosis
+- Three-node Ca²⁺ gate in autoreactive T cells: ITPR3 (upstream trigger) → STIM1/ORAI1 (SOCE, run_127) → DYRK1A/NFAT (gate, run_125)
+
+**ME/CFS (MODERATE):**
+- SERCA oxidation (run_127) → low ER Ca²⁺ → ITPR3 Ca²⁺ release attenuated → reduced STIM1 trigger amplitude
+- Additive with run_127 STIM1 pre-clustering: ITPR3 + STIM1 defects together explain why ME/CFS NK cells have both blunted cytotoxicity AND maintained IFN signature (partial NFAT activation)
+- NK cell cytotoxicity requires high-amplitude sustained Ca²⁺ (both ITPR3 peak + STIM1 plateau needed); IFN-γ/cytokine transcription requires only moderate Ca²⁺/NFAT (ITPR3 alone insufficient but plateau provides some)
+
+**New OTC mechanisms:**
+- **Quercetin 5th mechanism**: PLCγ inhibition → IP3 ↓ → ITPR3 trigger ↓; quercetin now dual Ca²⁺ blocker (IP3 production + ORAI1 channel)
+- **Mg²⁺ new mechanism**: Mg²⁺ → ITPR3 pore block → dampens ER Ca²⁺ release amplitude in mast cells, β cells, autoreactive T cells; T-index Mg²⁺ node (existing ≥ 0.8 mmol/L target) gains triple mechanistic anchor (NMDA + mitochondria + ITPR3)
+
+**Protocol additions:**
+- Quercetin 500–1000 mg/day: 5th mechanism (PLCγ/IP3/ITPR3) reinforces existing recommendation; quercetin = most Ca²⁺-comprehensive OTC (ITPR3 upstream + ORAI1 downstream)
+- Mg²⁺ (glycinate 300–400 mg/day): ITPR3 mechanism newly established; prioritize Mg²⁺ optimization in rosacea-mast cell and T1DM-insulitis phenotypes
+- rs3181505 carriers: Ca²⁺ signaling priority — maximize quercetin + Mg²⁺; consider CRAC inhibitor trials (CM4620)
+
+**Framework state: 132 runs | ITPR3/IP3R3 ER Ca²⁺ release | upstream trigger for run_127 | two-step Ca²⁺ architecture completed | 10th mast cell mechanism | 20th β cell death (ITPR3 Ca²⁺ overload) | three-node T cell Ca²⁺ gate | quercetin 5th mechanism (PLCγ) | Mg²⁺ ITPR3 mechanism | T1DM GWAS rs3181505.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-seventh extension | ITPR3 IP3R3 IP3-receptor ER-Ca2+-release PLC PLCγ PLCβ IP3 DAG CICR biphasic-Ca2+ Mg2+-ITPR3-block STIM1-upstream two-step-Ca2+-architecture 10th-mast-cell-mechanism 20th-beta-cell-death T1DM-GWAS rs3181505 Lowe-2007-PNAS three-node-Ca2+-gate DYRK1A-NFAT quercetin-5th PLCγ-inhibition Mg2+-new-mechanism ER-mito-microdomains GLP-1R-PKA-ITPR3 NK-ME/CFS-Ca2+-defect Foskett-2007 Berridge-2009 | run_132*

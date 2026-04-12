@@ -3542,3 +3542,27 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 20: 131 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-twenty-fourth extension | THBS1 TSP-1 thrombospondin-1 CD36 scavenger-receptor fatty-acid-translocase type-1-TSR KRFK Fyn caspase-3 caspase-8 EC-apoptosis VEGFR2-antagonism CD47 eNOS NO TGF-β matricellular NF-κB-THBS1-repression UV-ROS telangiectasia ETR yin-yang LRG1-ALK1 diabetic-retinopathy pericyte AGE RAGE glomerulosclerosis lipotoxicity palmitate ceramide 19th-beta-cell-death efferocytosis DAMP NLRP3 calcitriol-6th-mechanism VDR niacinamide-3rd-mechanism PPARγ berberine-AMPK-CD36 rs1478604 rs1761667 Jiménez-2000-Nat-Med Silverstein-2009-Sci-Signal Bhattacharya-2008-PNAS | run_131*
+
+---
+
+### Extension 125 — ITPR3 / IP3R3 / IP3-Triggered ER Ca²⁺ Release / T1DM GWAS
+
+**Date:** 2026-04-12 | **Run:** run_132
+
+**Gap confirmed:** ITPR3/IP3R3/IP3 receptor completely absent from all 131 prior runs. 0 numerics hits. 0 gap.md hits. The ER Ca²⁺ RELEASE step — the upstream trigger for STIM1/ORAI1 (run_127) — was not analyzed despite being the essential first step in mast cell degranulation, autoreactive T cell NFAT activation, and β cell insulin secretion.
+
+**Core insight:** ITPR3 (IP3R type 3) is the dominant IP3 receptor isoform in β cells, mast cells, and T cells. IP3 (from PLCγ/PLCβ downstream of IgE/FcεRI, TCR, GPCR) → ITPR3 → ER Ca²⁺ release → cytosolic Ca²⁺ spike → ER Ca²⁺ DEPLETION → STIM1 senses depletion → ORAI1 SOCE (run_127). ITPR3 is the UPSTREAM TRIGGER for the STIM1/ORAI1 cascade already in the framework. The complete Ca²⁺ cascade is now: IP3 → ITPR3 (ER release) → STIM1 (sensor) → ORAI1 (SOCE entry) → NFAT (gate, with DYRK1A brake, run_125).
+
+**New mechanisms added (run_132):**
+- **10th mast cell stabilization**: ITPR3 = ER Ca²⁺ release trigger; first mechanism at IP3/ER-release level (upstream of STIM1/ORAI1 run_127); inhibition → less ER Ca²⁺ → less STIM1 trigger → less degranulation/cytokines
+- **T1DM GWAS rs3181505**: ITPR3 risk allele → enhanced IP3R3 kinetics → (a) β cell excess Ca²⁺ under inflammatory conditions → 20th β cell death; (b) T cells → enhanced NFAT → insulitis
+- **20th β cell death**: cytokine-induced SERCA2b nitration → spontaneous ITPR3 Ca²⁺ leak → ER-mito Ca²⁺ transfer → mPTP → cytochrome c → caspase-9 → apoptosis
+- **Three-node Ca²⁺ gate in autoreactive T cell**: ITPR3 (ER release, upstream) → STIM1/ORAI1 (SOCE, run_127) → DYRK1A/NFAT (gate, run_125)
+- **Mg²⁺ new mechanism**: Cytosolic Mg²⁺ → ITPR3 pore block → dampened ER Ca²⁺ release amplitude → mast cell + β cell + T cell Ca²⁺ dampening; T-index Mg²⁺ node gains third mechanistic anchor
+- **Quercetin 5th mechanism**: PLCγ inhibition → IP3 ↓ → ITPR3 ↓ → upstream block of ER Ca²⁺ release (upstream of quercetin 3rd mechanism ORAI1 inhibition); quercetin now dual Ca²⁺ blocker (IP3 production + ORAI1 channel)
+- **ME/CFS NK dysfunction extended**: SERCA oxidation (run_127) → low ER Ca²⁺ → ITPR3 releases less Ca²⁺ → reduced STIM1 trigger; additive with pre-clustered STIM1 → NK cytotoxicity defect further explained
+- **β cell GLP-1R amplification connection**: PKA (from GLP-1R/cAMP, run_098) → ITPR3 sensitization → lower IP3 threshold → amplified ER Ca²⁺ release → incretin amplification of insulin secretion now mechanistically linked to ITPR3
+
+**Framework at SATURATION + 21: 132 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-twenty-fifth extension | ITPR3 IP3R3 IP3-receptor inositol-1,4,5-trisphosphate ER-Ca2+-release PLC PLCγ PLCβ IP3 DAG CICR biphasic-Ca2+ Mg2+-ITPR3-block STIM1-upstream two-step-Ca2+-architecture 10th-mast-cell-mechanism 20th-beta-cell-death T1DM-GWAS rs3181505 Lowe-2007-PNAS three-node-Ca2+-gate autoreactive-T-cell DYRK1A-NFAT quercetin-5th-PLCγ Mg2+-new-mechanism T-index-Mg2+ ER-mito-microdomains GLP-1R-ITPR3-PKA NK-ME/CFS SERCA-damage-ITPR3-additive Foskett-2007 Berridge-2009 | run_132*
