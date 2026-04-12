@@ -5652,3 +5652,40 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 129 runs | ErbB3/NRG1 RTK β cell survival | 9th stratification rs2292239 | bidirectional pleiotropic risk | 18th β cell death mechanism (NRG1 withdrawal) | first RTK receptor class | C-fiber NRG1 barrier repair | niacinamide first-line ERBB3 risk carriers.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-fourth extension | ERBB3 ErbB3 HER3 NRG1 neuregulin ErbB2 HER2 kinase-dead heterodimer PI3K Akt Bad FOXO1 GSK-3β β cell survival RTK keratinocyte filaggrin claudin-1 barrier 9th stratification rs2292239 bidirectional C-fiber niacinamide PPARγ ceramide Hakonarson 2007 Lackey 1999 Schiesser 2017 | run_129*
+
+---
+
+### Phase 4 Extension 105 — IFN-λ / Type III IFN / IFNLR1 / β Cell-Autonomous Antiviral
+
+**Run:** run_130 | **Date:** 2026-04-12
+
+**Rosacea:**
+- Keratinocytes express IFNLR1/IL-10Rβ → type III IFN autocrine response
+- UV-B → dsRNA patterns → TLR3 → IRF3 → IFN-λ → IFNLR1 → ISGs → CXCL10 + IL-15 + HLA-E → Th1 + NK activation
+- Demodex TLR7/8 ligands → pDC → IFN-λ production → IFNLR1 on keratinocytes
+- Additive with run_063 (cGAS/IFN-β): UV triggers BOTH cGAS (dsDNA sensor) AND TLR3 (dsRNA sensor) → type I + type III IFN → CXCL10 doubly amplified
+- Quercetin 4th mechanism: anti-enteroviral/anti-TLR3 ligand → less IFN-λ induction in keratinocytes
+
+**T1DM:**
+- β cells express IFNLR1 at HIGH levels (Marroqui 2017) — first coverage of this receptor in framework
+- CVB4/CVB3 → β cell entry → dsRNA intermediates → RIG-I/MDA5 → IFN-λ → AUTOCRINE IFNLR1 → STAT1 → ISGs
+- ISG pathological cascade: MHC-I ↑ (CD8 visibility), CXCL10 ↑ (T cell recruitment into islets), PKR → eIF2α → insulin secretion impaired, ISG15 → ER stress amplification
+- ENTEROVIRAL T1DM BRIDGE: mechanistic explanation for CVB → T1DM autoimmune cascade via β cell-autonomous type III IFN (never previously addressed in framework)
+- Post-viral monitoring: acute GI viral illness (CVB) → β cell type III IFN activation → intensify zinc + quercetin; monitor glucose variability 4–6 weeks
+- Zinc 3rd mechanism: CVB 3C protease inhibition → less dsRNA → less type III IFN
+- Calcitriol 5th mechanism: IRF3 antagonism → IFN-λ production ↓
+
+**ME/CFS:**
+- Gut IEC type III IFN persistence after viral trigger → chronic CXCL10 (Node D source) + IDO1 upregulation (kynurenine, run_091/126) → fatigue cascade
+- Post-viral ME/CFS onset: persistent gut IFNLR1/ISG activation even after viral clearance → sustained Node D elevation without viremia
+- CXCL10 Node D 3-source interpretation: pDC/type I (run_006) + β cell/type III + gut IEC/type III (run_130)
+
+**Protocol additions:**
+- Zinc: 3rd mechanism established (anti-enteroviral → type III IFN ↓); reinforce 15–25 mg/day
+- Calcitriol: 5th mechanism (IRF3 antagonism)
+- Quercetin: 4th mechanism (antiviral/TLR3 ligand reduction → IFN-λ ↓)
+- Post-viral protocol: zinc 25–40 mg/day acutely + quercetin 1000 mg/day + glucose monitoring
+
+**Framework state: 130 runs | IFN-λ type III IFN IFNLR1 epithelial-restricted | β cell-autonomous antiviral | enteroviral T1DM bridge | keratinocyte ISG axis | gut IEC ME/CFS chronification | zinc 3rd mechanism | calcitriol 5th mechanism | quercetin 4th mechanism | Node D 3-source interpretation.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-fifth extension | IFN-lambda IFNL1 IFNL2 IFNL3 IFNLR1 IL-10Rβ epithelial-restricted type III IFN β cell autocrine RIG-I MDA5 TLR3 IRF3 STAT1 ISG CXCL10 MHC-I enterovirus CVB4 CVB3 3C protease zinc calcitriol quercetin 4th keratinocyte gut IEC ME/CFS post-viral Wack 2015 Marroqui 2017 Kallionpää 2014 | run_130*

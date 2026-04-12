@@ -4689,3 +4689,75 @@ C-fiber: quercetin (TRPV4) + niacinamide (barrier repair) for neurogenic phenoty
 ```
 
 *Protocol_integration.md Part 9cd — 2026-04-12 | ERBB3 ErbB3 HER3 NRG1 neuregulin ErbB2 HER2 PI3K Akt Bad FOXO1 β cell survival RTK keratinocyte filaggrin claudin-1 ceramide skin barrier 9th stratification rs2292239 bidirectional niacinamide PPARγ first-line barrier compensation C-fiber neurogenic TRPV4 quercetin Hakonarson 2007 Schiesser 2017 | run_129*
+
+---
+
+## Part 9ce — IFN-λ / Type III IFN Protocol Integration (run_130)
+
+### Type III IFN IFNLR1 — Multi-OTC Mechanism Updates + Post-Viral Protocol
+
+**New mechanism (run_130):** IFNLR1/type III IFN is the β cell-autonomous and keratinocyte-autonomous antiviral/inflammatory IFN system. Three existing OTCs gain new mechanistic bases.
+
+**Zinc: 3rd Mechanism**
+
+Zinc gluconate 15–25 mg/day with food (existing run_059 recommendation):
+- Mechanism 1 (run_059): ZnT8/β cell zinc homeostasis
+- Mechanism 2 (run_059): gut barrier/zonulin modulation
+- **Mechanism 3 (run_130)**: CVB/enteroviral 3C protease inhibition → less dsRNA → less β cell RIG-I/MDA5 → less IFN-λ induction → IFNLR1/ISG cascade attenuated → β cell MHC-I ↑ reduced; PKR → insulin ↓ attenuated
+
+For post-viral illness (suspected enteroviral GI illness): acute zinc escalation to 25–40 mg/day × 5–7 days
+
+**Calcitriol: 5th Mechanism**
+
+Calcitriol 5000 IU/day (existing run_031/056 recommendation):
+- Mechanism 5 (run_130): VDR → IRF3 nuclear translocation ↓ → IFN-λ1/2/3 gene transcription ↓ → less type III IFN → less IFNLR1 autocrine activation in β cells AND keratinocytes
+
+**Quercetin: 4th Mechanism**
+
+Quercetin 500–1000 mg/day (existing run_003/120/127 recommendation):
+- Mechanism 1 (run_003): NLRP3/NF-κB suppression
+- Mechanism 2 (run_120): TRPV4 thermal channel inhibition
+- Mechanism 3 (run_127): ORAI1/CRAC mast cell Ca²⁺ entry inhibition
+- **Mechanism 4 (run_130)**: anti-enteroviral activity (blocks CVB attachment + 3C protease) → less dsRNA → less IFN-λ induction in β cells + keratinocytes
+
+Quercetin pre-exposure dosing now has 4 mechanistic bases: TRPV4 + NLRP3 + ORAI1 + antiviral/IFN-λ reduction.
+
+**Post-Viral Illness Protocol**
+
+For T1DM honeymoon patients experiencing suspected enteroviral GI illness (herpangina, HFMD, summer febrile GI illness):
+```
+Acute phase (during illness):
+  Zinc 25–40 mg/day (anti-enteroviral, 3C protease inhibition)
+  Quercetin 1000 mg/day (antiviral + TRPV4 + NLRP3)
+  Continue calcitriol (IRF3 antagonism reduces IFN-λ)
+
+Post-acute phase (4–6 weeks after illness):
+  Monitor glucose variability (ISG-mediated β cell dysfunction may produce transient
+  glucose instability before clinical insulitis)
+  If T-index CXCL10 (Node D) elevated → interpret as β cell/gut IFN-λ response
+    (not new autoimmune flare unless sustained > 4 weeks post-viral clearance)
+  Resume normal protocol at 6 weeks if glucose normalized
+```
+
+**CXCL10 Node D Interpretation Update**
+
+Serum CXCL10 Node D elevation context — 3 sources:
+1. pDC type I IFN → IFNAR → systemic CXCL10 (run_006)
+2. β cell type III IFN → IFNLR1 → islet CXCL10 spillover (post-CVB; resolves 2–4 weeks)
+3. Gut IEC type III IFN persistence → chronic CXCL10 (ME/CFS chronification pattern)
+
+Pattern differentiation:
+- Acute spike post-viral illness → source 2 most likely; self-limited
+- Chronically elevated without viral illness + ME/CFS → source 3; gut IEC IFNLR1 targeted
+- Chronically elevated without viral illness + pre-T1DM → source 1 most likely (pDC activation)
+
+```
+Type III IFN protocol summary:
+Zinc: 15–25 mg/day (3rd mechanism: anti-enteroviral)
+Calcitriol: 5000 IU/day (5th mechanism: IRF3 antagonism → IFN-λ ↓)
+Quercetin: 500–1000 mg/day (4th mechanism: antiviral/IFN-λ)
+Post-viral: acute zinc 25–40 mg + quercetin 1000 mg × 5–7 days; glucose monitor 4–6 weeks
+Node D: 3-source interpretation (pDC/type I + β cell/type III + gut IEC/type III)
+```
+
+*Protocol_integration.md Part 9ce — 2026-04-12 | IFN-lambda type III IFN IFNLR1 β cell autocrine enterovirus CVB4 CVB3 3C protease zinc 3rd mechanism calcitriol 5th mechanism IRF3 quercetin 4th mechanism antiviral CXCL10 Node D 3-source post-viral protocol honeymoon monitoring glucose variability gut IEC ME/CFS Wack 2015 Marroqui 2017 Kallionpää 2014 Richardson 2019 | run_130*

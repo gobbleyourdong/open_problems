@@ -1119,3 +1119,21 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 4. **Protocol escalation for ERBB3 risk allele patients**: ErbB3/Akt arm constitutively reduced → maximize other β cell survival pathways: GLP-1R agonist (cAMP/SIRT1 arm) + calcitriol 5000 IU/day (VDR/Bcl-2 arm) + BHB/FMD (NLRP3↓/anti-apoptotic arm).
 
 *T1DM THEWALL cross-reference run_129: 2026-04-12 | ERBB3 ErbB3 HER3 NRG1 neuregulin heregulin ErbB2 HER2 kinase-dead PI3K Akt Bad FOXO1 GSK-3β β cell survival RTK first receptor tyrosine kinase 9th stratification rs2292239 NRG1 withdrawal 18th β cell death insulitis endothelial Hakonarson 2007 Cooper 2012 Lackey 1999 Schiesser 2017*
+
+---
+
+### Cross-reference: run_130 — IFN-λ / Type III IFN / IFNLR1 / Enteroviral T1DM Bridge
+
+**Gap:** IFNLR1, type III IFN, enterovirus/CVB completely absent from 129 prior runs. β cell-autonomous antiviral IFN system.
+
+1. **β cell-autonomous type III IFN response**: β cells express IFNLR1/IL-10Rβ at HIGH levels (Marroqui 2017). CVB4/CVB3 (Coxsackievirus B) infects β cells → dsRNA intermediates → RIG-I/MDA5 → IRF3/7 → IFN-λ1/2/3 → AUTOCRINE IFNLR1 → STAT1 → ISGs → MHC-I ↑ (CD8 visibility), CXCL10 ↑ (T cell recruitment), PKR → eIF2α → insulin secretion impaired, ISG15 → ER stress. Distinct from run_006 type I IFN: β cells produce their OWN IFN-λ; IFNLR1 ≠ IFNAR.
+
+2. **Enteroviral T1DM bridge**: First mechanistic explanation for CVB-triggered T1DM autoimmune cascade via β cell-autonomous type III IFN. CVB is found in T1DM pancreatic tissue (Richardson 2019 Diabetologia; Oikarinen 2012). The ISG wave creates persistent MHC-I upregulation and CXCL10 → T cell priming even after viral clearance → honeymoon-ending insulitis cascade.
+
+3. **Zinc 3rd mechanism**: Zinc → CVB 3C protease inhibition → less dsRNA → less RIG-I/MDA5 → less IFN-λ induction. Existing zinc 15–25 mg/day recommendation gains antiviral/IFNLR1-reduction rationale.
+
+4. **Calcitriol 5th mechanism**: VDR → IRF3 antagonism → IFN-λ production ↓ in β cells. Existing calcitriol 5000 IU/day gains type III IFN suppression mechanism.
+
+5. **Post-viral monitoring protocol**: Acute GI viral illness (CVB-like) in honeymoon patient → zinc 25–40 mg/day acute + quercetin 1000 mg + glucose monitoring 4–6 weeks post-illness (ISG-mediated β cell dysfunction → transient glucose instability before overt insulitis).
+
+*T1DM THEWALL cross-reference run_130: 2026-04-12 | IFN-lambda type III IFN IFNLR1 IL-10Rβ β cell autocrine CVB4 CVB3 enterovirus RIG-I MDA5 IRF3 STAT1 ISG MHC-I CXCL10 PKR insulin T1DM bridge zinc 3rd mechanism calcitriol 5th mechanism post-viral monitoring Wack 2015 Marroqui 2017 Kallionpää 2014 Richardson 2019 Oikarinen 2012*

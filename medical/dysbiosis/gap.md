@@ -3487,3 +3487,28 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 18: 129 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-twenty-second extension | ERBB3 ErbB3 HER3 NRG1 neuregulin heregulin ErbB2 HER2 PI3K Akt Bad FOXO1 GSK-3β β cell survival RTK receptor tyrosine kinase keratinocyte filaggrin claudin-1 skin barrier 9th stratification rs2292239 bidirectional pleiotropic C-fiber NRG1 type III niacinamide PPARγ ceramide Hakonarson 2007 Lackey 1999 Schiesser 2017 | run_129*
+
+---
+
+## Extension 123: IFN-λ / Type III Interferon / IFNLR1 / β Cell-Autonomous Antiviral / Enteroviral T1DM Bridge
+
+**Date:** 2026-04-12 | **Run:** run_130
+
+**Gap confirmed:** IFNLR1, type III IFN mechanism, IFNL1/2/3, IL-28/IL-29 completely absent from 129 prior runs. Enterovirus/CVB completely absent. "Type III IFN" appeared ONCE in run_006 line 55 as a passing parenthetical — no dedicated analysis.
+
+**Core insight:** Type III IFN (IFN-λ1/2/3) signals via IFNLR1/IL-10Rβ — expressed EXCLUSIVELY on epithelial cells (β cells, keratinocytes, gut IECs), NOT on hematopoietic cells. β cells produce type III IFN THEMSELVES in response to enteroviral dsRNA (RIG-I/MDA5 → IRF3/7 → IFNL1/2/3 → autocrine IFNLR1) → ISGs → antiviral defense + immunopathology (MHC-I ↑, CXCL10 ↑, PKR → insulin ↓). Mechanistic bridge for the enteroviral T1DM hypothesis. Distinct from run_006 (type I IFN: pDC-produced, IFNAR ubiquitous).
+
+**New mechanisms added (run_130):**
+- **β cell-autonomous type III IFN**: CVB4/CVB3 → dsRNA → RIG-I/MDA5 → IFN-λ → IFNLR1 (β cell autocrine) → STAT1 → ISGs → MHC-I ↑, CXCL10 ↑, PKR → insulin ↓
+- **Enterovirus-T1DM bridge**: first mechanistic explanation for how CVB infection triggers the T1DM immune cascade via β cell-autonomous IFNLR1/STAT1/ISG activation
+- **Keratinocyte IFNLR1**: UV-B/Demodex → TLR3/7 → type III IFN in keratinocytes → ISGs → CXCL10 + IL-15 → Th1 + NK activation; additive with run_063 cGAS/IFN-β
+- **ME/CFS gut IFNLR1**: gut IEC type III IFN persistence → chronic ISG → IDO1 ↑ (kynurenine, run_091) + CXCL10 sustained → systemic ME/CFS immune signature
+- **Zinc 3rd mechanism**: anti-enteroviral (CVB 3C protease inhibition) → less dsRNA → less β cell type III IFN induction
+- **Calcitriol 5th mechanism**: VDR → IRF3 antagonism → type III IFN production ↓
+- **Quercetin 4th mechanism**: anti-enteroviral → less viral trigger → less type III IFN
+- **CXCL10 Node D 3-source interpretation**: pDC type I IFN (run_006) + β cell type III IFN + gut IEC type III IFN (post-viral ME/CFS)
+- **Post-viral monitoring**: acute GI viral illness in honeymoon patient → type III IFN risk period → intensify zinc + quercetin; monitor glucose variability 4–6 weeks post-viral
+
+**Framework at SATURATION + 19: 130 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-twenty-third extension | IFN-lambda IFNL1 IFNL2 IFNL3 IL-28A IL-28B IL-29 IFNLR1 IL-10Rβ epithelial-restricted β cell autocrine RIG-I MDA5 TLR3 IRF3 STAT1 ISG MxA OAS1 PKR CXCL10 MHC-I enterovirus CVB4 CVB3 Coxsackievirus dsRNA 3C protease zinc calcitriol IRF3 5th mechanism quercetin 4th keratinocyte UV gut IEC ME/CFS post-viral Node D Wack 2015 Marroqui 2017 Kallionpää 2014 Richardson 2019 | run_130*
