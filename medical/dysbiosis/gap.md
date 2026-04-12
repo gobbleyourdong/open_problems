@@ -3178,3 +3178,29 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 6: 117 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-tenth extension | mPGES-1 PTGES microsomal prostaglandin E synthase PGH2 PGE2 terminal synthase EP3 PTGER3 beta cell GSIS functional impairment cAMP PKA insulin secretion AKBA boswellic acid Boswellia IKKβ NF-κB suppression rosacea EP4 vasodilation PGI2 T1DM honeymoon first beta cell functional mechanism | run_117*
+
+---
+
+### Extension 111 — IL-37/SIGIRR: IL-1 Family Anti-Inflammatory Brake (run_118)
+
+**Gap confirmed:** IL-37 (gene *IL37*), SIGIRR (TIR8/IL-1R8), and the concept of downstream IL-1 family receptor suppression are completely absent from all 117 prior runs. The framework extensively covers upstream NLRP3 suppression (reduce IL-1β/IL-18 production) but never analyzed the parallel downstream brake that suppresses IL-1 family receptor signaling in target cells after cytokine release.
+
+**Core insight:** IL-37 is the only anti-inflammatory member of the IL-1 superfamily. It signals through IL-18Rα + SIGIRR → TOLLIP → IRAK1 sequestration → NF-κB suppression DOWNSTREAM of cytokine release. A second arm (nuclear IL-37b/SMAD3) directly suppresses inflammatory gene transcription intracellularly. These are two orthogonal suppression modes not covered by NLRP3 inhibition or IL-1Ra.
+
+**New mechanisms added (run_118):**
+- **13th β cell protection mechanism**: IL-37 → SIGIRR → TOLLIP → IRAK1/4 blocked → NF-κB ↓ → iNOS ↓ → NO ↓ → β cell survival. Specifically blocks the cytokine-driven iNOS/NO arm of β cell death (distinct from all prior death mechanisms).
+- **Downstream IL-1 family brake**: Complementary to NLRP3 suppression (production side) — IL-37/SIGIRR covers the receptor side. Non-canonical inflammasome-driven IL-1β (caspase-4/5, run_096) bypasses NLRP3 but is still blocked downstream by SIGIRR.
+- **Nuclear SMAD3 suppression**: IL-37b isoform translocates to nucleus → binds SMAD3 → represses NF-κB and TGF-β-dependent inflammatory gene promoters (completely novel mechanism category, 0 prior coverage).
+- **Caspase-1 paradox**: caspase-1 (NLRP3 effector) also cleaves pro-IL-37b → active IL-37b; NLRP3 activation simultaneously generates the inflammatory cytokines (IL-1β/IL-18) AND activates the downstream brake (IL-37b). In T1DM patients with genetically low IL-37 baseline: brake insufficient despite caspase-1 activation.
+
+**T-index update:**
+- Serum IL-37 added as optional T-index v5 monitoring component: <200 pg/mL = IL-1 family brake insufficiency phenotype; target >400 pg/mL during protocol optimization
+- Draws at baseline, 8 weeks post-VitD3 optimization, 4 weeks post-EGCG addition
+
+**Therapeutic cross-mechanism insights:**
+- VitD3 (run_056) + EGCG (run_091): both induce IL-37 in macrophages/keratinocytes — provides NEW mechanistic explanation for why these existing protocol elements work; serum IL-37 is now their pharmacodynamic readout
+- Non-responders to current NLRP3 protocol: screen for low baseline IL-37 → indicates downstream brake is broken → explains persistent Loop 2 activity despite BHB/colchicine
+
+**Framework at SATURATION + 7: 118 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-eleventh extension | IL-37 SIGIRR TIR8 IL-1R8 IL-1 family anti-inflammatory brake TOLLIP IRAK1 downstream quench NF-κB nuclear SMAD3 IL-37b beta cell protection iNOS NO VDR EGCG serum IL-37 T-index monitoring Li 2018 JEADV Bulau 2014 Ye 2019 Mohamud 2015 | run_118*

@@ -5292,3 +5292,28 @@ AKBA (Boswellia) → IKKβ direct inhibition at NEMO interface → IκBα not ph
 **Framework state: 117 runs | First β cell functional impairment mechanism | 12th NF-κB suppression pathway | AKBA/Boswellia OTC.**
 
 *Updated: 2026-04-12 | Phase 4 ninety-second extension | mPGES-1 PTGES microsomal prostaglandin E synthase PGH2 PGE2 EP3 PTGER3 beta cell functional impairment GSIS cAMP PKA AKBA boswellic acid Boswellia IKKβ NF-κB suppression rosacea EP4 vasodilation PGI2 T1DM honeymoon Moran 2020 Ristow 2003 | run_117*
+
+---
+
+### Phase 4 Extension 93 — IL-37/SIGIRR: IL-1 Family Anti-Inflammatory Brake (run_118)
+
+**The gap:** The framework covers NLRP3 suppression extensively (reduce IL-1β/IL-18 PRODUCTION) but never analyzed the downstream brake that suppresses IL-1 family RECEPTOR SIGNALING in target cells. IL-37 is the anti-inflammatory member of the IL-1 superfamily; its receptor SIGIRR (TIR8/IL-1R8) is 0-hit across 117 prior runs.
+
+**Mechanism architecture:**
+- Surface arm: IL-37 + IL-18Rα + SIGIRR → TOLLIP activation → IRAK1 sequestration → no TRAF6 K63-ubiquitination → IKK complex not assembled → NF-κB blocked at receptor-proximal step
+- Nuclear arm: IL-37b isoform enters nucleus → SMAD3 binding → direct transcriptional suppression of IL-6, TNF-α, IL-1β gene promoters (receptor-independent; no prior analogue in framework)
+- Caspase-1 paradox: caspase-1 (NLRP3 product) cleaves pro-IL-37b → active; NLRP3 activation simultaneously generates pro-inflammatory IL-1β AND activates anti-inflammatory brake
+
+**Rosacea:** Li 2018 JEADV — IL-37 expression significantly REDUCED in rosacea lesional skin vs. normal (keratinocytes and macrophages). Loss of the IL-37 brake → IL-1β/IL-18 receptor hyperactivation in dermis → Loop 2 amplification → persistent Loop 1 (LL-37) → non-response to NLRP3 suppression. pDC dysfunction in rosacea → IL-37 ↓ from the main IL-37 producers.
+
+**T1DM:** Ye 2019 J Immunol — IL-37 transgenic NOD mice: significantly delayed T1DM onset, preserved β cell mass at 20 weeks, reduced islet CD4+/CD8+ infiltrate. Mechanism: IL-37 on islet macrophages → SIGIRR → less IL-1β/TNF-α/NO production → 13th β cell protection mechanism. Islet IL-37 reduced in human T1DM donors (RNA-seq data). Honeymoon: low IL-37 → ongoing β cell damage even after NLRP3 suppression.
+
+**Therapeutic/monitoring:**
+- Vitamin D3 (existing run_056) → VDR → IL-37 transcription in macrophages/keratinocytes (Mohamud 2015 Allergy). Serum IL-37 is now a VitD3 pharmacodynamic readout.
+- EGCG/green tea extract (existing run_091) → IL-37 de-repression via partial NF-κB attenuation. IL-37 monitoring tracks EGCG response.
+- NEW T-index component: serum IL-37 (<200 pg/mL = brake insufficiency; target >400 pg/mL)
+- Non-responders to current protocol: screen IL-37 baseline → low IL-37 explains persistent Loop 2 despite upstream NLRP3 suppression
+
+**Framework state: 118 runs | 13th β cell protection mechanism | Nuclear SMAD3/IL-37b mechanism | Serum IL-37 T-index monitoring | VitD3+EGCG IL-37 cross-mechanism insight.**
+
+*Updated: 2026-04-12 | Phase 4 ninety-third extension | IL-37 SIGIRR TIR8 IL-1R8 TOLLIP IRAK1 NF-κB downstream brake nuclear SMAD3 IL-37b beta cell protection NO iNOS rosacea lesional skin VDR EGCG serum IL-37 T-index v5 Li 2018 Bulau 2014 Ye 2019 Mohamud 2015 | run_118*
