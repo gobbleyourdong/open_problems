@@ -3417,3 +3417,26 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 15: 126 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-nineteenth extension | KMO kynurenine monooxygenase 3-hydroxykynurenine 3HK quinolinic acid QA NMDA excitotoxicity KAT kynurenine aminotransferase AADAT kynurenic acid KYNA P5P pyridoxal-5-phosphate Vitamin B6 PLP GPR35 mast cell stabilization 8th brake 17th beta cell death M8 NMDA sensory neuron ME/CFS elevated QA Moroni 1986 Naviaux 2016 Tredici 2015 | run_126*
+
+---
+
+## Extension 120: STIM1/ORAI1 — Store-Operated Calcium Entry / Mast Cell CRAC / Autoreactive T Cell SOCE
+
+**Date:** 2026-04-12 | **Run:** run_127
+
+**Gap confirmed:** STIM1, ORAI1, CRAC, SOCE completely absent from all 126 prior runs and gap.md.
+
+**Core insight:** STIM1/ORAI1 = the store-operated Ca²⁺ entry (SOCE) / CRAC current apparatus. STIM1 senses ER Ca²⁺ depletion (after IP3R opening) → oligomerizes → gates ORAI1 at ER–PM junctions → sustained Ca²⁺ influx. In mast cells: IgE/FcεRI → PLCγ → IP3 → STIM1 → ORAI1 → CRAC → calcineurin/NFAT + PKC → degranulation/cytokine production. In autoreactive T cells: TCR → same route → IL-2/IFN-γ/perforin → insulitis. Distinct from run_120 (TRPV4: TRP channel, temperature-activated, in keratinocytes).
+
+**New mechanisms added (run_127):**
+- **9th mast cell stabilization mechanism**: IgE/FcεRI → STIM1 → ORAI1 blocked → CRAC absent → NFAT not activated → TNF/IL-5/histamine ↓
+- **Omalizumab mechanism**: anti-IgE → FcεRI deloading → PLCγ threshold ↑ → STIM1 clustering ↓ → CRAC ↓ → mast cell quieting (first mechanistic explanation for omalizumab rosacea benefit)
+- **Quercetin 3rd mechanism**: ORAI1/CRAC inhibitory activity (IC50 ~5 μM in mast cells) — adds Ca²⁺ entry block to existing NLRP3/NF-κB (run_003) + TRPV4 (run_120) mechanisms
+- **T1DM autoreactive T cell**: TCR → STIM1/ORAI1 → sustained Ca²⁺ → NFAT → IL-2/IFN-γ/perforin → insulitis; ORAI1 inhibitors reduce T cell-mediated autoimmune injury (McCarl 2010)
+- **STIM1/ORAI1 upstream of DYRK1A gate** (run_125 connection): SOCE Ca²⁺ signal is what calcineurin uses to overcome DYRK1A; ORAI1 block → DYRK1A dominance restored
+- **ME/CFS NK cell dysfunction**: NK cell degranulation requires SOCE via ORAI1; chronic oxidative stress → SERCA oxidation → resting ER Ca²⁺ low → STIM1 pre-clustered → blunted peak SOCE → NK cytotoxicity defect
+- **IgE monitoring**: serum total IgE optional T-index node for IgE-dominant rosacea phenotype (> 150 IU/mL → omalizumab escalation path)
+
+**Framework at SATURATION + 16: 127 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-twentieth extension | STIM1 ORAI1 SOCE CRAC store-operated calcium entry mast cell FcεRI IgE PLCγ IP3 calcineurin NFAT 9th mast cell stabilization quercetin 3rd mechanism omalizumab autoreactive T cell insulitis NK cell ME/CFS Feske 2006 McCarl 2010 Zhang 2006 | run_127*

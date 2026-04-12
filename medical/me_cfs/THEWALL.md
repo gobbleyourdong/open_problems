@@ -918,3 +918,19 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 3. **P5P 25–50 mg/day for ME/CFS**: First protocol recommendation directly targeting the KMO/QA mechanism underlying brain fog in ME/CFS. Alongside existing ME/CFS-relevant elements: NR/NMN (run_090, NAD+/mitochondrial), CD73/A2A (run_121, purine pathway/microglial brake), NLRP1/ribotoxic (run_122, SIRT2/oral B3).
 
 *ME/CFS THEWALL cross-reference run_126: 2026-04-12 | KMO quinolinic acid QA NMDA microglial excitotoxicity brain fog cognitive ME/CFS elevated QA KYNA P5P pyridoxal-5-phosphate B6 KAT PLP Tredici 2015 Naviaux 2016 Nakatomi 2014 Regland 2015*
+
+---
+
+### Cross-reference: run_127 — STIM1/ORAI1 / NK Cell SOCE Dysfunction / ME/CFS
+
+**Gap:** STIM1/ORAI1/CRAC completely absent from 126 prior runs. Provides molecular mechanism for the well-documented ME/CFS NK cell cytotoxicity defect.
+
+1. **NK cell SOCE dysfunction in ME/CFS**: NK cell killing requires SOCE via STIM1/ORAI1 (KAR → PLCγ → IP3 → STIM1 → ORAI1 → CRAC → granule polarization + perforin/granzyme fusion). ME/CFS NK cells show reduced cytotoxicity (Brenu 2011 J Translational Med; Fletcher 2010 J Clin Immunol) despite normal target recognition. Proposed mechanism: oxidative stress → SERCA pump oxidation → ER Ca²⁺ resting level chronically low → STIM1 partially pre-clustered → blunted peak SOCE upon NK activation → degranulation failure.
+
+2. **Dual SOCE dysregulation model**: Chronic low-level SOCE (resting tonic Ca²⁺ elevated due to pre-clustered STIM1) → partial calcineurin activity → partial NFAT → basal IFN signature. But insufficient PEAK CRAC current upon stimulus → NK degranulation failure. This single STIM1/ORAI1 dysregulation explains BOTH the IFN signature AND the NK cytotoxicity defect in ME/CFS simultaneously.
+
+3. **Post-viral SOCE remodeling**: Viral ER stress (acute or chronic) → STIM1 conformational alteration → ORAI1 gating kinetics changed → persistent SOCE dysregulation after viral clearance. Compatible with post-COVID ME/CFS onset via viral ER stress → STIM1 dysfunction.
+
+4. **Protocol implication**: No specific STIM1/ORAI1 OTC for ME/CFS NK restoration; however quercetin's ORAI1-blocking property may partially normalize the SOCE tonic state (reduce constitutive low-level activation) without further impairing peak NK responses at standard doses. Monitor NK cell function (CD3⁻CD56⁺ cytotoxicity assay) if available as a T-index node for post-viral ME/CFS.
+
+*ME/CFS THEWALL cross-reference run_127: 2026-04-12 | STIM1 ORAI1 SOCE CRAC NK cell dysfunction cytotoxicity defect SERCA oxidation ER calcium tonic activation IFN signature dual dysregulation post-viral ER stress Brenu 2011 Fletcher 2010 Feske 2006*

@@ -1069,3 +1069,19 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 3. **Diabetic neuropathy connection**: QA → NMDA on peripheral neurons → sensitization → painful neuropathy. P5P → KYNA ↑ → NMDA block → diabetic neuropathy prevention independent of glucose control. P5P 25–50 mg/day provides both β cell protection and neuropathy prevention from a single mechanism.
 
 *T1DM THEWALL cross-reference run_126: 2026-04-12 | KMO quinolinic acid QA NMDA beta cell 17th death mechanism excitotoxicity KYNA GPR35 gut barrier LPS P5P pyridoxal-5-phosphate Vitamin B6 KAT PLP diabetic neuropathy Bhatt 2009 Moroni 1986*
+
+---
+
+### Cross-reference: run_127 — STIM1/ORAI1 / Autoreactive T Cell SOCE / Insulitis
+
+**Gap:** STIM1/ORAI1/CRAC completely absent from 126 prior runs. Core T cell SOCE mechanism for autoreactive insulitis.
+
+1. **Autoreactive T cell SOCE → insulitis**: TCR activation (GAD65/proinsulin/IAPP antigens) → PLCγ → IP3 → ER Ca²⁺ depletion → STIM1 oligomerization → ORAI1 → CRAC current → sustained Ca²⁺ > 1 min → calcineurin/NFAT → IL-2 (T cell expansion), IFN-γ (β cell MHC-I ↑, TXNIP ↑), perforin/granzyme B (direct β cell killing). STIM1/ORAI1-deficient T cells show profoundly reduced T cell-mediated autoimmune injury (McCarl 2010 J Immunol).
+
+2. **STIM1/ORAI1 upstream of DYRK1A gate (run_125)**: SOCE Ca²⁺ signal is what calcineurin uses to overcome DYRK1A/GSK-3β phosphorylation of NFAT. ORAI1 inhibition → DYRK1A phosphodegron dominates → NFAT cytoplasmic → T cell activation blunted. Explains the Ca²⁺ threshold architecture.
+
+3. **β cell maladaptive SOCE under ER stress (run_098 connection)**: ER stress (UPR from cytokines/misfolded proinsulin) → ER Ca²⁺ depletion → STIM1 → ORAI1 in β cells → [Ca²⁺] overload → mitochondrial permeability transition → β cell apoptosis. SOCE provides a Ca²⁺ amplification arm to existing β cell death mechanisms.
+
+4. **ORAI1 inhibitors**: CM4620 (Calcimedica) in phase 2 trials; RO2959 reduces autoreactive T cell cytokine production. Future T1DM insulitis prevention target distinct from calcineurin inhibitors (less immunosuppressive as it targets the Ca²⁺ INPUT node rather than all calcineurin outputs).
+
+*T1DM THEWALL cross-reference run_127: 2026-04-12 | STIM1 ORAI1 SOCE CRAC autoreactive T cell TCR PLCγ calcineurin NFAT insulitis IFN-γ perforin β cell death DYRK1A gate Ca²⁺ threshold ER stress maladaptive SOCE CM4620 McCarl 2010 Feske 2006*

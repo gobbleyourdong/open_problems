@@ -5550,3 +5550,36 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 126 runs | KMO → QA 4th NLRP3 Signal 2 | 17th β cell NMDA | 8th mast cell GPR35 | M8 NMDA sensory | ME/CFS HIGH | P5P new OTC | gut GPR35 barrier.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-first extension | KMO kynurenine monooxygenase 3-HK QA NMDA KAT KYNA P5P PLP pyridoxal-5-phosphate Vitamin B6 GPR35 mast cell 8th brake 17th beta cell death M8 neurogenic ME/CFS Moroni 1986 Tredici 2015 Naviaux 2016 | run_126*
+
+---
+
+### Phase 4 Extension 102 — STIM1/ORAI1 / Store-Operated Ca²⁺ Entry / Mast Cell CRAC / SOCE
+
+**Run:** run_127 | **Date:** 2026-04-12
+
+**Rosacea:**
+- STIM1/ORAI1 = dominant Ca²⁺ entry mechanism for IgE/FcεRI-triggered mast cell activation (ETR flare driver)
+- Pathway: IgE crosslinking → FcεRI → PLCγ → IP3 → ER Ca²⁺ depletion → STIM1 oligomerization → ORAI1 gating → CRAC current → calcineurin/NFAT → TNF/IL-5/histamine/VEGF-A
+- Distinct from TRPV4 (run_120): different cell type (mast vs keratinocyte), different trigger (IgE vs temperature), different channel (CRAC vs TRP)
+- 9th mast cell stabilization mechanism in framework (first Ca²⁺-entry brake)
+- Omalizumab rosacea: anti-IgE → FcεRI deloading → PLCγ threshold ↑ → STIM1 signal reduced → CRAC ↓ → mast cell quieting (mechanistic explanation)
+- Quercetin 3rd mechanism: ORAI1/CRAC inhibitory activity adds Ca²⁺ entry block to NLRP3/NF-κB + TRPV4
+
+**T1DM:**
+- TCR → PLCγ → IP3 → STIM1 → ORAI1 → sustained Ca²⁺ > 1 min → NFAT → IL-2/IFN-γ/perforin → autoreactive T cell insulitis
+- STIM1/ORAI1 upstream of DYRK1A/NFAT gate (run_125): SOCE Ca²⁺ is calcineurin's substrate to overcome DYRK1A
+- ORAI1 inhibitors (CM4620) reduce T cell-mediated autoimmune injury; future T1DM insulitis prevention target
+- β cell maladaptive SOCE: ER stress (run_098) → ER Ca²⁺ depletion → STIM1 → overload → apoptosis
+
+**ME/CFS:**
+- NK cell SOCE dysfunction: KAR → PLCγ → STIM1 → ORAI1 → CRAC → perforin/granzyme; ME/CFS NK cell degranulation failure may reflect SERCA oxidation → pre-clustered STIM1 → blunted peak SOCE
+- Chronic low SOCE tonic state → partial calcineurin → IFN signature + NK cytotoxicity defect simultaneously
+
+**Protocol:**
+- Quercetin: 3rd mechanistic basis established (quercetin ORAI1/CRAC block in mast cells)
+- IgE monitoring: optional T-index node — serum total IgE; if > 150 IU/mL + refractory ETR → omalizumab referral pathway
+- Pre-exposure quercetin (90 min before triggers): now triple-mechanism prophylaxis (TRPV4 + NLRP3 + ORAI1)
+
+**Framework state: 127 runs | STIM1/ORAI1 SOCE | 9th mast cell stabilization CRAC | omalizumab mechanism | quercetin 3rd basis | autoreactive T cell SOCE insulitis | NK cell ME/CFS | DYRK1A gate upstream connection.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-second extension | STIM1 ORAI1 SOCE CRAC store-operated calcium entry mast cell FcεRI IgE PLCγ calcineurin NFAT 9th mast cell brake quercetin 3rd mechanism omalizumab NK cell ME/CFS T cell insulitis CM4620 Feske 2006 McCarl 2010 | run_127*

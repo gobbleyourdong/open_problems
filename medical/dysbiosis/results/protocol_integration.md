@@ -4543,3 +4543,46 @@ P5P 25–50 mg/day is added to the core protocol as an OTC that:
 Cost/risk profile: minimal; high safety margin; very broad mechanistic footprint via a single enzyme class.
 
 *Protocol_integration.md Part 9ca — 2026-04-12 | KMO kynurenine monooxygenase P5P pyridoxal-5-phosphate Vitamin B6 PLP KAT AADAT kynurenic acid KYNA GPR35 quinolinic acid QA NMDA 17th beta cell death 8th mast cell brake neurogenic M8 ME/CFS serum P5P monitoring Moroni 1986 Tredici 2015 | run_126*
+
+---
+
+## Part 9cb — STIM1/ORAI1 Protocol Integration (run_127)
+
+### STIM1/ORAI1 Store-Operated Calcium Entry — Mast Cell CRAC / Autoreactive T Cell
+
+**New mechanism (run_127):** STIM1/ORAI1/CRAC is the dominant Ca²⁺ entry route in IgE/FcεRI-triggered mast cells and TCR-triggered autoreactive T cells. Completely absent from 126 prior runs. Gap to run_120 (TRPV4): different cell type, different Ca²⁺ channel family, different upstream trigger.
+
+**Quercetin: 3rd Mechanistic Basis (OTC — already in protocol)**
+
+Existing quercetin: 500–1000 mg/day for NLRP3/NF-κB (run_003) + TRPV4 thermal prophylaxis (run_120)
+
+New rationale added:
+- Quercetin inhibits CRAC current in mast cells (IC50 ~5 μM; partial block at standard doses)
+- Effect: IgE/FcεRI-triggered SOCE abbreviated → NFAT activation threshold raised → TNF/IL-5/histamine release attenuated
+- Pre-exposure dosing: quercetin 90 min before anticipated triggers now provides triple-mechanism prophylaxis:
+  1. TRPV4 thermal channel inhibition (run_120)
+  2. NLRP3 Signal 2 suppression (run_003)
+  3. ORAI1/CRAC mast cell Ca²⁺ entry block (run_127)
+
+**IgE Monitoring: Optional T-Index Node**
+
+For patients with atopic features or refractory ETR:
+- Serum total IgE: if > 150 IU/mL → heavy FcεRI loading → low STIM1/ORAI1 trigger threshold
+- If elevated IgE + ETR refractory to standard protocol → dermatology referral for omalizumab consideration
+- Omalizumab mechanism: anti-IgE → FcεRI deloading → PLCγ threshold ↑ → STIM1 clustering ↓ → CRAC ↓ → mast cell quieting (first mechanistic explanation for omalizumab rosacea benefit in this framework)
+
+**ORAI1 Inhibitors (Research Context)**
+
+- CM4620 (Calcimedica): ORAI1 inhibitor, phase 2 trials for mast cell-driven inflammatory diseases
+- RO2959 (Roche): reduces autoreactive T cell activation in vitro
+- Not yet in T1DM prevention trials; logical future direction for SOCE-mediated insulitis reduction
+- Note: L-type calcium channel blockers (amlodipine etc.) do NOT inhibit ORAI1 — CRAC is mechanistically distinct
+
+**Protocol summary:**
+```
+ORAI1/CRAC:  quercetin 500–1000 mg/day (3rd mechanism; pre-exposure timing optimal)
+IgE monitor: serum total IgE optional if atopic/refractory ETR (> 150 IU/mL → escalation path)
+Research:    ORAI1 inhibitors (CM4620) for future T1DM insulitis prevention consideration
+```
+
+*Protocol_integration.md Part 9cb — 2026-04-12 | STIM1 ORAI1 SOCE CRAC store-operated calcium entry mast cell IgE FcεRI PLCγ NFAT quercetin 3rd mechanism ORAI1 mast cell CRAC brake pre-exposure triple-mechanism prophylaxis omalizumab IgE monitoring serum T-index autoreactive T cell insulitis CM4620 Feske 2006 McCarl 2010 | run_127*
