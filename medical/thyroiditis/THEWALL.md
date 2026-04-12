@@ -292,3 +292,18 @@ macrophages. This adds mechanistic depth to the MK-7 recommendation for Hashimot
 
 **Cross-references:** dysbiosis run_070 (Signal 1D); run_066 (adipokines); thyroiditis MK-7 entry (prior)
 *Cross-pollination: 2026-04-12 | Leptin STAT3 NLRP3 Signal 1D Hashimoto's thyroid macrophage MK-7 SOCS1*
+
+---
+
+## Thyroiditis Cross-Reference: run_088 (HCQ → TLR7/9 → IFN-α ↓ → Hashimoto's Autoimmunity)
+
+**Thyroiditis relevance: TLR7/TLR9 → IFN-α in Hashimoto's thyroiditis pathogenesis**
+
+Hashimoto's thyroiditis: TLR7 (ssRNA from viral infections → HERV-W RNA) + TLR9 (CpG DNA from damaged thyrocytes + NETs) → pDC within thyroid + draining lymph node → IFN-α → CXCL10 ↑ → CXCR3+ Th1 cell recruitment → thyroid destruction. IFN-α signaling in thyrocytes → MHC-I upregulation → CTL-mediated thyrocyte killing (analogous to β cell mechanism in T1DM).
+
+1. **TLR9 → IFN-α in Hashimoto's**: Unmethylated CpG DNA from necrotic/apoptotic thyrocytes + LL-37/NET-DNA complexes → pDC TLR9 → IFN-α → CXCL10 → Th1 effector recruitment → anti-TPO/anti-Tg amplification.
+2. **HCQ in Hashimoto's**: HCQ blocks TLR7/TLR9 endosomal activation → IFN-α ↓ → less CXCL10 → less Th1 recruitment. Small case series show anti-TPO antibody titer reduction with HCQ in Hashimoto's. No RCT but mechanistic basis is strong.
+3. **HERV-W and Hashimoto's**: HERV-W RNA → TLR7 → IFN-α → thyroid inflammation. HCQ blocks TLR7 → less HERV-W-driven IFN-α in thyroid pDC.
+4. **T1DM + Hashimoto's co-occurrence**: ~30% of T1DM patients have co-occurring thyroid autoimmunity. HCQ addresses BOTH simultaneously: T1DM β cell IFN-α/MHC-I + thyroid pDC IFN-α/Th1 recruitment. Single agent addressing two autoimmune conditions.
+
+**Cross-reference: run_088 dysbiosis framework | HCQ TLR7 TLR9 IFN-α Hashimoto's thyroiditis pDC CXCL10 Th1 anti-TPO | HERV-W thyroid | T1DM thyroiditis co-occurrence**

@@ -414,3 +414,146 @@ T1DM is fundamentally characterized by Treg/Th17 imbalance driving β cell destr
 4. **Homocysteine in T1DM**: Metformin-B12 depletion → homocysteine ↑ → endothelial dysfunction + oxidative stress → independently worsens T1DM vascular complications. B12 monitoring protects both HERV-W (M3) and vascular integrity
 
 **Cross-reference: run_084+085 dysbiosis framework | macrophage succinate HIF-1α islet IL-1β | VEGF retinopathy | metformin B12 homocysteine vascular | Mg²⁺ AMPK**
+
+---
+
+## T1DM Cross-Reference: run_088 (HCQ → TLR7/9 → IFN-α ↓ → β Cell Protection)
+
+**T1DM relevance: IFN-α → β cell MHC-I upregulation → CTL-mediated β cell destruction**
+
+TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 → MHC-I ↑ → CTL recognition → accelerated β cell destruction. This is the endosomal arm of the T1DM IFN-α/β cell pathology chain. HCQ blocks TLR7/9 → IFN-α ↓ → β cell MHC-I ↓ → CTL targeting ↓.
+
+1. **HCQ glucose-lowering in T1DM/T2DM**: Wasko 2012 JAMA 307:1030 (RA patients on HCQ → T2DM incidence ↓ 50-77%); HbA1c ↓ 0.5-0.7%. Mechanism likely: TLR9 → IFN-α → β cell stress ↓ → better C-peptide preservation → less exogenous insulin requirement. T1DM patients initiating HCQ need insulin dose reduction (hypoglycemia risk).
+2. **Islet pDC TLR7**: pDC are present in T1DM pancreatic lymph nodes; TLR7-derived IFN-α from HERV-W/CVB RNA. HCQ → TLR7 ↓ → less islet IFN-α → less β cell IFNAR activation.
+3. **cGAS-STING not blocked by HCQ**: cytoplasmic DNA from damaged β cell mitochondria → cGAS → IFN-β. HCQ does not block this; protocol coverage via mitophagy (spermidine + urolithin A → mtDNA leakage ↓).
+4. **T1DM co-management**: HCQ in T1DM requires endocrinology + rheumatology co-management. Annual ophthalmology after 5 years. Retinal monitoring critical in T1DM (concurrent diabetic retinopathy risk).
+
+**Cross-reference: run_088 dysbiosis framework | HCQ TLR7 TLR9 IFN-α β cell MHC-I CTL Wasko 2012 | insulin dose adjustment | cGAS-STING mitophagy**
+
+---
+
+## T1DM Cross-Reference: run_089 (PPAR-α / Omega-3 / ACCORD-Lipid)
+
+**T1DM relevance: fenofibrate → diabetic retinopathy ↓ via PPAR-α → HIF-1α/VEGF mechanism**
+
+1. **ACCORD-Lipid trial**: fenofibrate + simvastatin → diabetic retinopathy progression ↓ 40% in T2DM (PPAR-α mechanism, not lipid-lowering; benefit in TG-normal patients too). The mechanism: PPAR-α → macrophage β-oxidation ↑ → less Warburg → less succinate → PHD2 ↑ → HIF-1α ↓ → retinal VEGF ↓ → less pathological angiogenesis in DR.
+2. **Omega-3 in T1DM**: EPA/DHA (3-4g/day) → PPAR-α activation in macrophages and retinal endothelium → partial overlap with fenofibrate's retinal PPAR-α benefit. Omega-3 already recommended; PPAR-α mechanism now explicit.
+3. **T1DM retinopathy**: consider ophthalmology discussion re: fenofibrate 145mg/day for T1DM patients with retinopathy. Standard triglyceride indication provides additional PPAR-α anti-inflammatory and VEGF-reducing benefits.
+4. **β cell PPAR-α**: PPAR-α in β cells → promotes fatty acid β-oxidation → less lipotoxicity → better islet function in T1DM. PPAR-α activation protective for β cell mass.
+
+**Cross-reference: run_089 dysbiosis framework | PPAR-α omega-3 EPA fenofibrate ACCORD-Lipid retinopathy HIF-1α VEGF | β cell lipotoxicity**
+
+---
+
+## T1DM Cross-Reference: run_090 (SIRT3/SIRT6 → Mitochondrial and Epigenetic NAD⁺ Mechanisms)
+
+**T1DM relevance: mitochondrial NAD⁺ vicious cycle + SIRT6 ↓ hyperglycemia amplifier**
+
+1. **T1DM mitochondrial NAD⁺ vicious cycle**: T1DM → mitochondrial Complex I/III dysfunction → excess mROS → PARP-3 (mitochondrial PARP isoform) activation → mitochondrial NAD⁺ consumed → SIRT3 ↓ → SOD2 acetylated/inactive → EVEN MORE mROS. This cycle is a T1DM-specific amplifier of mitochondrial damage. Niacinamide/NR → NAD⁺ supplementation interrupts this cycle. NR (nicotinamide riboside) preferred over standard niacinamide for mitochondrial penetration (Cantó 2012).
+
+2. **β cell SIRT3**: β cells rely heavily on mitochondrial OXPHOS for ATP-coupled insulin secretion. SIRT3 → SOD2 → mROS ↓ → less β cell mitochondrial oxidative damage → better insulin secretion coupling. T1DM residual β cells: SIRT3 support potentially preserves remaining C-peptide production.
+
+3. **T1DM hyperglycemia → SIRT6 ↓**: High glucose → AGE-RAGE → oxidative SIRT6 degradation → NF-κB chromatin more accessible → lower threshold for TNFα, IL-6, MCP-1 expression. This is a 3rd hyperglycemia-specific NF-κB amplifier (alongside AGE-RAGE direct activation + AMPK ↓). Glycemic control AND niacinamide/NAD⁺ both restore SIRT6.
+
+4. **Diabetic vascular SIRT6**: SIRT6 → VCAM-1 H3K9 deacetylation → VCAM-1 ↓ → less monocyte adhesion → less atherosclerosis. T1DM cardiovascular benefit from niacinamide/SIRT6 pathway beyond rosacea.
+
+**Cross-reference: run_090 dysbiosis framework | SIRT3 SOD2 mROS mitochondrial NAD⁺ | SIRT6 H3K9ac NF-κB hyperglycemia | β cell OXPHOS insulin secretion | NR nicotinamide riboside Cantó 2012**
+
+---
+
+## T1DM Cross-Reference: run_091 (IDO1 → Kynurenine → Tryptophan Depletion → T1DM Autoimmunity)
+
+**T1DM relevance: IDO1 → tryptophan depletion → T cell tolerance loss + β cell QUIN toxicity**
+
+1. **IDO1 and T1DM immune tolerance**: IDO1 is expressed in pancreatic islets and draining lymph nodes. In T1DM: IFN-γ (from CTLs attacking β cells) → IDO1 ↑ → tryptophan depletion → T cell anergy/apoptosis — this is PROTECTIVE in some contexts (IDO1 limits CTL expansion). However, when IDO1 depletes tryptophan from the regulatory milieu, L. reuteri IAd → regulatory AhR signaling is suppressed → fewer Tregs → immune tolerance breaks down further.
+
+2. **QUIN and β cell toxicity**: IDO1 → kynurenine → QUIN. Pancreatic β cells express NMDA receptors. QUIN → NMDA agonism in β cells → Ca²⁺ influx → β cell apoptosis. This is a mechanism by which IDO1 over-induction in T1DM islets directly damages β cells through excitotoxicity, independent of CTL-mediated destruction.
+
+3. **T1DM kynurenine elevated**: Plasma kynurenine/tryptophan ratio is elevated in T1DM patients (Wahlstedt 2016: IDO1 activity ↑ in T1DM). This confirms IDO1 is active and tryptophan depleted in T1DM systemic context.
+
+4. **EGCG + quercetin IDO1 inhibition**: Already in rosacea protocol. T1DM context: these agents may partially preserve tryptophan for IAd/regulatory AhR → Treg → islet immune tolerance. Supporting evidence from NOD mouse models of T1DM (EGCG → T1DM incidence ↓; mechanism includes IDO1).
+
+**Cross-reference: run_091 dysbiosis framework | IDO1 kynurenine tryptophan T1DM QUIN β cell NMDA excitotoxicity | Wahlstedt 2016 | EGCG T1DM NOD model | regulatory AhR tolerance**
+
+
+---
+
+## T1DM Cross-Reference: run_093 (TRPA1 → Methylglyoxal → T1DM Neurogenic Hyperactivation)
+
+**T1DM relevance: hyperglycemia-derived methylglyoxal → TRPA1 sensitization → diabetic neuropathy + rosacea trigger hyperreactivity**
+
+1. **Methylglyoxal (MG) and TRPA1 in T1DM**: Hyperglycemia → triose phosphate accumulation → MG at 5-10× above normal. MG → TRPA1 activation on DRG neurons (Andersson 2013 PNAS 110(23):9399-9404: MG → TRPA1 → diabetic peripheral neuropathy pain). This mechanism is active systemically in T1DM; facial sensory neurons affected. T1DM rosacea patients have lower TRPA1 trigger threshold than non-diabetic rosacea due to chronic MG-mediated TRPA1 sensitization.
+
+2. **MG and AGE formation**: MG → CEL (carboxyethyl-lysine) and MG-H1 (methylglyoxal-derived hydroimidazolone) → AGEs. These MG-derived AGEs → RAGE → NF-κB (run_059 glycation context). MG → TRPA1 and MG → AGE/RAGE represent two parallel MG toxicity arms in T1DM: neurogenic (TRPA1) + inflammatory (RAGE/NF-κB).
+
+3. **Benfotiamine relevance**: Benfotiamine (fat-soluble B1) → transketolase ↑ → triose phosphate redirected to pentose phosphate pathway → MG production ↓. Reduces both MG arms (TRPA1 neurogenic + AGE/RAGE inflammatory). T1DM neuropathy management context where benfotiamine is already considered.
+
+4. **Glycemic control → TRPA1**: HbA1c reduction → triose phosphate ↓ → MG ↓ → TRPA1 sensitization ↓ → lower neurogenic vasodilation reactivity. Mechanism by which tight glycemic control reduces neuropathic symptoms in T1DM beyond direct nerve damage prevention.
+
+5. **TRPA1-TRPV1 cross-sensitization in T1DM**: Chronic MG → TRPA1 sensitization lowers TRPV1 threshold (cross-sensitization via shared intracellular Ca²⁺ and PKA pathways). T1DM patients thus have lower TRPV1 threshold as well — amplified heat/capsaicin flushing responses.
+
+**Cross-reference: run_093 dysbiosis framework | TRPA1 methylglyoxal MG T1DM diabetic neuropathy triose phosphate benfotiamine glycemic control | Andersson 2013 PNAS | food trigger rosacea T1DM hyperreactivity**
+
+---
+
+## T1DM Cross-Reference: run_094 (IPA → PXR → Claudin-1 → 4th Gut Barrier Mechanism)
+
+**T1DM relevance: dysbiosis-driven IPA depletion → PXR-mediated tight junction failure → LPS translocation + TLR4 amplification**
+
+1. **T1DM dysbiosis and IPA depletion**: T1DM gut dysbiosis (depleted Lactobacillus, disrupted Clostridia ecosystem) → IPA-producing organism decline → plasma IPA ↓. Venkatesh 2014 (Immunity) shows IPA-depleted states → claudin-1 ↓ + intestinal permeability ↑. T1DM patients' elevated I-FABP (gut barrier damage marker) is partially attributable to IPA/PXR-mediated claudin-1 deficiency.
+
+2. **PXR → TLR4 suppression in T1DM**: IPA/PXR deficiency → TLR4 expression on gut epithelium ↑ → same LPS → more TLR4 engagement → more portal NF-κB → more systemic LPS-driven inflammation. In T1DM, where LPS translocation already amplifies β cell insulitis via TLR4 on islet macrophages, PXR-mediated TLR4 reduction provides an additional layer of islet protection.
+
+3. **L. reuteri (already in protocol) → IPA + IAd**: L. reuteri produces IPA alongside IAd without IS co-production (no tryptophanase). The existing L. reuteri protocol for IAd/AhR/Treg simultaneously delivers IPA → PXR → claudin-1. Two nuclear receptor benefits from one organism.
+
+4. **IDO1 → IPA depletion in T1DM**: High IFN-α (elevated in T1DM autoimmune context) → IDO1 ↑ → tryptophan depleted → IPA synthesis ↓ → PXR activation ↓ → claudin-1 ↓. Same IDO1 mechanism that suppresses Node A (run_091) also suppresses Node C via IPA. HCQ → IFN-α ↓ → IDO1 ↓ → tryptophan preserved → IPA synthesis ↑ → claudin-1 ↑ → islet macrophage LPS exposure ↓ → insulitis ↓.
+
+**Cross-reference: run_094 dysbiosis framework | IPA PXR claudin-1 tight junction T1DM dysbiosis TLR4 islet macrophage LPS insulitis | Venkatesh 2014 Immunity | L. reuteri IPA co-production**
+
+---
+
+## T1DM Cross-Reference: run_095 (KLK5 → Bradykinin → B2R → TRPV1: ACE-I Paradox in T1DM Rosacea)
+
+**T1DM relevance: ACE-I bradykinin paradox + KKS in diabetic neuropathy context**
+
+1. **ACE-I bradykinin paradox**: T1DM patients are commonly on ACE-I for nephroprotection. ACE inhibits bradykinin degradation (kininase II). In T1DM rosacea: ACE-I → bradykinin ↑ → B2R on facial sensory neurons → TRPV1 sensitization ↑ → worsened neurogenic flushing. For T1DM rosacea patients with active flushing on ACE-I, ARB switch (losartan/irbesartan) provides equivalent RAAS/NLRP3 benefit (run_092) without bradykinin accumulation. Both are ADA-guideline appropriate for T1DM nephroprotection.
+
+2. **KKS and diabetic neuropathy**: Bradykinin B2R is expressed on DRG neurons. In T1DM, elevated KLK5 activity (from skin dysbiosis) generates kallidin → B2R → PKC → TRPV1 sensitization — the same TRPV1 that is also sensitized by methylglyoxal (run_093). T1DM patients face BOTH MG-TRPA1 sensitization AND kallidin-B2R-TRPV1 sensitization simultaneously → compound neurogenic hyperreactivity. Mechanism for clinical observation that T1DM rosacea has more severe neurogenic symptoms.
+
+3. **B1R and IL-1β loop**: T1DM chronic low-grade inflammation → IL-1β (from NLRP3; run_084 + run_090) → B1R expression ↑ on DRG neurons → more bradykinin receptor → worsened B2R/B1R-TRPV1 sensitization. T1DM's baseline elevated IL-1β thus amplifies the bradykinin axis independently of acute rosacea flares.
+
+**Cross-reference: run_095 dysbiosis framework | KLK5 bradykinin B2R TRPV1 sensitization ACE-I paradox ARB T1DM nephroprotection | KKS diabetic neuropathy MG compound sensitization | B1R IL-1β Yoon 2007 Eissa 2011**
+
+---
+
+## T1DM Cross-Reference: run_096 (Non-Canonical Inflammasome: T1DM Endotoxemia → Caspase-4/5 → GSDMD)
+
+**T1DM relevance: elevated plasma LPS in T1DM → non-canonical caspase-4/5 pyroptosis in islets and vasculature**
+
+1. **T1DM endotoxemia and non-canonical inflammasome**: Cani 2008 Diabetes 57(6):1470-1481 documented elevated plasma LPS in T1DM from gut dysbiosis. This circulating LPS pool → macrophage cytosolic LPS (via OMV or HMGB1-LPS complex internalization) → caspase-4/5 → GSDMD pyroptosis. In T1DM islets: macrophages expressing caspase-4/5 → LPS from portal circulation → islet macrophage non-canonical pyroptosis → IL-18 → IFN-γ → CTL activation → β cell loss amplified independent of canonical NLRP3 (run_043).
+
+2. **Caspase-4/5 in diabetic vasculature**: Non-canonical pyroptosis has been demonstrated in endothelial cells under LPS stimulation. In T1DM: elevated circulating LPS → endothelial caspase-4/5 → GSDMD pore formation → endothelial barrier disruption → monocyte extravasation → atherosclerosis. This is a non-canonical mechanism for T1DM cardiovascular complications.
+
+3. **Gut barrier as dual T1DM intervention**: Gut barrier optimization (runs 026/032/059/094) reduces circulating LPS → reduces BOTH canonical TLR4/NF-κB islet macrophage activation AND non-canonical caspase-4/5 islet inflammation. Node C (I-FABP) monitoring is doubly important in T1DM: it reflects LPS translocation driving two parallel inflammatory cascades.
+
+4. **Anti-NLRP3 vs caspase-4/5 insufficiency**: T1DM trials of NLRP3 inhibitors (colchicine, BHB) for β cell preservation may be undermined by non-canonical caspase-4/5 activity if gut barrier is not simultaneously optimized. LPS normalization (via gut barrier) may be a prerequisite for NLRP3 inhibition efficacy in T1DM.
+
+**Cross-reference: run_096 dysbiosis framework | non-canonical inflammasome caspase-4 caspase-5 GSDMD T1DM endotoxemia LPS islet macrophage β cell | Cani 2008 Kayagaki 2015 | gut barrier Node C priority**
+
+---
+
+## T1DM Cross-Reference: run_098 (ER Stress → PERK → CHOP → β Cell Apoptosis + IFN-α Connection)
+
+**T1DM relevance: ER stress is a primary β cell death mechanism; IFN-α → PERK → CHOP chain; HCQ benefits β cell via this axis**
+
+1. **PERK/CHOP β cell apoptosis**: β cells synthesize ~1 million insulin molecules per minute — highest ER secretory load of any cell. Hyperglycemia → ↑ insulin synthesis demand → ER crowding → PERK → eIF2α → ATF4 → CHOP → BIM/PUMA → caspase-9 → apoptosis. CHOP is a primary T1DM β cell apoptosis transcription factor (Eizirik 2012 Nat Rev Endocrinol; Cnop 2017 Diabetes Obes Metab). PERK activation is upstream of the end-stage β cell death cascade.
+
+2. **IFN-α → PERK → CHOP**: Signal 1B (IFN-α; elevated in T1DM pre-onset) activates PERK in β cells, driving CHOP independently of hyperglycemia-driven ER crowding. HCQ → IFN-α ↓ (run_088) benefits β cell survival via reducing PERK/CHOP activation — a third HCQ β cell protection mechanism (alongside direct TLR7/9 → IFN-α → MHC-I reduction from run_088).
+
+3. **Wolfram syndrome validation**: WFS1 (wolframin, ER Ca²⁺ pump) mutations → chronic β cell ER stress → T1DM. This is genetic proof of concept that ER stress causally drives β cell loss in T1DM. Confirms PERK/CHOP axis is a genuine T1DM mechanism, not extrapolation.
+
+4. **GLP-1R → BiP → β cell ER stress reduction**: GLP-1R → cAMP → PKA → BiP/GRP78 ↑ → ER protein folding capacity ↑ → PERK activation ↓ (Yusta 2006 Cell Metab). GLP-1 analogs protect β cells partly via ER stress reduction — a mechanism addition to run_073's GLP-1R analysis.
+
+5. **SIRT1 → HSF1 → HSP70/BiP**: Niacinamide → SIRT1 → 6th mechanism (HSF1 → HSP70/BiP) → β cell ER chaperone ↑ → PERK/CHOP ↓. Niacinamide protocol provides partial β cell ER stress protection via SIRT1/HSF1/BiP in addition to NLRP3 and NF-κB benefits.
+
+**Cross-reference: run_098 dysbiosis framework | ER stress PERK eIF2α CHOP β cell apoptosis T1DM IFN-α Wolfram WFS1 GLP-1R BiP SIRT1 HSF1 HCQ | Eizirik 2012 Cnop 2017 Westerheide 2009 Yusta 2006**

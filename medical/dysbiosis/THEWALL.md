@@ -3708,3 +3708,536 @@ Three dietary KEAP1/Nrf2 activators:
 ```
 
 *Updated: 2026-04-12 | Phase 4 sixty-second extension | HCQ TLR7 TLR9 IFN-α Signal 1B endosomal pH Node D / EVOO hydroxytyrosol SIRT1 KEAP1 Nrf2*
+
+---
+
+## Phase 4 — Sixty-Third Extension (2026-04-12): PPAR-α / omega-3 Primary Nuclear Receptor / Warburg Counter (run_089)
+
+**New mechanistic connections established:**
+
+### PPAR-α: Fourth Omega-3 Mechanism (Dominant Intracellular Target)
+
+EPA and DHA are strong PPAR-α agonists (EC50 ~1-10 µM) — significantly stronger than their PPARγ agonism (EC50 ~50-100 µM; run_077). The framework's previous analysis of omega-3 → PPARγ captured the secondary nuclear receptor interaction; the primary one (PPAR-α) was unanalyzed until run_089.
+
+**PPAR-α mechanism 1 — NF-κB transrepression via coactivator competition:**
+```
+Activated PPAR-α:RXRα → sequesters CBP/p300 coactivator complex
+    → p65 cannot recruit CBP/p300 → p65 Lys310 not acetylated → NF-κB target genes ↓
+    → Distinct from PPARγ mechanism (PPARγ: SUMO-ylation → NCoR1/HDAC3 recruitment)
+    → Two distinct omega-3 NF-κB transrepression mechanisms: PPAR-α (CBP/p300) + PPARγ (NCoR1)
+```
+
+**PPAR-α mechanism 2 — Macrophage Warburg shift ↓ → upstream run_084 counter:**
+```
+PPAR-α → CPT1a, ACOX1 → β-oxidation ↑ → macrophage uses FA oxidation over glycolysis
+    → Less Warburg shift under LPS → succinate does NOT accumulate
+    → PHD2 active → HIF-1α hydroxylated → VHL degradation → IL-1β ↑ prevented
+    → Direct upstream counter to: LPS → M1 → succinate → PHD2 ↓ → HIF-1α → IL-1β (run_084)
+```
+
+### T1DM Clinical Evidence: ACCORD-Lipid + Fenofibrate
+
+ACCORD-Lipid 2010 NEJM 362:1563: fenofibrate (pharmacological PPAR-α agonist) → diabetic retinopathy progression ↓ 40% in T2DM (T1DM-equivalent context). The mechanism: PPAR-α → less HIF-1α (via Warburg/succinate) → less VEGF → less pathological retinal angiogenesis. This connects the run_084 succinate/HIF-1α/VEGF chain to a clinical T1DM outcome with Level 1 trial evidence.
+
+### Updated Omega-3 Mechanism Count
+
+```
+Complete omega-3 anti-inflammatory mechanism map (run_089):
+    1. GPR120 → ERK1/2 → IL-6/IL-23 ↓ → Th17 ↓ (run_062)
+    2. SPM production → resolvins/protectins → active resolution (run_020)
+    3. PPARγ → SUMO-ylation → NCoR1/HDAC3 → NF-κB chromatin repression (run_077; weak)
+    4. PPAR-α → CBP/p300 sequestration → NF-κB ↓ + Warburg shift ↓ → succinate ↓ → HIF-1α ↓ (run_089; dominant)
+```
+
+**Protocol implication:** No new agents. Omega-3 3-4g/day already delivers all four mechanisms. PPAR-α activation is the primary mechanism by which omega-3 suppresses macrophage NF-κB and shifts macrophage metabolism.
+
+*Updated: 2026-04-12 | Phase 4 sixty-third extension | PPAR-α EPA omega-3 CBP/p300 NF-κB transrepression Warburg succinate HIF-1α ACCORD-Lipid fenofibrate diabetic retinopathy run_089*
+
+---
+
+## Phase 4 — Sixty-Fourth Extension (2026-04-12): SIRT3/SIRT6 — Mitochondrial and Epigenetic NAD⁺-Sirtuin Mechanisms Beyond SIRT1 (run_090)
+
+**New mechanistic connections established:**
+
+### SIRT3: 7th NLRP3 Inhibition Mechanism (mROS-Specific)
+
+The existing 6 NLRP3 inhibition mechanisms (BHB + colchicine + SIRT1/melatonin + zinc + spermidine + AMPK) target: NACHT domain (BHB), tubulin assembly (colchicine), K496 acetylation (SIRT1), K⁺ efflux (zinc), EP300/Beclin-1 (spermidine), Ser291 phosphorylation (AMPK). None targets the mROS arm of Signal 2 directly.
+
+SIRT3 → SOD2 Lys122 deacetylation → MnSOD active → O₂•⁻ → H₂O₂ scavenged → mROS ↓ → NLRP3 Signal 2 mROS trigger ↓. This is the **7th NLRP3 inhibition mechanism** — specific to the mitochondrial ROS arm of Signal 2.
+
+T1DM vicious cycle: Complex I/III → mROS → PARP-3 → mitochondrial NAD⁺ ↓ → SIRT3 ↓ → SOD2 acetylated → MORE mROS → NLRP3 Signal 2 chronically elevated. NAD⁺ supplementation (niacinamide/NR) interrupts this cycle.
+
+### SIRT6: 11th NF-κB Suppression Mechanism (Epigenetic)
+
+The 10 existing NF-κB suppressors act at: protein import (colchicine, ivermectin), KEAP1/Nrf2/Cys38 (sulforaphane, CAPE, itaconate), receptor signaling (α7-nAChR, Gas6/Axl, GLP-1R, VDR, PPARγ), or NO/eNOS (L-citrulline). All are either upstream (preventing activation) or at the IKK/IκB/p65 translocation step.
+
+SIRT6 acts DOWNSTREAM of nuclear p65: H3K9ac deacetylation at NF-κB target gene promoters → chromatin compacted → p65 present in nucleus but cannot activate transcription. **11th NF-κB suppression mechanism (epigenetic; post-nuclear)**.
+
+### Updated Complete Sirtuin Mechanism Map
+
+```
+Niacinamide → NAD⁺ → 8 sirtuin mechanisms:
+    SIRT1 (nuclear/cytoplasmic):
+        M1: NLRP3 K496 deacetylation → Loop 2 ↓
+        M2: FOXO3a → β cell survival
+        M3: p53 → less inflammatory death
+        M4: HIF-1α mRNA destabilization → Signal 1C ↓
+        M5: DNMT1 maintenance → HERV-W LTR methylated
+    SIRT3 (mitochondrial):
+        M6: SOD2 K122 deacetylation → mROS ↓ → NLRP3 Signal 2 ↓ (7th mechanism)
+        M7: FOXO3a → PINK1/Parkin mitophagy (3rd parallel mitophagy route)
+    SIRT6 (nuclear, H3 deacetylase):
+        M8: H3K9ac at NF-κB target loci → chromatin compaction → 11th NF-κB suppressor
+        (+ TNFα mRNA stability ↓ via Zhong 2010 Science JNK/KSRP)
+```
+
+*Updated: 2026-04-12 | Phase 4 sixty-fourth extension | SIRT3 SOD2 mROS NLRP3 7th mechanism SIRT6 H3K9ac NF-κB 11th mechanism NAD⁺ niacinamide 8 sirtuin mechanisms run_090*
+
+---
+
+## Phase 4 — Sixty-Fifth Extension (2026-04-12): IDO1/Kynurenine — Node D → Node A Cross-Talk Mechanism (run_091)
+
+**New mechanistic connections established:**
+
+### The Tryptophan Tripartite Competition Map
+
+Three parallel tryptophan metabolic fates in T1DM gut now fully mapped (run_054 + run_074 + run_091):
+
+```
+Tryptophan substrate → three competing fates:
+    1. L. reuteri → IAd → regulatory AhR → Foxp3 Treg → Node A ↑        [BENEFICIAL]
+    2. Clostridium → IS → inflammatory AhR → Th17/Th22 → Loop 1          [PATHOLOGICAL; run_074]
+    3. IDO1 (IFN-α-induced) → kynurenine → tryptophan pool depleted       [DEPLETION; run_091]
+```
+
+When Node D (IFN-α2 Simoa) is elevated: Fate 3 dominates → Fates 1 and 2 are starved of substrate → net: less IAd (regulatory) AND less IS (pathological), but the critical loss is regulatory AhR input → Node A suppressed.
+
+### Node D → Node A Suppression Link (Previously Unmapped)
+
+The framework previously had no mechanistic bridge explaining why Node D elevation (IFN-α ↑) co-occurs with Node A deficit (Treg ↓). Run_091 identifies the link:
+
+IFN-α → STAT1/IRF1 → IDO1 ↑ → tryptophan → kynurenine → IAd substrate ↓ → regulatory AhR signal ↓ → Treg induction compromised despite VDR + L. reuteri + melatonin protocol.
+
+**Clinical implication**: Node D + Node A dual non-responders should have HCQ (run_088) as a priority specialist referral. HCQ benefits BOTH nodes: (1) directly → TLR7/9 → IFN-α ↓ → Node D improves; (2) indirectly → IFN-α ↓ → IDO1 ↓ → tryptophan preserved → IAd ↑ → Treg ↑ → Node A improves.
+
+### EGCG Third Mechanism: IDO1 Inhibition
+
+EGCG (already in protocol for PPARγ + Nrf2) → competitive IDO1 inhibitor (Lee 2016; Ye 2015: EGCG + quercetin → synergistic IDO1 ↓). Third EGCG mechanism; no new agents. Clinically most relevant in Node D-elevated patients where IDO1 is active.
+
+### QUIN/M8 Link (Speculative)
+
+IDO1 → kynurenine → QUIN (quinolinic acid) → NMDA agonist → neuroinflammation → HPA/SP/NK1R → rosacea neurogenic amplification (M8 mountain connection). Completes the IFN-α → M8 mechanistic chain.
+
+*Updated: 2026-04-12 | Phase 4 sixty-fifth extension | IDO1 kynurenine tryptophan tripartite competition Node D Node A IFN-α EGCG IDO1 inhibitor QUIN M8 neuroinflammation HCQ secondary benefit run_091*
+
+---
+
+## Phase 4 — Sixty-Sixth Extension (2026-04-12): RAAS/Ang II/NADPH Oxidase — NLRP3 Signal 2 + NF-κB (run_092)
+
+**New mechanistic connections established:**
+
+### Ang II as Compound Signal 1A + Signal 2 Driver
+
+Like NETs (run_081), Ang II activates BOTH NF-κB (Signal 1A priming) and NLRP3 Signal 2 (direct activation) simultaneously via two parallel AT1R downstream pathways:
+
+```
+AT1R → PKC → IKKβ → IκBα → p65 nuclear → NF-κB targets (Signal 1A priming)
+AT1R → Nox2 → O₂•⁻ → K⁺ efflux/lipid peroxidation → NLRP3 activation (Signal 2)
+```
+
+T1DM: RAAS hyperactivated (hyperglycemia → PKC → renin ↑; AGE → AT1R expression ↑) → chronic Ang II elevation → chronic dual NLRP3 priming + activation. Most T1DM patients on ACE-I/ARBs are blocking this without knowing it benefits rosacea.
+
+### Spironolactone: Dual Mechanism Agent
+
+Spironolactone (MR antagonist) used off-label in female rosacea (anti-androgenic effect; reduces sebum):
+- **Mechanism 1** (unrecognized before run_092): MR antagonism → aldosterone → MR/NF-κB ↓ → IL-1β, TNFα ↓
+- **Mechanism 2** (confirmed prior): anti-androgenic → 5α-reductase ↓ + AR block → DHT ↓ → KLK5 transcription input #3 ↓ (run_082)
+
+This formalizes WHY spironolactone works in rosacea beyond just "anti-androgenic" — the MR/NF-κB anti-inflammatory arm is the second mechanism.
+
+### ACE2/Ang(1-7)/MAS1: Third Skin NO Production Axis
+
+Framework now has three NO production pathways:
+1. L-citrulline → eNOS (run_045)
+2. Calcitriol/VDR → eNOS coupling (BH4 context)
+3. ACE2 → Ang(1-7) → MAS1 → eNOS (run_092; RAAS counter-regulation)
+
+Dietary/protocol support for ACE2: butyrate (from SCFA-producing gut bacteria; run_005 context) → ACE2 expression ↑ → more Ang(1-7) → more MAS1/NO. This is a new butyrate mechanism not previously identified.
+
+*Updated: 2026-04-12 | Phase 4 sixty-sixth extension | RAAS Ang II AT1R NADPH oxidase Nox2 NLRP3 Signal 2 NF-κB ACE inhibitor ARB spironolactone MR aldosterone ACE2 Ang(1-7) MAS1 butyrate NO run_092*
+
+---
+
+## Phase 4 — Sixty-Seventh Extension (2026-04-12): TRPA1 — Reactive Electrophile Sensor / Loop 4 → M8 Bridge (run_093)
+
+**New mechanistic connections established:**
+
+### TRPA1: The Loop 4 → M8 Direct Bridge
+
+TRPA1 (Transient Receptor Potential Ankyrin 1) is expressed on the same DRG/trigeminal C-fibers as TRPV1 (run_015). Activated by reactive electrophiles — not heat or capsaicin — via covalent Cys modification:
+
+```
+Loop 4: UV + Malassezia lipases → squalene peroxide → 4-HNE (4-hydroxynonenal)
+    ↓
+4-HNE → TRPA1 Cys621/641/665 Michael addition (covalent, irreversible)
+    ↓
+TRPA1 open → Ca²⁺ influx → sensory neuron depolarization
+    ↓
+SP (substance P) + CGRP (calcitonin gene-related peptide) released
+    ↓
+M8 neurogenic cascade: vasodilation + NK1R/TRPV1 sensitization
+```
+
+Previously Loop 4 (sebaceous oxidative) and M8 (neurogenic) were analyzed as separate mountains. TRPA1/4-HNE is the molecular bridge connecting them.
+
+Evidence: Trevisani 2007 PNAS 104(33):13519-13524 (4-HNE → TRPA1 at 10-20 µM; rosacea skin concentrations in range); Buhl 2017 J Invest Dermatol (TRPA1+ nerve fiber density ↑ in rosacea lesional skin); Mascarenhas 2019 J Dermatol (TRPA1 mRNA ↑ in erythematotelangiectatic rosacea).
+
+### Food Trigger Molecular Mechanism
+
+Classic rosacea food triggers are now molecularly explained — all are TRPA1 agonists:
+
+| Food trigger | Active compound | TRPA1 mechanism |
+|---|---|---|
+| Garlic | Allicin (diallyl disulfide) | Cys disulfide adduct → TRPA1 open |
+| Alcohol | Acetaldehyde (ethanol oxidation) | Michael addition to TRPA1 Cys |
+| Cinnamon | Cinnamaldehyde (EC50 ~10 µM) | Strongest known TRPA1 agonist |
+| Mustard/wasabi | AITC (allyl isothiocyanate) | Primary TRPA1 plant agonist |
+| Vinegar | Acetic acid | pH-sensitive TRPA1 gating (weak) |
+
+This converts the clinical observation of "food triggers" into a molecular pharmacology: all trigger reduction via behavioral modification or upstream TRPA1 agonist reduction.
+
+### T1DM: Methylglyoxal → TRPA1 Hyperactivation
+
+T1DM hyperglycemia → triose phosphate accumulation → methylglyoxal (MG) ↑ (5-10× above normal). MG → TRPA1 activation (Andersson 2013 PNAS 110(23):9399-9404: MG → TRPA1 → diabetic peripheral neuropathy). In rosacea context:
+- T1DM patients have BOTH 4-HNE (Loop 4) AND MG (hyperglycemia) chronically activating TRPA1
+- Lower trigger threshold vs. non-diabetic rosacea
+- TRPA1/TRPV1 cross-sensitization amplifies effect (each channel activation lowers the other's threshold)
+
+### CGRP → MRGPRX2 → Tryptase → PAR-2 → KLK5: Loop 4 → Loop 1 Cross-Amplification
+
+```
+Loop 4 (4-HNE) → TRPA1 → CGRP →
+    MRGPRX2 on mast cells → non-IgE mast cell activation →
+    tryptase + histamine → PAR-2 → KLK5 → Loop 1 amplification
+```
+
+This means Loop 4 (sebaceous oxidative stress) directly amplifies Loop 1 (KLK5/serine protease cascade) via the TRPA1 → CGRP → tryptase → PAR-2 chain. The two non-responder loops are mechanistically coupled through the neurogenic intermediate.
+
+### Protocol Coverage and Sulforaphane Caveat
+
+Upstream TRPA1 agonist reduction via existing protocol:
+- **AzA** (run_082 mechanism 4): 4-HNE ↓ → primary TRPA1 agonist reduced
+- **SIRT3/SOD2** (run_090): H₂O₂ ↓ → TRPA1 redox activation reduced
+- **RAAS control** (run_092): Nox2 ↓ → H₂O₂ ↓ → TRPA1 redox reduced
+- **Glycemic control**: MG production ↓ → T1DM-specific TRPA1 sensitization reduced
+
+**Sulforaphane caveat** (protocol management): sulforaphane (broccoli sprouts; run_014) is an isothiocyanate — same chemical class as AITC (mustard oil TRPA1 agonist). Mild TRPA1 agonism → brief initial flush on starting sulforaphane. Not a signal to stop; start low dose, TRPA1 effect brief while Nrf2/HO-1 anti-inflammatory benefit is sustained. Resolves 2-4 weeks.
+
+No direct TRPA1 inhibitor is in the protocol (no clinical-stage TRPA1 antagonist available for rosacea indication). Behavioral: avoid garlic/alcohol/cinnamon during active flares.
+
+*Updated: 2026-04-12 | Phase 4 sixty-seventh extension | TRPA1 4-HNE methylglyoxal cinnamaldehyde allicin H₂O₂ Loop 4 M8 bridge food triggers T1DM MG CGRP MRGPRX2 tryptase PAR-2 KLK5 cross-loop sulforaphane caveat run_093*
+
+---
+
+## Phase 4 — Sixty-Eighth Extension (2026-04-12): IPA → PXR — 4th Gut Barrier Mechanism (run_094)
+
+**New mechanistic connections established:**
+
+### IPA Dual Nuclear Receptor Architecture
+
+Indole-3-propionic acid (IPA) from gut microbiota activates TWO independent nuclear receptors with non-overlapping target genes:
+
+| Pathway | Receptor | Target genes | Gut barrier arm | Analysis |
+|---|---|---|---|---|
+| IPA → AhR | Aryl Hydrocarbon Receptor | IL-22, CYP1A1, IDO1 | Mucosal immunity (MUC2, RegIII-γ) | run_054 |
+| IPA → PXR | Pregnane X Receptor (NR1I2) | Claudin-1, Occludin, ZO-1 | Structural tight junctions | run_094 |
+
+Both are activated simultaneously by IPA. Both are protective. Both are diminished by dysbiosis-driven IPA depletion.
+
+### PXR Mechanism: Direct Transcriptional Control of Tight Junctions
+
+```
+IPA → PXR-LBD binding → AF-2 helix repositions → coactivator recruitment →
+    PXR-RXRα heterodimer forms (RXRα = shared with VDR, FXR)
+    ↓
+PXRE (DR-3/ER-6 motif) in claudin-1 gene promoter → claudin-1 transcription ↑
+PXRE in occludin promoter → occludin ↑
+PXR → ZO-1 upregulation confirmed (Guo 2018 Am J Physiol GI)
+    ↓
+IEC tight junction structural proteins ↑ → paracellular gap sealed
+```
+
+Evidence: Venkatesh 2014 Immunity 41(2):296-310 — germ-free mice supplemented with IPA → claudin-1 restored (PXR-dependent; absent in PXR-KO mice). PXR-KO → increased intestinal permeability baseline.
+
+### Complete Gut Barrier Mechanism Taxonomy
+
+The framework now has four independent gut barrier mechanisms (plus the partial AhR/IL-22 arm):
+
+1. **Akkermansia → Amuc_1100 → TLR2 → claudin-3** (run_026)
+2. **Butyrate → colonocyte HDAC inhibition → claudin-4/ZO-1/occludin gene expression** (run_032)
+3. **Zinc → ZO-1 PDZ domain + MLCK inhibition + zonulin ↓** (run_059)
+4. **IPA → PXR → claudin-1 + occludin + ZO-1** (run_094) — different claudin isoform from #1
+
+Each covers a partially non-overlapping set of tight junction proteins and regulatory nodes. Together they provide comprehensive structural barrier protection.
+
+### PXR → TLR4 Suppression: Upstream Signal 1A Reduction
+
+PXR-RXRα transrepresses TLR4 gene transcription → fewer TLR4 receptors on intestinal epithelium → same luminal LPS load → less TLR4 → MyD88 → NF-κB activation → less portal inflammatory cytokine entry.
+
+Connects gut barrier integrity (PXR → TLR4 ↓) directly to dermal macrophage NF-κB (Signal 1A priming). IPA/PXR deficiency does not just create a physical barrier defect — it simultaneously increases LPS receptor density, amplifying the translocation events that do occur.
+
+### HCQ Triple Node Benefit
+
+The IDO1/tryptophan pathway (run_091) now extends to three monitored nodes:
+
+| HCQ mechanism | Benefit |
+|---|---|
+| TLR7/9 → IFN-α ↓ (direct) | Node D ↓ |
+| IFN-α ↓ → IDO1 ↓ → tryptophan → IAd ↑ → Treg ↑ | Node A ↑ |
+| IFN-α ↓ → IDO1 ↓ → tryptophan → IPA ↑ → PXR → claudin-1 ↑ | Node C ↓ (I-FABP ↓) |
+
+For triple non-responders (Node D elevated, Node A below target, Node C elevated), HCQ addresses all three via one upstream mechanism (IFN-α → IDO1 suppression). This strengthens the HCQ specialist-adjunct recommendation materially.
+
+### Protocol Summary
+
+No new agents required. L. reuteri (already in protocol for IAd/AhR) produces IPA via its own enzymatic pathway (not via tryptophanase; no IS co-production). IPA/PXR represents a previously unrecognized benefit of the existing L. reuteri protocol — same probiotic, additional mechanism.
+
+*Updated: 2026-04-12 | Phase 4 sixty-eighth extension | IPA PXR NR1I2 claudin-1 occludin ZO-1 tight junction 4th gut barrier Venkatesh 2014 AhR parallel TLR4 suppression HCQ triple node benefit Node C IDO1 tryptophan L. reuteri run_094*
+
+---
+
+## Phase 4 — Sixty-Ninth Extension (2026-04-12): KLK5 → KKS → Bradykinin → B2R → TRPV1 Sensitization (run_095)
+
+**New mechanistic connections established:**
+
+### KLK5 Has Two Independent M8 Output Pathways
+
+KLK5 elevation in Loop 1 drives M8 (neurogenic cascade) via two parallel routes:
+
+| Route | Mechanism | Target | M8 Effect |
+|---|---|---|---|
+| Route 1 (run_015) | KLK5 → LL-37 processing → TRPV1 direct activation | TRPV1 | SP/CGRP release |
+| Route 2 (run_095) | KLK5 → HMWK cleavage → kallidin → B2R → TRPV1 sensitization | B2R/TRPV1 | Lower threshold for ALL triggers |
+
+Route 1 activates TRPV1 directly (sufficient alone to trigger SP/CGRP release). Route 2 does not activate TRPV1 directly — it LOWERS THE THRESHOLD, amplifying the response to all other TRPV1 triggers (heat, capsaicin, LL-37, TRPA1 cross-sensitization).
+
+Combined effect in active Loop 1 disease: LL-37 rises AND TRPV1 is simultaneously sensitized by bradykinin → same external trigger → disproportionately amplified neurogenic response.
+
+### Bradykinin/B2R → TRPV1: Two Sensitization Routes
+
+```
+Kallidin → B2R (Gq-coupled):
+
+Route A — PKC:
+    Gq → PLC-β → DAG → PKC-ε → TRPV1 Ser502 + Thr704 phosphorylation
+    → Threshold shift: activation at 35°C instead of 43°C
+    → Lower capsaicin EC50, lower LL-37 EC50
+
+Route B — PGE2:
+    Gq → COX-2 induction → PGE2 → EP2/EP4 (Gs) → cAMP → PKA
+    → PKA → TRPV1 Ser116 phosphorylation
+    → Distinct phosphorylation site from PKC; additive sensitization
+    → PGE2 also → vasodilation (endothelial EP2/EP4 → eNOS → NO)
+```
+
+Evidence: Eissa 2011 Br J Dermatol (kallidin ↑ in rosacea skin); Yoon 2007 J Invest Dermatol (KLK5 kinin-generating activity confirmed); Grazzini 1995 Eur J Pharmacol (B2R → PKC → TRPV1 sensitization in sensory nociceptors).
+
+### B1R: Inflammation-Driven Amplification
+
+B1R (low baseline) is induced by IL-1β/TNFα — the primary NLRP3 caspase-1 products (Loop 2). During an active rosacea flare:
+```
+Loop 2 → IL-1β/TNFα → B1R expression ↑ on sensory neurons →
+    More bradykinin receptor → same bradykinin concentration → more B1R/B2R signaling →
+    More TRPV1 sensitization during flare vs. remission
+```
+
+Clinical correlate: severity of neurogenic component (flushing) correlates with Loop 2 activity — B1R upregulation is part of the mechanism. Anti-NLRP3 protocol → IL-1β ↓ → B1R ↓ = additional anti-M8 mechanism of Loop 2 management not previously identified.
+
+### ACE-I vs ARB Selection in T1DM Rosacea
+
+ACE has kininase II activity — degrades bradykinin. ACE-I blocks this:
+```
+ACE-I → Ang II ↓ [BENEFIT: NLRP3/NF-κB, run_092] + bradykinin accumulation [PROBLEM: B2R/TRPV1 ↑]
+ARB  → Ang II ↓ [same BENEFIT] + bradykinin normally degraded [no B2R/TRPV1 worsening]
+```
+
+For T1DM rosacea patients reporting worsened flushing on ACE-I: ARB switch retains full RAAS anti-inflammatory benefit without bradykinin side effect. Both are equally acceptable for T1DM nephroprotection per ADA guidelines. This is now a mechanistically justified preference, not just managing a side effect.
+
+### Protocol Coverage Summary
+
+No new agents required. All existing Loop 1 management reduces KLK5 → bradykinin at source:
+- Spermidine/LEKTI pathway (run_060) → KLK5 ↓
+- AzA (run_082) → KLK5 substrate competition
+- Ivermectin topical (run_046) → Demodex/PAR-2 → KLK5 amplification ↓
+- pH normalization (acidic skin pH → KLK5 optimal at pH 7-8; lower pH → less activity)
+- NLRP3 inhibition (existing protocol) → IL-1β ↓ → B1R ↓ = additional anti-B2R/TRPV1 benefit
+
+*Updated: 2026-04-12 | Phase 4 sixty-ninth extension | KLK5 bradykinin kallidin B2R B1R TRPV1 sensitization PKC PGE2 PKA Loop 1 M8 bridge ACE-I paradox ARB T1DM KKS Eissa 2011 Yoon 2007 run_095*
+
+---
+
+## Phase 4 — Seventieth Extension (2026-04-12): Non-Canonical Inflammasome — Cytosolic LPS → Caspase-4/5 → GSDMD Without NLRP3 (run_096)
+
+**New mechanistic connections established:**
+
+### Non-Canonical vs Canonical Pyroptosis Pathway Comparison
+
+| Feature | Canonical (Loop 2; run_048) | Non-Canonical (run_096) |
+|---|---|---|
+| Sensor | NLRP3 (Signal 2: K⁺ efflux, mROS, lysosomal) | Caspase-4/5 (CARD binds LPS lipid A directly) |
+| Adaptor | ASC (apoptosis-associated speck) | None — caspase-4/5 self-oligomerize |
+| Effector caspase | Caspase-1 | Caspase-4 or caspase-5 |
+| GSDMD cleavage | Asp275 by caspase-1 | Asp275 by caspase-4/5 (same site) |
+| IL-1β processing | Caspase-1 → pro-IL-1β → IL-1β | Indirect (via secondary NLRP3) |
+| IL-18 processing | Caspase-1 | Caspase-4/5 directly |
+| NLRP3 required? | YES | NO |
+| Primary agonist | K⁺ efflux, mROS, lysosomal disruption | Cytosolic LPS (lipid A) |
+
+### Framework Critical Implication: NLRP3 Inhibitors Do Not Block Non-Canonical
+
+All 7 NLRP3 inhibition mechanisms (BHB, colchicine, SIRT1/melatonin, zinc, spermidine, AMPK, SIRT3/SOD2) target NLRP3 or its upstream activators. None address caspase-4/5. If cytosolic LPS is present in dermal macrophages, non-canonical pyroptosis proceeds regardless.
+
+**Loop 2 non-responder diagnostic pattern:**
+- Comprehensive NLRP3 inhibition + persistent Loop 2 activity + elevated Node C (I-FABP)
+- → Non-canonical caspase-4/5 from gut LPS translocation as candidate mechanism
+- → Intervention: intensify gut barrier restoration (ensure all 4 mechanisms covered: runs 026/032/059/094)
+- → Consider adding Akkermansia pasteurized + ensuring IPA/PXR component (L. reuteri dose)
+
+### T1DM Endotoxemia → Systemic caspase-4/5 Activation
+
+T1DM patients have documented elevated plasma LPS (Cani 2008 Diabetes 57:1470). Mechanisms:
+1. Gram-negative dysbiosis (Proteobacteria overgrowth) → more LPS-producing bacteria
+2. Gut barrier failure (zinc deficiency → ZO-1 ↓; IPA deficiency → claudin-1 ↓)
+3. Hyperglycemia → reduced gut motility → bacterial stasis → more gram-negative overgrowth
+
+Elevated circulating LPS → dermal macrophage OMV uptake → cytosolic LPS → caspase-4/5 → persistent dermal non-canonical pyroptosis even when NLRP3 is pharmacologically suppressed.
+
+### HMGB1 Non-Canonical Feed-Forward (Mechanism Integration with run_068)
+
+```
+Canonical pyroptosis → HMGB1 released (established; run_068)
+    + Circulating LPS (dysbiosis)
+    ↓
+HMGB1 + LPS → HMGB1-LPS complex (HMGB1 is an LPS-binding protein)
+    ↓
+AGER (RAGE) or TIM-3 on macrophage → HMGB1-LPS complex internalized → endosomal
+    ↓
+Endosomal escape → LPS in cytosol → caspase-4/5 → GSDMD → more HMGB1 → [feed-forward]
+```
+
+This creates a bidirectional link between canonical (HMGB1 source) and non-canonical (HMGB1-LPS chaperone) pathways. Anti-canonical NLRP3 management → less HMGB1 → weaker non-canonical feed-forward. This is an indirect benefit of the anti-NLRP3 protocol not previously recognized.
+
+### Node C as Dual Pyroptosis Monitor
+
+I-FABP (Node C target <150 pg/mL) was previously framed as a gut barrier integrity marker → LPS → Signal 1A priming (TLR4/NF-κB). Run_096 adds:
+
+Node C ↑ → LPS translocation ↑ → (a) TLR4/NF-κB Signal 1A (canonical priming) + (b) cytosolic LPS → caspase-4/5 (non-canonical pyroptosis bypass). Node C monitoring now covers two mechanisms. Persistent Node C elevation despite tight junction therapy → LPS still reaching macrophages → both canonical and non-canonical pathways remain active.
+
+*Updated: 2026-04-12 | Phase 4 seventieth extension | non-canonical inflammasome caspase-4 caspase-5 GSDMD LPS cytosol OMV HMGB1 T1DM endotoxemia Loop 2 non-responder Node C gut barrier Kayagaki 2015 Shi 2014 Hagar 2013 run_096*
+
+---
+
+## Phase 4 — Seventy-First Extension (2026-04-12): VIP/PACAP — M8 Neuropeptide Triad Completed (run_097)
+
+**New mechanistic connections established:**
+
+### M8 Neurogenic Neuropeptide Triad — Now Complete
+
+| Neuropeptide | Receptor(s) | Second messenger | Vasodilation | Mast cell route | Run |
+|---|---|---|---|---|---|
+| SP (substance P) | NK1R (Gq) | IP3/Ca²⁺ → PKC | Endothelial NO | NK1R → histamine + TNFα | run_019 |
+| CGRP | CLR/RAMP1 (Gs) | cAMP → PKA | Direct smooth muscle | MRGPRX2 → tryptase | runs 015/093 |
+| VIP/PACAP | VPAC1/VPAC2/PAC1 (Gs+Gq) | cAMP + IP3 | Direct smooth muscle | VPAC1/PAC1 → histamine + VEGF | run_097 |
+
+All three co-released from the same rosacea C-fibers on TRPV1/TRPA1 activation. Three independent vasodilatory pathways + three independent non-IgE mast cell activation routes converging simultaneously.
+
+### Three Non-IgE Mast Cell Activation Routes
+
+```
+Single rosacea C-fiber neuropeptide burst →
+    SP → NK1R (mast cell Gq) → rapid degranulation → histamine + TNFα + PGD2
+    CGRP → MRGPRX2 (mast cell Gq/G₁₂) → tryptase + histamine + VEGF → PAR-2/KLK5
+    VIP/PACAP → VPAC1/PAC1 (mast cell Gs+Gq) → slower, sustained → histamine + VEGF + PGE2
+```
+
+Clinical pharmacology implication: antihistamines block histamine release consequences but do not reduce neuropeptide release; mast cell stabilizers (cromolyn, ketotifen) block degranulation more broadly but mast cells remain sensitized; NK1R antagonists (aprepitant, used in carcinoid flushing) block only Route 1. Complete mast cell suppression in neurogenic rosacea requires simultaneously addressing all three neuropeptide inputs — an extraordinarily high pharmacological bar that explains the limited efficacy of single-agent approaches.
+
+### PACAP → PAC1 → CRH: Direct Neurogenic → HPA Axis
+
+Framework now has TWO pathways from rosacea triggers to HPA axis:
+
+1. **Cytokine-mediated** (run_008): IL-1β/TNFα → hypothalamic IL-1R → CRH → HPA
+2. **Neuropeptide-mediated** (run_097): Rosacea trigger → TRPV1/TRPA1 → PACAP → PAC1 on hypothalamic PVN → CRH → HPA
+
+Route 2 is FASTER (neuropeptide transmission: milliseconds to seconds) vs. Route 1 (cytokine diffusion: minutes to hours). PACAP → CRH response is immediate upon sensory activation; explains why HPA-related symptoms (flushing, stress-triggered episodes) are rapid and neurogenic rather than delayed and cytokine-mediated.
+
+Evidence: Goadsby 2017 J Headache Pain (intranasal PACAP → facial flush + trigeminovascular activation); Jansen-Olesen 2012 Cephalalgia (PACAP → facial blood flow ↑ by LDF).
+
+### Protocol Coverage Update
+
+No direct VPAC1/PAC1 blocker available. Existing protocol coverage:
+- **Upstream (preferred)**: TRPV1 management (capsaicin depletion, run_015) + TRPA1 agonist reduction (run_093) + B2R/bradykinin reduction (run_095) → less C-fiber activation → less VIP/PACAP release
+- **Downstream**: mast cell stabilizers (run_042) address VPAC1/PAC1-driven degranulation consequences; NK1R antagonists (not in protocol currently) would only address SP route
+- **Future**: anti-PACAP antibodies in migraine trials (ALD1910) → potential rosacea application
+
+*Updated: 2026-04-12 | Phase 4 seventy-first extension | VIP PACAP VPAC1 VPAC2 PAC1 neurogenic neuropeptide mast cell non-IgE vasodilation HPA CRH M8 triad complete Forton 2005 Goadsby 2017 run_097*
+
+---
+
+## Phase 4 — Seventy-Second Extension (2026-04-12): ER Stress / UPR — IRE1α → 12th NF-κB Mechanism + ATF6 → Loop 4 + T1DM PERK/CHOP (run_098)
+
+**New mechanistic connections established:**
+
+### Three-Branch UPR Summary for Rosacea/T1DM Context
+
+| UPR Branch | Sensor | Key Output | Rosacea/T1DM Relevance |
+|---|---|---|---|
+| IRE1α | ER unfolded protein load | XBP1s → IL-6/TNFα (NF-κB bypass) + TRAF2 → NF-κB (12th) | Macrophage Signal 1A bypass; sebaceous cells |
+| PERK | ER stress | eIF2α → ATF4 → CHOP → apoptosis | T1DM: β cell death; IFN-α → PERK |
+| ATF6 | BiP sequestration | SREBP2 → squalene synthesis ↑ | Loop 4 positive feedback |
+
+### IRE1α → 12th NF-κB Activation Mechanism
+
+Framework now has 12 NF-κB activation signals (10 suppression pathways suppress specific inputs; IRE1α/TRAF2 bypasses them all):
+
+```
+ER stress → IRE1α dimerization/autophosphorylation →
+    [RNase arm] → XBP1s → DIRECT IL-6/TNFα transcription (NF-κB-independent)
+    [Kinase arm] → TRAF2 → IKKβ → IκBα phosphorylation → p65 nuclear
+```
+
+All 11 NF-κB suppression mechanisms (colchicine, sulforaphane, vagal α7-nAChR, CAPE/propolis, MK-7/Gas6/Axl, ivermectin, L-citrulline/eNOS, calcitriol/VDR, GLP-1R/cAMP/PKA, PPARγ, SIRT6/H3K9ac) suppress NF-κB via upstream signal interruption or nuclear/epigenetic mechanisms. IRE1α → TRAF2 → IKKβ operates from within the ER membrane, independent of extracellular signal suppression.
+
+**Non-responder clinical pattern**: Persistent IL-6 despite full NF-κB suppression protocol → ER stress → IRE1α/XBP1s as co-driver. Upstream ER stress reduction (SIRT1/HSF1/HSP70 from niacinamide; sulforaphane/Nrf2; SIRT3/SOD2/mROS) is the lever — not adding more NF-κB blockers.
+
+### ATF6 → SREBP2 → Loop 4 Positive Feedback
+
+Sebaceous cells under oxidative/inflammatory stress → ER stress → ATF6 → SREBP2 → SQLE (squalene epoxidase) + HMGCR → more squalene produced → more Loop 4 substrate → more squalene peroxide → more 4-HNE → more ER protein damage → more ATF6. This creates a Loop 4 positive feedback circuit that is independent of UV exposure — inflammatory ER stress alone can drive the cycle once established.
+
+Protocol lever: AzA (run_082) reduces squalene peroxidation → less 4-HNE → less ER protein Michael adducts → less IRE1α/ATF6 activation → positive feedback interrupted.
+
+### T1DM: IFN-α → PERK → CHOP → β Cell Apoptosis
+
+Signal 1B (IFN-α elevated in T1DM) activates PERK in β cells directly:
+```
+IFN-α → IFNAR → JAK1/TYK2 → unidentified PERK-activating downstream mechanism →
+    PERK → eIF2α Ser51 → ATF4 → CHOP → BIM/PUMA → caspase-9 → β cell apoptosis
+```
+
+This is a THIRD β cell death mechanism in the framework (alongside run_043's intraislet NLRP3 → IL-1β → β cell and the CTL-mediated cytotoxicity). The IFN-α → PERK connection means that HCQ → IFN-α ↓ (run_088) also benefits β cell survival via reduced PERK activation — another HCQ β cell protection mechanism.
+
+### SIRT1 → HSF1 → HSP70/BiP: 6th SIRT1 Mechanism
+
+SIRT1 → deacetylates HSF1 Lys208 (inhibitory acetylation) → HSF1 binds HSE (heat shock element) as trimer → HSP70 (cytoplasmic) + BiP/GRP78 (ER) transcription → protein folding capacity ↑ → ER stress ↓ → IRE1α/ATF6/PERK activation ↓.
+
+Updated SIRT1 mechanism count (from niacinamide → NAD⁺ → SIRT1):
+1. NLRP3 Lys254 deacetylation → NLRP3 inhibition (7th NLRP3 inhibitor)
+2. NF-κB p65 Lys310 deacetylation → NF-κB ↓
+3. PGC-1α deacetylation → mitochondrial biogenesis
+4. FOXO3a deacetylation → SOD2/catalase/PINK1 → antioxidant + mitophagy
+5. Autophagy induction (Beclin-1/LC3 targets)
+6. HSF1 Lys208 deacetylation → HSP70/BiP → ER stress ↓ [run_098]
+
+*Updated: 2026-04-12 | Phase 4 seventy-second extension | ER stress UPR IRE1α XBP1s TRAF2 IKKβ NF-κB 12th mechanism PERK eIF2α ATF4 CHOP ATF6 SREBP2 squalene Loop 4 SIRT1 HSF1 HSP70 BiP T1DM β cell IFN-α GLP-1R Martinon 2010 Westerheide 2009 Yusta 2006 run_098*
+
+*Updated: 2026-04-12 | Phase 4 sixty-sixth extension | RAAS Ang II AT1R Nox2 NLRP3 Signal 2 NF-κB ACE-I ARB T1DM spironolactone MR aldosterone ACE2 Ang(1-7) MAS1 NO butyrate run_092*

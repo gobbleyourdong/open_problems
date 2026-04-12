@@ -356,3 +356,108 @@ ME/CFS: macrophage activation with Warburg-like metabolic shift documented (Navi
 3. **Magnesium in ME/CFS**: hypomagnesemia documented in ME/CFS (Cox 1991 Lancet: RBC Mg²⁺ low; Mg²⁺ IV injection → improved symptom scores). Connection to AMPK → NLRP3 → neuroinflammation in ME/CFS
 
 **Cross-reference: run_084+085 dysbiosis framework | macrophage succinate HIF-1α | ME/CFS metabolomics Warburg | Mg²⁺ deficiency Cox 1991**
+
+---
+
+## ME/CFS Cross-Reference: run_088 (HCQ → TLR7/9 → IFN-α ↓)
+
+**ME/CFS relevance: TLR7 genetic associations + elevated IFN signature in ME/CFS subset**
+
+ME/CFS has documented TLR7 genetic associations (Sorensen 2014: TLR7 SNP rs179010 associated with ME/CFS in males) and a subset of ME/CFS patients show elevated IFN-α/IFN-signature (type I interferon-elevated subgroup). HCQ's TLR7/9 endosomal blocking mechanism is directly relevant to this subgroup.
+
+1. **TLR7 in ME/CFS**: TLR7 recognizes ssRNA (including HERV-W RNA, EBV RNA, and enteroviral ssRNA) → MyD88 → IRF7 → IFN-α. The ME/CFS TLR7-elevated IFN-α subgroup shares mechanism with rosacea Node D-high patients.
+2. **HCQ in ME/CFS (anecdotal/trial)**: Small case series report benefit in ME/CFS IFN-α-elevated patients; no RCT. The mechanism (TLR7/9 → IFN-α ↓) is coherent with ME/CFS "sickness behavior" hypothesis (IFN-α → CNS IFNAR → IDO1 induction → tryptophan depletion → fatigue/cognitive symptoms).
+3. **IFN-α → IDO1 in ME/CFS**: IFN-α → IDO1 activation → tryptophan → kynurenine → quinolinic acid (QUIN; NMDA agonist) → neuroinflammation. HCQ → IFN-α ↓ → IDO1 ↓ → less QUIN → less NMDA overactivation → potential fatigue/cognitive symptom improvement.
+4. **cGAS-STING not blocked**: ME/CFS potentially has mtDNA leakage component (Naviaux 2016: cellular danger response). Protocol mitophagy (spermidine, UA) addresses this upstream.
+
+**Cross-reference: run_088 dysbiosis framework | HCQ TLR7 IFN-α ME/CFS IFN-signature IDO1 tryptophan kynurenine QUIN neuroinflammation Sorensen 2014**
+
+---
+
+## ME/CFS Cross-Reference: run_089 (PPAR-α / Omega-3 Macrophage Warburg Counter)
+
+**ME/CFS relevance: macrophage metabolic dysfunction + succinate elevation + ME/CFS post-exertional malaise**
+
+ME/CFS has strong evidence for macrophage metabolic dysfunction (Naviaux 2016 PNAS: metabolomic danger response; Yamano 2016: Krebs cycle intermediates including succinate elevated). PPAR-α → β-oxidation shift → less Warburg-like macrophage metabolism is directly relevant.
+
+1. **Succinate in ME/CFS**: Yamano 2016 found succinate elevated in ME/CFS metabolomics. Succinate → PHD2 ↓ → HIF-1α → IL-1β → ME/CFS neuroinflammation. PPAR-α (from omega-3) → β-oxidation ↑ → less succinate in activated macrophages.
+2. **Omega-3 in ME/CFS**: omega-3 supplementation has modest ME/CFS trial data (Behan 1990 Acta Neurol Scand: fish oil → ME/CFS functional improvement). PPAR-α mechanism (Warburg shift ↓ → succinate ↓ → less systemic inflammation) provides mechanistic basis beyond GPR120/SPM mechanisms.
+3. **PPAR-α in CNS**: PPAR-α is expressed in astrocytes and microglia. Omega-3 → PPAR-α → microglial NF-κB ↓ → less neuroinflammation. Particularly relevant for ME/CFS post-exertional malaise where neuroinflammation is implicated.
+4. **No new agents**: omega-3 3-4g/day already in ME/CFS omega-3 anti-inflammatory protocol; PPAR-α is an additional mechanism.
+
+**Cross-reference: run_089 dysbiosis framework | PPAR-α omega-3 macrophage Warburg succinate HIF-1α | ME/CFS Naviaux Yamano metabolomics | microglial neuroinflammation post-exertional malaise**
+
+---
+
+## ME/CFS Cross-Reference: run_090 (SIRT3/SIRT6 → Mitochondrial and Epigenetic Sirtuins)
+
+**ME/CFS relevance: mitochondrial dysfunction + NAD⁺ depletion documented in ME/CFS**
+
+ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR/danger response; Tomas 2017 PLoS ONE: NAD⁺/NADH ratio altered in ME/CFS). SIRT3 and SIRT6 are directly relevant.
+
+1. **SIRT3 in ME/CFS**: ME/CFS → chronic oxidative stress → mitochondrial PARP-3 activation → mitochondrial NAD⁺ ↓ → SIRT3 ↓ → SOD2 acetylated → mROS ↑ → mitochondrial damage → post-exertional malaise (mROS burst during exercise with insufficient SIRT3-SOD2 scavenging). Niacinamide/NR → SIRT3 → SOD2 → mROS ↓ → less PEM triggering.
+
+2. **Mitophagy + SIRT3**: ME/CFS → damaged mitochondria accumulate (defective mitophagy). SIRT3 → FOXO3a → PINK1/Parkin expression ↑ → third mitophagy route (alongside spermidine + urolithin A). Combined mitophagy support: spermidine + UA + SIRT3 (from NR/niacinamide).
+
+3. **NAD⁺ in ME/CFS**: NAD⁺ depletion documented (Tomas 2017); NR/NMN supplementation trials ongoing for ME/CFS. SIRT3 and SIRT6 mechanisms provide rationale for NAD⁺ restoration in ME/CFS beyond just energy metabolism.
+
+**Cross-reference: run_090 dysbiosis framework | SIRT3 SOD2 mROS PEM mitophagy | NAD⁺ depletion ME/CFS Tomas 2017 Naviaux 2016 | NR nicotinamide riboside mitochondrial NAD⁺**
+
+
+---
+
+## ME/CFS Cross-Reference: run_093 (TRPA1 → Neurogenic Inflammation + Mast Cell Cross-Talk)
+
+**ME/CFS relevance: TRPA1 as reactive oxygen sensor → neuroinflammation + mast cell activation in ME/CFS**
+
+1. **TRPA1 and ME/CFS neuroinflammatory phenotype**: ME/CFS has documented small fiber neuropathy (Oaklander 2013 Pain: small fiber neuropathy in ~50% of ME/CFS cases) and neuroinflammation (Nakatomi 2014 J Nucl Med: PET evidence of microglial activation). TRPA1 on sensory small fibers → activated by ROS products (H₂O₂, 4-HNE, MG analogs in chronic oxidative stress) → SP/CGRP release → neurogenic inflammation without external trigger. In ME/CFS this manifests as allodynia, chemical sensitivities, and intolerance to smells/foods containing TRPA1 agonists.
+
+2. **TRPA1 and post-exertional malaise**: Exercise → increased O₂ consumption → ROS burst → H₂O₂ ↑ → TRPA1 activation on DRG fibers → nociceptor sensitization → heightened pain/fatigue post-exercise (PEM). The mROS generated during PEM (run_090: SIRT3/SOD2 ↓ in ME/CFS) → H₂O₂ → TRPA1 sensitization loop. SIRT3/SOD2 restoring mROS control (via NR/niacinamide; run_090) reduces this TRPA1 activation indirectly.
+
+3. **CGRP → mast cell activation in ME/CFS**: TRPA1 → CGRP → MRGPRX2 on mast cells → tryptase + histamine + VEGF. ME/CFS has documented mast cell activation (Theoharides 2015: mast cell neuroinflammation hypothesis for ME/CFS). The TRPA1 → CGRP → MRGPRX2 chain provides a ROS-driven mast cell activation route that does not require IgE sensitization — consistent with ME/CFS mast cell activation being reactive/non-allergic.
+
+4. **Chemical sensitivities (MCS overlap)**: Multiple chemical sensitivity (MCS) commonly co-occurs with ME/CFS. MCS hallmark: low-dose chemical odors/exposures → systemic symptoms. TRPA1 on olfactory and trigeminal neurons is activated by many chemical odorants (formal definition of TRPA1 as the chemical nociceptor). TRPA1 over-sensitization (via chronic ROS in ME/CFS) → MCS phenotype. No clinical TRPA1 antagonist available; upstream ROS reduction (antioxidant protocol, SIRT3/SOD2) is the management lever.
+
+**Cross-reference: run_093 dysbiosis framework | TRPA1 ROS H₂O₂ sensory neurons SP CGRP MRGPRX2 mast cell | ME/CFS small fiber neuropathy PEM chemical sensitivity Theoharides | SIRT3/SOD2 mROS reduction run_090**
+
+---
+
+## ME/CFS Cross-Reference: run_094 (IPA → PXR → Gut Barrier → LPS/Neuroinflammation)
+
+**ME/CFS relevance: gut dysbiosis → IPA depletion → PXR barrier failure → LPS translocation → neuroinflammation**
+
+1. **ME/CFS gut permeability**: Gut permeability is documented in ME/CFS (Maes 2012 Neuro Endocrinol Lett: increased I-FABP in ME/CFS; Sheedy 2009: D-lactic acid bacteria elevated). IPA/PXR → claudin-1 is a mechanism by which ME/CFS dysbiosis leads to gut permeability independent of butyrate deficiency or zinc depletion. Multiple gut barrier mechanisms failing simultaneously explains the magnitude of LPS translocation in ME/CFS.
+
+2. **PXR → TLR4 suppression in ME/CFS neuroinflammation**: IPA depletion → TLR4 ↑ on gut epithelium → LPS → portal → systemic → blood-brain barrier TLR4 activation → microglial NF-κB → neuroinflammation (Nakatomi 2014 J Nucl Med: neuroinflammation in ME/CFS). PXR-mediated TLR4 reduction is an upstream brake on the LPS → neuroinflammation axis.
+
+3. **L. reuteri and ME/CFS**: L. reuteri trials in ME/CFS-adjacent conditions (IBS, fibromyalgia) show gut permeability improvement. The IPA → PXR → claudin-1 mechanism provides a molecular rationale for this finding — not just butyrate or AhR, but also PXR-mediated tight junction upregulation.
+
+**Cross-reference: run_094 dysbiosis framework | IPA PXR claudin-1 ME/CFS gut permeability I-FABP LPS neuroinflammation TLR4 L. reuteri | Maes 2012 Venkatesh 2014**
+
+---
+
+## ME/CFS Cross-Reference: run_096 (Non-Canonical Inflammasome: LPS Bypass + Gut-Brain Axis)
+
+**ME/CFS relevance: gut-derived LPS → non-canonical caspase-4/5 → microglial pyroptosis → neuroinflammation**
+
+1. **Non-canonical inflammasome in ME/CFS neuroinflammation**: ME/CFS has documented gut permeability (Maes 2012) and neuroinflammation (Nakatomi 2014 PET). Non-canonical inflammasome: gut LPS → systemic → blood-brain barrier endothelial caspase-4/5 → GSDMD → BBB disruption → LPS entry to CNS → microglial caspase-4/5 → neuroinflammatory pyroptosis. This is a mechanistic chain from gut dysbiosis to central neuroinflammation that bypasses NLRP3.
+
+2. **NLRP3 inhibitor insufficiency in ME/CFS**: ME/CFS trials of anti-inflammatory agents often fail. Non-canonical inflammasome from persistent LPS translocation (gut permeability) could explain why anti-NLRP3 approaches are insufficient without prior gut barrier normalization. LPS-driven neuroinflammation via non-canonical caspase-4/5 is NLRP3-independent.
+
+3. **IL-18 and ME/CFS HPA axis**: Caspase-4/5 → pro-IL-18 → IL-18 → IFN-γ → IDO1 → kynurenine → QUIN → NMDA neuroinflammation (run_091/096 combined). In ME/CFS: non-canonical IL-18 from LPS-activated macrophages → amplifies HPA and neuroinflammatory axis independently of NLRP3.
+
+**Cross-reference: run_096 dysbiosis framework | non-canonical inflammasome caspase-4 caspase-5 ME/CFS gut permeability LPS neuroinflammation BBB microglial pyroptosis NLRP3 bypass | Maes 2012 Nakatomi 2014 Kayagaki 2015**
+
+---
+
+## ME/CFS Cross-Reference: run_098 (ER Stress → IRE1α/XBP1s → Mitochondrial-ER Integration)
+
+**ME/CFS relevance: ER stress as amplifier of mitochondrial dysfunction + microglial IRE1α/XBP1s → neuroinflammation**
+
+1. **ER-mitochondrial coupling in ME/CFS**: ER and mitochondria are physically linked via MAM (mitochondria-associated membrane). In ME/CFS: mitochondrial dysfunction (Naviaux 2016; impaired OXPHOS) → mROS ↑ → ER protein oxidation → ER stress → IRE1α/PERK → CHOP → further mitochondrial damage (CHOP → BIM → mitochondrial outer membrane permeabilization). This creates an ER stress ↔ mitochondrial dysfunction feed-forward that SIRT3 (run_090) and SIRT1/HSF1/HSP70 (run_098) both target from different ends.
+
+2. **IRE1α → XBP1s in microglia → neuroinflammation**: ME/CFS has microglial activation (Nakatomi 2014). Microglial ER stress (from chronic LPS/cytokine stimulation; run_096) → IRE1α → XBP1s → IL-6/TNFα in microglia → neuroinflammation. Non-canonical inflammasome (run_096) and ER stress (run_098) converge on the same LPS-driven macrophage/microglial activation but via different intracellular pathways — combined impact explains severe ME/CFS neuroinflammation from gut dysbiosis without proportionately severe peripheral inflammation.
+
+3. **PERK → ISR in ME/CFS**: The Integrated Stress Response (ISR; eIF2α phosphorylation) is activated by PERK, GCN2 (run_091), HRI (heme deprivation), and PKR (dsRNA). ME/CFS → ISR via multiple arms. ISR → ATF4 → amino acid metabolism alterations → metabolomic signature (Naviaux 2016 metabolomics context). PERK is one ISR input explaining ME/CFS metabolic dysregulation.
+
+**Cross-reference: run_098 dysbiosis framework | ER stress IRE1α XBP1s PERK eIF2α ISR ME/CFS mitochondrial MAM microglial neuroinflammation | Naviaux 2016 Nakatomi 2014 Westerheide 2009**
