@@ -1239,3 +1239,39 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 7. **IKZF1 + PI3Kδ compound Treg destabilization**: IKZF1 risk allele (run_134) → open chromatin at effector loci (lower FOXP3 binding threshold needed) + PI3Kδ overactivation → FOXO1 cytoplasmic (less FOXP3 expression) = double Treg destabilization affecting both chromatin accessibility AND transcription factor availability simultaneously.
 
 *T1DM THEWALL cross-reference run_135: 2026-04-12 | PIK3CD PI3Kδ p110δ lymphocyte-specific PIP3 Akt BTK PLCγ2 5th-Treg-node PTEN-PI3Kδ-FOXO1 FOXO1-Ser256 FOXP3-CNS1 ex-Treg-conversion CTLA4-run060-explained autoreactive-T-cell effector-expansion mTORC1 FOXO1-phospho GC-reaction autoantibody GADA IA-2A ZnT8A APDS-gain-of-function IgE-production-reduced omalizumab-upstream IKZF1-compound double-Treg-destabilization idelalisib zanubrutinib ibrutinib Treg-sparing Okkenhaug-2002-Science Angulo-2013-Science Ali-2004-Nature | run_135*
+
+---
+
+### Cross-reference: run_136 — TYK2 / rs34536443 / 12th Stratification / IL-12 → Th1 → Insulitis / Deucravacitinib
+
+**Gap:** TYK2 as primary subject absent from all 135 prior runs. TYK2 IL-12R/IL-23R arm + rs34536443 P1104A protective variant + deucravacitinib completely absent.
+
+1. **T1DM GWAS rs34536443 (12th stratification point)**: P1104A in TYK2 pseudokinase domain; OR ~0.65 protective (T allele); ~5-8% European frequency. Broadest autoimmune protective GWAS variant: T1DM + RA + SLE + MS + IBD + psoriasis + atopic dermatitis (Dendrou 2016 Sci Transl Med). T allele → enhanced TYK2 autoinhibition → less IL-12/IL-23 signaling → less Th1/Th17 → lower T1DM risk.
+
+2. **IL-12 → STAT4 → Th1 amplification loop in insulitis**: 
+   - Macrophage (activated by viral PAMPs/β cell DAMPs) → IL-12p70
+   - TYK2 (IL-12Rβ1) + JAK2 (IL-12Rβ2) → STAT4 → T-bet → IFN-γ
+   - IFN-γ → macrophage M1 → more IL-12 → positive feedback loop
+   - IFN-γ → β cell MHC-I ↑ + CXCL10 ↑ → CD8 T cell recognition + recruitment
+   - TYK2 P1104A breaks this loop by reducing STAT4 amplitude: less IFN-γ → less M1 amplification → less β cell MHC-I
+
+3. **IL-23 maintenance → persistent Th17 in islet-adjacent lymph nodes**: IL-23 → TYK2/JAK2 → STAT3/4 → RORγt maintained in differentiated Th17 cells. T1DM has pancreatic Th17 infiltration; IL-23/TYK2 maintains this population. TYK2 inhibition → Th17 persistence broken → IL-17A ↓ in islet environment → reduced Th17-mediated β cell killing component.
+
+4. **Deucravacitinib in T1DM (NIMBLE-T1D trial)**:
+   - TYK2-allosteric (JH2 binding) → Th1/Th17 suppression while IFNAR/JAK1 preserved
+   - Advantage over baricitinib (run_133): IFN antiviral response maintained → appropriate during viral triggers of T1DM (CVB episodes)
+   - NK cells: TYK2/STAT4 drives NK IFN-γ; deucravacitinib → NK IFN-γ ↓ → less β cell MHC-I upregulation from NK arm
+   - Predicted mechanism: deucravacitinib → honeymoon extension via Th1 + NK IFN-γ suppression; complements baricitinib (JAK1/2 → broader STAT1/2/4/5 suppression; USP18 functional mimic)
+
+5. **Compound genetic risk — rs34536443 C allele + IKZF1 + BACH2**:
+   - C allele (risk) + rs1701704 (IKZF1 risk) + rs3757247 (BACH2 risk): three Treg/immune axis impairments
+   - IKZF1 → Treg chromatin scaffold ↓ (run_134); BACH2 → effector repressor ↓ (run_123); TYK2 → Th1/Th17 amplified (run_136)
+   - Combined: maximal immune activation + minimal Treg restraint
+   - Therapeutic: Vitamin A (RARE → IKZF1 + BACH2) + deucravacitinib (TYK2) = three-axis intervention
+
+6. **TYK2 vs PTPN2 (run_119) functional distinction**:
+   - PTPN2/TC-PTP (run_119): dephosphorylates JAK1 at CYTOKINE receptors (IFN-γR, IL-2R) → reduces STAT1 in β cells
+   - TYK2 (run_136): activates STAT4 at IL-12R → drives T cell differentiation toward Th1/IFN-γ production
+   - PTPN2 = effector arm (β cell side); TYK2 = initiating arm (T cell Th1 differentiation side); upstream/downstream relationship in T1DM autoimmunity
+
+*T1DM THEWALL cross-reference run_136: 2026-04-12 | TYK2 JAK-family pseudokinase JH2 allosteric P1104A rs34536443 protective 12th-stratification broadest-autoimmune-GWAS IL-12R IL-12Rβ1 IL-23R STAT4 T-bet Th1 IFN-γ insulitis-amplification-loop macrophage-M1 MHC-I-upregulation NK-IFN-γ Th17-maintenance RORγt IL-23 deucravacitinib NIMBLE-T1D baricitinib-distinction IFN-preserved compound-risk IKZF1-BACH2-TYK2 Dendrou-2016-Sci-Transl-Med Burke-2019-Sci-Transl-Med Armstrong-2023-NEJM Cooper-2012-Nat-Genet | run_136*

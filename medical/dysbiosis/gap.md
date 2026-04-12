@@ -3635,3 +3635,24 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 24: 135 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-twenty-eighth extension | PIK3CD PI3Kδ p110δ lymphocyte-specific PI3K PIP3 Akt BTK Bruton-tyrosine-kinase PLCγ2 mast-cell-11th-mechanism FcεRI Lyn Syk LAT PTEN-PI3Kδ-FOXO1 Treg-stability FOXO1-FOXP3 5th-Treg-node CTLA4-PI3Kδ APDS gain-of-function PIK3CD T1DM autoreactive-T-cell FOXO1-nuclear FOXP3-stable idelalisib umbralisib zanubrutinib ibrutinib BTK-inhibitor ME/CFS-NK-exhaustion autoantibody IKZF1-compound Okkenhaug-2002-Science Angulo-2013-Science Ali-2004-Nature | run_135*
+
+---
+
+### Extension 129 — TYK2 / Pseudokinase Allosteric Regulation / IL-12R / IL-23R / Th1/Th17 / rs34536443
+
+**Date:** 2026-04-12 | **Run:** run_136
+
+**Gap confirmed:** TYK2 as PRIMARY subject absent from all 135 prior runs. "JAK1/TYK2" appeared 8× in prior runs ONLY as kinase pair notation at IFNAR — the TYK2 IL-12R/IL-23R arm (STAT4 → Th1; Th17 maintenance), pseudokinase allosteric mechanism, rs34536443 P1104A protective variant, and deucravacitinib are entirely absent.
+
+**Core insight:** TYK2 has TWO functionally distinct arms: (1) IFNAR arm (JAK1/TYK2 → STAT1/2 → ISGs) — already covered in runs 006/040/063/130/133; (2) IL-12R/IL-23R arm (TYK2/JAK2 → STAT4 → T-bet/Th1 + RORγt maintenance/Th17) — completely new. The rs34536443 P1104A protective variant preferentially reduces the IL-12/IL-23 arms while preserving IFNAR — this is the mechanism of broad autoimmune protection across T1DM/RA/SLE/MS/IBD. Deucravacitinib binds the TYK2 JH2 pseudokinase domain allosterically, mimicking P1104A.
+
+**New mechanisms added (run_136):**
+- **12th T1DM genetic stratification**: rs34536443 P1104A (OR ~0.65 protective); one of the most broadly protective autoimmune variants; broadest GWAS protective span (T1DM + RA + SLE + MS + IBD + psoriasis)
+- **IL-12 → STAT4 → Th1 in insulitis**: TYK2 (IL-12Rβ1) + JAK2 (IL-12Rβ2) → STAT4 → T-bet → IFN-γ → macrophage M1 → more IL-12 (amplification loop) → β cell MHC-I ↑ → CD8 CTL killing; P1104A → STAT4 ↓ → loop breaks
+- **IL-23 maintenance signal — first analysis in framework**: IL-23 → TYK2 (IL-12Rβ1) + JAK2 (IL-23R) → STAT3 → RORγt maintained in differentiated Th17 cells → IL-17A sustained → KLK5 → Loop 1. DISTINCTION: prior runs (079/062/074) addressed Th17 INDUCTION; TYK2/IL-23 is the MAINTENANCE signal (existing Th17 cells persist). Rosacea papulopustular subtype is IL-23/Th17-driven → deucravacitinib = psoriasis analogy
+- **Deucravacitinib first TYK2-specific inhibitor in framework**: JH2 allosteric (not ATP-competitive) → TYK2-selective → IL-12/IL-23 axes suppressed while IFNAR/JAK1 preserved → lower infection risk than pan-JAK inhibitors (baricitinib context, run_133)
+- **Th17 maintenance vs induction distinction**: prior anti-Th17 runs target induction; TYK2/IL-23 inhibition targets maintenance → complementary therapeutic layer for established Th17-driven rosacea disease
+
+**Framework at SATURATION + 25: 136 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-twenty-ninth extension | TYK2 tyrosine-kinase-2 JAK-family pseudokinase JH2 allosteric P1104A rs34536443 protective-variant IL-12R IL-12Rβ1 IL-23R STAT4 T-bet Th1 IFN-γ RORγt-maintenance Th17-maintenance-signal IL-23 deucravacitinib BMS-986165 TYK2-selective rosacea-Th17-subtype papulopustular psoriasis-analog 12th-T1DM-stratification STAT4-NK ME/CFS Th17-maintenance-vs-induction POETYK-PSO Dendrou-2016-Sci-Transl-Med Burke-2019-Sci-Transl-Med Cooper-2012-Nat-Genet Armstrong-2023-NEJM | run_136*

@@ -5046,3 +5046,53 @@ Full five-node Treg impairment suspected:
 ```
 
 *Protocol_integration.md Part 9cj — 2026-04-12 | PIK3CD PI3Kδ p110δ lymphocyte-specific BTK PLCγ2 PIP3 Akt 5th-Treg-node PTEN-PI3Kδ-FOXO1 five-node-Treg-stack-complete CTLA4-mechanistic-link FcεRI-cascade-complete mast-cell-11th APDS gain-of-function idelalisib zanubrutinib ibrutinib BTK-inhibitor prescription-tier MCAS JAK-inhibitors-baricitinib-comparison no-new-OTC Vitamin-A-compound-risk Treg-sparing Okkenhaug-2002 Angulo-2013 Ali-2004-Nature | run_135*
+
+---
+
+### Part 9ck — TYK2 Protocol Integration (run_136)
+
+**Genetic stratification update (12th point — rs34536443):**
+
+```
+rs34536443 (TYK2 P1104A):
+    T allele (protective, ~5-8% European): OR ~0.65 for T1DM
+    Mechanism: enhanced TYK2 autoinhibition → IL-12/IL-23 axes ↓ → Th1/Th17 ↓
+    Broadest autoimmune protective GWAS variant (T1DM + RA + SLE + MS + IBD + psoriasis)
+
+rs34536443 C allele (risk) + rs1701704 IKZF1 + rs3757247 BACH2:
+    Three immune axis impairments simultaneously:
+    TYK2 risk → Th1/Th17 amplified (run_136)
+    IKZF1 risk → Treg chromatin scaffold ↓ (run_134)
+    BACH2 risk → effector repressor ↓ (run_123)
+    → Triple intervention: Vitamin A (RARE → IKZF1 + BACH2) + deucravacitinib (TYK2)
+```
+
+**Th17 suppression — complete picture (all four layers):**
+
+| Layer | Target | Mechanism | Run |
+|-------|--------|-----------|-----|
+| Induction-1 | AhR/RORγt | IS reduction → AhR ↓ → Th17 induction ↓ | run_074 |
+| Induction-2 | RORγt | PPARγ → RORγt transcription ↓ | run_079 |
+| Induction-3 | STAT3 | Omega-3/GPR120 → STAT3 ↓ → Th17 ↓ | run_062 |
+| **Maintenance** | **RORγt** | **IL-23 → TYK2/JAK2 → STAT3 → RORγt sustained** | **run_136** |
+
+Th17 MAINTENANCE (run_136) is the layer that explains chronic IL-17A production in established rosacea papulopustular disease even when induction signals are reduced. Deucravacitinib = maintenance-specific intervention.
+
+**Prescription tier update — JAK/TYK2 inhibitors comparison:**
+
+| Drug | Mechanism | Primary target | Best indication | IFN preserved? |
+|------|-----------|---------------|----------------|----------------|
+| Baricitinib | JAK1/2 ATP-competitive | STAT1/2/4/5 | ME/CFS ISG persistence (run_133) | No |
+| Tofacitinib | JAK1/3 ATP-competitive | STAT5 (lymphocytes) | RA/IBD | Partial |
+| Ruxolitinib (topical) | JAK1/2 | STAT1 (skin) | Rosacea skin (off-label) | Partial |
+| **Deucravacitinib** | **TYK2 JH2 allosteric** | **STAT4 (Th1) + IL-23/STAT3 (Th17)** | **T1DM (NIMBLE-T1D) + rosacea Th17 subtype** | **Yes** |
+
+Clinical selection logic:
+- Node D elevated + ME/CFS IFN persistence → baricitinib (run_133 USP18/STAT1 axis)
+- Papulopustular rosacea dominant + T1DM insulitis + IFN needed (active viral triggers) → deucravacitinib
+- Both active → consider combination (distinct JAK targets; JAK1/2 via baricitinib + TYK2 via deucravacitinib)
+
+**OTC implications:**
+- No OTC TYK2 inhibitor; omega-3 (run_062) reduces IL-23 production from macrophages (upstream source reduction); quercetin reduces DC activation (less IL-12/IL-23 production) — indirect, not TYK2-specific
+
+*Protocol_integration.md Part 9ck — 2026-04-12 | TYK2 pseudokinase JH2 allosteric P1104A rs34536443 12th-stratification IL-12R IL-23R STAT4 Th1 IFN-γ RORγt-maintenance Th17 deucravacitinib four-Th17-layers JAK-TYK2-comparison baricitinib-deucravacitinib IFN-preserved compound-risk triple-intervention Vitamin-A-deucravacitinib psoriasis-rosacea-analog NIMBLE-T1D Dendrou-2016 Burke-2019 Armstrong-2023-NEJM | run_136*

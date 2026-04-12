@@ -5866,3 +5866,37 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 135 runs | PIK3CD/PI3Kδ lymphocyte-specific PI3K | 11th mast cell mechanism (BTK-upstream) | 5th Treg stability node (PTEN/PI3Kδ/FOXO1) | CTLA4 (run_060) mechanistically explained | APDS human model | idelalisib/BTK inhibitors clinical anchor.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-tenth extension | PIK3CD PI3Kδ p110δ lymphocyte-specific PIP3 Akt BTK Bruton-tyrosine-kinase PLCγ2 mast-cell-11th FcεRI Lyn Syk LAT PTEN-PI3Kδ-FOXO1 5th-Treg-node FOXO1-FOXP3 CTLA4-PI3Kδ APDS gain-of-function T1DM-autoreactive-T-cell Treg-sparing idelalisib umbralisib zanubrutinib ibrutinib BTK-inhibitor ME/CFS-NK-exhaustion B-cell-autoantibody IKZF1-compound double-Treg-destabilization Okkenhaug-2002-Science Angulo-2013-Science Ali-2004-Nature | run_135*
+
+---
+
+### Phase 4 Extension 111 — TYK2 / IL-12R/IL-23R / Th1/Th17 Maintenance / rs34536443 / Deucravacitinib
+
+**Gap:** TYK2 as primary subject absent from all 135 prior runs. "JAK1/TYK2" mentioned 8× only as IFNAR kinase pair notation. TYK2 IL-12R/IL-23R arm + rs34536443 P1104A + deucravacitinib completely new.
+
+**Rosacea (HIGH):**
+- IL-23 maintenance signal: TYK2 (IL-12Rβ1) + JAK2 (IL-23R) → STAT3 → RORγt maintained in differentiated Th17 → IL-17A sustained → KLK5 → LL-37 → Loop 1 perpetuation. This is Th17 PERSISTENCE, not induction — dermal Th17 cells established during early disease remain active via IL-23/TYK2 even when induction signals (IL-6/TGF-β) are reduced
+- Prior Th17 runs (079/062/074) blocked Th17 INDUCTION; TYK2/IL-23 inhibition addresses Th17 MAINTENANCE — complementary therapeutic layer
+- IL-12 → Th1: TYK2/JAK2 → STAT4 → T-bet → IFN-γ → macrophage M1 → dermal Th1 component of Loop 3; P1104A → less Th1 → less rosacea Loop 3 component
+- Psoriasis analog: deucravacitinib approved for psoriasis (IL-23/Th17-dominant skin disease) → direct rosacea papulopustular subtype analog; phase 2 rosacea trial rationale established
+- Rosacea phenotype prediction: papulopustular subtype (Th17-dominant) > erythematotelangiectatic subtype (vascular/mast cell-dominant) for TYK2 targeted intervention
+
+**T1DM (HIGH):**
+- rs34536443: 12th T1DM genetic stratification (OR ~0.65 protective; T allele ~5-8% European frequency); BROADEST protective GWAS variant span (T1DM + RA + SLE + MS + IBD + psoriasis)
+- IL-12 → STAT4 → Th1 → IFN-γ amplification loop: TYK2 (IL-12Rβ1) + JAK2 (IL-12Rβ2) → STAT4 → T-bet → IFN-γ → macrophage M1 → more IL-12 → more Th1. TYK2 P1104A → STAT4 ↓ → loop breaks → less insulitis amplification
+- NK IFN-γ arm: TYK2/STAT4 also drives NK IFN-γ (not just T cells); P1104A → NK IFN-γ ↓ → less β cell MHC-I stimulation from NK side
+- Distinction from baricitinib (run_133): deucravacitinib = TYK2-allosteric → Th1/Th17-selective suppression; IFNAR/JAK1 preserved → IFN response intact → less viral susceptibility; NIMBLE-T1D trial ongoing
+- Compound genetic risk: rs34536443 C allele (risk) + rs1701704 IKZF1 + rs3757247 BACH2 → full Treg + Th1/Th17 axis impairment → deucravacitinib + Vitamin A combination consideration
+
+**ME/CFS (MODERATE):**
+- NK STAT4: IL-12/TYK2/STAT4 drives NK IFN-γ production; TYK2 overactivation → NK IFN-γ excess without cytotoxicity improvement (STAT4 drives cytokine not perforin) — contributes to ME/CFS IFN-without-cytotoxicity paradox
+- IL-17 contribution: some ME/CFS cohorts have elevated IL-17; TYK2/IL-23 maintenance → IL-17 sustained; TYK2 inhibition could reduce IL-17-mediated components
+- Caution: deucravacitinib preserves IFNAR signaling (IFN maintained) — appropriate for ME/CFS where antiviral IFN response is needed; safer than baricitinib (JAK1/2) in ME/CFS context
+
+**Protocol additions:**
+- **Deucravacitinib** (prescription): first TYK2-selective allosteric inhibitor; IL-12/IL-23 axes suppressed while IFNAR/JAK1 preserved; preferred over baricitinib when primary target is Th1/Th17 suppression and IFN response must be maintained (T1DM honeymoon + viral clearance)
+- **Th17 maintenance layer added**: omega-3/PPARγ/IS-reduction address Th17 induction; deucravacitinib addresses Th17 maintenance — full Th17 suppression requires BOTH layers in established papulopustular rosacea
+- **Genetic stratification 12th point**: rs34536443 panel addition; most broadly protective autoimmune variant known
+
+**Framework state: 136 runs | TYK2 IL-12R/IL-23R axis | 12th T1DM stratification | rs34536443 P1104A protective | Th17 maintenance signal | deucravacitinib TYK2-allosteric | psoriasis-rosacea Th17 analog established.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-eleventh extension | TYK2 tyrosine-kinase-2 JAK-family pseudokinase JH2 allosteric P1104A rs34536443 protective-variant IL-12R IL-12Rβ1 IL-23R STAT4 T-bet Th1 IFN-γ RORγt-maintenance Th17-maintenance-IL-23 deucravacitinib BMS-986165 rosacea-Th17-subtype papulopustular psoriasis-analog 12th-T1DM-stratification POETYK-PSO Dendrou-2016 Burke-2019 Cooper-2012 Armstrong-2023-NEJM | run_136*

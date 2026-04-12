@@ -1072,3 +1072,24 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 4. **ME/CFS protocol implication (no new OTC)**: No δ-selective OTC PI3K inhibitor with established efficacy. Idelalisib is prescription with immunosuppression risk. The ME/CFS angle supports further investigation of PI3Kδ/BTK inhibitors for autoantibody reduction and NK exhaustion reversal, but no OTC recommendation change.
 
 *ME/CFS THEWALL cross-reference run_135: 2026-04-12 | PIK3CD PI3Kδ p110δ lymphocyte-specific NK-metabolic-exhaustion mTOR constitutive-PI3Kδ CD56dim-functional Ca2+-additive IKZF1-additive four-mechanism-NK-stack B-cell-autoantibodies anti-β2AR anti-M3R anti-H4R GC-reaction autonomic-dysfunction POTS orthostatic Treg-FOXO1 FOXP3-instability T-cell-exhaustion-perpetuation idelalisib umbralisib Okkenhaug-2002-Science Angulo-2013-Science Ali-2004-Nature | run_135*
+
+---
+
+### Cross-reference: run_136 — TYK2 / IL-12 → NK STAT4 / IL-23/Th17 / Deucravacitinib Safety Profile
+
+**Gap:** TYK2 as primary subject absent from all 135 prior runs. IL-12R/IL-23R TYK2 arm not analyzed.
+
+**Assessment:** MODERATE ME/CFS relevance — TYK2/STAT4 drives NK IFN-γ (contributes to IFN-without-cytotoxicity paradox); IL-17 in some ME/CFS cohorts; deucravacitinib has safety advantage over baricitinib in ME/CFS context.
+
+1. **NK STAT4 — IFN-without-cytotoxicity contribution**: IL-12 → TYK2/JAK2 → STAT4 → NK IFN-γ production. ME/CFS paradox: NK cells produce IFN-γ but lack cytotoxicity. TYK2/STAT4 specifically drives IFN-γ transcription in NK cells (STAT4 = IFN-γ master regulator in NK). Ca²⁺ defects (runs 127/132) impair cytotoxicity (perforin exocytosis requires high Ca²⁺) but NOT STAT4-driven IFN-γ transcription. TYK2/IL-12/STAT4 is the mechanism sustaining NK IFN-γ in the absence of cytotoxicity — adds molecular explanation for this ME/CFS paradox. TYK2 inhibition would reduce NK IFN-γ but must be weighed against antiviral requirement.
+
+2. **IL-17 in ME/CFS**: Some ME/CFS cohorts (IICD and others) show elevated serum IL-17A. TYK2/IL-23 → RORγt maintenance → IL-17A production. If Th17 cells are sustained by IL-23/TYK2 in ME/CFS → TYK2 inhibition could reduce IL-17-mediated components. However: unlike rosacea or T1DM, IL-17 is not a dominant ME/CFS pathomechanism; this is a secondary angle.
+
+3. **Deucravacitinib safety advantage for ME/CFS**:
+   - Baricitinib (run_133 JAK1/2 context): being trialed in ME/CFS for ISG/STAT1 suppression; risk: suppresses IFNAR/JAK1 → reduces antiviral IFN response → potentially allows viral reactivation (concern in ME/CFS with known viral triggers)
+   - Deucravacitinib (TYK2-allosteric): preserves JAK1/IFNAR → IFN-α/β antiviral response maintained; selectively reduces IL-12/IL-23 → Th1/Th17 → less IFN-γ-driven NK activation without compromising IFN-α antiviral
+   - For ME/CFS, deucravacitinib may be a SAFER option than baricitinib: reduces IL-12 → NK IFN-γ excess while preserving the type I IFN needed for viral antigen control
+
+4. **TYK2 and the pDC-IKZF1-IFN triangle**: IKZF1 (run_134) → pDC pool; pDC → IFN-α via IFNAR (TYK2/JAK1); TYK2 P1104A preferentially reduces IL-12/IL-23 arms. In ME/CFS the IFNAR arm (IFN-α → USP18 → persistence, run_133) is the primary pathological arm — not the IL-12/IL-23 arm. This limits TYK2 value in ME/CFS specifically at the IFN-persistence node.
+
+*ME/CFS THEWALL cross-reference run_136: 2026-04-12 | TYK2 JAK-family IL-12R IL-23R STAT4 NK-IFN-γ IFN-without-cytotoxicity paradox IL-17 Th17 maintenance deucravacitinib safety-advantage baricitinib-comparison JAK1-preserved antiviral-IFN-maintained IKZF1-pDC-IFNAR-triangle P1104A rs34536443 Dendrou-2016 Burke-2019 Armstrong-2023-NEJM | run_136*
