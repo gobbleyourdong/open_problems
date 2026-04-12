@@ -4094,3 +4094,75 @@ Serum IL-37 measurement added to honeymoon monitoring protocol:
 - Low IL-37 at diagnosis (especially <200) = poor honeymoon prognosis indicator
 
 *Protocol_integration.md Part 9bs — 2026-04-12 | IL-37 SIGIRR TIR8 TOLLIP IRAK1 NF-κB downstream brake nuclear SMAD3 IL-37b beta cell protection iNOS NO VDR EGCG serum IL-37 T-index v5 monitoring rosacea Li 2018 T1DM Ye 2019 Bulau 2014 Mohamud 2015 honeymoon six-mechanism integration | run_118*
+
+---
+
+### Part 9bt — PTPN2/JAK1/STAT1: Loop 1 Non-Responder 4th Branch + T1DM GWAS (run_119)
+
+#### Loop 1 Non-Responder Algorithm — 4th Branch Added
+
+```
+LL-37 overexpression non-responder pathways:
+
+Branch 1 (run_056): Low calcitriol/VDR response → add vitamin D3, check 25-OHD3 target >60
+Branch 2 (runs 015/028): KLK5 persistent → verify spermidine/AzA/ivermectin adherence
+Branch 3 (run_015): TRPV1 sensitization driving neurogenic LL-37 → capsaicin desensitization
+Branch 4 (run_119): IFN-γ/JAK1/STAT1 arm active:
+    Biomarkers: serum IFN-γ >10 pg/mL + CXCL10 elevated (run_006 cross-ref)
+    Mechanism: Th1 dermis → IFN-γ → IFNGR on keratinocytes → JAK1 → STAT1 Y701 → CAMP → LL-37
+    Protocol: anti-Th1 escalation:
+        (1) Omega-3 EPA dose optimization → EPA → resolvin E1 → Th1 → Th0 phenotype shift
+        (2) Calcitriol → Treg expansion → IFN-γ production from Th1 cells suppressed
+        (3) PTPN2 rs45450798 genotype → if risk allele: JAK inhibitor specialist referral
+        (4) Monitor: IFN-γ normalization + CXCL10 ↓ as response markers
+```
+
+#### PTPN2 Genotyping — 5th Genetic Stratification Point
+
+| Point | Gene | Run | Action if risk allele confirmed |
+|-------|------|-----|--------------------------------|
+| 1 | HFE | run_110 | Iron monitoring, ferritin target, no phlebotomy |
+| 2 | TNFAIP3 | run_113 | Continuous protocol, aggressive butyrate |
+| 3 | CARD9 | run_115 | Caprylic acid, stool Candida IgG |
+| 4 (proposed) | IL-37/SIGIRR | run_118 | Serum IL-37 monitoring, VitD3/EGCG optimization |
+| **5** | **PTPN2** | **run_119** | **Serum IFN-γ; JAK inhibitor specialist referral for T1DM** |
+
+PTPN2 rs45450798 is straightforward to genotype (commercial SNP panels include it). Risk allele
+carriers have documented lower PTPN2 expression → chronically elevated JAK1/STAT1.
+
+#### T1DM Honeymoon — Additional Protection Arm
+
+PTPN2 risk allele in T1DM honeymoon:
+- JAK1/STAT1 → iNOS → NO → β cell death (STAT1-driven iNOS, distinct from NF-κB/iNOS)
+- The baricitinib + calcitriol/Treg approach addresses STAT1-driven iNOS specifically
+
+Updated 7-mechanism honeymoon integration:
+
+| Mechanism | Run | Agent | β Cell Effect |
+|-----------|-----|-------|---------------|
+| TXNIP/NLRP3 | 112 | BHB + calcitriol | NLRP3 glucose-driven death ↓ |
+| A20/RIP1 | 113 | continuous + butyrate | Necroptosis prevention |
+| GSK-3β/MCL-1 | 114 | berberine | Apoptosis resistance |
+| ALOX12/12-HETE | 116 | baicalein | 12-LOX apoptosis ↓ |
+| mPGES-1/EP3 | 117 | AKBA | GSIS functional restoration |
+| IL-37/SIGIRR | 118 | VitD3/EGCG → IL-37 ↑ | iNOS/NO downstream block |
+| **PTPN2/STAT1/iNOS** | **119** | **baricitinib Rx consult** | **STAT1-driven iNOS ↓** |
+
+Note: baricitinib is Rx and under TrialNet investigation for T1DM; this run identifies the mechanism
+justifying that trial (PTPN2 → JAK1 → STAT1 → iNOS → NO). PTPN2 LOF genotype = strongest
+candidate for baricitinib in T1DM honeymoon.
+
+#### Cross-Run IFN-γ / STAT1 Biomarker Integration
+
+```
+Node D (IFN-α, run_088): pDC-derived IFN-α → ISGF3/STAT1 (type I IFN arm)
+    Monitor: IFN-α2 Simoa <0.05 fg/mL
+    
+NEW (run_119): Th1-derived IFN-γ → STAT1 homodimer (type II IFN arm)
+    Monitor: serum IFN-γ <10 pg/mL + CXCL10 normalization (STAT1 proxy, run_006)
+    
+These are two independent STAT1 activation sources — Node D monitors one; IFN-γ monitors the other.
+A patient can have normal IFN-α (Node D normal) but elevated IFN-γ → STAT1 still active → LL-37 still high.
+```
+
+*Protocol_integration.md Part 9bt — 2026-04-12 | PTPN2 TC-PTP JAK1 STAT1 Y701 CAMP LL-37 cathelicidin Loop 1 4th non-responder branch IFN-gamma rosacea T1DM GWAS rs45450798 Smyth 2008 iNOS NOS2 honeymoon baricitinib JAK inhibitor 5th genetic stratification CXCL10 IFN-gamma monitoring | run_119*

@@ -933,3 +933,21 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 6. **VitD3 + EGCG cross-mechanism**: Both existing protocol elements induce IL-37. Serum IL-37 is now a pharmacodynamic readout for VitD3 and EGCG efficacy — first quantifiable marker for the IL-1 family brake axis.
 
 *T1DM THEWALL cross-reference run_118: 2026-04-12 | IL-37 SIGIRR TIR8 TOLLIP IRAK1 NF-κB iNOS NO beta cell protection 13th mechanism NOD mouse honeymoon VDR EGCG serum IL-37 T-index v5 non-canonical caspase-4 complement Bulau 2014 Ye 2019 Mohamud 2015*
+
+---
+
+### run_119 cross-reference: PTPN2/TC-PTP — T1DM GWAS + JAK1/STAT1/iNOS Mechanism
+
+**T1DM-specific mechanisms from run_119:**
+
+1. **PTPN2 rs45450798 GWAS**: One of the strongest non-HLA T1DM genetic associations. OR ~1.6, Bonferroni p = 1.3×10⁻¹² (Smyth 2008 Nat Genet). Risk allele → PTPN2 expression ↓ (intronic regulatory variant) → JAK1 constitutively hyperactivated → STAT1 Y701 hyperphosphorylated → enhanced sensitivity to IFN-γ → more aggressive islet autoimmunity.
+
+2. **New STAT1-driven iNOS mechanism in β cell death**: IFN-γ (from islet-infiltrating Th1/CD8+ T cells) → JAK1 → STAT1 → GAS element in NOS2 (iNOS) promoter → iNOS ↑ → NO → β cell death. This is a STAT1-dependent iNOS induction arm distinct from the NF-κB-dependent iNOS pathway (existing coverage). PTPN2 LOF → STAT1 unchecked → more iNOS. The mechanism adds a 14th β cell death pathway (STAT1-driven iNOS, distinct from NF-κB/iNOS which is covered across multiple runs).
+
+3. **Intestinal PTPN2 → gut permeability → antigen spillover**: Filer 2017 Nat Immunol — IEC-specific PTPN2 deletion → JAK1/STAT1 hyperactivation in gut epithelium → IFN-γ → STAT1 → claudin-2 ↑ (pore-forming TJ protein) → gut permeability ↑ → antigen spillover → T1DM progression (M1 mountain amplifier via a genetic mechanism).
+
+4. **5th genetic stratification point**: PTPN2 rs45450798 added to optional genetic panel. PTPN2 risk allele carriers → measure serum IFN-γ → if elevated (>10 pg/mL): JAK inhibitor specialist consultation (baricitinib = JAK1/2 inhibitor under active TrialNet investigation for T1DM prevention/honeymoon preservation).
+
+5. **Honeymoon protocol — 7th mechanism**: PTPN2 LOF + baricitinib Rx pathway = addressing STAT1-driven iNOS arm of β cell death. Framework now has 7 simultaneous honeymoon β cell protection mechanisms (runs 112-114, 116-119).
+
+*T1DM THEWALL cross-reference run_119: 2026-04-12 | PTPN2 TC-PTP JAK1 STAT1 Y701 iNOS NOS2 beta cell death GWAS rs45450798 Smyth 2008 intestinal gut permeability claudin-2 Filer 2017 baricitinib JAK inhibitor 5th genetic stratification IFN-gamma monitoring Th1 insulitis*

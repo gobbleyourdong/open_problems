@@ -3204,3 +3204,26 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 7: 118 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-eleventh extension | IL-37 SIGIRR TIR8 IL-1R8 IL-1 family anti-inflammatory brake TOLLIP IRAK1 downstream quench NF-κB nuclear SMAD3 IL-37b beta cell protection iNOS NO VDR EGCG serum IL-37 T-index monitoring Li 2018 JEADV Bulau 2014 Ye 2019 Mohamud 2015 | run_118*
+
+---
+
+### Extension 112 — PTPN2/TC-PTP: JAK1/STAT1 Loop 1 Amplifier + T1DM GWAS (run_119)
+
+**Gap confirmed:** PTPN2 (TC-PTP), JAK1 → STAT1 → CAMP (cathelicidin/LL-37) transcriptional pathway, and IFN-γ as a Loop 1 input arm are completely absent from all 118 prior runs. The framework has three LL-37 production pathways — VDR/calcitriol, KLK5/protease, and now a third: Th1-derived IFN-γ → JAK1 → STAT1 → GAS element in CAMP promoter → LL-37. PTPN2 terminates this arm by dephosphorylating JAK1 Y1034/Y1035 and STAT1 Y701.
+
+**Core insight:** The rosacea Loop 1 framework has always assumed KLK5 is the primary driver of LL-37 overexpression. This run identifies a completely independent transcriptional input: IFN-γ from dermal Th1 cells → JAK1 → STAT1 homodimer → GAS element → CAMP gene. This explains Loop 1 non-responders to KLK5 suppression: if the Th1/JAK1/STAT1 arm is active, LL-37 production continues even when KLK5 is successfully inhibited.
+
+**New mechanisms added (run_119):**
+- **3rd LL-37 transcriptional input in rosacea keratinocytes**: IFN-γ → JAK1 → STAT1 (Y701) → CAMP promoter GAS element → LL-37 (Schauber 2009 J Invest Dermatol; distinct from VDR/VDRE arm and KLK5/protease arm)
+- **T1DM GWAS link**: PTPN2 rs45450798 — strongest non-HLA T1DM GWAS signal outside INS/VNTR and PTPN22 (Smyth 2008 Nat Genet; OR 1.6, Bonferroni p = 1.3×10⁻¹²). Risk allele → PTPN2 expression ↓ → JAK1/STAT1 chronic hyperactivation → iNOS ↑ → NO → β cell death (new iNOS mechanism arm) + gut permeability ↑ (Filer 2017 Nat Immunol: intestinal PTPN2-KO → STAT1 → claudin-2 ↑ → leaky gut → antigen spillover)
+- **5th genetic stratification point**: PTPN2 rs45450798 (after HFE/run_110, TNFAIP3/run_113, CARD9/run_115, IL-37 potential) — JAK inhibitor candidate screening
+- **IFN-γ monitoring**: serum IFN-γ + CXCL10 (STAT1 proxy via run_006) as new Loop 1 non-responder biomarkers; target: IFN-γ <10 pg/mL, CXCL10 normalization
+- **Loop 1 non-responder 4th branch**: IFN-γ/JAK1/STAT1 arm identified; anti-Th1 protocol (omega-3/EPA → Th0 shift; Treg calcitriol → IFN-γ ↓) specifically targets this arm
+
+**New protocol elements:**
+- PTPN2 rs45450798 genotyping → action: serum IFN-γ → JAK inhibitor referral (baricitinib under TrialNet investigation for T1DM)
+- No new OTC; existing omega-3/EPA + calcitriol now have explicit mechanism for anti-Th1 → IFN-γ ↓ → JAK1/STAT1 ↓ → Loop 1 ↓
+
+**Framework at SATURATION + 8: 119 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-twelfth extension | PTPN2 TC-PTP JAK1 STAT1 Y701 CAMP cathelicidin LL-37 Loop 1 third input arm IFN-gamma Th1 rosacea non-responder CXCL10 GAS promoter T1DM GWAS rs45450798 Smyth 2008 iNOS NOS2 gut permeability claudin-2 Filer 2017 baricitinib JAK inhibitor 5th genetic stratification | run_119*

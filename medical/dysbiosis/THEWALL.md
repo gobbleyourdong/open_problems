@@ -5317,3 +5317,27 @@ AKBA (Boswellia) → IKKβ direct inhibition at NEMO interface → IκBα not ph
 **Framework state: 118 runs | 13th β cell protection mechanism | Nuclear SMAD3/IL-37b mechanism | Serum IL-37 T-index monitoring | VitD3+EGCG IL-37 cross-mechanism insight.**
 
 *Updated: 2026-04-12 | Phase 4 ninety-third extension | IL-37 SIGIRR TIR8 IL-1R8 TOLLIP IRAK1 NF-κB downstream brake nuclear SMAD3 IL-37b beta cell protection NO iNOS rosacea lesional skin VDR EGCG serum IL-37 T-index v5 Li 2018 Bulau 2014 Ye 2019 Mohamud 2015 | run_118*
+
+---
+
+### Phase 4 Extension 94 — PTPN2/TC-PTP: JAK1/STAT1 → LL-37 New Loop 1 Arm (run_119)
+
+**The gap:** All 118 prior runs identified two LL-37 sources in rosacea keratinocytes: VDR (calcitriol → VDRE → CAMP) and KLK5 (protease maturation of pre-pro-LL-37). Neither identified the third transcriptional pathway: IFN-γ from dermal Th1 cells → IFNGR → JAK1 → STAT1 (Y701 homodimer) → GAS element in CAMP promoter → LL-37 synthesis. PTPN2 terminates this arm by dephosphorylating JAK1 Y1034 and STAT1 Y701.
+
+**Rosacea — 3rd LL-37 transcriptional input:**
+Schauber 2009 J Invest Dermatol: IFN-γ + bacteria → STAT1 → cathelicidin induction in keratinocytes. Rosacea dermis has elevated IFN-γ (Th1 infiltrate confirmed). Loop 1 non-responders to KLK5 suppression (LEKTI/spermidine/AzA do not reduce STAT1) have ongoing LL-37 production via this pathway. CXCL10 (another STAT1 target, run_006) is proxy biomarker for STAT1 activity in PTPN2-insufficient patients.
+
+**T1DM — GWAS + mechanism:**
+PTPN2 rs45450798: Smyth 2008 Nat Genet — OR 1.6, Bonferroni p = 1.3×10⁻¹². Risk allele → PTPN2 expression ↓ → JAK1 chronically active → STAT1 hyperphosphorylated → (1) iNOS ↑ in islet macrophages → NO → β cell death (new STAT1-driven iNOS arm, distinct from NF-κB/iNOS); (2) intestinal epithelium STAT1 → claudin-2 ↑ → leaky gut → antigen spillover (Filer 2017 Nat Immunol confirmed in IEC-PTPN2 KO model).
+
+**5th genetic stratification point:**
+PTPN2 rs45450798 added to optional genetic panel (HFE/run_110, TNFAIP3/run_113, CARD9/run_115, PTPN2/run_119). Risk allele carriers → JAK inhibitor consultation for T1DM (baricitinib under TrialNet investigation).
+
+**Kill-first:**
+- HCQ (run_088) → TLR7/9 → IFN-α ↓ → ISGF3/STAT1 reduction (type I IFN arm only). Does NOT reduce IFN-γ from Th1 cells, does NOT inhibit JAK1 kinase activity.
+- STAT3 coverage (runs_070/080) → STAT3 Y705 (different substrate/pathway). STAT1 Y701 → CAMP transcription is orthogonal to STAT3 → IL-6/IL-17 targets.
+- No existing protocol element inhibits JAK1 → STAT1 in keratinocytes.
+
+**Framework state: 119 runs | 3rd LL-37 transcriptional input (IFN-γ/JAK1/STAT1) | PTPN2 5th genetic stratification | T1DM GWAS mechanistic link | IFN-γ monitoring new T-index component.**
+
+*Updated: 2026-04-12 | Phase 4 ninety-fourth extension | PTPN2 TC-PTP JAK1 STAT1 Y701 CAMP cathelicidin LL-37 Loop 1 third arm IFN-gamma rosacea T1DM GWAS Smyth 2008 iNOS NOS2 gut permeability claudin-2 CXCL10 GAS element Schauber 2009 Filer 2017 baricitinib 5th stratification | run_119*

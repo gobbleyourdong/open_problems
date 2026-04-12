@@ -788,3 +788,19 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 5. **Protocol note**: VitD3 + EGCG optimization (existing in ME/CFS protocol) → IL-37 induction → microglial IL-1β brake. Serum IL-37 monitoring appropriate in ME/CFS patients with documented neuroinflammation markers.
 
 *ME/CFS THEWALL cross-reference run_118: 2026-04-12 | IL-37 SIGIRR TOLLIP microglial neuroinflammation pDC IFN-alpha HERV-W post-COVID kynurenine IDO1 tryptophan VDR EGCG serum IL-37 monitoring*
+
+---
+
+### run_119 cross-reference: PTPN2/JAK1/STAT1 — Neuroinflammation and Long-COVID ME/CFS
+
+**ME/CFS-specific from run_119:**
+
+1. **Microglial JAK1/STAT1 hyperactivation**: IFN-γ (elevated in Long COVID and some ME/CFS) → JAK1 → STAT1 → iNOS → neuroinflammatory NO in microglia. PTPN2 termination of this pathway is active in normal microglia; LOF → sustained microglial STAT1 → chronic neuroinflammation → cognitive dysfunction, fatigue.
+
+2. **Post-COVID ME/CFS**: IFN-γ is elevated in severe COVID-19 and persists in some Long-COVID patients. PTPN2 LOF → prolonged IFN-γ → STAT1 → iNOS signaling in brain, gut, and periphery → chronic systemic inflammation → ME/CFS phenotype.
+
+3. **Gut PTPN2 → barrier in ME/CFS**: Intestinal PTPN2 LOF → chronic IFN-γ → STAT1 → claudin-2 → leaky gut → microbial antigen translocation → systemic immune activation → neuroinflammation → ME/CFS persistence loop (parallel to NLRP6 ecological lock-in from run_109).
+
+4. **PTPN2 genotyping in ME/CFS context**: If PTPN2 risk allele + elevated IFN-γ → JAK inhibitor consideration (baricitinib has been studied in Long COVID complications; case reports showing benefit in hyperinflammatory Long-COVID post-viral states).
+
+*ME/CFS THEWALL cross-reference run_119: 2026-04-12 | PTPN2 JAK1 STAT1 iNOS microglial neuroinflammation IFN-gamma Long COVID post-viral baricitinib claudin-2 gut barrier persistence loop*
