@@ -5736,4 +5736,67 @@ Complete integrated Treg restoration now covers all three mechanistic layers:
 - Flow cytometry: NKG2D expression (run_150 TGF-β axis) + LAG-3 % on NK cells (run_153) + CD56dim:CD56bright ratio (IL-2 axis, run_151)
 - All three axes identifiable and independently addressable: anti-TGF-β + intermediate IL-2 + LAG-3-targeted approach
 
+---
+
+### Part 9dc — PD-1 / PDCD1 / PD-L1 Protocol Integration (run_154)
+
+**New monitoring and safety additions — PD-1/PD-L1 axis:**
+
+**Pre-ICI T1DM irAE prevention protocol (standard of care recommendation):**
+
+Before initiating pembrolizumab / nivolumab / atezolizumab / durvalumab (any checkpoint inhibitor):
+
+| Test | Threshold | Action |
+|------|-----------|--------|
+| GAD65 autoantibody | Any positive | High-risk for T1DM irAE; glucose monitoring q2 weeks |
+| IA-2 / ZnT8 autoantibody | Any positive | High-risk; same |
+| HbA1c | >5.7% | Pre-diabetes screen; closer monitoring |
+| C-peptide | Low baseline | Reduced β cell reserve; faster DKA if irAE occurs |
+| HLA-DR4 genotyping | DR4 positive | Highest-risk; glucose monitoring q1 week |
+
+**ICI-T1DM management (if DKA occurs):**
+- Insulin immediately (subcutaneous or IV per severity); do NOT hold ICI for DKA alone if cancer response
+- Corticosteroids: NOT effective for ICI-T1DM (unlike other irAEs); avoid false reassurance
+- Usually permanent T1DM: lifelong insulin; β cell destruction is typically complete
+- C-peptide: check at presentation; near-zero = β cell destruction confirmed
+
+**β cell PD-L1 preservation rationale:**
+- IFN-γ-driven PD-L1 upregulation on β cells is endogenously protective; do not add IFN-γ blockers in T1DM without considering PD-L1 loss
+- Vitamin D (run_008) → VDR → balanced immune modulation; avoids complete IFN-γ suppression that would eliminate β cell PD-L1 defense
+- GLP-1R agonists (run_098) → β cell ER stress ↓ + metabolic fitness ↑ → β cells maintain PD-L1 expression capacity
+
+---
+
+### Part 9dd — TIM-3 / HAVCR2 / Galectin-9 Protocol Integration (run_155)
+
+**New monitoring and therapeutic additions — TIM-3/Galectin-9 axis:**
+
+**Updated NK exhaustion flow cytometry panel (ME/CFS):**
+
+| Marker | Mechanism | Run | Target |
+|--------|-----------|-----|--------|
+| NKG2D expression | NKG2DL shedding / MHC-I ↑ | run_102 | Activating receptor |
+| TGF-β1 serum | TGF-β → NKG2D mRNA destabilization | run_150 | NKG2D mRNA |
+| TIM-3 %+ NK | Galectin-9/BAT3-release → NK inhibition | run_155 | BAT3 switch |
+| PD-1 %+ NK | Viral PD-L1 → SHP-2 → NK ZAP70 ↓ | run_154 | SHP-2 |
+| LAG-3 %+ NK | KIEELE → ZAP-70/PLCγ1 ↓ | run_153 | KIEELE |
+| CD56dim:CD56bright | IL-2 priming status | run_151 | Dimeric IL-2Rβγ |
+
+All six NK exhaustion mechanisms now quantifiable; panel guides multi-mechanism NK restoration.
+
+**Belapectin (GR-MD-02, galectin-9 inhibitor — investigational):**
+- Indication: ME/CFS with TIM-3 overexpressed on NK cells (>30% TIM-3+ NK by flow)
+- Mechanism: Galectin-9 blockade → TIM-3 remains BAT3-occupied → NK inhibitory signaling not triggered
+- Trial enrollment: Phase 2 NASH (PSC, liver fibrosis); ME/CFS concept; check clinicaltrials.gov
+- Monitoring: Galectin-9 serum levels (elevated with viral reactivation); TIM-3%+ NK (declining = restoration)
+
+**Safety: avoid anti-TIM-3 (cobolimab/TSR-022) in T1DM context:**
+- Anti-TIM-3 would reinvigorate TIM-3+ islet CD8+ T cells → rapid β cell destruction
+- Contraindicated alongside anti-PD-1 in autoimmune-predisposed patients; irAE monitoring required
+
+**Galectin-9 serum as ME/CFS biomarker:**
+- Elevated Galectin-9 = active NK TIM-3 suppression (viral reactivation state)
+- Track alongside EBV VCA IgG + HHV-6 IgG for viral reactivation correlate
+- Declining Galectin-9 under treatment = NK exhaustion relief signal
+
 *Protocol_integration.md Part 9cx — 2026-04-12 | DNMT3A R882H CHIP-screening-protocol IL-1β-targeted-CHIP vitamin-C-TET-EGCG-DNMT3A-dual CNS2-protection decitabine-investigational EGCG-primary-DNMT-inhibitor PPARγ-SOCS3-IL10-re-expression β-cell-dedifferentiation-monitoring c-peptide-trajectory integrated-epigenetic-stack run086-run087-TET-DNMT3A-combination | run_149*

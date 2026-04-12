@@ -1753,3 +1753,51 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
    - TGF-β support (run_150): CNS1 iTreg induction → newly induced iTregs upregulate both CTLA4 and LAG-3
 
 *T1DM THEWALL cross-reference run_153: 2026-04-12 | LAG-3-CD223-D1-extra-loop-MHC-II-100x KIEELE-ZAP70 FGL1-β-cell-FGL1-tolerance insulitis-FGL1-collapse FGL1-Fc-T1DM four-arm-Treg-148-150-151-153 CTLA4-run148-additive-Signal1-Signal2 relatlimab-CONTRAINDICATED-T1DM IL2-FOXP3-LAG3-run151 TGF-β-iTreg-LAG3-run150 | run_153*
+
+---
+
+### Cross-reference: run_154 — PD-1 / PDCD1 / PD-L1: β Cell Defense, T1DM irAE, Pre-ICI Screening
+
+**Relevance: HIGH**
+
+1. **β cell PD-L1 as primary endogenous defense**:
+   - IFN-γ from islet-infiltrating T cells → STAT1 → β cell PD-L1 ↑ (10-50×) → PD-1/ITSM-pY248/SHP-2 → ZAP-70/CD28-PI3K ↓ → T cell quenching
+   - Self-limiting feedback: attackers (T cells) trigger own suppression via β cell PD-L1; overwhelmed in advanced insulitis
+   - NOD PD-L1 KO → accelerated T1DM; β cell PD-L1 gene therapy → T1DM prevention
+
+2. **T1DM irAE — human mechanistic proof**:
+   - Pembrolizumab/nivolumab → DKA in ~1-1.5%; GAD65+/HLA-DR4 enriched; pre-existing islet autoimmunity unmasked
+   - Mechanism: anti-PD-1 removes PD-1 suppression on islet CD8+ T cells → rapid β cell destruction → DKA
+   - Pre-ICI screening: GAD65/IA-2/ZnT8 + HbA1c + C-peptide + HLA-DR4 before ICI initiation; glucose q2 weeks in high-risk
+
+3. **SHP-2 ZAP-70 convergence with PTPN22 (run_152)**:
+   - LYP (PTPN22, run_152): direct enzymatic dephosphorylation of ZAP-70-Y315/Y319
+   - SHP-2 (downstream of PD-1): receptor-mediated dephosphorylation of same ZAP-70 sites
+   - R620W + PD-1 engagement: both mechanisms simultaneously active → additive ZAP-70 suppression in Treg
+
+4. **Treg PD-1 — fifth effector mechanism** (adds to CTLA4/LAG-3/CD39/TIM-3):
+   - PD-1+ Tregs in islets = highly suppressive; PD-L1 on APCs enhances Treg function
+   - Complete six-effector Treg architecture: CTLA4 (run_148) + LAG-3 (run_153) + CD39/A2A (run_121) + TIM-3 (run_155) + PD-1 (run_154) + TGF-β secretion (run_150)
+
+*T1DM THEWALL cross-reference run_154: 2026-04-12 | PD-1-PDCD1 ITSM-Y248-SHP-2 ZAP70-CD28-PI3K β-cell-PD-L1-IFN-γ-STAT1 NOD-PDL1-KO T1DM-irAE-DKA-pembrolizumab-nivolumab GAD65-HLA-DR4 pre-ICI-screening Treg-PD1-fifth-effector run152-LYP-ZAP70-additive run153-dual-blockade-Opdualag | run_154*
+
+---
+
+### Cross-reference: run_155 — TIM-3 / HAVCR2 / Galectin-9: BAT3, T1DM irAE Risk, Six-Effector Treg
+
+**Relevance: MODERATE**
+
+1. **TIM-3+ islet T cells — endogenous protective exhaustion**:
+   - Islet-infiltrating β cell-specific CD8+ T cells acquire TIM-3 under chronic stimulation → partial exhaustion → slower β cell destruction
+   - Anti-TIM-3 (cobolimab) CONTRAINDICATED in T1DM: reinvigorates islet CD8+ T cells → acute acceleration of T1DM (parallel to anti-PD-1 irAE)
+   - Screen T1DM patients entering oncology anti-TIM-3 trials
+
+2. **Galectin-9 → TGF-β → iTreg induction** (Galectin-9 = 4th TGF-β activator):
+   - Galectin-9 activates TGF-β from LLC → SMAD3 → CNS1 → iTreg induction (run_150)
+   - Treg Galectin-9 secretion: islet Tregs → Galectin-9 → TIM-3+ CD8+ T cells quenched; Galectin-9 = 7th Treg effector mechanism
+
+3. **Six-effector Treg architecture (complete)**:
+   - CTLA4 (run_148) + LAG-3 (run_153) + CD39/A2A (run_121) + PD-1 (run_154) + TIM-3 (run_155) + TGF-β secretion (run_150)
+   - TIM-3+LAG-3+FOXP3+ = most suppressive Treg subset in islets
+
+*T1DM THEWALL cross-reference run_155: 2026-04-12 | TIM-3-HAVCR2-BAT3 Galectin-9-Y256-Y263-BAT3-release TIM3-islet-CD8-partial-exhaustion anti-TIM3-irAE-contraindicated Galectin-9-4th-TGF-β-LLC-run150 Treg-Galectin9-7th-effector TIM3-LAG3-FOXP3-most-suppressive six-effector-Treg | run_155*

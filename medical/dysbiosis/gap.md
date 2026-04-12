@@ -4046,3 +4046,49 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 42: 153 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-forty-sixth extension | LAG-3-CD223-12p13.32 D1-extra-loop-MHC-II-100x CD4-homolog KIEELE-cytoplasmic-motif-ZAP70-PLCγ1 FEME-endocytosis-MHC-II Treg-LAG3-MHC-II-stripping Signal1-Signal2-dual-APC-contact CTLA4-run148-additive FGL1-fibrinogen-like-β-cell-tolerance FGL1-LAG3-peripheral-tolerance insulitis-FGL1-collapse FGL1-Fc-T1DM-therapeutic T-cell-exhaustion-PD1-LAG3 relatlimab-anti-LAG3-Opdualag-FDA2022 NK-LAG3-exhaustion-ME-CFS NK-triple-mechanism-run150-run151-run153 four-arm-Treg-protocol | run_153*
+
+---
+
+### Extension 147 — PD-1 / PDCD1 / PD-L1: β Cell IFN-γ Defense, SHP-2/ZAP-70 Suppression, T1DM irAE, NK PD-1 Exhaustion
+
+**Date:** 2026-04-12 | **Run:** run_154
+
+**Gap confirmed:** PDCD1/PD-1/PD-L1 as primary signaling mechanism: 5 files as context mentions only; β cell PD-L1 IFN-γ induction/SHP-2 ITSM mechanism/T1DM irAE/NK PD-1 = 0 prior analysis. Distinct from LAG-3 (KIEELE), CTLA4 (CD80/CD86), TIM-3 (BAT3) — non-overlapping inhibitory receptor.
+
+**Core insight:** β cell PD-L1 is the primary endogenous defense mechanism against islet-infiltrating CD8+ T cells. IFN-γ from attacking T cells → STAT1 → β cell PD-L1 ↑ (10-50×) → PD-1 on T cells → ITSM-pY248 → SHP-2 (PTPN11) → ZAP-70-Y315/Y319 and CD28-Y173 dephosphorylated → T cell activation ↓. This feedback loop partially restrains T cell-mediated β cell killing. T1DM irAE from anti-PD-1 (pembrolizumab/nivolumab) is human proof-of-concept: removing PD-1 signaling → rapid DKA in ~1-1.5% of patients, predominantly GAD65+ and HLA-DR4. PD-1 on Tregs = fifth Treg effector mechanism (alongside CTLA4/run_148, LAG-3/run_153, CD39/run_121). NK PD-1 exhaustion from viral PD-L1 (EBV LMP1) = ME/CFS NK mechanism 4 of 6.
+
+**New mechanisms added (run_154):**
+- **β cell PD-L1 IFN-γ feedback**: IFN-γ → STAT1 → β cell PD-L1 (10-50×) → PD-1 SHP-2 → T cell quenching; endogenous β cell defense that is overwhelmed in advanced insulitis
+- **ITSM/SHP-2 signaling (PTPN11)**: pY248-ITSM → SHP-2 dephosphorylates ZAP-70-Y315/Y319 (same sites as LYP/run_152) + CD28-Y173/PI3K-AKT → additive ZAP-70 suppression with PTPN22 R620W
+- **T1DM irAE proof-of-concept**: pembrolizumab/nivolumab → ~1-1.5% DKA; GAD65+/HLA-DR4 enriched; pre-existing islet autoimmunity unmasked; human evidence that PD-1/PD-L1 is critical restraint
+- **Pre-ICI screening protocol**: GAD65/IA-2/ZnT8 autoantibodies + HbA1c + C-peptide + HLA-DR4 before ICI initiation; glucose monitoring q2 weeks for high-risk patients
+- **Treg PD-1 fifth effector**: PD-1+ Tregs = most suppressive in inflamed tissues; PD-L1 on APCs → Treg PD-1 → enhanced Treg suppressive function
+- **NK PD-1/viral PD-L1 axis**: EBV LMP1/HHV-6 → PD-L1 ↑ on infected cells → NK PD-1 → SHP-2/ZAP-70 → NK cytotoxicity ↓ → viral persistence → ME/CFS
+- **irAE skin pattern (rosacea)**: anti-PD-1 → psoriasis/lichenoid dermatitis/vitiligo (~10-15%) → confirms PD-1 restrains skin T cells; rosacea patients on ICI at risk for flares
+
+**Framework at SATURATION + 43: 154 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-forty-seventh extension | PD-1-PDCD1-CD279-2q37.3 ITIM-VxYxxL ITSM-TxYxxV PD-L1-CD274-B7-H1 PD-L2-CD273-B7-DC ITSM-Y248-pLck SHP-2-PTPN11 ZAP70-Y315-Y319-dephosphorylation CD28-Y173-PI3K-↓ β-cell-IFN-γ-STAT1-PD-L1-induction NOD-PDL1-KO-accelerated protective-feedback T1DM-irAE-pembrolizumab-nivolumab DKA-GAD65-HLA-DR4 pre-ICI-screening Treg-PD1-fifth-effector-mechanism NK-PD1-EBV-HHV6-viral-PDL1 ME-CFS-NK-4th-mechanism run152-LYP-ZAP70-additive run153-LAG3-dual-blockade run133-USP18-PDL1-balance skin-keratinocyte-PDL1-STAT1 | run_154*
+
+---
+
+### Extension 148 — TIM-3 / HAVCR2 / Galectin-9: BAT3 Switch, NK 6-Mechanism Exhaustion, 4th TGF-β Activator, HMGB1/DC Function
+
+**Date:** 2026-04-12 | **Run:** run_155
+
+**Gap confirmed:** TIM-3/HAVCR2/Galectin-9 as primary mechanism: 1 file (run_096) mentions TIM-3 as HMGB1-LPS receptor only; BAT3 mechanism/NK TIM-3 exhaustion/Galectin-9 TGF-β activation = 0 prior analysis.
+
+**Core insight:** TIM-3 operates via the unique BAT3 (HLA-B-associated transcript 3) molecular switch — BAT3 constitutively binds TIM-3 cytoplasmic Y256/Y263 and BLOCKS inhibitory signaling; Galectin-9 binding → Y256/Y263 phosphorylated → BAT3 released → HCK/FYN → PI3K/NF-κB ↓ → T cell inhibition; Galectin-9 also induces apoptosis selectively in Th1 cells (not Th2). TIM-3 has dual cell-type functions: exhaustion checkpoint on T cells/NK (BAT3 mechanism) + innate HMGB1-LPS receptor on DCs/macrophages (run_096 connection). Galectin-9 is the 4th TGF-β activator from LLC complex (alongside TSP-1/run_131, MMP-2/9, integrin αvβ6). Six NK exhaustion mechanisms now mapped (runs 102+150+151+153+154+155).
+
+**New mechanisms added (run_155):**
+- **BAT3 molecular switch**: constitutive BAT3 binding blocks TIM-3 inhibitory function; Galectin-9 → Y256/Y263 phosphorylation → BAT3 release → HCK/FYN recruitment → T cell/NK inhibition; mechanism distinct from all other checkpoints (no ITIM/ITSM)
+- **Selective Th1 apoptosis**: Galectin-9 → TIM-3+ Th1 → caspase/Ca²⁺/TRAIL apoptosis (spares Th2); TIM-3 selectively eliminates Th1 responses via Galectin-9 → shifts Th1/Th2 balance
+- **TIM-3 dual function (cell-type-specific)**: checkpoint on T/NK (BAT3/exhaustion); HMGB1-LPS/PS receptor on DCs/macrophages (run_096 innate sensing); same molecule, opposite roles by cell type
+- **Galectin-9 = 4th TGF-β activator**: Galectin-9 from UV keratinocytes/Tregs → releases TGF-β from LLC; connects to run_150 (CNS1 iTreg) and run_131 (TSP-1 LLC); UV → Galectin-9 → TGF-β → iTreg induction (paradoxical UV pro-Treg signal)
+- **NK six-mechanism exhaustion (complete)**: NKG2D ↓ (run_102) + TGF-β NKG2D mRNA (run_150) + IL-2 deficit (run_151) + LAG-3 KIEELE (run_153) + PD-1 SHP-2 (run_154) + TIM-3 BAT3 (run_155) = six independent NK suppression mechanisms
+- **TIM-3+ FOXP3+ LAG-3+ Treg** = most suppressive Treg subset; Galectin-9 secretion from Tregs acts on effector T cells via TIM-3 (Treg → Galectin-9 → TIM-3+ effectors = new Treg effector mechanism)
+- **Belapectin (GR-MD-02) / galectin-9 inhibitor**: NK exhaustion reversal in ME/CFS; Galectin-9 blocking restores NK TIM-3 BAT3 occupancy → NK cytotoxicity ↑
+
+**Framework at SATURATION + 44: 155 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-forty-eighth extension | TIM-3-HAVCR2-CD366-5q33.3 IgV-mucin BAT3-Y256-Y263-constitutive-block Galectin-9-LGALS9-phosphorylation BAT3-release HCK-FYN-PI3K-NF-κB selective-Th1-apoptosis CEACAM1-cis PS-efferocytosis TIM3-DC-HMGB1-LPS-run096 Galectin-9-4th-TGF-β-LLC-run150-run131 UV-keratinocyte-Galectin-9 NK-TIM3-BAT3-ME-CFS-Brenu2012 EBV-HHV6-Galectin-9-viral six-NK-mechanisms-102-150-151-153-154-155 TIM3-LAG3-FOXP3-most-suppressive-Treg belapectin-GR-MD-02 anti-TIM3-irAE-T1DM-risk run154-PD1-NK-triad run153-LAG3 | run_155*

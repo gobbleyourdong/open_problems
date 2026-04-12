@@ -6445,3 +6445,68 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 153 runs | LAG-3-CD223-D1-extra-loop | MHC-II-100x-affinity | KIEELE-ZAP70-inhibition | FEME-endocytosis | CTLA4-additive-dual-APC | FGL1-β-cell-tolerance | FGL1-Fc-T1DM | NK-triple-exhaustion | four-arm-Treg-restoration | relatlimab-contraindicated-T1DM.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-twenty-eighth extension | LAG-3-CD223-12p13.32 D1-extra-loop-MHC-II-100x KIEELE-ZAP70-PLCγ1 FEME-MHC-II-endocytosis CTLA4-run148-Signal1-Signal2 FGL1-β-cell-peripheral-tolerance insulitis-FGL1-↓ FGL1-Fc-T1DM-therapeutic T-cell-exhaustion-KIEELE-distinct-from-PD1 relatlimab-Opdualag-FDA2022 NK-LAG3-exhaustion NK-triple-mechanism-run150-151-153 four-arm-Treg-148-150-151-153 | run_153*
+
+---
+
+### Phase 4 Extension 129 — PD-1 / PDCD1 / PD-L1: β Cell Defense, SHP-2, T1DM irAE, NK PD-1
+
+**Gap:** PD-1/PD-L1 as primary mechanism: 5 context files; ITSM/SHP-2/β cell PD-L1 IFN-γ/T1DM irAE = 0 coverage.
+
+**Rosacea (MODERATE):**
+- Keratinocyte PD-L1: IFN-γ in rosacea dermis → STAT1 → PD-L1 ↑ → skin T cell suppression (negative feedback on skin inflammation)
+- Anti-PD-1 irAE skin pattern (psoriasis/lichenoid ~10-15%): confirms PD-1 restrains skin T cell activation; rosacea patients at risk for flares on ICI therapy
+- PD-L1 on skin DCs/macrophages: adds tolerogenic layer to skin APC function; rosacea APC overactivation partially restrained by PD-L1 which may be insufficient
+
+**T1DM (HIGH):**
+- β cell PD-L1 endogenous defense: IFN-γ → STAT1 → PD-L1 ↑ → PD-1/SHP-2/ZAP-70 ↓ → T cell quenching; primary restraint on islet-infiltrating CD8+ T cells; NOD PD-L1 KO → dramatically accelerated T1DM; β cell PD-L1 gene therapy → T1DM prevention
+- T1DM irAE (pembrolizumab/nivolumab): ~1-1.5% → DKA; GAD65+/HLA-DR4 enriched; human proof-of-concept that PD-1/PD-L1 is critical islet T cell restraint
+- Pre-ICI screening: autoantibody panel + HbA1c + C-peptide + HLA-DR4 before ICI; monitor glucose q2 weeks in high-risk; insulin-ready protocol if DKA
+- Treg PD-1 fifth effector: PD-1+ Tregs in islets = highly suppressive; PD-L1 engagement enhances Treg function; completes six-effector Treg picture (CTLA4+LAG-3+CD39+TIM-3+PD-1)
+- Avoid anti-PD-1/anti-PD-L1 in T1DM prevention context: would remove β cell PD-L1 restraint → accelerate β cell destruction
+
+**ME/CFS (MODERATE):**
+- NK PD-1 exhaustion: EBV LMP1/HHV-6 → PD-L1 on infected cells → NK PD-1 → SHP-2 → NK cytotoxicity ↓ → viral persistence
+- NK six-mechanism exhaustion (after run_155 completes): NKG2D + TGF-β + IL-2 deficiency + LAG-3 + PD-1 + TIM-3 = comprehensive NK failure model
+- PD-1 checkpoint + ME/CFS: controversial; anti-PD-1 at extremely low dose might partially restore NK in viral-persistence ME/CFS; risk: autoimmune exacerbation
+
+**Protocol additions:**
+- **Pre-ICI T1DM screening protocol**: standard of care recommendation; autoantibody panel before initiating pembrolizumab/nivolumab/atezolizumab; HLA-DR4 genotyping for highest-risk identification
+- **ICI-T1DM management**: insulin immediately; corticosteroids NOT effective for ICI-T1DM (unlike other irAEs); usually permanent T1DM requiring lifelong insulin
+
+**Framework state: 154 runs | PD-1-PDCD1-ITSM-Y248 | SHP-2-PTPN11-ZAP70-CD28 | β-cell-PD-L1-IFN-γ-feedback | NOD-PDL1-KO | T1DM-irAE-DKA | pre-ICI-screening | Treg-PD1-fifth-effector | NK-PD1-EBV-HHV6 | run152-LYP-ZAP70-additive | run153-LAG3-dual-blockade.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-twenty-ninth extension | PD-1-PDCD1-CD279 ITSM-TxYxxV-Y248 SHP-2-PTPN11 ZAP70-Y315-Y319 CD28-Y173-PI3K PD-L1-CD274-B7-H1 IFN-γ-STAT1-PD-L1-β-cell NOD-KO-accelerated T1DM-irAE-pembrolizumab-nivolumab DKA-GAD65-HLA-DR4 pre-ICI-screening Treg-PD1-enhanced-effector NK-PD1-EBV-LMP1-viral-PDL1 skin-keratinocyte-PD-L1 irAE-psoriasis-lichenoid run152-ZAP70-convergent run153-dual-blockade-Opdualag run133-USP18-balance | run_154*
+
+---
+
+### Phase 4 Extension 130 — TIM-3 / HAVCR2 / Galectin-9: BAT3 Switch, NK Six-Mechanism Exhaustion, 4th TGF-β Activator
+
+**Gap:** TIM-3/HAVCR2/Galectin-9 as primary mechanism: 1 context file (run_096 HMGB1 receptor only); BAT3 switch/NK TIM-3 exhaustion/Galectin-9 TGF-β activation = 0 coverage.
+
+**Rosacea (MODERATE):**
+- UV → keratinocyte Galectin-9 ↑ → TIM-3 on skin T cells → BAT3 release → T cell inhibition/Th1 apoptosis; Galectin-9 = endogenous anti-inflammatory signal post-UV (alongside pro-inflammatory LL-37/NLRP3/IL-33)
+- Galectin-9 → TGF-β LLC activation → CNS1 SMAD3 → skin iTreg induction; UV paradoxically creates pro-Treg signal via Galectin-9 pathway
+- Chronic UV in rosacea → TIM-3+ skin T cell exhaustion → less acute but more chronic dysfunctional immune landscape
+- Skin NK: TIM-3+ NK cells in rosacea skin → NK cytotoxicity ↓; TIM-3 adds to UV/TGF-β NK suppression
+
+**T1DM (MODERATE):**
+- TIM-3+ islet CD8+ T cells: partial exhaustion → slower β cell destruction; TIM-3 is endogenously protective in T1DM; anti-TIM-3 (cobolimab) CONTRAINDICATED in T1DM (parallel irAE to anti-PD-1)
+- TIM-3+ LAG-3+ FOXP3+ Tregs = most suppressive subset in islets; insulitis → Treg destabilization → both TIM-3 and LAG-3 lost from Treg surface → reduced effector capacity
+- Galectin-9 from islet Tregs → TIM-3+ CD8+ T cells → T cell quenching; Treg Galectin-9 secretion = 7th Treg effector mechanism (adds to CTLA4/LAG-3/CD39/PD-1/TIM-3 cell-surface + TGF-β secretion)
+- TIM-3/run_096 connection: HMGB1-LPS → TIM-3 on DCs → caspase-4/5; interventions targeting HMGB1 (ethyl pyruvate) affect both TIM-3/DC function and TIM-3/T cell checkpoint
+
+**ME/CFS (HIGH):**
+- NK TIM-3 overexpression = primary ME/CFS NK exhaustion mechanism (Brenu 2012); EBV/HHV-6 chronic reactivation → NK activation → TIM-3 → BAT3 release → NK killing ↓ → viral persistence
+- Six-mechanism NK exhaustion: NKG2D ↓ (run_102) + TGF-β/NKG2D mRNA (run_150) + IL-2/dimeric (run_151) + LAG-3/KIEELE (run_153) + PD-1/SHP-2 (run_154) + TIM-3/BAT3 (run_155) = comprehensive NK failure model
+- Belapectin (GR-MD-02): galectin-9 inhibitor → prevents BAT3 release from NK TIM-3 → NK cytotoxicity restored; Phase 2 trials (NASH); concept applicable to ME/CFS
+- NK exhaustion flow panel (updated): NKG2D + LAG-3 + PD-1 + TIM-3 on NK = full six-mechanism screening
+
+**Protocol additions:**
+- **Belapectin (GR-MD-02, investigational)**: galectin-9 inhibitor; ME/CFS NK TIM-3 restoration; trial enrollment
+- **Galectin-9 serum monitoring**: elevated Galectin-9 correlates with NK exhaustion and viral reactivation; declining Galectin-9 = NK restoration signal
+- **Updated NK panel** (ME/CFS): add TIM-3%+ NK to existing NKG2D + LAG-3 + PD-1 panel; all six mechanisms quantifiable by flow cytometry
+- **Avoid anti-TIM-3 (cobolimab)** in T1DM: contraindicated (reinvigorates islet CD8+ T cells → accelerated β cell destruction)
+
+**Framework state: 155 runs | TIM-3-HAVCR2-BAT3-switch | Galectin-9-LGALS9-Y256-Y263 | BAT3-release-HCK-FYN | Th1-selective-apoptosis | TIM3-dual-DC-T-cell-function-run096 | Galectin-9-4th-TGF-β-activator | NK-six-mechanism-exhaustion-complete | belapectin-GR-MD-02 | anti-TIM3-T1DM-irAE-contraindicated.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-thirtieth extension | TIM-3-HAVCR2-CD366-5q33.3 BAT3-Y256-Y263-constitutive-block Galectin-9-LGALS9-BAT3-release HCK-FYN CEACAM1-cis PS-efferocytosis TIM3-DC-HMGB1-LPS-run096-dual-function Galectin-9-4th-TGF-β-LLC-run150-run131 UV-keratinocyte-Galectin-9 NK-TIM3-BAT3-Brenu2012 EBV-HHV6-Galectin-9-immune-evasion six-NK-mechanisms-102-150-151-153-154-155 TIM3-LAG3-FOXP3-most-suppressive-Treg Treg-Galectin9-secretion-7th-effector belapectin-GR-MD-02 anti-TIM3-irAE-T1DM | run_155*

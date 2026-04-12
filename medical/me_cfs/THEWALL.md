@@ -1476,3 +1476,49 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
    - Vitamin C/TET (run_087) + EGCG/DNMT3A (run_149) → FOXP3 CNS2 stability → FOXP3 ↑ → LAG-3 ↑ on Tregs → restore MHC-II stripping
 
 *ME/CFS THEWALL cross-reference run_153: 2026-04-12 | LAG-3-CD223-NK-KIEELE NK-triple-exhaustion-run150-run151-run153 NKG2D-LAG3-IL2-NK-panel NK-restoration-pirfenidone-IL2 Treg-LAG3-FOXP3-instability FGL1-KIEELE-T-cell ME-CFS-NK-flow-cytometry | run_153*
+
+---
+
+### Cross-reference: run_154 — PD-1 / PDCD1 / PD-L1: NK PD-1 Viral Immune Evasion
+
+**Relevance: MODERATE**
+
+1. **NK PD-1 exhaustion via viral PD-L1 (EBV/HHV-6)**:
+   - EBV LMP1 + HHV-6 → PD-L1 upregulation on infected cells → NK PD-1 → SHP-2/ZAP-70 ↓ → NK cytotoxicity ↓ → viral persistence → ME/CFS perpetuation
+   - NK PD-1 = 4th NK exhaustion mechanism (after NKG2D/run_102, TGF-β/run_150, IL-2/run_151, LAG-3/run_153, PD-1/run_154)
+   - Potential: anti-PD-1 at ultra-low dose for viral-persistence ME/CFS NK restoration; risk vs autoimmune exacerbation
+
+2. **NK exhaustion convergence (four mechanisms after run_154)**:
+   - NKG2D ↓ (run_102) + TGF-β NKG2D mRNA (run_150) + IL-2 deficit (run_151) + LAG-3 KIEELE (run_153) + PD-1 SHP-2 (run_154) → run_155 will add TIM-3 = six total
+
+*ME/CFS THEWALL cross-reference run_154: 2026-04-12 | PD-1-PDCD1-SHP-2 EBV-LMP1-PD-L1 HHV-6-PD-L1 NK-PD1-viral-exhaustion viral-persistence-mechanism NK-fourth-mechanism-102-150-151-154 | run_154*
+
+---
+
+### Cross-reference: run_155 — TIM-3 / HAVCR2 / Galectin-9: Primary NK Exhaustion, Belapectin, Six-Mechanism Model
+
+**Relevance: HIGH**
+
+1. **NK TIM-3 exhaustion — primary ME/CFS NK mechanism**:
+   - Brenu 2012 (Journal of Translational Medicine): TIM-3 overexpressed on NK cells from ME/CFS patients; PBMC data
+   - Mechanism: chronic EBV/HHV-6 → NK activation → TIM-3 upregulation → Galectin-9 on infected cells → BAT3 release → HCK/FYN → NK inhibition → viral persistence
+   - TIM-3 = best-characterized NK exhaustion marker in ME/CFS literature
+
+2. **Six-mechanism NK exhaustion model (complete)**:
+   - NKG2D ↓ / NKG2DL shedding (run_102)
+   - TGF-β → NKG2D mRNA destabilization (run_150)
+   - IL-2 deficiency → dimeric IL-2Rβγ understimulation (run_151)
+   - LAG-3 KIEELE inhibition (run_153)
+   - PD-1 SHP-2/ZAP-70 via viral PD-L1 (run_154)
+   - TIM-3 BAT3-release via Galectin-9 (run_155)
+   - All six quantifiable by flow cytometry; each independently addressable
+
+3. **Belapectin / galectin-9 inhibitor (most actionable ME/CFS target)**:
+   - Belapectin (GR-MD-02): galectin-9/galectin-3 inhibitor; Phase 2 NASH/PSC
+   - Rationale in ME/CFS: block EBV/HHV-6 Galectin-9 → TIM-3 BAT3 remains occupied → NK TIM-3 not triggered → NK cytotoxicity restored
+   - Most direct single-agent targeting of ME/CFS NK TIM-3 mechanism
+
+4. **Galectin-9 + TGF-β → iTreg (dual effect)**:
+   - Galectin-9 suppresses NK (TIM-3) + activates TGF-β → iTreg induction; net: NK ↓ + iTreg ↑; consistent with ME/CFS immune skewing
+
+*ME/CFS THEWALL cross-reference run_155: 2026-04-12 | TIM-3-HAVCR2-BAT3-NK Galectin-9-BAT3-release EBV-HHV6-chronic-NK-activation-TIM3-loop Brenu2012-NK-TIM3 six-NK-mechanism-model-complete belapectin-GR-MD-02-primary-target Galectin-9-TGF-β-iTreg-run150 NK-cytometry-panel-all-six | run_155*
