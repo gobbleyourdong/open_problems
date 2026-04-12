@@ -684,3 +684,15 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 5. **Protocol implication**: M1 suppression protocol (EGCG, omega-3, butyrate) → OPN ↓ in periphery → potentially reduces OPN reaching CNS → reduces microglial OPN autocrine loop → may improve cognitive symptoms over time. This is indirect and long-latency (CNS changes slower than skin changes). Not testable without neuroimaging or CSF OPN measurement.
 
 **Cross-reference: run_111 dysbiosis framework | Osteopontin OPN SPP1 M1 microglia CNS neuroinflammation autocrine amplification CD44 CNS Treg displacement ME/CFS cognitive impairment brain fog plasma OPN | Ashkar 2000 Shinohara 2006 Weiss 2012 Nakatomi 2014**
+
+### run_112 Cross-Reference: TXNIP — Cytoplasmic ROS Sensor; Microglial NLRP3; Neuroinflammatory Perpetuation
+
+**Mechanisms relevant to ME/CFS:**
+
+1. **Iron/mtROS → TXNIP → microglial NLRP3 → neuroinflammation**: Chronic IL-6 → hepcidin → iron-loaded macrophages/microglia → Fenton OH• + mtROS → TRX oxidation → free TXNIP → NLRP3 in microglia → IL-1β → neuroinflammation. TXNIP is the cytoplasmic ROS sensor bridging systemic oxidative burden (documented in ME/CFS) to CNS NLRP3 activation.
+
+2. **TXNIP and ME/CFS energy deficit**: Under metabolic stress, TXNIP is upregulated → NLRP3 activation → pyroptotic pore formation → NAD⁺ depletion (via PARP1 activation as cellular emergency response). This creates a metabolic vicious cycle: energy deficit → cell stress → TXNIP ↑ → NLRP3 → more NAD⁺ depletion → more energy deficit. NR/NMN supplementation (already in protocol) → NAD⁺ restoration → TRX reductase activity maintained → TRX reduced → TXNIP sequestered = new NR/NMN rationale for ME/CFS.
+
+3. **Protocol implications**: Selenium (GPX4 + TRX reductase — selenoprotein; run_110 already notes GPX4/selenium) → TRX system function → TXNIP sequestration. Selenium adequacy is further reinforced as a protocol element for ME/CFS.
+
+**Cross-reference: run_112 dysbiosis framework | TXNIP ROS sensor TRX thioredoxin cytoplasmic NLRP3 Signal 2 microglia neuroinflammation iron Fenton hepcidin NAD⁺ NR NMN selenium GPX4 TRX reductase | Zhou 2010 Nat Immunol Schroder 2010**

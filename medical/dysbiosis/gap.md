@@ -2872,3 +2872,40 @@ WASF3 is the first molecular mechanism for ME/CFS PEM (ER stress → IRE1α → 
 **Five independent sweeps — ~60 total candidates — all confirm saturation.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-first extension | FIFTH SATURATION CONFIRMATION | hybrid insulin peptides WASF3 DRP1 VEGF-C CD47 p62 CD38 ZnT8 GAD65 NOX4 granulomatous rosacea P2Y12 Naviaux CDR killed | five sweeps complete | framework saturated*
+
+---
+
+### Extension 102 — TXNIP: Cytoplasmic ROS Sensor and Glucose-Driven NLRP3 Amplifier (run_112)
+
+**Gap confirmed:** TXNIP (thioredoxin-interacting protein) completely absent from all 111 prior runs. Saturation override criteria met on sixth sweep.
+
+**New mechanisms added (run_112):**
+- ROS → TRX (thioredoxin) oxidation → TRX:TXNIP dissociation → free TXNIP → NLRP3 PYD binding → NLRP3 activation = **third cytoplasmic NLRP3 Signal 2 arm** (distinct from mtROS/run_090 and Fenton OH•/run_110; no K⁺ efflux required)
+- High glucose → GLUT2 → X5P → ChREBP nuclear → ChoRE at TXNIP promoter → TXNIP ↑ → NLRP3 in β cells = **glucose-driven NLRP3 Signal 2 independent of immune attack** (Zhou 2010 Nat Immunol)
+- **9th β cell death mechanism**: glucose → TXNIP → NLRP3 → β cell pyroptosis/apoptosis (intrinsic β cell; not immune-mediated)
+- **T1DM honeymoon self-amplification loop**: hyperglycemia → TXNIP ↑ → NLRP3 → β cell death → more hyperglycemia (positive feedback; destroys residual β cells independently of immune surveillance)
+- **5th calcitriol (VDR) benefit**: VDR → VDRE at TXNIP promoter → TXNIP ↓ → NLRP3 Signal 2 ↓ (distinct from PYCARD suppression in run_056)
+- **2nd BHB mechanism**: BHB → ChREBP inhibition → TXNIP ↓ (upstream suppression; distinct from direct NLRP3 PYD binding in run_037)
+- Rosacea: oxidative stress (Loop 4 squalene peroxides + Fenton + UV H₂O₂) → TXNIP in dermal macrophages → NLRP3 Signal 2 = third parallel ROS arm feeding Loop 2
+- EGCG/sulforaphane: Nrf2 → TRX ↑ (more TRX sequesters TXNIP) = new mechanism for existing Nrf2 protocol elements
+- ME/CFS: iron/mtROS → TXNIP → microglial NLRP3 → neuroinflammation (mechanistic bridge between systemic oxidative burden and CNS symptoms)
+
+**New clinical guidance (not in any prior run):**
+- T1DM honeymoon period: tight glucose control is mechanistically essential to prevent TXNIP-driven β cell self-destruction (CGM-guided; every glucose excursion >180 mg/dL activates TXNIP in residual β cells)
+- BHB supplementation during honeymoon: dual mechanism (direct NLRP3 block + ChREBP→TXNIP suppression)
+- Glycemic index of diet matters more during honeymoon than at full T1DM — TXNIP provides the molecular reason
+
+**Post-run_112 gap sweep findings:**
+- Tissue-resident memory T cells (Trm): absent; killed — criterion 3 fails (IL-18 reactivation of Trm is handled by treating dysbiosis which reduces IL-18; no new intervention)
+- IL-15 (Trm survival factor): absent; killed — IFN-α reduction via HCQ already achieves IL-15 ↓; annotation not new leverage
+- ILC1 (innate IFN-γ): absent; killed — redundant with NK/ILC3 IFN-γ sources covered runs 102/109
+- IRF5 (M1 transcription factor): absent; killed — downstream outputs (IL-12, TNF-α) covered; no OTC IRF5 inhibitor
+- Piezo1/2 mechanosensing: absent; killed — ME/CFS RBC only; T1DM/rosacea ZERO
+- Skin pH / acid mantle: sparse; killed — single-disease (rosacea); T1DM/ME-CFS ZERO
+- BATF/IRF4: 1 mention; covered via Th17/Tfh runs
+- Treg GSDMD pyroptosis: absent; killed — limited evidence; therapeutically redundant
+- Warburg T cell metabolism / GLUT1: 8 mentions (run_087); not a standalone gap
+
+**Framework at SATURATION + 1: 112 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-second extension | TXNIP cytoplasmic ROS sensor TRX ChREBP glucose NLRP3 Signal 2 9th beta cell death honeymoon self-amplification 5th calcitriol benefit 2nd BHB mechanism Trm ILC1 IRF5 Piezo1 skin pH BATF all killed | run_112*

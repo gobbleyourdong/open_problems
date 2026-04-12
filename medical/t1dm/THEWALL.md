@@ -789,3 +789,21 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 6. **OPN and β cell integrin αvβ3**: β cells express integrin αvβ3; OPN → αvβ3 → Src → β cell stress signaling. Not a direct death mechanism but increases β cell vulnerability to concurrent immune attack. Additive to the 8 established death mechanisms (runs through 110).
 
 **Cross-reference: run_111 dysbiosis framework | Osteopontin OPN SPP1 NOD mouse KO insulitis reduced T cell islet retention CD44 Treg displacement Th1 stability iOPN MyD88 TLR9 IFN-α pDC integrin αvβ3 β cell | Ashkar 2000 Shinohara 2006 Rittling 2015**
+
+### run_112 Cross-Reference: TXNIP — Glucose-Driven NLRP3 in β Cells; Honeymoon Self-Amplification Loop
+
+**Mechanisms specific to T1DM:**
+
+1. **Glucose → ChREBP → TXNIP → NLRP3 → 9th β cell death mechanism (intrinsic)**: Zhou 2010 Nat Immunol established that hyperglycemia → X5P → ChREBP nuclear entry → TXNIP transcription → NLRP3 in β cells → caspase-1 → IL-1β → β cell death. This is the first T1DM-specific mechanism that links metabolic dysregulation (not immune attack) directly to NLRP3-mediated β cell death.
+
+2. **Honeymoon self-amplification loop**: During the T1DM honeymoon period, residual β cells face TXNIP-driven positive feedback: hyperglycemia → TXNIP ↑ → NLRP3 → β cell loss → more hyperglycemia. This loop operates independently of T cell-mediated killing and explains why suboptimal glucose control during the honeymoon accelerates the loss of residual β cell mass. Tight glucose control (CGM-guided; time-above-180 mg/dL → near-zero) is mechanistically essential.
+
+3. **ROS → TXNIP → NLRP3 Signal 2 (cytoplasmic arm)**: Beyond the glucose arm, oxidative stress in β cells (from autoimmune attack, mitochondrial dysfunction) → TRX oxidation → free TXNIP → NLRP3. This is the third cytoplasmic NLRP3 Signal 2 arm, joining mtROS (run_090) and Fenton OH• (run_110).
+
+4. **VDR → TXNIP ↓ (5th calcitriol mechanism)**: VDRE in TXNIP promoter → calcitriol suppresses TXNIP transcription → reduces both glucose-driven and ROS-driven NLRP3 activation in β cells. Node E target (25(OH)D3 ≥60 ng/mL) is critical in T1DM honeymoon patients specifically.
+
+5. **BHB dual β cell protection during honeymoon**: BHB → (1) direct NLRP3 PYD block (run_037) + (2) ChREBP inhibition → TXNIP ↓ (run_112). During the honeymoon, BHB supplementation provides the strongest theoretical protection of residual β cells of any single protocol element.
+
+6. **EGCG/Nrf2 → TRX ↑ → TXNIP sequestered**: Less free TXNIP available for NLRP3 activation; adds to the anti-β cell death rationale for EGCG in T1DM.
+
+**Cross-reference: run_112 dysbiosis framework | TXNIP thioredoxin interacting protein ChREBP glucose NLRP3 Signal 2 9th beta cell death honeymoon self-amplification tight glucose control BHB dual mechanism calcitriol VDR VDRE 5th benefit Nrf2 TRX | Zhou 2010 Nat Immunol**

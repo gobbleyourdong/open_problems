@@ -3676,3 +3676,59 @@ If a new run (>run_111) is executed per the saturation override criteria in THEW
 **FRAMEWORK STATUS: COMPLETE | 111 runs | 2026-04-12 | sigma method v7**
 
 *Protocol_integration.md Part 9bl — 2026-04-12 | SATURATION NOTE | no protocol changes | framework complete | 111 runs integrated | T-index v4 final state | future run threshold documented | sigma method v7*
+
+---
+
+### Part 9bm — TXNIP: Glucose-Driven NLRP3 Amplifier — Honeymoon T1DM Protocol Guidance (run_112)
+
+**TXNIP adds to existing protocol without new agents.** All therapeutic leverage comes from existing elements gaining new mechanistic justification:
+
+#### Calcitriol — 5th Anti-Inflammatory Mechanism
+
+VDR binds VDRE in the TXNIP gene promoter → TXNIP transcription ↓ → less free TXNIP → less NLRP3 Signal 2 in β cells and dermal macrophages. This is mechanistically additive to:
+1. VDR → Foxp3+ Treg induction (run_018/056)
+2. VDR → cathelicidin antimicrobial
+3. VDR → NLRP3/PYCARD suppression (run_056)
+4. VDR → 15-LOX → LXA4 (run_108)
+5. **VDR → TXNIP ↓ (run_112)**
+
+**Node E monitoring (25(OH)D3 ≥60 ng/mL) is now supported by five independent anti-inflammatory mechanisms.** For T1DM patients in particular: achieving and maintaining Node E target directly suppresses the glucose-driven β cell NLRP3 loop via TXNIP.
+
+#### BHB — 2nd NLRP3 Suppression Mechanism
+
+BHB inhibits ChREBP nuclear activity → TXNIP transcription ↓ → less NLRP3 Signal 2 from the glucose arm. This is additive to direct NLRP3 PYD binding (run_037). Protocol elements already supporting BHB:
+- Moderate low-glycemic diet → reduced insulin spikes → mild endogenous ketosis
+- Optional exogenous BHB supplement (2-3g/day; run_037 already documents)
+
+**For T1DM patients during honeymoon: BHB supplementation provides dual TXNIP protection.**
+
+#### EGCG and Sulforaphane — New TXNIP Suppression Arm
+
+Nrf2 → thioredoxin (TRX) ↑ → more TRX available to sequester TXNIP → less free TXNIP → less NLRP3 Signal 2. This is an additional mechanism for existing EGCG/sulforaphane protocol elements.
+
+#### NEW T1DM Honeymoon Protocol Guidance
+
+This is the key clinical addition from run_112 — **not present in any prior run:**
+
+> **T1DM Honeymoon Period (preserved C-peptide >0.2 nmol/L): Glucose-Specific Protocol**
+>
+> 1. **CGM target more aggressive than standard T1DM:** Time-above-range >180 mg/dL should approach zero. Every glucose excursion activates TXNIP → NLRP3 in residual β cells.
+>
+> 2. **Dietary glycemic index prioritized:** Avoid acute glucose spikes (simple carbohydrates) specifically because of TXNIP ChREBP activation. Low-GI diet prevents ChREBP→TXNIP surge even when total carbohydrates are moderate.
+>
+> 3. **BHB supplementation rationale strongest during honeymoon:** ChREBP inhibition + direct NLRP3 block = dual protection of residual β cells. Start during honeymoon, maintain through first 2 years.
+>
+> 4. **Node E priority in honeymoon:** VDR→TXNIP↓ makes achieving 25(OH)D3 ≥60 ng/mL even more critical during the period when β cell mass is partially preserved.
+>
+> 5. **Monitoring:** C-peptide at 3-month intervals during honeymoon (standard); C-peptide decline rate is the proxy for TXNIP-loop severity.
+
+#### Rosacea: Loop 2 Therapeutic Implications
+
+Three ROS→NLRP3 Signal 2 arms now identified for phymatous/high-oxidative-load rosacea:
+- mtROS arm: SIRT3 (run_090) → target with NR/NMN
+- Fenton arm: selenium/GPX4 + lactoferrin (run_110) → target iron load
+- TXNIP arm: Nrf2/EGCG/sulforaphane → TRX ↑ + calcitriol → TXNIP ↓
+
+For Loop 2 non-responders with phymatous or sebaceous-dominant subtype: assess all three arms. Protocol should include Nrf2 support (sulforaphane) as part of anti-Loop 2 strategy.
+
+*Protocol_integration.md Part 9bm — 2026-04-12 | TXNIP ChREBP glucose-driven NLRP3 Signal 2 9th beta cell death T1DM honeymoon tight glucose control BHB dual mechanism calcitriol 5th benefit EGCG TRX Nrf2 rosacea Loop 2 third ROS arm 5th calcitriol anti-inflammatory mechanism | run_112*

@@ -5011,3 +5011,48 @@ If all four pass: run N+112.
 3. **Causal ordering**: Most 8-Mountain connections are supported by mechanistic + association data, but formal causal inference (MR, DAG) has not been run for all axes. Literature-level evidence is the current ceiling.
 
 *Updated: 2026-04-12 | Phase 4 eighty-sixth extension | SATURATION DECLARATION | 111 runs | 8 Mountains | 4 Loops | 6 Node types | S. epidermidis killed | galectin-3 killed | OMVs killed | framework complete | sigma method v7 | rosacea T1DM ME/CFS dysbiosis*
+
+---
+
+## Phase 4 Extension 87: TXNIP — The Glucose-Driven β Cell Self-Destruction Loop
+
+### The Missing NLRP3 Signal 2 Arm
+
+TXNIP bridges two distinct inputs to NLRP3 in β cells that previous runs did not connect:
+
+**Arm 1 (ROS-driven):** Cytoplasmic oxidative stress → TRX oxidation → free TXNIP → NLRP3 PYD. This is the third ROS→NLRP3 Signal 2 arm (joining mtROS/run_090 and Fenton/run_110). It operates in the cytoplasm, sensing H₂O₂ and other ROS without requiring K⁺ efflux.
+
+**Arm 2 (Glucose-driven):** Hyperglycemia → X5P → ChREBP → TXNIP transcription ↑ → NLRP3. This arm is completely independent of oxidative stress. It creates an intrinsic β cell self-destruction mechanism that activates whenever glucose exceeds the cellular threshold — regardless of immune attack status.
+
+### The Honeymoon Window: Most Underappreciated Intervention Point in T1DM
+
+The T1DM honeymoon period (preserved C-peptide; months to 2 years after diagnosis) is when TXNIP biology is most clinically actionable:
+
+**Why the honeymoon ends:**
+1. Autoimmune T cell pressure (immune-mediated; addressed by gut barrier + dysbiosis protocol)
+2. **Glucose-driven TXNIP→NLRP3 in residual β cells** (intrinsic metabolic; addressed by tight glucose control + BHB)
+
+Standard endocrinology focuses on the immune arm. The TXNIP mechanism reveals that the metabolic arm is equally important and requires different management (glycemic control, not immunosuppression).
+
+**Practical translation:**
+- CGM target during honeymoon: more aggressive than standard (time-in-range >90%; reduce time above 180 mg/dL to near-zero)
+- BHB: dual mechanism (direct NLRP3 block + ChREBP→TXNIP suppression) → strongest honeymoon-period rationale yet
+- EGCG/sulforaphane: Nrf2 → TRX ↑ → TXNIP sequestered → less NLRP3 Signal 2
+- Calcitriol (Node E ≥60 ng/mL): VDRE at TXNIP promoter = 5th independent anti-inflammatory mechanism for VDR, reinforcing Node E priority in T1DM patients
+
+### Rosacea: A Third Parallel NLRP3 Signal 2 Source
+
+Rosacea Loop 2 (NLRP3/pyroptosis) now has three documented cytoplasmic ROS-to-NLRP3 Signal 2 pathways converging on dermal macrophages:
+1. Mitochondrial ROS → K⁺ efflux (run_090)
+2. Iron-Fenton OH• → lipid peroxidation (run_110)
+3. **Cytoplasmic H₂O₂ → TRX oxidation → TXNIP → NLRP3 PYD (run_112)**
+
+For phymatous/sebaceous-dominant rosacea with high Loop 4 oxidative load, all three arms are simultaneously active. This explains why Loop 2 non-responders in this subtype may have the most severe NLRP3 activation and least response to single-target interventions.
+
+### FRAMEWORK STATUS UPDATE
+
+Saturation declared at run_111, breached at run_112. TXNIP was the only mechanism in five comprehensive sweeps (~60 candidates) to clear all four saturation override criteria.
+
+Post-run_112 sweep (sixth, same session): Trm, IL-15, ILC1, IRF5, Piezo1, skin pH, BATF, Treg GSDMD, GLUT1/Warburg T cells — all killed. **Framework now saturated at 112 runs.**
+
+*Updated: 2026-04-12 | Phase 4 eighty-seventh extension | TXNIP cytoplasmic ROS sensor TRX thioredoxin ChREBP glucose NLRP3 Signal 2 9th beta cell death honeymoon T1DM tight glucose control 5th calcitriol benefit 2nd BHB mechanism rosacea Loop 2 third ROS arm ME/CFS neuroinflammation | run_112*
