@@ -110,9 +110,9 @@ The specific enrichment of rosacea in T1DM (OR 2.59) is the population-level sig
 | M3↔M7 (P. gingivalis → CAR → CVB) | 006 | PMC7305306 + PMC5129002 | nPOD dual IHC (Graves + Richardson) |
 | M1↔M4 (gut Th17 → skin Treg plasticity) | 007 | PMID 31776355 + ustekinumab data | Risankizumab SEQUENCE co-morbidity data |
 | M2+M4 (KLK5/IFN/IL-23 loop) | 008 | PMC9977509 + KLK5-mTORC1 confirmed | Ivermectin + azelaic acid RCT in non-responders |
-| M3↔M2 (CVB→IFN-α→pDC→rosacea) | 009 | OR 2.59 (Egeberg 2016) + 3 mechanistic layers | IFN-α Simoa stratifies rosacea risk WITHIN T1DM |
+| M3↔M2 (CVB→IFN-α→pDC→rosacea) | 009 | **PARTIAL KILL** — OR 2.59 explained by shared HLA-DR3 haplotype; pDC/IFN-α mechanism survives for CVB-active individuals | IFN-α Simoa stratifies rosacea risk WITHIN T1DM (controls for HLA) |
 
-**All four are STRONG CANDIDATES.** None is "real" yet — each needs one decisive test.
+**Status: M3↔M7, M1↔M4, M2+M4 loop = STRONG CANDIDATES. M3↔M2 = CANDIDATE (downgraded by HLA kill).**
 
 ---
 
@@ -129,7 +129,9 @@ M3: CVB enters beta cells more easily → persistent infection establishes
 M4: IFN-α primes circulating pDCs (PMID 24973447)
     ↓ [pDCs lower threshold for B. oleronius → IFN → IL-23 → Th17 loop in skin]
 M2: Rosacea — at Demodex density previously tolerated
-    ↓ [Egeberg 2016: T1DM + rosacea OR 2.59 is the population-level signature]
+    ↓ [Egeberg 2016: T1DM + rosacea OR 2.59 — NOTE: primarily explained by shared HLA-DR3,
+       not CVB mechanism at population level. CVB mechanism may operate in individual
+       CVB-active patients ON TOP OF the HLA floor. Run 007D HLA kill test result.]
 ```
 
 **Transliteration:** Bad oral hygiene → easier CVB infection in islets → T1DM progression +
