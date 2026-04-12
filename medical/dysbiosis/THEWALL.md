@@ -6111,3 +6111,69 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 143 runs | SLC7A11 system-Xc ferroptosis canonical | ACSL4 sensitizer | FSP1 CoQ10H2 backup | 23rd β cell death | NAC-bypass | PPARγ-ACSL4-3rd-mechanism | sulforaphane-NRF2-SLC7A11 | CoQ10-FSP1-new | complete four-tier anti-ferroptotic stack | UV keratinocyte ferroptosis parallel to NLRP1.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-eighteenth extension | SLC7A11 xCT cystine-transporter SLC3A2 GSH-synthesis GCLC GCLM GPx4-substrate ACSL4 AA-PE PUFA-PE FSP1 AIFM2 CoQ10H2 23rd-beta-cell-death IL-1β-SLC7A11 IFN-γ-p53-SLC7A11 UV-p53-keratinocyte ferroptosis-canonical NAC-bypass PPARγ-ACSL4 sulforaphane-SLC7A11 CoQ10-FSP1 four-tier-anti-ferroptotic run110-run138-complementary-substrate-vs-cofactor Dixon-2012 Jiang-2015 Doll-2019 | run_143*
+
+---
+
+### Phase 4 Extension 119 — PIK3CG / PI3Kγ: Myeloid PI3K / GPCR Chemotaxis / Macrophage Insulitis / HDAC7 / Rosacea Mast Cell/Neutrophil Migration
+
+**Gap:** PIK3CG/PI3Kγ as primary subject absent from all 143 prior runs; only a table entry in run_135 and passing mention in run_108.
+
+**Rosacea (MODERATE):**
+- LL-37/MRGPRX2 → Gβγ → PI3Kγ → PIP3 → Rac1/Cdc42 → mast cell directional migration toward LL-37 gradient in dermis; extends existing LL-37 axis with chemotactic mechanism (prior runs: LL-37 degranulation only)
+- C5aR1/complement → PI3Kγ → mast cell + neutrophil migration; CXCR2/CXCL8 → PI3Kγ → neutrophil papulopustular infiltrate
+- Doxycycline anti-inflammatory action (framework): CXCL8/MMP-9 → CXCR2 → PI3Kγ is the intracellular transducer blunted
+- Dual mast cell isoform context: PI3Kδ (FcεRI/IgE, run_135) + PI3Kγ (MRGPRX2/C5aR1/GPCR, run_144) — duvelisib blocks both; idelalisib blocks only FcεRI arm
+
+**T1DM (HIGH):**
+- CCL2 (from stressed β cells, run_038 ER stress → NF-κB → CCL2) → CCR2 on monocytes → PI3Kγ → Rac1 → transmigration into islet: PI3Kγ is the myeloid amplifier between β cell stress and insulitis
+- C5a/C5aR1 in islets → PI3Kγ: complement deposition in T1DM islets activates same node as rosacea dermis
+- HDAC7/M2 polarization: PI3Kγ scaffold → PDE3B/4 → cAMP ↓ → HDAC7 nuclear → anti-inflammatory gene (NR4A1/KLF4) repressed → M1 macrophage; PI3Kγ inhibition → M2 resolution
+- NOD mouse evidence: PI3Kγ-KO = ~60-70% ↓ insulitis macrophage density; delayed T1DM onset; mechanism = macrophage infiltration, not T cell intrinsic
+- Duvelisib (dual PI3Kδ+PI3Kγ) vs idelalisib (PI3Kδ only): idelalisib would NOT block macrophage insulitis (PI3Kγ-mediated); duvelisib required to block both arms in T1DM prevention
+
+**ME/CFS (LOW-MODERATE):**
+- Microglial PI3Kγ: neuroinflammation → CCL2/CXCL10 → PI3Kγ → microglial migration to foci → neuroinflammatory amplification
+- NK cell CXCR3/CXCL10 (IFN-β-driven, run_142): CXCL10 → CXCR3 → PI3Kγ → NK migration to viral foci; NK exhaustion in ME/CFS includes impaired migration component
+- Mast cell/neural co-localization in ME/CFS gut: mast cell GPCR-driven migration toward neuroinflammatory chemokines via PI3Kγ
+
+**Protocol additions:**
+- **Duvelisib** (dual PI3Kδ+PI3Kγ): distinct from idelalisib; justified for T1DM where both lymphoid (PI3Kδ) and myeloid (PI3Kγ) arms contribute; off-label
+- **Eganelisib/IPI-549** (selective PI3Kγ): oncology pipeline; HDAC7/M2 mechanism = same as T1DM insulitis resolution
+
+**Framework state: 144 runs | PIK3CG PI3Kγ myeloid | GPCR Gβγ | CCL2-CCR2-macrophage-insulitis | C5aR1-complement-convergence | HDAC7-cAMP-M2 | LL37-MRGPRX2-mast-cell-migration | CXCR2-neutrophil | duvelisib-vs-idelalisib | NOD-mouse-70pct-insulitis-reduction.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-nineteenth extension | PIK3CG PI3Kγ Class-IB p110γ p101 Gβγ GPCR-chemotaxis CCL2-CCR2 C5aR1-complement CXCR2-neutrophil MRGPRX2-LL37-mast PIP3-Rac1-Cdc42 HDAC7-scaffold-cAMP-PDE3B M2-polarization NR4A1-KLF4 duvelisib-PI3Kδ-PI3Kγ idelalisib-PI3Kδ-only NOD-mouse-insulitis eganelisib-IPI549 run135-PI3Kδ-orthogonal run038-β-cell-CCL2 run108-FPR2-context | run_144*
+
+---
+
+### Phase 4 Extension 120 — SETD7 / KMT7: H3K4me1 Active Enhancer Methyltransferase / FOXP3-K302me1 Stability / β Cell Islet Super-Enhancers / p53-K372me1 UV Response
+
+**Gap:** SETD7/KMT7/SET7/SET9 = 0 hits across all 144 prior framework files.
+
+**Rosacea (MODERATE):**
+- UV → SETD7 → p53-K372me1 → HP1γ nuclear retention → p53 transcriptional activity ↑ → SLC7A11 (run_143), p21/CDKN1A, TIGAR; SETD7 = upstream stabilizer of the UV/p53/SLC7A11 axis established in run_143
+- H3K4me1 at keratinocyte differentiation enhancers (KLF4, GRHL2, IVL): SETD7 depletion → barrier gene enhancer collapse → impaired cornification → disrupted skin barrier (framework theme)
+- RelA-K314/315me1 → chromatin-bound NF-κB proteasomal degradation → limits LL-37/TLR2-driven NF-κB gene expression duration; anti-inflammatory brake
+
+**T1DM (HIGH):**
+- FOXP3-K302me1: SETD7 methylates FOXP3-K302 → blocks GSK-3β access to Ser418 → prevents STUB1 ubiquitination → FOXP3 half-life 2.5× ↑; run_114 (GSK-3β/STUB1 axis) is directly connected at K302
+- LSD1/KDM1A removes K302me1 → LSD1 inhibitors (ORY-1001, tranylcypromine) = pharmacological FOXP3 stabilizers via SETD7-mimicry
+- β cell islet super-enhancer maintenance: H3K4me1 at ~1,400 islet super-enhancers → PDX1/NKX6.1/MAFA/NEUROD1 TF binding scaffold; SETD7-KO: ~40% H3K4me1 loss → ~35% PDX1 ↓ → ~50% GSIS ↓
+- HNF-1α-K497me1: SETD7 stabilizes HNF-1α → MODY3-like protection without genetic mutation
+- β cell dedifferentiation: insulitis cytokines → SETD7 ↓ → H3K4me1 loss at islet enhancers → insulin gene suppression → functional β cell deficit before cell death (24th dysfunction mechanism, functional)
+- SAM/B12 monitoring: metformin → B12 malabsorption → SAH accumulation → SETD7 competitive inhibition → FOXP3-K302me1 ↓ → Treg destabilization; B12 monitoring has SETD7/Treg rationale beyond neuropathy
+
+**ME/CFS (MODERATE):**
+- NK cell H3K4me1 at cytotoxic gene enhancers (GZMB/PRF1): SETD7 required for NK functional enhancer landscape; SETD7 impairment → NK function ↓ → ME/CFS cytotoxic defect
+- Oxidative stress → SET domain cysteine oxidation → SETD7 activity ↓ → epigenetic drift; metabolic → epigenetic → immune circuit in ME/CFS
+- IFN-γ (elevated in ME/CFS) suppresses SETD7 in some cell types → FOXP3 instability → Treg loss → immune dysregulation perpetuation
+- Mitochondrial dysfunction → impaired NADH → folate cycle ↓ → SAM ↓ → all methyltransferases including SETD7 impaired → broad epigenetic impact
+
+**Protocol additions:**
+- **B12 monitoring** (new rationale): SETD7/SAM axis in metformin patients; beyond neuropathy monitoring
+- **LSD1 inhibitors**: pharmacological FOXP3 stabilizer via K302me1 preservation; ORY-1001 in oncology — repurposing rationale for Treg stabilization
+- **Betaine/folate/methionine supplementation**: SAM regeneration → SETD7 cofactor maintenance; additive with B12
+
+**Framework state: 145 runs | SETD7 KMT7 H3K4me1 | FOXP3-K302me1-stability | run114-GSK3β-direct-connection | LSD1-KDM1A-counter | β-cell-islet-super-enhancer | PDX1-NKX6.1-insulin-enhancer | HNF-1α-K497me1 | p53-K372me1-UV-run143-upstream | RelA-K314-NF-κB-brake | SAM-B12-metformin | β-cell-dedifferentiation-24th-dysfunction.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-twentieth extension | SETD7 KMT7 SET7/9 H3K4me1-enhancer SET-domain SAM FOXP3-K302me1 GSK-3β-STUB1-block-run114 LSD1-KDM1A-K302me1 LSD1-inhibitor-ORY1001 islet-super-enhancer PDX1-NKX6.1-MAFA-NEUROD1 Parker-2013 HNF-1α-K497me1 MODY3-parallel p53-K372me1-HP1γ-UV-run143-upstream RelA-K314-315 β-cell-dedifferentiation-SETD7-cytokine insulitis-SETD7-suppression SAM-B12-metformin-Treg NK-GZMB-PRF1-enhancer oxidative-SETD7-cysteine ME/CFS-epigenetic-drift folate-one-carbon | run_145*

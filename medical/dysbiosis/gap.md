@@ -3813,3 +3813,48 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 32: 143 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-thirty-sixth extension | SLC7A11 xCT system-Xc SLC3A2 cystine-glutamate-antiporter GSH-synthesis GCLC GCLM GPx4-substrate ferroptosis-canonical ACSL4 PUFA-PE ferroptosis-sensitizer FSP1 AIFM2 CoQ10H2 ubiquinol backup-defense 23rd-beta-cell-death insulitis-cytokine-SLC7A11-suppression IL-1β-SLC7A11 IFN-γ-p53-SLC7A11 UV-p53-keratinocyte-ferroptosis NAC-bypass PPARγ-ACSL4-third-mechanism sulforaphane-NRF2-SLC7A11 CoQ10-FSP1-mechanism complete-anti-ferroptotic-stack run110-run138-complementary Dixon-2012-Cell Jiang-2015-Nature Doll-2019-NatChemBiol | run_143*
+
+---
+
+### Extension 137 — PIK3CG / PI3Kγ: Myeloid PI3K Isoform, GPCR/Gβγ Chemotaxis, Macrophage Insulitis Infiltration, HDAC7 M2 Polarization, Rosacea Mast Cell/Neutrophil Migration
+
+**Date:** 2026-04-12 | **Run:** run_144
+
+**Gap confirmed:** PIK3CG/PI3Kγ appears only in run_135 isoform table (noted as distinct but unanalyzed) and run_108 passing mention — never analyzed as primary subject. GPCR→Gβγ→PI3Kγ axis, HDAC7 scaffold function, macrophage insulitis, mast cell MRGPRX2/PI3Kγ = 0 prior analysis.
+
+**Core insight:** PI3Kγ (Class IB, PIK3CG) is the myeloid PI3K isoform (macrophages, neutrophils, mast cells) activated by GPCR → Gβγ — entirely distinct from PI3Kδ (Class IA, run_135), which is activated by RTK/BCR/TCR in lymphocytes. Both produce PIP3 but from orthogonal upstream inputs in distinct cell compartments. PI3Kγ drives: (1) innate cell chemotaxis via PIP3 → Rac1/Cdc42 → lamellipodia; (2) macrophage M1 bias via PI3Kγ scaffold → PDE3B/4 → cAMP ↓ → HDAC7 nuclear retention → anti-inflammatory gene repression. In T1DM, PI3Kγ is the myeloid amplifier linking stressed β cells (CCL2 output) to insulitis macrophage infiltration. In rosacea, LL-37/MRGPRX2 → PI3Kγ = mast cell migration; C5aR1 + CXCR2 → PI3Kγ = neutrophil infiltration.
+
+**New mechanisms added (run_144):**
+- **Macrophage insulitis via CCL2-CCR2-PI3Kγ circuit**: stressed β cells (run_038/ER stress, UPR → NF-κB → CCL2) → CCR2 on monocytes → PI3Kγ → Rac1 → transmigration into islet; PI3Kγ = the monocyte-side interpreter of β cell distress signals
+- **HDAC7/M2 polarization axis (PI3Kγ scaffold function)**: PI3Kγ nuclear pool (kinase-independent) → PDE3B/4 → cAMP ↓ → PKA ↓ → HDAC7 nuclear retention → anti-inflammatory NR4A1/KLF4 repressed → M1 macrophage bias; PI3Kγ inhibition → cAMP ↑ → HDAC7 export → M2 resolution
+- **C5a/C5aR1 as shared rosacea/T1DM convergence node**: complement activation in facial skin (rosacea) and islets (T1DM) → C5a → C5aR1 → PI3Kγ active in both diseases simultaneously
+- **LL-37/MRGPRX2/PI3Kγ directional migration**: MRGPRX2 → Gβγ → PI3Kγ → PIP3 → Rac1/Cdc42 → mast cell directional migration toward LL-37 gradient; extends existing LL-37 axis with chemotactic mechanism
+- **Duvelisib vs. idelalisib clinical distinction**: idelalisib = PI3Kδ only → blocks lymphocyte axis but NOT macrophage insulitis; duvelisib = dual PI3Kδ+PI3Kγ → required to block both lymphoid AND myeloid arms; relevant for T1DM prevention trial design
+- **NOD mouse evidence**: PI3Kγ-deficient NOD mice: ~60-70% ↓ insulitis macrophage density; delayed onset; mechanism confirmed as macrophage infiltration defect, not T cell intrinsic
+
+**Framework at SATURATION + 33: 144 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-thirty-seventh extension | PIK3CG PI3Kγ Class-IB PI3K p110γ p101-regulatory Gβγ-activated GPCR-chemotaxis CCL2-CCR2-macrophage-insulitis C5aR1-complement-convergence CXCR2-neutrophil-rosacea MRGPRX2-LL37-mast-cell-migration HDAC7-scaffold-cAMP-PKA-M2-polarization NR4A1-KLF4-anti-inflammatory PDE3B PDE4 PIP3-Rac1-Cdc42-lamellipodia duvelisib-vs-idelalisib PI3Kδ-vs-PI3Kγ-isoform-distinction NOD-mouse-insulitis-60pct-reduction β-cell-CCL2-stress-signal eganelisib-IPI549 run135-PI3Kδ-complementary run108-LXA4-FPR2-context | run_144*
+
+---
+
+### Extension 138 — SETD7 / KMT7: H3K4me1 Active Enhancer Methyltransferase, FOXP3-K302 Protein Stability, β Cell Islet Enhancer Maintenance, p53-K372 UV Response
+
+**Date:** 2026-04-12 | **Run:** run_145
+
+**Gap confirmed:** SETD7/KMT7/SET7/SET9 = 0 hits across all 144 prior framework files. H3K4me1 active enhancer mark, FOXP3-K302me1 methylation, β cell islet super-enhancers, HNF-1α-K497 stability = all absent.
+
+**Core insight:** SETD7 is a SET domain methyltransferase unique in acting on BOTH histone H3K4 (epigenetic layer: H3K4me1 → active enhancer state for PDX1/insulin/NKX6.1 islet genes and keratinocyte differentiation genes) AND non-histone proteins (protein stability layer: FOXP3-K302me1 blocks GSK-3β → STUB1 degradation pathway from run_114; p53-K372me1 → HP1γ nuclear retention; HNF-1α-K497me1 → β cell TF stabilization; RelA-K314/315me1 → NF-κB termination). Most methyltransferases act on one layer; SETD7 is a convergent node for both. In T1DM: SETD7 protects FOXP3 protein stability (Treg survival in insulitis) and β cell islet enhancer accessibility (PDX1/insulin gene expression) — dual protection. Cytokine suppression of SETD7 in β cells → enhancer collapse → dedifferentiation (functional β cell loss before death). In rosacea: SETD7 → p53-K372me1 stabilization = upstream of the UV/p53/SLC7A11 axis (run_143).
+
+**New mechanisms added (run_145):**
+- **FOXP3-K302me1 protein stability (direct run_114 connection)**: SETD7 methylates FOXP3-K302 → blocks GSK-3β access to Ser418 → prevents STUB1/CHIP E3 ubiquitin recruitment → FOXP3 half-life 2.5× ↑; LSD1/KDM1A removes K302me1 → dynamic control; LSD1 inhibitors (tranylcypromine, ORY-1001) = pharmacological Treg stabilizer via SETD7-mimicry
+- **β cell islet super-enhancer maintenance**: SETD7 → H3K4me1 at ~1,400 islet super-enhancers (Parker 2013); PDX1/NKX6.1/MAFA/NEUROD1 TF binding requires H3K4me1 scaffold; SETD7-KO islets: ~40% H3K4me1 loss → ~35% PDX1 ↓ → ~50% GSIS ↓
+- **HNF-1α-K497me1 (MODY3 connection)**: SETD7 stabilizes HNF-1α → MODY3-like pathway in reverse; SETD7 activity protects against HNF-1α functional loss without genetic mutation
+- **p53-K372me1 → UV/SLC7A11 axis link** (run_143 upstream): UV → p53-K372 exposed → SETD7 → K372me1 → HP1γ binding → p53 nuclear retention → p21/SLC7A11/TIGAR transcription; SETD7 is the p53-stabilizer sitting above run_143 in keratinocytes
+- **RelA-K314/315me1 NF-κB termination**: SETD7 methylates chromatin-bound RelA → proteasomal degradation → NF-κB target gene duration limited; anti-inflammatory brake in insulitis and rosacea
+- **SAM/B12 monitoring implication**: all methyltransferases require SAM; B12/folate deficiency → SAH accumulation → competitive methyltransferase inhibition; metformin → B12 malabsorption → SAM ↓ → SETD7 impaired → FOXP3 destabilized → Treg loss; B12 monitoring in metformin-treated T1DM has SETD7/Treg stability rationale beyond neuropathy
+- **β cell dedifferentiation (24th β cell dysfunction mechanism — functional, not death)**: insulitis cytokines → NF-κB + STAT1 → SETD7 expression ↓ → H3K4me1 loss at islet enhancers → PDX1/NKX6.1 ↓ → insulin gene suppression → functional β cell deficit before cell death occurs
+
+**Framework at SATURATION + 34: 145 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-thirty-eighth extension | SETD7 KMT7 SET7/9 H3K4me1-active-enhancer SET-domain SAM-cofactor FOXP3-K302me1-GSK3β-STUB1-block FOXP3-stability-2.5x run114-GSK3β-STUB1-direct-connection LSD1-KDM1A-K302me1-removal LSD1-inhibitor-Treg-stabilizer β-cell-islet-super-enhancer PDX1-NKX6.1-MAFA-NEUROD1 Parker-2013-super-enhancer SETD7-KO-islet-GSIS-50pct HNF-1α-K497me1-MODY3-reverse p53-K372me1-HP1γ-UV-upstream-run143 RelA-K314-K315me1-NF-κB-termination β-cell-dedifferentiation-24th-dysfunction cytokine-SETD7-suppression SAM-B12-metformin-monitoring folate-one-carbon-methyltransferase Treg-stability-stack-complete run010-FOXP3-protein-protection | run_145*

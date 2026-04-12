@@ -1240,3 +1240,56 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
    - NAC: PEM mitigation via GSH preservation — first ferroptosis-specific PEM mechanism
 
 *ME/CFS THEWALL cross-reference run_143: 2026-04-12 | SLC7A11 xCT GSH GPx4-substrate ACSL4 FSP1 CoQ10H2 NK-ferroptosis NAC-NK-protection CoQ10-FSP1-new-mechanism MAVS-mitochondria-connection PEM-ferroptosis-component selenium-run138-complementary four-tier-anti-ferroptotic run138-cofactor-run143-substrate | run_143*
+
+---
+
+### Cross-reference: run_144 — PIK3CG/PI3Kγ / Microglial Migration / NK CXCR3 / Mast Cell Neuroimmune
+
+**Relevance: LOW-MODERATE**
+
+1. **Microglial PI3Kγ and neuroinflammation**:
+   - CNS microglia are tissue-resident macrophages expressing PI3Kγ
+   - Neuroinflammation in ME/CFS → CCL2/CXCL10 → PI3Kγ → microglial migration to inflammatory foci → neuroinflammatory amplification
+   - PI3Kγ HDAC7 axis: M1 microglial bias → sustained neuroinflammation; PI3Kγ inhibition → M2 microglial resolution
+
+2. **NK CXCR3/CXCL10 → PI3Kγ migration**:
+   - IFN-β (run_142, MDA5/MAVS) → CXCL10 production
+   - CXCL10 → CXCR3 on NK cells → PI3Kγ → NK migration to viral foci
+   - NK exhaustion in ME/CFS includes impaired migration component (not just cytotoxicity defect)
+   - Complements run_141 (TAGAP/IS geometry): migration (PI3Kγ) vs. IS maturation (TAGAP) are two distinct NK functional tiers
+
+3. **Mast cell neuroimmune co-localization**:
+   - Mast cell/neural co-localization in ME/CFS gut is documented
+   - Neuroinflammatory chemokines → mast cell GPCR → PI3Kγ → mast cell migration toward neuronal-mast co-localization sites
+   - ME/CFS neuroimmune amplification: neuronal substance P → MRGPRX2 → PI3Kγ → mast cell migration → degranulation at neural sites → VIP/substance P → sensitization loop
+
+*ME/CFS THEWALL cross-reference run_144: 2026-04-12 | PIK3CG PI3Kγ microglial-migration HDAC7-M2-neuroinflammation NK-CXCR3-CXCL10-migration run142-IFN-β-CXCL10-source mast-cell-neuroimmune MRGPRX2-substance-P run141-TAGAP-IS-geometry-complement CCL2-CXCL10 | run_144*
+
+---
+
+### Cross-reference: run_145 — SETD7/KMT7 / NK Enhancer Landscape / Oxidative Epigenetic Drift / SAM/Mitochondrial
+
+**Relevance: MODERATE**
+
+1. **NK cell cytotoxic gene enhancer maintenance**:
+   - NK cells require H3K4me1 at GZMB (granzyme B) and PRF1 (perforin) enhancers for cytotoxic function
+   - SETD7 → H3K4me1 at these enhancers → NK cytotoxic gene expression
+   - ME/CFS NK functional defect: if SETD7 is impaired → cytotoxic gene enhancer collapse → NK hypofunction
+   - Connects to multiple prior ME/CFS NK runs (exhaustion, IS geometry, migration)
+
+2. **Oxidative stress → SETD7 inactivation → epigenetic drift**:
+   - ME/CFS = chronic oxidative stress → reactive oxygen species → SET domain cysteine oxidation → SETD7 activity ↓
+   - SETD7 impairment → H3K4me1 loss across active enhancers → gene expression drift → NK, Treg, and cytokine gene disruption
+   - Creates a metabolic → epigenetic → immune vicious cycle unique to ME/CFS oxidative phenotype
+   - NAC (run_143) protects against cysteine oxidation → SETD7 activity preserved: new mechanistic link between NAC and epigenetic stability
+
+3. **Mitochondrial dysfunction → SAM depletion → SETD7 impairment**:
+   - ME/CFS mitochondrial dysfunction → impaired NADH regeneration → folate cycle ↓ → SAM ↓
+   - SAM = universal methyl donor for SETD7; SAM ↓ → competitive SETD7 inhibition (SAH accumulation)
+   - All SETD7-dependent marks (FOXP3-K302me1, NK enhancers, H3K4me1 landscape) diminished by mitochondrial failure
+   - B12/folate/methionine/betaine: SAM regeneration → SETD7 activity support; OTC and relevant for ME/CFS
+
+4. **IFN-γ → SETD7 suppression loop**:
+   - IFN-γ elevated in active ME/CFS → SETD7 suppression in some immune cells → FOXP3-K302me1 ↓ → Treg destabilization → more IFN-γ production (Treg loss removes IFN-γ suppression) → self-amplifying loop
+
+*ME/CFS THEWALL cross-reference run_145: 2026-04-12 | SETD7 KMT7 H3K4me1 NK-GZMB-PRF1-enhancer NK-cytotoxic-defect oxidative-SET-cysteine-inactivation epigenetic-drift metabolic-epigenetic-immune mitochondrial-SAM-depletion folate-one-carbon SAH-accumulation NAC-cysteine-SETD7-protection IFN-γ-SETD7-Treg-loop B12-folate-SAM-ME/CFS run143-NAC-SETD7-bridge run138-selenium-complement | run_145*

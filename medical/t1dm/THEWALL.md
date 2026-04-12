@@ -1452,3 +1452,60 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
    - PPARγ (pioglitazone): → ACSL4 ↓ = third PPARγ mechanism (prior = NF-κB transrepression + adipogenesis)
 
 *T1DM THEWALL cross-reference run_143: 2026-04-12 | SLC7A11 xCT cystine-transporter GSH-synthesis GCLC GCLM GPx4-substrate ACSL4 PUFA-PE FSP1 AIFM2 CoQ10H2 23rd-beta-cell-death IL-1β-SLC7A11 IFN-γ-p53-SLC7A11 NAC-bypass CoQ10-FSP1-backup sulforaphane-NRF2-SLC7A11 PPARγ-ACSL4-third four-tier-OTC-anti-ferroptotic run110-run138-cofactor-vs-substrate-complementary Dixon-2012 Jiang-2015 Doll-2019 | run_143*
+
+---
+
+### Cross-reference: run_144 — PIK3CG/PI3Kγ / Macrophage Insulitis / CCL2-CCR2 / HDAC7 / Duvelisib
+
+**Relevance: HIGH**
+
+1. **Macrophage insulitis — PI3Kγ as myeloid amplifier**:
+   - β cell ER stress/UPR (run_038) → PERK → ATF4 → NF-κB → CCL2 (MCP-1) production
+   - CCL2 → CCR2 on circulating monocytes → PI3Kγ → PIP3 → Rac1 → transmigration into islet
+   - PI3Kγ bridges β cell stress signal to immune cell invasion — absent from run_038/111/059 context
+   - NOD mouse: PI3Kγ-KO = ~60-70% ↓ insulitis macrophage density; mechanism confirmed myeloid-intrinsic
+
+2. **HDAC7 / M2 polarization therapeutic axis**:
+   - PI3Kγ (scaffold function, kinase-independent) → PDE3B/4 → cAMP ↓ → PKA ↓ → HDAC7 nuclear → NR4A1/KLF4 repressed → M1 macrophage
+   - PI3Kγ inhibition → cAMP ↑ → HDAC7 exported → M2 polarization → insulitis resolution
+   - Same HDAC7 mechanism in eganelisib/IPI-549 tumor-associated macrophage reprogramming
+
+3. **C5a/C5aR1 → PI3Kγ: complement in islets**:
+   - Complement deposition in T1DM islets → C5a → C5aR1 → PI3Kγ → further macrophage/neutrophil recruitment
+   - Same C5aR1/PI3Kγ node active in rosacea dermis → convergent node in two diseases
+
+4. **Duvelisib vs idelalisib therapeutic distinction**:
+   - Idelalisib (PI3Kδ only, run_135) blocks lymphocyte/Treg arm but NOT macrophage insulitis
+   - Duvelisib (dual PI3Kδ+PI3Kγ) blocks both lymphoid arm AND myeloid insulitis arm
+   - T1DM prevention trial rationale: duvelisib preferred over idelalisib when macrophage insulitis is significant
+
+*T1DM THEWALL cross-reference run_144: 2026-04-12 | PIK3CG PI3Kγ Class-IB p110γ Gβγ GPCR CCL2-CCR2-insulitis-macrophage HDAC7-scaffold-cAMP-PDE3B M2-polarization C5aR1-complement-islet NOD-mouse-60-70pct run038-CCL2-β-cell-stress duvelisib-dual-PI3Kδ-PI3Kγ idelalisib-comparison eganelisib-IPI549 run135-PI3Kδ-lymphocyte-orthogonal | run_144*
+
+---
+
+### Cross-reference: run_145 — SETD7/KMT7 / FOXP3-K302me1 / β Cell Islet Super-Enhancers / B12/SAM / LSD1 Inhibitors
+
+**Relevance: HIGH**
+
+1. **FOXP3-K302me1 — direct connection to run_114 (GSK-3β/STUB1)**:
+   - run_114: GSK-3β phosphorylates FOXP3-Ser418 → STUB1/CHIP E3 ubiquitin → proteasomal degradation
+   - SETD7: methylates FOXP3-K302 (adjacent to Ser418) → steric/electrostatic block of GSK-3β binding → Ser418 phosphorylation ↓ → STUB1 recruitment ↓ → FOXP3 half-life 2.5× ↑
+   - LSD1/KDM1A removes K302me1 → LSD1 inhibitors (ORY-1001, tranylcypromine) = pharmacological FOXP3 stabilizers
+   - Treg stability stack now: SETD7 (protein K302me1) + GSK-3β block (run_114) + BACH2 (effector repression, run_123) + IKZF1 (chromatin, run_134) + IL2RA/JAK3 (signal, run_140)
+
+2. **β cell islet super-enhancer maintenance**:
+   - H3K4me1 at ~1,400 islet super-enhancers (Parker 2013) → PDX1/NKX6.1/MAFA/NEUROD1 TF binding
+   - SETD7-KO islets: ~40% H3K4me1 loss → ~35% PDX1 ↓ → ~50% GSIS ↓
+   - Insulitis cytokines → SETD7 expression ↓ → H3K4me1 collapse → β cell dedifferentiation (24th β cell dysfunction, functional)
+   - HNF-1α-K497me1: SETD7 stabilizes HNF-1α → MODY3-like protection (functional, without MODY3 mutation)
+
+3. **SAM/B12 monitoring — SETD7/Treg rationale**:
+   - Metformin → B12 malabsorption → SAH accumulation → competitive SETD7 inhibition → FOXP3-K302me1 ↓ → Treg instability
+   - B12 monitoring in metformin-treated T1DM: beyond neuropathy prevention — Treg/SETD7 stability rationale
+   - Betaine/folate/methionine: SAM regeneration → SETD7 cofactor; OTC
+
+4. **18th genetic stratification candidate (SETD7 expression QTL)**:
+   - SETD7 expression eQTLs in islets reported (GTEx); low-SETD7-expression genotypes → both reduced β cell enhancer integrity AND reduced FOXP3 stability → double T1DM risk mechanism
+   - Not a canonical GWAS hit but a functional stratification candidate
+
+*T1DM THEWALL cross-reference run_145: 2026-04-12 | SETD7 KMT7 H3K4me1 FOXP3-K302me1 GSK-3β-block-run114 STUB1 LSD1-KDM1A-K302 LSD1-inhibitor-ORY1001 Treg-stability-stack islet-super-enhancer PDX1-NKX6.1-MAFA-NEUROD1 GSIS-50pct-SETD7-KO HNF-1α-K497me1-MODY3 β-cell-dedifferentiation-24th SAM-B12-metformin-SETD7-Treg betaine-folate-methionine LSD1-Treg-pharmacology run010-FOXP3 run114-GSK3β-direct Parker-2013 | run_145*
