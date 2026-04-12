@@ -5796,3 +5796,31 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 133 runs | USP18/ISG15 IFN OFF-switch | first IFN terminator | 21st β cell death | ME/CFS IFN persistence mechanism | CXCL10 Node D 4th source | JAK inhibitor rationale | run_063 ON + run_133 OFF = complete keratinocyte IFN cycle.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-eighth extension | USP18 UBP43 ISG15 ISGylation IFNAR2-binding JAK1-block STAT1-termination IFN-negative-feedback OFF-switch ISG15-deconjugase cGAS-IFN-β-run063-complement IFN-persistence ME/CFS-ISG-signature CXCL10-Node-D-4th-source 21st-beta-cell-death sustained-STAT1 MHC-I-persistent CXCL10-chronic JAK-inhibitors baricitinib ruxolitinib free-ISG15-cytokine Malakhova-2006-EMBO Arimoto-2017-Nat-Struct Zhang-2015-Nature | run_133*
+
+---
+
+### Phase 4 Extension 109 — IKZF1/Ikaros / Hematopoietic Development / pDC Fate / Treg Chromatin
+
+**Gap:** IKZF1/Ikaros/rs1701704 completely absent from all 133 prior runs. No hematopoietic DEVELOPMENTAL transcription factor previously analyzed.
+
+**Rosacea (MODERATE):**
+- IKZF1 = master pDC fate determinant from CLP; pDC are the major IFN-α producers (run_006); IKZF1 risk allele → altered pDC pool/responsiveness → altered type I IFN response amplitude to Demodex/UV-B signals
+- Langerhans cells: IKZF1 in LC → NuRD → activation threshold; risk allele → lower LC threshold → faster Th1 priming → Loop 3 amplification
+- NK maturation: IKZF1 → CD56dim cytotoxic NK pool → NK surveillance of Demodex-infected keratinocytes; IKZF1 risk allele → immature NK bias → reduced Demodex clearance → rosacea chronification; additive with STIM1 (run_127) and ITPR3 (run_132) Ca²⁺ NK functional defects
+
+**T1DM (MODERATE):**
+- rs1701704: 11th T1DM genetic stratification; bidirectional genomic risk (T1DM autoimmunity vs ALL — opposite allele effects; parallel to ErbB3/run_129 bidirectional β cell + skin risk)
+- Treg chromatin scaffold: IKZF1/NuRD establishes H3K27ac-low chromatin at effector loci → chromatin backbone that FOXP3 (run_010), BACH2 (run_123), and DYRK1A (run_125) operate within; IKZF1 deficiency → destabilized FOXP3 binding + accelerated ex-Treg conversion (BACH2 mechanism amplified)
+- pDC → type I IFN (run_006): IKZF1 upstream developmental gatekeeper; risk allele → altered pDC number/subtype → altered IFN-α amplitude → altered β cell MHC-I/CXCL10 during insulitis
+- B cell repertoire: altered IgH locus accessibility → more autoreactive B cells → GADA/IA-2A/ZnT8A (run_104 Tfh context)
+
+**ME/CFS (MODERATE):**
+- NK developmental deficit: IKZF1 risk allele → fewer mature CD56dim cytotoxic NK → less viral clearance; additive with Ca²⁺ functional defects (run_127/132)
+- pDC pool → IKZF1 → pDC-IFN-α → USP18 (run_133) demand triangle: developmental (IKZF1) + functional (USP18 termination failure) contributions to ME/CFS IFN persistence
+
+**New OTC mechanism:**
+- **Vitamin A 3rd mechanism**: RA → RARE in IKZF1 promoter → IKZF1 ↑ → lymphoid development scaffold restored; combines with run_123 (RA → BACH2) → dual Treg TF support from Vitamin A; retinyl palmitate 3000–5000 IU/day = FIRST-LINE in IKZF1 + BACH2 compound risk carriers
+
+**Framework state: 134 runs | IKZF1/Ikaros hematopoietic development TF | 11th T1DM GWAS stratification | pDC fate master → run_006 upstream | Treg chromatin scaffold (FOXP3/BACH2/DYRK1A upstream) | NK maturation → compounded Ca²⁺ defect | Vitamin A 3rd mechanism (RARE → IKZF1).**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-ninth extension | IKZF1 Ikaros zinc-finger CLP hematopoietic-development pDC-fate NuRD HDAC1-HDAC2 Mi-2β chromatin-remodeling Treg-scaffold T1DM-GWAS rs1701704 Cooper-2012 11th-stratification B-cell-repertoire NK-maturation CD56dim Eomes T-bet NKG2D LC-activation type-I-IFN-run006-upstream FOXP3-scaffold BACH2-scaffold ex-Treg ALL-T1DM-pleiotropy Vitamin-A-3rd-mechanism RA-RARE butyrate-NuRD Georgopoulos-1994-Cell | run_134*

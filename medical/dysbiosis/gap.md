@@ -3589,3 +3589,26 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 22: 133 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-twenty-sixth extension | USP18 UBP43 ISG15 ISGylation ubiquitin-like IFNAR2-binding JAK1-block STAT1-termination IFN-negative-feedback OFF-switch ISG15-deconjugase non-catalytic IFNAR2 IFN-persistence ME/CFS-ISG-signature CXCL10-Node-D-4th-source 21st-beta-cell-death USP18-run063-OFF-switch rosacea-IFN-termination JAK-inhibitors baricitinib ruxolitinib free-ISG15-cytokine pseudo-TORCH interferonopathy Malakhova-2006-EMBO Arimoto-2017-Nat-Struct Zhang-2015-Nature | run_133*
+
+---
+
+### Extension 127 — IKZF1 / Ikaros / Hematopoietic Development / pDC Fate / Treg Chromatin Scaffold
+
+**Date:** 2026-04-12 | **Run:** run_134
+
+**Gap confirmed:** IKZF1/Ikaros completely absent from all 133 prior runs. No hematopoietic DEVELOPMENT transcription factor was analyzed — all prior TF runs covered mature cell function (FOXP3, BACH2, DYRK1A, CLEC16A/AIRE).
+
+**Core insight:** IKZF1/Ikaros is the master hematopoietic development TF specifying lymphoid lineages from CLP stage. Via NuRD complex (HDAC1/2 + Mi-2β): (1) establishes H3K27ac-low chromatin at effector cytokine loci in Tregs = upstream chromatin scaffold for FOXP3/BACH2/DYRK1A (runs 010/123/125); (2) commits CLP → pDC fate (Ikaros = master pDC fate determinant); (3) drives NK maturation (Eomes/T-bet/NKG2D expression). T1DM GWAS rs1701704 (Cooper 2012 Nat Genet) = 11th stratification point.
+
+**New mechanisms added (run_134):**
+- **11th T1DM genetic stratification**: rs1701704; bidirectional genomic risk (T1DM autoimmunity vs ALL leukemia — different allele effects)
+- **Treg chromatin scaffold**: IKZF1/NuRD → H3K27 deacetylation at IL-2/IFN-γ loci → chromatin backbone for FOXP3 target gene stability and BACH2 effector silencing; IKZF1 risk allele → ex-Treg rate ↑ (amplifies run_123 BACH2 mechanism)
+- **pDC fate determination → type I IFN**: IKZF1 = pDC developmental master; risk allele → altered pDC pool → altered IFN-α amplitude (run_006 upstream developmental regulator)
+- **NK maturation → cytotoxic CD56dim**: IKZF1 → Eomes/T-bet/NKG2D → CD56dim; IKZF1 risk allele → immature NK bias → reduced cytotoxicity → less Demodex clearance (rosacea) + compounded with Ca²⁺ defects (runs 127/132) in ME/CFS
+- **B cell repertoire**: IKZF1 shapes IgH locus accessibility → autoantibody diversity; risk allele → more autoreactive B cells → GADA/IA-2A/ZnT8A (run_104 Tfh context)
+- **Vitamin A 3rd mechanism**: RA → RARE in IKZF1 promoter → IKZF1 ↑ → lymphoid development scaffold; combines with run_123 (RA → BACH2) → dual Treg TF support from single Vitamin A intervention
+- **IKZF1 + BACH2 compound risk**: both Treg TF axes impaired → Vitamin A becomes FIRST-LINE OTC (RARE → IKZF1 + BACH2 simultaneous)
+
+**Framework at SATURATION + 23: 134 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-twenty-seventh extension | IKZF1 Ikaros zinc-finger hematopoietic-development CLP pDC-fate NuRD HDAC1-HDAC2 Mi-2β CHD4 chromatin-remodeling Treg-scaffold T1DM-GWAS rs1701704 Cooper-2012 11th-stratification B-cell-repertoire NK-maturation CD56dim Eomes T-bet NKG2D Langerhans-cell type-I-IFN-run006-upstream FOXP3-scaffold BACH2-scaffold ex-Treg-rate ALL-T1DM-pleiotropy Vitamin-A-3rd-mechanism RA-RARE butyrate-NuRD Georgopoulos-1994-Cell Cooper-2012-Nat-Genet | run_134*

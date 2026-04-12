@@ -1199,3 +1199,21 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 5. **CXCL10 Node D 4th source**: Impaired USP18 → tonic STAT1 → CXCL10 background elevation without new IFN stimulus. In T1DM patients with chronically elevated Node D despite antiviral treatment → USP18 insufficiency probable → JAK inhibitor trial consideration.
 
 *T1DM THEWALL cross-reference run_133: 2026-04-12 | USP18 UBP43 ISG15 ISGylation IFNAR2-binding JAK1-block STAT1-termination IFN-OFF-switch 21st-beta-cell-death IFN-persistence sustained-MHC-I-β-cell CD8-window CXCL10-4th-source JAK-inhibitors baricitinib tofacitinib INNODIA honeymoon IFN-β-run006 IFN-λ-run130 complement Malakhova-2006 Arimoto-2017 Zhang-2015 | run_133*
+
+---
+
+### Cross-reference: run_134 — IKZF1/Ikaros / T1DM GWAS rs1701704 / 11th Stratification / Treg Chromatin Scaffold
+
+**Gap:** IKZF1/Ikaros absent from all 133 prior runs. First hematopoietic DEVELOPMENTAL TF in framework.
+
+1. **T1DM GWAS rs1701704 (11th stratification point)**: Cooper 2012 Nat Genet; OR ~1.25; bidirectional genomic risk (T1DM autoimmunity risk vs ALL leukemia protection — different allele effects). Parallels ErbB3/run_129 bidirectional risk.
+
+2. **Treg chromatin scaffold (extends runs 010/123/125)**: IKZF1/NuRD complex → H3K27 deacetylation at IL-2/IFN-γ/IL-17 loci → chromatin backbone that FOXP3 (run_010), BACH2 (run_123), and DYRK1A (run_125) operate within. IKZF1 risk allele → NuRD less efficient at effector loci → FOXP3 binding destabilized → BACH2 effector silencing less effective → ex-Treg conversion accelerated → amplifies all three prior Treg TF mechanisms simultaneously. IKZF1 deficiency creates an upstream chromatin permissiveness that makes the BACH2/FOXP3/DYRK1A gates work less efficiently.
+
+3. **pDC fate → type I IFN (upstream of run_006)**: IKZF1 determines pDC pool from CLP; risk allele → altered pDC responsiveness to TLR9/TLR7 → altered IFN-α amplitude during islet antigen responses; IKZF1 is the DEVELOPMENTAL upstream regulator of the run_006 pDC/IFN-α axis.
+
+4. **B cell repertoire / autoantibody**: IKZF1 shapes IgH/IgL locus V(D)J recombination accessibility → more autoreactive B cell clones escape central tolerance → contributes to GADA/IA-2A/ZnT8A positivity (run_104 Tfh context). Complementary to run_128 (CLEC16A/AIRE = T cell central tolerance); IKZF1 = B cell repertoire formation side.
+
+5. **Compound risk — IKZF1 + BACH2 carriers**: Both Treg TF axes (chromatin scaffold + effector repressor) impaired → Vitamin A (retinyl palmitate 3000–5000 IU/day) becomes FIRST-LINE: RA → RARE → IKZF1 ↑ (run_134) + RA → RARE → BACH2 ↑ (run_123) → simultaneous Treg chromatin scaffold + effector repressor restoration from single intervention.
+
+*T1DM THEWALL cross-reference run_134: 2026-04-12 | IKZF1 Ikaros hematopoietic-development CLP pDC-fate T1DM-GWAS rs1701704 Cooper-2012 11th-stratification Treg-chromatin-scaffold NuRD HDAC1-HDAC2 H3K27 FOXP3-run010 BACH2-run123 DYRK1A-run125 ex-Treg-amplified B-cell-repertoire autoantibody GADA IA-2A ZnT8A ALL-T1DM-pleiotropy Vitamin-A-3rd-mechanism RARE-IKZF1 compound-risk Georgopoulos-1994-Cell Cooper-2012-Nat-Genet | run_134*

@@ -4924,3 +4924,52 @@ Pharmacological rationale for JAK inhibitors in this framework:
 ```
 
 *Protocol_integration.md Part 9ch — 2026-04-12 | USP18 UBP43 ISG15 ISGylation IFNAR2-block JAK1-block STAT1-termination IFN-OFF-switch 21st-beta-cell-death ME/CFS-IFN-persistence CXCL10-4th-source tonic-STAT1 Node-D-4-source-interpretation JAK-inhibitors baricitinib tofacitinib ruxolitinib IFN-lifecycle-complete run006-run063-run130-run133 Malakhova-2006 Zhang-2015 Arimoto-2017 | run_133*
+
+---
+
+### Part 9ci — IKZF1/Ikaros Protocol Integration (run_134)
+
+**Treg TF stack — complete picture (runs 010/123/125/134):**
+
+```
+IKZF1/NuRD (run_134):  chromatin scaffold → H3K27ac-low at effector loci
+    ↓
+FOXP3 (run_010):       Treg lineage TF → binds accessible Treg enhancers
+    ↓
+BACH2 (run_123):       effector gene repressor → BLIMP-1/IL-2/IFN-γ silenced
+    ↓
+DYRK1A (run_125):      NFAT phosphorylation → nuclear export → cytokine gate
+
+All four impaired by rs1701704 + rs3757247 + rs45450798 + rs3181505 combination
+```
+
+**Genetic stratification protocol update (11th point):**
+
+```
+rs1701704 (IKZF1) T1DM risk allele:
+    → Treg chromatin scaffold impaired → ex-Treg rate ↑
+    → pDC pool/function altered → IFN-α amplitude shifted
+    → B cell autoreactive clones more likely
+
+Compound risk priority (IKZF1 + BACH2 double carriers):
+    Both Treg TF axes impaired → Vitamin A FIRST-LINE
+    Retinyl palmitate 3000–5000 IU/day:
+        RA → RARE → BACH2 ↑ (run_123)
+        RA → RARE → IKZF1 ↑ (run_134)
+        → simultaneous Treg identity + chromatin scaffold restoration
+```
+
+**Vitamin A mechanism summary (now 3 mechanisms):**
+
+| Mechanism | Target | Run |
+|-----------|--------|-----|
+| RA → RARE → FOXP3 expression facilitation | Treg lineage TF | run_010 (indirect) |
+| RA → RARE → BACH2 ↑ | Treg identity guardian | run_123 |
+| **RA → RARE → IKZF1 ↑** | **Treg chromatin scaffold + pDC + NK** | **run_134** |
+
+**Practical protocol (rs1701704 + rs3757247 double carriers):**
+- Vitamin A (retinyl palmitate 3000 IU/day food-based or supplement): FIRST-LINE for IKZF1+BACH2 compound risk
+- Combine with sulforaphane (run_027 NRF2): NRF2 → phase II enzymes → reduced oxidative Treg stress; additive with chromatin-level stabilization from Vitamin A
+- Monitor: FOXP3+ Treg % in peripheral blood if available (research setting); clinical proxy = autoantibody titer trajectory
+
+*Protocol_integration.md Part 9ci — 2026-04-12 | IKZF1 Ikaros T1DM-GWAS rs1701704 11th-stratification Treg-TF-stack-complete FOXP3-BACH2-DYRK1A-IKZF1 NuRD H3K27-deacetylation pDC-fate NK-maturation compound-risk Vitamin-A-3rd-mechanism RA-RARE retinyl-palmitate sulforaphane-additive Georgopoulos-1994 Cooper-2012-Nat-Genet | run_134*

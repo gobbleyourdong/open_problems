@@ -1038,3 +1038,19 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 5. **ISG15 as serum ME/CFS biomarker**: Free serum ISG15 reflects USP18 insufficiency + ISGylation overflow. Not yet standard clinical test; in research/specialized labs. If available, elevated ISG15 + elevated CXCL10 (Node D) = dual IFN-persistence marker pattern specific to ME/CFS with post-viral IFN mechanism.
 
 *ME/CFS THEWALL cross-reference run_133: 2026-04-12 | USP18 UBP43 ISG15 ISGylation IFN-persistence IFNAR2-blocking tonic-STAT1 ISG-chronic post-viral-ME/CFS-onset IFN-OFF-switch PDH-ISGylation mitochondrial-dysfunction ATP-deficit PEM free-ISG15-cytokine CXCL10-4th-source Node-D JAK-inhibitors baricitinib Calabrese-2020 IDO1-downstream kynurenine P5P-buffer ISG15-biomarker Malakhova-2006 Zhang-2015 Arimoto-2017 | run_133*
+
+---
+
+### Cross-reference: run_134 — IKZF1/Ikaros / NK Developmental Deficit / pDC-IFN-USP18 Triangle
+
+**Gap:** IKZF1/Ikaros absent from all 133 prior runs. Hematopoietic development TF; adds developmental basis to ME/CFS NK and IFN dysfunction.
+
+**Assessment:** MODERATE ME/CFS relevance — IKZF1 adds DEVELOPMENTAL upstream context to existing Ca²⁺ (run_127/132) and IFN termination (run_133) ME/CFS mechanisms.
+
+1. **NK maturation deficit (developmental basis)**: IKZF1 drives NK maturation: NK progenitor → CD56bright (effector cytokine) → CD56dim (cytotoxic). IKZF1 risk allele → NK maturation stalled at CD56bright stage → fewer cytotoxic CD56dim NK → less viral clearance. ME/CFS documented finding: elevated CD56bright/CD56dim ratio (published: Lorusso 2009; Brenu 2011). IKZF1 provides the DEVELOPMENTAL explanation for this documented ratio shift. Additive with Ca²⁺ functional defects: IKZF1 → fewer CD56dim (developmental) + run_127/132 → impaired Ca²⁺ signaling in NK (functional) = compound NK cytotoxicity failure.
+
+2. **pDC-IKZF1-USP18 triangle**: IKZF1 determines pDC pool size; pDC produce type I IFN; type I IFN requires USP18 (run_133) for termination. If IKZF1 risk allele → MORE-responsive pDC → more IFN-α per stimulus → more USP18 demand → if USP18 insufficient → IFN persistence. Three-node triangle: IKZF1 (development) → pDC abundance/function → IFN-α production → USP18 (termination). ME/CFS risk may accumulate across all three nodes.
+
+3. **Vitamin A support**: RA → RARE → IKZF1 ↑ → NK maturation promoted; combined with run_123 (RA → BACH2 ↑ for Treg). Vitamin A (retinyl palmitate or food-based) theoretically supports both NK development and Treg stability in ME/CFS.
+
+*ME/CFS THEWALL cross-reference run_134: 2026-04-12 | IKZF1 Ikaros hematopoietic-development NK-maturation CD56dim CD56bright ratio cytotoxic-deficit pDC-fate pDC-IFN-USP18-triangle Ca2+-functional-additive run127-run132 developmental-NK-deficit compound-NK-failure Vitamin-A RARE IKZF1-NK Georgopoulos-1994-Cell Cooper-2012-Nat-Genet | run_134*
