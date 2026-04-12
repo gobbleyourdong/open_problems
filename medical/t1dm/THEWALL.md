@@ -1909,3 +1909,28 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
    - SIRT1 → FOXO1 deacetylation → FasL/BNIP3 suppressed; NMN/NR protocol (run_147) has third mechanistic rationale
 
 *T1DM THEWALL cross-reference run_161: 2026-04-12 | FOXO1-PDX1-exclusion-β-cell-dysfunction Kitamura2005-NatMed directionality-paradox-Treg-vs-β-cell triple-arrest-157-158-161 SIRT1-FOXO1-run147-third-mechanism AS1842856-β-cell-regeneration run135-Treg-FOXO1-DISTINCT | run_161*
+
+---
+
+### Cross-reference: run_162 — PRF1/GZMB Perforin-Granzyme: Terminal β Cell Killing, Treg Vulnerability, NK Panel
+
+**Relevance: HIGH**
+
+1. **Terminal β cell killing sequence now complete**: cDC1 priming (run_159) → CXCL10 migration (run_163) → perforin/GzmB execution (run_162); GzmB → caspase-3 (direct) + tBID/cytochrome c (amplification) → β cell apoptosis in 4-6 min
+2. **Treg vulnerability**: islet Tregs killed by perforin from effector T cells; PI-9/SerpinB9 partial protection; PI-9 ↓ in insulitis → Treg depletion accelerates
+3. **CD107a (LAMP1) assay**: NK degranulation monitoring; add to T1DM NK panel alongside NKG2D/CD56dim phenotyping
+
+*T1DM THEWALL cross-reference run_162: 2026-04-12 | PRF1-GzmB-terminal-β-cell-killing GzmB-caspase3-tBID-4-6min Treg-perforin-PI-9-SerpinB9 CD107a-NK-panel run159-run163-run162-complete-sequence FHL2-PRF1-hypomorph-T1DM | run_162*
+
+---
+
+### Cross-reference: run_163 — CXCL10/CXCR3: Islet T Cell Recruitment, PTPN2 Bridge, run_006 Explained
+
+**Relevance: HIGH**
+
+1. **Islet T cell migration bridge**: CXCL10 is the chemokine that moves primed CTLs (run_159) from PLN to islet; CXCR3+ CTL → perforin killing (run_162); sequential mechanism now complete
+2. **PTPN2/run_119 mechanistic bridge**: PTPN2 deficiency → STAT1 hyperactivation → CXCL10 hyperproduction; PTPN2 GWAS risk = amplified CXCL10 loop severity
+3. **CXCL9/CXCL10 ratio**: IFN-γ vs. IFN-α discrimination; superior to CXCL10 alone (run_006 weak gate explained); add to IFN stratification panel
+4. **Eldelumab**: anti-CXCL10 antibody; T1DM prevention candidate via interrupting islet recruitment loop
+
+*T1DM THEWALL cross-reference run_163: 2026-04-12 | CXCL10-CXCR3-islet-recruitment β-cell-CXCL10-self-amplifying PTPN2-JAK1-STAT1-run119-bridge CXCL9-CXCL10-ratio-IFN-stratification run006-weak-gate-explained eldelumab PI3Kγ-run144-bridge run159-run163-run162-complete | run_163*

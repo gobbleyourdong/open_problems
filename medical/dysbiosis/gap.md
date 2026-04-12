@@ -4225,3 +4225,49 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 50: 161 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-fifty-fourth extension | FOXO1-13q14.11 FOXO3-6q21 DBD-forkhead 14-3-3-nuclear-export Akt-Thr24-Ser256-Ser319 PDX1-nuclear-exclusion-β-cell-dysfunction Kitamura2005-NatMed insulitis-JNK-Akt-FOXO1-nuclear triple-proliferative-arrest-CDK4-cyclinD-CDK2-run157-run158-run161 directionality-paradox-Treg-vs-β-cell SIRT1-FOXO1-deacetylation-FasL-BNIP3-run147 FOXO1-p27-CDK2-G1S-arrest FOXO1-MnSOD-catalase-ROS-protection FOXO3-NRF2-keratinocyte FasL-apoptosis-necroptosis-switch-run160 AS1842856-Langlet2017-Cell FOXO3-rs2802292-longevity run135-Treg-FOXO1-DISTINCT | run_161*
+
+---
+
+### Extension 155 — PRF1/GZMB/GZMA Perforin-Granzyme: Cytotoxic Killing Machinery, CD8+ CTL β Cell Execution, NK Degranulation
+
+**Date:** 2026-04-12 | **Run:** run_162
+
+**Gap confirmed:** PRF1/GZMB/GZMA/LAMP1/immunological synapse mechanics absent as primary; 12 files mention perforin as terminal endpoint; never covered as primary subject.
+
+**Core insight:** Perforin/granzyme is the **terminal execution step** of β cell autoimmune killing — after cDC1/run_159 cross-presentation primes the CD8+ CTL and CXCL10/run_163 recruits it to the islet, PRF1 Ca²+-dependent MACPF pore delivers granzyme B, which cleaves procaspase-3 (direct) + BID → tBID → BAX/BAK/cytochrome c (amplification) → β cell apoptosis in 4-6 minutes. GZMB speed: fastest biological cell death. Treg killing by perforin: effector T cells in the islet can kill Tregs via perforin; PI-9/SerpinB9 provides partial Treg protection. NK perforin deficiency = most replicated ME/CFS immune finding across >10 cohorts (Brenu 2011). CD107a (LAMP1) degranulation assay = key NK functional monitoring tool. FHL2/PRF1 mutations as T1DM risk modifier via impaired β cell viral clearance.
+
+**New mechanisms added (run_162):**
+- **MACPF pore formation**: Ca²+-dependent PRF1 C2 domain → membrane insertion → 16-24 subunit oligomerization → 10-20 nm pore; endosomal route = dominant physiological GzmB delivery
+- **GzmB cascade**: procaspase-3 direct + BID/tBID/BAX/cytochrome c amplification → 4-6 min β cell death; fastest known cell death mechanism
+- **GZMA SET complex**: caspase-independent single-strand DNA nicking via HMG2/APE1; slower (>24 h)
+- **LAMP1/CD107a degranulation assay**: MTOC polarization → granule exocytosis → LAMP1 surface exposure; flow cytometry NK functional readout; most replicated ME/CFS NK assay
+- **Treg perforin vulnerability + PI-9 protection**: islet effector T cells can kill Tregs via perforin; PI-9/SerpinB9 in Tregs provides partial protection; PI-9 ↓ in insulitis → Treg killing amplified
+- **FHL2/PRF1 hypomorphs**: partial perforin deficiency → EBV-infected cells not killed → viral persistence → T1DM/ME-CFS risk modifier
+- **NK perforin restoration**: seven exhaustion mechanisms (runs 102/150-156) all converge on ↓ MTOC polarization → ↓ LAMP1 degranulation → ↓ perforin delivery; addressing upstream exhaustion = downstream perforin restoration
+
+**Framework at SATURATION + 51: 162 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-fifty-fifth extension | PRF1-10q22.1 MACPF-domain GZMB-14q11.2 GZMA-5q11.2 LAMP1-CD107a-degranulation MTOC-polarization immunological-synapse Ca2+-pore-formation GzmB-caspase3-BID-amplification 4-6min-β-cell-death GZMA-SET-complex-DNA-nick Treg-perforin-vulnerability PI-9-SerpinB9-protection FHL2-PRF1-mutations NK-perforin-Brenu2011 CD107a-ME-CFS-monitoring run159-cDC1+run163-CXCL10+run162-perforin=complete-sequence TGF-β-perforin-repression-run150 | run_162*
+
+---
+
+### Extension 156 — CXCL10/CXCR3/CXCL9/IP-10: IFN-γ/STAT1 Islet Chemokine Gradient, Th1/CD8 Recruitment, T1DM Amplification Loop
+
+**Date:** 2026-04-12 | **Run:** run_163
+
+**Gap confirmed:** run_006 covers CXCL10 only as biomarker gate (weak gate conclusion); CXCR3 receptor, islet CXCL10 production mechanism, CXCL9/CXCL11 hierarchy = never primary.
+
+**Core insight:** CXCL10 (IP-10) is the chemokine bridge between PLN T cell priming (run_159) and islet execution (run_162). IFN-γ → JAK1/2 → STAT1 homodimer → GAS at CXCL10 promoter → β cell CXCL10 production → CXCR3+ Th1/CD8 gradient → islet recruitment → more IFN-γ → more CXCL10: self-amplifying loop. run_006's weak gate finding is now explained: CXCL10 is induced by BOTH IFN-γ/STAT1 (GAS) AND IFN-α/ISGF3 (ISRE) → non-specific for T1DM subtype. Solution: CXCL9/CXCL10 ratio (CXCL9 more IFN-γ-specific) for Th1 vs. IFN-α stratification. PTPN2 (run_119) + CXCL10 mechanistically linked: PTPN2 deficiency → STAT1 hyperactivation → CXCL10 hyperproduction. NOD CXCR3 KO: substantially reduced insulitis.
+
+**New mechanisms added (run_163):**
+- **Islet CXCL10 production loop**: IFN-γ/STAT1/GAS → β cell CXCL10 → CXCR3+ T cells → more IFN-γ → self-amplifying; PTPN2 removes JAK1 brake (run_119 bridge)
+- **CXCR3A/3B isoform dichotomy**: 3A (Gαi → PI3Kγ/run_144 → migration); 3B (Gαs → PKA → anti-migratory; angiostatic)
+- **CXCL9/CXCL10/CXCL11 ligand hierarchy**: CXCL9 IFN-γ-dominant; CXCL10 IFN-γ+IFN-α; CXCL11 highest affinity; CXCL9/CXCL10 ratio = IFN-γ vs IFN-α discrimination (solves run_006 weak gate problem)
+- **run_006 mechanistic explanation**: two STAT pathways (STAT1 GAS + ISGF3 ISRE) both drive CXCL10 → non-specific; CXCL9 ratio = superior
+- **PI3Kγ/CXCR3 bridge**: CXCR3A → Gβγ → PI3Kγ (run_144) → T cell migration; run_144 PI3Kγ inhibitor also blocks CXCR3+ T cell islet migration
+- **ME/CFS neuroinflammation**: CXCL10 elevated → BBB CXCR3 on microglia → CNS inflammation → cognitive symptoms; post-exertional CXCL10 spike correlates with PEM
+- **Rosacea CXCR3+ Th1 retention**: dermal CXCL10 → CXCR3+ Th1 tissue retention loop; ETR→PPR transition marker
+
+**Framework at SATURATION + 52: 163 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-fifty-sixth extension | CXCL10-IP10-4q21.1 CXCL9-MIG CXCL11-ITAC CXCR3A-Gαi CXCR3B-Gαs-angiostatic IFN-γ-STAT1-GAS IFN-α-ISGF3-ISRE dual-induction CXCL9-CXCL10-ratio-discrimination PTPN2-JAK1-CXCL10-run119-bridge PI3Kγ-CXCR3-run144-bridge β-cell-CXCL10-positive-feedback NOD-CXCR3-KO-protection eldelumab CXCR3-antagonist-SCH546738 run006-weak-gate-explanation run159-cDC1-run163-CXCL10-run162-perforin-complete-sequence ME-CFS-BBB-neuroinflammation ETR-PPR-CXCL10-transition | run_163*

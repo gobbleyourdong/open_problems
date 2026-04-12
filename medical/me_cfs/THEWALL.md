@@ -1611,3 +1611,26 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
    - FOXO3 → SIRT3 → mitochondrial protection (run_090 context); FOXO3 nuclear in PEM may contribute to post-exertional T cell deactivation
 
 *ME/CFS THEWALL cross-reference run_161: 2026-04-12 | FOXO3-T-cell-quiescence-ME-CFS oxidative-stress-FOXO3-nuclear SIRT3-mitochondrial-run090 run135-Treg-FOXO1-DISTINCT | run_161*
+
+---
+
+### Cross-reference: run_162 — PRF1/GZMB Perforin-Granzyme: NK Degranulation, CD107a Monitoring
+
+**Relevance: HIGH**
+
+1. **NK perforin deficiency = most replicated ME/CFS immune finding** (Brenu 2011 J Neuroimmunol): CD56dim NK perforin expression ↓ across >10 cohorts; all seven exhaustion mechanisms (runs 102/150-156) converge on ↓ LAMP1 degranulation → ↓ perforin delivery
+2. **CD107a (LAMP1) degranulation assay**: K562 stimulation + CD107a flow cytometry; best NK functional test for ME/CFS monitoring; add to panel
+3. **FHL2/PRF1 hypomorph**: partial loss-of-function → subclinical NK deficiency → EBV/HHV-6 persistence → ME/CFS risk modifier
+
+*ME/CFS THEWALL cross-reference run_162: 2026-04-12 | NK-perforin-Brenu2011-replicated CD107a-LAMP1-degranulation-assay seven-exhaustion-→-perforin-deficiency EBV-viral-persistence-FHL2-PRF1 NK-perforin-restoration-IL2-run151 | run_162*
+
+---
+
+### Cross-reference: run_163 — CXCL10/CXCR3: ME/CFS Neuroinflammation, PEM CXCL10 Spike
+
+**Relevance: MODERATE**
+
+1. **CXCL10 elevation in ME/CFS** (Hornig 2015 Science Advances): monocyte/macrophage IFN-γ → CXCL10; CXCR3 on microglia/astrocytes → CNS CXCL10 gradient → neuroinflammation → cognitive symptoms
+2. **PEM CXCL10 spike**: exercise → IFN-γ pulse → CXCL10 → CXCR3+ T cell/NK activation → PEM cascade; CXCL10 post-exertion correlates with PEM severity
+
+*ME/CFS THEWALL cross-reference run_163: 2026-04-12 | CXCL10-Hornig2015 CXCR3-microglia-CNS-neuroinflammation PEM-CXCL10-spike-exercise IFN-γ-monocyte-CXCL10-source | run_163*

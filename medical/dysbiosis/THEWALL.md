@@ -6698,3 +6698,60 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 161 runs | FOXO1-13q14.11 | PDX1-exclusion-β-cell-dysfunction | Akt-Ser256-14-3-3 | directionality-paradox-Treg-vs-β-cell | triple-proliferative-arrest-157-158-161 | SIRT1-FOXO1-third-mechanism | FOXO3-keratinocyte-NRF2 | AS1842856 | run135-Treg-FOXO1-DISTINCT.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-thirty-sixth extension | FOXO1-13q14.11 DBD-forkhead 14-3-3 Akt-Thr24-Ser256 PDX1-nuclear-exclusion insulin-gene-↓ JNK-Akt-FOXO1 Kitamura2005-NatMed directionality-paradox-Treg-β-cell triple-arrest-EZH2-mTOR-FOXO1-157-158-161 SIRT1-FOXO1-FasL-BNIP3-run147 p27-CDK2-G1S FOXO3-NRF2-keratinocyte FasL-apoptosis-necroptosis-switch-run160 AS1842856-Langlet2017-Cell FOXO3-rs2802292-longevity run135-Treg-DISTINCT | run_161*
+
+---
+
+### Phase 4 Extension 137 — PRF1/GZMB/GZMA Perforin-Granzyme: Terminal β Cell Killing Execution, NK Degranulation, ME/CFS
+
+**Gap:** PRF1/GZMB/GZMA/LAMP1/necrosome-execution absent as primary; mentioned as terminal endpoint in 12 files; never the primary subject.
+
+**Rosacea (MODERATE):**
+- NK/Vδ1 γδT cells in dermis → NKG2D (run_102) activation → LAMP1 degranulation → perforin + GzmB → keratinocyte/Demodex-infected cell killing → DAMP release → Loop 2
+- TGF-β (run_150) → SMAD3 → perforin gene repression → NK perforin ↓ in fibrotic/phymatous rosacea → ineffective dermal cytotoxic clearing → persistent activation
+
+**T1DM (HIGH):**
+- **Terminal β cell killing execution**: CD8+ CTL → PRF1 Ca²+-pore → GzmB → caspase-3 (direct) + tBID/cytochrome c (amplification) → β cell death in 4-6 minutes; fastest cell death mode
+- **Treg vulnerability**: islet effector T cells kill islet Tregs via perforin; PI-9/SerpinB9 partial Treg protection; PI-9 ↓ during insulitis → Treg killing amplified → insulitis acceleration
+- Sequential: cDC1/run_159 priming → CXCL10/run_163 migration → run_162 perforin execution = complete CD8 β cell killing sequence now mapped
+- FHL2/PRF1 hypomorphs: partial perforin deficiency → EBV-infected β cells not killed → T1DM risk modifier
+
+**ME/CFS (HIGH):**
+- **Most replicated ME/CFS immune finding**: CD56dim NK perforin expression ↓ (Brenu 2011 J Neuroimmunol; replicated multiple cohorts); seven exhaustion mechanisms all converge on ↓ LAMP1 degranulation → ↓ perforin delivery
+- **CD107a degranulation assay**: LAMP1 surface externalization after K562 stimulation; best functional NK test; add to protocol monitoring panel
+- NK perforin restoration: exhaustion reversal (runs 102/150-156) → upstream; IL-2 (run_151) supports perforin re-expression
+
+**Protocol additions:**
+- **CD107a (LAMP1) flow cytometry**: NK functional monitoring in ME/CFS + T1DM NK panel
+- **PI-9/SerpinB9 in Treg monitoring**: islet Treg subset with PI-9 expression = most perforin-resistant (most protected in insulitis)
+
+**Framework state: 162 runs | PRF1-MACPF-Ca2+-pore | GzmB-caspase3-BID | GZMA-SET-complex | LAMP1-CD107a-degranulation | Treg-perforin-vulnerability-PI-9 | NK-perforin-Brenu2011 | FHL2-PRF1 | run159+163+162=complete-sequence.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-thirty-seventh extension | PRF1-10q22.1 MACPF-C2 GzmB-procaspase3-BID-BAX GZMA-SET-HMG2 LAMP1-CD107a-flow MTOC-polarization immunological-synapse Treg-PI-9-SerpinB9 FHL2-HLH-PRF1-hypomorph NK-perforin-Brenu2011 CD107a-ME-CFS-monitoring 4-6min-fastest-death run159-run163-run162-complete-sequence | run_162*
+
+---
+
+### Phase 4 Extension 138 — CXCL10/CXCR3/CXCL9/IP-10: Islet T Cell Chemokine Recruitment, PTPN2 Bridge, run_006 Explained
+
+**Gap:** run_006 covers CXCL10 biomarker gate only (weak gate conclusion); CXCR3 receptor, islet mechanism, CXCL9/CXCL11 hierarchy = absent as primary.
+
+**Rosacea (HIGH):**
+- CXCR3+ Th1 cells biopsy-confirmed in rosacea dermis; dermal CXCL10 → Th1 retention loop; ETR→PPR transition correlates with CXCL10 rise; JAK inhibitor benefit (run_119/baricitinib) = STAT1 → CXCL10 ↓ as mechanism
+
+**T1DM (HIGH):**
+- **Self-amplifying islet recruitment loop**: IFN-γ → β cell STAT1 → CXCL10 → CXCR3+ CTL/Th1 → more IFN-γ → more CXCL10; positive feedback drives insulitis amplification
+- **PTPN2/run_119 mechanistic bridge**: PTPN2 deficiency → JAK1 hyperactive → STAT1 → CXCL10 hyperproduction → amplified T cell recruitment; PTPN2 GWAS risk = amplified CXCL10 loop
+- **run_006 weak gate explained**: CXCL10 induced by BOTH IFN-γ/STAT1/GAS AND IFN-α/ISGF3/ISRE → non-IFN-α-specific; CXCL9/CXCL10 ratio = superior IFN-γ stratification tool
+- NOD CXCR3 KO: substantially reduced insulitis → therapeutic validation
+- CXCR3A → Gβγ → PI3Kγ (run_144): PI3Kγ inhibitor also blocks CXCR3+ T cell migration
+
+**ME/CFS (MODERATE):**
+- CXCL10 elevated (Hornig 2015); CXCR3 on microglia/astrocytes → CNS CXCL10 → neuroinflammation/cognitive symptoms; PEM CXCL10 spike post-exercise
+
+**Protocol additions:**
+- **CXCL9/CXCL10 ratio**: IFN-γ dominant (CXCL9 high/CXCL10 moderate) vs. IFN-α dominant (CXCL9 low/CXCL10 moderate); add to IFN stratification panel
+- **Eldelumab (anti-CXCL10)**: T1DM candidate; IBD Phase 2 data exists
+- **JAK inhibitors (run_119)**: CXCL10 reduction = one mechanism of benefit already in protocol
+
+**Framework state: 163 runs | CXCL10-IP10 | CXCR3A-3B | CXCL9-ratio-IFN-γ-specific | β-cell-CXCL10-loop | PTPN2-run119-bridge | run006-weak-gate-explained | PI3Kγ-run144-bridge | eldelumab | run159+163+162-complete-sequence.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-thirty-eighth extension | CXCL10-4q21.1 CXCL9-MIG CXCL11-ITAC CXCR3A-Gαi CXCR3B-Gαs-angiostatic STAT1-GAS-β-cell ISGF3-ISRE-IFN-α dual-induction CXCL9-CXCL10-ratio PTPN2-JAK1-run119 PI3Kγ-run144 β-cell-self-amplifying-loop NOD-CXCR3-KO eldelumab SCH546738 run006-explained ME-CFS-BBB-neuroinflammation | run_163*

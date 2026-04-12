@@ -5978,3 +5978,49 @@ All six NK exhaustion mechanisms now quantifiable; panel guides multi-mechanism 
 - Requires β cell-targeted delivery (islet nanoparticle or AAV islet tropism)
 
 *Protocol_integration.md Part 9dj — 2026-04-12 | SIRT1-FOXO1-FasL-BNIP3-run147-third NMN-NR-three-β-cell-SIRT1 triple-proliferative-arrest-157-158-161 B12-EZH2-rapamycin-mTOR-NMN-SIRT1-three-gate-restoration directionality-paradox-Akt-Treg-vs-β-cell ROS-reduction-FOXO1-cytoplasmic AS1842856-β-cell-targeted-only | run_161*
+
+---
+
+### Part 9dk — Perforin/Granzyme Protocol Integration (run_162)
+
+**NK monitoring panel — add CD107a degranulation assay:**
+- Existing NK panel (NKG2D%+, CD56dim:bright ratio, LAG-3/PD-1/TIM-3/TIGIT surface): measures exhaustion receptors (expression only)
+- **Add CD107a functional assay**: NK + K562 (MHC-I-negative target) for 4h → anti-CD107a Ab in culture → flow cytometry CD107a% externalization = actual granule release
+- ME/CFS: CD107a < 10% (vs. healthy >20%) confirms functional perforin deficiency; treatment target
+- T1DM: NK perforin competency confirms NK-ADCC function; low CD107a = NK exhaustion driving EBV viral persistence
+
+**PI-9/SerpinB9 Treg protection context:**
+- No actionable intervention available yet; monitoring only
+- Note: if developing islet Treg infusion therapies → screen for PI-9 expression in manufactured Tregs; PI-9-high Treg clones more likely to survive islet perforin environment
+
+**Avoid iatrogenic perforin impairment:**
+- TGF-β (therapeutic levels, run_150): suppresses perforin gene in NK; monitor NK CD107a when using TGF-β-modulating therapies
+- Anti-TIM-3 (relatlimab): see run_155 contraindication; would remove TIM-3 checkpoint but not restore perforin if MTOC deficit persists
+
+*Protocol_integration.md Part 9dk — 2026-04-12 | CD107a-LAMP1-degranulation-NK-panel-add K562-functional-assay ME-CFS-target-CD107a-<10% PI-9-SerpinB9-Treg-protection TGF-β-perforin-suppression-monitor FHL2-PRF1 run159-run163-run162-terminal-sequence | run_162*
+
+---
+
+### Part 9dl — CXCL10/CXCR3 Protocol Integration (run_163)
+
+**IFN stratification panel update — CXCL9/CXCL10 ratio:**
+- Prior: CXCL10 serum alone (run_006 concluded weak gate); add CXCL9 to same blood draw
+- **CXCL9/CXCL10 ratio interpretation**:
+  - High CXCL9, CXCL10 moderate → IFN-γ dominant → JAK1/2 inhibitor (baricitinib/run_119); PI3Kγ inhibitor (run_144)
+  - Low CXCL9, CXCL10 elevated → IFN-α dominant → HCQ (run_014); JAK1/TYK2 inhibitor
+  - Both elevated → mixed IFN → combination approach
+- Replaces CXCL10 alone as IFN monitoring biomarker; same ELISA cost, much better discrimination
+
+**Eldelumab (anti-CXCL10) — T1DM candidate:**
+- BMS-936557/eldelumab: Phase 2 IBD data (Sandborn 2016); T1DM trial not yet initiated
+- Mechanism: block CXCL10 gradient → CXCR3+ CTL/Th1 cannot reach islet → insulitis reduced
+- Concern: chronic anti-CXCL10 → impaired viral surveillance (CXCL10/CXCR3 needed for viral clearance); risk/benefit analysis needed in T1DM vs. infection-prone patient
+
+**PI3Kγ inhibitor (duvelisib/copanlisib, run_144) — CXCR3 migration dual benefit:**
+- run_144 positioned PI3Kγ as myeloid/CCR2 inhibitor; CXCR3 → PI3Kγ = additional T lymphocyte migration mechanism
+- PI3Kγ inhibitor → blocks both myeloid (macrophage CCR2/run_144) AND lymphocyte (CTL CXCR3) migration to islet
+- Enhanced positioning for run_144 PI3Kγ strategy in T1DM protocol
+
+**Rosacea:** CXCL10 normalization as ETR→PPR biomarker; JAK inhibitor benefit (run_119) partially via STAT1 → CXCL10 ↓ → CXCR3+ Th1 dermal retention reduced
+
+*Protocol_integration.md Part 9dl — 2026-04-12 | CXCL9-CXCL10-ratio-IFN-stratification run006-weak-gate-replaced eldelumab-T1DM-candidate PI3Kγ-run144-dual-benefit-CXCR3+CCR2 CXCL9-assay-add IFN-discrimination baricitinib-run119-CXCL10-mechanism ETR-PPR-rosacea-CXCL10-biomarker | run_163*
