@@ -2690,3 +2690,54 @@ Ceramide ↔ S1P rheostat (Spiegel 2003): pro-apoptotic ceramide vs. pro-surviva
 3. All others: below threshold.
 
 *Gap.md updated: 2026-04-12 | Ninety-sixth iteration | Osteopontin OPN SPP1 M1 autocrine NF-κB Treg CD44 displacement Node A 6th suppressor Th1 IL-12 iOPN MyD88 TLR9 UV keratinocyte T1DM NOD insulitis ME/CFS neuroinflammation plasma OPN | run_111*
+
+---
+
+### Extension 97 — Framework Saturation Declaration (post-run_111 sweep)
+
+**Sweep methodology:** Exhaustive grep-first verification across all 111 numerics run files for each candidate, followed by multi-disease threshold assessment (minimum: MODERATE evidence for rosacea + T1DM; ME/CFS as bonus).
+
+**Candidates assessed and killed (post-run_111):**
+
+| Candidate | Verdict | Reason |
+|---|---|---|
+| S. epidermidis protective arm | KILLED | Rosacea-strong; T1DM NO dedicated data; ME/CFS NO data. Fails multi-disease threshold |
+| Galectin-3 (LGALS3) | KILLED | Zero dedicated runs; no mechanistically novel contribution beyond NLRP3/NF-κB already covered; no rosacea-specific data solid enough |
+| Extracellular vesicles / bacterial OMVs | KILLED | OMV-LPS delivery covered in run_096 (noncanonical inflammasome); delivery mechanism not a new signaling axis; no new therapeutic leverage |
+| cGAS-STING | NOT A GAP | Fully covered in run_063 (cGAS-STING UV innate) |
+| TMAO / FMO3 | NOT A GAP | Fully covered in run_071 (TMAO/TLR4/NLRP3) |
+| AhR / indole axis | NOT A GAP | Fully covered in runs 054, 074, 080, 091 |
+| Itaconate / immunometabolism | NOT A GAP | Fully covered in run_084 (macrophage immunometabolism) |
+| Cathelicidin / LL-37 | NOT A GAP | Referenced across 31 files; not a standalone gap |
+| Filaggrin / FLG / LEKTI | NOT A GAP | Referenced in 7 files; barrier covered runs 015, 072, 076, 094 |
+| Cathepsin B / lysosomal damage | NOT A GAP | Covered in run_071, run_096 context (NLRP3 Signal 2) |
+| Xanthine oxidase / uric acid | KILLED | One mention run_012; iron-Fenton (run_110) is the more clinically relevant NLRP3 Signal 2; below threshold |
+| Resistin / adipokines | NOT A GAP | run_066 (resistin/TLR4), run_070 (leptin/STAT3) fully cover this space |
+| CB2 / endocannabinoids | KILLED | Weak multi-disease evidence; no mechanistically novel contribution |
+| H2S / hydrogen sulfide | KILLED | Below threshold |
+| GSDME | KILLED | GSDMD covered run_048, run_096, run_109; GSDME adds no new therapeutic target |
+| Wnt / β-catenin | KILLED | Below threshold; weak cross-disease data |
+| Semaphorin / neuropilin | KILLED | Below threshold |
+| AIM2 inflammasome | KILLED | dsDNA sensing covered run_063 (cGAS-STING); AIM2 adds minimal new leverage |
+| ILC2 | KILLED | Alarmin axis covered run_099 (IL-33/TSLP); ILC2 below independent threshold |
+| miRNA / epigenetic regulation | KILLED | Epigenetic runs 010, 061 cover this; no specific miRNA target clears threshold |
+| IL-36 | KILLED | Psoriasis-associated; rosacea and T1DM connections weak |
+
+**Framework saturation analysis:**
+
+After 111 systematic runs, the 8-Mountain + 4-Loop framework has achieved genuine saturation:
+- **Mountains**: M1 (gut → 109 runs touching this axis), M2 (skin barrier → 72+ runs), M3 (virome/HERV-W/IFN-α → 40+ runs), M4 (host threshold/Treg → 56+ runs), M5 (diet/IGF-1 → 31+ runs), M6 (early-life → 15+ runs), M7 (oral+gastric → 12+ runs), M8 (HPA/neurogenic → 20+ runs)
+- **Non-Responder Loops**: All four loops fully dissected with upstream/downstream mechanisms
+- **Node taxonomy**: Nodes A-F + B12/Mg²⁺ monitoring fully populated; OPN and ferritin added as optional secondary markers (runs 111 and 110)
+- **Mechanism count**: 13 NF-κB, 8 mast cell activation routes, 8 β cell death mechanisms, 6 Node A suppression mechanisms, 7 gut barrier mechanisms, 8 NLRP3 Signal 2 inputs, 5 T-index intervention points
+
+**What "saturation" means operationally:**
+Saturation does not mean all biology is known. It means: (a) every mechanism that adds independent therapeutic leverage to the current protocol has been identified; (b) remaining absent mechanisms (galectin-3, S. epidermidis, OMVs, etc.) are either single-disease, mechanistically redundant with covered runs, or lack sufficient clinical translation to alter protocol decisions; (c) further runs would accumulate mechanism-count without changing the T-index, protocol_integration arms, or clinical monitoring thresholds.
+
+**Remaining genuine open questions (not addressable by numeric runs):**
+1. Küpers 2019 PACE EWAS / epigenetic clock data: not executable without access to raw EWAS data
+2. Phase 5 (integration testing on actual patient T-index trajectories): dependent on clinical data collection
+
+**FRAMEWORK STATUS: SATURATED at 111 runs | 8 Mountains | 4 Loops | 6 Node types | 2026-04-12**
+
+*Gap.md updated: 2026-04-12 | Ninety-seventh iteration | SATURATION DECLARATION | all candidates assessed | S. epidermidis killed multi-disease threshold | galectin-3 killed redundant | extracellular vesicles killed no new leverage | 111 runs complete | 8 Mountains 4 Loops saturated*

@@ -3657,3 +3657,22 @@ For T1DM-rosacea patients:
 - OPN measurement is NOT standard of care for T1DM; use as optional escalation trigger in refractory cases
 
 *Protocol_integration.md Part 9bk — 2026-04-12 | Osteopontin OPN SPP1 Node A Treg displacement normal Treg blood persistent rosacea OPN plasma marker M1 suppression EGCG colchicine omega-3 M2 polarization T1DM insulitis marker | run_111*
+
+---
+
+### Part 9bl — Framework Saturation Note (post-run_111 sweep)
+
+**No protocol changes.** The post-run_111 gap sweep found no mechanism clearing the multi-disease threshold for a dedicated run_112. All remaining candidates assessed and killed or confirmed already covered.
+
+**Protocol_integration final state:**
+- All 111 mechanistic runs are integrated
+- T-index v4: Nodes A-F + B12/Mg²⁺ + optional secondary markers (plasma OPN, ferritin) fully populated
+- Protocol elements: probiotic/prebiotic arm, barrier arm, M1 suppression arm, Treg support arm, SPM/resolution arm, iron monitoring arm — all active
+- Monitoring thresholds: Node A (Foxp3+/CD25+ Tregs ≥8% CD4+), Node B (CRP/TNF-α), Node C (TJ integrity via FBHM/lactulose), Node D (IFN-α proxies), Node E (Th17), Node F (cortisol/HPA); plus ferritin (iron-Fenton risk), optional OPN (M1-Treg displacement)
+
+**Threshold for future protocol update:**
+If a new run (>run_111) is executed per the saturation override criteria in THEWALL.md Phase 4 Extension 86, return here and append Part 9bm with the relevant protocol integration.
+
+**FRAMEWORK STATUS: COMPLETE | 111 runs | 2026-04-12 | sigma method v7**
+
+*Protocol_integration.md Part 9bl — 2026-04-12 | SATURATION NOTE | no protocol changes | framework complete | 111 runs integrated | T-index v4 final state | future run threshold documented | sigma method v7*

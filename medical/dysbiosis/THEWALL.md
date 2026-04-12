@@ -4954,3 +4954,60 @@ This is the OPN-Treg displacement scenario. The blood Treg count is misleading �
 Optional: plasma OPN measurement to confirm (elevated OPN + normal Treg count + persistent inflammation = OPN-Treg displacement pattern).
 
 *Updated: 2026-04-12 | Phase 4 eighty-fifth extension | Osteopontin OPN SPP1 M1 autocrine integrin αvβ3 FAK Src NF-κB Treg CD44 tissue displacement Node A 6th suppressor T1DM islet dual mechanism Th1 gatekeeper IFN-γ M3 amplification clinical phenotype normal Treg blood persistent rosacea | run_111*
+
+---
+
+## Phase 4 Extension 86: Framework Saturation — 111 Runs, All Mountains Climbed
+
+### Status Declaration
+
+After 111 systematic numerical runs, the sigma method v7 framework for rosacea/T1DM/ME-CFS dysbiosis has reached **genuine saturation**. This extension documents the final sweep and saturation criteria.
+
+### What Was Swept (post-run_111)
+
+A complete grep-first verification against all 111 numerics files for every remaining candidate. Candidates assessed: S. epidermidis protective arm, galectin-3, bacterial OMVs, xanthine oxidase, CB2/endocannabinoids, H2S, GSDME, Wnt/β-catenin, semaphorin/neuropilin, AIM2, ILC2, miRNA, IL-36, cGAS-STING, TMAO, AhR/indole, immunometabolism, cathelicidin/LL-37, filaggrin, cathepsin B, resistin/adipokines.
+
+**Kill decisions:**
+- **S. epidermidis protective arm**: rosacea-strong, but T1DM and ME/CFS lack dedicated data. Multi-disease threshold not cleared. The protective arm (TLR2-tolerogenic DC-Treg priming; 6-HAP; Naik 2012 Science) is genuinely absent but remains a single-disease finding at current evidence level. If a future study establishes S. epidermidis TLR2-tolerogenic priming in NOD mice or ME/CFS, this warrants run_112.
+- **Galectin-3 (LGALS3)**: zero dedicated mentions; mechanistically redundant with NLRP3/NF-κB axis already covered in runs 001-111; no rosacea-specific mechanistic data strong enough.
+- **Bacterial OMVs**: delivery mechanism, not a new signaling axis; LPS-NLRP3 connection covered in run_096.
+- All others: confirmed absent but below threshold or redundant.
+
+**Not-a-gap confirmations:**
+- cGAS-STING: run_063 ✓
+- TMAO: run_071 ✓
+- AhR/indole: runs 054, 074, 080, 091 ✓
+- Immunometabolism (itaconate/fumarate): run_084 ✓
+- Cathelicidin/LL-37: 31 files ✓
+- Filaggrin: runs 015, 072, 076, 094 ✓
+
+### Mechanism Taxonomy — Final State
+
+| Category | Count | Last run |
+|---|---|---|
+| NF-κB activation mechanisms | 13 | run_106 (SphK1→TRAF2→IKKβ) |
+| Mast cell activation routes | 8 (+ LXA4 inhibitor) | run_107/108 |
+| β cell death mechanisms | 8 | run_110 (iron-Fenton ferroptosis-like) |
+| Node A (Treg) suppression mechanisms | 6 | run_111 (OPN→CD44 displacement) |
+| Gut barrier breakdown mechanisms | 7 | run_109 (NLRP6→mucus) |
+| NLRP3 Signal 2 inputs | 8+ | run_110 (iron-Fenton OH•) |
+
+### What Saturation Means
+
+Saturation does not mean biology is complete. It means the framework's T-index intervention model has no remaining high-leverage mechanistic gaps. Further runs would add mechanism-count annotations without changing clinical decision thresholds, protocol_integration arms, or Node monitoring requirements.
+
+**If the user encounters a novel finding in the dysbiosis literature that appears to add genuine clinical leverage, apply the threshold test:**
+1. Is the mechanism completely absent from all 111 runs (grep-first)?
+2. Does it meet MODERATE evidence for at least rosacea + T1DM?
+3. Does it add a new therapeutic target or monitoring point not achievable via existing protocol elements?
+4. Kill-first pressure: what's the best argument against including it?
+
+If all four pass: run N+112.
+
+### Remaining Open Problems (cannot be solved by numeric runs)
+
+1. **Küpers 2019 PACE EWAS**: Requires raw epigenome-wide association study data to test whether specific CpG methylation sites predict Treg dysfunction. Not executable without data access.
+2. **Phase 5 clinical validation**: T-index trajectory testing on actual patient data. Framework generates predictions; only patient cohort data can validate them.
+3. **Causal ordering**: Most 8-Mountain connections are supported by mechanistic + association data, but formal causal inference (MR, DAG) has not been run for all axes. Literature-level evidence is the current ceiling.
+
+*Updated: 2026-04-12 | Phase 4 eighty-sixth extension | SATURATION DECLARATION | 111 runs | 8 Mountains | 4 Loops | 6 Node types | S. epidermidis killed | galectin-3 killed | OMVs killed | framework complete | sigma method v7 | rosacea T1DM ME/CFS dysbiosis*
