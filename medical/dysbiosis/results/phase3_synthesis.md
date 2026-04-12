@@ -46,59 +46,70 @@ The specific enrichment of rosacea in T1DM (OR 2.59) is the population-level sig
 
 ---
 
-## Full Mountain Connection Map
+## Full Mountain Connection Map — Complete (8 Mountains, 10 Bridges)
 
 ```
-                        ┌─────────────────────────────────────┐
-                        │  M5 — Diet substrate shift          │
-                        │  High GI + dairy → insulin/IGF-1↑  │
-                        │  → sebum C18:1↑ (Malassezia feed)  │
-                        │  → fiber↓ → gut dysbiosis (M1)      │
-                        └──────────┬──────────────────────────┘
-                                   │ feeds both arms
-                    ┌──────────────┴──────────────────┐
-                    │                                 │
-          ┌─────────▼───────────┐         ┌──────────▼───────────┐
-          │  M1 — Gut dysbiosis │         │  M7 — Oral dysbiosis │
-          │  F. prausnitzii ↓   │         │  P. gingivalis        │
-          │  Akkermansia ↓      │         │  → TLR2 in islets    │
-          │  LPS + IL-23 ↑      │         │  → CAR upregulation  │
-          └─────────┬───────────┘         └──────────┬───────────┘
-                    │ GALT Th17                       │ enables
-          M1↔M4 ARM│ trafficking              M3↔M7  │ CVB entry
-          (attempt_│ to skin                  bridge │ (attempt_006)
-          007)      │                                 │
-                    ▼                                 ▼
-          ┌─────────────────┐              ┌──────────────────────┐
-          │ IL-23 → Treg    │              │  M3 — CVB persistence│
-          │ plasticity in   │              │  in pancreatic islets│
-          │ skin            │              │  → IFN-α production  │
-          │ (PMID 31776355) │              │  → pDC expansion     │
-          └─────────┬───────┘              └──────────┬───────────┘
-                    │                      M3↔M2      │ primes
-                    │                      bridge     │ skin pDCs
-                    │                      (attempt_  │
-                    │                      009)       │
-                    └──────────────────────┬──────────┘
-                                           │
-                              ┌────────────▼──────────────┐
-                              │   M4 — HOST THRESHOLD     │
-                              │   T-index v3:             │
-                              │   Node A: functional Treg │
-                              │   Node B: inflammatory    │
-                              │   Node C: I-FABP (gut arm)│
-                              │   Node D: IFN-α (M3 arm)  │
-                              │   Genetic floor           │
-                              └────────────┬──────────────┘
-                                           │ threshold set
-                              ┌────────────▼──────────────┐
-                              │   M2 — Skin dysbiosis     │
-                              │   Malassezia/Demodex at   │
-                              │   previously-tolerated    │
-                              │   density → disease       │
-                              │   KLK5/IFN/IL-23 loop     │
-                              │   (attempt_008)           │
-                              └───────────────────────────┘
+M8 (HPA/Stress) ─────────────────────────────────────────────────────────┐
+Cortisol / CRH /                                                          │
+Substance P /                  sIgA suppression                          │
+Neurogenic inflam.         ────────────────────►M7 (Oral dysbiosis)      │
+    │                      (015-B3: CAND)        P. gingivalis            │
+    │ CRH → gut                                  TLR2 → IL-17            │
+    │ mast cells                                 → CAR upregulation       │
+    │ → I-FABP ↑                                       │                  │
+    │ (015-B2: STRONG)     M5 (Diet) ────────┬─────────┘ M7→M1 (012)    │
+    │                      High-GI/Western   │hyperglycemia              │
+    ▼                      → insulin/IGF-1 ↑ │→ PMN impaired            │
+M1 (Gut dysbiosis) ◄───────────────────────── (011: CAND)               │
+F. prausnitzii ↓           fiber↓ → gut dysb                             │
+Akkermansia ↓                                                              │
+LPS/TLR4 + IL-23 ↑                                                        │
+    │                                                                      │
+    │ GALT Th17 trafficking → skin Treg plasticity (007: STRONG)          │
+    ▼                                                                      │
+M3 (Virome / CVB)                                                          │
+5'UTR-deleted CVB                                                          │
+→ IFN-α chronic                                                            │
+→ pDC expansion                                                            │
+    │                                                                      │
+    │ M3→M4: IFN-α primes skin pDCs (009: CAND)                          │
+    │                                                                      │
+    └────────────┬──────────────────────────────────────────────┐         │
+                 │                                              │         │
+    M8→M4: GR   │ downregulation → Treg                        │         │
+    unresponsive │ (015-B1: CAND)                               │         │
+                 ▼                                              │         │
+    ┌────────────────────────────┐ ◄──────────────────────────── ◄────────┘
+    │   M4 — HOST THRESHOLD      │ M6 structural floor (010: STRONG)
+    │   T-index v3:              │
+    │   Node C: I-FABP (gut arm) │
+    │   Node D: IFN-α (M3 arm)   │
+    │   Node B: hsCRP/IL-17A     │
+    │   Node A: Treg quality     │
+    └────────────┬───────────────┘
+                 │ threshold set
+    ┌────────────▼───────────────┐
+    │   M2 — Skin dysbiosis      │
+    │   Malassezia/Demodex       │
+    │   KLK5/IFN/IL-23 loop      │ ◄── M8→M2: SP → Malassezia + KLK5
+    │   (attempt_008)            │     (015-B4 / attempt_013: CAND)
+    └────────────────────────────┘
+
+M5↔M6 cross-generational: maternal fiber → fetal Treg floor (014: STRONG)
+  [Modifies M6 floor PRENATALLY — the only time M6 can be set]
+
+Bridge legend:
+  006: M3↔M7  STRONG — P. gingivalis → CAR → CVB co-infection
+  007: M1↔M4  STRONG — GALT Th17 → skin Treg plasticity via IL-23
+  008: M2+M4  STRONG — KLK5/IFN/IL-23 self-amplifying rosacea loop
+  009: M3↔M2  CAND   — CVB → IFN-α → pDC → rosacea (HLA confound partial kill)
+  010: M6↔M4  STRONG — early-life Treg pool structural floor (non-redundant)
+  011: M5↔M7  CAND   — hyperglycemia → PMN impaired → P. gingivalis niche
+  012: M7→M1  CAND   — oral-gut colonization → TLR2+TLR4 GALT synergy
+  014: M5↔M6  STRONG — maternal fiber → transplacental SCFA → fetal Foxp3 imprinting
+  015-B1: M8→M4  CAND   — cortisol → GR downregulation → functional Treg failure
+  015-B2: M8→M1  STRONG — CRH → intestinal mast cells → I-FABP independent of diet
+  015-B3: M8→M7  CAND   — cortisol → sIgA suppression → P. gingivalis facilitated
 ```
 
 ---
@@ -110,9 +121,18 @@ The specific enrichment of rosacea in T1DM (OR 2.59) is the population-level sig
 | M3↔M7 (P. gingivalis → CAR → CVB) | 006 | PMC7305306 + PMC5129002 | nPOD dual IHC (Graves + Richardson) |
 | M1↔M4 (gut Th17 → skin Treg plasticity) | 007 | PMID 31776355 + ustekinumab data | Risankizumab SEQUENCE co-morbidity data |
 | M2+M4 (KLK5/IFN/IL-23 loop) | 008 | PMC9977509 + KLK5-mTORC1 confirmed | Ivermectin + azelaic acid RCT in non-responders |
-| M3↔M2 (CVB→IFN-α→pDC→rosacea) | 009 | **PARTIAL KILL** — OR 2.59 explained by shared HLA-DR3 haplotype; pDC/IFN-α mechanism survives for CVB-active individuals | IFN-α Simoa stratifies rosacea risk WITHIN T1DM (controls for HLA) |
+| M3↔M2 (CVB→IFN-α→pDC→rosacea) | 009 | **PARTIAL KILL** — OR 2.59 partly HLA-DR3; IFN-α mechanism survives for CVB-active individuals | IFN-α Simoa stratifies rosacea risk WITHIN T1DM (controls for HLA) |
+| M6↔M4 (early-life Treg pool structural floor) | 010 | Rudensky Science 2015 (non-redundant pool) + PMID 31000755 | Foxp3 CNS2 methylation in C-section vs vaginal delivery adults |
+| M5↔M7 (hyperglycemia → PMN dysfunction → P. gingivalis niche) | 011 | PMC2813554 + ORIGINS diet/microbiome study | Periodontal treatment RCT in new-onset T1DM, C-peptide outcome |
+| M7→M1 (oral-gut colonization → TLR2+TLR4 GALT synergy) | 012 | F. nucleatum gut colonization precedent + TLR2/TLR4 synergy + PPI-gastric pH mechanism | P. gingivalis seropositive + PPI use → highest I-FABP cohort study |
+| M5↔M6 (maternal fiber → fetal Treg floor) | 014 | Trompette 2014 NatMed + Seppo 2017 + Arpaia 2013 + Rudensky 2015 | Maternal fiber → offspring Foxp3 CNS2 methylation at 12 months |
+| M8→M4 (cortisol → GR downregulation → Treg failure) | 015-B1 | Miller 2009 PNAS + Pace 2007 PNAS | Hair cortisol × Treg suppressive capacity in T1DM cohort |
+| M8→M1 (CRH → mast cells → I-FABP independent of diet) | 015-B2 | Söderholm 2002 Gastroenterology + Klooker 2010 Gut | Stress-event I-FABP vs diet-matched controls; quercetin RCT |
+| M8→M7 (cortisol → sIgA suppression → P. gingivalis facilitated) | 015-B3 | Bosch 2011 review + Wimmer 2002 + Plummer 1993 | Salivary IgA × cortisol × P. gingivalis counts prospective cohort |
 
-**Status: M3↔M7, M1↔M4, M2+M4 loop = STRONG CANDIDATES. M3↔M2 = CANDIDATE (downgraded by HLA kill).**
+**Status: M3↔M7, M1↔M4, M2+M4 loop, M6↔M4, M5↔M6, M8→M1 = STRONG CANDIDATES.**
+**M3↔M2, M5↔M7, M7→M1, M8→M4, M8→M7 = CANDIDATES.**
+**8 mountains, 10+ bridges. M8 is amplifier: connects to M7, M1, M4, M2.**
 
 ---
 

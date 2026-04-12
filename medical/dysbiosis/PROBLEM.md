@@ -109,6 +109,22 @@ This problem is **NOT a behavioral wall** (unlike POD, where the treatment works
 **Evidence:** C-section correlates with asthma, allergy, T1DM, obesity. Antibiotic exposure in first 2 years correlates with IBD, asthma. Amish vs Hutterite study (same genetics, different farm exposure, very different allergic disease rates).
 **Wall:** The intervention window has already closed for adults. The payoff of microbiome-aware pediatric care is 40 years out.
 **Status:** VALIDATED epidemiologically. Intervention implications are pediatric-only.
+**Phase 3 update:** Rudensky lab (Science 2015) confirmed early-life Tregs are a distinct NON-REDUNDANT long-lived pool — M6 events set a STRUCTURAL TREG FLOOR that adult interventions cannot replace, only supplement. Shared gene-regulation patterns between C-section delivery and islet autoimmunity (PMID 31000755) — M6→M3 link. See `attempts/attempt_010_m6_m4_treg_window.md`.
+
+### Mountain 7 — Oral dysbiosis propagates to distant tissue via bacteremia
+**(Added in Phase 3 — was not in original problem scaffold)**
+
+**Claim:** P. gingivalis, the dominant periodontal pathogen, translocates to distant tissues via bacteremia. In pancreatic islets specifically, it localizes intranuclearly in beta cells, activates TLR2, produces local IL-1β/IL-6/TNF-α, and upregulates CAR (Coxsackievirus Adenovirus Receptor) via cytokine-mediated signaling. This makes beta cells more susceptible to CVB infection, creating a synergistic co-infection mechanism for T1DM initiation.
+
+**Evidence:** PMC7305306 (Graves lab 2020): P. gingivalis physically detected in pancreatic beta cells in mice and humans; correlates with bihormonal cell emergence. PMC5129002: CAR upregulated by proinflammatory cytokines in T1DM islets. PMID 31351339: P. gingivalis LPS → TLR2 → Th17 in human cells. Shared HLA loci: periodontitis + T1DM (Liu et al. 2023, Frontiers Genetics).
+
+**Wall:** Combined P. gingivalis + CVB + T1DM mechanism not yet in published literature. Requires nPOD dual IHC test (Graves lab + Richardson lab collaboration).
+
+**Status:** STRONG CANDIDATE. See `attempts/attempt_006_m3m7_local_coinfection.md`.
+
+**Additional bridges from M7 (Phase 3 extension):**
+- M7→M1 oral-gut colonization: P. gingivalis reaches gut via swallowed saliva (~10^10/day); under PPI use, acid kill is reduced. Gut P. gingivalis activates TLR2; TLR2+TLR4 co-stimulation is synergistic for IL-23/Th17 — potentiates M1 arm input to M4. See `attempts/attempt_012_m7_m1_oral_gut_axis.md`.
+- M5↔M7 upstream link: hyperglycemia (from poor glycemic control/high-GI diet) → impaired PMN → P. gingivalis niche expansion. T1DM-specific positive feedback loop: T1DM → hyperglycemia → P. gingivalis → CAR priming → CVB → more T1DM. See `attempts/attempt_011_m5_m7_diet_oral_chain.md`.
 
 ## Integrated Model
 

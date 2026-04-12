@@ -183,4 +183,72 @@ Epidemiological signature: T1DM + rosacea co-occurrence OR 2.59 (Egeberg JAAD 20
 - **CVB IgG serology for persistence**: DEAD as a persistence marker. Measures past exposure only.
 - **CXCL10 as IFN-α cascade gate**: WEAK. Only ~50% sensitive in T1DM. Use as supportive, not exclusive gate. IFN-α2 Simoa should be ordered based on clinical context.
 
-*Gap.md updated: 2026-04-11 | Post-Phase 3 | See results/phase3_synthesis.md for full framework*
+### Phase 3 Extension — Two New Bridges Added
+
+**Gap: M5↔M7 connection — PARTIALLY BRIDGED (CANDIDATE)**
+High-GI diet → hyperglycemia → PMN dysfunction → P. gingivalis niche expansion → M7.
+Mechanism: neutrophil dysfunction (NOT glucose as P. gingivalis substrate).
+Specific to T1DM/T2DM patients; smaller effect in euglycemic individuals.
+T1DM-specific positive feedback loop identified.
+See `attempts/attempt_011_m5_m7_diet_oral_chain.md`.
+
+**Gap: M7→M1 oral-gut axis — PARTIALLY BRIDGED (CANDIDATE)**
+P. gingivalis in saliva → gut colonization under PPI conditions → TLR2+TLR4 co-stimulation.
+TLR2+TLR4 synergy → more IL-23/Th17 output than standard M1 model predicts.
+Implication: periodontal treatment + PPI reassessment addresses M1 arm potentiation, not just M7 bacteremia.
+See `attempts/attempt_012_m7_m1_oral_gut_axis.md`.
+
+**Remaining unmapped gaps (genuine):**
+1. M5↔M6: maternal diet during pregnancy → fetal SCFA exposure → Treg imprinting. Mechanism exists (attempt_010 references maternal fiber → offspring allergy protection); not formalized as bridge. Practical implication captured.
+2. Genetic floor precision: specific IL23R, NOD2 frameshift, TLR4 Asp299Gly variant effect sizes on T-index interpretation. Numerics not yet run.
+3. Phageome: bacteriophages targeting P. gingivalis or gut pathogens — pre-clinical only.
+
+*Gap.md updated: 2026-04-11 | Phase 3 extension complete (attempts 011-012) | 7 mountains, 7 bridges | See results/protocol_integration.md for full actionable synthesis*
+
+---
+
+## Phase 4 Update — 2026-04-12
+
+### New Gap: M5↔M6 Cross-Generational Bridge — RESOLVED (STRONG CANDIDATE)
+
+Maternal dietary fiber during pregnancy → microbial fermentation → SCFA → transplacental transfer → fetal Foxp3 CNS1/CNS3 epigenetic imprinting via HDAC inhibition → structural Treg floor set before birth. This is the only intervention window that modifies M6 — prenatally via maternal diet (M5 of the mother). Breastfeeding extends the window 6 months postnatally via HMOs. See `attempts/attempt_014_m5_m6_maternal_treg.md`.
+
+### New Mountain: M8 (HPA/CRH/Neurogenic Inflammation) — FORMALIZED
+
+M8 is an amplifier mountain: connects to M4 (GR downregulation → Treg failure), M1 (CRH → intestinal mast cells → I-FABP elevation independent of diet), M7 (cortisol → sIgA suppression → P. gingivalis colonization facilitated), and M2 (Substance P → Malassezia growth + KLK5). Sky bridges formalized in `attempts/attempt_015_m8_sky_bridges.md`. Framework now has 8 mountains and 10+ sky bridges.
+
+**Novel finding in M8 work:** P. gingivalis IgA protease creates a secondary self-amplifying M7 loop — once established, it actively degrades sIgA defenses, maintaining its own niche independent of ongoing stress. This is a second self-amplifying loop in the framework (parallels M2+M4 rosacea loop from attempt_008).
+
+### New Resolution Framework — WRITTEN
+
+`results/resolution_biology.md` defines three levels of remission, de-escalation sequence (Tier 1-4), resolution kinetics per mountain, relapse pattern recognition (A-D), and the "managed vs. resolved" distinction. Key clinical trap identified: stress-flare I-FABP elevation (M8→M1) is misattributed to diet failure; correct intervention is quercetin/sleep/MBSR, not more dietary fiber.
+
+### Remaining Genuine Gaps (as of 2026-04-12, post-Phase 4 extension)
+
+1. **Foxp3 CNS2 EWAS — SEARCH STRATEGY WRITTEN** (run_010): Küpers 2019 PACE consortium supplementary tables are the fastest actionable test. Free to check. If positive, confirms M6↔M4 Prediction B in humans. If negative, tissue-specificity is the issue (cord blood PBMC may not reflect thymic output).
+
+2. **Perioral dermatitis sibling directory — CROSS-REFERENCED** (attempt_006 in POD): M4 threshold, M6 structural floor, M8 amplifier imported. Anti_problem.md C2 counterexample resolved. School/home POD pattern explained by M8.
+
+3. **M8 sky bridges — FORMALIZED** (attempt_015): M8→M1 (STRONG), M8→M4 (CAND), M8→M7 (CAND). Novel finding: P. gingivalis IgA protease creates secondary self-amplifying M7 loop.
+
+4. **Genetic floor precision — QUANTIFIED** (run_009): HLA-DR3, NOD2, TLR4, IL23R effect sizes on T-index thresholds. Clinical adjustment rules written. Protocol_integration.md Part 8b added.
+
+5. **Phageome targeting P. gingivalis**: Bacteriophages specific to P. gingivalis exist (ΦPgI bacteriophage, ΦPgII). If M8→M7 secondary sIgA-protease loop prevents clearance, phage targeting is the precision backup. Pre-clinical only; the self-amplifying M7 loop from attempt_015 makes this gap more clinically relevant. NOT yet formally analyzed.
+
+6. **Apremilast — EVALUATED** (run_011): CANDIDATE for rosacea non-responders (IL-23 suppression via PDE4; Piccolo 2021 case series positive; no Phase 3 RCT). NOT primary for seb derm (Malassezia mechanism bypasses IL-23). CYP3A4 interaction with itraconazole → elevated apremilast levels. Black box depression warning relevant in T1DM population. Position: third-line M4 threshold intervention between butyrate and biologics.
+
+### Remaining Genuine Gaps (truly open, as of 2026-04-12 end of Phase 4 extension)
+
+1. **Phageome targeting P. gingivalis** (ΦPgI bacteriophage): The M8→M7 secondary sIgA-protease self-amplifying loop means P. gingivalis IgA protease defends its own niche even after stress resolution. Phage targeting of P. gingivalis is the precision backup when standard SRP + chlorhexidine fails to clear recurrent periodontal colonization. Pre-clinical only; not yet analyzed as dysbiosis framework intervention.
+
+2. **Küpers 2019 PACE supplementary table search** (free, 30 min): First actionable test of M6↔M4 Prediction B. Whether C-section → higher Foxp3 CNS2 methylation in cord blood. Run_010 has the full search strategy.
+
+3. **Autoimmune thyroiditis — CROSS-REFERENCED** (thyroiditis/attempts/attempt_002): M3↔M7 bridge (P. gingivalis → CAR upregulation) extends to thyroid follicular cells. Novel loop identified: T1DM → hyperglycemia → P. gingivalis → CAR in thyroid → thyroiditis → insulin resistance → worsened T1DM. Protocol addition: P. gingivalis IgG + anti-TPO baseline for ALL T1DM patients.
+
+### Remaining Genuine Gaps (truly open as of end of this session)
+
+1. **Phageome targeting P. gingivalis (ΦPgI bacteriophage)**: The M8→M7 secondary sIgA-protease self-amplifying loop means standard periodontal treatment may not clear persistent P. gingivalis in high-stress patients with sustained sIgA suppression. Phage therapy is the precision backstop. Pre-clinical only; no clinical trial data; relevant as future therapy.
+
+2. **Küpers 2019 PACE supplementary table search** (free, 30 min): First actionable test for M6↔M4 Prediction B. Run_010 has the full search strategy. This is genuinely executable now.
+
+*Gap.md updated: 2026-04-12 | End of session | All major gaps addressed | 2 open: phageome (pre-clinical), EWAS search (executable)*

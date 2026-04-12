@@ -194,9 +194,61 @@ The anti-problem exercise here is particularly useful for dysbiosis because:
 
 This is a behavioral wall OVERLAY on the mechanistic wall: even if we can't yet mechanistically close the main wall, we can eliminate amplifiers with high confidence. The user's protocol already implements most of Category 6; the scaffolding for future mountain attempts should reference the anti-problem list as the baseline to preserve.
 
+---
+
+## Post-Phase 3 Additions — 2026-04-11
+
+### New Iatrogenic Pattern: Dupilumab (IL-4/IL-13 blocker) → Rosacea Flares
+
+Dupilumab suppresses Th2 signaling (IL-4/IL-13). This releases the Th17 arm from Th2 counterbalance.
+In patients with latent Demodex-driven rosacea risk, Th17 release → B. oleronius → IL-23 → Th17 loop engages.
+Published: dupilumab causes rosacea-like flares in atopic dermatitis patients; this is documented as a class effect.
+
+**Clinical risk:** T1DM + atopic derm + rosacea triad. If dupilumab is initiated for atopic derm,
+monitor for rosacea activation. If rosacea develops: don't discontinue dupilumab — add ivermectin +
+azelaic acid to address the Th17/Demodex loop that was unmasked, not caused, by dupilumab.
+
+### New Iatrogenic Pattern: Periodontal Neglect as CVB Susceptibility Amplifier
+
+P. gingivalis oral dysbiosis (active periodontal disease) → translocation to pancreatic islets (PMC7305306)
+→ CAR (CVB receptor) upregulation on beta cells (PMC5129002) → easier CVB entry → more persistent infection.
+
+**Clinical risk:** In T1DM patients on a CVB-targeting protocol, untreated periodontitis actively
+INCREASES CVB susceptibility at the receptor level. Periodontal neglect undermines the antiviral protocol.
+Chlorhexidine 0.12% rinse + professional scaling is not optional adjunctive care — it is a
+PRECONDITION for reducing CVB susceptibility (if P. gingivalis seropositive).
+
+### New Iatrogenic Pattern: Itraconazole CYP3A4 Interactions
+
+If itraconazole is used as an OSBP inhibitor for CVB (antiviral application), it is a potent CYP3A4
+inhibitor. Drug interactions include:
+- Statins (simvastatin, lovastatin) → rhabdomyolysis risk; avoid combination
+- Calcium channel blockers → elevated plasma levels
+- Immunosuppressants (cyclosporine, tacrolimus) → elevated levels
+- Warfarin → elevated INR
+
+**Clinical risk:** Itraconazole should not be initiated without a full medication interaction review.
+Standard antifungal dosing (200mg BID) achieves plasma concentrations within CVB antiviral EC50 range,
+but any concurrent CYP3A4 substrate requires pharmacist or physician review.
+
+**CRITICAL ADDITION (from ../DRUG_SAFETY_MATRIX.md):**
+- Colchicine (NLRP3 microtubule blocker) → itraconazole raises colchicine levels 2-3× via CYP3A4 inhibition → **NARROW THERAPEUTIC INDEX → DOCUMENTED FATALITIES** in literature. NEVER use itraconazole + colchicine together at standard doses.
+- Heart failure → itraconazole is a negative inotrope, CONTRAINDICATED in HF. If T1DM has progressed to CVB-related DCM (dilated cardiomyopathy), itraconazole cannot be used. Baseline echocardiogram recommended before initiating.
+- **Preferred alternative:** Fluoxetine 20-60mg QD (CVB 2C ATPase inhibitor) is the primary antiviral in the broader CVB campaign — no cardiac contraindication, no colchicine interaction, ~$4-8/month generic. Should be considered FIRST-CHOICE over itraconazole for CVB suppression.
+
+### New Iatrogenic Pattern: IL-17 Blockers in IBD Patients
+
+IL-17 blockers (secukinumab, ixekizumab) approved for psoriasis/rosacea ARE CONTRAINDICATED in IBD.
+They worsen IBD via Th17 depletion in the gut (different from skin — Th17 is protective in gut barrier).
+In T1DM + IBD + rosacea patients, IL-17 blockade treats rosacea but worsens gut disease.
+Anti-IL-23 (risankizumab, guselkumab) is the correct agent for the combination — it's approved
+for both IBD AND psoriasis.
+
 ## See Also
 
 - `PROBLEM.md` — mountains and integrated model
 - `gap.md` — mechanistic gaps
 - `THEWALL.md` — the convergent obstruction
 - local CVB Protocol Schedule PDF — active intervention (already implements anti-problem list)
+- `results/phase3_synthesis.md` — convergent mechanism framework
+- `attempts/attempt_008_rosacea_nonresponder_loop.md` — rosacea non-responder mechanism

@@ -66,6 +66,34 @@ Any dysbiosis attempt should check:
 - `../me_cfs/` for chronic viral + immune dysregulation
 - `../cvb_disease_network.json` for the CVB-mapped disease network
 
-## Status
+## Status — Updated 2026-04-12 (Post-Phase 4 + M8 Integration)
 
-No attempts populated yet. Directory scaffold in place. Next Phase 1 (numerics solo) firing should populate `numerics/` scripts to measure existing dysbiosis correlations from publicly available data (HMP, American Gut, GMrepo, IBDMDB, etc.).
+### Attempts Index
+
+| File | Mountain(s) | Type | Status |
+|------|------------|------|--------|
+| attempt_001_m4_threshold_proxy.md | M4 | Threshold proxy design | SURVIVED |
+| attempt_002_m3m7_co_conspiracy.md | M3+M7 | Initial co-conspiracy (superseded) | REVISED (see 006) |
+| attempt_002_theory_audit.md | All | Theory phase audit | COMPLETED |
+| attempt_002_car_update.md | M7 | CAR mechanism update | CORRECTION (IK-6) |
+| attempt_003_m1_lps_systemic.md | M1 | LPS systemic mechanism | SURVIVED (mechanism revised: GALT > LPS) |
+| attempt_004_m3_cvb_t1dm.md | M3 | CVB persistence T1DM | SURVIVED |
+| attempt_005_m5_substrate_shift.md | M5 | Diet substrate shift | SURVIVED (Kitavan scope corrected) |
+| implicit_kills_analysis.md | All | 6 implicit kills catalogued | COMPLETED |
+| attempt_006_m3m7_local_coinfection.md | M3+M7 | **Sky bridge** — local islet co-infection | STRONG CANDIDATE |
+| attempt_007_m1m4_galt_threshold.md | M1↔M4 | **Sky bridge** — GALT Th17 → skin Treg | STRONG CANDIDATE |
+| attempt_008_rosacea_nonresponder_loop.md | M2+M4 | **Sky bridge** — KLK5/IFN/IL-23 loop | STRONG CANDIDATE |
+| attempt_009_m3_m2_ifn_bridge.md | M3↔M2 | **Sky bridge** — CVB → pDC → rosacea | CANDIDATE (HLA partial kill) |
+| attempt_010_m6_m4_treg_window.md | M6↔M4 | **Sky bridge** — early-life Treg floor | STRONG CANDIDATE |
+| attempt_011_m5_m7_diet_oral_chain.md | M5↔M7 | **Sky bridge** — hyperglycemia → PMN → P.g. | CANDIDATE |
+| attempt_012_m7_m1_oral_gut_axis.md | M7→M1 | **Sky bridge** — oral-gut colonization TLR2+TLR4 | CANDIDATE |
+| attempt_013_m8_neuroimmune_hpa.md | M8 | **New mountain** — HPA/CRH/neurogenic (amplifier) | STRONG CANDIDATE (amplifier) |
+| attempt_014_m5_m6_maternal_treg.md | M5↔M6 | **Sky bridge** — maternal fiber → fetal Treg floor | STRONG CANDIDATE |
+| attempt_015_m8_sky_bridges.md | M8→M4/M1/M7 | **Sky bridges** — M8 formal connections (3 bridges) | M8→M1: STRONG; M8→M4/M7: CANDIDATE |
+
+**8 mountains. 10+ sky bridges. M8 is amplifier connecting to M7, M1, M4, M2.**
+
+See `../results/phase3_synthesis.md` for the complete mountain connection map and bridge evidence table.
+See `../results/protocol_integration.md` for the complete actionable protocol synthesis.
+See `../results/resolution_biology.md` for protocol de-escalation criteria and remission definitions.
+See `../results/bridge_kill_roi.md` for kill-ROI ordering of bridges (most fragile: PMC7305306).
