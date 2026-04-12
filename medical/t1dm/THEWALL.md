@@ -1960,3 +1960,27 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 4. **Genotyping recommendation**: IDO2 R248W (rs10109853) + Y359STOP (rs4503083) LOF variants in ~30% of population → lower autoantibody burden; WT IDO2 = inhibitor eligibility
 
 *T1DM THEWALL cross-reference run_165: 2026-04-12 | IDO2-B-cell-GC-autoantibody anti-GAD65-IA2-ZnT8-insulin-IgG NOD-IDO2-KO-Manlapat2007-35pct-T1DM-reduction IDO1-opposite-valence epacadostat-contraindicated compound5a-selective R248W-Y359STOP-genotyping kynurenine-AhR-Bcl2-GC run091-IDO1-distinct run159-BATF-IRF4-GC-B-cooperation | run_165*
+
+---
+
+### Cross-reference: run_166 — T-bet/TBX21: Th1 Master TF, Complete T1DM Prevention in KO, IFN-γ/STAT1 Arm
+
+**Relevance: HIGH**
+
+1. **T-bet KO NOD: complete T1DM prevention** (Peng 2004 Science): T-bet = rate-limiting Th1 gate; not covered by deucravacitinib (TYK2 inhibitor blocks STAT4→T-bet only; IFN-γ/STAT1→T-bet persists in islet autocrine loop)
+2. **T-bet → CXCR3 + PRF1/GZMB**: T-bet drives CXCR3 upregulation (run_163 amplification) + Runx3→GZMB/PRF1 (run_162 killing); T-bet inhibition disrupts both CTL migration AND execution
+3. **Epigenetic memory**: T-bet → IFNG H3K4me3 persists after protein removal; therapy withdrawal → rapid T-bet re-induction; T-bet PROTAC allows EZH2 (run_157) to restore H3K27me3 durably
+
+*T1DM THEWALL cross-reference run_166: 2026-04-12 | TBX21-T-bet-KO-NOD-Peng2004-complete-prevention STAT4-arm-deucravacitinib STAT1-IFN-γ-autocrine-TYK2-independent T-bet→CXCR3-run163 T-bet:Runx3→PRF1-run162 IFNG-H3K4me3-epigenetic-memory T-bet-PROTAC-EZH2-run157 GATA3-mutual-repression-run167 | run_166*
+
+---
+
+### Cross-reference: run_167 — GATA3: β Cell 27th Dysfunction Mechanism, Islet GATA3+ Treg, IDO2/AhR Bridge
+
+**Relevance: MODERATE**
+
+1. **β cell GATA3 = 27th dysfunction mechanism**: GATA3 co-regulates PDX1 enhancer + INS promoter; insulitis T-bet upregulation → GATA3 ↓ in β cells → insulin gene ↓ (additive with FOXO1/PDX1-exclusion/run_161)
+2. **HDR syndrome validation**: GATA3 haploinsufficiency → impaired GSIS under metabolic stress; human genetic evidence for β cell GATA3 role
+3. **GATA3+ islet Tregs**: ST2-expressing GATA3+FOXP3+ Tregs in islet infiltrate; IL-33 low dose → preferential islet Treg expansion; IDO2 (run_165) → AhR → β cell GATA3 repression = IDO2 inhibitor β cell benefit mechanism
+
+*T1DM THEWALL cross-reference run_167: 2026-04-12 | GATA3-β-cell-Ketkar2021 PDX1-enhancer-INS-MafA 27th-β-cell-dysfunction HDR-haploinsufficiency GATA3+FOXP3+ST2+-islet-Treg IDO2-AhR-GATA3-run165 T-bet-GATA3-β-cell-repression-run166 IL33-run099-islet-Treg | run_167*

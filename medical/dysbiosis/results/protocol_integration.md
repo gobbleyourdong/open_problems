@@ -6094,3 +6094,60 @@ Current protocol inflammasome coverage: colchicine (run_023, NLRP3/tubulin-speci
 - EBV serology + IDO2 genotype: EBV+ + WT IDO2 = highest IDO2 activity estimate
 
 *Protocol_integration.md Part 9dn — 2026-04-12 | IDO2-genotyping-R248W-Y359STOP kynurenine-Trp-metabolomics-update B-cell-IDO2-activity-fractionation anti-GAD65-IA2-ZnT8-serial-tracking 40-50pct-autoantibody-decline-NOD compound5a-IDO2-selective rituximab-anti-CD20-stronger epacadostat-contraindicated-flag BATF-IRF4-run159-dual-target-GC anti-β2AR-anti-M3-Scheibenbogen-ME-CFS EBV-IDO2-kynurenine-quinolinate | run_165*
+
+---
+
+### Part 9do — T-bet/TBX21 Protocol Integration (run_166)
+
+**Immune panel expansion — intracellular T-bet flow cytometry:**
+- **Add T-bet intracellular staining** to existing NK/T cell panel:
+  - T-bet+CD4+ % = Th1 burden (rosacea dermis indicator via PBMC proxy)
+  - T-bet+CD8+ % = effector CTL load; T-bet:EOMES ratio = CTL fate (T-bet(high) = terminal effector; EOMES(high) = memory preservation)
+  - T-bet+CD56dim NK % = NK T-bet maintenance; low T-bet+NK = NK perforin upstream deficit
+- Correlate T-bet+NK% with CD107a (run_162 NK functional assay): if both low → dual NK deficit (transcriptional + exhaustion receptor)
+
+**T-bet induction arm stratification:**
+- **Deucravacitinib (run_136) monitoring**: T-bet+CD4% should decline on TYK2 inhibitor therapy (STAT4 arm blocked); if T-bet+CD4 persists on deucravacitinib → IFN-γ/STAT1 arm active → add JAK1 inhibitor (run_119/baricitinib, blocks STAT1 arm too) for complete T-bet suppression
+- **Two-arm blockade**: deucravacitinib (STAT4) + baricitinib (JAK1/STAT1) = both T-bet induction arms suppressed simultaneously
+
+**Rosacea treatment selector — T-bet:GATA3 ratio:**
+- **T-bet:GATA3 skin biopsy IHC**: add to rosacea initial workup where tolerated (punch biopsy)
+- T-bet-dominant rosacea: baricitinib/ruxolitinib (JAK1/2 inhibitor, run_119); eldelumab (anti-CXCL10, run_163)
+- GATA3-dominant: dupilumab (anti-IL-4Rα); see Part 9dp
+- Mixed: JAK inhibitor + dupilumab combination (emerging data)
+
+**T-bet PROTAC (investigational — flag for protocol update):**
+- Direct T-bet protein degradation → IFNG locus can acquire EZH2/H3K27me3 (run_157) → durable epigenetic Th1 suppression
+- More complete than upstream JAK/STAT blockade which requires continuous dosing
+- Preclinical only; flag for Phase 1 trial readiness monitoring
+
+*Protocol_integration.md Part 9do — 2026-04-12 | T-bet-intracellular-flow T-bet+CD4%-Th1 T-bet+CD8%-effector-CTL T-bet:EOMES-ratio-SLEC-MPEC T-bet+NK%-eighth-gate deucravacitinib-STAT4-arm baricitinib-STAT1-arm two-arm-blockade T-bet:GATA3-rosacea-treatment-selector T-bet-PROTAC-EZH2-run157-durable CXCR3-T-bet-eldelumab-amplification | run_166*
+
+---
+
+### Part 9dp — GATA3 Protocol Integration (run_167)
+
+**Rosacea precision subtyping — dupilumab candidate identification:**
+
+**GATA3:T-bet biopsy-based subtyping:**
+- **Skin punch biopsy** (3 mm, PPR lesional skin): T-bet+CD4 IHC + GATA3+CD4 IHC + GATA3+FOXP3+ IHC (skin Treg count)
+- **GATA3-dominant** (GATA3+CD4 > T-bet+CD4, low skin Treg GATA3): → dupilumab (anti-IL-4Rα, FDA-approved atopic dermatitis, off-label rosacea case series)
+- **T-bet-dominant** (T-bet+CD4 > GATA3+CD4, skin Tregs GATA3-low): → baricitinib/ruxolitinib (run_119)
+- **Low skin Tregs (GATA3+FOXP3+)** regardless of effector ratio: → skin Treg restoration protocol (IL-2 complex/run_151 + low-dose IL-33/run_099)
+
+**Skin Treg restoration strategy (GATA3+):**
+- **IL-2/anti-IL-2 complex (JES6-1 equivalent, run_151)**: expands all Tregs; GATA3+ skin Tregs require additional co-stimulation
+- **Low-dose IL-33** (sub-mast-cell-activation threshold, run_099 guidance): GATA3+ skin Tregs express ST2; selective ST2+ Treg survival signal; dose titration required to stay below mast cell degranulation threshold
+- **Combination**: IL-2 complex + IL-33 low dose = GATA3+ skin Treg selective expansion; more targeted than systemic IL-2 alone
+- Monitor: GATA3+FOXP3+ skin Treg count (repeat biopsy) + dermal CXCL10 (run_163) as inflammation reduction marker
+
+**β cell GATA3 context:**
+- IDO2 inhibitor (run_165, compound 5a) → AhR ↓ → β cell GATA3 preserved; IDO2 inhibitor benefit is partly mediated through GATA3 restoration in β cells
+- β cell GATA3 loss is additive with FOXO1/PDX1-exclusion (run_161): both reduce insulin gene expression in living β cells; combined NMN/NR (run_147, SIRT1-FOXO1) + IDO2 inhibitor = dual β cell functional rescue approach
+
+**Rosacea dupilumab protocol:**
+- Screen with GATA3:T-bet ratio (or if biopsy not available, serum IgE level as GATA3/Th2 proxy + personal/family history of atopy)
+- Atopic history + elevated IgE → dupilumab trial (300 mg SC Q2W, standard atopic dermatitis dosing)
+- Monitor: CXCL9/CXCL10 ratio (run_163) should decline if Th1 component reduces; if persists → mixed subtype → add JAK inhibitor
+
+*Protocol_integration.md Part 9dp — 2026-04-12 | GATA3:T-bet-skin-biopsy-IHC dupilumab-GATA3-rosacea-subtype T-bet-dominant-baricitinib run119 skin-Treg-GATA3+FOXP3+ST2+-count IL-2-run151+IL33-run099-skin-Treg-restoration IDO2-AhR-GATA3-β-cell-run165 FOXO1-run161-additive NMN-run147-GATA3-combination atopic-history-IgE-GATA3-proxy | run_167*

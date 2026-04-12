@@ -4319,3 +4319,49 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 54: 165 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-fifty-eighth extension | IDO2-8p11-tandem-IDO1 Km-300μM-low-efficiency B-cell-expression AhR-CYP1B1-Bcl-2-GC-retention anti-GAD65-IA2-ZnT8-insulin-autoantibody IDO2-vs-IDO1-opposite-valence CIA-IDO2-KO-Merlo2016 NOD-IDO2-KO-40pct-autoantibody-reduction R248W-Y359STOP-LOF-variants BATF-IRF4-run159-GC-B-cell-cooperation IDO1-Trp-depletion-T-cell-stall IDO2-below-threshold-B-cell-survival epacadostat-cannot-use-in-T1DM IDO2-compound5a-selective EBV-IDO2-kynurenine-quinolinate-brain-fog anti-β2AR-anti-M3-ME-CFS-IDO2 Demodex-IgE-IgG-rosacea-IDO2 | run_165*
+
+---
+
+### Extension 159 — TBX21/T-bet: Master Th1 TF, IFNG Epigenetic Remodeling, NK Dysfunction in ME/CFS, CD8 CTL Fate
+
+**Date:** 2026-04-12 | **Run:** run_166
+
+**Gap confirmed:** run_136 covers TYK2→STAT4→T-bet as 3-step downstream; T-bet is an intermediate point in run_136, never the primary subject. IFN-γ/STAT1→T-bet induction pathway (TYK2-independent), NK T-bet, and T-bet:Runx3 epigenetic remodeling not covered in any run.
+
+**Core insight:** T-bet (TBX21) is the master Th1 TF with two independent induction pathways: IL-12/STAT4 (covered by deucravacitinib/run_136) and IFN-γ/STAT1 (TYK2-independent, persists when STAT4 is blocked). T-bet → MLL1/H3K4me3 at IFNG locus + Suv39h1/H3K9me3 at GATA3/RORγt loci = epigenetic Th1 commitment. T-bet KO NOD mice: complete T1DM prevention (Peng 2004 Science). T-bet → CXCR3 upregulation (feeds run_163). T-bet:Runx3 in CD8 T cells → GZMB/PRF1 (feeds run_162). NK T-bet: distinct induction via IFN-α/STAT1; T-bet ↓ in ME/CFS NK cells = upstream basis for NK perforin deficit (run_162/Brenu 2011); SOCS1/USP18 (run_133) chronic IFN-α feedback → STAT1 desensitization → NK T-bet ↓.
+
+**New mechanisms added (run_166):**
+- **Two T-bet induction pathways**: IL-12/STAT4 (deucravacitinib-sensitive) vs. IFN-γ/STAT1 (TYK2-independent; persistent in islet autocrine loop) vs. IFN-α/STAT1 (NK-specific)
+- **IFNG epigenetic remodeling**: T-bet + WDR5/MLL1 → H3K4me3 at IFNG locus; T-bet + Suv39h1 → H3K9me3 at IL4/IL17A → bistable lineage commitment; epigenetic memory persists after T-bet protein removed (explains T1DM relapse after therapy withdrawal)
+- **T-bet:EOMES CD8 fate switch**: T-bet(high) → short-lived effector CTL (SLEC, PRF1+GZMB+); EOMES(high) → memory precursor (MPEC); chronic antigen → T-bet(high) CTL wave → β cell killing → exhaustion
+- **T-bet → CXCR3 upregulation** (TBE element in CXCR3 promoter): T-bet inhibition amplifies eldelumab (run_163) benefit
+- **NK T-bet = eighth NK gate**: T-bet ↓ → GZMB/PRF1 transcription ↓ → CD107a degranulation ↓ (Brenu 2011 upstream mechanism); SOCS1/USP18 (run_133) → STAT1 desensitization → NK T-bet lost
+- **T-bet:GATA3 mutual repression** (run_167 link): GATA3 drives skin Treg identity; T-bet antagonizes GATA3; bistable switch determines skin immune phenotype
+- **T-bet PROTAC/siRNA** nanoparticle therapeutics: durable T-bet protein degradation allows EZH2 (run_157) to restore H3K27me3 at IFNG locus
+
+**Framework at SATURATION + 55: 166 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-fifty-ninth extension | TBX21-17q21.32 T-box-domain TBE-WGATAR STAT4-arm-IL12 STAT1-arm-IFN-γ-IFN-α-TYK2-independent WDR5-MLL1-H3K4me3-IFNG Suv39h1-H3K9me3-IL4-IL17A T-bet:Runx3-CD8 SLEC-vs-MPEC T-bet:EOMES-ratio Peng2004-Science-T-bet-KO-NOD-complete CXCR3-TBE-run163 PRF1-GZMB-run162 NK-T-bet-IFN-α-STAT1-induction SOCS1-USP18-run133-NK-STAT1-desensitization NK-T-bet-eighth-gate CD107a-Brenu2011-upstream epigenetic-memory-therapy-withdrawal GATA3-mutual-repression-bistable-run167 | run_166*
+
+---
+
+### Extension 160 — GATA3: Skin Treg Identity, β Cell Insulin Gene, T-bet:GATA3 Bistable Switch, Dupilumab Rosacea Subtype
+
+**Date:** 2026-04-12 | **Run:** run_167
+
+**Gap confirmed:** GATA3 absent from all 166 prior runs. Master Th2 TF and skin Treg identity factor; β cell GATA3; mutual T-bet repression.
+
+**Core insight:** GATA3 is absent from all 166 prior runs despite being the master TF for three mechanisms critical to this framework: (1) **GATA3+ skin-resident Tregs** — the dominant skin tolerance population; GATA3 cooperates with FOXP3 + ST2/IL-33R (run_099) to maintain skin homeostasis; GATA3+ skin Treg loss in rosacea → ETR→PPR transition; (2) **β cell GATA3** — co-regulates PDX1 enhancer + INS promoter + MafA; GATA3 loss during insulitis = 27th β cell dysfunction mechanism (additive with FOXO1/PDX1-exclusion/run_161); (3) **T-bet:GATA3 bistable switch** — mutual protein repression + mutual locus silencing; T-bet(high) in inflamed rosacea dermis → GATA3(low) in Tregs → tissue tolerance collapse. Clinical tool: GATA3:T-bet IHC ratio selects treatment (dupilumab for GATA3-dominant/atopic-overlap rosacea; baricitinib/run_119 for T-bet-dominant/Th1 rosacea).
+
+**New mechanisms added (run_167):**
+- **GATA3+ skin Tregs (Whibley 2019 Immunity)**: GATA3+FOXP3+ tissue Treg identity; ST2/IL-33R expression → skin Treg survival (run_099 bridge); GATA3 cooperates with FOXP3 protein (run_086/087 bridge); loss during insulitis/rosacea inflammation
+- **T-bet:GATA3 bistable mutual repression**: T-bet sequesters GATA3 protein; T-bet → Suv39h1/H3K9me3 at GATA3 loci; GATA3 → H3K27me3 at TBX21; skin Treg GATA3 loss when T-bet rises during inflammation
+- **β cell GATA3 (Ketkar 2021)**: GATA3 binds PDX1 enhancer + INS promoter; GATA3 + IDO2/AhR (run_165) bridge: IDO2 → AhR → GATA3 repression in β cells; IDO2 inhibition → AhR ↓ → β cell GATA3 preserved
+- **GATA3 haploinsufficiency (HDR syndrome)**: β cell/glucose metabolism phenotype in humans; GATA3 LOF → impaired GSIS under metabolic stress
+- **Rosacea treatment selector**: GATA3-dominant (atopic overlap) → dupilumab (IL-4Rα); T-bet-dominant (Th1) → baricitinib/run_119; resolves rosacea treatment heterogeneity
+- **IL-2 + IL-33 skin Treg expansion**: IL-2 complex (run_151) + low-dose IL-33 (below mast cell threshold, run_099) = GATA3+ skin Treg selective expansion strategy
+- **GATA3 in ILC2**: barrier stress → TSLP/IL-25/IL-33 → ILC2 GATA3 → IL-4/IL-13 → mast cell activation; T cell-independent pathway in ME/CFS MCAS overlap
+
+**Framework at SATURATION + 56: 167 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-sixtieth extension | GATA3-10p14 ZnFI-ZnFII-WGATAR FOXP3-GATA3-protein-cooperation ST2-IL-33R-skin-Treg-Whibley2019-Immunity skin-Treg-identity GATA3+FOXP3+-tissue skin-ETR-PPR-GATA3-loss T-bet:GATA3-mutual-repression-bistable PDX1-enhancer-GATA3-β-cell INS-promoter MafA GATA3-HDR-syndrome-β-cell 27th-β-cell-dysfunction IDO2-AhR-GATA3-run165 dupilumab-GATA3-rosacea-subtype GATA3:T-bet-ratio-treatment-selector IL-2-run151+IL-33-run099-skin-Treg-expansion ILC2-TSLP-ME-CFS-MCAS | run_167*

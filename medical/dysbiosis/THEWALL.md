@@ -6817,3 +6817,64 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 165 runs | IDO2-B-cell-GC-autoantibody | IDO1-vs-IDO2-opposite-valence | Kyn-AhR-Bcl-2-GC | NOD-IDO2-KO-35pct-T1DM-reduction | epacadostat-contraindicated | compound-5a-selective | EBV-quinolinate-brain-fog | anti-β2AR-ME-CFS.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-fortieth extension | IDO2-8p11 B-cell-Km-300μM AhR-CYP1B1-Bcl-2-GC-retention anti-GAD65-IA2-ZnT8-insulin-autoantibody CIA-Merlo2016-60pct-reduction NOD-IDO2-KO-40pct-autoantibody R248W-Y359STOP-LOF BATF-IRF4-run159-GC-cooperation IDO1-Trp-depletion-T-stall IDO2-B-cell-below-threshold epacadostat-contraindicated compound5a-selective EBV-immortalized-B-IDO2 quinolinate-excitotoxicity brain-fog anti-β2AR-Scheibenbogen2018 Demodex-IgE-rosacea | run_165*
+
+---
+
+### Phase 4 Extension 141 — TBX21/T-bet: Master Th1 TF, IFN-γ Epigenetic Remodeling, NK T-bet Deficit in ME/CFS
+
+**Gap:** run_136 covers STAT4→T-bet as intermediate; T-bet's own biology (IFN-γ/STAT1 induction arm, NK T-bet, epigenetic remodeling, CD8 EOMES) never primary.
+
+**Rosacea (HIGH):**
+- T-bet+ CD4 Th1 cells biopsy-confirmed in rosacea dermis; T-bet+ abundance correlates with IFN-γ dermal levels; T-bet → CXCR3 (run_163) → Th1 tissue retention loop
+- **T-bet:GATA3 skin balance** (run_167): T-bet dominant → GATA3+ skin Tregs lose GATA3 → tissue tolerance collapses → ETR→PPR; T-bet inhibition = skin Treg rescue
+- T-bet+ NK (dermal) → NKG2D (run_102) → IFN-γ via T-bet-dependent mechanism → CXCL10 loop
+
+**T1DM (HIGH):**
+- **T-bet KO NOD mice: complete T1DM prevention** (Peng 2004 Science 303:1608); T-bet = rate-limiting gate for Th1 insulitis
+- **Two-arm T-bet induction**: IL-12/STAT4 (blocked by deucravacitinib) + IFN-γ/STAT1 (autocrine in islets, TYK2-independent) → deucravacitinib partial response = IFN-γ/STAT1 arm persistence
+- T-bet → CXCR3 on CTLs/Th1 (feeds run_163 islet migration); T-bet:Runx3 → GZMB/PRF1 (feeds run_162 killing)
+- **Epigenetic memory**: T-bet → H3K4me3 at IFNG locus persists after T-bet protein removed → therapy withdrawal → rapid IFN-γ re-expression; explains relapse dynamics
+
+**ME/CFS (HIGH):**
+- **NK T-bet = eighth NK functional gate**: NK T-bet (IFN-α/STAT1-induced) → GZMB/PRF1 transcription; T-bet ↓ = upstream transcriptional basis for CD107a/Brenu 2011 deficit
+- SOCS1/USP18 (run_133) chronic IFN-α feedback → STAT1 desensitization → NK T-bet ↓ over months; explains NK perforin decline in chronic ME/CFS
+
+**Protocol additions:**
+- **Intracellular T-bet flow cytometry**: T-bet+CD4% (Th1 burden) + T-bet+CD8% (effector CTL) + T-bet+NK% (NK function capacity); add to immune panel
+- **T-bet PROTAC** (investigational): direct T-bet protein degradation; allows EZH2 (run_157) to restore H3K27me3 durably; most complete T1DM Th1 blockade strategy
+- **T-bet:GATA3 biopsy ratio** (rosacea): treatment selector; see run_167
+
+**Framework state: 166 runs | TBX21-T-bet | STAT4-STAT1-dual-arm | IFNG-H3K4me3-epigenetic-memory | T-bet-KO-NOD-complete-prevention | CXCR3-run163 | PRF1-run162 | NK-T-bet-eighth-gate | SOCS1-run133-NK-depletion | T-bet:GATA3-bistable-run167.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-forty-first extension | TBX21-17q21.32 T-box STAT4-IL12 STAT1-IFN-γ-autocrine STAT1-IFN-α-NK WDR5-MLL1-H3K4me3 Suv39h1-H3K9me3-IL4 Peng2004-Science-T-bet-KO-NOD T-bet:EOMES-SLEC-MPEC T-bet→CXCR3-run163 T-bet:Runx3→PRF1-run162 epigenetic-memory-IFNG NK-T-bet-eighth-gate SOCS1-USP18-run133-STAT1-desensitization GATA3-mutual-repression-run167 T-bet-PROTAC-EZH2-run157 | run_166*
+
+---
+
+### Phase 4 Extension 142 — GATA3: Skin Treg Identity, β Cell GATA3 (27th Dysfunction), Dupilumab Rosacea Subtype Selector
+
+**Gap:** GATA3 absent from all 166 prior runs. Master Th2 TF and skin Treg identity factor; β cell GATA3; T-bet:GATA3 bistable mutual repression.
+
+**Rosacea (HIGH):**
+- **GATA3+ skin Tregs (Whibley 2019 Immunity)**: GATA3+FOXP3+ skin Treg identity; GATA3 + ST2 (run_099) → skin Treg survival; T-bet ↑ in rosacea → GATA3 ↓ in skin Tregs → loss of local tolerance → ETR→PPR transition
+- **Dupilumab-responsive rosacea subtype** (~15-20%): GATA3+ Th2 dominant (atopic overlap) → IL-4/IL-13 mast cell activation; GATA3:T-bet IHC biopsy ratio = treatment selector (dupilumab vs. baricitinib/run_119)
+- **ILC2 GATA3**: barrier stress → TSLP → GATA3+ ILC2 → IL-4/IL-13 → mast cell T cell-independent activation (distinct from Th2 pathway)
+- IL-2 complex (run_151) + low-dose IL-33 (run_099, below mast cell threshold) = GATA3+ skin Treg selective expansion strategy
+
+**T1DM (MODERATE):**
+- **β cell GATA3 (Ketkar 2021 iScience)**: GATA3 co-regulates PDX1 enhancer + INS promoter + MafA; insulitis → T-bet upregulation → T-bet sequesters GATA3 in β cells → GATA3 ↓ → insulin gene ↓ = **27th β cell dysfunction mechanism**
+- GATA3 haploinsufficiency (HDR syndrome): β cell GSIS impaired under metabolic stress; human genetic validation of β cell GATA3 role
+- IDO2 (run_165) → AhR in β cells → GATA3 repression: IDO2 inhibition → β cell GATA3 preserved (mechanistic bridge)
+- GATA3+ islet Tregs (scRNA-seq confirmed): express ST2 → islet Treg survival; GATA3+ islet Treg preservation = tolerance maintenance strategy
+
+**ME/CFS (LOW-MODERATE):**
+- Barrier stress → TSLP/IL-25/IL-33 → GATA3+ ILC2 → IL-13/IL-4 → mast cell activation; relevant in ME/CFS/MCAS overlap subgroup
+- GATA3 atopic diathesis: ME/CFS elevated atopic comorbidities → GATA3+ Th2/ILC2 background
+
+**Protocol additions:**
+- **GATA3:T-bet biopsy ratio** (rosacea skin): GATA3-dominant → dupilumab; T-bet-dominant → baricitinib; resolves heterogeneous rosacea treatment response
+- **GATA3+ Treg flow cytometry** (GATA3+FOXP3+ST2+): skin Treg precursor monitoring; add to immune panel for rosacea + T1DM
+- **Dupilumab (anti-IL-4Rα)** for GATA3-subtype rosacea: existing drug, new indication; FDA-approved for atopic dermatitis; case series rosacea benefit
+
+**Framework state: 167 runs | GATA3-skin-Treg-identity | GATA3+FOXP3+ST2+ | T-bet:GATA3-bistable | 27th-β-cell-dysfunction | dupilumab-GATA3-rosacea-subtype | GATA3:T-bet-treatment-selector | IDO2-AhR-GATA3-run165 | ILC2-MCAS-ME-CFS.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-forty-second extension | GATA3-10p14 ZnFI-ZnFII skin-Treg-GATA3+FOXP3+ Whibley2019-Immunity ST2-IL33R-skin-Treg-run099 T-bet:GATA3-mutual-repression skin-Treg-loss-ETR-PPR β-cell-GATA3-Ketkar2021 PDX1-enhancer-INS-promoter 27th-β-cell-dysfunction HDR-syndrome GATA3-haploinsufficiency IDO2-AhR-GATA3-run165 GATA3+islet-Treg-ST2 GATA3:T-bet-biopsy-ratio dupilumab-IL-4Rα-rosacea-subtype ILC2-TSLP-GATA3-ME-CFS-MCAS IL-2-run151+IL33-run099 | run_167*

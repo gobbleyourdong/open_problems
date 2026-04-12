@@ -1660,3 +1660,26 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 4. **IDO2 inhibition in ME/CFS**: compound 5a → B cell GC disruption → anti-β₂-AR/anti-M3 antibody titer reduction → autonomic symptom improvement (investigational)
 
 *ME/CFS THEWALL cross-reference run_165: 2026-04-12 | IDO2-EBV-immortalized-B-cell kynurenine-quinolinate-excitotoxicity brain-fog-NMDA-agonist anti-β2AR-anti-M3-Scheibenbogen2018 POTS-orthostatic-intolerance kynurenine-Trp-ratio-serotonin-depletion compound5a-IDO2-inhibitor IDO1-run091-opposite-valence | run_165*
+
+---
+
+### Cross-reference: run_166 — T-bet/TBX21: NK T-bet as Eighth NK Gate, SOCS1 Feedback, Perforin Upstream Mechanism
+
+**Relevance: HIGH**
+
+1. **NK T-bet = eighth NK functional gate**: NK T-bet (IFN-α/STAT1-induced, distinct from T cell STAT4-induced T-bet) → GZMB/PRF1 transcription; NK T-bet ↓ = upstream transcriptional basis for CD107a degranulation deficit (Brenu 2011); adds mechanistic depth beyond the seven receptor-based exhaustion mechanisms
+2. **SOCS1/USP18 feedback → NK T-bet loss**: chronic IFN-α (EBV/HHV-6 reactivation, run_122) → initial NK T-bet → SOCS1/USP18 (run_133) negative feedback → JAK1/STAT1 desensitization → NK T-bet maintenance fails → NK perforin deficit progressive over months/years
+3. **T-bet:EOMES imbalance**: acute EBV → T-bet(high) NK effector burst → then exhaustion; T-bet(low)/EOMES(low) in terminal ME/CFS NK exhaustion
+
+*ME/CFS THEWALL cross-reference run_166: 2026-04-12 | NK-T-bet-eighth-gate IFN-α-STAT1-induction SOCS1-USP18-run133-STAT1-desensitization NK-T-bet-↓-progressive CD107a-Brenu2011-upstream PRF1-GZMB-transcription T-bet:EOMES-NK-exhaustion EBV-HHV6-run122-IFN-α-NK-T-bet | run_166*
+
+---
+
+### Cross-reference: run_167 — GATA3: ILC2 MCAS Overlap, Barrier Stress, GATA3+ Treg Deficit
+
+**Relevance: LOW-MODERATE**
+
+1. **GATA3+ ILC2 → ME/CFS/MCAS overlap**: barrier dysfunction (gut permeability, run_006) → TSLP/IL-25/IL-33 → GATA3+ ILC2 activation → IL-4/IL-13 → mast cell activation (T cell-independent); relevant in ME/CFS patients with concurrent MCAS phenotype (~30% ME/CFS)
+2. **Atopic comorbidities**: ME/CFS elevated rates of atopy → GATA3+ Th2 background → GATA3+ ILC2 primed; GATA3 as ME/CFS atopic axis TF
+
+*ME/CFS THEWALL cross-reference run_167: 2026-04-12 | GATA3-ILC2-TSLP-IL25-IL33 ME-CFS-MCAS-overlap IL4-IL13-mast-cell-T-cell-independent GATA3-atopic-comorbidity-ME-CFS run099-IL33-barrier | run_167*
