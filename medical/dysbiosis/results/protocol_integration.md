@@ -3567,3 +3567,52 @@ For T1DM-rosacea patients or rosacea patients with rising anti-islet antibodies 
 - Priority order: if anti-GAD or anti-IA-2 positive, escalate NLRP6 agonism protocol to high priority alongside Node A monitoring intensification
 
 *Protocol_integration.md Part 9bi — 2026-04-12 | NLRP6 gut mucus histamine feedback loop refractory dysbiosis DAO enzyme taurine prebiotic fiber Bifidobacterium low-histamine diet Node C I-FABP monitoring T1DM upstream prevention | run_109*
+
+---
+
+### Part 9bj — Hepcidin / Iron Axis: Protocol Monitoring Updates and Clinical Implications (run_110)
+
+#### Node B Update: Ferritin as Inflammation Proxy
+
+Serum ferritin is now formalized as a Node B secondary monitoring marker:
+- **Primary purpose:** proxy for IL-6-driven hepcidin activity and macrophage iron sequestration
+- **Interpretation:**
+  - Ferritin >200 ng/mL (women) / >300 ng/mL (men) + low-normal serum iron + normal hemoglobin = anemia of chronic inflammation pattern → active hepcidin elevation → active IL-6 → Node B inflammation suboptimally controlled
+  - Do NOT treat with iron supplementation in this pattern
+  - Treat the underlying IL-6 source (Node B protocol, NF-κB suppressors)
+- **Frequency:** every 3 months alongside hsCRP + IL-6 + waist (existing Node B panel)
+- **Exception:** ferritin can be acutely elevated in iron overload (hereditary hemochromatosis), infection, hemolysis, malignancy — exclude before attributing to chronic inflammation
+
+#### T1DM Additions: Selenium + HFE Consideration
+
+**Selenium adequacy (NEW):**
+- Mechanism: selenium → selenocysteine → GPX4 (glutathione peroxidase 4) → phospholipid hydroperoxide reduction → ferroptosis protection in β cells
+- Target: plasma selenium 120-150 µg/L (reference range 70-120 in many labs but this is a minimum; optimal for GPX4 activity is higher)
+- Source: 2-3 Brazil nuts/day (150-200 µg selenium) OR selenium yeast 100-200 µg/day
+- Caution: selenium toxicity at >400 µg/day; do not over-supplement; hair loss and garlic breath at excess levels
+- This is a NEW protocol addition motivated by the β cell ferroptosis protection mechanism
+- Priority: LOW-MODERATE (mechanistically supported; no T1DM selenium RCT for β cell protection specifically)
+
+**HFE genotyping (optional, not routine):**
+- For T1DM patients with persistently elevated ferritin (>400 ng/mL) despite inflammatory control: consider HFE C282Y/H63D genotyping
+- HFE C282Y homozygous → hemochromatosis workup → phlebotomy may protect β cells from iron overload
+- HFE heterozygous → modest iron loading; monitor serum ferritin; ensure selenium adequacy
+- Not standard of care; reserve for refractory cases with unexplained ferritin elevation
+
+#### ME/CFS Protocol: Iron Supplementation Guidance
+
+For ME/CFS patients with the ferritin-high / serum-iron-low pattern:
+1. **Do NOT start oral iron supplementation** — this feeds macrophage Fenton load and worsens inflammation
+2. **Explain mechanism to patient**: the body is holding iron in macrophages (not truly deficient); supplementation will not help
+3. **Target the driver**: reduce IL-6 via protocol (NF-κB suppression, gut barrier, Node B elements)
+4. **If symptomatic anemia (Hgb <10 g/dL)**: refer to hematology for IV iron evaluation — but note IV iron can cause acute inflammatory flare in ME/CFS via Fenton; discuss risk/benefit
+5. **Monitor ferritin as response marker**: successful protocol management → IL-6 ↓ → hepcidin ↓ → macrophage FPN1 restored → iron released → serum iron normalizes → ferritin ↓ toward normal range (may take 3-6 months)
+
+#### Rosacea: Topical Lactoferrin (Optional, Low Evidence)
+
+For patients with persistent telangiectatic/phymatous rosacea who have tried standard protocol without full response:
+- Topical lactoferrin cream (if available): iron chelation in dermis → Fenton ↓ → local NLRP3 priming ↓
+- Evidence level: 1 small RCT (n=30; Berardesca 2012); not standard of care; add only if mainstream therapies insufficient
+- Mechanism: lactoferrin binds Fe³⁺ in skin microenvironment → reduces Fenton chemistry from microhemorrhage-derived iron in telangiectatic skin
+
+*Protocol_integration.md Part 9bj — 2026-04-12 | Hepcidin iron ferritin Node B monitoring selenium GPX4 ferroptosis T1DM HFE ME/CFS iron supplementation failure oral iron macrophage Fenton rosacea lactoferrin | run_110*

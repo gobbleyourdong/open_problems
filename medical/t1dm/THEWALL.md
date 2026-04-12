@@ -751,3 +751,21 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 5. **NLRC4 + H. pylori evasion**: H. pylori uses modified flagellin (poor NAIP5 ligand) to EVADE NLRC4 — this is an immune evasion mechanism relevant to M7 mountain. H. pylori's evasion of NLRC4 allows it to persist in gastric mucosa without triggering flagellin-specific immune response. This is additive to existing H. pylori evasion mechanisms (CagA/VacA virulence) and explains partial immune blind spot.
 
 **Cross-reference: run_109 dysbiosis framework | NLRP6 NLRC4 gut mucus IL-18 goblet cell histamine taurine taurine supplementation NOD mouse LPS islet NLRP3 upstream T1DM prevention H. pylori NLRC4 evasion | Elinav 2011 Wlodarska 2014 Levy 2015**
+
+---
+
+### run_110 Cross-Reference: Hepcidin/Iron — 8th β Cell Death Mechanism; HFE Variants; Selenium/GPX4
+
+**Mechanisms specific to T1DM:**
+
+1. **8th β cell death mechanism — iron-Fenton/ferroptosis**: hepcidin (from chronic dysbiosis IL-6) → FPN1 ↓ in β cells → β cell iron sequestration → Fe²⁺ + H₂O₂ → OH• (Fenton) → lipid peroxidation + DNA damage → ferroptosis-like β cell death. β cells are especially vulnerable: low catalase, high glucose-derived H₂O₂, active TfR1 iron uptake. This is a metabolic/chemical mechanism distinct from all 7 immune mechanisms (runs 025, 096, 100, 102, 043, 096, 106).
+
+2. **HFE hemochromatosis variant as T1DM risk modifier**: HFE C282Y/H63D → additive iron loading → lower Fenton threshold in already-vulnerable β cells. HFE heterozygosity (~10% of Northern Europeans) may accelerate β cell loss in T1DM when combined with dysbiosis-driven hepcidin elevation. Consider HFE genotyping in T1DM patients with unexplained rapid C-peptide decline + persistently elevated ferritin.
+
+3. **Selenium → GPX4 → ferroptosis protection**: β cell ferroptosis can be reduced by GPX4 (requires selenocysteine = selenium-dependent). Selenium deficiency in inflammatory states (common) → GPX4 ↓ → increased ferroptosis susceptibility. Protocol addition: selenium adequacy target 120-150 µg/L plasma; 2-3 Brazil nuts/day or 100-200 µg selenium yeast.
+
+4. **Ferritin as T1DM inflammation severity proxy**: ferritin elevation in T1DM reflects active IL-6/hepcidin activity (not just iron stores). Ferritin trends can monitor whether the dysbiosis/inflammatory load is being adequately addressed by the protocol.
+
+5. **Iron-NLRP3 additive to intraislet NLRP3 (run_043)**: macrophage iron → Fenton → NLRP3 Signal 2 in islet macrophages → adds to the intraislet NLRP3/IL-1β loop (run_043). Iron-loaded islet macrophages are more NLRP3-reactive; reducing systemic hepcidin → reducing islet macrophage iron load = complementary to colchicine/BHB NLRP3 inhibition.
+
+**Cross-reference: run_110 dysbiosis framework | Hepcidin HAMP ferroportin FPN1 iron Fenton hydroxyl radical ferroptosis GPX4 selenium HFE T1DM 8th beta cell death mechanism IL-6 STAT3 ferritin | Nemeth 2004 Drakesmith 2012 Dixon 2012 Bloomer 2022 Swaminathan 2007**

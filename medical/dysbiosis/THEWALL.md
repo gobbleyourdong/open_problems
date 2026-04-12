@@ -4869,3 +4869,49 @@ Two persistence mechanisms operating in parallel:
 These are not redundant — they operate at different levels (epigenetic vs. ecological). Both need to be addressed for full resolution.
 
 *Updated: 2026-04-12 | Phase 4 eighty-third extension | NLRP6 NLRC4 gut mucus inflammasome IL-18 goblet cell taurine histamine feedback loop lock-in dysbiosis persistence ME/CFS M1 upstream gut barrier 5th mechanism Elinav 2011 Wlodarska 2014 Levy 2015 | run_109*
+
+---
+
+## Phase 4 Extension 84: Hepcidin and Iron — When Inflammation Steals Iron and Then Burns With It
+
+### The Dual-Edged Sword of Nutritional Immunity
+
+The body has a logical defense against invading bacteria: starve them of iron. This is "nutritional immunity" — IL-6 from acute inflammation → hepcidin → ferroportin degradation → iron locked inside macrophages → serum iron plummets → iron-hungry bacteria cannot proliferate. It works beautifully for acute infections.
+
+In chronic dysbiosis-driven conditions (rosacea, T1DM, ME/CFS), this logic becomes destructive. The inflammation never resolves, so hepcidin remains elevated, macrophages keep accumulating iron, and Fenton chemistry runs continuously inside those iron-loaded cells. The very mechanism designed to starve bacteria becomes a source of endogenous oxidative damage driving NLRP3 amplification.
+
+### The Iron-NLRP3 Positive Feedback Loop
+
+This is a new positive feedback arc not previously mapped:
+```
+Dysbiosis → LPS → NF-κB → IL-6 ↑ → hepcidin ↑
+→ macrophage FPN1 ↓ → iron sequestration
+→ Fe²⁺ + H₂O₂ → OH• (Fenton)
+→ lipid peroxidation → 4-HNE → TRPA1 (run_093) + mROS (run_090)
+→ NLRP3 Signal 2 → IL-1β + IL-18 → more inflammation → more IL-6 → more hepcidin → [loop]
+```
+
+This loop is distinct from the 5 NLRP3 priming loops already in the framework because it operates via iron chemistry, not receptor signaling. It cannot be blocked by the 11 NF-κB suppressors (colchicine blocks NLRP3 assembly but not the upstream iron loading). It cannot be blocked by antioxidants that target superoxide/H₂O₂ (hydroxyl radical is too reactive to be scavenged by standard antioxidants like vitamin C or E). The only way to interrupt it is:
+1. Break the upstream IL-6 → hepcidin signal (reduce inflammation)
+2. Chelate the iron before it participates in Fenton chemistry (lactoferrin, deferoxamine)
+3. Improve the downstream ferroptosis defense (GPX4/selenium)
+
+### β Cell Iron — The Vulnerability No One Talks About
+
+The field focuses almost entirely on T1DM immune mechanisms. But β cells have a physical-chemical vulnerability that predates the immune attack: they need iron for metabolism (iron is a cofactor for mitochondrial Complex I, II, III, IV — all iron-sulfur cluster proteins), but they have minimal defenses against iron's oxidative toxicity. They express ferroportin (FPN1) to export excess iron, but hepcidin from chronic dysbiosis inflammation → FPN1 degradation → β cells cannot self-protect from iron loading.
+
+In a patient with T1DM + chronic rosacea dysbiosis:
+- Immune attack on β cells (8 mechanisms now enumerated, runs 025→110)
+- PLUS ongoing β cell iron accumulation from hepcidin-mediated FPN1 degradation
+- PLUS HFE heterozygosity (~10% of patients) further loading iron
+- PLUS selenium deficiency (common in inflammatory states) reducing GPX4 ferroptosis protection
+
+Each factor alone might be insufficient to cause disease acceleration. Together, they create the metabolic vulnerability that makes the immune attack more lethal. This explains clinical observation: in T1DM + rosacea comorbidity, β cell function (C-peptide) tends to decline faster than T1DM alone.
+
+### ME/CFS Clinical Insight: Stop Supplementing the Wrong Thing
+
+This run resolves a frequent clinical frustration in ME/CFS management. Patients with fatigue, low serum iron, elevated ferritin, and no hemoglobin anemia are often given oral iron supplementation — which fails. Practitioners escalate to IV iron, which can cause acute inflammatory reactions. Patients are told their iron is "normal" (ferritin is fine) or "abnormal" (serum iron is low) depending on which number is emphasized.
+
+The mechanism is now clear: hepcidin from chronic IL-6 locks iron inside macrophages. Supplementing iron gives the macrophages MORE substrate for Fenton chemistry. The right answer is to reduce the IL-6 signal that drives hepcidin — which the protocol already does (NF-κB suppression, gut barrier restoration, Node B monitoring). Serum ferritin can serve as a Node B secondary marker precisely because it reflects macrophage iron loading as a proxy for IL-6/hepcidin activity.
+
+*Updated: 2026-04-12 | Phase 4 eighty-fourth extension | Hepcidin iron ferroportin FPN1 Fenton hydroxyl radical NLRP3 Signal 2 nutritional immunity IL-6 STAT3 HAMP macrophage iron dermal rosacea T1DM 8th beta cell death ferroptosis GPX4 selenium HFE hemochromatosis ME/CFS ferritin anemia chronic inflammation lactoferrin oral iron supplementation failure | run_110*

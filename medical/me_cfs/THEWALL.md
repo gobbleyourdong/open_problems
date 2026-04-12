@@ -648,3 +648,21 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 5. **NLRP6 agonism protocol for ME/CFS refractory gut**: Same protocol as for rosacea refractory dysbiosis (histamine reduction + taurine + prebiotic fiber + Bifidobacterium longum). ME/CFS patients often have dietary histamine hypersensitivity; low-histamine diet is frequently already empirically tried. Run_109 provides the mechanistic justification for why it works (NLRP6 disinhibition) and why it needs to be combined with NLRP6 agonists (not just histamine reduction alone) to break the lock-in.
 
 **Cross-reference: run_109 dysbiosis framework | NLRP6 NLRC4 dysbiosis lock-in persistence ME/CFS histamine feedback taurine mucus goblet cell IL-18 NK IFN-γ two persistence mechanisms HERV-W lock epigenetic M1 ecological | Elinav 2011 Wlodarska 2014 Levy 2015 Giloteaux 2016**
+
+---
+
+### run_110 Cross-Reference: Hepcidin/Iron — Ferritin Elevation Explained; Iron Supplementation Failure; Fenton in ME/CFS
+
+**Mechanisms relevant to ME/CFS:**
+
+1. **Mechanistic explanation for elevated ferritin + low serum iron in ME/CFS**: dysbiosis → LPS → NF-κB → IL-6 → hepcidin → macrophage FPN1 ↓ → iron sequestration → ferritin ↑ (macrophage iron storage) + serum iron ↓ (no export). This is anemia of chronic inflammation (ACI). It explains the commonly observed ME/CFS pattern of ferritin 100-500 ng/mL with low-normal serum iron and absent or mild anemia.
+
+2. **Oral iron supplementation failure explained**: iron absorbed in gut → enters macrophages → cannot be exported (FPN1 degraded by hepcidin) → serum iron remains low → supplementation fails. Worse: feeding macrophages more iron → more Fenton chemistry → more NLRP3 → more IL-1β → more fatigue/PEM. DO NOT supplement oral iron in ME/CFS with elevated ferritin + active inflammation.
+
+3. **Fenton chemistry in ME/CFS neuroinflammation context**: macrophages in the CNS (microglia) that are chronically activated (ME/CFS neuroinflammation; Nakatomi 2014) also accumulate iron via hepcidin → microglial iron → Fenton → lipid peroxidation → neuroinflammation amplification. Iron-driven microglial activation may contribute to the neurological symptoms (cognitive impairment, dysautonomia) of ME/CFS independently of immune cell infiltration.
+
+4. **Ferritin as Node B secondary monitoring marker in ME/CFS**: ferritin trends reflect chronic IL-6/hepcidin activity. As protocol reduces dysbiosis → IL-6 ↓ → hepcidin ↓ → macrophage FPN1 restored → iron released → serum iron normalizes → ferritin falls. Ferritin normalization (toward <150 women, <200 men) over 3-6 months of protocol = early proxy for successful inflammation reduction before clinical remission is apparent.
+
+5. **PEM (post-exertional malaise) and acute hepcidin surge**: exercise/exertion in ME/CFS → acute IL-6 release → hepcidin acute surge → transient iron redistribution → acute anemia component during PEM + acute Fenton load increase. This may contribute to the worsening of fatigue and cognitive symptoms in the 24-72 hours after exertion (hepcidin-driven acute Fenton surge in macrophages/microglia).
+
+**Cross-reference: run_110 dysbiosis framework | Hepcidin HAMP ferroportin FPN1 iron Fenton ferritin elevation anemia chronic inflammation oral iron supplementation failure ME/CFS neuroinflammation microglial iron PEM post-exertional malaise | Nemeth 2004 Drakesmith 2012 Nakatomi 2014**

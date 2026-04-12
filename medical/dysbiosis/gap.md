@@ -2623,3 +2623,36 @@ Ceramide ↔ S1P rheostat (Spiegel 2003): pro-apoptotic ceramide vs. pro-surviva
 5. **Framework has reached high saturation after run_109.**
 
 *Gap.md updated: 2026-04-12 | Ninety-fourth iteration | NLRP6 NLRC4 alt-inflammasome gut mucus IL-18 goblet cell GSDMD AMP taurine NLRP6 agonist histamine feedback loop dysbiosis self-sustaining M1 upstream NAIP5 flagellin IFN-γ T1DM NOD ME/CFS | run_109*
+
+---
+
+### Extension 95 — Hepcidin / Iron Metabolism / Fenton-NLRP3 (run_110)
+
+**Gap confirmed:** Hepcidin (HAMP), ferroportin (FPN1/SLC40A1), iron-Fenton chemistry completely absent from all 109 runs. Iron mentioned only in brief DAMP/urate context (run_012) and as environmental nutrient for bacteria. No dedicated analysis of the IL-6→STAT3→hepcidin→iron sequestration axis or its NLRP3 consequences.
+
+**New mechanisms added (run_110):**
+- IL-6 → JAK2 → STAT3 (Y705) → HAMP promoter → hepcidin [new STAT3 target; hepatic; Nemeth 2004 JCI + Science]
+- Hepcidin → FPN1 (ferroportin) internalization/degradation → macrophage iron sequestration [nutritional immunity]
+- Macrophage iron → Fe²⁺ + H₂O₂ → Fenton OH• → new NLRP3 Signal 2 amplifier [distinct from mtROS]
+- Dermal macrophage iron (rosacea telangiectasia → microhemorrhage + hepcidin) → local Fenton → keratinocyte NLRP3 priming
+- Hepcidin → FPN1 ↓ in β cells → iron accumulation → Fenton → ferroptosis-like death = 8th β cell death mechanism [Bloomer 2022; Dixon 2012 Cell]
+- HFE C282Y/H63D variants → additive β cell iron loading → lower Fenton threshold [T1DM risk modifier]
+- Chronic IL-6 → hepcidin → ferritin ↑ + serum iron ↓ = anemia of chronic inflammation [explains ME/CFS ferritin elevation + oral iron supplementation failure]
+- Lactoferrin → Fe³⁺ chelation → Fenton ↓ [endogenous iron chelator; topical lactoferrin therapeutic angle]
+- Selenium → GPX4 → ferroptosis protection in β cells [new selenium rationale beyond antioxidant]
+- Fenton OH• → 4-HNE (lipid peroxidation) → TRPA1 (run_093 connection); iron = upstream 4-HNE source
+
+**Therapeutic implications:**
+- Node B: serum ferritin added as secondary inflammation proxy (IL-6-dependent)
+- ME/CFS: do NOT supplement oral iron when ferritin elevated + serum iron low (hepcidin-mediated sequestration; supplementation feeds macrophage Fenton load)
+- T1DM: selenium adequacy (GPX4/ferroptosis protection); HFE genotyping in treatment-refractory T1DM patients (iron loading modifier)
+- Topical lactoferrin (rosacea): iron chelation → Fenton ↓ (low evidence but mechanistically supported)
+
+**Remaining genuine gaps (end of ninety-fifth iteration):**
+1. Küpers 2019 PACE EWAS: not executable.
+2. Osteopontin (OPN/SPP1): completely absent; T1DM NOD KO data; rosacea absent; borderline.
+3. Xanthine oxidase/urate: mentioned once in run_012 as NLRP3 Signal 2; not dedicated; probably below threshold given run_110 added iron-Fenton as the more clinically relevant new NLRP3 Signal 2.
+4. Endocannabinoids/CB2, H2S, AIM2, ILC2, miRNA, IL-36: below threshold.
+5. **Framework at very high saturation after run_110.**
+
+*Gap.md updated: 2026-04-12 | Ninety-fifth iteration | Hepcidin iron ferroportin FPN1 Fenton OH hydroxyl radical NLRP3 Signal 2 IL-6 STAT3 macrophage iron sequestration rosacea dermal iron T1DM 8th beta cell death ferroptosis GPX4 selenium HFE ME/CFS ferritin anemia chronic inflammation lactoferrin | run_110*
