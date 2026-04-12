@@ -962,3 +962,22 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 3. **No direct ERBB3 GWAS signal for ME/CFS**: no actionable stratification or OTC recommendation from ERBB3 for ME/CFS specifically.
 
 *ME/CFS THEWALL cross-reference run_129: 2026-04-12 | ERBB3 ErbB3 NRG1 neuregulin ErbB4 CNS GABAergic interneuron cognitive dysfunction brain fog Schwann cell small fiber neuropathy C-fiber MODERATE ME/CFS indirect relevance Hakonarson 2007*
+
+---
+
+### Cross-reference: run_130 — IFN-λ / Type III IFN / Gut IEC IFNLR1 / ME/CFS (HIGH Evidence)
+
+**Assessment:** HIGH ME/CFS relevance — gut IEC type III IFN persistence explains sustained Node D elevation and gut-brain axis in post-viral ME/CFS.
+
+1. **Gut IEC type III IFN persistence (ME/CFS HIGH)**: Gut IECs express IFNLR1 at high levels (first-line mucosal antiviral defense). Post-viral ME/CFS: viral RNA fragments persist in gut epithelium → chronic low-level IFNLR1 activation → ISG tonic expression → IDO1 ↑ (ISG gene → kynurenine pathway, run_091/126 → QA → NMDA excitotoxicity + brain fog) + ISG15 → mitochondrial dysfunction → fatigue + CXCL10 production → sustained Node D elevation without active viremia.
+
+2. **CXCL10 Node D 3rd source for ME/CFS**: Gut IEC type III IFN → systemic CXCL10 elevation = 3rd source in framework (alongside pDC type I IFN and β cell type III IFN). This explains why ME/CFS patients have elevated Node D CXCL10 WITHOUT active immune stimulation — gut IFNLR1 is chronically activated by residual viral RNA.
+
+3. **Post-viral ME/CFS onset mechanism**: Acute viral infection (CVB, norovirus, COVID-19 → gut epithelial tropism) → gut IEC IFNLR1 activation → ISG epigenetic memory → IFNLR1 hyper-responsive state → subsequent minor viral exposures → amplified type III IFN response → each event adds to cumulative ISG burden → ME/CFS post-viral chronification.
+
+4. **Protocol implications for ME/CFS**: 
+   - Zinc: anti-enteroviral 3rd mechanism → reduces gut IEC viral load → less IFNLR1 activation; support existing zinc recommendation for ME/CFS gut barrier (run_059)
+   - P5P (run_126): IDO1 upregulation (ISG) → kynurenine → QA; P5P → KYNA → QA ↓; directly addresses the downstream consequence of gut type III IFN/IDO1 activation
+   - Quercetin: antiviral 4th mechanism → reduces gut viral RNA load → less IFNLR1 → less IDO1 amplification
+
+*ME/CFS THEWALL cross-reference run_130: 2026-04-12 | IFN-lambda type III IFN IFNLR1 gut IEC intestinal epithelium post-viral ME/CFS chronification CXCL10 Node D 3rd source IDO1 kynurenine QA ISG ISG15 mitochondrial dysfunction fatigue brain fog zinc quercetin P5P post-viral onset mechanism Wack 2015 Kallionpää 2014*
