@@ -5222,3 +5222,40 @@ GSK-3β activates NF-κB via co-activator redistribution (CREB inactivation → 
 **Framework state: 115 runs | 15th NF-κB mechanism | Butyrate 4th mechanism | 3rd genetic stratification | caprylic acid OTC new element.**
 
 *Updated: 2026-04-12 | Phase 4 ninetieth extension | CARD9 CBM complex Dectin-2 Dectin-1 Malassezia Candida mycobiome fungal pattern recognition CLR Syk BCL10 MALT1 protease A20 cleavage Th17 IL-17 rosacea T1DM gut ME/CFS caprylic acid MCT oil butyrate 4th mechanism CARD9 S12N rs4077515 15th NF-κB 3rd genetic stratification | run_115*
+
+---
+
+### Phase 4 Extension 91 — ALOX12/12-HETE: Fourth LOX Arm and 12th β Cell Death Mechanism (run_116)
+
+**The gap:** Three LOX arms analyzed (5-LOX/run_107, 15-LOX/run_108, SPM/run_020). The fourth — cytokine-induced ALOX12 in β cells producing pro-inflammatory 12(S)-HETE — was absent. The only 12-LOX mentions in 115 runs were in platelet/SPM biosynthesis tables (anti-inflammatory context). The β cell-destructive arm was invisible.
+
+**ALOX12 mechanism (β cells):**
+- IL-1β + IFN-γ → STAT1 → ALOX12 transcription ↑ → 12-LOX protein in β cells
+- AA (from cytokine-activated PLA2) → 12(S)-HpETE → 12(S)-HETE
+- 12(S)-HETE: (a) depletes GSH via oxidative conjugation → ROS accumulation; (b) activates PKCδ → nuclear AIF → parthanatos; (c) mitochondrial ΔΨm collapse → cytochrome c → caspase-9 → caspase-3 → β cell apoptosis
+- This is the **12th β cell death mechanism** — ALOX12-specific, distinct from all prior 11 mechanisms; first LOX-mediated direct β cell death pathway
+- Evidence: Bleich 1995 J Clin Invest (ALOX12 KO → NOD mouse protection; landmark); Metz 2016 Chem Biol (12-HETE in human T1DM islets); Li 2017 J Mol Med (baicalein → β cell protection)
+
+**Rosacea arm (12-HETE → neutrophil chemoattraction):**
+- Keratinocyte ALOX12 → 12(S)-HETE → BLT2 receptor on neutrophils → Gαi → MAPK → directed chemotaxis
+- 12-HETE is a neutrophil chemoattractant independent of LTB4 (different receptor: BLT2 vs. BLT1 in run_107)
+- Loop 2 input: 12-HETE → neutrophil recruitment → dermal NLRP3 activation → IL-1β → Loop 2 amplification
+- 12-HETE also → endothelial PKC-α → ICAM-1 ↑ → increased leukocyte adhesion → ETR telangiectasia contribution
+- Evidence tier: LOW-MODERATE (keratinocyte 12-LOX established; not rosacea-specific publication; mechanism coherent in Loop 2 context)
+
+**New protocol element — baicalein/Chinese skullcap:**
+- Baicalein (from Scutellaria baicalensis, OTC): specific 12-LOX inhibitor (IC50 ~0.5-1 µM; 7-fold selectivity over 5-LOX)
+- Baicalin (glycoside precursor) → gut bacterial β-glucuronidase → baicalein
+- Dose: 500–1500 mg/day standardized Scutellaria baicalensis extract (45-65% baicalin)
+- Caution: quality matters; hepatotoxicity at high doses in some case reports (product adulteration risk)
+- Synergy: omega-3 (substrate ↓) + baicalein (enzyme inhibited) + sulforaphane (GSH replenished) = triple-level 12-HETE protection in T1DM honeymoon
+- Complements berberine (run_114): different β cell death pathways (GSK-3β/MCL-1 vs. ALOX12/12-HETE)
+
+**4th LOX pathway:**
+Complete LOX map post-run_116: 5-LOX/LTB4 (run_107) + 15-LOX/LXA4 (run_108) + 12-LOX platelet SPMs (run_020) + ALOX12/12-HETE β cell/skin (run_116). Framework now covers all four LOX branches with dedicated analysis.
+
+**ME/CFS bonus:** 12(S)-HETE elevated in ME/CFS platelet metabolomics (pilot data); baicalein → platelet 12-HETE reduction → anti-aggregation effect in post-viral hyperplatelet-activation context.
+
+**Framework state: 116 runs | 12th β cell death mechanism | 4th LOX pathway | baicalein new OTC element.**
+
+*Updated: 2026-04-12 | Phase 4 ninety-first extension | ALOX12 12-LOX 12(S)-HETE cytokine STAT1 beta cell apoptosis GSH depletion caspase-3 PKCδ AIF rosacea keratinocyte neutrophil BLT2 chemoattraction baicalein Scutellaria baicalensis Chinese skullcap 12th beta cell death 4th LOX | run_116*

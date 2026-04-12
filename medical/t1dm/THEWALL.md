@@ -873,3 +873,23 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 - Protocol: TNFAIP3 + CARD9 genotyping together for gut-phenotype T1DM risk stratification
 
 *T1DM THEWALL cross-reference run_115: 2026-04-12 | CARD9 CBM Dectin-1 Candida gut mycobiome NF-κB Th17 gut permeability antigen spillover MALT1 A20 cleavage run_113 butyrate 4th mechanism HDAC hypha caprylic acid MCT OTC CARD9 rs4077515 TNFAIP3 combined impairment*
+
+---
+
+### run_116 cross-reference: ALOX12/12-HETE — 12th β Cell Death Mechanism
+
+**T1DM-specific mechanisms from run_116:**
+
+1. **Cytokine-induced ALOX12 in β cells**: IL-1β + IFN-γ → STAT1 → ALOX12 transcription ↑ → 12-LOX protein → AA → 12(S)-HETE → GSH depletion + PKCδ/AIF → caspase-3 → β cell apoptosis. This is a β cell-intrinsic LOX-mediated death pathway, distinct from all 11 prior mechanisms.
+
+2. **12th β cell death mechanism**: ALOX12/12-HETE is the 12th confirmed β cell death pathway. Complete count: (1) NO/PARP; (2) ER stress/CHOP; (3) NK cell ADCC (run_102); (4) γδT cell granzyme (run_102); (5) caspase-4/5 non-canonical (run_096); (6) complement C4A null (run_101); (7) S1P ceramide/glucolipotoxicity (run_106); (8) hepcidin/iron/ferroptosis (run_110); (9) TXNIP/NLRP3/ChREBP (run_112); (10) RIP1 necroptosis/A20 (run_113); (11) GSK-3β/MCL-1/BAD (run_114); **(12) ALOX12/12-HETE/caspase-3 (run_116)**.
+
+3. **Landmark evidence**: Bleich 1995 J Clin Invest — ALOX12 knockout prevents β cell death in NOD mouse insulitis; Metz 2016 Chem Biol — 12-HETE elevated in human T1DM islets; Santoro 1993 — 12-LOX inhibition → 75% reduction in cytokine-induced human islet cell death.
+
+4. **New protocol element — baicalein**: Scutellaria baicalensis extract (baicalin 500–1500 mg/day) → gut bacteria → baicalein → ALOX12 inhibition → 12-HETE ↓ → β cell protection. Direct β cell protection confirmed in Li 2017 J Mol Med.
+
+5. **T1DM honeymoon integration**: Baicalein (12th mechanism) + berberine (11th mechanism, run_114) + BHB/calcitriol (9th mechanism, run_112) + continuous protocol/A20 (10th mechanism, run_113) = four simultaneous β cell death pathway blockades during the honeymoon window.
+
+6. **Synergy logic**: Omega-3 reduces AA substrate (12-LOX fuel); baicalein inhibits ALOX12 enzyme (12-LOX activity); sulforaphane replenishes GSH (12-HETE downstream damage compensation). Three-tier 12-HETE defense in T1DM.
+
+*T1DM THEWALL cross-reference run_116: 2026-04-12 | ALOX12 12-LOX 12(S)-HETE STAT1 GSH depletion PKCδ AIF caspase-3 12th beta cell death mechanism Bleich 1995 NOD mouse Metz 2016 human islet baicalein Scutellaria T1DM honeymoon berberine run_114 combined*

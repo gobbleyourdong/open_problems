@@ -3131,3 +3131,28 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 4: 115 runs. Twelve sweeps (~130+ candidates total). All subsequent runs require either: (1) new published rosacea-specific data for candidates that currently fail criterion 2; or (2) identification of an OTC modulator for pathways that currently fail criterion 3.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-eighth extension | Sweep 12 zero clearance RIPK3 MLKL FOXO1 Treg homing Gal-3 LGALS3 TIM-3 MCP SOCS1 SOCS3 CD38 NAD hydrolase IRF7 feedback MST1 Hippo YAP bile acids TGR5 FXR NOD1 ILC2 TRPV3 TRPM8 TGF-β SMAD fibrosis SETDB1 H3K9me3 HERV-W SEMA4A NRP-1 PKM2 Warburg TIGIT near-miss Gal-3 MST1*
+
+---
+
+### Extension 109 — ALOX12/12(S)-HETE: Pro-Inflammatory 12-LOX Arm in β Cells and Skin (run_116)
+
+**Gap confirmed:** ALOX12, 12(S)-HETE, 12-HETE (pro-inflammatory context), baicalein, baicalin, Scutellaria — completely absent from 115 prior runs. Run_108 lists "12-LOX" only in an SPM biosynthesis table for platelet LXB4/maresins (anti-inflammatory arm). The cytokine-induced ALOX12 in β cells and keratinocytes producing pro-inflammatory 12(S)-HETE is genuinely absent.
+
+**Core insight:** Three LOX pathway arms were covered (5-LOX/run_107, 15-LOX/run_108, omega-3 SPMs/run_020). The fourth arm — ALOX12 induced by IL-1β/IFN-γ in β cells → 12(S)-HETE → GSH depletion → caspase-3 → apoptosis — has never been analyzed. This is a β cell-intrinsic death mechanism confirmed by genetic (ALOX12 KO NOD mice protected; Bleich 1995 J Clin Invest) and pharmacological (12-LOX inhibitor → β cell protection) and human (12-HETE elevated in T1DM islets; Metz 2016) evidence.
+
+**New mechanisms added (run_116):**
+- **12th β cell death mechanism**: cytokine (IL-1β/IFN-γ) → STAT1 → ALOX12 ↑ → 12(S)-HETE → GSH depletion + PKCδ/AIF → caspase-3 (distinct from GSK-3β/MCL-1 run_114, TXNIP/run_112, RIP1/run_113)
+- **4th LOX pathway**: ALOX12 pro-inflammatory arm completes the LOX map alongside 5-LOX (run_107), 15-LOX (run_108), SPM-generating LOXs (run_020)
+- **Possible 4th NLRP3 Signal 2 ROS arm** (moderate confidence): 12(S)-HETE → macrophage mtROS → NLRP3 (not primary claim; noted for future verification)
+
+**New protocol element:**
+- **Baicalein / baicalin (Chinese skullcap extract; Scutellaria baicalensis)**:
+  - Specific 12-LOX inhibitor (IC50 ~0.5-1 µM vs. ALOX12; ~7 µM for 5-LOX; 7-fold selectivity)
+  - OTC; 500–1500 mg/day standardized baicalin extract with meals (gut bacteria → baicalein conversion)
+  - Direct β cell protection data (Li 2017 J Mol Med: baicalein → 12-LOX inhibition → cytokine-induced β cell apoptosis ↓)
+  - Complementary with omega-3 (substrate reduction + enzyme inhibition = additive), sulforaphane (GSH replenishment downstream), berberine (different β cell death mechanism)
+  - Patient priority: T1DM honeymoon period (active insulitis → ALOX12 induction) + rosacea Loop 2 neutrophil non-responders + ME/CFS platelet hyperactivation
+
+**Framework at SATURATION + 5: 116 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-ninth extension | ALOX12 12-LOX 12(S)-HETE pro-inflammatory LOX cytokine-induced STAT1 beta cell apoptosis GSH depletion caspase-3 rosacea keratinocyte neutrophil chemoattraction BLT2 baicalein baicalin Scutellaria 12th beta cell death mechanism 4th LOX pathway | run_116*

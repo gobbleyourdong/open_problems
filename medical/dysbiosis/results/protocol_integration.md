@@ -3920,3 +3920,49 @@ In T1DM patients with gut-prominent phenotype (bloating, altered motility, high 
 5. **Rationale**: Candida → CARD9 → NF-κB + Th17 → gut permeability → antigen spillover → systemic immune activation → islet immune injury. Treating Candida reduces this cascade.
 
 *Protocol_integration.md Part 9bp — 2026-04-12 | CARD9 CBM complex Dectin-2 Dectin-1 Malassezia Candida mycobiome caprylic acid MCT oil OTC new element gut antifungal CARD9 S12N rs4077515 stool Candida monitoring 3rd genetic stratification A20 MALT1 cleavage run_113 upstream 15th NF-κB butyrate 4th mechanism complementary | run_115*
+
+---
+
+### Part 9bq — ALOX12/12(S)-HETE: Baicalein as New OTC 12-LOX Inhibitor (run_116)
+
+#### New Protocol Element: Baicalein / Chinese Skullcap (Scutellaria baicalensis)
+
+**Mechanism:** Baicalein (active aglycone from Scutellaria baicalensis) chelates the catalytic iron of 12-LOX (ALOX12) → inhibits 12(S)-HETE production. In T1DM insulitis: cytokines (IL-1β/IFN-γ) → STAT1 → ALOX12 ↑ in β cells → 12-HETE → GSH depletion → caspase-3 → β cell death (12th mechanism). In rosacea: keratinocyte 12-HETE → BLT2 → neutrophil recruitment → Loop 2 amplification.
+
+**Dose:** 500–1500 mg/day of standardized Scutellaria baicalensis root extract (containing 45-65% baicalin) with meals. Titrate from 500 mg; some patients feel mild sedation at initiation (due to other Scutellaria alkaloids — dose-dependent, usually resolves).
+
+**Quality note:** Use reputable brands with tested baicalin content. Case reports of hepatotoxicity have been associated with adulterated or very high-dose products. Standard supplemental doses (up to 1500 mg/day baicalin) have a reasonable safety profile.
+
+**Patient selection — when to add baicalein:**
+1. **T1DM honeymoon period with active insulitis markers** (positive GAD/IA-2 antibodies, falling C-peptide): 12-LOX is cytokine-induced during active insulitis. Strongest T1DM rationale (Bleich 1995 evidence tier).
+2. **Rosacea Loop 2 non-responder** with persistent neutrophil infiltration despite NLRP3/colchicine protocol: consider 12-HETE as a BLT2-mediated neutrophil chemoattraction contributing to Loop 2 persistence.
+3. **ME/CFS with platelet activation** (elevated plasma 12-HETE, platelet microthrombi, post-exertional crash pattern consistent with platelet hyperactivation): baicalein → 12-HETE ↓ → anti-platelet aggregation effect.
+
+#### LOX Protocol Map (Post-run_116 Complete)
+
+| Run | LOX arm | Product | Intervention |
+|-----|---------|---------|-------------|
+| run_020 | Platelet/tissue 12-LOX + 15-LOX (DHA) | Maresins, AT-resolvins | Omega-3 EPA/DHA |
+| run_107 | 5-LOX (ALOX5) | LTB4, CysLTs | Omega-3 EPA (LTB5) + montelukast |
+| run_108 | 15-LOX-1 (ALOX15) | LXA4, ATL, LXB4 | Omega-3 + aspirin (ATL) |
+| **run_116** | **ALOX12 (β cell/keratinocyte)** | **12(S)-HETE** | **Baicalein (Scutellaria)** |
+
+All four LOX arms now covered with specific interventions.
+
+#### T1DM Honeymoon: Triple β Cell Protection Layer (ALOX12 + run_112-114)
+
+During the T1DM honeymoon (active insulitis, residual C-peptide):
+- **TXNIP arm (run_112)**: Glucose → ChREBP → TXNIP → NLRP3 → β cell death #9 → BHB + calcitriol
+- **A20/RIP1 arm (run_113)**: A20 depletion → RIP1 necroptosis → β cell death #10 → continuous protocol + butyrate
+- **GSK-3β/MCL-1 arm (run_114)**: GSK-3β → MCL-1↓/BAD → apoptosis → β cell death #11 → berberine
+- **ALOX12 arm (run_116)**: Cytokine → ALOX12 → 12-HETE → GSH depletion → caspase-3 → β cell death #12 → baicalein + omega-3 + sulforaphane
+
+Each arm is mechanistically independent; combined protocol addresses four distinct β cell death pathways simultaneously during the honeymoon window.
+
+#### Synergy Profile
+- **Baicalein + omega-3**: additive — omega-3 reduces AA substrate; baicalein inhibits the enzyme; together reduce 12-HETE at two levels
+- **Baicalein + sulforaphane**: complementary — sulforaphane → Nrf2 → GSH synthesis ↑ (GSH replenishment); baicalein prevents 12-HETE-mediated GSH depletion (upstream prevention). Together: prevent depletion AND replenish.
+- **Baicalein + berberine**: complementary — different β cell death pathways; no interaction concern
+- **Baicalein + colchicine**: different targets (12-LOX vs. microtubule/NLRP3); no interaction concern
+
+*Protocol_integration.md Part 9bq — 2026-04-12 | ALOX12 12-LOX 12(S)-HETE baicalein Scutellaria baicalensis Chinese skullcap 12th beta cell death T1DM honeymoon rosacea Loop 2 neutrophil BLT2 LOX protocol map complete baicalein+omega-3 baicalein+sulforaphane triple beta cell protection | run_116*

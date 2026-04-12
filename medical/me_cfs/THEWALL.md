@@ -742,3 +742,17 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 5. **Protocol note for ME/CFS**: MCT oil (caprylic acid 1–3 tsp/day) may benefit ME/CFS patients with self-reported or confirmed gut Candida. Titrate slowly (GI tolerance limiting factor). Complementary with butyrate (additive antifungal + different mechanisms). Does not address the central energy metabolism / PEM cycle but reduces one systemic inflammatory input.
 
 *ME/CFS THEWALL cross-reference run_115: 2026-04-12 | CARD9 CBM Candida gut mycobiome neuroinflammation IL-17 BBB systemic cytokines MALT1 A20 depletion butyrate 4th mechanism HDAC hypha MCT caprylic acid gut dysbiosis IBS-ME overlap*
+
+---
+
+### run_116 cross-reference: ALOX12/12-HETE — Platelet Activation in ME/CFS
+
+**ME/CFS-specific mechanisms from run_116 (BONUS tier):**
+
+1. **12(S)-HETE and ME/CFS platelet hyperactivation**: Pilot metabolomics data show elevated 12(S)-HETE in ME/CFS platelets and plasma. Platelets express high levels of ALOX12 (platelet 12-LOX is physiologically important); in ME/CFS, platelet 12-LOX hyperactivation → excess 12-HETE → platelet hyperaggregation → microthrombus formation → microvascular occlusion.
+
+2. **Long COVID-ME/CFS intersection**: Platelet microclots and fibrinogen amyloid are documented in Long COVID/ME/CFS (Pretorius 2021). 12-HETE → platelet activation → microthrombus contribution. Baicalein → 12-HETE ↓ → anti-platelet effect may reduce microvascular occlusion in post-viral ME/CFS.
+
+3. **Protocol note**: Baicalein (500–1000 mg/day) → ALOX12 inhibition → platelet 12-HETE ↓. Not a first-line ME/CFS intervention but worth considering in patients with documented platelet hyperactivation, elevated D-dimer, or post-exertional microvascular crash patterns.
+
+*ME/CFS THEWALL cross-reference run_116: 2026-04-12 | ALOX12 12-LOX 12(S)-HETE platelet hyperactivation microthrombus Long COVID post-viral baicalein Scutellaria 12-HETE metabolomics*
