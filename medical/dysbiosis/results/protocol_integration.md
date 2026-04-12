@@ -2050,3 +2050,34 @@ depth explaining WHY the protocol works, particularly in T1DM where hyperglycemi
 endogenous AMPK — making exogenous AMPK activation via metformin mechanistically critical.
 
 *Protocol_integration.md Part 9s — 2026-04-12 | AMPK NLRP3 Ser291 metformin exercise six mechanisms*
+
+---
+
+## Part 9t — NLRP3 Signal 1D (STAT3) + Non-Responder Protocol Update (run_070)
+
+### Four Independent NLRP3 Priming Signals: Complete Reference
+
+| Signal | Transcription factor | Activated by | Protocol targeting |
+|--------|---------------------|-------------|-------------------|
+| 1A | NF-κB p65/p50 | TLR4 agonists; all mountains | Eight NF-κB suppressors (colchicine, sulforaphane, vagal, CAPE, MK-7, ivermectin, L-citrulline, VDR) |
+| 1B | ISGF3 (STAT1/STAT2/IRF9) | IFN-α (M3), IFN-β (cGAS-STING) | LDN-193189 (LDN → BMP → ISGF3 ↓); Node D monitoring |
+| 1C | HIF-1α/ARNT | OSA/intermittent hypoxia | CPAP (OSA diagnosis); STOP-BANG screening |
+| 1D | STAT3 (pTyr705) | Leptin (visceral fat); IL-6 (NF-κB → IL-6 feedforward) | Vagal training (α7-nAChR → JAK2 ↓); MK-7 (SOCS1 → JAK2/STAT3 ↓) |
+
+### Non-Responder Signal 1D Checklist (add to 3-month evaluation)
+
+For patients with inadequate response at 3 months despite NF-κB suppression protocol:
+
+1. Check waist circumference: still ≥94 cm (M) / ≥80 cm (W)?
+   → Yes: leptin source persists → Signal 1D driver → escalate adiposity protocol
+2. Check Node B IL-6 (serum): >5 pg/mL despite protocol?
+   → Yes: IL-6 → STAT3 → Signal 1D still active → escalate vagal training + MK-7
+3. Check STOP-BANG: untreated OSA?
+   → If ≥3: Signal 1C still active → CPAP referral before judging protocol failure
+4. Check Node D (IFN-α2): elevated?
+   → Yes: Signal 1B still active → consider LDN escalation
+
+**A protocol failure that improves only after addressing STAT3 (vagal + MK-7) confirms that
+Signal 1D bypass was the mechanism — this is a testable prediction.**
+
+*Protocol_integration.md Part 9t — 2026-04-12 | Signal 1D STAT3 leptin IL-6 non-responder checklist four NLRP3 priming sources*

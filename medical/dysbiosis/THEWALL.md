@@ -2622,3 +2622,96 @@ stronger suppression than either alone (two distinct assembly checkpoints).
 *Updated: 2026-04-12 | Phase 4 forty-third extension | AMPK NLRP3 Ser291 oligomerization metformin exercise sixth mechanism T1DM hyperglycemia AMPK suppression*
 *AMPK is the only mechanism acting at the NLRP3 oligomerization step — downstream of NACHT activation, upstream of ASC nucleation*
 *Metformin bypasses T1DM hyperglycemia-induced AMPK suppression via complex I inhibition → restores Ser291 phosphorylation*
+
+---
+
+## Phase 4 Forty-Fourth Extension — 2026-04-12 (run_070: Leptin/STAT3 Signal 1D)
+
+**Four Independent NLRP3 Priming Sources: Complete Architecture**
+
+### The Four Signal 1 Transcription Factors
+
+```
+NLRP3 gene promoter has at least FOUR functional transcription factor binding sites:
+
+Signal 1A: κB sites (two confirmed: -200 and -780 from TSS)
+    → NF-κB p65/p50 → NLRP3 ↑
+    → Activated by: all TLR4 agonists (LPS, HMGB1, low-MW HA, resistin, S100A8/A9)
+
+Signal 1B: ISRE (Interferon-Stimulated Response Element)
+    → ISGF3 (STAT1/STAT2/IRF9) → NLRP3 ↑
+    → Activated by: IFN-α (M3 virome/HERV-W), IFN-β (cGAS-STING, run_063)
+
+Signal 1C: HRE (Hypoxia Response Element)
+    → HIF-1α/ARNT → NLRP3 ↑
+    → Activated by: OSA/intermittent hypoxia (run_050)
+
+Signal 1D: STAT3-binding site (ChIP confirmed: Hu 2015; -890 to -700 from TSS)
+    → pSTAT3 (Tyr705) → NLRP3 ↑
+    → Activated by: leptin (LepR → JAK2), IL-6 (gp130 → JAK1/JAK2)
+```
+
+### The NF-κB → STAT3 Feedforward Loop
+
+```
+Any TLR4 activation → NF-κB (Signal 1A) → IL-6 gene ↑ → IL-6 secreted
+    → IL-6 → gp130 → JAK1 → STAT3 Tyr705 → pSTAT3
+    → STAT3 → NLRP3 STAT3 site (Signal 1D) ↑
+    ↓
+TOTAL NLRP3 mRNA = Signal 1A (NF-κB) + Signal 1D (STAT3) = GREATER than NF-κB alone
+
+This feedforward means: blocking NF-κB completely does NOT fully suppress NLRP3 mRNA if
+IL-6 remains elevated (residual STAT3 signaling → Signal 1D persists).
+
+IMPORTANT ARCHITECTURAL INSIGHT:
+The eight NF-κB suppressors reduce Signal 1A → but do NOT automatically reduce Signal 1D.
+To suppress Signal 1D, need STAT3 inhibitors specifically:
+    → Vagal α7-nAChR → JAK2 inhibition (Arm 2 of run_033 dual mechanism)
+    → MK-7/Gas6/Axl/SOCS1 → JAK2/STAT3 inhibition (run_039)
+
+Maximum NLRP3 suppression requires BOTH NF-κB AND STAT3 inhibition simultaneously.
+```
+
+### Protocol Reframe: Vagal Training + MK-7 as Signal 1D Dual Suppressors
+
+**Previously framed as:**
+- Vagal α7-nAChR: "NF-κB suppressor 3" (eNOS/NO arm) + "JAK2/STAT3 inhibitor" (second arm)
+- MK-7/Gas6/Axl/SOCS1: "NF-κB suppressor 5"
+
+**Now reframed (more mechanistically accurate):**
+- Vagal α7-nAChR: Signal 1A suppressor (eNOS/NO/IKKβ) + Signal 1D suppressor (JAK2/STAT3)
+- MK-7/Gas6/Axl/SOCS1: Signal 1A suppressor (NEMO/IKK) + Signal 1D suppressor (SOCS1/JAK2/STAT3)
+
+These two protocol elements are the ONLY agents that simultaneously target Signal 1A AND Signal 1D.
+This makes vagal training + MK-7 particularly high-value in visceral-adipose T1DM where both
+signals are chronically elevated.
+
+### Non-Responder Pattern: Signal 1D Bypass
+
+```
+Non-responder profile:
+    Implements NF-κB suppression (eight pathways) → Signal 1A ↓
+    But: elevated waist circumference (visceral adiposity) → leptin ↑ → Signal 1D active
+    Or: IL-6 still elevated (from ongoing mountain input) → Signal 1D active
+    ↓
+Net: Signal 1A ↓ but Signal 1D ↑ → NLRP3 still primed → Loop 2 still fires
+
+Differential diagnosis:
+    Node B IL-6 elevated at 3 months despite NF-κB suppression → Signal 1D driver
+    Waist circumference still ≥94/80 cm → leptin source persists
+    ↓
+Specific intervention:
+    Escalate vagal training (daily HRV biofeedback 20 min × 12 weeks → vagal tone ↑)
+    Add/escalate MK-7 (150 µg/day from 100 µg/day starting dose)
+    Address adiposity source (metformin + exercise intensification)
+```
+
+### Kill Status Summary
+
+- Kill A (dermal macrophage context): Partially concerning. Mechanism conserved but TAM origin of Hu 2015 data introduces some uncertainty for dermis. Confidence: high for IL-6/STAT3 arm; moderate for direct leptin/STAT3 arm.
+- Kill B (quantitative sufficiency): Not killed.
+
+*Updated: 2026-04-12 | Phase 4 forty-fourth extension | STAT3 Signal 1D leptin IL-6 JAK2 four NLRP3 priming signals complete NF-κB STAT3 feedforward non-responder vagal MK-7*
+*Four Signal 1 sources complete: NF-κB (1A) → ISGF3 (1B) → HIF-1α (1C) → STAT3 (1D)*
+*Feedforward: NF-κB → IL-6 → STAT3 → NLRP3 = eight NF-κB suppressors do NOT fully suppress Signal 1D without concurrent STAT3 targeting*
+*Vagal training + MK-7 = the only dual Signal 1A + 1D suppressors in the protocol*

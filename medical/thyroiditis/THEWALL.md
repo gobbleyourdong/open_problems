@@ -267,3 +267,28 @@ See `../dysbiosis/numerics/run_056_vdr_m4_treg_threshold.md`.
 *Updated: 2026-04-12 | VDR/Vitamin D3 cross-pollination from dysbiosis run_056*
 *HT: Vitamin D deficiency = 54% vs. 32% controls (OR 2.6); D3 supplementation → anti-TPO ↓ 20% (Mazokopakis 2015)*
 *Node E target >60 ng/mL in HT (same CYP27B1 suppression mechanism as T1DM); Vitamin D3 + K2 + selenium combination for Hashimoto's*
+
+---
+
+## Cross-pollination from dysbiosis run_070 — Leptin/STAT3/NLRP3 in Hashimoto's Thyroiditis
+
+**Leptin → STAT3 → NLRP3 in Hashimoto's:**
+
+STAT3 is relevant to Hashimoto's thyroiditis independently of NLRP3:
+- STAT3 → promotes Th17 differentiation (via IL-6/STAT3/RORγt axis)
+- Hashimoto's has elevated Th17 cells (Figueroa-Vega 2010 J Clin Endocrinol Metab)
+- Elevated leptin in thyroiditis (even without obesity; leptin correlates with anti-TPO IgG,
+  r=0.55, Sieminska 2010 — may reflect leptin from thyroid-infiltrating macrophages)
+
+**Signal 1D (leptin → STAT3 → NLRP3) in thyroid-infiltrating macrophages:**
+Same mechanism as dermis: leptin → JAK2 → STAT3 → NLRP3 priming in thyroid macrophages
+→ NLRP3 in thyrocytes → IL-1β → further thyrocyte death → release of thyroid antigens →
+amplification of anti-TPO/anti-Tg autoimmunity.
+
+**Protocol: vagal training + MK-7 as Signal 1D suppressors also apply in thyroiditis:**
+MK-7 already in thyroiditis protocol (run_039 cross-pollination: Gas6/Axl/SOCS1 NF-κB suppressor).
+SOCS1 from Axl/Gas6 ALSO suppresses JAK2/STAT3 → directly addresses Signal 1D in thyroid
+macrophages. This adds mechanistic depth to the MK-7 recommendation for Hashimoto's.
+
+**Cross-references:** dysbiosis run_070 (Signal 1D); run_066 (adipokines); thyroiditis MK-7 entry (prior)
+*Cross-pollination: 2026-04-12 | Leptin STAT3 NLRP3 Signal 1D Hashimoto's thyroid macrophage MK-7 SOCS1*

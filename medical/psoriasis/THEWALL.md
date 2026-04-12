@@ -190,3 +190,27 @@ See `../dysbiosis/numerics/run_062_il17a_th17_kls5_loop1.md`.
 *Updated: 2026-04-12 | IL-17A/Th17/KLK5 cross-pollination from dysbiosis run_062*
 *Rosacea/psoriasis overlap (OR 2.5): shared IL-17A → NF-κB driver; different outputs (CXCL8/neutrophil vs. KLK5/LL-37/IFN-α)*
 *Omega-3: Th17 polarization ↓ via EPA/GPR120 = safe Th17 modifier (no leukotriene shunting)*
+
+---
+
+## Cross-pollination from dysbiosis run_068 — Calprotectin in Psoriasis (Validation)
+
+**S100A8/A9 (calprotectin) in psoriasis — strong validation data:**
+
+Calprotectin is particularly well-documented in psoriasis (stronger evidence than rosacea):
+- Foell 2007 Lancet: serum calprotectin correlates with PASI score (r=0.74; higher than
+  rosacea correlation r=0.61); drops 60% with adalimumab treatment in responders
+- S100A8/A9 is produced by neutrophils AND macrophages; psoriasis has neutrophil microabscesses
+  (Munro microabscesses) as histological feature → calprotectin output from neutrophils adds
+  to macrophage-derived calprotectin → HIGHER serum concentrations than in rosacea
+
+**NF-κB → S100A8/A9 → TLR4 positive feedback in psoriasis:**
+Same self-amplifying loop as in rosacea: psoriasis keratinocyte NF-κB → IL-17A → macrophage
+NF-κB → S100A8/A9 → TLR4 → NF-κB. Anti-TNF and anti-IL-17A biologics work partly by
+interrupting this calprotectin self-amplification loop.
+
+**Serum calprotectin as psoriasis activity monitor:** identical protocol as rosacea
+(normal <1 µg/mL; active disease 5-20 µg/mL; tracks PASI).
+
+**Cross-references:** dysbiosis run_068 (S100A8/A9 TLR4 fifth endogenous TLR4 activator); Foell 2007 Lancet
+*Cross-pollination: 2026-04-12 | S100A8/A9 calprotectin TLR4 NF-κB self-amplifying psoriasis Foell 2007*

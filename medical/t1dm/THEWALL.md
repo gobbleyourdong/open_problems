@@ -282,3 +282,32 @@ in skin AND islets → dual-compartment protection.
 
 **Cross-references:** dysbiosis run_067 (HMGB1-RAGE); run_043 (β cell NLRP3 intra-islet); run_056 (VDR/RAGE ↓)
 *Cross-pollination: 2026-04-12 | HMGB1 RAGE intra-islet β cell pyroptosis self-amplification VDR protection*
+
+---
+
+## Cross-pollination from dysbiosis run_069 — AMPK/NLRP3 Ser291 in T1DM
+
+**Hyperglycemia → AMPK suppression → NLRP3 constitutively assembly-ready:**
+
+T1DM hyperglycemia (glucose >10 mM) → mitochondrial hyperpolarization → AMP/ATP ratio ↓
+→ AMPK hypoactive → NLRP3 Ser291 NOT phosphorylated → NLRP3 constitutively able to
+oligomerize upon any Signal 2 trigger.
+
+This is a DIRECT MECHANISM by which poor glycemic control worsens rosacea/islet inflammation
+beyond the AGE-RAGE pathway (run_060): hyperglycemia removes the endogenous NLRP3 oligomerization
+brake (AMPK → Ser291) simultaneously with generating AGE-RAGE ROS (Signal 2) and suppressing
+NO production (eNOS uncoupling, run_052).
+
+**Metformin restores AMPK → NLRP3 Ser291 despite hyperglycemia:**
+Metformin → complex I inhibition → AMP/ATP ↑ → AMPK activated DESPITE hyperglycemia. This
+provides a mechanistic rationale for why metformin reduces T1DM complications beyond glycemia
+— it restores the endogenous NLRP3 assembly brake that hyperglycemia removes.
+
+**HbA1c as proxy for NLRP3 assembly-readiness:**
+HbA1c reflects average glucose → AMP/ATP ratio → AMPK activity → NLRP3 Ser291 status.
+HbA1c <7% → AMPK likely active → NLRP3 Ser291 phosphorylated → assembly suppressed.
+HbA1c >9% → AMPK chronically suppressed → NLRP3 oligomerizes readily from any trigger.
+This explains the clinical correlation between poor glycemic control and rosacea/islet flare frequency.
+
+**Cross-references:** dysbiosis run_069 (AMPK/NLRP3 Ser291); run_052 (eNOS uncoupling in T1DM); run_060 (AGE-RAGE)
+*Cross-pollination: 2026-04-12 | AMPK NLRP3 Ser291 hyperglycemia T1DM HbA1c metformin complex I*
