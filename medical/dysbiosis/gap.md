@@ -2782,3 +2782,31 @@ All remaining mechanistically novel absences (RIPK3, NLRP1, SIRT2, TOLLIP, Tr1, 
 The framework's saturation is robust across two independent comprehensive sweeps (Extensions 97 and 98).
 
 *Gap.md updated: 2026-04-12 | Ninety-eighth iteration | SECOND SATURATION CONFIRMATION | RIPK3 NLRP1 SIRT2 A20 TOLLIP GLP-2 PAF Tr1 mTORC2 all killed | framework remains saturated at 111 runs | no run_112*
+
+---
+
+### Extension 99 — Third Saturation Confirmation
+
+**Sweep focus:** Cytokines, epigenetic regulators, checkpoint pathways, neoantigen mechanisms, structural proteins, and rosacea-specific coverage audit.
+
+**Findings:**
+
+- VEGF/angiogenesis: 46 mentions, 14 files (runs 061, 097, 106, 028, 105) — covered
+- MMPs: 70 mentions, run_083 (ivermectin/doxy/MMP9) dedicated — covered
+- Ocular rosacea: run_016 dedicated — covered
+- IL-37 / IL-38: zero mentions; killed — downstream of IL-10 (Breg/run_103); no pharmacological inducer
+- BRD4 / BET bromodomains: zero mentions; killed — JQ1 is research-only; no protocol-applicable BET inhibitor
+- Tim-3 / Galectin-9: zero mentions; killed — therapeutic conflict (T cell checkpoint in T1DM vs. NLRP3 co-activator in M1 rosacea macrophages); no net protocol leverage
+- EZH2 / PRC2: 1 mention; killed — H3K27me3 is developmental β cell biology not autoimmune; weak rosacea data
+- Citrullinated insulin neoantigen (Kracht 2017 Science): T1DM HIGH but rosacea LOW; fails multi-disease threshold
+- H4R (histamine H4 receptor): 4 mentions (runs 007/013); killed — weak T1DM evidence; no H4R antagonist in protocol space
+- SUMOylation / neddylation: 3 mentions; killed — below threshold, no protocol intervention
+- MUC5AC / MUC5B: zero mentions; gastric/airway mucins not relevant to rosacea/T1DM/ME-CFS primary axis
+- Claudin-2 (leak junction): 1 mention; killed — no new intervention (butyrate/calcitriol already in protocol)
+
+**Three-sweep summary:**
+After three independent comprehensive sweeps (Extensions 97, 98, 99) covering 40+ candidates, no mechanism has cleared the four saturation override criteria. The most common failure modes are: (a) no protocol-applicable therapeutic exists for the novel mechanism; (b) therapeutically redundant with existing elements; (c) fails rosacea MODERATE threshold despite strong T1DM data.
+
+**SATURATION IS ROBUST AND CONFIRMED ACROSS THREE INDEPENDENT SWEEPS.**
+
+*Gap.md updated: 2026-04-12 | Ninety-ninth iteration | THIRD SATURATION CONFIRMATION | IL-37 IL-38 BRD4 Tim-3 Gal-9 EZH2 citrullinated insulin H4R SUMO neddylation claudin-2 MUC5AC all killed | three sweeps complete | framework saturated at 111 runs*
