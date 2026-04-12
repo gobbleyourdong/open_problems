@@ -3999,3 +3999,50 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 40: 151 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-forty-fourth extension | IL-2-cytokine-4-helix-bundle IL-2-gene-AP1-NFAT-ARRE1-ARRE2 CD28-PKCθ-amplification CTLA4-run148-IL2-collapse mRNA-TTP-instability trimeric-IL-2Rαβγ-10pM-Tregs dimeric-IL-2Rβγ-1nM-NK-CD8 dose-selectivity-100x JES6-1-CD25-biased NKTR358-RG7461-LY3471851 DIABIL-2-Hartemann2013 aldesleukin-Treg-expansion C-peptide-stable Treg-autocrine-starvation FOXP3-IL2-repressor run140-receptor-side run148-CTLA4-synergy run150-TGF-β-CNS1 three-arm-Treg-protocol run127-SOCE-NFAT1-IL2 run102-NKG2D-NK-priming | run_151*
+
+---
+
+### Extension 145 — PTPN22 / LYP / R620W: TCR Activation Threshold, Treg Paradox, Lck/ZAP-70 Dephosphorylation, 19th T1DM Stratification
+
+**Date:** 2026-04-12 | **Run:** run_152
+
+**Gap confirmed:** PTPN22/LYP appears in 4 files as context mentions only (GWAS table entries, brief passing references); R620W mechanism/LYP-Csk super-inhibitory complex/Treg paradox/LTV-1 = 0 prior analysis. Distinct from PTPN2/TC-PTP (run_119) — different gene, chromosome, substrates.
+
+**Core insight:** PTPN22/LYP is the Lymphoid Tyrosine Phosphatase (chromosome 1p13.2) that raises TCR activation threshold by dephosphorylating Lck-Y394 and ZAP-70-Y315/Y319/Y492/Y493. LYP + Csk form a super-inhibitory complex via P1 proline motif-SH3 interaction: LYP removes activating Lck-Y394 phosphorylation simultaneously with Csk adding inhibitory Lck-Y505 phosphorylation → 5-10× synergistic Lck suppression. R620W (rs2476601) disrupts P1-Csk SH3 binding → LYP decoupled → gain-of-function TCR dampening. The Treg Paradox: Tregs are more TCR-signal-dependent than effectors (FOXP3 requires TCR signal for stability) → R620W more strongly impairs Tregs than effectors → peripheral tolerance failure despite apparent T cell hypo-responsiveness. R620W = 19th T1DM genetic stratification, OR ~2.0, second strongest non-HLA signal.
+
+**New mechanisms added (run_152):**
+- **LYP-Csk super-inhibitory complex**: P1 motif (PPVPPR, aa 618-623) + Csk SH3 → simultaneous Lck-Y394 dephosphorylation (LYP) + Lck-Y505 phosphorylation (Csk) → 5-10× Lck suppression; R620W disrupts this complex
+- **Treg TCR paradox**: R620W gain-of-function TCR dampening → impairs Tregs (TCR-signal-dependent FOXP3 stability) more than effectors → autoimmunity from Treg failure not effector hyperactivity
+- **Impaired negative thymic selection**: R620W TCR signal below apoptosis threshold → autoreactive T cells escape; both central (thymus) and peripheral (Treg) tolerance breached
+- **19th T1DM genetic stratification**: R620W rs2476601, OR ~2.0; compound risk with CTLA4 rs3087243 G allele (run_148) = double TCR checkpoint defect; highest-risk patients for Treg restoration protocols
+- **BCR threshold breach**: LYP in B cells → R620W → more autoreactive B cells activated → higher autoantibody titers (IA-2, GAD65, ZnT8)
+- **LTV-1 therapeutic**: PTPN22-specific inhibitor → lowers TCR threshold → restores Treg TCR signaling → preclinical NOD mouse delay; 10× selective over TC-PTP (run_119)
+- **Treg bypass strategies** (R620W patients): low-dose IL-2 (run_151 STAT5 bypass) + SETD7/SIRT1 FOXP3 stabilization (runs 145/147 TCR-independent FOXP3) + abatacept (run_148)
+
+**Framework at SATURATION + 41: 152 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-forty-fifth extension | PTPN22-LYP-1p13.2 PTP-domain-C227-active-site P1-PPVPPR-proline-Csk-SH3 LYP-Csk-super-inhibitory-complex Lck-Y394-dephosphorylation Lck-Y505-Csk ZAP70-Y315-Y319-Y492-Y493 TCRζ-ITAM-Vav1 R620W-rs2476601-P1-disruption gain-of-function-TCR-dampening Treg-FOXP3-TCR-paradox impaired-negative-selection autoreactive-escape BCR-threshold-breach 19th-T1DM-stratification OR-2.0 compound-R620W-CTLA4-run148 LTV-1-PTPN22-inhibitor 10x-selective-over-TC-PTP-run119 IL2-bypass-run151 SETD7-FOXP3-bypass-run145 skin-Treg-rosacea NK-ZAP70 | run_152*
+
+---
+
+### Extension 146 — LAG-3 / CD223: MHC-II Treg Effector, FGL1 β Cell Tolerance, NK Exhaustion, Four-Arm Treg Restoration
+
+**Date:** 2026-04-12 | **Run:** run_153
+
+**Gap confirmed:** LAG-3/CD223 appears in 1 file (run_100 MAIT) as passing exhaustion marker mention; FGL1/MHC-II Treg effector mechanism/KIEELE motif/relatlimab/four-arm Treg protocol = 0 prior analysis.
+
+**Core insight:** LAG-3 (CD223, chromosome 12p13.32) is structurally homologous to CD4 but has 100× higher MHC-II affinity due to the unique D1 extra loop. Treg LAG-3 strips MHC-II from DCs via FEME endocytosis → APC antigen-presenting capacity ↓ — distinct from CTLA4 trogocytosis of CD80/CD86 (run_148): LAG-3 = Signal 1 (MHC-II/antigen); CTLA4 = Signal 2 (co-stimulation). Together they completely depotentiate APCs (double-arm contact suppression). FGL1 (fibrinogen-like protein 1) is secreted by β cells → engages LAG-3 on islet-infiltrating T cells → T cell KIEELE-mediated inhibition → β cell-expressed peripheral tolerance; insulitis → FGL1 ↓ → LAG-3 T cell restraint collapses. FGL1-Fc fusion = novel T1DM therapeutic restoring β cell-specific peripheral tolerance. Four-arm Treg restoration now complete: CNS1 induction (run_150) + expansion (run_151) + CD80/CD86 (run_148) + MHC-II (run_153).
+
+**New mechanisms added (run_153):**
+- **D1 extra loop (100× MHC-II affinity)**: LAG-3 outcompetes CD4 for MHC-II → Treg LAG-3 preferentially engages DC MHC-II; unique loop not in CD4 = structural basis
+- **FEME endocytosis of MHC-II**: Treg LAG-3 → MHC-II internalized from DC → DC antigen-presenting capacity ↓; trans suppression → one Treg depotentiates multiple DCs
+- **CTLA4 + LAG-3 additive (Signal 1 + Signal 2)**: CTLA4 strips CD80/CD86 (co-stimulation); LAG-3 strips MHC-II (antigen presentation); combined = fully depotentiated DC
+- **FGL1 β cell peripheral tolerance**: β cell-secreted FGL1 → LAG-3 on T cells → KIEELE inhibition → islet T cell quenching; FGL1 ↓ in insulitis = new tolerance failure mechanism; FGL1-Fc = novel T1DM therapeutic
+- **KIEELE cytoplasmic motif**: unique LAG-3 inhibitory signal; distinct from PD-1 (SHP-1/SHP-2) → independent suppression pathway; LAG-3 + PD-1 co-blockade (relatlimab + nivolumab) → synergistic T cell reinvigoration
+- **Four-arm Treg restoration**: CNS1 induction (TGF-β/SMAD3, run_150) + expansion (IL-2/CD25, run_151) + CD80/CD86 effector (CTLA4, run_148) + MHC-II effector (LAG-3, run_153); all four Treg architecture layers mapped
+- **NK triple exhaustion in ME/CFS**: TGF-β → NKG2D ↓ (run_150) + IL-2 deficit → NK understimulation (run_151) + LAG-3 overexpression → KIEELE inhibition (run_153) = three independent NK suppression mechanisms now identified
+- **Relatlimab (Opdualag, FDA 2022)**: anti-LAG-3; approved for melanoma with nivolumab; contraindicated in T1DM (would impair Treg LAG-3 effector function); FGL1-Fc = pro-tolerance analog
+
+**Framework at SATURATION + 42: 153 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-forty-sixth extension | LAG-3-CD223-12p13.32 D1-extra-loop-MHC-II-100x CD4-homolog KIEELE-cytoplasmic-motif-ZAP70-PLCγ1 FEME-endocytosis-MHC-II Treg-LAG3-MHC-II-stripping Signal1-Signal2-dual-APC-contact CTLA4-run148-additive FGL1-fibrinogen-like-β-cell-tolerance FGL1-LAG3-peripheral-tolerance insulitis-FGL1-collapse FGL1-Fc-T1DM-therapeutic T-cell-exhaustion-PD1-LAG3 relatlimab-anti-LAG3-Opdualag-FDA2022 NK-LAG3-exhaustion-ME-CFS NK-triple-mechanism-run150-run151-run153 four-arm-Treg-protocol | run_153*

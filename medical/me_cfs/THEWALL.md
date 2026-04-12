@@ -1433,3 +1433,46 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
    - Each mechanism independently addressable: pirfenidone/losartan (anti-TGF-β) + NKG2DL surface restoration + IL-2 supplementation
 
 *ME/CFS THEWALL cross-reference run_151: 2026-04-12 | IL-2-cytokine-NK-priming dimeric-IL-2Rβγ-1nM-NK NK-deficiency-triple-mechanism run102-NKG2D run150-SMAD3-NK dose-nuance-Treg-vs-NK-ME-CFS ultra-low-Treg intermediate-NK flow-cytometry-guided FOXP3-IL2-repressor CD28-amplification | run_151*
+
+---
+
+### Cross-reference: run_152 — PTPN22 / LYP / R620W: NK Activation Threshold, Treg Insufficiency
+
+**Relevance: LOW**
+
+1. **NK activation threshold — LYP/ZAP-70 in NK cells**:
+   - NK cells express LYP; ZAP-70 downstream of NKG2D-DAP10 activation; R620W → ZAP-70 Y315/Y319 dephosphorylation altered → NK NKG2D signaling threshold changed
+   - R620W carriers: potentially altered NK cytotoxic threshold; not well characterized in ME/CFS context
+   - If R620W → NK ZAP-70 more strongly dampened → NK cytotoxicity further reduced in already-impaired ME/CFS NK
+
+2. **Treg insufficiency contribution to ME/CFS**:
+   - R620W Treg FOXP3 instability → chronic immune dysregulation; if R620W prevalence enriched in ME/CFS subset → Treg failure contributing to perpetuation
+   - Screen treatment-refractory ME/CFS patients for R620W; low-dose IL-2 (run_151) would bypass R620W Treg weakness via STAT5/FOXP3
+
+*ME/CFS THEWALL cross-reference run_152: 2026-04-12 | PTPN22-LYP-R620W NK-ZAP70-threshold NKG2D-DAP10 Treg-insufficiency-FOXP3-TCR IL2-run151-bypass SETD7-run145-bypass | run_152*
+
+---
+
+### Cross-reference: run_153 — LAG-3 / CD223: NK Triple Exhaustion, Treg Function
+
+**Relevance: MODERATE**
+
+1. **NK triple exhaustion — converging mechanisms in ME/CFS**:
+   - TGF-β/pSMAD3 → NKG2D mRNA destabilization (run_150)
+   - IL-2 deficiency → NK dimeric IL-2Rβγ understimulation (run_151)
+   - LAG-3 overexpression → KIEELE-mediated NK inhibition (run_153)
+   - Three independent NK suppression mechanisms; all identifiable by flow cytometry; all potentially addressable
+   - NKG2D+ NK% + LAG-3+ NK% + CD56dim/CD56bright ratio = comprehensive NK exhaustion panel for ME/CFS
+
+2. **NK restoration intervention convergence**:
+   - Anti-TGF-β (pirfenidone/losartan, run_150) → restores NKG2D expression
+   - Intermediate-dose IL-2 (run_151) → NK dimeric receptor priming
+   - LAG-3-targeted approaches (anti-LAG-3-like mechanisms on NK) → restore NK function
+   - Combined: pirfenidone + intermediate IL-2 (dose-guided by flow NK:Treg ratio, run_151) = practical NK restoration protocol
+
+3. **Treg LAG-3 in ME/CFS**:
+   - Exhausted Tregs in ME/CFS may lose LAG-3 expression (FOXP3 destabilization)
+   - Reduced Treg LAG-3 → less MHC-II stripping from DCs → more chronic antigen presentation → immune perpetuation cycle
+   - Vitamin C/TET (run_087) + EGCG/DNMT3A (run_149) → FOXP3 CNS2 stability → FOXP3 ↑ → LAG-3 ↑ on Tregs → restore MHC-II stripping
+
+*ME/CFS THEWALL cross-reference run_153: 2026-04-12 | LAG-3-CD223-NK-KIEELE NK-triple-exhaustion-run150-run151-run153 NKG2D-LAG3-IL2-NK-panel NK-restoration-pirfenidone-IL2 Treg-LAG3-FOXP3-instability FGL1-KIEELE-T-cell ME-CFS-NK-flow-cytometry | run_153*

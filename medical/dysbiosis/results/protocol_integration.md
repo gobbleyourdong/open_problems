@@ -5671,4 +5671,69 @@ Complete integrated Treg restoration now covers all three mechanistic layers:
 - Flow cytometry at baseline: Treg vs NK ratio guides decision; NK < 10% of lymphocytes = NK-predominant → consider intermediate dosing
 - TGF-β/losartan (run_150) + IL-2 (run_151) together address NK NKG2D suppression (anti-TGF-β) + NK priming deficit (IL-2) simultaneously
 
+---
+
+### Part 9da — PTPN22 / LYP / R620W Protocol Integration (run_152)
+
+**New monitoring and genotyping additions — TCR threshold axis:**
+
+**R620W genotyping protocol:**
+- Test: PTPN22 rs2476601 (W620) genotyping; blood DNA
+- Indication: T1DM patients and first-degree relatives; rosacea patients with autoimmune comorbidities
+- Positive (W620 homozygous or heterozygous): 19th stratification flag; OR ~2.0 for T1DM
+- Clinical action: W620 carriers → priority for multi-arm Treg restoration; add epigenetic FOXP3 support (SETD7/SIRT1 run_145/147) to compensate for TCR-signal-independent FOXP3 stabilization
+
+**R620W compound risk panel:**
+- R620W + CTLA4 rs3087243 G allele (run_148) = double TCR checkpoint defect (LYP upstream + CTLA4 downstream)
+- Compound carriers: strongest T1DM progression risk; abatacept + low-dose IL-2 (run_151) = most indicated combination
+
+**Treg bypass protocol for R620W carriers (prioritized):**
+
+| Mechanism | Drug | Run | Rationale |
+|-----------|------|-----|-----------|
+| TCR-threshold restoration | LTV-1 (if available) | run_152 | Direct PTPN22 inhibition → Treg TCR signal |
+| STAT5/FOXP3 bypass | Aldesleukin (low-dose) | run_151 | IL-2/STAT5 independent of TCR |
+| Post-translational FOXP3 | B12/betaine + NMN (SETD7/SIRT1) | runs 145/147 | K302me1 + K310/K322 acetylation |
+| Trogocytosis restoration | Abatacept | run_148 | CD80/CD86 arm |
+| MHC-II arm | FGL1-Fc (if available) | run_153 | LAG-3 effector arm |
+
+**Autoantibody enrichment monitoring:**
+- R620W → BCR threshold breach → higher IA-2/GAD65/ZnT8 autoantibody titers
+- Screen W620 carriers more frequently (q6 months instead of q12 months)
+
+---
+
+### Part 9db — LAG-3 / CD223 Protocol Integration (run_153)
+
+**New monitoring and therapeutic additions — LAG-3/FGL1 axis:**
+
+**FGL1 serum monitoring (new biomarker):**
+- Test: Serum FGL1 (ELISA; reference range being established)
+- Indication: T1DM patients; declining FGL1 may precede C-peptide loss by signaling tolerance failure
+- Low FGL1 = LAG-3-mediated T cell restraint failing → accelerate Treg restoration protocol
+- Track alongside C-peptide AUC for early intervention window
+
+**FGL1-Fc (investigational — trial enrollment):**
+- FGL1 recombinant Fc fusion → systemic LAG-3 agonism on T cells → raises T cell activation threshold
+- T1DM indication: restore β cell-specific peripheral tolerance after β cell FGL1 loss
+- Monitor: T cell CD25+/CD69+ activation markers for FGL1 tolerance endpoint
+
+**Four-arm Treg restoration protocol (complete — all evidence levels):**
+
+| Arm | Mechanism | Drug | Evidence Level |
+|-----|-----------|------|---------------|
+| CNS1 induction | TGF-β/SMAD3 + NFAT1/Ca²⁺ | Mg + IL-6 lowering | Preclinical |
+| Expansion | IL-2/CD25/STAT5 | Aldesleukin (DIABIL-2) | Phase 1/2 |
+| CD80/CD86 contact | CTLA4 trogocytosis | Abatacept (TN-09/TN-10) | Phase 2/3 |
+| **MHC-II contact** | LAG-3 stripping | FGL1-Fc (investigational) | Preclinical |
+
+**Safety: avoid relatlimab/anti-LAG-3 in T1DM:**
+- Relatlimab (Opdualag) = LAG-3 antagonist → blocks Treg LAG-3 effector → worsen T1DM
+- Flag in patient records: patients on Opdualag for melanoma → monitor for T1DM irAE
+- FGL1-Fc (agonist) = opposite direction; safe in T1DM
+
+**NK triple exhaustion panel (ME/CFS + T1DM):**
+- Flow cytometry: NKG2D expression (run_150 TGF-β axis) + LAG-3 % on NK cells (run_153) + CD56dim:CD56bright ratio (IL-2 axis, run_151)
+- All three axes identifiable and independently addressable: anti-TGF-β + intermediate IL-2 + LAG-3-targeted approach
+
 *Protocol_integration.md Part 9cx — 2026-04-12 | DNMT3A R882H CHIP-screening-protocol IL-1β-targeted-CHIP vitamin-C-TET-EGCG-DNMT3A-dual CNS2-protection decitabine-investigational EGCG-primary-DNMT-inhibitor PPARγ-SOCS3-IL10-re-expression β-cell-dedifferentiation-monitoring c-peptide-trajectory integrated-epigenetic-stack run086-run087-TET-DNMT3A-combination | run_149*

@@ -1695,3 +1695,61 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
    - Effector function: abatacept (run_148) → CTLA4 trogocytosis preserved → per-Treg suppressive capacity
 
 *T1DM THEWALL cross-reference run_151: 2026-04-12 | IL-2-cytokine trimeric-IL-2Rαβγ-10pM-Treg-selective dimeric-IL-2Rβγ-1nM-NK-CD8 dose-selectivity DIABIL-2-Hartemann2013-LancetDE aldesleukin-Treg-expansion C-peptide-stable Treg-starvation-paradox FOXP3-IL2-repressor JES6-1-CD25-biased NKTR358-LY3471851 run148-abatacept-synergy run150-TGF-β-CNS1 three-arm-Treg run127-SOCE-NFAT1 | run_151*
+
+---
+
+### Cross-reference: run_152 — PTPN22 / LYP / R620W: 19th Stratification, Treg TCR Paradox, LTV-1
+
+**Relevance: HIGH**
+
+1. **19th T1DM genetic stratification (R620W, rs2476601)**:
+   - OR ~2.0 for T1DM; ~8-12% Europeans carry W620 allele; second strongest non-HLA signal
+   - Mechanism: LYP-Csk super-inhibitory complex disrupted → gain-of-function TCR dampening → Treg FOXP3 destabilized (Tregs more TCR-signal-dependent) → peripheral tolerance failure
+   - Panel: add R620W genotyping to existing stratification panel (runs 009+024+027+028+032+039+040+045+047+061+064+066+075+079+082+085+099+128+131+134+140+148 stratifications, now +152)
+
+2. **Compound R620W + CTLA4 G allele (run_148)**:
+   - CTLA4 G allele: impaired CD80/CD86 trogocytosis → more stimulatory APC
+   - R620W: impaired Treg TCR signal → weaker Treg activation and FOXP3 stability
+   - Double checkpoint defect: weakest Tregs + most stimulatory APCs = highest-risk T1DM genetic combination → most aggressive Treg restoration protocol indicated
+
+3. **Treg bypass strategies for R620W**:
+   - Low-dose IL-2/STAT5 (run_151): STAT5 → FOXP3 ↑ independent of TCR signal → directly compensates R620W Treg weakness
+   - SETD7/K302me1 (run_145): post-translational FOXP3 stabilization; TCR-independent
+   - SIRT1/RelA-K310 (run_147): NAD⁺/NMN → FOXP3 SIRT1-axis; TCR-independent
+   - LTV-1: lowers TCR threshold → restores Treg TCR signal (if available)
+
+4. **Autoantibody prediction**:
+   - R620W → BCR threshold breach → higher IA-2/GAD65/ZnT8 autoantibody titers; track autoantibody panel in R620W carriers for earlier T1DM diagnosis
+
+*T1DM THEWALL cross-reference run_152: 2026-04-12 | PTPN22-LYP-R620W-19th-stratification OR-2.0 LYP-Csk-super-inhibitory Treg-TCR-FOXP3-paradox compound-R620W-CTLA4-run148 LTV-1 IL2-STAT5-bypass-run151 SETD7-TCR-independent-run145 SIRT1-run147 BCR-autoantibody-IA2-GAD65-ZnT8 run119-TC-PTP-distinct | run_152*
+
+---
+
+### Cross-reference: run_153 — LAG-3 / CD223: FGL1 β Cell Tolerance, Four-Arm Treg Restoration, NK Triple Exhaustion
+
+**Relevance: HIGH**
+
+1. **FGL1 β cell peripheral tolerance — new T1DM mechanism**:
+   - β cells secrete FGL1 → binds LAG-3 on islet-infiltrating T cells → KIEELE cytoplasmic inhibition → T cell ZAP-70/PLCγ1 ↓ → T cell activation raised → β cell self-antigen tolerance maintained
+   - Insulitis destroys FGL1-producing β cells + cytokine-mediated FGL1 ↓ → LAG-3 T cell restraint collapses → accelerated β cell destruction
+   - FGL1 serum levels: declining FGL1 may precede C-peptide loss; monitoring value
+   - FGL1-Fc fusion (investigational): directly restores tolerance without requiring β cell survival
+
+2. **Four-arm Treg restoration (complete)**:
+   - Induction: TGF-β/SMAD3 → CNS1 (run_150) + NFAT1/SOCE (run_127)
+   - Expansion: IL-2/trimeric → CD25/STAT5/FOXP3 (run_151)
+   - CD80/CD86 effector: CTLA4 trogocytosis → abatacept (run_148)
+   - **MHC-II effector**: LAG-3 stripping → FGL1-Fc / LAG-3 agonism (run_153)
+   - All four mechanistic layers of Treg function restoration now covered
+
+3. **Anti-LAG-3 (relatlimab) CONTRAINDICATED in T1DM**:
+   - Relatlimab blocks Treg LAG-3 → impairs MHC-II stripping → reduces Treg effector function → autoimmunity worsens
+   - Monitor T1DM irAE in oncology patients on Opdualag (relatlimab + nivolumab): documented anti-PD-1/anti-LAG-3 → T1DM precipitation
+   - Flag: FGL1-Fc (agonist) vs relatlimab (antagonist) = opposite therapeutic directions for T1DM vs cancer
+
+4. **LAG-3+ Treg restoration strategy**:
+   - Low-dose IL-2 (run_151): FOXP3 ↑ → LAG-3 ↑ on Tregs (FOXP3 drives LAG-3 expression)
+   - Abatacept (run_148) + FGL1-Fc: dual-arm APC contact suppression restoration
+   - TGF-β support (run_150): CNS1 iTreg induction → newly induced iTregs upregulate both CTLA4 and LAG-3
+
+*T1DM THEWALL cross-reference run_153: 2026-04-12 | LAG-3-CD223-D1-extra-loop-MHC-II-100x KIEELE-ZAP70 FGL1-β-cell-FGL1-tolerance insulitis-FGL1-collapse FGL1-Fc-T1DM four-arm-Treg-148-150-151-153 CTLA4-run148-additive-Signal1-Signal2 relatlimab-CONTRAINDICATED-T1DM IL2-FOXP3-LAG3-run151 TGF-β-iTreg-LAG3-run150 | run_153*

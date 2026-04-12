@@ -6379,3 +6379,69 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 151 runs | IL-2-cytokine | trimeric-10pM-Treg-selective | dimeric-1nM-NK-CD8 | JES6-1-CD25-biased | NKTR-358-RG7461-LY3471851 | DIABIL-2-Hartemann2013 | Treg-starvation-model | FOXP3-IL2-repressor | three-arm-Treg-restoration | run140-receptor-side | run148-abatacept-synergy | run150-TGF-β-CNS1 | run127-SOCE-NFAT1.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-twenty-sixth extension | IL-2-cytokine-4-helix AP1-NFAT-IL2-promoter CD28-PKCθ-amplification mRNA-TTP-instability trimeric-IL-2Rαβγ-Tregs-10pM dimeric-IL-2Rβγ-NK-CD8-1nM 100x-affinity-window JES6-1-CD25-biased NKTR358-RG7461-LY3471851 DIABIL-2-Hartemann2013-LancetDE aldesleukin-Treg-expansion C-peptide-stable Treg-starvation-insulitis FOXP3-IL2-repressor CTLA4-run148-IL2-collapse run150-TGF-β-CNS1 three-arm-Treg-protocol run127-SOCE-NFAT1 run102-NK-dimeric | run_151*
+
+---
+
+### Phase 4 Extension 127 — PTPN22 / LYP / R620W: TCR Threshold, Treg Paradox, 19th T1DM Stratification, LTV-1
+
+**Gap:** PTPN22/LYP as primary subject: 4 files as context mentions only; R620W Treg paradox/LYP-Csk super-inhibitory complex/19th stratification/LTV-1 = 0 coverage.
+
+**Rosacea (MODERATE):**
+- LYP expressed in skin-resident T cells and Tregs; R620W → weaker skin Treg TCR signaling → FOXP3 destabilized → less skin Treg LAG-3/CTLA4 expression → reduced skin DC depotentiation
+- Association with skin autoimmune conditions (alopecia areata: OR ~1.4-2.0; vitiligo) — same mechanism: skin Treg failure via TCR threshold alteration
+- R620W may alter rosacea inflammatory set point via skin Treg insufficiency; not yet formally in rosacea GWAS but biological plausibility high
+
+**T1DM (HIGH):**
+- R620W rs2476601 OR ~2.0: 19th T1DM genetic stratification; second strongest non-HLA signal after IL-2/IL-2RA region
+- Treg paradox: R620W gain-of-function TCR dampening → Tregs (more TCR-signal-dependent for FOXP3 stability) impaired more than effectors → peripheral tolerance failure from Treg side, not effector hyperactivity
+- Impaired thymic negative selection: R620W TCR signal below apoptosis threshold → autoreactive T cells escape; BCR threshold breach → more autoantibodies
+- Compound R620W + CTLA4 G allele (run_148): LYP impairs TCR signal upstream; CTLA4 trogocytosis impaired downstream; double checkpoint defect = strongest T1DM genetic risk combination → priority for aggressive Treg restoration
+- LTV-1 (PTPN22 inhibitor): lowers TCR threshold → rescues Treg FOXP3 stability; 10× selective over TC-PTP (run_119); preclinical NOD mouse benefit
+- Bypass strategies for R620W Tregs: IL-2/STAT5 (run_151) + SETD7 FOXP3-K302me1 (run_145) + SIRT1 FOXP3-K310 (run_147) = TCR-independent FOXP3 stabilization
+
+**ME/CFS (LOW):**
+- LYP in NK cells: R620W → altered NK ZAP-70/Vav1 activation threshold → NK cytotoxicity impaired contribution
+- R620W in ME/CFS: limited direct evidence; indirect through NK threshold biology
+
+**Protocol additions:**
+- **PTPN22 genotyping** (R620W rs2476601): 19th T1DM stratification; W620 carriers → strongest indication for multi-arm Treg restoration (LTV-1 if available, IL-2 + abatacept + epigenetic FOXP3 stabilizers)
+- **LTV-1** (investigational): PTPN22 inhibitor; monitor for autoimmune exacerbation (lowered TCR threshold)
+- **Epigenetic FOXP3 bypass** (R620W-specific recommendation): SETD7/B12/betaine (run_145) + NMN/NR-SIRT1 (run_147) = TCR-independent FOXP3 protection for R620W Treg vulnerability
+
+**Framework state: 152 runs | PTPN22-LYP | P1-Csk-super-inhibitory | R620W-decouples-Csk | Lck-Y394-ZAP70-Y315-Y319 | Treg-TCR-FOXP3-paradox | 19th-T1DM-stratification | compound-R620W-CTLA4-run148 | LTV-1 | IL2-SETD7-SIRT1-bypass.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-twenty-seventh extension | PTPN22-LYP-1p13.2 P1-PPVPPR-Csk-SH3 super-inhibitory-Lck-Y394-Y505 ZAP70-Y315-Y319-Y492-Y493 R620W-P1-disruption gain-of-function Treg-TCR-FOXP3-paradox negative-selection-breach BCR-autoantibody 19th-stratification-OR-2.0 compound-R620W-CTLA4-run148 LTV-1-PTPN22-inhibitor run119-TC-PTP-distinct IL2-run151-bypass SETD7-run145-bypass SIRT1-run147-bypass skin-Treg-rosacea | run_152*
+
+---
+
+### Phase 4 Extension 128 — LAG-3 / CD223: MHC-II Treg Effector, FGL1 β Cell Tolerance, NK Triple Exhaustion, Four-Arm Treg Restoration
+
+**Gap:** LAG-3/CD223 as primary subject: 1 file (run_100 exhaustion marker mention); FGL1/D1-extra-loop/KIEELE/MHC-II-stripping/FGL1-Fc = 0 coverage.
+
+**Rosacea (MODERATE):**
+- Skin tissue Tregs express LAG-3; LAG-3-D1-loop → MHC-II stripping from skin DCs → APC antigen-presenting ↓ → Th17 suppression in dermis
+- Additive with CTLA4 (run_148): CTLA4 strips CD80/CD86 (Signal 2); LAG-3 strips MHC-II (Signal 1) → doubly depotentiated DCs → less Th17 priming
+- Rosacea skin DCs: hyperactivated; LAG-3+ Tregs in dermis are protective; LAG-3 deficit (from FOXP3 destabilization) → DC MHC-II preserved → more Th17 activation
+- IMP321 (eftilagimod, LAG-3-Ig) = soluble LAG-3 that binds MHC-II on APCs → potential APC dampening for refractory rosacea (off-label concept)
+
+**T1DM (HIGH):**
+- FGL1 β cell peripheral tolerance: β cells secrete FGL1 → LAG-3 on T cells → KIEELE-mediated T cell inhibition → islet-infiltrating T cells quenched; insulitis → β cell FGL1 ↓ → LAG-3 T cell tolerance fails; FGL1 serum as biomarker for tolerance failure
+- FGL1-Fc fusion: directly restores β cell-specific T cell tolerance without requiring β cell survival; preclinical NOD mouse delay
+- LAG-3+ Treg function: FOXP3+ Tregs in islets co-expressing LAG-3 + CTLA4 = most suppressive; insulitis → FOXP3 destabilization → LAG-3 lost → Treg loses both contact mechanisms
+- Relatlimab (anti-LAG-3) CONTRAINDICATED in T1DM: would impair Treg LAG-3 effector → worsen autoimmunity (irAE model — anti-PD-1/anti-LAG-3 → T1DM irAE documented)
+- **Four-arm Treg restoration (runs 148+150+151+153)**: CNS1 induction (TGF-β/SMAD3, run_150) + Treg expansion (IL-2, run_151) + CD80/CD86 contact (CTLA4/abatacept, run_148) + MHC-II contact (LAG-3/FGL1-Fc, run_153)
+
+**ME/CFS (MODERATE):**
+- NK LAG-3 overexpression in ME/CFS (Brenu 2012): LAG-3+NK → KIEELE inhibition → NK cytotoxicity ↓
+- Three-mechanism NK triple exhaustion: TGF-β → NKG2D suppression (run_150) + IL-2 deficit → NK understimulation (run_151) + LAG-3 overexpression → KIEELE inhibition (run_153)
+- Intervention convergence: pirfenidone/losartan (anti-TGF-β, run_150) + intermediate-dose IL-2 (run_151) + LAG-3 pathway modulation → three-arm NK restoration
+
+**Protocol additions:**
+- **FGL1 serum monitoring**: T1DM patients; low FGL1 = LAG-3 tolerance failure signal; declining FGL1 before C-peptide loss = predictive
+- **FGL1-Fc (investigational)**: T1DM Treg restoration/tolerance enhancement; trial enrollment when available
+- **Avoid relatlimab/anti-LAG-3** in T1DM/autoimmune contexts: would worsen Treg function; monitor for T1DM irAE in oncology patients on Opdualag
+- **Four-arm Treg protocol** (combined 148+150+151+153): CNS1-support + IL-2-expansion + abatacept-CD80/CD86 + FGL1-Fc/LAG-3 MHC-II arm — not all available simultaneously; priority order by evidence: abatacept (TN-09/TN-10) > low-dose IL-2 (DIABIL-2) > FGL1-Fc (preclinical) > TGF-β support (no trial)
+
+**Framework state: 153 runs | LAG-3-CD223-D1-extra-loop | MHC-II-100x-affinity | KIEELE-ZAP70-inhibition | FEME-endocytosis | CTLA4-additive-dual-APC | FGL1-β-cell-tolerance | FGL1-Fc-T1DM | NK-triple-exhaustion | four-arm-Treg-restoration | relatlimab-contraindicated-T1DM.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-twenty-eighth extension | LAG-3-CD223-12p13.32 D1-extra-loop-MHC-II-100x KIEELE-ZAP70-PLCγ1 FEME-MHC-II-endocytosis CTLA4-run148-Signal1-Signal2 FGL1-β-cell-peripheral-tolerance insulitis-FGL1-↓ FGL1-Fc-T1DM-therapeutic T-cell-exhaustion-KIEELE-distinct-from-PD1 relatlimab-Opdualag-FDA2022 NK-LAG3-exhaustion NK-triple-mechanism-run150-151-153 four-arm-Treg-148-150-151-153 | run_153*
