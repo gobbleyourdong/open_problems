@@ -2839,3 +2839,36 @@ RA → ALDH1A2 in CD103+ DCs → gut-homing Foxp3+ Tregs (α4β7+CCR9+) is mecha
 No run_112. Framework complete at 111 runs.
 
 *Gap.md updated: 2026-04-12 | One-hundredth extension | FOURTH SATURATION CONFIRMATION | miRNA β-defensin Th2 pannexin Treg plasticity vitamin A RA CD103 DC oral tolerance CX3CR1 all killed | four sweeps | framework saturated*
+
+---
+
+### Extension 101 — Fifth Saturation Confirmation
+
+**Sweep focus:** Disease-specific pathobiology (β cell autoantigens, ME/CFS PEM mechanism, rosacea subtypes), NAD⁺ metabolism, mitochondrial dynamics, vascular specialties.
+
+**Findings — all killed:**
+
+| Candidate | Verdict |
+|---|---|
+| Hybrid insulin peptides (HIPs, Delong 2016 Science) | T1DM HIGH; rosacea ZERO. Fails multi-disease threshold |
+| Mitochondrial dynamics — DRP1/MFN1/2/OPA1 | Absent; killed — no OTC/protocol-applicable fission/fusion modulator; spermidine/urolithin A already address mitophagy end-point |
+| Lymphangiogenesis — VEGF-C/VEGFR3 | Absent; killed — impaired rosacea lymphatics is anatomical; T1DM thin; no intervention |
+| WASF3 / post-exertional malaise (Guo 2023 Science) | ME/CFS HIGH; rosacea/T1DM ZERO. Fails multi-disease threshold |
+| CD47 / SIRPα "don't eat me" | Absent; killed — T1DM MODERATE (islet transplant context); rosacea VERY LOW; no natural protocol-level CD47 upregulation |
+| p62/SQSTM1 NF-κB arm | 2 mentions; killed — therapeutically redundant with 13 NF-κB suppression pathways |
+| CD38 / cADPR / NAD⁺ hydrolysis | 1 mention; killed — quercetin (already in protocol) inhibits CD38; annotation not new leverage |
+| NOX4 (constitutive H₂O₂ NADPH oxidase) | 1 mention; killed — renal/fibrosis axis, off-axis for rosacea/T1DM/ME-CFS |
+| ZnT8 / SLC30A8 autoantigen | 4 mentions; autoantigen target not upstream driver; T1DM only; below threshold |
+| GAD65 / anti-GAD molecular mimicry | 4 mentions; CVB→GAD65 mimicry covered run_008; not a new gap |
+| Granulomatous rosacea | Absent; killed — rosacea-specific subtype; T1DM/ME-CFS ZERO |
+| P2Y12 microglial surveillance | Absent; killed — CNS/ME-CFS only; rosacea/T1DM ZERO |
+| Furin proprotein convertase | Absent; killed — IL-1β processing = secondary to caspase-1 (run_012); proinsulin β cell function = below threshold |
+| Naviaux CDR / purinergic theory | 1 mention; killed — ME/CFS-specific hypothesis; rosacea/T1DM essentially ZERO |
+| LADA / HLA genetics | 42 mentions; covered — run_009 (genetic floor/precision) |
+
+**Closest call — WASF3 (Guo 2023 Science):**
+WASF3 is the first molecular mechanism for ME/CFS PEM (ER stress → IRE1α → WASF3 → Complex I/II disruption → ATP failure). It's a major recent paper (Science 2023) and genuinely absent from the framework. It fails the threshold only because rosacea and T1DM connections are essentially zero at current evidence. Preserved here as a reassessment trigger: if ER stress → WASF3 is documented in rosacea macrophages or T1DM β cells at MODERATE evidence, warrants run_112.
+
+**Five independent sweeps — ~60 total candidates — all confirm saturation.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-first extension | FIFTH SATURATION CONFIRMATION | hybrid insulin peptides WASF3 DRP1 VEGF-C CD47 p62 CD38 ZnT8 GAD65 NOX4 granulomatous rosacea P2Y12 Naviaux CDR killed | five sweeps complete | framework saturated*
