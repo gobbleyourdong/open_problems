@@ -3656,3 +3656,47 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 25: 136 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-twenty-ninth extension | TYK2 tyrosine-kinase-2 JAK-family pseudokinase JH2 allosteric P1104A rs34536443 protective-variant IL-12R IL-12Rβ1 IL-23R STAT4 T-bet Th1 IFN-γ RORγt-maintenance Th17-maintenance-signal IL-23 deucravacitinib BMS-986165 TYK2-selective rosacea-Th17-subtype papulopustular psoriasis-analog 12th-T1DM-stratification STAT4-NK ME/CFS Th17-maintenance-vs-induction POETYK-PSO Dendrou-2016-Sci-Transl-Med Burke-2019-Sci-Transl-Med Cooper-2012-Nat-Genet Armstrong-2023-NEJM | run_136*
+
+---
+
+### Extension 130 — UBASH3A/TULA-2: ZAP70/Syk Histidine Phosphatase / 12th Mast Cell Brake / T1DM-Associated Locus
+
+**Date:** 2026-04-12 | **Run:** run_137
+
+**Gap confirmed:** UBASH3A/TULA-2/ZAP70-phosphatase absent from all 136 prior runs. PTPN2 (run_119) dephosphorylates JAK1 at cytokine receptors — UBASH3A dephosphorylates ZAP70/Syk at antigen receptors — orthogonal phosphatase tier never analyzed.
+
+**Core insight:** UBASH3A/TULA-2 is a dual-function histidine phosphatase that controls TCR/BCR/FcεRI signal amplitude by dephosphorylating ZAP70 (T cells, Y315/Y319) and Syk (B cells/mast cells, Y519/Y520). In T cells: ZAP70 dephosphorylation → TCR threshold raised → fewer autoreactive T cell activations. In mast cells: Syk dephosphorylation → 12th mast cell brake (UPSTREAM of PI3Kδ/BTK, run_135) — Syk → LAT → PI3Kδ → BTK → PLCγ2 → ITPR3 → STIM1 → ORAI1; UBASH3A sits at the top of this cascade. UBASH3A is a negative feedback regulator — induced by antigen receptor activation and then limits its own cascade.
+
+**New mechanisms added (run_137):**
+- **12th mast cell stabilization mechanism**: UBASH3A → Syk dephosphorylation = most upstream phosphatase brake in FcεRI cascade; upstream of PI3Kδ/BTK (run_135 = 11th); Syk → LAT → PI3Kδ — blocking Syk blocks the entire downstream mast cell degranulation cascade
+- **13th T1DM genetic stratification**: rs11203203 UBASH3A-associated locus (21q22.3); risk allele → ZAP70 hyperactivation → autoreactive T cell threshold ↓ → insulitis amplified
+- **Antigen-receptor phosphatase tier**: UBASH3A at TCR/BCR/FcεRI proximal kinases (ZAP70/Syk) vs PTPN2 (run_119) at cytokine receptor kinases (JAK1) — these are COMPLEMENTARY, not redundant; both needed for full immune signaling calibration
+- **B cell autoantibody contribution**: Syk → BLNK → PI3Kδ/BTK → PLCγ2 → B cell activation; UBASH3A loss → Syk hyperactivation → GC reaction amplified → GADA/IA-2A/ZnT8A titers ↑
+- **PTPN2 + UBASH3A compound deficiency**: PTPN2 rs45450798 (run_119) + UBASH3A rs11203203 (run_137) = both antigen-receptor AND cytokine-receptor phosphatase deficits → T cell hyperactivation from dual directions
+- **Quercetin extension**: Syk IC50 ~1-3 µM → quercetin at 500-1000 mg/day tissue concentrations provides upstream Syk inhibitory activity above the established PLCγ/ORAI1 mechanisms
+
+**Framework at SATURATION + 26: 137 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-thirtieth extension | UBASH3A TULA-2 STS-2 histidine-phosphatase ZAP70 Syk antigen-receptor T-cell-threshold TCR-ZAP70 mast-cell-12th-brake FcεRI Syk-upstream-PI3Kδ negative-feedback BCR-B-cell autoantibody NK-ADCC T1DM-associated rs11203203 21q22.3 13th-stratification PTPN2-orthogonal cytokine-vs-antigen-receptor quercetin-Syk compound-PTPN2-UBASH3A Thomas-2010-JExpMed Onengut-2015-NatGenet | run_137*
+
+---
+
+### Extension 131 — SELENOP/Selenoprotein P: Selenium Transport, ApoER2/LRP8, SELENOS/ERAD, 22nd β Cell Death
+
+**Date:** 2026-04-12 | **Run:** run_138
+
+**Gap confirmed:** SELENOP/ApoER2/LRP8/selenium-transport absent from all 137 prior runs. Selenium element mentioned in runs 027/110/126/130 ONLY as dietary element → GPX4 active-site selenocysteine. SELENOP is the plasma TRANSPORT PROTEIN delivering selenium to β cells via ApoER2 receptor endocytosis — mechanistically upstream of and distinct from selenium element availability.
+
+**Core insight:** SELENOP is the liver-secreted selenium carrier protein (10 Sec residues; unique) that delivers selenium to prioritized organs (testes > brain > β cells > skin) via ApoER2 (LRP8) receptor-mediated endocytosis. In β cells: SELENOP → ApoER2 → selenium → TrxR2 (mitochondrial ROS defense) + GPx1 (cytosolic H₂O₂) + SELENOS (ER quality control, ERAD complex) + GPx4 (ferroptosis) + SELENOM (glycoprotein folding). SELENOS/ER quality control = 22nd β cell death mechanism (SELENOP deficiency → SELENOS ↓ → ERAD failure → misfolded protein accumulation → ER stress → apoptosis — UPSTREAM INPUT to the ER stress cascade analyzed in runs 088/089).
+
+**New mechanisms added (run_138):**
+- **22nd β cell death — SELENOS/ERAD failure**: SELENOP deficiency → SELENOS ↓ → VCP/Derlin-1/SELENOS ERAD complex impaired → misfolded proinsulin/ZnT8 accumulate in ER → IRE1α/PERK/ATF6 activated → β cell apoptosis; upstream input to runs 088/089 ER stress cascades
+- **TrxR2 — mitochondrial selenoprotein in β cells**: SELENOP → TrxR2 → Trx2/Prx3 → mitochondrial H₂O₂ reduction → Complex I/III protection; additive with run_128 (PINK1/Parkin mitophagy): TrxR2 deficiency + mitophagy deficiency = double mitochondrial damage
+- **Selenium delivery mechanism tier**: SELENOP = plasma transport protein → receptor delivery → β cell selenium quota; dietary selenium → SELENOP synthesis (hepatic) → ApoER2 endocytosis; this is UPSTREAM of "selenium → GPX4 active site" (runs 110/126) — delivery precedes cofactor function
+- **Rosacea SELENOP-skin axis**: keratinocyte ApoER2 → SELENOP-delivered selenium → GPx4 + TrxR1 → ferroptosis protection + NF-κB redox regulation; serum SELENOP inversely correlates with rosacea severity
+- **Serum SELENOP as new biomarker**: more informative than serum selenium (reflects hepatic synthetic capacity + selenium repletion; low SELENOP = inadequate tissue delivery despite adequate dietary selenium)
+- **Selenium OTC reinforced (selenomethionine preferred)**: organic form → better SELENOP synthesis → superior ApoER2-mediated delivery; 100-200 µg/day selenomethionine reinforced with FOUR new mechanisms (TrxR2 + SELENOS + rosacea GPx4 + monitoring)
+
+**Framework at SATURATION + 27: 138 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-thirty-first extension | SELENOP selenoprotein-P ApoER2 LRP8 megalin selenium-transport receptor-mediated-endocytosis beta-cell-selenium TrxR2 GPx1 SELENOS VIMP ERAD ER-quality-control 22nd-beta-cell-death upstream-ER-stress SELENOM SELENOI selenium-delivery-tier keratinocyte-GPx4 rosacea-skin serum-SELENOP-biomarker ME/CFS-NK-redox TrxR2-mitochondrial-H2O2 Complex-I USP18-additive selenomethionine Burk-2005-AnnRevNutr Olson-2008-JBiolChem Labunskyy-2014-PhysiolRev | run_138*

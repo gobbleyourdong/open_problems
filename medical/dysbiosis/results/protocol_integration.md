@@ -5096,3 +5096,95 @@ Clinical selection logic:
 - No OTC TYK2 inhibitor; omega-3 (run_062) reduces IL-23 production from macrophages (upstream source reduction); quercetin reduces DC activation (less IL-12/IL-23 production) — indirect, not TYK2-specific
 
 *Protocol_integration.md Part 9ck — 2026-04-12 | TYK2 pseudokinase JH2 allosteric P1104A rs34536443 12th-stratification IL-12R IL-23R STAT4 Th1 IFN-γ RORγt-maintenance Th17 deucravacitinib four-Th17-layers JAK-TYK2-comparison baricitinib-deucravacitinib IFN-preserved compound-risk triple-intervention Vitamin-A-deucravacitinib psoriasis-rosacea-analog NIMBLE-T1D Dendrou-2016 Burke-2019 Armstrong-2023-NEJM | run_136*
+
+---
+
+### Part 9cl — UBASH3A/TULA-2 Protocol Integration (run_137)
+
+**Mast cell cascade — complete upstream-to-downstream pharmacology (updated):**
+
+```
+IgE → FcεRI
+    ↓
+Lyn → Syk ←— UBASH3A brake (run_137, 12th) [no specific drug; quercetin weak Syk inhibition]
+    ↓
+LAT → PI3Kδ (run_135, 11th) [idelalisib]
+    ↓
+BTK (run_135) [zanubrutinib/ibrutinib]
+    ↓
+PLCγ2 [quercetin 5th mechanism, run_132]
+    ↓
+IP3 → ITPR3 (run_132, 10th) [quercetin upstream block; Mg²⁺ pore inhibition]
+    ↓
+STIM1 → ORAI1 (run_127, 9th) [quercetin 3rd mechanism; CM4620]
+    ↓
+Ca²⁺ → NFAT/PKC → degranulation
+```
+
+**Genetic stratification update (13th point):**
+```
+rs11203203 (UBASH3A, 21q22.3):
+    Risk allele → ZAP70 hyperactivation in autoreactive T cells
+    Compound with PTPN2 rs45450798: dual phosphatase deficit
+    → cytokine receptor (IFN-γR/PTPN2) + antigen receptor (TCR/UBASH3A) both hypersensitive
+
+Compound multi-locus risk profile (now 13 stratification points):
+    Antigen: rs11203203 (UBASH3A) + rs45450798 (PTPN2) → T cell hyperactivation
+    Treg: rs1701704 (IKZF1) + rs3757247 (BACH2) → chromatin/effector-repressor
+    Kinase: rs34536443 (TYK2) → Th1/Th17 amplification
+    → Vitamin A (IKZF1+BACH2) + deucravacitinib (TYK2) + calcitriol/quercetin (PTPN2/UBASH3A support)
+```
+
+**No new OTC addition:** quercetin at 500-1000 mg/day achieves partial Syk inhibition (IC50 ~1-3 µM; achievable tissue concentrations) — adds upstream layer to existing PLCγ/ORAI1 quercetin mechanisms, no dosing change needed.
+
+*Protocol_integration.md Part 9cl — 2026-04-12 | UBASH3A TULA-2 ZAP70 Syk histidine-phosphatase 12th-mast-cell-brake 13th-stratification rs11203203 mast-cell-cascade-complete PTPN2-compound dual-phosphatase quercetin-Syk upstream Thomas-2010 Onengut-2015 | run_137*
+
+---
+
+### Part 9cm — SELENOP Protocol Integration (run_138)
+
+**Selenium supplementation — mechanism count update:**
+
+| Prior mechanisms (runs 027/110/126/130) | New mechanisms (run_138) |
+|----------------------------------------|--------------------------|
+| GPX4 → ferroptosis protection (run_110) | TrxR2 → mitochondrial H₂O₂ ↓ → Complex I protection |
+| NRF2 → phase II enzymes (run_027) | SELENOS/ERAD → ER quality control → 22nd β cell death prevented |
+| Thioredoxin system (general, run_126) | Keratinocyte GPx4/TrxR1 via ApoER2 → rosacea ferroptosis barrier |
+| Antiviral selenoproteins (run_130) | Serum SELENOP biomarker (tissue delivery vs element availability) |
+
+**Selenium protocol update:**
+```
+Selenomethionine (PREFERRED over selenite):
+    Dose: 100–200 µg/day
+    Rationale: organic form → better hepatic SELENOP synthesis →
+    ApoER2-mediated delivery to β cells + keratinocytes + NK cells
+
+Serum monitoring:
+    Serum selenium: target 100–120 µg/L (existing)
+    Serum SELENOP (if available): target ≥4 mg/L
+    Low SELENOP with borderline selenium → SELENOP delivery failure
+    (hepatic function limitation or SBP2 mutation)
+
+Priority populations for selenium optimization (now FIRST-LINE):
+    T1DM + rosacea + serum selenium <80 µg/L
+    T1DM + autoimmune thyroid (anti-TPO ↑): selenium 200 µg/day reduces anti-TPO 40-60%
+    ME/CFS with documented NK cytotoxicity ↓: selenium addresses redox arm
+```
+
+**22nd β cell death positioning:**
+```
+ER quality control chain:
+    SELENOP → SELENOS (run_138): upstream ER quality control input
+        ↓
+    ERAD complex efficiency determined by SELENOS
+        ↓
+    Misfolded protein clearance failure → ER lumen overload
+        ↓
+    IRE1α/ATF6/PERK (runs 088/089): ER stress UPR pathways
+        ↓
+    β cell apoptosis
+
+Intervention: selenomethionine → SELENOP ↑ → SELENOS ↑ → better ERAD → less ER stress
+```
+
+*Protocol_integration.md Part 9cm — 2026-04-12 | SELENOP selenoprotein-P ApoER2 LRP8 selenium-transport 22nd-beta-cell-death SELENOS ERAD VCP Derlin-1 TrxR2 TXNRD2 Complex-I keratinocyte-GPx4 rosacea-barrier serum-SELENOP-biomarker selenomethionine-preferred selenium-mechanism-count-4-new ME/CFS-NK-redox baricitinib-complement autoimmune-thyroid anti-TPO Burk-2005 Olson-2008 Labunskyy-2014 | run_138*

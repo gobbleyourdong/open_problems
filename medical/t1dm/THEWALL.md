@@ -1275,3 +1275,45 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
    - PTPN2 = effector arm (β cell side); TYK2 = initiating arm (T cell Th1 differentiation side); upstream/downstream relationship in T1DM autoimmunity
 
 *T1DM THEWALL cross-reference run_136: 2026-04-12 | TYK2 JAK-family pseudokinase JH2 allosteric P1104A rs34536443 protective 12th-stratification broadest-autoimmune-GWAS IL-12R IL-12Rβ1 IL-23R STAT4 T-bet Th1 IFN-γ insulitis-amplification-loop macrophage-M1 MHC-I-upregulation NK-IFN-γ Th17-maintenance RORγt IL-23 deucravacitinib NIMBLE-T1D baricitinib-distinction IFN-preserved compound-risk IKZF1-BACH2-TYK2 Dendrou-2016-Sci-Transl-Med Burke-2019-Sci-Transl-Med Armstrong-2023-NEJM Cooper-2012-Nat-Genet | run_136*
+
+---
+
+### Cross-reference: run_137 — UBASH3A/TULA-2 / ZAP70 / 12th Mast Cell Brake / 13th Stratification
+
+**Gap:** UBASH3A/TULA-2 absent from all 136 prior runs. Antigen-receptor phosphatase tier (ZAP70/Syk) orthogonal to PTPN2/JAK1 (run_119).
+
+1. **T1DM-associated locus rs11203203 (13th stratification point)**: 21q22.3; risk allele → UBASH3A expression/function ↓ → ZAP70 hyperactivation in autoreactive T cells → lower TCR activation threshold → autoreactive T cells respond to lower antigen concentrations → insulitis initiated earlier and more severely.
+
+2. **ZAP70 hyperactivation mechanism**: TCR → Lck → ZAP70-pY315/pY319; Y319 = PI3Kδ (run_135) SH2 recruitment site. UBASH3A loss → ZAP70-Y319 persistently phosphorylated → PI3Kδ constitutively recruited → Akt → FOXO1 cytoplasmic → FOXP3 ↓ → ex-Treg conversion. UBASH3A loss thus amplifies BOTH T cell activation (ZAP70 hyperactivated) AND Treg instability (ZAP70-Y319 → PI3Kδ → FOXO1, run_135) from the same residue.
+
+3. **B cell autoantibody amplification**: BCR → Syk → BLNK → PI3Kδ → BTK → PLCγ2; UBASH3A → Syk dephosphorylation; UBASH3A loss → B cell hyperactivation → GC reaction amplified → GADA/IA-2A/ZnT8A titer ↑ and earlier seroconversion. Additive with run_104 (Tfh/GC context) and run_135 (PI3Kδ/BTK B cell arm).
+
+4. **PTPN2 + UBASH3A compound**:
+   - PTPN2/TC-PTP (run_119): dephosphorylates JAK1 in β cells → limits IFN-γ/STAT1 damage; dephosphorylates STAT5 in T cells → limits IL-2 signal
+   - UBASH3A (run_137): dephosphorylates ZAP70/Syk in T/B cells → limits antigen-receptor signal amplitude
+   - rs45450798 (PTPN2) + rs11203203 (UBASH3A): dual phosphatase deficit → cytokine receptor (IFN-γR JAK1) AND antigen receptor (TCR ZAP70) simultaneously hyperactivated → most immunologically aggressive genotype for insulitis progression
+
+5. **Connection to PI3Kδ (run_135)**: ZAP70-Y319 → p85/PI3Kδ recruitment; UBASH3A → ZAP70-Y319 dephosphorylated → PI3Kδ NOT constitutively recruited → FOXO1 nuclear → FOXP3 stable. UBASH3A and PTEN (run_135) are COMPLEMENTARY: UBASH3A prevents ZAP70-Y319-driven PI3Kδ recruitment; PTEN terminates PI3Kδ once active.
+
+*T1DM THEWALL cross-reference run_137: 2026-04-12 | UBASH3A TULA-2 STS-2 ZAP70 Syk histidine-phosphatase TCR-threshold rs11203203 13th-stratification ZAP70-Y319-PI3Kδ FOXO1-instability B-cell-Syk autoantibody GADA IA-2A GC-reaction PTPN2-compound dual-phosphatase antigen-receptor cytokine-receptor ex-Treg Thomas-2010-JExpMed Onengut-2015-NatGenet | run_137*
+
+---
+
+### Cross-reference: run_138 — SELENOP/Selenoprotein P / 22nd β Cell Death / SELENOS/ERAD / TrxR2
+
+**Gap:** SELENOP/ApoER2/LRP8 absent from all 137 prior runs. Selenium element → GPX4 covered in runs 110/126; SELENOP is the plasma delivery protein (receptor-mediated endocytosis) — mechanistically upstream.
+
+1. **22nd β cell death — SELENOS/ERAD failure**: SELENOP → ApoER2 → β cell selenium → SELENOS synthesis; SELENOS (VIMP) integrates into ERAD complex (VCP/Derlin-1) → retrotranslocates misfolded proteins from ER lumen → cleared by proteasome. SELENOP deficiency → SELENOS ↓ → ERAD impaired → misfolded proinsulin/ZnT8 accumulate → IRE1α/ATF6/PERK activated → apoptosis. This is an UPSTREAM INPUT to the ER stress cascades in runs 088/089: treating selenium deficiency provides upstream ER quality control support.
+
+2. **TrxR2 (mitochondrial thioredoxin reductase 2)**: SELENOP → β cell TrxR2 → Trx2/Prx3/Prx5 → H₂O₂ at mitochondrial Complex I/III reduced → ATP generation protected. During insulitis: IL-1β/IFN-γ → iNOS → NO → mitochondrial ROS ↑; without adequate TrxR2 → Complex I/III damaged → ATP deficit → insulin secretion ↓ → β cell failure. Additive with run_128 (PINK1/Parkin mitophagy): damaged mitochondria not cleared + ROS not quenched = double mitochondrial damage from selenium deficiency.
+
+3. **GPx1 (cytosolic H₂O₂)**: SELENOP → β cell GPx1 → cytosolic H₂O₂ reduction → less Fenton substrate (H₂O₂ + Fe²⁺ → OH radical, run_110 context); upstream layer to run_110 iron/Fenton β cell death pathway.
+
+4. **Selenium delivery tier vs element tier**:
+   - Run_110 (selenium element → GPX4): dietary selenium → SECIS recoding → GPX4 active site Sec → GPX4 activity; covers "does GPX4 have selenium?"
+   - Run_138 (SELENOP → ApoER2 → β cell): SELENOP delivery → β cell selenium quota → all selenoprotein synthesis; covers "how does selenium get to β cells?"
+   - Interventionally: selenomethionine (organic) → better hepatic SELENOP synthesis → better ApoER2-mediated delivery to β cells; preferred over selenite (inorganic)
+
+5. **Monitoring addition**: Serum SELENOP target ≥4 mg/L (normal 3.5–5 mg/L); more informative than serum selenium for β cell delivery status; low SELENOP = inadequate β cell selenium even with borderline-adequate serum selenium.
+
+*T1DM THEWALL cross-reference run_138: 2026-04-12 | SELENOP selenoprotein-P ApoER2 LRP8 selenium-transport receptor-endocytosis 22nd-beta-cell-death SELENOS VIMP ERAD VCP Derlin-1 ER-quality-control upstream-ER-stress IRE1α ATF6 PERK TrxR2 TXNRD2 mitochondrial-H2O2 Complex-I GPx1 Fenton-upstream run110-run128-additive selenomethionine SELENOP-biomarker Burk-2005 Olson-2008 Labunskyy-2014 | run_138*

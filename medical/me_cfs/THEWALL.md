@@ -1093,3 +1093,41 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 4. **TYK2 and the pDC-IKZF1-IFN triangle**: IKZF1 (run_134) → pDC pool; pDC → IFN-α via IFNAR (TYK2/JAK1); TYK2 P1104A preferentially reduces IL-12/IL-23 arms. In ME/CFS the IFNAR arm (IFN-α → USP18 → persistence, run_133) is the primary pathological arm — not the IL-12/IL-23 arm. This limits TYK2 value in ME/CFS specifically at the IFN-persistence node.
 
 *ME/CFS THEWALL cross-reference run_136: 2026-04-12 | TYK2 JAK-family IL-12R IL-23R STAT4 NK-IFN-γ IFN-without-cytotoxicity paradox IL-17 Th17 maintenance deucravacitinib safety-advantage baricitinib-comparison JAK1-preserved antiviral-IFN-maintained IKZF1-pDC-IFNAR-triangle P1104A rs34536443 Dendrou-2016 Burke-2019 Armstrong-2023-NEJM | run_136*
+
+---
+
+### Cross-reference: run_137 — UBASH3A/TULA-2 / NK ADCC Syk / 5th NK Dysfunction Mechanism
+
+**Gap:** UBASH3A/TULA-2 absent from all 136 prior runs. Syk-level regulation in NK cells not analyzed.
+
+**Assessment:** MODERATE ME/CFS relevance — 5th NK dysfunction mechanism (ADCC/Syk axis); B cell autoantibody Syk connection; compound T cell activation persistence.
+
+1. **5th NK dysfunction mechanism (ADCC/Syk)**: CD16/FcγRIII → ITAM → Syk → PI3Kδ → NK degranulation (ADCC killing). UBASH3A dephosphorylates Syk → regulates CD16/ADCC threshold. In ME/CFS: if constitutive immune activation → chronic CD16/Syk signaling without UBASH3A adequate brake → NK exhaustion via Syk/PI3Kδ/mTOR (similar to run_135 PI3Kδ constitutive activation). Five-mechanism NK dysfunction stack: Ca²⁺ functional (runs 127/132) + developmental (run_134 IKZF1) + metabolic exhaustion (run_135 PI3Kδ/mTOR) + ADCC-Syk exhaustion (run_137).
+
+2. **B cell autoantibodies**: Syk → BCR → GC reaction → anti-β2AR/M3R/H4R production. UBASH3A loss → Syk hyperactivation → autoantibody production ↑. UBASH3A at Syk provides a third B cell autoantibody node: Tfh/GC (run_104) + PI3Kδ/BTK B cell (run_135) + UBASH3A/Syk (run_137).
+
+3. **T cell ZAP70 → sustained activation**: ME/CFS T cell exhaustion paradox — T cells are chronically stimulated (viral antigen persistence) yet functionally exhausted. UBASH3A negative feedback normally limits ZAP70 signal amplitude → prevents exhaustion by capping activation magnitude. UBASH3A insufficiency → ZAP70 hyperactivation per antigen encounter → faster exhaustion kinetics → PD-1/TIM-3 upregulation (runs 029/049).
+
+*ME/CFS THEWALL cross-reference run_137: 2026-04-12 | UBASH3A TULA-2 ZAP70 Syk NK-ADCC CD16 FcγRIII 5th-NK-dysfunction PI3Kδ-additive mTOR-exhaustion BCR-autoantibody anti-β2AR anti-M3R five-mechanism-NK-stack T-cell-exhaustion ZAP70-hyperactivation exhaustion-kinetics Thomas-2010-JExpMed Onengut-2015-NatGenet | run_137*
+
+---
+
+### Cross-reference: run_138 — SELENOP / TrxR2 / NK Redox / ATP Deficit Additive
+
+**Gap:** SELENOP/ApoER2 absent from all 137 prior runs. Selenium transport protein delivering selenium to NK cells/immune cells via ApoER2.
+
+**Assessment:** MODERATE ME/CFS relevance — NK redox 5th mechanism (alongside Ca²⁺/developmental/exhaustion/ADCC stack); TrxR2 mitochondrial contribution to ATP deficit (additive with USP18/ISGylation, run_133); selenium supplementation reinforced with new mechanisms.
+
+1. **NK cell redox — 5th/6th NK mechanism**: NK cells express ApoER2 → SELENOP → selenium → GPx4 (ferroptosis protection from lipid peroxidation in NK membrane) + TrxR1 (cytosolic redox). ME/CFS documented: elevated lipid peroxidation markers in NK cells; membrane lipid peroxidation → NK function ↓. SELENOP deficiency → NK GPx4 ↓ → NK membrane ferroptosis susceptibility ↑ → cytotoxic NK loss. Adds redox mechanism to NK dysfunction stack (Ca²⁺ functional + developmental + metabolic exhaustion + ADCC/Syk + now redox).
+
+2. **TrxR2 → mitochondrial ATP — additive with USP18 (run_133)**:
+   - USP18 pathway (run_133): ISG15 accumulation → PDH/Complex I ISGylation → ATP deficit → PEM
+   - SELENOP/TrxR2 pathway (run_138): SELENOP ↓ → TrxR2 ↓ → mitochondrial H₂O₂ accumulates → Complex I/III oxidative damage → ATP deficit → PEM
+   - Both mechanisms converge on mitochondrial ATP deficit; selenium supplementation addresses TrxR2 arm independently of JAK inhibitor (baricitinib, run_133) addressing ISGylation arm
+   - Combined protocol: selenium (TrxR2) + baricitinib (ISGylation) = dual ATP-deficit intervention
+
+3. **Serum SELENOP monitoring in ME/CFS**: Low SELENOP → inadequate NK/T cell selenium → combined redox + mitochondrial deficit. Serum SELENOP ≥4 mg/L = adequate tissue delivery. In ME/CFS with documented selenium deficiency + elevated Node D (CXCL10): prioritize selenium repletion to selenomethionine 200 µg/day.
+
+4. **SELENOS/ER quality control — ME/CFS immune cells**: SELENOS in T cells/B cells → ER quality control → misfolded immunoglobulin/cytokine receptor clearance; SELENOP deficiency → SELENOS ↓ → ER stress in lymphocytes → unfolded protein response → lymphocyte apoptosis → lymphopenia (documented in ME/CFS).
+
+*ME/CFS THEWALL cross-reference run_138: 2026-04-12 | SELENOP selenoprotein-P ApoER2 LRP8 NK-redox GPx4 TrxR1 TrxR2 TXNRD2 NK-membrane-ferroptosis 5th-6th-NK-mechanism mitochondrial-H2O2 Complex-I ATP-deficit-additive USP18-run133-additive PDH-ISGylation baricitinib-complement selenium-selenomethionine SELENOS ER-stress lymphopenia serum-SELENOP-monitoring Burk-2005 Olson-2008 Labunskyy-2014 | run_138*
