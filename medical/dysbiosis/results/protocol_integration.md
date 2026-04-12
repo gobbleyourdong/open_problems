@@ -4973,3 +4973,76 @@ Compound risk priority (IKZF1 + BACH2 double carriers):
 - Monitor: FOXP3+ Treg % in peripheral blood if available (research setting); clinical proxy = autoantibody titer trajectory
 
 *Protocol_integration.md Part 9ci — 2026-04-12 | IKZF1 Ikaros T1DM-GWAS rs1701704 11th-stratification Treg-TF-stack-complete FOXP3-BACH2-DYRK1A-IKZF1 NuRD H3K27-deacetylation pDC-fate NK-maturation compound-risk Vitamin-A-3rd-mechanism RA-RARE retinyl-palmitate sulforaphane-additive Georgopoulos-1994 Cooper-2012-Nat-Genet | run_134*
+
+---
+
+### Part 9cj — PIK3CD/PI3Kδ Protocol Integration (run_135)
+
+**Five-node Treg stability stack — now complete:**
+
+```
+Node 1: IKZF1/NuRD (run_134)         → chromatin scaffold (H3K27ac-low at effector loci)
+Node 2: FOXP3 (run_010)              → lineage TF [FOXO1 activates CNS1]
+Node 3: BACH2 (run_123)              → effector gene repressor (BLIMP-1/IL-2/IFN-γ)
+Node 4: DYRK1A/NFAT (run_125)       → cytokine gate (NFAT phospho → nuclear export)
+Node 5: PTEN/PI3Kδ/FOXO1 (run_135) → kinase axis (FOXO1 nuclear → FOXP3 transcription)
+```
+
+**CTLA4 (run_060) now mechanistically linked:**
+```
+CTLA4 → removes CD80/86 from APCs
+    ↓
+CD28 stimulation ↓ → PI3Kδ not activated (run_135)
+    ↓
+PIP3 not produced → Akt not active → FOXO1 nuclear → FOXP3 stable
+    → Treg identity maintained
+```
+
+**Mast cell cascade — complete upstream-to-downstream picture:**
+
+```
+IgE → FcεRI
+    ↓
+Lyn/Syk/LAT → PI3Kδ (run_135) → PIP3
+    ↓
+BTK (PH domain → membrane) → PLCγ2 activation
+    ↓
+PLCγ2 (quercetin 5th mechanism, run_132) → IP3 + DAG
+    ↓
+ITPR3 (run_132) → ER Ca²⁺ release → STIM1 (run_127) → ORAI1 → SOCE
+    ↓
+Ca²⁺ → NFAT/PKC → degranulation/cytokines
+
+Block points: idelalisib/PI3Kδ (run_135) | BTK inhibitors (run_135) |
+              quercetin/PLCγ (run_132) | Mg²⁺/ITPR3 (run_132) |
+              quercetin/ORAI1 (run_127) | omalizumab/IgE (run_127)
+```
+
+**Clinical therapeutics — prescription tier update:**
+
+| Drug | Target | Indication | Framework anchor |
+|------|--------|-----------|-----------------|
+| Idelalisib | PI3Kδ | CLL approved; T1DM/autoimmune trials | Autoreactive T ↓ + Treg sparing + IgE ↓ |
+| Zanubrutinib | BTK | B cell malignancies; MCAS emerging | Mast cell FcεRI/BTK/PLCγ2 cascade (run_135) |
+| Ibrutinib | BTK | B cell malignancies; mast cell disease | Same as zanubrutinib, less selective |
+| Baricitinib | JAK1/2 | RA approved; ME/CFS trials | USP18/STAT1 functional mimic (run_133) |
+
+**Precaution:** PI3Kδ inhibitors → immunosuppression (infection risk similar to idelalisib CLL use); BTK inhibitors → atrial fibrillation risk (ibrutinib > zanubrutinib); not OTC; specialist oversight required.
+
+**No new OTC addition:** Quercetin covers PLCγ (run_132) + ORAI1 (run_127) downstream of PI3Kδ/BTK; no δ-selective OTC PI3K inhibitor with established efficacy.
+
+**Genetic stratification — cascade now fully personalized:**
+
+```
+rs1701704 (IKZF1, run_134) + rs3757247 (BACH2, run_123) compound:
+    → Vitamin A FIRST-LINE: RA → RARE → IKZF1 ↑ + BACH2 ↑ simultaneously
+
+PI3Kδ overactivation suspected (APDS-like features, autoimmune labs):
+    → Idelalisib consideration (specialist)
+    → Maximize PTEN-supporting interventions: calcitriol (VDR → PTEN context-dependent)
+
+Full five-node Treg impairment suspected:
+    → Vitamin A (Nodes 1+3) + Vitamin D (Node 2) + reduce TCR stimulation load (Node 5)
+```
+
+*Protocol_integration.md Part 9cj — 2026-04-12 | PIK3CD PI3Kδ p110δ lymphocyte-specific BTK PLCγ2 PIP3 Akt 5th-Treg-node PTEN-PI3Kδ-FOXO1 five-node-Treg-stack-complete CTLA4-mechanistic-link FcεRI-cascade-complete mast-cell-11th APDS gain-of-function idelalisib zanubrutinib ibrutinib BTK-inhibitor prescription-tier MCAS JAK-inhibitors-baricitinib-comparison no-new-OTC Vitamin-A-compound-risk Treg-sparing Okkenhaug-2002 Angulo-2013 Ali-2004-Nature | run_135*

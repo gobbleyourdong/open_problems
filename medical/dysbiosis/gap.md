@@ -3612,3 +3612,26 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 23: 134 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-twenty-seventh extension | IKZF1 Ikaros zinc-finger hematopoietic-development CLP pDC-fate NuRD HDAC1-HDAC2 Mi-2β CHD4 chromatin-remodeling Treg-scaffold T1DM-GWAS rs1701704 Cooper-2012 11th-stratification B-cell-repertoire NK-maturation CD56dim Eomes T-bet NKG2D Langerhans-cell type-I-IFN-run006-upstream FOXP3-scaffold BACH2-scaffold ex-Treg-rate ALL-T1DM-pleiotropy Vitamin-A-3rd-mechanism RA-RARE butyrate-NuRD Georgopoulos-1994-Cell Cooper-2012-Nat-Genet | run_134*
+
+---
+
+### Extension 128 — PIK3CD/PI3Kδ: Lymphocyte-Specific PI3K / Treg FOXO1 / Mast Cell BTK
+
+**Date:** 2026-04-12 | **Run:** run_135
+
+**Gap confirmed:** PIK3CD/PI3Kδ/idelalisib/BTK-in-mast-cells completely absent from all 134 prior runs. Prior PI3K mentions (runs 098/129) cover PI3Kα in β cell growth factor signaling — different isoform, different cell type, different mechanism. PIK3CD is the lymphocyte/mast-cell-specific isoform.
+
+**Core insight:** PI3Kδ sits at the intersection of two major framework gaps: (1) the BTK-PLCγ2 step in mast cell FcεRI activation (now 11th mast cell mechanism, most upstream in cascade); (2) the kinase axis controlling FOXO1 nuclear localization → FOXP3 transcription (5th Treg stability node, completing the IKZF1/FOXP3/BACH2/DYRK1A/PI3Kδ Treg stack). PTEN → PI3Kδ ↓ → Akt ↓ → FOXO1 nuclear → FOXP3 stable; flip side: TCR/CD28 → PI3Kδ → Akt → FOXO1-Ser256-phospho → cytoplasmic → FOXP3 expression ↓.
+
+**New mechanisms added (run_135):**
+- **11th mast cell stabilization mechanism**: PI3Kδ → BTK membrane recruitment (via PIP3 PH domain) → PLCγ2 → IP3 → ITPR3 (run_132) → STIM1/ORAI1 (run_127) — PI3Kδ/BTK is the MOST UPSTREAM step yet identified in the mast cell degranulation cascade; idelalisib/BTK inhibitors (zanubrutinib, ibrutinib) = clinical anchor
+- **5th Treg stability node** (PTEN/PI3Kδ/FOXO1): PTEN removes PIP3 → PI3Kδ signal ↓ → Akt ↓ → FOXO1 nuclear → direct FOXP3 transcriptional activation maintained; completes the five-node Treg stability stack (IKZF1/FOXP3/BACH2/DYRK1A/PI3Kδ-FOXO1)
+- **CTLA4 (run_060) → PI3Kδ mechanistic link**: CTLA4 removes CD80/86 from APCs → less CD28 costimulation → PI3Kδ not fully activated → Akt ↓ → FOXO1 nuclear → FOXP3 stable; run_060 now mechanistically explained by PI3Kδ/FOXO1 pathway
+- **APDS human experiment**: PIK3CD gain-of-function mutations → constitutive PI3Kδ → autoimmune features + autoantibodies → confirms PI3Kδ hyperactivation → immune dysregulation in humans
+- **IgE production reduced**: PI3Kδ inhibition → B cell GC reaction ↓ → less IgE production → complementary to omalizumab (run_127, anti-IgE) from upstream (less IgE made vs. less IgE active)
+- **ME/CFS NK exhaustion**: constitutive PI3Kδ → mTOR → NK metabolic exhaustion; 4th NK dysfunction mechanism stacked on Ca²⁺ functional (runs 127/132), developmental (run_134), and now metabolic exhaustion
+- **Autoreactive T cell suppression**: TCR → PI3Kδ → Akt → mTOR + FOXO1-phospho → effector T cell expansion; idelalisib → PI3Kδ inhibition → autoreactive T cell suppression + relative Treg sparing (Tregs normally maintain PTEN → PI3Kδ low → less Akt → FOXO1 nuclear → FOXP3)
+
+**Framework at SATURATION + 24: 135 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-twenty-eighth extension | PIK3CD PI3Kδ p110δ lymphocyte-specific PI3K PIP3 Akt BTK Bruton-tyrosine-kinase PLCγ2 mast-cell-11th-mechanism FcεRI Lyn Syk LAT PTEN-PI3Kδ-FOXO1 Treg-stability FOXO1-FOXP3 5th-Treg-node CTLA4-PI3Kδ APDS gain-of-function PIK3CD T1DM autoreactive-T-cell FOXO1-nuclear FOXP3-stable idelalisib umbralisib zanubrutinib ibrutinib BTK-inhibitor ME/CFS-NK-exhaustion autoantibody IKZF1-compound Okkenhaug-2002-Science Angulo-2013-Science Ali-2004-Nature | run_135*

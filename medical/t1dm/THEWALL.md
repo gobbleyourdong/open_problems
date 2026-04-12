@@ -1217,3 +1217,25 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 5. **Compound risk — IKZF1 + BACH2 carriers**: Both Treg TF axes (chromatin scaffold + effector repressor) impaired → Vitamin A (retinyl palmitate 3000–5000 IU/day) becomes FIRST-LINE: RA → RARE → IKZF1 ↑ (run_134) + RA → RARE → BACH2 ↑ (run_123) → simultaneous Treg chromatin scaffold + effector repressor restoration from single intervention.
 
 *T1DM THEWALL cross-reference run_134: 2026-04-12 | IKZF1 Ikaros hematopoietic-development CLP pDC-fate T1DM-GWAS rs1701704 Cooper-2012 11th-stratification Treg-chromatin-scaffold NuRD HDAC1-HDAC2 H3K27 FOXP3-run010 BACH2-run123 DYRK1A-run125 ex-Treg-amplified B-cell-repertoire autoantibody GADA IA-2A ZnT8A ALL-T1DM-pleiotropy Vitamin-A-3rd-mechanism RARE-IKZF1 compound-risk Georgopoulos-1994-Cell Cooper-2012-Nat-Genet | run_134*
+
+---
+
+### Cross-reference: run_135 — PIK3CD/PI3Kδ / 5th Treg Node / BTK-Mast Cell / Autoreactive T Cell
+
+**Gap:** PIK3CD/PI3Kδ/idelalisib/BTK absent from all 134 prior runs. Prior PI3K mentions are PI3Kα in β cell growth factor signaling — different isoform (ubiquitous α vs lymphocyte-restricted δ), different cell types, different mechanisms.
+
+1. **5th Treg stability node — PTEN/PI3Kδ/FOXO1**: PTEN → PIP3 ↓ → Akt ↓ → FOXO1 nuclear → FOXP3 CNS1 activation → Treg identity maintained. In T1DM inflammatory milieu (IL-2 surplus + TCR stimulation of Tregs in islet-adjacent lymph nodes) → PI3Kδ chronically active in Tregs → FOXO1-Ser256-phospho → 14-3-3 binding → cytoplasmic → FOXP3 ↓ → ex-Treg conversion → Th1/Th17 → amplified insulitis. Completes five-node Treg stability stack (IKZF1/FOXP3/BACH2/DYRK1A/PI3Kδ-FOXO1). FOXO1 is the direct FOXP3 transcriptional activator (CNS1 element) — this is the kinase-level explanation for FOXP3 expression regulation.
+
+2. **CTLA4 (run_060) mechanistically explained**: CTLA4 on Tregs → removes CD80/86 from APCs → less CD28 costimulation → PI3Kδ not recruited/activated → PIP3 not produced → Akt not activated → FOXO1 nuclear → FOXP3 stable. Run_060 and run_135 form a mechanistic continuum: immune checkpoint → kinase signal → transcription factor.
+
+3. **Autoreactive T cell effector expansion**: TCR (anti-GAD65/IA-2/ZnT8) → ZAP70 → LAT → PI3Kδ → PIP3 → PDK1-Akt-T308 → mTORC1 (growth/proliferation) + FOXO1-phospho (IL-7R ↓, effector differentiation ↑) + GSK-3β inhibition (survival) → Th1/CTL expansion. PI3Kδ inhibition → selectively dampens autoreactive T cell activation while Tregs relatively spared (PTEN maintains low PI3Kδ baseline in Tregs).
+
+4. **B cell autoantibodies**: PI3Kδ required for B cell GC reaction → somatic hypermutation → affinity maturation → GADA/IA-2A/ZnT8A IgG production. PI3Kδ inhibition → GC reaction ↓ → autoantibody titers ↓. Upstream complement to run_104 (Tfh-GC axis) from the B cell PI3Kδ side.
+
+5. **APDS human model**: PIK3CD E1021K and other gain-of-function mutations → constitutive PI3Kδ → combined immunodeficiency + autoimmune features + autoantibodies. Natural human experiment: PI3Kδ hyperactivation → autoimmunity in vivo. APDS phenotype includes autoantibody positivity; supports PI3Kδ overactivation → T1DM risk mechanism.
+
+6. **Mast cell IgE production (upstream of run_127 omalizumab)**: PI3Kδ required for B cell GC reaction → IgE class switching (IL-4/IL-13 + CD40L) → mast cell FcεRI loading. PI3Kδ inhibition reduces IgE production (B cell side) → complementary to omalizumab (neutralizes existing IgE). In T1DM with mast cell-mediated islet inflammation (run_127 context): reducing IgE production upstream may reduce islet mast cell activation.
+
+7. **IKZF1 + PI3Kδ compound Treg destabilization**: IKZF1 risk allele (run_134) → open chromatin at effector loci (lower FOXP3 binding threshold needed) + PI3Kδ overactivation → FOXO1 cytoplasmic (less FOXP3 expression) = double Treg destabilization affecting both chromatin accessibility AND transcription factor availability simultaneously.
+
+*T1DM THEWALL cross-reference run_135: 2026-04-12 | PIK3CD PI3Kδ p110δ lymphocyte-specific PIP3 Akt BTK PLCγ2 5th-Treg-node PTEN-PI3Kδ-FOXO1 FOXO1-Ser256 FOXP3-CNS1 ex-Treg-conversion CTLA4-run060-explained autoreactive-T-cell effector-expansion mTORC1 FOXO1-phospho GC-reaction autoantibody GADA IA-2A ZnT8A APDS-gain-of-function IgE-production-reduced omalizumab-upstream IKZF1-compound double-Treg-destabilization idelalisib zanubrutinib ibrutinib Treg-sparing Okkenhaug-2002-Science Angulo-2013-Science Ali-2004-Nature | run_135*

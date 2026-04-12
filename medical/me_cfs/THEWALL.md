@@ -1054,3 +1054,21 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 3. **Vitamin A support**: RA → RARE → IKZF1 ↑ → NK maturation promoted; combined with run_123 (RA → BACH2 ↑ for Treg). Vitamin A (retinyl palmitate or food-based) theoretically supports both NK development and Treg stability in ME/CFS.
 
 *ME/CFS THEWALL cross-reference run_134: 2026-04-12 | IKZF1 Ikaros hematopoietic-development NK-maturation CD56dim CD56bright ratio cytotoxic-deficit pDC-fate pDC-IFN-USP18-triangle Ca2+-functional-additive run127-run132 developmental-NK-deficit compound-NK-failure Vitamin-A RARE IKZF1-NK Georgopoulos-1994-Cell Cooper-2012-Nat-Genet | run_134*
+
+---
+
+### Cross-reference: run_135 — PIK3CD/PI3Kδ / NK Metabolic Exhaustion / B Cell Autoantibodies
+
+**Gap:** PIK3CD/PI3Kδ absent from all 134 prior runs. Lymphocyte-restricted PI3K isoform with distinct ME/CFS relevance through NK metabolic exhaustion and B cell autoantibody production.
+
+**Assessment:** MODERATE ME/CFS relevance — 4th NK dysfunction mechanism (metabolic exhaustion); B cell autoantibody angle; Treg FOXO1 axis adds kinase-level explanation for T cell activation persistence.
+
+1. **NK metabolic exhaustion — 4th NK dysfunction mechanism**: PI3Kδ → mTOR pathway in NK cells. Constitutive PI3Kδ activation (from chronic immune stimulation in ME/CFS) → mTOR chronically active → NK cell metabolic reprogramming → oxidative phosphorylation → aerobic glycolysis shift → mitochondrial strain → NK exhaustion phenotype → cytotoxicity ↓. This is the METABOLIC exhaustion mechanism, distinct from and additive with: (a) Ca²⁺ functional defect (run_127/132 STIM1/ORAI1/ITPR3), (b) developmental deficit (run_134 IKZF1 CD56bright bias), and now (c) PI3Kδ/mTOR metabolic exhaustion. Four-mechanism NK dysfunction stack explains the severity and persistence of ME/CFS NK cytotoxicity failure. Paradox: PI3Kδ inhibition (idelalisib) in APDS patients paradoxically IMPROVES NK function by reducing the constitutive mTOR-driven exhaustion.
+
+2. **B cell autoantibodies in ME/CFS**: ME/CFS has documented autoantibodies against β2-adrenergic receptor (β2AR), muscarinic M3 receptor (M3R), and histamine H4 receptor (H4R) — all implicated in autonomic dysfunction (orthostatic intolerance, POTS-like features). PI3Kδ → B cell GC reaction → somatic hypermutation → autoantibody affinity maturation. PI3Kδ inhibition could reduce ME/CFS autoantibody titers; idelalisib/umbralisib trials in ME/CFS autoantibody context (emerging evidence). Mechanistic link: PI3Kδ inhibition → autoantibody ↓ → reduced anti-β2AR tone → improved autonomic regulation.
+
+3. **Treg FOXO1/FOXP3 axis — T cell exhaustion perpetuation**: PTEN/PI3Kδ/FOXO1 instability in Tregs → insufficient Treg suppression of chronic T cell activation → sustained CD8 T cell activation against viral antigens → T cell exhaustion cascade (runs 029/049/063 PD-1/TIM-3/CTLA-4 upregulation). PI3Kδ overactivation in ME/CFS Tregs = additional kinase-level contributor to Treg insufficiency driving T cell exhaustion.
+
+4. **ME/CFS protocol implication (no new OTC)**: No δ-selective OTC PI3K inhibitor with established efficacy. Idelalisib is prescription with immunosuppression risk. The ME/CFS angle supports further investigation of PI3Kδ/BTK inhibitors for autoantibody reduction and NK exhaustion reversal, but no OTC recommendation change.
+
+*ME/CFS THEWALL cross-reference run_135: 2026-04-12 | PIK3CD PI3Kδ p110δ lymphocyte-specific NK-metabolic-exhaustion mTOR constitutive-PI3Kδ CD56dim-functional Ca2+-additive IKZF1-additive four-mechanism-NK-stack B-cell-autoantibodies anti-β2AR anti-M3R anti-H4R GC-reaction autonomic-dysfunction POTS orthostatic Treg-FOXO1 FOXP3-instability T-cell-exhaustion-perpetuation idelalisib umbralisib Okkenhaug-2002-Science Angulo-2013-Science Ali-2004-Nature | run_135*

@@ -5824,3 +5824,45 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 134 runs | IKZF1/Ikaros hematopoietic development TF | 11th T1DM GWAS stratification | pDC fate master → run_006 upstream | Treg chromatin scaffold (FOXP3/BACH2/DYRK1A upstream) | NK maturation → compounded Ca²⁺ defect | Vitamin A 3rd mechanism (RARE → IKZF1).**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-ninth extension | IKZF1 Ikaros zinc-finger CLP hematopoietic-development pDC-fate NuRD HDAC1-HDAC2 Mi-2β chromatin-remodeling Treg-scaffold T1DM-GWAS rs1701704 Cooper-2012 11th-stratification B-cell-repertoire NK-maturation CD56dim Eomes T-bet NKG2D LC-activation type-I-IFN-run006-upstream FOXP3-scaffold BACH2-scaffold ex-Treg ALL-T1DM-pleiotropy Vitamin-A-3rd-mechanism RA-RARE butyrate-NuRD Georgopoulos-1994-Cell | run_134*
+
+---
+
+### Phase 4 Extension 110 — PIK3CD/PI3Kδ / Lymphocyte PI3K / BTK / Treg FOXO1 / Mast Cell Cascade
+
+**Gap:** PIK3CD/PI3Kδ/BTK/idelalisib absent from all 134 prior runs. Prior PI3K mentions (β cell PI3Kα, runs 098/129) are different isoform, different cell type. PI3Kδ is the lymphocyte/mast-cell-restricted isoform.
+
+**Rosacea (MODERATE-HIGH):**
+- PI3Kδ → BTK → PLCγ2 → IP3 → ITPR3 (run_132) → STIM1/ORAI1 (run_127): 11th mast cell mechanism; PI3Kδ/BTK is the MOST UPSTREAM step in the degranulation cascade yet identified
+- FcεRI cross-linking → Lyn/Syk/LAT → PI3Kδ → PIP3 → BTK PH domain recruits BTK to membrane → PLCγ2-Y1217/Y759 phosphorylation → IP3/DAG → Ca²⁺ cascade. Block PI3Kδ → BTK not at membrane → PLCγ2 not activated → complete Ca²⁺ cascade blocked
+- IgE production in B cells: BCR → PI3Kδ → GC reaction → affinity maturation → IgE class switching; PI3Kδ inhibition = dual benefit (less IgE made + less mast cell activation at FcεRI); upstream complement to omalizumab (run_127 anti-IgE deloading)
+- Langerhans cells and DCs: PI3Kδ in DCs → BTK → PLCγ pathway → pattern recognition costimulation; inhibition → LC activation threshold ↑ → less rapid Th1 priming from UV-B exposure
+- BTK inhibitors (zanubrutinib, ibrutinib, acalabrutinib): suppress IgE-mediated mast cell activation; MCAS treatment evidence (rosacea mast cell phenotype connection); idelalisib as PI3Kδ-upstream alternative
+
+**T1DM (HIGH):**
+- Autoreactive T cell effector expansion: TCR → ZAP70 → LAT → PI3Kδ → PIP3 → Akt → mTORC1 (growth) + FOXO1-phospho (effector gene expression) + GSK-3β (survival); PI3Kδ inhibition → effector T cell differentiation ↓ with relative Treg sparing (PTEN keeps PI3Kδ low in Tregs normally)
+- 5th Treg stability node — PTEN/PI3Kδ/FOXO1: PTEN → PIP3 ↓ → Akt ↓ → FOXO1 nuclear → direct FOXP3 transcriptional activation; inflammatory milieu → TCR/CD28 → chronic PI3Kδ in Tregs → FOXO1 cytoplasmic → FOXP3 ↓ → ex-Treg conversion. Completes five-node Treg stability stack:
+  ```
+  IKZF1/NuRD (run_134) → chromatin scaffold
+  FOXP3 (run_010) → lineage TF [FOXO1 activates FOXP3 CNS1]
+  BACH2 (run_123) → effector repressor
+  DYRK1A (run_125) → NFAT cytokine gate
+  PTEN/PI3Kδ/FOXO1 (run_135) → kinase axis
+  ```
+- CTLA4 (run_060) mechanistic link: CTLA4 removes CD80/86 → CD28 ↓ → PI3Kδ ↓ → Akt ↓ → FOXO1 nuclear → FOXP3 stable; run_060 now explained by PI3Kδ/FOXO1 pathway
+- APDS (gain-of-function PIK3CD): constitutive PI3Kδ → autoimmune phenotype including autoantibodies; naturally occurring human model confirming PI3Kδ hyperactivation → T1DM risk
+- B cell autoantibodies: PI3Kδ → B cell GC reaction → autoantibody affinity maturation → GADA/IA-2A/ZnT8A; PI3Kδ inhibition → autoantibody production ↓
+- IKZF1 (run_134) + PI3Kδ compound: IKZF1 risk allele → open chromatin at effector loci (lower FOXP3 threshold) + PI3Kδ overactivation → FOXO1 cytoplasmic (lower FOXP3 expression) = double Treg destabilization from chromatin + kinase axes simultaneously
+
+**ME/CFS (MODERATE):**
+- NK exhaustion — 4th NK dysfunction mechanism: constitutive PI3Kδ → mTOR → metabolic exhaustion → NK cytotoxicity ↓; stacks on Ca²⁺ functional (runs 127/132) + developmental (run_134 IKZF1)
+- B cell autoantibodies: anti-β2AR, anti-M3R (documented ME/CFS autoantibodies) — PI3Kδ → B cell GC → autoantibody production; idelalisib/umbralisib in ME/CFS autoantibody trials (emerging)
+- ME/CFS Treg angle: same FOXO1/FOXP3 instability in ME/CFS Tregs → effector T cell escape → sustained immune activation → fatigue perpetuation
+
+**Protocol additions:**
+- **Idelalisib** (PI3Kδ inhibitor, prescription): dual benefit — autoreactive T cell suppression + mast cell IgE-mediated activation ↓; not OTC; specialist indication
+- **BTK inhibitors** (zanubrutinib, ibrutinib): suppress mast cell FcεRI/PI3Kδ/BTK pathway; approved for B cell malignancies; MCAS data emerging
+- **No new OTC mechanism**: quercetin has broad PI3K inhibitory activity but not δ-selective; existing quercetin mechanisms (runs 127/132 PLCγ + ORAI1) already cover downstream; no new OTC claim
+
+**Framework state: 135 runs | PIK3CD/PI3Kδ lymphocyte-specific PI3K | 11th mast cell mechanism (BTK-upstream) | 5th Treg stability node (PTEN/PI3Kδ/FOXO1) | CTLA4 (run_060) mechanistically explained | APDS human model | idelalisib/BTK inhibitors clinical anchor.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-tenth extension | PIK3CD PI3Kδ p110δ lymphocyte-specific PIP3 Akt BTK Bruton-tyrosine-kinase PLCγ2 mast-cell-11th FcεRI Lyn Syk LAT PTEN-PI3Kδ-FOXO1 5th-Treg-node FOXO1-FOXP3 CTLA4-PI3Kδ APDS gain-of-function T1DM-autoreactive-T-cell Treg-sparing idelalisib umbralisib zanubrutinib ibrutinib BTK-inhibitor ME/CFS-NK-exhaustion B-cell-autoantibody IKZF1-compound double-Treg-destabilization Okkenhaug-2002-Science Angulo-2013-Science Ali-2004-Nature | run_135*
