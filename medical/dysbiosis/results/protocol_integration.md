@@ -5599,4 +5599,76 @@ PI3Kδ (run_135) blocks the lymphocyte arm of T1DM autoimmunity. PI3Kγ (run_144
 - C-peptide trajectory monitoring: gradual decline without corresponding autoantibody rise may signal dedifferentiation (epigenetic) rather than β cell death
 - Consider EGCG + vitamin C + B12/betaine (SETD7/SAM support) as integrated epigenetic protection protocol
 
+---
+
+### Part 9cy — TGF-β1 / SMAD2 / SMAD3 Protocol Integration (run_150)
+
+**New monitoring and therapeutic additions — TGF-β/SMAD axis:**
+
+**Phymatous rosacea — fibrotic subtype specific protocol:**
+
+| Compound | Mechanism | Target | Dose / Notes |
+|----------|-----------|--------|-------------|
+| **Pirfenidone** (off-label) | ALK5/TGFBR1 downstream inhibition → SMAD3 ↓ → fibroblast COL1A1/COL3A1 ↓ | Phymatous fibrosis / rhinophyma | 267-534 mg TID (IPF dosing, titrated) |
+| **Losartan** (off-label) | AT1R blockade → TGF-β1 secretion ↓ → SMAD3 ↓ | Fibrosis + NK restoration | 25-50 mg/day |
+| Vitamin D (existing, run_008) | VDR → SMAD7 induction → dampens chronic SMAD3 | SMAD7 restorer | Per run_008 dosing |
+
+**iTreg CNS1 induction support:**
+- SOCE/Ca²⁺ support tools (run_127 existing): STIM1/ORAI1 → NFAT1 nuclear → cooperates with pSMAD3 at CNS1; magnesium glycinate 300-400 mg/night now has dual rationale (NFAT1/SMAD3 iTreg induction + run_127)
+- IL-6 lowering is prerequisite for iTreg induction: TGF-β + IL-6 → Th17 switch; tocilizumab, curcumin, omega-3 DHA reduce IL-6 → allow TGF-β/SMAD3 to drive CNS1 iTreg instead of Th17
+
+**NK NKG2D preservation (ME/CFS + T1DM):**
+- TGF-β elevation suppresses NKG2D (run_102); anti-TGF-β approaches (losartan, pirfenidone) = indirect NKG2D restoration
+- Monitor NK NKG2D expression (flow cytometry) as TGF-β treatment response biomarker
+
+**TGF-β monitoring:**
+- Serum TGF-β1: therapeutic window target <5 ng/mL (above = dedifferentiation risk); track in β cell preservation protocols
+- Distinction: homeostatic low TGF-β = beneficial (SMAD3 → NF-κB ↓); chronic high = harmful (TAK1/p38 → dedifferentiation)
+
+**Cross-axis clarifications:**
+- TSP-1 (run_131): now understood as upstream TGF-β activator; TSP-1 → TGF-β → CNS1 iTreg; run_131 protocol tools (anti-TSP-1: LSKL peptide, fucoidan) have downstream anti-fibrotic/pro-iTreg rationale
+- CNS1 (TGF-β/SMAD3 → iTreg induction) + CNS2 (TET/DNMT3A → Treg stability) = complete FOXP3 restoration protocol: CNS1 = generate new iTregs; CNS2 = stabilize existing Tregs; both layers now covered
+
+---
+
+### Part 9cz — IL-2 Cytokine Protocol Integration (run_151)
+
+**New monitoring and therapeutic additions — IL-2/Treg expansion axis:**
+
+**Ultra-low-dose IL-2 (aldesleukin) — Treg-selective protocol:**
+
+| Parameter | Detail |
+|-----------|--------|
+| Drug | Aldesleukin (recombinant human IL-2; Proleukin) |
+| Dose | 0.33-1 × 10⁶ IU/m²/day SC × 5 days induction → maintenance cycles q4-8 weeks |
+| Mechanism | Trimeric IL-2Rαβγ (Kd ~10 pM) on Tregs → JAK3/STAT5 (run_140) → FOXP3 ↑ → Treg survival + expansion |
+| Selectivity | 100-fold lower Kd than dimeric IL-2Rβγ (NK/CD8); NK activation requires ~1 nM → not reached at Treg dose |
+| Clinical evidence | DIABIL-2 (Hartemann 2013): +40-50% Treg expansion + C-peptide stable; no VLS |
+| Monitoring | CBC differential (Treg %, NK %), BP (VLS), LFTs; flow: CD4⁺CD25hiCD127low at 4 weeks |
+
+**CD25-biased IL-2 complexes (investigational — trial enrollment):**
+
+| Agent | Mechanism | Status |
+|-------|-----------|--------|
+| NKTR-358 (Nektar) | PEG-IL-2 blocking IL-2Rβ epitope → CD25-directed | Phase 2 SLE / Phase 1-2 T1DM |
+| LY3471851 (Lilly) | Anti-IL-2 antibody fused IL-2 → CD25-biased | Phase 1-2 |
+| RG7461 (Roche) | JES6-1 humanized concept | Phase 1 |
+
+**Three-arm Treg restoration protocol (runs 148+150+151 combined):**
+
+Complete integrated Treg restoration now covers all three mechanistic layers:
+
+| Layer | Mechanism | Drug/Intervention | Run |
+|-------|-----------|------------------|-----|
+| **Induction** (CNS1) | TGF-β/SMAD3 + NFAT1/Ca²⁺ → new iTregs from naive T cells | Mg glycinate + IL-6 lowering (tocilizumab/curcumin/omega-3) + SOCE support | runs 127+150 |
+| **Expansion/Survival** (CD25) | IL-2 → trimeric IL-2Rαβγ → STAT5 → FOXP3 ↑ + Bcl-2 → Treg proliferation | Ultra-low-dose aldesleukin / CD25-biased IL-2 complex | run_151 |
+| **Effector Function** (trogocytosis) | CTLA4 → CD80/CD86 stripping from APCs → APC depotentiation | Abatacept (CTLA4-Ig) | run_148 |
+
+**Mechanistic note:** CTLA4/abatacept (run_148) reduces CD80/CD86 on APCs → reduces CD28 co-stimulation → reduces effector T cell IL-2 production → may paradoxically reduce paracrine IL-2 available for Tregs. Exogenous low-dose IL-2 (run_151) directly compensates for this effect — abatacept + low-dose IL-2 is the correct mechanistic pairing.
+
+**ME/CFS dosing nuance:**
+- NK-predominant deficit → intermediate IL-2 dose (engages dimeric IL-2Rβγ → NK priming) vs Treg-predominant deficit → ultra-low dose
+- Flow cytometry at baseline: Treg vs NK ratio guides decision; NK < 10% of lymphocytes = NK-predominant → consider intermediate dosing
+- TGF-β/losartan (run_150) + IL-2 (run_151) together address NK NKG2D suppression (anti-TGF-β) + NK priming deficit (IL-2) simultaneously
+
 *Protocol_integration.md Part 9cx — 2026-04-12 | DNMT3A R882H CHIP-screening-protocol IL-1β-targeted-CHIP vitamin-C-TET-EGCG-DNMT3A-dual CNS2-protection decitabine-investigational EGCG-primary-DNMT-inhibitor PPARγ-SOCS3-IL10-re-expression β-cell-dedifferentiation-monitoring c-peptide-trajectory integrated-epigenetic-stack run086-run087-TET-DNMT3A-combination | run_149*

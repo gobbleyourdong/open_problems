@@ -1628,3 +1628,70 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
    - Combined: inhibit DNMT3A + activate TET → shift CNS2 methylation equilibrium toward demethylation → Treg stability
 
 *T1DM THEWALL cross-reference run_149: 2026-04-12 | DNMT3A R882H CHIP-myeloid-NLRP3 FOXP3-CNS2-re-silencing TET-counter-run086-run087 SETD7-coupling-run145 β-cell-dedifferentiation-25th CHIP-screening EGCG-DNMT-inhibitor decitabine-Treg vitamin-C-TET-CNS2 SAM-methyl-donor | run_149*
+
+---
+
+### Cross-reference: run_150 — TGF-β1 / SMAD2 / SMAD3: iTreg CNS1 Induction, NK NKG2D Suppression, β Cell Dual Role
+
+**Relevance: HIGH**
+
+1. **iTreg CNS1 induction — TGF-β/SMAD3/NFAT1 axis**:
+   - TGF-β1 → TGFBR2/TGFBR1/ALK5 → pSMAD3 → SMAD4 → FOXP3 CNS1 enhancer binding → naive T cell → iTreg
+   - NFAT1 (run_127 SOCE/STIM1/ORAI1/Ca²⁺) + pSMAD3 cooperate at CNS1 → synergistic induction; SOCE pathway now upstream of CNS1 iTreg conversion
+   - CNS1 (TGF-β/SMAD3 = induction) vs CNS2 (TET/DNMT3A methylation = stability) = two independent FOXP3 regulatory layers, both required
+
+2. **TGF-β + IL-6 → Th17 switch in islet microenvironment**:
+   - Insulitis: IL-6 secreted by β cells and macrophages → STAT3 → RORγt → overrides SMAD3/FOXP3 → Th17 not iTreg
+   - Explains why inflamed islets cannot self-regulate despite TGF-β presence; IL-6 blockade (tocilizumab) rationale restores iTreg balance
+   - Connected to run_040 (IL-6/STAT3) and run_127 (SOCE/Ca²⁺/NFAT1)
+
+3. **NK NKG2D suppression — TGF-β in islet microenvironment**:
+   - High islet TGF-β → pSMAD3 → NKG2D mRNA 3'UTR destabilization → NKG2D surface ↓ → NK surveillance impaired
+   - Stressed/dysbiotic β cells evade NK killing; connects run_102 (NKG2D/NKG2DL), run_131 (TSP-1 TGF-β activation)
+   - Anti-TGF-β strategies could restore NK surveillance of damaged β cells
+
+4. **β cell dose-dependent dual role**:
+   - Low TGF-β (<1 ng/mL): SMAD3 → NF-κB ↓ → anti-inflammatory/protective
+   - High chronic TGF-β (>5 ng/mL): non-canonical TAK1/p38/RhoA → EMT-like dedifferentiation → PDX1/insulin gene suppression → β cell functional loss
+   - Monitoring: TGF-β1 serum levels as therapeutic window guide
+
+5. **TSP-1 (run_131) upstream connection**:
+   - TSP-1 → releases TGF-β1 from LLC latent complex → CNS1 iTreg induction downstream
+   - TSP-1 from platelets/endothelium activates TGF-β in islet microenvironment
+
+*T1DM THEWALL cross-reference run_150: 2026-04-12 | TGF-β1-LLC-latency TGFBR2-TGFBR1-ALK5 pSMAD3 FOXP3-CNS1-induction NFAT1-SMAD3-cooperation-run127 CNS1-vs-CNS2-distinction TGF-β+IL6-Th17-switch-STAT3-RORγt NK-NKG2D-SMAD3-suppression-run102 β-cell-dual-dose-protective-vs-dedifferentiation TAK1-p38-non-canonical TSP1-run131-LLC-activator | run_150*
+
+---
+
+### Cross-reference: run_151 — IL-2 Cytokine / Dose-Selective Treg Expansion / DIABIL-2 / Three-Arm Treg Protocol
+
+**Relevance: HIGH**
+
+1. **Dose-selectivity — mechanistic foundation for all low-dose IL-2 T1DM trials**:
+   - Trimeric IL-2Rαβγ (Tregs, constitutive CD25): Kd ~10 pM → saturated at ultra-low doses; STAT5/FOXP3 → Treg survival/expansion
+   - Dimeric IL-2Rβγ (NK/CD8): Kd ~1 nM → 100-fold less sensitive → not activated at Treg-selective doses
+   - Clinical window: 0.33-1 × 10⁶ IU/m²/day aldesleukin; below VLS threshold (~5-10 × 10⁶ IU/m²)
+
+2. **DIABIL-2 trial (Hartemann 2013, Lancet Diabetes Endocrinol)**:
+   - Ultra-low-dose aldesleukin in established T1DM (<5 years)
+   - +40-50% CD4⁺CD25hiCD127low Treg expansion sustained over maintenance
+   - C-peptide AUC stable in treated group vs decline in controls
+   - No VLS, no infections — safety confirmed at Treg-selective dose
+   - Complements TrialNet data: abatacept (run_148) + IL-2 (run_151) = two independent positive T1DM Treg trials
+
+3. **Treg starvation model — peak insulitis paradox**:
+   - Insulitis exhausts effector T cells → IL-2 production collapses → Tregs starve (cannot self-produce IL-2; FOXP3 represses IL-2 promoter)
+   - Treg pool shrinks exactly when most needed; IL-2 supplementation rescues Tregs from starvation at critical window
+   - CTLA4 (run_148) trogocytosis reduces CD80/CD86 → reduces co-stimulation → IL-2 production further reduced; abatacept patients may have lower paracrine IL-2 → exogenous IL-2 compensates
+
+4. **JES6-1/CD25-biased complexes (next-generation)**:
+   - NKTR-358, LY3471851, RG7461: block IL-2Rβ epitope → exclusive trimeric/CD25-directed delivery → complete Treg selectivity
+   - 10× longer half-life than naked aldesleukin; Phase 2 trials enrolling
+   - Consider trial enrollment for T1DM patients needing Treg restoration beyond standard therapy
+
+5. **Three-arm Treg restoration protocol** (runs 148+150+151):
+   - CNS1 induction: TGF-β/SMAD3 (run_150) + NFAT1/SOCE (run_127) → induce new iTregs
+   - Expansion: ultra-low-dose IL-2/aldesleukin → CD25/STAT5 → Treg proliferation and survival
+   - Effector function: abatacept (run_148) → CTLA4 trogocytosis preserved → per-Treg suppressive capacity
+
+*T1DM THEWALL cross-reference run_151: 2026-04-12 | IL-2-cytokine trimeric-IL-2Rαβγ-10pM-Treg-selective dimeric-IL-2Rβγ-1nM-NK-CD8 dose-selectivity DIABIL-2-Hartemann2013-LancetDE aldesleukin-Treg-expansion C-peptide-stable Treg-starvation-paradox FOXP3-IL2-repressor JES6-1-CD25-biased NKTR358-LY3471851 run148-abatacept-synergy run150-TGF-β-CNS1 three-arm-Treg run127-SOCE-NFAT1 | run_151*

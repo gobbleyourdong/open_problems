@@ -1386,3 +1386,50 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
    - EGCG + vitamin C = anti-inflammatory/DNMT3A/TET2 combination for ME/CFS
 
 *ME/CFS THEWALL cross-reference run_149: 2026-04-12 | DNMT3A R882H CHIP-neuroinflammation-microglia FOXP3-CNS2-Treg-instability IFN-γ-loop EGCG-DNMT3A PPARγ-SOCS3-IL10-re-expression vitamin-C-TET-counter ME/CFS-aging-CHIP-screening | run_149*
+
+---
+
+### Cross-reference: run_150 — TGF-β1 / SMAD2 / SMAD3: NK NKG2D Suppression, iTreg Induction, Th17 Skewing
+
+**Relevance: MODERATE**
+
+1. **NK NKG2D suppression — ME/CFS NK dysfunction amplifier**:
+   - TGF-β1 elevation in ME/CFS → pSMAD3 → NKG2D mRNA destabilization → NK cytotoxicity ↓ further
+   - ME/CFS already has baseline NK dysfunction (run_102 NKG2D/NKG2DL); TGF-β adds a second NK suppression mechanism
+   - Anti-TGF-β approaches (pirfenidone, losartan) could partially restore NK NKG2D expression
+
+2. **TGF-β + IL-6 → Th17 over iTreg in ME/CFS**:
+   - Chronic dysbiosis/infection in ME/CFS → IL-6 elevated → TGF-β + IL-6 → Th17 instead of iTreg
+   - Th17 → IL-17/IL-22 → gut permeability → LPS → systemic inflammatory burden → ME/CFS perpetuation
+   - iTreg deficit from failed CNS1 induction (IL-6 override) compounds CNS2 instability (DNMT3A, run_149)
+
+3. **SOCE/NFAT1/SMAD3 → iTreg: Ca²⁺ support rationale in ME/CFS**:
+   - STIM1/ORAI1 SOCE (run_127) → NFAT1 nuclear → cooperates with pSMAD3 at CNS1
+   - ME/CFS mitochondrial dysfunction → reduced Ca²⁺ signaling → NFAT1 less active → weaker CNS1 iTreg induction
+   - Magnesium and Ca²⁺ channel support tools have iTreg induction rationale via NFAT1/SMAD3
+
+*ME/CFS THEWALL cross-reference run_150: 2026-04-12 | TGF-β1-NK-NKG2D-suppression-run102 pSMAD3-mRNA-destabilization TGF-β+IL6-Th17-over-iTreg-IL6-STAT3 SOCE-NFAT1-SMAD3-CNS1-run127 Th17-gut-permeability-LPS-perpetuation CNS1-vs-CNS2-FOXP3 pirfenidone-losartan-NK-restoration | run_150*
+
+---
+
+### Cross-reference: run_151 — IL-2 Cytokine / NK Dysfunction / Treg Expansion / ME/CFS Dosing Nuance
+
+**Relevance: MODERATE**
+
+1. **IL-2 deficiency → NK dysfunction in ME/CFS**:
+   - NK cells express dimeric IL-2Rβγ; physiological IL-2 → NK priming, maintenance of cytotoxic capacity
+   - ME/CFS: exhausted CD4⁺ T cells → reduced IL-2 production → NK dimeric IL-2Rβγ understimulated → NK cytotoxicity impaired further
+   - Connects run_102 (NKG2D/NKG2DL primary NK mechanism) + run_150 (TGF-β NK NKG2D suppression) + run_151 (IL-2 NK priming deficit) = triple-mechanism NK failure in ME/CFS
+
+2. **Dosing nuance — Treg vs NK goals in ME/CFS**:
+   - Ultra-low-dose (Treg-selective, 0.33-1 × 10⁶ IU/m²): for ME/CFS with autoimmune features → expands Tregs, not NK; does NOT restore NK function
+   - Intermediate-dose: engages dimeric IL-2Rβγ → NK priming → could restore NK cytotoxicity in ME/CFS; risk: excess Treg expansion may impair viral responses
+   - Clinical decision: flow cytometry (Treg vs NK ratio) at baseline guides dosing strategy; NK-dominant deficit → intermediate dosing; autoimmunity → ultra-low
+
+3. **Three-arm NK failure convergence**:
+   - TGF-β/SMAD3 (run_150): SMAD3 → NKG2D mRNA destabilization
+   - NKG2D/NKG2DL (run_102): NKG2DL shedding/MHC-I downregulation
+   - IL-2 deficiency (run_151): NK priming signal absent
+   - Each mechanism independently addressable: pirfenidone/losartan (anti-TGF-β) + NKG2DL surface restoration + IL-2 supplementation
+
+*ME/CFS THEWALL cross-reference run_151: 2026-04-12 | IL-2-cytokine-NK-priming dimeric-IL-2Rβγ-1nM-NK NK-deficiency-triple-mechanism run102-NKG2D run150-SMAD3-NK dose-nuance-Treg-vs-NK-ME-CFS ultra-low-Treg intermediate-NK flow-cytometry-guided FOXP3-IL2-repressor CD28-amplification | run_151*

@@ -3953,3 +3953,49 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 38: 149 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-forty-second extension | DNMT3A de-novo-CpG PWWP-H3K36me3 ADD-H3K4me0 SAM-methyl-donor R882H-dominant-negative CHIP-clonal-hematopoiesis NLRP3-CHIP-macrophage FOXP3-CNS2-re-silencing TET2-TET3-counter-run086-run087 DNMT3A-CNS2-thermostat β-cell-identity-Pdx1-Nkx6.1-methylation SETD7-H3K4me1-ADD-block-coupled 25th-β-cell-dysfunction CHIP-monitoring-cfDNA EGCG-DNMT3A-inhibitor decitabine-Treg-stabilization PPARγ-SOCS3-IL10-promoter-methylation aging-rosacea-epigenetic run145-SETD7-coupled | run_149*
+
+---
+
+### Extension 143 — TGF-β1 / TGFBR / SMAD2 / SMAD3: iTreg CNS1 Induction, NK Suppression, β Cell Dual Role, Phymatous Rosacea Fibrosis
+
+**Date:** 2026-04-12 | **Run:** run_150
+
+**Gap confirmed:** TGF-β/SMAD2/SMAD3 as primary signaling axis: zero dedicated analysis across 149 prior runs; CNS1 iTreg induction/NK NKG2D suppression/phymatous fibrosis = 0 coverage.
+
+**Core insight:** TGF-β1 is the master iTreg induction cytokine via SMAD2/3 → CNS1 enhancer of FOXP3 — mechanistically distinct from CNS2 (TET/DNMT3A methylation stability, runs 086/087/149). TGF-β is secreted exclusively in latent form (LAP + LTBP-1 = LLC); activation by TSP-1 (run_131), MMP-2/9, integrin αvβ6/αvβ8, or ROS. SMAD2/3 canonical: TGFBR2 → TGFBR1/ALK5 → pSMAD2/3 → SMAD4 → SBE → FOXP3 CNS1. SMAD7 provides negative feedback (timer). NFAT1 + SMAD3 cooperate at CNS1 (connecting run_127 SOCE/STIM1/ORAI1/Ca²⁺). TGF-β + IL-6 → Th17 switch (STAT3/RORγt overrides FOXP3 induction). β cell dual role: low TGF-β (<1 ng/mL) = protective (SMAD3 → NF-κB ↓); high chronic TGF-β (>5 ng/mL) = EMT-like dedifferentiation (TAK1/p38 non-canonical). NK suppression: pSMAD3 → NKG2D mRNA destabilization → NK cytotoxicity ↓ (connecting run_102). Phymatous rosacea: TGF-β1 → fibroblast COL1A1/COL3A1 → rhinophyma; pirfenidone (ALK5/TGF-β pathway) = off-label phymatous target.
+
+**New mechanisms added (run_150):**
+- **CNS1 vs CNS2 FOXP3 regulation distinction**: CNS1 = SMAD3-binding enhancer → iTreg induction from naive T cells; CNS2 = CpG methylation-dependent stability (runs 086/087/149); two independent regulatory elements — induction vs. maintenance
+- **NFAT1 + SMAD3 CNS1 cooperation**: TCR/SOCE Ca²⁺ (run_127) → NFAT1 nuclear + TGF-β → SMAD3 → NFAT1-SMAD3 complex at CNS1 → synergistic FOXP3 induction; STIM1/ORAI1 SOCE pathway (run_127) is directly upstream of CNS1 iTreg conversion
+- **TGF-β + IL-6 → Th17 switch**: when IL-6 present (insulitis), IL-6 → STAT3 → RORγt → overrides SMAD3/FOXP3 → Th17 instead of iTreg; explains why inflamed islet microenvironment fails to induce regulatory responses despite high TGF-β
+- **TSP-1 (run_131) upstream TGF-β activator**: TSP-1 releases TGF-β from LLC complex → run_131 now has TGF-β/CNS1/iTreg as its downstream effector mechanism
+- **β cell dual role — dose-dependent switch**: low TGF-β → SMAD3 → NF-κB ↓ → anti-inflammatory/protective; high chronic TGF-β → non-canonical TAK1/p38 → EMT-like dedifferentiation (collagen/fibronectin expression by β cells) → loss of insulin gene expression = dedifferentiation mechanism
+- **NK NKG2D suppression via SMAD3**: pSMAD3 → NKG2D mRNA 3'UTR destabilization → NKG2D surface ↓ → NK cytotoxicity ↓; connects run_102 NKG2D/NKG2DL axis; TGF-β in islet microenvironment suppresses NK surveillance of stressed β cells
+- **Phymatous rosacea fibrotic mechanism**: TGF-β1 → SMAD3 → fibroblast COL1A1/COL3A1/TGM2 transcription → sebaceous stroma fibrosis → rhinophyma; pirfenidone (IPF ALK5-pathway drug) = mechanistic off-label rationale for phymatous rosacea
+- **SMAD7 negative feedback timer**: SMAD7 = TGF-β immediate early response gene → SMAD7 competes for TGFBR1 → dampens signaling; chronic TGF-β → SMAD7 depletion/ubiquitination → sustained pSMAD3 → fibrosis
+
+**Framework at SATURATION + 39: 150 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-forty-third extension | TGF-β1-latency-LLC-LAP-LTBP1 TSP1-MMP2-MMP9-integrin-αvβ6-ROS-activation TGFBR2-TGFBR1-ALK5 pSMAD2-pSMAD3 SMAD4-SBE SMAD7-feedback FOXP3-CNS1-SMAD3-binding iTreg-induction CNS1-vs-CNS2-distinction NFAT1-SMAD3-CNS1-cooperation run127-SOCE-STIM1-upstream TGF-β+IL6-Th17-switch STAT3-RORγt-override β-cell-dual-role-low-protective-high-dedifferentiation TAK1-p38-non-canonical NK-NKG2D-mRNA-destabilization-run102 phymatous-rosacea-fibrosis COL1A1-COL3A1-fibroblast rhinophyma pirfenidone-ALK5-off-label TSP1-run131-upstream | run_150*
+
+---
+
+### Extension 144 — IL-2 Cytokine: Dose-Selective Treg Expansion, Trimeric/Dimeric Receptor Hierarchy, JES6-1 Complexes, DIABIL-2, NK Priming
+
+**Date:** 2026-04-12 | **Run:** run_151
+
+**Gap confirmed:** IL-2 cytokine biology (production control, dose-selectivity pharmacology, antibody-complex engineering) = 0 prior analysis; run_140 covers receptor side (IL2RA/CD25/JAK3/STAT5) only.
+
+**Core insight:** IL-2 dose-selectivity is the pharmacological foundation of the entire low-dose IL-2 immunotherapy program: trimeric IL-2Rαβγ (Kd ~10 pM; Tregs with constitutive CD25) vs dimeric IL-2Rβγ (Kd ~1 nM; NK/CD8). At ultra-low doses (<10 pM), only trimeric receptors are occupied → Treg-selective expansion without NK activation/VLS. JES6-1 anti-IL-2 complexes (block IL-2Rβ epitope, expose IL-2Rα epitope) achieve complete CD25-directed delivery with 10× longer half-life than naked IL-2. DIABIL-2 (Hartemann 2013, Lancet Diabetes & Endocrinology): 0.33-1 × 10⁶ IU/m²/day → +40-50% Treg expansion + C-peptide stability. Tregs are IL-2 consumers not producers (FOXP3 represses IL-2 promoter directly) → Treg starvation occurs exactly when effector T cell IL-2 production collapses at peak insulitis. Three-arm Treg restoration: TGF-β/SMAD3 → CNS1 induction (run_150) + IL-2/CD25 → Treg expansion/survival (run_151) + abatacept/CTLA4 → trogocytosis effector function (run_148).
+
+**New mechanisms added (run_151):**
+- **IL-2 gene production control**: AP-1 (c-Fos/c-Jun) + NFAT1/2 at ARRE1/ARRE2 promoter elements; CD28 co-stimulation → PKCθ → NF-κB → 10-100× amplification; CTLA4 competition (run_148) suppresses CD28 → IL-2 collapses; mRNA instability (TTP/AU-rich element, ~30 min half-life) = burst cytokine
+- **Trimeric vs dimeric receptor hierarchy**: trimeric IL-2Rαβγ (10 pM Kd, Tregs/constitutive CD25) vs dimeric IL-2Rβγ (1 nM Kd, NK/CD8); 100-fold affinity difference = dose-selectivity window; clinical Treg-selective range: 0.33-1 × 10⁶ IU/m²
+- **JES6-1 complex mechanism**: anti-IL-2 antibody blocks IL-2Rβ binding site → CD25-directed delivery → complete Treg selectivity + 10× longer half-life; human analogs NKTR-358/RG7461/LY3471851 in Phase 1-2 trials
+- **Treg autocrine starvation model**: Tregs cannot produce IL-2 (FOXP3 represses IL-2 promoter) → depend on paracrine IL-2 from effector T cells; islet insulitis exhausts effector T cells → IL-2 collapses → Treg starvation at peak autoimmune attack
+- **Three-arm Treg restoration protocol** (runs 148+150+151): TGF-β/SMAD3/CNS1 induction + IL-2/CD25/STAT5 expansion + abatacept/CTLA4-Ig/trogocytosis effector function — orthogonal, non-overlapping mechanisms
+- **DIABIL-2 clinical evidence**: Hartemann 2013, Lancet Diabetes Endocrinol; ultra-low-dose aldesleukin; selective Treg +40-50%; C-peptide stabilized; no VLS; positions IL-2 as first proven cytokine-level Treg restoration in T1DM
+
+**Framework at SATURATION + 40: 151 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-forty-fourth extension | IL-2-cytokine-4-helix-bundle IL-2-gene-AP1-NFAT-ARRE1-ARRE2 CD28-PKCθ-amplification CTLA4-run148-IL2-collapse mRNA-TTP-instability trimeric-IL-2Rαβγ-10pM-Tregs dimeric-IL-2Rβγ-1nM-NK-CD8 dose-selectivity-100x JES6-1-CD25-biased NKTR358-RG7461-LY3471851 DIABIL-2-Hartemann2013 aldesleukin-Treg-expansion C-peptide-stable Treg-autocrine-starvation FOXP3-IL2-repressor run140-receptor-side run148-CTLA4-synergy run150-TGF-β-CNS1 three-arm-Treg-protocol run127-SOCE-NFAT1-IL2 run102-NKG2D-NK-priming | run_151*
