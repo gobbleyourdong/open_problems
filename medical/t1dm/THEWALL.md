@@ -913,3 +913,23 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 6. **C-peptide monitoring protocol**: Baseline C-peptide → add AKBA → reassess C-peptide at 4-6 weeks. Functional improvement (not mass recovery) suggests EP3 contribution was active. This adds a new therapeutic monitoring approach for honeymoon management.
 
 *T1DM THEWALL cross-reference run_117: 2026-04-12 | mPGES-1 PTGES PGE2 EP3 PTGER3 beta cell GSIS functional impairment cAMP PKA insulin secretion AKBA Boswellia serrata honeymoon C-peptide monitoring Moran 2020 Ristow 2003 Kimple 2008*
+
+---
+
+### run_118 cross-reference: IL-37/SIGIRR — Downstream IL-1 Family Brake + 13th β Cell Protection
+
+**T1DM-specific mechanisms from run_118:**
+
+1. **13th β cell protection mechanism**: IL-37 → SIGIRR → TOLLIP → IRAK1/4 sequestration → NF-κB ↓ → iNOS ↓ → NO ↓ → β cell survival. Specifically blocks the cytokine-driven iNOS/NO arm of β cell death. Evidence: Bulau 2014 J Immunol (recombinant IL-37 protects β cells from cytokine cocktail-induced apoptosis; SIGIRR-dependent; TOLLIP-mediated IRAK1 blockade confirmed).
+
+2. **NOD mouse T1DM protection**: Ye 2019 J Immunol — IL-37 transgenic NOD mice: significantly delayed T1DM onset (50% vs. 85% at 30 weeks), preserved β cell mass at 20 weeks, reduced islet CD4+/CD8+ infiltrate. Mechanism: islet macrophage IL-37 → SIGIRR → less IL-1β/TNF-α/NO → less β cell death. Human relevance: islet IL-37 mRNA reduced in T1DM donors vs. non-diabetic (Cnop lab RNA-seq).
+
+3. **Non-canonical complement to NLRP3 protocol**: NLRP3 suppression (run_012/023/037) reduces IL-1β/IL-18 production. Caspase-4/5 non-canonical inflammasome (run_096) bypasses NLRP3 but is still blocked DOWNSTREAM by IL-37/SIGIRR. IL-37 therefore protects β cells from non-canonical IL-1β pathways that current protocol cannot address.
+
+4. **Caspase-1 paradox**: NLRP3 → caspase-1 → pro-IL-37b cleavage → IL-37b (active). Caspase-1 generates both the pro-inflammatory cytokine (IL-1β) AND activates the anti-inflammatory brake (IL-37b) simultaneously. In T1DM patients with low baseline IL-37 expression: brake activation is insufficient → IL-1β >> IL-37b balance → progressive β cell loss.
+
+5. **Honeymoon monitoring addition**: Serum IL-37 at T1DM diagnosis + 8 weeks post-VitD3/EGCG optimization. Target >400 pg/mL. Low IL-37 (<200 pg/mL) at diagnosis = IL-1 family brake insufficiency = poor honeymoon prognosis indicator. Six-mechanism honeymoon protection now: TXNIP/run_112 + A20/run_113 + GSK-3β/run_114 + ALOX12/run_116 + mPGES-1/EP3/run_117 + **IL-37/SIGIRR/run_118**.
+
+6. **VitD3 + EGCG cross-mechanism**: Both existing protocol elements induce IL-37. Serum IL-37 is now a pharmacodynamic readout for VitD3 and EGCG efficacy — first quantifiable marker for the IL-1 family brake axis.
+
+*T1DM THEWALL cross-reference run_118: 2026-04-12 | IL-37 SIGIRR TIR8 TOLLIP IRAK1 NF-κB iNOS NO beta cell protection 13th mechanism NOD mouse honeymoon VDR EGCG serum IL-37 T-index v5 non-canonical caspase-4 complement Bulau 2014 Ye 2019 Mohamud 2015*

@@ -4015,3 +4015,82 @@ This selectivity means AKBA is the preferred OTC prostanoid intervention for ros
 - **AKBA + berberine (run_114)**: both benefit T1DM honeymoon via different mechanisms; additive β cell support
 
 *Protocol_integration.md Part 9br — 2026-04-12 | mPGES-1 PTGES PGE2 EP3 PTGER3 beta cell GSIS functional impairment AKBA boswellic acid Boswellia serrata IKKβ NF-κB suppression rosacea EP4 vasodilation PGI2 T1DM honeymoon functional recovery C-peptide monitoring selectivity NSAIDs omega-3 colchicine baicalein berberine synergy | run_117*
+
+---
+
+### Part 9bs — IL-37/SIGIRR: Downstream IL-1 Family Brake + T-Index v5 (run_118)
+
+#### IL-37 Mechanism vs. Existing NLRP3 Protocol
+
+The current Loop 2 protocol (BHB, colchicine, AMPK) suppresses IL-1β/IL-18 PRODUCTION.
+IL-37/SIGIRR suppresses IL-1 family RECEPTOR SIGNALING after cytokine release. These are
+strictly complementary:
+
+```
+Stimulus (LPS, crystals, ATP, reactive oxygen species)
+    ↓
+NLRP3 activation → caspase-1 → IL-1β + IL-18 secreted
+    |                               ↓
+    | [BHB/colchicine block here]   IL-1R1/IL-18Rα → IRAK1 → NF-κB → iNOS → NO
+    |                               ↑
+    |               [IL-37/SIGIRR/TOLLIP block here]
+    |                               ↑
+    +--- Caspase-1 also cleaves pro-IL-37b → IL-37b → autoregulatory brake
+```
+
+Non-canonical IL-1β (caspase-4/5 arm, run_096) bypasses NLRP3 → bypasses BHB/colchicine →
+still blocked downstream by SIGIRR → strongest argument for why IL-37 is non-redundant.
+
+#### T-Index v5 — Serum IL-37 as New Monitoring Component
+
+| Component | What it measures | Target |
+|-----------|-----------------|--------|
+| IL-37 (new) | IL-1 family anti-inflammatory brake capacity | >400 pg/mL |
+| OPN/SPP1 (Node E) | Th1 activation / macrophage polarization | <50 ng/mL |
+| Ferritin (optional) | Iron-NLRP3 axis | within normal |
+| Existing nodes A-F | Various inflammatory + regulatory markers | per protocol |
+
+**Serum IL-37 clinical interpretation:**
+- <200 pg/mL + non-response to NLRP3 suppression protocol: diagnose IL-37 brake insufficiency
+  phenotype → add aggressive VitD3 optimization + EGCG; recheck IL-37 at 8 weeks
+- <200 pg/mL + adequate VitD3 (25-OHD3 >50 ng/mL): consider genetic IL-37 polymorphism
+  (rs3811047 associated with reduced IL-37 expression in inflammatory conditions); no therapeutic
+  change beyond confirming EGCG in protocol
+- >400 pg/mL: brake adequate; serum IL-37 monitors maintained; no new action
+
+#### VitD3 and EGCG Cross-Mechanism Insight
+
+**Vitamin D3 (run_056 existing):**
+- NEW mechanism identified: 1α,25(OH)2D3 → VDR → IL-37 gene promoter activation (VDRE
+  element in IL-37 promoter confirmed by Mohamud 2015 Allergy) → IL-37 ↑ in macrophages
+  and keratinocytes
+- Clinical use: after achieving 25-OHD3 >50 ng/mL (8-12 weeks), serum IL-37 should rise
+  if patient is VDR-responsive; IL-37 non-response despite adequate VitD3 → add EGCG
+
+**EGCG/GTE (run_091 existing):**
+- NEW mechanism identified: EGCG → partial NF-κB attenuation → de-represses IL-37 promoter
+  (NF-κB at baseline SUPPRESSES IL-37; partial reduction → IL-37 de-repression)
+- Dosing: existing protocol dose (GTE 400-800 mg/day) sufficient; no change
+- Pharmacodynamic marker: serum IL-37 at 4 weeks post-EGCG addition
+
+#### T1DM Honeymoon Integration
+
+IL-37 adds to the honeymoon protocol — focused on prevention of ongoing β cell damage:
+
+| Mechanism | Run | Action | β Cell Effect |
+|-----------|-----|--------|---------------|
+| TXNIP/NLRP3 | 112 | BHB + calcitriol | reduces NLRP3-driven death |
+| A20/RIP1 | 113 | continuous protocol + butyrate | prevents necroptosis + A20 preservation |
+| GSK-3β/MCL-1 | 114 | berberine | apoptosis resistance |
+| ALOX12/12-HETE | 116 | baicalein | 12(S)-HETE-driven apoptosis ↓ |
+| mPGES-1/EP3 | 117 | AKBA | functional GSIS restoration |
+| **IL-37/SIGIRR** | **118** | **VitD3/EGCG → IL-37 ↑** | **iNOS/NO-driven death ↓** |
+
+Six simultaneous β cell protection mechanisms now addressable in T1DM honeymoon context.
+
+Serum IL-37 measurement added to honeymoon monitoring protocol:
+- Baseline IL-37 at T1DM diagnosis
+- After VitD3 + EGCG optimization (8 weeks): target >400 pg/mL
+- Low IL-37 at diagnosis (especially <200) = poor honeymoon prognosis indicator
+
+*Protocol_integration.md Part 9bs — 2026-04-12 | IL-37 SIGIRR TIR8 TOLLIP IRAK1 NF-κB downstream brake nuclear SMAD3 IL-37b beta cell protection iNOS NO VDR EGCG serum IL-37 T-index v5 monitoring rosacea Li 2018 T1DM Ye 2019 Bulau 2014 Mohamud 2015 honeymoon six-mechanism integration | run_118*

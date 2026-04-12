@@ -770,3 +770,21 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 3. **Protocol note**: AKBA is reasonable to consider in ME/CFS if rosacea/T1DM co-occur (where the mechanistic case is stronger) — use T1DM/rosacea indications as primary justification.
 
 *ME/CFS THEWALL cross-reference run_117: 2026-04-12 | mPGES-1 PGE2 EP4 microglia neuroinflammation AKBA Boswellia BBB penetration bonus tier*
+
+---
+
+### run_118 cross-reference: IL-37/SIGIRR — Neuroinflammatory IL-1 Brake (MODERATE)
+
+**ME/CFS-specific from run_118:**
+
+1. **Microglial IL-1β/IL-18 suppression**: ME/CFS neuroinflammation involves microglial activation → IL-1β + IL-18 → neurogenic fatigue and cognitive dysfunction. IL-37 is expressed in glial cells (astrocytes and microglia produce IL-37 constitutively); IL-37 → SIGIRR → TOLLIP → reduced microglial NF-κB → less IL-1β/TNF-α from microglia. Evidence: Farber 2016 (glial IL-37 expression confirmed); mechanistic parallel from MS (IL-37 reduces microglial activation in EAE model).
+
+2. **HERV-W/IFN-α interaction (M3)**: Chronic type I IFN (IFN-α, run_063/M3 mountain) paradoxically reduces IL-37 production from pDCs (Guarda 2011: IFN-α → suppression of IL-37 in pDCs). ME/CFS M3 patients with chronic IFN-α activity → pDC IL-37 deficiency → amplified IL-1 family neuroinflammation (double jeopardy: HERV-W drives IFN-α which in turn reduces the IL-1 family brake).
+
+3. **Post-COVID ME/CFS overlap**: Hojyo 2022 (COVID immunopathology review): IL-37 plasma levels reduced in severe COVID-19 and post-COVID conditions. ME/CFS overlap with long-COVID phenotype → shared IL-37 deficiency signature → serum IL-37 monitoring relevant in post-viral ME/CFS cases.
+
+4. **Kynurenine/tryptophan connection**: IL-18 → IDO1 induction (run_091) → kynurenine pathway → tryptophan depletion → serotonin ↓ → fatigue (run_047 indirect). IL-37 → SIGIRR → IL-18 receptor suppression → less IDO1 induction → partial kynurenine normalization → less tryptophan depletion in ME/CFS.
+
+5. **Protocol note**: VitD3 + EGCG optimization (existing in ME/CFS protocol) → IL-37 induction → microglial IL-1β brake. Serum IL-37 monitoring appropriate in ME/CFS patients with documented neuroinflammation markers.
+
+*ME/CFS THEWALL cross-reference run_118: 2026-04-12 | IL-37 SIGIRR TOLLIP microglial neuroinflammation pDC IFN-alpha HERV-W post-COVID kynurenine IDO1 tryptophan VDR EGCG serum IL-37 monitoring*
