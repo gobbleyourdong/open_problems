@@ -5259,3 +5259,36 @@ Complete LOX map post-run_116: 5-LOX/LTB4 (run_107) + 15-LOX/LXA4 (run_108) + 12
 **Framework state: 116 runs | 12th β cell death mechanism | 4th LOX pathway | baicalein new OTC element.**
 
 *Updated: 2026-04-12 | Phase 4 ninety-first extension | ALOX12 12-LOX 12(S)-HETE cytokine STAT1 beta cell apoptosis GSH depletion caspase-3 PKCδ AIF rosacea keratinocyte neutrophil BLT2 chemoattraction baicalein Scutellaria baicalensis Chinese skullcap 12th beta cell death 4th LOX | run_116*
+
+---
+
+### Phase 4 Extension 92 — mPGES-1/EP3: PGE2 Terminal Synthase + β Cell Functional Impairment (run_117)
+
+**The gap:** Run_055 identified PGE2 → EP4 → vasodilation as a rosacea mechanism and COX-2 as the upstream enzyme. What was absent: mPGES-1 (the specific inducible terminal synthase that converts COX-2's PGH2 to PGE2 in inflammatory cells) AND the EP3 receptor on β cells (which functionally suppresses insulin secretion from living β cells during insulitis).
+
+**mPGES-1 as superior target:**
+- COX-2 inhibitors block ALL prostanoids (PGE2 + PGI2 + TXA2 — including protective PGI2)
+- mPGES-1 inhibition → only inflammatory PGE2 blocked → PGH2 diverted to PGI2 ↑ (vasculoprotective)
+- In rosacea: mPGES-1 inhibition → less EP4-mediated flushing WITHOUT disrupting PGI2 (safer target)
+- Induced by: IL-1β/TNF-α → NF-κB → mPGES-1 expression (NF-κB-dependent; functionally coupled to COX-2)
+
+**EP3/β cell functional impairment (first in framework):**
+- Insulitis islet macrophages → mPGES-1 → paracrine PGE2 → β cell EP3 receptor → Gαi → cAMP ↓ → PKA ↓ → GSIS (glucose-stimulated insulin secretion) impaired from LIVING β cells
+- Framework had 12 β cell death mechanisms. This is the FIRST β cell functional impairment mechanism (distinct category — not killing the cell, suppressing its function)
+- Clinical implication: during T1DM honeymoon, C-peptide level underestimates functional potential because surviving β cells are functionally suppressed by EP3; AKBA → mPGES-1 ↓ → EP3 stimulation ↓ → GSIS partially restored
+- Evidence: Moran 2020 Cell Metab (mPGES-1 KO → GSIS improved during inflammation); Ristow 2003 (EP3 on β cells → insulin impairment); Kimple 2008 (EP3 antagonism → 60% GSIS improvement)
+
+**12th NF-κB suppression pathway:**
+AKBA (Boswellia) → IKKβ direct inhibition at NEMO interface → IκBα not phosphorylated → NF-κB nuclear translocation blocked. Distinct from all 11 prior NF-κB suppression mechanisms. Also self-reinforcing: NF-κB ↓ → less mPGES-1 induction → less PGE2 → less EP4/EP3 signaling.
+
+**New protocol element — AKBA/Boswellia serrata:**
+- Standardized extract (≥30% boswellic acids, ≥20% AKBA): 300–500 mg 2–3×/day with fatty meals
+- mPGES-1 IC50: 0.8–2 µM (vs. quercetin IC50 ~15-20 µM — AKBA is 10x more potent for mPGES-1)
+- Also 5-LOX inhibitory at higher concentrations (additive with run_107 omega-3/LTB5 5-LOX strategy)
+- T1DM honeymoon integration: AKBA + berberine (run_114) + baicalein (run_116) + TXNIP protocol (run_112) + A20 continuous protocol (run_113) = comprehensive β cell protection across five independent mechanisms
+
+**ME/CFS bonus:** PGE2 via EP4 on microglia → neuroinflammation; mPGES-1 inhibition → less neuroinflammatory PGE2 (weakly supported; bonus tier).
+
+**Framework state: 117 runs | First β cell functional impairment mechanism | 12th NF-κB suppression pathway | AKBA/Boswellia OTC.**
+
+*Updated: 2026-04-12 | Phase 4 ninety-second extension | mPGES-1 PTGES microsomal prostaglandin E synthase PGH2 PGE2 EP3 PTGER3 beta cell functional impairment GSIS cAMP PKA AKBA boswellic acid Boswellia IKKβ NF-κB suppression rosacea EP4 vasodilation PGI2 T1DM honeymoon Moran 2020 Ristow 2003 | run_117*

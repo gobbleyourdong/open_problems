@@ -893,3 +893,23 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 6. **Synergy logic**: Omega-3 reduces AA substrate (12-LOX fuel); baicalein inhibits ALOX12 enzyme (12-LOX activity); sulforaphane replenishes GSH (12-HETE downstream damage compensation). Three-tier 12-HETE defense in T1DM.
 
 *T1DM THEWALL cross-reference run_116: 2026-04-12 | ALOX12 12-LOX 12(S)-HETE STAT1 GSH depletion PKCδ AIF caspase-3 12th beta cell death mechanism Bleich 1995 NOD mouse Metz 2016 human islet baicalein Scutellaria T1DM honeymoon berberine run_114 combined*
+
+---
+
+### run_117 cross-reference: mPGES-1/EP3 — First β Cell Functional Impairment Mechanism
+
+**T1DM-specific mechanisms from run_117:**
+
+1. **First β cell FUNCTIONAL IMPAIRMENT mechanism**: Framework had 12 β cell death mechanisms (runs 001-116). This is the first mechanism about LIVING β cells being functionally suppressed rather than killed. Insulitis macrophage mPGES-1 → paracrine PGE2 → β cell EP3 → Gαi → cAMP ↓ → PKA ↓ → GSIS (glucose-stimulated insulin secretion) impaired. Surviving β cells are functionally incapacitated by autocrine/paracrine PGE2.
+
+2. **Clinical significance for T1DM honeymoon**: C-peptide level underestimates functional β cell potential because EP3-mediated suppression is ongoing. AKBA → mPGES-1 ↓ → PGE2 ↓ → EP3 stimulation ↓ → partial GSIS restoration from surviving β cells. This is why some patients have more C-peptide "reserve" than clinical insulin production suggests.
+
+3. **Evidence**: Moran 2020 Cell Metab (mPGES-1 KO → GSIS improved during inflammation; islet macrophage source confirmed); Ristow 2003 (EP3 on β cells → Gαi → insulin impairment); Kimple 2008 (EP3 antagonism → 60% GSIS improvement in mouse islets).
+
+4. **mPGES-1 selectivity**: Unlike NSAIDs (block all prostanoids), mPGES-1 inhibition → only inflammatory PGE2 ↓; PGI2 preserved or increased; safer for T1DM patients who already have endothelial risk.
+
+5. **Protocol addition**: AKBA (Boswellia serrata, 300–500 mg 2–3×/day with fatty meals). T1DM honeymoon integration: AKBA (run_117) + berberine/run_114 + baicalein/run_116 + BHB/calcitriol/run_112 + continuous protocol/run_113 = five simultaneous β cell protection/restoration mechanisms.
+
+6. **C-peptide monitoring protocol**: Baseline C-peptide → add AKBA → reassess C-peptide at 4-6 weeks. Functional improvement (not mass recovery) suggests EP3 contribution was active. This adds a new therapeutic monitoring approach for honeymoon management.
+
+*T1DM THEWALL cross-reference run_117: 2026-04-12 | mPGES-1 PTGES PGE2 EP3 PTGER3 beta cell GSIS functional impairment cAMP PKA insulin secretion AKBA Boswellia serrata honeymoon C-peptide monitoring Moran 2020 Ristow 2003 Kimple 2008*

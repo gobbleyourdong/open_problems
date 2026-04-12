@@ -3156,3 +3156,25 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 5: 116 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-ninth extension | ALOX12 12-LOX 12(S)-HETE pro-inflammatory LOX cytokine-induced STAT1 beta cell apoptosis GSH depletion caspase-3 rosacea keratinocyte neutrophil chemoattraction BLT2 baicalein baicalin Scutellaria 12th beta cell death mechanism 4th LOX pathway | run_116*
+
+---
+
+### Extension 110 — mPGES-1/EP3: Terminal PGE2 Synthase and β Cell Functional Impairment (run_117)
+
+**Gap confirmed:** mPGES-1 (PTGES), EP3 receptor on β cells (PTGER3), AKBA, Boswellia serrata — all absent from 116 prior runs. Run_055 covers COX-2/PGE2 broadly (flushing mechanism) but never identifies mPGES-1 as the specific inducible terminal synthase. EP3 on β cells appears once in run_055 (vasoconstriction table) — not in the β cell functional context.
+
+**Core insight:** Run_055 identifies PGE2 → EP4 → vasodilation as the rosacea flushing mechanism. This run completes the chain: mPGES-1 (induced by IL-1β/NF-κB in inflammatory macrophages) converts COX-2's PGH2 product to the inflammatory PGE2 in run_055's scenario. The new contribution: (1) mPGES-1 is a more specific target than COX-2 (preserves PGI2 when inhibited — safer than NSAIDs); (2) β cell EP3 receptor → Gαi → GSIS impairment = first β cell FUNCTIONAL IMPAIRMENT mechanism (not death — living β cells functionally suppressed).
+
+**New mechanisms added (run_117):**
+- **First β cell functional impairment mechanism**: mPGES-1 (islet macrophage) → PGE2 → β cell EP3 → Gαi → cAMP ↓ → PKA ↓ → GSIS impaired (Moran 2020 Cell Metab; Ristow 2003; Kimple 2008 J Biol Chem). Framework had 12 β cell death mechanisms + 0 functional impairment mechanisms → this is the 1st.
+- **12th NF-κB suppression pathway**: AKBA → IKKβ direct kinase inhibition at NEMO interface (distinct from all 11 prior NF-κB suppression mechanisms)
+- T1DM honeymoon clinical significance: EP3 → GSIS suppression from surviving β cells explains why C-peptide underestimates functional potential; AKBA → mPGES-1 ↓ → EP3 stimulation ↓ → partial GSIS restoration
+
+**New protocol element:**
+- **AKBA / Boswellia serrata extract** (standardized to ≥30% boswellic acids, ≥20% AKBA): mPGES-1 inhibitor (IC50 ~0.8-2 µM); OTC; 300–500 mg extract 2–3×/day with fatty meal for absorption.
+- Selectivity advantage: mPGES-1 inhibition → PGE2 ↓ without blocking PGI2 (vasculoprotective). Superior to NSAIDs for rosacea flushing management.
+- Additive with colchicine (different Loop 2 nodes), omega-3 (substrate + enzyme tiers), berberine + baicalein (additional β cell protection mechanisms).
+
+**Framework at SATURATION + 6: 117 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-tenth extension | mPGES-1 PTGES microsomal prostaglandin E synthase PGH2 PGE2 terminal synthase EP3 PTGER3 beta cell GSIS functional impairment cAMP PKA insulin secretion AKBA boswellic acid Boswellia IKKβ NF-κB suppression rosacea EP4 vasodilation PGI2 T1DM honeymoon first beta cell functional mechanism | run_117*

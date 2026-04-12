@@ -756,3 +756,17 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 3. **Protocol note**: Baicalein (500–1000 mg/day) → ALOX12 inhibition → platelet 12-HETE ↓. Not a first-line ME/CFS intervention but worth considering in patients with documented platelet hyperactivation, elevated D-dimer, or post-exertional microvascular crash patterns.
 
 *ME/CFS THEWALL cross-reference run_116: 2026-04-12 | ALOX12 12-LOX 12(S)-HETE platelet hyperactivation microthrombus Long COVID post-viral baicalein Scutellaria 12-HETE metabolomics*
+
+---
+
+### run_117 cross-reference: mPGES-1/EP3 — Neuroinflammatory PGE2 Bonus
+
+**ME/CFS-specific from run_117 (BONUS tier — weak evidence, mechanistically plausible):**
+
+1. **Neuroinflammatory PGE2 via EP4 on microglia**: mPGES-1 in neuroinflammatory microglia → PGE2 → EP4 on adjacent microglia/neurons → neuroinflammation amplification. Some ME/CFS neuroinflammation evidence involves elevated PGE2 in CSF (limited data). mPGES-1 inhibition → less neuroinflammatory PGE2.
+
+2. **AKBA CNS penetration**: Boswellic acids can cross the blood-brain barrier to some degree → direct CNS mPGES-1 inhibition possible (relevant to neuroinflammation in ME/CFS beyond peripheral effects).
+
+3. **Protocol note**: AKBA is reasonable to consider in ME/CFS if rosacea/T1DM co-occur (where the mechanistic case is stronger) — use T1DM/rosacea indications as primary justification.
+
+*ME/CFS THEWALL cross-reference run_117: 2026-04-12 | mPGES-1 PGE2 EP4 microglia neuroinflammation AKBA Boswellia BBB penetration bonus tier*

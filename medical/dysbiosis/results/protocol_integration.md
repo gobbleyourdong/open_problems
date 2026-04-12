@@ -3966,3 +3966,52 @@ Each arm is mechanistically independent; combined protocol addresses four distin
 - **Baicalein + colchicine**: different targets (12-LOX vs. microtubule/NLRP3); no interaction concern
 
 *Protocol_integration.md Part 9bq — 2026-04-12 | ALOX12 12-LOX 12(S)-HETE baicalein Scutellaria baicalensis Chinese skullcap 12th beta cell death T1DM honeymoon rosacea Loop 2 neutrophil BLT2 LOX protocol map complete baicalein+omega-3 baicalein+sulforaphane triple beta cell protection | run_116*
+
+---
+
+### Part 9br — mPGES-1/EP3: AKBA/Boswellia as Targeted PGE2 Inhibitor (run_117)
+
+#### New Protocol Element: AKBA / Boswellia serrata Extract
+
+**Mechanism:** AKBA (acetyl-11-keto-β-boswellic acid) inhibits mPGES-1 → blocks PGE2 production from COX-2's PGH2 product. More specific than NSAIDs: PGI2 is preserved (PGH2 diverted to prostacyclin synthesis). Also inhibits IKKβ → NF-κB suppression (12th suppression pathway).
+
+**Dose:** 300–500 mg of standardized Boswellia serrata extract (≥30% boswellic acids, ≥20% AKBA content), 2–3 times/day **with fatty meals** (fat increases boswellic acid absorption 2–3x; bioavailability is poor on empty stomach). Total 600–1500 mg/day.
+
+**Patient selection — when to add AKBA:**
+1. **T1DM honeymoon** (first priority): EP3-mediated GSIS impairment in surviving β cells; AKBA → mPGES-1 ↓ → less EP3 stimulation → partial restoration of insulin secretion from living β cells. Add with berberine + baicalein for multi-mechanism β cell support.
+2. **Rosacea ETR with prominent flushing** (second priority): mPGES-1 inhibition → less PGE2/EP4 vasodilation; better tolerated than NSAIDs (PGI2 preserved). Consider if flushing non-responsive to existing protocol.
+3. **Rosacea PPR** with persistent macrophage-driven Loop 2: AKBA → mPGES-1 + IKKβ/NF-κB dual blockade → additive with colchicine.
+4. ME/CFS with neuroinflammation pattern: bonus tier — weak evidence but mechanistically plausible.
+
+#### T1DM Honeymoon: New "Functional Recovery" Target
+
+The EP3/GSIS mechanism introduces a new therapeutic goal for the honeymoon period: **restoring insulin secretion from surviving β cells** (not just preventing their death).
+
+Current honeymoon protocol targets (death prevention):
+- TXNIP (run_112): BHB + calcitriol
+- A20/RIP1 (run_113): continuous protocol + butyrate  
+- GSK-3β/MCL-1 (run_114): berberine
+- ALOX12/12-HETE (run_116): baicalein
+
+New honeymoon target (functional restoration):
+- **mPGES-1/EP3 (run_117): AKBA** → surviving β cells secrete more insulin despite ongoing low-level insulitis
+
+Monitoring correlate: C-peptide should be measured BEFORE and AFTER addition of AKBA to establish a functional baseline. If C-peptide improves with AKBA (without other protocol changes), this confirms EP3-mediated suppression was contributing.
+
+#### Selectivity Advantage Over NSAIDs for Rosacea
+
+| Intervention | PGE2 | PGI2 | TXA2 | Notes |
+|-------------|------|------|------|-------|
+| NSAIDs (COX-2 inh.) | ↓↓ | ↓↓ | ↓↓ | Blocks all prostanoids; renal/cardiac risk |
+| Aspirin | ↓ | ↓ (irreversible COX-1) | ↓↓ | Also acetylated-COX-2 → ATL (run_108 benefit) |
+| **AKBA (mPGES-1 inh.)** | **↓↓** | **→ (preserved/↑)** | **→ (preserved)** | **Selectively reduces PGE2 only** |
+
+This selectivity means AKBA is the preferred OTC prostanoid intervention for rosacea — it reduces the flushing-driving PGE2/EP4 without compromising the vasculoprotective PGI2.
+
+#### Synergy Profile
+- **AKBA + colchicine**: NLRP3 ↓ (colchicine) + NF-κB/mPGES-1 ↓ (AKBA) = dual Loop 2 attenuation from different nodes
+- **AKBA + omega-3**: omega-3 reduces AA (mPGES-1 substrate); AKBA inhibits mPGES-1 enzyme → two-tier PGE2 reduction
+- **AKBA + baicalein (run_116)**: different eicosanoid arms (PGE2 vs. 12-HETE); together address two distinct inflammatory lipid mediators
+- **AKBA + berberine (run_114)**: both benefit T1DM honeymoon via different mechanisms; additive β cell support
+
+*Protocol_integration.md Part 9br — 2026-04-12 | mPGES-1 PTGES PGE2 EP3 PTGER3 beta cell GSIS functional impairment AKBA boswellic acid Boswellia serrata IKKβ NF-κB suppression rosacea EP4 vasodilation PGI2 T1DM honeymoon functional recovery C-peptide monitoring selectivity NSAIDs omega-3 colchicine baicalein berberine synergy | run_117*
