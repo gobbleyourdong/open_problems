@@ -90,8 +90,9 @@ Any dysbiosis attempt should check:
 | attempt_013_m8_neuroimmune_hpa.md | M8 | **New mountain** — HPA/CRH/neurogenic (amplifier) | STRONG CANDIDATE (amplifier) |
 | attempt_014_m5_m6_maternal_treg.md | M5↔M6 | **Sky bridge** — maternal fiber → fetal Treg floor | STRONG CANDIDATE |
 | attempt_015_m8_sky_bridges.md | M8→M4/M1/M7 | **Sky bridges** — M8 formal connections (3 bridges) | M8→M1: STRONG; M8→M4/M7: CANDIDATE |
+| attempt_016_m1_m8_bidirectional_loop.md | M1→M8 | **Sky bridge** — gut dysbiosis → HPA dysregulation (bottom-up, closes loop) | CANDIDATE (Sudo 2004 GF mouse; human data limited) |
 
-**8 mountains. 10+ sky bridges. M8 is amplifier connecting to M7, M1, M4, M2.**
+**8 mountains. 12+ sky bridges. M1↔M8 is a closed bidirectional loop. Novel: M6 × M8 interaction — early-life dysbiosis permanently reduces HPA dampening capacity.**
 
 See `../results/phase3_synthesis.md` for the complete mountain connection map and bridge evidence table.
 See `../results/protocol_integration.md` for the complete actionable protocol synthesis.

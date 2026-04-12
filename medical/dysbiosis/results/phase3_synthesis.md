@@ -110,6 +110,8 @@ Bridge legend:
   015-B1: M8→M4  CAND   — cortisol → GR downregulation → functional Treg failure
   015-B2: M8→M1  STRONG — CRH → intestinal mast cells → I-FABP independent of diet
   015-B3: M8→M7  CAND   — cortisol → sIgA suppression → P. gingivalis facilitated
+  016-B1: M1→M8  CAND   — gut dysbiosis → reduced SCFA → HPA hypersensitivity (Sudo 2004)
+  016-B2: M1→M8  CAND   — gut LPS → enteroendocrine CRF → HPA priming (without external stress)
 ```
 
 ---
@@ -129,10 +131,12 @@ Bridge legend:
 | M8→M4 (cortisol → GR downregulation → Treg failure) | 015-B1 | Miller 2009 PNAS + Pace 2007 PNAS | Hair cortisol × Treg suppressive capacity in T1DM cohort |
 | M8→M1 (CRH → mast cells → I-FABP independent of diet) | 015-B2 | Söderholm 2002 Gastroenterology + Klooker 2010 Gut | Stress-event I-FABP vs diet-matched controls; quercetin RCT |
 | M8→M7 (cortisol → sIgA suppression → P. gingivalis facilitated) | 015-B3 | Bosch 2011 review + Wimmer 2002 + Plummer 1993 | Salivary IgA × cortisol × P. gingivalis counts prospective cohort |
+| M1→M8 (gut dysbiosis → SCFA loss → HPA hypersensitivity) | 016-B1 | Sudo 2004 J Physiol (GF mouse HPA); Yano 2015 Cell (gut serotonin) | Gut protocol → cortisol reduction WITHOUT stress intervention RCT |
+| M1→M8 (gut LPS → enteroendocrine CRF → HPA priming) | 016-B2 | Enteroendocrine CRF literature; Theoharides 2012 | I-FABP × hair cortisol correlation controlling for PSS-10 |
 
-**Status: M3↔M7, M1↔M4, M2+M4 loop, M6↔M4, M5↔M6, M8→M1 = STRONG CANDIDATES.**
-**M3↔M2, M5↔M7, M7→M1, M8→M4, M8→M7 = CANDIDATES.**
-**8 mountains, 10+ bridges. M8 is amplifier: connects to M7, M1, M4, M2.**
+**Status: M3↔M7, M1↔M4, M2+M4 loop, M6↔M4, M5↔M6, M8→M1, M1↔M8 combined = STRONG CANDIDATES.**
+**M3↔M2, M5↔M7, M7→M1, M8→M4, M8→M7, M1→M8 individual = CANDIDATES.**
+**8 mountains, 12+ bridges. M1↔M8 is a closed bidirectional loop. M8 amplifier connects to all other mountains.**
 
 ---
 
