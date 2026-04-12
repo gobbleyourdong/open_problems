@@ -116,3 +116,32 @@ See `../dysbiosis/numerics/run_044_helicobacter_pylori_m7_extension.md` and run_
 *Updated: 2026-04-12 | M7 hepatic bridge cross-pollination from dysbiosis run_044*
 *P. gingivalis → portal → Kupffer cell TLR4/NF-κB primes hepatic inflammation → amplifies CVB hepatitis severity*
 *Propolis mouthwash + chlorhexidine during CVB hepatitis: reduces oral P. gingivalis burden → less Kupffer cell amplification*
+
+---
+
+## Cross-pollination from dysbiosis run_064 — Complement Activation via P. gingivalis Portal Route
+
+**P. gingivalis → portal complement activation in liver disease:**
+
+The hepatic complement system (produced primarily by hepatocytes: C3, C4, Factor B, properdin)
+is the primary source of systemic complement proteins. P. gingivalis LPS arriving via the portal
+vein (dysbiosis run_037: gingival crevicular fluid → swallowed → portal circulation) activates:
+
+**Alternative complement at Kupffer cell level:**
+P. gingivalis LPS → hepatic portal circulation → Kupffer cell TLR4 (established, run_037) PLUS
+→ hepatocyte-produced complement factor B + properdin → alternative C3 convertase on Kupffer
+cell surface → C3a (local) + C5a → Kupffer cell C5aR → IL-1β + TNF-α + IL-6 → hepatic
+inflammatory amplification
+
+**In chronic liver disease (NASH/NAFLD context):**
+Gut dysbiosis (M1) + oral P. gingivalis (M7) → dual LPS input to portal → hepatocyte steatosis
+→ impaired complement regulation (C1 inhibitor ↓ in NASH) → uncontrolled complement activation.
+This predicts: patients with both periodontal disease AND gut dysbiosis have the highest hepatic
+complement burden.
+
+**C3/C5 cleavage products in NASH:** C3a and C5a both activate hepatic stellate cells (via
+C3aR and C5aR) → TGF-β → fibrosis progression. P. gingivalis → complement → fibrosis arm
+in liver.
+
+**Cross-references:** dysbiosis run_064 (complement cascade); dysbiosis run_037 (P. gingivalis portal route → Kupffer TLR4)
+*Cross-pollination: 2026-04-12 | Complement P. gingivalis portal alternative pathway Kupffer C5a liver fibrosis NASH*

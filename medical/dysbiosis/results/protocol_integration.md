@@ -1340,3 +1340,713 @@ See `numerics/run_050_sleep_apnea_hif1a_m8.md`.
 *Part 9a: OSA/CPAP protocol + updated M8 six-mechanism reference table*
 *Numerics run 050 completes this mapping session — runs 030-050 in this session alone*
 *Framework comprehensive coverage achieved: 8 mountains × 5+ mechanisms each × 4 non-responder loops × 3 NLRP3 priming sources × 6 NF-κB suppressors × 3 NLRP3 cell contexts*
+
+---
+
+## Part 9b — M7 Positive Rebalancing: S. salivarius K12 Oral Probiotic Protocol
+
+**The ecological vacuum problem (run_051):**
+M7 antibiotic suppression (metronidazole + chlorhexidine + SRP) eliminates red complex load but
+creates an ecological vacancy. Without active recolonization, P. gingivalis + T. denticola +
+T. forsythia recolonize in 6-12 weeks from salivary reservoir. S. salivarius K12 competitive
+exclusion prevents this recolonization by occupying the same tonge dorsum + sulcular econiches
+via salivaricin B continuous production.
+
+**S. salivarius K12 Protocol:**
+
+| Step | Timing | Action | Rationale |
+|------|--------|--------|-----------|
+| Suppress phase | Day 0-14 | Metronidazole 500mg TID + SRP + chlorhexidine 0.12% BID | Reduce red complex load |
+| Handoff | Day 15 | STOP chlorhexidine | Chlorhexidine kills K12 |
+| Colonize start | Day 15 | START S. salivarius K12 lozenge 1/day after brushing | High inoculum when oral competition temporarily reduced |
+| Maintenance antimicrobial | Day 15+ | Propolis mouthwash BID (compatible; gram-negative selective) | Continues chemical suppression without killing K12 |
+| Consolidation | Month 1-3 | K12 lozenge daily + propolis mouthwash BID | Establish resident K12 population |
+| Monitoring | 3 months | Salivary PCR (OralDNA panel): P. gingivalis / T. denticola / T. forsythia | Confirm red complex below threshold |
+| Ongoing | Long-term | K12 lozenge daily | Sustained colonization (~85-90% vs. natural 30%) |
+
+**K12 Supplementation Specification:**
+- Product: BLIS K12 lozenges (Blis Technologies Ltd or licensed; Streptococcus salivarius K12 ≥1×10⁹ CFU)
+- Dose: 1 lozenge after evening tooth brushing (colonization peaks when brush temporarily reduces competing bacteria)
+- Cost: ~$15-25/month
+- Duration: ongoing; natural colonization rate ~30% without supplementation; daily lozenge boosts to ~85-90%
+
+**Compatibility check:**
+| Agent | Compatible with K12? | Rationale |
+|-------|---------------------|-----------|
+| Propolis mouthwash (CAPE) | YES | CAPE targets gram-negative bacteria (LPS disruption); K12 is gram-positive → spared |
+| Chlorhexidine | NO | Bactericidal to ALL bacteria including gram-positive K12; must stop before introducing K12 |
+| Metronidazole (oral) | Conditional | Primarily anaerobic spectrum; K12 is aerotolerant; monitor but systemic metronidazole generally compatible |
+| LGG (oral) | YES | Different ecological niche (gut vs. oral); complementary |
+
+**Evidence base:**
+- Wescombe 2012 Front Microbiol: K12 lozenges × 3 months → P. gingivalis in GCF ↓ 62% vs. placebo
+- Scariya 2016 J Clin Periodontol (RCT N=45): K12 + SRP → P. gingivalis + T. denticola ↓ at 3 months > SRP alone
+- Di Pierro 2010: persistent colonization efficacy evidence (pharyngitis recurrence ↓ 90% with K12)
+
+**sIgA strategy integration:**
+- LGG → gut sIgA → M1 barrier + blocks M7 oral-gut P. gingivalis colonization route
+- K12 → oral sIgA (via oral MALT → cross-reactive sIgA against red complex peptidoglycan epitopes)
+- Combined: dual-site sIgA strategy covering both M1 (gut) and M7 (oral) mucosal immune recovery
+
+**Kill criteria watching:**
+1. K12 colonization persistence after lozenge cessation: limited data >6 months; daily maintenance assumed required for high-risk periodontal patients
+2. T. forsythia response to K12: indirect mechanism (F. nucleatum bridge inhibition → T. forsythia loses plaque attachment partner); salivary PCR at 3 months can test
+
+See `numerics/run_051_oral_probiotics_salivarius.md`.
+
+---
+
+## Part 9c — Arginase/NOS/Spermidine: L-Citrulline as Seventh NF-κB Suppressor
+
+**Mechanistic rationale (run_052):**
+M1 dysbiosis → NF-κB → arginase-1 ↑ → L-arginine substrate depleted from eNOS → NO ↓ →
+less IKKβ Cys179 S-nitrosylation → NF-κB MORE ACTIVE (positive feedback). T1DM amplifies this
+with triple eNOS suppression (arginase competition + PKC-βII Thr495 uncoupling + BH4 oxidation).
+L-citrulline bypasses hepatic first-pass arginase to restore eNOS substrate → NO → IKKβ suppression.
+
+**L-Citrulline Protocol:**
+
+| Parameter | Specification |
+|-----------|--------------|
+| Form | L-citrulline (NOT L-arginine — hepatic arginase degrades ~50% oral L-arginine before reaching circulation) |
+| Dose | 2g BID (morning + evening) |
+| Evidence tier | Mechanistic; Morita 2014 (citrulline → plasma arginine ↑ 100% vs. arginine supplement ↑ 60%); no rosacea RCT |
+| Monitoring | Not required; safe at this dose; benign amino acid |
+| T1DM consideration | Estruch-Sastre 2021: L-citrulline safe in T1DM; no glucose effect |
+| Contraindications | Acute renal impairment (reduce dose if eGFR <30); nitrate drug interactions (theoretical) |
+| Cost | ~$15-20/month |
+| Protocol tier | Tier 3 (mechanistically justified; low direct evidence) |
+
+**Updated Seven NF-κB Suppression Mechanisms:**
+
+| # | Agent | Target | Tier | In protocol? |
+|---|-------|--------|------|-------------|
+| 1 | Colchicine 0.5mg BID | IKK complex formation (microtubule scaffold) | High | Yes — core |
+| 2 | Sulforaphane (broccoli sprout 50-100g/day) | CBP/p300 coactivator competition | Medium | Yes — dietary |
+| 3 | Vagal α7-nAChR (cold/breathing/LDN) | IKKβ inhibitory phosphorylation (JAK2/STAT3) | High | Yes — M8 |
+| 4 | CAPE/propolis mouthwash | IKKβ active site + p65 Cys38 alkylation | High | Yes — M7 oral |
+| 5 | MK-7 180µg/day | NEMO/IKK complex (Gas6/Axl/SOCS1) | Medium | Yes — Part 8q |
+| 6 | Ivermectin 1% topical | importin α/β-1 → p65 nuclear entry blocked | High | Yes — M2 |
+| 7 | L-citrulline 2g BID | IKKβ Cys179 S-nitrosylation (via eNOS/NO) | Low-medium | Optional (Tier 3) |
+
+**Vagal CAP dual suppression reminder:**
+Vagal tone (cold exposure, Wim Hof breathing, LDN 4.5mg QHS) suppresses NF-κB via TWO
+simultaneous pathways:
+- JAK2/STAT3 → inhibitory IKKβ phosphorylation (run_029)
+- eNOS activation → NO → IKKβ Cys179 S-nitrosylation (run_052)
+This dual mechanism explains the disproportionate NF-κB suppression from vagal interventions
+vs. single-target agents.
+
+**The biphasic flare prediction:**
+NF-κB → arginase → NO deficit (immediate) AND ornithine → spermidine → mitophagy (12-24h
+delayed). Clinically: rosacea trigger → peak flush/inflammation at hours (NO deficit phase)
+→ spontaneous resolution over 24-48h (spermidine/mitophagy resolution phase). Patients should
+be counseled that self-resolving is mechanistically expected; intervention targets the PEAK phase.
+
+See `numerics/run_052_arginase_nos_spermidine.md`.
+
+---
+
+## Part 9d — FMT for M6 Floor (Future Research Avenue; Not Currently Accessible)
+
+**Status: NOT in standard protocol (regulatory barrier; IND required for all non-C.diff indications in US)**
+
+**What FMT provides vs. current M6 protocol:**
+
+| Component | Current protocol (run_045) | FMT addition |
+|-----------|---------------------------|-------------|
+| Butyrate/SCFA | Tributyrin/sodium butyrate 6g/day | FMT-engrafted Clostridia → endogenous butyrate |
+| Akkermansia | Supplement 5×10¹⁰ CFU/day | Transferred as part of donor ecosystem (more durable) |
+| F. prausnitzii | Not specifically supplemented | Super-donor provides F. prausnitzii community |
+| Bacteroidetes | Dietary fiber → enrichment | Transferred directly; faster establishment |
+| Foxp3 CNS2 methylation | Not addressable | Also not addressable — structural floor remains |
+
+**When FMT becomes available (research trial access):**
+Pre-FMT preparation → super-donor selection → intensive dosing × 2 weeks → sustained dietary
+fiber support + butyrate continuation. Expected M6 score improvement: 1-2 points (composition
+component only). T-index Node A monitoring at 6 months.
+
+**Decisive gap:** No adult human RCT measuring Foxp3+ Treg fraction after FMT; this is the
+key missing experiment before FMT can be incorporated as a framework-recommended M6 intervention.
+
+See `numerics/run_053_fmt_m6_compensation.md`.
+
+---
+
+## Part 9e — AhR/Indole (L. reuteri) + PGE2/COX-2 (Topical Diclofenac) Protocol Additions
+
+### Part 9e-i: L. reuteri DSM 17938 — AhR/IL-22 Third Gut Barrier Mechanism
+
+**Rationale (run_054):** Third independent gut barrier mechanism — indoles → AhR → IL-22 →
+MUC2 + ZO-1 + RegIII-γ → barrier recovery. Complements Akkermansia (run_026) and
+butyrate (run_032). L. reuteri is the dominant IAld-producing commensal.
+
+| Parameter | Specification |
+|-----------|--------------|
+| Strain | L. reuteri DSM 17938 (BioGaia Protectis; most studied for IAld/AhR) |
+| Dose | 5×10⁸ CFU/day (1 tablet; dissolve in mouth or chew) |
+| Timing | With food; compatible with LGG (different niche — small bowel/colon mucosa vs. colon) |
+| Duration | Ongoing (sustained colonization for continuous IL-22) |
+| Evidence tier | Zelante 2013 Immunity (L. reuteri → IAld → AhR → IL-22 essential for mucosal protection) |
+| Cost | ~$25-35/month |
+| Contraindications | None; safe across T1DM |
+
+**Additional benefit:** L. reuteri also produces reuterin (3-hydroxypropionaldehyde) →
+broad-spectrum antimicrobial activity including against H. pylori. Four adjunct RCTs: L. reuteri
++ triple H. pylori therapy → eradication rate ↑ 10-15%. If M7 H. pylori eradication is
+concurrent, L. reuteri has dual benefit (gut AhR/IL-22 + gastric H. pylori competitive exclusion).
+
+**Broccoli sprouts dual mechanism (updated from Part 8p):**
+Broccoli sprouts 50-100g/day: sulforaphane → NF-κB CBP/p300 suppression (existing Part 8p) +
+I3C (indole-3-carbinol) → AhR → IL-22 → gut barrier (run_054 NEW). Same dietary source,
+two independent anti-inflammatory mechanisms.
+
+---
+
+### Part 9e-ii: Topical Diclofenac 1% — PGE2/COX-2 Flushing Reduction
+
+**Rationale (run_055):** NF-κB → COX-2 → PGE2 → EP4 → cAMP → vasodilation = the direct
+inflammatory flushing bridge. Topical diclofenac blocks COX-2 locally in dermis without
+systemic gastric risk.
+
+| Parameter | Specification |
+|-----------|--------------|
+| Product | Diclofenac sodium 1% topical gel (Voltaren Arthritis Pain; OTC in US since 2020) |
+| Dose | Apply thin layer to flushing-affected areas (cheeks, nose, chin) QD-BID |
+| Timing | After morning niacinamide/moisturizer layer (or separate AM application) |
+| Evidence tier | Mechanism-confirmed (COX-2 elevated in rosacea; Cox 1976; Lonne-Rahm 2004); no diclofenac-specific rosacea RCT |
+| Compatibility | Compatible with niacinamide 4%, vitamin E; allow 10 min between layers |
+| Contraindications | NSAID hypersensitivity; aspirin-exacerbated respiratory disease; third trimester pregnancy |
+| Cost | ~$15-20/month |
+| Protocol tier | Tier 3 (mechanism-justified; low direct evidence) |
+
+**Omega-3 update (from Part 8j — updated rationale):**
+Fish oil 3g EPA+DHA/day already in protocol (run_033: SCD1/sebum composition). Now SECOND
+mechanism confirmed: EPA/DHA → competitive COX-2 substrate → PGE3 (10-100× less potent than
+PGE2 at EP4) replacing PGE2 → net vasodilation ↓. Two mechanisms; no change to dose.
+
+**Quercetin update (from propolis — already in protocol):**
+Quercetin now has FOUR mechanisms documented:
+1. Mast cell cAMP stabilization (run_042)
+2. NLRP3 NACHT domain inhibition (run_006)
+3. TPH1 suppression → EC 5-HT ↓ (run_047)
+4. COX-2 inhibition → PGE2 ↓ (run_055)
+No change to quercetin/propolis dosing; mechanistic understanding updated.
+
+See `numerics/run_054_ahr_indole_tryptophan.md` and `numerics/run_055_pgd2_cox2_flushing.md`.
+
+---
+
+## Part 9f — L. reuteri as M7 Gastric Adjunct (H. pylori Competitive Exclusion)
+
+**Mechanism: L. reuteri → reuterin → H. pylori antimicrobial activity**
+L. reuteri produces reuterin (3-hydroxypropionaldehyde; 3-HPA) — a broad-spectrum antimicrobial
+produced from glycerol via glycerol dehydratase. Reuterin → inhibits H. pylori (MIC ~3-5 µg/mL
+for reuterin in vitro) and reduces H. pylori gastric adhesion density. Additionally: L. reuteri
+→ competitive ecological exclusion from gastric mucosa → H. pylori attachment sites occupied.
+
+**Clinical evidence:**
+- Francavilla 2014 Helicobacter (meta-analysis of 4 RCTs): L. reuteri adjunct to triple H.
+  pylori therapy → eradication rate ↑ ~10-15% vs. triple therapy alone
+- Zheng 2018 Helicobacter (N=214): L. reuteri DSM 17938 × 4 weeks before triple therapy →
+  H. pylori density ↓ on biopsy (pre-treatment with L. reuteri reduces H. pylori load before
+  antibiotics → improves antibiotic efficacy)
+- Side effect benefit: L. reuteri concurrent with triple therapy → antibiotic-associated diarrhea ↓ 40%
+
+**Protocol integration:**
+L. reuteri DSM 17938 5×10⁸ CFU/day → START 4 weeks BEFORE H. pylori triple therapy
+(reduces H. pylori density pre-treatment → better antibiotic efficacy) → CONTINUE during
+triple therapy (reduces diarrhea) → CONTINUE post-eradication (prevents recolonization).
+This adds a reuteri-gastric arm to the M7 protocol alongside the oral K12 arm.
+
+**Compatibility:**
+- L. reuteri + omeprazole: compatible (different pH sensitivity; some acid suppression may
+  actually help L. reuteri survival in stomach by raising gastric pH)
+- L. reuteri + clarithromycin/amoxicillin: partially susceptible to clarithromycin; administer
+  L. reuteri 2h after antibiotic doses to maximize viable organisms
+
+See `numerics/run_054_ahr_indole_tryptophan.md` (reuterin mechanism) and
+`numerics/run_044_helicobacter_pylori_m7_extension.md`.
+
+---
+
+## Part 9g — VDR/Vitamin D3: Node E Revised Target + Eighth NF-κB Suppressor
+
+**Summary of run_056 protocol implications:**
+
+| Component | Previous protocol | Updated |
+|-----------|------------------|---------|
+| Node E target | >40 ng/mL 25(OH)D3 | **>60 ng/mL** (T1DM four CYP27B1 impairment paths require higher substrate pool) |
+| Vitamin D3 dose | 2000-4000 IU/day | **4000-6000 IU/day** (to reach 60-80 ng/mL; titrate by monitoring) |
+| K2/MK-7 co-dose | 180µg/day | **180µg/day** (unchanged; required with D3 >2000 IU/day for MGP carboxylation) |
+| NF-κB mechanism | Not listed | **Eighth NF-κB suppressor: calcitriol → VDR → p65 sequestration + IκBα ↑** |
+| Monitoring | 25(OH)D3 at baseline | 25(OH)D3 at baseline + 3 months; adjust dose to 60-80 ng/mL target; stop at >100 ng/mL |
+
+**Vitamin D3 + K2 combination now has three independent framework mechanisms:**
+1. Calcitriol/VDR → Foxp3 ↑ → Treg ↑ → M4 host threshold ↑
+2. Calcitriol/VDR → p65 sequestration + IκBα ↑ → NF-κB ↓ (eighth suppressor)
+3. MK-7/Gas6/Axl/SOCS1 → IKKβ ↓ → NF-κB ↓ (fifth suppressor; run_039)
+
+**Complete eight NF-κB suppressor reference:**
+
+| # | Agent | Target | Current protocol? |
+|---|-------|--------|------------------|
+| 1 | Colchicine 0.5mg BID | IKK microtubule scaffold | Yes — core |
+| 2 | Sulforaphane (broccoli sprouts 50-100g) | CBP/p300 coactivator | Yes — dietary |
+| 3 | Vagal CAP (cold/breathing/LDN 4.5mg QHS) | IKKβ JAK2/STAT3 + eNOS/NO | Yes — M8 |
+| 4 | Propolis/CAPE mouthwash | IKKβ + p65 Cys38 | Yes — M7 oral |
+| 5 | MK-7 180µg/day | NEMO/IKK (Gas6/Axl/SOCS1) | Yes — Part 8q |
+| 6 | Ivermectin 1% topical | importin α/β-1 → p65 nuclear entry | Yes — M2/Demodex |
+| 7 | L-citrulline 2g BID | IKKβ Cys179 S-nitrosylation (eNOS/NO) | Optional Tier 3 |
+| 8 | Vitamin D3 4000-6000 IU + K2 180µg | VDR → p65 sequestration + IκBα ↑ | Yes — Node E (updated dose) |
+
+Note: Vagal mechanism #3 suppresses NF-κB via TWO independent pathways simultaneously (JAK2/STAT3 + eNOS/NO/S-nitrosylation per run_052).
+
+See `numerics/run_056_vdr_m4_treg_threshold.md`.
+
+---
+
+## Part 9h — HA Fragmentation Loop + Topical EGCG Protocol Addition
+
+**New mechanism (run_058):** Low-MW HA oligomers from ROS fragmentation → TLR4 → NF-κB —
+an endogenous self-amplifying loop in rosacea dermis. Treatment-resistant rosacea may be
+sustained by this loop independent of ongoing microbial LPS input.
+
+| Intervention | Mechanism | Dose | Tier |
+|-------------|-----------|------|------|
+| Oral high-MW HA | Shifts dermal HA pool → high-MW → CD44 → anti-inflammatory | 240 mg/day with food | Tier 3 |
+| Topical EGCG (green tea extract) | HYAL1/HYAL2 inhibition → less HA fragmentation | 3-5% topical; QD-BID | Tier 3 |
+| SPF 50 (already in protocol) | UV-ROS reduction → less HA fragmentation | — | Already Tier 1 |
+| Vitamin E topical (already in protocol) | Squalene-OOH ROS scavenging → less HA fragmentation | — | Already Tier 1 |
+| Glycemic control HbA1c <7.5% | Uncoupled eNOS O2•- ↓ → less HA fragmentation | — | Already Tier 1 |
+
+**Clinical signal for HA fragmentation loop:**
+Suspect active HA fragmentation loop when: (1) rosacea persists despite microbiome protocol
+adherence >3 months; (2) no obvious trigger pattern; (3) rosacea worsens after physical
+exertion (→ more ROS → HA fragmentation burst). In these patients: add oral HA 240mg + topical
+EGCG as anti-DAMP strategies.
+
+See `numerics/run_058_hyaluronic_acid_tlr4_damp.md`.
+
+---
+
+## Part 9i — AGE-RAGE Protocol: Carnosine + Benfotiamine for T1DM Duration-Dependent Rosacea
+
+**Mechanism (run_060):** T1DM collagen AGE (3-5× normal) → RAGE → NF-κB = persistent,
+microbiome-independent dermal NF-κB activation that scales with T1DM duration. Cannot be
+cleared by current intervention (collagen half-life 15-30 years). Prevention + rate-reduction
+is the only accessible strategy.
+
+**Anti-AGE Protocol:**
+
+| Intervention | Mechanism | Dose | Evidence Tier | When to Add |
+|-------------|-----------|------|--------------|-------------|
+| HbA1c <7.0% | Reduces rate of new AGE formation | Glycemic management | Tier 1 | Always (primary) |
+| Carnosine | Sacrificial glycation + Cu2+ chelation → CML ↓ | 1000-1500mg/day | Tier 2 (animal + mechanistic) | T1DM duration >5 years |
+| Benfotiamine (fat-soluble thiamine) | Blocks hexosamine + DAG/PKC + methylglyoxal AGE pathways | 300-600mg/day | Tier 2 (Hammes 2003) | T1DM duration >5 years |
+| Quercetin (propolis; already in protocol) | AGE formation (Cu2+ chelation) + RAGE gene expression ↓ | — | Tier 3 (add-on) | Already in protocol |
+
+**T-index Node F (SAF — candidate new node):**
+Consider adding Skin Autofluorescence (SAF) measurement to T-index for T1DM patients with
+duration >5 years + refractory rosacea. SAF reflects cumulative collagen AGE burden
+independently of current HbA1c. AGE Reader device (DiagnOptics Technologies NV) is non-invasive.
+If SAF elevated for age → AGE-RAGE driven NF-κB is an active contributor → priority for
+carnosine + benfotiamine.
+
+**Clinical signal for AGE-RAGE contribution:**
+Suspect AGE-RAGE-dominant component when: (1) T1DM duration >10 years; (2) rosacea severity
+exceeds what microbiome protocol improvement predicts; (3) skin has waxy/thickened texture
+(AGE-crosslinked collagen texture); (4) prior poor glycemic control history even if current
+HbA1c is good.
+
+See `numerics/run_060_age_rage_nfkb_t1dm.md`.
+
+---
+
+## Part 9j — Senolytic Protocol for T1DM Duration-Dependent Rosacea + Telangiectasia
+
+**Mechanism (run_061):** Senescent cells → SASP (IL-1α + VEGF + MMP-9) → persistent
+NF-κB priming + telangiectasia progression + amplification of AGE-RAGE and HA-TLR4 loops.
+SASP IL-1α is caspase-1-INDEPENDENT → colchicine does not block it → senolytics required.
+
+**Senolytic Protocol:**
+
+| Agent | Dose | Schedule | Target mechanism | Evidence tier |
+|-------|------|----------|-----------------|--------------|
+| Quercetin (supplement; HIGH-DOSE) | 1000mg | 3 consecutive days/month | BCL-xL + MCL-1 inhibition → senescent cell apoptosis | Tier 2 (Hickson 2019 DKD; D+Q analog) |
+| Fisetin (strawberry extract or supplement) | 100-200mg | Same 3 days/month as quercetin | BCL-2 + SIRT1 → senescent cell clearance | Tier 3 (Yousefzadeh 2018) |
+| TRE 8-10h window (already M8/circadian) | — | Daily | mTORC1 ↓ → SASP mRNA stability ↓ + reduces new senescence induction | Tier 1 |
+
+**Quercetin dosing differentiation (prevent confusion):**
+- Propolis mouthwash / low-dose quercetin: mast cell + NLRP3 + TPH1 + COX-2 + AGE-RAGE (mechanisms 1-5); daily continuous
+- High-dose quercetin 1000mg pulsed: senolytic — mechanism 6; 3 days/month
+These are additive and serve different mechanisms.
+
+**When to initiate senolytic protocol:**
+- T1DM duration >10 years
+- Telangiectasia progressing despite anti-inflammatory protocol
+- Node B elevated and not responding to 6 months of full protocol
+- Skin inspection shows waxy, stiff texture (AGE + senescence markers)
+
+Note: Dasatinib (classic D+Q combination) is a prescription cancer drug with toxicity profile; NOT recommended OTC. Quercetin + fisetin provides substantial senolytic benefit with a far better safety profile.
+
+See `numerics/run_061_senescence_sasp_rosacea.md`.
+
+---
+
+## Part 9k — IL-17A/Th17 → KLK5: Protocol Implications for M4 → Loop 1 Control
+
+**Mechanism (run_062):** IL-17A → NF-κB → KLK5 = fourth KLK5 input; M4/Loop 1 bidirectional
+bridge. Current protocol already addresses all four KLK5 inputs:
+
+| KLK5 Input | Protocol element | Run |
+|-----------|-----------------|-----|
+| IGF-1/mTORC1 → S6K1 | Metformin/AMPK, TRE, omega-3, low-GI diet | run_031 |
+| SP/NK1R (neurogenic) | Capsaicin desensitization × 4 weeks, MBSR | run_042 |
+| DHT/AR (sebaceous) | Spironolactone (PCOS women); saw palmetto (men) | runs_049, 057 |
+| IL-17A/NF-κB | Vitamin D3 (VDR → Foxp3 → Th17 ↓) + colchicine (NF-κB) + omega-3 (Th17 polarization ↓) | run_062 |
+
+**Updated omega-3 mechanisms (three independent):**
+1. SCD1/sebum composition → less Malassezia-favorable sebum (run_033)
+2. Competitive COX-2 substrate → PGE3 replacing PGE2 → less vasodilation (run_055)
+3. EPA → GPR120 on DCs → IL-6/IL-23 ↓ → Th17 polarization ↓ → IL-17A ↓ → KLK5 ↓ (run_062)
+Dose: 3g EPA+DHA/day already in protocol — no change; mechanistic understanding updated.
+
+**Colchicine blocks BOTH the IL-17A input AND NLRP3 output:**
+Colchicine → (1) NLRP3/ASC colocalization blocked → IL-1β ↓ (run_002); (2) IKK complex
+formation blocked → NF-κB ↓ → KLK5 ↓ (run_062 NF-κB arm). IL-1β potentiates IL-17A secretion
+from Th17; colchicine → IL-1β ↓ → less IL-1β-driven Th17 amplification → less IL-17A →
+less KLK5. Colchicine has a THIRD Loop 1 suppression pathway beyond direct NLRP3 and
+indirect NF-κB: colchicine → IL-1β ↓ → Th17 amplification ↓ → IL-17A ↓ → KLK5 ↓.
+
+See `numerics/run_062_il17a_th17_kls5_loop1.md`.
+
+---
+
+## Part 9l — cGAS-STING Protocol: SPF + Niacinamide as Anti-cGAS Photoprotection
+
+**Mechanism (run_063):** UV-B → CPD DNA damage → apoptotic DNA fragments → cGAS → cGAMP →
+STING → IFN-β (IFNAR → ISGF3 → NLRP3 ISRE = Signal 1B amplification) + STING → NF-κB →
+COX-2 + NLRP3 Signal 1A. Timecourse: flush peaks 45-120 min post-UV; persists 24-48h.
+
+**cGAS-STING Prevention (already in protocol — mechanistic confirmation):**
+
+| Intervention | cGAS-STING mechanism | Protocol status |
+|-------------|---------------------|----------------|
+| SPF 50 broad-spectrum | Blocks UV-B → CPD formation → less cGAS ligand | Tier 1; already core |
+| Topical niacinamide 4% | NAD+ → PARP-1 → faster CPD repair → less DNA fragments → less cGAS activation | Tier 1; already core (mechanism updated) |
+| Topical EGCG 3-5% (from run_058) | UV-B absorption at 270 nm → less CPD → less cGAS ligand | Tier 3; added run_058 |
+| Omega-3 3g/day | EPA → less arachidonic acid-derived lipid mediators post-UV → less cGAS-STING amplification | Tier 1; indirect |
+
+**T1DM-specific UV management:**
+Node D elevation (high IFN-α2 from M3) → IFNAR pre-sensitized → lower UV threshold for
+flushing. High-Node-D patients require SPF on all exposed skin year-round, not just summer.
+UV challenge after Node D measurement: a testable clinical prediction — patients with Node D
+>6 pg/mL should have measurable UV tolerance reduction vs. Node D <3 pg/mL patients.
+
+**Niacinamide updated mechanism count (topical):**
+1. SIRT1 → NLRP3 K496 deacetylation → NLRP3 activation threshold ↑
+2. NAD+ → MLCK inhibition → tight junction stability (gut context; less relevant topically)
+3. NAD+ → PARP-1 → CPD repair → less cGAS ligand (photoprotection; run_063)
+No dose change: topical niacinamide 4% already in protocol; third mechanism adds photoprotection rationale.
+
+See `numerics/run_063_cgas_sting_uv_innate.md`.
+
+---
+
+## Part 9m — Framework Synthesis: Complete Mechanism Atlas (2026-04-12 Update)
+
+**Summary of new mechanisms added since run_030 (this session):**
+
+| Run | Topic | Key new mechanism(s) |
+|-----|-------|---------------------|
+| 030 | Oral red complex / LGG | P. gingivalis oral → portal; sIgA restoration via LGG |
+| 031 | IGFBP-3/free IGF-1 | T1DM triple IGFBP-3 depletion; Loop 1/4 via mTORC1 |
+| 032 | Butyrate delivery | Tributyrin; microbiome → butyrate → claudin + colonocyte |
+| 033 | SCD1/Malassezia | Sebum oleic acid ↑ / linoleic ↓ → Malassezia → NLRP3 Signal 2 |
+| 034 | NOD2/butyrate | NOD2 → NF-κB; butyrate → NOD2 ↑ (innate training) |
+| 035 | BMAL1/circadian | BMAL1 ↓ → REV-ERBα/β → NLRP3 transcription; fifth M8 mechanism |
+| 036 | Propolis/CAPE | CAPE → IKKβ/p65 Cys38 alkylation; fourth NF-κB suppressor |
+| 037 | Exogenous BHB | 1,3-butanediol 15g/day; T1DM glucose gate |
+| 038 | C. acnes/Loop 4 | Blue light → porphyrin → squalene-OOH → NLRP3 (acne/rosacea convergence) |
+| 039 | MK-7/NF-κB | Gas6/Axl/SOCS1/NEMO → fifth NF-κB suppressor |
+| 040 | IFN-α/NLRP3/M3-Loop2 | ISGF3 → NLRP3 ISRE = Signal 1B; M3/Loop2 architecturally connected |
+| 041 | Spermidine/mitophagy | EP300 → Beclin-1 → mitophagy → Signal 2 SOURCE removed; fifth NLRP3 pathway |
+| 042 | Mast cell stabilization | Four inputs; quercetin + capsaicin; C5a bridge from M1 |
+| 043 | β cell NLRP3/intra-islet | β cell gasdermin D; anakinra failure explained; colchicine > IL-1Ra |
+| 044 | H. pylori M7 | CagA/VacA dual signal; OR 2.47; LGG concurrent PPI |
+| 045 | M6 early-life | Foxp3 CNS2 structural floor; 4-point score; M6 protocol adjustments |
+| 046 | Demodex/B. oleronius | Endosymbiont TLR4/NOD1; ivermectin = Demodex kill + sixth NF-κB suppressor |
+| 047 | Gut serotonin/5-HT | EC TPH1; T1DM → elevated plasma 5-HT; quercetin → TPH1 (third mechanism) |
+| 048 | Keratinocyte NLRP3 | Third NLRP3 cell context; DAMP propagation; topical = keratinocyte NLRP3 protocol |
+| 049 | PCOS/IGF-1 | Two IGFBP-3 mechanisms; four-arm Loop 1/4; metformin Cosma 2019 |
+| 050 | OSA/HIF-1α/M8 | Sixth M8 mechanism; third NLRP3 priming source; CPAP highest M8 priority |
+| 051 | S. salivarius K12 | BLIS salivaricin B; M7 ecological vacuum; chlorhexidine → K12 timing |
+| 052 | Arginase/NOS | NF-κB → ARG1 → NO ↓ → NF-κB (feedback); ornithine → spermidine (delayed); seventh NF-κB suppressor |
+| 053 | FMT/M6 | FMT can reconstitute composition floor; cannot reverse CNS2 methylation; regulatory barrier |
+| 054 | AhR/indole | Third gut barrier mechanism; L. reuteri IAld; broccoli sprouts dual mechanism |
+| 055 | PGE2/COX-2 | NF-κB → COX-2 → PGE2 → EP4 → vasodilation; explains NSAID effect; quercetin fourth mechanism |
+| 056 | VDR/M4 | VDR → Foxp3 (VDRE -700); eighth NF-κB suppressor (p65 sequestration + IκBα); Node E >60 ng/mL |
+| 057 | SHBG/men | T1DM men: three SHBG suppression paths → free T → DHT → Loop 4; FAI monitoring |
+| 058 | HA/TLR4/DAMP | ROS → low-MW HA → TLR4; self-amplifying endogenous dermal NF-κB loop |
+| 059 | Zinc/zonulin | Fourth gut barrier mechanism; MLCK + ZO-1 PDZ + PAR-2; T1DM zinc wasting |
+| 060 | AGE-RAGE | T1DM collagen AGE 3-5×; RAGE → DIAPH1/Rac1 → NF-κB; carnosine + benfotiamine; quercetin fifth mechanism |
+| 061 | Senescence/SASP | Four T1DM senescence pathways; SASP MMP-9 hub; senolytics (quercetin + fisetin); quercetin sixth mechanism |
+| 062 | IL-17A/Th17/KLK5 | Fourth KLK5 input; M4→Loop1 bidirectional bridge; omega-3 third mechanism |
+| 063 | cGAS-STING | UV → CPD → cGAS → IFN-β + NF-κB; explains UV flush lag; niacinamide PARP-1 fourth mechanism |
+
+**Total mechanisms documented this session: 33 new runs; 60+ independent mechanisms**
+**All 8 mountains now fully analyzed with multiple mechanisms each**
+
+---
+
+## Part 9n — Complement/C5a Pathway: Protocol Implications (run_064)
+
+### Mechanism Context
+Classical complement: anti-P. gingivalis IgG + antigen → C1q → C5a → mast cell degranulation.
+Alternative complement: LPS → properdin/C3bBb → C5a (innate; no IgG required).
+Both pathways converge on C5aR (CD88) on skin mast cells → histamine + tryptase + PGD2.
+
+### IgG Persistence Paradox — Patient Communication Point
+
+| Timeframe | Expected Clinical Course | Mechanism |
+|-----------|--------------------------|-----------|
+| Days 0-14 | Improving (or stable) | M7 antibiotics suppress P. gingivalis |
+| Weeks 2-8 | Possible TRANSIENT WORSENING | Bacterial lysis → antigen burst → IgG complexes → C5a spike |
+| Months 2-4 | Gradual return to new lower baseline | Antigen cleared; IgG half-life 21 days; immune complexes cleared |
+| Month 3 | OralDNA panel test point | Verify P. gingivalis/T. denticola below threshold |
+
+**Patient instruction:** If rosacea transiently worsens 2-8 weeks into M7 treatment, this is the treatment working. Do NOT stop the protocol. Continue S. salivarius K12 colonization + propolis mouthwash maintenance. The flare is from immune complex clearance of dead bacterial antigens, not treatment failure.
+
+### Quercetin as Complement Pathway Attenuator
+
+Quercetin 500-1000mg/day (ongoing, from propolis protocol or supplemental quercetin):
+- Mechanism 7: C1q binding inhibition → classical complement ↓ (Lu 2016 IC50 12.4 µM)
+- Provides additional mechanistic rationale for ongoing quercetin during M7 treatment
+- No change to quercetin dosing — already in protocol from mechanisms 1-6
+
+### Omega-3 as Mast Cell Sensitization Reducer
+
+EPA/DHA 3g/day (ongoing, from omega-3 protocol):
+- Mechanism 4: EPA → resolvin E1 → C5aR (CD88) downregulation on mast cells
+- Reduces mast cell sensitivity to ANY C5a-driven degranulation
+- No change to omega-3 dosing — already in protocol
+
+### Tryptase/PAR-2/KLK5 Loop — No New Agent Required
+
+The fifth KLK5 input (tryptase → PAR-2 → KLK5) is downstream of mast cell degranulation.
+Interventions targeting UPSTREAM mast cell stabilization (quercetin, omega-3, capsaicin 
+desensitization) will automatically reduce tryptase release → less PAR-2 → less KLK5.
+No additional agent needed; Loop 1 KLK5 suppression already addressed via mTORC1 protocol.
+
+### Updated KLK5 Input Summary
+
+| Input | Source | Protocol coverage |
+|-------|--------|-------------------|
+| IGF-1/mTORC1 → S6K1 | M5 dietary | Low-GI + metformin (PCOS) |
+| SP/NK1R → PKC → AP-1 | M8 neurogenic | Capsaicin desensitization |
+| DHT/AR → ARE | Loop 4 androgenic | Saw palmetto (men only; run_057) |
+| IL-17A/NF-κB | M4 Th17 | VDR/D3 Foxp3 ↑; omega-3 GPR120 Th17 ↓ |
+| Tryptase/PAR-2 → AP-1 | Mast cell feedback | Quercetin + omega-3 (upstream mast cell stabilization) |
+
+### Updated Quercetin Protocol Note (Seven Mechanisms)
+
+Quercetin 500-1000mg/day remains the single most mechanistically dense intervention:
+1. Mast cell cAMP stabilization (direct)
+2. NLRP3 NACHT domain inhibition (Loop 2)
+3. TPH1 → 5-HT ↓ (M1/gut serotonin)
+4. COX-2 → PGE2 ↓ (vasodilation arm)
+5. AGE formation inhibition + RAGE ↓ (T1DM-specific)
+6. Senolytic BCL-xL/MCL-1 inhibition (pulsed dosing: 1000mg × 3 days/month)
+7. C1q complement inhibition (classical pathway → C5a ↓)
+
+For senolytics (mechanism 6): pulsed high-dose (1000mg × 3 days/month).
+For mechanisms 1-5, 7: daily 500mg ongoing.
+If using propolis (CAPE 5%+ quality): quercetin from propolis covers mechanisms 1, 4, 5, 7 at lower dose; supplement separately for mechanisms 2, 3, 6.
+
+*Protocol_integration.md Part 9n — 2026-04-12 | Complement C5a mast cell IgG paradox tryptase PAR-2 KLK5 quercetin seven mechanisms omega-3 four mechanisms*
+
+---
+
+## Part 9o — T-index v4: Node F (SAF) Formalization (run_065)
+
+### T-index v4 Complete Node Table
+
+| Node | Biomarker | Test | Target | Action if abnormal |
+|------|-----------|------|--------|-------------------|
+| A | Foxp3+ Tregs | Flow cytometry | >8% CD4+ | VDR/D3 protocol; Node E optimization |
+| B | Inflammatory tone | hsCRP + IL-6 + IL-1β | Composite normal | Mountain-specific suppression |
+| C | I-FABP | Plasma ELISA | <150 pg/mL | M1 gut barrier protocol |
+| D | IFN-α2 | Simoa ultrasensitive | <0.05 fg/mL | LDN + antiretroviral consideration |
+| E | 25(OH)D3 | LCMS serum | >60 ng/mL | Vitamin D3 4000-6000 IU/day |
+| F | SAF | AGE Reader volar forearm | <2.0 AU (age-adj) | See AGE-RAGE protocol |
+
+**Testing cadence:**
+- Every 3 months: Nodes B, C, E
+- Every 6 months: Nodes A, D
+- Every 12-24 months: Node F
+
+### Node F Action Protocol
+
+| SAF (AU) | Status | Action |
+|----------|--------|--------|
+| <2.0 | Green | No AGE protocol; antioxidant baseline only |
+| 2.0–2.8 | Yellow | Carnosine 1000mg/day + glycemic optimization |
+| 2.8–3.5 | Orange | Carnosine 1500mg + benfotiamine 300mg/day |
+| >3.5 | Red | Carnosine 2000mg + benfotiamine 300mg + quercetin 500mg + fisetin 100-200mg |
+
+**If telangiectasia present at any Node F Orange/Red level:** Add PDL/IPL referral note — anti-inflammatory alone will not clear structural VEGF-driven vessels.
+
+**If AGE Reader unavailable:** Use sVCAM-1 (plasma ELISA). sVCAM-1 >1200 ng/mL → treat as Node F Orange/Red equivalent.
+
+### Integration Note
+
+Node F Red patients with concurrent Node D elevation and OSA (pre-CPAP) have all three
+independent NLRP3 priming sources active: NF-κB (AGE-RAGE), ISGF3 (IFN-α), HIF-1α (OSA).
+This "perfect storm" profile requires full multi-mountain protocol at maximum doses.
+CPAP (if OSA confirmed) must be initiated BEFORE judging protocol response — HIF-1α Signal
+1C will override all other interventions in untreated OSA.
+
+*Protocol_integration.md Part 9o — 2026-04-12 | T-index v4 Node F SAF AGE Reader carnosine benfotiamine fisetin VCAM-1 proxy*
+
+---
+
+## Part 9p — Adipokine Protocol: Visceral Adiposity in T1DM (run_066)
+
+### Screening Criterion
+Waist circumference ≥94 cm (men) or ≥80 cm (women) → activate adipokine protocol.
+Optional confirmation: plasma resistin ELISA >20 ng/mL.
+
+### Mechanism Context
+Resistin (continuous TLR4 activator, proportional to visceral fat) + leptin (TLR4 sensitizer)
++ adiponectin ↓ (loss of AMPK/IKKβ brake) = triple adipokine NF-κB disinhibition.
+This raises the basal NF-κB floor so all episodic activators (LPS, HMGB1, HA) now exceed
+NLRP3 threshold with smaller perturbations.
+
+### Adipokine Protocol
+
+| Intervention | Dose | Mechanism | Evidence |
+|-------------|------|-----------|----------|
+| Metformin (if not already on PCOS arm) | 500-1000mg/day with meals | AMPK → IKKβ inhibition + visceral fat ↓ | Cosma 2019 (PCOS/T1DM); off-label T1DM |
+| Aerobic exercise | 150 min/week moderate | Adiponectin ↑ + resistin ↓ + visceral fat ↓ | Church 2011 Diabetes Care |
+| Resistance training | 2×/week | Muscle AMPK → glucose uptake → less adipogenesis | Standard |
+| Omega-3 EPA/DHA | 3g/day (already in protocol) | GPR120 → NF-κB ↓; adiponectin ↑ | Already covers mechanism |
+
+### Monitoring
+
+| Parameter | Frequency | Target | Action if unmet |
+|-----------|-----------|--------|----------------|
+| Waist circumference | Every 3 months | <94 cm (M) / <80 cm (W) | Increase exercise; metformin dose ↑ |
+| Plasma resistin (optional) | Every 6 months | <15 ng/mL | Protocol adherence review |
+
+### Integration with Existing Protocol
+
+No new medications required if patient is already on metformin (PCOS arm). Exercise prescription
+is additive to all existing protocol arms. Waist circumference measurement is trivial and should
+be added to the T-index monitoring visit as a vital sign alongside blood pressure and weight.
+
+*Protocol_integration.md Part 9p — 2026-04-12 | Resistin adipokine TLR4 visceral adiposity metformin exercise AMPK*
+
+---
+
+## Part 9q — HMGB1-RAGE Convergence: Protocol Synthesis (run_067)
+
+### Mechanism Context
+Loop 2 pyroptosis → HMGB1 released → two sequential NF-κB arms:
+1. TLR4 (disulfide HMGB1) → acute NF-κB spike (hours)
+2. RAGE (oxidized HMGB1) → sustained NF-κB (hours-days, driven by ongoing ROS)
+
+In T1DM: RAGE pre-engaged with AGEs → HMGB1 adds to constitutive signal → additive NF-κB.
+Three RAGE ligands simultaneously present during flare: AGEs + HMGB1 + S100A8/A9.
+
+### No New Agents Required
+
+This run is a SYNTHESIS analysis — it explains WHY existing protocol elements work:
+
+| Existing protocol element | Mechanism vs. HMGB1-RAGE convergence |
+|--------------------------|---------------------------------------|
+| VDR/D3 (Node E >60 ng/mL) | RAGE receptor expression ↓ → all three ligands encounter fewer receptors |
+| MK-7/Gas6/Axl | RAGE transcription ↓ (SOCS1 → STAT1 suppression → RAGE mRNA ↓) |
+| NLRP3 prevention protocol | Less pyroptosis → less HMGB1 released → less TLR4 + RAGE activation |
+| Carnosine + benfotiamine (Node F) | AGE ligand burden ↓ over time → RAGE partially de-loaded |
+| Spermidine/mitophagy (run_041) | Mitochondrial ROS ↓ → less HMGB1 oxidation → slower RAGE arm |
+
+### Clinical Implication
+
+Loop 2 flares in T1DM are prolonged relative to non-T1DM rosacea because the RAGE arm
+generates NF-κB for hours-days after the initial pyroptotic event. Clinically:
+- Non-T1DM rosacea: flare subsides 12-24h after trigger removal (TLR4 arm resolves)
+- T1DM rosacea: flare persists 48-96h even after trigger removed (RAGE arm sustained by ROS)
+
+This prediction is testable: T1DM rosacea patients should report longer flare durations than
+non-T1DM rosacea patients per unit trigger intensity.
+
+**Protocol priority implication:** In T1DM, PREVENTING pyroptotic events (upstream NLRP3
+suppression) is more important than in non-T1DM rosacea because each Loop 2 event generates
+a self-amplifying HMGB1-RAGE signal that persists much longer.
+
+*Protocol_integration.md Part 9q — 2026-04-12 | HMGB1 RAGE TLR4 dual receptor VDR MK-7 synthesis Loop 2 sustained flare*
+
+---
+
+## Part 9r — Calprotectin Monitoring + S100A8/A9 TLR4 Context (run_068)
+
+### New Monitoring Parameter: Serum Calprotectin
+
+| Parameter | Assay | Normal | Active rosacea | Severe |
+|-----------|-------|--------|---------------|--------|
+| Serum calprotectin | PhiCal ELISA | <1.0 µg/mL | 2-5 µg/mL | >5 µg/mL |
+
+**When to use:** At baseline (before protocol start) and at 3-month follow-up. A falling
+calprotectin confirms macrophage NF-κB suppression is working. Persistent elevation at
+3 months despite protocol → incomplete mountain targeting or unidentified trigger.
+
+**Not fecal calprotectin** (IBD standard; measures intestinal macrophages). Use SERUM for
+rosacea monitoring.
+
+### Self-Amplification Implication for Protocol Timeline
+
+S100A8/A9 NF-κB-positive feedback means: after pathogen elimination (M1/M7 treatment),
+the calprotectin loop sustains macrophage activation 4-8 weeks independently. Therefore:
+- Full rosacea improvement may require 8-12 weeks from start of M1/M7 protocol
+- Do NOT judge protocol failure at 4 weeks — calprotectin loop resolution takes time
+- Serum calprotectin at 3 months is the objective check point
+
+### Five Endogenous TLR4 Activators: Protocol Coverage
+
+| TLR4 Activator | Protocol targeting |
+|----------------|-------------------|
+| LPS | M1 gut barrier (LGG + Akkermansia + butyrate + indoles + zinc) + M7 oral (antibiotics + K12) |
+| HMGB1 | Upstream NLRP3 prevention (eight suppression pathways; Loop 2 prevention) |
+| Low-MW HA | EGCG topical (HYAL inhibition) + oral high-MW HA 240mg/day + SPF 50 |
+| Resistin | Metformin + exercise (visceral fat ↓) |
+| S100A8/A9 | All NF-κB suppression pathways (upstream macrophage NF-κB ↓ → S100A8/A9 transcription ↓) |
+
+*Protocol_integration.md Part 9r — 2026-04-12 | Calprotectin serum monitoring S100A8/A9 TLR4 five endogenous activators*
+
+---
+
+## Part 9s — AMPK/NLRP3 Protocol Update (run_069)
+
+### No New Agents Required
+
+AMPK → NLRP3 Ser291 is already covered by existing protocol agents:
+- Metformin (for waist ≥94/80 cm + PCOS arm)
+- Exercise (150 min/week aerobic + 2× resistance)
+- BHB/1,3-butanediol (ketosis arm; BHB also activates AMPK)
+
+### Updated Metformin Mechanism Summary (for patient communication)
+
+Metformin's six mechanisms in this framework:
+1. AMPK → IKKβ inhibitory phosphorylation → NF-κB ↓
+2. AMPK → NLRP3 Ser291 → inflammasome assembly blocked
+3. Visceral fat reduction → resistin ↓ → TLR4 ↓
+4. IGF-1/mTORC1 ↓ → KLK5 ↓ (PCOS arm)
+5. Mitochondrial complex I → direct ROS reduction
+6. Akkermansia proliferation → M1 gut barrier support
+
+The metformin/exercise prescription (Part 9p) remains unchanged. This run adds mechanistic
+depth explaining WHY the protocol works, particularly in T1DM where hyperglycemia suppresses
+endogenous AMPK — making exogenous AMPK activation via metformin mechanistically critical.
+
+*Protocol_integration.md Part 9s — 2026-04-12 | AMPK NLRP3 Ser291 metformin exercise six mechanisms*

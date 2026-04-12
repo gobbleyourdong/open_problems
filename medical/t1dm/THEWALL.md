@@ -151,3 +151,134 @@ See `../dysbiosis/numerics/run_043_beta_cell_nlrp3_intraislet.md` for full analy
 *Updated: 2026-04-12 | β cell NLRP3 intra-islet loop import from dysbiosis run_043*
 *Anakinra failure explained: IL-1Ra → blocks signaling not production; gasdermin pyroptosis proceeds; NLRP3 inhibitors (colchicine) prevent both pathways*
 *Priority: C-peptide positive new-onset T1DM + elevated Node D → NLRP3 inhibition is β cell preservation; start within 3-6 months of diagnosis*
+
+---
+
+## Triple eNOS Suppression in T1DM — Arginase/NOS Cross-Pollination (from dysbiosis run_052, 2026-04-12)
+
+**T1DM-specific triple eNOS suppression:**
+T1DM is uniquely susceptible to maximal eNOS uncoupling via three simultaneous mechanisms:
+
+1. **Arginase competition (M1-driven):** M1 gut dysbiosis → NF-κB → ARG1 ↑ → L-arginine
+   substrate competition → eNOS substrate depleted → NO ↓ even with eNOS protein present
+
+2. **PKC-βII Thr495 phosphorylation (hyperglycemia-driven):** Hyperglycemia → diacylglycerol
+   accumulation → PKC-βII activation → eNOS Thr495 (inhibitory phosphorylation) → eNOS
+   uncoupled: produces O2•- (superoxide) instead of NO → converts anti-inflammatory enzyme
+   into ROS source → NLRP3 Signal 2 contribution
+
+3. **BH4 oxidation (oxidative stress-driven):** Chronic oxidative stress in T1DM → BH4
+   (tetrahydrobiopterin cofactor required for coupled eNOS) oxidized to BH2 (inactive) →
+   additional eNOS uncoupling beyond PKC phosphorylation
+
+**Net T1DM consequence:**
+- NO production → near zero (triple block)
+- Superoxide from uncoupled eNOS → NLRP3 Signal 2 (the very enzyme meant to suppress
+  inflammation is producing the activation signal for NLRP3)
+- NF-κB maximally disinhibited (no IKKβ Cys179 S-nitrosylation possible)
+- Cardiovascular consequence: endothelial dysfunction → diabetic vascular disease
+
+**T1DM-specific intervention priority:**
+L-citrulline 2g BID may restore eNOS substrate even in the presence of arginase competition
+(citrulline bypasses hepatic arginase → kidney → L-arginine → eNOS). However, if eNOS is
+uncoupled (Thr495 + BH4 deficit), L-citrulline alone is insufficient — substrate restored but
+enzyme uncoupled → still produces superoxide. The uncoupling must also be addressed:
+- BH4 (sapropterin, 10-20 mg/kg/day) → re-couples eNOS → NO restored; prescription only;
+  approved for PKU but used off-label in T1DM endothelial dysfunction
+- Glycemic control (HbA1c <7.5%) → PKC-βII activity ↓ → less Thr495 phosphorylation (the most
+  accessible intervention for eNOS re-coupling in T1DM)
+
+**Priority statement:** HbA1c improvement is the most impactful single intervention for T1DM
+eNOS function because it addresses PKC-βII Thr495 uncoupling (the most severe eNOS block when
+both PKC and arginase are active simultaneously).
+
+See `../dysbiosis/numerics/run_052_arginase_nos_spermidine.md`.
+
+*Updated: 2026-04-12 | T1DM triple eNOS suppression from dysbiosis run_052*
+*Three simultaneous mechanisms: arginase competition (M1 NF-κB) + PKC-βII Thr495 (hyperglycemia) + BH4 oxidation (ROS) → maximal NO deficit + uncoupled eNOS → NLRP3 Signal 2*
+*HbA1c improvement = most accessible eNOS re-coupling strategy (reduces PKC-βII Thr495 phosphorylation)*
+
+---
+
+## Cross-pollination from dysbiosis run_064 — Complement/C5a in T1DM
+
+**Complement → intra-islet mast cell activation in T1DM:**
+
+T1DM islets contain resident mast cells (Ehses 2009: islet mast cell density increased in T1DM
+donors vs. controls). The complement pathway provides a mechanism for how P. gingivalis
+bacteremia (M7 portal route: run_037) → circulating LPS → alternative complement → C5a →
+islet mast cells → tryptase + TNF-α → local β cell inflammation.
+
+**Alternative complement (innate; no IgG required):**
+P. gingivalis LPS → systemic circulation → properdin/factor B/factor D → C3bBb → C5 → C5a
+→ islet mast cells (C5aR/CD88 expression confirmed in islet tissue)
+→ tryptase → PAR-2 on β cells → PKC → NF-κB → NLRP3 priming
+
+**This creates a SECOND path by which M7 (oral dysbiosis) reaches M4 (β cell threshold):**
+Path 1: P. gingivalis → TLR4 on macrophages → NF-κB → IL-1β → β cell NLRP3 (run_043)
+Path 2: P. gingivalis LPS → alternative complement → C5a → islet mast cell → tryptase →
+PAR-2 → β cell NF-κB (run_064)
+
+**IgG persistence paradox in T1DM context:**
+M7 antibiotic treatment in T1DM → antigen burst → immune complexes → C5a spike (4-8 weeks).
+In T1DM patients, this C5a spike arrives SIMULTANEOUSLY with ongoing AGE-RAGE + HIF-1α +
+IFN-α signals → maximally primed NLRP3 → risk of accelerated β cell loss during M7 treatment.
+Implication: in T1DM patients, M7 treatment sequencing (propolis/S. salivarius K12 BEFORE
+antibiotics) is even more important than in rosacea-only patients to minimize antigen burst.
+
+**Cross-references:** dysbiosis run_064 (complement cascade); run_043 (β cell NLRP3); run_050 (HIF-1α Signal 1C)
+*Cross-pollination: 2026-04-12 | Complement C5a islet mast cell T1DM alternative pathway IgG paradox*
+
+---
+
+## Cross-pollination from dysbiosis run_065 — Node F (SAF) in T1DM Monitoring
+
+**SAF as T1DM-specific biomarker:**
+
+SAF is most clinically validated in T1DM cohorts (Meerwaldt 2005 Diabetologia; Lutgers 2006
+Diabetes Care). The Node F formalization directly applies to T1DM clinical monitoring:
+
+- SAF captures the CUMULATIVE glycation legacy that HbA1c cannot
+- T1DM collagen AGE 3-5× normal (Brownlee 1992) → SAF expected to be 2.5-4.5 AU in most
+  long-duration T1DM patients
+- Node F Red (>3.5 AU) + Node D elevated (IFN-α) + OSA untreated = "perfect storm" profile
+  → constitutive NLRP3 priming from three independent sources simultaneously
+
+**T1DM-specific SAF protocol:**
+Node F measurement cadence: at T1DM diagnosis (baseline), then every 12 months.
+For new-onset T1DM patients (SAF typically normal at diagnosis): first SAF elevation will
+occur 5-10 years after onset if glycemic control is suboptimal → early intervention window.
+
+**Cross-references:** dysbiosis run_065 (Node F specification); run_060 (AGE-RAGE mechanism); run_050 (HIF-1α perfect storm)
+*Cross-pollination: 2026-04-12 | SAF Node F T-index v4 T1DM monitoring AGE burden historical irreversible*
+
+---
+
+## Cross-pollination from dysbiosis run_067 — HMGB1-RAGE in β Cell Pyroptosis
+
+**HMGB1 → RAGE in T1DM islets:**
+
+β cell pyroptosis (run_043: intra-islet NLRP3 → gasdermin D → β cell lysis) → HMGB1 released
+into islet microenvironment → RAGE on islet macrophages (CD68+ islet-resident macrophages
+express high RAGE; Schmidt 1994) → DIAPH1/Rac1 → NF-κB → IL-1β ↑ → further β cell NLRP3
+priming (Signal 1A) → more pyroptosis → more HMGB1 → accelerated C-peptide decline.
+
+**The intra-islet HMGB1-RAGE loop creates the same self-amplifying pattern as dermis:**
+Each β cell pyroptosis event generates HMGB1 → RAGE → NF-κB → more β cell NLRP3 → more
+pyroptosis. This is particularly relevant in new-onset T1DM during the honeymoon period:
+small initial islet inflammation → if Loop 2 fires → HMGB1-RAGE → self-amplification →
+rapid C-peptide decline rather than slow gradual decline.
+
+**RAGE expression in T1DM islets:**
+RAGE is upregulated in T1DM islets vs. non-T1DM controls (Unoki 2002 Hum Mol Genet).
+This upregulation occurs before significant AGE accumulation → RAGE in islets is sensitized
+to HMGB1 from early T1DM, not just late-stage when collagen AGEs are high.
+
+**Calcitriol/VDR → RAGE ↓ in islets:**
+The VDR/RAGE-reducing mechanism (run_056/run_067) applies to islet β cells as well:
+VDR expressed in β cells → calcitriol → RAGE mRNA ↓ in islets (Kang 2011; pancreatic
+tissue context).  Node E optimization (>60 ng/mL) thus simultaneously reduces RAGE
+in skin AND islets → dual-compartment protection.
+
+**Cross-references:** dysbiosis run_067 (HMGB1-RAGE); run_043 (β cell NLRP3 intra-islet); run_056 (VDR/RAGE ↓)
+*Cross-pollination: 2026-04-12 | HMGB1 RAGE intra-islet β cell pyroptosis self-amplification VDR protection*

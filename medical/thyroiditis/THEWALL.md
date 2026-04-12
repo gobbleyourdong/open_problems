@@ -226,3 +226,44 @@ See `../dysbiosis/numerics/run_040_ifna_nlrp3_m3_loop2_bridge.md`.
 *Updated: 2026-04-12 | IFN-α/NLRP3 cross-pollination from dysbiosis run_040*
 *Thyrocyte NLRP3 primed by IFN-α via ISGF3 — explains part of the IFN-α therapy → thyroiditis mechanism*
 *Novel prediction: colchicine 0.5mg BID reduces IFN-α therapy-induced thyroiditis (NLRP3 assembly blocked) — untested*
+
+---
+
+## VDR/Vitamin D3 as Hashimoto's Thyroiditis Threshold Regulator — Cross-Pollination (from dysbiosis run_056, 2026-04-12)
+
+**VDR in Hashimoto's thyroiditis context:**
+Hashimoto's thyroiditis (HT) shares the M4 host threshold mechanism with T1DM rosacea:
+- VDR → Foxp3 ↑ → Treg ↑ → M4 threshold elevated → same thyroid-specific T cell activation
+  (TPO-specific Th1 CD4+ T cells; T cytotoxic CD8+ against thyrocytes) produces LESS DISEASE
+  in VDR-adequate patients
+
+**Epidemiological support:**
+- Kivity 2011 Cell Mol Immunol: Vitamin D deficiency (25(OH)D3 <20 ng/mL) in Hashimoto's
+  patients vs. controls: 54% HT patients deficient vs. 32% controls (OR 2.6)
+- Altieri 2017 Autoimmun Rev meta-analysis: lower 25(OH)D3 in HT vs. controls; D3
+  supplementation → anti-TPO antibody reduction in D3-deficient HT patients
+- Mazokopakis 2015 Hormones: Vitamin D3 1200 IU/day × 4 months in D3-deficient HT →
+  anti-TPO ↓ 20% (effect limited by low dose; current protocol uses 4000-6000 IU/day)
+
+**VDR → NF-κB in thyrocytes:**
+Thyrocyte NF-κB activation (from IL-1β + TNF-α in the inflammatory infiltrate) → MHC-II ↑ +
+CXCL10 ↑ + FasL expression → perpetuates the autoimmune cycle. VDR → p65 sequestration
++ IκBα ↑ → thyrocyte NF-κB ↓ → MHCII ↓ → less CD4+ T cell recognition → cycle dampened.
+
+**CYP27B1 in thyroid tissue:**
+Thyrocytes express CYP27B1 locally (like immune cells) → convert 25(OH)D3 → 1,25(OH)2D3
+in the thyroid gland itself. Hashimoto's inflammation → NF-κB → CYP27B1 ↓ in thyrocytes →
+local D3 conversion impaired → inadequate thyroid-local VDR activation even with normal serum
+25(OH)D3. Same mechanism as T1DM (run_056). Node E target >60 ng/mL applies to HT patients.
+
+**Protocol for Hashimoto's with VDR deficit:**
+Vitamin D3 4000-6000 IU/day (titrate to 60-80 ng/mL) + MK-7 180µg/day (required for MGP
+carboxylation at high D3 dose). Monitor anti-TPO at 3 months as surrogate for immune activity.
+Combine with selenium 200µg/day (GPx4 → peroxide scavenging in thyrocytes; Toulis 2010
+meta-analysis: selenium → anti-TPO ↓ 50% in D3-sufficient patients).
+
+See `../dysbiosis/numerics/run_056_vdr_m4_treg_threshold.md`.
+
+*Updated: 2026-04-12 | VDR/Vitamin D3 cross-pollination from dysbiosis run_056*
+*HT: Vitamin D deficiency = 54% vs. 32% controls (OR 2.6); D3 supplementation → anti-TPO ↓ 20% (Mazokopakis 2015)*
+*Node E target >60 ng/mL in HT (same CYP27B1 suppression mechanism as T1DM); Vitamin D3 + K2 + selenium combination for Hashimoto's*

@@ -186,3 +186,39 @@ See `../dysbiosis/numerics/run_042_mast_cell_stabilization.md`.
 *Updated: 2026-04-12 | Mast cell stabilization cross-pollination from dysbiosis run_042*
 *M1→M8 C5a bridge: gut dysbiosis → C5a → dermal mast cell → itch independent of allergen; gut repair = skin itch intervention*
 *Capsaicin limited to clear-skin maintenance in eczema (active lesions contraindicated due to barrier disruption)*
+
+---
+
+## AhR/Indole/IL-22 Gut Barrier — Eczema Cross-Pollination (from dysbiosis run_054, 2026-04-12)
+
+**IL-22 is CRITICAL for eczema/atopic dermatitis barrier:**
+IL-22 (from ILC3s + Th22 cells via AhR) → intestinal AND skin epithelial cells → MUC2 + ZO-1
++ claudin + filaggrin → BARRIER INTEGRITY. In AD, filaggrin mutations (FLG null alleles) ARE
+the primary genetic risk; IL-22 PARTIALLY COMPENSATES for filaggrin loss by upregulating other
+barrier components (claudin-1 + tight junction proteins + antimicrobial peptides).
+
+**AhR/IL-22 in AD skin (direct relevance beyond gut):**
+AhR is expressed in keratinocytes and skin ILC3s (not only gut ILC3s). In AD skin:
+Th2 cytokines (IL-4, IL-13) → AhR SUPPRESSED in keratinocytes → less IL-22 production
+→ barrier ↓ further (Th2 dominance in AD suppresses the very barrier repair signal).
+Restoring AhR/IL-22 in AD skin is a recognized therapeutic direction: tapinarof (WBI-1001) is
+an AhR agonist with Phase 3 evidence in psoriasis and AD → AhR → IL-22 + anti-inflammatory
+cytokines → barrier repair + Th17/Th22 normalization.
+
+**L. reuteri / indoles as systemic AhR support in AD:**
+L. reuteri DSM 17938 (BioGaia) → gut IAld → systemic AhR ligand availability → supports
+AhR activation in both gut AND skin ILC3s + keratinocytes. In AD with gut dysbiosis:
+Lactobacillus ↓ → indoles ↓ → AhR ↓ in skin keratinocytes → IL-22 ↓ → filaggrin-like
+barrier protein expression ↓. L. reuteri supplementation → restores IAld → partial AhR
+activation → partial barrier compensation.
+
+**Practical implication:** L. reuteri 5×10⁸ CFU/day (BioGaia DSM 17938) is a justified
+addition to the AD/eczema gut-repair protocol — complements Akkermansia (tight junction) +
+butyrate (colonocyte fuel) + LGG (sIgA restoration) with the third gut barrier mechanism.
+
+See `../dysbiosis/numerics/run_054_ahr_indole_tryptophan.md`.
+
+*Updated: 2026-04-12 | AhR/IL-22 gut barrier from dysbiosis run_054 — AD/eczema relevance*
+*IL-22 is a critical AD barrier repair cytokine; Th2 suppresses AhR → less IL-22 = barrier ↓ cycle*
+*L. reuteri → gut IAld → systemic AhR → skin keratinocyte + ILC3 AhR supported → IL-22 ↑ → barrier partial compensation*
+*Tapinarof (Phase 3 AhR agonist for AD): validates AhR/IL-22 as the therapeutic direction for barrier-deficient AD*

@@ -330,3 +330,37 @@ See `../dysbiosis/numerics/run_042_mast_cell_stabilization.md`.
 *Updated: 2026-04-12 | Capsaicin/TRPV1 cross-pollination from dysbiosis run_042*
 *POD: capsaicin desensitization for burning/stinging — START at Week 8 only (after acute flare resolved)*
 *SP depletion → dual benefit: neurogenic burning ↓ (TRPV1/NK1R mast cell) + Loop 1 KLK5 neurogenic entry ↓*
+
+---
+
+## Oral Microbiome / S. salivarius K12 — POD Cross-Pollination (from dysbiosis run_051, 2026-04-12)
+
+**Oral microbiome disruption as a POD contributing factor:**
+Perioral dermatitis is anatomically adjacent to the oral cavity. The perioral microbiome
+(skin flora of the chin, nasolabial folds, perioral skin) interfaces with the oral microbiome
+via daily saliva contact (saliva distributes P. gingivalis and other red complex members onto
+perioral skin continuously). In POD patients with concurrent periodontal involvement or high
+salivary P. gingivalis levels:
+- P. gingivalis LPS → TLR4 on perioral keratinocytes → NF-κB → NLRP3 Signal 1 priming
+- P. gingivalis → protease (gingipain) → barrier protein degradation → perioral skin barrier ↓
+- Continuous salivary inoculation means topical POD treatment is working against ongoing oral
+  pathogen exposure → explains why perioral rosacea/POD treatment duration is longer vs. cheek
+
+**S. salivarius K12 as POD adjunct:**
+For POD patients with concurrent periodontal disease or heavy P. gingivalis salivary load:
+S. salivarius K12 lozenge → salivaricin B → P. gingivalis + T. denticola inhibition →
+reduced salivary P. gingivalis → less daily perioral TLR4 priming → K12 lozenge may reduce
+the ongoing oral-derived inflammatory signal at the perioral skin.
+
+**Practical note:** Do not use chlorhexidine mouthwash in active POD patients taking oral
+antibiotics (doxycycline) — chlorhexidine kills ALL oral flora including K12 and Lactobacillus;
+combined chlorhexidine + antibiotics → oral Candida overgrowth risk → perioral candidiasis
+can mimic or worsen POD (Candida → TLR2 → NF-κB → same downstream as bacterial signals).
+If mouthwash is needed during doxycycline course, use propolis mouthwash (gram-negative
+selective; spares gram-positive commensals; compatible with subsequent K12 introduction).
+
+See `../dysbiosis/numerics/run_051_oral_probiotics_salivarius.md`.
+
+*Updated: 2026-04-12 | S. salivarius K12 cross-pollination from dysbiosis run_051*
+*POD: oral microbiome → perioral skin continuous LPS priming via saliva; K12 → salivaricin B → P. gingivalis reduction → perioral TLR4 priming reduced*
+*CAUTION: Chlorhexidine + oral antibiotics (doxycycline) → Candida overgrowth risk in POD; use propolis mouthwash instead*

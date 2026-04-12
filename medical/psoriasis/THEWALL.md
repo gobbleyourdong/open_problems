@@ -125,3 +125,68 @@ See `../dysbiosis/numerics/run_039_vitamin_k2_mk7_nfkb.md`.
 *Updated: 2026-04-12 | K2/MK-7 cross-pollination from dysbiosis run_039*
 *Bacteroidetes ↓ in psoriasis (Scher 2015) → K2 deficiency → Gas6/Axl SOCS1 → NF-κB disinhibited: Loop 3 amplified*
 *MK-7 180µg/day adds fifth NF-κB mechanism; also addresses entheseal calcification in psoriatic arthritis*
+
+---
+
+## COX-2/PGE2 Prostanoid Arm — Psoriasis Cross-Pollination (from dysbiosis run_055, 2026-04-12)
+
+**COX-2 in psoriatic skin:**
+COX-2 is strongly elevated in psoriatic plaques (Fogh 1993 Br J Derm: COX-2 immunostaining
+in psoriatic plaques significantly elevated vs. normal skin; localized to keratinocytes and
+inflammatory infiltrate). NF-κB → COX-2 → PGE2 → EP4 → vasodilation = erythema component
+of psoriatic plaques. This is the same pathway as rosacea but with psoriasis-specific upstream:
+Th17 IL-17A → NF-κB in keratinocytes → COX-2 → PGE2 → dermal vasodilation (erythema, warmth).
+
+**NSAID paradox in psoriasis:**
+Unlike rosacea (NSAIDs → beneficial), NSAIDs in psoriasis are COMPLEX:
+- Selective COX-2 inhibitors (celecoxib): some evidence of psoriasis improvement
+- Non-selective NSAIDs (ibuprofen, naproxen): can trigger or worsen psoriasis in some patients
+  (LTC4/leukotriene shunting from inhibited COX-2 → more arachidonic acid → 5-LOX →
+  leukotriene LTB4 → neutrophil chemotaxis → Munro's microabscess → Koebnerization)
+The NSAID paradox in psoriasis: COX-2 inhibition reduces PGE2 but shunts arachidonic acid
+to the 5-LOX pathway → LTB4 ↑ → psoriasis worsened in LTB4-sensitive patients.
+
+**Omega-3 in psoriasis (no 5-LOX shunting paradox):**
+EPA/DHA → competitive COX-2 AND 5-LOX substrate (EPA → 5-LOX → LTB5, which is 30× less
+chemotactic than LTB4 from arachidonic acid). Unlike NSAIDs, omega-3 suppresses BOTH the
+PGE2 arm AND the LTB4 arm → net anti-inflammatory without leukotriene shunting.
+Calder 2012 Br J Derm meta-analysis: omega-3 in psoriasis → modest benefit (PASI score).
+Omega-3 is the PREFERRED prostanoid axis modifier in psoriasis (vs. NSAIDs).
+
+**Quercetin (propolis or standalone) in psoriasis:**
+Quercetin COX-2 inhibition (new fourth mechanism from run_055) → PGE2 ↓ without arachidonic
+acid shunting to 5-LOX (quercetin also inhibits 5-LOX → LTB4 ↓ simultaneously). Quercetin
+= dual COX-2 + 5-LOX inhibitor → net anti-inflammatory without leukotriene shunting paradox.
+Quercetin 500mg BID justified in psoriasis: mast cell + NLRP3 + COX-2 + 5-LOX inhibition.
+
+See `../dysbiosis/numerics/run_055_pgd2_cox2_flushing.md`.
+
+*Updated: 2026-04-12 | COX-2/PGE2 prostanoid from dysbiosis run_055 — psoriasis relevance*
+*NSAIDs in psoriasis PARADOX: non-selective COX-2 inhibition → LTB4 shunting → Koebnerization risk; omega-3 avoids this (EPA → LTB5, less chemotactic)*
+*Quercetin: dual COX-2 + 5-LOX inhibitor → safe anti-prostanoid strategy in psoriasis without leukotriene shunting*
+
+---
+
+## IL-17A/Th17 → KLK5 / Loop 1 — Psoriasis Cross-Pollination (from dysbiosis run_062, 2026-04-12)
+
+**Psoriasis/rosacea overlap explained:**
+Both conditions share IL-17A → keratinocyte NF-κB as a primary driver. The different clinical
+phenotypes (psoriasis plaques vs. rosacea erythema + LL-37 cascade) reflect different
+keratinocyte transcriptome downstream outputs:
+- Psoriasis: IL-17A → NF-κB → CXCL8/IL-8 → neutrophil recruitment → Munro's microabscess
+- Rosacea: IL-17A → NF-κB → KLK5 → LL-37 → TLR9 pDC → IFN-α
+
+The OR ~2.5 rosacea-psoriasis coexistence (Luelmo-Aguilar 2011) is explained by shared
+upstream IL-17A/Th17 pathway. Patients with both conditions have the highest IL-17A-driven
+NF-κB keratinocyte activation of any phenotype.
+
+**Protocol implication:** Omega-3 (EPA → GPR120 → IL-6/IL-23 ↓ → Th17 polarization ↓) is
+the most accessible Th17-reducing intervention in psoriasis without immune compromise risk.
+Complements omega-3's COX-2/prostanoid benefit (no 5-LOX shunting paradox for omega-3 vs.
+NSAIDs per run_055 update). Dose: 3g EPA+DHA/day.
+
+See `../dysbiosis/numerics/run_062_il17a_th17_kls5_loop1.md`.
+
+*Updated: 2026-04-12 | IL-17A/Th17/KLK5 cross-pollination from dysbiosis run_062*
+*Rosacea/psoriasis overlap (OR 2.5): shared IL-17A → NF-κB driver; different outputs (CXCL8/neutrophil vs. KLK5/LL-37/IFN-α)*
+*Omega-3: Th17 polarization ↓ via EPA/GPR120 = safe Th17 modifier (no leukotriene shunting)*

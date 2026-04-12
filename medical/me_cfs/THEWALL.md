@@ -233,3 +233,72 @@ See `../dysbiosis/numerics/run_041_spermidine_autophagy_nlrp3.md`.
 
 *Updated: 2026-04-12 | Spermidine/mitophagy cross-pollination from dysbiosis run_041*
 *ME/CFS: damaged mitochondria are primary pathology; spermidine → mitophagy → removes source; more mechanistically targeted in ME/CFS than in rosacea context*
+
+---
+
+## Arginase/NOS/Mitochondria — ME/CFS Cross-Pollination (from dysbiosis run_052, 2026-04-12)
+
+**ME/CFS and the NOS/arginase/mitochondrial axis:**
+ME/CFS is characterized by mitochondrial dysfunction (impaired electron transport, reduced
+ATP generation, elevated ROS from dysfunctional mitochondria). The arginase/eNOS/NO pathway
+connects directly to ME/CFS pathophysiology:
+
+**eNOS uncoupling → superoxide → mitochondrial damage amplification:**
+If gut dysbiosis is present in ME/CFS (documented in multiple cohort studies: depleted
+Akkermansia + F. prausnitzii + Bifidobacterium in ME/CFS; Giloteaux 2016 Microbiome):
+- M1 LPS → TLR4 → NF-κB → ARG1 ↑ → L-arginine competition → eNOS substrate limited
+- Chronic NF-κB → arginase → NO deficit → NF-κB further disinhibited (positive feedback)
+- Uncoupled eNOS → O2•- → additional mitochondrial membrane attack → worsens primary
+  mitochondrial pathology → more ROS from dysfunctional ETC → peroxynitrite (ONOO-) cycle
+
+**Superoxide → complex I inhibition → energy generation failure:**
+High superoxide → Complex I (NADH ubiquinone oxidoreductase) inhibited by superoxide-driven
+nitration → Complex I activity ↓ → ATP generation ↓ → post-exertional malaise (PEM) energy
+ceiling → the characteristic ME/CFS exercise intolerance is mechanistically amplified by
+gut-dysbiosis-driven superoxide from uncoupled eNOS.
+
+**The spermidine counter-signal in ME/CFS:**
+Run_041 established that mitophagy deficiency is PRIMARY pathology in ME/CFS (dysfunctional
+mitochondria accumulate → more ROS → amplifying cycle). The arginase pathway connects:
+NF-κB → arginase → ornithine → spermidine (delayed 12-24h) → mitophagy → dysfunctional
+mitochondria cleared → ROS source removed. This is the SAME mitophagy deficit identified in
+run_041 but approached from the arginase pathway direction. Exogenous spermidine (wheat germ
+20g/day) bypasses the rate-limited arginase → ornithine route.
+
+**L-citrulline in ME/CFS context:**
+L-citrulline 2g BID → eNOS substrate → NO → IKKβ S-nitrosylation → NF-κB ↓ → ARG1 ↓ →
+L-arginine restored → coupled eNOS → NO dominates over superoxide → Complex I protected.
+No ME/CFS-specific RCT for L-citrulline, but the mechanistic chain from gut dysbiosis →
+NO deficit → Complex I dysfunction → PEM amplification is coherent.
+
+See `../dysbiosis/numerics/run_052_arginase_nos_spermidine.md`.
+
+*Updated: 2026-04-12 | Arginase/NOS/eNOS uncoupling from dysbiosis run_052 — ME/CFS relevance*
+*Gut dysbiosis → NF-κB → arginase → NO ↓ → uncoupled eNOS → O2•- → Complex I inhibition → PEM amplification*
+*Spermidine (run_041) and L-citrulline (run_052) are complementary: spermidine clears dysfunctional mitochondria; L-citrulline restores NO to prevent eNOS-derived superoxide production*
+
+---
+
+## Cross-pollination from dysbiosis run_066 — Adipokine TLR4 in ME/CFS
+
+**Adipokine dysregulation in ME/CFS:**
+
+ME/CFS patients show elevated leptin (proportional to adiposity; many ME/CFS patients are
+sedentary from post-exertional malaise → visceral fat accumulation) and reduced adiponectin.
+
+**Leptin → hypothalamic inflammation in ME/CFS:**
+Elevated leptin → leptin receptor (LepR) on hypothalamic microglia → JAK2/STAT3 → NF-κB →
+microglial NLRP3 priming. This provides an adipokine → central neuroinflammation arm that is
+particularly relevant to ME/CFS (brain fog, cognitive symptoms from neuroinflammation).
+
+Resistin → TLR4 on microglia (TLR4 expression confirmed on microglia) → NF-κB → IL-1β + IL-6
+→ hypothalamic neuroinflammation → sickness behavior (fatigue, cognitive impairment, anhedonia).
+
+**Exercise paradox in ME/CFS context:**
+Exercise reduces visceral fat and adipokine burden (reducing resistin/leptin) BUT provokes PEM
+(post-exertional malaise) in ME/CFS. The standard adipokine protocol (aerobic 150 min/week)
+is CONTRAINDICATED in ME/CFS. Low-intensity pacing + resistance training (if tolerated) may
+provide partial adipokine benefit without PEM trigger.
+
+**Cross-references:** dysbiosis run_066 (resistin adipokine TLR4); me_cfs spermidine/mitophagy and IFN-α/microglial NLRP3 prior entries
+*Cross-pollination: 2026-04-12 | Leptin resistin adipokine TLR4 microglial NF-κB ME/CFS neuroinflammation exercise-PEM paradox*
