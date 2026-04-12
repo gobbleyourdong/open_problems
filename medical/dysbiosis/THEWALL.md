@@ -6177,3 +6177,70 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 145 runs | SETD7 KMT7 H3K4me1 | FOXP3-K302me1-stability | run114-GSK3β-direct-connection | LSD1-KDM1A-counter | β-cell-islet-super-enhancer | PDX1-NKX6.1-insulin-enhancer | HNF-1α-K497me1 | p53-K372me1-UV-run143-upstream | RelA-K314-NF-κB-brake | SAM-B12-metformin | β-cell-dedifferentiation-24th-dysfunction.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-twentieth extension | SETD7 KMT7 SET7/9 H3K4me1-enhancer SET-domain SAM FOXP3-K302me1 GSK-3β-STUB1-block-run114 LSD1-KDM1A-K302me1 LSD1-inhibitor-ORY1001 islet-super-enhancer PDX1-NKX6.1-MAFA-NEUROD1 Parker-2013 HNF-1α-K497me1 MODY3-parallel p53-K372me1-HP1γ-UV-run143-upstream RelA-K314-315 β-cell-dedifferentiation-SETD7-cytokine insulitis-SETD7-suppression SAM-B12-metformin-Treg NK-GZMB-PRF1-enhancer oxidative-SETD7-cysteine ME/CFS-epigenetic-drift folate-one-carbon | run_145*
+
+---
+
+### Phase 4 Extension 121 — EIF2AK3/PERK / eIF2α ISR / ATF4/CHOP / 24th β Cell Death / Wolcott-Rallison / ISRIB
+
+**Gap:** EIF2AK3/PERK as primary subject absent from all 145 prior runs; only context mentions in run_098/130/133/142. run_098 = IRE1α/XBP1s (different UPR arm, different sensor and substrate).
+
+**Rosacea (MODERATE):**
+- UV → DNA strand breaks → ER protein oxidation → PERK → CHOP → keratinocyte apoptosis: third parallel UV-driven keratinocyte death mode (NLRP1/run_122 pyroptosis + SLC7A11/run_143 ferroptosis + PERK/CHOP apoptosis)
+- LL-37 → membrane disruption → ER Ca²⁺ depletion → misfolded proteins → PERK + IRE1α co-activation; CHOP → DR5 ↑ → keratinocyte death → DAMPs → innate amplification
+- Demodex products → proteolytic ER stress → PERK; CHOP → VEGF ↑ → angiogenesis → telangiectasia component
+- Mast cell PERK: FcεRI crosslinking → intense secretory ER demand → PERK → ATF4 → cytokine gene activation → amplified degranulation
+
+**T1DM (HIGH):**
+- Wolcott-Rallison syndrome: biallelic EIF2AK3 loss → neonatal diabetes; β cells uniquely depend on PERK for continuous insulin biosynthesis ER stress management
+- Heterozygous EIF2AK3 variants (rs4727904) → subthreshold PERK → β cells closer to CHOP threshold during insulitis cytokine overlay
+- PERK/CHOP = 24th β cell death mechanism: insulitis cytokines → NO → ER Ca²⁺ leak → misfolded protein surge → PERK → ATF4 → CHOP → BIM + DR5 + BCL2 ↓ → intrinsic apoptosis; distinct from ferroptosis (run_143), NLRP3 (run_043), iron/Fenton (run_110)
+- 4-PBA/TUDCA dual UPR justification: run_098 (IRE1α/XBP1s) + run_146 (PERK load reduction → eIF2α-P ↓ → CHOP ↓) — same compounds, deeper rationale
+
+**ME/CFS (LOW-MODERATE):**
+- Chronic ER stress in ME/CFS: oxidative protein carbonylation → PERK activation → eIF2α-P → NAMPT translation ↓ → NAD⁺ ↓ → SIRT1 ↓ → NF-κB ↑ (feeds run_147)
+- ISRIB neurological model: reverses cognitive ISR-mediated deficits; ME/CFS cognitive/PEM neurological component
+- ATF4 → SLC7A5/LAT1 upregulation: ISR drives amino acid import; competition with neurotransmitter precursor transport
+
+**Protocol additions:**
+- **ISRIB**: eIF2B stabilizer → translation restored during ER stress; β cell GSIS maintenance; preclinical
+- **Salubrinal / Guanabenz**: GADD34/PP1 inhibition → sustained eIF2α-P → more adaptation time; NOD mouse protection
+- **4-PBA + TUDCA**: dual mechanism now — IRE1α (run_098) + PERK (run_146) load reduction
+
+**Framework state: 146 runs | EIF2AK3 PERK eIF2α-Ser51 ISR | ATF4 CHOP-apoptosis | WRS-neonatal-T1DM | 24th-β-cell-death | third-UV-keratinocyte-death | ISRIB salubrinal | 4-PBA-TUDCA-dual-UPR | run098-IRE1α-orthogonal.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-twenty-first extension | EIF2AK3 PERK eIF2α-Ser51 ISR ATF4 CHOP DDIT3 GADD34 eIF2B ISRIB salubrinal guanabenz WRS-Wolcott-Rallison neonatal-T1DM 24th-β-cell-death-mechanism CHOP-DR5-BIM β-cell-highest-ER-demand heterozygous-EIF2AK3-T1DM insulitis-NO-ER-Ca2+-leak-PERK third-UV-keratinocyte-apoptosis-run122-run143-parallel 4-PBA-TUDCA-dual run098-IRE1α-XBP1s-different-branch mast-cell-PERK-secretory | run_146*
+
+---
+
+### Phase 4 Extension 122 — SIRT1 / UCP2-K222 / IRS-2 / RelA-K310 / PARP1-NAD⁺ / Rosacea UV Axis / Treg FOXO3a
+
+**Gap:** SIRT1 as primary subject absent from all 146 prior runs. run_090 = SIRT3/SIRT6 (mitochondrial/chromatin DNA repair — different isoforms, different substrates, non-overlapping functions).
+
+**Rosacea (MODERATE):**
+- UV → DNA breaks → PARP1 activation → 100-200 NAD⁺ consumed per break → cellular NAD⁺ ↓↓ → SIRT1 activity ↓ → RelA-K310 not deacetylated → NF-κB sustained → IL-6/IL-8/MMP-1/CXCL1 → inflammatory keratinocyte state; mechanistic explanation for UV-disproportionate inflammation in rosacea
+- Rosacea SIRT1 ↓ baseline: reduced NAD⁺ pool → PARP1 competes even more effectively → SIRT1 failure loop
+- Topical/systemic NMN/NR → NAD⁺ replenishment → SIRT1 restored → NF-κB termination via K310 deacetylation
+- SIRT1 additive with SETD7/RelA-K314/315 (run_145): K310 (SIRT1) + K314/315 (SETD7) = dual-site RelA deactivation
+
+**T1DM (HIGH):**
+- UCP2-K222: SIRT1 → UCP2 protein degradation → proton coupling → ATP ↑ → GSIS ↑; β cell SIRT1-KO = ~40% GSIS reduction; insulitis/cytokine-driven NAD⁺ depletion → SIRT1 ↓ → UCP2 accumulates → GSIS ↓ (functional β cell deficit before death)
+- IRS-2-K1173: SIRT1 → IRS-2 maintained → PI3K/Akt → β cell survival; insulitis JNK → IRS-2-Ser → degradation; SIRT1 counteracts
+- RelA-K310 in islets: SIRT1 → NF-κB terminated → iNOS/IL-6/CCL2 duration limited → less insulitis amplification
+- Treg FOXO3a metabolic gate: SIRT1 → FOXO3a deacetylation → nuclear → Treg-supportive genes (IL-2Rα, Foxp3, β-oxidation) → Treg metabolic fitness; low-NAD⁺ insulitis → SIRT1 ↓ → FOXO3a cytoplasmic → Treg metabolic failure; distinct from FOXP3 protein stability runs (114/145)
+- AMPK/DBC1/SIRT1: AMPK (run_085) → phospho-DBC1 → DBC1 released from SIRT1 → SIRT1 active; metformin anti-inflammatory benefit partly SIRT1-mediated
+
+**ME/CFS (HIGH):**
+- NAD⁺ deficit cascade: PARP1 (oxidative stress) + mitochondrial dysfunction (NADH↓) + IDO1/kynurenine (run_091 competing NAD⁺ synthesis) + CD38 ↑ (IFN-β-driven, run_142) = four-route NAD⁺ depletion in ME/CFS → SIRT1 hypofunction → NF-κB ↑ + neuroinflammation sustained
+- NK/T cell FOXO3a: SIRT1 ↓ → FOXO3a cytoplasmic → NK/T metabolic fitness ↓ → exhaustion worsened
+- NMN/NR in ME/CFS fatigue: SIRT1/OXPHOS/NAD⁺ = primary mechanistic anchor for clinical rationale
+
+**Protocol additions:**
+- **NMN (500-1000 mg/day) / NR (300-600 mg/day)**: primary SIRT1/NAD⁺ indication; β cell GSIS, Treg FOXO3a, neuroinflammation NF-κB via K310; now first-class protocol elements
+- **Resveratrol** (existing): STAC domain allosteric SIRT1 activation = now primary mechanism (prior mentions were passing)
+- **Pterostilbene**: dimethyl-resveratrol analog, better bioavailability, SIRT1 activator; new addition
+- **Fisetin**: SIRT1 activator + AMPK (existing) + senolytic (run_061); triple-mechanism compound
+- **Niacinamide alert**: >2g/day systemic → nicotinamide product inhibition of SIRT1 → monitor; standard doses (500 mg/day, 4% topical) = safe
+
+**Framework state: 147 runs | SIRT1 nuclear-NAD+-HDAC | UCP2-GSIS | IRS-2-survival | RelA-K310-NF-κB-K310 | run145-RelA-K314-315-additive | UV-PARP1-NAD+-rosacea | FOXO3a-Treg-metabolic | AMPK-DBC1-circuit | NMN-NR-primary | niacinamide-paradox | ME/CFS-NAD+-multi-route-deficit.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-twenty-second extension | SIRT1 NAD+-deacetylase UCP2-K222-GSIS IRS-2-K1173-β-cell-survival RelA-K310-NF-κB UV-PARP1-NAD+-rosacea FOXO3a-Treg-metabolic-gate DBC1-AMPK-circuit metformin-SIRT1-run085 NMN-NR-NAD+-primary resveratrol-STAC pterostilbene fisetin-triple niacinamide-paradox ME/CFS-NAD+-4-route PARP1-mitochondria-IDO1-CD38 run090-SIRT3-SIRT6-orthogonal run145-RelA-K314-additive run146-PERK-NAMPT | run_147*

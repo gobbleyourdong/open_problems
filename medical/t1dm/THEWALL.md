@@ -1509,3 +1509,62 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
    - Not a canonical GWAS hit but a functional stratification candidate
 
 *T1DM THEWALL cross-reference run_145: 2026-04-12 | SETD7 KMT7 H3K4me1 FOXP3-K302me1 GSK-3β-block-run114 STUB1 LSD1-KDM1A-K302 LSD1-inhibitor-ORY1001 Treg-stability-stack islet-super-enhancer PDX1-NKX6.1-MAFA-NEUROD1 GSIS-50pct-SETD7-KO HNF-1α-K497me1-MODY3 β-cell-dedifferentiation-24th SAM-B12-metformin-SETD7-Treg betaine-folate-methionine LSD1-Treg-pharmacology run010-FOXP3 run114-GSK3β-direct Parker-2013 | run_145*
+
+---
+
+### Cross-reference: run_146 — EIF2AK3/PERK / ATF4/CHOP / 24th β Cell Death / Wolcott-Rallison / ISRIB
+
+**Relevance: HIGH**
+
+1. **EIF2AK3 = T1DM GWAS locus + Wolcott-Rallison syndrome**:
+   - WRS: biallelic EIF2AK3 loss → neonatal diabetes — the strongest genetic proof that PERK is essential for β cell survival
+   - Heterozygous common variants → subthreshold PERK activity → β cells closer to CHOP apoptotic threshold during insulitis
+   - β cells have the highest ER protein folding demand of any cell (~1 million insulin molecules/minute) + LIMITED GADD34 reserve → most ferroptosis + PERK vulnerable cell type
+
+2. **24th β cell death mechanism — PERK/CHOP intrinsic apoptosis**:
+   - Insulitis: NO (cytokine-driven iNOS) → ER Ca²⁺ leak → misfolded protein surge → PERK → eIF2α-P → ATF4 → CHOP → BIM ↑ + DR5 ↑ + BCL2 ↓ + TRB3 ↑ (Akt inhibition) → intrinsic apoptosis
+   - Distinct mechanism tier: ER protein misfolding death, orthogonal to ferroptosis (run_143), NLRP3 pyroptosis (run_043), iron/Fenton (run_110)
+   - Death count: 24 β cell death mechanisms total
+
+3. **4-PBA/TUDCA — dual UPR justification**:
+   - Previously justified via IRE1α/XBP1s (run_098)
+   - Now also: chemical chaperones reduce misfolded protein load → less PERK activation → eIF2α-P ↓ → CHOP ↓ → β cell survival ↑
+   - Same supplements, second independent mechanistic rationale
+
+4. **ISRIB / Salubrinal therapeutic angle**:
+   - ISRIB: eIF2B stabilization → translation restored during ER stress → β cell insulin biosynthesis maintained → GSIS preserved
+   - Salubrinal: GADD34 inhibition → eIF2α-P sustained → more adaptation time → acute stress survival benefit; NOD mouse protection data
+
+*T1DM THEWALL cross-reference run_146: 2026-04-12 | EIF2AK3 PERK eIF2α-Ser51 ISR ATF4 CHOP DDIT3 GADD34 eIF2B ISRIB salubrinal guanabenz WRS-neonatal-T1DM 24th-β-cell-death-mechanism β-cell-highest-ER-demand CHOP-DR5-BIM TRB3-Akt iNOS-NO-ER-Ca2+ 4-PBA-TUDCA-dual-UPR run098-IRE1α-orthogonal-branch | run_146*
+
+---
+
+### Cross-reference: run_147 — SIRT1/NAD⁺ / UCP2-GSIS / RelA-K310 / FOXO3a-Treg / NMN-NR
+
+**Relevance: HIGH**
+
+1. **β cell SIRT1 — UCP2/IRS-2/GSIS protection**:
+   - SIRT1 → UCP2-K222 deacetylation → UCP2 degradation → proton coupling → ATP ↑ → KATP closed → insulin exocytosis ↑
+   - SIRT1-KO β cells: ~40% GSIS reduction; UCP2 accumulates ~3-5×
+   - Insulitis → NAD⁺ depletion (iNOS/PARP activation) → SIRT1 ↓ → UCP2 accumulates → functional β cell deficit before death
+   - SIRT1 → IRS-2 deacetylated → PI3K/Akt → β cell survival; JNK/IRS-2-Ser (insulitis) counteracted
+
+2. **RelA-K310 NF-κB termination — additive with run_145 (SETD7/K314-315)**:
+   - SIRT1 deacetylates RelA-K310 → NF-κB transcriptional activity ↓ (without degradation)
+   - SETD7 (run_145) methylates RelA-K314/315 → RelA proteasomal degradation
+   - Two adjacent-residue, non-overlapping mechanisms for NF-κB termination in islets; additive in combination
+
+3. **Treg FOXO3a metabolic gate (distinct from protein stability)**:
+   - SIRT1 → FOXO3a deacetylation → nuclear localization → Treg-supportive gene transcription (IL-2Rα, Foxp3, β-oxidation enzymes)
+   - Low-NAD⁺ insulitis microenvironment → SIRT1 ↓ → FOXO3a cytoplasmic → Treg metabolic fitness ↓ without FOXP3 degradation
+   - Distinct from run_114 (GSK-3β/STUB1/FOXP3 protein stability) and run_145 (SETD7/K302me1): metabolic gate vs. protein stability gate
+
+4. **AMPK/DBC1/SIRT1 = metformin anti-inflammatory mechanism extension**:
+   - Metformin (run_085) → AMPK → phospho-DBC1 → SIRT1 derepressed → RelA-K310 deacetylated → NF-κB ↓ in islets
+   - Connects metformin to SIRT1 → islet NF-κB termination: mechanistic basis for metformin's immunomodulatory effect
+
+5. **NMN/NR — primary SIRT1 indication**:
+   - NAD⁺ precursors → SIRT1 activity restored → UCP2 ↓ + GSIS ↑ + RelA-K310 ↓ + FOXO3a nuclear + IRS-2 maintained
+   - First-class protocol addition; NMN 500-1000 mg/day; NR 300-600 mg/day
+
+*T1DM THEWALL cross-reference run_147: 2026-04-12 | SIRT1 NAD+-deacetylase UCP2-K222-GSIS IRS-2-β-cell-survival RelA-K310-K310-run145-K314-additive FOXO3a-Treg-metabolic-gate DBC1-AMPK-metformin-run085 NMN-NR-NAD+ resveratrol-pterostilbene fisetin niacinamide-paradox run090-SIRT3-SIRT6-orthogonal | run_147*

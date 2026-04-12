@@ -1293,3 +1293,56 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
    - IFN-γ elevated in active ME/CFS → SETD7 suppression in some immune cells → FOXP3-K302me1 ↓ → Treg destabilization → more IFN-γ production (Treg loss removes IFN-γ suppression) → self-amplifying loop
 
 *ME/CFS THEWALL cross-reference run_145: 2026-04-12 | SETD7 KMT7 H3K4me1 NK-GZMB-PRF1-enhancer NK-cytotoxic-defect oxidative-SET-cysteine-inactivation epigenetic-drift metabolic-epigenetic-immune mitochondrial-SAM-depletion folate-one-carbon SAH-accumulation NAC-cysteine-SETD7-protection IFN-γ-SETD7-Treg-loop B12-folate-SAM-ME/CFS run143-NAC-SETD7-bridge run138-selenium-complement | run_145*
+
+---
+
+### Cross-reference: run_146 — EIF2AK3/PERK / Chronic ER Stress / NAMPT-NAD⁺ / ISRIB Cognitive
+
+**Relevance: LOW-MODERATE**
+
+1. **Chronic ER stress → PERK → ISR → NAMPT translation ↓ → NAD⁺ ↓**:
+   - ME/CFS = oxidative protein carbonylation → misfolded proteins → PERK activation → eIF2α-P → global translation ↓
+   - NAMPT (rate-limiting NAD⁺ salvage enzyme) synthesis reduced by eIF2α-P → NAD⁺ pool ↓
+   - Feeds run_147 (SIRT1/NAD⁺): PERK → ISR → NAMPT ↓ → NAD⁺ ↓ → SIRT1 ↓ → NF-κB ↑; PERK and SIRT1 form a vicious cycle
+   - Chemical chaperones (4-PBA/TUDCA): reduce PERK activation load → allow NAMPT translation → NAD⁺ restored → SIRT1 functional
+
+2. **ISRIB neurological model — ME/CFS cognitive component**:
+   - ISRIB reverses cognitive deficits in ISR-activated neurons (aged mice); neurological ISR = relevant to ME/CFS cognitive dysfunction/brain fog
+   - eIF2α-P in neurons → synaptic protein synthesis ↓ → cognitive impairment; ISRIB restores
+   - ME/CFS brain ISR hypothesis: neuroinflammation → PERK activation → eIF2α-P → cognitive dysfunction; ISRIB experimental rationale
+
+3. **4-PBA/TUDCA chemical chaperone**:
+   - Reduces ER protein misfolding burden → PERK activation ↓ → ISR ↓ → protein synthesis normalized
+   - In ME/CFS context: reduces PERK-driven NAD⁺ depletion pathway (see point 1)
+
+*ME/CFS THEWALL cross-reference run_146: 2026-04-12 | EIF2AK3 PERK eIF2α-Ser51 ISR ATF4 CHOP NAMPT-NAD+-depletion-via-ISR ISRIB-cognitive neuronal-ISR-brain-fog 4-PBA-TUDCA ER-stress-PERK-NAD+-SIRT1-vicious-cycle run147-SIRT1-NAD+-feed | run_146*
+
+---
+
+### Cross-reference: run_147 — SIRT1/NAD⁺ / ME/CFS NAD⁺ Deficit / Neuroinflammation NF-κB / FOXO3a NK-T
+
+**Relevance: HIGH**
+
+1. **ME/CFS NAD⁺ deficit — four-route depletion**:
+   - PARP1 (chronic oxidative DNA damage in ME/CFS): 100-200 NAD⁺ consumed per break → major NAD⁺ drain
+   - Mitochondrial dysfunction (NADH ↓ → NAD⁺ regeneration impaired via Complex I)
+   - IDO1/kynurenine (run_091): tryptophan → quinolinic acid → NAD⁺ via QPRT, but QPRT saturation → net NAD⁺ ↓
+   - CD38 upregulation (IFN-β → CD38 ↑, run_142): CD38 = major NAD⁺ consuming ectoenzyme → accelerated NAD⁺ depletion
+   - Four routes together → severe SIRT1 hypofunction → NF-κB/neuroinflammation sustained
+
+2. **SIRT1 → NF-κB (RelA-K310) → neuroinflammation mechanism**:
+   - SIRT1 ↓ → RelA-K310 not deacetylated → NF-κB sustained in microglia/astrocytes → IL-6, TNF-α, IL-1β chronic production
+   - Mechanistic anchor for the neuroinflammation component of ME/CFS
+   - NMN/NR → NAD⁺ ↑ → SIRT1 activity restored → NF-κB termination → reduced neuroinflammatory burden
+
+3. **NK and T cell FOXO3a metabolic fitness**:
+   - SIRT1 → FOXO3a nuclear → cytotoxic gene expression + β-oxidation → NK/T metabolic capacity
+   - ME/CFS NK cells: NAD⁺ depleted → SIRT1 ↓ → FOXO3a cytoplasmic → NK metabolic dysfunction
+   - Compounds: NMN/NR → SIRT1 → FOXO3a → NK function restored; additive with selenium (run_138)/NAC (run_143) protection from oxidative damage
+
+4. **NMN/NR as primary ME/CFS rationale**:
+   - Multiple ME/CFS trials using NMN/NR for fatigue/mitochondrial function
+   - SIRT1/NAD⁺ → RelA-K310 + FOXO3a + PGC-1α (mitochondrial biogenesis) = three-target ME/CFS action
+   - Pterostilbene and fisetin as alternatives/additions to resveratrol
+
+*ME/CFS THEWALL cross-reference run_147: 2026-04-12 | SIRT1 NAD+-deacetylase ME/CFS-NAD+-4-route PARP1-oxidative mitochondria-NADH IDO1-QPRT-run091 CD38-IFN-β-run142 RelA-K310-neuroinflammation NF-κB-microglia FOXO3a-NK-T-metabolic NMN-NR-primary ME/CFS-fatigue pterostilbene fisetin run090-SIRT3-SIRT6-orthogonal run146-PERK-NAMPT-vicious-cycle | run_147*

@@ -5474,3 +5474,64 @@ PI3Kδ (run_135) blocks the lymphocyte arm of T1DM autoimmunity. PI3Kγ (run_144
 - Pioglitazone/PPARγ: PPARγ → NRF2 upregulation in some contexts → SETD7 cysteine preservation; additive with ACSL4 ↓ (run_143)
 
 *Protocol_integration.md Part 9ct — 2026-04-12 | SETD7 KMT7 H3K4me1 FOXP3-K302me1 SAM-B12-monitoring metformin-B12-SETD7 methylfolate-betaine-methionine-stack SAH-homocysteine LSD1-KDM1A-inhibitor ORY1001-iadademstat dual-FOXP3-stabilization-K302-Ser418 β-cell-dedifferentiation-c-peptide-trajectory islet-enhancer-50pct-GSIS NF-κB-RelA-termination oxidative-SETD7-cysteine sulforaphane-NRF2-SETD7-protection B12-annual-monitoring-metformin ME/CFS-SAM-mitochondrial run114-GSK3β-FOXP3-additive | run_145*
+
+---
+
+### Part 9cu — EIF2AK3/PERK Protocol Integration (run_146)
+
+**New therapeutic additions — ER stress PERK arm:**
+
+**4-PBA/TUDCA mechanism extended (dual UPR justification):**
+- Prior rationale (run_098 context): IRE1α/XBP1s → ER expansion capacity
+- New mechanism (run_146): Chemical chaperones reduce misfolded protein load → PERK activation ↓ → eIF2α-P ↓ → ATF4 ↓ → CHOP ↓ → β cell survival ↑; same compounds now have independent PERK-branch justification
+- No dose change required; patients on 4-PBA/TUDCA for ER stress now have two parallel mechanistic rationales
+
+**ISRIB (investigational — for awareness):**
+- eIF2B stabilization → translation restored despite eIF2α-P → β cell insulin biosynthesis maintained
+- No approved human indication yet; preclinical proof-of-concept in β cells + neurological ISR models
+- Monitor pipeline: ISRIB analogs in academic clinical development
+
+**Salubrinal / Guanabenz (investigational):**
+- GADD34/PP1 inhibition → prolonged eIF2α-P → adaptation window extended → acute ER stress survival
+- NOD mouse T1DM protection data available
+- Not approved; research use only
+
+**ER stress monitoring protocol:**
+- Patients with metformin (B12 depletion → SAM ↓ → methyltransferases impaired, run_145) + ER stress markers (elevated GRP78/BiP in serum, if available) → PERK/CHOP risk assessment
+- 4-PBA: oral sodium 4-phenylbutyrate 5-12g/day (existing ER stress dosing for urea cycle disorders); off-label for β cell protection
+- TUDCA: 500-1750 mg/day; better-tolerated; preferred for chronic use
+
+*Protocol_integration.md Part 9cu — 2026-04-12 | EIF2AK3 PERK eIF2α ATF4 CHOP 4-PBA-TUDCA-dual-justification ISRIB-investigational salubrinal-GADD34 WRS-EIF2AK3 24th-β-cell-death NAMPT-NAD+-vicious-cycle-run147 run098-IRE1α-parallel-justification | run_146*
+
+---
+
+### Part 9cv — SIRT1/NAD⁺ Protocol Integration (run_147)
+
+**New therapeutic additions — SIRT1/NAD⁺ axis:**
+
+**NMN / NR (primary SIRT1 indication — new first-class additions):**
+
+| Compound | Dose | Mechanism | Target |
+|----------|------|-----------|--------|
+| NMN (nicotinamide mononucleotide) | 500-1000 mg/day oral | → NAD⁺ ↑ → SIRT1 activity → RelA-K310 + UCP2 + FOXO3a | T1DM β cell GSIS + Treg + rosacea UV/NF-κB |
+| NR (nicotinamide riboside) | 300-600 mg/day | Same via NMNAT2 pathway | Same; different NMN→NAD route |
+| Resveratrol (existing) | 100-500 mg/day | Allosteric STAC domain SIRT1 activation | Primary mechanism now identified |
+| Pterostilbene | 50-250 mg/day | SIRT1 activator; better bioavailability than resveratrol | New addition |
+| Fisetin (existing, run_061) | 100-500 mg/day | SIRT1 activator + AMPK + senolytic | Triple mechanism confirmed |
+
+**Niacinamide / SIRT1 monitoring alert:**
+- Standard niacinamide doses (run_076): 500 mg/day oral, 4% topical → tissue nicotinamide concentrations << SIRT1 Ki → NO SIRT1 inhibition expected
+- HIGH DOSE (>2g/day systemic): tissue nicotinamide → product inhibition → SIRT1 ↓ → potential NF-κB ↑ → monitor if >2g/day prescribed
+- For all patients on niacinamide >1g/day: consider co-supplementing NMN/NR to offset any SIRT1 product inhibition
+
+**RelA-K310 + K314/315 dual deactivation (additive protocol):**
+- SIRT1 (run_147) → RelA-K310 deacetylation → NF-κB activity ↓
+- SETD7 (run_145) → RelA-K314/315 methylation → RelA proteasomal degradation
+- Both operating together = two independent NF-κB termination mechanisms at adjacent residues → more complete inflammatory brake
+- Practical: NMN/NR (SIRT1 support) + B12/betaine (SETD7/SAM support) = complementary dual-site NF-κB control
+
+**AMPK/SIRT1/metformin protocol note:**
+- Metformin (run_085) → AMPK → DBC1 phosphorylation → SIRT1 derepressed → RelA-K310 deacetylated → islet NF-κB ↓
+- For patients already on metformin: metformin's NF-κB termination benefit is SIRT1-mediated; adding NMN may augment this by ensuring adequate NAD⁺ for SIRT1 when AMPK has derepressed it
+
+*Protocol_integration.md Part 9cv — 2026-04-12 | SIRT1 NAD+ UCP2-GSIS IRS-2 RelA-K310 FOXO3a NMN-NR-primary-addition resveratrol-STAC pterostilbene fisetin-triple niacinamide-monitor->2g dual-RelA-K310-K314-SIRT1-SETD7 AMPK-DBC1-metformin-SIRT1 B12-SAM-SETD7-additive ME/CFS-NAD+-4-route run090-SIRT3-orthogonal | run_147*
