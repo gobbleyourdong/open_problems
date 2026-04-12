@@ -400,3 +400,24 @@ M8 is an amplifier mountain: connects to M4 (GR downregulation → Treg failure)
 5. **Vagal anti-inflammatory reflex and M8**: vagal tone → splenic NF-κB suppression (nicotinic acetylcholine receptor α7 on macrophages → cholinergic anti-inflammatory reflex). Cold exposure (Wim Hof) activates vagal tone. M8 framework addresses sympathetic/cortisol/CRH arm but not parasympathetic/vagal anti-inflammatory arm. Connection to protocol: cold exposure (already in protocol) → vagal → splenic M8 dampening.
 
 *Gap.md updated: 2026-04-12 | Eighth "map the space" iteration | Akkermansia trophic chain | Sulforaphane Nrf2 multi-mountain | 8 mountains | 27+ mechanisms*
+
+---
+
+## Ninth Extension — 2026-04-12 (map the space, ninth iteration this session)
+
+**New work:**
+- **run_028**: Topical rapamycin 0.2% for Loop 1 non-responders — mTORC1 is the CENTRAL AMPLIFIER in Loop 1 (KLK5 → mTORC1 → more KLK5 transcription + IL-23 in DCs). Azelaic acid inhibits KLK5 activity; rapamycin blocks KLK5 transcription — these are SEQUENTIAL steps and dual blockade is more complete than either alone. Key novel insight: topical rapamycin simultaneously addresses Loop 4 (sebocyte mTORC1 → SREBP-1 → lipogenesis → more sebum → more squalene substrate for squalene-OOH generation). Single topical addressing two non-responder loops. Closes the Loop 1 treatment gap between azelaic acid and anti-IL-23 biologics ($2,400/month). TSC angiofibroma evidence: Koenig 2012 Lancet (73% response at 0.1-0.4% at 6 months). No rosacea-specific RCT (gap); mechanism established. Minimal systemic absorption at 0.2% cream (Hofbauer 2007).
+- **run_029**: Vagal anti-inflammatory reflex as M8 parasympathetic arm — M8 framework has been analyzed from the sympathetic axis (CRH/cortisol/SP/mast cells) only. Parasympathetic arm: vagus → celiac ganglion → splenic nerve → ChAT+ T cells → acetylcholine → α7-nAChR on macrophages → IKK-β inhibition → NF-κB ↓ + HMGB1 secretion ↓. This is the THIRD NF-κB suppression pathway (alongside colchicine/IKK and sulforaphane/CBP). Cold exposure (WHM — already in protocol) activates this via diving reflex → vagal → α7-nAChR. HMGB1 suppression = third loop 2 re-priming prevention (alongside omega-3 efferocytosis and melatonin SIRT1). HRV (wearable) = practical proxy for vagal tone/CAP status; low HRV days = high inflammatory risk days. Novel clinical use: HRV monitoring predicts flare-risk days in rosacea/ME/CFS. Protocol formalization: cold shower BID + diaphragmatic breathing = M8 CAP activation protocol.
+
+**Resolved gaps:**
+- Topical rapamycin for Loop 1 → analyzed (run_028); Level 3 treatment option formalized
+- Vagal anti-inflammatory reflex M8 parasympathetic arm → formalized (run_029); WHM mechanism explained
+
+**Remaining genuine gaps (truly open, end of ninth iteration):**
+1. **Küpers 2019 PACE EWAS**: nine iterations deferred; external data required. Not executable.
+2. **Oral microbiome red complex completeness**: T. denticola (dentilisin → IgA protease) + T. forsythia (BspA → TLR2/4 → NF-κB) alongside P. gingivalis. Dual/triple colonization = most severe M7. Independent mechanism contributions to the M7 framework not yet analyzed.
+3. **Sebum lipidome shift in T1DM**: insulin resistance → fatty acid composition changes → different Malassezia lipase substrate profile → different TLR2 agonist generation pattern. Not analyzed.
+4. **Eczema Phase 4 Ninth Extension update**: eczema THEWALL.md has Phase 4 update with M8/M6/M1↔M8 (earlier session) but not the new Phase 4 additions (zinc, Akkermansia, sulforaphane, vagal CAP, NLRP3 Loop 2 treatment). Cross-pollination incomplete.
+5. **Thyroiditis cross-pollination**: thyroiditis (Hashimoto's) shares IL-23/Th17, NLRP3, and IFN-α axis with rosacea/T1DM. PROBLEM.md exists but no THEWALL.md or cross-pollination from dysbiosis framework. IFN-α is specifically linked to thyroiditis (IFN-alpha therapy induces thyroiditis in 30-40% of treated patients → establishes causal direction). Not cross-pollinated.
+
+*Gap.md updated: 2026-04-12 | Ninth "map the space" iteration | Topical rapamycin Loop 1+4 bridge | Vagal CAP M8 parasympathetic arm | HRV monitoring | 8 mountains | 29+ mechanisms*
