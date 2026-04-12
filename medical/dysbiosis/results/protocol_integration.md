@@ -3420,3 +3420,38 @@ FTY720 (fingolimod) is FDA-approved for MS but NOT recommended in this protocol 
 This is the only clinical note for FTY720/S1PR1 — not a protocol recommendation.
 
 *Protocol_integration.md Part 9bf — 2026-04-12 | S1P SphK1 S1PR ceramide EGCG 4th mechanism NF-κB 13 pathways β cell mast cell S1PR2 FTY720 T1DM | run_106*
+
+---
+
+## Part 9bg — Leukotrienes: 5-LOX/BLT1/CysLT1; Mast Cell Three-Layer Management; T1DM BLT1; Omega-3 EPA Dose Rationale (run_107)
+
+### Mast Cell Three-Layer Management: Updated Framework
+
+| Layer | Target | Agents | Mechanism |
+|---|---|---|---|
+| Initiation prevention | Mast cell degranulation threshold | Ketotifen 1mg BID, quercetin, cromolyn | Membrane stabilization; cAMP ↑ |
+| Propagation prevention | CysLT1 on neighboring mast cells | **Montelukast 10mg QD** (prescription) | CysLT1 competitive antagonist |
+| End-receptor blockade | H1 (histamine), EP4 (PGE2), BLT1 (LTB4) | Cetirizine; omega-3; quercetin | Receptor-level downstream blockade |
+
+Montelukast is NOT currently in the standard protocol, but is recommended for patients who have:
+- Concurrent asthma or allergic rhinitis (already indicated for those conditions)
+- Rosacea + urticaria overlap (urticarial rosacea subtype)
+- Inadequate response to initiation-prevention agents alone (ketotifen + quercetin sufficient for most; montelukast for refractory)
+- CAUTION: FDA black-box warning for neuropsychiatric events; avoid in patients with depression, anxiety, or suicidal ideation history
+
+### Omega-3 EPA Dose: BLT1 Rationale
+
+The T1DM BLT1 mechanism adds a new quantitative target for EPA dosing:
+- Competitive 5-LOX substrate effect: EPA:AA ratio in cell membranes determines LTB4 vs. LTB5 production
+- To shift ratio meaningfully: EPA plasma level needs to be elevated; typically requires ≥1.5-2g EPA/day from supplementation
+- Protocol current dose (run_033 context): EPA+DHA 2-3g/day total → at typical EPA:DHA = 1:1 → ~1-1.5g EPA/day
+- For T1DM patients with active insulitis markers (rising anti-islet IgG, HbA1c deterioration): consider EPA-enriched formula (3:1 or higher EPA:DHA ratio) to maximize competitive 5-LOX substrate effect for BLT1 suppression
+
+### T1DM Protocol Addition: BLT1/LTB4 Monitoring (Optional)
+
+For T1DM rosacea patients with evidence of active autoimmunity (positive anti-GAD/IA-2 antibodies, C-peptide declining):
+- Urinary LTE4 (spot urine LTE4/creatinine ratio): accessible biomarker of systemic CysLT production; normal <100 pg/mg creatinine
+- If LTE4 elevated → CysLT production active → confirm omega-3 compliance + consider EPA dose increase
+- Not standard of care but mechanistically informative for refractory T1DM autoimmunity management
+
+*Protocol_integration.md Part 9bg — 2026-04-12 | Leukotrienes 5-LOX CysLT1 BLT1 mast cell montelukast omega-3 EPA T1DM islet homing urinary LTE4 | run_107*

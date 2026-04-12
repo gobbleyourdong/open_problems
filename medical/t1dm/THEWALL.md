@@ -697,3 +697,21 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 5. **Protocol for T1DM ceramide management**: Tight glycemic control + reduced dietary palmitate (C16:0) + EGCG dose maintenance + EPA/DHA (omega-3 → partial SMase inhibition). Monitoring: fasting TG + ApoB as glucolipotoxicity proxy.
 
 **Cross-reference: run_106 dysbiosis framework | S1P SphK1 S1PR ceramide rheostat FTY720 S1PR1 T1DM lymphocyte trafficking β cell 7th death mechanism EGCG NF-κB 13th mechanism | Maki 2005 Cantrell 2019 Alvarez 2010 Olivera 2006**
+
+---
+
+### run_107 Cross-Reference: Leukotrienes — BLT1 T Cell Islet Homing; CysLT Amplification; Omega-3 BLT1 Mechanism
+
+**Mechanisms specific to T1DM:**
+
+1. **BLT1-deficient NOD mice protected from T1DM** (Ott 2010 Diabetes): islet macrophages → LTB4 → BLT1 on autoreactive CD8+ T cells → directed islet infiltration. Positive feedback loop: first T cells activate macrophages → LTB4 gradient → more T cell homing → more macrophage activation → more LTB4. Early insulitis amplification mechanism.
+
+2. **Omega-3 EPA competitive 5-LOX substrate → LTB5 (weak BLT1) replaces LTB4 (potent BLT1)**: BLT1-based T cell islet homing mechanism now explicitly explained by omega-3 benefit. EPA:AA ratio in cell membranes determines LTB4 vs. LTB5. Target: ≥1.5-2g EPA/day; consider EPA-enriched omega-3 for T1DM patients with active autoimmunity markers.
+
+3. **CysLT1 in islets**: islet macrophages + mast cells (present in T1DM islets at low density) produce CysLTs during insulitis → CysLT1 on adjacent immune cells → amplification. Minor contribution; less established than BLT1 mechanism.
+
+4. **Urinary LTE4 as CysLT biomarker**: urinary LTE4/creatinine ratio → systemic CysLT production monitoring. Elevated in active T1DM insulitis? Mechanistically plausible; not yet validated as T1DM-specific biomarker.
+
+5. **Montelukast (CysLT1 antagonist) for T1DM + asthma comorbidity**: rosacea + asthma + T1DM triple comorbidity → montelukast addresses asthma (primary) + rosacea mast cell propagation (secondary). No direct T1DM-specific BLT1 effect (montelukast is CysLT1-selective, not BLT1).
+
+**Cross-reference: run_107 dysbiosis framework | Leukotrienes 5-LOX BLT1 LTB4 CysLT1 LTC4 T1DM NOD insulitis islet homing omega-3 EPA LTB5 montelukast | Ott 2010 Ford-Hutchinson 1994 Kim 2010**

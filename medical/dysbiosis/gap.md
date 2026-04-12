@@ -2511,3 +2511,44 @@ Ceramide ↔ S1P rheostat (Spiegel 2003): pro-apoptotic ceramide vs. pro-surviva
 5. **iNKT, pDC, IFN-λ, adenosine, Siglecs**: below threshold.
 
 *Gap.md updated: 2026-04-12 | Ninety-first iteration | S1P SphK1 S1PR ceramide rheostat TRAF2 NF-κB mast cell IgE FTY720 T1DM lymphocyte β cell death ETR angiogenesis EGCG quercetin Alvarez 2010 Olivera 2006 Maki 2005 | run_106*
+
+---
+
+## Ninety-Second Extension — 2026-04-12 (map the space, ninety-second iteration — run_107)
+
+**Pre-run micro-survey (post-run_106):**
+- PGE2/EP4: covered in run_055 (COX-2/NF-κB/vasodilation flushing; EP1-EP4 receptor subtypes; quercetin 4th mechanism at time). Not a gap.
+- Leukotrienes/5-LOX/LTB4/CysLT1/BLT1: confirmed ABSENT from deep analysis in all 106 runs. Run_020 mentions "less LTB4" as omega-3 benefit in passing (lines 6, 73); run_099 has one line about CysLT1/edema. FLAP, LTA4H/LTC4S branch point, BLT1 receptor T cell chemotaxis, CysLT1 mast cell amplification loop, montelukast pharmacology — all absent. T1DM BLT1 evidence (Ott 2010 Diabetes) absent.
+- Endocannabinoids/CB2: one mention in run_015 list; not analyzed. Below threshold given limited rosacea-specific CB2 evidence.
+- Lipoxins: completely absent from run_020 analysis; medium threshold; deferred in favor of leukotrienes (stronger T1DM genetic evidence).
+
+**Genuine gap identified: Leukotrienes/5-LOX/BLT1/CysLT1 — CysLT1 7th mast cell amplifier; BLT1 T cell islet homing; T1DM BLT1 KO evidence; montelukast mechanism; omega-3 receptor mechanism now complete**
+
+5-LOX + FLAP → LTA4 → LTB4 (via LTA4H) or CysLTs (via LTC4S). LTB4 → BLT1 on autoreactive CD8+ T cells → islet homing → insulitis amplification loop (Ott 2010: BLT1 KO NOD mice protected). CysLT1 on mast cells → 7th mast cell activation type (autocrine/paracrine amplifier; independent of original trigger). CysLT1 on endothelial → VE-cadherin → post-flushing edema. Omega-3 → LTB5 (weak) replaces LTB4 (potent) = BLT1 protection mechanism for omega-3 now explicit. Montelukast (CysLT1 antagonist) for rosacea + asthma/allergic overlap.
+
+**New work:**
+- **run_107**: 5-LOX/FLAP; LTA4H/LTC4S branch; LTB4→BLT1→T cell islet homing; CysLT1 mast cell 7th route; endothelial edema; transcellular LT biosynthesis; LTB5 from EPA; omega-3 BLT1 mechanism explicit; montelukast; ME/CFS LTB4; quercetin 5-LOX (low confidence); Ott 2010; Ford-Hutchinson 1994; Kim 2010; Maes 2012
+
+**New mechanisms:**
+- 5-LOX + FLAP → LTA4 → LTB4/CysLTs [complete enzyme pathway; distinct from COX-2; NSAIDs don't block it]
+- LTB4 → BLT1 on autoreactive T cells → islet infiltration amplification [T1DM; Ott 2010 genetic evidence]
+- CysLT1 on mast cells → Gαq → Ca²⁺ → independent degranulation [7th mast cell activation type; autocrine/paracrine amplifier; Kim 2010]
+- CysLT1 on endothelial → VE-cadherin → dermal edema [post-flushing swelling mechanism]
+- Transcellular LT biosynthesis [mast cell LTA4 + neutrophil LTA4H → amplified LTB4]
+- Omega-3 EPA → LTB5 (10-100× less BLT1 potency) replaces LTB4 [BLT1 protection mechanism for omega-3 now explicit]
+- LTB4 elevated in ME/CFS → BLT1 on NK cells → recruitment-function dissociation [Maes 2012]
+- Quercetin 5-LOX inhibition [9th quercetin mechanism — LOW CONFIDENCE; Kimata 2000]
+
+**Post-run_107 micro-survey:**
+- Lipoxins (LXA4/ATL/FPR2): completely absent from run_020 analysis; aspirin-triggered LXA4 (ATL) from aspirin-acetylated COX-2 + AA; FPR2/ALX receptor → anti-resolution. This is the arachidonic acid-derived SPM arm that run_020 (omega-3 derived SPMs only) never covered. T1DM: LXA4 → Treg induction (Bhatt 2016); rosacea: ATL from aspirin + omega-3 → dual COX/5-LOX → both PGE2 ↓ AND LXA4 ↑ from aspirin-acetylated COX-2. Assess for run_108.
+- Endocannabinoids: one list mention in run_015; CB2 on mast cells, macrophages, T cells. Below current threshold (evidence thinner than lipoxins).
+- PGE2 immunomodulatory arm (EP4 on T cells → Th17 promotion via IL-23): not covered in run_055 (run_055 covers only vasodilatory arm); potentially relevant but EP4 on T cells is partly covered via the cAMP/PKA context of GLP-1R (run_073). Below threshold.
+- H4 histamine receptor: expressed on T cells, DCs, mast cells; H4R → Th2/Treg modulation; largely redundant with H1R/mast cell coverage. Below threshold.
+
+**Remaining genuine gaps (truly open, end of ninety-second iteration):**
+1. **Küpers 2019 PACE EWAS**: ninety-two iterations deferred. Not executable.
+2. **Lipoxins (LXA4/ATL/FPR2)**: completely absent from run_020 analysis; AA-derived SPMs; aspirin-triggered LXA4; T1DM Treg induction; assess for run_108.
+3. **Endocannabinoids/CB2**: one list mention; below current threshold.
+4. **iNKT, pDC, IFN-λ, adenosine, Siglecs, H4R**: below threshold.
+
+*Gap.md updated: 2026-04-12 | Ninety-second iteration | Leukotrienes 5-LOX FLAP LTB4 BLT1 CysLT1 CysLT mast cell 7th mast cell T1DM NOD BLT1 KO insulitis montelukast omega-3 LTB5 ME/CFS Ott 2010 Ford-Hutchinson 1994 Kim 2010 Maes 2012 | run_107*

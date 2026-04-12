@@ -593,3 +593,19 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 3. **S1P → SphK1 → TRAF2 → NF-κB in endothelial cells**: activated endothelial cells (anti-β2-AR IgG mechanism; run_104) → TNF-α → SphK1 → S1P → TRAF2 → NF-κB amplification in vascular endothelium → persistent endothelial NF-κB activation → vascular inflammation → orthostatic intolerance. EGCG→SphK1 inhibition could reduce this endothelial amplification.
 
 **Cross-reference: run_106 dysbiosis framework | S1P SphK1 S1PR5 NK trafficking ceramide rheostat FTY720 neuroinflammation ME/CFS | Alvarez 2010 Olivera 2006 Tronstad 2017**
+
+---
+
+### run_107 Cross-Reference: Leukotrienes — LTB4 Elevation; NK Recruitment-Function Dissociation; Omega-3
+
+**Mechanisms relevant to ME/CFS:**
+
+1. **LTB4 elevated in ME/CFS serum** (Maes 2012 Neuro Endocrinol Lett): monocyte/macrophage M1 activation → PLA2 → AA → 5-LOX → LTB4 ↑. The elevated LTB4 in ME/CFS reflects persistent innate immune activation.
+
+2. **BLT1 on NK cells → NK recruitment-function dissociation**: LTB4 → BLT1 on NK cells → NK cells recruited to peripheral sites of activity, but intrinsic NK cytotoxicity is impaired (run_102; Brenu 2011). NK cells arrive but cannot clear virus-infected/stressed cells → persistent viral reservoir → ongoing LTB4 production → sustained activation loop.
+
+3. **Omega-3 EPA → LTB5 → reduced aberrant NK recruitment**: EPA competitive 5-LOX → less LTB4 → less BLT1 activation on NK cells → reduced mismatch between NK recruitment and function. This is a new ME/CFS-specific rationale for omega-3 beyond systemic anti-inflammation.
+
+4. **Potential therapeutic angle**: Zileuton (5-LOX inhibitor): blocks LTB4 and CysLT production upstream; not standard of care; hepatotoxicity risk limits use. Omega-3 EPA (competitive substrate) is the safe protocol option.
+
+**Cross-reference: run_107 dysbiosis framework | Leukotrienes 5-LOX LTB4 BLT1 NK cells ME/CFS omega-3 EPA LTB5 | Maes 2012 Ford-Hutchinson 1994 Kim 2010**

@@ -4711,3 +4711,50 @@ The complete β cell death taxonomy now has 7 mechanisms spanning immune and met
 Mechanism 7 is actionable independently of immune management: tight glycemic control + reduced dietary saturated fat (palmitate) → less SMase activation → less ceramide → SphK1/S1P better maintained → β cell survival enhanced. This is a metabolic rationale for lifestyle intervention in T1DM beyond just glucose control.
 
 *Updated: 2026-04-12 | Phase 4 eightieth extension | S1P SphK1 S1PR ceramide rheostat TNF-α TRAF2 NF-κB mast cell S1PR2 FTY720 T1DM lymphocyte β cell 7th death mechanism ETR angiogenesis EGCG 4th mechanism Alvarez 2010 Olivera 2006 Maki 2005 Cantrell 2019 | run_106*
+
+---
+
+## Phase 4 — Eighty-First Extension (2026-04-12): Leukotrienes / 5-LOX / BLT1 / CysLT1 — Mast Cell 7th Route; T1DM Islet Homing; Omega-3 BLT1 Mechanism (run_107)
+
+**New mechanistic connections established:**
+
+### 5-LOX and COX-2: Two Independent AA Arms — Both Needed
+
+The framework previously analyzed the COX-2 arm (run_055: PGE2/EP4) and stated omega-3 reduces LTB4 (run_020) — but the WHY was missing. Run_107 completes the picture:
+
+| Feature | COX-2 arm (run_055) | 5-LOX arm (run_107) |
+|---|---|---|
+| Enzyme | COX-2 (NF-κB target gene) | 5-LOX + FLAP (Ca²⁺/activation) |
+| Products | PGE2, PGD2, PGI2, TxA2 | LTB4, LTC4/D4/E4 |
+| Key receptors | EP2/EP4 → vasodilation | BLT1 → T cell homing; CysLT1 → mast cell |
+| Blocked by | NSAIDs (COX inhibitors) | Zileuton (5-LOX); Montelukast (CysLT1) |
+| Omega-3 effect | PGE3 replaces PGE2 (less potent) | LTB5 replaces LTB4 (less potent) |
+
+This means a patient managing rosacea with omega-3 + quercetin is addressing BOTH arms simultaneously. Quercetin inhibits both COX-2 (run_055: 4th mechanism at time) AND 5-LOX (run_107: 9th mechanism, low confidence) — potentially explaining why quercetin is the single most multi-mechanism agent in the protocol.
+
+### CysLT1 Mast Cell Amplification: Wave Propagation Mechanism
+
+The 7th mast cell activation route (CysLT1) provides the first mechanistic explanation for the spatial propagation of rosacea mast cell activation:
+- A single mast cell triggered by ANY of routes 1-5 + S1PR2 amplification → releases LTC4/D4
+- LTC4/D4 → CysLT1 on adjacent mast cells (within ~100-200µm in dermis) → independent Gαq/Ca²⁺ activation
+- This "leukotriene wave" propagates outward from the initial trigger point → explains why facial erythema starts focally (nose, cheeks) and spreads during a flare
+
+Montelukast (CysLT1 antagonist) interrupts this propagation wave WITHOUT blocking the initial trigger. This makes it complementary to:
+- Mast cell stabilizers (ketotifen/cromolyn): prevent initial degranulation
+- Montelukast: prevents propagation to adjacent mast cells
+- Antihistamines: block one downstream product (histamine)
+
+Combined: mast cell stabilizer + montelukast + antihistamine = three-layer mast cell management addressing initiation, propagation, and end-receptor effects.
+
+### BLT1/T1DM: The Third Islet-Homing Mechanism
+
+The framework now has three mechanisms by which autoreactive T cells traffic to islets:
+1. CXCR5/CXCL13 → Tfh migration to GC (run_104): autoantibody production route
+2. S1PR1 → general lymphocyte egress (run_106): all T cells including autoreactive
+3. **BLT1 → LTB4-gradient directed islet homing (run_107; Ott 2010)**: specific amplification once first T cells activate macrophages
+
+The BLT1 route is unique: it creates a POSITIVE FEEDBACK LOOP within the islet. Once a small number of autoreactive T cells reach islets and activate macrophages → LTB4 gradient → BLT1 → more autoreactive T cell recruitment → more macrophage activation → more LTB4. This is an early insulitis amplifier that explains the rapid escalation from early to severe insulitis in NOD mice.
+
+Omega-3 EPA → LTB5 (weak BLT1 activity) is now the MECHANISTICALLY UNDERSTOOD intervention for breaking this amplification loop. Ensuring adequate EPA levels (≥1g EPA/day from fish oil/algal oil) is important not just for prostanoid reduction but specifically for BLT1 competition.
+
+*Updated: 2026-04-12 | Phase 4 eighty-first extension | Leukotrienes 5-LOX FLAP BLT1 CysLT1 LTB4 LTC4 LTD4 mast cell 7th T1DM islet T cell homing omega-3 LTB5 montelukast ME/CFS Ott 2010 Ford-Hutchinson 1994 Kim 2010 | run_107*
