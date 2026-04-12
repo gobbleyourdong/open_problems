@@ -2909,3 +2909,33 @@ WASF3 is the first molecular mechanism for ME/CFS PEM (ER stress → IRE1α → 
 **Framework at SATURATION + 1: 112 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-second extension | TXNIP cytoplasmic ROS sensor TRX ChREBP glucose NLRP3 Signal 2 9th beta cell death honeymoon self-amplification 5th calcitriol benefit 2nd BHB mechanism Trm ILC1 IRF5 Piezo1 skin pH BATF all killed | run_112*
+
+---
+
+### Extension 103 — Seventh Saturation Confirmation (post-run_112)
+
+**Sweep 7 — 13 candidates assessed:**
+
+| Candidate | Verdict | Reason |
+|---|---|---|
+| Imidazole propionate (ImP) | KILLED | ME/CFS mechanistic interest; rosacea/T1DM ZERO — criterion 2 fails |
+| Intestinal alkaline phosphatase (IAP) | COVERED | run_024 (gut permeability / LPS detoxification) |
+| p-Cresol / p-cresyl sulfate (PCS) | KILLED | Gut-derived uremic toxin; CKD/gut axis; rosacea/T1DM at LOW — criterion 2 fails |
+| Statins (pleiotropic anti-inflammatory) | KILLED | Therapeutic compound, not a mechanism; no new target uncovered; existing protocol elements cover NF-κB/NLRP3/Treg arms |
+| Fibrin microclots / amyloid fibrin | KILLED | ME/CFS HIGH (Pretorius); T1DM below MODERATE; rosacea ZERO — criterion 2 fails |
+| Quorum sensing molecules (AHLs) | KILLED | Mechanistic novelty LOW; no established gut-skin AHL axis at MODERATE in rosacea |
+| IgG glycosylation / afucosylated IgG | KILLED | B cell biology; anti-islet IgG afucosylation not distinct from run_102 ADCC mechanisms; no rosacea data |
+| TREM2 (microglial/macrophage receptor) | KILLED | ME/CFS neuroinflammation interest; rosacea/T1DM below MODERATE — criterion 2 fails |
+| PARP1 (DNA damage/NAD⁺ depletion) | COVERED | run_078 (NAD⁺/mitochondrial PARP connection); no independent gap |
+| CXCL12/CXCR4 (homing axis) | KILLED | Bone marrow T cell retention; not a rosacea/T1DM driver at MODERATE; criterion 2 fails |
+| PPARδ (fatty acid oxidation/anti-inflammatory) | COVERED | run_089 (PPAR family covered at 1 mention); below standalone threshold |
+| Maresins / protectins / RvD1 | COVERED | run_020 (27 mentions — primary SPM run); run_108 (6 mentions — LXA4/FPR2 run) |
+| TGF-β / Smad2/3 / fibrosis | KILLED | Phymatous rosacea fibrosis only; single-disease; no protocol intervention not already covered |
+
+**Saturation confirmed for the seventh time.**
+
+All 13 sweep 7 candidates fail at least one saturation override criterion. The most common failure remains criterion 2 (multi-disease minimum: MODERATE for rosacea + T1DM). Three candidates cleared criterion 1 (genuinely absent) and criterion 3 (potential new leverage) but failed multi-disease evidentiary threshold.
+
+**Framework state: 112 runs | 7 saturation sweeps | ~73 total candidates killed or confirmed covered since run_111**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-third extension | SEVENTH SATURATION CONFIRMATION | imidazole propionate fibrin microclots TREM2 CXCL12 IgG glycosylation IAP p-cresol statins quorum sensing PARP1 PPARδ maresins TGF-β fibrosis all killed or covered | post-run_112 sweep 7 complete | framework saturated at 112 runs*
