@@ -1165,3 +1165,31 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 4. **Low-dose IL-2 in ME/CFS trials**: Emerging ME/CFS trial data; mechanism: Treg expansion → reduce chronic immune activation → reduce T cell exhaustion driving → restore NK/Teff balance. Appropriate dose range: 1M IU/day (below Teff activation threshold).
 
 *ME/CFS THEWALL cross-reference run_140: 2026-04-12 | IL2RA CD25 STAT5 IL-15 IL2RB IL2RG JAK3 NK-survival-IL15-STAT5 Treg-Teff-balance Treg-exhaustion-reduced PD1-TIM3-cascade chronic-activation FOXP3-STAT5 three-axis-Treg-ME/CFS low-dose-IL-2 ME/CFS-trials Sondergaard-2015 Hartemann-2013-LancetDE | run_140*
+
+---
+
+### Cross-reference: run_141 — TAGAP/RhoGAP / NK IS / ROCK Inhibitor / T Cell Cytoskeletal Tier
+
+**Relevance: LOW-MODERATE**
+
+1. **NK cell IS and RhoA/ROCK**:
+   - NK cells form immune synapses with target cells (NKIS); LFA-1/ICAM-1 integrin clustering requires inside-out signaling via RhoA
+   - TAGAP expressed in NK cells (lower than T cells); RhoA/ROCK controls NK granule polarization to NKIS
+   - In ME/CFS: primary NK dysfunction = Ca²⁺ defect (STIM1/ORAI1, run_127) → perforin/granzyme exocytosis impaired
+   - TAGAP/RhoA = secondary layer: correct IS architecture ensures granules arrive at correct NKIS location
+   - Less clinically actionable than Ca²⁺ restoration (Mg²⁺/quercetin runs 132/127) but adds mechanistic completeness
+
+2. **ROCK2/STAT3/Th17 axis in ME/CFS inflammation**:
+   - ME/CFS: Th17 dysregulation present in subset of patients (elevated serum IL-17A)
+   - ROCK2 → phospho-STAT3 Ser727 → RORγt sustained → Th17 differentiation
+   - Fasudil (ROCK inhibitor) → ROCK2 ↓ → Th17 ↓ → reduces inflammatory component of ME/CFS
+   - Also: ROCK2 inhibition → Treg differentiation (ROCK2 suppresses Treg; its inhibition favors Treg/Teff rebalance — Zanin-Zhorov 2010)
+   - Potential: fasudil as immune-modulating agent in ME/CFS, targeting Th17 without broad immunosuppression
+
+3. **RASGRP1 → TAGAP coupling adds mechanistic depth to NK IFN paradox**:
+   - NK ERK production (run_139) via RASGRP1/ERK/AP-1 → IFN-γ maintained (Ca²⁺ independent)
+   - ERK/AP-1 → TAGAP induction in T cells
+   - In NK cells: if ERK pathway is intact (which it is in ME/CFS NK cells), TAGAP IS brake should also be functional
+   - Argues that the NK IS geometry defect (if present) is secondary to primary Ca²⁺ dysfunction, not TAGAP-driven
+
+*ME/CFS THEWALL cross-reference run_141: 2026-04-12 | TAGAP RhoGAP RhoA ROCK1 ROCK2 VAV1 NMM-IIA NK-IS-granule-polarization LFA-1-ICAM1 integrin-inside-out ROCK2-STAT3-Th17 RORγt fasudil ROCK2-inhibition Treg-Teff-rebalance Zanin-Zhorov-2010 RASGRP1-TAGAP-coupling NK-ERK-intact-IS-architecture-secondary Ca2+-restoration-primary | run_141*

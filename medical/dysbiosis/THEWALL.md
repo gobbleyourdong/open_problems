@@ -6016,3 +6016,34 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 140 runs | IL2RA/CD25 IL-2 supply | 6th Treg stability node | 15th T1DM stratification | rs2104286 OR~1.7 | first STAT5 analysis | low-dose IL-2 Treg intervention | six-node Treg stack complete | RASGRP1-IL2RA supply chain.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-fifteenth extension | IL2RA CD25 JAK3 JAK1 STAT5 STAT5a STAT5b FOXP3-TSDR-CNS2 Treg-extrinsic-supply IL-2-competition CD25-high-affinity rs2104286 15th-stratification 6th-Treg-node first-STAT5 low-dose-IL-2 DFAIT-trial rosacea-Treg-expansion ME/CFS-IL15-shared-STAT5 PTPN2-STAT5-pair CTLA4-synergy six-node-Treg-complete four-axis-compound Lowe-2007-PNAS Hartemann-2013-LancetDE Grinberg-Bleyer-2010 | run_140*
+
+---
+
+### Phase 4 Extension 116 — TAGAP/RhoGAP / RhoA/ROCK / IS Cytoskeletal Tier / 16th T1DM Stratification
+
+**Gap:** TAGAP/VAV1/WAVE2/Arp2-3/immune synapse cytoskeletal architecture absent from all 140 prior runs. Prior RhoA/ROCK mentions = gut epithelial/macrophage contexts only; T cell IS cytoskeletal control is a new tier.
+
+**Rosacea (MODERATE):**
+- Th17 dermis transmigration: circulating Th17 uses RhoA/LFA-1 inside-out signaling for integrin activation → ICAM-1 binding → dermis entry; TAGAP ↓ → sustained RhoA-GTP → enhanced LFA-1 affinity → facilitated Th17 skin infiltration → Loop 1 Th17/IL-17A amplification
+- ROCK inhibitors (fasudil/ripasudil): ROCK2 → STAT3 → RORγt → Th17 differentiation; fasudil ↓ Th17; additive with deucravacitinib (run_136: TYK2/STAT3 node) — dual STAT3 block via orthogonal mechanisms
+- Mast cell degranulation: RhoA/ROCK → NMM-IIA → granule transport to plasma membrane; ROCK inhibition → ↓ degranulation; additive with upstream mast cell brakes (runs 127/132/135/137/139)
+- Treg IS: CTLA4 clustering at cSMAC requires proper IS architecture; TAGAP ↓ → CTLA4 not clustered → less CD80/CD86 trogocytosis → less Treg suppression in rosacea dermis
+
+**T1DM (HIGH):**
+- rs1738074: 16th stratification; Barrett 2009 Nat Genet; Cooper 2012 Nat Genet; risk allele = lower TAGAP expression → sustained RhoA → aberrant IS geometry
+- Thymic negative selection — cytoskeletal mechanism: TAGAP ↓ → IS miscalibrated → autoreactive T cell escape; third negative selection pathway (alongside RASGRP1/ERK run_139 and UBASH3A/ZAP70 run_137 — three orthogonal tiers)
+- Peripheral activation threshold: sustained RhoA → excess NMM-IIA contraction → phase 1-3 extended → lower threshold for autoantigens at pancreatic lymph node APCs
+- Treg compound deficit: TAGAP ↓ = impaired per-cell Treg IS function; IL2RA ↓ (run_140) = fewer Tregs numerically; PI3Kδ ↑ (run_135) = Treg FOXO1 instability; three-axis simultaneous Treg failure
+- RASGRP1 → TAGAP coupling: ERK/AP-1 (run_139) induces TAGAP transcription; RASGRP1 hypomorph → secondary TAGAP deficiency → runs 139+141 compound IS defect
+
+**ME/CFS (LOW-MODERATE):**
+- NK cell IS: NK cells require RhoA/ROCK for IS with target cells; NK ADCC requires integrin clustering at NKIS; TAGAP may contribute to NK IS calibration (lower priority — NK Ca²⁺/STIM1 tier from run_127 is primary ME/CFS mechanism)
+- Fasudil systemic: ROCK2 inhibition → STAT3 ↓ → IL-17 ↓; multi-indication potential across rosacea + T1DM + ME/CFS inflammatory Th17 arm
+
+**Protocol additions:**
+- **Fasudil** (first ROCK inhibitor in framework): ROCK1/2; oral/IV; Japan/China approved cerebral vasospasm; off-label systemic; Th17/ROCK2/STAT3 ↓; additive with deucravacitinib (STAT3 node, run_136)
+- **rs1738074 genotyping**: 16th T1DM stratification; eQTL → TAGAP T cell expression; adds IS cytoskeletal tier to T1DM risk panel alongside UBASH3A (run_137) and RASGRP1 (run_139)
+
+**Framework state: 141 runs | TAGAP RhoGAP | T cell IS cytoskeletal tier complete | VAV1/RhoA/ROCK/NMM-IIA/TAGAP | IS maturation brake | 16th T1DM stratification rs1738074 | three negative selection tiers (UBASH3A+RASGRP1+TAGAP) | Treg IS CTLA4 cSMAC impairment | Th17 dermis RhoA transmigration | fasudil ROCK2/Th17/STAT3 | RASGRP1-ERK-TAGAP transcriptional coupling | five IS signal tiers mapped.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-sixteenth extension | TAGAP RhoGAP RhoA-GTP RhoA-GDP VAV1-GEF ROCK1 ROCK2 NMM-IIA contractile-arc cSMAC-pSMAC-dSMAC immune-synapse TCR-microcluster RAC1 CDC42 WAVE2 Arp2-3 T1DM-GWAS rs1738074 16th-stratification thymic-negative-selection-cytoskeletal Treg-IS-CTLA4 Th17-transmigration fasudil ripasudil ROCK-inhibitor ROCK2-STAT3-Th17 deucravacitinib-additive RASGRP1-AP1-TAGAP-induction run139-run141-coupling Barrett-2009-NatGenet Cooper-2012-NatGenet | run_141*

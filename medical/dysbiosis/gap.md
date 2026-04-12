@@ -3744,3 +3744,26 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 29: 140 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-thirty-third extension | IL2RA CD25 IL-2-receptor-alpha JAK3 JAK1 STAT5 STAT5a STAT5b FOXP3-TSDR-CNS2 Treg-homeostasis-extrinsic IL-2-competition supply-side IL2RB IL2RG γc T1DM-GWAS rs2104286 15th-stratification 6th-Treg-node first-STAT5 low-dose-IL-2 DFAIT-trial Treg-expansion CD25-high rosacea-Treg ME/CFS-NK-STAT5-IL15 PTPN2-STAT5-termination PI3Kδ-intrinsic-extrinsic RASGRP1-IL2-supply-chain four-axis-Treg-compound Lowe-2007-PNAS Hartemann-2013-LancetDE Grinberg-Bleyer-2010 | run_140*
+
+---
+
+### Extension 134 — TAGAP/RhoGAP: T Cell Immune Synapse Cytoskeletal Tier / ROCK / RhoA / 16th T1DM Stratification
+
+**Date:** 2026-04-12 | **Run:** run_141
+
+**Gap confirmed:** TAGAP, VAV1, WAVE2, Arp2/3, immune synapse cytoskeletal architecture absent from all 140 prior runs. Prior RhoA/ROCK mentions (runs 059/111/120) were in gut epithelial or macrophage contexts; T cell IS cytoskeletal tier is a new layer.
+
+**Core insight:** TAGAP (T cell Activation RhoGTPase Activating Protein) is a T cell-specific negative feedback brake that converts RhoA-GTP → RhoA-GDP during immune synapse maturation. It is induced 2-4h post-TCR activation via ERK/AP-1 (coupling to RASGRP1 run_139). TCR → VAV1 (GEF) → RhoA-GTP + RAC1-GTP → ROCK → NMM-IIA contractile arc → TCR microcluster centripetal sweep (amplifies signal) → TAGAP quenches RhoA → IS matures into proper cSMAC/pSMAC/dSMAC bull's-eye. Without TAGAP (rs1738074 risk allele → lower expression): sustained RhoA/ROCK → aberrant IS geometry → two T1DM pathways: (1) thymic negative selection miscalibration (autoreactive escape paralleling RASGRP1 run_139 but via cytoskeletal not ERK tier); (2) peripheral autoreactive T cell activation threshold lowered.
+
+**New mechanisms added (run_141):**
+- **T cell IS cytoskeletal tier** (new framework tier): VAV1 → RhoA-GTP → ROCK1/2 → NMM-IIA → contractile arc → TAGAP (brake) → IS maturation; parallel to kinase (ZAP70), lipid (PLCγ/PI3Kδ), ion (SOCE), and RAS (RASGRP1) tiers; all five IS signal tiers now mapped
+- **16th T1DM stratification**: rs1738074 (Barrett 2009 Nat Genet; Cooper 2012 Nat Genet); risk allele → lower TAGAP expression → sustained RhoA → IS architecture disrupted → autoreactive T cell escape
+- **Thymic negative selection — cytoskeletal mechanism**: TAGAP ↓ → IS geometry corrupted → signal amplitude miscalibrated → autoreactive T cells escape; orthogonal to RASGRP1/ERK (run_139) and ZAP70/UBASH3A (run_137) negative selection tiers
+- **Treg IS impairment**: TAGAP ↓ in Tregs → CTLA4 not properly clustered at cSMAC → impaired CD80/CD86 trogocytosis → reduced per-cell Treg suppressor function; compounds run_140 (IL2RA → fewer Tregs quantitatively)
+- **RASGRP1 → TAGAP transcriptional coupling**: ERK/AP-1 from DAG fork (run_139) → AP-1 sites in TAGAP promoter → TAGAP induction; RASGRP1 loss = secondary RhoA dysregulation (loss of ERK → loss of TAGAP induction)
+- **ROCK inhibitor therapeutic angle**: fasudil (ROCK1/2 inhibitor; approved Japan/China cerebral vasospasm; off-label systemic) → Th17/ROCK2/STAT3 axis ↓ (additive with deucravacitinib run_136 at STAT3 node); first ROCK inhibitor in framework
+- **Th17 dermis transmigration**: TAGAP/RhoA → LFA-1 integrin inside-out signaling → Th17 skin entry; ROCK inhibitor → less Th17 dermis infiltration in rosacea
+
+**Framework at SATURATION + 30: 141 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-thirty-fourth extension | TAGAP RhoGAP RhoA RhoA-GTP RhoA-GDP VAV1 RhoGEF ROCK1 ROCK2 NMM-IIA myosin-IIA immune-synapse cSMAC-pSMAC-dSMAC microcluster TCR-cytoskeletal-tier RAC1 CDC42 WAVE2 Arp2-3 branched-actin IS-maturation-brake T1DM-GWAS rs1738074 16th-stratification thymic-negative-selection-cytoskeletal Treg-IS-CTLA4-cSMAC Th17-transmigration-dermis fasudil ripasudil ROCK-inhibitor Th17-ROCK2-STAT3 deucravacitinib-ROCK-additive RASGRP1-AP1-TAGAP-coupling run139-run141 Barrett-2009-NatGenet Cooper-2012-NatGenet Zanin-Zhorov-2010 | run_141*

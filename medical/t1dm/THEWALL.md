@@ -1359,3 +1359,40 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
    - Together: activation kinetics (IL2RA) + termination kinetics (PTPN2) both determine net STAT5 in Tregs; risk alleles in both → insufficient STAT5 peak (IL2RA deficiency) + risk of STAT5 dysregulation
 
 *T1DM THEWALL cross-reference run_140: 2026-04-12 | IL2RA CD25 JAK3 STAT5 FOXP3-TSDR-CNS2 Treg-extrinsic-supply IL-2-competition rs2104286 15th-stratification 6th-Treg-node CD25-high-affinity low-dose-IL-2 DFAIT-trial Treg-expansion STAT5-TSDR PTPN2-termination-pair CTLA4-synergy RASGRP1-supply-chain four-axis-compound Vitamin-A-D-STAT5-combined Lowe-2007-PNAS Hartemann-2013-LancetDE Grinberg-Bleyer-2010 | run_140*
+
+---
+
+### Cross-reference: run_141 — TAGAP/RhoGAP / T Cell IS Cytoskeletal Tier / 16th T1DM Stratification
+
+**Relevance: HIGH**
+
+1. **16th T1DM genetic stratification — rs1738074 (TAGAP locus)**:
+   - GWAS hit: Barrett 2009 Nat Genet; Cooper 2012 ImmunoChip; risk allele = lower TAGAP expression in T cells
+   - TAGAP = RhoGTPase activating protein; converts RhoA-GTP → RhoA-GDP during IS maturation
+   - Risk allele → sustained RhoA/ROCK → aberrant IS geometry → three independent T1DM paths
+
+2. **Three negative selection defect tiers (three orthogonal IS mechanisms)**:
+   - Tier 1 (kinase): UBASH3A ↓ (run_137) → ZAP70-Y319 phosphorylated too long → IS signal too strong for tolerance calibration
+   - Tier 2 (RAS/ERK): RASGRP1 ↓ (run_139) → blunted ERK → Bim threshold not met → autoreactive escape
+   - Tier 3 (cytoskeletal): TAGAP ↓ (run_141) → sustained RhoA → IS geometry aberrant → signal miscalibrated → autoreactive escape
+   - All three are independent (different IS tiers); risk allele in any one = increased autoreactive T cell burden
+   - Risk alleles in multiple (rs11203203 UBASH3A + rs17574546 RASGRP1 + rs1738074 TAGAP) = compound negative selection failure
+
+3. **RASGRP1 → TAGAP transcriptional coupling**:
+   - ERK/AP-1 from run_139 → AP-1 sites in TAGAP promoter → TAGAP expression induced
+   - RASGRP1 risk allele (run_139) → less ERK → less TAGAP induction → secondary RhoA dysregulation
+   - Runs 139 + 141 create a compound IS defect: blunted ERK signal AND sustained RhoA contractile arc
+
+4. **Treg IS impairment — compounds run_140**:
+   - CTLA4 clusters at cSMAC during Treg IS with APCs → CD80/CD86 trogocytosis → suppressor function
+   - TAGAP ↓ in Tregs → aberrant IS → CTLA4 not cSMAC-concentrated → per-cell Treg function impaired
+   - IL2RA ↓ (run_140) = fewer Tregs quantitatively; TAGAP ↓ (run_141) = each remaining Treg less functional
+   - Three-axis Treg compound: IL2RA (quantity) + TAGAP (IS function) + PI3Kδ hyperactivation (FOXO1 nuclear loss, run_135)
+
+5. **Fasudil (ROCK inhibitor) + deucravacitinib (TYK2/STAT3, run_136) dual Th17 block**:
+   - ROCK2 → STAT3 Ser727 phosphorylation → RORγt sustained (cytoplasmic STAT3/RORγt interaction)
+   - Fasudil → ROCK2 ↓ → STAT3 reduced → RORγt ↓ → Th17 maintenance disrupted
+   - TYK2/IL-23 (run_136) → STAT3 Tyr705 phosphorylation → RORγt gene transcription
+   - Both STAT3 sites contribute; fasudil + deucravacitinib = orthogonal STAT3 dual block for insulitis Th17
+
+*T1DM THEWALL cross-reference run_141: 2026-04-12 | TAGAP RhoGAP RhoA-GTP ROCK1 ROCK2 NMM-IIA VAV1-GEF cSMAC-pSMAC IS-maturation-brake rs1738074 16th-stratification thymic-negative-selection-tier3-cytoskeletal UBASH3A-RASGRP1-TAGAP-three-tiers RASGRP1-ERK-TAGAP-coupling compound-IS-defect Treg-IS-CTLA4-cSMAC IL2RA-quantity-TAGAP-function PI3Kδ-FOXO1-three-axis-Treg fasudil ROCK2-STAT3-RORγt deucravacitinib-STAT3-dual-block Barrett-2009-NatGenet Cooper-2012-NatGenet Zanin-Zhorov-2010 | run_141*

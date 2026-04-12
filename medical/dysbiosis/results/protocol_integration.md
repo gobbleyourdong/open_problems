@@ -5273,3 +5273,53 @@ RASGRP1 (run_139) + IL2RA (run_140) supply chain:
 | ME/CFS Treg/Teff rebalance | 1M IU/day × 5 days | Every 6-8 weeks | Chronic immune activation ↓ |
 
 *Protocol_integration.md Part 9co — 2026-04-12 | IL2RA CD25 JAK3 STAT5 six-node-Treg-ladder low-dose-IL-2 DFAIT-trial 15th-stratification rs2104286 OR1.7 first-STAT5 extrinsic-Treg-supply CTLA4-synergy four-axis-compound IKZF1-BACH2-PI3Kδ-IL2RA Vitamin-A-D-IL2 PTPN2-STAT5-pair RASGRP1-supply-chain Lowe-2007-PNAS Hartemann-2013-LancetDE Grinberg-Bleyer-2010 | run_140*
+
+---
+
+### Part 9cp — TAGAP/RhoGAP Protocol Integration (run_141)
+
+**New monitoring additions:**
+
+**rs1738074 genotyping (TAGAP, 16th T1DM stratification):**
+- eQTL variant; risk allele = lower TAGAP expression in T cells
+- Mechanism: sustained RhoA/ROCK → IS architecture corrupted → thymic negative selection miscalibrated + peripheral autoreactive threshold lowered
+- Add to T1DM genetic risk panel alongside rs11203203 (UBASH3A, run_137), rs17574546 (RASGRP1, run_139), rs2104286 (IL2RA, run_140)
+- Compound negative selection failure: rs1738074 + rs17574546 + rs11203203 = three IS tiers simultaneously impaired → highest autoreactive burden
+
+**New therapeutic additions:**
+
+**Fasudil (ROCK1/2 inhibitor) — first ROCK inhibitor in framework:**
+
+| Indication | Mechanism | Dose context | Status |
+|-----------|-----------|-------------|--------|
+| Rosacea Th17-predominant | ROCK2 → STAT3 → RORγt ↓ → Th17 ↓ | Oral 20-30 mg TID (cerebral vasospasm dose; off-label) | Off-label; preclinical rosacea data |
+| T1DM insulitis Th17 | ROCK2/STAT3 ↓ (additive with deucravacitinib TYK2/STAT3, run_136) | Same dose range | Experimental; ROCK2+TYK2 dual block |
+| Rosacea phymatous | ROCK → fibroblast MMP ↓ → dermal remodeling ↓ | Topical fasudil gel (preclinical) | Preclinical only |
+
+**Fasudil + deucravacitinib — dual STAT3 Th17 block:**
+```
+TYK2/IL-23 → STAT3-pTyr705 → RORγt gene transcription (run_136: deucravacitinib)
+ROCK2 → STAT3-pSer727 → RORγt protein stability / cytoplasmic interaction (run_141: fasudil)
+Both sites contribute to Th17 maintenance:
+  Deucravacitinib blocks transcriptional STAT3 activation
+  Fasudil blocks post-translational STAT3 cytoplasmic activation
+  → Combination hits RORγt at two independent points
+```
+
+**Genetic stratification informing ROCK inhibitor use:**
+- rs1738074 risk genotype → TAGAP ↓ → ROCK hyperactive baseline → ROCK inhibitor has larger effect size
+- Fasudil most rational in patients carrying rs1738074 risk allele (TAGAP) + rs34536443 non-protective TYK2 genotype
+- Panel: TYK2 + TAGAP + IL2RA + RASGRP1 + UBASH3A genotypes → complete IS tier risk profiling
+
+**Protocol layering — IS tier risk panel:**
+
+| IS Tier | Gene | Run | GWAS SNP | Therapeutic response |
+|---------|------|-----|----------|---------------------|
+| Kinase | UBASH3A | 137 | rs11203203 | No specific inhibitor; ROCK inhibitor downstream |
+| RAS/ERK | RASGRP1 | 139 | rs17574546 | Quercetin (upstream PLCγ block) |
+| Cytoskeletal | TAGAP | 141 | rs1738074 | Fasudil (ROCK inhibitor) |
+| Extrinsic Treg | IL2RA | 140 | rs2104286 | Low-dose IL-2 |
+
+All four tiers: quercetin (PLCγ → upstream of RASGRP1 + IP3 + PKC) + fasudil (ROCK2/Th17) + low-dose IL-2 (Treg supply) + deucravacitinib (TYK2/STAT3/Th17 maintenance) = four-compound IS-tier-targeting stack.
+
+*Protocol_integration.md Part 9cp — 2026-04-12 | TAGAP RhoGAP RhoA ROCK1 ROCK2 VAV1 NMM-IIA IS-cytoskeletal-tier rs1738074 16th-stratification thymic-negative-selection-tier3 three-IS-tier-negative-selection-compound fasudil ROCK2-STAT3-pSer727 deucravacitinib-STAT3-pTyr705 dual-STAT3-Th17-block RORγt fasudil+deucravacitinib-combination IS-tier-risk-panel quercetin-fasudil-IL2-deucravacitinib-four-compound UBASH3A-RASGRP1-TAGAP-IL2RA-panel Barrett-2009-NatGenet Cooper-2012-NatGenet Zanin-Zhorov-2010 | run_141*
