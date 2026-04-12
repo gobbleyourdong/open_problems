@@ -5368,3 +5368,31 @@ Gut epithelial TRPV4: exercise/heat → osmotic stress → TRPV4 → RhoA/ROCK �
 **Framework state: 120 runs | TRPV4 warm trigger complete | NF-AT pathway new | 4th Loop 1 upstream trigger | gut permeability thermal mechanism | β cell sensitization feedforward.**
 
 *Updated: 2026-04-12 | Phase 4 ninety-fifth extension | TRPV4 warm temperature 27 35 celsius keratinocyte calcium calcineurin NF-AT PKC ERK AP-1 EET epoxyeicosatrienoic CYP2C8 UV hypoosmolarity rosacea thermal trigger Loop 1 KLK5 gut permeability RhoA ROCK MLC tight junction beta cell IL-1beta sensitization ER stress quercetin IC50 omega-3 EET | run_120*
+
+---
+
+### Phase 4 — Extension 96 (run_121): CD73/CD39/Adenosine/A2A Treg Effector + Mast Cell Brake
+
+**The gap:** Five Treg-promoting runs (018, 021, 056, 086, 114) cover Treg induction, FOXP3 transcription, and FOXP3 protein stability. None model the CD39→CD73→adenosine→A2A effector mechanism — how a Treg actually suppresses an effector T cell. CD73 (NT5E), CD39 (ENTPD1), and ADORA2A are absent from all 120 prior runs.
+
+**Treg effector mechanism (T1DM):**
+CD39 (Treg surface): ATP → AMP [removes NLRP3 Signal 2 substrate P2X7 before P2X7 activation]. CD73 (Treg surface): AMP → adenosine. A2A (on effector T cells): adenosine → Gs → cAMP → PKA → ZAP-70/NFAT/IL-2 inhibition → T effector suppressed. T1DM clinical implication: "normal Treg numbers, deficient suppression" = reduced CD73 expression, not impaired FOXP3. Borsellino 2007 Nat Immunol: CD73 required for suppressive function; Yadav 2013 JCI: CD73-KO Tregs fail to prevent NOD T1DM in adoptive transfer.
+
+**Mast cell A2A brake (rosacea):**
+Dermal Treg-derived adenosine → A2A/A2B on mast cells → Gs → cAMP → PKA → FcεRI downstream ↓ → degranulation ↓. All five non-IgE mast cell activation routes (runs 019, 093, 095, 097, 099) produce maximal responses when A2A brake is removed. Caffeine (non-selective A1/A2A/A2B/A3 antagonist at >200mg/day plasma concentrations) removes this brake — explains why COLD caffeinated drinks (no TRPV4 temperature contribution) also trigger rosacea.
+
+**Kill-first:**
+- Five Treg runs: address FOXP3 generation/stability, not CD73 effector mechanism; Borsellino 2007 shows CD73 is independently required. Not killed.
+- GLP-1R/cAMP: β cell and endothelial cAMP; not T cell ZAP-70/NFAT suppression or mast cell FcεRI inhibition. Not killed.
+- P2X7/zinc (run_059): blocks downstream of P2X7 activation; CD39 removes ATP substrate upstream. Not killed.
+- Caffeine in run_047/120: SERT inhibition + TRPV4; no A2A mechanism. Not killed.
+
+**New protocol elements:**
+- Caffeine avoidance: A2A blockade → dual-disease harm (mast cell + Teff); replace with lukewarm decaf (removes A2A + TRPV4 simultaneously)
+- VDR → NT5E/CD73 ↑ = 3rd calcitriol Treg mechanism (VDR→Foxp3 run_056 + VDR→TXNIP↓ run_112 + VDR→CD73 run_121)
+- Quercetin PDE3/4 inhibition → cAMP prolongation = 10th quercetin mechanism
+- Optional: CD73 on Tregs by flow (<40% CD73+ = functional insufficiency) → VitD3 ↑ + quercetin
+
+**Framework state: 121 runs | CD73/adenosine Treg effector complete | mast cell A2A brake | caffeine dual-mechanism | 3rd VDR Treg mechanism | 10th quercetin mechanism.**
+
+*Updated: 2026-04-12 | Phase 4 ninety-sixth extension | CD73 NT5E CD39 ENTPD1 adenosine A2A ADORA2A Treg effector suppression cAMP PKA ZAP-70 NFAT IL-2 mast cell degranulation brake caffeine methylxanthine Borsellino 2007 Yadav 2013 VDR CD73 quercetin PDE phosphodiesterase | run_121*

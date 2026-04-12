@@ -967,3 +967,23 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 4. **NF-AT in β cells**: Calcineurin/NF-AT in β cells is normally involved in insulin gene transcription regulation; chronic TRPV4 → Ca²⁺ overload → calcineurin hyperactivation → NF-AT → NFAT-driven inflammatory gene expression in β cells (this is the same calcineurin/NF-AT used by cytotoxic lymphocytes and is suppressed by cyclosporin/tacrolimus in transplant rejection — suggesting a potential pathway where chronic Ca²⁺ → NF-AT → autoimmune amplification).
 
 *T1DM THEWALL cross-reference run_120: 2026-04-12 | TRPV4 gut permeability RhoA ROCK MLC tight junction exercise osmotic thermal beta cell Ca2+ ER stress IL-1beta sensitization Kalia 2018 quercetin pre-exercise protocol NF-AT calcineurin claudin-2 run_119 parallel permeability*
+
+---
+
+### Cross-reference: run_121 — CD73/Adenosine/A2A Treg Effector Mechanism in T1DM
+
+**Run_121 T1DM relevance:**
+
+1. **CD73/adenosine = molecular basis of Treg suppression insufficiency in T1DM**: Borsellino 2007 (Nat Immunol) established that CD73 enzymatic function is required for Treg suppression; Yadav 2013 (JCI) demonstrated CD73-KO Tregs fail to prevent T1DM in NOD adoptive transfer despite normal FOXP3. T1DM patients have been documented with normal Treg numbers but reduced CD73 expression — this is the molecular mechanism. The framework's existing five Treg-promoting runs address FOXP3 stability and Treg number; this run addresses the subsequent step (effector function). Both are required; neither alone is sufficient.
+
+2. **PDLN adenosine axis — mechanistic switch from protection to pathogenesis**: In T1DM PDLN, β cell death releases ATP. CD39+CD73+ Tregs convert ATP → adenosine → A2A suppression of islet-reactive T cells. CD73-deficient Tregs → ATP persists → P2X7 → NLRP3 → IL-1β/IL-18 → T cell priming. Same β cell death signal has opposite immunological outcome depending on CD73 status.
+
+3. **A2A on β cells — direct cytoprotection**: A2A receptors on β cells → cAMP → PKA → mild anti-apoptotic signaling; reduced A2A-mediated protection in CD73-deficient environment.
+
+4. **Caffeine and T1DM honeymoon**: Caffeine → A2A blocked on islet-reactive T cells → Treg adenosine signal absent → faster progression to insulin dependence. **Clinical implication:** caffeine avoidance during T1DM honeymoon period is mechanistically justified (A2A-preservation strategy), not merely a dietary preference.
+
+5. **VDR → CD73 — third calcitriol Treg mechanism**: VDR → NT5E gene → CD73 ↑ on Tregs. Existing calcitriol protocol (runs 018/056/112) now has three confirmed Treg mechanisms: Foxp3 transcription, TXNIP ↓, and CD73 effector function. Node E ≥60 ng/mL 25(OH)D3 target gains a third mechanistic justification.
+
+6. **Mg²⁺ as CD73 cofactor**: CD73 is a Mg²⁺-dependent enzyme; Mg²⁺ deficiency → CD73 activity ↓ → less adenosine → Treg effector failure. Fourth rationale for T-index Mg²⁺ target (≥0.85 mmol/L).
+
+*T1DM THEWALL cross-reference run_121: 2026-04-12 | CD73 CD39 adenosine A2A ADORA2A Treg effector T1DM PDLN pancreatic draining lymph node NOD Borsellino 2007 Yadav 2013 caffeine A2A blockade honeymoon VDR NT5E Mg2+ CD73 cofactor Foxp3 FOXP3 suppression mechanism*

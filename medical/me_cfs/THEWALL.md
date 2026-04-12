@@ -822,3 +822,21 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 **Evidence level: MODERATE** — mechanistic inference for ME/CFS; PEM-gut permeability connection is the strongest angle; no dedicated ME/CFS × TRPV4 studies available (2026).
 
 *ME/CFS THEWALL cross-reference run_120: 2026-04-12 | TRPV4 PEM post-exertional malaise gut permeability RhoA ROCK tight junction endotoxemia TLR4 BBB blood-brain barrier neuroinflammation microglial NLRP3 DRG allodynia fibromyalgia brain fog delayed inflammatory cascade exercise*
+
+---
+
+### Cross-reference: run_121 — CD73/Adenosine/A2A Post-Exertional ATP + Microglial Brake
+
+**Run_121 ME/CFS relevance:**
+
+1. **Purine pathway depletion in ME/CFS**: Naviaux 2016 (PNAS) metabolomic analysis of ME/CFS plasma identified significant depletion of purine nucleotide pathway metabolites including adenosine precursors. This supports a model of impaired CD73/adenosine generation → reduced A2A anti-inflammatory signaling → sustained neuroinflammation and immune dysregulation. The adenosine pathway depletion may be both a cause (reduced A2A suppression → more inflammation) and effect (excessive ATP consumption during PEM) of ME/CFS pathophysiology.
+
+2. **Post-exertional malaise: ATP persistence mechanism**: Exercise → muscle ATP release → CD39-deficient/CD73-deficient Tregs fail to convert ATP→adenosine → extracellular ATP persists → P2X7 → NLRP3 → post-exertional inflammatory flare. This is a second gut-independent PEM mechanism (parallel to TRPV4 gut permeability/run_120). Distinction: TRPV4 PEM mechanism requires gut epithelial exposure; ATP/CD73 PEM mechanism operates systemically (muscle, joints, CNS).
+
+3. **Microglial A2A**: Striatal microglia are among the highest-density A2A-expressing cells in the CNS; adenosine → A2A on microglia → cAMP → NF-κB ↓ + NLRP3 ↓ → neuroinflammation suppressed. If CD73 is deficient on CNS Tregs or microglia themselves, A2A-mediated microglial suppression is impaired → chronic neuroinflammation → cognitive dysfunction, fatigue.
+
+4. **Caffeine in ME/CFS patients**: Many ME/CFS patients increase caffeine consumption to combat fatigue. This A2A blockade → worsens immune dysregulation → may contribute to symptom chronification. Caffeine avoidance recommendation (run_121 protocol) is particularly relevant for ME/CFS patients who are habitual high-caffeine consumers.
+
+**Evidence level: MODERATE** — Naviaux 2016 metabolomics is the strongest direct support; mechanistic inference for CD73 specifically in ME/CFS.
+
+*ME/CFS THEWALL cross-reference run_121: 2026-04-12 | CD73 CD39 adenosine A2A ADORA2A purine pathway Naviaux 2016 metabolomics post-exertional malaise ATP P2X7 NLRP3 microglial A2A neuroinflammation caffeine A2A blockade*

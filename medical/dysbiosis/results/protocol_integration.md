@@ -4220,3 +4220,58 @@ IL-1β in inflamed islets lowers TRPV4 threshold → chronic Ca²⁺ at body tem
 Calcineurin → NF-AT pathway is distinct from NF-κB and is activated by sustained Ca²⁺ elevation. NF-AT in keratinocytes drives VEGF-A (angiogenesis/telangiectasia), COX-2 (PGE2 production), and IL-5 (eosinophil recruitment). This adds a Ca²⁺-gated angiogenic/eosinophil axis to the rosacea framework.
 
 *Protocol_integration.md Part 9bu — 2026-04-12 | TRPV4 warm temperature 27 35 celsius NF-AT calcineurin PKC ERK AP-1 EET epoxyeicosatrienoic CYP2C8 hypoosmolarity Loop 1 4th upstream trigger KLK5 gut permeability RhoA ROCK MLC tight junction beta cell IL-1beta sensitization ER stress quercetin thermal timing Vriens 2009 omega-3 EET magnesium | run_120*
+
+---
+
+### Part 9bv — CD73/CD39/Adenosine/A2A: Treg Effector + Mast Cell Brake + Caffeine Protocol (run_121)
+
+**Mechanistic addition:** The CD39→CD73→adenosine→A2A effector cascade is the molecular mechanism by which Tregs suppress effector T cells. Five prior Treg-promoting runs address induction/stability; none address effector function. In rosacea, dermal Treg-derived adenosine → A2A/A2B on mast cells = anti-degranulation brake. Caffeine (non-selective A2A/A2B antagonist) removes both simultaneously.
+
+**Treg effector architecture:**
+```
+Treg: CD39 (ATP → AMP) → CD73 (AMP → adenosine)
+    ↓
+A2A on Teff → Gs → cAMP → PKA → ZAP-70 ↓ / NFAT ↓ / IL-2 ↓ → Teff suppressed
+A2A/A2B on mast cells → Gs → cAMP → PKA → FcεRI ↓ / Ca²⁺ ↓ → degranulation ↓
+```
+
+**New protocol element — caffeine avoidance:**
+```
+CAFFEINE AVOIDANCE (A2A Rationale):
+  Rosacea: caffeine → A2A/A2B on mast cells → anti-degranulation brake removed
+           → all five non-IgE mast cell routes respond maximally
+           → explains cold caffeinated drink (no TRPV4) also triggers rosacea
+  T1DM:    caffeine → A2A on Teff → Treg adenosine suppression signal lost
+           → faster β cell destruction during honeymoon period
+  
+  Implementation:
+    - Switch coffee to decaffeinated (removes A2A + SERT mechanisms; temperature arm remains
+      if hot → serve lukewarm for full triple-mechanism elimination)
+    - Green tea: lower caffeine (~25mg/cup) + EGCG benefit; reduce but may retain
+    - Threshold: >200mg caffeine/day → plasma A2A-relevant concentrations (2+ coffee cups)
+    - Theophylline (asthma Rx): same mechanism; specialist discussion
+
+  Evidence: Borsellino 2007 Nat Immunol (Treg); Ryzhov 2008 J Pharmacol (mast cell A2A)
+```
+
+**VitD3 third Treg mechanism:**
+| VitD3/VDR Treg mechanism | Run | Outcome |
+|--------------------------|-----|---------|
+| VDR → Foxp3 transcription | 056 | Treg induction ↑ |
+| VDR → TXNIP ↓ | 112 | Treg survival ↑ |
+| VDR → NT5E/CD73 ↑ | **121** | **Treg effector function ↑** |
+
+Node E VitD3 target (>60 ng/mL 25(OH)D3) is now supported by three distinct Treg mechanisms. Non-responders at Node E <60 ng/mL have impaired CD73 expression in addition to reduced Foxp3.
+
+**Quercetin PDE inhibition — 10th mechanism:**
+PDE3/4 inhibition → prevents cAMP hydrolysis → prolongs A2A→cAMP→PKA anti-inflammatory signal. Clinical significance: quercetin taken with meals (existing protocol) extends the post-prandial adenosine/A2A signaling window. Pre-exposure quercetin (run_120 timing protocol for TRPV4) also preserves the A2A/cAMP brake in mast cells during heat exposure.
+
+**CD73 on Tregs as optional functional monitoring:**
+- Indication: Normal Treg count (Node A ≥8% CD4+) + adequate VitD3 (Node E) + persistent high-level inflammation → test CD73+Foxp3+ co-expression
+- Threshold: <40% CD73+ on CD4+CD25+CD127-low Tregs → functional Treg insufficiency
+- Intervention: increase VitD3 (VDR→CD73), add quercetin (PDE→cAMP), ensure Mg²⁺ sufficiency (T-index; Mg²⁺ = cofactor for CD73 enzymatic activity)
+
+**Note on Mg²⁺/CD73 co-factor:**
+CD73 (NT5E) is a Mg²⁺-dependent metalloenzyme. Mg²⁺ deficiency → CD73 catalytic activity ↓ → less adenosine generated per Treg. This adds a fourth rationale for Mg²⁺ supplementation (existing T-index component): not just TRPV4 modulation (run_120) but CD73 enzymatic function.
+
+*Protocol_integration.md Part 9bv — 2026-04-12 | CD73 NT5E CD39 ENTPD1 adenosine A2A ADORA2A Treg effector mechanism cAMP PKA ZAP-70 NFAT mast cell A2A brake caffeine methylxanthine decaffeinated VDR NT5E CD73 3rd Treg mechanism quercetin PDE3 PDE4 phosphodiesterase 10th mechanism Mg2+ CD73 cofactor Borsellino 2007 Yadav 2013 | run_121*

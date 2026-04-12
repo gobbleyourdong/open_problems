@@ -3253,3 +3253,28 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 9: 120 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-thirteenth extension | TRPV4 transient receptor potential vanilloid 4 warm temperature 27 35 celsius thermal trigger keratinocyte calcium calcineurin NF-AT PKC ERK AP-1 EET epoxyeicosatrienoic acid CYP2C8 CYP2J2 UV PLA2 arachidonic acid hypoosmolarity swelling rosacea Loop 1 KLK5 gut permeability RhoA ROCK MLC tight junction beta cell IL-1beta sensitization ER stress quercetin TRPV4 inhibitor | run_120*
+
+---
+
+### Extension 114 — CD73/CD39/Adenosine/A2A: Treg Effector Mechanism + Mast Cell Brake (run_121)
+
+**Gap confirmed:** CD73 (NT5E), CD39 (ENTPD1), and the adenosine/A2A receptor cascade are absent from all 120 prior runs. The framework has five Treg-promoting runs (018, 021, 056, 086, 114) covering Treg generation, FOXP3 transcription, and FOXP3 protein stability — but none model how an activated Treg with stable FOXP3 actually suppresses an effector T cell. The answer is CD39→CD73→adenosine→A2A receptor→cAMP→PKA→TCR inhibition. Separately, A2A/A2B receptors on mast cells provide the anti-degranulation brake; caffeine (A2A/A2B antagonist) removes both the Treg suppressor signal and the mast cell brake simultaneously.
+
+**Core insight:** T1DM patients often have "normal Treg numbers but deficient suppression" — the CD73/adenosine mechanism explains this: Tregs with normal FOXP3 but reduced CD73 expression cannot generate adenosine → cannot suppress effector T cells despite appearing normal by flow cytometry Treg count. CD39 is simultaneously a danger-signal converter: ATP (NLRP3 Signal 2 substrate) → AMP → adenosine (anti-inflammatory) — a single enzymatic step removing a pro-inflammatory trigger and generating a tolerogenic effector molecule.
+
+**New mechanisms added (run_121):**
+- **Treg effector mechanism**: CD39→AMP→CD73→adenosine→A2A on Teff→cAMP→PKA→ZAP-70/NFAT/IL-2 inhibition (entirely absent from all Treg runs); explains Treg functional insufficiency despite normal FOXP3
+- **Mast cell A2A brake**: adenosine from local CD73+/CD39+ Tregs → A2A/A2B on mast cells → cAMP → degranulation ↓; all five non-IgE activation routes (runs 019/093/095/097/099) are simultaneously amplified when this brake is removed
+- **Caffeine: dual-pathway A2A blockade**: caffeine → A2A blocked on Teff (Treg suppression signal lost) + A2A/A2B blocked on mast cells (degranulation brake removed) = molecular explanation for cold caffeinated drinks (no TRPV4) also triggering rosacea
+- **CD39 ATP→adenosine conversion**: removes NLRP3 Signal 2 substrate (ATP) BEFORE P2X7 activation; upstream of existing P2X7/zinc (run_059) intervention
+- **3rd calcitriol/VDR Treg mechanism**: VDR → VDRE at NT5E promoter → CD73 ↑ on Tregs (joins VDR→Foxp3 and VDR→TXNIP↓)
+- **10th quercetin mechanism**: quercetin → PDE3/4 inhibition → cAMP prolongation → extends A2A anti-inflammatory signal in Teff and mast cells
+
+**New protocol elements:**
+- Caffeine avoidance with A2A rationale: rosacea (mast cell brake) + T1DM honeymoon (Teff suppression) dual benefit; replace with lukewarm decaf (removes A2A + TRPV4 mechanisms)
+- VitD3 dose optimization: VDR → CD73 ↑ as 3rd Treg mechanism justifies maintaining Node E >60 ng/mL specifically for Treg CD73 function
+- Optional CD73 flow monitoring: <40% CD73+ Tregs despite normal FOXP3/Treg count → functional Treg insufficiency; intervention: VitD3 ↑ + quercetin (PDE inhibition)
+
+**Framework at SATURATION + 10: 121 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-fourteenth extension | CD73 NT5E ecto-5-nucleotidase CD39 ENTPD1 adenosine A2A ADORA2A A2B ADORA2B Treg effector suppression cAMP PKA ZAP-70 NFAT IL-2 mast cell degranulation brake caffeine methylxanthine adenosine receptor antagonist decaffeinated rosacea T1DM Borsellino 2007 Yadav 2013 VDR NT5E CD73 quercetin PDE phosphodiesterase | run_121*
