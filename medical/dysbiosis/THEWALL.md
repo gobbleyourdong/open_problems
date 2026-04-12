@@ -5583,3 +5583,40 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 127 runs | STIM1/ORAI1 SOCE | 9th mast cell stabilization CRAC | omalizumab mechanism | quercetin 3rd basis | autoreactive T cell SOCE insulitis | NK cell ME/CFS | DYRK1A gate upstream connection.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-second extension | STIM1 ORAI1 SOCE CRAC store-operated calcium entry mast cell FcεRI IgE PLCγ calcineurin NFAT 9th mast cell brake quercetin 3rd mechanism omalizumab NK cell ME/CFS T cell insulitis CM4620 Feske 2006 McCarl 2010 | run_127*
+
+---
+
+### Phase 4 Extension 103 — CLEC16A / MHC-II Autophagy / AIRE / Central Tolerance / T1DM GWAS
+
+**Run:** run_128 | **Date:** 2026-04-12
+
+**Rosacea:**
+- CLEC16A in dermal DCs and Langerhans cells → controls MHC-II autophagy → sets MHC-II surface density
+- CLEC16A risk allele → MHC-II autophagy ↓ → elevated surface MHC-II → lower CD4+ T cell priming threshold
+- Rosacea dermis: Demodex, cathelicidin, bacterial antigens → more efficiently presented by CLEC16A-deficient DCs → Th1/IFN-γ amplification → persistent inflammatory loop
+- pDC MHC-II regulation: CLEC16A in pDCs affects TLR7/9 → IFN-α pathway potentiation via MHC-II-dependent T cell priming
+
+**T1DM:**
+- CLEC16A rs12708716 = T1DM GWAS hit (Barrett 2009 Nat Genet); 8th genetic stratification point
+- CLEC16A → TEC mitophagy → AIRE expression → negative selection of autoreactive thymocytes = FIRST central tolerance mechanism in 128-run framework
+- Peripheral arm: CLEC16A in pancreatic lymph node DCs → elevated MHC-II → autoreactive T cell priming amplified
+- Double hit: more autoreactive T cells (impaired central deletion) × more efficient peripheral activation (elevated MHC-II on DCs)
+- Risk allele protocol escalation: maximum peripheral Treg support (calcitriol + berberine + Vitamin A)
+
+**Central vs Peripheral Tolerance Architecture:**
+- All 127 prior runs: PERIPHERAL — Foxp3 induction (run_031/056), Foxp3 stability (run_114), BACH2 identity (run_123), DYRK1A/NFAT threshold (run_125)
+- Run_128: CENTRAL — CLEC16A → TEC mitophagy → AIRE → negative selection (thymic output quality)
+
+**NMN/NR 3rd mechanism:**
+- NAD+ → SIRT3 → FOXO3a deacetylation → PINK1 transcription ↑ → PINK1/Parkin mitophagy ↑
+- Supports TEC mitochondrial quality → AIRE expression maintained
+- Compensates partially for CLEC16A risk allele mitophagy deficit
+- NMN/NR mechanisms: 1. β cell SIRT1 (run_090); 2. DPP9/NLRP1 (run_122); 3. TEC SIRT3/PINK1/AIRE (run_128)
+
+**ME/CFS:**
+- LOW relevance — CLEC16A/AIRE is T1DM-specific; ME/CFS has no established CLEC16A association
+- Note: impaired mitophagy is relevant to ME/CFS (SERCA/SIRT3/mitochondria runs) but AIRE is not the ME/CFS mechanism
+
+**Framework state: 128 runs | CLEC16A MHC-II autophagy | 8th stratification rs12708716 | FIRST central tolerance/AIRE mechanism | TEC mitophagy → AIRE | NMN/NR 3rd mechanism SIRT3/PINK1 | dermal DC MHC-II threshold | CLEC16A risk allele escalation.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-third extension | CLEC16A KIAA0350 BEACH WD40 MHC-II autophagy NRBF2 Beclin-1 AIRE central tolerance TEC mitophagy PINK1 Parkin FOXO3a SIRT3 negative selection autoreactive T cell 8th stratification rs12708716 Barrett 2009 Cooper 2012 Kishida 2015 | run_128*

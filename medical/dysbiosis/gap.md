@@ -3440,3 +3440,26 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 16: 127 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-twentieth extension | STIM1 ORAI1 SOCE CRAC store-operated calcium entry mast cell FcεRI IgE PLCγ IP3 calcineurin NFAT 9th mast cell stabilization quercetin 3rd mechanism omalizumab autoreactive T cell insulitis NK cell ME/CFS Feske 2006 McCarl 2010 Zhang 2006 | run_127*
+
+---
+
+## Extension 121: CLEC16A — MHC-II Autophagy / AIRE Central Tolerance / T1DM GWAS 8th Stratification
+
+**Date:** 2026-04-12 | **Run:** run_128
+
+**Gap confirmed:** CLEC16A, KIAA0350, MHC-II autophagy completely absent from 127 prior runs and gap.md. AIRE appears 3× as passing contextual mentions but was never analyzed as a mechanism.
+
+**Core insight:** CLEC16A (BEACH/WD40 protein, misnamed as lectin) regulates MHC-II autophagy in DCs and mitophagy in thymic epithelial cells (TECs). In TECs: CLEC16A → PINK1/Parkin mitophagy → mitochondrial quality → AIRE expression → negative selection of autoreactive thymocytes → central tolerance. CLEC16A risk allele (rs12708716) → impaired TEC mitophagy → AIRE ↓ → autoreactive T cells escape thymus → T1DM. In DCs: CLEC16A controls MHC-II turnover rate; CLEC16A loss → MHC-II accumulates on DCs → lower activation threshold for autoreactive T cells. Rosacea: dermal DC/Langerhans cell MHC-II regulation → Th1/IFN-γ priming threshold.
+
+**Framework significance:** First central tolerance mechanism in 128-run framework. All 127 prior Treg runs cover PERIPHERAL tolerance (Foxp3 induction/stability, BACH2 identity, calcineurin/NFAT activation thresholds). CLEC16A/AIRE fills the orthogonal thymic/central arm.
+
+**New mechanisms added (run_128):**
+- **8th genetic stratification point**: CLEC16A rs12708716; risk allele → peripheral Treg escalation protocol
+- **First central tolerance mechanism**: CLEC16A → TEC mitophagy → AIRE → negative selection (orthogonal to all peripheral Treg runs)
+- **NMN/NR 3rd mechanism**: NAD+ → SIRT3 → FOXO3a → PINK1 → mitophagy → TEC mitochondrial quality → AIRE expression maintained; compensates partially for CLEC16A risk allele
+- **Dermal DC/LC MHC-II threshold**: CLEC16A loss in skin DCs → elevated MHC-II → lower Th1 priming threshold → Demodex/cathelicidin antigen more efficiently presented in rosacea dermis
+- **CLEC16A risk allele protocol escalation**: calcitriol + berberine + Vitamin A → max peripheral Treg support for high central tolerance deficit
+
+**Framework at SATURATION + 17: 128 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-twenty-first extension | CLEC16A KIAA0350 BEACH WD40 MHC-II autophagy NRBF2 Beclin-1 selective autophagy TEC mitophagy AIRE central tolerance negative selection autoreactive T cell 8th stratification rs12708716 NMN NR SIRT3 PINK1 Parkin FOXO3a dermal DC Langerhans cell Th1 priming Barrett 2009 Cooper 2012 Kishida 2015 Marín-Rubio 2017 | run_128*

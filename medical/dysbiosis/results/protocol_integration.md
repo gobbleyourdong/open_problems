@@ -4586,3 +4586,56 @@ Research:    ORAI1 inhibitors (CM4620) for future T1DM insulitis prevention cons
 ```
 
 *Protocol_integration.md Part 9cb — 2026-04-12 | STIM1 ORAI1 SOCE CRAC store-operated calcium entry mast cell IgE FcεRI PLCγ NFAT quercetin 3rd mechanism ORAI1 mast cell CRAC brake pre-exposure triple-mechanism prophylaxis omalizumab IgE monitoring serum T-index autoreactive T cell insulitis CM4620 Feske 2006 McCarl 2010 | run_127*
+
+---
+
+## Part 9cc — CLEC16A/AIRE Protocol Integration (run_128)
+
+### CLEC16A MHC-II Autophagy / Central Tolerance — Protocol Additions
+
+**New mechanism (run_128):** CLEC16A → TEC mitophagy → AIRE → central tolerance. First central tolerance mechanism in 128-run framework. T1DM GWAS hit (rs12708716). Dermal DC MHC-II regulation in rosacea.
+
+**8th Genetic Stratification: CLEC16A rs12708716**
+
+Testing: CLEC16A rs12708716 C risk allele (European frequency ~60%; homozygous risk ~40% of population)
+
+Risk implications:
+- Impaired TEC mitophagy → AIRE ↓ → more autoreactive T cells escape thymus → elevated T1DM risk + autoimmune burden
+- Impaired dermal DC MHC-II autophagy → elevated MHC-II → lower Th1 priming threshold → potentially more refractory rosacea
+
+Protocol escalation for CLEC16A risk allele carriers:
+```
+Peripheral Treg maximization (compensating for elevated autoreactive T cell burden):
+  Calcitriol: full 5000 IU/day (VDR → Foxp3 induction, runs 031/056)
+  Berberine: 1000–1500 mg/day (GSK-3β → Foxp3 stability, run_114)
+  Vitamin A: 3000–5000 IU/day retinyl palmitate (BACH2 support, run_123)
+  (together: best peripheral Treg support stack from framework)
+```
+
+**NMN/NR: 3rd Protocol Mechanism**
+
+Existing NMN/NR rationale: 300–600 mg/day NMN or NR
+- Mechanism 1: NAD+/NAMPT/SIRT1 → β cell survival + PGC-1α + mitochondria (run_090)
+- Mechanism 2: NAD+/B3 → DPP9 occupancy → NLRP1 inhibition (run_122)
+
+New addition:
+- Mechanism 3: NAD+ → SIRT3 → FOXO3a → PINK1/Parkin mitophagy → TEC mitochondrial quality → AIRE expression maintained
+- Relevance: in CLEC16A risk allele patients, NMN/NR provides PARALLEL mitophagy enhancement to partially compensate for CLEC16A-impaired mitophagy in TECs → AIRE better maintained
+- Augments the 3rd-mechanism case for maintaining NMN/NR in the protocol for T1DM patients
+
+**Dermal DC Monitoring (Rosacea)**
+
+For refractory ETR/PPR with inadequate response to standard protocol:
+- Consider CLEC16A rs12708716 genotyping: if risk allele → impaired DC MHC-II turnover → elevated antigen presentation
+- Therapeutic implication: anti-Demodex treatment (ivermectin cream) reduces the antigenic load that elevated-MHC-II DCs would over-present; more relevant in CLEC16A risk carriers
+- Anti-Th1 approaches (calcitriol → Th1 → Th2/Treg skewing) particularly relevant when Th1 over-priming is the driver
+
+```
+CLEC16A summary:
+Stratification: CLEC16A rs12708716 genotyping (8th stratification point)
+T1DM risk allele: → peripheral Treg maximization (calcitriol + berberine + Vitamin A)
+NMN/NR: 3rd mechanism established (SIRT3/PINK1/Parkin TEC mitophagy → AIRE)
+Rosacea: CLEC16A risk allele → anti-Demodex more critical; anti-Th1 escalation
+```
+
+*Protocol_integration.md Part 9cc — 2026-04-12 | CLEC16A KIAA0350 MHC-II autophagy NRBF2 Beclin-1 AIRE central tolerance TEC mitophagy PINK1 Parkin FOXO3a SIRT3 NMN NR NAD 3rd mechanism 8th genetic stratification rs12708716 peripheral Treg escalation calcitriol berberine Vitamin A dermal DC MHC-II Th1 Barrett 2009 Cooper 2012 Kishida 2015 | run_128*

@@ -934,3 +934,17 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 4. **Protocol implication**: No specific STIM1/ORAI1 OTC for ME/CFS NK restoration; however quercetin's ORAI1-blocking property may partially normalize the SOCE tonic state (reduce constitutive low-level activation) without further impairing peak NK responses at standard doses. Monitor NK cell function (CD3⁻CD56⁺ cytotoxicity assay) if available as a T-index node for post-viral ME/CFS.
 
 *ME/CFS THEWALL cross-reference run_127: 2026-04-12 | STIM1 ORAI1 SOCE CRAC NK cell dysfunction cytotoxicity defect SERCA oxidation ER calcium tonic activation IFN signature dual dysregulation post-viral ER stress Brenu 2011 Fletcher 2010 Feske 2006*
+
+---
+
+### Cross-reference: run_128 — CLEC16A / MHC-II Autophagy (LOW ME/CFS Relevance)
+
+**Assessment:** CLEC16A/AIRE is primarily a T1DM + rosacea mechanism with LOW direct ME/CFS relevance. Included for completeness.
+
+1. **Mitophagy connection to ME/CFS**: CLEC16A → PINK1/Parkin mitophagy in TECs. ME/CFS has well-documented mitochondrial dysfunction and impaired mitophagy (multiple prior runs: SIRT3, SIRT1, PGC-1α, NAD+/NAMPT). The CLEC16A mitophagy mechanism is TEC-specific and does not directly drive ME/CFS pathology. Low relevance.
+
+2. **NMN/NR 3rd mechanism (ME/CFS context)**: NAD+/SIRT3 → PINK1/Parkin mitophagy. While this run establishes the mechanism in TECs for central tolerance, the same SIRT3/PINK1 mitophagy pathway is relevant to ME/CFS mitochondrial dysfunction broadly. NMN/NR is already in ME/CFS protocol (run_090 for NAD+/mitochondrial support); this adds a THIRD mechanistic rationale (SIRT3/PINK1 mitophagy) consistent with ME/CFS mitophagy impairment, even if the TEC/AIRE aspect is T1DM-specific.
+
+3. **No direct ME/CFS-specific CLEC16A evidence**: No GWAS signal for CLEC16A in ME/CFS; no mechanistic evidence for AIRE or central tolerance defects as primary ME/CFS drivers.
+
+*ME/CFS THEWALL cross-reference run_128: 2026-04-12 | CLEC16A MHC-II autophagy AIRE central tolerance LOW ME/CFS relevance NMN NR SIRT3 PINK1 Parkin mitophagy 3rd mechanism mitochondrial dysfunction Barrett 2009 Kishida 2015*

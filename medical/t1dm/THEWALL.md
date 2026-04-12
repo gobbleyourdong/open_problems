@@ -1085,3 +1085,21 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 4. **ORAI1 inhibitors**: CM4620 (Calcimedica) in phase 2 trials; RO2959 reduces autoreactive T cell cytokine production. Future T1DM insulitis prevention target distinct from calcineurin inhibitors (less immunosuppressive as it targets the Ca²⁺ INPUT node rather than all calcineurin outputs).
 
 *T1DM THEWALL cross-reference run_127: 2026-04-12 | STIM1 ORAI1 SOCE CRAC autoreactive T cell TCR PLCγ calcineurin NFAT insulitis IFN-γ perforin β cell death DYRK1A gate Ca²⁺ threshold ER stress maladaptive SOCE CM4620 McCarl 2010 Feske 2006*
+
+---
+
+### Cross-reference: run_128 — CLEC16A / AIRE / Central Tolerance / T1DM GWAS 8th Stratification
+
+**Gap:** CLEC16A and MHC-II autophagy completely absent from 127 prior runs. First central tolerance mechanism in framework.
+
+1. **T1DM GWAS 8th stratification — CLEC16A rs12708716**: Major replicated T1DM GWAS locus (Barrett 2009 Nat Genet; Cooper 2012 Nat Genet). Risk allele → reduced CLEC16A expression in TECs and DCs.
+
+2. **Central tolerance mechanism (FIRST in framework)**: CLEC16A in medullary thymic epithelial cells (mTECs) → mitophagy via PINK1/Parkin → mitochondrial quality → AIRE expression → ectopic display of peripheral antigens (insulin, proinsulin, GAD65, IAMP) → negative selection of autoreactive thymocytes → clonal deletion. CLEC16A risk allele → TEC mitophagy impaired → AIRE ↓ → autoreactive T cells escape → elevated T1DM-susceptible T cell burden. All 127 prior runs covered peripheral tolerance (Foxp3/Treg); this fills the central tolerance gap.
+
+3. **Peripheral DC double hit**: CLEC16A loss in pancreatic lymph node DCs → elevated surface MHC-II → lower autoreactive T cell activation threshold. Combined with elevated autoreactive T cell output (central arm): additive insulitis acceleration.
+
+4. **NMN/NR 3rd mechanism**: NAD+ → SIRT3 → FOXO3a → PINK1 ↑ → mitophagy ↑ → TEC mitochondrial quality → AIRE maintained. For CLEC16A risk allele patients: NMN/NR provides parallel mitophagy enhancement to compensate.
+
+5. **Protocol escalation for CLEC16A risk carriers**: Maximum peripheral Treg stack (calcitriol 5000 IU/day + berberine 1500 mg/day + Vitamin A 3000–5000 IU/day) to suppress the elevated autoreactive T cell burden that escaped reduced AIRE-mediated deletion.
+
+*T1DM THEWALL cross-reference run_128: 2026-04-12 | CLEC16A KIAA0350 BEACH WD40 MHC-II autophagy NRBF2 Beclin-1 AIRE central tolerance TEC mitophagy PINK1 Parkin negative selection autoreactive T cell thymus 8th stratification rs12708716 NMN SIRT3 FOXO3a peripheral Treg escalation Barrett 2009 Cooper 2012 Kishida 2015*
