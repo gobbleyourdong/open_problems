@@ -696,3 +696,17 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 3. **Protocol implications**: Selenium (GPX4 + TRX reductase — selenoprotein; run_110 already notes GPX4/selenium) → TRX system function → TXNIP sequestration. Selenium adequacy is further reinforced as a protocol element for ME/CFS.
 
 **Cross-reference: run_112 dysbiosis framework | TXNIP ROS sensor TRX thioredoxin cytoplasmic NLRP3 Signal 2 microglia neuroinflammation iron Fenton hepcidin NAD⁺ NR NMN selenium GPX4 TRX reductase | Zhou 2010 Nat Immunol Schroder 2010**
+
+---
+
+### run_113 Cross-Reference: A20/TNFAIP3 — Microglial NF-κB Chronification and PEM Ratchet
+
+**ME/CFS-specific mechanisms:**
+
+1. **PEM ratchet via A20 depletion**: Each PEM event → TLR4/TLR7 activation in microglia → NF-κB → neuroinflammation + A20 induction (negative feedback). Under repeated PEM: A20 is consumed by each event and cannot fully recover before the next → microglial NF-κB baseline rises progressively → neuroinflammation becomes increasingly persistent between PEM events → explains the common clinical observation that ME/CFS neurological symptoms worsen cumulatively after repeated PEM. Evidence level: LOW-MODERATE (mechanistic extrapolation from microglial NF-κB biology).
+
+2. **A20 and ME/CFS disease progression**: The A20 depletion model predicts a ratchet mechanism: each TLR/DAMP activation event consumes A20 → NF-κB setpoint rises → next event requires less trigger to sustain NF-κB → symptoms worsen at lower exertion thresholds → characteristic ME/CFS sensitivity escalation. PEM avoidance (pacing) is mechanistically justified: prevents the A20 depletion ratchet.
+
+3. **Butyrate/gut intervention and A20 recovery**: Gut dysbiosis → chronic LPS → TLR4 → A20 consumption (even at baseline, without PEM). Gut intervention (rifaximin + probiotics + prebiotics) → reduced LPS → reduced baseline TLR4 load → A20 depletion rate decreases → microglial A20 levels recover → NF-κB self-termination restored between PEM events. This gives a third mechanism for gut intervention in ME/CFS beyond gut barrier (run_024) and SCFA (run_032).
+
+**Cross-reference: run_113 dysbiosis framework | A20 TNFAIP3 NF-κB negative feedback microglia PEM ratchet A20 depletion neuroinflammation chronification TLR4 LPS gut dysbiosis butyrate third mechanism | Lee 2000 Science Vereecke 2010 J Exp Med**

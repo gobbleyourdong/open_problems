@@ -2975,3 +2975,41 @@ All 13 sweep 7 candidates fail at least one saturation override criterion. The m
 **Framework state: 112 runs | 8 saturation sweeps | ~89 total candidates killed or confirmed covered since run_111**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-fourth extension | EIGHTH SATURATION CONFIRMATION | cGAS-STING/LTB4/AIM2/gdT/IDO1 covered | necroptosis PANoptosis BRD4 BAFF NGF fractalkine SUCNR1 lactylation PCSK9 klotho thymosin all killed | sweep 8 complete | framework saturated at 112 runs*
+
+---
+
+### Extension 105 — A20/TNFAIP3: NF-κB Negative Feedback Failure (run_113)
+
+**Gap confirmed:** A20 (TNFAIP3) completely absent as a primary mechanism from all 112 prior runs. Mentioned once in run_067 as "A20 negative feedback" — a parenthetical, not an analysis. The non-canonical NF-κB pathway (NIK → IKKα → p100 → p52/RelB) is also entirely absent (0 dedicated mentions).
+
+**Core insight:** The framework's 13 NF-κB activation mechanisms operate against A20, a brake that is progressively consumed by the very activation it limits. Chronic disease → sustained NF-κB → A20 demand exceeds synthesis → NF-κB escapes its own brake → chronicity established. This is the molecular explanation for rosacea phenotype progression (ETR → PPR) and T1DM insulitis escalation.
+
+**New mechanisms added (run_113):**
+- A20 dual DUB/E3 activity: OTU domain removes K63 ubiquitin from TRAF6 (stops IKK assembly) + zinc fingers add K48 ubiquitin to RIP1 (proteasomal degradation + prevents necroptosis). Both post-activation disposal mechanisms — none of the 13 prior NF-κB activation runs address this node.
+- **Chronic inflammation → A20 depletion positive feedback**: sustained TLR activation → A20 protein consumed faster than synthesized → NF-κB feedback brake weakens → NF-κB setpoint shifts upward → chronicity. First mechanistic explanation for why acute inflammation becomes chronic in the framework.
+- **T1DM GWAS hit**: TNFAIP3 (6q23) is one of the strongest non-HLA T1DM risk loci (OR ~1.4–1.7); risk variants reduce TNFAIP3 expression → functional A20 haploinsufficiency → sustained islet macrophage NF-κB → accelerated insulitis (Barrett 2009 Nat Genet; Lee 2000 Science)
+- **β cell A20 protection**: A20 in β cells blocks TNF-α/IFN-γ → iNOS → NO-mediated apoptosis (Liuwantara 2006 Immunity). A20 also prevents β cell necroptosis via RIP1 K48-ubiquitination.
+- **10th β cell death mechanism**: RIP1-mediated necroptosis in A20-deficient β cells → DAMP release → IL-33/HMGB1 → insulitis amplification (connects to run_099/run_067)
+- **Rosacea Loop 2 persistification**: keratinocyte A20-KO → spontaneous skin inflammation (Vereecke 2010 J Exp Med); chronic TLR4/KLK5 load in rosacea → A20 depleted → NF-κB cannot terminate → ETR→PPR phenotype progression
+- **ME/CFS**: repeated PEM TLR activation → microglial A20 depletion → NF-κB chronification → progressive neuroinflammatory baseline
+
+**New monitoring point:**
+- **TNFAIP3 genotyping** (rs2327832, rs6920220 at 6q23): identifies A20 haploinsufficiency → indicates impaired NF-κB self-termination → justifies aggressive continuous protocol. Second genetic stratification point after HFE C282Y/H63D (run_110).
+
+**New clinical insight: continuous vs. pulsed protocol:**
+- A20 dynamics explain delayed relapse after protocol discontinuation (not just pharmacokinetics): continuous protocol reduces A20 demand → A20 recovers → provides residual brake for weeks after stopping. Supports continuous, not episodic, protocol use.
+- Butyrate gains a third mechanism: reduces chronic TLR4 load → A20 demand decreases → A20 levels recover → NF-κB self-regulation restored (new butyrate rationale beyond HDAC-inhibition and NLRP3 suppression from run_032).
+
+**Also assessed and killed in sweep 9:**
+- Non-canonical NF-κB (NIK → p52/RelB): absent (0 mentions); criterion 3 fails — BAFF downstream covered by run_103/104; no OTC NIK inhibitor
+- NLRP12 (NLR NF-κB suppressor): absent (0 mentions); criterion 3 fails — butyrate induction already in protocol (run_032)
+- PTPN22 (R620W): absent (0 mentions); T1DM HIGH (GWAS); criterion 2 fails for rosacea (LOW)
+- PTPN2/TC-PTP: absent (0 mentions); T1DM MODERATE (GWAS); criterion 3 fails — JAK-STAT covered by existing IFN-α reduction
+- LUBAC/HOIP (linear ubiquitination): absent (0 mentions); criterion 3 fails — no OTC LUBAC inhibitor
+- CYLD (K63-DUB): absent (0 mentions); criterion 3 fails — no OTC CYLD activator
+- IL-27: absent (0 mentions); criterion 3 fails — no OTC IL-27 inducer; existing TLR suppression covers indirectly
+- SH2B3/LNK: absent (0 mentions); T1DM GWAS; criterion 2 fails for rosacea (LOW)
+
+**Framework at SATURATION + 2: 113 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-fifth extension | A20 TNFAIP3 NF-κB brake deubiquitinase TRAF6 K63 RIP1 K48 haploinsufficiency GWAS 6q23 10th beta cell death mechanism RIP1 necroptosis DAMP Loop 2 persistification ETR→PPR continuous vs pulsed protocol TNFAIP3 genotyping monitoring butyrate 3rd mechanism non-canonical NF-κB NLRP12 PTPN22 LUBAC CYLD IL-27 killed | run_113*

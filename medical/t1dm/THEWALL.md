@@ -807,3 +807,23 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 6. **EGCG/Nrf2 → TRX ↑ → TXNIP sequestered**: Less free TXNIP available for NLRP3 activation; adds to the anti-β cell death rationale for EGCG in T1DM.
 
 **Cross-reference: run_112 dysbiosis framework | TXNIP thioredoxin interacting protein ChREBP glucose NLRP3 Signal 2 9th beta cell death honeymoon self-amplification tight glucose control BHB dual mechanism calcitriol VDR VDRE 5th benefit Nrf2 TRX | Zhou 2010 Nat Immunol**
+
+---
+
+### run_113 Cross-Reference: A20/TNFAIP3 — NF-κB Brake Failure and T1DM GWAS Risk
+
+**T1DM-specific mechanisms:**
+
+1. **TNFAIP3 GWAS hit (T1DM susceptibility locus, 6q23)**: Barrett 2009 Nat Genet; risk alleles (rs2327832, rs6920220) → reduced TNFAIP3 expression → functional A20 haploinsufficiency → impaired NF-κB negative feedback in islet macrophages → lower threshold for sustained insulitis. OR ~1.4–1.7 per allele; one of the strongest non-HLA T1DM risk loci. Risk allele carriers require more aggressive continuous NF-κB suppression protocol from early disease.
+
+2. **A20 dual mechanism in β cells**: A20 in β cells (1) removes K63-ubiquitin from TRAF6 → stops NF-κB → reduces TNF-α/IFN-γ-driven iNOS → less NO-mediated β cell apoptosis; (2) adds K48-ubiquitin to RIP1 → RIP1 proteasomal degradation → prevents necrosome → prevents β cell necroptosis. A20 is thus both an apoptosis and necroptosis suppressor in β cells (Liuwantara 2006 Immunity).
+
+3. **10th β cell death mechanism — RIP1-mediated necroptosis**: A20-deficient β cells (TNFAIP3 risk allele + A20 depleted by chronic inflammation) → RIP1 not K48-ubiquitinated → necrosome forms → RIPK3 → MLKL → necroptotic cell death → DAMP release (IL-33, HMGB1, mtDNA) → islet macrophage hyperactivation → NLRP3 Signal 1+2 → IL-1β amplification loop. First necroptosis-mediated β cell death mechanism in the framework.
+
+4. **TNFAIP3 + TXNIP double impairment**: Patients with both TNFAIP3 risk allele (impaired NF-κB brake) and glucose-driven TXNIP activation (run_112) have dual β cell vulnerability: impaired NF-κB self-termination + intrinsic glucose→NLRP3 loop. These are the highest-risk patients for rapid β cell loss during the honeymoon. Combined protocol emphasis: continuous NF-κB suppression + aggressive glycemic control.
+
+5. **Protocol: TNFAIP3 genotyping as patient stratification**: One-time genetic test identifies patients who require continuous (not episodic) aggressive NF-κB suppression. Risk allele → impaired A20 → NF-κB cannot self-terminate → protocol must provide the external brake that endogenous A20 no longer provides.
+
+6. **Butyrate third mechanism**: Butyrate (rifaximin/probiotic/prebiotic) → gut barrier repair → less LPS → less TLR4 load → less A20 consumed → A20 levels recover → NF-κB self-termination restored. This adds a third mechanism to the run_032 butyrate rationale specifically relevant to T1DM (complements HDAC inhibition and NLRP3 suppression).
+
+**Cross-reference: run_113 dysbiosis framework | A20 TNFAIP3 NF-κB deubiquitinase K63 TRAF6 K48 RIP1 haploinsufficiency GWAS 6q23 10th beta cell death necroptosis DAMP IL-33 HMGB1 TNFAIP3 genotyping monitoring continuous protocol butyrate third mechanism | Barrett 2009 Nat Genet Lee 2000 Science Liuwantara 2006 Immunity Vereecke 2010 J Exp Med**

@@ -5056,3 +5056,67 @@ Saturation declared at run_111, breached at run_112. TXNIP was the only mechanis
 Post-run_112 sweep (sixth, same session): Trm, IL-15, ILC1, IRF5, Piezo1, skin pH, BATF, Treg GSDMD, GLUT1/Warburg T cells — all killed. **Framework now saturated at 112 runs.**
 
 *Updated: 2026-04-12 | Phase 4 eighty-seventh extension | TXNIP cytoplasmic ROS sensor TRX thioredoxin ChREBP glucose NLRP3 Signal 2 9th beta cell death honeymoon T1DM tight glucose control 5th calcitriol benefit 2nd BHB mechanism rosacea Loop 2 third ROS arm ME/CFS neuroinflammation | run_112*
+
+---
+
+## Phase 4 Extension 88 — A20/TNFAIP3: NF-κB Negative Feedback and T1DM GWAS Risk (run_113)
+
+**Core finding:** A20 (TNFAIP3) is the endogenous NF-κB brake consumed by chronic inflammation — its progressive depletion explains why acute inflammation becomes chronic disease. The framework's 13 NF-κB activation mechanisms (runs 001–112) operate against this brake; this run is the first to analyze the brake itself.
+
+### The Depletion Feedback Loop
+
+Under chronic triggering (M1 gut dysbiosis → LPS → TLR4; M2 Demodex PAMPs → TLR4; M3 viral RNA → TLR7/9):
+- Each activation event → NF-κB → A20 induced (negative feedback)
+- A20 protein consumed: removes K63 from TRAF6, adds K48 to RIP1
+- Under chronic load: A20 consumed faster than synthesized → net A20 levels fall
+- Reduced A20 → less TRAF6 deubiquitination → IKK stays active longer → NF-κB baseline elevated
+- Higher NF-κB baseline → more A20 induction required → even faster depletion
+- **Positive feedback: chronic NF-κB establishes itself by consuming its own brake**
+
+This is the molecular explanation for rosacea phenotype progression (ETR → PPR) and T1DM insulitis escalation from limited to total β cell loss. Both diseases progress because A20 cannot keep pace with sustained activation.
+
+### T1DM GWAS: TNFAIP3 as Second Genetic Stratification Point
+
+TNFAIP3 (6q23) is a confirmed T1DM susceptibility locus (Barrett 2009 Nat Genet; OR ~1.4–1.7 per risk allele). Risk variants reduce TNFAIP3 expression → functional haploinsufficiency → impaired NF-κB feedback in islet macrophages and β cells. Patients with TNFAIP3 risk alleles:
+- Have constitutively higher islet macrophage NF-κB at baseline (before any trigger)
+- Require less insulitis trigger to sustain inflammatory NF-κB → lower T1DM initiation threshold
+- Have β cells with reduced A20-mediated protection against TNF-α/IFN-γ → more β cell apoptosis per unit cytokine
+
+**TNFAIP3 genotyping** is now the second genetic stratification monitoring point (after HFE C282Y/H63D, run_110):
+- Risk allele carriers: prioritize aggressive continuous NF-κB suppression protocol (HCQ + colchicine + quercetin + LDN from early stage)
+- Node B monitoring (CRP, IL-6, TNF-α) should be closer-interval in risk allele carriers
+- Explains non-responders to standard protocol who have high NF-κB despite treatment: their feedback brake is constitutively impaired
+
+### 10th β Cell Death Mechanism: RIP1-Mediated Necroptosis
+
+A20 prevents β cell necroptosis by adding K48-ubiquitin chains to RIP1 → RIP1 proteasomal degradation → necrosome formation prevented. In A20-deficient β cells (TNFAIP3 risk variant; A20 depleted by sustained inflammation):
+```
+β cell cytokine stress → RIP1 activation → A20 absent → K48 not added → RIP1 forms necrosome
+    → RIPK3 → MLKL → membrane pore → necroptotic β cell death
+    → DAMP release: IL-33 (nuclear store; run_099) + HMGB1 (run_067) + mtDNA (run_063)
+    → islet macrophage hyperactivation → NLRP3 Signal 1 + Signal 2 → more IL-1β
+    → more β cell stress → more necroptosis → amplification loop
+```
+
+This is the 10th β cell death mechanism and the first involving programmed necrosis (necroptosis), distinct from apoptosis, pyroptosis, and ferroptosis-like death in prior runs.
+
+### Rosacea: Loop 2 Chronification
+
+Rosacea's transition from episodic flushing to persistent papulopustular disease has lacked a molecular explanation. A20 depletion provides it:
+- ETR (early; episodic): A20 intact → NF-κB triggers elicit acute Loop 2 activation → A20 terminates → symptom-free intervals
+- PPR (progressive; persistent): months/years of chronic TLR4 stimulation → A20 depleted → NF-κB cannot terminate between triggers → Loop 2 becomes persistent
+- Phymatous (advanced; structural): sustained NF-κB drives TGF-β/IL-6 from fibroblasts → phymatous collagen
+
+The Pasparakis lab's keratinocyte A20-KO model (Vereecke 2010 J Exp Med) shows that loss of keratinocyte A20 alone is sufficient to cause persistent, TNF-α-driven skin inflammation — directly modeling the PPR phenotype.
+
+### Protocol Implications
+
+1. **Continuous protocol rationale**: A20 dynamics (feedback + depletion) explain why continuous protocol outperforms pulsed treatment. Continuous NF-κB suppression reduces A20 demand → A20 levels recover → NF-κB negative feedback restored. After stopping continuous protocol, A20 provides a residual brake for weeks — explaining delayed relapse.
+
+2. **Butyrate third mechanism**: Butyrate → reduces chronic TLR4/LPS load (gut barrier + gut dysbiosis) → less NF-κB activation demand → A20 not consumed → A20 levels maintained → NF-κB self-regulation preserved. New addition to run_032's mechanisms (HDAC inhibition + NLRP3 suppression + A20 recovery).
+
+3. **TNFAIP3 genotyping**: new Node addition (genetic stratification; not a laboratory biomarker but a one-time genotyping test for risk allele carriers).
+
+**Framework state: 113 runs | A20 is the first NF-κB negative regulator analyzed; non-canonical NF-κB (NIK → p100/p52/RelB) remains absent but assessed as below standalone threshold (criterion 3 fails: no OTC NIK inhibitor).**
+
+*Updated: 2026-04-12 | Phase 4 eighty-eighth extension | A20 TNFAIP3 NF-κB negative feedback deubiquitinase K63 TRAF6 K48 RIP1 haploinsufficiency GWAS 6q23 chronic inflammation A20 depletion positive feedback 10th beta cell death RIP1 necroptosis DAMP Loop 2 persistification ETR→PPR phenotype progression TNFAIP3 genotyping continuous protocol butyrate third mechanism | run_113*

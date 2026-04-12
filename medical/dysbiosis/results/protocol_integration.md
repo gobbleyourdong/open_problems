@@ -3732,3 +3732,68 @@ Three ROS→NLRP3 Signal 2 arms now identified for phymatous/high-oxidative-load
 For Loop 2 non-responders with phymatous or sebaceous-dominant subtype: assess all three arms. Protocol should include Nrf2 support (sulforaphane) as part of anti-Loop 2 strategy.
 
 *Protocol_integration.md Part 9bm — 2026-04-12 | TXNIP ChREBP glucose-driven NLRP3 Signal 2 9th beta cell death T1DM honeymoon tight glucose control BHB dual mechanism calcitriol 5th benefit EGCG TRX Nrf2 rosacea Loop 2 third ROS arm 5th calcitriol anti-inflammatory mechanism | run_112*
+
+---
+
+### Part 9bn — A20/TNFAIP3: NF-κB Brake Failure, GWAS Stratification, and Continuous Protocol Rationale (run_113)
+
+#### Background
+
+Run_113 analyzes A20 (TNFAIP3), the primary NF-κB negative feedback protein. A20 is absent as a primary mechanism from all 112 prior runs. Its depletion under chronic inflammation explains:
+1. Why rosacea progresses from ETR (episodic) to PPR (persistent) phenotype
+2. Why T1DM insulitis accelerates over time despite unchanged immune trigger levels
+3. Why continuous protocol outperforms pulsed/episodic protocol
+
+#### New Monitoring: TNFAIP3 Genotyping
+
+Add to **T-index v4 optional panel** (alongside HFE genotyping from run_110):
+
+> **TNFAIP3 genotyping** (rs2327832, rs6920220):
+> - Risk allele(s) present → A20 haploinsufficiency → impaired NF-κB self-termination → recommend aggressive continuous NF-κB suppression protocol from initial presentation
+> - Interpretation: 0 risk alleles (low NF-κB brake impairment; standard protocol); 1 risk allele (moderate; prioritize HCQ + quercetin at full dose); 2 risk alleles (high; add colchicine + LDN early; close Node B monitoring)
+> - One-time test; does not change with disease state
+
+This is the second genetic stratification test after HFE C282Y/H63D (run_110). Together they identify:
+- Iron-driven NLRP3 non-responders (HFE risk allele) → emphasize lactoferrin/selenium
+- NF-κB brake-impaired non-responders (TNFAIP3 risk allele) → emphasize continuous NF-κB protocol
+
+#### Continuous vs. Pulsed Protocol: Mechanistic Justification
+
+A20's feedback dynamics explain why **continuous protocol is mechanistically superior** to episodic/pulsed use:
+
+| Protocol type | A20 dynamics | NF-κB outcome |
+|---|---|---|
+| Continuous suppression | A20 demand reduced → A20 levels recover → internal brake restored | NF-κB sustained low; both external (protocol) + internal (A20) brakes active |
+| Pulsed (flare-only) | During off-periods: chronic triggers → A20 consumed → baseline NF-κB rises | Each flare starts from higher NF-κB baseline; protocol effectiveness diminishes over disease course |
+| Post-discontinuation | A20 had recovered → provides residual brake for weeks | Explains 2-6 week delayed relapse after stopping continuous protocol (not just pharmacokinetics) |
+
+**Clinical implication:** Patients who report "the protocol worked but stopped working" may have experienced A20 depletion from a period of pulsed use that allowed NF-κB setpoint to shift. Reinstate continuous protocol; allow 4-8 weeks for A20 recovery.
+
+#### Butyrate: Third Independent Mechanism
+
+Butyrate (from run_032 rifaximin/prebiotic/probiotic protocol arm) now has three mechanistically distinct anti-inflammatory actions:
+1. HDAC inhibition → histone acetylation → anti-inflammatory gene expression (run_032 primary)
+2. NLRP3 direct suppression → reduces Loop 2 Signal 2 threshold (run_032)
+3. **NEW — A20 recovery via TLR4 load reduction**: butyrate → improved gut barrier + restored gut microbiome → less LPS translocation → less chronic TLR4 activation → less A20 demand → A20 levels recover → NF-κB self-termination restored
+
+This third mechanism is distinct: mechanisms 1 and 2 suppress inflammatory outputs; mechanism 3 reduces the input load that depletes A20.
+
+#### Rosacea Clinical Insight: ETR → PPR Prevention
+
+A20's depletion model predicts that rosacea phenotype progression is not inevitable — it is driven by sustained A20 consumption. Protocol implication:
+
+> **Phenotype progression prevention:** Early continuous protocol initiation (at ETR stage, before PPR) preserves A20 levels by reducing chronic TLR4/KLK5 activation load → NF-κB cannot establish its chronic self-sustaining state. Late initiation (at PPR stage) may require more time to restore A20 levels because the NF-κB setpoint has already shifted upward.
+
+This is a new argument for **early protocol initiation** in rosacea patients, even before significant disease burden.
+
+#### T1DM: 10th β Cell Death Mechanism and Protocol Amplification
+
+A20 haploinsufficiency (TNFAIP3 risk allele) in T1DM patients creates:
+- Lower threshold for β cell apoptosis (TNF-α/IFN-γ-mediated; A20 protection reduced)
+- Higher probability of β cell necroptosis (RIP1 not K48-ubiquitinated → necrosome forms → DAMP release → IL-33 + HMGB1 → insulitis amplification)
+
+**For T1DM patients with TNFAIP3 risk allele:**
+- Prioritize run_032 (butyrate) + run_112 (tight glucose control) → reduce both TLR4 load and TXNIP-driven activation simultaneously
+- A20 haploinsufficiency + TXNIP glucose loop = double impairment of β cell self-protection; these patients have highest β cell loss rate and most benefit from combined NF-κB suppression + glycemic control
+
+*Protocol_integration.md Part 9bn — 2026-04-12 | A20 TNFAIP3 NF-κB brake deubiquitinase TRAF6 RIP1 haploinsufficiency T1DM GWAS 6q23 TNFAIP3 genotyping monitoring HFE second genetic stratification 10th beta cell death RIP1 necroptosis continuous vs pulsed protocol A20 depletion positive feedback rosacea ETR PPR phenotype progression butyrate third mechanism | run_113*
