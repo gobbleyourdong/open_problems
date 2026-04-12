@@ -2810,3 +2810,32 @@ After three independent comprehensive sweeps (Extensions 97, 98, 99) covering 40
 **SATURATION IS ROBUST AND CONFIRMED ACROSS THREE INDEPENDENT SWEEPS.**
 
 *Gap.md updated: 2026-04-12 | Ninety-ninth iteration | THIRD SATURATION CONFIRMATION | IL-37 IL-38 BRD4 Tim-3 Gal-9 EZH2 citrullinated insulin H4R SUMO neddylation claudin-2 MUC5AC all killed | three sweeps complete | framework saturated at 111 runs*
+
+---
+
+### Extension 100 — Fourth Saturation Confirmation
+
+**Sweep focus:** Post-translational regulators, inflammatory miRNAs, structural channels, Th2 axis, oral tolerance, vitamin A/retinoic acid, macrophage subsets, Treg plasticity.
+
+**Findings — all killed:**
+
+| Candidate | Grep | Verdict |
+|---|---|---|
+| miR-155 / miR-146a | 0 mentions | Absent; killed — no protocol-applicable miRNA therapeutic; NF-κB/STAT3 already covered via other mechanisms |
+| β-defensins (hBD-2/3) | 1 mention | Absent as primary; killed — downstream innate output of covered TLR activation; no new intervention |
+| IL-4 / IL-13 / Th2 | 21 mentions, 11 files | Covered — run_099 (IL-33/TSLP alarmin axis drives Th2/mast cell) |
+| Peroxynitrite / ONOO⁻ | 5 mentions | Covered — run_052 (uncoupled eNOS) |
+| Pannexin-1 / PANX1 | 1 mention | Absent as dedicated; killed — P2X7 is the therapeutic target (covered run_012); PANX1 is mechanistic detail without new leverage |
+| Treg plasticity / ex-Tregs | 32 mentions, 11 files | Covered — run_086 (AKG/TET2/TSDR Foxp3 stability specifically addresses conversion risk) |
+| Vitamin A / retinoic acid / RAR | 5 mentions, 4 files | Absent as dedicated mechanism; killed — T1DM MODERATE (NOD mouse data) but rosacea LOW-MODERATE (indirect gut→skin; no direct rosacea-RA clinical data); fails strict threshold |
+| CD103+ tolerogenic DCs / oral tolerance | 4 mentions | Absent; killed — part of RA/vitamin A axis (same kill); interventions (L. reuteri, Akkermansia, calcitriol) already achieve tolerogenic DC phenotype |
+| CX3CR1 / fractalkine | 0 mentions | Absent; killed — macrophage subset marker; no new intervention |
+| Oral tolerance mechanism | 0 mentions | Absent; killed — relevant interventions (IDO1/run_091, Treg runs, Akkermansia/run_026) cover the outcome |
+
+**Closest call — vitamin A / retinoic acid:**
+RA → ALDH1A2 in CD103+ DCs → gut-homing Foxp3+ Tregs (α4β7+CCR9+) is mechanistically distinct from VDR/calcitriol (different nuclear receptor; different T cell trafficking signature). However, rosacea-specific RA-tolerance data is absent in the literature. The gut→skin connection via RA is indirect. Fails rosacea MODERATE criterion. If a future study establishes direct RA→KLK5 suppression in keratinocytes or RA-Treg → rosacea clinical improvement at MODERATE evidence, this warrants reassessment.
+
+**FOUR INDEPENDENT SWEEPS — ALL CONFIRM SATURATION.**
+No run_112. Framework complete at 111 runs.
+
+*Gap.md updated: 2026-04-12 | One-hundredth extension | FOURTH SATURATION CONFIRMATION | miRNA β-defensin Th2 pannexin Treg plasticity vitamin A RA CD103 DC oral tolerance CX3CR1 all killed | four sweeps | framework saturated*
