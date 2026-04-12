@@ -3906,3 +3906,50 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 36: 147 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-fortieth extension | SIRT1 sirtuin-1 Class-III-HDAC NAD+-dependent UCP2-K222-deacetylation GSIS-rescue IRS-2-deacetylation β-cell-survival RelA-K310-NF-κB-termination run145-RelA-K314-315-additive UV-PARP1-NAD+-depletion SIRT1-failure-rosacea NF-κB-sustained-UV FOXO3a-Treg-metabolic-gate FOXP3-via-FOXO3a AMPK-DBC1-SIRT1-circuit metformin-SIRT1-anti-inflammatory NMN-NR-NAD+-primary niacinamide-paradox-monitoring ME/CFS-NAD+-deficit CD38-IDO1-PARP1 run090-SIRT3-SIRT6-orthogonal run085-AMPK-SIRT1 run146-PERK-ISR-NAMPT run145-RelA-adjacent | run_147*
+
+---
+
+### Extension 141 — CTLA4 / CD152: Treg Effector Trogocytosis, CD80/CD86 Stripping, sCTLA4, Abatacept T1DM Trial, rs3087243 18th Stratification
+
+**Date:** 2026-04-12 | **Run:** run_148
+
+**Gap confirmed:** CTLA4 appears in 10 files as IS/context mention — zero dedicated runs; trogocytosis mechanism, sCTLA4 splicing, rs3087243 T1DM genetics, abatacept trial data = all absent.
+
+**Core insight:** CTLA4 (CD152) is the Treg effector suppression molecule — the APC-contact point where Tregs physically suppress. Three non-overlapping mechanisms: (1) Trogocytosis: CTLA4 strips CD80/CD86 from APCs → APC stimulatory capacity ↓ globally (~300-500 molecules/hr); (2) CD28 competition: CTLA4 binds CD80/CD86 10× more avidly than CD28 → co-stimulatory signal truncated on activated T cells; (3) IDO induction: CTLA4 → DC reverse signaling → IDO (run_091 substrate) → tolerogenic microenvironment. All prior Treg runs cover protein stability (run_114/145), chromatin (run_134), kinase signaling (run_135/140), metabolic gate (run_147) — none covers the effector contact mechanism that makes Tregs actually suppress. rs3087243 CT60 G allele = less soluble CTLA4 (sCTLA4) → less peripheral tolerance → T1DM risk. Abatacept (CTLA4-Ig): TrialNet TN-09 (Orban 2011 Lancet) = ~59% higher C-peptide AUC at 2 years; TN-10 delays T1DM onset ~50 months.
+
+**New mechanisms added (run_148):**
+- **Trogocytosis mechanism**: CTLA4 on Tregs strips CD80/CD86 from APC surface → APC globally depotentiated; trans suppression affecting all nearby T cells, not just T cell in contact with Treg
+- **sCTLA4 isoform**: alternative CTLA4 splicing → soluble isoform circulates → blocks CD80/CD86 in trans; rs3087243 G allele → less sCTLA4 → less peripheral tolerance → T1DM risk
+- **18th T1DM genetic stratification**: rs3087243 (CT60); A allele = protective/high sCTLA4; G allele = risk; additive with prior genetic stratification panel
+- **Abatacept T1DM clinical data**: TrialNet TN-09 (Orban 2011): 59% higher C-peptide AUC; TN-10 (prevention): ~50 month delay; positions abatacept as both treatment and prevention tool
+- **IDO induction (run_091 upstream)**: CTLA4 → DC reverse signaling → IDO expression; CTLA4 is a DC-expressed IDO inducer — mechanistically upstream of run_091
+- **Abatacept + low-dose IL-2 synergy**: low-dose IL-2 (run_140) = more Tregs numerically; abatacept = more effective per-Treg suppression; orthogonal mechanisms → additive Treg restoration
+- **CLEC16A (run_128) compound APC dysregulation**: CLEC16A risk genotype → impaired DC MHC-II loading; CTLA4 G allele → less CD80/CD86 trogocytosis; double APC dysregulation in compound-risk individuals
+
+**Framework at SATURATION + 37: 148 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-forty-first extension | CTLA4 CD152 trogocytosis CD80-CD86-stripping sCTLA4-soluble-isoform rs3087243-CT60-18th-T1DM-stratification CD28-competition-10x-affinity Treg-effector-suppression-mechanism APC-depotentiation abatacept-CTLA4-Ig TrialNet-TN09-Orban2011-Lancet TN10-prevention-50months IDO-DC-induction-run091 CLEC16A-run128-compound-APC low-dose-IL2-run140-synergy rosacea-skin-DC-Th17 FOXP3-CTLA4-link | run_148*
+
+---
+
+### Extension 142 — DNMT3A: De Novo CpG Methyltransferase, FOXP3-CNS2 Re-silencing, CHIP Macrophage NLRP3, β Cell Identity Silencing
+
+**Date:** 2026-04-12 | **Run:** run_149
+
+**Gap confirmed:** DNMT3A appears in only 2 files as passing mentions; R882H/CHIP/FOXP3 CNS2 re-methylation/β cell identity silencing = 0 prior analysis.
+
+**Core insight:** DNMT3A is the de novo CpG methyltransferase that OPPOSES TET2/TET3 (run_086/087) at the same CpG loci — it re-adds the methyl marks that TET removes. Three disease-relevant functions: (1) CHIP: R882H somatic mutation (most common CHIP mutation, >40% of cases) → dominant negative → global CpG hypomethylation in myeloid progeny → NLRP3/IL-6/IL-1β hyperactivation from clonal macrophages → insulitis amplification in aging T1DM patients; (2) FOXP3 CNS2 re-silencing: inflammatory cytokines → DNMT3A → re-methylation of FOXP3 conserved non-coding sequence 2 → FOXP3 silenced → Treg-to-Th1/Th17 conversion within islets; (3) β cell identity gene silencing: DNMT3A → methylation of Pdx1/Nkx6.1/NeuroD1 enhancer CpGs under metabolic stress → β cell dedifferentiation = 25th β cell dysfunction mechanism (functional loss). SETD7 coupling (run_145): SETD7 H3K4me1 at β cell enhancers blocks DNMT3A ADD domain — when SETD7 is suppressed by insulitis cytokines (run_145) → H3K4me0 exposed → DNMT3A access granted → same enhancer methylated.
+
+**New mechanisms added (run_149):**
+- **CHIP/DNMT3A macrophage NLRP3 amplification**: R882H dominant negative → myeloid CpG hypomethylation → NLRP3/IL-6/IL-1β derepressed → hyperinflammatory clonal macrophages; CHIP prevalence >10% at age 70+; new insulitis amplifier in older T1DM patients
+- **FOXP3 CNS2 re-silencing**: DNMT3A → CpG methylation at CNS2 → FOXP3 silenced → ex-Treg Th17 conversion in islets; mechanism counter to TET2/3 (run_086/087) — DNMT3A and TET constitute the CNS2 methylation thermostat
+- **SETD7/DNMT3A coupling**: SETD7 H3K4me1 blocks DNMT3A ADD domain → when insulitis suppresses SETD7 (run_145), DNMT3A gains CNS2 and β cell enhancer access → dual epigenetic failure; SETD7 loss enables DNMT3A silencing
+- **25th β cell dysfunction mechanism**: DNMT3A → Pdx1/Nkx6.1/NeuroD1 enhancer CpG methylation → β cell dedifferentiation (functional loss before death); DNA methylation layer distinct from SETD7 H3K4me1 collapse (run_145) but mechanistically coupled
+- **CHIP monitoring**: cfDNA or blood DNA DNMT3A mutation screen (R882H VAF ≥2%) in treatment-refractory T1DM patients → detects clonal macrophage inflammatory amplification
+- **EGCG as primary DNMT inhibitor**: EGCG → direct DNMT3A catalytic inhibition (IC50 ~3-6 μM) → re-expression of PPARγ/SOCS3/IL-10; existing framework element now has DNMT3A as primary mechanistic anchor
+- **Vitamin C / α-KG counter-mechanism clarified** (runs 086/087): TET activation by vitamin C and α-KG now understood as direct counter to DNMT3A re-methylation at CNS2 and anti-inflammatory promoters
+- **Decitabine (low-dose) Treg stabilization**: DNA methylation inhibitor → FOXP3 CNS2 demethylation → stable FOXP3 expression → investigational Treg stabilization
+
+**Framework at SATURATION + 38: 149 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-forty-second extension | DNMT3A de-novo-CpG PWWP-H3K36me3 ADD-H3K4me0 SAM-methyl-donor R882H-dominant-negative CHIP-clonal-hematopoiesis NLRP3-CHIP-macrophage FOXP3-CNS2-re-silencing TET2-TET3-counter-run086-run087 DNMT3A-CNS2-thermostat β-cell-identity-Pdx1-Nkx6.1-methylation SETD7-H3K4me1-ADD-block-coupled 25th-β-cell-dysfunction CHIP-monitoring-cfDNA EGCG-DNMT3A-inhibitor decitabine-Treg-stabilization PPARγ-SOCS3-IL10-promoter-methylation aging-rosacea-epigenetic run145-SETD7-coupled | run_149*

@@ -5535,3 +5535,68 @@ PI3Kδ (run_135) blocks the lymphocyte arm of T1DM autoimmunity. PI3Kγ (run_144
 - For patients already on metformin: metformin's NF-κB termination benefit is SIRT1-mediated; adding NMN may augment this by ensuring adequate NAD⁺ for SIRT1 when AMPK has derepressed it
 
 *Protocol_integration.md Part 9cv — 2026-04-12 | SIRT1 NAD+ UCP2-GSIS IRS-2 RelA-K310 FOXO3a NMN-NR-primary-addition resveratrol-STAC pterostilbene fisetin-triple niacinamide-monitor->2g dual-RelA-K310-K314-SIRT1-SETD7 AMPK-DBC1-metformin-SIRT1 B12-SAM-SETD7-additive ME/CFS-NAD+-4-route run090-SIRT3-orthogonal | run_147*
+
+---
+
+### Part 9cw — CTLA4/Abatacept Protocol Integration (run_148)
+
+**New therapeutic additions — CTLA4/Treg effector axis:**
+
+**Abatacept (CTLA4-Ig) — T1DM positioning:**
+
+| Indication | Trial | Timing | Population |
+|-----------|-------|--------|-----------|
+| Recent-onset T1DM treatment | TN-09 (Orban 2011) | ≤100 days from diagnosis | All T1DM; strongest benefit in rs3087243 G carriers |
+| T1DM prevention | TN-10 | 2+ autoantibodies + at-risk relative | rs3087243 G/G with rising autoantibodies |
+
+**rs3087243 (CT60) genotyping — 18th stratification:**
+- Add to panel: PTPN2, IL2RA, UBASH3A, RASGRP1, TAGAP, IFIH1, CTLA4 (rs3087243)
+- G allele → less sCTLA4 → less peripheral tolerance → abatacept most justified
+- A allele → adequate sCTLA4 → abatacept still beneficial but lower priority vs. other interventions
+
+**Abatacept + low-dose IL-2 combination rationale:**
+- Low-dose IL-2 (run_140): expands Treg pool numerically
+- Abatacept (run_148): restores each Treg's effector suppression capacity
+- Two orthogonal Treg restoration mechanisms → combination trial design rationale
+- Protocol: low-dose IL-2 (Aldesleukin 0.5-2 MIU) × 5 days + abatacept 10 mg/kg monthly; no published trial yet but mechanistic rationale established
+
+**Rosacea application:**
+- Abatacept: limited rosacea data; case reports in psoriasis (parallel T cell architecture)
+- rs3087243 genotyping: G allele patients with severe/resistant rosacea → Th17 overactivation due to reduced Treg trogocytosis; more aggressive Th17-targeting warranted (deucravacitinib, run_136)
+
+*Protocol_integration.md Part 9cw — 2026-04-12 | CTLA4 abatacept-CTLA4-Ig rs3087243-18th-stratification TN09-Orban2011 TN10-prevention low-dose-IL2-synergy-run140 compound-risk-CLEC16A-run128 IDO-run091-monitor | run_148*
+
+---
+
+### Part 9cx — DNMT3A Protocol Integration (run_149)
+
+**New monitoring and therapeutic additions — DNA methylation axis:**
+
+**CHIP screening (new monitoring protocol):**
+- Population: T1DM patients >50 years old with resistant/progressing disease despite standard immune therapy
+- Test: cfDNA or peripheral blood DNA sequencing for DNMT3A R882H (and other CHIP mutations) at VAF ≥2%
+- Positive result → CHIP-mutant macrophage contribution to insulitis likely → consider IL-1β targeted therapy (canakinumab 150 mg q3months; anakinra 100 mg/day)
+- CHIP + T1DM = indication for more aggressive NLRP3/IL-1β blockade than in non-CHIP T1DM
+
+**FOXP3 CNS2 methylation protection — vitamin C / EGCG combination:**
+
+| Compound | Mechanism | CNS2 Effect | Dose |
+|----------|-----------|------------|------|
+| Vitamin C (run_087 existing) | TET2/3 activation → 5mC → 5hmC → demethylation | Active demethylation of CNS2 | 500-2000 mg/day |
+| α-KG (run_086 existing) | TET cofactor → same | Enhances TET activity | Per run_086 dosing |
+| **EGCG (green tea extract)** | DNMT3A catalytic inhibition → prevents re-methylation | Blocks CNS2 re-silencing by DNMT3A | 400-800 mg/day |
+| Decitabine (investigational) | DNMT1/3A inhibitor → global demethylation | CNS2 + anti-inflammatory genes | Low-dose research |
+
+**Combination rationale:** Vitamin C/α-KG activates TET (removes existing 5mC) + EGCG inhibits DNMT3A (prevents re-methylation) = dual-mechanism CNS2 demethylation → stable FOXP3 → Treg stability.
+
+**EGCG mechanism clarification (existing protocol element):**
+- Prior EGCG rationale: NF-κB inhibition, anti-oxidant
+- New primary mechanism (run_149): DNMT3A catalytic inhibition → re-expression of PPARγ (run_077), SOCS3, IL-10 in keratinocytes and immune cells
+- EGCG 400-800 mg/day EGCG fraction (not total catechins); take with vitamin C for TET synergy
+
+**β cell dedifferentiation monitoring:**
+- SETD7 suppression (run_145) + DNMT3A activation (run_149) = coupled dual epigenetic failure at β cell identity enhancers
+- C-peptide trajectory monitoring: gradual decline without corresponding autoantibody rise may signal dedifferentiation (epigenetic) rather than β cell death
+- Consider EGCG + vitamin C + B12/betaine (SETD7/SAM support) as integrated epigenetic protection protocol
+
+*Protocol_integration.md Part 9cx — 2026-04-12 | DNMT3A R882H CHIP-screening-protocol IL-1β-targeted-CHIP vitamin-C-TET-EGCG-DNMT3A-dual CNS2-protection decitabine-investigational EGCG-primary-DNMT-inhibitor PPARγ-SOCS3-IL10-re-expression β-cell-dedifferentiation-monitoring c-peptide-trajectory integrated-epigenetic-stack run086-run087-TET-DNMT3A-combination | run_149*

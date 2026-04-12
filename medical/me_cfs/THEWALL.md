@@ -1346,3 +1346,43 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
    - Pterostilbene and fisetin as alternatives/additions to resveratrol
 
 *ME/CFS THEWALL cross-reference run_147: 2026-04-12 | SIRT1 NAD+-deacetylase ME/CFS-NAD+-4-route PARP1-oxidative mitochondria-NADH IDO1-QPRT-run091 CD38-IFN-β-run142 RelA-K310-neuroinflammation NF-κB-microglia FOXO3a-NK-T-metabolic NMN-NR-primary ME/CFS-fatigue pterostilbene fisetin run090-SIRT3-SIRT6-orthogonal run146-PERK-NAMPT-vicious-cycle | run_147*
+
+---
+
+### Cross-reference: run_148 — CTLA4/CD152 / NK/T Trogocytosis / IDO → Neurotoxicity
+
+**Relevance: LOW**
+
+1. **CTLA4 on NK cells in ME/CFS**:
+   - NK cells in ME/CFS express CTLA4 under exhaustion conditions → trogocytosis of DC CD80/CD86 → reduced APC stimulatory capacity → NK self-dampening → NK activation further impaired
+   - Abatacept in ME/CFS: no current trial data; theoretically could release NK cells from CTLA4-mediated dampening
+
+2. **IDO → quinolinic acid (neurotoxic) in ME/CFS context**:
+   - CTLA4 → DC IDO induction (run_091 pathway); in ME/CFS, IDO → kynurenine → quinolinic acid (QPRT-dependent)
+   - Quinolinic acid = NMDA agonist → glutamate excitotoxicity → cognitive dysfunction / ME/CFS brain fog
+   - CTLA4 activity → IDO activity → ME/CFS cognitive component; connecting Treg effector function to neuroimmune axis
+
+*ME/CFS THEWALL cross-reference run_148: 2026-04-12 | CTLA4 NK-trogocytosis IDO-run091-neurotoxic quinolinic-acid-NMDA exhausted-NK-CTLA4 | run_148*
+
+---
+
+### Cross-reference: run_149 — DNMT3A / CHIP Neuroinflammation / FOXP3-CNS2 / EGCG
+
+**Relevance: MODERATE**
+
+1. **CHIP in ME/CFS (aging patients)**:
+   - DNMT3A R882H CHIP prevalence 2-10% at age 50-60; ME/CFS cohort has significant overlap with this age range
+   - CHIP-mutant macrophages → NLRP3/IL-1β/IL-6 hyperactivation → neuroinflammatory amplification
+   - CNS microglia: CHIP-mutant microglia → hyperreactive neuroinflammation → ME/CFS brain fog / cognitive dysfunction amplification
+   - CHIP screening in treatment-refractory ME/CFS patients >50 years old
+
+2. **FOXP3 CNS2 re-silencing → Treg instability → immune perpetuation**:
+   - Chronic inflammation in ME/CFS → DNMT3A ↑ → FOXP3 CNS2 re-methylated → Treg → Th1 conversion → more IFN-γ → more DNMT3A → self-perpetuating loop
+   - Counter: vitamin C (run_087) + EGCG (DNMT3A inhibitor) = complementary tools to stabilize CNS2 demethylation
+
+3. **EGCG DNMT3A mechanism for ME/CFS**:
+   - EGCG → DNMT3A inhibition → PPARγ/SOCS3/IL-10 re-expression in ME/CFS immune cells
+   - Anti-inflammatory gene re-expression → reduced cytokine burden → symptom modulation
+   - EGCG + vitamin C = anti-inflammatory/DNMT3A/TET2 combination for ME/CFS
+
+*ME/CFS THEWALL cross-reference run_149: 2026-04-12 | DNMT3A R882H CHIP-neuroinflammation-microglia FOXP3-CNS2-Treg-instability IFN-γ-loop EGCG-DNMT3A PPARγ-SOCS3-IL10-re-expression vitamin-C-TET-counter ME/CFS-aging-CHIP-screening | run_149*

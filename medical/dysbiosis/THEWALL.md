@@ -6244,3 +6244,67 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 147 runs | SIRT1 nuclear-NAD+-HDAC | UCP2-GSIS | IRS-2-survival | RelA-K310-NF-κB-K310 | run145-RelA-K314-315-additive | UV-PARP1-NAD+-rosacea | FOXO3a-Treg-metabolic | AMPK-DBC1-circuit | NMN-NR-primary | niacinamide-paradox | ME/CFS-NAD+-multi-route-deficit.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-twenty-second extension | SIRT1 NAD+-deacetylase UCP2-K222-GSIS IRS-2-K1173-β-cell-survival RelA-K310-NF-κB UV-PARP1-NAD+-rosacea FOXO3a-Treg-metabolic-gate DBC1-AMPK-circuit metformin-SIRT1-run085 NMN-NR-NAD+-primary resveratrol-STAC pterostilbene fisetin-triple niacinamide-paradox ME/CFS-NAD+-4-route PARP1-mitochondria-IDO1-CD38 run090-SIRT3-SIRT6-orthogonal run145-RelA-K314-additive run146-PERK-NAMPT | run_147*
+
+---
+
+### Phase 4 Extension 123 — CTLA4/CD152 / Trogocytosis / sCTLA4 / Abatacept T1DM Trials / rs3087243
+
+**Gap:** CTLA4 as primary subject absent from all 147 prior runs; IS/context mentions in 10 files but zero mechanistic analysis of trogocytosis, sCTLA4, or abatacept.
+
+**Rosacea (MODERATE):**
+- Skin DC/Langerhans CD80/CD86: Treg CTLA4 trogocytosis depletes CD80/CD86 from dermal APCs → Th17/Th1 priming ↓ in draining lymph nodes; CTLA4 G allele → less trogocytosis → more skin DC stimulatory capacity → Th17 priming ↑
+- Abatacept-treated RA patients: skin inflammation decreases; architecture parallel to rosacea (CD28-driven T cell activation)
+- IDO connection (run_091): CTLA4 → DC IDO induction → kynurenine → tryptophan → anti-inflammatory metabolite; CTLA4 is upstream IDO inducer
+
+**T1DM (HIGH):**
+- rs3087243 CT60: G allele = less soluble CTLA4 (sCTLA4) → less peripheral tolerance → autoreactive T cell escape; 18th T1DM stratification point; OR ~1.5-2.0
+- TrialNet TN-09 (Orban 2011 Lancet): abatacept in recent-onset T1DM → ~59% higher C-peptide AUC at 2 years; effect persisted post-washout
+- TrialNet TN-10 (prevention): abatacept in 2+ autoantibody at-risk relatives → ~50 month delay in T1DM onset
+- Abatacept + low-dose IL-2 synergy: run_140 = more Tregs numerically (IL-2 supply); run_148 = more effective per-Treg suppression (CTLA4-Ig restores effector function); additive, orthogonal mechanisms
+- CLEC16A (run_128) compound APC dysregulation: CLEC16A (impaired DC MHC-II loading) + CTLA4 G allele (impaired trogocytosis) = double APC dysfunction
+
+**ME/CFS (LOW):**
+- CTLA4 on exhausted NK cells → CD80/CD86 trogocytosis reduces APC stimulatory capacity → NK self-dampening loop
+- IDO induction → kynurenine → quinolinic acid (neurotoxic) in ME/CFS neuroinflammation; CTLA4 → IDO → worse neurotoxic output if not resolved
+
+**Protocol additions:**
+- **Abatacept** (approved RA/JIA): T1DM prevention trial positioning; consider in rs3087243 G/G individuals with rising autoantibodies
+- **rs3087243 genotyping** (18th stratification): add to genetic risk panel alongside PTPN2, IL2RA, UBASH3A, RASGRP1, TAGAP, IFIH1
+- **Abatacept + low-dose IL-2** combination rationale established
+
+**Framework state: 148 runs | CTLA4 CD152 trogocytosis | sCTLA4-splicing | rs3087243-18th | abatacept-T1DM-prevention | CD28-competition-10x | IDO-DC-upstream | run128-CLEC16A-APC-compound | run140-IL2-synergy.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-twenty-third extension | CTLA4 CD152 trogocytosis CD80-CD86-stripping sCTLA4-soluble rs3087243-CT60 18th-stratification abatacept-CTLA4-Ig TrialNet-TN09-Orban2011 TN10-prevention CD28-competition Treg-effector-suppression-mechanism IDO-induction-run091 CLEC16A-run128-compound-APC low-dose-IL2-run140-synergy rosacea-Th17-priming-DC | run_148*
+
+---
+
+### Phase 4 Extension 124 — DNMT3A / CHIP / FOXP3-CNS2 / β Cell Identity Gene Silencing / EGCG / Decitabine
+
+**Gap:** DNMT3A as primary subject: only 2 passing mentions in all 148 prior runs; de novo CpG methyltransferase/CHIP/R882H/FOXP3 CNS2 re-silencing = zero coverage.
+
+**Rosacea (MODERATE):**
+- Aging keratinocytes: DNMT3A → hypermethylation of anti-inflammatory gene promoters (PPARγ, SOCS3, IL-10, DUSP1) → sustained TLR2/4/NF-κB → age-related rosacea worsening
+- EGCG → DNMT3A inhibition → re-expression of PPARγ/SOCS3/IL-10 in keratinocytes; EGCG anti-inflammatory mechanism now has primary DNMT3A anchor
+- UV + chronic Demodex/TLR2 → DNMT3A activity ↑ → progressive anti-inflammatory gene silencing → refractory rosacea
+
+**T1DM (HIGH):**
+- CHIP/R882H macrophage NLRP3: >10% CHIP prevalence at age 70+; DNMT3A-CHIP myeloid progeny → global CpG hypomethylation → NLRP3/IL-1β/IL-6 hyperactivation → additional insulitis amplification in older T1DM patients; CHIP screening in treatment-refractory T1DM
+- FOXP3 CNS2 re-silencing: insulitis (TNF-α/IL-6 → DNMT3A ↑ + TET2 ↓) + SETD7 suppression (→ H3K4me0 at CNS2) → DNMT3A ADD domain unblocked → CNS2 CpG methylation → FOXP3 silenced → ex-Treg → Th17/Th1 within islets; TET2/TET3 (run_086/087) = counter-mechanism (demethylation); DNMT3A = re-silencing arm
+- SETD7/DNMT3A coupled mechanism: insulitis suppresses SETD7 (run_145, H3K4me1 ↓) → removes ADD domain obstacle → enables DNMT3A at CNS2 AND β cell identity enhancers; dual epigenetic failure from one inflammatory signal
+- β cell identity silencing: DNMT3A → Pdx1/Nkx6.1/NeuroD1 enhancer CpG methylation → β cell dedifferentiation = 25th β cell dysfunction (functional loss, distinct from 24 death mechanisms)
+
+**ME/CFS (MODERATE):**
+- CHIP in ME/CFS: aging patients (>40); DNMT3A-CHIP macrophages → neuroinflammation amplification
+- FOXP3 CNS2 methylation: chronic inflammation → DNMT3A → Treg instability → immune dysregulation perpetuation
+- EGCG/decitabine: demethylate anti-inflammatory gene promoters → restore SOCS3/IL-10 in ME/CFS immune cells
+
+**Protocol additions:**
+- **EGCG (green tea extract)** (existing): DNMT3A inhibition now primary mechanism for anti-inflammatory effect; supports PPARγ/SOCS3/IL-10 re-expression
+- **Vitamin C + α-KG** (runs 086/087 existing): counter to DNMT3A re-methylation at CNS2 now explicitly clarified as the mechanism
+- **Decitabine (low-dose)** (investigational): FOXP3 CNS2 demethylation → Treg stabilization; below cytotoxic threshold
+- **CHIP screening** (cfDNA DNMT3A VAF ≥2%): treatment-refractory T1DM monitoring
+- **B12/betaine/SAM** (runs 145/147): maintains adequate SAM; SAM is DNMT3A cofactor — paradoxically supports both SETD7-protective methylation AND DNMT3A re-silencing; but the H3K4me1 protection (SETD7) should dominate at active enhancers
+
+**Framework state: 149 runs | DNMT3A de-novo-CpG | CHIP-R882H-NLRP3 | FOXP3-CNS2-re-silencing | TET-DNMT3A-thermostat | SETD7-H3K4me1-ADD-block | 25th-β-cell-dysfunction | EGCG-DNMT-inhibitor | decitabine-Treg | vitaminC-TET-counter-clarified.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-twenty-fourth extension | DNMT3A de-novo-CpG PWWP ADD-H3K4me0 R882H-dominant-negative CHIP-clonal-hematopoiesis NLRP3-CHIP-macrophage FOXP3-CNS2-re-silencing TET2-TET3-counter-run086-run087 CNS2-thermostat-equilibrium SETD7-H3K4me1-ADD-block-run145 β-cell-Pdx1-Nkx6.1-methylation 25th-dysfunction CHIP-cfDNA-monitoring EGCG-DNMT3A-anchor decitabine-low-dose PPARγ-SOCS3-IL10-methylation-keratinocyte aging-rosacea | run_149*

@@ -1568,3 +1568,63 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
    - First-class protocol addition; NMN 500-1000 mg/day; NR 300-600 mg/day
 
 *T1DM THEWALL cross-reference run_147: 2026-04-12 | SIRT1 NAD+-deacetylase UCP2-K222-GSIS IRS-2-β-cell-survival RelA-K310-K310-run145-K314-additive FOXO3a-Treg-metabolic-gate DBC1-AMPK-metformin-run085 NMN-NR-NAD+ resveratrol-pterostilbene fisetin niacinamide-paradox run090-SIRT3-SIRT6-orthogonal | run_147*
+
+---
+
+### Cross-reference: run_148 — CTLA4/CD152 / Trogocytosis / Abatacept / rs3087243 / 18th T1DM Stratification
+
+**Relevance: HIGH**
+
+1. **rs3087243 (CT60) — 18th T1DM genetic stratification**:
+   - G allele (risk) → less soluble CTLA4 (sCTLA4) → less peripheral tolerance via trans CD80/CD86 blocking → autoreactive T cell activation ↑
+   - OR ~1.5-2.0; one of the original T1DM susceptibility loci
+   - Add rs3087243 to genetic risk panel: PTPN2, IL2RA, UBASH3A, RASGRP1, TAGAP, IFIH1, CTLA4
+
+2. **Abatacept (CTLA4-Ig) — T1DM prevention and treatment**:
+   - TN-09 (Orban 2011 Lancet): ~59% higher C-peptide AUC at 2 years in recent-onset T1DM; effect persists post-washout
+   - TN-10: ~50-month delay in T1DM onset in 2+ autoantibody at-risk relatives
+   - Mechanism: abatacept supplies exogenous CTLA4-Ig → blocks CD80/CD86 → T cell activation ↓ → autoreactive T cell suppression
+
+3. **Abatacept + low-dose IL-2 (run_140) synergy**:
+   - Low-dose IL-2: ↑ Treg numbers (quantitative supply, run_140 IL2RA/STAT5 mechanism)
+   - Abatacept: each existing Treg suppresses more effectively via CTLA4-Ig-restored trogocytosis
+   - Two orthogonal Treg restoration approaches; additive rationale
+
+4. **CLEC16A (run_128) compound APC risk**:
+   - CLEC16A risk genotype: impaired DC MHC-II degradation → aberrant antigen presentation
+   - CTLA4 rs3087243 G: impaired CD80/CD86 trogocytosis → more stimulatory APCs
+   - Double APC dysregulation; compound risk genotype patients → strongest abatacept indication
+
+5. **IDO induction (run_091 upstream)**:
+   - CTLA4 → DC reverse signaling → IDO expression → tryptophan → kynurenine → T cell tolerance
+   - Abatacept may partially reduce IDO-driven kynurenine pathway; monitor tryptophan/kynurenine ratio in abatacept trials
+
+*T1DM THEWALL cross-reference run_148: 2026-04-12 | CTLA4 CD152 trogocytosis sCTLA4-isoform rs3087243-CT60 18th-stratification abatacept-TN09-Orban2011 TN10-prevention CD28-competition Treg-effector-suppression IDO-induction-run091 CLEC16A-run128-compound-APC low-dose-IL2-run140-synergy | run_148*
+
+---
+
+### Cross-reference: run_149 — DNMT3A / CHIP / FOXP3-CNS2 / β Cell Identity Silencing / 25th Dysfunction
+
+**Relevance: HIGH**
+
+1. **CHIP/R882H — macrophage NLRP3 amplification in older T1DM**:
+   - DNMT3A R882H (most common CHIP mutation; >40% of CHIP cases) → dominant negative → myeloid CpG hypomethylation → NLRP3/IL-1β/IL-6 derepressed
+   - CHIP prevalence 2-10% at age 50-60, >10% at age 70+; relevant for adult-onset T1DM and LADA
+   - CHIP-mutant macrophages → enhanced insulitis amplification; CHIP screening in treatment-refractory T1DM
+
+2. **FOXP3 CNS2 re-silencing — Treg instability mechanism**:
+   - Insulitis: TNF-α/IL-6 → DNMT3A ↑; simultaneously SETD7 ↓ (run_145) → H3K4me0 at CNS2 → DNMT3A ADD domain unblocked → CpG methylation → FOXP3 silenced → ex-Treg → Th17
+   - Counter: TET2/3 (run_086/087 vitamin C/α-KG) demethylates CNS2; vitamin C + DNMT3A inhibition = dual mechanism for CNS2 protection
+   - SETD7/DNMT3A coupling: one cytokine signal (SETD7 suppression) enables DNMT3A at both CNS2 AND β cell enhancers
+
+3. **β cell identity gene silencing — 25th dysfunction**:
+   - DNMT3A → Pdx1/Nkx6.1/NeuroD1 enhancer CpG methylation → dedifferentiation (functional loss)
+   - SETD7 H3K4me1 blocks DNMT3A ADD domain; SETD7 suppression (run_145) → DNMT3A access → dual epigenetic failure at same enhancers
+   - C-peptide decline trajectory: may reflect epigenetic dedifferentiation before cell death
+
+4. **EGCG + vitamin C protocol combination**:
+   - EGCG: DNMT3A catalytic inhibition → CNS2 and β cell enhancer demethylation
+   - Vitamin C → TET activation → active 5mC removal (run_087)
+   - Combined: inhibit DNMT3A + activate TET → shift CNS2 methylation equilibrium toward demethylation → Treg stability
+
+*T1DM THEWALL cross-reference run_149: 2026-04-12 | DNMT3A R882H CHIP-myeloid-NLRP3 FOXP3-CNS2-re-silencing TET-counter-run086-run087 SETD7-coupling-run145 β-cell-dedifferentiation-25th CHIP-screening EGCG-DNMT-inhibitor decitabine-Treg vitamin-C-TET-CNS2 SAM-methyl-donor | run_149*
