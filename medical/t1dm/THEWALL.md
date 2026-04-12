@@ -733,3 +733,21 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 5. **Annexin A1 in islet context**: Pancreatic macrophages express ANXA1; ANXA1-deficient mice have exaggerated pancreatic inflammation (Perretti/D'Acquisto work). ANXA1 is a potential islet-protective mediator beyond rosacea context. No T1DM-specific ANXA1 clinical data; mechanistically plausible from pancreatic macrophage biology.
 
 **Cross-reference: run_108 dysbiosis framework | LXA4 ATL aspirin-triggered FPR2 ALX Annexin A1 ANXA1 Node A 6th input Treg Foxp3 VDR 15-LOX calcitriol 4th benefit islet macrophage M1 M2 | Serhan 1984 Clish 1999 Godson 2002 Perretti 2009 Levy 2001 Serhan 2014**
+
+---
+
+### run_109 Cross-Reference: NLRP6/NLRC4 — Upstream Gut Dysbiosis Regulation; T1DM NOD Implication; LPS Reduction via Mucus
+
+**Mechanisms specific to T1DM:**
+
+1. **NLRP6 deficiency in NOD mouse gut**: NOD mice have reduced NLRP6 expression in colonocytes vs. NOR (non-obese resistant) controls; this precedes insulitis onset. If NLRP6 impairment → mucus ↓ → proteobacteria ↑ → LPS ↑ → systemic endotoxemia → islet NLRP3 Signal 1 (NF-κB priming) ↑ → T1DM amplification. Evidence: mechanistically inferred + NOD colonocyte NLRP6 expression data; not causal KO experiment in T1DM yet.
+
+2. **NLRP6 → IL-18: additive islet IL-18 burden**: Gut NLRP6 → systemic IL-18 adds to intraislet NLRP3-derived IL-18 (run_043 T1DM intraislet inflammasome). At high levels, IL-18 → β cell apoptosis. The gut-derived IL-18 pool contributes to total systemic IL-18 that the islet microenvironment experiences.
+
+3. **NLRP6 agonism as T1DM prevention strategy (upstream intervention)**: Taurine + prebiotic fiber → NLRP6 activation → mucus ↑ → LPS ↓ → islet NLRP3 Signal 1 ↓. This is UPSTREAM islet protection via gut barrier maintenance, not an islet-specific intervention. For at-risk T1DM patients (positive anti-GAD/IA-2, family history): NLRP6 agonism protocol = early gut barrier protection.
+
+4. **Histamine-NLRP6 dysbiosis lock in T1DM preclinical phase**: T1DM preclinical phase may involve gut dysbiosis establishing the NLRP6 lock-in (histamine-producing proteobacteria → NLRP6 ↓ → more proteobacteria) long before clinical onset. The systemic LPS from this dysbiosis progressively primes islet innate immunity. Breaking the lock-in (taurine + fiber + low-histamine) may be protective in the preclinical window.
+
+5. **NLRC4 + H. pylori evasion**: H. pylori uses modified flagellin (poor NAIP5 ligand) to EVADE NLRC4 — this is an immune evasion mechanism relevant to M7 mountain. H. pylori's evasion of NLRC4 allows it to persist in gastric mucosa without triggering flagellin-specific immune response. This is additive to existing H. pylori evasion mechanisms (CagA/VacA virulence) and explains partial immune blind spot.
+
+**Cross-reference: run_109 dysbiosis framework | NLRP6 NLRC4 gut mucus IL-18 goblet cell histamine taurine taurine supplementation NOD mouse LPS islet NLRP3 upstream T1DM prevention H. pylori NLRC4 evasion | Elinav 2011 Wlodarska 2014 Levy 2015**

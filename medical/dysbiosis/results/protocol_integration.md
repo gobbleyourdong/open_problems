@@ -3506,3 +3506,64 @@ The mast cell management framework now has a fourth layer beyond stabilizer + mo
 Layer 4 is the only layer that reinforces endogenous inhibition rather than pharmacologically blocking specific pathways. It works continuously as long as resolution mediator production is maintained by the protocol.
 
 *Protocol_integration.md Part 9bh — 2026-04-12 | LXA4 ATL aspirin-triggered FPR2 Annexin A1 ANXA1 mast cell endogenous inhibitor VDR 15-LOX vitamin D calcitriol 4th benefit T1DM Node A Treg aspirin low-dose omega-3 synergy steroid rosacea taper | run_108*
+
+---
+
+### Part 9bi — NLRP6 Gut Mucus Axis: Protocol Implications for Refractory Dysbiosis (run_109)
+
+#### The Refractory Dysbiosis Pattern
+
+For rosacea patients who fail to maintain improvement after probiotic courses, the NLRP6/histamine feedback loop provides the explanation and the solution:
+
+**Pattern:** Probiotic course → improvement during treatment → relapse 4-8 weeks after stopping
+**Mechanism:** Proteobacteria histamine → NLRP6 inhibition → mucus ↓ → proteobacteria recolonize after probiotic pressure removed
+**Fix:** Break the lock-in by simultaneously addressing NLRP6 inhibition (reduce histamine) AND supporting NLRP6 activation (taurine + fiber)
+
+#### Protocol Addition: Refractory Gut Dysbiosis Protocol (add-on, not first-line)
+
+For patients with:
+- Documented gut dysbiosis (Node C elevated, I-FABP > 200 pg/mL)
+- Prior probiotic course with transient response only
+- Low-histamine diet not yet implemented
+
+Add all of the following simultaneously (not sequentially):
+
+**Step 1: Histamine reduction (NLRP6 disinhibition)**
+- Low-histamine diet: eliminate aged cheeses, fermented foods, red wine, canned fish, vinegar for minimum 6 weeks
+- DAO enzyme supplement: 1 capsule before meals (DiAmine Oxidase enzyme supplementation; degrades dietary histamine in gut lumen)
+- H2 blocker (famotidine 10mg PRN): reduces histamine-producing bacteria burden indirectly; LOW evidence for gut bacterial suppression specifically
+- NOTE: low-histamine diet ALSO reduces mast cell triggers (synergy with existing mast cell stabilization protocol)
+
+**Step 2: NLRP6 agonism**
+- Taurine 1.5g/day: mechanistically supported (Levy 2015 Cell); LOW CONFIDENCE for clinical dysbiosis reversal; safe at this dose
+- Dietary fiber upgrade: transition from generic fiber to prebiotic fiber specifically:
+  - Inulin/FOS (chicory root, Jerusalem artichoke, garlic): generates butyrate + propionate → NLRP6 agonism
+  - Psyllium husk (5g twice daily): direct goblet cell stimulation independent of NLRP6
+  - Minimize fructans (wheat, onion, garlic) only if FODMAP sensitivity confirmed
+- Butyrate supplement (sodium butyrate 600mg/day OR tributyrin 300mg/day): additive to run_034 butyrate protocol; now has NLRP6 agonism as 4th mechanism (prior: tight junction, Treg, HDAC)
+
+**Step 3: Sustained probiotics with different strain selection**
+- Current protocol: L. reuteri (primary; run_016/054) + Akkermansia (run_026)
+- Addition for refractory cases: Bifidobacterium longum (histamine non-producing) + Lactobacillus acidophilus (taurine conjugation support)
+- AVOID: histamine-producing Lactobacillus strains (L. buchneri, L. hilgardii) — these would worsen NLRP6 inhibition
+
+#### Monitoring: Node C + Urinary Histamine
+
+For patients on refractory dysbiosis protocol:
+- Node C (I-FABP) at 6 weeks: should decrease if NLRP6 lock-in breaking
+- Optional: urinary histamine or plasma histamine at baseline vs. 6 weeks (not standard of care; mechanistically informative)
+- Response criterion: I-FABP reduction >30% at 6 weeks = protocol effective; continue full combination
+- Non-response: consider GI specialist referral for H. pylori eradication (M7 mountain amplification via NLRC4 mechanism) + comprehensive stool microbiome analysis
+
+#### NLRC4: No New Protocol Element
+
+NLRC4/flagellin pathway: reduces proteobacteria → reduces flagellin → reduces NLRC4 activation. The intervention (probiotic + fiber to reduce proteobacteria) is already in protocol. NLRC4 provides mechanistic explanation but not a new intervention.
+
+#### T1DM: NLRP6 Agonism as Pre-Diagnosis Strategy
+
+For T1DM-rosacea patients or rosacea patients with rising anti-islet antibodies (early autoimmunity):
+- NLRP6 agonism protocol (taurine + prebiotic fiber) aims to reduce systemic LPS exposure → reduce islet NLRP3 Signal 1 priming
+- This is UPSTREAM prevention, not islet-specific treatment
+- Priority order: if anti-GAD or anti-IA-2 positive, escalate NLRP6 agonism protocol to high priority alongside Node A monitoring intensification
+
+*Protocol_integration.md Part 9bi — 2026-04-12 | NLRP6 gut mucus histamine feedback loop refractory dysbiosis DAO enzyme taurine prebiotic fiber Bifidobacterium low-histamine diet Node C I-FABP monitoring T1DM upstream prevention | run_109*

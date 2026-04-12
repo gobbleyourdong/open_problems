@@ -4802,3 +4802,70 @@ The framework now has a complete resolution axis:
 The dysbiosis → M1 macrophage polarization is not just driving inflammation — it is actively dismantling the resolution axis by redirecting AA away from 15-LOX toward 5-LOX, starving the tissue of its own endogenous brake. Correcting M1/M2 balance (via butyrate, omega-3, calcitriol, EGCG — all existing protocol elements) now has a new mechanistic justification: rebuilding LXA4 production capacity.
 
 *Updated: 2026-04-12 | Phase 4 eighty-second extension | LXA4 ATL aspirin-triggered LXA4 15-epi-LXA4 FPR2 ALX Annexin A1 ANXA1 mast cell inhibitor 15-LOX 5-LOX M1 M2 switch corticosteroid-mimetic steroid rosacea VDR calcitriol 4th benefit Node A 6th input T1DM Treg aspirin omega-3 synergy Serhan 1984 Clish 1999 Godson 2002 Perretti 2009 Bystrom 2008 Ariel 2005 Serhan 2014 Levy 2001 | run_108*
+
+---
+
+## Phase 4 Extension 83: NLRP6 — The Self-Sustaining Dysbiosis Loop That Explains Persistence
+
+### The Upstream Gap
+
+The framework has 108 runs of mechanistic depth on what dysbiosis CAUSES — every inflammatory pathway downstream of LPS, proteobacteria, barrier failure, and mast cell activation. But it had never asked: **why does gut dysbiosis persist?** After a triggering event (antibiotics, infection, dietary change), why doesn't the gut microbiome simply rebalance? 
+
+NLRP6 provides the answer: there is a feedback loop WITHIN the gut that can lock in a dysbiotic state.
+
+### The Lock-In Mechanism
+
+Healthy gut:
+```
+NLRP6 active → IL-18 → mucus thick → proteobacteria excluded → taurine (bile) produced → NLRP6 activated → [self-sustaining loop]
+```
+
+Dysbiotic transition (triggered by any perturbation):
+```
+Perturbation → proteobacteria ↑ → histamine (histidine decarboxylase) ↑ → NLRP6 inhibited
+↓ NLRP6 → IL-18 ↓ → mucus thin → proteobacteria grow further → histamine ↑↑ → NLRP6 ↓↓ → [locked-in dysbiosis]
+```
+
+The histamine-NLRP6 negative feedback is the molecular mechanism for how a transient perturbation becomes permanent dysbiosis. This is the missing piece in explaining why dysbiosis-driven conditions (rosacea, T1DM, ME/CFS) are so difficult to reverse with short courses of probiotics or antibiotics — the NLRP6 lock-in mechanism regenerates the dysbiotic state.
+
+### Clinical Implication: Why Short Probiotic Courses Fail
+
+This mechanism directly explains a clinical observation in rosacea: probiotic courses during a flare can help transiently, but the dysbiosis returns after stopping. The framework previously had no explanation for this return. Now it does: the histamine-NLRP6 feedback loop re-establishes proteobacteria dominance once probiotic pressure is removed.
+
+To break the lock-in, TWO interventions are needed simultaneously:
+1. **Reduce lumenal histamine** (low-histamine diet, DAO enzyme, antihistamine H2R for partial reduction) — removes the NLRP6 brake
+2. **Provide NLRP6 agonist support** (taurine, dietary fiber → SCFAs) — restores NLRP6 function while histamine is reduced
+
+Single-vector intervention (probiotics alone, or fiber alone, or antihistamine alone) is insufficient to break the lock-in. This is a new rationale for COMBINED gut intervention that was not previously mechanistically grounded.
+
+### NLRP6 and the Framework's 4 Gut Barrier Mechanisms
+
+The framework previously had 4 gut barrier maintenance mechanisms:
+1. Butyrate → HDAC → ZO-1/occludin/claudin (tight junctions; run_034)
+2. IPA/tryptophan → PXR → claudin-1/occludin (run_094)
+3. LPS/TLR4 negative regulation by probiotics (run_001/run_026 context)
+4. Akkermansia Amuc_1100 → TLR2 → barrier signaling (run_026)
+
+Run_109 adds a 5th: NLRP6 → IL-18 → mucus layer (UPSTREAM of tight junction — the mucus layer is the FIRST defense before tight junctions are even relevant). The mucus layer and tight junctions are sequential barriers; NLRP6 operates at the outer layer.
+
+### Taurine: New Protocol Candidate
+
+Taurine is a surprising new candidate for inclusion in the protocol:
+- Mechanism: NLRP6 agonism → IL-18 → goblet cell mucus (Levy 2015 Cell)
+- Typical dietary intake: 60-400mg/day (omnivores) vs. nearly zero (vegans)
+- Therapeutic range: 1-3g/day (safe; widely used as supplement)
+- Additional benefits (relevant to protocol): taurine is a calcium channel modulator (neurogenic flushing context?), bile acid conjugation (liver health), and antioxidant via conjugation with chloramine
+- Rosacea-specific RCT: absent; the mechanistic support from NLRP6 pathway is the justification
+- Protocol position: LOW CONFIDENCE addition; flag for future clinical evaluation when dysbiosis refractory to existing protocol
+
+### NLRP6 and ME/CFS: The Persistence Explanation
+
+ME/CFS's defining feature — persistence beyond the initial infectious trigger — has been partially explained by the framework's HERV-W/IFN-α loop (M3), viral reservoir maintenance, and NK dysfunction. Run_109 adds a PARALLEL EXPLANATION at the gut level: NLRP6 lock-in. Once ME/CFS onset establishes gut dysbiosis, the histamine-NLRP6 feedback maintains it indefinitely, generating continuous low-grade LPS/PAMP exposure → perpetuating M1 → Node D → Node A suppression → immune dysfunction.
+
+Two persistence mechanisms operating in parallel:
+1. HERV-W/IFN-α epigenetic lock (M3 mountain, run_003 context)
+2. NLRP6/histamine dysbiosis lock (M1 mountain, run_109)
+
+These are not redundant — they operate at different levels (epigenetic vs. ecological). Both need to be addressed for full resolution.
+
+*Updated: 2026-04-12 | Phase 4 eighty-third extension | NLRP6 NLRC4 gut mucus inflammasome IL-18 goblet cell taurine histamine feedback loop lock-in dysbiosis persistence ME/CFS M1 upstream gut barrier 5th mechanism Elinav 2011 Wlodarska 2014 Levy 2015 | run_109*

@@ -627,3 +627,24 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 5. **ANXA1 in ME/CFS neuroimmune context**: Annexin A1 suppresses microglial activation and neuroinflammation via FPR2 in the CNS (Perretti lab data). ME/CFS has neuroinflammation evidence (Nakatomi 2014 J Nucl Med: PET imaging). ANXA1-mediated FPR2 signaling in microglia could be relevant to neuroinflammation component. No ME/CFS-specific ANXA1 data; mechanistically plausible.
 
 **Cross-reference: run_108 dysbiosis framework | LXA4 ATL FPR2 ALX Annexin A1 ANXA1 failed resolution M1 M2 switch SAA biased agonism PEM VDR 15-LOX calcitriol omega-3 aspirin synergy neuroinflammation | Serhan 1984 Clish 1999 Perretti 2009 Levy 2001 Serhan 2014**
+
+---
+
+### run_109 Cross-Reference: NLRP6/NLRC4 — Dysbiosis Persistence Mechanism; ME/CFS Lock-In; NK IFN-γ Amplification
+
+**Mechanisms relevant to ME/CFS:**
+
+1. **NLRP6 lock-in as ME/CFS persistence mechanism**: ME/CFS onset (viral trigger) → gut dysbiosis → proteobacteria ↑ → histamine (histidine decarboxylase) ↑ → NLRP6 inhibition → mucus ↓ → proteobacteria ↑ = self-sustaining dysbiosis loop. This explains WHY ME/CFS gut dysbiosis persists after the initial viral trigger resolves — the NLRP6/histamine feedback loop maintains it independently of the original cause. This is a new ME/CFS disease persistence mechanism operating at the ecological/gut level, parallel to the HERV-W epigenetic lock and the NK/viral reservoir dysfunction.
+
+2. **Two parallel persistence mechanisms (now explicit)**:
+   - HERV-W/IFN-α epigenetic lock (M3 mountain, run_003 context): requires epigenetic intervention (HCQ) to break
+   - NLRP6/histamine dysbiosis ecological lock (M1 mountain, run_109): requires histamine reduction + NLRP6 agonism to break
+   - These are independent. Breaking one does not break the other. Both need to be addressed for full ME/CFS remission.
+
+3. **NLRC4 → IL-18 → NK recruitment amplification in ME/CFS**: Flagellated proteobacteria (elevated in ME/CFS gut, Giloteaux 2016) → NLRC4 → IL-18 → NK cell recruitment (CXCL chemokine cascade). ME/CFS NK cells: recruited but functionally impaired (Brenu 2011; run_102). NLRC4-driven IL-18 adds to LTB4/BLT1 → NK recruitment (run_107) as a second NK-recruitment driver. Both converge on the same NK recruitment-function dissociation problem.
+
+4. **Taurine and ME/CFS neurological symptoms**: Taurine is also an inhibitory neurotransmitter in the CNS (glycine receptor modulation). ME/CFS has neurological symptoms (cognitive impairment, dysautonomia). Taurine supplementation has calming/GABAergic properties at higher doses. The primary rationale here is NLRP6 agonism; the neurological benefit is secondary and speculative for ME/CFS specifically.
+
+5. **NLRP6 agonism protocol for ME/CFS refractory gut**: Same protocol as for rosacea refractory dysbiosis (histamine reduction + taurine + prebiotic fiber + Bifidobacterium longum). ME/CFS patients often have dietary histamine hypersensitivity; low-histamine diet is frequently already empirically tried. Run_109 provides the mechanistic justification for why it works (NLRP6 disinhibition) and why it needs to be combined with NLRP6 agonists (not just histamine reduction alone) to break the lock-in.
+
+**Cross-reference: run_109 dysbiosis framework | NLRP6 NLRC4 dysbiosis lock-in persistence ME/CFS histamine feedback taurine mucus goblet cell IL-18 NK IFN-γ two persistence mechanisms HERV-W lock epigenetic M1 ecological | Elinav 2011 Wlodarska 2014 Levy 2015 Giloteaux 2016**

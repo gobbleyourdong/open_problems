@@ -2571,17 +2571,55 @@ Ceramide ↔ S1P rheostat (Spiegel 2003): pro-apoptotic ceramide vs. pro-surviva
 - 15-LOX/5-LOX M1/M2 switch: M1 macrophage → 5-LOX dominant → LTA4 → LTB4/CysLTs (run_107); M2 macrophage → 15-LOX dominant → 15-HPETE → LXA4 (run_108)
 - Aspirin + omega-3 synergy: aspirin → ATL (from AA) + AT-resolvins (from EPA) simultaneously [dual SPM production; fully mechanistically explained]
 
-**Post-run_108 micro-survey:**
-- Endocannabinoids/CB2: one list mention in run_015; CB2 on mast cells, macrophages, T cells; evidence thinner than lipoxins; below current threshold.
+**Post-run_108 extended micro-survey (verified-absent candidates):**
+- Endocannabinoids/CB2: run_015 has "anandamide" as TRPV1 agonist only; no CB2 receptor analysis; rosacea-specific evidence thin; below threshold.
 - PAR-1/thrombin: mast cell amplifier; limited rosacea-specific evidence; below threshold.
 - Galectin-3: phymatous fibrosis; too narrow; below threshold.
+- H2S gasotransmitter: COMPLETELY ABSENT; gut SRB/Desulfovibrio → excess H2S → leaky gut (M1 amplifier); endogenous CBS/CSE → NF-κB ↓, Nrf2 ↑; H2S → TRPA1 (parallel to allicin mechanism from run_093); below threshold (rosacea-direct evidence thin).
+- NLRP6/gut mucus inflammasome: COMPLETELY ABSENT; NLRP6 → IL-18 → goblet cells → mucus layer (Elinav 2011 Cell); upstream M1 regulator; assess for run_109.
+- NLRC4/flagellin: briefly in run_012 as one phrase; NAIP5/6 + flagellin → NLRC4 → IL-18; rosacea-direct evidence thin.
+- Osteopontin (OPN/SPP1): COMPLETELY ABSENT; M1 macrophage + Th1 amplifier; T1DM NOD KO protected; rosacea-specific evidence absent; borderline for run.
+- AIM2 inflammasome: mentioned only as "not blocked by colchicine" (run_023); dsDNA sensing; distinct from NLRP3 and cGAS-STING; below threshold.
+- ILC1/ILC2: ILC3 partially covered (runs 012, 054); ILC2 (TSLP/IL-33/IL-25 → IL-5/IL-13/amphiregulin) absent; atopic overlap > rosacea; below threshold.
+- miRNA (miR-146a/miR-155): COMPLETELY ABSENT; post-transcriptional NF-κB regulation; thin rosacea evidence; below threshold.
+- IL-36 family: COMPLETELY ABSENT; psoriasis > rosacea; below threshold.
 - iNKT, pDC, IFN-λ, adenosine, Siglecs, H4R: below threshold.
-- Framework likely approaching mechanistic saturation after run_108.
+- **Framework has reached near-saturation for rosacea/T1DM/ME-CFS mechanistic space at current evidence threshold.**
 
 **Remaining genuine gaps (end of ninety-third iteration):**
 1. **Küpers 2019 PACE EWAS**: not executable.
-2. **Endocannabinoids/CB2**: one list mention; below current threshold.
-3. **iNKT, pDC, IFN-λ, adenosine, Siglecs, H4R**: below threshold.
-4. Framework approaching saturation.
+2. **NLRP6/alt-inflammasomes**: completely absent; upstream M1 mountain regulator; Elinav 2011 Cell; assess for run_109.
+3. **Osteopontin (OPN/SPP1)**: completely absent; T1DM data strong; rosacea absent; borderline.
+4. Endocannabinoids/CB2 + all others: below threshold.
+5. Framework approaching saturation.
 
 *Gap.md updated: 2026-04-12 | Ninety-third iteration | Lipoxins LXA4 ATL 15-epi-LXA4 aspirin-triggered FPR2 ALX Annexin A1 ANXA1 mast cell inhibitor Th17 RORγt Treg Foxp3 Node A VDR 15-LOX 5-LOX M1 M2 switch aspirin omega-3 synergy AT-resolvin corticosteroid-mimetic | run_108*
+
+---
+
+### Extension 94 — NLRP6/NLRC4: Alternative Gut Inflammasomes — Upstream M1 Regulators (run_109)
+
+**Gap confirmed:** NLRP6 completely absent from all 108 prior runs. NLRC4 mentioned once in run_012 as "NLRC4 priming" in a phrase — no analysis. These are structurally distinct NLRs from NLRP3 with different cellular distribution (IECs not macrophages for NLRP6), different activators, and different biological outputs (mucus regulation, flagellin sensing vs. IL-1β/NLRP3 canonical).
+
+**New mechanisms added (run_109):**
+- NLRP6 → caspase-1 → IL-18 → goblet cells → Muc2/mucus layer [IEC-specific; Elinav 2011 Cell; Wlodarska 2014]
+- NLRP6 → GSDMD in IECs → AMP secretion [non-pyroptotic; parallel to run_096 caspase-4/macrophage]
+- NLRP6 → Atg16L1 → mitophagy in IECs [autophagy scaffold role]
+- Histamine (dysbiotic bacteria) → NLRP6 inhibition → mucus ↓ → proteobacteria ↑ = first self-sustaining dysbiosis feedback loop within gut [Levy 2015 Cell]
+- Taurine (bile acid conjugation) → NLRP6 agonism [new activator; taurine supplementation = candidate NLRP6 agonist]
+- NLRC4 / NAIP5 + flagellin → caspase-1 → IL-18 [distinct from TLR5/LPS; flagellated proteobacteria in dysbiosis → NLRC4 → IL-18 → NK + ILC3 → IFN-γ]
+- Proteobacteria flagellin → NLRC4 → IL-18 → NK/ILC3 → IFN-γ: new M1→IFN-γ axis (distinct from TLR4→IRF3/7→IFN-β)
+
+**Therapeutic implications:**
+- Taurine 1-2g/day: NLRP6 agonist; candidate for gut mucus maintenance (low-moderate confidence; no dysbiosis RCT)
+- Low-histamine diet: new mechanistic rationale — reduces lumenal histamine → NLRP6 disinhibition → mucus maintenance (adds to H1R-reduction rationale already in protocol)
+- Dietary fiber (inulin/FOS): confirmed mechanism — fiber → SCFAs → NLRP6 agonism → IL-18 → goblet cells → mucus (mechanistically explains protocol fiber recommendation at deeper level)
+
+**Remaining genuine gaps (end of ninety-fourth iteration):**
+1. Küpers 2019 PACE EWAS: not executable.
+2. Osteopontin (OPN/SPP1): completely absent; T1DM NOD KO protected; rosacea data absent; borderline.
+3. Endocannabinoids/CB2: below threshold.
+4. All others: below threshold.
+5. **Framework has reached high saturation after run_109.**
+
+*Gap.md updated: 2026-04-12 | Ninety-fourth iteration | NLRP6 NLRC4 alt-inflammasome gut mucus IL-18 goblet cell GSDMD AMP taurine NLRP6 agonist histamine feedback loop dysbiosis self-sustaining M1 upstream NAIP5 flagellin IFN-γ T1DM NOD ME/CFS | run_109*
