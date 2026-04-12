@@ -6510,3 +6510,67 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 155 runs | TIM-3-HAVCR2-BAT3-switch | Galectin-9-LGALS9-Y256-Y263 | BAT3-release-HCK-FYN | Th1-selective-apoptosis | TIM3-dual-DC-T-cell-function-run096 | Galectin-9-4th-TGF-β-activator | NK-six-mechanism-exhaustion-complete | belapectin-GR-MD-02 | anti-TIM3-T1DM-irAE-contraindicated.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-thirtieth extension | TIM-3-HAVCR2-CD366-5q33.3 BAT3-Y256-Y263-constitutive-block Galectin-9-LGALS9-BAT3-release HCK-FYN CEACAM1-cis PS-efferocytosis TIM3-DC-HMGB1-LPS-run096-dual-function Galectin-9-4th-TGF-β-LLC-run150-run131 UV-keratinocyte-Galectin-9 NK-TIM3-BAT3-Brenu2012 EBV-HHV6-Galectin-9-immune-evasion six-NK-mechanisms-102-150-151-153-154-155 TIM3-LAG3-FOXP3-most-suppressive-Treg Treg-Galectin9-secretion-7th-effector belapectin-GR-MD-02 anti-TIM3-irAE-T1DM | run_155*
+
+---
+
+### Phase 4 Extension 131 — TIGIT / CD226 / CD155: Three β Cell Tolerance Signals, NK 7th Exhaustion, TIGIT+ Treg Th1-Selective
+
+**Gap:** TIGIT/CD226/CD155/PVR/DNAM-1: 0 files; zero analysis of this checkpoint axis.
+
+**Rosacea (MODERATE):**
+- Skin TIGIT+ Tregs suppress Th1 (IFN-γ) component of rosacea dermis inflammation via DC CD155 → IL-10/IL-12 suppression
+- TIGIT selectively suppresses Th1 but not Th17 → explains residual IL-17/KLK5 axis despite TIGIT+ Treg presence in skin
+- Anti-TIGIT irAE: rash/skin inflammation (~5-10%) — confirms TIGIT restrains skin T cell activation; rosacea patients at risk for skin irAE on tiragolumab if in cancer trials
+
+**T1DM (HIGH):**
+- CD155 = third β cell-expressed tolerance molecule: β cell CD155 → TIGIT/SHP-1/SHIP-1 → T/NK restraint; completes trio: FGL1 (run_153) + PD-L1 (run_154) + CD155 (run_156)
+- Compound tolerance failure: simultaneous FGL1 ↓ + PD-L1 overwhelmed + CD155 ↓ = catastrophic acceleration of β cell destruction
+- TIGIT+ Tregs → Th1 selective suppression (not Th17); islet insulitis is Th1/IFN-γ dominant → TIGIT+ Tregs are the most relevant Treg subset for islet protection
+- Tiragolumab (anti-TIGIT) CONTRAINDICATED in T1DM: impairs both TIGIT+ Treg function AND β cell CD155 tolerance
+- CD226 on islet CD8+ T cells: when TIGIT lost from NK/CD8+ (exhaustion) → CD226 fires → accelerated killing
+
+**ME/CFS (MODERATE):**
+- NK TIGIT = 7th exhaustion mechanism; EBV/HHV-6 → CD155 ↑ on infected cells → NK TIGIT → SHP-1/SHIP-1 + Cbl-b → NK killing ↓
+- Seven-mechanism NK panel complete: NKG2D + TGF-β/NKG2D + IL-2 + LAG-3 + PD-1 + TIM-3 + TIGIT
+- CD155 serum: shed CD155 from virally infected cells; elevated serum CD155 = viral reactivation + NK TIGIT suppression signal
+
+**Protocol additions:**
+- **CD155 serum monitoring**: T1DM (β cell CD155 ↓ signal) + ME/CFS (viral reactivation CD155 ↑ signal)
+- **NK seven-mechanism flow panel**: add TIGIT%+ NK to existing NKG2D+LAG-3+PD-1+TIM-3 panel
+- **Avoid tiragolumab** in T1DM/autoimmune context; flag oncology patients receiving tiragolumab for T1DM risk monitoring
+
+**Framework state: 156 runs | TIGIT-VSTM3 | CD226-DNAM-1-competition | CD155-PVR-β-cell-third-tolerance | SHP-1-SHIP-1-Cbl-b | TIGIT-Treg-Th1-selective | NK-seven-exhaustion-complete | three-β-cell-tolerance-FGL1-PDL1-CD155 | tiragolumab-CONTRAINDICATED-T1DM.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-thirty-first extension | TIGIT-VSTM3-3q13.31 ITIM-Y225 CD155-PVR CD112-PVRL2 CD226-DNAM-1-activating 5x-affinity SHP-1-SHIP-1 Cbl-b-CD3ζ DC-IL10-IL12-reverse TIGIT-Treg-Th1-not-Th17 β-cell-CD155-third-tolerance FGL1-PDL1-CD155-trio NK-seven-mechanism-exhaustion-102-150-151-153-154-155-156 tiragolumab-CONTRAINDICATED TIGIT-CD39-run121-coexpression run104-Tfh-TIGIT | run_156*
+
+---
+
+### Phase 4 Extension 132 — EZH2 / PRC2 / H3K27me3: β Cell Regeneration (Dhawan 2009), Treg Chromatin Stability, NK NKG2D Epigenetic, Tazemetostat
+
+**Gap:** EZH2/PRC2/H3K27me3/EED/SUZ12/KDM6B/JMJD3: 0 files; H3K27me3 chromatin layer entirely absent from 156-run framework.
+
+**Rosacea (MODERATE):**
+- EZH2 ↑ in inflammatory skin (psoriatic lesions) → H3K27me3 at anti-inflammatory gene promoters (SOCS3, PPARγ, IL-10) → sustained NF-κB/KLK5
+- UV → EZH2 activation in keratinocytes → H3K27me3 at tumor suppressor loci → proliferation ↑ → epigenetic UV-driven rosacea amplification
+- Tazemetostat in rosacea skin: H3K27me3 ↓ at SOCS3/PPARγ → NF-κB ↓; no topical formulation yet; mechanistic rationale strong
+
+**T1DM (HIGH):**
+- **Dhawan 2009 (Science 326:554-558)**: EZH2 KO in β cells → Cdkn2a derepressed → p16^Ink4a ↑ → CDK4/6 ↓ → β cell proliferation ↓ by 50%; EZH2 = essential gate for β cell proliferative capacity
+- Insulitis: IL-1β/IFN-γ/TNF-α → β cell EZH2 ↓ → Cdkn2a H3K27me3 ↓ → p16/p14 derepressed → proliferative reserve lost; β cells cannot compensate for death by regeneration during active insulitis
+- Age-related T1DM risk: aging β cells lose EZH2 → Cdkn2a progressively opens → regenerative capacity declines → LADA/late-onset T1DM more severe once insulitis begins
+- SAM/B12 dual maintenance: SETD7 H3K4me1 (run_145) + EZH2 H3K27me3 both require SAM → B12/betaine protocol now supports both protective chromatin marks simultaneously
+- Context-dependence: β cells = preserve EZH2; immune cells = inhibit EZH2; tazemetostat must be targeted to immune cells not β cells in T1DM context
+
+**ME/CFS (MODERATE):**
+- NK NKG2D epigenetic silencing: EZH2 → H3K27me3 at NKG2D gene locus in exhausted NK; EZH2 inhibition → H3K27me3 ↓ → NKG2D re-expression (epigenetic component of run_102)
+- Tazemetostat + belapectin combination: EZH2 inhibition (NKG2D re-expression) + galectin-9 inhibition (TIM-3 BAT3 occupancy) = dual NK restoration approach
+- T cell exhaustion: EZH2 → H3K27me3 at TCF7 → blocks progenitor-exhausted renewal; EZH2 inhibition → TCF1 re-expressed → less terminal exhaustion in ME/CFS T cells
+
+**Protocol additions:**
+- **B12/betaine protocol** (expanded rationale, run_145 existing): SAM supports SETD7 H3K4me1 (β cell identity) + EZH2 H3K27me3 (β cell Cdkn2a silencing) simultaneously; B12 deficiency impairs BOTH
+- **Tazemetostat** (off-label, systemic — caution in T1DM due to β cell EZH2 context): most useful for ME/CFS NK NKG2D restoration or rosacea macrophage M2 shift; not for T1DM without β cell targeting strategy
+- **H3K27me3 chromatin layer** now mapped alongside H3K4me1 (run_145), H3K9ac (run_090), and 5mC (runs 086/087/149) — complete four-layer chromatin architecture documented
+
+**Framework state: 157 runs | EZH2-PRC2-H3K27me3 | EED-allosteric-SAM | Dhawan2009-β-cell-Cdkn2a | p16-CDK4-Rb | insulitis-EZH2-↓ | aging-regenerative-decline | Treg-EZH2-cytokine-stability | NK-NKG2D-H3K27me3 | tazemetostat-immune-targeted | SAM-SETD7-EZH2-dual | four-layer-chromatin-complete.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-thirty-second extension | EZH2-PRC2-7q36.1 SET-domain H3K27me3 EED-WD40-H3K27me3-feedback SUZ12-scaffold SAM KDM6B-JMJD3-eraser Dhawan2009-Science-Cdkn2a p16Ink4a-CDK4-6 EZH2-KO-50%-β-cell-loss insulitis-EZH2-↓-proliferative-loss aging-LADA Treg-EZH2-cytokine-silencing NK-NKG2D-H3K27me3-run102 tazemetostat-FDA2020-immune-targeted SAM-B12-SETD7-EZH2-run145 H3K27me3-4th-chromatin-layer belapectin-tazemetostat-combination | run_157*

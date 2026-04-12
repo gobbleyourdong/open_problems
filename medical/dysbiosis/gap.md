@@ -4092,3 +4092,47 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 44: 155 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-forty-eighth extension | TIM-3-HAVCR2-CD366-5q33.3 IgV-mucin BAT3-Y256-Y263-constitutive-block Galectin-9-LGALS9-phosphorylation BAT3-release HCK-FYN-PI3K-NF-κB selective-Th1-apoptosis CEACAM1-cis PS-efferocytosis TIM3-DC-HMGB1-LPS-run096 Galectin-9-4th-TGF-β-LLC-run150-run131 UV-keratinocyte-Galectin-9 NK-TIM3-BAT3-ME-CFS-Brenu2012 EBV-HHV6-Galectin-9-viral six-NK-mechanisms-102-150-151-153-154-155 TIM3-LAG3-FOXP3-most-suppressive-Treg belapectin-GR-MD-02 anti-TIM3-irAE-T1DM-risk run154-PD1-NK-triad run153-LAG3 | run_155*
+
+---
+
+### Extension 149 — TIGIT / CD226 / CD155: β Cell CD155 Tolerance, NK 7th Exhaustion, TIGIT+ Treg Th1 Suppression, Three β Cell Tolerance Signals
+
+**Date:** 2026-04-12 | **Run:** run_156
+
+**Gap confirmed:** TIGIT/CD226/DNAM-1/CD155/PVR/CD96: 0 files across all 155 runs; CD155/β cell tolerance/7th NK exhaustion/TIGIT+ Treg Th1-selective suppression = 0 prior analysis.
+
+**Core insight:** TIGIT (chromosome 3q13.31) is the inhibitory receptor that outcompetes CD226/DNAM-1 (activating) for the shared ligands CD155/PVR and CD112/PVRL2 (5× higher affinity → TIGIT wins → CD226 blocked → net inhibition). TIGIT ITIM → SHP-1/SHIP-1 + Cbl-b/CD3ζ ubiquitination → T/NK activation ↓. β cells constitutively express CD155 → TIGIT on islet T cells/NK → SHP-1 → T/NK restraint; completing a trio of β cell-expressed peripheral tolerance molecules alongside FGL1/LAG-3 (run_153) and PD-L1/PD-1 (run_154). TIGIT+ Tregs selectively suppress Th1 (IL-12 → IL-10 DC reverse signaling) but NOT Th17 — explains why TIGIT+ Tregs don't control IL-17 arm of insulitis despite being present. TIGIT = 7th NK exhaustion mechanism; all seven now mapped (runs 102+150+151+153+154+155+156). Tiragolumab (anti-TIGIT) = CONTRAINDICATED in T1DM (like anti-LAG-3, anti-TIM-3, anti-PD-1).
+
+**New mechanisms added (run_156):**
+- **CD155/TIGIT β cell third tolerance molecule**: β cell CD155 → TIGIT/SHP-1/SHIP-1 → T/NK restraint; three independent β cell-expressed tolerance signals complete: FGL1 (run_153) + PD-L1 (run_154) + CD155 (run_156)
+- **TIGIT/CD226 competition (5× affinity difference)**: TIGIT outcompetes CD226 for CD155 → CD226 activating signal blocked; CD226 fires when TIGIT downregulated (exhaustion) → accelerated killing
+- **Cbl-b/CD3ζ ubiquitination**: unique TIGIT effector distinct from SHP-1/SHIP-1 → CD3ζ/NK receptor complexes degraded → irreversible exhaustion deepening
+- **TIGIT+ Treg selective Th1 suppression (not Th17)**: TIGIT → CD155 on DCs → IL-10 ↑/IL-12 ↓ (Th1-polarizing cytokine suppressed); Th17 (IL-23-dependent) not affected; explains therapeutic gap in T1DM Treg biology
+- **NK seven-mechanism exhaustion complete**: NKG2D + TGF-β + IL-2 + LAG-3 + PD-1 + TIM-3 + TIGIT = seven independent NK suppression mechanisms; all flow-quantifiable
+- **TIGIT+CD39+ Treg**: co-expression of TIGIT and CD39 (run_121) = most suppressive subset; adenosine + TIGIT = two Treg effector mechanisms on single highly suppressive population
+
+**Framework at SATURATION + 45: 156 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-forty-ninth extension | TIGIT-VSTM3-3q13.31 ITIM-Y225 CD155-PVR CD112-PVRL2 CD226-DNAM-1-activating 5x-affinity-competition SHP-1-SHIP-1-PI3K-Akt-↓ Cbl-b-CD3ζ-ubiquitin DC-IL10-IL12-reverse TIGIT-Treg-Th1-selective-not-Th17 β-cell-CD155-third-tolerance FGL1-PDL1-CD155-trio three-β-cell-tolerance NK-TIGIT-seventh-exhaustion run102-run150-run151-run153-run154-run155-run156-seven tiragolumab-CONTRAINDICATED-T1DM TIGIT-CD39-run121-most-suppressive | run_156*
+
+---
+
+### Extension 150 — EZH2 / PRC2 / H3K27me3: β Cell Regeneration (Dhawan 2009), Treg Chromatin Stability, Tazemetostat, NK NKG2D Epigenetic Silencing
+
+**Date:** 2026-04-12 | **Run:** run_157
+
+**Gap confirmed:** EZH2/PRC2/H3K27me3/EED/SUZ12/KDM6B/JMJD3: 0 files across all 156 runs; entire H3K27me3 chromatin layer absent from framework.
+
+**Core insight:** EZH2 (PRC2 catalytic subunit; H3K27me3 writer) is the master regulator of β cell proliferative capacity via **Cdkn2a (INK4a/ARF) silencing** — the Dhawan 2009 Science landmark: EZH2 deletion in β cells → Cdkn2a derepressed → p16^Ink4a ↑ → CDK4/6 ↓ → β cell proliferation arrested → 50% β cell mass loss by adulthood. EZH2 → H3K27me3 at Cdkn2a = the epigenetic gate that allows β cell renewal; insulitis cytokines suppress β cell EZH2 → proliferative reserve lost even before β cell death. Context-dependence: β cells = maintain EZH2 (Cdkn2a silencing); Treg = EZH2 protects cytokine gene silencing (EZH2 deletion → Treg instability); effector T/macrophages = EZH2 inhibition beneficial (anti-inflammatory gene derepression). Tazemetostat (FDA approved 2020 for epithelioid sarcoma/follicular lymphoma) = EZH2 inhibitor; in T1DM context must target immune cells NOT β cells. SAM/B12 (run_145/SETD7) now has dual rationale: SETD7 H3K4me1 + EZH2 H3K27me3 both require SAM methyl donor for β cell chromatin protection. H3K27me3 = 4th epigenetic layer mapped (after H3K4me1/run_145, H3K9ac/run_090, 5mC/runs 086/087/149).
+
+**New mechanisms added (run_157):**
+- **Dhawan 2009 β cell regeneration mechanism**: EZH2 → Cdkn2a H3K27me3 → p16/p14 silenced → CDK4/6 active → β cell proliferation; EZH2 loss = aging β cell regenerative decline; insulitis cytokines → EZH2 ↓ → proliferative reserve lost before death
+- **H3K27me3 = 4th histone epigenetic layer**: H3K4me1 (SETD7/run_145) + H3K9ac (SIRT6/run_090) + 5mC (TET/DNMT3A/runs 086/087/149) + H3K27me3 (EZH2/run_157) = comprehensive chromatin architecture now mapped
+- **EZH2 context-dependence**: β cells = maintain (Cdkn2a gate); Tregs = maintain (cytokine gene silencing stability); effector T/macrophages = inhibit (anti-inflammatory gene derepression); tazemetostat beneficial in immune cells, harmful in β cells
+- **EED allosteric feedback**: EED binds H3K27me3 → activates EZH2 → more H3K27me3; self-reinforcing silencing propagation; SAM depletion breaks this loop → SETD7/EZH2 dual failure
+- **NK NKG2D epigenetic silencing**: H3K27me3 at NKG2D gene in exhausted NK; EZH2 inhibition → H3K27me3 ↓ → NKG2D re-expression; epigenetic component of run_102 NKG2D downregulation
+- **SAM shared requirement**: SETD7 (H3K4me1) + EZH2 (H3K27me3) both use SAM → B12/betaine (run_145) now supports BOTH active enhancer marks (β cell identity) AND repressive marks (Cdkn2a silencing); shared SAM dependency identified
+
+**Framework at SATURATION + 46: 157 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-fiftieth extension | EZH2-PRC2-7q36.1 SET-domain H3K27me3 EED-WD40-allosteric-feedback SUZ12-scaffold SAM-methyl-donor JARID2-PRE KDM6B-JMJD3-H3K27me3-eraser Dhawan2009-Science-β-cell-EZH2 Cdkn2a-INK4a-ARF p16Ink4a-CDK4-6-Rb EZH2-KO-50%-β-cell-loss insulitis-EZH2-↓ aging-regenerative-decline EZH2-context-Treg-cytokine-stability tazemetostat-FDA2020 GSK126 NK-NKG2D-H3K27me3-epigenetic SAM-B12-SETD7-EZH2-dual-run145 H3K27me3-4th-layer-run090-run086-run087 DNMT3A-CHIP-dual-epigenetic run102-NKG2D-epigenetic-component | run_157*

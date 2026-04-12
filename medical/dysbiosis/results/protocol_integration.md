@@ -5799,4 +5799,57 @@ All six NK exhaustion mechanisms now quantifiable; panel guides multi-mechanism 
 - Track alongside EBV VCA IgG + HHV-6 IgG for viral reactivation correlate
 - Declining Galectin-9 under treatment = NK exhaustion relief signal
 
+---
+
+### Part 9de — TIGIT / CD226 / CD155 Protocol Integration (run_156)
+
+**New monitoring and safety additions — TIGIT/CD155 axis:**
+
+**β Cell tolerance triple-signal monitoring:**
+- The three β cell-expressed peripheral tolerance molecules are now: FGL1 (LAG-3 ligand) + PD-L1 (PD-1 ligand) + CD155 (TIGIT ligand)
+- Serum monitoring: FGL1 ↓ (run_153) + CD155 serum (shed from stressed/lysed β cells, ↓ with β cell loss) = two measurable tolerance signal indicators
+- PD-L1: not easily serum-measurable; track indirectly via T cell PD-1 activation state
+
+**NK seven-mechanism exhaustion panel (updated):**
+- Add TIGIT%+ NK to existing NKG2D + LAG-3 + PD-1 + TIM-3 + CD56dim:CD56bright panel
+- Seven mechanisms now all quantifiable: all independent; each addressable by distinct intervention
+
+**CD155 as ME/CFS viral reactivation biomarker:**
+- Soluble CD155 shed from EBV/HHV-6 infected cells; elevated serum CD155 = active viral reactivation + NK TIGIT suppression
+- Track alongside EBV VCA IgG, HHV-6 IgG, Galectin-9 serum for comprehensive viral-NK axis monitoring
+
+**Safety: avoid tiragolumab (anti-TIGIT) in T1DM/autoimmune context:**
+- Anti-TIGIT removes TIGIT+ Treg Th1-suppressive function → unconstrained islet Th1 → accelerated β cell destruction
+- Anti-TIGIT also blocks β cell CD155/TIGIT axis → removes third tolerance signal
+- Flag T1DM patients receiving tiragolumab in oncology context; monitor glucose closely
+
+---
+
+### Part 9df — EZH2 / PRC2 / H3K27me3 Protocol Integration (run_157)
+
+**New monitoring and therapeutic context — H3K27me3 axis:**
+
+**B12/betaine/SAM protocol — expanded rationale (run_145 existing):**
+- Prior rationale: SAM → SETD7 → H3K4me1 at β cell identity enhancers + FOXP3-K302me1
+- **New rationale (run_157)**: SAM → EZH2 → H3K27me3 at Cdkn2a → p16^Ink4a silenced → β cell regenerative capacity maintained
+- B12 deficiency (metformin → IF impairment) → SAM ↓ → SETD7 activity ↓ AND EZH2 activity ↓ → dual β cell epigenetic failure (identity loss + regenerative loss)
+- B12 500-1000 μg/day (existing) now has strongest dual-mechanism rationale in the framework
+
+**β cell regenerative capacity tracking:**
+- p16^Ink4a serum: correlates with Cdkn2a derepression; elevated p16 = EZH2 loss → β cell regenerative capacity impaired
+- C-peptide decline rate: EZH2-compromised β cells cannot compensate by proliferation → steeper C-peptide decline trajectory
+
+**Tazemetostat in ME/CFS (NK NKG2D restoration):**
+- Target: NK cells with H3K27me3 at NKG2D gene locus → NKG2D surface ↓
+- Concept: low-dose tazemetostat → H3K27me3 ↓ at NKG2D → NKG2D re-expression → NK cytotoxicity ↑
+- Combination: belapectin (TIM-3/Galectin-9) + tazemetostat (NKG2D/H3K27me3) = checkpoint + epigenetic NK dual restoration
+- Caution: systemic tazemetostat → Treg EZH2 inhibition → Treg instability; needs careful dose titration
+
+**H3K27me3 chromatin layer summary (added to existing epigenetic protocol stack):**
+- H3K4me1 (SETD7/SAM, run_145): active enhancer mark; B12/betaine support
+- H3K9ac (SIRT6/SIRT1, runs 090/147): NF-κB/chromatin; NMN/NR support
+- 5mC/5hmC (TET/DNMT3A, runs 086/087/149): DNA methylation; vitamin C/EGCG support
+- **H3K27me3 (EZH2/SAM, run_157)**: repressive/regenerative gate; B12/betaine support (shared with SETD7)
+- Four chromatin layers now mapped; combined protocol: B12/betaine + NMN/NR + vitamin C + EGCG = comprehensive epigenetic protection
+
 *Protocol_integration.md Part 9cx — 2026-04-12 | DNMT3A R882H CHIP-screening-protocol IL-1β-targeted-CHIP vitamin-C-TET-EGCG-DNMT3A-dual CNS2-protection decitabine-investigational EGCG-primary-DNMT-inhibitor PPARγ-SOCS3-IL10-re-expression β-cell-dedifferentiation-monitoring c-peptide-trajectory integrated-epigenetic-stack run086-run087-TET-DNMT3A-combination | run_149*

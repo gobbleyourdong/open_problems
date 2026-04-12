@@ -1522,3 +1522,32 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
    - Galectin-9 suppresses NK (TIM-3) + activates TGF-β → iTreg induction; net: NK ↓ + iTreg ↑; consistent with ME/CFS immune skewing
 
 *ME/CFS THEWALL cross-reference run_155: 2026-04-12 | TIM-3-HAVCR2-BAT3-NK Galectin-9-BAT3-release EBV-HHV6-chronic-NK-activation-TIM3-loop Brenu2012-NK-TIM3 six-NK-mechanism-model-complete belapectin-GR-MD-02-primary-target Galectin-9-TGF-β-iTreg-run150 NK-cytometry-panel-all-six | run_155*
+
+---
+
+### Cross-reference: run_156 — TIGIT / CD226 / CD155: NK 7th Exhaustion, CD155 Viral Evasion
+
+**Relevance: MODERATE**
+
+1. **TIGIT = 7th NK exhaustion mechanism**: EBV/HHV-6 CD155 on infected cells → NK TIGIT → SHP-1/SHIP-1 + Cbl-b → NK cytotoxicity ↓; seven-mechanism exhaustion panel now complete
+2. **CD155 serum monitoring**: shed CD155 from virally infected cells; elevated serum CD155 = viral reactivation + NK TIGIT suppression signal; add to viral reactivation panel
+
+*ME/CFS THEWALL cross-reference run_156: 2026-04-12 | TIGIT-NK-7th-exhaustion EBV-HHV6-CD155-evasion SHP-1-SHIP-1-Cbl-b NK-seven-mechanism-panel-complete CD155-serum-biomarker | run_156*
+
+---
+
+### Cross-reference: run_157 — EZH2 / PRC2 / H3K27me3: NK NKG2D Epigenetic, Tazemetostat + Belapectin Combination
+
+**Relevance: MODERATE**
+
+1. **NK NKG2D H3K27me3 epigenetic silencing**:
+   - EZH2 → H3K27me3 at NKG2D gene locus in exhausted NK → NKG2D surface ↓ (epigenetic component of run_102)
+   - Tazemetostat (EZH2 inhibitor) → H3K27me3 ↓ → NKG2D re-expression → NK cytotoxicity partially restored
+   - Mechanism: EZH2 deepens the run_102 NKG2D defect at the chromatin level
+
+2. **Tazemetostat + belapectin combination for NK restoration**:
+   - Belapectin (galectin-9 inhibitor, run_155): blocks TIM-3 BAT3-release → NK checkpoint restored
+   - Tazemetostat (EZH2 inhibitor, run_157): H3K27me3 ↓ at NKG2D/activation receptor loci → activating signal restored
+   - Dual approach: checkpoint relief (belapectin) + epigenetic activation (tazemetostat) = complementary NK restoration strategies
+
+*ME/CFS THEWALL cross-reference run_157: 2026-04-12 | EZH2-H3K27me3-NKG2D-epigenetic-run102 tazemetostat-NK-NKG2D-restoration belapectin-tazemetostat-combination TCF7-H3K27me3-exhaustion-renewal SAM-B12-dual-run145 | run_157*

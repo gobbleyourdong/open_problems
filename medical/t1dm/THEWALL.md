@@ -1801,3 +1801,35 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
    - TIM-3+LAG-3+FOXP3+ = most suppressive Treg subset in islets
 
 *T1DM THEWALL cross-reference run_155: 2026-04-12 | TIM-3-HAVCR2-BAT3 Galectin-9-Y256-Y263-BAT3-release TIM3-islet-CD8-partial-exhaustion anti-TIM3-irAE-contraindicated Galectin-9-4th-TGF-β-LLC-run150 Treg-Galectin9-7th-effector TIM3-LAG3-FOXP3-most-suppressive six-effector-Treg | run_155*
+
+---
+
+### Cross-reference: run_156 — TIGIT / CD155: Third β Cell Tolerance Signal, TIGIT+ Treg Th1 Suppression
+
+**Relevance: HIGH**
+
+1. **CD155 = third β cell-expressed peripheral tolerance molecule**:
+   - β cell CD155 → TIGIT/SHP-1/SHIP-1 → T/NK quenching; alongside FGL1/LAG-3 (run_153) and PD-L1/PD-1 (run_154)
+   - Compound failure: FGL1 ↓ + PD-L1 overwhelmed + CD155 ↓ = three simultaneous tolerance signal losses → catastrophic β cell destruction rate
+   - TIGIT+ Treg Th1-selective suppression is specifically relevant for islet insulitis (Th1/IFN-γ dominant)
+   - Tiragolumab (anti-TIGIT) CONTRAINDICATED in T1DM
+
+*T1DM THEWALL cross-reference run_156: 2026-04-12 | TIGIT-CD155-third-tolerance FGL1-PDL1-CD155-trio TIGIT-Treg-Th1-selective SHP-1-SHIP-1 Cbl-b NK-seven-exhaustion tiragolumab-CONTRAINDICATED compound-tolerance-failure-153-154-156 | run_156*
+
+---
+
+### Cross-reference: run_157 — EZH2 / PRC2 / H3K27me3: Dhawan 2009 β Cell Regeneration, SAM Dual Support, NK NKG2D Epigenetic
+
+**Relevance: HIGH**
+
+1. **Dhawan 2009 β cell regeneration mechanism**:
+   - EZH2 → Cdkn2a H3K27me3 → p16^Ink4a silenced → CDK4/6 active → β cell proliferation; EZH2 = β cell regenerative gate
+   - Insulitis cytokines → β cell EZH2 ↓ → p16 derepressed → proliferative reserve lost before death; aging β cells are most vulnerable
+   - B12/SAM support (run_145 existing protocol) now covers both SETD7 H3K4me1 AND EZH2 H3K27me3; B12 deficiency impairs β cell regenerative capacity
+
+2. **Tazemetostat context-dependence in T1DM**:
+   - Systemic tazemetostat harmful in T1DM: β cell EZH2 inhibition → Cdkn2a opened → regenerative capacity ↓
+   - Immune-targeted EZH2 inhibition could be beneficial for effector T/macrophage anti-inflammatory gene derepression
+   - Do not use tazemetostat systemically in T1DM without β cell protection strategy
+
+*T1DM THEWALL cross-reference run_157: 2026-04-12 | EZH2-Cdkn2a-p16-CDK4 Dhawan2009-Science β-cell-regenerative-gate insulitis-EZH2-↓ aging-LADA SAM-B12-SETD7-EZH2-run145-dual tazemetostat-HARMFUL-T1DM-systemic H3K27me3-4th-chromatin NK-NKG2D-H3K27me3-run102 | run_157*
