@@ -5120,3 +5120,55 @@ The Pasparakis lab's keratinocyte A20-KO model (Vereecke 2010 J Exp Med) shows t
 **Framework state: 113 runs | A20 is the first NF-κB negative regulator analyzed; non-canonical NF-κB (NIK → p100/p52/RelB) remains absent but assessed as below standalone threshold (criterion 3 fails: no OTC NIK inhibitor).**
 
 *Updated: 2026-04-12 | Phase 4 eighty-eighth extension | A20 TNFAIP3 NF-κB negative feedback deubiquitinase K63 TRAF6 K48 RIP1 haploinsufficiency GWAS 6q23 chronic inflammation A20 depletion positive feedback 10th beta cell death RIP1 necroptosis DAMP Loop 2 persistification ETR→PPR phenotype progression TNFAIP3 genotyping continuous protocol butyrate third mechanism | run_113*
+
+---
+
+## Phase 4 Extension 89 — GSK-3β: Foxp3 Protein Destroyer, Node A Non-Responder Mechanism, and Berberine (run_114)
+
+**Core finding:** The framework's Treg support protocol (VDR, TET2/AKG, CNS2 methylation) all operate at the transcriptional/epigenetic level — they ensure Foxp3 mRNA is expressed and the TSDR locus is unmethylated. None address what happens to Foxp3 protein after it's made. GSK-3β fills the gap: constitutively active in inflammatory conditions → phosphorylates Foxp3 Ser418 → STUB1 ubiquitination → proteasomal degradation → Tregs present but non-functional.
+
+### The Induction-Destruction Gap
+
+In rosacea patients on full protocol who still have low Node A:
+- VDR → Foxp3 mRNA induced ✓ (calcitriol working)
+- TET2 → TSDR demethylated ✓ (AKG working)
+- BUT: GSK-3β (activated by chronic TNF-α/IL-6 → PI3K/Akt impaired) → Foxp3 Ser418 phosphorylated → Foxp3 protein degraded
+- Result: Foxp3 mRNA elevated, Foxp3 protein low, Node A persistently low
+- This is the "induction-destruction dissociation" — explaining Node A non-responders who have good upstream Treg biology but no functional Tregs
+
+**GSK-3β constitutive activation logic:** Unlike most kinases (OFF until signal), GSK-3β is constitutively ON, inhibited only by PI3K/Akt (which requires insulin/IL-2/growth factors). Chronic TLR4 → SOCS3 → PI3K/Akt inhibition → GSK-3β disinhibited → Foxp3 continuously destroyed. Each NLRP3 flare (Loop 2) → more IL-6 → more PI3K/Akt suppression → more GSK-3β → more Foxp3 destroyed. Loop 2 not only activates inflammation; it destroys the Treg brake simultaneously.
+
+### T1DM Dual-Arm GSK-3β Mechanism
+
+GSK-3β targets both arms of T1DM simultaneously:
+1. **Islet Tregs**: Foxp3 protein degraded → Treg functional deficiency despite near-normal cell counts (Brusko 2008 PNAS documents this clinical phenotype; GSK-3β provides the mechanism)
+2. **β cells directly**: GSK-3β → MCL-1 phosphorylation/degradation → BAD activation → intrinsic apoptosis = **11th β cell death mechanism** (direct GSK-3β pro-apoptotic; Mussmann 2007)
+
+Both arms converge: less Treg suppression → more CTL/macrophage attack → more TNF-α/IFN-γ → more GSK-3β → more β cell death AND less Treg function. Berberine breaks both simultaneously.
+
+### Berberine: New Protocol Element
+
+Berberine (OTC isoquinoline alkaloid) is the primary GSK-3β inhibitor without prescription requirement:
+- **Mechanism**: inhibits GSK-3β kinase activity → Foxp3 Ser418 NOT phosphorylated → Foxp3 protein stable
+- **T1DM dosing**: 500 mg BID (1000 mg/day) to 500 mg TID (1500 mg/day) — splits GI side effects
+- **B12 safety**: berberine does NOT deplete B12 (advantage over metformin in run_085)
+- **Synergy with calcitriol**: berberine stabilizes Foxp3 protein + calcitriol induces Foxp3 mRNA = first complete dual-level (protein stability + transcriptional induction) Treg support
+- **Not redundant with metformin**: AMPK activation is common to both, but GSK-3β → Foxp3 is berberine-specific and not achievable via metformin
+
+### Node A Non-Responder 4th Branch
+
+Updated Node A non-responder algorithm:
+1. Check Node D → if elevated → HCQ (pre-existing)
+2. Check TET2 function / TSDR methylation → if impaired → AKG + Vitamin C (pre-existing)
+3. Check Node E 25(OH)D3 → if low → calcitriol (pre-existing)
+4. **NEW: If Node A low despite 1-3 being optimized → suspect GSK-3β → Foxp3 protein degradation → add berberine 1000 mg/day**
+
+### 14th NF-κB Mechanism and Rosacea Implications
+
+GSK-3β activates NF-κB via co-activator redistribution (CREB inactivation → CBP available for NF-κB; Hoeflich 2000 Nature) = 14th NF-κB activation mechanism. In rosacea:
+- Chronic Loop 2 → IL-6 → GSK-3β → (a) Foxp3 destroyed + (b) NF-κB co-activated → Loop 2 positive feedback with Treg simultaneous disabling
+- A20/run_113 (NF-κB brake failure) + GSK-3β/run_114 (Treg protein destruction) together explain why both the NF-κB OFF signal (A20) and the Treg brake (Foxp3) fail under chronic inflammation
+
+**Framework state: 114 runs | 11th β cell death mechanism | 14th NF-κB mechanism | first Foxp3 protein stability mechanism | berberine as new OTC protocol element.**
+
+*Updated: 2026-04-12 | Phase 4 eighty-ninth extension | GSK-3β Foxp3 Ser418 STUB1 ubiquitination proteasomal degradation induction-destruction dissociation Node A non-responder berberine OTC 14th NF-κB CREB CBP 11th beta cell death MCL-1 BAD apoptosis T1DM Treg functional deficiency rosacea ETR PPR ME/CFS microglia | run_114*

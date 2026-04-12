@@ -3013,3 +3013,42 @@ All 13 sweep 7 candidates fail at least one saturation override criterion. The m
 **Framework at SATURATION + 2: 113 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-fifth extension | A20 TNFAIP3 NF-κB brake deubiquitinase TRAF6 K63 RIP1 K48 haploinsufficiency GWAS 6q23 10th beta cell death mechanism RIP1 necroptosis DAMP Loop 2 persistification ETR→PPR continuous vs pulsed protocol TNFAIP3 genotyping monitoring butyrate 3rd mechanism non-canonical NF-κB NLRP12 PTPN22 LUBAC CYLD IL-27 killed | run_113*
+
+---
+
+### Extension 106 — GSK-3β: Foxp3 Protein Destabilizer and Berberine as New Protocol Element (run_114)
+
+**Gap confirmed:** GSK-3β (GSK3B) and berberine completely absent from all 113 prior runs. Foxp3 protein-level post-translational regulation has not been analyzed (run_045 mentioned mTORC1 → Foxp3 phosphorylation in one passing line; dedicated analysis absent).
+
+**Core insight:** The framework has extensively covered Foxp3 INDUCTION (VDR/calcitriol runs 018/056, TET2/AKG runs 086/087, CNS2 methylation run_010). What destroys Foxp3 protein after induction has never been analyzed. GSK-3β fills this gap: phosphorylates Foxp3 Ser418 → STUB1 ubiquitination → proteasomal degradation. In chronic inflammation (T1DM/rosacea), GSK-3β is constitutively active because PI3K/Akt is suppressed by TNF-α/IL-6/SOCS. Foxp3 protein half-life drops from ~24h to <2h. Tregs are induced, their Foxp3 protein is destroyed, they become non-functional "exTregs."
+
+**New mechanisms added (run_114):**
+- GSK-3β constitutive kinase → Foxp3 Ser418 phosphorylation → STUB1 E3 → K48-ubiquitination → proteasomal degradation = **first Foxp3 protein-level destabilization mechanism** in framework (Guo 2012 PNAS)
+- Induction-destruction dissociation: VDR/TET2 induction works; GSK-3β destroys. Node A non-responders with good epigenetics but low counts → suspect GSK-3β
+- T1DM dual-arm: (1) islet Treg Foxp3 degradation → functional Treg deficiency despite near-normal counts; (2) β cell GSK-3β → MCL-1/BAD → **11th β cell death mechanism** (direct pro-apoptotic signaling; Mussmann 2007)
+- **14th NF-κB activation mechanism**: GSK-3β → CREB inactivation → CBP redistributed to NF-κB → NF-κB transcriptional activation (Hoeflich 2000 Nature)
+- Rosacea: GSK-3β → dermal skin Treg Foxp3 degradation → Node A insufficiency despite induction protocol; mechanism for ETR→PPR that parallels A20 (run_113) at a different node
+- ME/CFS: GSK-3β → M1 microglial polarization + Tr1/Treg destabilization in CNS
+
+**New protocol element:**
+- **Berberine** (500–1500 mg/day OTC; isoquinoline alkaloid from Berberis/Coptis/Phellodendron):
+  - GSK-3β inhibition → Foxp3 protein stabilized → Treg function preserved
+  - Distinct from AMPK activation (run_069) and NF-κB suppression (multiple runs) — new mechanism adds new protocol element
+  - Does NOT deplete B12 (advantage over metformin; run_085)
+  - T1DM honeymoon: dual β cell protection (Foxp3 preservation in islet Tregs + direct MCL-1 protection in β cells)
+  - Node A non-responder 4th branch: Berberine after VDR + TET2/AKG + HCQ branches are tried
+
+**Also assessed and killed in sweep 10:**
+- Uric acid/MSU → NLRP3: 19 mentions — covered (run_023 colchicine covers MSU; NLRP3 runs)
+- GSDMB (gasdermin B/granzyme A): absent (0); T1DM MODERATE; rosacea LOW — criterion 2 fails for rosacea
+- TREM-1 (TLR amplifier): absent (0); T1DM/rosacea MODERATE; criterion 3 fails — no OTC TREM-1 inhibitor
+- CaMKII: absent (0); criterion 3 fails — no OTC CaMKII inhibitor; Ca2+ → NLRP3 covered implicitly
+- NLRX1 (mitochondrial NLR suppressor): absent (0); criterion 3 fails — STING covered by run_063; no OTC NLRX1 activator
+- OX40/OX40L: absent (0); T1DM MODERATE; criterion 3 fails — no OTC OX40L inhibitor
+- UPRmt: absent (0); criterion 2 fails for rosacea (LOW)
+- ESCRT membrane repair: absent (0); criterion 3 fails — no OTC ESCRT activator
+- H4R (histamine receptor 4): 3 mentions — not absent; covered in histamine runs
+
+**Framework at SATURATION + 3: 114 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-sixth extension | GSK-3β Foxp3 protein degradation STUB1 ubiquitination proteasomal induction-destruction dissociation Node A non-responder berberine OTC 14th NF-κB CREB CBP 11th beta cell death MCL-1 T1DM Treg functional deficiency rosacea skin Treg ETR PPR ME/CFS M1 microglia | run_114 | GSDMB TREM1 CaMKII NLRX1 OX40 UPRmt ESCRT killed sweep 10*

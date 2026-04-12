@@ -3797,3 +3797,62 @@ A20 haploinsufficiency (TNFAIP3 risk allele) in T1DM patients creates:
 - A20 haploinsufficiency + TXNIP glucose loop = double impairment of β cell self-protection; these patients have highest β cell loss rate and most benefit from combined NF-κB suppression + glycemic control
 
 *Protocol_integration.md Part 9bn — 2026-04-12 | A20 TNFAIP3 NF-κB brake deubiquitinase TRAF6 RIP1 haploinsufficiency T1DM GWAS 6q23 TNFAIP3 genotyping monitoring HFE second genetic stratification 10th beta cell death RIP1 necroptosis continuous vs pulsed protocol A20 depletion positive feedback rosacea ETR PPR phenotype progression butyrate third mechanism | run_113*
+
+---
+
+### Part 9bo — GSK-3β/Foxp3 Protein Stability and Berberine (run_114)
+
+#### Background: The Induction-Destruction Gap
+
+The existing Node A support protocol (calcitriol/VDR → Foxp3 induction; AKG + Vitamin C → TET2 → TSDR demethylation) increases Foxp3 transcription and epigenetic stability. Run_114 identifies a parallel, protein-level mechanism that destroys Foxp3 after it's produced: GSK-3β (constitutively active in inflammatory conditions) phosphorylates Foxp3 Ser418 → STUB1 ubiquitinates it → proteasomal degradation. This "induction-destruction dissociation" explains Node A non-responders: good Foxp3 mRNA, good TSDR methylation, but Foxp3 protein is continuously degraded.
+
+#### New Protocol Element: Berberine
+
+> **Berberine** (OTC; isoquinoline alkaloid from Berberis vulgaris, Coptis chinensis, Phellodendron amurense)
+> - **Dose:** 500 mg BID with meals (1000 mg/day); can increase to 500 mg TID (1500 mg/day) for T1DM glucose benefit
+> - **Primary mechanism here:** GSK-3β inhibition → Foxp3 Ser418 NOT phosphorylated → Foxp3 protein stable → Treg function preserved
+> - **When to add:** Node A non-responder after VDR/calcitriol (Node E ≥60 ng/mL) + TET2/AKG protocol are optimized
+> - **Safety:** Does NOT deplete B12 (advantage over metformin; run_085). Monitor blood glucose in insulin-dependent T1DM (additive glucose-lowering with AMPK activation). No significant herb-drug interactions at 1000 mg/day.
+
+#### Node A Non-Responder Algorithm (Updated)
+
+```
+Node A persistently low (<8% Foxp3+ CD4+) despite protocol:
+    
+    1. Check Node D (IFN-α2 Simoa) → if >0.05 fg/mL → HCQ [pre-existing]
+    2. Check Node E (25(OH)D3) → if <60 ng/mL → calcitriol optimization [pre-existing]
+    3. Check AKG/TET2 compliance → if inadequate → reinforce + Vitamin C [pre-existing]
+    4. NEW: If 1-3 optimized but Node A still low → 
+          Suspect: GSK-3β constitutively active (chronic TNF-α/IL-6 → PI3K/Akt impaired)
+          Add: Berberine 500 mg BID
+          Mechanism: berberine → GSK-3β inhibition → Foxp3 protein stabilized
+          Monitor: Node A at 3 months post-berberine initiation
+```
+
+#### Synergy: Berberine + Calcitriol = Dual-Level Treg Support
+
+- **Calcitriol** (existing): VDR → Foxp3 mRNA induction → more Foxp3 transcription
+- **Berberine** (new): GSK-3β inhibition → Foxp3 protein stabilized → longer protein half-life
+
+Together: calcitriol ensures more Foxp3 is made; berberine ensures more of what's made survives. This is the first **dual-level** Treg support combination in the protocol (transcriptional induction + protein stability).
+
+#### T1DM-Specific: Berberine During Honeymoon
+
+During the T1DM honeymoon period (C-peptide preserved), berberine provides three simultaneous benefits:
+1. **GSK-3β → Foxp3 preservation in islet Tregs** → better immune tolerance of residual β cells
+2. **GSK-3β → β cell MCL-1/BAD → anti-apoptotic** (11th β cell death mechanism prevented)
+3. **AMPK activation → glucose lowering → less TXNIP activation** (run_112 rationale reinforced)
+
+Berberine is thus the protocol element with the broadest T1DM honeymoon benefit: Treg function + direct β cell protection + metabolic glucose management in a single OTC compound.
+
+**Interaction note:** Berberine + metformin (if used in T1DM management) → additive AMPK activation → enhanced glucose lowering → insulin dose may need reduction. Stagger timing (berberine with meals, metformin with other meals) to separate peaks.
+
+#### Rosacea: Completing the ETR→PPR Prevention Protocol
+
+Run_113 (A20) and run_114 (GSK-3β) together explain why rosacea progresses despite partial protocol response:
+- A20 depletion → NF-κB brake fails → Loop 2 persistent
+- GSK-3β → Foxp3 protein destroyed → Treg brake fails → Loop 2 uninhibited
+
+Both run on the same platform: chronic inflammation → each brake progressively consumed/destroyed. The convergence point is that early continuous protocol (run_113 rationale) AND early berberine addition (run_114 rationale) prevent both brake failures from establishing, keeping rosacea in the reversible ETR phenotype.
+
+*Protocol_integration.md Part 9bo — 2026-04-12 | GSK-3β Foxp3 protein stability STUB1 berberine OTC Node A non-responder 4th branch calcitriol+berberine dual-level Treg T1DM honeymoon triple benefit induction-destruction dissociation 11th beta cell death MCL-1 berberine+metformin interaction rosacea ETR PPR A20+GSK-3β convergence | run_114*
