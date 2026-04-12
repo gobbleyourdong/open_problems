@@ -1282,3 +1282,61 @@ See `numerics/run_047_gut_serotonin_flushing.md`.
 *Framework status: 8 mountains ALL analyzed | SIX NF-κB suppressors | Five NLRP3 pathways | Five M8 mechanisms | 47+ mechanisms | 23 gap.md extensions this session*
 *Parts 8y-8z added: F. prausnitzii monitoring definition + gut 5-HT / HbA1c-flushing fourth mechanism + quercetin triple mechanism + CGRP pharmacological gap noted*
 *Framework mapping is now at its most comprehensive state as of 2026-04-12*
+
+---
+
+## Part 9a: OSA Screening and CPAP — Highest Priority M8 Intervention
+
+**When to screen:** ALL T1DM + rosacea patients. OSA prevalence in T1DM: ~30% (vs. 5-10%
+general population). Underdiagnosed because T1DM autonomic neuropathy reduces snoring
+(pharyngeal muscle dysfunction) — classic OSA symptoms may be absent.
+
+**Mechanism:** OSA → intermittent hypoxia → HIF-1α → NLRP3 priming (Signal 1C, third
+independent source) + IKK-β transcription → NF-κB amplified + amplifies ALL FIVE existing
+M8 mechanisms. CPAP eliminates intermittent hypoxia → removes HIF-1α activation → normalizes
+all six M8 mechanisms simultaneously.
+
+**Evidence:** CPAP → CRP ↓ 40%, IL-6 ↓ 35% (Steiropoulos 2009); CPAP → IL-18 ↓ (Minoguchi
+2007 — direct NLRP3 marker).
+
+### OSA Screening and Protocol
+
+| Step | Action | Tool |
+|------|--------|------|
+| 1. Screen | STOP-BANG questionnaire at intake | ≥3 = high risk → proceed to step 2 |
+| 2. Diagnose | Home sleep test (Type 3 device) OR overnight polysomnography | AHI ≥5/h = OSA; ≥15/h = moderate; ≥30/h = severe |
+| 3. Treat | CPAP titration (AutoPAP first-line) | Eliminate apneas → AHI <5/h target |
+| 4. Monitor | Reassess M8 markers at 3 months: rosacea flare frequency, Node B (CRP), flushing events | Expect improvement within 4-8 weeks of CPAP adherence |
+
+**Priority over behavioral M8 interventions:** In OSA-confirmed patients, CPAP is more
+important than MBSR/breathing/sleep hygiene because the root cause is MECHANICAL (airway
+obstruction), not behavioral. Behavioral M8 interventions remain complementary but cannot
+normalize HIF-1α-driven NLRP3 priming that only airway management resolves.
+
+**New M8 protocol priority order (OSA-adjusted):**
+If STOP-BANG ≥3 or OSA confirmed → STEP 1 = CPAP referral (before behavioral M8 interventions).
+If STOP-BANG <3 → standard M8 protocol (sleep, MBSR, cold, breathing) as previously specified.
+
+See `numerics/run_050_sleep_apnea_hif1a_m8.md`.
+
+---
+
+## Updated Six-Mechanism M8 Reference Table
+
+| # | Mechanism | Driver | Intervention |
+|---|-----------|--------|-------------|
+| 1 | CRH → mast cell CRHR1 | Psychological stress | MBSR, adaptogens (ashwagandha) |
+| 2 | Cortisol/GR → Treg impairment | Chronic HPA overactivation | Sleep, cortisol normalization |
+| 3 | Vagal withdrawal → NF-κB (run_029) | Sympathetic dominance | Cold exposure, Wim Hof breathing |
+| 4 | Melatonin ↓ → NLRP3 K496 (run_022) | Sleep disruption | Melatonin 0.5mg timed |
+| 5 | BMAL1 ↓ → NLRP3 transcription (run_035) | Circadian disruption | TRE 8-10h window, light therapy |
+| 6 | HIF-1α → NLRP3 + NF-κB (run_050) | **Obstructive sleep apnea** | **CPAP (highest priority)** |
+
+---
+
+*Compiled: 2026-04-12 | Post-Phase 4 eighteenth extension synthesis*
+*Sources: attempts 001-019, numerics runs 001-050, all sibling THEWALL.md files*
+*Framework status: 8 mountains ALL analyzed | SIX NF-κB suppressors | Five NLRP3 pathways | SIX M8 mechanisms | Three NLRP3 priming sources | 50+ mechanisms*
+*Part 9a: OSA/CPAP protocol + updated M8 six-mechanism reference table*
+*Numerics run 050 completes this mapping session — runs 030-050 in this session alone*
+*Framework comprehensive coverage achieved: 8 mountains × 5+ mechanisms each × 4 non-responder loops × 3 NLRP3 priming sources × 6 NF-κB suppressors × 3 NLRP3 cell contexts*

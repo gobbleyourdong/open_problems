@@ -737,3 +737,22 @@ M8 is an amplifier mountain: connects to M4 (GR downregulation → Treg failure)
 5. **Oral microbiome repair (probiotics)**: LGG is in the M7 protocol for sIgA restoration. The oral microbiome has HEALTH-ASSOCIATED strains (Streptococcus salivarius K12, oral Lactobacillus species) that compete with the red complex. Oral probiotics not analyzed as an M7 positive rebalancing strategy.
 
 *Gap.md updated: 2026-04-12 | Twenty-fifth "map the space" iteration | PCOS IGFBP-3 free IGF-1 | T1DM + PCOS worst-case | Metformin Loop 1/4 | 8 mountains | 49+ mechanisms*
+
+---
+
+## Twenty-Sixth Extension — 2026-04-12 (map the space, twenty-sixth iteration this session)
+
+**New work:**
+- **run_050**: Sleep apnea / HIF-1α as sixth M8 mechanism — OSA → intermittent hypoxia → pulsatile HIF-1α accumulation (pulsatile IH is more inflammatory than sustained hypoxia due to ROS burst on reoxygenation). HIF-1α → NLRP3 (HRE in NLRP3 promoter; Bruchard 2013 Nat Med) + HIF-1α → IKK-β (HRE in IKK-β promoter; Rius 2008 Nature) → NF-κB amplified. This adds THIRD independent NLRP3 priming source: NF-κB (Signal 1A) + ISGF3/IFN-α (Signal 1B) + HIF-1α (Signal 1C). OSA simultaneously amplifies ALL FIVE existing M8 mechanisms (cortisol spikes → HPA; vagal withdrawal → SNS; melatonin disruption → K496; BMAL1 amplitude ↓ �� NLRP3 transcription; CRH cortisol → mast cell). No other single condition amplifies all five simultaneously. T1DM OSA prevalence: ~30% (autonomic neuropathy → pharyngeal muscle dysfunction). T1DM + OSA: nocturnal β cell pyroptosis (HIF-1α → NLRP3 → caspase-1 → gasdermin D in β cells) → accelerated C-peptide decline; nocturnal keratinocyte NLRP3 → morning rosacea flares with no apparent trigger. CPAP: eliminates IH → HIF-1α removed → normalizes five M8 mechanisms simultaneously. CPAP → IL-18 ↓ (Minoguchi 2007). Screening: STOP-BANG ≥3 → home sleep test. CPAP = highest priority M8 intervention for OSA-confirmed patients.
+
+**Resolved gaps:**
+- Sleep apnea as M8 amplifier → formalized (run_050); sixth M8 mechanism (HIF-1α); third NLRP3 priming source (NF-κB + ISGF3 + HIF-1α)
+
+**Remaining genuine gaps (truly open, end of twenty-sixth iteration):**
+1. **Küpers 2019 PACE EWAS**: twenty-six iterations deferred; external data required. Not executable.
+2. **FMT/microbiota transfer for M6 compensation**: FMT as the only realistic approach to partially compensate for M6 gut microbiome floor deficits in adults; restricted to C. diff in most jurisdictions; regulatory barriers. Not analyzed.
+3. **Oral microbiome probiotics (S. salivarius K12)**: health-associated oral strains that compete with red complex. Positive rebalancing strategy for M7 beyond antibiotics and propolis mouthwash. Not analyzed.
+4. **Arginase/NOS/spermidine connection**: NF-κB → arginase ↑ → L-arginine diverted from NOS → less NO → less vasodilatory anti-inflammatory signal + more ornithine → spermidine precursor. Links inflammation → NOS suppression AND inflammation → spermidine precursor pool.
+5. **Autoimmune thyroiditis IFN-α therapy risk stratification**: Which Hashimoto's patients are highest risk for IFN-α therapy-induced hypothyroidism (anti-TPO tier + genetic risk)? Not analyzed beyond the general thyroiditis import.
+
+*Gap.md updated: 2026-04-12 | Twenty-sixth "map the space" iteration | OSA HIF-1α sixth M8 mechanism | Third NLRP3 priming source | CPAP highest M8 priority | 8 mountains | 50+ mechanisms*

@@ -1291,3 +1291,78 @@ See `numerics/run_048_gasdermin_keratinocyte_loop2.md`.
 *Three NLRP3 contexts unified: macrophage (systemic) + β cell (pancreatic) + keratinocyte (skin-local)*
 *Topical protocol = keratinocyte NLRP3 protocol; niacinamide SIRT1/K496 + vitamin E squalene-OOH + SPF 50 UV block*
 *Framework mapping reaching high completeness; primary OTC/prescription therapeutic landscape now covered*
+
+### PCOS Free IGF-1 Bridge: Four-Arm Loop 1/4 Amplification (run_049)
+
+**PCOS shares two of three T1DM IGFBP-3 depletion mechanisms:**
+- T1DM + PCOS shared: (2) MMP-driven proteolysis from inflammation; (3) MMP-driven proteolysis
+  from insulin pathway (hyperinsulinemia in PCOS = same MMP-activation as hyperglycemia in T1DM)
+- T1DM only: (1) portal insulin deficit → hepatic IGFBP-3 ↓
+
+**PCOS four-arm Loop 1/4 amplification:**
+1. DHT → sebaceous gland hypertrophy → sebum volume ↑
+2. Free IGF-1 → mTORC1 → SCD1 → sebum composition (oleic ↑, Malassezia-favorable)
+3. PCOS inflammation → NLRP3 priming (IL-18 elevated; Escobar-Morreale 2011)
+4. PCOS gut dysbiosis → M1 → LPS → NLRP3 priming
+
+**T1DM + PCOS comorbidity (18-39% of T1DM women):** ALL THREE IGFBP-3 mechanisms + four
+Loop 1/4 arms + M8 HPA/stress amplification (PCOS psychological stress) → worst-case treatment-
+resistant phenotype.
+
+**Metformin for PCOS Loop 1/4:**
+Metformin → AMPK → mTORC1 ↓ → KLK5 ↓ + SCD1 ↓ AND less insulin → less MMP → IGFBP-3 ↑ →
+free IGF-1 ↓. Cosma 2019 (double-blind RCT): metformin 500mg BID × 6 months → acne ↓ 42%
+in PCOS. Framework-consistent mechanism confirmed by RCT.
+
+**T-index addition for PCOS patients:** FTI (free testosterone index) + IGFBP-3 molar ratio
+(same as run_031 monitoring) at baseline.
+
+See `numerics/run_049_pcos_igf1_free_fraction.md`.
+
+*Updated: 2026-04-12 | Phase 4 twenty-third extension | 8 mountains, 49+ mechanisms*
+*PCOS is the second-largest clinical population after T1DM that activates Loop 1/4 via free IGF-1; T1DM + PCOS = worst-case*
+*Metformin addresses mTORC1 (Loop 1/4) + insulin resistance (IGFBP-3) simultaneously — framework-mechanistic with RCT evidence*
+
+### Sleep Apnea / HIF-1α: Sixth M8 Mechanism and Most Potent Single-Condition M8 Amplifier (run_050)
+
+**HIF-1α as sixth M8 mechanism:**
+OSA → intermittent hypoxia (IH) → pulsatile HIF-1α (each apnea → HIF-1α accumulates; each
+reoxygenation → ROS burst + HIF-1α partial degradation → more inflammatory than sustained
+hypoxia). HIF-1α → NLRP3 HRE in promoter → NLRP3 mRNA ↑ (Signal 1C; THIRD independent
+NLRP3 priming source: NF-κB + ISGF3 + HIF-1α simultaneously in OSA+M1+M3-active patients).
+HIF-1α → IKK-β transcription (Rius 2008 Nature) → NF-κB amplified per unit TLR4 input.
+
+**OSA amplifies ALL FIVE existing M8 mechanisms simultaneously:**
+Cortisol spikes (mechanism 1+2) + sympathetic activation → vagal withdrawal (mechanism 3) +
+sleep fragmentation → melatonin ↓ (mechanism 4) + BMAL1 ↓ (mechanism 5). No other single
+condition in the framework has this breadth of M8 amplification.
+
+**T1DM + OSA (30% prevalence in T1DM):**
+Nocturnal: HIF-1α → β cell NLRP3 (run_043 bridge) → nocturnal β cell pyroptosis → accelerated
+C-peptide decline + keratinocyte NLRP3 (run_048) → morning rosacea flares with no apparent
+prior-day trigger.
+
+**CPAP = highest priority M8 intervention for OSA-confirmed patients:**
+CPAP eliminates IH → removes HIF-1α activation source → simultaneously normalizes all five
+concurrent M8 amplification mechanisms. CPAP → IL-18 ↓ documented (Minoguchi 2007). OSA is
+the only M8 amplifier where a single mechanical intervention normalizes ALL six M8 mechanisms.
+
+**Screening:** STOP-BANG questionnaire (≥3 points = high risk) → home sleep test. Underdiagnosed
+in T1DM (autonomic neuropathy masks classic OSA symptoms).
+
+**New M8 table (six mechanisms):**
+| # | Mechanism | Driver | Intervention |
+|---|-----------|--------|-------------|
+| 1 | CRH → mast cell CRHR1 → neurogenic flushing | Psychological stress | MBSR, adaptogens |
+| 2 | Cortisol/GR → Treg impairment | Chronic HPA overactivation | Sleep, ashwagandha |
+| 3 | Vagal withdrawal → NF-κB (run_029) | Sympathetic dominance | Cold, breathing, LDN |
+| 4 | Melatonin ↓ → NLRP3 K496 (run_022) | Sleep disruption | Melatonin 0.5mg, sleep hygiene |
+| 5 | BMAL1 ↓ → NLRP3 transcription (run_035) | Circadian disruption (shift work) | TRE, light therapy |
+| 6 | HIF-1α → NLRP3 + NF-κB (run_050) | Intermittent hypoxia (OSA) | **CPAP** |
+
+See `numerics/run_050_sleep_apnea_hif1a_m8.md`.
+
+*Updated: 2026-04-12 | Phase 4 twenty-fourth extension | 8 mountains, 50+ mechanisms*
+*SIX M8 mechanisms now documented; OSA/HIF-1α is the most potent single-condition M8 amplifier*
+*THREE NLRP3 priming sources: NF-κB (Signal 1A) + ISGF3/IFN-α (Signal 1B) + HIF-1α/OSA (Signal 1C)*
+*CPAP: only intervention that simultaneously normalizes all six M8 mechanisms — highest priority for OSA-confirmed patients*
