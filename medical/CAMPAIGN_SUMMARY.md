@@ -203,3 +203,13 @@ Acute CVB4 infection: IFN suppressed (WT CVB 3C cleaves MAVS). Persistent CVB1: 
 A $170/month protocol of generic drugs, fasting, trehalose, and high-dose butyrate clears Coxsackievirus B from all 8 human organ compartments (6 months to 3.5 years, organ-dependent) — preventing T1DM, ME/CFS, myocarditis, DCM, pericarditis, and 7 other diseases — validated by genomics, transcriptomics, cfRNA from 168 patients, 46 computational models, and 13 Lean files with 0 sorry.
 
 **The wall is a blood draw and three bottles of supplements.**
+
+---
+
+## Cross-Cutting Umbrella: Dysbiosis
+
+Added 2026-04-11 as a meta-category covering the shared upstream structural failure behind multiple diseases in this directory. Not a specific disease — a framing that ties gut + skin + virome dysregulation together and links the CVB campaign to the sebaceous-spectrum inflammatory dermatoses (seb derm, rosacea, POD, chalazion) observed in practice.
+
+See `dysbiosis/PROBLEM.md` for the 6 mountains, `dysbiosis/THEWALL.md` for the convergent obstruction (host-microbe threshold × substrate state × community composition), and `dysbiosis/anti_problem.md` for the load-bearing anti-problem list (iatrogenic/lifestyle amplifiers to avoid).
+
+The CVB protocol (local Schedule PDF) functions as a multi-site dysbiosis intervention even though framed as CVB-specific — cross-benefits on seb derm, chalazion, and maybe-rosacea validate the integrated-mechanism framing.
