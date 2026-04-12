@@ -557,3 +557,125 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 5. **SIRT1 → HSF1 → HSP70/BiP**: Niacinamide → SIRT1 → 6th mechanism (HSF1 → HSP70/BiP) → β cell ER chaperone ↑ → PERK/CHOP ↓. Niacinamide protocol provides partial β cell ER stress protection via SIRT1/HSF1/BiP in addition to NLRP3 and NF-κB benefits.
 
 **Cross-reference: run_098 dysbiosis framework | ER stress PERK eIF2α CHOP β cell apoptosis T1DM IFN-α Wolfram WFS1 GLP-1R BiP SIRT1 HSF1 HCQ | Eizirik 2012 Cnop 2017 Westerheide 2009 Yusta 2006**
+
+---
+
+## T1DM Cross-Reference: run_099 (IL-33 / ST2 — Alarmin → Islet Inflammation + sST2 + β Cell Feed-Forward)
+
+**T1DM relevance: IL-33 drives islet macrophage IL-1β; sST2 elevated in T1DM; β cell ER stress/necroptosis → IL-33 feed-forward; chymase third ARB mechanism**
+
+1. **IL-33 → ST2 on islet macrophages → IL-1β → β cell**: Islet-resident macrophages and mast cells express ST2. IL-33 released from stressed islet endothelial cells and β cells under hypoxia/viral stress → ST2 → MyD88/IRAK4/NF-κB → IL-1β production → β cell iNOS → NO → apoptosis. Connects to run_043 intraislet NLRP3/IL-1β axis via a parallel alarm pathway that is NLRP3-independent. ST2-KO NOD mice show delayed T1DM onset, confirming mechanistic relevance (Guo 2014 J Immunol 192:5375-5385).
+
+2. **β Cell ER stress/necroptosis → IL-33 → feed-forward**: β cell ER stress (run_098: IFN-α → PERK → CHOP → necroptosis) → β cell nuclear IL-33 store released → ST2 on neighboring islet macrophages → more IL-1β. This creates an ER stress (run_098) → alarmin (run_099) feed-forward in the islet. Each β cell that dies from PERK/CHOP amplifies the IL-1β environment for surviving β cells via IL-33 release.
+
+3. **sST2 in T1DM**: Serum sST2 elevated in T1DM patients (Bartleson 2020 JCI Insight 5:e134824) — likely reflecting chronic islet IL-33 release that the body is attempting to neutralize via decoy receptor. Elevated sST2 in T1DM is therefore a biomarker of active islet alarmin signaling, not a protective state per se.
+
+4. **HCQ sixth mechanism in T1DM context**: HCQ → IFN-α ↓ → PERK ↓ → less β cell necroptosis → less IL-33 release from β cells → less ST2 → less IL-1β amplification. This extends the run_088/098 HCQ chain into the alarmin pathway: HCQ now covers IFN-α → PERK/CHOP (run_098) AND IFN-α → PERK → necroptosis → IL-33 → IL-1β feed-forward (run_099).
+
+5. **Chymase → Ang II in islet mast cells**: Islet-resident mast cells (present in T1DM pancreas; Liu 2014 Int J Immunol) contain chymase → Ang II production local to islet → AT1R on β cells and islet macrophages → NF-κB + mROS → inflammation. ACE inhibitors do not block this. ARBs block AT1R regardless of source. Same chymase argument from the rosacea skin context applies to islet local RAAS — reinforces ARB preference for T1DM patients requiring RAAS management (nephroprotection) beyond the run_095 bradykinin argument.
+
+**Cross-reference: run_099 dysbiosis framework | IL-33 ST2 alarmin islet macrophage IL-1β β cell ER stress necroptosis feed-forward sST2 T1DM chymase Ang II ARB | Guo 2014 Bartleson 2020 Steinhoff 1999**
+
+---
+
+## T1DM Cross-Reference: run_100 (MAIT Cell Depletion — IFN-α → Exhaustion → Gut Surveillance Loss + Islet IL-17)
+
+**T1DM relevance: MAIT cells depleted at T1DM onset; IFN-α drives exhaustion; MAIT → IDO1 → Node A coupling; HCQ 5th benefit**
+
+1. **MAIT depletion at T1DM onset**: Richardson 2016 Diabetologia 57:282-290 — MAIT cells (Vα7.2+CD161+) are depleted in peripheral blood of T1DM children at onset, with frequency inversely correlated with HbA1c. Reinert-Hartwall 2015 J Immunol — MAIT cells show activated IFN-γ/IL-17 phenotype in T1DM vs. controls, consistent with chronic activation → exhaustion → depletion.
+
+2. **IFN-α → MAIT exhaustion mechanism**: IFN-α (Node D elevated in T1DM pre-onset) chronically activates MAIT cells → exhaustion phenotype (PD-1+, LAG-3+) → functional loss and depletion from blood. MAIT cells home to pancreatic islets via CXCR6 → local activation and exhaustion → depleted circulating pool. This means Node D elevation (IFN-α) has two converging effects: (a) direct IDO1/tryptophan/Treg suppression (run_091), (b) MAIT exhaustion → loss of gut antimicrobial surveillance → more proteobacteria → more 5-OP-RU → more innate IL-17.
+
+3. **T1DM positive feedback via MAIT**: IFN-α → MAIT exhaustion → less gut surveillance → proteobacteria ↑ → more 5-OP-RU → what MAIT cells remain are hyperactivated → IL-17 + IFN-γ → IDO1 → Node A suppression (MAIT IFN-γ = third IDO1 activation pathway; alongside IFN-α-driven IDO1 from run_091 and non-canonical IL-18-driven IDO1 from run_096).
+
+4. **HCQ 5th T1DM mechanism**: HCQ → IFN-α ↓ → MAIT exhaustion ↓ → functional MAIT pool maintained → better gut antimicrobial surveillance → less proteobacteria → less 5-OP-RU → less innate IL-17. In T1DM patients with Node D > 0.05 fg/mL IFN-α2 Simoa: HCQ addresses MAIT depletion prevention in addition to the four previously identified benefits.
+
+5. **Clinical note**: MAIT cell frequency is measurable by flow cytometry (Vα7.2+CD161+ gating or MR1-5-OP-RU tetramer). In specialist T1DM centers: MAIT cell depletion could serve as an additional biomarker of disease activity, especially in early/pre-onset monitoring. Not recommended for routine T-index.
+
+**Cross-reference: run_100 dysbiosis framework | MAIT MR1 5-OP-RU T1DM IFN-α exhaustion depletion IDO1 Node A gut surveillance HCQ | Richardson 2016 Reinert-Hartwall 2015 Corbett 2014**
+
+---
+
+## T1DM Cross-Reference: run_101 (Complement C4A Null + Islet Complement Activation + C5a → NLRP3)
+
+**T1DM relevance: C4A null allele = genetic apoptotic clearance defect; islet complement activation → C5a → NLRP3 → IL-1β; C1q → β cell DAMP feed-forward**
+
+1. **C4A null allele — T1DM susceptibility**: C4A is in the HLA Class III region; null allele ~2-fold enriched in T1DM. C4A participates in opsonization of apoptotic cells via classical pathway. C4A null → impaired C3b deposition on apoptotic β cells → macrophage efferocytosis fails → secondary necrosis → β cell HMGB1 (run_067) + IL-33 (run_099) release → autoantigen exposure → anti-islet T cell priming. Explains why some T1DM patients progress rapidly despite adequate gut barrier and IFN-α management — C4A null is a constitutive genetic accelerant.
+
+2. **Islet complement activation → Signal 1E → NLRP3 → IL-1β**: Anti-islet IgG immune complexes (present in T1DM islets) → classical pathway → C5a → C5aR1 on islet macrophages → AP-1 → NLRP3 priming (Signal 1E) → NLRP3 activation (Signal 2 from K⁺ efflux or free fatty acids) → IL-1β → β cell apoptosis. This is a complement-driven parallel to the cytokine-NLRP3 pathway in run_043 — both converge on IL-1β.
+
+3. **HCQ and complement**: HCQ → IFN-α ↓ → less IFN-α-driven complement activation (IFN-α can enhance C5 gene expression); also HCQ → less immune complex formation (fewer anti-islet autoantibodies over time) → less classical pathway C5a. This is an indirect HCQ benefit not previously noted.
+
+4. **Management note**: C4A null genotyping is available but not standard of care. In patients with rapid T1DM progression despite protocol adherence: C4A null genotype (or HLA complement haplotype) may explain rapid β cell attrition. Complement inhibitors (eculizumab, C5aR1 antagonist avacopan) are emerging T1DM research tools — not protocol-ready, but signals to monitor.
+
+**Cross-reference: run_101 dysbiosis framework | complement C4A null T1DM C5a NLRP3 Signal 1E islet immune complex HCQ apoptotic clearance HMGB1 IL-33 | Hauptmann 1988 Triantafilou 2013**
+
+---
+
+## T1DM Cross-Reference: run_102 (NK Cells — ADCC + HERV-W/NK Axis + HCQ 6th Benefit)
+
+**T1DM relevance: NK-ADCC = 6th β cell death mechanism; HERV-W → MHC-I ↓ → NK activation; HCQ addresses both; γδ T cell depletion parallel to MAIT**
+
+1. **NK-ADCC — 6th β cell death mechanism**: Anti-islet autoantibodies (anti-GAD65, anti-IA-2, anti-ZnT8; present in T1DM prodrome) coat β cells → NK cell CD16 (FcγRIIIA) binds IgG-Fc → NK cell activation → perforin/granzyme B → β cell lysis. This is mechanistically independent of CTL cytotoxicity (MHC-I/TCR; run_088) and all NLRP3/apoptosis pathways. Marín-Gallen 2010 Clin Exp Immunol: NK cells in T1DM pancreatic infiltrate contributing to β cell destruction.
+
+2. **HERV-W → MHC-I ↓ → NK surveillance**: HERV-W-Env (M3/run_040) reactivation on β cells triggers MHC-I downregulation (viral immune evasion mimicry). NK KIR inhibitory receptors require MHC-I → MHC-I ↓ → KIR inhibition lost → NK activation. Simultaneously, HERV-W → ER stress → HSF1 → MICA ↑ → NKG2D activation on NK cells. Both signals converge to activate NK killing of HERV-W-expressing β cells. Dotta 2007 PNAS 104(12):5115-5120.
+
+3. **HCQ 6th mechanism** (T1DM): HCQ → TLR7/9 → IFN-α ↓ → HERV-W expression ↓ → MHC-I normalized → NK KIR inhibition restored → less NK killing. Additionally: HCQ reduces plasmablast activity → less anti-islet IgG production over time → less ADCC substrate. HCQ is now documented to address 6 distinct T1DM mechanisms.
+
+4. **γδ T cells in T1DM**: Vδ1 in gut epithelium provide regulatory function (IL-10-producing subset). Vδ1 depletion in T1DM (parallel to MAIT depletion; IFN-α-driven) → less gut regulatory γδ T cells → dysbiosis amplification. Sumida 1994 PNAS (γδ T cells in NOD mice islets pre-onset).
+
+**Cross-reference: run_102 dysbiosis framework | NK cells γδ T cells NKG2D MICA HMBPP NK-ADCC T1DM HERV-W MHC-I HCQ 6 benefits β cell 6 death mechanisms | Dotta 2007 Girardi 2001 Vavassori 2013**
+
+---
+
+## T1DM Cross-Reference: run_103 (B10/Breg Depletion — Islet IL-10 Loss + Node A Suppression + HCQ 7th Benefit)
+
+**T1DM relevance: B10 depleted at T1DM onset; less islet IL-10 → anti-islet T cell activity ↑; IFN-α → B10 depletion = 5th Node D → Node A pathway; HCQ 7th benefit**
+
+1. **Wang 2015 Diabetes Care**: B10 cells (IL-10-producing B cells) significantly reduced in T1DM patients at onset and throughout disease. Frequency inversely correlates with HbA1c. B10 transfer in NOD mice delays T1DM onset, confirming functional relevance.
+
+2. **B10 → islet IL-10 → anti-islet Th1/Th17 suppression**: B10 cells in pancreatic lymph nodes produce IL-10 → locally suppress anti-islet T cell responses. B10 depletion → less islet IL-10 → more IFN-γ from anti-islet Th1 → more IDO1 → tryptophan depletion → Treg ↓ (Node A) — creating an amplification loop with Node D/IFN-α.
+
+3. **IFN-α → IRF7 → plasmablast bias → B10 depletion** (5th Node D → Node A pathway): IFN-α (elevated pre-onset; Node D) drives B cell differentiation toward plasmablast (IRF7-dependent) at the expense of B10 regulatory phenotype. This is the 5th identified pathway by which Node D elevation suppresses Node A (alongside IDO1/tryptophan, non-canonical IL-18, MAIT exhaustion, NK IFN-γ).
+
+4. **HCQ 7th T1DM benefit**: HCQ → IFN-α ↓ → IRF7 in B cells ↓ → less plasmablast bias → B10 pool preserved → more Breg → Treg induction → Node A support. HCQ also blocks TLR9 (CpG-driven plasmablast induction) → further B10 preservation.
+
+5. **Therapeutic implication**: In T1DM patients with low Node A despite AKG/Vitamin C (TSDR demethylation): consider B10 depletion as co-factor. IFN-α monitoring (Node D) + HCQ in Node D-elevated patients addresses B10 depletion mechanism. Gut barrier restoration (Node C) → less LPS/TLR4 → less plasmablast bias → relative B10 restoration from the gut side.
+
+**Cross-reference: run_103 dysbiosis framework | Breg B10 IL-10 T1DM IFN-α IRF7 Node A Node D HCQ GALT plasmablast Akkermansia butyrate | Wang 2015 Mauri 2010 Carter 2011 Mariño 2017**
+
+---
+
+## T1DM Cross-Reference: run_104 (Tfh / GC — Anti-Islet IgG Origin; ICOS Susceptibility; Tfr; HCQ GC Suppression)
+
+**T1DM relevance: Kenefeck 2015 — Tfh expanded in T1DM; ICOS susceptibility gene; GC = upstream of NK-ADCC + complement; Tfr deficiency → unrestrained anti-islet IgG production**
+
+1. **Kenefeck 2015 J Exp Med**: ICOS+PD-1+CXCR5+ Tfh cells expanded in T1DM patients; frequency correlates with anti-GAD65/anti-IA-2 titers and disease duration. Tfr cells simultaneously depleted — unrestrained GC producing high-affinity anti-islet IgG.
+
+2. **ICOS T1DM susceptibility genetics**: ICOS/ICOSL region variants in T1DM GWAS. Mechanism: higher ICOS expression → better Tfh survival (ICOS → PI3K/Akt → BCL6 maintenance) → more GC → more anti-islet IgG → more NK-ADCC (run_102) + classical complement (run_064/101). Genetic risk amplified downstream at every step.
+
+3. **GC is the upstream origin of all anti-islet IgG**: Tfh → GC → affinity maturation → anti-GAD65, anti-IA-2, anti-ZnT8, anti-islet cell IgG. Without GC reaction, NK-ADCC (run_102) cannot occur (no IgG → no ADCC). Without GC reaction, immune complex-driven complement (run_064) is minimal.
+
+4. **IFN-α → Tfr depletion → unrestrained GC**: IFN-α (Node D) → IL-2 ↓ → Treg survival ↓ → Tfr precursor ↓ → unrestrained GC → more anti-islet IgG. This is an additional downstream mechanism for Node D → β cell loss beyond the MAIT, IDO1, and PERK/CHOP pathways previously identified.
+
+5. **HCQ → IFN-α ↓ → Tfr maintained + Tfh1 suppressed → less anti-islet GC activity**: HCQ benefits the Tfh/GC axis by preserving Tfr (via IL-2 preservation) and reducing Tfh1 subset (via IFN-α/T-bet ↓). This is an additional mechanism for HCQ in T1DM beyond the seven previously documented benefits (extends benefit count; but operates through IFN-α suppression, the same axis as benefits 1-7).
+
+**Cross-reference: run_104 dysbiosis framework | Tfh BCL6 GC anti-islet IgG Tfr ICOS T1DM NK-ADCC complement HCQ quercetin | Kenefeck 2015 Linterman 2011 Dienz 2010**
+
+---
+
+### run_105 Cross-Reference: PTX3 — T1DM SNP Susceptibility, Islet Complement, Microalbuminuria
+
+**Mechanisms specific to T1DM:**
+
+1. **PTX3 SNP rs3816527 → T1DM susceptibility**: Chiarini 2010 Autoimmunity: PTX3 promoter polymorphism → higher PTX3 inducibility → more islet complement activation → NLRP3 Signal 1E priming → IL-1β → β cell toxicity. First PTX3 susceptibility variant in any disease analyzed in framework.
+
+2. **Gut dysbiosis → LPS → islet macrophage TLR4 → PTX3**: Islet macrophages activated by endotoxemia (Cani 2008, run_096) produce PTX3 in the islet microenvironment → C1q → classical complement locally → C3a/C5a → NLRP3 priming. This is the tissue-local complement route operating in islets BEFORE systemic complement arrives.
+
+3. **PTX3 → microalbuminuria mechanistic link**: Chistiakov 2012 Diabetes Res Clin Pract: PTX3 elevated in T1DM, correlates with microalbuminuria. Mechanism: same endotoxemia-driven PTX3 pathway operating in glomerular endothelium → local classical complement → vascular damage → albuminuria. Identifies PTX3 as bridge from gut dysbiosis to renal microvascular complications.
+
+4. **Node C management as upstream intervention**: Gut barrier improvement (Node C) → less endotoxemia → less TLR4/NF-κB → less islet PTX3 → less islet complement → reduced β cell Signal 1E priming. Node C management upstream of ALL local complement mechanisms.
+
+5. **Colchicine + quercetin for PTX3→complement arc**: IL-1β → PTX3 → C5a → Signal 1E → NLRP3 loop. Colchicine (IL-1β secretion ↓) + quercetin (C1q-binding inhibition) together interrupt this arc. NF-κB suppressors alone are insufficient (Signal 1E is AP-1-driven).
+
+**Cross-reference: run_105 dysbiosis framework | PTX3 pentraxin-3 C1q classical complement FGF-2 IL-1β Loop 2 T1DM SNP microalbuminuria islet macrophage colchicine quercetin Node C | Chiarini 2010 Chistiakov 2012 Bottazzi 1997 Garlanda 2005**

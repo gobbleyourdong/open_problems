@@ -2188,3 +2188,281 @@ Three UPR branches each contribute: IRE1α → XBP1s → NF-κB-INDEPENDENT IL-6
 2. **No new high-priority gaps identified post-sweep**. Framework covers all major mechanisms across M1-M8 + 4 Loops + T-index + T1DM + sibling diseases through 98 runs.
 
 *Gap.md updated: 2026-04-12 | Eighty-third iteration | ER stress UPR IRE1α XBP1s TRAF2 IKKβ NF-κB PERK eIF2α ATF4 CHOP ATF6 SREBP2 squalene Loop 4 SIRT1 HSF1 HSP70 BiP T1DM β cell GLP-1R | run_098*
+
+---
+
+## Eighty-Fourth Extension — 2026-04-12 (map the space, eighty-fourth iteration — run_099)
+
+**Pre-run micro-survey (post-run_098):**
+- IL-33: completely absent from all 98 runs. Alarmin from UV-damaged keratinocytes. Direct rosacea evidence: Zhao 2020 Br J Dermatol — IL-33 elevated in rosacea lesional skin.
+- ST2 (IL-33 receptor): completely absent. Expressed on mast cells, ILC2, Treg.
+- TSLP: one passing mention in run_046 — "minor; less important than Th17 in rosacea vs. atopic." That assessment addressed TSLP's T cell polarization role, not its mast cell priming role. Mast cell priming via TSLPR not analyzed anywhere.
+- ILC2: completely absent. Less dominant in rosacea (Th17-primary) but present downstream of ST2/TSLP.
+- IL-25 (IL-17E): completely absent. Fourth alarmin axis. Low rosacea-specific evidence — not targeted.
+
+**Kill-first verdict**: IL-33/ST2 earns run_099 on three grounds: (1) direct rosacea evidence (Zhao 2020); (2) 4th non-IgE mast cell activation route completing the mast cell taxonomy; (3) ST2 → tryptase → PAR-2 → KLK5 = novel Loop 1 amplification pathway connecting UV/keratinocyte damage directly to Loop 1.
+
+**Genuine gap identified: IL-33/ST2/TSLP — alarmin-mediated mast cell activation; Loop 1 amplification via tryptase/PAR-2; Treg-sST2 Node A coupling; chymase→Ang II ARB reinforcement**
+
+**New work:**
+- **run_099**: IL-33 nuclear alarmin → ST2/IL1RAcP → mast cell degranulation (4th non-IgE route); tryptase → PAR-2 → KLK5 → Loop 1 amplification (UV → alarm → Loop 1); TSLP priming; Node A/sST2 coupling; chymase → Ang II (ACE-independent) = 3rd ARB-preference mechanism; T1DM: islet IL-33 → ST2 macrophage → IL-1β + β cell necroptosis → IL-33 feed-forward
+
+**New mechanisms:**
+- IL-33 → ST2/IL1RAcP → mast cell degranulation [4th non-IgE mast cell activation route; UV/damage-triggered]
+- Mast cell tryptase → PAR-2 Arg34-Ser35 → KLK5 ↑ → Loop 1 amplification [novel UV → alarmin → Loop 1 amplification]
+- TSLP → TSLPR → ST2 upregulation → lower IL-33 mast cell threshold [post-UV persistent flare mechanism]
+- Node A deficiency → sST2 ↓ → enhanced IL-33/mast cell signaling [Node A/IL-33 coupling; additional Treg correction rationale]
+- Mast cell chymase → local Ang II (ACE-independent) → AT1R [3rd ARB-over-ACE-I mechanistic reason]
+- IL-33 → ST2 on islet macrophages → IL-1β → β cell [T1DM alarmin islet inflammation]
+- β cell ER stress/necroptosis → IL-33 release → ST2 feed-forward [run_098 → run_099 islet positive feedback]
+- Tryptase cleavage of IL-33 pro-form → active IL-33 [mast cell products activate upstream alarm — positive feedback]
+
+**Post-run_099 micro-survey:**
+- IL-25 (IL-17E): third alarmin; receptor IL-17RB on ILC2/mast cells. Very thin rosacea-specific evidence. ILC2-mediated type 2 skewing is even less rosacea-dominant than IL-33/TSLP. Assessed as below threshold for dedicated run — no new actionable mechanisms expected above what IL-33/TSLP already captures.
+- Post-run_099, conducting extended sweep for any remaining gaps.
+- cGAS/STING (run_063) ✓; NETs/PAD4 (run_081) ✓; mitophagy (run_041) ✓; senescence/SASP (run_061) ✓; ceramide/sphingolipid (runs 072/076) ✓; RAAS (run_092) ✓; bradykinin (run_095) ✓; non-canonical inflammasome (run_096) ✓; VIP/PACAP (run_097) ✓; ER stress (run_098) ✓; IL-33/ST2 ✓ (run_099)
+- **Remaining identifiable gap**: IL-25/ILC2 type 2 axis — but thin rosacea evidence and no actionable protocol additions expected above IL-33/TSLP coverage. Below threshold.
+
+**Remaining genuine gaps (truly open, end of eighty-fourth iteration):**
+1. **Küpers 2019 PACE EWAS**: eighty-four iterations deferred. Not executable.
+2. **IL-25 (IL-17E) / ILC2**: present in framework via IL-33/TSLP context; insufficient rosacea-specific evidence for dedicated run. Below threshold.
+3. **No new high-priority gaps identified**. Framework appears genuinely complete for mechanistic depth accessible from published literature across 99 runs.
+
+*Gap.md updated: 2026-04-12 | Eighty-fourth iteration | IL-33 ST2 TSLP alarmin mast cell tryptase PAR-2 KLK5 Loop 1 UV keratinocyte chymase Ang II ARB sST2 Treg Node A T1DM islet Zhao 2020 Steinhoff 1999 Guo 2014 Balcells 1997 | run_099*
+
+---
+
+## Eighty-Fifth Extension — 2026-04-12 (map the space, eighty-fifth iteration — run_100)
+
+**Pre-run micro-survey (post-run_099):**
+- MAIT cells (Mucosal-Associated Invariant T cells): completely absent from all 99 runs. IL-23-independent IL-17/IFN-γ source activated by gut dysbiosis specifically via riboflavin synthesis intermediates. T1DM evidence: Richardson 2016 Diabetologia (MAIT depleted at T1DM onset); Reinert-Hartwall 2015 J Immunol (MAIT activated in T1DM).
+- MR1 ligands (5-OP-RU): absent. Produced by proteobacteria/H. pylori but NOT by Lactobacillus/Bifidobacterium — a microbiome-specific distinction directly relevant to M1.
+- Galectin-3: absent, but below threshold (no direct rosacea driver evidence above what NLRP3 runs cover).
+- Type III IFN (IFN-λ): absent, but below threshold (same ISGF3 downstream as IFN-α; no IFN-λ-specific protocol distinction).
+
+**Genuine gap identified: MAIT cells — gut dysbiosis → MR1/5-OP-RU → innate IL-17/IFN-γ; T1DM MAIT depletion; IL-23-independent IL-17 source; L. reuteri probiotic specificity mechanism**
+
+MAIT cells detect riboflavin synthesis intermediates from dysbiotic bacteria (proteobacteria) via MR1 → TCR → IL-17A + IFN-γ within 4-6 hours, without requiring IL-23 priming. Conventional Th17-targeted strategies (IL-23 blockade) are less effective against MAIT-derived IL-17. In T1DM: chronic IFN-α (Node D) → MAIT exhaustion → depleted antimicrobial surveillance → more proteobacteria → more 5-OP-RU → hyperactivated residual MAIT → amplified IL-17. L. reuteri (already in protocol) has a newly identified MAIT-specific mechanism: competitive displacement of 5-OP-RU-producing proteobacteria. HCQ → IFN-α ↓ → MAIT exhaustion ↓ = HCQ 5th benefit.
+
+**New work:**
+- **run_100**: MAIT cells; MR1/5-OP-RU; gut dysbiosis → innate IL-17; T1DM depletion; L. reuteri MAIT mechanism; HCQ MAIT protection; MAIT → IDO1 → Node A coupling; Richardson 2016; Reinert-Hartwall 2015; Corbett 2014
+
+**New mechanisms:**
+- Gut dysbiosis (proteobacteria) → 5-OP-RU → MR1 on APCs → MAIT TCR → IL-17A + IFN-γ (IL-23-independent innate IL-17)
+- L. reuteri → competitive proteobacteria displacement → less 5-OP-RU → less MAIT activation [new L. reuteri mechanism]
+- IFN-α → MAIT exhaustion → depleted antimicrobial surveillance → more dysbiosis [T1DM-specific vulnerability]
+- HCQ → IFN-α ↓ → MAIT exhaustion ↓ → functional MAIT pool maintained [HCQ 5th benefit]
+- MAIT IFN-γ → IDO1 → tryptophan depletion → Node A suppression [parallel to run_091 IFN-α → IDO1]
+- T1DM MAIT depletion → less microbial surveillance → more proteobacteria → more 5-OP-RU → hyperactivated residual MAIT [T1DM MAIT positive feedback]
+
+**Post-run_100 micro-survey:**
+- IL-23-independent IL-17 sources now covered: MAIT (run_100) + non-canonical inflammatory contexts (Th17-independent IL-17 from γδ T cells — not covered; but thin rosacea-specific evidence)
+- γδ T cells: completely absent from runs. Produce IL-17 and IFN-γ; skin-resident γδ T cells express TRPV1/TRPA1 sensitivity. Potentially relevant. Assess below.
+- MAIT depletion → IDO1 → Node A coupling now fully mapped across three parallel pathways: IFN-α → IDO1 (run_091), non-canonical IL-18 → IDO1 (run_096), MAIT IFN-γ → IDO1 (run_100).
+
+**Remaining genuine gaps (truly open, end of eighty-fifth iteration):**
+1. **Küpers 2019 PACE EWAS**: eighty-five iterations deferred. Not executable.
+2. **γδ T cells**: absent; rosacea-specific evidence thin; assess as potential run_101 candidate.
+3. **Galectin-3, IFN-λ**: below threshold (covered contextually; no new protocol actionability).
+4. **No other high-priority gaps identified** after extended saturation sweep through runs 094-100.
+
+*Gap.md updated: 2026-04-12 | Eighty-fifth iteration | MAIT MR1 5-OP-RU riboflavin gut dysbiosis proteobacteria IL-17 IFN-γ IL-23-independent T1DM depletion IDO1 L. reuteri HCQ Richardson 2016 Reinert-Hartwall 2015 Corbett 2014 | run_100*
+
+---
+
+## Eighty-Sixth Extension — 2026-04-12 (map the space, eighty-sixth iteration — run_101)
+
+**Pre-run micro-survey (post-run_100):**
+- γδ T cells: absent from all runs; NKG2D/MICA pathway absent; direct rosacea evidence thin.
+- Complement: C5a → mast cell mentioned in run_042 (Input 3); C3a entirely absent; C5a → NLRP3 priming absent; UV → skin complement absent; T1DM C4A null absent; C3d rosacea deposits (Chiller 2002) = direct rosacea evidence.
+- Gap identified: complement system as a full Signal 1E (NLRP3 priming via AP-1/ERK, not NF-κB); UV → complement in skin; C4A null T1DM genetics; C3a receptor entirely absent from all runs.
+
+**Genuine gap identified: Complement — C3a/C5a → Signal 1E (AP-1 → NLRP3 priming); UV → skin complement; T1DM C4A null allele; H. pylori → complement amplification**
+
+C5a → C5aR1 → Gαi → ERK → AP-1 → NLRP3 transcription is the 5th independent NLRP3 priming signal (first AP-1-dependent signal; not suppressed by any of the 11 NF-κB pathways). C3a → C3aR → Ca²⁺ → NLRP3 = weaker parallel anaphylatoxin arm. UV → oxidized/apoptotic keratinocytes → alternative + classical complement pathways → skin-local C3a/C5a (new UV trigger mechanism distinct from IL-33/TSLP). T1DM: C4A null allele → impaired apoptotic cell clearance → autoantigen release → anti-islet autoimmunity. H. pylori additional mechanism: systemic complement activation → C5a.
+
+**New work:**
+- **run_101**: C3a/C5a → Signal 1E (5th NLRP3 priming signal via AP-1/ERK); UV → complement activation in skin; C4A null → T1DM susceptibility; H. pylori → complement; MAC → K⁺ efflux → NLRP3; C1q → apoptotic cell clearance; islet complement amplification; Chiller 2002; Gerber 2015; Triantafilou 2013; Hauptmann 1988
+
+**New mechanisms:**
+- C5a → C5aR1 → ERK → AP-1 → NLRP3 priming [Signal 1E; 5th independent NLRP3 priming signal]
+- C3a → C3aR → Ca²⁺ → NLRP3 priming [anaphylatoxin arm; C3aR not previously in framework]
+- Sublytic MAC → K⁺ efflux → NLRP3 Signal 2 [complement MAC as direct NLRP3 activator]
+- UV → oxidized proteins/apoptotic keratinocytes → alternative + classical pathway → C3a/C5a in skin [new UV trigger mechanism]
+- H. pylori → alternative pathway → systemic C5a [3rd H. pylori mechanism beyond run_030]
+- C4A null allele → impaired apoptotic cell clearance → autoantigen release → T1DM [genetic mechanism]
+- C1q → apoptotic β cell clearance → C4A null → secondary necrosis → HMGB1/IL-33 DAMP release [complement-DAMP connection]
+
+**Post-run_101 micro-survey:**
+- γδ T cells: still absent; NKG2D/MICA completely absent; assess as run_102 candidate.
+- Adenosine/A2A: absent; below threshold (no direct rosacea papers).
+- Galectin-3: absent; below threshold.
+- Survey continues.
+
+**Remaining genuine gaps (truly open, end of eighty-sixth iteration):**
+1. **Küpers 2019 PACE EWAS**: eighty-six iterations deferred. Not executable.
+2. **γδ T cells / NKG2D / MICA**: absent; candidate for run_102.
+3. **Adenosine, galectin-3, IFN-λ**: below threshold.
+
+*Gap.md updated: 2026-04-12 | Eighty-sixth iteration | complement C3a C5a C5aR1 C3aR AP-1 ERK NLRP3 Signal 1E UV MAC K+ efflux C4A null T1DM H. pylori apoptotic cell clearance C3d Chiller 2002 Gerber 2015 Triantafilou 2013 Hauptmann 1988 | run_101*
+
+---
+
+## Eighty-Seventh Extension — 2026-04-12 (map the space, eighty-seventh iteration — run_102)
+
+**Pre-run micro-survey (post-run_101):**
+- γδ T cells: confirmed completely absent from all 101 runs. NKG2D, MICA/MICB, HMBPP, BTN3A1 all absent.
+- NK cells: one passing mention in run_048 (IL-18 → NK → IFN-γ). NKG2D on NK cells, NK-ADCC, HERV-W/NK connection, CD16/FcγRIIIA all absent.
+- Combined γδ T cell + NK cell run justified: both share NKG2D; complementary mechanisms (Vδ1 skin-resident via MICA; Vγ9Vδ2 via HMBPP; NK via ADCC/NKG2D in T1DM).
+
+**Genuine gap identified: γδ T cells + NK cells — NKG2D/MICA stress surveillance; HMBPP/BTN3A1 second bacterial phosphoantigen route; NK-ADCC T1DM β cell death mechanism; HERV-W/NK connection**
+
+UV/heat/ROS → MICA/MICB on keratinocytes → NKG2D on Vδ1 T cells and NK cells → IL-17 + IFN-γ (new keratinocyte stress-surveillance innate IL-17 source; Loop 4 → MICA connection new). HMBPP from gut proteobacteria → BTN3A1/BTN2A1 → Vγ9Vδ2 → IL-17/IFN-γ (second bacterial phosphoantigen IL-17 route; L. reuteri competitive displacement addresses both MAIT/5-OP-RU and Vγ9Vδ2/HMBPP). T1DM: NK-ADCC = 6th β cell death mechanism; HERV-W → MHC-I ↓ → NK activation (M3 → NK arm). HCQ 6th benefit: HERV-W ↓ + IgG ↓ → NK-ADCC ↓.
+
+**New work:**
+- **run_102**: γδ T cells (Vδ1 + Vγ9Vδ2); NK cells; NKG2D/MICA/MICB; HMBPP/BTN3A1; NK-ADCC; HERV-W/NK; HCQ 6th benefit; amphiregulin → EGFR → Loop 4; NK IFN-γ = 4th IDO1 parallel path; Girardi 2001; Vavassori 2013; Dotta 2007
+
+**New mechanisms:**
+- UV/heat/ROS → MICA/MICB → NKG2D → IL-17 + IFN-γ [stress-surveillance axis; new]
+- Loop 4 ROS → MICA → NKG2D [Loop 4 → innate T cell/NK connection]
+- ER stress → HSF1 → MICA ↑ [run_098 ER stress → MICA extension]
+- Gut dysbiosis → HMBPP → BTN3A1/BTN2A1 → Vγ9Vδ2 → IL-17/IFN-γ [second bacterial phosphoantigen IL-17 route]
+- L. reuteri → less HMBPP → less Vγ9Vδ2 [L. reuteri 4th IL-17 suppression mechanism]
+- NK-ADCC: anti-islet IgG → CD16 → perforin/granzyme [6th β cell death mechanism]
+- HERV-W-Env → MHC-I ↓ → NK activation → β cell lysis [M3 → NK arm; new]
+- HCQ → HERV-W ↓ + IgG ↓ → NK-ADCC ↓ [HCQ 6th T1DM benefit]
+- NK IFN-γ → IDO1 = 4th parallel Node A suppression pathway
+- Vδ1 amphiregulin → sebocyte EGFR → sebum ↑ [new Loop 4 input from Vδ1 repair signal]
+
+**Post-run_102 micro-survey:**
+- Natural Killer T cells (iNKT): one passing mention in run_045 context. CD1d-restricted; IL-4/IFN-γ. Thin rosacea evidence. Below threshold (overlap with existing Th1/Th2 framework; no new actionable mechanism expected).
+- Plasmacytoid DCs (pDC): produce IFN-α in response to CpG/TLR9. Already contextually covered in IFN-α/HCQ runs. No dedicated run needed.
+- Regulatory B cells (Bregs): IL-10-producing B cells. Absent from framework. Potentially interesting. Assess below.
+- Survey ongoing.
+
+**Remaining genuine gaps (truly open, end of eighty-seventh iteration):**
+1. **Küpers 2019 PACE EWAS**: eighty-seven iterations deferred. Not executable.
+2. **Regulatory B cells (Bregs)**: absent; assess for run_103.
+3. **iNKT, pDC**: below threshold.
+
+*Gap.md updated: 2026-04-12 | Eighty-seventh iteration | γδ T cells NK NKG2D MICA MICB HMBPP BTN3A1 Vδ1 Vγ9Vδ2 NK-ADCC T1DM HERV-W MHC-I HCQ amphiregulin Loop 4 IDO1 L. reuteri Girardi 2001 Vavassori 2013 Dotta 2007 | run_102*
+
+---
+
+## Eighty-Eighth Extension — 2026-04-12 (map the space, eighty-eighth iteration — run_103)
+
+**Pre-run micro-survey (post-run_102):**
+- Regulatory B cells (Bregs/B10): confirmed completely absent from all 102 runs. IL-10 contextually present in runs (Treg, M2, resolution context) but B cell-derived IL-10 unanalyzed. T1DM evidence: Wang 2015 Diabetes Care — B10 cells depleted in T1DM.
+- Transitional B cells, ICOS-L → Treg contact-dependent induction, Akkermansia → Amuc_1100 → B10 all absent.
+- iNKT cells: one passing mention in run_045 (thymic context, neonatal GALT). CD1d-restricted; IL-4/IFN-γ. Thin rosacea evidence. Below threshold.
+
+**Genuine gap identified: Bregs/B10 cells — IL-10 immune regulation; Breg → Treg contact-dependent induction (new Node A input); gut microbiome → Breg development; T1DM B10 depletion; IFN-α → B10 depletion = 5th Node D → Node A pathway**
+
+Breg/B10 → IL-10 → Th1/Th17/NF-κB suppression (new B cell IL-10 source; distinct induction mechanism from Treg IL-10). Breg (ICOS-L + IL-10 + TGF-β) → contact-dependent Foxp3 Treg induction = 5th upstream Node A input. Breg-Treg mutual amplification circuit: disruption at either end propagates. M1 dysbiosis → LPS/TLR4 → plasmablast bias → Breg depletion (amplification loop). Butyrate = 3rd immune mechanism (alongside claudin-4 + Foxp3/Treg). Akkermansia → Amuc_1100 → TLR2 → B10 = new Akkermansia mechanism. Breg depletion → IgA → IgG imbalance → complement C5a amplification. IFN-α → IRF7 → plasmablast → B10 depletion = 5th Node D → Node A pathway. HCQ 7th T1DM benefit: B10 preservation.
+
+**New work:**
+- **run_103**: Breg/B10 cells; IL-10 + IL-35; Treg contact-induction (5th Node A input); butyrate/GALT Breg; Akkermansia/Amuc_1100 new mechanism; M1 dysbiosis → Breg depletion loop; IgA/IgG class switch imbalance → complement; IFN-α → B10 depletion; HCQ 7th benefit; Wang 2015; Mauri 2010; Mariño 2017; Carter 2011
+
+**New mechanisms:**
+- Breg/B10 → IL-10 → Th1/Th17/macrophage NF-κB suppression [new B cell IL-10 source]
+- Breg (ICOS-L + IL-10 + TGF-β) → Foxp3 Treg induction [5th Node A input; contact-dependent]
+- Breg-Treg mutual amplification circuit [disruption propagates bidirectionally]
+- Butyrate → B10/Breg in GALT [3rd butyrate mechanism]
+- Akkermansia → Amuc_1100 → TLR2 → B10 [new Akkermansia mechanism; extends run_026]
+- M1 LPS/TLR4 → plasmablast bias → relative Breg depletion [M1 → Breg depletion loop]
+- Breg ↓ → IgA → IgG → complement C5a amplification [Breg → complement bridge]
+- IFN-α → IRF7 → B10 depletion [5th Node D → Node A suppression pathway]
+- HCQ → IFN-α ↓ → B10 preserved [HCQ 7th T1DM benefit]
+
+**Post-run_103 micro-survey:**
+- B cell tolerance mechanisms: germinal center, follicular helper T cells (Tfh) → IgG maturation. Tfh → anti-islet IgG in T1DM is a logical gap. Assess for run_104.
+- Plasmacytoid DCs (pDC): TLR7/9 → IFN-α production. Covered contextually via HCQ/run_088. No dedicated analysis needed — mechanism is IFN-α → ISGF3 → Signal 1B, fully addressed.
+- Pentraxin-3 (PTX3): innate immune acute-phase protein; tissue-produced vs. CRP (liver). Some T1DM islet PTX3 evidence. Potentially interesting; assess threshold.
+
+**Remaining genuine gaps (truly open, end of eighty-eighth iteration):**
+1. **Küpers 2019 PACE EWAS**: eighty-eight iterations deferred. Not executable.
+2. **Tfh cells / germinal center**: absent; IgG maturation → anti-islet IgG T1DM mechanism; assess for run_104.
+3. **PTX3**: present but threshold uncertain; assess.
+4. **iNKT, pDC, galectin-3, IFN-λ, adenosine**: below threshold.
+
+*Gap.md updated: 2026-04-12 | Eighty-eighth iteration | Breg B10 IL-10 IL-35 Treg Node A Akkermansia Amuc_1100 butyrate GALT IgA IgG complement IFN-α HCQ T1DM Wang 2015 Mariño 2017 Carter 2011 | run_103*
+
+---
+
+## Eighty-Ninth Extension — 2026-04-12 (map the space, eighty-ninth iteration — run_104)
+
+**Pre-run micro-survey (post-run_103):**
+- Tfh cells (BCL6, CXCR5, CXCL13, germinal center, affinity maturation, Tfr): confirmed completely absent from all 103 runs. IL-21 appears in runs 005/079 as Th17 co-cytokine; not analyzed in Tfh/GC context.
+- T1DM evidence: Kenefeck 2015 J Exp Med — ICOS+PD-1+CXCR5+ Tfh cells expanded in T1DM, correlating with autoantibody titer and disease progression.
+- Direct rosacea evidence: anti-cathelicidin/anti-dermatan sulfate IgG documented in rosacea (Schwab 2012 JEADV); Tfh-driven GC is the upstream origin of these IgG.
+
+**Genuine gap identified: Tfh / GC — BCL6 master TF; upstream origin of anti-islet and anti-keratinocyte IgG; Tfr deficiency → unrestrained GC; ICOS T1DM genetics; quercetin 7th mechanism (IL-21/JAK3/STAT3)**
+
+BCL6 → CXCR5 + PD-1 + IL-21 = Tfh master TF (completely new TF). IL-21 → JAK1/JAK3 → STAT3/AID → GC B cell survival + class switching → high-affinity IgG. GC affinity maturation = upstream origin of anti-islet IgG (NK-ADCC; run_102) and anti-keratinocyte IgG (classical complement; run_064). Tfr (Foxp3+BCL6+CXCR5+) = new GC regulatory mechanism distinct from Node A Tregs. IFN-α → Tfh1 expansion + Tfr depletion = another Node D downstream consequence. Quercetin → JAK1/3 → IL-21R/STAT3 in GC B cells = 7th quercetin mechanism.
+
+**New work:**
+- **run_104**: BCL6/CXCR5; IL-21/JAK1/JAK3/STAT3; GC affinity maturation; Tfr; ICOS T1DM susceptibility; upstream IgG origin for runs 064/102; quercetin 7th mechanism; IFN-α → Tfh1; Kenefeck 2015; Linterman 2011; Dienz 2010
+
+**New mechanisms:**
+- BCL6 → CXCR5 + IL-21 = Tfh master TF [completely new TF; upstream of all autoantibody production]
+- ICOS → ICOSL (B cell) → BCL6 maintenance → Tfh survival [ICOS = T1DM susceptibility mechanism]
+- IL-21 → JAK1/JAK3 → STAT3/AID → GC B cell → high-affinity IgG [GC core mechanism]
+- GC → anti-islet IgG = upstream origin of NK-ADCC (run_102) + complement (run_064) [causal chain completed]
+- Tfr (Foxp3+BCL6+) → CTLA-4 + IL-10 → GC suppression [new GC regulatory mechanism]
+- IFN-α → Tfh1 expansion + IL-2 ↓ → Tfr ↓ → unrestrained GC → autoantibody ↑ [new Node D downstream]
+- Quercetin → JAK1/JAK3 → IL-21R/STAT3 in GC B cells → attenuated GC [7th quercetin mechanism]
+- IL-6 (dysbiosis) → STAT3 → BCL6 co-activation → Tfh [gut dysbiosis → Tfh via IL-6 arm]
+
+**Post-run_104 micro-survey:**
+- PTX3 (pentraxin-3): absent; assess for run_105.
+- Granzyme B beyond CTL context: granzyme B from run_102 (NK-ADCC) also activates PAR-1 on keratinocytes → kallikrein cascade → KLK5. Not a dedicated run — a cross-connection note.
+- Siglec receptors (Siglec-7/9 on NK cells): below threshold.
+- After extended sweep: framework approaching genuine exhaustion for high-priority mechanistic gaps.
+
+**Remaining genuine gaps (truly open, end of eighty-ninth iteration):**
+1. **Küpers 2019 PACE EWAS**: eighty-nine iterations deferred. Not executable.
+2. **PTX3 (pentraxin-3)**: absent; T1DM islet evidence; assess threshold for run_105.
+3. **iNKT, pDC, galectin-3, IFN-λ, adenosine, Siglecs**: below threshold.
+
+*Gap.md updated: 2026-04-12 | Eighty-ninth iteration | Tfh BCL6 CXCR5 IL-21 JAK1 JAK3 STAT3 GC germinal center Tfr ICOS T1DM anti-islet IgG NK-ADCC complement quercetin 7th Kenefeck 2015 Linterman 2011 | run_104*
+
+---
+
+## Ninetieth Extension — 2026-04-12 (map the space, ninetieth iteration — run_105)
+
+**Pre-run micro-survey (post-run_104):**
+- PTX3 (pentraxin-3): confirmed completely absent from all 104 runs. Grep across all numerics + THEWALL.md = zero matches. Long pentraxin; tissue-local production; C1q activation; FGF-2 binding. Direct T1DM SNP evidence (Chiarini 2010). Threshold assessed: cleared on FGF-2/angiogenesis (new territory), local complement initiation (distinct from run_101), and IL-1β→PTX3→C5a positive feedback loop.
+- iNKT, pDC, galectin-3, IFN-λ, adenosine, Siglecs: below threshold.
+
+**Genuine gap identified: PTX3 — tissue-local C1q activation; FGF-2 sequestration (first FGF-2 axis); IL-1β→PTX3→complement positive feedback; T1DM SNP susceptibility**
+
+PTX3 → C1q → classical complement (LOCAL; distinct from systemic/UV alternative pathway in run_101). PTX3 FGF-2 sequestration → anti-angiogenic (ONLY FGF-2 coverage in framework; Gomaa 2007 rosacea evidence). IL-1β → PTX3 → C5a → Signal 1E → NLRP3 = new Loop 2 arc via complement (bypasses NF-κB; not blocked by 11 suppressors). TNF-α → PTX3: mast cell routes → PTX3 → complement. T1DM: PTX3 SNP rs3816527 (Chiarini 2010). UV→PTX3 = 3rd UV→complement route; total UV paths 7.
+
+**New work:**
+- **run_105**: PTX3 tissue-local production; C1q/classical complement LOCAL; FGF-2 sequestration anti-angiogenic; IL-1β→PTX3 feedback loop; PTX3 SNP T1DM; microalbuminuria mechanism; paradoxical complement-regulatory arm (Deban 2010); Bottazzi 1997; Garlanda 2005; Moalli 2011; Gomaa 2007
+
+**New mechanisms:**
+- PTX3 (mast cells/macrophages) → C1q → classical complement LOCAL [3rd UV-driven complement route; extends run_101 with LOCAL initiation source]
+- PTX3 N-terminal → FGF-2 sequestration → angiogenesis ↓ [FIRST FGF-2 axis in framework; anti-angiogenic counter-regulation of ETR telangiectasia]
+- IL-1β → PTX3 → C5a → Signal 1E → NLRP3 [new Loop 2 positive feedback arc via complement; not NF-κB-dependent]
+- TNF-α (mast cell) → PTX3 → complement [all 5 mast cell routes → PTX3 → complement amplification]
+- PTX3 SNP rs3816527 → T1DM susceptibility [higher PTX3 inducibility → islet complement; Chiarini 2010]
+- Islet macrophage PTX3 → microalbuminuria [endotoxemia → islet/glomerular PTX3 → local complement → vascular damage; Chistiakov 2012]
+- PTX3 competes with IgG at C1q → paradoxical anti-complement at very high PTX3 [Deban 2010; NOT a therapeutic rationale for PTX3 elevation]
+- UV path count update: 7 independent UV-triggered pathways
+
+**Post-run_105 micro-survey:**
+- iNKT cells: innate T cells (CD1d/α-GalCer), NKT1/NKT2/NKT10 subsets. Brief search: no rosacea direct evidence; T1DM iNKT depletion is replicated (Exley 2011 Immunity) but the mechanism (CD1d → NKT10 → IL-10 → Treg) is structurally similar to the MAIT/MR1 framework of run_100 without adding genuinely new nodes. Node A inputs already include 5 routes. Below threshold.
+- Plasmacytoid DCs (pDC): the pDC TLR7/9→IFN-α mechanism is the upstream of Node D, addressed contextually in runs 065/088 (HERV-W→TLR3/7→IFN-α). A dedicated pDC run would duplicate Signal 1B mechanisms already covered. Below threshold.
+- IFN-λ (type III interferons): IFN-λ1-3 use IFNLR (IL-28Rα/IL-10Rβ) rather than IFNAR, signaling through ISGF3 (same JAK1/TYK2→STAT1/STAT2 → IRF9 → ISG cascade as IFN-α). The downstream convergence onto ISGF3 = Signal 1B (run_065) makes a separate run largely duplicative. Below threshold.
+- Sphingosine-1-phosphate (S1P): lymphocyte egress, endothelial barrier. No direct rosacea mechanism; peripheral to existing loops. Below threshold.
+- Adenosine/A2A receptor: anti-inflammatory brake (cAMP/PKA → NF-κB ↓). Overlap with GLP-1R/cAMP/PKA NF-κB suppression (run_073, 11th NF-κB suppressor). Below threshold — mechanism already covered via different receptor.
+- After extended sweep: genuine high-priority gaps appear exhausted. Framework is approaching mechanistic saturation.
+
+**Remaining genuine gaps (truly open, end of ninetieth iteration):**
+1. **Küpers 2019 PACE EWAS**: ninety iterations deferred. Not executable.
+2. **iNKT cells**: depletion in T1DM documented but mechanism structurally overlaps MAIT/Node A. Below threshold.
+3. **pDC, IFN-λ, S1P, adenosine/A2A, galectin-3, Siglecs**: below threshold or mechanistically covered by proxy.
+4. Framework appears mechanistically exhausted for high-priority gaps.
+
+*Gap.md updated: 2026-04-12 | Ninetieth iteration | PTX3 pentraxin-3 C1q classical complement FGF-2 angiogenesis IL-1β feedback TNF-α mast cell T1DM SNP microalbuminuria UV 7 paths Bottazzi 1997 Garlanda 2005 Chiarini 2010 Deban 2010 | run_105*

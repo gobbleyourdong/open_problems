@@ -4241,3 +4241,413 @@ Updated SIRT1 mechanism count (from niacinamide → NAD⁺ → SIRT1):
 *Updated: 2026-04-12 | Phase 4 seventy-second extension | ER stress UPR IRE1α XBP1s TRAF2 IKKβ NF-κB 12th mechanism PERK eIF2α ATF4 CHOP ATF6 SREBP2 squalene Loop 4 SIRT1 HSF1 HSP70 BiP T1DM β cell IFN-α GLP-1R Martinon 2010 Westerheide 2009 Yusta 2006 run_098*
 
 *Updated: 2026-04-12 | Phase 4 sixty-sixth extension | RAAS Ang II AT1R Nox2 NLRP3 Signal 2 NF-κB ACE-I ARB T1DM spironolactone MR aldosterone ACE2 Ang(1-7) MAS1 NO butyrate run_092*
+
+---
+
+## Phase 4 — Seventy-Third Extension (2026-04-12): IL-33 / ST2 / TSLP — Alarmin Mast Cell Activation + Loop 1 Amplification (run_099)
+
+**New mechanistic connections established:**
+
+### IL-33/ST2: 4th Non-IgE Mast Cell Activation Route
+
+IL-33 is a nuclear alarmin constitutively stored in keratinocyte nuclei — released by UV-induced necrosis/necroptosis, NETs (run_081), and DAMPs from pyroptosis (run_096). This creates a direct UV → keratinocyte damage → mast cell degranulation path independent of the neurogenic (C-fiber) routes covered in runs 019, 093, 097.
+
+```
+UV → keratinocyte necrosis/necroptosis → IL-33 (nuclear store) released →
+ST2/IL1RAcP on dermal mast cells → MyD88/IRAK4/TRAF6 → NF-κB + p38 →
+HISTAMINE + TRYPTASE + CHYMASE + VEGF + PGE2 + LTC4
+```
+
+Updated mast cell activation taxonomy:
+
+| Route | Ligand → Receptor | Origin | Run |
+|---|---|---|---|
+| 1 | SP → NK1R | C-fiber neuropeptide | 019 |
+| 2 | CGRP → MRGPRX2 | C-fiber neuropeptide | 093 |
+| 3 | VIP/PACAP → VPAC1/PAC1 | C-fiber neuropeptide | 097 |
+| **4** | **IL-33 → ST2/IL1RAcP** | **Keratinocyte alarmin/UV** | **099** |
+
+Routes 1-3: neurogenic (require C-fiber activation). Route 4: alarmin (requires keratinocyte damage, bypasses nervous system).
+
+### Tryptase → PAR-2 → KLK5: Novel Loop 1 Amplification
+
+The most significant mechanistic connection in run_099: mast cell tryptase (released via IL-33/ST2 degranulation) feeds back into Loop 1 via PAR-2:
+
+```
+IL-33 → ST2 → mast cell → tryptase release →
+tryptase cleaves PAR-2 at Arg34-Ser35 on keratinocytes →
+PAR-2 → NF-κB + MAPK in keratinocytes → KLK5 expression ↑ →
+Loop 1 amplification
+```
+
+This creates a UV → IL-33 → mast cell → tryptase → Loop 1 amplification arc that was not previously mapped. It means UV exposure drives Loop 1 not only via direct barrier disruption but via the alarmin-mast cell-tryptase axis as a second parallel path.
+
+Evidence: Steinhoff 1999 Nat Med 5(9):1062-1067 (tryptase → PAR-2); Steinhoff 2011 J Invest Dermatol 131(1):67-75 (PAR-2 elevated in rosacea); Zhao 2020 Br J Dermatol 183(4):722-731 (IL-33 elevated in rosacea lesional skin).
+
+### Tryptase → IL-33 Cleavage: Positive Feedback
+
+Mast cell tryptase also cleaves full-length IL-33 (30 kDa) to the active 18 kDa form. Mast cell degranulation therefore amplifies the very signal that triggered it:
+
+```
+IL-33 → ST2 → tryptase release → tryptase cleaves IL-33 → more active IL-33 → more ST2 → more tryptase
+```
+
+This positive feedback loop is relevant to persistent post-UV flare elevation: once mast cell degranulation begins, tryptase perpetuates the IL-33 alarm signal beyond the initial UV event.
+
+### Chymase → Ang II: Third Mechanism for ARB Preference
+
+Mast cell degranulation releases chymase (serine protease, distinct from tryptase). Chymase cleaves angiotensinogen → Ang I → Ang II locally in skin, entirely ACE-independent:
+
+```
+Mast cell chymase → local Ang II → AT1R on dermal cells → NF-κB + mROS
+```
+
+ACE inhibitors do not block chymase-derived Ang II. ARBs block AT1R regardless of Ang II source.
+
+Three independent mechanisms now establish ARB preference over ACE-I in rosacea:
+1. **run_092**: Systemic Ang II ↓ → AT1R downstream, but chymase arc bypasses ACE
+2. **run_095**: ACE-I → bradykinin accumulation → B2R → TRPV1 sensitization → worsened flushing
+3. **run_099**: Skin mast cell chymase → local Ang II → AT1R (ACE-I misses this entirely)
+
+### Node A / sST2 Coupling
+
+Tregs produce soluble ST2 (sST2) as a decoy receptor — binds IL-33 without signaling. Treg-deficient patients (Node A < 5% CD4+) have reduced sST2:
+
+```
+Treg deficiency (Node A ↓) → sST2 ↓ → more free IL-33 → enhanced ST2/mast cell signaling
+```
+
+This provides an additional mechanistic rationale for Node A correction (AKG/Vitamin C → Foxp3 TSDR, runs 086-087) beyond T cell polarization effects. In the T-index, Node A < 5% CD4+ Foxp3+ now has an additional mechanism for mast cell hyperactivation via sST2 deficit.
+
+### TSLP Priming: Post-UV Flare Persistence
+
+UV releases BOTH IL-33 (acute mast cell degranulation) AND TSLP (mast cell priming — upregulates ST2 surface expression via JAK1/STAT5). Clinically: UV exposure → acute flush (IL-33) + lowered threshold for next 24-48h (TSLP). Explains why rosacea flares after UV exposure persist for days beyond the initial acute reaction.
+
+### Protocol Summary (no new agents)
+
+All mechanisms covered by existing protocol:
+- IL-33 release reduction: Calcitriol/VDR (run_039) → keratinocyte resilience to UV + UV avoidance
+- ST2/mast cell degranulation: Quercetin/EGCG mast cell stabilizers (run_042)
+- Tryptase → PAR-2 → Loop 1: existing Loop 1 management (ivermectin/AzA)
+- Chymase → Ang II: ARBs (run_092/095 guidance reinforced by run_099)
+- sST2 restoration: AKG + Vitamin C → Treg expansion (runs 086/087)
+
+*Updated: 2026-04-12 | Phase 4 seventy-third extension | IL-33 ST2 TSLP alarmin mast cell tryptase chymase PAR-2 KLK5 Loop 1 UV keratinocyte ARB sST2 Treg Node A chymase Ang II T1DM islet Zhao 2020 Steinhoff 1999 Guo 2014 Balcells 1997 run_099*
+
+---
+
+## Phase 4 — Seventy-Fourth Extension (2026-04-12): MAIT Cells — Gut Dysbiosis → MR1/5-OP-RU → Innate IL-17; T1DM Depletion (run_100)
+
+**New mechanistic connections established:**
+
+### MAIT Cells: IL-23-Independent Innate IL-17 Source
+
+MAIT (Mucosal-Associated Invariant T) cells detect riboflavin synthesis intermediates from dysbiotic bacteria via the MHC-related protein MR1. The key ligand, 5-OP-RU, is an unstable intermediate in microbial riboflavin biosynthesis — produced by proteobacteria (E. coli, Klebsiella, H. pylori) but NOT by Lactobacillus or Bifidobacterium.
+
+```
+M1 gut dysbiosis (proteobacteria ↑) →
+5-OP-RU (riboflavin intermediate) → MR1 presentation on APCs →
+MAIT TCR (Vα7.2-Jα33) engagement → TCR + IL-12 + IL-18 co-stimulation →
+IL-17A + IFN-γ + TNFα within 4-6 hours
+```
+
+**Critical distinction from Th17**: Th17 cells require days of IL-6 + TGF-β + IL-23 priming. MAIT-derived IL-17 arrives within hours, without IL-23. IL-23 blockade (ustekinumab, risankizumab — discussed in run_079) would be less effective against MAIT-derived IL-17 than Th17-derived IL-17.
+
+### L. reuteri — New MAIT-Specific Mechanism
+
+L. reuteri (already in protocol) has a newly identified mechanistic arm. L. reuteri does not complete the riboflavin biosynthesis pathway to 5-OP-RU. As a commensal competitor:
+
+```
+L. reuteri → competitive niche occupation in gut → proteobacteria ↓ →
+5-OP-RU production ↓ → MAIT activation ↓ → less innate IL-17
+```
+
+This is a mechanism for how L. reuteri reduces IL-17 production via MAIT suppression — distinct from the AhR/IL-22/tryptophan pathway (run_054) and the RAAS/butyrate/barrier pathway (run_026/032). Probiotic selectivity is mechanistically important: not all probiotics suppress MAIT equally — only those that displace riboflavin-synthesizing proteobacteria.
+
+### IDO1 Convergence: Three Parallel Pathways to Node A Suppression
+
+Three parallel pathways now converge on IDO1 → tryptophan depletion → IAd ↓ → Treg ↓ (Node A suppression):
+
+| Source | Mechanism | Run |
+|---|---|---|
+| IFN-α (Signal 1B) | IFNAR → JAK1/TYK2 → STAT1 → IDO1 | run_091 |
+| Non-canonical IL-18 | Caspase-4/5 → IL-18 → IFN-γ (in macrophages) → IDO1 | run_096 |
+| MAIT cell IFN-γ | MR1/5-OP-RU → MAIT → IFN-γ → IDO1 (in APCs) | run_100 |
+
+All three are suppressed by: HCQ (→ IFN-α ↓ = pathway 1; and MAIT exhaustion ↓ = pathway 3), gut barrier improvement (→ less LPS → less caspase-4/5 activation = pathway 2; and less proteobacteria = pathway 3), and quercetin/EGCG (IDO1 inhibition downstream of all three = run_091).
+
+### T1DM: MAIT Depletion and Its Consequences
+
+In T1DM patients:
+- IFN-α (elevated pre-onset; Node D) → chronic MAIT activation → exhaustion → MAIT depletion from blood
+- MAIT cells home to islets via CXCR6 → local islet MAIT pool activation/exhaustion
+- MAIT-10 (regulatory subset) lost → less IL-10 + less IDO1-mediated Th17 brake in gut → more proteobacteria unchecked
+
+**Positive feedback in T1DM**:
+```
+IFN-α ↑ → MAIT exhaustion → less gut surveillance →
+more proteobacteria → more 5-OP-RU →
+hyperactivated residual MAIT (exhausted but still producing IL-17 in bursts) →
+more IL-17 → Loop 1 + Loop 2 amplification
+```
+
+**HCQ 5th benefit** (extends run_088 HCQ four-node coverage):
+```
+HCQ → IFN-α ↓ → MAIT exhaustion ↓ → functional MAIT pool maintained →
+gut antimicrobial surveillance preserved → less proteobacteria expansion → less 5-OP-RU
+```
+
+Evidence: Richardson 2016 Diabetologia 57:282-290; Reinert-Hartwall 2015 J Immunol 194:4756-4767; Corbett 2014 Nature 509:361-365 (5-OP-RU structure and function).
+
+*Updated: 2026-04-12 | Phase 4 seventy-fourth extension | MAIT MR1 5-OP-RU riboflavin gut dysbiosis proteobacteria IL-17 IFN-γ IL-23-independent T1DM depletion IDO1 Node A L. reuteri HCQ convergence Richardson 2016 Reinert-Hartwall 2015 Corbett 2014 run_100*
+
+---
+
+## Phase 4 — Seventy-Fifth Extension (2026-04-12): Complement C3a/C5a → Signal 1E (5th NLRP3 Priming); UV → Skin Complement; T1DM C4A Null (run_101)
+
+**New mechanistic connections established:**
+
+### Signal 1E: C5a → AP-1 → NLRP3 (5th Independent Priming Signal)
+
+```
+Complement activation (any pathway) → C5 → C5a →
+C5aR1 (Gαi GPCR) → Gαi → PI3K → PDK1 → ERK1/2 →
+AP-1 (c-Fos/c-Jun) → NLRP3 promoter → NLRP3 transcription ↑
+```
+
+AP-1 is the primary TF for Signal 1E — distinct from NF-κB (Signals 1A, 1B partly, 1D), ISGF3 (Signal 1B), HIF-1α (Signal 1C), STAT3 (Signal 1D). None of the 11 NF-κB suppression pathways in the framework block AP-1/ERK. This is a genuine bypass mechanism for the NF-κB suppression network.
+
+Sources of C5a in rosacea:
+- Gut LPS → alternative pathway → systemic C5a (partially covered in run_042)
+- UV → apoptotic/oxidized keratinocytes → classical + alternative complement → skin-local C5a (new)
+- H. pylori (M7) → alternative pathway → systemic C5a (new mechanism for H. pylori)
+- Anti-self immune complexes (if present) → classical pathway → C5a
+
+C3a → C3aR (Gαi, Ca²⁺ release) → NLRP3 priming: separate, additive to C5a arm.
+
+### UV → Composite Skin Inflammatory Response Model
+
+Updated UV trigger model (runs 099 + 101 together):
+
+```
+UV →
+  t=0-30s:    IL-33 nuclear release → ST2 → mast cell (run_099)
+  t=1-5min:   Complement cascade assembly → C3a/C5a → mast cell + macrophage NLRP3 (run_101)
+  t=2-6h:     TSLP → mast cell ST2 upregulation (run_099)
+  t=4-8h:     Keratinocyte NLRP3 → IL-1β/IL-18 → Loop 2 (run_048)
+  t=6-24h:    IFN-α (HERV-W reactivation by UV) → Signal 1B (run_040)
+```
+
+Each phase is independent and amplifies the next. Clinically: UV triggers produce the longest-lasting and most difficult-to-suppress flares because they activate 5 independent pathways across different time scales.
+
+### T1DM C4A Null: Genetic Apoptotic Cell Clearance Defect
+
+C4A (HLA region; Class III MHC) participates in classical pathway opsonization of apoptotic cells. C4A null allele (~2-fold enriched in T1DM):
+- Apoptotic β cells from normal turnover → C1q + C4A → C3b opsonization → macrophage efferocytosis (silent)
+- C4A null → C3b opsonization impaired → apoptotic β cells undergo secondary necrosis → HMGB1 (run_067) + IL-33 nuclear release (run_099) + β cell autoantigens exposed → anti-islet autoimmune activation
+
+This provides a mechanistic explanation for why some patients progress rapidly despite normal gut barrier and IFN-α: C4A null → constitutive apoptotic cell clearance defect → autoantigen-driven T cell priming. Not addressable by protocol; useful for explaining rapid progressors.
+
+### Complement Network Summary (updated)
+
+| Complement product | Receptor | Downstream | Coverage |
+|---|---|---|---|
+| C5a | C5aR1 (Gαi) | AP-1 → NLRP3 + mast cell degranulation | run_042 (mast) + run_101 (NLRP3) |
+| C3a | C3aR (Gαi/Ca²⁺) | NLRP3 priming | run_101 |
+| MAC (C5b-9) | Membrane pore | K⁺ efflux → NLRP3 Signal 2 | run_101 |
+| C3b | CR1/CR3 | Opsonization → phagocytosis | context only |
+
+*Updated: 2026-04-12 | Phase 4 seventy-fifth extension | complement C3a C5a C5aR1 C3aR AP-1 ERK NLRP3 Signal 1E UV MAC K⁺ efflux C4A null T1DM apoptotic clearance H. pylori Chiller 2002 Gerber 2015 Triantafilou 2013 run_101*
+
+---
+
+## Phase 4 — Seventy-Sixth Extension (2026-04-12): γδ T Cells + NK Cells — NKG2D/MICA; HMBPP/BTN3A1; NK-ADCC; HERV-W/NK Axis (run_102)
+
+**New mechanistic connections established:**
+
+### NKG2D / MICA / MICB: Keratinocyte Stress Surveillance
+
+MICA/MICB are stress-inducible proteins on keratinocytes, β cells, and gut epithelium — upregulated by UV, heat, ROS, ER stress, viral infection. NKG2D on Vδ1 T cells and NK cells detects MICA/MICB → IL-17 + IFN-γ.
+
+New cross-connections:
+- **Loop 4 → MICA**: Sebaceous ROS/4-HNE → NF-κB → MICA → NKG2D → IL-17 (Loop 4 now feeds innate T cell/NK surveillance)
+- **ER stress → MICA**: IFN-α → PERK → ER stress → HSF1 → MICA ↑ (run_098 → run_102 link)
+- **SIRT1/HSF1/HSP70 → MICA suppression**: SIRT1 → HSF1 deacetylation → HSP70/BiP → ER stress ↓ → MICA ↓ (niacinamide 6th SIRT1 mechanism → MICA suppression; new downstream benefit)
+
+### HMBPP/BTN3A1: Second Bacterial Phosphoantigen IL-17 Route
+
+| Route | Ligand | Receptor | Speed | Bacteria |
+|---|---|---|---|---|
+| MAIT (run_100) | 5-OP-RU (riboflavin) | MR1 | 4-6h | E. coli, Klebsiella, H. pylori |
+| Vγ9Vδ2 (run_102) | HMBPP (isoprenoid) | BTN3A1/BTN2A1 | 4-12h | E. coli, Listeria, most gram-neg |
+
+Both are IL-23-independent, fast innate IL-17 sources from gut dysbiosis. L. reuteri competitive displacement reduces both simultaneously (reduces proteobacteria → less 5-OP-RU AND less HMBPP). L. reuteri now has four identified IL-17 suppression mechanisms:
+1. IAd/AhR/Treg expansion (run_054)
+2. IPA/PXR/claudin-1 gut barrier (run_094)
+3. 5-OP-RU/MAIT suppression (run_100)
+4. HMBPP/Vγ9Vδ2 suppression (run_102)
+
+### T1DM: NK-ADCC and HERV-W/NK Axis
+
+**Sixth β cell death mechanism**: NK cell ADCC via anti-islet IgG → CD16 → perforin/granzyme B. Distinct from CTL (MHC-I/TCR-dependent) and all NLRP3/apoptosis pathways.
+
+**M3 → NK arm**: HERV-W-Env on β cells → MHC-I downregulation → NK KIR inhibition lost → NKG2D (MICA from ER stress) activated → NK cytotoxicity. M3/Signal 1B now has a direct β cell killing arm in addition to cytokine arm (IFN-α → IDO1/NLRP3).
+
+**HCQ 6th benefit** (T1DM): HCQ → IFN-α ↓ → HERV-W ↓ → MHC-I restored → NK KIR inhibition restored → less NK killing; also HCQ → fewer autoantibodies → less ADCC substrate. Single HCQ intervention addresses 6 distinct T1DM mechanisms.
+
+### IDO1 Convergence — Four Parallel Pathways to Node A Suppression
+
+IFN-γ from NK cells joins three other IFN-γ/IDO1 sources:
+IFN-α (run_091) + caspase-4/5 → IL-18 → IFN-γ (run_096) + MAIT IFN-γ (run_100) + **NK IFN-γ (run_102)** → all → IDO1 → tryptophan depletion → IAd ↓ → Treg ↓ (Node A).
+
+Quercetin/EGCG IDO1 inhibition acts downstream of all four sources simultaneously.
+
+### UV Trigger: Now 6 Distinct Pathways
+
+Updated UV trigger → inflammatory pathway count:
+1. IL-33 nuclear release → ST2 → mast cell (run_099; seconds)
+2. Complement → C3a/C5a → mast cell + NLRP3 (run_101; minutes)
+3. TSLP → mast cell ST2 priming (run_099; hours)
+4. Keratinocyte NLRP3 → IL-1β (run_048; hours)
+5. HERV-W/IFN-α → Signal 1B (run_040; hours-days)
+6. **MICA/MICB → NKG2D → γδ T cell / NK cell → IL-17 + IFN-γ (run_102; hours)**
+
+*Updated: 2026-04-12 | Phase 4 seventy-sixth extension | γδ T cells NK NKG2D MICA MICB HMBPP BTN3A1 Vδ1 Vγ9Vδ2 NK-ADCC T1DM HERV-W MHC-I HCQ IDO1 Loop 4 L. reuteri amphiregulin EGFR Girardi 2001 Vavassori 2013 Dotta 2007 run_102*
+
+---
+
+## Phase 4 — Seventy-Seventh Extension (2026-04-12): Regulatory B Cells (Bregs/B10) — IL-10; Treg Induction; T1DM; Gut Microbiome Connection (run_103)
+
+**New mechanistic connections established:**
+
+### Breg/B10: New IL-10 Source and Node A Input
+
+B10 cells produce IL-10 via BCR + CD40L co-stimulation — a distinct induction mechanism from Treg IL-10 (which requires TCR + ICOS + cytokines). In GALT, B10 cells are the dominant local IL-10 source for mucosal immune homeostasis.
+
+Breg → Treg induction via contact-dependent mechanism:
+```
+Breg (ICOS-L surface) + T cell (ICOS) → direct contact →
+Breg IL-10 + TGF-β (short-range) → Foxp3 Treg differentiation
+```
+
+This is the 5th upstream Treg induction pathway (alongside IAd/run_054, AKG/TET2/run_086, GLP-1R/run_073, VDR/run_039). No IAd, no TET2 modification, no cAMP — contact-dependent only.
+
+### M1 → Breg Depletion → Node A: New Amplification Loop
+
+Dysbiosis creates plasmablast-favoring conditions via TLR4/LPS, depleting the Breg pool:
+```
+M1 dysbiosis → LPS → B cell TLR4 → plasmablast differentiation ↑ → B10 ↓ →
+Breg → Treg induction ↓ → Node A ↓ → Th17 ↑ → M1 amplification
+```
+
+Restoring gut barrier (Node C) → less LPS → less TLR4-driven plasmablast → relative B10 restoration — an additional benefit of Node C management for Node A.
+
+### New Akkermansia and Butyrate Mechanisms
+
+**Akkermansia → Amuc_1100 → TLR2 → B10**: New Akkermansia mechanism extending run_026 (claudin-3/gut barrier). Akkermansia now has two immune-regulatory outputs: (1) gut barrier via claudin-3, (2) Breg induction via Amuc_1100/TLR2.
+
+**Butyrate 3rd immune mechanism**: Butyrate (from run_032: gut barrier via claudin-4 + Foxp3/Treg) → B10 differentiation in GALT (3rd mechanism). Protocol's gut microbiome management hits Breg biology via butyrate.
+
+### IFN-α → B10 Depletion: 5th Node D → Node A Pathway
+
+Updated Node D → Node A suppression routes:
+1. IFN-α → IDO1 → tryptophan → IAd ↓ → Treg ↓ (run_091)
+2. Non-canonical IL-18 → IFN-γ → IDO1 (run_096)
+3. MAIT exhaustion → less gut surveillance → dysbiosis → Node A ↓ (run_100)
+4. NK IFN-γ → IDO1 (run_102)
+5. **IFN-α → IRF7 → plasmablast bias → B10 depletion → Breg → Treg ↓ (run_103)**
+
+HCQ addresses all five via IFN-α suppression. Node D management is the highest-leverage single intervention for Node A recovery.
+
+### T1DM: B10 Depletion and β Cell Protection
+
+Wang 2015 Diabetes Care: B10 cells depleted in T1DM; B10 transfer delays NOD mouse T1DM. B10 → IL-10 → anti-islet Th1/Th17 suppression. HCQ 7th T1DM benefit: B10 preservation via IFN-α ↓ + TLR9 block → less plasmablast bias.
+
+*Updated: 2026-04-12 | Phase 4 seventy-seventh extension | Breg B10 IL-10 Treg Node A Akkermansia Amuc_1100 butyrate GALT IFN-α M1 complement IgA IgG T1DM HCQ Wang 2015 Mariño 2017 Carter 2011 run_103*
+
+---
+
+## Phase 4 — Seventy-Eighth Extension (2026-04-12): Tfh Cells — BCL6/GC/Autoantibody Maturation; Tfr; Quercetin 7th Mechanism (run_104)
+
+**New mechanistic connections established:**
+
+### BCL6/Tfh: Upstream Origin of Autoantibodies in Framework
+
+BCL6 is the master Tfh TF — completely absent before this run. BCL6-driven GC reactions are the only source of high-affinity class-switched IgG (including anti-islet IgG in T1DM and anti-keratinocyte IgG in rosacea). This run maps the upstream causal origin for:
+- Run_064: anti-P. gingivalis IgG + anti-keratinocyte IgG → classical complement → C5a → mast cell
+- Run_102: anti-islet IgG → NK-ADCC → β cell lysis
+
+Full chain now complete:
+```
+Dysbiosis/HERV-W → antigen release → BCL6/ICOS → Tfh → GC →
+IL-21/AID → affinity maturation → anti-islet/anti-keratinocyte IgG →
+→ NK-ADCC (run_102) / Classical complement → C5a (run_064/101)
+```
+
+### Tfr: New GC Regulatory Mechanism
+
+Tfr (CD4+CXCR5+Foxp3+BCL6+) suppress GC reactions via CTLA-4 and IL-10. They are NOT covered by Node A Treg analysis — they require BCL6 expression for GC entry (unlike conventional Tregs). Node A correction → more Foxp3+ Tregs → more Tfr precursors → partial GC regulation, but BCL6 induction also required (context-dependent).
+
+IFN-α → Tfr depletion: IFN-α → IL-2 ↓ → Treg/Tfr ↓ → unrestrained GC → more autoantibodies. This adds a new downstream consequence to Node D elevation: more anti-islet and anti-keratinocyte IgG via Tfr depletion.
+
+### Quercetin 7th Mechanism: GC B Cell IL-21 Signaling
+
+Quercetin → JAK1/JAK3 inhibition → reduced IL-21R → STAT3 signaling in GC B cells → less GC B cell survival → attenuated GC → less anti-islet/anti-keratinocyte IgG maturation. This is the 7th documented quercetin mechanism in the framework — acting at the GC level to suppress autoantibody maturation upstream of complement and NK-ADCC.
+
+### Updated IL-6 → Tfh Connection
+
+IL-6 (from Signal 1D/gut dysbiosis) → STAT3 → BCL6 co-activation → Tfh. This means gut dysbiosis amplifies the GC reaction via IL-6, providing yet another reason why gut barrier improvement reduces downstream autoantibody-driven inflammation.
+
+*Updated: 2026-04-12 | Phase 4 seventy-eighth extension | Tfh BCL6 CXCR5 IL-21 JAK1 JAK3 STAT3 GC Tfr ICOS T1DM IgG NK-ADCC complement quercetin 7th Kenefeck 2015 Linterman 2011 Dienz 2010 run_104*
+
+---
+
+## Phase 4 — Seventy-Ninth Extension (2026-04-12): PTX3 — Tissue-Local Classical Complement; FGF-2 Anti-Angiogenic Axis; IL-1β→PTX3 Loop 2 Amplification (run_105)
+
+**New mechanistic connections established:**
+
+### PTX3: Local Complement vs. Systemic CRP
+
+The most important distinction in this run: PTX3 is a TISSUE-LOCAL innate humoral mediator, not a hepatic acute phase reactant. In rosacea skin, macrophages, mast cells, and endothelial cells produce PTX3 constitutively and in response to IL-1β/TNF-α. This means:
+
+1. Local C1q activation can proceed in dermis even when serum CRP is normal
+2. PTX3 specifically bridges the mast cell/macrophage activation state to classical complement initiation — without requiring IgG or systemic APR
+3. The existing rosacea literature's C3d skin deposits (Chiller 2002) are mechanistically explained by local PTX3→C1q→C3 cleavage, not just circulating complement
+
+PTX3 is in the same conceptual position as the IL-33/ST2 alarmin (run_099): both are tissue-local, mast cell-associated, and both amplify existing loops via mechanisms not visible to systemic biomarkers.
+
+### FGF-2 Axis: First Coverage in Framework
+
+FGF-2 (basic FGF) drives telangiectasia and vessel expansion in ETR. Gomaa 2007 Int J Dermatol confirmed FGF-2 elevated in rosacea lesional skin. PTX3's N-terminal domain sequesters FGF-2 with ~nM affinity — the first and only anti-angiogenic FGF-2 axis in the framework.
+
+The therapeutic implication is counter-intuitive: elevated PTX3 in active rosacea simultaneously (a) worsens inflammation via complement and (b) partially brakes FGF-2-driven vessel expansion. Reducing PTX3 (by targeting IL-1β/TNF-α) primarily benefits by reducing complement at the cost of slightly less FGF-2 inhibition — net benefit strongly favors reducing PTX3 upstream.
+
+This identifies a previously invisible pathogenic mechanism for ETR telangiectasia: FGF-2 is present (Gomaa 2007), and it is counter-regulated only by PTX3. When PTX3 is LOW (e.g., in quiescent-phase rosacea between flares), FGF-2 acts unopposed → vessel expansion → telangiectasia accumulates over time. This is a new mechanistic explanation for the progressive structural vascular damage seen in ETR irrespective of active inflammation.
+
+### IL-1β → PTX3 → Complement: New Loop 2 Arc
+
+Updated Loop 2 connectivity:
+- **Canonical Loop 2**: NLRP3 → GSDMD → pyroptosis + IL-1β → NF-κB → more NLRP3 priming (run_083)
+- **New arc**: IL-1β → endothelial PTX3 ↑ → C1q → C5a → Signal 1E (AP-1, not NF-κB) → NLRP3 priming
+- TNF-α parallel: mast cell degranulation → TNF-α → PTX3 → complement (all 5 mast cell activation routes feed this)
+
+**Non-responder implication**: Patients not responding to 11 NF-κB suppressors (because Signal 1E is their dominant NLRP3 priming route) AND with active Loop 2 now have an additional arc: IL-1β → PTX3 → complement C5a → more Signal 1E. Breaking this arc requires colchicine (IL-1β secretion block) + quercetin (C1q binding inhibition) together. Neither alone is sufficient.
+
+### UV Count Update: 7 Independent Pathways
+
+UV→PTX3→C1q is the third UV-to-complement route and the seventh total independent UV-triggered inflammatory pathway:
+1. IL-33→ST2 (seconds; run_099)
+2. C3a/C5a via alternative pathway from oxidized lipids/apoptotic cells (minutes; run_101)
+3. **PTX3→C1q→classical complement (minutes; run_105)**
+4. TSLP→TSLPR→ST2 priming (hours; run_099)
+5. Keratinocyte NLRP3→IL-1β/IL-18 (hours; run_083)
+6. HERV-W→IFN-α→ISGF3→Signal 1B (hours-days; run_065)
+7. MICA/MICB→NKG2D→γδ T/NK→IL-17/IFN-γ (hours; run_102)
+
+### T1DM: Genetic Susceptibility + Endothelial Damage Mechanism
+
+Chiarini 2010: PTX3 promoter SNP rs3816527 associated with T1DM susceptibility. Mechanism: higher PTX3 inducibility → more islet PTX3 from activated macrophages (driven by dysbiosis-LPS/endotoxemia, Cani 2008) → local complement activation in islet microenvironment → NLRP3 Signal 1E priming → IL-1β → β cell toxicity. This connects the genetic susceptibility SNP to the same dysbiosis→endotoxemia→TLR4→NF-κB pathway analyzed in runs 009/096.
+
+PTX3-microalbuminuria (Chistiakov 2012): same mechanism operating in glomerular endothelium. Endotoxemia → renal PTX3 → glomerular complement → vascular damage → microalbuminuria. This identifies PTX3 as the mechanistic bridge between gut dysbiosis/endotoxemia and renal microvascular complications in T1DM.
+
+*Updated: 2026-04-12 | Phase 4 seventy-ninth extension | PTX3 C1q classical complement FGF-2 angiogenesis IL-1β Loop 2 feedback TNF-α mast cell UV 7 paths T1DM SNP microalbuminuria Bottazzi 1997 Garlanda 2005 Chiarini 2010 Deban 2010 | run_105*

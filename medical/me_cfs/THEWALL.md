@@ -461,3 +461,121 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 3. **PERK → ISR in ME/CFS**: The Integrated Stress Response (ISR; eIF2α phosphorylation) is activated by PERK, GCN2 (run_091), HRI (heme deprivation), and PKR (dsRNA). ME/CFS → ISR via multiple arms. ISR → ATF4 → amino acid metabolism alterations → metabolomic signature (Naviaux 2016 metabolomics context). PERK is one ISR input explaining ME/CFS metabolic dysregulation.
 
 **Cross-reference: run_098 dysbiosis framework | ER stress IRE1α XBP1s PERK eIF2α ISR ME/CFS mitochondrial MAM microglial neuroinflammation | Naviaux 2016 Nakatomi 2014 Westerheide 2009**
+
+---
+
+## ME/CFS Cross-Reference: run_099 (IL-33 / ST2 — Alarmin Mast Cell Activation + Neuroinflammation)
+
+**ME/CFS relevance: IL-33 → mast cell hyperactivation in ME/CFS; TSLP → mast cell priming; sST2 deficit from Treg dysfunction; tryptase → PAR-2 → neuroinflammatory amplification**
+
+1. **Mast cell activation in ME/CFS**: Mast cell activation disorder is increasingly recognized in ME/CFS and overlaps with POTS and fibromyalgia (Theoharides 2019 Trends Immunol). The five-route mast cell activation taxonomy (runs 019/093/097/099) applies to ME/CFS mast cell hyperactivation. IL-33 from tissue damage (infections, physical stress) → ST2 → mast cell degranulation. Unlike rosacea (UV-driven IL-33), ME/CFS context is likely post-infectious keratinocyte/epithelial stress, DAMP release from chronic low-level tissue damage, and NETs (run_081) from persistently activated neutrophils.
+
+2. **TSLP → mast cell priming in ME/CFS**: ME/CFS patients have frequent sensory hypersensitivity and barrier dysfunction. TSLP from intestinal epithelium (gut barrier disruption, run_094 context) → TSLPR on gut mast cells and DCs → mast cell ST2 upregulation → lower IL-33 threshold. Gut barrier defect in ME/CFS → TSLP + LPS → mast cell priming: two alarmin sources converging in the gut.
+
+3. **sST2 deficit from Treg dysfunction**: ME/CFS has Treg dysfunction (evidence: lower Foxp3+ frequency in ME/CFS cohorts; Brenu 2011 J Neuroimmunol). Treg → sST2 production. Treg deficiency → reduced sST2 → more free IL-33 available to mast cells and ILC2. Same Node A/sST2 coupling identified in rosacea (run_099) applies directly to ME/CFS where Treg deficit is part of the immune phenotype.
+
+4. **Tryptase → neuroinflammation in ME/CFS**: IL-33 → mast cell → tryptase. Tryptase activates PAR-2 on neurons and endothelial cells — not only keratinocytes. In ME/CFS brain: mast cell tryptase → PAR-2 on brain endothelium → BBB permeability ↑ → more LPS/antigen CNS entry → microglial activation (Nakatomi 2014). Connects to run_096's non-canonical inflammasome (BBB permeability → cytosolic LPS → microglial caspase-4/5) via a tryptase-mediated BBB disruption path.
+
+5. **PEM-alarmin hypothesis**: Physical exertion → skeletal muscle microtrauma → IL-33/IL-25 nuclear store released from damaged muscle fibers → systemic alarmin surge → mast cell + ILC2 activation → IL-4/IL-5/IL-13 + histamine surge → post-exertional amplification of mast cell hyperactivation. This is a new mechanistic candidate for the alarmin component of PEM — not the full PEM explanation but a previously unmapped contribution pathway.
+
+**Cross-reference: run_099 dysbiosis framework | IL-33 ST2 TSLP alarmin mast cell tryptase PAR-2 ME/CFS Treg sST2 gut barrier BBB neuroinflammation PEM | Theoharides 2019 Brenu 2011 Nakatomi 2014**
+
+---
+
+## ME/CFS Cross-Reference: run_100 (MAIT Cells — Gut Dysbiosis → Innate IL-17/IFN-γ; Depletion in ME/CFS)
+
+**ME/CFS relevance: MAIT cells depleted in ME/CFS; gut dysbiosis → MAIT activation; innate IFN-γ → microglial activation; MAIT depletion → barrier dysfunction loop**
+
+1. **MAIT depletion in ME/CFS**: Emerging evidence shows MAIT cell depletion in ME/CFS, paralleling T1DM. IFN-α (elevated in some ME/CFS subsets; coxsackievirus/enterovirus-triggered ME/CFS) → chronic MAIT activation → exhaustion → depletion. Alternatively, MAIT cells home to gut tissue in dysbiosis → depleted from blood. The MAIT depletion → loss of antimicrobial gut surveillance → more proteobacteria → more dysbiosis is a potential amplification loop in ME/CFS gut dysfunction.
+
+2. **MAIT-derived IFN-γ → microglial activation in ME/CFS**: Circulating MAIT cells produce IFN-γ rapidly in response to gut bacterial signals. IFN-γ crosses BBB (or activates brain endothelium) → microglial M1 activation (Nakatomi 2014: microglial activation in ME/CFS brain). MAIT-derived IFN-γ from gut dysbiosis is an additional innate IFN-γ source driving the neuroinflammation documented in ME/CFS, alongside the IFN-α/IFN-γ from HERV-W reactivation.
+
+3. **5-OP-RU and gut MAIT hyperactivation in ME/CFS**: ME/CFS has documented gut dysbiosis with proteobacteria increase (Naviaux 2016 metabolomics; Giloteaux 2016 Microbiome). Proteobacteria are the primary 5-OP-RU producers → MAIT hyperactivation → IL-17 + IFN-γ burst in gut → systemic spillover. This is an innate-like, fast mechanism that could contribute to the ME/CFS immune activation without requiring conventional T cell priming.
+
+4. **PEM-MAIT hypothesis**: Physical exertion → increased gut permeability (transient; exercise-induced) → more LPS + 5-OP-RU escape → MAIT activation → IL-17/IFN-γ burst. This is a candidate mechanism for why physical exertion triggers immune activation in ME/CFS beyond the mitochondrial/metabolic PEM mechanisms — MAIT cells provide a fast (~4-6h) cytokine response to exertion-induced gut permeability changes.
+
+5. **L. reuteri and MAIT suppression in ME/CFS**: Same mechanism as rosacea/T1DM. L. reuteri → competitive proteobacteria displacement → less 5-OP-RU → less MAIT activation. In ME/CFS, L. reuteri or similar competitive exclusion probiotics could partially reduce the innate IL-17/IFN-γ arm from MAIT cells.
+
+**Cross-reference: run_100 dysbiosis framework | MAIT MR1 5-OP-RU ME/CFS gut dysbiosis proteobacteria IFN-γ microglial neuroinflammation PEM depletion L. reuteri | Richardson 2016 Giloteaux 2016 Nakatomi 2014**
+
+---
+
+## ME/CFS Cross-Reference: run_101 (Complement C3a/C5a — Neuroinflammation and Gut Dysbiosis Amplification)
+
+**ME/CFS relevance: complement activation in ME/CFS neuroinflammation; C5a → NLRP3 Signal 1E; gut LPS → systemic complement → BBB; C3a in CNS**
+
+1. **Complement in ME/CFS neuroinflammation**: Complement activation is documented in ME/CFS CSF and plasma (Sotzny 2018 EBioMedicine; complement fragments elevated). C3a and C5a in CNS → microglial C3aR/C5aR1 → NLRP3 Signal 1E → IL-1β/IL-6 → neuroinflammation (Nakatomi 2014 context). This is an additional neuroinflammatory driver alongside the non-canonical inflammasome (run_096) and ER stress/XBP1s (run_098) mechanisms.
+
+2. **Gut dysbiosis → LPS → complement → BBB dysfunction**: ME/CFS gut permeability → LPS → alternative complement pathway → systemic C5a → C5aR1 on brain endothelium → eNOS modification → BBB permeability ↑. This creates a gut → complement → BBB permeability → neuroinflammation chain, parallel to the run_094 gut → LPS → TLR4 → BBB pathway. Both operate from gut permeability but via distinct molecules.
+
+3. **C5a → mast cell in ME/CFS**: ME/CFS mast cell hyperactivation (Theoharides 2019). C5a → C5aR1 on mast cells (all tissues including brain mast cells near BBB) → degranulation → histamine + tryptase + PGE2 → neuroinflammation amplification. This is mast cell activation route not requiring neurogenic activation (distinct from NK1R/MRGPRX2/VPAC1/PAC1/ST2 routes covered in runs 019/093/097/099).
+
+4. **PEM and complement**: Physical exertion → transient gut permeability ↑ (run_100 context) → LPS burst → alternative complement → C5a spike → Signal 1E → acute NLRP3/IL-1β surge. Complement C5a contributes to the post-exertional cytokine burst hypothesis for PEM alongside the MAIT → IL-17 hypothesis (run_100) and IL-33/alarmin hypothesis (run_099).
+
+**Cross-reference: run_101 dysbiosis framework | complement C3a C5a C5aR1 C3aR ME/CFS neuroinflammation BBB mast cell PEM gut permeability Signal 1E NLRP3 | Sotzny 2018 Nakatomi 2014 Triantafilou 2013**
+
+---
+
+## ME/CFS Cross-Reference: run_102 (γδ T Cells + NK Cells — NKG2D/MICA; NK Dysfunction in ME/CFS)
+
+**ME/CFS relevance: NK cell dysfunction is the most replicated immune finding in ME/CFS; NKG2D/MICA stress surveillance; HMBPP-Vγ9Vδ2 gut dysbiosis → IL-17/IFN-γ; IDO1 4th convergence pathway**
+
+1. **NK cell dysfunction — most replicated finding in ME/CFS**: Reduced NK cell cytotoxicity is among the most consistently replicated immune findings in ME/CFS (Brenu 2011 J Neuroimmunol; Caligiuri 2001; multiple cohorts). The mechanism is not fully established but includes: reduced perforin/granzyme expression, elevated inhibitory KIR expression, NKG2D downregulation from chronic sMICA shedding. ME/CFS NK dysfunction means less innate viral surveillance → persistent viral triggers → more HERV-W reactivation potential → more IFN-α loop amplification.
+
+2. **sMICA decoy in ME/CFS**: Chronic inflammation → ADAM10/17 → MICA shedding → sMICA → NKG2D downregulation on NK cells and Vδ1 T cells. This creates NK cell exhaustion/dysfunction via receptor downregulation — a new mechanism for the well-replicated ME/CFS NK dysfunction finding. sMICA is measurable and elevated in some chronic inflammatory conditions.
+
+3. **HMBPP → Vγ9Vδ2 → IFN-γ in ME/CFS**: ME/CFS gut dysbiosis (Giloteaux 2016) → proteobacteria ↑ → HMBPP ↑ → Vγ9Vδ2 activation → IL-17 + IFN-γ. This is a second bacterial phosphoantigen innate IL-17/IFN-γ source (alongside MAIT/5-OP-RU from run_100) operating from gut dysbiosis without requiring Th17 priming.
+
+4. **NK IFN-γ → IDO1 → ME/CFS neuroinflammation**: NK cell IFN-γ is now the fourth parallel IDO1 activation pathway (alongside IFN-α, caspase-4/5-IL-18, MAIT IFN-γ). In ME/CFS: multiple IFN-γ sources → IDO1 → kynurenine → quinolinic acid (QUIN) → NMDA agonist → neuroinflammation and cognitive dysfunction. IDO1 inhibition (quercetin/EGCG, run_091) acts downstream of all four IFN-γ sources.
+
+**Cross-reference: run_102 dysbiosis framework | NK cells γδ T cells NKG2D MICA NKG2D dysfunction ME/CFS HMBPP Vγ9Vδ2 sMICA IDO1 IFN-γ | Brenu 2011 Giloteaux 2016 Girardi 2001 Vavassori 2013**
+
+---
+
+## ME/CFS Cross-Reference: run_103 (Regulatory B Cells/Bregs — IL-10 Depletion + Gut Dysbiosis → Breg Loss + Node A)
+
+**ME/CFS relevance: B10 depletion in ME/CFS; gut dysbiosis → Breg depletion; less IL-10 → neuroinflammation; Breg-Treg circuit disruption**
+
+1. **B10 depletion in ME/CFS**: Emerging evidence suggests Breg/B10 cell dysfunction in ME/CFS paralleling other autoimmune conditions. IFN-α (elevated in ME/CFS subsets; viral-triggered) → IRF7 → plasmablast bias → B10 depletion — same mechanism as T1DM. Less GALT B10 → less IL-10 → more gut inflammation → worse gut barrier → more LPS → more TLR4 activation.
+
+2. **Gut dysbiosis → B10 depletion loop in ME/CFS**: ME/CFS gut dysbiosis (Giloteaux 2016: proteobacteria ↑, Firmicutes ↓) → LPS/TLR4 → plasmablast bias → B10 ↓ → less GALT IL-10 → less IgA switching → less sIgA → less gut barrier → more dysbiosis. The Breg depletion amplifies the gut dysbiosis → permeability cycle already documented.
+
+3. **Breg-Treg circuit disruption in ME/CFS**: ME/CFS has Treg dysfunction (Brenu 2011). Treg ↓ → B10 support ↓ → B10 ↓ → Treg induction ↓ → further Treg ↓. The mutual Breg-Treg circuit amplification loop is particularly relevant to ME/CFS where both Treg and B10 deficiencies co-occur.
+
+4. **Less IL-10 → neuroinflammation**: B10-derived IL-10 suppresses microglial activation. B10 depletion → less IL-10 in systemic/CNS circulation → microglial NF-κB ↑ → neuroinflammation (Nakatomi 2014 context). This is an additional mechanism for neuroinflammation beyond the non-canonical inflammasome (run_096) and ER stress/XBP1s (run_098) mechanisms.
+
+5. **Akkermansia and butyrate for Breg restoration**: Akkermansia (Amuc_1100 → TLR2 → B10) and butyrate (B10 induction in GALT) provide mechanistic rationale for microbiome-focused interventions in ME/CFS beyond gut barrier repair — specifically targeting the Breg pool.
+
+**Cross-reference: run_103 dysbiosis framework | Breg B10 IL-10 ME/CFS gut dysbiosis Treg circuit IFN-α neuroinflammation Akkermansia butyrate | Brenu 2011 Giloteaux 2016 Wang 2015 Carter 2011**
+
+---
+
+## ME/CFS Cross-Reference: run_104 (Tfh / GC — Autoantibody Production in ME/CFS; Tfr Deficiency)
+
+**ME/CFS relevance: IgG autoantibodies in ME/CFS; Tfh-driven GC as their origin; Tfr deficiency → unrestrained GC; anti-adrenergic/anti-muscarinic IgG → autonomic dysfunction**
+
+1. **IgG autoantibodies in ME/CFS**: Multiple ME/CFS cohorts have documented IgG autoantibodies — notably anti-β2-adrenergic receptor (β2-AR) and anti-M3/M4 muscarinic receptor antibodies (Loebel 2016 Brain Behav Immun; Scheibenbogen 2018). These autoantibodies alter autonomic signaling (β2-AR → vasodilation/tachycardia; M3 → exocrine glands). BCL6/Tfh-driven GC reactions are the upstream source of these IgG. Without GC, these autoantibodies cannot achieve the high affinity needed for receptor dysfunction.
+
+2. **Tfh expansion in ME/CFS**: Chronic viral triggers (Epstein-Barr virus, enterovirus) → persistent antigen → BCL6/ICOS → Tfh expansion → GC in mesenteric and cervical lymph nodes → high-affinity anti-receptor IgG. The same GC mechanism that produces anti-islet IgG in T1DM produces anti-adrenergic IgG in ME/CFS.
+
+3. **Tfr deficiency → unrestrained GC**: IFN-α elevation in ME/CFS subsets → IL-2 ↓ → Treg/Tfr ↓ → unrestrained GC → accumulating pathogenic IgG over months-years. This explains the gradual accumulation of ME/CFS autoantibody titers post-infection.
+
+4. **Quercetin → GC B cell suppression (7th mechanism)**: Quercetin → JAK1/3 → IL-21R/STAT3 in GC B cells → attenuated GC → less pathogenic IgG. A potential mechanism for quercetin reducing ME/CFS autoantibody levels over time. No dedicated ME/CFS quercetin trial for IgG endpoints, but mechanistically supported.
+
+**Cross-reference: run_104 dysbiosis framework | Tfh BCL6 GC IgG autoantibody β2-AR M3 muscarinic ME/CFS Tfr IFN-α quercetin | Loebel 2016 Scheibenbogen 2018 Kenefeck 2015 Linterman 2011**
+
+---
+
+### run_105 Cross-Reference: PTX3 — Endothelial Activation, Vascular Complement, Anti-β2-AR IgG Loop
+
+**Mechanisms relevant to ME/CFS:**
+
+1. **Anti-β2-AR IgG → endothelial PTX3 → vascular complement**: Tfh-driven GC (run_104) → anti-β2-AR IgG (Loebel 2016 Brain Behav Immun) → endothelial receptor activation → IL-1β + TNF-α release → endothelial PTX3 ↑ → C1q → classical complement → MAC → endothelial microinjury → impaired small vessel autoregulation → orthostatic intolerance. PTX3 is the local complement amplifier downstream of the autoantibody-endothelial activation step.
+
+2. **NK dysfunction → DAMP → mast cell → PTX3**: NK cytotoxicity defect (most replicated ME/CFS finding; Brenu 2011, run_102) → uncleared virus-infected/stress-response cells → ongoing DAMP release → mast cell TLR/MRGPRX2 activation → PTX3 production → complement amplification → persistent vascular inflammation.
+
+3. **FGF-2 in ME/CFS vascular dysfunction**: PTX3 sequestration of FGF-2 is context-dependent. In ME/CFS, FGF-2 paradoxically may support endothelial repair (angiogenic); PTX3-driven FGF-2 sequestration could impair compensatory vascular repair attempts. No direct ME/CFS FGF-2 PTX3 data — speculative/low-confidence.
+
+4. **PTX3 as biomarker of endothelial activation**: If serum PTX3 is accessible, elevated PTX3 with normal CRP in ME/CFS would suggest local endothelial/tissue inflammation without systemic hepatic APR — consistent with ME/CFS immune phenotype where standard inflammatory markers are often within normal limits.
+
+**Cross-reference: run_105 dysbiosis framework | PTX3 endothelial complement FGF-2 anti-β2-AR IgG NK dysfunction vascular ME/CFS | Bottazzi 1997 Garlanda 2005 Deban 2010 Loebel 2016**

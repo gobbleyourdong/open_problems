@@ -2990,3 +2990,374 @@ All six mechanisms are activated by the same niacinamide → NAD⁺ → SIRT1 pa
 - β cell ↑ (IFN-α → PERK → CHOP ↓; run_098)
 
 *Protocol_integration.md Part 9ax — 2026-04-12 | ER stress UPR IRE1α XBP1s TRAF2 IKKβ NF-κB 12th mechanism ATF6 SREBP2 squalene Loop 4 SIRT1 HSF1 HSP70 BiP T1DM β cell PERK CHOP HCQ four nodes | run_098*
+
+---
+
+## Part 9ay — IL-33 / ST2 / TSLP: Alarmin Mast Cell Activation + Loop 1 Amplification (run_099)
+
+### Updated Mast Cell Activation Overview
+
+Rosacea mast cells can be activated via five routes. Only one is IgE-dependent (standard allergic); four are IgE-independent:
+
+| Route | Activation signal | Therapeutic lever |
+|---|---|---|
+| IgE-dependent | IgE + allergen → FcεRI crosslinking | Antihistamines (H1R) + avoidance |
+| NK1R | SP from C-fibers (run_019) | TRPV1/TRPA1 reduction → less SP |
+| MRGPRX2 | CGRP from C-fibers (run_093) | TRPV1/TRPA1 reduction → less CGRP |
+| VPAC1/PAC1 | VIP/PACAP from C-fibers (run_097) | TRPV1/TRPA1 reduction → less VIP/PACAP |
+| **ST2** | **IL-33 from UV-damaged keratinocytes (run_099)** | **UV protection + calcitriol/VDR + mast cell stabilizer** |
+
+**Clinical take**: Antihistamines block only the downstream histamine effects — not any of the four non-IgE activation routes. Mast cell stabilizers (quercetin, EGCG, cromolyn/ketotifen if prescribed) act on all five routes. For neurogenic routes (1-3), upstream TRPV1/TRPA1 management reduces trigger sensitivity. For the alarmin route (4), UV protection and VDR/calcitriol reduce IL-33 release.
+
+### Tryptase → PAR-2 → Loop 1: Clinical Implication
+
+Mast cell degranulation via ST2 releases tryptase → tryptase cleaves PAR-2 on keratinocytes → KLK5 ↑ → Loop 1 amplification. This creates a UV → mast cell → Loop 1 arc:
+
+**Pattern**: UV-predominant trigger pattern + Loop 1 non-responder → consider whether alarmin route is feeding Loop 1. If ivermectin/AzA managing KLK5 but UV exposure ongoing → residual alarmin-driven Loop 1 amplification.
+
+**Management step**: Reinforce UV protection + calcitriol adequacy (Node E: 25(OH)D3 > 60 ng/mL; VDR-mediated keratinocyte photoprotection) + confirm mast cell stabilizer (quercetin/EGCG) in place.
+
+### Post-UV Persistent Flare Pattern
+
+UV releases IL-33 (acute mast cell degranulation) + TSLP (mast cell priming → upregulates ST2 → lowers threshold for 24-48h post-UV). Explains multi-day flare elevation after UV exposure that outlasts the initial acute flush.
+
+**Management**: UV avoidance remains mechanistically critical. Physical sunscreen (zinc oxide, titanium dioxide) preferred (chemical UV filters may transiently penetrate barrier). Note: calcitriol/VDR → keratinocyte differentiation → more robust barrier → less UV penetration reaching keratinocyte nuclei.
+
+### sST2 and Node A: Additional Rationale for Treg Correction
+
+Tregs produce soluble ST2 (sST2) — decoy receptor for IL-33. Patients with low Node A (Foxp3+ Treg < 5% CD4+) have reduced sST2 → more free IL-33 → enhanced mast cell degranulation:
+
+```
+Node A ↓ → sST2 ↓ → IL-33 → ST2 → mast cell ↑
+```
+
+**Additional point for Node A correction decision** (AKG + Vitamin C → Foxp3 TSDR demethylation, runs 086-087): Beyond T cell polarization, Treg expansion restores sST2 brake on IL-33/mast cell axis. Patients with low Node A + UV-predominant triggers are candidates for this mechanism.
+
+### Chymase → Ang II: Reinforces ARB Over ACE-I (Third Mechanism)
+
+Mast cell chymase → local skin Ang II independent of ACE. ACE inhibitors cannot block this.
+
+**Cumulative ARB reasoning for T1DM rosacea with active flushing:**
+1. Systemic RAAS: ARB blocks AT1R wherever Ang II comes from (ACE or chymase)
+2. Bradykinin: ACE-I → bradykinin accumulation → B2R → TRPV1 → worsened flushing (run_095)
+3. Local skin RAAS: Mast cell chymase → Ang II bypasses ACE entirely (run_099)
+
+In any T1DM rosacea patient where RAAS management is indicated (e.g., nephroprotection): ARB > ACE-I for all three independent mechanistic reasons. Document in clinical note if switching patient from ACE-I to ARB: reduces flushing risk while maintaining RAAS/nephroprotective benefit.
+
+### T1DM Notes (run_099)
+
+IL-33 → ST2 on islet macrophages → IL-1β → β cell. Evidence: Guo 2014 J Immunol — ST2-KO NOD mice show delayed T1DM onset. Serum sST2 elevated in T1DM patients (Bartleson 2020 JCI Insight) — likely compensatory. β cell ER stress (run_098: PERK/CHOP) → necroptosis → IL-33 nuclear release → ST2 → IL-1β feed-forward. HCQ → IFN-α ↓ → PERK ↓ → less β cell necroptosis → less islet IL-33 release: this is now HCQ's 5th T1DM-relevant mechanism (add to HCQ four-node coverage as: **Node D/β cell PERK/CHOP/IL-33 chain**).
+
+### Monitoring (no new nodes; existing coverage applies)
+
+| IL-33 relevant | T-index / Node | Management |
+|---|---|---|
+| UV-driven IL-33 → mast cell | Node E (Vitamin D/VDR) | 25(OH)D3 > 60 ng/mL |
+| Treg/sST2 deficit | Node A (Foxp3+ Treg) | AKG + Vitamin C if < 8% CD4+ |
+| Mast cell tryptase → KLK5 | No dedicated node; Loop 1 clinical | Ivermectin/AzA + mast cell stabilizer |
+| Chymase → Ang II | No dedicated node | ARB in RAAS-indicated patients |
+
+*Protocol_integration.md Part 9ay — 2026-04-12 | IL-33 ST2 TSLP alarmin mast cell tryptase chymase PAR-2 KLK5 Loop 1 UV keratinocyte ARB sST2 Treg Node A Node E T1DM islet | run_099*
+
+---
+
+## Part 9az — MAIT Cells: Gut Dysbiosis → Innate IL-17; T1DM Depletion; L. reuteri and HCQ MAIT Mechanisms (run_100)
+
+### New Mechanistic Context for Existing Protocol Agents
+
+Run_100 adds mechanistic depth to two already-recommended agents. No new agents or monitoring changes.
+
+**L. reuteri — MAIT suppression mechanism (new):**
+L. reuteri does not produce 5-OP-RU (the MR1 ligand that activates MAIT cells) — it produces riboflavin but does not complete the biosynthesis pathway to the unstable azomethine intermediate. Proteobacteria (E. coli, Klebsiella, H. pylori) do. L. reuteri → competitive displacement of proteobacteria → less 5-OP-RU → less MAIT activation → less IL-23-independent IL-17.
+
+This means L. reuteri suppresses IL-17 production via three distinct mechanisms now mapped:
+1. **IAd/AhR/Treg (run_054)**: L. reuteri → IPA → AhR → Treg expansion → Th17 suppression
+2. **IPA/PXR/claudin-1 (run_094)**: gut barrier → less LPS → less Signal 1A
+3. **MAIT/5-OP-RU (run_100)**: competitive proteobacteria displacement → less innate IL-17
+
+Probiotic compliance and strain specificity are reinforced: L. reuteri (not a generic Lactobacillus species) specifically addresses all three mechanisms. Strain specificity matters.
+
+**HCQ — MAIT protection mechanism (new, 5th HCQ benefit):**
+HCQ → IFN-α ↓ → MAIT exhaustion ↓ → functional MAIT pool maintained → better gut microbial surveillance → less proteobacteria expansion. This is an additional rationale for HCQ in Node D-elevated patients: beyond the direct IFN-α → TLR7/9 block and IDO1/tryptophan benefits, HCQ preserves MAIT cell function, which in turn suppresses the innate IL-17 arm.
+
+**Updated HCQ benefit summary:**
+1. Node D ↓ (TLR7/9 → IFN-α block; run_088)
+2. Node A ↑ (IDO1 → tryptophan → IAd → Treg; run_091)
+3. Node C ↓ (IDO1 → IPA → PXR → claudin-1; run_094)
+4. β cell protection (IFN-α → PERK → CHOP ↓; run_098)
+5. **MAIT protection (IFN-α → MAIT exhaustion ↓ → gut surveillance maintained; run_100)**
+
+### IL-17 Source Taxonomy (Updated)
+
+Three distinct IL-17 sources now in framework:
+
+| IL-17 source | Activation pathway | IL-23 required | Speed | Suppression strategy |
+|---|---|---|---|---|
+| Th17 | IL-6 + TGF-β → RORγt → IL-23 stabilization | YES | Days | Node A (Treg) + IL-23 blockade (run_079) |
+| Th22 | IL-6 → AhR → IL-22 (also some IL-17; run_080) | Variable | Days | AhR management |
+| **MAIT** | **5-OP-RU → MR1 → TCR + IL-12/IL-18** | **NO** | **Hours** | **L. reuteri + HCQ** |
+
+Clinical implication: A patient with persistent IL-17 elevation despite optimal Th17 suppression (Node A correction + Node C gut barrier + Th17 management) → MAIT-derived IL-17 component may be active. Reinforce L. reuteri compliance and H. pylori screening (H. pylori is among the highest 5-OP-RU producers; H. pylori → MAIT hyperactivation is documented).
+
+### T1DM-Specific Notes
+
+Richardson 2016: MAIT cell depletion at T1DM onset. In T1DM patients on this protocol:
+- IFN-α monitoring (Node D) addresses the primary driver of MAIT exhaustion
+- HCQ in Node D-elevated patients has a fifth mechanistic benefit (MAIT)
+- H. pylori eradication (if present; M7 run_030) removes one of the highest 5-OP-RU sources
+
+MAIT depletion is not directly reversible by any current protocol element. However: IFN-α suppression (HCQ) → less exhaustion → slower depletion rate. Long-term: reducing the chronic MAIT activation burden (via L. reuteri + H. pylori eradication + IFN-α suppression) may help preserve the residual MAIT pool.
+
+### Monitoring: No New Nodes
+
+MAIT cell frequency is measurable (Vα7.2+CD161+ or MR1-tetramer staining), but not currently recommended as a routine monitoring parameter. It is technically complex and clinically actionable mainly for specialist T1DM centers. No T-index modification required.
+
+*Protocol_integration.md Part 9az — 2026-04-12 | MAIT MR1 5-OP-RU riboflavin L. reuteri probiotic specificity HCQ five benefits IL-17 sources Th17 Th22 MAIT T1DM H. pylori | run_100*
+
+---
+
+## Part 9ba — Complement: Signal 1E (5th NLRP3 Priming); UV Composite; T1DM C4A Null (run_101)
+
+### Signal 1E — Clinical Decision Rules
+
+**Five independent NLRP3 priming signals:**
+
+| Signal | Source | Suppress how |
+|---|---|---|
+| 1A (NF-κB/LPS) | Gut dysbiosis | Gut barrier (Node C) + TLR4 management |
+| 1B (ISGF3/IFN-α) | HERV-W/M3 | HCQ (Node D); IFN-α monitoring |
+| 1C (HIF-1α) | OSA/succinate | CPAP; PPAR-α/omega-3 |
+| 1D (STAT3/leptin) | Metabolic/obesity | GLP-1R; lifestyle |
+| **1E (AP-1/C5a)** | **Complement** | **Gut barrier (less LPS) + UV protection + H. pylori eradication** |
+
+Signal 1E is not suppressed by any of the 11 NF-κB suppression pathways. The upstream lever is: less complement activation = less C5a. Downstream: the 7 NLRP3 inhibitors act at NLRP3 activation, not priming — they remain effective regardless of which priming signal is active.
+
+**Non-responder with persistent NLRP3/IL-1β despite 4 upstream signals managed**: Consider Signal 1E. Check: (a) H. pylori status (eradication if positive); (b) UV compliance (complement is a UV-triggered inflammatory pathway); (c) Node C (gut barrier — less LPS → less alternative complement).
+
+### UV Composite Model (New Framework Synthesis)
+
+UV is now mapped to 5 distinct independent inflammatory mechanisms across 5 time windows:
+1. IL-33 → ST2 → mast cell (run_099; seconds)
+2. Complement → C3a/C5a → mast cell + NLRP3 (run_101; minutes)
+3. TSLP → mast cell priming (run_099; hours)
+4. Keratinocyte NLRP3 → IL-1β (run_048; hours)
+5. HERV-W/IFN-α → Signal 1B (run_040; hours-days)
+
+**Clinical implication**: UV-triggered flares are the most refractory because they activate mechanisms across hours to days. Management strategy: comprehensive UV protection (physical sunscreen + calcitriol/VDR) is mechanistically the highest-leverage UV intervention, reducing all five mechanisms simultaneously at the source.
+
+### T1DM C4A Null (Non-Actionable; Context Only)
+
+C4A null allele (~30% of T1DM patients): impaired apoptotic cell clearance → β cell autoantigen exposure → accelerated anti-islet immunity. Not addressable by protocol. Provides mechanistic context for rapid progressors — patients with C4A null + other risk signals may benefit from specialist T1DM care escalation. Document in context when evaluating T1DM + rosacea patients with rapid progression despite protocol adherence.
+
+*Protocol_integration.md Part 9ba — 2026-04-12 | complement C3a C5a Signal 1E NLRP3 5 priming signals AP-1 UV composite H. pylori C4A T1DM non-responder | run_101*
+
+---
+
+## Part 9bb — γδ T Cells + NK Cells: NKG2D/MICA; HMBPP/BTN3A1; NK-ADCC; L. reuteri 4th Mechanism (run_102)
+
+### L. reuteri Four-Mechanism IL-17 Suppression (Updated)
+
+L. reuteri is now documented to suppress IL-17 production via four distinct mechanisms:
+
+| Mechanism | Pathway | Run |
+|---|---|---|
+| 1 | IAd/AhR → Treg expansion | run_054 |
+| 2 | IPA/PXR → claudin-1/gut barrier → less LPS | run_094 |
+| 3 | Competitive 5-OP-RU displacement (MAIT suppression) | run_100 |
+| 4 | Competitive HMBPP displacement (Vγ9Vδ2 suppression) | run_102 |
+
+Clinical implication: L. reuteri has more mechanistic justification than any single other probiotic in the protocol. Strain specificity matters — generic "Lactobacillus" products may not provide mechanisms 3 and 4 (which depend on competitive displacement of specific proteobacteria). DSM 17938 and ATCC PTA 6475 are the strains with the most mechanistic support.
+
+### HCQ 6-Mechanism Summary (T1DM Context)
+
+| # | HCQ benefit | Mechanism | Run |
+|---|---|---|---|
+| 1 | Node D ↓ | TLR7/9 → IFN-α block | run_088 |
+| 2 | Node A ↑ | IDO1 → tryptophan → IAd → Treg | run_091 |
+| 3 | Node C ↓ | IDO1 → IPA → PXR → claudin-1 | run_094 |
+| 4 | β cell ER stress ↓ | IFN-α → PERK → CHOP ↓ | run_098 |
+| 5 | MAIT protection | IFN-α → MAIT exhaustion ↓ | run_100 |
+| 6 | NK-ADCC ↓ | HERV-W ↓ + anti-islet IgG ↓ → NK activation ↓ | run_102 |
+
+All six operate through IFN-α suppression or anti-autoimmune consequences of IFN-α reduction. For Node D-elevated T1DM rosacea patients, HCQ has a compelling multi-target benefit profile justifying specialist consultation.
+
+### β Cell Death Mechanisms: Complete Six-Mechanism Overview
+
+| # | Mechanism | Intervention | Run |
+|---|---|---|---|
+| 1 | NLRP3 → IL-1β → iNOS | Colchicine/BHB/7 NLRP3 inhibitors | run_043 |
+| 2 | CTL cytotoxicity via MHC-I | HCQ → IFN-α ↓ → MHC-I normalized | run_088 |
+| 3 | IFN-α → PERK → CHOP → apoptosis | HCQ → IFN-α ↓; SIRT1/HSF1/BiP | run_098 |
+| 4 | IL-33 → islet macrophage → IL-1β | HCQ → IFN-α ↓ → PERK ↓ → less necroptosis | run_099 |
+| 5 | Complement C5a → Signal 1E → NLRP3 | Gut barrier + UV + H. pylori eradication | run_101 |
+| 6 | NK-ADCC: anti-islet IgG → CD16 | HCQ → IgG ↓ + HERV-W ↓ | run_102 |
+
+The only mechanism not primarily addressed by existing protocol is #5 (complement C5a; upstream gut barrier/UV control). Mechanisms 1-4 and 6 are covered by NLRP3 inhibitors + HCQ in combination.
+
+### NKGD2/MICA — Non-Responder Flag
+
+**Pattern**: UV-dominant triggers + persistent IL-17 despite TRPV1/TRPA1 control + mast cell stabilizers → NKG2D/MICA stress-surveillance contribution may be active.
+
+**Management**: Reinforce UV protection + calcitriol/VDR (keratinocyte resilience → less stress → less MICA) + niacinamide (SIRT1 → HSF1 → BiP → ER stress ↓ → MICA ↓). No specific NKG2D blocker available clinically.
+
+*Protocol_integration.md Part 9bb — 2026-04-12 | γδ T cells NK NKG2D MICA HMBPP BTN3A1 L. reuteri 4 mechanisms HCQ 6 benefits T1DM β cell 6 death mechanisms NK-ADCC HERV-W | run_102*
+
+---
+
+## Part 9bc — Regulatory B Cells (Bregs/B10): IL-10; Node A 5th Input; Akkermansia + Butyrate New Mechanisms; HCQ 7th Benefit (run_103)
+
+### Node A Upstream Input Map (Complete, run_103)
+
+Five upstream pathways now identified that induce Foxp3+ Tregs (Node A):
+
+| # | Pathway | Protocol element | Run |
+|---|---|---|---|
+| 1 | IAd → AhR → Foxp3 | L. reuteri (IPA/IAd production) | run_054 |
+| 2 | AKG/Vit C → TET2 → TSDR demethylation | AKG + Vitamin C supplementation | runs 086/087 |
+| 3 | GLP-1R → PKA → Foxp3 | GLP-1 agonists (T1DM context) | run_073 |
+| 4 | VDR/calcitriol → Foxp3 | Calcitriol/Vitamin D (Node E) | run_039 |
+| 5 | **Breg (ICOS-L + IL-10 + TGF-β) → contact-dependent Foxp3** | **Gut barrier → B10 pool maintenance** | **run_103** |
+
+Node A non-responders to AKG/Vitamin C (Foxp3 TSDR demethylation) may have Breg depletion as co-factor. Management: address gut barrier (Node C → less LPS → less TLR4 → less plasmablast bias → relative B10 restoration) + IFN-α management (HCQ → B10 preserved).
+
+### Akkermansia Updated Mechanism Count
+
+Akkermansia muciniphila now has three documented mechanisms in the framework:
+1. Claudin-3/occludin tight junction restoration (run_026)
+2. Amuc_1100 → TLR2 → B10/Breg induction (run_103)
+3. A2 protein → GPR41 → gut motility context (run_026 extension, minor)
+
+Akkermansia protocol justification is further reinforced.
+
+### Butyrate Three-Mechanism Summary
+
+Butyrate (from gut microbiome / prebiotic fiber support):
+1. HDAC inhibition → claudin-4/occludin → gut barrier (run_032)
+2. Foxp3 demethylation → Treg stabilization (runs 086/087)
+3. HDAC inhibition → B10 cell differentiation in GALT (run_103)
+
+All three are HDAC-dependent. A single intervention — prebiotic fiber increasing butyrate-producing bacteria (Faecalibacterium prausnitzii, Roseburia) — provides all three benefits.
+
+### HCQ 7-Mechanism T1DM Summary
+
+| # | Benefit | Pathway |
+|---|---|---|
+| 1 | Node D ↓ | TLR7/9 → IFN-α block (run_088) |
+| 2 | Node A ↑ | IDO1 → Treg (run_091) |
+| 3 | Node C ↓ | IDO1 → IPA → claudin-1 (run_094) |
+| 4 | β cell ER stress ↓ | PERK → CHOP ↓ (run_098) |
+| 5 | MAIT protection | IFN-α → MAIT exhaustion ↓ (run_100) |
+| 6 | NK-ADCC ↓ | HERV-W ↓ + IgG ↓ (run_102) |
+| 7 | **B10/Breg preserved** | **IFN-α ↓ → IRF7 → B10 ↓ prevented (run_103)** |
+
+*Protocol_integration.md Part 9bc — 2026-04-12 | Breg B10 Node A 5 inputs Akkermansia Amuc_1100 butyrate HCQ 7 benefits T1DM gut barrier IgA complement | run_103*
+
+---
+
+## Part 9bd — Tfh / GC: Autoantibody Origin; Quercetin 7th Mechanism; Tfr and Node A; HCQ GC Suppression (run_104)
+
+### Completed Autoantibody Causal Chain
+
+The framework now has a complete causal chain from gut dysbiosis to complement/NK-ADCC autoantibody-driven inflammation:
+
+```
+M1/M3 dysbiosis + antigen release →
+IL-6 (STAT3 → BCL6) + IFN-α (Tfh1) → Tfh expansion →
+GC in lymph nodes → IL-21/AID → high-affinity IgG →
+Anti-keratinocyte IgG → C1q → complement C5a (runs 064/101) →
+Anti-islet IgG → NK-ADCC (run_102)
+```
+
+All upstream interventions in the protocol reduce the IgG load downstream:
+- Gut barrier (Node C) → less antigen → less BCR activation → less Tfh
+- IL-6 reduction (multiple agents) → less BCL6 induction → less Tfh
+- HCQ → IFN-α ↓ → less Tfh1 + Tfr precursor maintained
+- Node A correction → Treg → Tfr precursor pool
+- Quercetin → JAK1/3 → GC B cell survival ↓ (new mechanism)
+
+### Quercetin 7-Mechanism Consolidated Summary
+
+| # | Mechanism | Target | Run |
+|---|---|---|---|
+| 1 | Mast cell stabilization | Mast cell degranulation ↓ | run_042 |
+| 2 | C1q binding inhibition | Classical complement ↓ | run_042/064 |
+| 3 | PPARγ → NF-κB transrepression | Macrophage NF-κB ↓ | run_077 |
+| 4 | PPARγ → RORγt ↓ | Th17 differentiation ↓ | run_079 |
+| 5 | IDO1 inhibition | Tryptophan preservation → IAd → Treg ↑ | run_091 |
+| 6 | TLR9 partial inhibition | CpG-driven IFN-α ↓ | run_088 context |
+| 7 | JAK1/3 → IL-21R/STAT3 in GC B cells | Affinity maturation ↓ → IgG ↓ | run_104 |
+
+Quercetin now addresses: mast cell, complement, NF-κB, Th17, Treg, IFN-α, AND GC/autoantibody — spanning nearly every major inflammatory axis in the framework from a single agent already in protocol.
+
+### Node A and Tfr: Clinical Note
+
+AKG + Vitamin C → Foxp3 TSDR demethylation → Treg ↑ → Tfr precursor pool ↑. In patients with persistent autoantibody-driven inflammation (rising anti-islet titers despite gut barrier management): Node A correction may reduce unrestrained GC via Tfr restoration (partial). Combined HCQ (→ IL-2 preservation + Tfr maintenance) + Node A correction = dual Tfr support strategy.
+
+*Protocol_integration.md Part 9bd — 2026-04-12 | Tfh BCL6 GC autoantibody IgG Tfr Node A quercetin 7 mechanisms HCQ T1DM complement NK-ADCC | run_104*
+
+---
+
+## Part 9be — PTX3: Tissue-Local Complement; FGF-2 Counter-Regulation; Loop 2 Arc; Node B Extension (run_105)
+
+### Local vs. Systemic Complement Activation: Clinical Distinction
+
+Run_101 established complement C3a/C5a as major inflammatory mediators. Run_105 adds the LOCAL initiation mechanism. For clinical interpretation:
+
+| Complement Initiator | Source | Detectable As | When Elevated |
+|---|---|---|---|
+| CRP → C1q (systemic) | Liver | Serum CRP | Systemic inflammation, infective |
+| IgG → C1q (adaptive) | GC/plasma cells | Anti-islet/anti-keratinocyte IgG | Chronic autoimmune phase |
+| Alternative pathway (UV) | Oxidized lipids/DAMPs | C3d skin deposits | UV-triggered acute flares |
+| **PTX3 → C1q (local)** | **Mast cell/macrophage/endothelial** | **Serum PTX3 > 3.4 ng/mL** | **Local tissue inflammation** |
+
+**Practical implication**: A T1DM rosacea patient with active skin flares but normal CRP and no detectable anti-keratinocyte IgG may have local PTX3-driven complement as the dominant mechanism. Node B (hsCRP + IL-6 + waist) may be falsely reassuring. If PTX3 ≥ 3.4 ng/mL in this patient → assume local classical complement active → add quercetin dose emphasis (C1q-binding inhibition, mechanism 2) + reinforce colchicine compliance (IL-1β block → reduces PTX3 induction).
+
+### FGF-2 and the ETR Telangiectasia Mechanism
+
+New mechanistic understanding for patients in whom telangiectasias continue to accumulate despite controlled active inflammation (low hsCRP, controlled Node B):
+
+```
+Between-flare quiescent phase:
+  PTX3 LOW → FGF-2 NO LONGER sequestered →
+  FGF-2 acts on FGFR1 on endothelial cells →
+  Progressive vessel expansion → telangiectasia accumulation
+```
+
+Intervention gap identified: no agent in current protocol directly targets FGF-2-driven angiogenesis. Agents with anti-angiogenic properties relevant to consider:
+- **Niacinamide**: documented to reduce erythema and possibly telangiectasia (indirect SIRT1/mitochondrial mechanism; run_025/031); no direct FGF-2 data
+- **Calcitriol/VDR** (run_039): VDR activation has some anti-angiogenic effects in epithelial tissue; no rosacea-FGF-2 data
+- **Omega-3/PPAR-α** (run_089): PPAR-α activates downstream of fatty acid oxidation; limited anti-angiogenic FGF-2 data
+- **No protocol agent directly inhibits FGF-2 signaling**: this is an acknowledged gap if ETR telangiectasia is the primary complaint
+
+Protocol note: For patients with predominantly ETR (telangiectasias, persistent erythema > papulopustular) and elevated PTX3: the complement→IL-1β→PTX3 feedback loop may be driving both inflammation AND indirectly enabling FGF-2 accumulation (PTX3 elevated = complement active; when flare resolves and PTX3 drops, FGF-2 acts). Breaking the Loop 2→PTX3→complement arc with colchicine + quercetin reduces both complement damage AND, paradoxically, may allow sustained (non-inflammatory) PTX3 at lower levels that maintain some FGF-2 sequestration. No intervention for the inter-flare FGF-2 window currently in protocol.
+
+### Loop 2 Non-Responder: Updated Arc Map
+
+For patients where Signal 1E (C5a→AP-1→NLRP3) is dominant and Loop 2 is active, the full arc is now:
+
+```
+Loop 2 active:
+NLRP3 → IL-1β → PTX3 ↑ → C1q → C5a → AP-1 → NLRP3 (not NF-κB)
+↓
+Cannot be interrupted by: NF-κB suppressors (11 pathways)
+CAN be interrupted by:
+  → Colchicine (IL-1β secretion + NLRP3 assembly ↓)
+  → Quercetin (C1q-binding inhibition → less classical complement activation)
+  → BHB / SIRT1 (NLRP3 assembly ↓)
+  → AMPK/spermidine (NLRP3 Ser291 ↓)
+```
+
+Signal 1E + Loop 2 + PTX3 arc = the most NF-κB-resistant NLRP3 amplification circuit identified in the framework. Clinical marker: patient with 11 NF-κB-suppressor drugs showing partial response, microalbuminuria rising, PTX3 elevated, CRP normal → this arc is likely active. Priority: colchicine dose optimization + quercetin dose verification.
+
+### HCQ and PTX3
+
+HCQ → TLR7/9 block → IFN-α ↓ → NF-κB ↓ (indirect) → PTX3 ↓ (moderate). HCQ does not directly reduce IL-1β or TNF-α-driven PTX3 induction. For PTX3-dominant patients, colchicine remains the primary upstream blockade.
+
+### T1DM Specific: PTX3 as Microalbuminuria Biomarker
+
+For T1DM rosacea patients: Annual monitoring addition (if available):
+- Serum PTX3 (upper normal: ~3.4 ng/mL)
+- Rising PTX3 + microalbuminuria in same patient = convergent evidence for gut dysbiosis→endotoxemia→local complement→glomerular/islet damage loop
+- Intervention priority in this scenario: Node C (gut barrier) → reduce endotoxemia → reduce TLR4/NF-κB → reduce PTX3 source. This reinforces the hierarchy: Node C management upstream of all complement mechanisms.
+
+*Protocol_integration.md Part 9be — 2026-04-12 | PTX3 C1q complement FGF-2 ETR telangiectasia Loop 2 colchicine quercetin T1DM microalbuminuria Node B Node C HCQ | run_105*
