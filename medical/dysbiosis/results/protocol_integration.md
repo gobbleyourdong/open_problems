@@ -4341,3 +4341,51 @@ The NLRP1 → β cell pyroptosis pathway is NOT blocked by existing NLRP3 inhibi
 2. Oral B3 → restore NLRP1 inhibitory state even if DPP9 is partially depleted
 
 *Protocol_integration.md Part 9bw — 2026-04-12 | NLRP1 DPP9 DPP8 UV keratinocyte IL-1beta pyroptosis GSDMD 15th beta cell death nicotinamide B3 oral NAD+ SIRT2 NLRP1 deacetylation photosensitive thermosensitive precision phenotype DPP4 inhibitor saxagliptin sitagliptin Chen 2015 Voss 2021 | run_122*
+
+---
+
+## Part 9bx — BACH2 Protocol Integration (run_123)
+
+### New OTC: Vitamin A — Retinyl Palmitate
+
+**Mechanism:** Retinyl palmitate → retinol → retinoic acid (RA, via RALDH2/ADH enzymes) → RAR-α/RXR → BACH2 gene transcription ↑ → BACH2/MafK heterodimer → PRDM1 (BLIMP-1) repressed → Treg identity maintained → prevents Treg → ex-Treg conversion.
+
+**Dosing:** 3000–5000 IU retinyl palmitate daily. This is within safe OTC range; upper tolerable intake (UL) is 10,000 IU/day for adults. Retinyl palmitate form preferred over beta-carotene (conversion efficiency variable) and retinoic acid (toxic at doses needed).
+
+**Timing:** With dietary fat (fat-soluble vitamin; absorption requires bile salt emulsification). Evening meal timing convenient.
+
+**Key distinctions:** Vitamin A was completely absent from all 122 prior runs. Run_056 mentions RXR only as VDR heterodimerization partner for calcitriol signaling — never as BACH2 transcriptional activator. This is a genuinely new OTC intervention.
+
+**Contraindications:** Pregnancy (teratogenic at high dose). Liver disease (impaired retinol metabolism). Monitor if also using isotretinoin/retinoid dermatologics.
+
+### New Mechanistic Rationale for Existing Interventions
+
+**NRF2/sulforaphane (runs 027-029) — BACH2 Cys574 protection added:**
+Sulforaphane → NRF2 → GSH ↑ → thioredoxin system → BACH2 Cys574 reduced/protected from oxidation → BACH2 remains nuclear → Treg identity maintained. This is a 4th NRF2 mechanism for Treg support (joining: HO-1 anti-inflammatory, GSH/oxidative stress reduction, and now BACH2 Cys protection). Add to sulforaphane mechanistic notes in the protocol.
+
+**FMD / Fasting Mimicking Diet (run_045) — FoxO1/BACH2 added:**
+Caloric restriction/FMD → reduced PI3K/Akt signaling → FoxO1 dephosphorylation → FoxO1 nuclear → BACH2 transcription ↑ → Treg identity reinforced during fasting window. This adds a Treg plasticity-prevention mechanism to the existing FMD rationale (autophagy, metabolic reset, run_045).
+
+### 6th Genetic Stratification Point: BACH2 rs3757247
+
+Added to T-index v5 monitoring framework as the 6th stratification point:
+1. HLA-DQ2/DQ8 (T1DM-MHC axis)
+2. IL-23R rs11209026 (run_077 Loop 3)
+3. FLG R501X/2282del4 (run_018/019 barrier)
+4. NLRP3 Q705K (run_023 inflammasome)
+5. CD73/NT5E variants (run_121 Treg effector)
+6. **BACH2 rs3757247** (run_123 Treg identity / T1DM GWAS top-7)
+
+Patients with rs3757247 risk allele: increased emphasis on Vitamin A, NRF2/sulforaphane (BACH2 Cys protection), and aggressive Loop 4 management to minimize oxidative BACH2 inactivation.
+
+### Updated Protocol Sequence Summary
+
+```
+BACH2 support stack (new in run_123):
+  → Vitamin A 3000–5000 IU retinyl palmitate (evening, with fat)
+  → Sulforaphane: add BACH2 Cys574 protection rationale to NRF2 stack
+  → FMD: add BACH2/FoxO1 rationale to fasting protocol
+  → BACH2 rs3757247 genotyping recommended for precision stratification
+```
+
+*Protocol_integration.md Part 9bx — 2026-04-12 | BACH2 BLIMP-1 PRDM1 Treg identity ex-Treg plasticity Vitamin A retinoic acid RAR RXR retinyl palmitate BACH2 Cys574 NRF2 sulforaphane GSH FoxO1 FMD PI3K Akt 6th genetic stratification rs3757247 Cooper 2008 Roychoudhuri 2013 | run_123*

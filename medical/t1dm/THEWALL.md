@@ -1005,3 +1005,21 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 5. **Gut NLRP1 in T1DM context**: Gut enterocyte NLRP1 → muramyl dipeptide (MDP) from peptidoglycan-shedding proteobacteria (M1 dysbiosis) → NLRP1 → IL-18 in enterocytes → gut inflammation → paracellular permeability (parallel to NLRP6 pathway in run_109). In T1DM, M1 dysbiosis + NLRP1 → dual epithelial inflammasome activation (NLRP6 mucus layer + NLRP1 epithelial pyroptosis).
 
 *T1DM THEWALL cross-reference run_122: 2026-04-12 | NLRP1 DPP9 DPP8 beta cell pyroptosis 15th death mechanism GSDMD caspase-1 NLRP3 cross-feedforward DPP4 inhibitor saxagliptin sitagliptin alogliptin DPP8/9 selectivity Johnson 2018 nicotinamide B3 SIRT2 gut NLRP1 MDP proteobacteria*
+
+---
+
+### Cross-reference: run_123 — BACH2 T1DM GWAS Top-7 Non-MHC Locus / Treg Identity / B Cell Tolerance
+
+**Run_123 T1DM relevance:**
+
+1. **BACH2 rs3757247 — T1DM GWAS top-7 non-MHC locus**: Cooper 2008 (Nat Genet) — BACH2 rs3757247 is among the top 7 non-HLA T1DM GWAS hits. Mechanistic explanation now provided by run_123: BACH2 LOF → Treg plasticity → chronic erosion of beta cell autoimmune tolerance. Roychoudhuri 2013 (Nature): BACH2 KO → multi-organ autoimmunity including diabetes. This is the first GWAS hit in the framework where the mechanism (Treg identity failure) was completely unrepresented in prior runs.
+
+2. **Insulitis ROS → BACH2 oxidation → ex-Treg feedforward**: Insulitis inflammatory microenvironment → macrophage/neutrophil ROS burst → BACH2 Cys574 oxidation in islet-infiltrating Tregs → nuclear export → BLIMP-1 derepressed → Tregs convert to IFN-γ/IL-17 ex-Treg effectors → amplified beta cell attack. This is a self-amplifying loop: more insulitis → more BACH2 inactivation → less Treg suppression → more insulitis. Loop 4 connection: sebaceous oxidative burst in rosacea creates systemic ROS → same BACH2 Cys oxidation pathway at pancreatic draining lymph nodes.
+
+3. **B cell central tolerance**: BACH2 maintains B cell central tolerance (deletion/editing of autoreactive B cells in bone marrow). BACH2 rs3757247 LOF → autoreactive B cell escape → islet autoantibodies (IAA, GADA, IA-2A). This explains part of the GWAS signal: not just Treg failure but also autoreactive B cell contribution to T1DM pathogenesis. Novel mechanism not present in any prior B cell run.
+
+4. **Vitamin A for T1DM Treg identity maintenance**: Retinyl palmitate → RA → RAR-α/RXR → BACH2 ↑ → Treg identity reinforced in pancreatic draining lymph nodes during honeymoon. Complementary to existing calcitriol mechanisms (runs 031, 112, 121) but mechanistically independent (RAR-α/RXR vs VDR). Particularly relevant for rs3757247 carriers who have partial BACH2 haploinsufficiency.
+
+5. **6th genetic stratification — clinical action**: BACH2 rs3757247 genotyping via standard SNP panel. Risk allele carriers: (a) heightened emphasis on Vitamin A, sulforaphane (BACH2 Cys protection), Loop 4 management; (b) closer monitoring of Treg quality (CD73 expression, suppression assay, FOXP3+ instability markers); (c) earlier honeymoon-preserving intervention.
+
+*T1DM THEWALL cross-reference run_123: 2026-04-12 | BACH2 rs3757247 T1DM GWAS Cooper 2008 Nat Genet Roychoudhuri 2013 Nature Treg identity BLIMP-1 PRDM1 Cys574 oxidation ex-Treg B cell central tolerance autoreactive B cell autoantibodies IAA GADA insulitis ROS feedforward Vitamin A RA RAR RXR retinyl palmitate 6th stratification*

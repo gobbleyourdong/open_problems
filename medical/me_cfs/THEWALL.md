@@ -856,3 +856,21 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 **Evidence level: LOW-MODERATE** — mechanistic inference; Naviaux 2016 NAD+ depletion is the strongest link; no direct NLRP1 studies in ME/CFS.
 
 *ME/CFS THEWALL cross-reference run_122: 2026-04-12 | NLRP1 ribotoxic stress DPP9 UV keratinocyte NAD+ SIRT2 NLRP1 suppression Naviaux 2016 nicotinamide B3 photosensitivity*
+
+---
+
+### Cross-reference: run_123 — BACH2 Treg Identity / Chronic Activation → ex-Treg Conversion in ME/CFS
+
+**Run_123 ME/CFS relevance:**
+
+1. **Chronic PI3K/Akt → FoxO1 exclusion → BACH2 loss in ME/CFS**: Chronic immune activation (viral persistence, DAMPs, low-grade inflammation) → persistent PI3K/Akt signaling → FoxO1 phosphorylation/nuclear exclusion → BACH2 transcription reduced → Treg → ex-Treg conversion over time. ME/CFS has well-documented chronic immune activation (elevated NK cell activation, CD8+ exhaustion, TGF-β dysregulation). BACH2 gradual loss provides a mechanism for the "burned out Treg" phenotype in long-duration ME/CFS: initial FOXP3+ counts may be preserved while BLIMP-1 derepression converts functional Tregs to IFN-γ-producing effectors.
+
+2. **IFN-γ ex-Tregs → microglial activation**: BACH2 LOF in CNS-resident Tregs (or peripherally derived, blood-brain crossing) → ex-Treg IFN-γ release → microglial M1 activation → neuroinflammation → brain fog, cognitive symptoms. Connects Loop 4 → BACH2 → neuroinflammation in ME/CFS (parallel to CD73/A2A microglial brake loss in run_121).
+
+3. **Vitamin A / RA → BACH2 ↑ in ME/CFS**: Retinoic acid → RAR-α/RXR → BACH2 transcription ↑ → Treg identity reinforced → fewer IFN-γ ex-Tregs → reduced microglial activation. Vitamin A deficiency is observed in some ME/CFS patients (malabsorption, gut dysfunction). Retinyl palmitate supplementation provides mechanistic rationale beyond general immune support.
+
+4. **NRF2/sulforaphane BACH2 Cys protection in ME/CFS**: ROS-driven BACH2 oxidation contributes to ex-Treg conversion in ME/CFS inflammatory tissue. Sulforaphane → GSH → BACH2 Cys574 protected → Treg identity maintained despite oxidative microenvironment. Existing NRF2 recommendation gains BACH2-specific mechanistic support.
+
+**Evidence level: LOW-MODERATE** — mechanism is well-supported in general immunology; direct BACH2 data in ME/CFS is absent; chronic PI3K/Akt and Treg dysfunction in ME/CFS is established indirectly.
+
+*ME/CFS THEWALL cross-reference run_123: 2026-04-12 | BACH2 Treg identity ex-Treg BLIMP-1 PRDM1 chronic PI3K Akt FoxO1 BACH2 loss IFN-gamma microglial neuroinflammation brain fog Vitamin A RA RAR RXR NRF2 sulforaphane Cys574 Roychoudhuri 2013*
