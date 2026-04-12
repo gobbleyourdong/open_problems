@@ -1041,3 +1041,17 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 5. **Anti-LRG1 clinical development**: iSNKP20 (anti-LRG1 mAb) in clinical trials for DR. Not OTC; signals that pharmaceutical validation of LRG1/ALK1 as a DR target is underway.
 
 *T1DM THEWALL cross-reference run_124: 2026-04-12 | LRG1 ALK1 ACVRL1 Smad1 Smad5 angiogenesis diabetic retinopathy VEGFR2 ID1 IL-1beta TNF-alpha macrophage ARB Ang II TXNIP glucose HbA1c iSNKP20 serum LRG1 biomarker Wang 2020 JCI Huang 2018 Diabetes Care*
+
+---
+
+### Cross-reference: run_125 — DYRK1A/Harmine → β Cell Proliferation / Rosacea Conflict
+
+**Run_125 T1DM relevance:**
+
+1. **Harmine → DYRK1A inhibition → β cell NFAT → CyclinD1 → β cell proliferation**: Wang 2015 (Cell) — harmine is the first compound shown to selectively stimulate human β cell proliferation via DYRK1A/NFAT. ~2–3% β cell replication rate (vs ~0.1% baseline). GLP-1R agonist (run_098) + harmine = synergistic β cell proliferation (Ackeifi 2020 Nature Metabolism) via complementary NFAT nuclear retention. This provides the framework's first dedicated β cell PROLIFERATION mechanism (all prior honeymoon runs address anti-apoptotic/survival, not active new β cell generation).
+
+2. **Critical conflict for rosacea+T1DM**: harmine simultaneously inhibits DYRK1A in keratinocytes → NF-AT constitutively nuclear → VEGF-A/COX-2 → rosacea worsening. For T1DM patients with active rosacea: harmine is CONTRAINDICATED. Alternatives: GLP-1R agonist + calcitriol + BHB/FMD (no NF-AT activation). This is the framework's first explicit drug/supplement contraindication arising from dual-disease mechanistic analysis.
+
+3. **GSK-3β (berberine, run_114) connection**: berberine partially reduces the NFAT phosphodegron (blocks GSK-3β step in sequential DYRK1A→GSK-3β phosphorylation) → mild NF-AT retention in β cells = BENEFICIAL (slightly more NFAT-driven CyclinD1 → slight β cell proliferation support). This is a new β cell benefit of berberine not previously identified.
+
+*T1DM THEWALL cross-reference run_125: 2026-04-12 | DYRK1A harmine NFAT NF-AT CyclinD1 CDK4 beta cell proliferation honeymoon Wang 2015 Cell Ackeifi 2020 GLP-1R agonist semaglutide synergy rosacea conflict contraindication GSK-3β berberine partial NFAT activation*

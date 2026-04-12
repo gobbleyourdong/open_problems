@@ -888,3 +888,17 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 **Evidence level: LOW** — mechanistic inference only; no ME/CFS-specific LRG1 data.
 
 *ME/CFS THEWALL cross-reference run_124: 2026-04-12 | LRG1 ALK1 angiogenesis microglial CNS vascular remodeling IL-1beta TNF-alpha post-exertional macrophage activation*
+
+---
+
+### Cross-reference: run_125 — DYRK1A/NF-AT in ME/CFS
+
+**Run_125 ME/CFS relevance:**
+
+1. **NF-AT in microglial/immune activation**: Chronic immune activation in ME/CFS → persistent calcineurin-driven NF-AT activation in microglia → neuroinflammatory gene expression. DYRK1A activity levels in ME/CFS immune cells are unstudied. If chronic Ca²⁺ dysregulation in ME/CFS (well-documented) → persistent calcineurin overactivity → NF-AT nuclear → DYRK1A cannot overcome → chronic NF-AT-driven cytokines (COX-2, IL-5).
+
+2. **Harmine note for ME/CFS**: Some ME/CFS patients use passionflower (herbal anxiolytic/sleep) which contains harmine/harman. This would activate NF-AT → possible immune activation contribution. Speculative but worth flagging.
+
+**Evidence level: LOW** — no direct ME/CFS DYRK1A data; indirect Ca²⁺/calcineurin/NF-AT inference.
+
+*ME/CFS THEWALL cross-reference run_125: 2026-04-12 | DYRK1A NFAT calcineurin neuroinflammation passionflower harmine Ca2+ dysregulation*

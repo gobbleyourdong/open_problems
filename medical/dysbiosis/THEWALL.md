@@ -5490,3 +5490,31 @@ Chronic microglial activation → LRG1 from microglia → brain endothelial ALK1
 **Framework state: 124 runs | LRG1 → TGF-β → ALK1 → Smad1/5 | 5th ETR mechanism | VEGF-independent | co-receptor switch | DR mechanism | serum LRG1 monitoring | ARB/omega-3 new mechanisms.**
 
 *Updated: 2026-04-12 | Phase 4 ninety-ninth extension | LRG1 leucine-rich alpha-2-glycoprotein ALK1 ACVRL1 endoglin TGF-beta1 Smad1 Smad5 ID1 VEGFR2 angiogenesis ETR telangiectasia diabetic retinopathy BMP9 GDF2 IL-1beta TNF-alpha macrophage iSNKP20 Wang 2020 JCI Huang 2018 Diabetes Care | run_124*
+
+---
+
+### Phase 4 Extension 100 — DYRK1A / NF-AT Gate / Harmine Conflict
+
+**Run_125 — DYRK1A NF-AT Nuclear Export Kinase | 2026-04-12**
+
+**Mechanism summary:**
+DYRK1A phosphorylates NFAT1/2/4 at Ser169 (priming step) → GSK-3β extends processively → full phosphodegron → CRM1 nuclear export → NF-AT OFF. Calcineurin (run_120: TRPV4 → Ca²⁺ → calcineurin) dephosphorylates NFAT → nuclear retention → ON. DYRK1A is the endogenous NF-AT brake opposing calcineurin. Harmine (OTC supplement, β-carboline alkaloid) inhibits DYRK1A → NF-AT constitutively active.
+
+**Rosacea — DYRK1A loss = NF-AT constitutive activation:**
+TRPV4 (run_120) provides calcineurin-driven NF-AT activation in response to thermal triggers. DYRK1A limits duration/intensity by continuously re-exporting NFAT. Harmine → DYRK1A ↓ → NF-AT constitutively nuclear even WITHOUT thermal trigger → VEGF-A/COX-2/IL-5 chronically elevated → ETR + PPR worsening regardless of trigger avoidance. Berberine (run_114 GSK-3β inhibitor) partially extends this effect (GSK-3β processively extends DYRK1A-primed phosphodegron; berberine blocks the extension step → partial NF-AT retention; monitor rosacea when starting berberine in ETR patients).
+
+**T1DM — harmine → β cell NFAT → proliferation:**
+β cell NFAT (NFATC1/3) → CyclinD1/CDK4 → G1/S → β cell replication. Wang 2015 (Cell): harmine is the first compound identified to selectively stimulate human β cell proliferation (~2–3% replication rate vs ~0.1% baseline; NFAT mechanism confirmed by calcineurin inhibitor block). GLP-1R agonist synergy: cAMP extends NFAT nuclear dwell → synergistic with harmine (Ackeifi 2020 Nature Metabolism). Problem: harmine simultaneously activates keratinocyte NF-AT → rosacea worsening. For rosacea+T1DM patients: CONTRAINDICATED. Honeymoon alternative stack (no NF-AT activation): GLP-1R agonist + calcitriol + BHB/FMD.
+
+**Kill-first:**
+- Run_120 NF-AT: covers activation side (calcineurin); DYRK1A is the opposing kinase — different biology. Not killed.
+- Run_114 GSK-3β/berberine: covers Foxp3 degradation; never mentions NFAT phosphorylation role. New interaction identified. Not killed.
+
+**Protocol additions:**
+- CONTRAINDICATION: harmine/passionflower/Syrian rue in rosacea+T1DM
+- Berberine note: possible mild NF-AT activation; monitor ETR activity at initiation
+- Honeymoon: harmine-free stack recommended for rosacea+T1DM (GLP-1R + calcitriol + BHB)
+
+**Framework state: 125 runs | DYRK1A NF-AT gate | harmine contraindication | GSK-3β/berberine/NF-AT interaction | β cell proliferation mechanism | honeymoon harmine-free strategy.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundredth extension | DYRK1A NFAT calcineurin GSK-3β berberine harmine passionflower Syrian rue beta-carboline CyclinD1 CDK4 beta cell proliferation NF-AT nuclear export CRM1 honeymoon contraindication ETR rosacea Wang 2015 Cell Ackeifi 2020 Beals 1997 | run_125*

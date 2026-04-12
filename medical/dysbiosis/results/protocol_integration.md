@@ -4438,3 +4438,61 @@ ETR patient with ongoing telangiectasia formation despite anti-inflammatory prot
 ```
 
 *Protocol_integration.md Part 9by — 2026-04-12 | LRG1 ALK1 ACVRL1 TGF-beta Smad1 Smad5 angiogenesis ETR telangiectasia diabetic retinopathy serum LRG1 monitoring ARB DR omega-3 anti-angiogenic TXNIP glucose LRG1 loop PDL IPL Wang 2020 JCI Huang 2018 | run_124*
+
+---
+
+## Part 9bz — DYRK1A/NF-AT Protocol Integration (run_125)
+
+### CONTRAINDICATION: Harmine-Containing Supplements in Rosacea+T1DM
+
+**What to watch for:** Patients self-supplementing for T1DM glucose control may use:
+- Passionflower (Passiflora incarnata): contains harman/harmine (DYRK1A inhibitors)
+- Syrian rue (Peganum harmala): high harmine/harmaline content
+- Caapi vine / ayahuasca preparations: harmine-containing
+- Pure harmine capsules: increasingly sold online with "blood sugar support" / "diabetes" claims
+
+**Mechanism of harm in rosacea:** Harmine → DYRK1A inhibition → NFAT no longer exported from keratinocyte nuclei → NF-AT constitutively active → VEGF-A/COX-2/IL-5 chronically elevated → ongoing ETR + PPR exacerbation independent of thermal/UV triggers.
+
+**Clinical presentation pattern:** Rosacea worsening that is:
+- Persistent (not episodic/trigger-linked)
+- Unresponsive to usual trigger avoidance
+- Starting approximately 1–4 weeks after initiating harmine supplement
+- May occur without obvious dietary/temperature/UV triggers (because NF-AT is now constitutively nuclear, independent of TRPV4 activation)
+
+**Action:** Discontinue harmine-containing supplement → DYRK1A activity restores → NF-AT resume normal export → NF-AT returns to trigger-dependent activation → rosacea returns to baseline.
+
+### Berberine Monitoring Update
+
+Berberine (run_114: 500–1500 mg/day) remains recommended for GSK-3β → Foxp3 stability and NF-κB suppression. New nuance:
+
+GSK-3β processively extends DYRK1A-primed NFAT phosphodegron. Berberine (GSK-3β inhibitor) → partial NFAT phosphodegron → partial NF-AT nuclear retention. At standard doses (500–1000 mg/day), the anti-NF-κB and Foxp3-stabilizing benefits likely outweigh the partial NF-AT effect. However, in ETR-dominant or TRPV4-hypersensitive patients:
+
+```
+Berberine initiation checklist:
+  → Start low (500 mg once daily with meals) for first 2 weeks
+  → Monitor for rosacea worsening in weeks 1–4
+  → If ETR worsening: maintain dose but add quercetin 30–60 min before triggers
+    (quercetin blocks TRPV4 Ca²⁺ influx → less calcineurin activation → NF-AT
+     less activated even with partial GSK-3β/berberine NF-AT effect)
+  → If significant ETR worsening: reduce to 250 mg QD; reassess at 4 weeks
+```
+
+### T1DM Honeymoon Stack (Harmine-Free)
+
+For T1DM+rosacea patients seeking β cell preservation/proliferation during honeymoon:
+
+```
+Survival/anti-apoptotic (harmine-free):
+  → GLP-1R agonist (prescription: semaglutide, liraglutide) — β cell cAMP/SIRT1/PKA
+  → Calcitriol 5000 IU/day — VDR → β cell anti-apoptotic + Treg (runs 031/056)
+  → BHB via FMD — NLRP3 ↓ + MCL-1 ↑ + β cell anti-apoptotic (runs 037/045)
+  → Tight glucose control — TXNIP ↓ → IL-1β ↓ → less β cell inflammasome (run_112)
+
+Limitation:
+  → No harmine-free OTC β cell PROLIFERATOR currently available
+  → Harmine is the only validated human β cell proliferator (Wang 2015 Cell)
+  → For T1DM without rosacea: harmine + GLP-1R agonist is the strongest honeymoon stack
+  → For T1DM WITH rosacea: accept absence of proliferative component; focus on survival
+```
+
+*Protocol_integration.md Part 9bz — 2026-04-12 | DYRK1A NFAT calcineurin GSK-3β berberine harmine passionflower Syrian rue contraindication NF-AT rosacea conflict ETR honeymoon harmine-free GLP-1R calcitriol BHB Wang 2015 Beals 1997 | run_125*

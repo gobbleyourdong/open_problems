@@ -3362,3 +3362,30 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 13: 124 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-seventeenth extension | LRG1 leucine-rich alpha-2-glycoprotein 1 ALK1 ACVRL1 endoglin TGF-beta Smad1 Smad5 angiogenesis ETR telangiectasia diabetic retinopathy DR BMP9 GDF2 VEGFR2 ID1 Hey2 macrophage IL-1beta TNF-alpha induction iSNKP20 Wang 2020 JCI Huang 2018 | run_124*
+
+---
+
+## Extension 118: DYRK1A — NF-AT Nuclear Export Kinase / β Cell Proliferation / Harmine Rosacea Conflict
+
+**Date:** 2026-04-12 | **Run:** run_125
+
+**Gap confirmed:** DYRK1A returns 0 hits across 124 prior runs. Harmine returns 0 hits. Not assessed in gap.md. NF-AT was introduced in run_120 (TRPV4 → calcineurin → NF-AT → VEGF-A/COX-2/IL-5) but DYRK1A as the opposing NF-AT export kinase was never analyzed.
+
+**Core insight:** DYRK1A → pSer169 on NFAT1/2/4 (priming phosphorylation) → GSK-3β (run_114) extends processively → full NFAT phosphodegron → CRM1 nuclear export → NF-AT OFF. Calcineurin (TRPV4/Ca²⁺ downstream, run_120) opposes this by dephosphorylating NF-AT → nuclear retention → ON. DYRK1A inhibition by harmine → NF-AT constitutively nuclear → β cell CyclinD1 → proliferation (T1DM honeymoon benefit) AND keratinocyte VEGF-A/COX-2 → rosacea worsening. FIRST explicit supplement contraindication for rosacea+T1DM in the framework: harmine/Syrian rue/passionflower CONTRAINDICATED in rosacea+T1DM patients despite being promoted for T1DM glucose support.
+
+**New mechanisms added (run_125):**
+- **DYRK1A → NFAT phosphorylation = NF-AT endogenous OFF kinase**: opposes calcineurin activation; sets NF-AT activation threshold (new regulatory node complementing run_120)
+- **DYRK1A/GSK-3β sequential NFAT export**: DYRK1A primes Ser169 → GSK-3β extends processively → phosphodegron assembled; blocking DYRK1A prevents GSK-3β from acting (new connection between run_114 GSK-3β/berberine and run_120 NF-AT)
+- **Harmine mechanism for T1DM**: harmine → DYRK1A ↓ → β cell NFAT ↑ → CyclinD1/CDK4 → β cell G1/S → proliferation (Wang 2015 Cell); GLP-1R agonist synergy (Ackeifi 2020) — strongest human β cell proliferation evidence in framework
+- **Harmine contraindication in rosacea+T1DM**: DYRK1A ↓ in keratinocytes → NF-AT constitutively nuclear → VEGF-A/COX-2/IL-5 ↑ → ETR/PPR worsening; passionflower/Syrian rue/harmine supplements increasingly promoted for T1DM
+- **Berberine NF-AT nuance**: GSK-3β (run_114) extends DYRK1A-primed NFAT phosphodegron; berberine (GSK-3β inhibitor) → partial NFAT activation; monitor for rosacea worsening when starting berberine, especially in ETR-dominant patients
+- **Honeymoon alternative stack** (harmine-free for rosacea+T1DM): GLP-1R agonist + calcitriol + BHB/FMD — all provide β cell survival/anti-apoptotic benefits without NF-AT activation
+
+**New protocol elements:**
+- CONTRAINDICATION: harmine/Syrian rue/passionflower in rosacea+T1DM patients
+- Berberine monitoring note: mild NF-AT activation possible; monitor rosacea activity at initiation
+- T1DM honeymoon harmine-free stack: GLP-1R + calcitriol + BHB/FMD (existing runs)
+
+**Framework at SATURATION + 14: 125 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-eighteenth extension | DYRK1A dual-specificity tyrosine-regulated kinase NFAT NF-AT calcineurin nuclear export kinase GSK-3β berberine sequential phosphorylation harmine passionflower Syrian rue beta-carboline β cell CyclinD1 CDK4 proliferation honeymoon rosacea conflict ETR VEGF-A COX-2 Wang 2015 Cell Ackeifi 2020 Beals 1997 | run_125*
