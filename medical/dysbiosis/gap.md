@@ -4136,3 +4136,46 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 46: 157 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-fiftieth extension | EZH2-PRC2-7q36.1 SET-domain H3K27me3 EED-WD40-allosteric-feedback SUZ12-scaffold SAM-methyl-donor JARID2-PRE KDM6B-JMJD3-H3K27me3-eraser Dhawan2009-Science-β-cell-EZH2 Cdkn2a-INK4a-ARF p16Ink4a-CDK4-6-Rb EZH2-KO-50%-β-cell-loss insulitis-EZH2-↓ aging-regenerative-decline EZH2-context-Treg-cytokine-stability tazemetostat-FDA2020 GSK126 NK-NKG2D-H3K27me3-epigenetic SAM-B12-SETD7-EZH2-dual-run145 H3K27me3-4th-layer-run090-run086-run087 DNMT3A-CHIP-dual-epigenetic run102-NKG2D-epigenetic-component | run_157*
+
+---
+
+### Extension 151 — mTOR/mTORC1/mTORC2/S6K1/Rapamycin: Immune Treg/Th17 Metabolic Switch, β Cell mTOR, Rapamycin Dose Paradox
+
+**Date:** 2026-04-12 | **Run:** run_158
+
+**Gap confirmed:** Immune mTOR signaling absent as primary from all 157 runs; run_028 covers ONLY keratinocyte/topical rapamycin for Loop 1 (explicitly excludes systemic immune effects); mTOR in T cells, Tregs, DCs, and β cell proliferative biology = unmapped.
+
+**Core insight:** mTOR is the **metabolic fate switch** for T cell lineage determination: mTORC1-high → glycolysis/HIF-1α → Th17 (RORγt); mTORC1-low → OXPHOS → Treg (FOXP3). The **rapamycin dose paradox** is clinically critical: ultra-low dose (0.1–1 mg/day) selectively expands Tregs (Battaglia 2006 JCI: complete NOD diabetes prevention); transplant-dose (10–15 mg/day) impairs β cell mTORC1 → NODAT. mTORC2 (rapamycin-insensitive) → SGK1/FOXO1 → Treg tissue homing preserved. Low-dose rapamycin + IL-2 (run_151) = combinatorial Treg expansion.
+
+**New mechanisms added (run_158):**
+- **Th17/Treg metabolic switch**: mTORC1-high → HIF-1α → glycolysis → Th17; mTORC1-low → OXPHOS → Treg; HIF-1α directly binds RORγt + degrades FOXP3
+- **DC mTOR → IL-23 (Sinclair 2013)**: LPS → mTORC1 in dermal DCs → IL-23p19 ↑; rapamycin → DC IL-23 ↓; DISTINCT from run_028 keratinocyte
+- **Rapamycin dose paradox**: low → Treg expansion (mTORC2/SGK1/FOXO1 preserved); high → NODAT (4EBP1/insulin mRNA + cyclin D1/β cell proliferation ↓)
+- **mTORC2/SGK1/FOXO1 Treg homing**: rapamycin-insensitive pathway preserves islet Treg tissue homing
+- **ME/CFS mTOR signature**: p-S6K1 elevated in CD3+ T cells during PEM; viral mTOR hijacking EBV/HHV-6 → dual rapamycin benefit
+
+**Framework at SATURATION + 47: 158 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-fifty-first extension | mTOR-1p36.2 PIKK mTORC1-RPTOR mTORC2-RICTOR S6K1-Thr389 4EBP1 HIF-1α-Th17 FOXP3-Treg-switch Battaglia2006-JCI NODAT-β-cell-toxicity mTORC2-SGK1-FOXO1-homing DC-IL23-Sinclair2013 rapamycin-dose-paradox run028-DISTINCT-keratinocyte rapamycin+IL2-run151 ME-CFS-p-S6K1-PEM | run_158*
+
+---
+
+### Extension 152 — BATF/BATF3/IRF4: cDC1 Cross-Presentation of β Cell Antigens, Th17/Tfh Pioneer Factor, IRF4 Dosage Switch, eTreg
+
+**Date:** 2026-04-12 | **Run:** run_159
+
+**Gap confirmed:** BATF/BATF3 in 0 files across all 158 runs; IRF4 only in run_007 as secondary kill mention; cDC1/XCR1/BATF3/cross-presentation axis entirely absent.
+
+**Core insight:** BATF3:IRF8 specifies **cDC1 identity** (XCR1+/Clec9a+) — the DC subset that performs MHC-I **cross-presentation** of β cell debris antigens to CD8+ CTLs. BATF3 KO NOD mice → cDC1 absent → T1DM completely prevented (Ferris 2014 JCI). DISTINCT from run_128 (CLEC16A → MHC-II cDC2/pDC = Signal 1/CD4 T cell; run_159 = MHC-I/CD8 CTL priming). BATF:IRF4 is required as Th17 pioneer factor (AICE composite elements; BATF KO → Th17 fails despite intact RORγt). IRF4 dosage: low → Treg; intermediate → Tfh; high → Th17/plasma cell/terminal exhausted CD8+.
+
+**New mechanisms added (run_159):**
+- **BATF3/IRF8 → cDC1 identity**: XCR1+ Clec9a+ DCs; Hildner 2008 Science 322:1097; BATF3 KO → cDC1 absent, cDC2 preserved
+- **cDC1 cross-presentation gateway**: β cell debris → cDC1 → Rab7/TAP1/MHC-I → PLN CD8+ CTL priming → killing feed-forward; Ferris 2014 JCI complete prevention
+- **BATF:IRF4 Th17 pioneer factor**: AICE elements; BATF opens chromatin BEFORE RORγt; run_158 = metabolic permissivity + run_159 = transcriptional permissivity (orthogonal requirements)
+- **IRF4 dosage binary switch**: low → Treg (FOXP3 represses IRF4); intermediate → Tfh (extends run_104); high → Th17/plasma/exhausted CD8+ (with TOX)
+- **BATF in eTreg**: ICOS+BATF+ eTreg = most suppressive islet Treg; BATF required for IL-10/CTLA4 in peripheral tissue Tregs
+- **BATF:IRF4:TOX CD8 exhaustion**: chronic cDC1 cross-presentation → TOX+BATF+IRF4(high) → terminal exhaustion; Tcf1+ progenitor → Tcf1− terminal; chronic islet inflammation paradox
+
+**Framework at SATURATION + 48: 159 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-fifty-second extension | BATF-14q24.3 BATF3-1q32.3 IRF4-6p25.3 bZIP JUN-heterodimerization AICE-composite BATF3-IRF8-cDC1-master-TF XCR1-Clec9a-DNGR-1 cross-presentation-MHC-I β-cell-debris TAP1 PLN-CD8-CTL Ferris2014-JCI BATF3-KO-T1DM-prevention Hildner2008-Science BATF-pioneer-Th17 chromatin-opening IRF4-dosage-Treg-Tfh-Th17 eTreg-ICOS-BATF-islet TOX-BATF-IRF4-terminal-exhaustion run128-cDC2-MHC-II-DISTINCT run104-Tfh-extension run158-metabolic+transcriptional-Th17 run152-R620W-IRF4-Treg-paradox | run_159*

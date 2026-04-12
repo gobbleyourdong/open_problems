@@ -1833,3 +1833,46 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
    - Do not use tazemetostat systemically in T1DM without β cell protection strategy
 
 *T1DM THEWALL cross-reference run_157: 2026-04-12 | EZH2-Cdkn2a-p16-CDK4 Dhawan2009-Science β-cell-regenerative-gate insulitis-EZH2-↓ aging-LADA SAM-B12-SETD7-EZH2-run145-dual tazemetostat-HARMFUL-T1DM-systemic H3K27me3-4th-chromatin NK-NKG2D-H3K27me3-run102 | run_157*
+
+---
+
+### Cross-reference: run_158 — mTOR/mTORC1/mTORC2/Rapamycin: Treg Expansion Therapy, Rapamycin Dose Paradox, β Cell NODAT Risk
+
+**Relevance: HIGH**
+
+1. **Rapamycin dose paradox — critical for T1DM protocol**:
+   - Ultra-low dose (0.1–1 mg/day): mTORC1 inhibition → selective Treg expansion; Battaglia 2006 JCI = complete NOD prevention; mTORC2/SGK1/FOXO1 preserved → Treg tissue homing maintained
+   - Transplant dose (10–15 mg/day): NODAT risk → β cell 4EBP1/insulin mRNA translation ↓ + cyclin D1/mass ↓; DO NOT use immunosuppressive rapamycin in T1DM without β cell protection strategy
+   - Rapamycin + IL-2 (run_151): dual Treg targeting — mTORC1 (expansion gate) + IL-2Rαβγ (survival/proliferation); Bluestone combination rational
+
+2. **mTORC2/SGK1/FOXO1 → islet Treg homing**:
+   - mTORC2 → SGK1 → FOXO1 cytoplasmic → CXCR3+/CCR6+ tissue-homing Tregs → islet accumulation
+   - Rapamycin-insensitive: islet Treg homing preserved with low-dose rapamycin therapy
+
+3. **β cell mTOR context** (parallel to EZH2/run_157):
+   - β cell mTORC1 → cyclin D translation → proliferative capacity; insulitis cytokines → mTOR ↓ → proliferative reserve lost alongside EZH2 ↓
+   - Two parallel β cell regenerative gates impaired by insulitis: CDK4/6 (EZH2-Cdkn2a run_157) + cyclin D translation (mTOR run_158)
+
+*T1DM THEWALL cross-reference run_158: 2026-04-12 | mTOR-Treg-Th17-metabolic-switch Battaglia2006-JCI-NOD-prevention rapamycin-dose-paradox NODAT-β-cell-toxicity mTORC2-SGK1-FOXO1-islet-Treg-homing rapamycin+IL2-run151-combination DC-IL23-Sinclair2013 β-cell-mTOR-cyclin-D-parallel-run157 | run_158*
+
+---
+
+### Cross-reference: run_159 — BATF/BATF3/IRF4: cDC1 Cross-Presentation Gateway, IRF4 Dosage, eTreg
+
+**Relevance: HIGH**
+
+1. **BATF3/cDC1 cross-presentation = initiating step of β cell CD8+ killing**:
+   - BATF3:IRF8 → cDC1 (XCR1+/Clec9a+) identity; Ferris 2014 JCI: BATF3 KO NOD mice → T1DM completely prevented
+   - β cell debris → cDC1 phagocytosis → Rab7/TAP1/MHC-I → PLN CD8+ CTL priming → β cell killing
+   - DISTINCT from run_128 (CLEC16A → MHC-II/cDC2/Signal 1/CD4 T cell); run_159 = MHC-I/CD8/CTL initiation — both operating simultaneously
+
+2. **IRF4 dosage links to Treg biology**:
+   - IRF4-low → Treg (FOXP3 represses IRF4 gene); preserving IRF4-low state in islet Tregs = Treg identity maintenance
+   - PTPN22 R620W (run_152): altered TCR signal strength → IRF4 induction abnormal → Treg paradox (R620W → Treg impairment via IRF4 pathway)
+   - IRF4-intermediate → Tfh (run_104) → GC anti-β cell IgG (anti-GAD65, anti-ZnT8); IRF4 dosage controls both Treg and Tfh outcomes
+
+3. **BATF in islet eTreg**:
+   - ICOS+BATF+ islet Tregs = most suppressive; eTreg BATF required for IL-10/CTLA4 effector function in pancreas
+   - IL-2 (run_151) + ICOS agonism → BATF ↑ in eTreg → enhanced islet suppression
+
+*T1DM THEWALL cross-reference run_159: 2026-04-12 | BATF3-cDC1-XCR1-Clec9a Ferris2014-JCI-T1DM-prevention β-cell-debris-MHC-I-cross-presentation PLN-CD8-CTL-priming run128-cDC2-MHC-II-DISTINCT IRF4-low-Treg IRF4-R620W-Treg-paradox-run152 IRF4-intermediate-Tfh-anti-β-cell-IgG-run104 eTreg-ICOS-BATF-islet IL2-ICOS-BATF-combination-run151 | run_159*

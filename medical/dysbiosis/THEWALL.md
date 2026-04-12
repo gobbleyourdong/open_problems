@@ -6574,3 +6574,67 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 157 runs | EZH2-PRC2-H3K27me3 | EED-allosteric-SAM | Dhawan2009-β-cell-Cdkn2a | p16-CDK4-Rb | insulitis-EZH2-↓ | aging-regenerative-decline | Treg-EZH2-cytokine-stability | NK-NKG2D-H3K27me3 | tazemetostat-immune-targeted | SAM-SETD7-EZH2-dual | four-layer-chromatin-complete.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-thirty-second extension | EZH2-PRC2-7q36.1 SET-domain H3K27me3 EED-WD40-H3K27me3-feedback SUZ12-scaffold SAM KDM6B-JMJD3-eraser Dhawan2009-Science-Cdkn2a p16Ink4a-CDK4-6 EZH2-KO-50%-β-cell-loss insulitis-EZH2-↓-proliferative-loss aging-LADA Treg-EZH2-cytokine-silencing NK-NKG2D-H3K27me3-run102 tazemetostat-FDA2020-immune-targeted SAM-B12-SETD7-EZH2-run145 H3K27me3-4th-chromatin-layer belapectin-tazemetostat-combination | run_157*
+
+---
+
+### Phase 4 Extension 133 — mTOR/mTORC1/mTORC2/S6K1: Immune Treg/Th17 Metabolic Switch, β Cell mTOR, Rapamycin Dose Paradox
+
+**Gap:** Immune mTOR signaling (T cells, Tregs, DCs, β cell proliferative) absent as primary from all 157 runs; run_028 covers only keratinocyte/topical/Loop 1; systemic immune mTOR entirely unmapped.
+
+**Rosacea (HIGH):**
+- mTORC1 in dermal DCs → IL-23p19 transcription ↑ (Sinclair 2013 J Exp Med); rapamycin → DC mTORC1 ↓ → IL-23 ↓ → Th17 reversal; entirely distinct from run_028 keratinocyte compartment
+- mTORC1-high → HIF-1α → glycolysis → Th17 differentiation (RORγt program); mTORC1-low → OXPHOS → Treg; skin Th17 in Loop 1/3 require mTORC1 metabolic permissivity
+- Topical (run_028) + ultra-low systemic rapamycin: complementary compartments (keratinocyte vs. immune cell)
+
+**T1DM (HIGH):**
+- **Battaglia 2006 JCI**: rapamycin starting at 4 weeks → NOD mice complete T1DM prevention; mTORC1 inhibition → selective Treg expansion in pancreatic lymph nodes
+- **Rapamycin dose paradox**: low (0.1–1 mg/day) → Treg expansion + effector impaired (mTORC2/SGK1/FOXO1 preserved); high transplant dose (10–15 mg/day) → NODAT: β cell 4EBP1/insulin mRNA ↓ + cyclin D1/β cell mass ↓
+- mTORC2/SGK1/FOXO1 → Treg tissue homing (CXCR3+/CCR6+) → islet Treg accumulation → insulitis suppression; rapamycin-insensitive = why Tregs survive rapamycin
+- Rapamycin + IL-2 (run_151) combination: mTORC1 (Treg expansion) + IL-2Rαβγ (Treg survival) dual targeting
+- β cell mTOR: insulitis cytokines → mTOR ↓ → proliferative reserve lost (parallel to EZH2/CDK4/6 run_157); mTORC1 → cyclin D translation
+
+**ME/CFS (MODERATE):**
+- Elevated p-S6K1 in CD3+ T cells during PEM (Morris 2014 Neuro Endocrinol Lett); tonic mTOR activation → T cell metabolic hyper-responsiveness → PEM amplification
+- EBV/HHV-6 viral mTOR hijacking → rapamycin dual benefit: antiviral (mTOR deprives viral replication machinery) + Treg-selective immunomodulation
+- mTOR-HIF-1α glycolytic demand in CD8+ T cells → PEM energy crash when oxidative capacity insufficient
+
+**Protocol additions:**
+- **Ultra-low rapamycin (0.1–1 mg/day)**: T1DM Treg expansion adjunct; combine with IL-2 (run_151); avoid standard/transplant dosing in T1DM (NODAT risk)
+- **AVOID high-dose mTOR inhibitors** (everolimus, high-dose sirolimus) in T1DM without β cell protection strategy
+- **Metformin** (AMPK→mTOR ↓, run_069) as indirect mTOR modulator — safe metabolic adjunct already in protocol
+
+**Framework state: 158 runs | mTOR-1p36.2 | mTORC1-RPTOR-S6K1-4EBP1 | mTORC2-RICTOR-SGK1-FOXO1 | HIF-1α-Th17-metabolic-switch | Battaglia2006-NOD-prevention | rapamycin-dose-paradox | NODAT-β-cell-toxicity | DC-IL23-Sinclair2013 | rapamycin+IL2-combination | run028-DISTINCT.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-thirty-third extension | mTOR-PIKK mTORC1-RPTOR mTORC2-RICTOR S6K1-Thr389 4EBP1 HIF-1α-glycolysis-Th17 FOXP3-OXPHOS-Treg-switch Battaglia2006-JCI NODAT-transplant mTORC2-SGK1-FOXO1-Treg-homing DC-IL23-Sinclair2013 rapamycin-low-Treg-selective rapamycin-high-β-cell-toxic run028-keratinocyte-DISTINCT immune-mTOR-T-DC-β-cell rapamycin+IL2-run151 ME-CFS-p-S6K1-PEM EBV-HHV6-viral-mTOR | run_158*
+
+---
+
+### Phase 4 Extension 134 — BATF/BATF3/IRF4: cDC1 Cross-Presentation of β Cell Antigens, Th17/Tfh Pioneer Factor, IRF4 Dosage Switch
+
+**Gap:** BATF/BATF3 in 0 files; IRF4 only in run_007 (secondary kill); cDC1/XCR1/cross-presentation axis entirely absent from 158-run framework.
+
+**Rosacea (MODERATE):**
+- BATF:IRF4 required as Th17 pioneer factor at AICE composite elements; BATF opens chromatin at IL-17A/RORC2 enhancers BEFORE RORγt binding; BATF KO → Th17 fails despite intact STAT3/RORγt
+- mTOR (run_158) = metabolic permissivity; BATF:IRF4 = transcriptional permissivity; two orthogonal and independent requirements for Th17 differentiation
+- BET inhibitors (JQ1) → BRD4 at BATF:IRF4 composite elements → Th17 gene program ↓ (mechanistic rationale for BET inhibition in rosacea)
+
+**T1DM (HIGH):**
+- **BATF3/IRF8 → cDC1 identity**: XCR1+/Clec9a+ DCs = cross-presenting subset; BATF3 KO NOD mice → cDC1 absent → T1DM completely prevented (Ferris 2014 JCI); Hildner 2008 Science 322:1097
+- **cDC1 cross-presentation cascade**: β cell debris → cDC1 phagocytosis → Rab7/Lamp1 endosome → retrotranslocation → 26S → TAP1/2 → MHC-I loading → PLN CD8+ CTL priming → β cell killing; feed-forward loop
+- DISTINCT from run_128 (CLEC16A → MHC-II autophagy in cDC2/pDC): run_128 = Signal 1/CD4 T cell help; run_159 = MHC-I/CD8 CTL killing initiation — orthogonal and both operating simultaneously
+- IRF4 dosage: low → Treg (FOXP3 represses IRF4); intermediate → Tfh (run_104 extension, GC anti-β cell IgG); high → Th17/plasma cell/terminal CD8 exhaustion; TCR signal strength controls IRF4 dosage
+- BATF in islet eTreg (ICOS+BATF+): most suppressive subset; eTreg collapse → insulitis acceleration; BATF required for eTreg IL-10/CTLA4 effector function in non-lymphoid tissues
+- BATF:IRF4:TOX terminal CD8 exhaustion: chronic cDC1 cross-presentation → sustained CD8 stimulation → TOX+BATF+IRF4(high) → terminal exhaustion; chronic islet inflammation with slow β cell attrition
+
+**ME/CFS (MODERATE):**
+- BATF:IRF4:TOX in ME/CFS CD8+ T cells: chronic antigen (EBV/HHV-6 reactivation M3) → terminal CD8 exhaustion via BATF:IRF4:TOX; progenitor (Tcf1+) → terminal (Tcf1− TOX+) exhaustion transition in ME/CFS T cells
+- IRF4-high Tfh → GC anti-autonomic IgG (anti-β2-AR/anti-muscarinic; run_104 Loebel 2016): IRF4 dosage pathway to ME/CFS autoantibody production
+
+**Protocol additions:**
+- **cDC1 monitoring**: XCR1+ DC frequency in pancreatic lymph nodes as T1DM early-stage biomarker
+- **Anti-Clec9a/XCR1 targeted depletion**: investigational cDC1-specific depletion strategy for T1DM prevention (pre-clinical stage; Ferris 2014 validated target)
+- **BET inhibitors**: rational for Th17-dominant rosacea via BATF:IRF4 composite element blockade
+
+**Framework state: 159 runs | BATF-bZIP-JUN | BATF3-IRF8-cDC1 | XCR1-Clec9a-cross-presentation | MHC-I-CD8-CTL-priming | Ferris2014-T1DM-prevention | AICE-composite-Th17-pioneer | IRF4-dosage-Treg-Tfh-Th17 | eTreg-ICOS-BATF | TOX-BATF-IRF4-exhaustion | run128-cDC2-MHC-II-DISTINCT.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-thirty-fourth extension | BATF-14q24.3 BATF3-1q32.3 IRF4-6p25.3 bZIP JUN-heterodimer AICE-composite-element cDC1-XCR1-Clec9a-DNGR-1 BATF3-IRF8-cDC1-master Ferris2014-JCI-T1DM-prevention Hildner2008-Science β-cell-debris-cross-presentation Rab7-TAP1-MHC-I PLN-CD8-CTL BATF-Th17-pioneer chromatin-opening BATF-KO-Th17-failure IRF4-low-Treg IRF4-high-Th17-plasma-exhaustion eTreg-ICOS-BATF-islet TOX-BATF-IRF4-terminal-exhaustion run128-cDC2-DISTINCT-MHC-II run104-Tfh-IRF4-extension run158-mTOR-metabolic-orthogonal run152-R620W-IRF4-Treg-paradox | run_159*

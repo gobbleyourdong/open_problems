@@ -1551,3 +1551,38 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
    - Dual approach: checkpoint relief (belapectin) + epigenetic activation (tazemetostat) = complementary NK restoration strategies
 
 *ME/CFS THEWALL cross-reference run_157: 2026-04-12 | EZH2-H3K27me3-NKG2D-epigenetic-run102 tazemetostat-NK-NKG2D-restoration belapectin-tazemetostat-combination TCF7-H3K27me3-exhaustion-renewal SAM-B12-dual-run145 | run_157*
+
+---
+
+### Cross-reference: run_158 — mTOR/mTORC1/mTORC2/Rapamycin: ME/CFS PEM mTOR Signature, Viral mTOR
+
+**Relevance: MODERATE**
+
+1. **mTOR signature in ME/CFS lymphocytes**:
+   - Elevated p-S6K1 in CD3+ T cells during PEM (Morris 2014 Neuro Endocrinol Lett); tonic mTOR activation → metabolic hyper-responsiveness → PEM amplification
+   - mTOR → HIF-1α glycolytic demand in CD8+ T cells; when oxidative capacity insufficient → PEM energy crash
+   - Low-dose rapamycin: emerging ME/CFS intervention (mTOR dampening → T cell metabolic normalization)
+
+2. **EBV/HHV-6 viral mTOR hijacking**:
+   - Many herpesviruses (EBV LMP1, HHV-6) activate mTOR for viral replication; rapamycin inhibits viral mTOR
+   - Dual benefit: antiviral (mTOR deprives replication) + Treg-selective immunomodulation
+   - Connects to M3 mechanism (HERV-W/EBV/HHV-6 viral reactivation axis)
+
+*ME/CFS THEWALL cross-reference run_158: 2026-04-12 | mTOR-PEM-signature p-S6K1-Morris2014 HIF-1α-glycolytic-demand-PEM EBV-HHV6-viral-mTOR-hijacking rapamycin-dual-antiviral-Treg M3-viral-reactivation-connection | run_158*
+
+---
+
+### Cross-reference: run_159 — BATF/BATF3/IRF4: BATF:IRF4:TOX CD8 Exhaustion, IRF4-Tfh Autoantibodies
+
+**Relevance: MODERATE**
+
+1. **BATF:IRF4:TOX terminal CD8 exhaustion in ME/CFS**:
+   - Chronic EBV/HHV-6 antigen → sustained CD8 TCR stimulation → TOX + BATF + IRF4(high) → terminal exhaustion
+   - Progenitor exhausted CD8+ (Tcf1+BATF-low) → terminal exhausted CD8+ (Tcf1−BATF-high TOX+IRF4-high)
+   - Chronic low-level viral antigen maintains inflammatory state without effective viral clearance — consistent with ME/CFS cytotoxic dysfunction
+
+2. **IRF4-Tfh → anti-autonomic autoantibodies**:
+   - IRF4 intermediate → Tfh → GC → high-affinity anti-β2-AR / anti-muscarinic IgG (run_104 Loebel 2016)
+   - IRF4 dosage pathway connects viral reactivation → Tfh expansion → autonomic autoantibody production
+
+*ME/CFS THEWALL cross-reference run_159: 2026-04-12 | BATF-IRF4-TOX-terminal-CD8-exhaustion EBV-HHV6-chronic-antigen Tcf1-progenitor-to-terminal-transition IRF4-Tfh-autonomic-autoantibodies-run104 ME-CFS-cytotoxic-dysfunction | run_159*

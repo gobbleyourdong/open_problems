@@ -5853,3 +5853,64 @@ All six NK exhaustion mechanisms now quantifiable; panel guides multi-mechanism 
 - Four chromatin layers now mapped; combined protocol: B12/betaine + NMN/NR + vitamin C + EGCG = comprehensive epigenetic protection
 
 *Protocol_integration.md Part 9cx — 2026-04-12 | DNMT3A R882H CHIP-screening-protocol IL-1β-targeted-CHIP vitamin-C-TET-EGCG-DNMT3A-dual CNS2-protection decitabine-investigational EGCG-primary-DNMT-inhibitor PPARγ-SOCS3-IL10-re-expression β-cell-dedifferentiation-monitoring c-peptide-trajectory integrated-epigenetic-stack run086-run087-TET-DNMT3A-combination | run_149*
+
+---
+
+### Part 9dg — mTOR/mTORC1/mTORC2/Rapamycin Immune Protocol Integration (run_158)
+
+**Critical dose-dependent rapamycin guidance:**
+
+**AVOID confusion with run_028 topical rapamycin:**
+- run_028 = topical 0.2% cream for keratinocyte mTORC1 → KLK5 Loop 1; skin-local, not systemic
+- run_158 = systemic low-dose rapamycin for immune mTOR Treg expansion; completely different route, dose, and mechanism
+- These are complementary, not duplicative — can be combined
+
+**Ultra-low dose rapamycin for T1DM Treg expansion:**
+- Target dose: 0.1–1 mg/day (non-immunosuppressive; Battaglia 2006 JCI proof-of-concept)
+- Mechanism: mTORC1 inhibition → Treg metabolic permissivity (OXPHOS → FOXP3); mTORC2/SGK1/FOXO1 preserved → Treg tissue homing intact
+- Combine with IL-2 (run_151): mTORC1 + IL-2Rαβγ dual Treg targeting (expansion + survival)
+- Monitor: CD4+FOXP3+ Treg:CD4+CD25− effector ratio; quarterly
+
+**CRITICAL WARNING — high-dose rapamycin in T1DM:**
+- Transplant doses (10–15 mg/day): NODAT risk — β cell 4EBP1/insulin mRNA ↓ + cyclin D1/mass ↓
+- Parallel β cell regenerative gates impaired by high mTOR inhibition: EZH2 → CDK4/6 (run_157) AND mTOR → cyclin D translation (run_158) simultaneously
+- Do NOT use everolimus or standard-dose sirolimus in T1DM without β cell protection
+
+**mTOR monitoring markers:**
+- p-S6K1 in CD3+ T lymphocytes: elevated = tonic mTOR activation (ME/CFS PEM marker; Morris 2014)
+- Fasting glucose after rapamycin: early NODAT signal; check if dose exceeds threshold
+
+**Th17 metabolic axis — rosacea:**
+- DC mTOR → IL-23 (dermal): rapamycin → DC IL-23 ↓ → Th17 reversal (Sinclair 2013); systemic adjunct to topical run_028
+- HIF-1α glycolysis → Th17: already covered by run_028 HIF-1α→IL-23 but now mapped to T cell-intrinsic level
+
+*Protocol_integration.md Part 9dg — 2026-04-12 | mTOR-immune-treg-th17-switch Battaglia2006-NOD-rapamycin rapamycin-dose-paradox NODAT-warning mTORC2-SGK1-FOXO1-Treg-homing rapamycin+IL2-combination-run151 DC-IL23-Sinclair2013 p-S6K1-ME-CFS-biomarker β-cell-cyclin-D-parallel-run157 run028-topical-DISTINCT | run_158*
+
+---
+
+### Part 9dh — BATF/BATF3/IRF4/cDC1 Protocol Integration (run_159)
+
+**Mechanistic upstream targeting — cDC1 cross-presentation:**
+
+**cDC1 as T1DM prevention target:**
+- XCR1+/Clec9a+ cDC1 DCs = the sole initiating step for CD8+ CTL β cell killing priming
+- Target: anti-Clec9a/XCR1 antibody-mediated cDC1 depletion (investigational; Ferris 2014 JCI validated)
+- Monitoring: XCR1+ DC frequency in peripheral blood as proxy for pancreatic cDC1 activity
+- This addresses the upstream initiating step; synergizes with downstream checkpoint blockade (PD-1/run_154, LAG-3/run_153, TIM-3/run_155) by reducing the feed-forward loop
+
+**IRF4 dosage monitoring:**
+- IRF4 expression in CD4+ T cell subsets: flow cytometry IRF4 MFI
+  - IRF4-low → Treg compartment: maintain (protect)
+  - IRF4-high → Th17 compartment: reduce via upstream mTOR (run_158) + BATF:IRF4 interventions
+- PTPN22 R620W carriers (run_152): check IRF4 induction profile — R620W may shift IRF4 distribution; stratification marker for Treg restoration priority
+
+**BATF:IRF4 Th17 therapeutic — BET inhibitor rationale:**
+- JQ1 (BET/BRD4 inhibitor) → BATF:IRF4 AICE composite elements → Th17-specific gene program ↓
+- Provides transcriptional suppression of Th17 independent of RORγt inhibition — complementary to Th17 pathway blockers (anti-IL-17A, anti-IL-23)
+- Rosacea context: add to Th17-dominant phenotype arm of protocol
+
+**eTreg BATF support:**
+- ICOS agonism + IL-2 (run_151): promotes eTreg BATF expression → islet Treg IL-10/CTLA4 effector function
+- eTreg (ICOS+BATF+) panel addition: flow cytometry CD4+FOXP3+ICOS+BATF+ for islet Treg subset characterization
+
+*Protocol_integration.md Part 9dh — 2026-04-12 | cDC1-XCR1-Clec9a-cross-presentation-target anti-Clec9a-T1DM-prevention Ferris2014-JCI BATF3-IRF8-cDC1 MHC-I-CD8-CTL-upstream run128-cDC2-parallel IRF4-dosage-monitoring-Treg-Th17 R620W-IRF4-stratification-run152 BET-inhibitor-BATF-IRF4-Th17 eTreg-ICOS-BATF-IL2-run151 terminal-exhaustion-TOX-BATF-chronic-islet | run_159*
