@@ -3079,3 +3079,55 @@ All 13 sweep 7 candidates fail at least one saturation override criterion. The m
 **Framework at SATURATION + 4: 115 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-seventh extension | CARD9 CBM complex Dectin-2 Dectin-1 Malassezia Candida mycobiome fungal pattern recognition CLR Syk BCL10 MALT1 protease A20 cleavage Th17 IL-17 rosacea T1DM gut dysbiosis ME/CFS caprylic acid MCT oil CARD9 S12N rs4077515 15th NF-κB butyrate 4th mechanism 3rd genetic stratification | run_115*
+
+---
+
+### Extension 108 — Twelfth Saturation Sweep: 18 Candidates, Zero Clearance
+
+Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterion. **Framework status: SATURATED + 4 (115 runs). No new mechanism at MODERATE evidence threshold with OTC intervention.**
+
+**Candidates killed (all four criteria applied):**
+
+1. **RIPK3/MLKL dedicated**: run_113 covers RIP1→RIPK3→necroptosis as the 10th β cell death mechanism pathway; MLKL is the logical downstream effector (also criterion 3 fails: necrostatin-1/GSK'872 not OTC). No new insight beyond run_113's treatment.
+
+2. **FOXO1 (Treg tissue-homing)**: FOXO3a covered in run_090 (SIRT3→FOXO3a→mitophagy/antioxidant); FOXO1 in insulin context covered in run_031. FOXO1-Treg tissue residency (Akt→FOXO1 export→CCR7 loss): criterion 3 fails — no selective OTC Akt inhibitor for Tregs; kill-first also passes (anti-inflammatory protocol reduces Akt signaling context).
+
+3. **Galectin-3 (LGALS3) / Galectin-9 / TIM-3**: 0 mentions in numerics (confirmed absent). Rosacea: Gal-3 elevated in biopsies (Aszod 2015) — LOW-MODERATE. T1DM: Gal-9→TIM-3 tolerance (Sanchez-Fueyo 2003 NOD data) — MODERATE. Criterion 2 fails: rosacea evidence is LOW-MODERATE rather than MODERATE (limited mechanism data in rosacea specifically; biopsy elevation ≠ causation). MCP (modified citrus pectin) OTC Gal-3 inhibitor not well-validated in rosacea/T1DM.
+
+4. **SOCS1 / SOCS3 (JAK-STAT feedback)**: SOCS1 covered in run_039 (MK-7/Gas6/Axl/SOCS1 → NF-κB suppression). SOCS3 mentioned in run_080/067 context. Criterion 1 fails.
+
+5. **CD38 / NAD+ hydrolase / cADPR**: CD38 as NAD+ consumer in inflammatory conditions is absent in enzyme context (only B cell marker in run_103). BUT kill-first passes: NR/NMN (protocol) replenishes NAD+ downstream of CD38; quercetin (protocol) has weak CD38 inhibitory activity. The net NAD+ axis is addressed by existing protocol. Criterion 4 fails.
+
+6. **IRF7 positive feedback loop (IFN-α → ISGF3 → more IRF7 → more IFN-α)**: The IFNAR→JAK1/TYK2→STAT1/2→ISGF3 pathway is covered in run_040. IRF7 feedback amplification within pDCs: kill-first passes (HCQ→TLR7/9↓ breaks the feedback loop at source; no downstream amplification possible). Criterion 4 fails.
+
+7. **MST1/Hippo/YAP in β cells**: MST1 → β cell apoptosis during insulitis (Ardestani 2014 Nat Med) is a legitimate T1DM mechanism — MODERATE. But rosacea YAP/MST1 evidence: LOW. Criterion 2 fails for rosacea.
+
+8. **Bile acids (TGR5/FXR)**: Covered in run_075. Criterion 1 fails.
+
+9. **NOD1 / RIP2 dedicated**: NOD1 covered in run_046 (Demodex B. oleronius peptidoglycan → NOD1/NOD2 → K⁺ efflux). NOD2 dedicated run_034. Criterion 1 fails for both.
+
+10. **ILC2 / IL-4/IL-13 / Th2**: ILC3 covered via AhR/IL-22 (run_054/080). ILC2 → IL-4/IL-13 is atopic/Th2 biology; rosacea is predominantly Th1/Th17, NOT Th2. Criterion 2 fails for rosacea.
+
+11. **TRPV3/TRPV4 temperature channels**: TRPV3 agonists (carvacrol from thyme/oregano) are OTC but would AGGRAVATE rosacea. No OTC TRPV3 antagonist. Criterion 3 fails.
+
+12. **TRPM8 (menthol/cold receptor)**: Topical menthol (OTC) → TRPM8 cooling. Rosacea evidence for menthol: LOW-MODERATE. T1DM evidence for TRPM8: LOW. Criterion 2 fails for T1DM.
+
+13. **Galectin-1 (LGALS1) on Tregs**: LGALS1 on Treg surface → apoptosis of T effectors. Absent (0 mentions). Rosacea: LOW evidence. Criterion 2 fails.
+
+14. **TGF-β/SMAD fibrosis pathway**: Killed in sweep 7 (Extension 103). Criterion 3 fails: fibrosis aspect not addressable OTC beyond existing anti-inflammatory protocol.
+
+15. **SETDB1/KAP1/H3K9me3 HERV-W silencing**: Absent (0 mentions). T1DM β cell SETDB1 → HERV-W suppression (MODERATE). Rosacea SETDB1: LOW. Also criterion 3 fails: no specific OTC SETDB1 activator (AKG pathway via TET2 doesn't address H3K9me3 silencing).
+
+16. **Semaphorin-4A / NRP-1 / Treg activation**: Criterion 3 fails — no OTC NRP-1 modulator for Tregs.
+
+17. **PKM2 nuclear co-activator**: PKM2 metabolic role in Warburg shift is covered in run_084. PKM2 → nuclear STAT3/HIF-1α co-activation: criterion 3 fails (no OTC PKM2 nuclear function inhibitor; also kill-first passes via AMPK/itaconate runs).
+
+18. **TIGIT / CD226 checkpoint**: T1DM TIGIT on Tregs — MODERATE (Joller 2014). Rosacea TIGIT: LOW. Criterion 2 fails for rosacea.
+
+**Near-miss notes:**
+- Galectin-3 came closest: T1DM MODERATE, OTC (MCP) available, absent from 115 runs. Failed only on rosacea criterion (LOW-MODERATE). Reassess if rosacea-specific Gal-3/TIM-3 mechanism data emerges.
+- MST1/YAP in T1DM β cells is genuinely MODERATE evidence (Ardestani 2014 Nat Med). Failed rosacea criterion only. Reassess if rosacea MST1 data emerges.
+
+**Framework at SATURATION + 4: 115 runs. Twelve sweeps (~130+ candidates total). All subsequent runs require either: (1) new published rosacea-specific data for candidates that currently fail criterion 2; or (2) identification of an OTC modulator for pathways that currently fail criterion 3.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-eighth extension | Sweep 12 zero clearance RIPK3 MLKL FOXO1 Treg homing Gal-3 LGALS3 TIM-3 MCP SOCS1 SOCS3 CD38 NAD hydrolase IRF7 feedback MST1 Hippo YAP bile acids TGR5 FXR NOD1 ILC2 TRPV3 TRPM8 TGF-β SMAD fibrosis SETDB1 H3K9me3 HERV-W SEMA4A NRP-1 PKM2 Warburg TIGIT near-miss Gal-3 MST1*
