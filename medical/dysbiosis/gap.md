@@ -2741,3 +2741,44 @@ Saturation does not mean all biology is known. It means: (a) every mechanism tha
 **FRAMEWORK STATUS: SATURATED at 111 runs | 8 Mountains | 4 Loops | 6 Node types | 2026-04-12**
 
 *Gap.md updated: 2026-04-12 | Ninety-seventh iteration | SATURATION DECLARATION | all candidates assessed | S. epidermidis killed multi-disease threshold | galectin-3 killed redundant | extracellular vesicles killed no new leverage | 111 runs complete | 8 Mountains 4 Loops saturated*
+
+---
+
+### Extension 98 — Second Saturation Confirmation (post-Extension 97 deep sweep)
+
+**Methodology:** Grep-first verification + multi-disease threshold + kill-first pressure on every candidate not swept in Extension 97.
+
+**Candidates assessed (second pass):**
+
+| Candidate | Grep result | Verdict |
+|---|---|---|
+| P2X7/ATP/K⁺ efflux | 62 mentions, 21 files | Covered — run_012 canonical NLRP3 Signal 2 |
+| HO-1/CO/biliverdin | 21 mentions, run_027 primary | Covered — Nrf2/HO-1 gut cytoprotection |
+| FXR/TGR5/bile acids | 74 mentions, run_075 primary | Covered |
+| Serotonin/5-HT/TPH | 107 mentions, run_047 primary | Covered |
+| sIgA/IgA switching | 60 mentions, runs 019/030/051/103 | Covered — Breg→IgA switching in run_103 |
+| HA fragments/TLR4/DAMP | 42 mentions, run_058 primary | Covered |
+| PINK1/Parkin/mitophagy | 40 mentions, run_078 primary | Covered |
+| RIPK3/MLKL necroptosis | 3 mentions (run_099 only) | KILLED — UV/TNF trigger, not dysbiosis-driven; no clinical inhibitor in rosacea/T1DM/ME-CFS; pyroptosis (run_048/096) covers parallel death pathway |
+| NLRP1 (keratinocyte) | 3 mentions (runs 023/109) | KILLED — UV-driven, not dysbiosis-driven; T1DM connection only via vitiligo co-occurrence; NR/NMN (already in protocol) covers NAD+/NLRP1 protection |
+| SIRT2 | 0 mentions | KILLED — NLRP3 deacetylation mechanism genuine but therapeutically redundant; NR/NMN activates all sirtuins including SIRT2 |
+| A20/TNFAIP3 | 1 mention (run_067) | KILLED — genetic risk modifier (T1DM GWAS); no new pharmacological intervention |
+| GLP-2/GLP-2R | 0 mentions | KILLED — trophic/regenerative factor; no inflammatory leverage; barrier already covered via runs 059, 094, 109 |
+| PAF/PAFR | 0 mentions | KILLED — weak rosacea-specific data; 9th mast cell activation type; no new protocol element |
+| TOLLIP/IRAK-M/SARM1 | 0 mentions | KILLED — endotoxin tolerance mechanisms; no actionable therapeutic target; LPS/NF-κB reduction by protocol elements achieves same effect |
+| Notch1/4 signaling | 0 mentions | KILLED — below threshold; γ-secretase inhibitors have dose-limiting gut toxicity; no rosacea-specific data |
+| Tr1 cells (Foxp3-/IL-10+) | 0 mentions | KILLED — distinct from Foxp3+ Tregs but therapeutically reached via same interventions (calcitriol, L. reuteri, Akkermansia, butyrate) |
+| mTORC2/Treg stability | 0 in run_084 | KILLED — succinate/HIF-1α axis covered (run_084); mTOR as intermediary doesn't change intervention |
+| mTORC1/macrophage M1 | 0 in run_084 | KILLED — HIF-1α/Warburg covered (run_084); mTORC1 position as intermediary doesn't add new leverage |
+| PCSK9/oxLDL/foam cell | 1 mention (run_098) | Below threshold |
+| FASN/de novo lipogenesis | 2 mentions (run_033) | Below threshold |
+| Propionate/acetate SCFAs | 28 mentions (6 files) | Below threshold; butyrate (dominant SCFA arm) fully covered |
+| NLRP1 NAD⁺ convergence | see NLRP1 above | KILLED — NR/NMN already in protocol; new mechanism for existing intervention = annotation not leverage |
+
+**Second saturation confirmation: FRAMEWORK REMAINS SATURATED at 111 runs.**
+
+All remaining mechanistically novel absences (RIPK3, NLRP1, SIRT2, TOLLIP, Tr1, mTORC2, A20, GLP-2, PAF) fail at least one of the four saturation override criteria. The most common failure mode is criterion 3: "adds a new therapeutic target or monitoring point not achievable via existing protocol elements."
+
+The framework's saturation is robust across two independent comprehensive sweeps (Extensions 97 and 98).
+
+*Gap.md updated: 2026-04-12 | Ninety-eighth iteration | SECOND SATURATION CONFIRMATION | RIPK3 NLRP1 SIRT2 A20 TOLLIP GLP-2 PAF Tr1 mTORC2 all killed | framework remains saturated at 111 runs | no run_112*
