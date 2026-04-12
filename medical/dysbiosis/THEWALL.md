@@ -5423,3 +5423,36 @@ Inflamed islets: IL-1β → DPP9 oxidative depletion in β cells → NLRP1 relea
 **Framework state: 122 runs | NLRP1 keratinocyte UV axis | DPP9 guardian mechanism | 15th β cell death | 5th Loop 1 upstream trigger | NLRP1→NLRP3 cross-relay | photosensitive subtype precision protocol | oral B3 new OTC.**
 
 *Updated: 2026-04-12 | Phase 4 ninety-seventh extension | NLRP1 DPP9 DPP8 UV ribotoxic keratinocyte IL-1beta pyroptosis gasdermin D GSDMD caspase-1 15th beta cell death NLRP3 cross-relay IL-33 HMGB1 DPP4 inhibitor saxagliptin sitagliptin nicotinamide oral B3 SIRT2 photosensitive thermosensitive phenotype Voss 2021 Johnson 2018 Chen 2015 | run_122*
+
+---
+
+### Phase 4 Extension 98 — BACH2 Treg Identity / Loop 4 Bridge / T1DM GWAS
+
+**Run_123 — BACH2 BTB-CNC Homolog 2 | Treg Identity Guardian | 2026-04-12**
+
+**Mechanism summary:**
+BACH2/MafK → PRDM1 (BLIMP-1) promoter repression → Treg identity preserved. Failure modes: (A) ROS → BACH2 Cys574 oxidation → nuclear export → BLIMP-1 derepressed → ex-Treg with IL-17/IFN-γ effector phenotype; (B) PI3K/Akt → FoxO1 exclusion → BACH2 transcription ↓. This is the FIRST mechanistic bridge from Loop 4 (sebaceous oxidative stress) to Treg regulatory failure in the framework.
+
+**Rosacea — Loop 4 → Treg failure:**
+Loop 4 sebaceous oxidative flare → ROS burst → BACH2 Cys574 oxidation → BACH2 nuclear export → BLIMP-1 derepressed in skin Tregs → Treg → ex-Treg conversion → IL-17A/IFN-γ production where suppression was expected → amplified neutrophilic inflammation. Explains why Loop 4 non-responders have disproportionate immune activation relative to sebaceous burden. BACH2 Cys574 protection (NRF2/sulforaphane → GSH) now gains mechanistic rationale as anti-ex-Treg conversion beyond its existing NRF2/Nrf2 roles (runs 027-029).
+
+**T1DM — GWAS top-7 non-MHC locus + B cell tolerance:**
+Cooper 2008 (Nat Genet): BACH2 rs3757247 is a top-7 non-MHC T1DM GWAS locus. Mechanistic explanation: BACH2 LOF → Treg plasticity → autoimmune beta cell attack + autoreactive B cell escape → islet autoantibodies. Roychoudhuri 2013 (Nature): BACH2 KO → multi-organ autoimmunity including diabetes. Insulitis → ROS → BACH2 Cys oxidation → ex-Treg conversion in pancreatic draining lymph nodes → amplified adaptive immune attack on beta cells. 6th genetic stratification point added to T-index framework.
+
+**ME/CFS — chronic activation → FoxO1 → BACH2 loss:**
+Chronic immune activation → persistent PI3K/Akt → FoxO1 phosphorylation/exclusion → BACH2 transcription reduced → Treg → ex-Treg conversion → increased CNS inflammation in ME/CFS. IFN-γ-producing ex-Tregs in ME/CFS brain tissue = microglial activation without Treg brake. Vitamin A / RA → BACH2 transcription ↑ provides a mechanistic rationale for Vitamin A in ME/CFS immune dysregulation.
+
+**Kill-first:**
+- 5 prior Treg runs (030, 031, 092, 112, 118): all address FOXP3 stability/induction; none model BACH2/BLIMP-1 or ex-Treg conversion. Not killed.
+- NRF2/sulforaphane (runs 027-029): protects BACH2 Cys574 partially, but BACH2 mechanism never described; not the same as dedicating mechanistic coverage to BACH2 plasticity.
+- BLIMP-1 in runs 103/104: B cell plasma differentiation context; Treg/BACH2 axis absent.
+
+**Protocol additions:**
+- Vitamin A 3000–5000 IU/day retinyl palmitate → RA → RAR-α/RXR → BACH2 ↑ (new OTC, completely absent from 122 prior runs)
+- NRF2/sulforaphane: add BACH2 Cys574 protection as mechanistic rationale supplement
+- FMD: add FoxO1 → BACH2 ↑ as mechanistic rationale supplement
+- BACH2 rs3757247 as 6th genetic stratification in T-index monitoring
+
+**Framework state: 123 runs | BACH2 Treg identity | Loop 4 oxidative → Treg failure FIRST BRIDGE | T1DM GWAS rs3757247 | B cell tolerance | ex-Treg IL-17/IFN-γ | Vitamin A new OTC | 6th stratification | NRF2/FMD new mechanisms.**
+
+*Updated: 2026-04-12 | Phase 4 ninety-eighth extension | BACH2 BTB-CNC MafK BLIMP-1 PRDM1 Treg identity plasticity ex-Treg Cys574 oxidation nuclear export Loop4 ROS bridge FoxO1 PI3K Akt T1DM GWAS rs3757247 Cooper 2008 Roychoudhuri 2013 Vitamin A RA RAR RXR retinyl palmitate NRF2 sulforaphane FMD FoxO1 6th genetic stratification | run_123*

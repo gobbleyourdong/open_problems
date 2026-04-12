@@ -3303,3 +3303,33 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 11: 122 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-fifteenth extension | NLRP1 NOD-like receptor pyrin domain UV keratinocyte DPP8 DPP9 functional degradation ribotoxic stress CARD FIIND UPA caspase-1 IL-1beta gasdermin D pyroptosis keratinocyte-intrinsic inflammasome beta cell 15th death mechanism DPP4 inhibitor saxagliptin sitagliptin nicotinamide B3 niacinamide SIRT2 photosensitive thermosensitive phenotype Voss 2021 Johnson 2018 Chen 2015 | run_122*
+
+---
+
+## Extension 116: BACH2 — Treg Identity Guardian / Loop 4 → Treg Failure Bridge / T1DM GWAS Top-7 Locus
+
+**Date:** 2026-04-12 | **Run:** run_123
+
+**Gap confirmed:** BACH2 returns 0 hits across 122 prior runs despite being: (1) the transcription factor that maintains Treg identity by repressing BLIMP-1/PRDM1 (Treg → ex-Treg conversion); (2) a top-7 non-MHC T1DM GWAS locus (Cooper 2008 Nat Genet, rs3757247); (3) the mechanism by which oxidative stress directly dismantles Treg function — the FIRST mechanistic bridge from Loop 4 (sebaceous oxidative) to Treg regulatory failure. Five prior Treg runs (030, 031, 092, 112, 118) address FOXP3 stability/induction but none model BACH2/BLIMP-1 axis or Treg plasticity/ex-Treg conversion.
+
+**Core insight:** BACH2/MafK heterodimer → ARE/MARE sequences in PRDM1 (BLIMP-1) promoter → transcriptional repression → BLIMP-1 absent → Treg identity maintained. Two inactivation mechanisms: (A) ROS → BACH2 Cys574 oxidation → nuclear export → BLIMP-1 derepressed → Treg acquires effector phenotype (IL-17, IFN-γ) — this is a Loop 4 → Treg failure bridge; (B) PI3K/Akt activation (chronic antigen stimulation) → FoxO1 phosphorylation → nuclear exclusion → BACH2 transcription reduced → same endpoint. BACH2 T1DM GWAS: rs3757247 loss-of-function variant → impaired Treg identity maintenance → susceptibility to beta cell autoimmunity. BACH2 KO mice: multi-organ autoimmunity including diabetes (Roychoudhuri 2013 Nature).
+
+**New mechanisms added (run_123):**
+- **Loop 4 → BACH2 → Treg failure bridge**: FIRST mechanistic connection from Loop 4 oxidative stress to Treg regulatory failure; explains why sebaceous/oxidative flares → immune deregulation
+- **BLIMP-1/PRDM1 repression axis**: new transcriptional layer preventing Treg → ex-Treg plasticity (distinct from FOXP3 stability in 5 prior Treg runs)
+- **BACH2 T1DM GWAS mechanism**: rs3757247 variant → partial BACH2 loss → chronic Treg plasticity → slow erosion of beta cell autoimmune tolerance
+- **B cell tolerance**: BACH2 also maintains central B cell tolerance (deletion of autoreactive B cells); rs3757247 → autoreactive B cell escape → T1DM islet autoantibodies
+- **6th genetic stratification point**: BACH2 rs3757247 (joining HLA-DQ2/DQ8, IL23R, FLG, NLRP3 p.Q705K, CD73 NT5E variants)
+- **New OTC — Vitamin A (retinyl palmitate)**: RA (retinoic acid) → RAR-α/RXR → BACH2 transcription ↑; completely absent from 122 runs; run_056 mentions RXR only as VDR heterodimerization partner, never as BACH2 pathway
+- **NRF2/sulforaphane new mechanism**: GSH maintained → BACH2 Cys574 protected from oxidation → adds BACH2 Cys protection to existing NRF2 mechanisms (run_027/028/029)
+- **FMD new mechanism**: ketosis/FoxO1 activation → BACH2 transcription ↑ → Treg identity preserved during fasting window
+
+**New protocol elements:**
+- Vitamin A 3000–5000 IU/day retinyl palmitate (retinol ester form; stable, non-toxic at these doses) → RA → RAR-α/RXR → BACH2 ↑ → Treg identity maintenance
+- NRF2/sulforaphane 400–500 μmol/day gains BACH2 Cys protection as additional mechanistic rationale
+- FMD gains BACH2/FoxO1 as additional mechanistic rationale
+- BACH2 rs3757247 as 6th genetic stratification point in the T-index monitoring framework
+
+**Framework at SATURATION + 12: 123 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-sixteenth extension | BACH2 BTB-CNC homolog 2 BLIMP-1 PRDM1 Treg identity Treg plasticity ex-Treg conversion MafK ARE MARE BACH2 Cys oxidation nuclear export Loop4 oxidative bridge FoxO1 PI3K Akt T1DM GWAS rs3757247 Cooper 2008 Roychoudhuri 2013 Vitamin A retinoic acid RAR RXR retinyl palmitate NRF2 sulforaphane Cys574 FMD FoxO1 6th genetic stratification | run_123*
