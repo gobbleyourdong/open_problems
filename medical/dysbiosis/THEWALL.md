@@ -6878,3 +6878,59 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 167 runs | GATA3-skin-Treg-identity | GATA3+FOXP3+ST2+ | T-bet:GATA3-bistable | 27th-β-cell-dysfunction | dupilumab-GATA3-rosacea-subtype | GATA3:T-bet-treatment-selector | IDO2-AhR-GATA3-run165 | ILC2-MCAS-ME-CFS.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-forty-second extension | GATA3-10p14 ZnFI-ZnFII skin-Treg-GATA3+FOXP3+ Whibley2019-Immunity ST2-IL33R-skin-Treg-run099 T-bet:GATA3-mutual-repression skin-Treg-loss-ETR-PPR β-cell-GATA3-Ketkar2021 PDX1-enhancer-INS-promoter 27th-β-cell-dysfunction HDR-syndrome GATA3-haploinsufficiency IDO2-AhR-GATA3-run165 GATA3+islet-Treg-ST2 GATA3:T-bet-biopsy-ratio dupilumab-IL-4Rα-rosacea-subtype ILC2-TSLP-GATA3-ME-CFS-MCAS IL-2-run151+IL33-run099 | run_167*
+
+---
+
+### Phase 4 Extension 143 — IRF1: IFN-γ Second-Wave TF, β Cell iNOS/28th Death, MHC-I Inducible, TNF/NF-κB Independent Arm
+
+**Gap:** IRF1 secondary in run_091 only; run_119 covers upstream STAT1; IRF1 protein biology and TNF/NF-κB arm not covered.
+
+**Rosacea (HIGH):**
+- Keratinocyte IRF1: IFN-γ (from skin T cells) → IRF1 → iNOS → NO → vascular smooth muscle relaxation = ETR vascular reactivity; TLR2/NF-κB (run_007) + IRF1 = synergistic iNOS in PPR
+- Keratinocyte MHC-I upregulation via IRF1 → CD8 CTL recognition of Demodex-antigen-loaded keratinocytes → DAMP release
+- Metronidazole partial mechanism: iNOS inhibition = one component; IRF1 → iNOS is the upstream driver
+
+**T1DM (HIGH):**
+- **28th β cell death mechanism**: IRF1 → NOS2 → iNOS → NO → ONOO⁻ + PARP-1/NAD⁺ depletion (run_147) + mitochondrial complex I/II inhibition + apoptosis
+- **TNF/NF-κB → IRF1 arm**: insulitis TNF → β cell NF-κB → IRF1 = JAK1-inhibitor-insensitive; explains baricitinib (run_119) partial response; complete suppression requires JAK1 inhibitor + anti-TNF combination
+- IRF1 → MHC-I (inducible, cooperative with NLRC5/run_169) → CTL recognition; IRF1 → PD-L1 simultaneously (run_154 complement)
+- IRF1 → CXCL9 (ISRE-selective) explains CXCL9/CXCL10 ratio diagnostic (run_163): elevated CXCL9 = IRF1 active
+
+**ME/CFS (MODERATE):**
+- NK IRF1 → PRF1/GZMB transcription; SOCS1/USP18 (run_133) → IFN desensitization → NK IRF1 ↓; additive with NK T-bet ↓ (run_166) = double perforin transcription deficit
+
+**Protocol additions:**
+- **Anti-TNF combination** for JAK inhibitor partial responders: etanercept/adalimumab blocks TNF→NF-κB→IRF1 arm that persists on baricitinib; combination = complete iNOS/MHC-I suppression
+- **Nitrotyrosine serum** (ONOO⁻ marker): add to oxidative stress panel; elevated = IRF1/iNOS active
+
+**Framework state: 168 runs | IRF1-5q31.1 | STAT1→IRF1-second-wave | TNF-NF-κB→IRF1-JAK-independent | NOS2-iNOS-28th-death | ONOO⁻-PARP1-NAD+-run147 | CXCL9-ISRE-basis-run163 | MHC-I-inducible-+NLRC5-run169 | NK-PRF1-T-bet-IRF1-double-deficit.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-forty-third extension | IRF1-5q31.1 ISRE-GAAANNGAAA STAT1→IRF1 TNF-NF-κB→IRF1-JAK-independent NOS2-iNOS-NO-28th-β-cell-death ONOO⁻ PARP1-NAD+-run147 CXCL9-selective-IRF1 CXCL9-CXCL10-ratio-run163 MHC-I+NLRC5-run169 PD-L1-run154 NK-IRF1+T-bet-run166 SOCS1-run133 anti-TNF-baricitinib-combination | run_168*
+
+---
+
+### Phase 4 Extension 144 — NLRC5: MHC-I Enhanceosome, β Cell Immune Privilege Gate, CTL Recognition Enabler (0 Prior Files)
+
+**Gap:** NLRC5 absent from all 168 prior runs. CIITA homolog for MHC-I; constitutive HLA-I in β cells; distinct from CIITA/MHC-II (run_128), cDC1 cross-presentation (run_159), IRF1 inducible MHC-I (run_168).
+
+**Rosacea (MODERATE):**
+- Keratinocyte NLRC5 → HLA-A/B/C → KIR (inhibitory NK receptor) balance; UV → NLRC5 ↑ → HLA-I ↑ → KIR engagement → NK inhibition in UV-stressed skin; CD8 T cell CTL recognition of Demodex-antigen-loaded keratinocytes (NLRC5 enables CD8 killing step)
+
+**T1DM (HIGH):**
+- **β cell immune privilege mechanism**: normal β cells have low NLRC5 → low HLA-I → relative CTL invisibility (partial central tolerance maintenance); insulitis EZH2 ↓ (run_157) → NLRC5 enhancer H3K27me3 removed → NLRC5 derepressed → HLA-I surge = immune privilege revocation
+- **NLRC5 KO = complete β cell CTL protection**: HLA-I undetectable → CTL cannot form IS → perforin delivery (run_162) fails; prevents T1DM mechanistically
+- **NLRC5 + IRF1 (run_168) dual-arm HLA-I**: constitutive floor (NLRC5) + inducible amplification (IRF1) = peak HLA-I; baricitinib (run_119) reduces IRF1 arm, NLRC5 floor persists = incomplete CTL protection
+- NLRC5 T1DM GWAS (16q13): LOF variants → lower HLA-I → lower CTL risk
+- Complete antigen presentation atlas: NLRC5/HLA-I/CD8 (run_169) + CIITA/HLA-II/CD4 (run_128) + cDC1 cross-presentation (run_159) = three MHC presentation routes now mapped
+
+**ME/CFS (MODERATE):**
+- EBV-infected cells maintain NLRC5 → HLA-I → KIR inhibition → NK cannot kill EBV-infected cells → viral persistence
+- NLRC5 also drives TAP1/2 in infected cells → EBV peptide presentation → CD8 CTL exhaustion loop
+
+**Protocol additions:**
+- **β cell HLA-A/B/C IHC** (pancreatic biopsy): NLRC5 activity proxy; high HLA-I = CTL-dominant T1DM subtype; guides anti-CD8 vs. anti-Treg strategy
+- **EZH2 maintainer in β cells** (run_157): prevents NLRC5 derepression; maintains immune privilege; combined with IRF1 inhibitor = complete MHC-I floor suppression
+
+**Framework state: 169 runs | NLRC5-16q13 | W/X/Y-box-enhanceosome | HLA-A/B/C+B2M+TAP1/2 | β-cell-immune-privilege-low-NLRC5 | EZH2-H3K27me3-NLRC5-brake | NLRC5-KO-CTL-blind | IRF1-run168-dual-regulation | CIITA-run128-MHC-II-complement | three-MHC-routes-complete.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-forty-fourth extension | NLRC5-16q13 NACHT-LRR-CARD W/X/Y-box RFX5-RFXAP-RFXANK enhanceosome HLA-A-B-C-B2M-TAP1-TAP2-Tapasin β-cell-immune-privilege EZH2-H3K27me3-brake-run157 NLRC5-KO-HLA-I-absent CTL-recognition-fails insulitis-privilege-revocation IRF1-inducible+NLRC5-constitutive baricitinib-partial-NLRC5-persists CIITA-MHC-II-run128-complement cDC1-run159-third-route | run_169*

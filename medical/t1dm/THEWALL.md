@@ -1984,3 +1984,27 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 3. **GATA3+ islet Tregs**: ST2-expressing GATA3+FOXP3+ Tregs in islet infiltrate; IL-33 low dose → preferential islet Treg expansion; IDO2 (run_165) → AhR → β cell GATA3 repression = IDO2 inhibitor β cell benefit mechanism
 
 *T1DM THEWALL cross-reference run_167: 2026-04-12 | GATA3-β-cell-Ketkar2021 PDX1-enhancer-INS-MafA 27th-β-cell-dysfunction HDR-haploinsufficiency GATA3+FOXP3+ST2+-islet-Treg IDO2-AhR-GATA3-run165 T-bet-GATA3-β-cell-repression-run166 IL33-run099-islet-Treg | run_167*
+
+---
+
+### Cross-reference: run_168 — IRF1: β Cell iNOS/28th Death, TNF/NF-κB Arm, MHC-I Inducible, Baricitinib Gap
+
+**Relevance: HIGH**
+
+1. **28th β cell death mechanism**: IRF1 → NOS2/iNOS → NO → ONOO⁻ + PARP-1/NAD⁺ depletion (run_147 bridge) + mitochondrial inhibition + apoptosis; IFN-γ + TNF synergy required for maximal iNOS
+2. **TNF/NF-κB → IRF1 arm** (baricitinib-insensitive): insulitis TNF → NF-κB → IRF1 = JAK inhibitor-resistant; add anti-TNF to baricitinib for complete iNOS/MHC-I suppression in non-responders
+3. **IRF1 → CXCL9** (ISRE-selective): mechanistic basis for CXCL9/CXCL10 ratio diagnostic power (run_163); CXCL9 elevated = IRF1 active = iNOS/MHC-I program active
+
+*T1DM THEWALL cross-reference run_168: 2026-04-12 | IRF1-iNOS-NOS2-NO-28th-β-cell-death ONOO⁻ PARP1-NAD+-run147 TNF-NF-κB-IRF1-JAK-insensitive baricitinib-run119-gap anti-TNF-combination CXCL9-ISRE-run163 MHC-I-inducible+NLRC5-run169 PD-L1-run154 | run_168*
+
+---
+
+### Cross-reference: run_169 — NLRC5: Constitutive β Cell HLA-I, Immune Privilege Gate, EZH2 Brake, NLRC5 GWAS
+
+**Relevance: HIGH**
+
+1. **β cell immune privilege gate**: low NLRC5 → low HLA-I in normal β cells = partial CTL invisibility; insulitis EZH2 ↓ (run_157) → NLRC5 derepressed → HLA-I surge = immune privilege revocation; EZH2 maintainer in β cells = NLRC5 suppressor
+2. **NLRC5 KO = CTL-resistant β cells**: HLA-I absent → CTL TCR cannot engage → perforin delivery (run_162) impossible; equivalent to complete CTL-side T1DM prevention
+3. **Baricitinib gap**: JAK1 inhibitor (run_119) blocks IRF1-inducible HLA-I but NLRC5 constitutive floor persists; full CTL protection requires NLRC5 suppression (EZH2 maintainer) + IRF1 inhibition simultaneously
+
+*T1DM THEWALL cross-reference run_169: 2026-04-12 | NLRC5-constitutive-HLA-I β-cell-immune-privilege-low-NLRC5 EZH2-H3K27me3-run157-NLRC5-brake NLRC5-KO-CTL-blind insulitis-EZH2↓-privilege-revocation baricitinib-run119-NLRC5-gap IRF1-run168-dual-regulation CIITA-MHC-II-run128 three-MHC-routes | run_169*

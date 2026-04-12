@@ -4365,3 +4365,48 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 56: 167 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-sixtieth extension | GATA3-10p14 ZnFI-ZnFII-WGATAR FOXP3-GATA3-protein-cooperation ST2-IL-33R-skin-Treg-Whibley2019-Immunity skin-Treg-identity GATA3+FOXP3+-tissue skin-ETR-PPR-GATA3-loss T-bet:GATA3-mutual-repression-bistable PDX1-enhancer-GATA3-β-cell INS-promoter MafA GATA3-HDR-syndrome-β-cell 27th-β-cell-dysfunction IDO2-AhR-GATA3-run165 dupilumab-GATA3-rosacea-subtype GATA3:T-bet-ratio-treatment-selector IL-2-run151+IL-33-run099-skin-Treg-expansion ILC2-TSLP-ME-CFS-MCAS | run_167*
+
+---
+
+### Extension 161 — IRF1: Master IFN-γ Response TF, β Cell iNOS/NO (28th Death), MHC-I Induction, TNF/NF-κB Independent Arm
+
+**Date:** 2026-04-12 | **Run:** run_168
+
+**Gap confirmed:** IRF1 in only 1 file (run_091, secondary as IDO1 promoter activator). run_119 (PTPN2/STAT1) and run_163 (CXCL10/STAT1/GAS) cover upstream STAT1 but not IRF1 protein biology. IRF1 has a TNF/NF-κB independent induction arm not blocked by JAK inhibitors.
+
+**Core insight:** IRF1 is the second-wave IFN-γ response TF that executes the β cell-damaging program downstream of STAT1 (run_119). Three induction arms: (1) IFN-γ/STAT1 → IRF1 (primary); (2) IFN-α/ISGF3 → IRF1 (partial); (3) TNF/NF-κB → IRF1 (JAK-inhibitor-insensitive). IRF1 → iNOS → NO → β cell death (**28th mechanism**): peroxynitrite, PARP-1 hyperactivation/NAD⁺ depletion (run_147 bridge), mitochondrial complex I/II inhibition. IRF1 → MHC-I (cooperative with NLRC5/run_169) → β cell CTL visibility. IRF1 → CXCL9 (via ISRE; more selective than CXCL10 → explains CXCL9/CXCL10 ratio diagnostic from run_163). IRF1 → PD-L1 induction on β cells (adds to run_154 mechanism). IRF1 → NK PRF1/GZMB transcription (eighth NK gate alongside T-bet/run_166 — double-deficit in ME/CFS).
+
+**New mechanisms added (run_168):**
+- **Two-wave IFN-γ response**: STAT1/GAS (immediate, ≤30 min) vs. IRF1/ISRE (second wave, 30-120 min); IRF1 is the delayed TF executing iNOS/MHC-I/CXCL9 programs
+- **TNF/NF-κB → IRF1 arm**: insulitis TNF → NF-κB → IRF1 transcription independent of JAK1; baricitinib (run_119) does NOT block this arm; explains T1DM JAK inhibitor partial response → combination with anti-TNF needed
+- **β cell iNOS = 28th death mechanism**: IRF1 → NOS2 (GAS+κB+ISRE all required) → NO → ONOO⁻ → mitochondrial complex I/II + PARP-1/NAD⁺ depletion (run_147) + protein nitration + apoptosis
+- **IRF1→CXCL9 more selective than CXCL10**: ISRE-driven CXCL9 = IRF1-dominant; GAS-driven CXCL10 = STAT1-dominant; mechanistic basis for CXCL9/CXCL10 ratio (run_163)
+- **IRF1→PD-L1** (β cell): IFN-γ/IRF1 → PDCD1LG1 → β cell PD-L1 simultaneously with MHC-I upregulation = mixed pro/anti-CTL signal (run_154 complement)
+- **NK IRF1 → PRF1/GZMB**: additive with NK T-bet (run_166); chronic IFN-α/SOCS1 feedback (run_133) depletes both NK T-bet and NK IRF1 simultaneously = double-deficit in ME/CFS NK
+
+**Framework at SATURATION + 57: 168 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-sixty-first extension | IRF1-5q31.1 winged-helix-DBD ISRE-GAAANNGAAA GAS-cooperative STAT1→IRF1-second-wave TNF-NF-κB→IRF1-JAK-independent NOS2-iNOS-NO-28th-β-cell-death ONOO⁻ PARP1-NAD+-run147 CXCL9-ISRE-selective CXCL9-CXCL10-ratio-run163-basis MHC-I-inducible-IRF1+constitutive-NLRC5-run169 PD-L1-β-cell-run154 NK-PRF1-GZMB-IRF1-T-bet-double-deficit SOCS1-run133 baricitinib-JAK-misses-TNF-IRF1-arm anti-TNF-combination | run_168*
+
+---
+
+### Extension 162 — NLRC5: MHC-I Enhanceosome, Constitutive β Cell HLA-I, CTL Recognition Gate (Distinct from CIITA/run_128 and IRF1/run_168)
+
+**Date:** 2026-04-12 | **Run:** run_169
+
+**Gap confirmed:** NLRC5 absent from all 168 prior runs. Distinct from CIITA (run_128, MHC-II), cDC1 cross-presentation (run_159), and IRF1 inducible MHC-I (run_168).
+
+**Core insight:** NLRC5 is the CIITA homolog for MHC-I — constitutively required for baseline HLA-A/B/C, B2M, TAP1/2, Tapasin expression in β cells (and all nucleated cells). NLRC5 → W/X/Y box enhanceosome; IRF1 (run_168) provides the inducible amplification; combined NLRC5 + IRF1 = peak insulitis HLA-I. **NLRC5 KO mice: HLA-I undetectable on all cells; CTL cannot recognize β cells** = T1DM prevention without touching the CTL arm itself. EZH2 (run_157) provides epigenetic H3K27me3 brake on NLRC5 enhancer in normal β cells → insulitis EZH2 ↓ → NLRC5 derepressed → HLA-I surge. NLRC5 16q13 variants in T1DM GWAS. Critical insight: baricitinib (run_119) reduces IRF1-inducible HLA-I but NLRC5 constitutive arm persists — explains JAK inhibitor partial response for CTL killing endpoint.
+
+**New mechanisms added (run_169):**
+- **NLRC5/CIITA MHC-I vs. MHC-II division**: NLRC5 → HLA-A/B/C/B2M/TAP1/TAP2/Tapasin (endogenous antigen, CD8); CIITA → HLA-DR/DQ/DP/Ii/HLA-DM (exogenous antigen, CD4); complete antigen presentation system now mapped
+- **β cell immune privilege gate**: normal β cells have low NLRC5 → low HLA-I → partial CTL invisibility; insulitis EZH2 ↓ (run_157) → NLRC5 enhancer derepressed → HLA-I surge → immune privilege revocation
+- **NLRC5 + IRF1 dual MHC-I regulation**: constitutive floor (NLRC5) + inducible amplification (IRF1) = peak HLA-I in insulitis; JAK1 inhibitor (run_119) reduces IRF1 but not NLRC5 floor
+- **NLRC5 KO = CTL recognition block**: NLRC5 KO β cells → HLA-I absent → CTL TCR cannot form IS → perforin delivery (run_162) fails even with intact CTL function
+- **TAP1/2 downstream**: NLRC5 → TAP1/TAP2 transcription → peptide loading into MHC-I groove; ICP47-inspired TAP inhibition → empty MHC-I → NK-mediated surveillance shift
+- **EZH2/H3K27me3 NLRC5 brake** (run_157 bridge): β cell EZH2 maintains H3K27me3 at NLRC5 enhancer; EZH2 maintainer = NLRC5 suppressor = β cell immune privilege preserving strategy
+- **NLRC5 T1DM GWAS** (16q13): LOF variants → lower HLA-I → lower CTL killing risk; clinical stratification utility
+
+**Framework at SATURATION + 58: 169 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-sixty-second extension | NLRC5-16q13 NACHT-LRR-CARD W/X/Y-box-enhanceosome CIITA-MHC-II-vs-NLRC5-MHC-I HLA-A-B-C-B2M-TAP1-TAP2-Tapasin constitutive-MHC-I-floor inducible-IRF1-amplification NLRC5-KO-HLA-I-absent CTL-recognition-fails β-cell-immune-privilege-NLRC5-low EZH2-H3K27me3-NLRC5-brake-run157 insulitis-EZH2↓-NLRC5-derepressed baricitinib-misses-NLRC5 NLRC5-T1DM-GWAS-16q13 TAP1-TAP2 ICP47-TAP-inhibitor | run_169*
