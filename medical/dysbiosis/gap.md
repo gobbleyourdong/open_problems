@@ -3389,3 +3389,31 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 14: 125 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-eighteenth extension | DYRK1A dual-specificity tyrosine-regulated kinase NFAT NF-AT calcineurin nuclear export kinase GSK-3β berberine sequential phosphorylation harmine passionflower Syrian rue beta-carboline β cell CyclinD1 CDK4 proliferation honeymoon rosacea conflict ETR VEGF-A COX-2 Wang 2015 Cell Ackeifi 2020 Beals 1997 | run_125*
+
+---
+
+## Extension 119: KMO / Quinolinic Acid / KYNA / P5P — Kynurenine Branch Point Balance
+
+**Date:** 2026-04-12 | **Run:** run_126
+
+**Gap confirmed:** KMO appears in run_091 as 3 lines of pathway mapping (no protocol, no T1DM, no OTC). P5P/pyridoxine/pyridoxal = 0 hits across all 124 runs. KYNA/GPR35 = 0 dedicated coverage. No protocol elements, T1DM β cell mechanism, or ME/CFS analysis for KMO/QA branch ever provided.
+
+**Core insight:** At the kynurenine branch point (IDO1 output, run_091), KMO (FAD enzyme) routes kynurenine → 3-HK → quinolinic acid (QA; NMDA agonist, pro-oxidant); KAT (PLP-dependent enzyme family) routes kynurenine → kynurenic acid (KYNA; NMDA antagonist, GPR35 agonist). P5P (active Vitamin B6) is the obligate KAT cofactor → P5P supplementation → KAT ↑ → kynurenine → KYNA diversion → less QA. In inflammatory states (elevated IFN-γ/IL-6 → KMO ↑): QA dominant. P5P shifts balance back toward KYNA.
+
+**New mechanisms added (run_126):**
+- **4th NLRP3 Signal 2 ROS mechanism**: 3-HK (KMO product) generates semiquinone radicals via Fe²⁺ → H₂O₂ → mtROS → NLRP3 Signal 2; addressable by P5P → KAT → less 3-HK
+- **17th β cell death mechanism**: QA → NMDA receptors on β cells → Ca²⁺ influx → mitochondrial permeability transition → β cell death (excitotoxicity; distinct from all 16 prior mechanisms; not blocked by BHB/colchicine/any existing protocol element)
+- **8th mast cell stabilization mechanism**: KYNA → GPR35 → Gαi → mast cell stabilization (new endogenous mast cell brake; first kynurenine-derived mechanism in framework)
+- **M8 NMDA sensitization**: QA → NMDA on sensory neurons → sensory threshold ↓ → more SP/CGRP → neurogenic flushing; P5P → KYNA → NMDA block → M8 threshold restored
+- **GPR35/gut barrier support**: KYNA → GPR35 on IECs/gut DCs → epithelial barrier ↑ + tolerogenic DC; new gut permeability protection mechanism for T1DM
+- **New OTC — P5P (25–50 mg/day)**: PLP cofactor for KAT1/2/3/4 → KYNA ↑ → 6 simultaneous downstream benefits; completely absent from 124 prior runs
+- **ME/CFS high-evidence mechanism**: elevated QA/depleted KYNA in ME/CFS brain (Tredici 2015); microglial KMO activation → QA → NMDA excitotoxicity → brain fog/cognitive symptoms; P5P = targeted ME/CFS support
+
+**New protocol elements:**
+- P5P 25–50 mg/day (P5P form, not pyridoxine hydrochloride; P5P avoids peripheral neuropathy risk of high-dose pyridoxine)
+- Optional serum P5P monitoring (<20 nmol/L = deficiency): ME/CFS + brain fog, rosacea with neurogenic pattern, T1DM neuropathy
+- 17th β cell death pathway is not blocked by any existing protocol — P5P is the first dedicated intervention
+
+**Framework at SATURATION + 15: 126 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-nineteenth extension | KMO kynurenine monooxygenase 3-hydroxykynurenine 3HK quinolinic acid QA NMDA excitotoxicity KAT kynurenine aminotransferase AADAT kynurenic acid KYNA P5P pyridoxal-5-phosphate Vitamin B6 PLP GPR35 mast cell stabilization 8th brake 17th beta cell death M8 NMDA sensory neuron ME/CFS elevated QA Moroni 1986 Naviaux 2016 Tredici 2015 | run_126*

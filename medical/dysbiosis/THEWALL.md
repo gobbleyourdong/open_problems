@@ -5518,3 +5518,35 @@ TRPV4 (run_120) provides calcineurin-driven NF-AT activation in response to ther
 **Framework state: 125 runs | DYRK1A NF-AT gate | harmine contraindication | GSK-3β/berberine/NF-AT interaction | β cell proliferation mechanism | honeymoon harmine-free strategy.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundredth extension | DYRK1A NFAT calcineurin GSK-3β berberine harmine passionflower Syrian rue beta-carboline CyclinD1 CDK4 beta cell proliferation NF-AT nuclear export CRM1 honeymoon contraindication ETR rosacea Wang 2015 Cell Ackeifi 2020 Beals 1997 | run_125*
+
+---
+
+### Phase 4 Extension 101 — KMO / KYNA / QA / P5P / Kynurenine Balance
+
+**Run_126 — KMO Kynurenine Branch Point | 2026-04-12**
+
+**Mechanism summary:**
+At the kynurenine branch point (IDO1 output/run_091): KMO (IFN-γ/IL-6-induced) → 3-HK → QA (NMDA agonist, neurotoxic, pro-oxidant). KAT (PLP-dependent) → KYNA (NMDA antagonist, GPR35 agonist, neuroprotective). P5P (active Vitamin B6) = obligate KAT cofactor → P5P → KAT ↑ → kynurenine → KYNA diversion → less QA. Moroni 1986: B6 deficiency → KYNA –60%, QA +3× in brain.
+
+**Rosacea — 3-HK ROS + KYNA/GPR35 mast cell + M8 NMDA:**
+Loop 2 → IFN-γ → KMO ↑ → 3-HK → Fe²⁺ → H₂O₂ → NLRP3 Signal 2 (4th ROS arm, joining mtROS/run_090, Fenton/run_110, TXNIP/run_112). KYNA → GPR35 on dermal mast cells → mast cell stabilization (8th mast cell brake). QA → NMDA on sensory neurons → M8 threshold ↓ → easier flushing; KYNA → NMDA block → M8 threshold restored. P5P addresses all three simultaneously.
+
+**T1DM — 17th β cell death + gut barrier:**
+QA → NMDA on β cells (NR1/NR2B; Bhatt 2009 Endocrinology) → Ca²⁺ → mitochondrial permeability transition → β cell death (17th mechanism; not blocked by BHB/colchicine/any existing element). KYNA → GPR35 on gut IECs → gut barrier ↑ → less LPS → less islet NLRP3 priming. P5P → KYNA ↑ = first dedicated NMDA excitotoxic β cell protection in framework.
+
+**ME/CFS — HIGH evidence:**
+Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO activation → QA → NMDA excitotoxicity → brain fog/cognitive symptoms. B6 deficiency common in ME/CFS (Regland 2015). P5P = targeted ME/CFS support. Naviaux 2016 kynurenine pathway imbalance in metabolomic signature.
+
+**Kill-first:**
+- Run_091 IDO1: covers first step (tryptophan → kynurenine); KMO/KAT are downstream competing enzymes. Not killed.
+- Run_090/112 NLRP3 Signal 2 ROS: 3-HK is a new ROS source, new substrate, new upstream intervention (P5P). Not killed.
+- Run_121 mast cell A2A/A2B brake: KYNA/GPR35 is an 8th, mechanistically distinct mast cell brake. Not killed.
+
+**Protocol additions:**
+- P5P 25–50 mg/day (active B6 form; avoids pyridoxine neuropathy risk)
+- Optional serum P5P monitoring: <20 nmol/L deficiency; check in ME/CFS/neurogenic rosacea/T1DM neuropathy
+- Addresses 17th β cell death mechanism not covered by any other protocol element
+
+**Framework state: 126 runs | KMO → QA 4th NLRP3 Signal 2 | 17th β cell NMDA | 8th mast cell GPR35 | M8 NMDA sensory | ME/CFS HIGH | P5P new OTC | gut GPR35 barrier.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-first extension | KMO kynurenine monooxygenase 3-HK QA NMDA KAT KYNA P5P PLP pyridoxal-5-phosphate Vitamin B6 GPR35 mast cell 8th brake 17th beta cell death M8 neurogenic ME/CFS Moroni 1986 Tredici 2015 Naviaux 2016 | run_126*

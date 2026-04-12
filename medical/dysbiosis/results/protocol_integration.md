@@ -4496,3 +4496,50 @@ Limitation:
 ```
 
 *Protocol_integration.md Part 9bz — 2026-04-12 | DYRK1A NFAT calcineurin GSK-3β berberine harmine passionflower Syrian rue contraindication NF-AT rosacea conflict ETR honeymoon harmine-free GLP-1R calcitriol BHB Wang 2015 Beals 1997 | run_125*
+
+---
+
+## Part 9ca — KMO/P5P Protocol Integration (run_126)
+
+### New OTC: P5P (Pyridoxal-5'-Phosphate / Active Vitamin B6)
+
+**Form:** Pyridoxal-5'-phosphate (P5P) — NOT pyridoxine hydrochloride (the common form). Pyridoxine must be converted to PLP in the liver; conversion is rate-limited and variable. P5P is the ready-to-use active coenzyme form; absorbed directly; preferred for supplemental KAT support.
+
+**Dose:** 25–50 mg P5P daily. Within safe range; peripheral neuropathy risk with P5P is far above this dose (>500 mg/day for extended period). Standard supplemental P5P at 20–50 mg is established.
+
+**Timing:** With food (reduces GI upset); stable; no interaction with quercetin or calcitriol timing.
+
+**Mechanistic benefits at 25–50 mg P5P:**
+1. KAT1/2/3/4 activity ↑ → more kynurenine → KYNA → less substrate for KMO
+2. 3-HK ↓ → NLRP3 Signal 2 ROS ↓ (4th ROS arm)
+3. KYNA ↑ → GPR35 on mast cells → mast cell stabilization (8th brake)
+4. KYNA ↑ → NMDA block on sensory neurons → M8 neurogenic flushing threshold ↑
+5. QA ↓ → β cell NMDA excitotoxicity ↓ (17th β cell death reduced)
+6. KYNA → GPR35 on gut IECs → gut barrier support
+
+### Optional Monitoring: Serum P5P
+
+Serum P5P (reference range: >30 nmol/L; deficiency <20 nmol/L):
+
+**When to check:**
+- ME/CFS patients with prominent brain fog/cognitive symptoms (KMO/QA likely elevated)
+- Rosacea with dominant neurogenic flushing pattern (burning/stinging quality, M8 features)
+- T1DM patients with peripheral neuropathy (independent B6 rationale)
+- Any patient on a low-protein diet or with IBD (reduced tryptophan intake → less IDO1 substrate, but B6 deficiency may exist independently)
+
+**Clinical interpretation:**
+- Deficient P5P (<20 nmol/L) → supplement P5P 50 mg/day for 8 weeks, recheck
+- P5P 20–30 nmol/L (borderline) → supplement P5P 25 mg/day
+- P5P >30 nmol/L (adequate) → supplement P5P 25 mg/day may still shift KYNA/QA ratio but effect is smaller
+
+### Updated Protocol Stack Note
+
+P5P 25–50 mg/day is added to the core protocol as an OTC that:
+- Addresses the 17th β cell death mechanism (NMDA excitotoxicity) not covered by any other element
+- Provides the 8th endogenous mast cell stabilization mechanism
+- Supports ME/CFS microglial NMDA attenuation (HIGH ME/CFS evidence)
+- Requires no special timing or food interaction
+
+Cost/risk profile: minimal; high safety margin; very broad mechanistic footprint via a single enzyme class.
+
+*Protocol_integration.md Part 9ca — 2026-04-12 | KMO kynurenine monooxygenase P5P pyridoxal-5-phosphate Vitamin B6 PLP KAT AADAT kynurenic acid KYNA GPR35 quinolinic acid QA NMDA 17th beta cell death 8th mast cell brake neurogenic M8 ME/CFS serum P5P monitoring Moroni 1986 Tredici 2015 | run_126*

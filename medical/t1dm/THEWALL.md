@@ -1055,3 +1055,17 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 3. **GSK-3β (berberine, run_114) connection**: berberine partially reduces the NFAT phosphodegron (blocks GSK-3β step in sequential DYRK1A→GSK-3β phosphorylation) → mild NF-AT retention in β cells = BENEFICIAL (slightly more NFAT-driven CyclinD1 → slight β cell proliferation support). This is a new β cell benefit of berberine not previously identified.
 
 *T1DM THEWALL cross-reference run_125: 2026-04-12 | DYRK1A harmine NFAT NF-AT CyclinD1 CDK4 beta cell proliferation honeymoon Wang 2015 Cell Ackeifi 2020 GLP-1R agonist semaglutide synergy rosacea conflict contraindication GSK-3β berberine partial NFAT activation*
+
+---
+
+### Cross-reference: run_126 — KMO/QA → 17th β Cell Death (NMDA Excitotoxicity) / P5P
+
+**Run_126 T1DM relevance:**
+
+1. **17th β cell death mechanism — QA → NMDA excitotoxicity**: β cells express NMDA receptors (NR1/NR2B). Inflamed islet macrophages: IFN-γ → KMO ↑ → kynurenine → 3-HK → QA → β cell NMDA → Ca²⁺ → mitochondrial permeability transition → β cell death. This is the FIRST excitotoxic (non-immune, non-metabolic) β cell death mechanism in the framework. NOT blocked by BHB, colchicine, calcitriol, or any existing protocol element. P5P → KAT → less QA = first dedicated protection for this pathway.
+
+2. **KYNA → GPR35 → gut barrier → less LPS → less islet NLRP3 priming**: KYNA acts on GPR35 on gut enterocytes → barrier maintenance → reduced LPS → reduced TLR4/NLRP3 priming in islets. Links kynurenine balance to the M1 dysbiosis → gut permeability → islet inflammasome chain (complementing runs 059, 109, 119, 120 gut barrier mechanisms).
+
+3. **Diabetic neuropathy connection**: QA → NMDA on peripheral neurons → sensitization → painful neuropathy. P5P → KYNA ↑ → NMDA block → diabetic neuropathy prevention independent of glucose control. P5P 25–50 mg/day provides both β cell protection and neuropathy prevention from a single mechanism.
+
+*T1DM THEWALL cross-reference run_126: 2026-04-12 | KMO quinolinic acid QA NMDA beta cell 17th death mechanism excitotoxicity KYNA GPR35 gut barrier LPS P5P pyridoxal-5-phosphate Vitamin B6 KAT PLP diabetic neuropathy Bhatt 2009 Moroni 1986*

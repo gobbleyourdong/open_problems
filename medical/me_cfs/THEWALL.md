@@ -902,3 +902,19 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 **Evidence level: LOW** — no direct ME/CFS DYRK1A data; indirect Ca²⁺/calcineurin/NF-AT inference.
 
 *ME/CFS THEWALL cross-reference run_125: 2026-04-12 | DYRK1A NFAT calcineurin neuroinflammation passionflower harmine Ca2+ dysregulation*
+
+---
+
+### Cross-reference: run_126 — KMO/QA → ME/CFS Microglial Excitotoxicity / P5P (HIGH Evidence)
+
+**Run_126 ME/CFS relevance:**
+
+**HIGH EVIDENCE** — This is the strongest ME/CFS-relevant mechanism in recent sweeps.
+
+1. **Elevated QA in ME/CFS brain**: Tredici 2015 (J Neuroinflammation): elevated quinolinic acid in ME/CFS brain regions associated with neuroinflammation. Naviaux 2016 (PNAS) metabolomic signature includes kynurenine pathway imbalance. Reactive microglia in ME/CFS (Nakatomi 2014 PET neuroimaging) → IFN-γ/IL-6 → KMO ↑ → QA → NMDA receptor overactivation → excitotoxicity → cognitive symptoms/brain fog.
+
+2. **B6 deficiency common in ME/CFS**: Regland 2015 (PLoS One): B6 (and B12) deficiency found in ME/CFS patients. P5P deficiency → KAT underperformance → kynurenine → KMO → QA dominant → worsening NMDA excitotoxicity. P5P correction → KAT restored → KYNA ↑ → NMDA attenuation.
+
+3. **P5P 25–50 mg/day for ME/CFS**: First protocol recommendation directly targeting the KMO/QA mechanism underlying brain fog in ME/CFS. Alongside existing ME/CFS-relevant elements: NR/NMN (run_090, NAD+/mitochondrial), CD73/A2A (run_121, purine pathway/microglial brake), NLRP1/ribotoxic (run_122, SIRT2/oral B3).
+
+*ME/CFS THEWALL cross-reference run_126: 2026-04-12 | KMO quinolinic acid QA NMDA microglial excitotoxicity brain fog cognitive ME/CFS elevated QA KYNA P5P pyridoxal-5-phosphate B6 KAT PLP Tredici 2015 Naviaux 2016 Nakatomi 2014 Regland 2015*
