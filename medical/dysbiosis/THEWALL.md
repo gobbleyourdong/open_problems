@@ -5396,3 +5396,30 @@ Dermal Treg-derived adenosine → A2A/A2B on mast cells → Gs → cAMP → PKA 
 **Framework state: 121 runs | CD73/adenosine Treg effector complete | mast cell A2A brake | caffeine dual-mechanism | 3rd VDR Treg mechanism | 10th quercetin mechanism.**
 
 *Updated: 2026-04-12 | Phase 4 ninety-sixth extension | CD73 NT5E CD39 ENTPD1 adenosine A2A ADORA2A Treg effector suppression cAMP PKA ZAP-70 NFAT IL-2 mast cell degranulation brake caffeine methylxanthine Borsellino 2007 Yadav 2013 VDR CD73 quercetin PDE phosphodiesterase | run_121*
+
+---
+
+### Phase 4 — Extension 97 (run_122): NLRP1 UV-Activated Keratinocyte Inflammasome + DPP9 + 15th β Cell Death
+
+**The gap:** 17 NLRP3 runs, zero NLRP1 coverage. Run_023 (colchicine) explicitly states: "tubulin mechanism specific to NLRP3 (not NLRP1 or AIM2)." NLRP1 is the predominant keratinocyte inflammasome; its UV activation mechanism is completely distinct from NLRP3.
+
+**Rosacea — UV → NLRP1 mechanism:**
+DPP9 serine protease binds NLRP1 FIND domain → autoinhibited. UV → ribotoxic stress → DPP9 oxidative inactivation → NLRP1 auto-cleavage → caspase-1 → IL-1β + GSDMD → keratinocyte pyroptosis. This is the keratinocyte-AUTONOMOUS IL-1β source in rosacea (macrophage NLRP3 is separate). Fourth UV inflammatory mechanism added (complement/run_101, STING/run_063, TRPV4-EET/run_120, NLRP1-DPP9/run_122). NLRP1 pyroptosis → IL-33 release → ST2/mast cell priming (run_099 feed) + DAMPs → macrophage NLRP3 Signal 2 (cross-inflammasome relay). Phenotypic split: photosensitive patients (NLRP1 dominant) vs thermosensitive (TRPV4/run_120 dominant) now have distinct precision protocols.
+
+**T1DM — 15th β cell death mechanism:**
+Inflamed islets: IL-1β → DPP9 oxidative depletion in β cells → NLRP1 releases → β cell pyroptosis → IL-33 + HMGB1 + ATP → macrophage NLRP3 → amplified insulitis (feedforward). Distinct from all 14 prior β cell death mechanisms. BHB/NLRP3 inhibitors do NOT block this arm. DPP4 inhibitor safety note: saxagliptin/alogliptin have DPP8/9 off-target inhibition → NLRP1 activation → more pyroptosis (Johnson 2018 Cell); sitagliptin is more DPP4-selective; important for LADA/T1DM-adjacent patients.
+
+**Kill-first:**
+- BHB (run_037): K⁺ efflux-dependent NLRP3 suppression; NLRP1 requires no K⁺ efflux. Not killed.
+- Colchicine (run_023): β-tubulin/NLRP3-specific; run_023 explicitly states this. Not killed.
+- Quercetin: blocks NLRP3 via P2X7/K⁺ reduction; NLRP1 is P2X7-independent. Partial at best.
+- Niacinamide (run_076): TOPICAL → ceramide/CerS3 (skin barrier); ORAL B3 → NLRP1/SIRT2 — different route/mechanism. Not killed.
+
+**Protocol additions:**
+- Oral nicotinamide B3 500mg TID → NLRP1 suppression via NAD+/SIRT2 (Chen 2015 NEJM; Speksnijder 2010 J Invest Dermatol)
+- Phenotype protocol: UV-dominant → oral B3 + SPF 30+; temperature-dominant → quercetin + cooling; outdoor exercise → both combined
+- SPF 30+ physical sunscreen (zinc oxide) with NLRP1/DPP9 mechanistic rationale
+
+**Framework state: 122 runs | NLRP1 keratinocyte UV axis | DPP9 guardian mechanism | 15th β cell death | 5th Loop 1 upstream trigger | NLRP1→NLRP3 cross-relay | photosensitive subtype precision protocol | oral B3 new OTC.**
+
+*Updated: 2026-04-12 | Phase 4 ninety-seventh extension | NLRP1 DPP9 DPP8 UV ribotoxic keratinocyte IL-1beta pyroptosis gasdermin D GSDMD caspase-1 15th beta cell death NLRP3 cross-relay IL-33 HMGB1 DPP4 inhibitor saxagliptin sitagliptin nicotinamide oral B3 SIRT2 photosensitive thermosensitive phenotype Voss 2021 Johnson 2018 Chen 2015 | run_122*

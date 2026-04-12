@@ -840,3 +840,19 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 **Evidence level: MODERATE** — Naviaux 2016 metabolomics is the strongest direct support; mechanistic inference for CD73 specifically in ME/CFS.
 
 *ME/CFS THEWALL cross-reference run_121: 2026-04-12 | CD73 CD39 adenosine A2A ADORA2A purine pathway Naviaux 2016 metabolomics post-exertional malaise ATP P2X7 NLRP3 microglial A2A neuroinflammation caffeine A2A blockade*
+
+---
+
+### Cross-reference: run_122 — NLRP1 Ribotoxic Stress + NAD+ in ME/CFS
+
+**Run_122 ME/CFS relevance:**
+
+1. **Ribotoxic stress → NLRP1 in ME/CFS**: NLRP1 activation by ribotoxic stress (stalled ribosomes, translational impairment) is relevant given that ME/CFS has documented mitochondrial and metabolic stress. Exercise → cellular stress → ribotoxic → NLRP1 → inflammatory cytokines → PEM? Less direct than the TRPV4/gut mechanism (run_120) but represents a systemic ribotoxic-NLRP1 activation parallel.
+
+2. **NAD+ depletion → impaired NLRP1 suppression**: Naviaux 2016 (PNAS) documented NAD+ precursor depletion in ME/CFS. NAD+ is required for SIRT2 activity → NLRP1 deacetylation/autoinhibition. NAD+ depletion → SIRT2 reduced → NLRP1 more prone to activation → chronic low-grade inflammatory cytokine release. Oral nicotinamide B3 → NAD+ replenishment → SIRT2 activity → NLRP1 suppression = a specific mechanistic rationale for nicotinamide in ME/CFS.
+
+3. **UV photosensitivity in ME/CFS**: Some ME/CFS patients report photosensitivity (photophobia, UV-triggered symptom flares). If UV → NLRP1 → keratinocyte IL-1β → systemic inflammation → symptom flare, oral B3 + sunscreen advice is actionable for photosensitive ME/CFS patients.
+
+**Evidence level: LOW-MODERATE** — mechanistic inference; Naviaux 2016 NAD+ depletion is the strongest link; no direct NLRP1 studies in ME/CFS.
+
+*ME/CFS THEWALL cross-reference run_122: 2026-04-12 | NLRP1 ribotoxic stress DPP9 UV keratinocyte NAD+ SIRT2 NLRP1 suppression Naviaux 2016 nicotinamide B3 photosensitivity*

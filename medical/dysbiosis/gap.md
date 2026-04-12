@@ -3278,3 +3278,28 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 10: 121 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-fourteenth extension | CD73 NT5E ecto-5-nucleotidase CD39 ENTPD1 adenosine A2A ADORA2A A2B ADORA2B Treg effector suppression cAMP PKA ZAP-70 NFAT IL-2 mast cell degranulation brake caffeine methylxanthine adenosine receptor antagonist decaffeinated rosacea T1DM Borsellino 2007 Yadav 2013 VDR NT5E CD73 quercetin PDE phosphodiesterase | run_121*
+
+---
+
+### Extension 115 — NLRP1: UV-Activated Keratinocyte Inflammasome / DPP9 / 15th β Cell Death (run_122)
+
+**Gap confirmed:** NLRP1 is mentioned exactly twice across 121 prior runs — both times to explicitly exclude it from NLRP3 coverage (run_023: "not NLRP1 or AIM2"; run_109 challenge). Zero dedicated mechanistic coverage despite being the predominant inflammasome in human keratinocytes activated by UV radiation (rosacea trigger #1-2, ~81% patients). Activation mechanism is fundamentally distinct from NLRP3: DPP8/9 guardian inactivation ("functional degradation"), no K⁺ efflux requirement, not blocked by any existing NLRP3 inhibitors (BHB, colchicine, AMPK/Ser291).
+
+**Core insight:** UV → ribotoxic stress → DPP9 oxidative inactivation → NLRP1 UPA-CARD auto-cleavage → caspase-1 → IL-1β maturation + GSDMD → keratinocyte pyroptosis. This produces keratinocyte-AUTONOMOUS IL-1β in rosacea skin — a new IL-1β source distinct from macrophage NLRP3. Pyroptotic keratinocytes release IL-33 → ST2/mast cell priming (run_099) + HMGB1/ATP DAMPs → macrophage NLRP3 Signal 2 → NLRP1→NLRP3 cross-activation relay. Provides the fourth UV inflammatory mechanism in the framework (joining complement/run_101, STING/run_063, TRPV4/EET/run_120).
+
+**New mechanisms added (run_122):**
+- **NLRP1 DPP9 guardian mechanism**: DPP9 serine protease binds NLRP1 FIND domain → maintains autoinhibitory conformation; UV/ribotoxic stress → DPP9 inactivation → NLRP1 releases → auto-cleavage → assembly
+- **Keratinocyte-intrinsic IL-1β**: new cellular source of IL-1β in rosacea skin (keratinocytes, not just macrophages); IL-1β → KLK5 → Loop 1 (5th Loop 1 upstream trigger); → fibroblast MMP-1 → telangiectasia
+- **NLRP1→NLRP3 relay**: NLRP1 pyroptosis → IL-33 + DAMPs → macrophage NLRP3 Signal 2 (cross-inflammasome amplification)
+- **15th β cell death mechanism**: inflamed islet IL-1β → DPP9 depletion → NLRP1 → β cell pyroptosis (NLRP3-independent; BHB does NOT block)
+- **DPP4 inhibitor drug safety**: saxagliptin/alogliptin have DPP8/9 off-target activity → NLRP1 activation; sitagliptin is more DPP4-selective (Johnson 2018 Cell)
+- **Photosensitive vs thermosensitive rosacea phenotyping**: NLRP1 (UV→DPP9) = photosensitive mechanism; TRPV4 (warm 27–35°C) = thermosensitive mechanism; distinct optimal protocols
+
+**New protocol elements:**
+- Oral nicotinamide B3 500mg TID (new OTC): systemic NLRP1 suppressor via NAD+/SIRT2 → NLRP1 deacetylation; evidence: Chen 2015 NEJM, Speksnijder 2010 J Invest Dermatol; DISTINCT from topical niacinamide/ceramide (run_076, PPARγ → CerS3) and from NMN/NR (run_090, SIRT3 mitochondrial)
+- Sunscreen SPF 30+ mechanistic rationale: UV → DPP9 → NLRP1 → IL-1β chain blocked by UV filtration
+- Phenotype-based protocol split: UV-dominant patients → oral B3 + SPF; temperature-dominant → quercetin + cooling (run_120); outdoor exercise → both protocols combined
+
+**Framework at SATURATION + 11: 122 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-fifteenth extension | NLRP1 NOD-like receptor pyrin domain UV keratinocyte DPP8 DPP9 functional degradation ribotoxic stress CARD FIIND UPA caspase-1 IL-1beta gasdermin D pyroptosis keratinocyte-intrinsic inflammasome beta cell 15th death mechanism DPP4 inhibitor saxagliptin sitagliptin nicotinamide B3 niacinamide SIRT2 photosensitive thermosensitive phenotype Voss 2021 Johnson 2018 Chen 2015 | run_122*

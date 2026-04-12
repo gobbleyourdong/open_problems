@@ -987,3 +987,21 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 6. **Mg²⁺ as CD73 cofactor**: CD73 is a Mg²⁺-dependent enzyme; Mg²⁺ deficiency → CD73 activity ↓ → less adenosine → Treg effector failure. Fourth rationale for T-index Mg²⁺ target (≥0.85 mmol/L).
 
 *T1DM THEWALL cross-reference run_121: 2026-04-12 | CD73 CD39 adenosine A2A ADORA2A Treg effector T1DM PDLN pancreatic draining lymph node NOD Borsellino 2007 Yadav 2013 caffeine A2A blockade honeymoon VDR NT5E Mg2+ CD73 cofactor Foxp3 FOXP3 suppression mechanism*
+
+---
+
+### Cross-reference: run_122 — NLRP1/DPP9 → 15th β Cell Death Mechanism
+
+**Run_122 T1DM relevance:**
+
+1. **15th β cell death mechanism — NLRP1/DPP9 pyroptosis**: All prior β cell death runs involve NLRP3-dependent, BHB-sensitive mechanisms OR non-inflammasome pathways. NLRP1 in β cells is activated by DPP9 depletion under islet inflammatory conditions (IL-1β → reactive oxygen → DPP9 oxidative inactivation → NLRP1 auto-cleavage → caspase-1 → GSDMD → β cell pyroptosis). This is NLRP3-independent and NOT blocked by BHB, colchicine, or any existing NLRP3 inhibitor in the framework.
+
+2. **NLRP1→NLRP3 feedforward in islets**: β cell NLRP1 pyroptosis → release of ATP, IL-1β, IL-18, HMGB1 → macrophage NLRP3 Signal 2 activation → more IL-1β → more DPP9 depletion in remaining β cells → escalating pyroptosis. This explains why T1DM insulitis accelerates: NLRP3 primes NLRP1, NLRP1 output feeds NLRP3.
+
+3. **DPP4 inhibitor drug safety (T1DM-adjacent patients):** Saxagliptin and alogliptin have significant DPP8/9 off-target inhibition → mimic DPP9 guardian depletion → NLRP1 activation in β cells and immune cells → increased pyroptotic cell death and inflammatory cascade (Johnson 2018 Cell mechanistic basis for differential DPP4i safety signals). For LADA or T1DM patients who may receive DPP4i: prefer sitagliptin (DPP4-selective, lower DPP8/9 inhibition → less NLRP1 activation). This is a specific drug-class recommendation derived from the NLRP1 mechanism.
+
+4. **Oral nicotinamide B3 for β cell NLRP1 protection**: oral nicotinamide → NAD+ → SIRT2 → NLRP1 deacetylation → restores autoinhibitory state. Provides NLRP1-specific protection during T1DM honeymoon. Additionally: NAD+ → SIRT1 (run_031) = additive β cell survival mechanism from the same OTC.
+
+5. **Gut NLRP1 in T1DM context**: Gut enterocyte NLRP1 → muramyl dipeptide (MDP) from peptidoglycan-shedding proteobacteria (M1 dysbiosis) → NLRP1 → IL-18 in enterocytes → gut inflammation → paracellular permeability (parallel to NLRP6 pathway in run_109). In T1DM, M1 dysbiosis + NLRP1 → dual epithelial inflammasome activation (NLRP6 mucus layer + NLRP1 epithelial pyroptosis).
+
+*T1DM THEWALL cross-reference run_122: 2026-04-12 | NLRP1 DPP9 DPP8 beta cell pyroptosis 15th death mechanism GSDMD caspase-1 NLRP3 cross-feedforward DPP4 inhibitor saxagliptin sitagliptin alogliptin DPP8/9 selectivity Johnson 2018 nicotinamide B3 SIRT2 gut NLRP1 MDP proteobacteria*

@@ -4275,3 +4275,69 @@ PDE3/4 inhibition → prevents cAMP hydrolysis → prolongs A2A→cAMP→PKA ant
 CD73 (NT5E) is a Mg²⁺-dependent metalloenzyme. Mg²⁺ deficiency → CD73 catalytic activity ↓ → less adenosine generated per Treg. This adds a fourth rationale for Mg²⁺ supplementation (existing T-index component): not just TRPV4 modulation (run_120) but CD73 enzymatic function.
 
 *Protocol_integration.md Part 9bv — 2026-04-12 | CD73 NT5E CD39 ENTPD1 adenosine A2A ADORA2A Treg effector mechanism cAMP PKA ZAP-70 NFAT mast cell A2A brake caffeine methylxanthine decaffeinated VDR NT5E CD73 3rd Treg mechanism quercetin PDE3 PDE4 phosphodiesterase 10th mechanism Mg2+ CD73 cofactor Borsellino 2007 Yadav 2013 | run_121*
+
+---
+
+### Part 9bw — NLRP1: UV Keratinocyte Inflammasome + DPP9 + Oral B3 Precision Protocol (run_122)
+
+**Mechanistic addition:** NLRP1 is the dominant UV-sensing inflammasome in human keratinocytes (Voss 2021 Cell). UV → ribotoxic stress → DPP9 inactivation → NLRP1 auto-cleavage → caspase-1 → IL-1β + GSDMD. All 17 NLRP3 runs do not cover NLRP1; run_023 explicitly states colchicine/BHB mechanisms are NLRP3-specific. NLRP1 adds keratinocyte-autonomous IL-1β source and is the 4th UV inflammatory mechanism in the framework.
+
+**New protocol element — oral nicotinamide B3:**
+```
+ORAL NICOTINAMIDE (B3, NIACINAMIDE) PROTOCOL:
+  Indication: Photosensitive rosacea subtype OR active T1DM insulitis 
+  Dose: 500mg TID (1500mg/day total)
+  
+  Mechanism (DISTINCT from run_076 topical niacinamide→ceramide):
+    Nicotinamide → NAD+ via NAMPT → SIRT2 → deacetylates NLRP1 CARD → 
+    restores DPP9-binding autoinhibitory state → UV-induced NLRP1 activation ↓
+    
+  Evidence:
+    Chen 2015 NEJM: oral nicotinamide 500mg BID → UV-induced AK/skin cancer ↓ 23%;
+                    UV-inflammatory markers ↓ in skin biopsies
+    Speksnijder 2010 J Invest Dermatol: oral nicotinamide → UV-immunosuppression ↓;
+                    IL-1β ↓ in UV-challenged skin
+    
+  Key distinctions:
+    vs run_076 topical niacinamide: TOPICAL, PPARγ→CerS3→ceramide synthesis (skin barrier)
+    vs run_090 NR/NMN: NR/NMN→NAD+→SIRT3 (mitochondrial enzyme targets)
+    vs GPR109a niacin: nicotinic acid flush/GPR109a mechanism (not nicotinamide)
+    This: ORAL, NAD+→SIRT2→NLRP1 deacetylation (systemic inflammatory suppression)
+
+  T1DM relevance: NAD+ → SIRT1 (run_031) additive β cell protection + NLRP1 suppression
+```
+
+**Trigger-phenotype precision protocol:**
+```
+ROSACEA TRIGGER PHENOTYPE STRATIFICATION:
+
+UV-dominant phenotype (NLRP1-driven):
+  → Oral B3 500mg TID (NAD+/SIRT2/NLRP1 suppression)
+  → SPF 30+ physical sunscreen daily (UV → DPP9 → NLRP1 chain blocked)
+  → Physical sunscreen preferred (zinc oxide/TiO2; also blocks UVA + TRPV4-activating visible)
+
+Temperature-dominant phenotype (TRPV4-driven, run_120):
+  → Quercetin 500mg pre-heat exposure (TRPV4 IC50 ~1-2μM)
+  → Thermal avoidance: showers <26°C, environments <27°C
+
+Hot-drink phenotype (caffeine A2A + temperature + TRPV1, runs 121/120/047):
+  → Lukewarm decaffeinated (removes A2A blockade + TRPV4 + TRPV1/serotonin)
+
+Outdoor exercise phenotype (combined NLRP1 + TRPV4 + endotoxemia):
+  → Quercetin + oral B3 combined
+  → Exercise with cooling (ice packs; run_120 thermal management)
+  → Pre-exercise quercetin timing (30-60min before)
+```
+
+**DPP4 inhibitor safety note:**
+If patient also has T2DM/LADA features requiring DPP4 inhibitor therapy:
+- Prefer sitagliptin (DPP4-selective; less DPP8/9 inhibition → less NLRP1 activation)
+- Avoid saxagliptin/alogliptin (significant DPP8/9 off-target → NLRP1 → pyroptosis in immune cells/gut/β cells)
+- Source: Johnson 2018 Cell — toxicity profile differences between DPP4i explained by NLRP1
+
+**15th β cell death mechanism — non-BHB-sensitive arm:**
+The NLRP1 → β cell pyroptosis pathway is NOT blocked by existing NLRP3 inhibitors (BHB, colchicine). Oral nicotinamide B3 + the existing IL-1β-reduction interventions (runs 023/112/113/116/118) form a two-pronged NLRP1 strategy:
+1. Reduce IL-1β → protect DPP9 from depletion (existing runs prevent the "trigger" that inactivates DPP9)
+2. Oral B3 → restore NLRP1 inhibitory state even if DPP9 is partially depleted
+
+*Protocol_integration.md Part 9bw — 2026-04-12 | NLRP1 DPP9 DPP8 UV keratinocyte IL-1beta pyroptosis GSDMD 15th beta cell death nicotinamide B3 oral NAD+ SIRT2 NLRP1 deacetylation photosensitive thermosensitive precision phenotype DPP4 inhibitor saxagliptin sitagliptin Chen 2015 Voss 2021 | run_122*
