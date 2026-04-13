@@ -4410,3 +4410,25 @@ Post-run_115 sweep. Eighteen candidates assessed; all fail at least one criterio
 **Framework at SATURATION + 58: 169 runs.**
 
 *Gap.md updated: 2026-04-12 | One-hundred-and-sixty-second extension | NLRC5-16q13 NACHT-LRR-CARD W/X/Y-box-enhanceosome CIITA-MHC-II-vs-NLRC5-MHC-I HLA-A-B-C-B2M-TAP1-TAP2-Tapasin constitutive-MHC-I-floor inducible-IRF1-amplification NLRC5-KO-HLA-I-absent CTL-recognition-fails β-cell-immune-privilege-NLRC5-low EZH2-H3K27me3-NLRC5-brake-run157 insulitis-EZH2↓-NLRC5-derepressed baricitinib-misses-NLRC5 NLRC5-T1DM-GWAS-16q13 TAP1-TAP2 ICP47-TAP-inhibitor | run_169*
+
+---
+
+### Extension 163 — LGALS1/Galectin-1: Selective Th1/Th17 Apoptosis via Glycan Lattice, Sialylation Gate, NOD T1DM Prevention (0 Prior Files)
+
+**Date:** 2026-04-12 | **Run:** run_170
+
+**Gap confirmed:** LGALS1/Galectin-1 absent from all 169 prior runs as primary. Distinct from Galectin-9/TIM-3 (run_155): Gal-9 → TIM-3 receptor → exhaustion/ITIM signaling; Gal-1 → CD45/CD43/CD7 glycan crosslinking → extrinsic apoptosis. Orthogonal receptor systems, complementary outcomes.
+
+**Core insight:** Gal-1 exploits activated T cell glycosylation remodeling — activation → ST6Gal1 ↓ + Mgat5 ↑ → polyLacNAc exposed on CD45/CD43 → Gal-1 crosslinks → apoptosis. Th1/Th17 cells are sialylation-low (Gal-1-sensitive); Th2 and Tregs are sialylation-high (Gal-1-resistant). **Perone 2006 J Immunol 176:7202: recombinant Gal-1 → 78% NOD T1DM-free at 25 weeks vs. 5% controls.** IRF1 (run_168) → β cell Gal-1 ↓ = positive feedback for insulitis. Sub-apoptotic Gal-1 crosslinks CD45 → LCK dephosphorylation → TCR signal dampening (tolerance without apoptosis).
+
+**New mechanisms added (run_170):**
+- **Sialylation gate for Th1/Th17 selective killing**: ST6Gal1 ↓ on activated Th1/Th17 → polyLacNAc exposed on CD45/CD43 → Gal-1 crosslinks → lipid raft reorganization → mitochondrial + death receptor apoptosis; Th2/Tregs: ST6Gal1 high → sialylated glycans mask LacNAc → Gal-1 cannot bind → spared
+- **CD45 LCK dephosphorylation**: Gal-1 crosslinks CD45 → CD45 clustering → LCK dephosphorylation at Tyr394 → TCR signal dampening (minutes); sub-apoptotic doses = tolerance induction without killing
+- **IRF1/LGALS1 positive feedback loop** (run_168 bridge): IFN-γ → IRF1/STAT1 → LGALS1 suppression in β cells → less islet Th1 apoptosis → more IFN-γ → more IRF1 → less Gal-1 = escalating insulitis positive feedback; breaking with exogenous Gal-1 or IRF1 inhibitor
+- **Gal-1 vs. Gal-9 mechanistic distinction**: Gal-9/TIM-3 (run_155) = exhaustion signaling via HAVCR2/ITIM; Gal-1/CD45 = direct apoptosis via glycan lattice; independent of checkpoint receptors; combinable
+- **T-bet:GATA3 treatment selector** (runs_166/167): T-bet-dominant rosacea/T1DM subtype (sialylation-low Th1) = Gal-1-sensitive; GATA3-dominant atopic overlap (sialylation-high Th2) = Gal-1-resistant; biopsy ratio guides Gal-1 vs. dupilumab choice
+- **EBV-B cell Gal-1 immune evasion** (ME/CFS caution): EBV-infected B cells upregulate LGALS1 → kills EBV-specific CTL → viral persistence; anti-Gal-1 antibody in EBV context restores CTL killing; systemic Gal-1 administration CAUTION in ME/CFS EBV-driven disease
+
+**Framework at SATURATION + 59: 170 runs.**
+
+*Gap.md updated: 2026-04-12 | One-hundred-and-sixty-third extension | LGALS1-Galectin-1-prototype-homodimer-CRD-polyLacNAc-binding ST6Gal1-sialylation-gate Th1-Th17-sialyation-low-Gal1-sensitive Th2-Treg-sialylated-Gal1-resistant CD45-LCK-dephosphorylation-TCR-dampening Gal1-crosslinks-CD43-CD7-lipid-raft-apoptosis Perone-2006-NOD-78%-T1DM-free IRF1-run168→LGALS1↓-positive-feedback exogenous-rHsGal-1 Gal1-Fc-LEX-112 Gal9-TIM3-run155-orthogonal T-bet-run166-GATA3-run167-selector EBV-Gal1-CTL-evasion-ME-CFS-caution combination-IL2-run151-abatacept-run148 | run_170*

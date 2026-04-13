@@ -6203,3 +6203,46 @@ Current protocol: baricitinib (run_119/JAK1 inhibitor) blocks IFN-γ/STAT1→IRF
 - Integrated coverage: all three routes now mapped with distinct therapeutic targets
 
 *Protocol_integration.md Part 9dr — 2026-04-12 | NLRC5-HLA-I-floor baricitinib-gap-NLRC5 EZH2-maintainer-NLRC5-run157 NLRC5-16q13-genotype LOF-vs-WT-HLA-I HLA-A/B/C-IHC-biopsy B2M-serum-proxy three-MHC-routes-complete CIITA-run128-MHC-II cDC1-run159 IRF1-run168-inducible NLRC5-run169-constitutive | run_169*
+
+---
+
+### Part 9ds — Galectin-1 (LGALS1): Glycan-Gated Th1/Th17 Apoptosis, NOD Prevention, IRF1 Feedback, EBV Caution
+
+**Run:** run_170 | **Date:** 2026-04-12
+
+**Mechanism integration:**
+
+Gal-1 leverages activation-induced glycosylation remodeling as a precision kill switch. Naive T cells: α2,6-sialic acid caps N-glycans → LacNAc masked → Gal-1 cannot bind. Activation → ST6Gal1 ↓ + Mgat5 ↑ → polyLacNAc exposed on CD45/CD43/CD7 → Gal-1 homodimer crosslinks → glycan lattice → lipid raft reorganization → mitochondrial + FasL-independent caspase-8 apoptosis. Th1/Th17 cells: low ST6Gal1 = Gal-1 sensitive. Th2/Tregs: high ST6Gal1 = sialylated = resistant. Result: selective Th1/Th17 elimination with Treg sparing = net tolerogenic shift.
+
+**CD45 signaling sub-apoptotic effect:** Gal-1 crosslinks CD45 → CD45 clustering → LCK dephosphorylation at pTyr394 → TCR signal dampening without apoptosis at low Gal-1 concentrations. Sub-apoptotic Gal-1 = tolerance induction without cell death. Concentration titration: apoptosis dose (~0.5–2 μM Gal-1 local) vs. dampening dose (<0.2 μM).
+
+**IRF1 positive feedback loop (run_168 bridge):**
+- Normal: β cells constitutively express Gal-1 → islet Th1 apoptosis → homeostasis
+- Insulitis: IFN-γ → IRF1/STAT1 → β cell LGALS1 promoter suppression → Gal-1 ↓ → less Th1 apoptosis → more IFN-γ → more IRF1 → less Gal-1 = escalating positive feedback
+- Break point: exogenous rHsGal-1 or LEX-112 Gal-1-Fc restores apoptotic killing; IRF1 inhibitor (Guo 2019 siRNA) preserves β cell LGALS1 expression; combined = double-break of positive feedback
+
+**Treatment protocol additions:**
+
+*T1DM:*
+- **rHsGal-1 SC dosing**: 0.1 mg/kg 3×/week (Perone 2006 NOD dose-equivalent); escalate to 0.3 mg/kg if CD45 sialylation assay confirms low sialylation on islet Th1
+- **LEX-112 Gal-1-Fc** (if available): SC once weekly; half-life ~5 days; Phase 1-ready; preferred for outpatient protocol
+- **Gal-1 + IL-2 complex (run_151)**: Gal-1 kills Th1/Th17 → IL-2/JES6-1 expands Tregs into vacated niche = strongest 2-arm protocol; monitor: Th1 apoptosis (Annexin V/PI flow) + FOXP3+ Treg fraction
+- **Gal-1 + abatacept (run_148)**: kills existing Th1 + prevents new Th1 activation; sequential preferred: Gal-1 first (3 weeks) → abatacept maintenance
+- **Triple combination**: Gal-1 + IL-2 + abatacept = comprehensive (kill existing/expand Treg/prevent new); titrate to GATA3:T-bet ratio in islet biopsy or peripheral Th1/Th2 ratio
+
+*Rosacea:*
+- T-bet-dominant PPR (GATA3:T-bet ratio low, run_167): topical Gal-1 cream (investigational) or systemic rHsGal-1 low-dose; combine with baricitinib (run_119 JAK1/2); monitor: skin Th1 clearance, CD45 sialylation on skin-homing T cells
+- GATA3-dominant PPR (atopic overlap): Gal-1 ineffective (Th2 sialylated → resistant); use dupilumab (run_167) instead; do NOT use Gal-1 first-line in Th2 subtype
+
+*ME/CFS:*
+- EBV viral load testing mandatory before considering any Gal-1 protocol
+- If EBV VCA/EA positive or EBV-B cell expansion detected: Gal-1 CONTRAINDICATED (pro-viral via CTL evasion)
+- If EBV-negative ME/CFS: Gal-1 cautious use with NK monitoring (exhausted NK clearance → homeostatic NK replenishment possible)
+
+**Biomarker panel updates:**
+- Serum Gal-1 ELISA: add to T1DM activity panel (Gal-1 ↓ = insulitis active)
+- CD45/CD43 sialylation assay on peripheral blood CD4+ subsets: predict Gal-1 sensitivity (Th1 sialylation-low = Gal-1 treatment indication)
+- Annexin V/PI Th1 apoptosis post-Gal-1 ex vivo: pharmacodynamic confirmation of treatment response
+- Anti-Gal-1 antibody level: exclude in patients with autoimmune Gal-1 Ab before dosing
+
+*Protocol_integration.md Part 9ds — 2026-04-12 | Galectin-1-LGALS1-sialylation-gate ST6Gal1-Mgat5-polyLacNAc-gating CD45-LCK-TCR-dampening Perone-2006-NOD-78% IRF1-run168-LGALS1-positive-feedback rHsGal-1-LEX-112 Gal1+IL2-run151+abatacept-run148-triple Gal9-run155-orthogonal-combinable T-bet-run166-GATA3-run167-selector EBV-CAUTION-ME-CFS anti-Gal1-Ab serum-Gal1-ELISA CD45-sialylation-flow Annexin-V-PD | run_170*

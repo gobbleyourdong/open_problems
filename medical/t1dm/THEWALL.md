@@ -2008,3 +2008,15 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 3. **Baricitinib gap**: JAK1 inhibitor (run_119) blocks IRF1-inducible HLA-I but NLRC5 constitutive floor persists; full CTL protection requires NLRC5 suppression (EZH2 maintainer) + IRF1 inhibition simultaneously
 
 *T1DM THEWALL cross-reference run_169: 2026-04-12 | NLRC5-constitutive-HLA-I β-cell-immune-privilege-low-NLRC5 EZH2-H3K27me3-run157-NLRC5-brake NLRC5-KO-CTL-blind insulitis-EZH2↓-privilege-revocation baricitinib-run119-NLRC5-gap IRF1-run168-dual-regulation CIITA-MHC-II-run128 three-MHC-routes | run_169*
+
+---
+
+### Cross-reference: run_170 — LGALS1/Galectin-1: NOD T1DM Prevention, Selective Islet Th1/Th17 Apoptosis, IRF1 Feedback Loop
+
+**Relevance: HIGH**
+
+1. **Perone 2006 NOD prevention**: recombinant Gal-1 → 78% T1DM-free at 25 weeks vs. 5% controls; mechanism: islet Th1/Th17 selective apoptosis (sialylation gate); Treg% +40%; IFN-γ/IL-17A ↓ in islets; insulitis score reduced
+2. **IRF1→LGALS1 positive feedback** (run_168 bridge): insulitis IFN-γ → IRF1/STAT1 → β cell LGALS1 suppression → less Th1 apoptosis → more IFN-γ; breaking loop with exogenous Gal-1 (rHsGal-1 or LEX-112 Gal-1-Fc) or IRF1 inhibitor
+3. **Combination strategy**: Gal-1 (kills Th1/Th17) + IL-2 complex (run_151, expands Tregs) + abatacept (run_148, prevents new Th1 activation) + Gal-9/TIM-3 (run_155, exhausts residual Th1) = comprehensive Th1 elimination
+
+*T1DM THEWALL cross-reference run_170: 2026-04-12 | Galectin-1-Gal1-NOD-78%-Perone-2006 sialylation-gate-Th1-Th17-apoptosis Treg-spared-sialylated IRF1-run168-LGALS1-feedback rHsGal-1-LEX-112-Gal1-Fc IL2-run151-abatacept-run148-Gal9-run155-combination CD45-LCK-TCR-dampening serum-Gal1-ELISA | run_170*

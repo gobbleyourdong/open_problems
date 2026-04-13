@@ -1705,3 +1705,15 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 2. **CD8 CTL exhaustion loop**: EBV-infected cells → NLRC5 → HLA-I → present EBV peptides → CD8 T cell activation → chronic antigen → TOX/run_159 exhaustion cascade in ME/CFS
 
 *ME/CFS THEWALL cross-reference run_169: 2026-04-12 | NLRC5-EBV-HLA-I-maintain NK-KIR3DL1-inhibition EBV-missing-self-escape EBNA1-NKG2D-run102-dual-NK-evasion CD8-EBV-peptide-exhaustion-run159 | run_169*
+
+---
+
+### Cross-reference: run_170 — LGALS1/Galectin-1: EBV CTL Immune Evasion, NK Pool Dynamics, ME/CFS Caution
+
+**Relevance: MODERATE (CAUTION)**
+
+1. **EBV-B cell Gal-1 immune evasion**: EBV-infected B cells upregulate LGALS1 → Gal-1 secreted → kills EBV-specific CTL approaching infected cells → viral persistence; endogenous Gal-1 is pro-viral in EBV-infected tissue (opposite of desired effect); anti-Gal-1 antibody in EBV context = restore CTL killing
+2. **Systemic Gal-1 therapy CAUTION**: in ME/CFS with EBV-driven pathology, exogenous Gal-1 (rHsGal-1, LEX-112) may enhance EBV immune evasion by adding to already-elevated local Gal-1; requires EBV viral load monitoring before administering Gal-1 therapy
+3. **NK pool dynamics**: Gal-1 targets exhausted/activated NK cells (high CD45 polyLacNAc) → eliminates exhausted NK pool → NK homeostatic proliferation possible; net effect uncertain in ME/CFS (low NK numbers + perforin deficit); requires careful monitoring
+
+*ME/CFS THEWALL cross-reference run_170: 2026-04-12 | EBV-Gal1-CTL-evasion-LGALS1-upregulation viral-persistence systemic-Gal1-CONTRAINDICATED-EBV anti-Gal1-antibody-restore-CTL NK-exhausted-Gal1-target homeostatic-NK-proliferation EBV-viral-load-monitor-before-Gal1 | run_170*

@@ -6934,3 +6934,37 @@ Elevated QA in ME/CFS brain (Tredici 2015 J Neuroinflammation); microglial KMO a
 **Framework state: 169 runs | NLRC5-16q13 | W/X/Y-box-enhanceosome | HLA-A/B/C+B2M+TAP1/2 | β-cell-immune-privilege-low-NLRC5 | EZH2-H3K27me3-NLRC5-brake | NLRC5-KO-CTL-blind | IRF1-run168-dual-regulation | CIITA-run128-MHC-II-complement | three-MHC-routes-complete.**
 
 *Updated: 2026-04-12 | Phase 4 one-hundred-forty-fourth extension | NLRC5-16q13 NACHT-LRR-CARD W/X/Y-box RFX5-RFXAP-RFXANK enhanceosome HLA-A-B-C-B2M-TAP1-TAP2-Tapasin β-cell-immune-privilege EZH2-H3K27me3-brake-run157 NLRC5-KO-HLA-I-absent CTL-recognition-fails insulitis-privilege-revocation IRF1-inducible+NLRC5-constitutive baricitinib-partial-NLRC5-persists CIITA-MHC-II-run128-complement cDC1-run159-third-route | run_169*
+
+---
+
+### Phase 4 Extension 145 — LGALS1/Galectin-1: Pro-Tolerogenic Lectin, Selective Th1/Th17 Apoptosis, Sialylation Gate, NOD T1DM Prevention (0 Prior Files)
+
+**Gap:** LGALS1/Galectin-1 absent from all 169 prior runs. Distinct from Galectin-9/TIM-3 (run_155, HAVCR2 exhaustion) — orthogonal receptors, complementary tolerance mechanisms.
+
+**Rosacea (MODERATE):**
+- Normal skin keratinocytes/fibroblasts constitutively express Gal-1 → Th1/Th17 homeostatic apoptosis
+- Rosacea (PPR): UV + Demodex → IFN-γ → IRF1/STAT1 → LGALS1 ↓ → Th1/Th17 survival → T-bet+ accumulation (run_166) → more IFN-γ → less Gal-1 = positive feedback
+- T-bet-dominant rosacea (sialylation-low Th1) = Gal-1 target; GATA3-dominant (run_167) = dupilumab target; GATA3:T-bet IHC biopsy ratio guides therapy selector
+- ETR (mast cell/vascular dominant): Gal-1 less relevant; PPR (T cell dominant): primary Gal-1 target
+
+**T1DM (HIGH):**
+- Perone 2006 J Immunol 176:7202: recombinant Gal-1 → **78% NOD T1DM-free at 25 weeks vs. 5% controls**; islet Th1/Th17 apoptosis; Treg%+40%; IFN-γ/IL-17A ↓; insulitis score reduced
+- Bose 2014: Gal-1 prevents T1DM in BCL-2-transgenic NOD (apoptosis-resistant) → CD45 signal dampening is apoptosis-independent tolerance mechanism
+- IRF1 (run_168) → β cell LGALS1 ↓ = positive feedback: more insulitis IFN-γ → less β cell Gal-1 → less Th1 apoptosis → more IFN-γ; breaking loop with exogenous Gal-1 or IRF1 inhibitor
+- Gal-1 + IL-2 complex (run_151): simultaneous Th1/Th17 depletion + Treg expansion = strongest combination
+- Gal-1 + abatacept (run_148): kills existing activated Th1 + prevents new activation = belt-and-suspenders
+- Gal-1 + Gal-9/TIM-3 pathway (run_155): orthogonal receptor systems combinable = comprehensive Th1 elimination
+
+**ME/CFS (CAUTION — dual role):**
+- Exhausted/activated NK cells express Gal-1 ligands → Gal-1 eliminates exhausted NK pool → NK homeostatic proliferation possible benefit; but net effect uncertain, use cautiously
+- **EBV immune evasion**: EBV-infected B cells upregulate LGALS1 → kills EBV-specific CTL approaching the infected cell → viral persistence; in EBV-driven ME/CFS, systemic Gal-1 administration is CONTRAINDICATED or requires EBV-CTL protection strategy; anti-Gal-1 antibody in EBV tissue context = restore CTL killing
+
+**Protocol additions:**
+- **Serum Gal-1 ELISA**: inverse T1DM activity marker; Gal-1 ↓ = active insulitis
+- **CD45/CD43 sialylation flow assay** (T cell subset): Gal-1 sensitivity prediction; low sialylation on Th1 = Gal-1-sensitive → therapy indication
+- **GATA3:T-bet biopsy IHC ratio** (run_167 bridge): T-bet dominant → Gal-1 + baricitinib; GATA3 dominant → dupilumab
+- Therapeutics: recombinant rHsGal-1 (short half-life, SC/IV), Gal-1-Fc fusion LEX-112 (half-life ~5 days, Phase 1-ready); combination with existing framework arms
+
+**Framework state: 170 runs | LGALS1-Galectin-1 | sialylation-gate-Th1/Th17 | CD45-LCK-TCR-dampening | Perone-2006-NOD-78% | IRF1-run168-LGALS1-feedback | Gal1-Fc-LEX-112 | Gal9-run155-orthogonal | EBV-Gal1-CAUTION-ME-CFS.**
+
+*Updated: 2026-04-12 | Phase 4 one-hundred-forty-fifth extension | LGALS1-Galectin-1-homodimer-CRD-polyLacNAc ST6Gal1-sialylation-gate Th1-Th17-Gal1-sensitive Th2-Treg-resistant CD45-LCK-dephosphorylation Perone-2006-NOD-78%-T1DM-free Bose-2014-BCL2-NOD IRF1-STAT1-LGALS1↓-feedback EBV-Gal1-CTL-evasion-ME-CFS-caution rHsGal-1-LEX-112-Gal1-Fc Gal9-TIM3-run155-orthogonal abatacept-run148-combination IL2-run151-combination T-bet-run166-GATA3-run167-selector serum-Gal1-ELISA CD45-sialylation-flow | run_170*
