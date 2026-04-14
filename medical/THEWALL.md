@@ -5,7 +5,7 @@
 ## The Science Side (Solved)
 
 The campaign has produced, in formal terms:
-- **13 Lean files, 0 sorry** — machine-verified mathematical proof that R > D → B* > threshold → cure (the entire T1DM cure thesis as a provable theorem)
+- **16 Lean files, 2 sorry** (counted 2026-04-14; remaining stubs in `ChemicalKinetics.lean` and `InequalityReversal.lean`) — machine-verified mathematical proof that R > D → B* > threshold → cure (the entire T1DM cure thesis as a provable theorem)
 - **80+ T1DM attempts** — every mechanism mapped, every failure formally documented
 - **16 diseases formalized** — one virus, one protocol, sixteen diseases
 - **5 prevention windows** — concrete, time-bounded interventions to prevent chronic diseases from establishing

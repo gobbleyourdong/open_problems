@@ -1,6 +1,8 @@
 # Pattern 003: CNS Clearance Reassessment -- The Unified Model Was Wrong About the Brain
 
-## Status: CRITICAL FINDING -- Paradigm shift for protocol feasibility
+> **INTERMEDIATE (2026-04-14).** This file diagnoses the PK error in pattern_002 (v1 unified model) and proposes corrections for CNS specifically. The full corrected model with all 8 compartments — including testes reassessment beyond CNS — lives in `pattern_005_corrected_clearance_order.md`, which is the current authoritative version. Kept for traceability (Maps Include Noise, Sigma v6).
+
+## Status: INTERMEDIATE — CNS-specific error diagnosis; see pattern_005 for full corrected model
 
 ## The Error
 

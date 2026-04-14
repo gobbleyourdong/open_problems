@@ -3671,9 +3671,11 @@ For T1DM-rosacea patients:
 - Monitoring thresholds: Node A (Foxp3+/CD25+ Tregs ≥8% CD4+), Node B (CRP/TNF-α), Node C (TJ integrity via FBHM/lactulose), Node D (IFN-α proxies), Node E (Th17), Node F (cortisol/HPA); plus ferritin (iron-Fenton risk), optional OPN (M1-Treg displacement)
 
 **Threshold for future protocol update:**
-If a new run (>run_111) is executed per the saturation override criteria in THEWALL.md Phase 4 Extension 86, return here and append Part 9bm with the relevant protocol integration.
+If a new run (>run_111) is executed per the saturation override criteria (see `thewall_extensions_archive.md` — "Phase 4 Extension 86" section, archived 2026-04-14 from former THEWALL.md), return here and append Part 9bm with the relevant protocol integration.
 
 **FRAMEWORK STATUS: COMPLETE | 111 runs | 2026-04-12 | sigma method v7**
+
+> **CONTRADICTION NOTED 2026-04-14:** 59 additional runs (112–170) were produced after this "COMPLETE" declaration. Run files in `../numerics/run_112_*` through `run_170_*` self-label as "SATURATION + N" (e.g., run_170 = "SATURATION + 59: 170 runs"). Either (a) this "COMPLETE" claim was premature and the framework kept growing, or (b) the 59 subsequent runs added redundant noise past the saturation point. The per-run kill discipline (see `confirmation_bias_audit.md` 2026-04-14 addendum) produced 0 kills across all 170 runs, which does not distinguish (a) from (b). Neither protocol integration parts nor gap-level conclusions have been updated to reflect runs 112–170 in this file — the "COMPLETE" snapshot is frozen at run_111.
 
 *Protocol_integration.md Part 9bl — 2026-04-12 | SATURATION NOTE | no protocol changes | framework complete | 111 runs integrated | T-index v4 final state | future run threshold documented | sigma method v7*
 

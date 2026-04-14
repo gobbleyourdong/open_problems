@@ -1,20 +1,22 @@
 # Clay Millennium Problems — systematic approach Campaign
 
-> Updated: 2026-04-09 | 862 Lean theorems across 118 files | 7 math + 7 philosophy/physics domains
+> Updated: 2026-04-14 | 824 Lean theorems+lemmas across 129 files (non-lake) | 7 Clay + Liouville sub-campaign + Prime Numbers + philosophy/physics domains
 
-| # | Problem | Phase | Lean | Wall Type | Key Result |
-|---|---------|-------|------|-----------|------------|
-| 1 | **Poincare** | SOLVED | 55/8 | — | 12/12 blind rediscovery, Step 9 closed |
-| 2 | **Yang-Mills** | Conditional | 64/18 | Quantitative | GC > 0 both regimes + Option 1 activated (66sigma) |
-| 3 | **Navier-Stokes** | Phase 4 | 487/42 | Quantitative | c(4) <= 0.561 rigorous, 3 eigenvector mechanisms |
-| 4 | **Hodge** | Phase 2 | 20/5 | Existential | Tannakian + CycleAlgebra + FermatCubic verified |
-| 5 | **Riemann** | Phase 2 | 20/5 | Conceptual | 5 mountains + 4 numerical depth certs |
-| 6 | **BSD** | Phase 1 | 5/2 | Structural | 5-mountains pair-structure formalized |
-| 7 | **P vs NP** | Phase 1 | 78/14 | Meta | Liu-Pass + compression asymmetry 4698x at n=18 |
-| — | **Philosophy/mind** | Phase 1 | 10/2 | Experimental | beta-gamma incompatibility + 2x2 factorial spec |
-| — | **Physics/info** | Phase 1 | 5/1 | Conceptual | S/K bifurcation resolves info anti-problem |
+| # | Problem | Phase | Lean (thms / sorry) | Wall Type | Key Result |
+|---|---------|-------|---------------------|-----------|------------|
+| 1 | **Poincare** | SOLVED | 64 / 9 | — | 12/12 blind rediscovery, Step 9 closed |
+| 2 | **Yang-Mills** | Conditional | 74 / 18 | Quantitative | GC > 0 both regimes + Option 1 activated (66sigma) |
+| 3 | **Navier-Stokes** | Phase 4 | 485 / 41 | Quantitative | c(4) <= 0.561 rigorous, 3 eigenvector mechanisms |
+| 4 | **Hodge** | Phase 2 | 20 / 4 | Existential | Tannakian + CycleAlgebra + FermatCubic verified |
+| 5 | **Riemann** | Phase 2 | 19 / 7 | Conceptual | 5 mountains + 4 numerical depth certs |
+| 6 | **BSD** | Phase 1 | 5 / 1 | Structural | 5-mountains pair-structure formalized |
+| 7 | **P vs NP** | Phase 1 | 78 / 6 | Meta | Liu-Pass + compression asymmetry 4698x at n=18 |
+| — | **Liouville (NS sub)** | Phase 2 | 7 / 4 | — | NS backward-entry campaign |
+| — | **Prime Numbers** | Phase 1 | 3 / 0 | — | 29 verified certificates (Artin, Brun, Cramér, Sato-Tate, ...) |
+| — | **Philosophy/mind** | Phase 1 | 10 / 2 | Experimental | beta-gamma incompatibility + 2x2 factorial spec |
+| — | **Physics/info** | Phase 1 | 5 / 1 | Conceptual | S/K bifurcation resolves info anti-problem |
 
-Lean column: theorems/files (total 749+ theorems across 108 files)
+Lean column: theorems+lemmas / sorry count (current as of 2026-04-14; math subtotal 755 thms+lemmas, 90 sorry; grand total incl. medical/phil/physics: 824 / 92).
 
 ## Results by Problem
 

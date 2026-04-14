@@ -15,16 +15,17 @@
 
 Seven Clay Millennium Prize Problems. Lean 4 formalizations. SOS certificates. Zero hand-waving.
 
-| Problem | Status | Lean Theorems | Certificates | Gap |
-|---------|--------|:------------:|:------------:|-----|
-| **Navier-Stokes** | Phase 4 | 30+ (0 sorry) | N=3-12, 0 failures | c(N) ~ 1.2/N, prove decay |
-| **Yang-Mills** | Phase 3 | 15+ | GC > 0 all beta | FKG for SU(2) gauge |
-| **P vs NP** | Phase 1 | 15+ (0 sorry) | Phase transition + 3 new certs | 3 barriers formalized |
-| **Riemann Hypothesis** | Phase 1 | 5+ | Li n=1000, Robin | Certificate equivalence (meta-theorem) |
-| **Birch & Swinnerton-Dyer** | Phase 1 | 3 | L-values rank-0 | Rank-2 Gross-Zagier |
-| **Hodge Conjecture** | Phase 2 | 4 | Fermat cubic verified | Motivic t-structure |
-| **Poincare** | (solved) | 11 (0 sorry) | 15 verified (Ricci flow, Hamilton-Ivey, extinction, ...) | 12/12 blind (Perelman) |
-| **Prime Numbers** | Phase 1 | — | 29 verified (Artin, Brun, Cramér, Sato-Tate, ...) | Open conjectures mapped |
+| Problem | Status | Lean Theorems / Sorry | Certificates | Gap |
+|---------|--------|:--------------------:|:------------:|-----|
+| **Navier-Stokes** | Phase 4 | 485 thms, 41 sorry | N=3-12, 0 failures | c(N) ~ 1.2/N, prove decay |
+| **Yang-Mills** | Phase 3 | 74 thms, 18 sorry | GC > 0 all beta | FKG for SU(2) gauge |
+| **P vs NP** | Phase 1 | 78 thms, 6 sorry | Phase transition + 3 new certs | 3 barriers formalized |
+| **Riemann Hypothesis** | Phase 1 | 19 thms, 7 sorry | Li n=1000, Robin | Certificate equivalence (meta-theorem) |
+| **Birch & Swinnerton-Dyer** | Phase 1 | 5 thms, 1 sorry | L-values rank-0 | Rank-2 Gross-Zagier |
+| **Hodge Conjecture** | Phase 2 | 20 thms, 4 sorry | Fermat cubic verified | Motivic t-structure |
+| **Poincare** | (solved) | 64 thms, 9 sorry | 15 verified (Ricci flow, Hamilton-Ivey, extinction, ...) | 12/12 blind (Perelman) |
+| **Prime Numbers** | Phase 1 | 3 thms, 0 sorry | 29 verified (Artin, Brun, Cramér, Sato-Tate, ...) | Open conjectures mapped |
+| **Liouville Conjecture** | Phase 2 | 7 thms, 4 sorry | — | NS backward-entry sub-campaign |
 
 Each problem directory contains:
 - `PROBLEM.md` — formal statement + known results
@@ -53,8 +54,8 @@ N=12 certification in progress (9/13 complete, floor ≥ 19.30).
 ### Lean Totals
 
 ```
-Theorems: 1,182+
-Sorry:    128
+Theorems+lemmas: 824 (math + medical, excluding vendored .lake)
+Sorry:           92 (counted 2026-04-14)
 ```
 
 ## medical/
@@ -97,7 +98,7 @@ The methodology used to coordinate the work across math, medicine, physics, and 
 
 ## physics/
 
-Six tier-0 questions about how reality works at the fundamental level.
+Seven tier-0 questions about how reality works at the fundamental level.
 
 | Question | What's at stake |
 |----------|----------------|
@@ -107,6 +108,7 @@ Six tier-0 questions about how reality works at the fundamental level.
 | **what_is_change** | Zeno, dynamics, continuity |
 | **what_is_information** | Shannon, Wheeler's "it from bit", holographic principle |
 | **what_is_computation** | Church-Turing, quantum computation, pancomputationalism, ternary efficiency, digital goods value, software entropy |
+| **what_is_self_reference** | Gödel, Halting, hard problem; brains, computers, universe as self-modeling instances |
 
 ## philosophy/
 

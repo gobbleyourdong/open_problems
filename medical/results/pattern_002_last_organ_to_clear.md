@@ -1,6 +1,8 @@
 # Pattern 002: The Last Organ to Clear — Immune-Privileged Reservoirs
 
-## Status: IDENTIFIED — Numerics complete, critical finding
+> **SUPERSEDED (2026-04-14).** The "CNS and testes NEVER clear" conclusion below is wrong — the v1 unified model treated brain fluoxetine concentration as 1× plasma (actually 10–20× plasma per Bolo 2000, Karson 1993). The corrected v2 model in `pattern_005_corrected_clearance_order.md` shows 8/8 organs clear with the full protocol. Read `pattern_003_cns_clearance_reassessment.md` for the error diagnosis and `pattern_005` for the authoritative current conclusion. This file is kept for historical traceability (Maps Include Noise, Sigma v6).
+
+## Status: SUPERSEDED — v1 unified model, pharmacokinetic error; see pattern_005
 
 ## The Finding
 

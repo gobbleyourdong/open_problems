@@ -233,3 +233,26 @@ The bias does NOT invalidate the framework — the Th17 mechanism is real, the M
 *Verdict: moderate bias (40-60%) — T1DM/rosacea link genuine (HLA-driven); broader cluster partially assembled retroactively*
 *Key finding: CVB protocol improvement reflects general Th17 modulation, not CVB-specific mechanism*
 *Decisive test unchanged: IFN-α2 Simoa within T1DM stratifies rosacea risk beyond HLA*
+
+---
+
+## Addendum — 2026-04-14 Meta-Audit on Kill-First Discipline
+
+Adversarial sweep over the 183 numerics runs found a systemic pattern that the original audit (scoped to the clinical cluster) did not examine: **the "Kill-first" criterion applied in individual run files is not a genuine falsifier of the mechanism claim.**
+
+Data:
+- 119 / 183 runs (65%) include a Kill section.
+- 0 runs have "Status: Killed" or equivalent verdict.
+- 10 runs use "not killed / survives" language (i.e., affirm survival; don't report failure).
+- Canonical example (`run_150_tgfb1_...md`): the Kill-first line reads literally "PASS | Cannot kill: SMAD2/3 signaling is not covered in any prior run." The criterion tests for **novelty / non-redundancy with prior runs**, not for biological or numerical falsification of the mechanism.
+
+Classification under Sigma v7 Confirmation Bias Audit (three-part template):
+1. **Rejection count: 0 / 119.** No Kill section produced a kill verdict. Under a genuine falsifier, some fraction should fail by chance or by contradiction with data.
+2. **Construction check: the Kill section is written by the same instance that proposed the mechanism, in the same fire.** Construction and test are not independent.
+3. **Predictive test: fails.** The kill criteria check prior-run coverage, not prediction on unseen data. No predictive element.
+
+Classification: **selection artifact** — the kill ritual validates coverage/novelty rather than testing mechanism truth. This does not invalidate the individual runs (many describe real biology), but it invalidates the meta-claim that "kill-first pressure was applied across the sweep."
+
+Implication for future fires: adding more runs under the same kill-ritual does not increase mechanistic confidence. A genuine kill would require either (a) a separate instance applying independent falsifiers, or (b) kills framed as falsifiable-against-data rather than novel-vs-prior-runs.
+
+*Filed: 2026-04-14 | Adversarial-prune loop, fire 12 | Meta-audit on 183-run kill discipline*
