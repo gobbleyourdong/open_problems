@@ -255,4 +255,22 @@ Classification: **selection artifact** — the kill ritual validates coverage/no
 
 Implication for future fires: adding more runs under the same kill-ritual does not increase mechanistic confidence. A genuine kill would require either (a) a separate instance applying independent falsifiers, or (b) kills framed as falsifiable-against-data rather than novel-vs-prior-runs.
 
-*Filed: 2026-04-14 | Adversarial-prune loop, fire 12 | Meta-audit on 183-run kill discipline*
+**Scope (added fire 15, 2026-04-14):** The ritualized-kill pattern is **exclusive to this dysbiosis /loop map-the-space campaign**. Audit of sibling medical directories found zero Kill sections in their numerics/attempts files:
+
+| Disease | files in numerics/ + attempts/ | files with Kill section | "Killed" verdicts |
+|---------|-------------------------------:|-----------------------:|------------------:|
+| t1dm | 98 | 0 | 0 |
+| me_cfs | 9 | 0 | 0 |
+| myocarditis | 7 | 0 | 0 |
+| pericarditis | 5 | 0 | 0 |
+| psoriasis | 6 | 0 | 0 |
+| eczema | 5 | 0 | 0 |
+| hepatitis | 4 | 0 | 0 |
+| perioral_dermatitis | 6 | 0 | 0 |
+| **dysbiosis** | **183** | **119** | **0** |
+
+T1DM attempts are substantive narrative analyses (e.g., `attempt_043_the_complete_picture.md`), not formulaic "run N" units. They don't need kill-first because their structure doesn't lend itself to the ritual. The problem is specific to the dysbiosis /loop's per-run template: the template includes a "Kill" slot, which the instance fills in the same fire as the mechanism, with a criterion that checks novelty rather than falsifiability.
+
+Refined implication: don't generalize this finding to the whole repo's "kill discipline." It identifies a defect in **one template in one campaign**, not a repo-wide methodological failure.
+
+*Filed: 2026-04-14 | Adversarial-prune loop, fires 12 & 15 | Meta-audit on 183-run kill discipline, scope refined*

@@ -131,29 +131,31 @@ Nine tier-0 questions about meaning, value, mind, and knowing.
 ```
 open_problems/
   math/
-    ns_blowup/          <- Navier-Stokes 3D regularity
-    yang_mills/          <- Yang-Mills mass gap
-    p_vs_np/             <- P vs NP
-    riemann_hypothesis/  <- Riemann Hypothesis
+    ns_blowup/             <- Navier-Stokes 3D regularity
+    yang_mills/            <- Yang-Mills mass gap
+    p_vs_np/               <- P vs NP
+    riemann_hypothesis/    <- Riemann Hypothesis
     birch_swinnerton_dyer/ <- BSD conjecture
-    hodge_conjecture/    <- Hodge conjecture
-    poincare_conjecture/ <- Poincare (solved, blind reconstruction)
-    prime_numbers/       <- Open prime conjectures (Artin, twin primes, Cramér, ...)
+    hodge_conjecture/      <- Hodge conjecture
+    poincare_conjecture/   <- Poincare (solved, blind reconstruction)
+    prime_numbers/         <- Open prime conjectures (Artin, twin primes, Cramér, ...)
+    liouville_conjecture/  <- Liouville on R³ (NS backward-entry sub-campaign)
   medical/
     t1dm/                <- Type 1 Diabetes (94+ attempts)
     myocarditis/         <- Viral myocarditis
     me_cfs/              <- Chronic fatigue syndrome
-    ...15 diseases total
+    dysbiosis/           <- Gut-skin-virome axis (rosacea + T1DM + seb derm)
+    perioral_dermatitis/ <- POD (4-mountain model, behavioral wall)
+    ...16 diseases total
   physics/
-    what_is_reality/     <- Simulation, ontology, QM interpretations
-    what_is_time/        <- Block universe, arrow of time
-    ...6 tier-0 questions
+    what_is_reality/        <- Simulation, ontology, QM interpretations
+    what_is_time/           <- Block universe, arrow of time
+    what_is_self_reference/ <- Gödel, Halting, hard problem
+    ...7 tier-0 questions
   philosophy/
     what_is_mind/        <- Hard problem, consciousness
     what_is_knowing/     <- Epistemology, Gettier
     ...9 tier-0 questions
-    perioral_dermatitis/  <- POD (4-mountain model, behavioral wall)
-    ...12 more CVB diseases
 ```
 
 ## License
