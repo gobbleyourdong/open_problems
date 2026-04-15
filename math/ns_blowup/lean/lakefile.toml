@@ -52,6 +52,9 @@ name = "TraceFreeAlignment"
 [[lean_lib]]
 name = "SelfAnnihilation"
 
+[[lean_lib]]
+name = "StrainTraceInnerProduct"
+
 # === Large formalization projects ===
 
 [[lean_lib]]

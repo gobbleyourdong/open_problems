@@ -103,6 +103,15 @@ ZERO. Vorticity is orthogonal to its own stretching direction.
 **THE NUMBER:** max_{x*} α(x*)/|ω(x*)|. Currently ≈ 0.01.
 If proven analytically bounded away from √(3/4) ≈ 0.87: Key Lemma follows.
 
+**2026-04-14 REFRAME (attempt_849)**: the binding analytical inequality
+is not α/|ω| but the **Frobenius ratio ||S||²_F/|ω|² < 9/8**. The
+unconditional operator-norm bound (trace_free_operator_norm_bound,
+TraceFreeAlignment.lean) gives S²ê ≤ (2/3)||S||²_F without any alignment
+hypothesis. Combined with the diagonal identity Tr(S_j²) = 1/2
+(StrainTraceInnerProduct.lean), the remaining open piece is a coherence
+bound on the off-diagonal Σ_{j≠k} c_j c_k Tr(S_j S_k). Numerics: max
+||S||²_F/|ω|² ≈ 0.66, margin ~1.7× to 9/8. See attempts/attempt_849.
+
 ## Multiple Mountains
 
 Mountain 1: W-entropy transfer (Perelman analog for NS)

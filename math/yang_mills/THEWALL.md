@@ -188,6 +188,52 @@ GC ≥ 0 reduces to TWO explicit computations:
 2. **Weak coupling**: O(1/β) lattice perturbation theory. Doable.
 Plus continuity/analyticity interpolation for intermediate β.
 
+**2026-04-14 AUDIT (attempt_058)** flags three real holes in the current
+"GC > 0 is proved" claim:
+  (i) `numerics/gc_exact_polynomial.py`'s `gc_one_link_exact` does not
+      compute the lattice GC. Its β→∞ limit is 1/4, but the true
+      full-lattice GC(β=∞) = 1 − 1 = 0. The "mean-field + O(1/β)
+      correction" chain in that script is mis-identified.
+  (ii) Empirical δGC is ~constant (−0.22) across β = 4, 6, 8 in
+       pattern_061. A bound of the form |δGC| ≤ C/β requires linear
+       decay; the data contradicts it.
+  (iii) `gc_exact_2x4.py` is a partial stub: it computes Z(c) only, not
+        GC. Not a rigorous lower bound as currently written.
+
+What is rigorously established: (a) Fierz decomposition, (b) O(c²)
+cancellation at strong coupling and O(g²) cancellation at weak coupling,
+(c) the SIGN of the next-order term is POSITIVE **conditional on**
+(at strong coupling) a surface-count inequality written informally in
+attempt_050, and (at weak coupling) the two-loop vertex sign. Neither
+is fully formalized.
+
+Net: GC > 0 is numerically robust but not yet analytically closed at
+intermediate β.
+
+**2026-04-15 AUDIT (attempt_059 + 060)**: a direct combinatorial
+enumeration (area3_chair_enumeration.py) shows:
+- k=2: 2 chains (the chair, ± orientation)
+- k=3: 0 chains (no area-3 surfaces bound the chair)
+- k=4: 2 chains (the (0,1,2) 3-cube's 4 non-chair faces, ± orientation)
+
+In the pure j=1/2 sector, ⟨Tr(chair)⟩ = c² + A₄·c⁴ + O(c⁶), NOT
+c² + 5·c³ + O(c⁴) as attempt_050 claimed. The leading nontrivial
+correction to GC is at O(c⁴), from the (0,1,2) 3-cube that contains
+both P and Q as faces. **The sign of A₄ has NOT been computed.**
+
+attempt_050's "5c³ area-3 tiling" argument was based on conflating
+"subsurface containing the chair" with "alternative surface bounded by
+the chair's boundary." The actual character-expansion counting requires
+enumerating 2-chains with boundary = chair boundary, not chains
+extending the chair.
+
+The "strong coupling GC > 0 PROVEN via cluster expansion" claim in
+pattern_061 and attempt_053 is an overstatement. Rigorously closing
+this requires either (a) computing A₄'s sign explicitly via SU(2)
+Schur factors on the 6 internal edges of the (0,1,2) 3-cube's
+4-plaquette boundary, or (b) analyzing the mixed-representation
+sector contributions at c³ (if any).
+
 ## Lean Formalization Status
 
 | File | Proofs | Sorry | Key Result |
