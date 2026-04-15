@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="banner.png?v=3" alt="ALL YOUR PROBLEMS ARE BELONG TO US" width="900"/>
+  <img src="banner.png?v=4" alt="OPEN PROBLEMS WANT TO STAY OPEN" width="900"/>
 </p>
 
-<h1 align="center">ALL YOUR PROBLEMS ARE BELONG TO US</h1>
+<h1 align="center">OPEN PROBLEMS WANT TO STAY OPEN</h1>
 
 <p align="center">
   <b>gobbleyourdong x turbogranny</b><br/>

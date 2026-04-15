@@ -19,8 +19,10 @@ D. brevis is the harder one to detect clinically because it sits deeper. It
 also has a longer reproductive cycle (~18 days vs ~14 for D. folliculorum)
 and tolerates the meibomian gland's thermal gradient. D. brevis infestation
 is specifically associated with MGD and chalazion in multiple case-control
-series (Liang 2014 — 69% of pediatric chalazion vs 20% of controls; Kabataş
-2017 — D. brevis found in 67% of chalazion specimens on confocal microscopy).
+series (Liang 2014 PMID 24332377 — **70.2% of pediatric chalazion
+Demodex-positive vs 13.3% controls** [verified 2026-04-15; earlier
+69%/20% write-up was approximate]; Kabataş 2017 — D. brevis found
+in 67% of chalazion specimens on confocal microscopy).
 
 ## The cylindrical collarette — the clinical signature
 
@@ -142,9 +144,13 @@ steroid-dissolved, but:
 - New chalazia appear on the same or adjacent lashes within months
 
 This is the signature of treating the downstream lesion without breaking
-the upstream loop. Gao 2007 and Liang 2018 both report substantial drops in
-recurrence when tea tree oil lid hygiene is added to standard chalazion
-management. The intervention is acaricidal, not anti-inflammatory — the
+the upstream loop. Gao 2007 reports substantial drops in symptom burden
+when tea tree oil lid hygiene is added to standard blepharitis management.
+[Earlier write-up also invoked "Liang 2018" for chalazion recurrence-
+reduction figures; that citation could not be verified in the 2026-04-15
+claim audit and has been removed here — directional support for acaricidal
+adjunct reducing recurrence exists but specific figures need a confirmed
+source.] The intervention is acaricidal, not anti-inflammatory — the
 inflammation resolves on its own once the substrate (mite + endosymbiont
 burden) is reduced.
 

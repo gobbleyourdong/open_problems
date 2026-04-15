@@ -87,33 +87,53 @@ Demodex brevis infestation.* Br J Ophthalmol 2018;102:1098–1102. (and
 Liang 2014 in Ophthalmology on pediatric chalazion)
 
 - 60 pediatric chalazion patients examined for Demodex
-- 69% positive; recurrence rate at 6 months with standard treatment alone:
-  ~30%; with standard + 5% T4O lid scrub: ~6% (p < 0.01)
+- 70.2% Demodex-positive vs 13.3% in controls (Liang 2014 verified
+  figures per 2026-04-15 audit — corrected from earlier 69%/20%)
+- Recurrence-reduction figures previously written (30% standard care
+  vs 6% with T4O adjunct, attributed to "Liang 2018") could NOT be
+  verified — the cited Liang 2018 Br J Ophthalmol paper with these
+  numbers does not exist in PubMed. Directional support for TTO
+  adjunct reducing chalazion recurrence exists elsewhere, but the
+  specific factor-of-5 claim is not cite-able to Liang 2018.
 
 ### MGD: Koo 2012
 
 Koo H, Kim TH, Kim KW, Wee SW, Chun YS, Kim JC. *Ocular surface
 discomfort and Demodex: effect of tea tree oil eyelid scrub in Demodex
-blepharitis.* J Korean Med Sci 2012;27:1574–1579.
+blepharitis.* J Korean Med Sci 2012 Dec;27(12):1574–1579.
+PMID: 23255861. DOI: 10.3346/jkms.2012.27.12.1574.
 
-- 281 patients, 164 with symptomatic MGD, all tested for Demodex
+[Numbers corrected 2026-04-15 per claim audit.]
+
+- **335 screened, 160 Demodex-infested patients randomized** (106 TTO /
+  54 control). Earlier write-up had n=281 — incorrect.
 - 50% TTO weekly + 5% TTO daily protocol
-- Meibomian gland expression, tear film break-up time, and OSDI symptom
-  score all improved significantly by 8 weeks; improvements correlated
-  with Demodex count reduction
+- **Demodex count reduction: 4.0±2.5 → 3.2±2.3 (P=0.004)**
+- **OSDI improvement: 34.5±10.7 → 24.1±11.9 (P=0.001)**
+- TBUT and meibomian-parameter improvements were stated in the earlier
+  write-up but are **NOT in the abstract** — require full-text
+  verification before being cited as quantitative findings
 
 ### Systematic reviews
 
 Savla K, Le JT, Pucker AD. *Tea tree oil for Demodex blepharitis.*
-Cochrane Database Syst Rev 2020;6:CD013333.
+Cochrane Database Syst Rev 2020 Jun 20;6(6):CD013333.
+PMID: 32589270. DOI: 10.1002/14651858.CD013333.pub2.
 
-- 6 RCTs, 482 participants pooled
-- TTO reduced mite counts significantly vs. placebo or non-TTO lid wipes
-  (MD = −1.42 mites/lash, 95% CI −2.27 to −0.58)
-- Symptom improvement was consistent but outcome measures varied across
-  trials, precluding meta-analysis on OSDI specifically
-- **Conclusion: TTO is the best-evidence intervention for Demodex
-  blepharitis, with mite-count reduction demonstrated in controlled trials**
+[Numbers corrected 2026-04-15 per claim audit — earlier write-up
+had 6 RCTs / 482 participants / MD −1.42, all wrong.]
+
+- **3 RCTs, 562 participants / 1124 eyes** pooled
+- TTO vs non-TTO comparator at 4–6 weeks: **pooled MD ≈ 0.70
+  mites/lash (95% CI 0.24 to 1.16)** — verify sign convention in
+  full text
+- **Evidence quality rated uncertain** per Cochrane authors
+- Symptom improvement was directionally consistent but outcome-measure
+  heterogeneity across trials precluded firm meta-analytic conclusions
+  on OSDI specifically
+- **Conclusion (revised):** TTO likely reduces mite counts vs
+  inert comparator in Demodex blepharitis; clinical-symptom benefit
+  is suggested, not proven by this review
 
 Fromstein SR, Harthan JS, Patel J, Opitz DL. *Demodex blepharitis:
 clinical perspectives.* Clin Optom (Auckl) 2018;10:57–63.

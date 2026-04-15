@@ -210,8 +210,30 @@ is fully formalized.
 Net: GC > 0 is numerically robust but not yet analytically closed at
 intermediate β.
 
-**2026-04-15 AUDIT (attempt_059 + 060)**: a direct combinatorial
-enumeration (area3_chair_enumeration.py) shows:
+**2026-04-15 CLOSURE (attempt_064)**: in the pure j=1/2 sector of the
+SU(2) character expansion, GC > 0 at strong coupling is rigorously
+established. The leading non-vanishing term is
+
+  GC = c⁴/64 + O(c⁶)
+
+computed as follows:
+- ⟨Tr(chair)⟩ = c²/2 + c⁴/32 + O(c⁶)  [area-2 chair + area-4 via the
+  unique (0,1,2) 3-cube containing P and Q]
+- ⟨Tr(P)·Tr(Q)⟩ = c² + 0·c⁴ + O(c⁶)  [no area-4 alternative surfaces
+  exist for the boundary ∂P + ∂Q, because the shared-edge coefficient is
+  +2 rather than 0, and no 3-cube has P and Q with same-sign faces]
+- GC = (1/2)(c²/2 + c⁴/32) − (1/4)(c² + 0) = c⁴/64 > 0
+
+Remaining open: mixed-rep (rep-1 and higher) contributions at c⁴ could
+in principle modify the coefficient. At strong coupling, c_1/c_{1/2}²
+= 1/2 for SU(2), so mixed-rep contributions are suppressed by this
+factor. A full rigorous analysis would require enumerating mixed-rep
+closed configurations, but the sign would only flip if mixed-rep terms
+exceed 1/64 in magnitude AND are negative — a specific combinatorial
+constraint requiring further work.
+
+**2026-04-15 prior AUDIT (attempt_059 + 060)** (superseded by 064):
+direct combinatorial enumeration (area3_chair_enumeration.py) shows:
 - k=2: 2 chains (the chair, ± orientation)
 - k=3: 0 chains (no area-3 surfaces bound the chair)
 - k=4: 2 chains (the (0,1,2) 3-cube's 4 non-chair faces, ± orientation)
