@@ -2,7 +2,7 @@
 
 ## The 61-Year Autopsy
 
-A T1DM patient who lived 61 years with the disease. Autopsy reveals: beta cells present. Limited, but PRESENT. After six decades of autoimmune attack.
+A T1DM operator who lived 61 years with the disease. Autopsy reveals: beta cells present. Limited, but PRESENT. After six decades of autoimmune attack.
 
 This single data point destroys the foundational assumption of Mountain 1.
 
@@ -16,7 +16,7 @@ This single data point destroys the foundational assumption of Mountain 1.
 
 ### Mountain 1 was solving the wrong problem.
 
-The problem was never "where do we get beta cells?" The answer was always: from the patient's own pancreas, which never stopped making them.
+The problem was never "where do we get beta cells?" The answer was always: from the operator's own pancreas, which never stopped making them.
 
 The problem is: **stop killing them.**
 
@@ -29,9 +29,9 @@ That's it. That's the whole disease. The body makes beta cells. The immune syste
 - Deng autologous CiPSC: unnecessary if native beta cells are already regenerating
 - Edmonton transplant: unnecessary, obviously
 
-Mountain 1 doesn't collapse because its science was wrong. The science is excellent. It collapses because **the problem it solves isn't the problem the patient has.**
+Mountain 1 doesn't collapse because its science was wrong. The science is excellent. It collapses because **the problem it solves isn't the problem the operator has.**
 
-The patient has: "my beta cells keep getting killed."
+The operator has: "my beta cells keep getting killed."
 Mountain 1 answers: "here are some new beta cells."
 The actual answer: "stop killing the ones you're already making."
 

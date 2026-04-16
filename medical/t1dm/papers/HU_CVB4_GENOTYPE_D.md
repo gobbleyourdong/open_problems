@@ -50,7 +50,7 @@
 5. Check if TD deletion persistence mechanism is conserved across genotypes
 
 ### The recombination angle
-If CVB4 recombines with Echovirus 11 and CVB5, the virus in a patient's pancreas may be a CHIMERA:
+If CVB4 recombines with Echovirus 11 and CVB5, the virus in a operator's pancreas may be a CHIMERA:
 - CVB4 backbone (replication machinery)
 - Echovirus 11 structural proteins (different capsid)
 - CVB5 regulatory elements (different 5' UTR)

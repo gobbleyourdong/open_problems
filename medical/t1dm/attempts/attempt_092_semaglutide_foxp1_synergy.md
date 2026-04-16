@@ -54,7 +54,7 @@ Together, they should prevent the "FOXP1 suppression gap" even during active vir
 
 ## Who Should Get Semaglutide
 
-| Patient type | Semaglutide recommendation |
+| Operator type | Semaglutide recommendation |
 |-------------|---------------------------|
 | T1DM with C-peptide ≥ 0.2 ng/mL | YES — triple mechanism, direct beta cell support |
 | LADA (GADA positive, C-peptide ≥ 0.4 ng/mL) | YES — especially valuable at LADA stage |
@@ -96,7 +96,7 @@ Semaglutide's triple mechanism affects:
 2. d_min (FOXP1 → Treg → reduced D₁)
 3. The stability of B* (FOXP1 maintained → B* is more stable under the homeostatic term)
 
-For the 67-year patient with B_initial ≈ 0.05:
+For the 67-year operator with B_initial ≈ 0.05:
 - Without semaglutide: `d_min ≈ 0.003`, `r_growth ≈ 0.002`
 - With semaglutide: `d_min ≈ 0.002` (FOXP1 reduces Teff suppression), `r_growth ≈ 0.003` (beta cell proliferation enhanced)
 - Crown jewel condition margin: increases from ~12× to ~18× → more robust

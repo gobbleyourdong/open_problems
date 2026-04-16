@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate PDF lab order for the patient — clean, professional, no overflow."""
+"""Generate PDF lab order for the operator — clean, professional, no overflow."""
 
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.units import inch
@@ -38,7 +38,7 @@ def build_pdf():
     # Title
     elements.append(Paragraph("Comprehensive Assessment Panel — Type 1 Diabetes", title_style))
     elements.append(Paragraph(
-        "<b>Patient:</b> Adult male, Dx 12/2019. C-peptide 0.9 ng/mL at diagnosis. "
+        "<b>Operator:</b> Adult male, Dx 12/2019. C-peptide 0.9 ng/mL at diagnosis. "
         "5-year insulin-free remission on ketogenic diet (2020-2024). "
         "Currently 2u Humalog/meal, 18:6 intermittent fasting, 15-20g carbs/meal. "
         "Evaluating residual beta cell function and autoimmune status for potential "
@@ -54,7 +54,7 @@ def build_pdf():
     tier1_data = [
         header,
         [p("Fasting C-Peptide", cell_bold), p("004051", cell_style),
-         p("Quantify residual beta cell function. Prior level 0.9 ng/mL at Dx (Dec 2019). Patient sustained insulin independence for 5 years, suggesting significant residual mass. Current level determines intervention path.", cell_style)],
+         p("Quantify residual beta cell function. Prior level 0.9 ng/mL at Dx (Dec 2019). Operator sustained insulin independence for 5 years, suggesting significant residual mass. Current level determines intervention path.", cell_style)],
         [p("GAD65 Antibodies", cell_bold), p("164350", cell_style),
          p("Confirm autoimmune etiology. Most common autoantibody in adult-onset T1DM. Elevated GADA correlates with slower functional decline in some populations.", cell_style)],
         [p("IA-2 Antibodies", cell_bold), p("164355", cell_style),
@@ -74,7 +74,7 @@ def build_pdf():
         [p("hsCRP", cell_bold), p("120766", cell_style),
          p("Baseline systemic inflammation marker. Elevated levels may indicate ongoing immune activation.", cell_style)],
         [p("Lipid Panel (full)", cell_bold), p("303756", cell_style),
-         p("Known elevated cholesterol. Full fractionation (total, LDL, HDL, VLDL, TG) to characterize profile. Patient reports high total with low LDL/VLDL.", cell_style)],
+         p("Known elevated cholesterol. Full fractionation (total, LDL, HDL, VLDL, TG) to characterize profile. Operator reports high total with low LDL/VLDL.", cell_style)],
         [p("HbA1c", cell_bold), p("001453", cell_style),
          p("Glycemic control baseline for tracking improvement over time.", cell_style)],
         [p("Fasting Insulin", cell_bold), p("004333", cell_style),
@@ -103,7 +103,7 @@ def build_pdf():
     tier2_data = [
         [p("<b>Test</b>", cell_bold), p("<b>Source</b>", cell_bold), p("<b>Rationale</b>", cell_bold)],
         [p("Serum D-Lactate", cell_bold), p("Genova /<br/>Doctor's Data", cell_style),
-         p("D-lactate produced by gut bacteria (Lactobacillus, Streptococcus, Klebsiella) is poorly metabolized by human L-LDH. Elevated D-lactate may drive inappropriate hepatic gluconeogenesis, increasing glucose beyond dietary intake — an occult source of beta cell stress. May partly explain the patient's keto remission (D-lactate producers starved of substrate).", cell_style)],
+         p("D-lactate produced by gut bacteria (Lactobacillus, Streptococcus, Klebsiella) is poorly metabolized by human L-LDH. Elevated D-lactate may drive inappropriate hepatic gluconeogenesis, increasing glucose beyond dietary intake — an occult source of beta cell stress. May partly explain the operator's keto remission (D-lactate producers starved of substrate).", cell_style)],
         [p("Microbiome 16S<br/>Sequencing", cell_bold), p("Viome /<br/>Ombre /<br/>GI-MAP", cell_style),
          p("Profiles bacterial composition. Key targets: (1) D-lactate-producing species abundance, (2) butyrate-producing species (Faecalibacterium, Roseburia) — butyrate is an HDAC inhibitor that promotes FOXP3 expression and Treg differentiation, (3) overall diversity as a marker of gut immune health.", cell_style)],
         [p("Proinsulin:C-peptide<br/>Ratio", cell_bold), p("Specialty<br/>endocrine lab", cell_style),

@@ -44,12 +44,12 @@ disappear.** This memory T cell pool can re-expand when re-stimulated by
 TD-mutant-driven antigen. This is why the honeymoon fails — the fire was
 banked, not extinguished.
 
-### Scenario Results (Default Patient: 15% B at Diagnosis)
+### Scenario Results (Default Operator: 15% B at Diagnosis)
 
 | Scenario | Honeymoon | Final B | TD at End | Permanent Remission |
 |----------|-----------|---------|-----------|---------------------|
 | Standard care (insulin only) | ~58 months | 9.2% | 29.3 | NO |
-| the patient keto (5yr) | ~82 months | 14.4% | 19.1 | NO |
+| the operator keto (5yr) | ~82 months | 14.4% | 19.1 | NO |
 | Full protocol (no teplizumab) | Indefinite | 16.6% | 0.0 | YES |
 | Full protocol + teplizumab | Indefinite | 18.9% | 0.0 | YES |
 
@@ -57,7 +57,7 @@ banked, not extinguished.
 B stabilizes temporarily. But TD mutants persist (29.3 remaining at 5yr),
 maintaining chronic ER stress. B declines slowly from 15% to 9.2%.
 
-**the patient keto**: BHB suppresses NLRP3, low glucose demand reduces
+**the operator keto**: BHB suppresses NLRP3, low glucose demand reduces
 metabolic stress. Extended stabilization period, slower B decline. But
 WITHOUT fluoxetine, TD mutants still persist (19.1 at 7yr). Matches
 the real 5-year experience: good control followed by gradual deterioration.
@@ -72,7 +72,7 @@ the window where Regen > Destruction. Higher final B (18.9%).
 
 ### Monte Carlo Results (1,000 Virtual Patients)
 
-Patient population drawn from distributions:
+Operator population drawn from distributions:
 - Beta cell reserve: 1-20% (lognormal, median 10%)
 - Viral load: lognormal, TD burden: lognormal
 - HLA risk: bimodal (60% high-risk DR3/DR4, 40% moderate)
@@ -269,7 +269,7 @@ for extremely low B) would be needed.
 
 | File | Description |
 |------|-------------|
-| `t1dm/numerics/anti_problem_spontaneous_remission.py` | 6-state ODE model, 4 scenarios, 1000-patient Monte Carlo |
+| `t1dm/numerics/anti_problem_spontaneous_remission.py` | 6-state ODE model, 4 scenarios, 1000-operator Monte Carlo |
 | `t1dm/numerics/non_progressor_profile.py` | Immunological profiles, sensitivity analysis, 10K MC, 5K twin pairs |
 | `t1dm/results/figures/anti_problem_6state_scenarios.png` | 4-panel scenario comparison (6 state variables) |
 | `t1dm/results/figures/anti_problem_remission_requirements.png` | Remission requirements: TD clearance + Treg:Teff balance |

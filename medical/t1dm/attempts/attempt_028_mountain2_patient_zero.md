@@ -1,8 +1,8 @@
-# Attempt 028: Mountain 2 — the patient Profile Changes the Protocol
+# Attempt 028: Mountain 2 — the operator Profile Changes the Protocol
 
 ## The N=1 Data Point
 
-A real T1DM patient with the following profile:
+A real T1DM operator with the following profile:
 - Diagnosed 2019 (6-7 years duration)
 - Weaned OFF insulin with keto diet for 5 years
 - Reintroduced carbs → back on insulin
@@ -13,9 +13,9 @@ A real T1DM patient with the following profile:
 ## What This Profile Tells Us
 
 ### 1. Massive Residual Beta Cell Function
-A typical T1DM with zero beta cells needs 30-60 units/day. This patient needs 6-8. That's 80-85% LESS than a fully insulin-dependent T1DM patient. The beta cells are not gone. They're producing ~80% of the insulin this person needs. The exogenous 6-8 units just tops up the gap.
+A typical T1DM with zero beta cells needs 30-60 units/day. This operator needs 6-8. That's 80-85% LESS than a fully insulin-dependent T1DM operator. The beta cells are not gone. They're producing ~80% of the insulin this person needs. The exogenous 6-8 units just tops up the gap.
 
-**Estimated C-peptide: likely 0.3-0.8 nmol/L stimulated.** This puts the patient firmly in the "residual function" category — the best responder group for every intervention we've catalogued.
+**Estimated C-peptide: likely 0.3-0.8 nmol/L stimulated.** This puts the operator firmly in the "residual function" category — the best responder group for every intervention we've catalogued.
 
 ### 2. Keto Proved the Balance Is Tippable
 5 years off insulin. FIVE YEARS. The keto diet reduced carb intake to near zero → minimal insulin demand → the remaining beta cells could handle it → no exogenous insulin needed. The balance equation:
@@ -28,7 +28,7 @@ On carbs:   Demand = moderate.  Supply < Demand by ~20%. → 6-8 units fills the
 The supply hasn't changed dramatically. The DEMAND changed. This means:
 - The beta cell mass is relatively stable (not rapidly declining)
 - The autoimmune attack is low-grade (burnout after 6+ years? or managed by the IF/diet?)
-- The patient is in a near-equilibrium state
+- The operator is in a near-equilibrium state
 
 ### 3. IF Is Already Providing Partial Mountain 2 Benefits
 18:6 intermittent fasting gives:
@@ -38,10 +38,10 @@ The supply hasn't changed dramatically. The DEMAND changed. This means:
 - Partial immune cell turnover
 - Partial gut rest
 
-This is a MILD version of FMD. The patient is already on a maintenance dose of Mountain 2. The question: would intensifying to full 5-day FMD cycles push the balance further?
+This is a MILD version of FMD. The operator is already on a maintenance dose of Mountain 2. The question: would intensifying to full 5-day FMD cycles push the balance further?
 
 ### 4. The 20% Gap Is Small
-The patient needs ~20% more insulin than their beta cells provide. Closing a 20% gap is radically different from closing an 80-90% gap. This means:
+The operator needs ~20% more insulin than their beta cells provide. Closing a 20% gap is radically different from closing an 80-90% gap. This means:
 - A modest increase in beta cell mass (20-30% more) → insulin independence
 - A modest decrease in autoimmune destruction → same beta cells produce enough
 - A modest decrease in insulin resistance → same insulin goes further
@@ -49,7 +49,7 @@ The patient needs ~20% more insulin than their beta cells provide. Closing a 20%
 
 ## The Personalized Protocol
 
-For THIS patient, the full protocol simplifies dramatically:
+For THIS operator, the full protocol simplifies dramatically:
 
 ### Stage 0: Bloodwork (Week 1)
 - Stimulated C-peptide (confirm residual function — likely positive)
@@ -93,11 +93,11 @@ Upgrade from daily 18:6 IF to monthly 5-day FMD:
 - Annual C-peptide and autoantibody check
 - Exercise: daily walks minimum (muscle insulin sensitivity)
 
-## What Makes This Patient Special
+## What Makes This Operator Special
 
-This patient already PROVED the disease is reversible in their body. Five years off insulin is not a fluke. Their immune system reached a near-equilibrium. The keto diet wasn't a cure — it was a demand reduction that made the near-equilibrium SUFFICIENT.
+This operator already PROVED the disease is reversible in their body. Five years off insulin is not a fluke. Their immune system reached a near-equilibrium. The keto diet wasn't a cure — it was a demand reduction that made the near-equilibrium SUFFICIENT.
 
-The protocol doesn't need to cure this patient. It needs to either:
+The protocol doesn't need to cure this operator. It needs to either:
 1. **Increase supply by 20%** (grow more beta cells — FMD + GABA + semaglutide)
 2. **Decrease demand by 20%** (already achieved on keto — but not sustainable long-term due to weight loss)
 3. **Decrease destruction by any amount** (vitamin D + butyrate + fluoxetine + GABA → less immune pressure → existing beta cells function better)
@@ -117,6 +117,6 @@ Ongoing:  Track C-peptide monthly
 Total year 1 cost: ~$1,500 (bloodwork + supplements)
 ```
 
-No prescriptions. No surgery. No gene editing. No external cells. Just supplements, fasting, and monitoring. For a patient who already went 5 years without insulin, this may be enough.
+No prescriptions. No surgery. No gene editing. No external cells. Just supplements, fasting, and monitoring. For a operator who already went 5 years without insulin, this may be enough.
 
 ## Status: PERSONALIZED PROTOCOL — cheapest path identified, $1,500/year, n=1 trial ready

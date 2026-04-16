@@ -7,7 +7,7 @@ This is the mechanistic ODE model underlying THEWALL.md's central claim:
 
     dB/dt = R - D
 
-    When R > D, beta cell mass grows. When R > D PERMANENTLY, the patient
+    When R > D, beta cell mass grows. When R > D PERMANENTLY, the operator
     is cured of Type 1 Diabetes.
 
 State variables (9 coupled ODEs):
@@ -34,7 +34,7 @@ The Destruction term (D) has 4 components:
     D3: ER stress-induced apoptosis (viral UPR -> CHOP)
     D4: Bystander killing (TNF-a, IL-1b, IFN-g cytokines)
 
-the patient model:
+the operator model:
     - 67 years of T1DM (diagnosed as infant/child)
     - Current beta cell mass: ~5-10% of normal (Butler: 88% have SOME at 50yr)
     - C-peptide: 0.1-0.2 nmol/L (detectable but low)
@@ -98,7 +98,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 class BetaCellParams:
     """
     All biological parameters for the 9-state ODE system.
-    Defaults calibrated to the patient: 67yr T1DM, residual function.
+    Defaults calibrated to the operator: 67yr T1DM, residual function.
     """
 
     # --- Beta cell mass parameters ---
@@ -312,7 +312,7 @@ def beta_cell_ode(t, y, params: BetaCellParams, protocol: ProtocolParams):
     # When few beta cells remain, each is overworked (glucotoxicity)
     metabolic_stress = p.metabolic_stress_base / max(B + 0.5 * Bd, 0.01)
 
-    # Exogenous insulin always present (the patient is on insulin)
+    # Exogenous insulin always present (the operator is on insulin)
     metabolic_stress *= 0.30  # insulin therapy reduces stress by ~70%
 
     # FMD fasting: beta cells "go quiet" - minimal insulin demand
@@ -613,10 +613,10 @@ def simulate(params: BetaCellParams, protocol: ProtocolParams,
              t_years: float = 3.0, dt_output: float = 1.0,
              label: str = "simulation") -> dict:
     """
-    Run the 9-state ODE system for a given patient + protocol.
+    Run the 9-state ODE system for a given operator + protocol.
 
     Args:
-        params: Patient biological parameters
+        params: Operator biological parameters
         protocol: Intervention protocol parameters
         t_years: Duration of simulation in years
         dt_output: Output time step in days
@@ -760,12 +760,12 @@ def simulate(params: BetaCellParams, protocol: ProtocolParams,
 
 
 # =============================================================================
-# the patient: SPECIFIC SCENARIOS
+# the operator: SPECIFIC SCENARIOS
 # =============================================================================
 
 def patient_zero_params() -> BetaCellParams:
     """
-    the patient: 67 years T1DM, diagnosed in infancy.
+    the operator: 67 years T1DM, diagnosed in infancy.
     Residual beta cell mass ~5-10% (Butler: 88% have SOME at 50yr).
     C-peptide ~0.1-0.2 nmol/L (detectable but low).
     5 years of keto showed reduced insulin needs -> evidence of residual function.
@@ -787,9 +787,9 @@ def patient_zero_params() -> BetaCellParams:
 
 
 def scenario_no_intervention() -> dict:
-    """Baseline: the patient with no protocol. Natural progression."""
+    """Baseline: the operator with no protocol. Natural progression."""
     print("=" * 72)
-    print("SCENARIO: the patient — NO INTERVENTION (natural trajectory)")
+    print("SCENARIO: the operator — NO INTERVENTION (natural trajectory)")
     print("  67yr T1DM, ~8% beta cell mass, on insulin only")
     print("=" * 72)
 
@@ -813,7 +813,7 @@ def scenario_no_intervention() -> dict:
 def scenario_full_protocol() -> dict:
     """The complete 4-phase protocol from THEWALL.md."""
     print("\n" + "=" * 72)
-    print("SCENARIO: the patient — FULL PROTOCOL")
+    print("SCENARIO: the operator — FULL PROTOCOL")
     print("  Phase 1 (mo 0-3):  fluoxetine + vitamin D + butyrate")
     print("  Phase 2 (mo 3-6):  add FMD cycles")
     print("  Phase 3 (mo 6-12): add GABA + semaglutide")
@@ -831,7 +831,7 @@ def scenario_full_protocol() -> dict:
 def scenario_phase1_only() -> dict:
     """Phase 1 only: reduce D via fluoxetine + vitamin D + butyrate."""
     print("\n" + "=" * 72)
-    print("SCENARIO: the patient — PHASE 1 ONLY (reduce D)")
+    print("SCENARIO: the operator — PHASE 1 ONLY (reduce D)")
     print("  fluoxetine + vitamin D + butyrate, no FMD/GABA/semaglutide")
     print("=" * 72)
 
@@ -851,7 +851,7 @@ def scenario_phase1_only() -> dict:
 def scenario_with_teplizumab() -> dict:
     """Full protocol + teplizumab at month 12 (nuclear option)."""
     print("\n" + "=" * 72)
-    print("SCENARIO: the patient — FULL PROTOCOL + TEPLIZUMAB")
+    print("SCENARIO: the operator — FULL PROTOCOL + TEPLIZUMAB")
     print("  All phases + teplizumab at month 12")
     print("=" * 72)
 
@@ -887,13 +887,13 @@ def _print_summary(result: dict):
 
 
 # =============================================================================
-# MONTE CARLO: the patient PARAMETER UNCERTAINTY
+# MONTE CARLO: the operator PARAMETER UNCERTAINTY
 # =============================================================================
 
 def monte_carlo_patient_zero(n_samples: int = 2000, t_years: float = 3.0,
                               seed: int = 42) -> dict:
     """
-    Run Monte Carlo simulation varying the patient's parameters within
+    Run Monte Carlo simulation varying the operator's parameters within
     uncertainty ranges. Each parameter drawn from a distribution calibrated
     to literature ranges.
 
@@ -1157,7 +1157,7 @@ def plot_scenario_comparison(results: List[dict], filename: str = "beta_cell_dyn
     ax9.legend(fontsize=6)
     ax9.grid(True, alpha=0.3)
 
-    fig.suptitle('T1DM Beta Cell Dynamics: the patient — Protocol Comparison',
+    fig.suptitle('T1DM Beta Cell Dynamics: the operator — Protocol Comparison',
                  fontsize=14, fontweight='bold', y=0.98)
 
     path = os.path.join(OUTPUT_DIR, filename)
@@ -1261,7 +1261,7 @@ def plot_monte_carlo(mc_results: dict, filename: str = "beta_cell_monte_carlo.pn
                 ha='center', va='center', transform=ax.transAxes, fontsize=12)
         ax.set_title('Time to Insulin Independence')
 
-    fig.suptitle('Monte Carlo: the patient Parameter Uncertainty (Full Protocol)',
+    fig.suptitle('Monte Carlo: the operator Parameter Uncertainty (Full Protocol)',
                  fontsize=13, fontweight='bold')
     plt.tight_layout()
 
@@ -1455,7 +1455,7 @@ def plot_r_vs_d_decomposition(params: BetaCellParams, protocol: ProtocolParams,
     axes[0].text(135/365.25, axes[0].get_ylim()[1]*0.9, 'Phase 2', ha='center', fontsize=8, color='gray')
     axes[0].text(270/365.25, axes[0].get_ylim()[1]*0.9, 'Phase 3', ha='center', fontsize=8, color='gray')
 
-    fig.suptitle('R vs D Decomposition: the patient Full Protocol',
+    fig.suptitle('R vs D Decomposition: the operator Full Protocol',
                  fontsize=14, fontweight='bold')
     plt.tight_layout()
 
@@ -1473,7 +1473,7 @@ def main():
     print("=" * 72)
     print("T1DM BETA CELL DYNAMICS — THE CORE MODEL")
     print("systematic approach | ODD Instance (numerics)")
-    print("dB/dt = R - D | When R > D permanently, the patient is cured.")
+    print("dB/dt = R - D | When R > D permanently, the operator is cured.")
     print("=" * 72)
 
     # ---- Run scenarios ----
@@ -1500,7 +1500,7 @@ def main():
 
     # ---- Summary table ----
     print("\n" + "=" * 72)
-    print("SUMMARY: the patient PREDICTED OUTCOMES")
+    print("SUMMARY: the operator PREDICTED OUTCOMES")
     print("=" * 72)
     scenarios = [
         ("No intervention", result_none),

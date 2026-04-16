@@ -78,7 +78,7 @@ Result: IL-10 ↑ (Kox 2014), TNF-α ↓, IL-6 ↓, IL-8 ↓
 
 | Drug | Mechanism | Status | Suitable for T1DM? |
 |------|-----------|--------|-------------------|
-| **Corticosteroids** (prednisone) | GR activation → transrepresses NF-κB | FDA-approved, dirt cheap | **NO — immunosuppressive, raises blood glucose, catabolic.** The WORST drug for a T1DM patient. |
+| **Corticosteroids** (prednisone) | GR activation → transrepresses NF-κB | FDA-approved, dirt cheap | **NO — immunosuppressive, raises blood glucose, catabolic.** The WORST drug for a T1DM operator. |
 | **Sulfasalazine** | Directly inhibits IKK | FDA-approved for IBD/RA | Possible but GI side effects. Not commonly used for T1DM. |
 | **Colchicine** | Inhibits microtubule-mediated NF-κB nuclear translocation + NLRP3 | FDA-approved, $5/mo | **YES — already recommended (057).** Dual NF-κB + NLRP3 blockade. |
 | **BAY 11-7082** | IKK inhibitor (research tool) | Not clinical | N/A |

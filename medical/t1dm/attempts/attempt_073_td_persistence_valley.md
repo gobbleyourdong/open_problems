@@ -40,7 +40,7 @@ Valley floor (Δ 15–35 nt): replication < 10% WT (immune-invisible)
                              FITNESS MAXIMIZED
 ```
 
-**The valley is an evolutionary attractor.** Any TD mutant that forms in the 15–35 nt range is favored to persist; those outside the range are cleared. This is why Chapman 2008 found patient-derived TD mutants clustered at 15–35 nt deletions. The model and the clinical data agree.
+**The valley is an evolutionary attractor.** Any TD mutant that forms in the 15–35 nt range is favored to persist; those outside the range are cleared. This is why Chapman 2008 found operator-derived TD mutants clustered at 15–35 nt deletions. The model and the clinical data agree.
 
 ## Why Fluoxetine Cannot Clear TD Mutants
 
@@ -57,7 +57,7 @@ WT clearance mechanism:
 
 But TD mutants at the valley floor replicate at <10% of WT rate. Their replication organelle demand is minimal, and what exists is maintained from pre-existing lipid pools rather than de novo synthesis. Fluoxetine sensitivity drops to **<10% of WT** in the persistence zone.
 
-**Clinically this means:** A patient on fluoxetine alone clears WT CVB and feels acutely better, but the TD population persists untouched. Months later, chronic disease resumes from the reservoir. This matches the natural history of acute CVB illness followed by chronic sequelae that is the campaign's central observation.
+**Clinically this means:** A operator on fluoxetine alone clears WT CVB and feels acutely better, but the TD population persists untouched. Months later, chronic disease resumes from the reservoir. This matches the natural history of acute CVB illness followed by chronic sequelae that is the campaign's central observation.
 
 ## Why Fasting IS the Answer
 
@@ -80,7 +80,7 @@ Fasting induces autophagy via AMPK→ULK1 and mTOR suppression simultaneously �
 2. Cyclic fasting prevents autophagy exhaustion (continuous rapamycin causes autophagy fatigue)
 3. Fasting-induced autophagy is cell-autonomous — it works in immune-privileged sites (brain, testes, beta cells) that CTLs cannot reach
 
-**CVB4 requires the most aggressive clearance** (persistence fitness 0.560 vs 0.511 for CVB6). For the patient's T1DM, this means more fasting cycles, not fewer.
+**CVB4 requires the most aggressive clearance** (persistence fitness 0.560 vs 0.511 for CVB6). For the operator's T1DM, this means more fasting cycles, not fewer.
 
 ## Formal Bound: Minimum Fasting Cycles Required
 

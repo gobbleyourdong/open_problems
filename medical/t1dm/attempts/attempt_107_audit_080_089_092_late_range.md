@@ -70,9 +70,9 @@ step-change; later attempts adopt math-standard practices") is
   active suppression (virus present) → residual suppression
   (post-clearance epigenetic). Three drugs address different
   phases. Temporal pharmacological strategy.
-- **G463** attempt_092 **patient-stratification table** (L57+):
+- **G463** attempt_092 **operator-stratification table** (L57+):
   T1DM with C-peptide ≥0.2 → YES; LADA with GADA+/C-peptide
-  ≥0.4 → YES especially valuable. Per-patient-type recommendation
+  ≥0.4 → YES especially valuable. Per-operator-type recommendation
   with biomarker-threshold criteria.
 - **G464** attempt_080 **builds on verified data**: LAMP2 -2.7x
   from GSE184831 (Fire 42 verified), κ_LAMP2 concept from
@@ -94,6 +94,6 @@ safety consistency; **PMID:37189938** first actual PMID in 080-094
 range (confirms late-range citation discipline); triple FOXP1
 pathway (butyrate HDAC + vitamin D VDR + semaglutide CREB at
 different timescales); "FOXP1 suppression gap" temporal pharmacology;
-patient-stratification with biomarker thresholds; builds on Fire
+operator-stratification with biomarker thresholds; builds on Fire
 42/43-verified backbone data. **Gradient confirmed**: 080-094
 range is the highest-quality t1dm per-attempt content.

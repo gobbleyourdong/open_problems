@@ -95,11 +95,11 @@ Remove any step and the equation doesn't flip:
 | No regen boost (Step 4) | Destruction drops but regen stays at baseline (~0.5%/yr). Too slow. |
 | No immune reset (Step 5) | Possible without it (Steps 1-4 may suffice for some patients), but slower. |
 
-## For the patient Specifically
+## For the operator Specifically
 
 Diagnosed 2019. 5 years off insulin on keto. Now 2u/meal. 18:6 IF.
 
-This patient's equation is ALREADY NEARLY BALANCED:
+This operator's equation is ALREADY NEARLY BALANCED:
 - Destruction is low (long duration → partial burnout, keto period may have cleared some autoreactive cells)
 - Regeneration is nonzero (Butler: always nonzero)
 - The 20% insulin gap is the difference between R and D
@@ -135,7 +135,7 @@ These numbers are illustrative, not measured. But the DIRECTION is right. Each s
 | BHB suppresses NLRP3 and inhibits HDACs | PROVEN |
 | Butyrate induces FOXP3 → Tregs | PROVEN |
 | GABA promotes alpha-to-beta conversion | DEMONSTRATED |
-| Keto sustained insulin independence for 5 years (the patient) | LIVED EXPERIENCE |
+| Keto sustained insulin independence for 5 years (the operator) | LIVED EXPERIENCE |
 | Combined protocol works in human T1DM | **NOT YET TESTED** |
 
 One cell in the table is empty. That's the gap.

@@ -2,7 +2,7 @@
 
 ## The Question Nobody Asked
 
-The patient went 5 years without insulin on a keto diet. The medical establishment would say "honeymoon period" and move on. But a 5-year honeymoon is extraordinary — most last 9 months. Something about keto was ACTIVELY preserving beta cell function, not just passively riding residual capacity.
+The operator went 5 years without insulin on a keto diet. The medical establishment would say "honeymoon period" and move on. But a 5-year honeymoon is extraordinary — most last 9 months. Something about keto was ACTIVELY preserving beta cell function, not just passively riding residual capacity.
 
 What was keto doing across all three mountains?
 
@@ -32,7 +32,7 @@ What was keto doing across all three mountains?
 
 ## Why It Stopped Working
 
-The patient reintroduced carbs because keto made them too thin. Then insulin became necessary again. What changed?
+The operator reintroduced carbs because keto made them too thin. Then insulin became necessary again. What changed?
 
 ### The Demand Shock
 - 0g carbs/meal → 15-20g carbs/meal
@@ -67,7 +67,7 @@ The patient reintroduced carbs because keto made them too thin. Then insulin bec
 | Eliminated processed food | M3 | Diet cleanup (Stage 1b) |
 | Autophagy maintenance | M2 | 18:6 IF (already doing) + monthly FMD (to intensify) |
 
-**The protocol IS keto's benefits without keto's costs.** The patient got too thin because chronic keto is catabolic — constant fat-burning, muscle wasting, inadequate calories. The FMD protocol gives the SAME metabolic benefits (ketosis, autophagy, mTOR suppression, BHB production) in 5-day bursts, with 25 days of normal eating in between. You get the benefits without the wasting.
+**The protocol IS keto's benefits without keto's costs.** The operator got too thin because chronic keto is catabolic — constant fat-burning, muscle wasting, inadequate calories. The FMD protocol gives the SAME metabolic benefits (ketosis, autophagy, mTOR suppression, BHB production) in 5-day bursts, with 25 days of normal eating in between. You get the benefits without the wasting.
 
 ## The BHB Connection
 
@@ -85,7 +85,7 @@ BHB is:
 
 **BHB may be the single molecule that links all three mountains.** It's produced by fasting (M2), it suppresses inflammation (M3), and it rests beta cells by providing alternative fuel (M1).
 
-The patient was producing BHB for 5 years on keto. When they stopped keto, BHB production dropped. The benefits evaporated. The protocol needs to restore BHB production WITHOUT chronic keto:
+The operator was producing BHB for 5 years on keto. When they stopped keto, BHB production dropped. The benefits evaporated. The protocol needs to restore BHB production WITHOUT chronic keto:
 - Monthly FMD → high BHB during fasting days
 - 18:6 IF → moderate BHB during the 18-hour fast
 - Exogenous BHB supplementation → top-up between fasts ($30-50/mo)

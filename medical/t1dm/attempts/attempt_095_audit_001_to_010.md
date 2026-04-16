@@ -72,7 +72,7 @@ and say which HLA subgroup showed benefit at what effect size.
 | Y1 | 002 L8 | "~50% insulin independence at 5 years (revised protocol)" | Source paper (Collaborative Islet Transplant Registry CITR annual reports) |
 | Y2 | 002 L19 | "~8,000 deceased donor pancreases/year in the US, ~1.5M T1DM patients" | OPTN/UNOS figures year + CDC T1DM prevalence source |
 | Y3 | 002 L9 | "FDA approved Lantidra (donislecel) June 2023" | FDA press release / BLA number |
-| Y4 | 003 L22 | "Estimated >$500K per patient" | Any Vertex financial filing or analyst report |
+| Y4 | 003 L22 | "Estimated >$500K per operator" | Any Vertex financial filing or analyst report |
 | Y5 | 004 L8–9 | "Phase 2 (Ludvigsson 2008, NEJM)" + "Phase 3 (DIABGAM, 2012): FAILED primary endpoint" | PMIDs, effect sizes, primary endpoint specification |
 | Y6 | 005 L7 | "Bluestone/Tang (UCSF) … Published STIM (2015)" | Should be *Sci Transl Med* 2015 — journal abbreviation is ambiguous; PMID 26606968 |
 | Y7 | 005 L10 | "DIABIL-2, DF-IL2 — Tregs expand but so do other cells" | Primary refs |
@@ -84,7 +84,7 @@ and say which HLA subgroup showed benefit at what effect size.
 ## GREEN findings (positives, for calibration)
 
 - **G1** attempt_007_crispr_hypoimmune — Sana UP421 claim cites journal
-  (NEJM), issue (August 2025), patient characteristics (42 yo, 30+ yrs
+  (NEJM), issue (August 2025), operator characteristics (42 yo, 30+ yrs
   T1DM), intervention (17 intramuscular injections), primary outcome
   (6+ mo survival, glucose-dependent C-peptide, evaded auto- AND
   allo-). This is close to math-standard — one more step (NEJM DOI)
@@ -117,7 +117,7 @@ and say which HLA subgroup showed benefit at what effect size.
    generic "supply-constrained" claim that doesn't hinge on exact numbers.
 5. **[P2] attempt_003 Y4**: the $500K figure should be attributed
    (analyst report X) or softened to "estimated to be in the high
-   six-figure range per patient based on Vertex's pricing precedents for
+   six-figure range per operator based on Vertex's pricing precedents for
    similar cell therapies."
 6. **[P3] attempt_005 Y6**: update "STIM" to "*Sci Transl Med* 2015" to
    avoid acronym ambiguity; add PMID 26606968.

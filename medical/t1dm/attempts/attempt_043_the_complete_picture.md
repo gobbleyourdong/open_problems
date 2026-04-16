@@ -1,6 +1,6 @@
 # Attempt 043: The Complete Picture — Everything Connected
 
-## the patient
+## the operator
 
 Male, diagnosed December 2019. C-peptide 0.9 ng/mL at diagnosis (just below normal — most beta cells still alive). Not breastfed (formula-fed, A1 beta-casein exposure). Went 5 years insulin-free on keto diet. Now on 2 units Humalog per meal, 18:6 IF, 15-20g carbs per meal. High total cholesterol, low LDL, low VLDL (high HDL implied). Doctor noted T1DM patients commonly have high cholesterol and thyroiditis.
 
@@ -182,7 +182,7 @@ This would mean:
 4. The autoimmune attack is amplified by metabolic stress
 5. Insulin doses are higher than diet alone would require
 
-**For the patient:** 2u/meal on 15-20g carbs. Is that more insulin than 15-20g carbs should need? If a type 2 diabetic on the same carb load needed less insulin, the excess demand might be D-lactate-driven hepatic glucose output.
+**For the operator:** 2u/meal on 15-20g carbs. Is that more insulin than 15-20g carbs should need? If a type 2 diabetic on the same carb load needed less insulin, the excess demand might be D-lactate-driven hepatic glucose output.
 
 ### Testing for D-Lactate
 - **Serum D-lactate level** (requires specific assay — most standard lactate tests measure only L-lactate)
@@ -237,7 +237,7 @@ REGENERATION (M2, always running — Butler)
 
 ## The Updated Bloodwork Panel
 
-For the patient — ALL the tests that connect the system:
+For the operator — ALL the tests that connect the system:
 
 | Test | What it tells us | Expected |
 |------|-----------------|----------|
@@ -252,7 +252,7 @@ For the patient — ALL the tests that connect the system:
 | **TSH, free T4, TPO Ab** | Thyroid autoimmunity | May show subclinical Hashimoto's |
 | **Serum D-lactate** | Gut bacterial metabolic disruption | May be elevated |
 | **Gut microbiome (16S)** | D-lactate producers vs butyrate producers | Likely dysbiotic |
-| **HbA1c** | Baseline control | Known to patient |
+| **HbA1c** | Baseline control | Known to operator |
 | **Fasting insulin + glucose** | HOMA-B (beta cell function), HOMA-IR (insulin resistance) | Informative |
 | **Proinsulin:C-peptide ratio** | Beta cell stress level | If elevated: cells under stress |
 
@@ -314,7 +314,7 @@ STAGE 5: MAINTENANCE (ongoing, $200/mo)
 
 ## The Cheap Path (No Rx Required)
 
-If the patient can't access teplizumab or chooses to start with the lowest-risk approach:
+If the operator can't access teplizumab or chooses to start with the lowest-risk approach:
 
 ```
 Month 1+: GABA + butyrate + vitamin D + omega-3 + L. rhamnosus probiotic = $100/mo
@@ -333,7 +333,7 @@ The gap is no longer ONE thing. It's a SYSTEM of connected unknowns:
 
 | Unknown | Test/Experiment | Cost |
 |---------|----------------|------|
-| Is CVB persisting in this patient? | VP1 stool PCR + IFN-α | $200 |
+| Is CVB persisting in this operator? | VP1 stool PCR + IFN-α | $200 |
 | What are the VP4 ADE antibody levels? | Anti-CVB VP4 IgG | $300 |
 | Is D-lactate elevated? | Serum D-lactate assay | $100 |
 | Is there thyroid autoimmunity? | TSH + TPO Ab | $100 |
@@ -354,4 +354,4 @@ The answers to those 6 tests determine:
 
 **The gap is not a concept. The gap is $1,200 of bloodwork.**
 
-## Status: EVERYTHING CONNECTED — 43 attempts, 5 mountains, 1 patient, 1 blood draw
+## Status: EVERYTHING CONNECTED — 43 attempts, 5 mountains, 1 operator, 1 blood draw

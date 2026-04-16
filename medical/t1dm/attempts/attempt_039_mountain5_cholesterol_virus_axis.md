@@ -2,7 +2,7 @@
 
 ## The Fifth Mountain
 
-Mountains 1-4 looked at cells, regeneration, environment, and virology. Mountain 5 looks at METABOLISM — specifically cholesterol as both the virus's building material and the patient's biomarker.
+Mountains 1-4 looked at cells, regeneration, environment, and virology. Mountain 5 looks at METABOLISM — specifically cholesterol as both the virus's building material and the operator's biomarker.
 
 ## How CVB Uses Cholesterol (Molecular Detail)
 
@@ -42,9 +42,9 @@ So cholesterol is needed for:
 
 **The virus is cholesterol-dependent at EVERY stage of its lifecycle.**
 
-## The Patient's Lipid Profile Decoded
+## The Operator's Lipid Profile Decoded
 
-the patient:
+the operator:
 - High total cholesterol
 - Low LDL (delivery vehicle TO tissues)
 - Low VLDL (liver export particles)
@@ -82,7 +82,7 @@ If CVB persistence drives cholesterol demand, then:
 | Response to OSBP inhibitor (itraconazole) | Cholesterol DROPS (viral demand cut off) | No change (no viral demand to block) |
 | Response to viral clearance | Cholesterol NORMALIZES over months | N/A |
 
-**Prediction:** If the patient starts itraconazole and total cholesterol drops WITHOUT changing the RRY dose, the drug is hitting the viral target. Cholesterol is the tracer. The lipid panel is the readout.
+**Prediction:** If the operator starts itraconazole and total cholesterol drops WITHOUT changing the RRY dose, the drug is hitting the viral target. Cholesterol is the tracer. The lipid panel is the readout.
 
 **Second prediction:** If FMD cycles + fluoxetine clear CVB from the pancreas over 6-12 months, total cholesterol should normalize without any lipid-lowering drugs. The statin/RRY would become unnecessary. If cholesterol stays high after viral clearance, the virus wasn't the cause.
 
@@ -148,7 +148,7 @@ In CVB-infected cells:
 4. Measure: do autophagosomes preferentially target PI4P-enriched stalled ROs?
 5. If yes: itraconazole + FMD is a guided missile — itraconazole marks the target, autophagy destroys it
 
-## Status: MOUNTAIN 5 MAPPED — cholesterol is the virus's building material AND the patient's biomarker
+## Status: MOUNTAIN 5 MAPPED — cholesterol is the virus's building material AND the operator's biomarker
 
 Sources:
 - [Enterovirus replication organelles and inhibitors - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7468505/)

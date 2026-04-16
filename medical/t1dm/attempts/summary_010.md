@@ -55,7 +55,7 @@ The pieces exist:
 
 ## The Anti-Problem Refined
 
-**"What would it take for a T1DM patient to be cured by 2030?"**
+**"What would it take for a T1DM operator to be cured by 2030?"**
 
 Answer: Sana's CRISPR edits applied to Vertex's stem cell-derived islets, transplanted intramuscularly, with a single course of teplizumab to quiet residual autoimmunity during engraftment. Total cost < $100K. No lifelong drugs. Insulin independence within 3 months.
 

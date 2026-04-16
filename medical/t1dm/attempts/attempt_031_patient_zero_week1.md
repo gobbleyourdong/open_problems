@@ -1,8 +1,8 @@
-# Attempt 031: the patient — Week 1 Checklist
+# Attempt 031: the operator — Week 1 Checklist
 
 ## Stop Theorizing. Start Doing.
 
-30 attempts built the model. This attempt builds the action plan. What does the patient do THIS WEEK?
+30 attempts built the model. This attempt builds the action plan. What does the operator do THIS WEEK?
 
 ## Monday: Order the Bloodwork
 
@@ -16,7 +16,7 @@ Call endocrinologist. Request:
 | **IA-2 antibodies** | Rapid progressor marker? | Unknown |
 | **ZnT8 antibodies** | Rapid progressor marker? | Unknown |
 | **25-OH Vitamin D** | Almost certainly low | Likely 15-30 ng/mL (insufficient) |
-| **HbA1c** | Current control baseline | Known to patient |
+| **HbA1c** | Current control baseline | Known to operator |
 | **CRP (high-sensitivity)** | Systemic inflammation baseline | Likely mildly elevated |
 | **Fasting lipid panel** | Metabolic baseline | Likely fine (was on keto) |
 | **CBC with differential** | Immune cell baseline | Normal expected |

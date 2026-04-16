@@ -17,7 +17,7 @@
 
 ### Gap 1 (PRIMARY): Clinical validation — the blood draw
 **What**: No human has been treated with the full protocol.
-**The wall**: the patient's stimulated C-peptide measurement.
+**The wall**: the operator's stimulated C-peptide measurement.
 **What it determines**: Whether B_initial > 2% (minimum threshold for the R > D reversal from crown_jewel theorem to apply).
 **Impact if C-peptide undetectable**: pivot to stem cell pathway (FAILURE_MODES.md, Mode 1).
 

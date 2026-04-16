@@ -90,7 +90,7 @@ attempt_072 L30-44 or in a follow-on attempt.
 | # | Location | Claim | Source gap |
 |---|----------|-------|------------|
 | Y247 | 072 L25 "Gofshteyn 2020" fluoxetine CVB cross-serotype | Verify PMID; Gofshteyn is known for antiviral CVB work but year may be 2017-2020 |
-| Y248 | 073 L34 "patient-derived TD mutants clustered at 15-35 nt" Chapman 2008 | PMID needed (Chapman 2008 J Virol likely); specific cluster range source |
+| Y248 | 073 L34 "operator-derived TD mutants clustered at 15-35 nt" Chapman 2008 | PMID needed (Chapman 2008 J Virol likely); specific cluster range source |
 | Y249 | 073 L73 "1-5% WT rate" for TD persistent replication | Thread source — Kim 2005 JCI or Feuer 2009 PLoS Pathog |
 | Y250 | 074 L42 PMID:40794436 (FOXP1 Treg homeostasis 2025) | 2025 PMID — verify with NCBI (2025 is recent; PMID 40794436 in expected range) |
 | Y251 | 075 L59 "IFIT1 UP (+2.45), IFIT2 UP (+1.86), IFIT3 UP (+1.81)" | Thread to analyze_cardiac_transcriptomics.py or analogous GSE184831 analyzer script |
@@ -181,8 +181,8 @@ attempt_072 L30-44 or in a follow-on attempt.
   Future audits of similar "back-of-envelope" arguments should
   specifically check for factor-of-conceptual-confusion in compound
   probability claims.
-- **CVB4 clinical isolates Z168/Z296** (PV453396, PV453397) in  sequences/ suggest patient-derived data has entered the numerics
-  pipeline — worth a follow-up fire on which patient(s), what
+- **CVB4 clinical isolates Z168/Z296** (PV453396, PV453397) in  sequences/ suggest operator-derived data has entered the numerics
+  pipeline — worth a follow-up fire on which operator(s), what
   clinical context, and whether consent/publication-track is documented.
 
 ## Tag
@@ -193,7 +193,7 @@ reversion-probability formula (1/4)^14 × μ_eff ≈ 10⁻¹³ is
 dimensionally muddled — substitution model vs insertion model vs
 population model conflated; conclusion (evolutionarily locked) stands
 but specific number needs rederivation. 6 🟡 (Gofshteyn 2020 PMID,
-Chapman 2008 patient-TD-cluster PMID, 1-5% WT rate source, FOXP1
+Chapman 2008 operator-TD-cluster PMID, 1-5% WT rate source, FOXP1
 2025 PMID 40794436 verification, IFIT1-3 analyzer script thread,
 f_TD per FMD parameter source). **12 🟢**: 6 real GenBank sequences
 present, stem_a C=1.000 verified by direct sequence match, 3A

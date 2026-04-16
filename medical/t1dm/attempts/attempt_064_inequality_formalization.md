@@ -31,7 +31,7 @@ As the protocol clears CVB (V→0, TD→0 by month 6-12):
 
 **Bound**: D_min = D₁_residual + D₅_residual, where:
 - D₁_residual = k_kill · Teff_exhausted · B / (1 + k_sup · Treg_expanded)
-- In the patient: 67 years of autoimmunity → Teff partially exhausted (15% reduction)
+- In the operator: 67 years of autoimmunity → Teff partially exhausted (15% reduction)
 - With expanded Tregs: Teff suppression increases from 55% to 75%
 - D₁_residual ≈ k_kill · 0.85·Teff₀ · B · 0.25 = 0.21 · D₁_baseline · B
 - D₅_residual ≈ 0.5 · D₅_baseline · B (autoantibodies decline slowly, ~50% at 12 months)
@@ -105,7 +105,7 @@ From ODD's Monte Carlo (2000 virtual the patients):
 1. **The inequality reversal is ACHIEVABLE** under realistic parameter ranges (not just optimistic point estimates)
 2. **The reversal is STABLE** — B converges to B* > 0.30 once R > D is established
 3. **The GABA transdifferentiation term (R₃) is the key enabler** — it provides regeneration proportional to 1/B, which is largest when B is smallest (when you need it most)
-4. **The minimum requirement is B_initial > 2%** — the patient's estimated 8% is well above this
+4. **The minimum requirement is B_initial > 2%** — the operator's estimated 8% is well above this
 5. **Time to reversal: 8-10 months** (expected), with C-peptide signal at 4-6 months
 
 ## What This Doesn't Prove

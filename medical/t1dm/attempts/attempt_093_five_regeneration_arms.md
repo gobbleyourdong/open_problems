@@ -130,16 +130,16 @@ The current protocol addresses only ENDOGENOUS regeneration. If endogenous regen
 
 **R₆**: exogenous beta cell transplantation (Vertex zimislecel, Sana CiPSC, or stem cell-derived)
 
-For the current patient (67-year T1DM), if stimulated C-peptide is undetectable:
+For the current operator (67-year T1DM), if stimulated C-peptide is undetectable:
 - The endogenous R terms (R₁-R₅) may be insufficient
 - The protocol should STILL be run first (clears CVB → protects transplanted cells from destruction)
 - Then R₆ (transplant) is added AFTER viral clearance
 
 This is the "pre-treatment" strategy: clear the virus first, transplant beta cells into a cleared environment. The transplanted cells would then be protected by FOXP1/Treg restoration.
 
-## What This Means for the Patient
+## What This Means for the Operator
 
-For the 67-year T1DM patient:
+For the 67-year T1DM operator:
 - R₁ is low (B_initial ≈ 0.03-0.08) BUT FOXP1 restoration makes it 2.5× more effective
 - R₂ (FMD) is intact (Ngn3 progenitors persist)
 - R₃ (GABA) is uncertain in 67-year duration but alpha cells are present

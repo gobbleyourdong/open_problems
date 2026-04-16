@@ -82,7 +82,7 @@ TD mutants replicate 100,000x slower. They produce 100,000x fewer viral proteins
 
 The paradox: TD mutants are LESS able to suppress interferons but also LESS visible to adaptive immunity. The result is a chronic, smoldering, low-grade interferon state — not enough to clear the virus, not enough to trigger full immune destruction of the cell, but enough to maintain inflammation for decades.
 
-**This is the IFN-α elevation we expect to see in the patient's bloodwork.** It's the signature of a losing battle — the alarm system partially working, partially sabotaged, permanently stuck in the middle.
+**This is the IFN-α elevation we expect to see in the operator's bloodwork.** It's the signature of a losing battle — the alarm system partially working, partially sabotaged, permanently stuck in the middle.
 
 ## IFN-λ: The Tissue-Specific Solution
 

@@ -65,7 +65,7 @@ Autonomic neurons (sympathetic and parasympathetic ganglia):
 - Butyrate (HDAC) → FOXP1 restoration in ganglionic microenvironment → reduced neuroinflammation
 - Timeline: 12-18 months on full protocol
 
-**Clinical prediction for the patient**: if they have gastroparesis or any autonomic symptoms (orthostatic intolerance, resting tachycardia, exercise intolerance beyond what beta cell mass explains), this is likely CVB in autonomic ganglia. The CVB clearance protocol will address it — but the autonomic recovery will lag other organs by 3-6 months (ganglionic LAMP2 = 0.19 vs pancreatic LAMP2 = 0.30).
+**Clinical prediction for the operator**: if they have gastroparesis or any autonomic symptoms (orthostatic intolerance, resting tachycardia, exercise intolerance beyond what beta cell mass explains), this is likely CVB in autonomic ganglia. The CVB clearance protocol will address it — but the autonomic recovery will lag other organs by 3-6 months (ganglionic LAMP2 = 0.19 vs pancreatic LAMP2 = 0.30).
 
 ## What This Means for ME/CFS
 
@@ -78,7 +78,7 @@ The CVB clearance protocol should improve POTS as a secondary outcome in ME/CFS,
 
 ## Practical Implications
 
-For any T1DM or ME/CFS patient with:
+For any T1DM or ME/CFS operator with:
 - Gastroparesis (slow gastric emptying, early satiety, vomiting)
 - POTS (heart rate jumps on standing)
 - Orthostatic hypotension
@@ -90,7 +90,7 @@ For any T1DM or ME/CFS patient with:
 2. Trehalose is especially important for these low-LAMP2 neuronal cells
 3. Recovery will take 12-18 months post-islet clearance
 
-## For the Specific Patient
+## For the Specific Operator
 
 67-year T1DM patients commonly have:
 - Gastroparesis (very common, often severe)

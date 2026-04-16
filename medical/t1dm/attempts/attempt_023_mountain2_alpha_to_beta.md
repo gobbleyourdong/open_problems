@@ -97,7 +97,7 @@ The full Stage 2 stack:
 
 Mountain 2 now has two regeneration paths, both enhanced by cheap supplements. The gap is no longer "can beta cells regenerate?" — there are at least THREE sources (Ngn3+ progenitors, alpha-to-beta transdifferentiation, and beta cell self-replication enhanced by DYRK1A inhibition).
 
-The gap: **nobody has measured whether FMD + GABA + semaglutide + butyrate actually increases beta cell mass in a human T1DM patient.** Each component has evidence. The combination has not been tested.
+The gap: **nobody has measured whether FMD + GABA + semaglutide + butyrate actually increases beta cell mass in a human T1DM operator.** Each component has evidence. The combination has not been tested.
 
 Same wall as THEWALL.md: the gap is a clinical trial, not a concept.
 

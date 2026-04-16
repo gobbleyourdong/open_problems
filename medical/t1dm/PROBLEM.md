@@ -40,7 +40,7 @@ Autoimmune destruction of pancreatic beta cells leads to absolute insulin defici
 - **Stem cell-derived beta cells** (Vertex/ViaCyte): VX-880 Phase 1/2 showing C-peptide restoration, still needs immunosuppression
 - **Encapsulation** (Semma/ViaCyte): Protect cells from immune system without drugs. Device biocompatibility unsolved.
 - **Gene therapy**: Reprogram alpha cells → beta cells, or make cells invisible to immune system (HLA engineering)
-- **Treg therapy**: Expand patient's own regulatory T cells, reinfuse to suppress autoimmunity
+- **Treg therapy**: Expand operator's own regulatory T cells, reinfuse to suppress autoimmunity
 - **Combination**: Teplizumab + stem cell beta cells + encapsulation?
 
 ### The real gap
@@ -59,6 +59,6 @@ The systematic approach was designed for mathematical proofs but the structure a
 - **numerical track (numerics)**: genomic/transcriptomic data analysis, clinical trial meta-analysis, molecular dynamics
 - **Proof attempts → Treatment attempts**: each therapy tried is an "attempt" with a documented failure mode
 - **The gap**: same concept — what single mechanism, if solved, would unlock the cure?
-- **Anti-problem**: "What would a patient whose immune system spontaneously tolerized beta cells look like?" (These patients exist — spontaneous remission cases. Study them.)
+- **Anti-problem**: "What would a operator whose immune system spontaneously tolerized beta cells look like?" (These patients exist — spontaneous remission cases. Study them.)
 
 ## systematic approach Phase: 0 (Not started)

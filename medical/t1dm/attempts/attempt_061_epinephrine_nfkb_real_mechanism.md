@@ -113,7 +113,7 @@ This review maps the ENTIRE β2-AR → NF-κB axis:
 - Chronic stress → catecholamine resistance → β2-AR desensitizes → LOSS of the anti-inflammatory brake
 - Exercise and WHM may RESENSITIZE β2-AR (upregulate receptor expression)
 
-**For the patient:** Years of chronic stress from managing T1DM may have DESENSITIZED your β2-ARs. The WHM protocol may need to REBUILD receptor sensitivity over weeks before the full anti-inflammatory effect kicks in. Don't expect day-1 results. The Kox study trained for 10 days before the endotoxin challenge. Give it 2-4 weeks of consistent practice.
+**For the operator:** Years of chronic stress from managing T1DM may have DESENSITIZED your β2-ARs. The WHM protocol may need to REBUILD receptor sensitivity over weeks before the full anti-inflammatory effect kicks in. Don't expect day-1 results. The Kox study trained for 10 days before the endotoxin challenge. Give it 2-4 weeks of consistent practice.
 
 ### Clinical Interest: β2-AR Agonists as Anti-Inflammatory Drugs
 

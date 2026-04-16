@@ -37,7 +37,7 @@ Fever is not a malfunction. It's a weapon. The body DELIBERATELY raises its temp
 | **Infrared sauna** | 45-60°C air, core rises to ~38°C | 30-45 min | Weak-moderate — lower core temperature rise than Finnish sauna |
 | **Exercise-induced** | Core rises to 38-39°C during vigorous exercise | 30-60 min | Moderate — the "exercise fever" is a real phenomenon. Immune activation overlaps with hyperthermia. |
 
-**For the patient:** Regular sauna (if accessible) or hot baths could provide mild hyperthermia that impairs TD mutant replication while boosting immune function. The Finnish data on sauna + lower infection rates is ironic given Finland's T1DM problem — they have the tool, they use it for colds, nobody thought to apply it to the chronic enterovirus question.
+**For the operator:** Regular sauna (if accessible) or hot baths could provide mild hyperthermia that impairs TD mutant replication while boosting immune function. The Finnish data on sauna + lower infection rates is ironic given Finland's T1DM problem — they have the tool, they use it for colds, nobody thought to apply it to the chronic enterovirus question.
 
 **Caution for T1DM:** Hyperthermia increases insulin sensitivity (like exercise). Blood glucose may drop during sauna/hot bath. Same CGM monitoring applies.
 
@@ -95,7 +95,7 @@ This correlation was attributed to vitamin D alone, but our multi-hit model adds
 | 50-70 ng/mL | "High normal" | OPTIMAL for immune regulation, Treg induction, autophagy |
 | >100 ng/mL | Toxicity risk | Too high — hypercalcemia risk |
 
-**Target for the patient: 50-70 ng/mL.** Most T1DM patients are 15-30 ng/mL. Loading dose: 10,000 IU/day for 8 weeks, then 5,000 IU/day maintenance. Recheck at 3 months. Take with fat (fat-soluble vitamin).
+**Target for the operator: 50-70 ng/mL.** Most T1DM patients are 15-30 ng/mL. Loading dose: 10,000 IU/day for 8 weeks, then 5,000 IU/day maintenance. Recheck at 3 months. Take with fat (fat-soluble vitamin).
 
 ### Sunlight vs Supplement
 

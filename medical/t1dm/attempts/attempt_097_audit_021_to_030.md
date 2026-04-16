@@ -20,14 +20,14 @@ has the decade's most-concerning overreach.
 **🟢 GREEN count**: 6
 
 **Structural observation (continues S1/S2 from attempt_096):**
-Attempts 027 and 030 frame the work partly as **patient-specific
-synthesis** ("For the patient Specifically", "diagnosed 2019, 5 years
+Attempts 027 and 030 frame the work partly as **operator-specific
+synthesis** ("For the operator Specifically", "diagnosed 2019, 5 years
 off insulin on keto, now 2u/meal"). This is legitimate personal
 research reasoning — and attempt_030 correctly labels its own
 percent-shift estimates as "illustrative, not measured" (good
 self-audit). But it means the t1dm/ corpus is operating as a hybrid of
 public claim-backing synthesis and private protocol design. For
-audit purposes, treat the patient-specific sections as separable:
+audit purposes, treat the operator-specific sections as separable:
 they are not claims about the world, they are reasoning about a
 specific N=1 case. Flag them in the file structure, not as audit
 findings.
@@ -115,7 +115,7 @@ The site-ranking table at L41 is fine; the "every" generalization at
 L24 is not.
 
 ### R9 — attempt_027 L2–4 (61-year autopsy framing)
-> "A T1DM patient who lived 61 years with the disease. Autopsy reveals:
+> "A T1DM operator who lived 61 years with the disease. Autopsy reveals:
 > beta cells present. Limited, but PRESENT. After six decades of
 > autoimmune attack. This single data point destroys the foundational
 > assumption of Mountain 1."
@@ -126,7 +126,7 @@ collapses" argument on this single data point.
 **The specific concern**: Butler's canonical paper (Meier et al. 2005
 *Diabetologia*, PMID 16205881) analyzed **42 T1DM autopsies** with
 duration 4–67 years and found beta cells present in 88% of cases.
-Framing it as "a patient who lived 61 years" with "this single data
+Framing it as "a operator who lived 61 years" with "this single data
 point" misrepresents the study as an N=1 case report. The population-
 level 88%-present finding is strong evidence; the N=1 framing is
 weaker AND less accurate to the source.
@@ -201,7 +201,7 @@ argument while pretending to strengthen it.
 6. **[P2] attempt_021**: thread specific FOXP3/INS hypermethylation
    citations; dose specifics (sodium butyrate 300-600 mg/day) need
    either a clinical source or the "proposed dose" label.
-7. **[P3] attempt_030**: the "For the patient Specifically" section
+7. **[P3] attempt_030**: the "For the operator Specifically" section
    should have an explicit header note that this is N=1 personal
    analysis, not a claim about the general T1DM population. The
    "illustrative, not measured" line helps but could be more prominent.
@@ -227,9 +227,9 @@ t1dm attempts 031–040.
   legitimate unifying formulation. It's an accounting identity (true
   by construction) with therapeutic content (each intervention targets
   one side of the equation).
-- The patient-specific framing (attempt_027 "the patient's 61-year
-  case" — wait, that was the autopsy patient, not the operator; see
-  R9 above; attempt_030 "For the patient Specifically" is the
+- The operator-specific framing (attempt_027 "the operator's 61-year
+  case" — wait, that was the autopsy operator, not the operator; see
+  R9 above; attempt_030 "For the operator Specifically" is the
   operator's case) is personal reasoning woven into public-synthesis
   attempts. This is a structural hybrid worth noting in README.md /
   gap.md but is not per-se an audit problem.

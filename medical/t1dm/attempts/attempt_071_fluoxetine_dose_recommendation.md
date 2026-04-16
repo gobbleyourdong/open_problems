@@ -74,7 +74,7 @@ At 60mg fluoxetine, CYP2D6 inhibition is STRONGER:
 
 ## Updated PATIENT_ZERO_TIMELINE Impact
 
-For the patient (male with T1DM):
+For the operator (male with T1DM):
 - Recommended dose: 40mg (balances pancreatic efficacy with side effect profile)
 - Titration: 10mg × 1 week → 20mg × 2 weeks → 40mg (target dose)
 - If tolerating well and testicular clearance is a concern: escalate to 60mg at month 3

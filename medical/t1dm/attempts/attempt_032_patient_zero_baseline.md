@@ -1,6 +1,6 @@
-# Attempt 032: the patient — Baseline Data
+# Attempt 032: the operator — Baseline Data
 
-## Real Data, Real Patient
+## Real Data, Real Operator
 
 ### C-Peptide at Diagnosis
 - **Date**: December 19, 2019
@@ -10,9 +10,9 @@
 
 ### Context
 - Normal C-peptide: 1.1-4.3 ng/mL
-- Patient at diagnosis: 0.9 ng/mL (82% of lower normal limit)
+- Operator at diagnosis: 0.9 ng/mL (82% of lower normal limit)
 - Typical T1DM at diagnosis: 0.2-0.5 ng/mL
-- This patient had TWICE the beta cell function of a typical T1DM diagnosis
+- This operator had TWICE the beta cell function of a typical T1DM diagnosis
 
 ### What Happened Next
 - 2019: Diagnosed. C-peptide 0.9. Started insulin briefly.
@@ -22,7 +22,7 @@
 
 ### The 0.9 → Keto → Insulin-Free Trajectory
 
-At 0.9 ng/mL, the patient's beta cells were producing roughly 60-80% of normal insulin. The 20-40% deficit was covered by:
+At 0.9 ng/mL, the operator's beta cells were producing roughly 60-80% of normal insulin. The 20-40% deficit was covered by:
 1. On keto: zero. Demand dropped below supply. No insulin needed.
 2. On carbs: 6-8 units/day exogenous insulin fills the gap.
 

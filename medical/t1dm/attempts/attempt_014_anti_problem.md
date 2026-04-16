@@ -1,7 +1,7 @@
 # Attempt 014: The Anti-Problem — Spontaneous Reversal Cases
 
 ## The Question
-"What would a T1DM patient whose body fixed itself look like?"
+"What would a T1DM operator whose body fixed itself look like?"
 
 These patients exist. They are the living proof that the gap is closeable.
 
@@ -24,7 +24,7 @@ These patients exist. They are the living proof that the gap is closeable.
 - **What protects them?** Epigenetics? Microbiome divergence? Stochastic immune events? Viral exposure timing?
 - These twins are the most valuable subjects in T1DM research — same genome, different outcome
 
-### 4. The Deng Patient (Attempt 008)
+### 4. The Deng Operator (Attempt 008)
 - 25yr T1DM, autologous CiPSC islets, insulin-independent at 1yr
 - Autoimmunity did NOT recur against the new cells
 - If autoimmune burnout (hypothesis 2) is the explanation: long-duration T1DM patients may have naturally exhausted their autoreactive T cells
@@ -50,13 +50,13 @@ The cases share common features:
 | Progression speed | Slow (years-decades) | Fast (months) |
 | Treg frequency | Higher | Lower |
 
-**The anti-problem answer**: A patient whose T1DM resolves has:
+**The anti-problem answer**: A operator whose T1DM resolves has:
 1. A less aggressive autoimmune phenotype (Th2/macrophage vs Th1/cytotoxic)
 2. Sufficient Tregs to restrain the attack
 3. Beta cell regeneration rate ≥ destruction rate
 4. Time for the autoreactive T cell clones to exhaust
 
-**The cure strategy that follows**: Make every T1DM patient look like a slow-progressor/non-progressor by:
+**The cure strategy that follows**: Make every T1DM operator look like a slow-progressor/non-progressor by:
 - Shifting the immune phenotype (teplizumab shifts Th1→exhausted)
 - Boosting Tregs (low-dose IL-2, or PolTREG infusion)
 - Enhancing beta cell regeneration (FMD cycles, semaglutide, harmine)

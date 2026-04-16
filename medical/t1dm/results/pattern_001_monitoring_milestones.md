@@ -8,9 +8,9 @@ Date: 2026-04-08
 
 ## Why This Document Exists
 
-The computational models (CVB clearance, protocol optimization, propagation matrix) predict that the T1DM protocol should work. But predictions are not proof. This document defines how to MEASURE whether the protocol is working, in a real patient, with real blood tests, on a real timeline.
+The computational models (CVB clearance, protocol optimization, propagation matrix) predict that the T1DM protocol should work. But predictions are not proof. This document defines how to MEASURE whether the protocol is working, in a real operator, with real blood tests, on a real timeline.
 
-The audience is the patient and his physician. Every claim here maps to a specific lab test that can be ordered tomorrow.
+The audience is the operator and his physician. Every claim here maps to a specific lab test that can be ordered tomorrow.
 
 ---
 
@@ -26,7 +26,7 @@ The audience is the patient and his physician. Every claim here maps to a specif
 - *Fasting C-peptide*: Simple blood draw after 12-hour fast. Less sensitive but convenient.
 - *Stimulated C-peptide (MMTT)*: Drink a mixed meal (Boost), draw blood at 0, 30, 60, 90, 120 minutes. More sensitive. Shows how well beta cells respond to a glucose load. This is what clinical trials use.
 
-**the patient context:** Diagnosed 12/2019 with C-peptide 0.9 ng/mL (~0.30 nmol/L). Achieved 5-year insulin independence on keto, suggesting significant residual beta cell mass. Current estimate: fasting C-peptide 0.15-0.25 nmol/L (needs measurement to confirm).
+**the operator context:** Diagnosed 12/2019 with C-peptide 0.9 ng/mL (~0.30 nmol/L). Achieved 5-year insulin independence on keto, suggesting significant residual beta cell mass. Current estimate: fasting C-peptide 0.15-0.25 nmol/L (needs measurement to confirm).
 
 **Clinical thresholds (nmol/L):**
 | Level | Meaning |
@@ -86,7 +86,7 @@ The audience is the patient and his physician. Every claim here maps to a specif
 
 **What it is:** The circulating form of vitamin D. Reflects supplementation and sun exposure.
 
-**Why it matters:** Vitamin D is both a compliance marker (is the patient taking supplements?) and a functional immune modulator. Target 50-70 ng/mL for immune optimization.
+**Why it matters:** Vitamin D is both a compliance marker (is the operator taking supplements?) and a functional immune modulator. Target 50-70 ng/mL for immune optimization.
 
 **Safety:** >100 ng/mL risks hypercalcemia. If levels are high, check serum calcium.
 
@@ -174,7 +174,7 @@ The audience is the patient and his physician. Every claim here maps to a specif
 - Order all Tier 1 tests, as many Tier 2 as feasible
 - Start protocol AFTER results are back
 - If fasting C-peptide >0.30 nmol/L: excellent starting position, high probability of response
-- If fasting C-peptide 0.10-0.30 nmol/L: expected range for the patient, proceed with standard protocol
+- If fasting C-peptide 0.10-0.30 nmol/L: expected range for the operator, proceed with standard protocol
 - If fasting C-peptide <0.10 nmol/L: minimal residual function, add semaglutide from day 1
 
 ### MONTH 1: Safety Check
@@ -285,7 +285,7 @@ protocol   - Add        ESCALATION:
 **Protocol not working at primary target:**
 - C-peptide unchanged or declined from baseline
 - No insulin dose reduction
-- Action: Full reassessment. Consider: (a) the model is wrong for this patient, (b) the protocol is not reaching the target, (c) the damage is too far progressed
+- Action: Full reassessment. Consider: (a) the model is wrong for this operator, (b) the protocol is not reaching the target, (c) the damage is too far progressed
 
 ### MONTH 18: Durability
 
@@ -389,7 +389,7 @@ If you see ANY of these at month 3, the protocol is affecting the disease:
 3. **Insulin dose reduced even slightly** — functional evidence of beta cell recovery
 4. **Energy/mood improved** — subjective but meaningful; correlates with reduced inflammation
 5. **Vitamin D in target range** — confirms compliance and absorption
-6. **ALT normal** — fluoxetine is safe in this patient
+6. **ALT normal** — fluoxetine is safe in this operator
 
 None of these alone proves the protocol works. But 3+ out of 6 at month 3 is a very encouraging signal. The definitive proof comes from C-peptide at month 6-12.
 

@@ -132,7 +132,7 @@ Result: Continuous immune activation → continuous beta cell destruction
         → but regeneration NEVER stops (Butler, 88% after 67 years)
 ```
 
-## For the patient
+## For the operator
 
 - Hit 1 ✅ (not breastfed, formula-fed)
 - Hit 2 ✅ probable (standard Western diet/lifestyle in childhood)

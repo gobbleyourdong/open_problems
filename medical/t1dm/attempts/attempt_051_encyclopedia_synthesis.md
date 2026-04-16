@@ -171,7 +171,7 @@ From "what is T1DM?" to a complete antiviral + regeneration protocol with:
 - Every supplement justified by enzyme/pathway
 - Every lifestyle intervention graded by evidence
 - Every cost itemized
-- One patient ready to go
+- One operator ready to go
 - One doctor who knows Longo
 - One blood draw away from starting
 

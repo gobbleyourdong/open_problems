@@ -28,7 +28,7 @@
 
 ### Paper 2: Direct Evidence — The 89-Year-Old
 
-**Meier JJ, Lin JC, Butler AE, Galasso R, Martinez DS, Butler PC.** "Direct evidence of attempted beta cell regeneration in an 89-year-old patient with recent-onset type 1 diabetes." *Diabetologia*. 2006;49(8):1838-1844.
+**Meier JJ, Lin JC, Butler AE, Galasso R, Martinez DS, Butler PC.** "Direct evidence of attempted beta cell regeneration in an 89-year-old operator with recent-onset type 1 diabetes." *Diabetologia*. 2006;49(8):1838-1844.
 
 - 89-year-old man, newly diagnosed T1DM
 - Beta cells = 0.54% of pancreatic area (~1/3 of normal)

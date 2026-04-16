@@ -19,18 +19,18 @@ Patients on a complex protocol sometimes inadvertently sabotage it. This attempt
 **What happens**: CVB myocarditis may be asymptomatic. FMD (5-day caloric restriction) + cold exposure (WHM) are cardiovascular stressors. Active myocarditis + these stressors = cardiac event risk.
 **The rule**: troponin + NT-proBNP + echo BEFORE first FMD, every time
 **Clinical evidence**: subacute CVB3 myocarditis presents with normal ECG and vague symptoms; only elevated troponin reveals it
-**Consequence**: one patient with undiagnosed myocarditis who has a cardiac event on protocol = campaign credibility severely damaged
+**Consequence**: one operator with undiagnosed myocarditis who has a cardiac event on protocol = campaign credibility severely damaged
 
 ### 3. Itraconazole in cardiac dysfunction
-**What happens**: itraconazole is a negative inotrope (reduces cardiac contractility). In a patient with reduced LVEF (<50%), this can precipitate acute heart failure.
-**The rule**: NEVER add itraconazole if LVEF <50%, if there is pericardial effusion, or if the patient has significant structural heart disease
+**What happens**: itraconazole is a negative inotrope (reduces cardiac contractility). In a operator with reduced LVEF (<50%), this can precipitate acute heart failure.
+**The rule**: NEVER add itraconazole if LVEF <50%, if there is pericardial effusion, or if the operator has significant structural heart disease
 **Clinical evidence**: documented cardiac adverse events with itraconazole in HF patients
 **Interaction**: also never combine itraconazole with colchicine (fatal CYP3A4 interaction — colchicine toxicity)
 
 ### 4. Iron supplementation during viral protocol
 **What happens**: iron feeds viral replication. CVB, like most viruses, requires iron for replication. The innate immune response to infection deliberately sequesters iron (via hepcidin) as a defensive mechanism.
 **The rule**: if ferritin is low (<30 ng/mL), do NOT supplement iron during the first 6 months of antiviral protocol. Address iron deficiency after viral clearance is established.
-**Practical note**: if the patient is anemic (not just low ferritin), discuss with physician — may need IV iron in a controlled setting after protocol is underway.
+**Practical note**: if the operator is anemic (not just low ferritin), discuss with physician — may need IV iron in a controlled setting after protocol is underway.
 
 ---
 

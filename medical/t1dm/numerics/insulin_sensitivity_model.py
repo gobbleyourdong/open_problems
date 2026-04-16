@@ -8,8 +8,8 @@ increases. This creates a DANGEROUS transition:
 
     Total insulin = Exogenous (injected) + Endogenous (from beta cells)
 
-If exogenous insulin is NOT reduced as endogenous rises, the patient
-goes hypoglycemic. If exogenous is reduced TOO FAST, the patient goes
+If exogenous insulin is NOT reduced as endogenous rises, the operator
+goes hypoglycemic. If exogenous is reduced TOO FAST, the operator goes
 into DKA. This model computes the safe dose reduction schedule.
 
 Key relationships:
@@ -63,7 +63,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 @dataclass
 class PatientZeroInsulin:
     """
-    the patient insulin parameters.
+    the operator insulin parameters.
     67yr T1DM, current regimen known from protocol.
     """
     # --- Anthropometrics ---
@@ -113,7 +113,7 @@ def endogenous_insulin_production(beta_mass_fraction: float,
     Calculate endogenous insulin production in units/day.
 
     A normal pancreas with 100% beta cell mass produces ~40 U/day.
-    the patient's beta cells are exhausted (reduced per-cell secretion).
+    the operator's beta cells are exhausted (reduced per-cell secretion).
     Semaglutide enhances glucose-stimulated insulin secretion (GSIS).
 
     Args:
@@ -135,7 +135,7 @@ def endogenous_insulin_production(beta_mass_fraction: float,
     mass_factor = beta_mass_fraction ** 0.85  # slight sub-linear scaling
 
     # Per-cell secretion efficiency (exhaustion, ER stress)
-    # the patient: 60% of normal per-cell output
+    # the operator: 60% of normal per-cell output
     eff_factor = secretion_efficiency
 
     # Glucose-stimulated vs basal
@@ -174,7 +174,7 @@ def total_insulin_requirement(weight_kg: float = 75.0,
         Dict with basal, bolus, total requirements
     """
     # Base requirement ~0.5-0.7 U/kg/day for T1DM
-    # the patient on low carb = lower requirement
+    # the operator on low carb = lower requirement
     base_requirement = 0.4 * weight_kg  # ~30 U/day for 75kg
 
     # Adjust for insulin sensitivity
@@ -184,7 +184,7 @@ def total_insulin_requirement(weight_kg: float = 75.0,
     if semaglutide_effects:
         adjusted *= 0.75  # ~25% reduction in total requirement
 
-    # Split: ~55% basal, 45% bolus (varies by patient)
+    # Split: ~55% basal, 45% bolus (varies by operator)
     basal = adjusted * 0.55
     bolus_total = adjusted * 0.45
 
@@ -211,7 +211,7 @@ def exogenous_insulin_needed(beta_mass_fraction: float,
                                semaglutide_on: bool = False,
                                semaglutide_gsis_boost: float = 1.40) -> dict:
     """
-    Calculate how much exogenous insulin the patient needs given
+    Calculate how much exogenous insulin the operator needs given
     current beta cell function.
 
     The core equation:
@@ -256,10 +256,10 @@ def exogenous_insulin_needed(beta_mass_fraction: float,
 
     # SAFETY FLOOR: minimum insulin to prevent DKA
     # Even if beta cells are producing some insulin, if they suddenly fail
-    # (e.g., viral flare, stress, illness), patient needs a safety net.
+    # (e.g., viral flare, stress, illness), operator needs a safety net.
     # Minimum = enough basal to prevent ketoacidosis
     # ~0.1 U/kg/day is the absolute minimum for DKA prevention
-    safety_floor = 0.1 * weight_kg  # 7.5 U for 75kg patient
+    safety_floor = 0.1 * weight_kg  # 7.5 U for 75kg operator
 
     # At very high beta cell mass (>40%), safety floor can be reduced
     # because the probability of sudden total failure is low
@@ -421,7 +421,7 @@ def cpeptide_dose_milestones() -> List[dict]:
 
 def simulate_insulin_trajectory(beta_mass_trajectory: np.ndarray,
                                   time_months: np.ndarray,
-                                  patient: PatientZeroInsulin = None,
+                                  operator: PatientZeroInsulin = None,
                                   semaglutide_start_month: float = 6.0,
                                   secretion_efficiency_trajectory: np.ndarray = None,
                                   ) -> dict:
@@ -432,7 +432,7 @@ def simulate_insulin_trajectory(beta_mass_trajectory: np.ndarray,
     Args:
         beta_mass_trajectory: array of beta cell mass fractions over time
         time_months: array of time points in months
-        patient: patient parameters
+        operator: operator parameters
         semaglutide_start_month: when semaglutide begins
         secretion_efficiency_trajectory: per-cell efficiency over time
             (improves as stress drops)
@@ -440,8 +440,8 @@ def simulate_insulin_trajectory(beta_mass_trajectory: np.ndarray,
     Returns:
         Dict with trajectories and milestone timeline
     """
-    if patient is None:
-        patient = PatientZeroInsulin()
+    if operator is None:
+        operator = PatientZeroInsulin()
 
     n = len(time_months)
 
@@ -474,8 +474,8 @@ def simulate_insulin_trajectory(beta_mass_trajectory: np.ndarray,
 
         result = exogenous_insulin_needed(
             beta_mass_fraction=beta_mass_trajectory[i],
-            weight_kg=patient.weight_kg,
-            carbs_g=patient.total_daily_carbs_g,
+            weight_kg=operator.weight_kg,
+            carbs_g=operator.total_daily_carbs_g,
             secretion_efficiency=sec_eff,
             insulin_sensitivity=1.0,
             semaglutide_on=sema_on,
@@ -535,12 +535,12 @@ def simulate_insulin_trajectory(beta_mass_trajectory: np.ndarray,
 
 
 # =============================================================================
-# GENERATE the patient TRAJECTORY
+# GENERATE the operator TRAJECTORY
 # =============================================================================
 
 def patient_zero_trajectory(t_months: int = 36) -> dict:
     """
-    Generate the patient's predicted trajectory under the full protocol.
+    Generate the operator's predicted trajectory under the full protocol.
 
     Uses a simplified beta cell mass model (consistent with beta_cell_dynamics.py
     but computed analytically for speed) to produce the insulin dose schedule.
@@ -650,7 +650,7 @@ def plot_insulin_trajectory(result: dict, filename: str = "insulin_dose_trajecto
     ax.grid(True, alpha=0.3)
     ax.set_ylim(0, 110)
 
-    # 4. Exogenous dose (what the patient actually injects)
+    # 4. Exogenous dose (what the operator actually injects)
     ax = axes[3]
     ax.plot(t, result['exogenous_prescribed_u'], color='#c0392b', linewidth=2.5,
             label='Prescribed exogenous dose')
@@ -682,7 +682,7 @@ def plot_insulin_trajectory(result: dict, filename: str = "insulin_dose_trajecto
         ax_i.axvline(x=6, color='gray', linestyle=':', alpha=0.3)
         ax_i.axvline(x=12, color='gray', linestyle=':', alpha=0.3)
 
-    fig.suptitle("the patient: Insulin Dose Reduction Schedule\n"
+    fig.suptitle("the operator: Insulin Dose Reduction Schedule\n"
                  "As beta cells recover, exogenous insulin is systematically reduced",
                  fontsize=13, fontweight='bold')
     plt.tight_layout()
@@ -756,7 +756,7 @@ def dka_risk_analysis():
 
     Risk factors during protocol:
     1. Beta cell function unstable (growing but variable)
-    2. Patient reduces exogenous insulin
+    2. Operator reduces exogenous insulin
     3. FMD cycles induce therapeutic ketosis (BHB 1-3 mM) -- must not
        progress to ketoacidosis (BHB >5 mM + pH <7.3)
     4. Illness/stress can temporarily suppress beta cell function
@@ -798,7 +798,7 @@ def dka_risk_analysis():
     print(f"\n  FMD KETOSIS vs DKA:")
     print(f"    Therapeutic ketosis (FMD): BHB 1-3 mM, pH normal, glucose 60-120")
     print(f"    DKA: BHB >5 mM, pH <7.3, glucose typically >250")
-    print(f"    KEY: the patient on insulin + low beta mass. During FMD:")
+    print(f"    KEY: the operator on insulin + low beta mass. During FMD:")
     print(f"      - Reduce bolus to 0-1U (no meals)")
     print(f"      - Keep basal at minimum (prevent fat mobilization runaway)")
     print(f"      - Check BHB 2x/day: if >3.0 AND glucose >250 -> eat + insulin")
@@ -896,8 +896,8 @@ def main():
     print("The dangerous transition: exogenous -> endogenous insulin")
     print("=" * 72)
 
-    # Generate the patient trajectory
-    print("\n--- the patient Trajectory ---")
+    # Generate the operator trajectory
+    print("\n--- the operator Trajectory ---")
     result = patient_zero_trajectory(t_months=36)
 
     # Print milestone timeline
@@ -928,7 +928,7 @@ def main():
 
     # Summary
     print("\n" + "=" * 72)
-    print("TIMELINE SUMMARY: the patient INSULIN REDUCTION")
+    print("TIMELINE SUMMARY: the operator INSULIN REDUCTION")
     print("=" * 72)
     print(f"  Month 0:      16 U/day (12 basal + 2x2 bolus)")
     print(f"  Month 3:      ~16 U/day (no change yet, virus clearing)")

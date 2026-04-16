@@ -2,7 +2,7 @@
 
 ## The Clinical Question
 
-The campaign's core model (R > D → B* > threshold → insulin independence) was developed and validated primarily against early-onset T1DM data (≤10 years duration). The patient has **67 years of disease**. Does the model still apply?
+The campaign's core model (R > D → B* > threshold → insulin independence) was developed and validated primarily against early-onset T1DM data (≤10 years duration). The operator has **67 years of disease**. Does the model still apply?
 
 This attempt formalizes what is known and unknown about very-long-duration T1DM.
 
@@ -50,7 +50,7 @@ Autoimmunity in very-long-duration T1DM evolves:
 - The immune system partially "burns out" the attack
 - This means the inequality R > D is EASIER to achieve at 67 years than at 5 years
 
-The attempt_064 model showed: under protocol, D_min ≈ 3.0×10⁻³/yr for the patient. This already accounts for the reduced destruction in long-duration disease.
+The attempt_064 model showed: under protocol, D_min ≈ 3.0×10⁻³/yr for the operator. This already accounts for the reduced destruction in long-duration disease.
 
 ### The FOXP1 Factor in Long-Duration Disease
 
@@ -77,7 +77,7 @@ Using the attempt_064 parameters but adjusted for long duration:
 | B* (equilibrium) | 0.35–0.45 | **0.25–0.35** | Lower starting regeneration |
 | P(B* > 0.30) | 65–80% | **50–65%** | Marginal but possible |
 
-**The key uncertainty**: B_initial. If the patient's C-peptide is ≥ 0.2 ng/mL stimulated, then B_initial > 0.03, and the crown jewel conditions are satisfied. If undetectable, the model doesn't apply.
+**The key uncertainty**: B_initial. If the operator's C-peptide is ≥ 0.2 ng/mL stimulated, then B_initial > 0.03, and the crown jewel conditions are satisfied. If undetectable, the model doesn't apply.
 
 ## The Honest Expectation
 
@@ -96,8 +96,8 @@ For 67-year T1DM:
 
 ## The Specific Falsifying Test
 
-The model predicts C-peptide improvement in **50% probability** for the patient's duration class. If:
-- C-peptide doesn't improve at 12 months → fail the T1DM model for this patient; continue protocol for other organs
+The model predicts C-peptide improvement in **50% probability** for the operator's duration class. If:
+- C-peptide doesn't improve at 12 months → fail the T1DM model for this operator; continue protocol for other organs
 - C-peptide improves (even modestly) → model is confirmed; continue
 
 This is the "blood draw" that decides everything. 67 years is long, but the biology says beta cells survive and progenitors remain. The immune system has partially exhausted itself. The conditions for R > D are more achievable than they were 60 years ago.

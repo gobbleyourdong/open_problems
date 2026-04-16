@@ -11,7 +11,7 @@ What do they teach us about making remission permanent?
 
 Three phenomena modeled:
   1. The Honeymoon Period (80% of newly diagnosed, temporary)
-  2. the patient's Keto Experience (5 years, accidental protocol)
+  2. the operator's Keto Experience (5 years, accidental protocol)
   3. Permanent Remission (what the protocol aims for)
 
 ODE state vector (6 variables):
@@ -111,7 +111,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 @dataclass
 class PatientParams:
     """
-    Biological parameters for one virtual patient.
+    Biological parameters for one virtual operator.
     Each drawn from distributions calibrated to literature.
     """
     # --- Beta cell parameters ---
@@ -375,8 +375,8 @@ def remission_ode(t, y, params: PatientParams, intervention: InterventionParams)
     # 7. BETA CELL DYNAMICS — THE CORE INEQUALITY
     # =========================================================================
     # dB/dt = Regeneration - Destruction
-    # When dB/dt > 0, the patient is in remission.
-    # When dB/dt > 0 PERMANENTLY, the patient is CURED.
+    # When dB/dt > 0, the operator is in remission.
+    # When dB/dt > 0 PERMANENTLY, the operator is CURED.
 
     # --- Regeneration: two independent sources ---
     # (a) Replication: existing beta cells divide (proportional to B)
@@ -425,7 +425,7 @@ def remission_ode(t, y, params: PatientParams, intervention: InterventionParams)
 def simulate_patient(params: PatientParams, intervention: InterventionParams,
                      t_years: float = 5.0, dt_output: float = 1.0) -> dict:
     """
-    Simulate one patient for t_years.
+    Simulate one operator for t_years.
     Returns dict with time series and summary statistics.
     """
     t_span = (0, t_years * 365.0)
@@ -478,7 +478,7 @@ def simulate_patient(params: PatientParams, intervention: InterventionParams,
     # Honeymoon detection — clinically meaningful definition:
     #
     # The "honeymoon period" (partial remission) is clinically defined as the
-    # period after diagnosis when the patient has low insulin requirements
+    # period after diagnosis when the operator has low insulin requirements
     # (<0.5 U/kg/day) and good glycemic control (HbA1c < 7%).
     # [Ref 3: Abdul-Rasoul 2006, Ref 4: Mortensen 2009]
     #
@@ -591,7 +591,7 @@ def scenario_honeymoon():
 
 
 # =============================================================================
-# SCENARIO 2: the patient'S KETO EXPERIENCE
+# SCENARIO 2: the operator'S KETO EXPERIENCE
 # =============================================================================
 # 5 years of strict keto = accidental three-mountain protocol:
 #   Mountain 1: BHB from ketosis → NLRP3 suppression [Ref 9]
@@ -601,9 +601,9 @@ def scenario_honeymoon():
 # This is why it eventually failed after 5 good years.
 
 def scenario_patient_zero_keto():
-    """Model the patient's 5-year keto experience."""
+    """Model the operator's 5-year keto experience."""
     print("\n" + "=" * 70)
-    print("SCENARIO 2: the patient — 5 YEARS STRICT KETO")
+    print("SCENARIO 2: the operator — 5 YEARS STRICT KETO")
     print("  Keto accidentally hits 2-3 of 5 protocol mountains")
     print("  Missing: antiviral (fluoxetine) — the root cause [Ref 11]")
     print("=" * 70)
@@ -690,7 +690,7 @@ def scenario_full_protocol(with_teplizumab=False):
 # =============================================================================
 # MONTE CARLO: 1,000 VIRTUAL PATIENTS
 # =============================================================================
-# Each patient has biological variation in:
+# Each operator has biological variation in:
 #   - Beta cell reserve (1-20%, per task spec; lognormal, median ~10%)
 #   - Viral load (replicating + TD mutants)
 #   - HLA risk (bimodal: high-risk DR3/DR4 vs moderate)
@@ -773,7 +773,7 @@ def monte_carlo_remission(n_patients: int = 1000, seed: int = 42):
 
     scenarios = {
         "Standard care (insulin only)": InterventionParams(insulin_therapy=True),
-        "Keto/FMD (the patient path)": InterventionParams(
+        "Keto/FMD (the operator path)": InterventionParams(
             insulin_therapy=True, keto_fmd=True
         ),
         "Full protocol (no teplizumab)": InterventionParams(
@@ -801,7 +801,7 @@ def monte_carlo_remission(n_patients: int = 1000, seed: int = 42):
 
         for i, p in enumerate(patients):
             if (i + 1) % 250 == 0:
-                print(f"    Patient {i+1}/{n_patients}...")
+                print(f"    Operator {i+1}/{n_patients}...")
 
             result = simulate_patient(p, intervention, t_years=5.0, dt_output=5.0)
 
@@ -946,7 +946,7 @@ def plot_scenarios(r_honey, r_keto, r_proto, r_ptep):
 
     scenarios = [
         ("Standard Care — Honeymoon", r_honey, axes[0, 0]),
-        ("the patient — 5yr Keto", r_keto, axes[0, 1]),
+        ("the operator — 5yr Keto", r_keto, axes[0, 1]),
         ("Full Protocol (no teplizumab)", r_proto, axes[1, 0]),
         ("Full Protocol + Teplizumab", r_ptep, axes[1, 1]),
     ]
@@ -1162,7 +1162,7 @@ def main():
        They produce viral proteins → ER stress → antigen presentation
        → Teff re-expansion → destruction resumes [Ref 6,7,18,19].
 
-    3. the patient's keto extended the honeymoon by:
+    3. the operator's keto extended the honeymoon by:
        - Reducing metabolic stress (low glucose demand)
        - BHB suppressing NLRP3 inflammation [Ref 9]
        - Intermittent fasting providing partial FMD effect [Ref 8]

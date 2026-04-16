@@ -40,7 +40,7 @@ Valter Longo's group at USC showed that cyclical fasting-mimicking diets (FMD) r
 | Gene editing (CRISPR) | Gene REactivation (developmental program) |
 | Immunosuppression drugs | Immune RESET via fasting |
 | One-time intervention | Cyclical protocol |
-| >$100K per patient | ~$300 per cycle (ProLon) or free (water fast) |
+| >$100K per operator | ~$300 per cycle (ProLon) or free (water fast) |
 | Requires hospitals, specialists | Requires supervision but not surgery |
 
 ## The Dual Mechanism: Why This Matters for T1DM Specifically

@@ -38,7 +38,7 @@ story = []
 
 # Title
 story.append(Paragraph("CVB Protocol — Daily Supplement Schedule", title_style))
-story.append(Paragraph("the patient | Updated 2026-04-08 | 12 supplements + WHM + 18:6 IF", note_style))
+story.append(Paragraph("the operator | Updated 2026-04-08 | 12 supplements + WHM + 18:6 IF", note_style))
 story.append(Spacer(1, 8))
 
 # Color scheme

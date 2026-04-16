@@ -5,7 +5,7 @@ Differentiate human pluripotent stem cells into functional beta cells in vitro. 
 
 ## Key Results (as of 2025-2026)
 - **VX-880** (with immunosuppression):
-  - First patient: insulin independence achieved, sustained C-peptide
+  - First operator: insulin independence achieved, sustained C-peptide
   - Multiple patients showing dose-dependent C-peptide restoration
   - Proof that stem cell-derived beta cells function in humans
   - Still requires full immunosuppression (same as Edmonton)
@@ -19,7 +19,7 @@ Differentiate human pluripotent stem cells into functional beta cells in vitro. 
 ## Why It Fails as a Complete Cure (so far)
 1. **VX-880 still needs immunosuppression.** Same problem as islet transplant — you've solved supply (unlimited stem cells) but not immune protection.
 2. **VX-264 device limitations.** Fibrotic encapsulation reduces oxygen/nutrient transport. Beta cells die or become dysfunctional. No device has achieved long-term (>2 year) function without significant graft loss.
-3. **Cost.** Estimated >$500K per patient for the cell product alone. Not scalable to 1.5M patients at current pricing.
+3. **Cost.** Estimated >$500K per operator for the cell product alone. Not scalable to 1.5M patients at current pricing.
 4. **Differentiation quality.** Stem cell-derived beta cells are not identical to native beta cells. Heterogeneous population, some off-target cell types, immature glucose sensing in some protocols.
 
 ## What It Teaches Us

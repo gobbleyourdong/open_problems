@@ -63,7 +63,7 @@ In STZ mice, FMD works BECAUSE the trigger is gone. The pancreas is a permissive
 
 NOD mice (autoimmune model) have a different outcome — the autoimmune attack is self-perpetuating (driven by genetic autoreactivity, possibly with viral contributions). FMD in NOD mice has less dramatic results because the trigger persists.
 
-**This resolves the "will it translate to humans?" concern.** If you give a human T1DM patient the SAME conditions as the STZ mouse — trigger eliminated, pancreas recovering — the FMD response should be similar. The key is eliminating the trigger FIRST.
+**This resolves the "will it translate to humans?" concern.** If you give a human T1DM operator the SAME conditions as the STZ mouse — trigger eliminated, pancreas recovering — the FMD response should be similar. The key is eliminating the trigger FIRST.
 
 ## The Fluoxetine → FMD Sequence
 
@@ -95,7 +95,7 @@ Month 10: Assess.
                            → proceed to intramuscular cell boost (Mountain 1).
 ```
 
-## What If the Patient Is CVB-Negative?
+## What If the Operator Is CVB-Negative?
 
 Not all T1DM patients have persistent CVB. The DiViD study found VP1 in 6/6, but other studies show lower prevalence (30-70% depending on technique).
 

@@ -29,7 +29,7 @@ crown_jewel theorem (InequalityReversal.lean, 0 sorry):
   THEN ∃ B* ∈ (B_threshold, 1) : R(B*) = D(B*)
   AND B* is a STABLE attractor (stability_of_crown_jewel, proved)
 
-Current state:   R ≈ 0.8D (patient makes ~80% of needed insulin)
+Current state:   R ≈ 0.8D (operator makes ~80% of needed insulin)
 Goal:            R > D at B = 0.30 (insulin independence threshold)
 
 How the protocol achieves this:
@@ -41,7 +41,7 @@ How the protocol achieves this:
 6. semaglutide → GLP-1 → beta cell proliferation → R₄ active
 7. BHB → NLRP3 inhibition → fewer neoantigens presented → D₁ drops
 
-Numerical bound at patient parameters (B_initial ≈ 0.05, 67-year T1DM):
+Numerical bound at operator parameters (B_initial ≈ 0.05, 67-year T1DM):
   R(0.30) ≈ 0.01063 >> D(0.30) ≈ 0.00090 (12× margin)
   Protocol condition satisfied with large margin.
 ```
@@ -62,7 +62,7 @@ Numerical bound at patient parameters (B_initial ≈ 0.05, 67-year T1DM):
 | Butyrate → FOXP3 → Tregs | Multiple studies | PROVEN | Unchanged |
 | Fluoxetine achieves tissue IC50 (lysosomotropic) | Bolo 2000, IC50 reconciliation | CONFIRMED | **Upgraded from uncertain** |
 | R > D → B* > threshold | InequalityReversal.lean (0 sorry) | **MACHINE-CERTIFIED** | **NEW — Lean theorem** |
-| Keto sustained 5yr insulin independence | the patient | LIVED | Unchanged |
+| Keto sustained 5yr insulin independence | the operator | LIVED | Unchanged |
 | Combined protocol in human T1DM | — | **NOT YET TESTED** | The wall |
 
 ## The Wall — Narrowed to Three Things
@@ -822,7 +822,7 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 
 4. **TNFAIP3 + TXNIP double impairment**: Patients with both TNFAIP3 risk allele (impaired NF-κB brake) and glucose-driven TXNIP activation (run_112) have dual β cell vulnerability: impaired NF-κB self-termination + intrinsic glucose→NLRP3 loop. These are the highest-risk patients for rapid β cell loss during the honeymoon. Combined protocol emphasis: continuous NF-κB suppression + aggressive glycemic control.
 
-5. **Protocol: TNFAIP3 genotyping as patient stratification**: One-time genetic test identifies patients who require continuous (not episodic) aggressive NF-κB suppression. Risk allele → impaired A20 → NF-κB cannot self-terminate → protocol must provide the external brake that endogenous A20 no longer provides.
+5. **Protocol: TNFAIP3 genotyping as operator stratification**: One-time genetic test identifies patients who require continuous (not episodic) aggressive NF-κB suppression. Risk allele → impaired A20 → NF-κB cannot self-terminate → protocol must provide the external brake that endogenous A20 no longer provides.
 
 6. **Butyrate third mechanism**: Butyrate (rifaximin/probiotic/prebiotic) → gut barrier repair → less LPS → less TLR4 load → less A20 consumed → A20 levels recover → NF-κB self-termination restored. This adds a third mechanism to the run_032 butyrate rationale specifically relevant to T1DM (complements HDAC inhibition and NLRP3 suppression).
 
@@ -962,7 +962,7 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 
 2. **β cell TRPV4 sensitization by IL-1β**: Kalia 2018 (Sci Rep): TRPV4 expressed in mouse pancreatic islets; in inflammatory milieu, IL-1β sensitizes TRPV4 → activation threshold shifts from ~37°C to ~33°C → chronic Ca²⁺ influx at normal body temperature → ER Ca²⁺ depletion → UPR activation (run_098) → apoptosis feedforward. This creates an IL-1β → TRPV4 → ER stress feedback loop within inflamed islets. **Implication:** interventions that reduce islet IL-1β (NLRP3/run_023, BHB/run_112, IL-37/run_118) also de-sensitize β cell TRPV4 → reduce Ca²⁺ → reduce ER stress (second mechanism for same interventions).
 
-3. **Gut TRPV4 complements run_119 claudin-2 mechanism**: Run_119 (PTPN2 → STAT1 → claudin-2 upregulation) is a **signaling** mechanism of gut permeability under IFN-γ-high conditions. Run_120 (TRPV4 → RhoA → MLC → tight junction contraction) is a **physical/osmotic** mechanism under exercise/heat conditions. Both increase paracellular flux but via orthogonal mechanisms — a patient with PTPN2 LOF genotype + high thermal exercise load has BOTH mechanisms active simultaneously.
+3. **Gut TRPV4 complements run_119 claudin-2 mechanism**: Run_119 (PTPN2 → STAT1 → claudin-2 upregulation) is a **signaling** mechanism of gut permeability under IFN-γ-high conditions. Run_120 (TRPV4 → RhoA → MLC → tight junction contraction) is a **physical/osmotic** mechanism under exercise/heat conditions. Both increase paracellular flux but via orthogonal mechanisms — a operator with PTPN2 LOF genotype + high thermal exercise load has BOTH mechanisms active simultaneously.
 
 4. **NF-AT in β cells**: Calcineurin/NF-AT in β cells is normally involved in insulin gene transcription regulation; chronic TRPV4 → Ca²⁺ overload → calcineurin hyperactivation → NF-AT → NFAT-driven inflammatory gene expression in β cells (this is the same calcineurin/NF-AT used by cytotoxic lymphocytes and is suppressed by cyclosporin/tacrolimus in transplant rejection — suggesting a potential pathway where chronic Ca²⁺ → NF-AT → autoimmune amplification).
 
@@ -1134,7 +1134,7 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 
 4. **Calcitriol 5th mechanism**: VDR → IRF3 antagonism → IFN-λ production ↓ in β cells. Existing calcitriol 5000 IU/day gains type III IFN suppression mechanism.
 
-5. **Post-viral monitoring protocol**: Acute GI viral illness (CVB-like) in honeymoon patient → zinc 25–40 mg/day acute + quercetin 1000 mg + glucose monitoring 4–6 weeks post-illness (ISG-mediated β cell dysfunction → transient glucose instability before overt insulitis).
+5. **Post-viral monitoring protocol**: Acute GI viral illness (CVB-like) in honeymoon operator → zinc 25–40 mg/day acute + quercetin 1000 mg + glucose monitoring 4–6 weeks post-illness (ISG-mediated β cell dysfunction → transient glucose instability before overt insulitis).
 
 *T1DM THEWALL cross-reference run_130: 2026-04-12 | IFN-lambda type III IFN IFNLR1 IL-10Rβ β cell autocrine CVB4 CVB3 enterovirus RIG-I MDA5 IRF3 STAT1 ISG MHC-I CXCL10 PKR insulin T1DM bridge zinc 3rd mechanism calcitriol 5th mechanism post-viral monitoring Wack 2015 Marroqui 2017 Kallionpää 2014 Richardson 2019 Oikarinen 2012*
 

@@ -67,7 +67,7 @@ The protocol succeeds if, at month 12, the state vector (V_WT, V_TD, FOXP1, LAMP
 
 ## The Formal Convergence Claim
 
-**Claim**: after 12 months of full protocol, the patient's state vector will be ε-close to the non-progressor reference, where ε is defined by:
+**Claim**: after 12 months of full protocol, the operator's state vector will be ε-close to the non-progressor reference, where ε is defined by:
 ```
 ε = ||state_patient(t=12) - state_non_progressor||
   = √(ΔV_WT² + ΔV_TD² + ΔFOXP1² + ΔLAMP2² + ΔTreg² + ΔNK² + ΔMT_ND²)

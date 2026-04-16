@@ -7,7 +7,7 @@
 "What would a counterexample to T1DM look like?"
 
 Three counterexamples exist:
-1. **The honeymoon patient** — 80% of newly diagnosed patients achieve temporary remission
+1. **The honeymoon operator** — 80% of newly diagnosed patients achieve temporary remission
 2. **The non-progressor** — 10-15% of autoantibody-positive individuals never develop T1DM
 3. **The CVB clearer** — >99% of all CVB infections resolve without ANY chronic disease
 
@@ -42,7 +42,7 @@ The virus is still there. TD mutants in islets continue low-level replication, m
 | Scenario | Median honeymoon | >6 months | >12 months | >24 months |
 |----------|-----------------|-----------|------------|------------|
 | Standard care (insulin only) | Model-dependent | ~60% | ~30% | ~5% |
-| Keto (the patient path) | Extended | ~75% | ~50% | ~15% |
+| Keto (the operator path) | Extended | ~75% | ~50% | ~15% |
 | Full protocol (no teplizumab) | Indefinite for many | ~85% | ~75% | ~60% |
 | Full protocol + teplizumab | Indefinite for most | ~90% | ~85% | ~75% |
 
@@ -51,14 +51,14 @@ The virus is still there. TD mutants in islets continue low-level replication, m
 ### The Key Insight
 
 > The honeymoon proves that dB/dt > 0 is achievable in the human body.
-> Every newly diagnosed patient demonstrates that beta cell regeneration
+> Every newly diagnosed operator demonstrates that beta cell regeneration
 > can temporarily exceed destruction. The protocol's job is not to create
 > something new — it is to make the honeymoon PERMANENT by removing the
 > virus that causes it to fail.
 
 ---
 
-## Finding 2: the patient's Keto Experience — The Accidental Protocol
+## Finding 2: the operator's Keto Experience — The Accidental Protocol
 
 **Model**: `t1dm/numerics/anti_problem_spontaneous_remission.py`, Scenario 2
 
@@ -74,7 +74,7 @@ The virus is still there. TD mutants in islets continue low-level replication, m
 
 **Why it eventually failed**: Without antiviral (fluoxetine), TD mutants persisted. Over years, the chronic viral stress accumulated enough to overcome the anti-inflammatory benefit of ketosis. The cycle restarted, just delayed.
 
-**Prediction**: If the patient had added fluoxetine to the keto regimen, the outcome may have been different. The viral clearance was the missing piece.
+**Prediction**: If the operator had added fluoxetine to the keto regimen, the outcome may have been different. The viral clearance was the missing piece.
 
 ---
 
@@ -252,7 +252,7 @@ Specifically:
 
 ## The Anti-Problem Answer (One Paragraph)
 
-**A non-progressor is someone whose immune system naturally does what the protocol tries to do pharmacologically. They clear CVB before TD mutants establish, maintain Treg dominance over autoreactive T cells, and have a gut microbiome that continuously produces butyrate to support peripheral tolerance. The honeymoon period proves that every T1DM patient's body already knows how to achieve dB/dt > 0 — it just can't sustain it because the virus persists. The protocol completes what the honeymoon starts: fluoxetine eliminates the virus, butyrate + vitamin D restore the Tregs, BHB suppresses the inflammation, and FMD + GABA accelerate beta cell recovery. The cure is not a new invention. It is the pharmacological recreation of a natural state that 85-90% of genetically susceptible people achieve on their own.**
+**A non-progressor is someone whose immune system naturally does what the protocol tries to do pharmacologically. They clear CVB before TD mutants establish, maintain Treg dominance over autoreactive T cells, and have a gut microbiome that continuously produces butyrate to support peripheral tolerance. The honeymoon period proves that every T1DM operator's body already knows how to achieve dB/dt > 0 — it just can't sustain it because the virus persists. The protocol completes what the honeymoon starts: fluoxetine eliminates the virus, butyrate + vitamin D restore the Tregs, BHB suppresses the inflammation, and FMD + GABA accelerate beta cell recovery. The cure is not a new invention. It is the pharmacological recreation of a natural state that 85-90% of genetically susceptible people achieve on their own.**
 
 ---
 
@@ -260,7 +260,7 @@ Specifically:
 
 | File | Description |
 |------|-------------|
-| `t1dm/numerics/anti_problem_spontaneous_remission.py` | Honeymoon model, the patient keto, full protocol, Monte Carlo (10K patients) |
+| `t1dm/numerics/anti_problem_spontaneous_remission.py` | Honeymoon model, the operator keto, full protocol, Monte Carlo (10K patients) |
 | `t1dm/numerics/non_progressor_profile.py` | Non-progressor immunological profile, sensitivity analysis, discordant twins, radar chart |
 | `numerics/anti_problem_cross_disease.py` | Fork point model, base rate calibration, 50K infection Monte Carlo |
 | `t1dm/results/pattern_001_anti_problem_answer.md` | This document |

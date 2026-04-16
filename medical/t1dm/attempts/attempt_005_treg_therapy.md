@@ -1,7 +1,7 @@
 # Attempt 005: Regulatory T Cell (Treg) Therapy
 
 ## Approach
-Expand the patient's own CD4+CD25+FoxP3+ regulatory T cells (Tregs) ex vivo, then reinfuse them to suppress the autoreactive T cells attacking beta cells. Tregs are the immune system's natural brakes.
+Expand the operator's own CD4+CD25+FoxP3+ regulatory T cells (Tregs) ex vivo, then reinfuse them to suppress the autoreactive T cells attacking beta cells. Tregs are the immune system's natural brakes.
 
 ## Key Trials
 - **Bluestone/Tang (UCSF)**: Phase 1 — expanded polyclonal Tregs in 14 newly diagnosed T1DM patients. Safe. Some C-peptide preservation at 2 years. Published STIM (2015).
@@ -13,7 +13,7 @@ Expand the patient's own CD4+CD25+FoxP3+ regulatory T cells (Tregs) ex vivo, the
 1. **Polyclonal Tregs are non-specific.** Expanded Tregs suppress everything, not just the beta cell attack. Like teplizumab — a blunt instrument.
 2. **Treg persistence.** Ex vivo expanded Tregs may not survive long-term in vivo. Without ongoing signals, they die or lose FoxP3 expression and become conventional (potentially harmful) T cells.
 3. **Treg instability.** In inflammatory environments (like an inflamed pancreas), Tregs can convert to Th17 or effector cells — WORSENING the autoimmune attack. FoxP3 expression is not always stable.
-4. **Manufacturing complexity.** Autologous cell therapy: harvest patient's blood, isolate Tregs (<5% of CD4+), expand 500-1000x in 2-3 weeks, quality-test, reinfuse. Cost ~$100-300K per patient. Not scalable.
+4. **Manufacturing complexity.** Autologous cell therapy: harvest operator's blood, isolate Tregs (<5% of CD4+), expand 500-1000x in 2-3 weeks, quality-test, reinfuse. Cost ~$100-300K per operator. Not scalable.
 5. **The battlefield problem.** Even if Tregs arrive at the pancreas, the local inflammatory milieu may overpower them. The Treg:Teff ratio needed for suppression may be unachievably high.
 
 ## What It Teaches Us

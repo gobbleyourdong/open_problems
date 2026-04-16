@@ -45,7 +45,7 @@ PERSISTENT CVB1 in PANC-1 (GSE184831):
 | Established persistence | Chronically activated | Adding IFN won't help — already active; target autophagy instead |
 | Transition window | Increasing | Window for combined IFN + autophagy induction |
 
-The protocol is designed for established persistence (where the patient lives). IFN-based interventions are prevention strategies, not treatment strategies.
+The protocol is designed for established persistence (where the operator lives). IFN-based interventions are prevention strategies, not treatment strategies.
 
 ### Discovery 3: The FOXP1 Chain — A New Mechanistic Pillar
 

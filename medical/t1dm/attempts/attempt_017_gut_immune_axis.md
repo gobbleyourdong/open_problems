@@ -48,7 +48,7 @@ ENVIRONMENT → GUT → IMMUNE SYSTEM → PANCREAS
 
 ## The Third Mountain Protocol (Environmental Cleanup)
 
-For a newly diagnosed T1DM patient, in parallel with Mountains 1 and 2:
+For a newly diagnosed T1DM operator, in parallel with Mountains 1 and 2:
 
 **Remove:**
 - Processed food (emulsifiers, artificial sweeteners, preservatives)

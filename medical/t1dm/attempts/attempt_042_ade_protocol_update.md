@@ -4,13 +4,13 @@
 
 The Trojan horse isn't just "CVB infects monocytes." It's WORSE:
 
-**The patient's OWN antibodies are feeding the virus to the monocytes.**
+**The operator's OWN antibodies are feeding the virus to the monocytes.**
 
 VP4-specific antibodies (non-neutralizing) coat the virus → the coated virus binds Fc-gamma receptors on monocytes → the monocyte ACTIVELY ENGULFS the virus → gets infected → carries virus to new sites.
 
 **Every time the immune system responds to CVB, it makes MORE ADE antibodies, which infect MORE monocytes, which carry MORE virus.** The immune response is a positive feedback loop for persistence.
 
-## Why This Explains the patient's History
+## Why This Explains the operator's History
 
 ```
 Pre-diagnosis:
@@ -141,7 +141,7 @@ If you skip step 1:
 **Medium path (rituximab, no teplizumab):** $6-16K one-time
 **Full path (rituximab + teplizumab):** $220K one-time
 
-## For the patient Specifically
+## For the operator Specifically
 
 You were on keto for 5 years. During that time:
 - Viral replication may have been suppressed (autophagy from keto)

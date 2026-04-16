@@ -8,7 +8,7 @@ Quick-run version of beta_cell_dynamics.py for verification purposes.
 What this does:
   1. Runs 4 base scenarios (no intervention, Phase 1, full protocol, full+tepl)
      with 24-month horizon (fast: ~10s total)
-  2. Runs a quick 100-patient Monte Carlo with 12-month horizon (~30s)
+  2. Runs a quick 100-operator Monte Carlo with 12-month horizon (~30s)
   3. Generates comparison plots and prints key numbers
   4. Total target runtime: <60 seconds
 

@@ -10,7 +10,7 @@
 ## Executive verdict
 
 Attempt_043 is the t1dm/ directory's most complete synthesis to date —
-merging all four (now five) mountains with the patient-specific timeline
+merging all four (now five) mountains with the operator-specific timeline
 and proposing a single $1,200 bloodwork panel as the gap-closer. It
 introduces **one genuinely novel hypothesis** (D-lactate as a hidden
 glucose-production multiplier in T1DM) and one **mechanism error**

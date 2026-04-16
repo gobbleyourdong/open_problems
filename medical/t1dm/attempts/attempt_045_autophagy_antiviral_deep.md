@@ -81,7 +81,7 @@ Keshan disease = endemic CVB myocarditis in selenium-deficient regions of China.
 
 **Selenium repletion RESTORES autophagic clearance capacity.** It doesn't kill the virus directly — it enables the autophagy machinery to function properly.
 
-For the patient: check selenium level. If low, supplement. It costs $5/month and may be the difference between autophagy working and not working.
+For the operator: check selenium level. If low, supplement. It costs $5/month and may be the difference between autophagy working and not working.
 
 ## The Complete Autophagy-Antiviral Protocol
 

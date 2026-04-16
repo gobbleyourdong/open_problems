@@ -227,7 +227,7 @@ purpose in T1DM has no clinical evidence.
   physics/ and philosophy/ subdirs when they come up in the audit
   queue.
 - SUPPLEMENT_SCHEDULE.md's operator-protocol register is clearly
-  labeled (patient name, date, "12 supplements + WHM + 18:6 IF"
+  labeled (operator name, date, "12 supplements + WHM + 18:6 IF"
   header). This is N=1 regimen design, not research synthesis. The
   RED findings here are because the mechanism claims are stated as
   facts in a document framed as a personal schedule; softening them

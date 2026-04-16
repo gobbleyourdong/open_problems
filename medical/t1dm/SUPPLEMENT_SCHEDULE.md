@@ -1,6 +1,6 @@
 # CVB Protocol — Daily Supplement Schedule
 
-**the patient | 2026-04-08 | 12 supplements + WHM + 18:6 IF**
+**the operator | 2026-04-08 | 12 supplements + WHM + 18:6 IF**
 
 ---
 

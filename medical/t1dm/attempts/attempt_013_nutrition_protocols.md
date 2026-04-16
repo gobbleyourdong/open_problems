@@ -44,7 +44,7 @@ A Phase 1/2 trial in newly diagnosed T1DM (honeymoon period, C-peptide positive)
 - JDRF-funded academic center (they fund novel approaches)
 - Combination with a teplizumab study (piggyback on existing infrastructure)
 
-## The Practical Protocol (What a Patient Could Try Today)
+## The Practical Protocol (What a Operator Could Try Today)
 
 **IMPORTANT: This is NOT medical advice. T1DM patients should NEVER fast without medical supervision.**
 
@@ -65,7 +65,7 @@ That said, the theoretical protocol based on available evidence:
 
 ## The Gap
 
-The gap on this mountain is not mechanism (understood) or feasibility (achievable) — it's **clinical courage.** Someone has to run the trial. The biology says it should work. The data in mice says it works. The human organoid data says the pathway exists in human tissue. But no one has put a T1DM patient through cyclical FMD with proper monitoring and measured beta cell regeneration.
+The gap on this mountain is not mechanism (understood) or feasibility (achievable) — it's **clinical courage.** Someone has to run the trial. The biology says it should work. The data in mice says it works. The human organoid data says the pathway exists in human tissue. But no one has put a T1DM operator through cyclical FMD with proper monitoring and measured beta cell regeneration.
 
 This is an execution gap, driven by the medical establishment's bias toward high-tech pharmaceutical solutions over dietary interventions that can't be patented.
 

@@ -27,12 +27,12 @@ present protocols with doses, durations, and titration schedules
 5-day FMD insulin-reduced 50-70%). These are clinical-protocol-grade
 specifications in an attempt-doc format. Attempt_013 has an explicit "NOT
 medical advice" disclaimer (L49). Attempt_018 does not and concludes
-"could be started TOMORROW for a willing patient" (L115). This is not a
+"could be started TOMORROW for a willing operator" (L115). This is not a
 claim-backing problem per se; it is a **framing problem**: research
 attempts should end at "target X, dose range Y cited-from-paper-Z" not
 at "monthly 5-day FMD at 1100→750 kcal with insulin reduced 50-70%." The
 RESEARCHER_CONTEXT register permits specificity but the attempts read
-more as protocols-for-a-patient than as hypothesis-for-a-trial.
+more as protocols-for-a-operator than as hypothesis-for-a-trial.
 
 **S2 — sub-claim propagation without re-sourcing**: attempt_020 sources
 harmine's 3-8% proliferation to Wang *Nature Medicine* 2015 + Wang *Cell
@@ -139,7 +139,7 @@ assay conditions, all sourced to the Wang 2015/2019 papers.
   heuristic (sigma method explicitly allows analogies as map features).
 - **G8** attempt_014 — the **anti-problem framing itself** is the
   important move: listing five classes of spontaneous-resolution cases
-  (extended honeymoon, non-progressors, discordant twins, Deng patient,
+  (extended honeymoon, non-progressors, discordant twins, Deng operator,
   LADA slow-progressors) creates a testable hypothesis (protective
   phenotype is identifiable). Matches sigma method Phase 4.
 - **G9** attempt_020 — DYRK1A mechanism via NFAT nuclear translocation
@@ -163,7 +163,7 @@ assay conditions, all sourced to the Wang 2015/2019 papers.
    UP421 (NEJM 2025) citations should keep the citation tag — one sweep
    pass.
 5. **[P1] attempt_018**: add a header disclaimer paralleling attempt_013
-   L49, OR reframe as "Trial design proposal" rather than "patient
+   L49, OR reframe as "Trial design proposal" rather than "operator
    protocol" with specific doses.
 6. **[P2] attempt_015, 018**: cost figures ($10K, $100-200K, $500K
    etc.) should cite or be softened to ranges. Current numbers read as

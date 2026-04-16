@@ -447,7 +447,7 @@ def simulate_cumulative_cycles(n_cycles: int = 12,
 
     # Initial conditions
     beta_mass[0] = initial_beta_mass
-    td_mutants[0] = 35.0  # the patient TD burden
+    td_mutants[0] = 35.0  # the operator TD burden
     treg_teff[0] = 0.7    # below 1.0 = Teff dominant (autoimmune)
 
     # Effective destruction rate (reduced by protocol)

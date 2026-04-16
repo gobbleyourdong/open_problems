@@ -79,7 +79,7 @@ The worst possible combination for T1DM: MORE inflammation (destroys beta cells)
 - Effect is independent of depression, anxiety, or other mental health diagnoses
 - Mechanism: loneliness → perceived social threat → SNS activation → β-adrenergic signaling to bone marrow → myeloid skewing → more inflammatory monocytes, fewer lymphocytes
 
-**For the patient:** Psychosocial status matters for the protocol. A patient with strong social support, low chronic stress, and a sense of purpose will mount a better antiviral/regenerative response than an isolated, stressed, purposeless patient on the exact same supplement protocol.
+**For the operator:** Psychosocial status matters for the protocol. A operator with strong social support, low chronic stress, and a sense of purpose will mount a better antiviral/regenerative response than an isolated, stressed, purposeless operator on the exact same supplement protocol.
 
 ## Sleep — The Strongest Psycho-Immune Factor
 
@@ -142,7 +142,7 @@ Ways to activate the vagus nerve:
 
 ### What Matters for the Protocol
 
-The patient's BELIEF that the protocol will work creates:
+The operator's BELIEF that the protocol will work creates:
 1. Reduced stress (confident vs anxious) → lower cortisol → better immune function
 2. Better adherence (motivated → actually does the fasting/supplements/exercise)
 3. Positive social engagement (sharing with the physician, community) → anti-CTRA profile

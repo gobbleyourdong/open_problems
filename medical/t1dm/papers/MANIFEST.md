@@ -4,7 +4,7 @@
 
 | # | Paper | Journal | Year | Key Finding | Relevance |
 |---|-------|---------|------|-------------|-----------|
-| B1 | Chapman NM, Kim KS, Drescher KM, et al. — "5' terminal deletions..." | Cell Microbiol | 2008 | Patient-derived CVB TD mutants cluster at 15-35 nt deletion | TD mutant biology foundation |
+| B1 | Chapman NM, Kim KS, Drescher KM, et al. — "5' terminal deletions..." | Cell Microbiol | 2008 | Operator-derived CVB TD mutants cluster at 15-35 nt deletion | TD mutant biology foundation |
 | B2 | Andino R et al. — poliovirus/picornavirus 5' cloverleaf replication | EMBO J | 1993 | Cloverleaf structure required for (+) strand synthesis | TD mutant mechanism |
 | B3 | Toyoda H et al. — CVB cloverleaf function | J Virol | 2007 | PCBP2 binds SL-b for replication | Cloverleaf functional domains |
 | B4 | Kim KS et al. — TD mutant persistence in chronic myocarditis | J Med Virol | 2005 | TD mutants detected in chronic cardiac disease | Persistence in cardiac tissue |
@@ -27,7 +27,7 @@
 
 | # | Paper | Journal | Year | Key Finding |
 |---|-------|---------|------|-------------|
-| 1 | Deng et al. — CiPSC autologous islet transplant | Cell | 2024 | First patient-derived stem cell cure. Insulin-independent at 1yr, TIR >98% |
+| 1 | Deng et al. — CiPSC autologous islet transplant | Cell | 2024 | First operator-derived stem cell cure. Insulin-independent at 1yr, TIR >98% |
 | 2 | Sana/Uppsala — Hypoimmune beta cells | NEJM | 2025 | CRISPR HLA-knockout + CD47 islets survive 6mo, NO immunosuppression |
 | 3 | Herold et al. — PROTECT trial (teplizumab) | NEJM | 2024 | 94.9% maintain C-peptide at 78wk in newly diagnosed children |
 | 4 | Stanford — Immune reset + islet transplant | JCI | 2025 | Mixed chimerism cures T1DM in mice, no immunosuppression |

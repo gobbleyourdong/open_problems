@@ -97,7 +97,7 @@ Result: No significant difference in T1DM development.
 
 TRIGR tested the A1 casein hypothesis IN ISOLATION. The multi-hit model predicts it would fail: you need ALL hits for the cascade. Removing one is necessary but not sufficient.
 
-### the patient Connection
+### the operator Connection
 
 - Not breastfed → exposed to A1 beta-casein formula
 - Hit 1 likely occurred: autoreactive T cells primed against insulin/ICA69
@@ -111,6 +111,6 @@ The A1/A2 hypothesis is NOT proven for T1DM. The epidemiology is suggestive, the
 
 **A proper trial would test A2-ONLY formula in at-risk infants AND address Hits 2-4 simultaneously.** No one has run this.
 
-For the patient: the priming already happened decades ago. You can't unload the gun. But you CAN address the trigger (CVB) and the amplifiers (gut dysbiosis, vitamin D, beta cell stress). The A1 casein story explains HOW you got here. The protocol addresses WHERE YOU GO.
+For the operator: the priming already happened decades ago. You can't unload the gun. But you CAN address the trigger (CVB) and the amplifiers (gut dysbiosis, vitamin D, beta cell stress). The A1 casein story explains HOW you got here. The protocol addresses WHERE YOU GO.
 
 ## Status: HIT 1 MAPPED — A1 casein primed the autoimmune response, BCM-7 opened the gate

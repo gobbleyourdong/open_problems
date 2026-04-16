@@ -64,9 +64,9 @@ This is the order. You don't regenerate while still poisoning. You don't transpl
 - **Cost: ~$100-200K (estimated)**
 
 **Option B**: Autologous CiPSC islets (Deng-type)
-- Patient's own cells → islet clusters
+- Operator's own cells → islet clusters
 - No rejection risk
-- Manufacturing: 3-6 months per patient
+- Manufacturing: 3-6 months per operator
 - **Cost: ~$200-500K (manufacturing intensive)**
 
 **Option C (last resort)**: Vertex zimislecel + immunosuppression
@@ -110,7 +110,7 @@ Only patients who fail Stage 2 need the expensive Stage 3.
 
 ## The Final Gap
 
-This protocol could be started TOMORROW for a willing patient with a willing endocrinologist. Stages 0-2 use only FDA-approved drugs (teplizumab, semaglutide, IL-2, vitamin D) plus dietary modification. No experimental cells required.
+This protocol could be started TOMORROW for a willing operator with a willing endocrinologist. Stages 0-2 use only FDA-approved drugs (teplizumab, semaglutide, IL-2, vitamin D) plus dietary modification. No experimental cells required.
 
 The gap is not science. The gap is not technology. The gap is: **who goes first?**
 

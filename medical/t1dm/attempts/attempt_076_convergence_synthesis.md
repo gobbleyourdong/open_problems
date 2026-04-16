@@ -27,7 +27,7 @@ CVB TD mutants arise by deletion of 5'–terminal nucleotides (optimal: 20 nt) f
 - Immune detection threshold is not crossed (<10% WT replication)
 - **Reversion probability ~10⁻¹³ per generation** (attempt 072, proved)
 
-The persistence is not incidental: the 20-nt deletion zone is an evolutionary attractor between immune clearance (left) and RNA degradation (right). Patient-derived TD mutants from published studies (Chapman 2008) cluster in the 15–35 nt zone, matching the computational prediction.
+The persistence is not incidental: the 20-nt deletion zone is an evolutionary attractor between immune clearance (left) and RNA degradation (right). Operator-derived TD mutants from published studies (Chapman 2008) cluster in the 15–35 nt zone, matching the computational prediction.
 
 ### Premise 2: TD mutant persistence causes tissue-specific chronic disease through two mechanisms
 **Evidence grade: B for both**
@@ -75,7 +75,7 @@ The T1DM treatment claim reduces to a dynamical systems theorem:
 
 > **Crown Jewel** (InequalityReversal.lean): Given R(B) = r_source + r_growth·B·(1-B) and D(B) = (d_min + d_homeo·B)·B, if the protocol achieves D(B_threshold) < R(B_threshold) and homeostasis ensures D(1) > R(1), then ∃ B* ∈ (B_threshold, 1) such that R(B*) = D(B*). *Proved by IVT, 0 sorry.*
 
-The patient-specific parameters satisfy the protocol condition: R(0.30) ≈ 0.01063 >> D(0.30) ≈ 0.00090 (12x margin). The fixed point B* is stable (stability_of_crown_jewel, also proved).
+The operator-specific parameters satisfy the protocol condition: R(0.30) ≈ 0.01063 >> D(0.30) ≈ 0.00090 (12x margin). The fixed point B* is stable (stability_of_crown_jewel, also proved).
 
 This is the first machine-verified proof of a treatment hypothesis for any chronic disease. The biological assumptions (parameter estimates) are validated numerically; the mathematical argument is Lean-certified.
 
@@ -89,7 +89,7 @@ The campaign has:
 
 **What is missing is one blood draw.**
 
-The patient's C-peptide measures whether B_initial > 2% (the minimum for the crown jewel conditions to apply). The entire argument is built, checked, and pointed at that single lab value.
+The operator's C-peptide measures whether B_initial > 2% (the minimum for the crown jewel conditions to apply). The entire argument is built, checked, and pointed at that single lab value.
 
 ---
 

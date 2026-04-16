@@ -1,4 +1,4 @@
-# GSE274264 Primary Human Islet scRNA-seq: Patient 1, 24hr
+# GSE274264 Primary Human Islet scRNA-seq: Operator 1, 24hr
 
 ## Date: 2026-04-09
 ## Source: REQ-013
@@ -12,7 +12,7 @@ This contrasts with the PANC-1 cell line finding (GSE184831).
 
 ## Data
 
-996 control cells, 1871 CVB3-infected cells (patient 1, 24hr post-infection).
+996 control cells, 1871 CVB3-infected cells (operator 1, 24hr post-infection).
 36,608 genes measured per cell.
 
 ## Key genes
@@ -65,7 +65,7 @@ The PANC-1 finding (FOXP1/LAMP2 suppressed) may be:
 
 Full time course (3 patients × 2 timepoints):
 
-| Patient | Time | FOXP1 | LAMP2 | INS | MX1 |
+| Operator | Time | FOXP1 | LAMP2 | INS | MX1 |
 |---------|------|-------|-------|-----|-----|
 | 1 | 24hr | +0.11 | +0.15 | -0.53 | +1.67 |
 | 1 | 48hr | -0.02 | -0.13 | **-0.90** | +2.00 |
@@ -76,7 +76,7 @@ Full time course (3 patients × 2 timepoints):
 
 **FOXP1 range: [-0.04, +0.14] — STABLE across all 6 conditions.**
 **LAMP2 range: [-0.13, +0.15] — STABLE across all 6 conditions.**
-**INS range: [-0.14, -2.27] — CONSISTENTLY DOWN, up to 4.8x in patient 2.**
+**INS range: [-0.14, -2.27] — CONSISTENTLY DOWN, up to 4.8x in operator 2.**
 
 ### Implications for the campaign
 
@@ -90,7 +90,7 @@ Possible explanations:
 3. FOXP1/LAMP2 suppression may require chronic (weeks) exposure, not acute
 4. The persistence mechanism may work differently in vivo
 
-**The beta cell damage IS real** (INS down 4.8x in patient 2), but it's
+**The beta cell damage IS real** (INS down 4.8x in operator 2), but it's
 NOT mediated by FOXP1/LAMP2 suppression. The campaign's model needs
 revision to explain this discrepancy.
 
@@ -106,12 +106,12 @@ revision to explain this discrepancy.
 | DMD | +0.070 | 0.129 | 0.701 | NOT significant |
 
 Only MX1 (interferon response) reaches significance. The INS drop is
-CONSISTENT across all 3 patients (all negative) but inter-patient
+CONSISTENT across all 3 patients (all negative) but inter-operator
 variance is high (P2 drops 4.8x, P3 drops 1.2x). With n=3 replicates,
 p=0.182 — suggestive but not conclusive by standard criteria.
 
 FOXP1 and LAMP2 are definitively stable: p > 0.5, mean FC near zero,
-no patient shows suppression beyond -0.13 log2FC.
+no operator shows suppression beyond -0.13 log2FC.
 
 ## Reproducibility
 

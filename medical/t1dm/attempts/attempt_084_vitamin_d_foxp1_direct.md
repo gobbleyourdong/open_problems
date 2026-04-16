@@ -57,8 +57,8 @@ VDR binding requires 1,25-(OH)₂D₃ at the nucleus. This requires:
 2. Normal 1-alpha-hydroxylase activity (converts 25-OH-D to active form)
 3. Sustained supplementation (VDR expression itself is VitD-dependent)
 
-At 5,000 IU/day in a VitD-deficient patient: 25-OH-D rises ~1 ng/mL/week → reaches target in 12-16 weeks.
-At 5,000 IU/day in a VitD-sufficient patient: maintains levels in optimal range.
+At 5,000 IU/day in a VitD-deficient operator: 25-OH-D rises ~1 ng/mL/week → reaches target in 12-16 weeks.
+At 5,000 IU/day in a VitD-sufficient operator: maintains levels in optimal range.
 
 **If 25-OH-D is <20 ng/mL**: use loading dose 50,000 IU once, then 5,000 IU/day.
 **If 25-OH-D is 20-40 ng/mL**: 5,000 IU/day directly.

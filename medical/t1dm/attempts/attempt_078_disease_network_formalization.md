@@ -38,7 +38,7 @@ The **cardiac fat pad** is now a recognized TD mutant reservoir that seeds:
 ### Structural reason 2: asymptomatic myocarditis as "silent seeder"
 
 85–90% of CVB3 myocarditis is asymptomatic (troponin-positive but no chest pain). This means:
-- The patient has NO IDEA they're infected
+- The operator has NO IDEA they're infected
 - CVB3 persists in the myocardium for years, continuously seeding systemic circulation
 - Each bout of CVB3 viremia from the cardiac reservoir can re-seed any CVB-permissive organ
 
@@ -109,7 +109,7 @@ If you find myocarditis (active or prior), you:
 
 ## What This Changes About the Protocol Priority
 
-For any new patient presenting with CVB-related disease (regardless of which disease is primary):
+For any new operator presenting with CVB-related disease (regardless of which disease is primary):
 
 **Step 1 of diagnosis: rule out myocarditis first.**
 
@@ -118,9 +118,9 @@ Not because myocarditis is the presenting complaint, but because:
 - Its presence changes the protocol (no itraconazole, adjust FMD intensity, add colchicine)
 - Its absence provides safety clearance for the full protocol
 
-For the specific patient (T1DM, 67-year duration):
+For the specific operator (T1DM, 67-year duration):
 - CVB4 (not CVB3) is most likely the primary serotype → cardiac risk is lower than average
 - But CVB3 co-infection over a lifetime is likely (multiple CVB exposures are common)
 - **Cardiac MRI at baseline is essential regardless**
 
-## Status: DISEASE NETWORK FORMALIZED — myocarditis keystone status proved by path enumeration, cascade mechanism to DCM formalized, cardiac screening priority confirmed as upstream, patient-specific application stated
+## Status: DISEASE NETWORK FORMALIZED — myocarditis keystone status proved by path enumeration, cascade mechanism to DCM formalized, cardiac screening priority confirmed as upstream, operator-specific application stated

@@ -49,7 +49,7 @@ The DiViD finding transforms the T1DM model from "autoimmune destruction of unkn
 | DiViD patients with HLA-I hyperexpression | 6/6 | (100%) | Krogvold 2015 |
 | DiViD control subjects with VP1+ islets | 0/6 | (0%) | Krogvold 2015 |
 | Time from diagnosis to biopsy | <9 | weeks | Krogvold 2015 |
-| Patient age range | 24-35 | years | Krogvold 2015 |
+| Operator age range | 24-35 | years | Krogvold 2015 |
 | Autopsy VP1+ prevalence (T1DM) | 61 | % (44/72) | Richardson 2009 |
 | Autopsy VP1+ prevalence (controls) | 20 | % (10/50) | Richardson 2009 |
 | Viable CVB4 isolation from islets | 3/6 | patients | Dotta 2007 |

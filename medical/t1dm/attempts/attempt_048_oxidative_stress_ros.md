@@ -137,7 +137,7 @@ CVB persists + tissue destroyed = Keshan disease (heart) or T1DM (pancreas)
 
 **Selenium deficiency makes CVB MORE pathogenic by disabling BOTH clearance (autophagy) and protection (antioxidant defense) simultaneously.** One mineral, two critical failures.
 
-the patient should check selenium level. If below 100 μg/L: supplement immediately.
+the operator should check selenium level. If below 100 μg/L: supplement immediately.
 
 ## Updated Supplement Stack
 

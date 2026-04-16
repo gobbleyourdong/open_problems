@@ -70,12 +70,12 @@ This is attempt 034's mechanism, now with the MOLECULAR DETAIL
 of why the Trojan horse works: VP4-specific ADE via FcγR.
 ```
 
-### 2. Why the patient's immune system can't clear CVB
+### 2. Why the operator's immune system can't clear CVB
 After initial infection, the immune system makes VP4 antibodies. These antibodies don't clear the virus — they help it infect monocytes. Every subsequent immune response FEEDS the persistence loop. The harder the immune system tries (more antibodies), the more monocytes get infected (more ADE). The immune response is the disease.
 
 ### 3. Prevention vs Treatment
 - **Prevention (at-risk children):** VLP∆VP4 vaccine BEFORE first CVB exposure. No ADE. Neutralizing antibodies only. Should prevent the initial infection that triggers T1DM.
-- **Treatment (established T1DM like the patient):** ADE antibodies already exist. Need to clear both the virus AND the ADE antibody pool. Options:
+- **Treatment (established T1DM like the operator):** ADE antibodies already exist. Need to clear both the virus AND the ADE antibody pool. Options:
   - Teplizumab depletes T cells but not B cells/antibodies
   - Rituximab (anti-CD20) depletes B cells → reduces antibody production
   - Plasmapheresis removes circulating antibodies (including ADE-causing ones)

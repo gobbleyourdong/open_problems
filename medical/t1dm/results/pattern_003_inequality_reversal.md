@@ -10,7 +10,7 @@ Where:
     R = total regeneration rate (/day)
     D = total destruction rate (/day)
 
-Current state (the patient, no protocol):
+Current state (the operator, no protocol):
     R ~ 2.5 x 10^-4 /day
     D ~ 3.2 x 10^-4 /day
     dB/dt ~ -0.7 x 10^-4 /day (slow decline)
@@ -35,7 +35,7 @@ Goal:
 | Autoantibodies | Ab | titer | 25.0 | GAD65/IA-2/ZnT8/insulin (biomarker) |
 | C-peptide | Cp | nmol/L | 0.12 | Equimolar with endogenous insulin |
 
-### the patient Profile
+### the operator Profile
 
 - **Age at diagnosis:** ~1 year old (infant/child)
 - **Duration of T1DM:** 67 years
@@ -276,7 +276,7 @@ The FMD cycle is the ENGINE of regeneration. Each monthly cycle has three acts:
 - Weekly short fasts insufficient for deep progenitor activation
 - Quarterly extended fasts too infrequent for cumulative effect
 
-## the patient's Predicted Trajectory
+## the operator's Predicted Trajectory
 
 ### Best Case (20th percentile parameters)
 ```
@@ -334,7 +334,7 @@ First measurement: stimulated C-peptide at month 3.
 Timeline to signal: 3-6 months.
 Timeline to independence: 18-36 months (if the model is right).
 
-The model exists. The code runs. The patient is willing. The bloodwork appointment is the wall.
+The model exists. The code runs. The operator is willing. The bloodwork appointment is the wall.
 
 ---
 

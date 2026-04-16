@@ -3,7 +3,7 @@
 ## The Problem: Misdiagnosis at Scale
 
 LADA (Latent Autoimmune Diabetes in Adults) is autoimmune diabetes that presents in adults (typically >30 years) and is often initially misdiagnosed as Type 2 diabetes because:
-1. The patient is adult (T2DM expected at this age)
+1. The operator is adult (T2DM expected at this age)
 2. Initial C-peptide may be adequate
 3. The autoimmune attack is slower than childhood T1DM
 4. Anti-islet antibodies (especially GADA) may not be tested at diagnosis
@@ -37,9 +37,9 @@ If CVB persistence → FOXP1 suppression → anti-beta-cell autoimmunity → T1D
 
 The underlying viral persistence mechanism is IDENTICAL. The CVB clearance protocol applies to LADA exactly as to classical T1DM.
 
-## The LADA Patient Profile for the Protocol
+## The LADA Operator Profile for the Protocol
 
-A LADA patient starting the protocol:
+A LADA operator starting the protocol:
 - Higher residual C-peptide than age-matched classical T1DM → **better B_initial**
 - B_initial ≈ 0.15-0.40 (often) vs 0.03-0.10 (long-duration T1DM)
 - Crown jewel conditions: easily satisfied at B_initial = 0.20
@@ -72,7 +72,7 @@ Standard LADA management trajectory:
 
 ## How to Screen for LADA
 
-Any "T2DM" patient with:
+Any "T2DM" operator with:
 1. Age at diagnosis 30-50 years
 2. Not obese (BMI <25) or only mildly overweight
 3. Rapid progression to insulin (needed within 3-5 years)
@@ -105,7 +105,7 @@ GADA positive:
 LADA represents a previously unidentified CVB-campaign population: 1.5-3 million Americans (hidden within the T2DM cohort) who have autoimmune diabetes driven by the same CVB mechanism as classical T1DM, with BETTER baseline beta cell mass, and who are currently being mismanaged.
 
 ### The Clinical Opportunity
-The LADA patient is at an earlier stage of the crown jewel dynamics than the classical T1DM patient. Intervening at LADA stage (B_initial = 0.15-0.40) offers dramatically better outcomes than waiting for classical T1DM to develop (B_initial = 0.03-0.10).
+The LADA operator is at an earlier stage of the crown jewel dynamics than the classical T1DM operator. Intervening at LADA stage (B_initial = 0.15-0.40) offers dramatically better outcomes than waiting for classical T1DM to develop (B_initial = 0.03-0.10).
 
 ### New Addition to Screening Protocol
 The PATIENT_ZERO_SCREENING.md blood draw should add GADA antibodies for any adult who has unexplained diabetes or "atypical T2DM." Cost: $50 additional test. Identifies the LADA subgroup where the protocol has the BEST prognosis.

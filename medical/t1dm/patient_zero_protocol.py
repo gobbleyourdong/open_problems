@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the complete protocol PDF for the patient."""
+"""Generate the complete protocol PDF for the operator."""
 
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.units import inch

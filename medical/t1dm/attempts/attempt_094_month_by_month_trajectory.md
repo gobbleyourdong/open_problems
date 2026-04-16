@@ -1,4 +1,4 @@
-# Attempt 094: Month-by-Month — What the 67-Year T1DM Patient Will Experience
+# Attempt 094: Month-by-Month — What the 67-Year T1DM Operator Will Experience
 
 ## The Context
 
@@ -190,4 +190,4 @@ If HbA1c is improving (going down) while carbohydrate intake is stable → beta 
 
 This is measurable at every doctor's visit with standard labs. No special testing required.
 
-## Status: MONTH-BY-MONTH TRAJECTORY COMPLETE — full prediction from week 1 to month 24 for 67-year T1DM patient. Four scenario decision tree at month 12. Realistic expectation: 40-100% C-peptide improvement at 24 months; 10-20% probability of insulin independence. Organ protection at high confidence regardless of T1DM outcome.
+## Status: MONTH-BY-MONTH TRAJECTORY COMPLETE — full prediction from week 1 to month 24 for 67-year T1DM operator. Four scenario decision tree at month 12. Realistic expectation: 40-100% C-peptide improvement at 24 months; 10-20% probability of insulin independence. Organ protection at high confidence regardless of T1DM outcome.

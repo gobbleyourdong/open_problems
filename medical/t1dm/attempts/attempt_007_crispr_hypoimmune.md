@@ -8,7 +8,7 @@ Use CRISPR-Cas12b to gene-edit donor islet cells:
 No immunosuppression required.
 
 ## Key Results (NEJM, August 2025)
-- **First patient**: 42-year-old man, T1DM for 30+ years
+- **First operator**: 42-year-old man, T1DM for 30+ years
 - 17 intramuscular injections of CRISPR-edited islets (UP421)
 - **No immunosuppression given**
 - Cells survived 6+ months
@@ -17,8 +17,8 @@ No immunosuppression required.
 - First human proof that hypoimmune engineering works for T1DM
 
 ## Why It's Not Yet a Cure
-1. **Single patient, short follow-up.** 6 months is promising but T1DM is lifelong. Need years of data.
-2. **C-peptide but not insulin independence.** The patient still needs exogenous insulin. The cell dose or engraftment was not enough for full independence.
+1. **Single operator, short follow-up.** 6 months is promising but T1DM is lifelong. Need years of data.
+2. **C-peptide but not insulin independence.** The operator still needs exogenous insulin. The cell dose or engraftment was not enough for full independence.
 3. **Intramuscular site.** Not the native pancreatic niche. Long-term function at this site is unknown.
 4. **Off-target edits.** CRISPR editing carries risk of unintended mutations. Long-term oncogenicity surveillance needed.
 5. **HLA knockout = infection/cancer risk?** Cells invisible to immune system could theoretically harbor infections or become malignant without immune surveillance. Mitigated by CD47 (which is a "don't eat me" not a "don't kill me if I'm infected" signal) but the concern exists.

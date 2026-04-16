@@ -22,7 +22,7 @@ CVB is the most commonly identified cause of subacute granulomatous thyroiditis.
 Hashimoto's (chronic lymphocytic thyroiditis) is classified as "autoimmune" but its trigger is often unclear. The campaign hypothesis:
 - CVB infects thyroid → FOXP1 -67x → local Treg failure → anti-TPO antibodies
 - This mirrors exactly what happens in islets: CVB → FOXP1 suppression → anti-islet antibodies → T1DM
-- The same patient may have CVB persistence in BOTH their islets (causing T1DM) AND their thyroid (causing Hashimoto's)
+- The same operator may have CVB persistence in BOTH their islets (causing T1DM) AND their thyroid (causing Hashimoto's)
 
 ## The LAMP2 Connection in Thyroid Tissue
 
@@ -38,7 +38,7 @@ The FOXP1 + LAMP2 double mechanism explains why some patients develop hypothyroi
 
 ## The Polyglandular Triangle
 
-For the patient with BOTH T1DM and autoimmune thyroid disease:
+For the operator with BOTH T1DM and autoimmune thyroid disease:
 
 ```
 CVB viremia
@@ -50,9 +50,9 @@ Thyroid infection → FOXP1 -67x → anti-TPO/thyroglobulin → Hashimoto's
 Same virus. Same mechanism. Same protocol clears both.
 ```
 
-**If the protocol clears CVB from islets, it simultaneously clears CVB from the thyroid.** The patient who starts the protocol for T1DM may find their TSH and anti-TPO antibodies improving as a side effect.
+**If the protocol clears CVB from islets, it simultaneously clears CVB from the thyroid.** The operator who starts the protocol for T1DM may find their TSH and anti-TPO antibodies improving as a side effect.
 
-**Measurable prediction**: anti-TPO titer should DECREASE during the protocol (as thyroid CVB clears and FOXP1 recovers), and TSH should normalize (if the hypothyroidism is not yet complete). This is a testable secondary outcome for the T1DM patient trial.
+**Measurable prediction**: anti-TPO titer should DECREASE during the protocol (as thyroid CVB clears and FOXP1 recovers), and TSH should normalize (if the hypothyroidism is not yet complete). This is a testable secondary outcome for the T1DM operator trial.
 
 ## The Adrenal Connection (Addison's Disease Triangle)
 
@@ -63,7 +63,7 @@ The polyglandular autoimmune syndrome types include not just T1DM + thyroid, but
 
 If CVB persistence with FOXP1 suppression drives autoimmunity via organ-specific local Treg failure, then CVB in the adrenal glands → FOXP1 → anti-adrenal autoimmunity → Addison's.
 
-**The campaign extends naturally to a polyglandular prevention model**: any patient with T1DM should be tested for thyroid and adrenal antibodies, and if positive, the CVB clearance protocol should be started — with the expectation of simultaneous benefit for all three glands.
+**The campaign extends naturally to a polyglandular prevention model**: any operator with T1DM should be tested for thyroid and adrenal antibodies, and if positive, the CVB clearance protocol should be started — with the expectation of simultaneous benefit for all three glands.
 
 ## What This Means for Screening at Protocol Start
 

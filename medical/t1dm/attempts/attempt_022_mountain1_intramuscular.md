@@ -15,7 +15,7 @@ This changes the entire calculus of Mountain 1.
 
 1. **Vascularization**: Skeletal muscle is densely vascularized. Beta cells need oxygen desperately (they're metabolically the most active cells in the body per unit mass). Muscle delivers.
 
-2. **Accessibility**: Intramuscular injection is the simplest possible procedure. No surgery. No endoscopy. No portal vein catheterization. A nurse can do it. A patient could potentially self-inject (like insulin).
+2. **Accessibility**: Intramuscular injection is the simplest possible procedure. No surgery. No endoscopy. No portal vein catheterization. A nurse can do it. A operator could potentially self-inject (like insulin).
 
 3. **Reversibility**: If cells malfunction or need to be removed, an intramuscular depot can be excised or ablated. A liver-engrafted islet cannot be removed.
 
@@ -48,7 +48,7 @@ Exercise is the most potent natural activator of muscle physiology:
 - Improves insulin sensitivity (reduces demand on beta cells)
 - Promotes angiogenesis (new blood vessels to cell depots)
 
-**A patient with intramuscular beta cell transplants who exercises regularly would be providing the transplanted cells with the optimal survival environment.** The prescription isn't just "take these cells" — it's "take these cells AND walk 30 minutes daily."
+**A operator with intramuscular beta cell transplants who exercises regularly would be providing the transplanted cells with the optimal survival environment.** The prescription isn't just "take these cells" — it's "take these cells AND walk 30 minutes daily."
 
 ## 17 Injections → Distributed Architecture
 
@@ -80,7 +80,7 @@ This is **distributed computing for biology.** The same architectural principle 
 
 ## The Gap (Mountain 1 Refined Again)
 
-Mountain 1's gap has narrowed to: **dose optimization.** Sana's patient got C-peptide but not insulin independence. The cells work. The site works. The immune strategy works. We just need MORE cells or BETTER engraftment.
+Mountain 1's gap has narrowed to: **dose optimization.** Sana's operator got C-peptide but not insulin independence. The cells work. The site works. The immune strategy works. We just need MORE cells or BETTER engraftment.
 
 Solutions:
 - More injection sites (17 → 30?)

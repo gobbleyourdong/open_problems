@@ -21,7 +21,7 @@
 
 ## The Counter-Strategy: OVERWHELM, Don't Repair
 
-We can't pharmacologically restore STX17 expression or prevent SNAP29 cleavage in a living patient. The viral proteases are intracellular — no drug reaches them at the right concentration.
+We can't pharmacologically restore STX17 expression or prevent SNAP29 cleavage in a living operator. The viral proteases are intracellular — no drug reaches them at the right concentration.
 
 **Instead: FLOOD the cell with so much degradative autophagy that the viral hijacking can't redirect ALL of it.**
 
@@ -38,7 +38,7 @@ The strategy:
 |----------|-----------|---------------|-------------|--------|
 | **Starvation/Fasting** | mTORC1 OFF → TFEB dephosphorylated → nuclear → transcribes autophagy + lysosome genes | N/A (systemic) | YES (5-day FMD = maximal TFEB activation) | Already in protocol. **THE most potent TFEB activator.** |
 | **Trehalose** | mTOR-INDEPENDENT TFEB activation via Akt inhibition + AMPK activation. Does NOT require starvation signaling. | ~100 μM - 1 mM | POOR ORALLY (trehalase degrades it in gut, poor absorption). IV/IP works in mice. Oral: mostly ineffective. | FDA-approved food additive. SAFE but POOR oral bioavailability. Not practical for this protocol without IV. |
-| **Rapamycin** | mTORC1 inhibitor → TFEB dephosphorylated → nuclear | ~1-10 nM | YES (FDA-approved, low-dose) | FDA-approved immunosuppressant. Chronic use = immunosuppression. NOT suitable for autoimmune patient. Paradox: it would help autophagy but worsen immune control of virus. |
+| **Rapamycin** | mTORC1 inhibitor → TFEB dephosphorylated → nuclear | ~1-10 nM | YES (FDA-approved, low-dose) | FDA-approved immunosuppressant. Chronic use = immunosuppression. NOT suitable for autoimmune operator. Paradox: it would help autophagy but worsen immune control of virus. |
 | **Torin1** | mTOR kinase inhibitor (more potent than rapamycin) | ~100 nM | Research tool only | Not clinical |
 | **Curcumin** | Activates TFEB via mTOR inhibition + AMPK activation | ~10-25 μM | MARGINAL (1% bioavailability, piperine helps to ~5 μM) | OTC supplement. Weak but multi-mechanism. |
 

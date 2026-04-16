@@ -20,6 +20,6 @@ Deliver autoantigens conjugated to molecules that route them to the liver (N-ace
 - **This is the purest form of the "tolerance gap" solution.** If it works, it addresses the ROOT CAUSE — the autoreactive immune response — without replacing cells or editing genes.
 
 ## The Gap It Reveals
-The concept is right. The biology is sound. The gap: **clinical validation in T1DM, with multi-antigen delivery, in the right patient population (early stage), with HLA matching.** This is an execution gap, not a conceptual one.
+The concept is right. The biology is sound. The gap: **clinical validation in T1DM, with multi-antigen delivery, in the right operator population (early stage), with HLA matching.** This is an execution gap, not a conceptual one.
 
 ## Status: PRECLINICAL FOR T1DM — concept validated in MS, platform ready, needs T1DM trial

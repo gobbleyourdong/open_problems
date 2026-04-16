@@ -1,6 +1,6 @@
 # Attempt 035: The Complete Multi-Hit Cascade — From Birth to Diagnosis
 
-## the patient's Timeline (Reconstructed)
+## the operator's Timeline (Reconstructed)
 
 ```
 BIRTH (early 1980s?)
@@ -110,7 +110,7 @@ Keto didn't just reduce insulin demand. It:
 But NOT from the beginning. Hits 1 and 2 are historical (can't un-prime). Hits 3 and 4 may have been PARTIALLY reversed by keto-era autophagy. The current state is a WEAKENED cascade — not the full force that caused the original disease.
 
 ### 4. The current 2u/meal is the SMALLEST gap in the cascade's history
-The patient has never been closer to cure than right now:
+The operator has never been closer to cure than right now:
 - Residual beta cell function: ~80%
 - Autoimmune attack: weakened by 6+ years of duration (burnout) + 5 years of keto (partial viral clearance?)
 - Already doing 18:6 IF (daily autophagy)
@@ -128,7 +128,7 @@ The patient has never been closer to cure than right now:
 
 ## The One Question That Remains
 
-**Is CVB actually persisting in this patient's pancreas right now?**
+**Is CVB actually persisting in this operator's pancreas right now?**
 
 If YES: fluoxetine + autophagy should break the loop. C-peptide will rise.
 If NO: the autoimmune attack is self-sustaining via immune memory, not virus. Harder to fix. Teplizumab becomes essential.
