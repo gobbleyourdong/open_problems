@@ -249,6 +249,17 @@ of the three meta-framework audits. 4 of 6 framework elements
 externally grounded (Treg/FOXP3 Sakaguchi, NLRP3 Martinon, NF-κB
 textbook, gut microbiome literature); 2 operator-constructed
 (dysbiosis systematization + non-progressor 5-property). **Net E1
-evidence stronger here than paired framework audits.** Strongest
-unfired test = the patient's stimulated C-peptide (discriminates
+evidence stronger here than paired framework audits.**
+
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 (every principle needs a falsifier) and v9.1 D2 (coined terms need prior-art annotation):
+
+**Would falsify:** The patient's stimulated C-peptide assay — already named as the strongest unfired test — functions as the framework's primary falsifier. Specifically: (i) if the patient (Phase-0 behavioral-wall case at medical/THEWALL.md) shows **stimulated C-peptide below the detection limit** at baseline, FM1 in FAILURE_MODES.md fires with 20% prior probability and the R > D inequality model is disconfirmed for this patient (though the CVB-clearance arm remains valid for other organs). (ii) If the patient shows **detectable stimulated C-peptide but no improvement at 6 months** despite the full protocol being run, FM3 (CVB persistence not the primary driver) fires with 25% prior probability and the "one virus, one protocol" unifying thesis is disconfirmed. (iii) Independently, if the pericarditis Tier-1 RCT (pericarditis/THEWALL.md: n=195, binary recurrence endpoint at 18 mo) shows no benefit of the fluoxetine arm over colchicine-alone, FM6 (pericarditis trial null) fires with 25% prior probability and the proof-of-concept scale-up pathway breaks. **The framework makes three specific empirical predictions (C-peptide improvement at 6 mo; CVB clearance kinetics; recurrence rate in pericarditis RCT) each of which could individually or collectively disconfirm the Treg-NLRP3 unification.** The five pre-registered failure modes in FAILURE_MODES.md + FM6 pericarditis = the most explicit falsifier structure in the non-math corpus.
+
+**Prior art:** Treg-NLRP3 cross-disease framework ≈ the "autoimmunity as Treg-effector imbalance" paradigm (Sakaguchi 1995 *Nature*; Bluestone 2010 *NEJM*; Campbell 2019 *Ann Rev Immunol*) + NLRP3 inflammasome as a cross-disease inflammatory hub (Martinon 2002 *Mol Cell* original; Strowig 2012 *Nature* review; Swanson 2019 *Nat Rev Immunol* for metabolic-disease extension). The sigma addition is the **combination of four moves**: (a) cross-disease unification (16 CVB-family diseases under one Treg/NLRP3/NF-κB/dysbiosis stack), not just autoimmunity-at-one-site; (b) dysbiosis systematized with per-run kill-criteria across 183 numerics runs; (c) non-progressor 5-property combination (Treg + low autoantibody titer + GADA-dominant + HLA-DR3-DQ2-monoalleic + C-peptide > threshold) as an empirical profile to induce therapeutically; (d) bistable-attractor framing for autoimmune state (disease attractor vs remission attractor; intervention must push across a saddle). Moves (a)+(b)+(c) are present in the prior Treg/NLRP3 literature individually; combining them into a unified cross-disease protocol with pre-registered failure modes is the contribution, not the component parts.
+
+Strongest unfired test = the patient's stimulated C-peptide (discriminates
 framework applicability for specific patient).

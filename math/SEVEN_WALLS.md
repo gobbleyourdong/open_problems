@@ -148,6 +148,6 @@ It DOES:
 | NS | Phase 4 (N=2,3,4 closed) | c(4) ≤ 0.5608 rigorous | Quantitative | c(4) = 0.3616 peak |
 | Hodge | Phase 2 (Tannakian) | g ≤ 5 proven, 4 mountains | Existential | Weil classes g ≥ 6 |
 | BSD | Phase 1 (5 mountains) | Rank 0-1 proved | Structural | Rank-2 pair missing |
-| RH | Phase 1 (stuck) | 668 zeros T=1000, Li n≤200 | Conceptual | Li ⟺ RH (no weak cert) |
+| RH | Phase 2 (5 mountains) | 689 zeros T≤1000, Li n≤1000 | Conceptual | Li ⟺ RH (no weak cert) |
 | P vs NP | Phase 0 (5 mountains) | 72 Lean theorems | Meta | Liu-Pass bridge alive |
 | **TOTAL** | | **~600K measurements, 623 Lean thms** | | |

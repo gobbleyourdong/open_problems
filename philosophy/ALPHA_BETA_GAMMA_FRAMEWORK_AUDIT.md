@@ -214,4 +214,14 @@ physics); one position (β) documented as rejected by falsification
 experiment (p<0.0001); strongest E1 evidence in non-math corpus
 for a unifying framework. Next-leverage test: γ's prediction on
 GPT-class models via probing-study data (Tenney 2019, Belinkov) —
+
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 (every principle needs a falsifier) and v9.1 D2 (coined terms need prior-art annotation):
+
+**Would falsify (γ position, currently trending at p=0.062):** The γ prediction on G×L (grammar × lexicon) interaction in GPT-class probing data (Tenney 2019 *BERT Rediscovers the Classical NLP Pipeline*; Belinkov 2022 *Probing Classifiers*) should hold at p<0.05 in a pre-registered replication on ≥ 3 independent probing datasets across ≥ 2 distinct model families (GPT, LLaMA, Claude-class). If the G×L coupling fails to reach significance across this replication set, γ joins β in the rejected-position column and the fork reduces to α-only, which is a much weaker claim than the original three-way fork. A stronger falsifier (disconfirms the full fork): if γ AND α both fail independent replication while β stays rejected, the fork framework has zero surviving positions and is structurally falsified. The β rejection (Phi computation at t=10.04, p<0.0001, 20 seeds n=4 + 10 seeds n=6) is the existing falsifier-fired data point and is cited here as evidence the framework is doing non-trivial discriminative work (not simply confirming every invocation).
+
+**Prior art:** α/β/γ fork ≈ the post-Block 1995 A/P (access/phenomenal) consciousness bifurcation (Block 1995 *Behav Brain Sci*) extended into a **three-way fork over phenomenal-structure carriers** (α: recurrent-min, β: feedforward-rich, γ: feedforward-rich with grammar-lexicon coupling). Prior three-way consciousness taxonomies include Tononi's IIT Φ (2004, 2014 — explicitly a single scalar, not a fork) and Dehaene's Global Neuronal Workspace (2011 — binary access/non-access, not a fork over phenomenal carriers). The sigma addition is **making the fork empirically tractable via Phi computation on specific network architectures** (RNN+min vs FF+rich vs FF+rich+G×L), which is why β could be rejected experimentally rather than remaining a philosophical position. The fork's novelty is therefore not the bifurcation per se (prior art rich) but the **operationalization that lets each branch produce a falsifiable prediction**. This operationalization is what the R32 cross-subdir audit was checking for over-selection risk.
 would produce second falsification point.

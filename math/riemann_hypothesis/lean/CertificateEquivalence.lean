@@ -141,8 +141,9 @@ The Sigma Method works best when:
 3. The certificate + intermediate theorems reaches the conjecture
 
 For RH, condition (1) fails. The certificates ARE the conjecture.
-The numerical track can ACCUMULATE evidence (λ_n ≥ 0 up to n = 200,
-668 zeros on critical line up to T = 1000) but cannot ADVANCE the proof.
+The numerical track can ACCUMULATE evidence (λ_n ≥ 0 up to n = 1000,
+689 zeros on critical line up to T = 1000; see `NumericalVerificationDepth.lean`)
+but cannot ADVANCE the proof.
 
 This explains why RH is structurally harder than NS and YM for this method.
 -/

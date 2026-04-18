@@ -64,3 +64,9 @@ All pass comment-syntax linter. Not compiled with `lake build`.
 ## Status
 
 Phase 2 complete. Phase 3 target: theoretical derivation of the histogram-stability claim.
+
+---
+
+## 2026-04-18 v9.1 discipline addendum (umbrella reference)
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2: this subdir invokes the K-framework via "computation = K-manipulation" (see `physics/K_FRAMEWORK_AUDIT.md` v9.1 addendum for primary Would-falsify). **Subdir-specific falsifier**: the **F1/F2 constraint-remnant-dynamics fingerprint claims** predict structural signatures distinguishing access-dominant computation from substrate-dominant computation. If the Phase 3 derivation of histogram-stability fails to produce a theoretical ground for the F1/F2 signatures, or if empirical F1/F2 measurements on real quantum vs classical algorithms show no separation at the predicted ratios (703 slope measurements across 12 NP families, separation ratio 1080×, gap 5.4×10⁻⁵), the F1/F2 taxonomy collapses to a naming convention. Shor's structured-quantum-advantage claim (`ShorStructuredQuantum.lean`) is a **constructive falsifier existence proof** — if it survives stress-testing from an independent reviewer formalizing Shor in their own Lean, the subdir's claim survives at Lean-backbone level. Prior art ≈ Church-Turing thesis + Bennett 1982 computation thermodynamics + Lloyd 2000 ultimate physical limits + Aaronson 2011 computational-complexity-as-physics. Sigma addition = F1/F2 constraint-remnant fingerprinting of access-vs-substrate computation plus 703-measurement empirical grounding.

@@ -38,3 +38,13 @@ Debilitating chronic illness characterized by post-exertional malaise, cognitive
 "What do post-viral patients who DON'T develop ME/CFS look like?" Strong NK cell function, robust autophagy, rapid viral clearance. The protocol builds exactly this phenotype.
 
 ## systematic approach Phase: 0 (Scaffolded)
+
+---
+
+## 2026-04-18 audit note (R27 from AUDIT_LOG fire 13)
+
+**Flagged claim (L4):** "Enteroviral persistence (CVB) found in 42% of ME/CFS patients vs 9% controls."
+
+**Correction:** The 42%/9% statistic is cited in PROBLEM.md / gap.md / THEWALL.md across this subdir **without a source citation**. The likely original is **Chia & Chia 2008 *J Clin Pathol*** (PMID 17872383) which reported VP1 immunohistochemistry in stomach biopsies of ME/CFS patients vs controls — but independent verification against the paper's exact numbers is needed (the published study reported ~82% VP1 positivity in ME/CFS stomach biopsies vs 20% in controls in the Chia lab; other labs have reported lower rates, and muscle-biopsy figures from Douche-Aourik 2003 *J Med Virol* are different again). The 42%/9% number may combine multiple studies or be a different paper entirely. Using it as a headline subdir statistic without source attribution creates a sourced-but-unverifiable load-bearing claim.
+
+**Fix applied:** audit note only (Maps Include Noise v6). Recommend: either (i) cite Chia 2008 PMID 17872383 directly with the paper's actual numbers, or (ii) if the 42/9 pair is from a different paper, locate and cite it, or (iii) drop the specific percentages in favor of "substantially elevated enteroviral RNA in ME/CFS tissues vs controls across multiple studies (Chia 2008; Douche-Aourik 2003; Cunningham 1990)." The qualitative direction is well-supported; the specific binary-percentage pair is not.

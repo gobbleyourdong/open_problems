@@ -143,3 +143,13 @@ The contribution is the MAP:
 6. The Gödel-Arrow parallel connects to what_is_number
 
 **The gap doesn't get crossed — it gets surrounded.** What remains is independent empirical validation against real moral psychology data.
+
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2:
+
+**Would falsify (Pareto-core-compression-predicts-salience framework):** The 91% Pareto-core agreement result (r=+0.864) and the aggregation-frontier 48% figure both come from a single cohort / dataset. **If replication in ≥ 2 independent cohorts (different culture, age band, or elicitation method) produces Pareto-core agreement below 75% or r < +0.6, the compression-predicts-salience framing is falsified for the universal cross-population claim** and must retreat to within-cohort statements. Stronger falsifier: a welfare game with a precisely-specified Pareto-optimal strategy where subjects systematically pick off-Pareto (not due to bounded rationality but due to stable reflective endorsement) — this directly violates the framework. For the aggregation-frontier ~9% residual, the irreducibility claim (Arrow-subsets structure) would be falsified if an aggregation rule satisfying all five Arrow conditions were found operating in a specific sub-domain — the framework currently predicts this is structurally impossible in the moral domain as in social choice.
+
+**Prior art:** Welfare-game formalization ≈ Binmore 1994/2005 *Game Theory and the Social Contract* (cooperation as equilibrium selection) + Sen 1970 *Collective Choice and Social Welfare* (Arrow-impossibility extensions). A/P moral bifurcation ≈ Haidt 2001 Social Intuitionist Model (moral intuition separable from moral reasoning) + Nichols 2004 *Sentimental Rules* (affect-backed vs conventional rules). Compression-predicts-salience ≈ Chater 2003 simplicity-in-cognition + Tenenbaum 2011 *Science* how-to-grow-a-mind. Sigma addition: **operationalizing A-good as a welfare-game Pareto core and quantifying the 91%/~9% split** so that the compression-framework makes a falsifiable numerical prediction (not just a qualitative ordering), and connecting the residual 9% to Arrow-impossibility structurally, which makes the "irreducible" claim itself testable by search rather than mere assertion.

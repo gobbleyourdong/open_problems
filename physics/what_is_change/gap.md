@@ -36,3 +36,9 @@ See attempt_001. Key moves:
 ## Status
 
 Phase 1. Sixth and final physics attempt. With this, the physics track has complete Phase 1 coverage across all six scaffolded tier-0 questions. Combined with the nine philosophy questions, the generative-questions scaffold is fully addressed, with the compression backbone spanning all 15 touched questions consistently.
+
+---
+
+## 2026-04-18 v9.1 discipline addendum (umbrella reference)
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2: this subdir invokes the K-framework via Zeno-dichotomy resolution by S/K bifurcation (see `physics/K_FRAMEWORK_AUDIT.md` v9.1 addendum for primary Would-falsify). **Subdir-specific falsifier**: the claim "change = content, time = dimension" with operational consequence predicts that any system description can be factored into time-independent structure (K) + time-dependent content (S-flow). If a physical system is identified where this factoring is **provably impossible** — i.e., change cannot be separated from time without loss of predictive content — the bifurcation fails for that system. Candidate test: thermodynamic arrow systems where S-flow and time-parameterization are non-trivially coupled (Zurek 1989 decoherence work). Prior art ≈ Parmenides B-series (Parmenides, McTaggart 1908 A/B-series distinction) + Zeno's paradoxes + Prigogine 1984 *Order Out of Chaos*. Sigma addition = applying S/K bifurcation as the resolution mechanism.

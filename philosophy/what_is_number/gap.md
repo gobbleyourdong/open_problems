@@ -70,3 +70,11 @@ Phase 2. Mathematics is reorganized around compression, and the Gödel residue h
 
 **Odd-track (Cycles 15,16,22):** r(math_branches, physics_apps)=+0.610 (n=20); r(math_branches, beauty)=+0.661 (n=20) p=0.002. Gödel: beautiful theorems far from boundary (mean beauty 8.67 vs CH 7.0). CONFIRMED: math breadth predicts both physics reach and beauty. See certs/cert_001_compression_number.md.
 
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2:
+
+**Would falsify:** (i) **B(ZFC) ≈ 10⁴ bits of Chaitin's Ω** — if a provably-tight construction shows B(ZFC) is materially different (e.g., O(10²) or O(10⁶)) under an accepted formalization of "bits of Ω provable in S," the specific quantitative handle on the Gödel residue fails, though the qualitative "residue exists" claim survives via Chaitin's original result. (ii) The **hierarchy-strictly-increases-B** claim predicts each large-cardinal extension of ZFC strictly increases B by a non-zero amount. If a large-cardinal axiom is found whose extension does not strictly increase B (adds consistency strength but no Ω-provability power), the monotonicity claim is falsified. (iii) **r(math_branches, beauty) = +0.661 (n=20, p=0.002)** must replicate in an independent sample at r ≥ +0.4 — an n=20 result at p=0.002 is statistically distinct from zero but its effect-size estimate is wide, and the cross-branch-beauty correlation is the key bridge to what_is_beauty. **Prior art:** Gödel 1931 incompleteness; Chaitin 1966/1987 Ω + algorithmic randomness; Feferman 1998 reflective-closure hierarchy; Tegmark 2008 MUH (the position the compression view contrasts with). Sigma addition = quantifying the Gödel residue as **B(S) bits of Ω**, giving the "residue exists" claim a numerical handle and a falsifiable monotonicity prediction.
+

@@ -2020,3 +2020,17 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 3. **Combination strategy**: Gal-1 (kills Th1/Th17) + IL-2 complex (run_151, expands Tregs) + abatacept (run_148, prevents new Th1 activation) + Gal-9/TIM-3 (run_155, exhausts residual Th1) = comprehensive Th1 elimination
 
 *T1DM THEWALL cross-reference run_170: 2026-04-12 | Galectin-1-Gal1-NOD-78%-Perone-2006 sialylation-gate-Th1-Th17-apoptosis Treg-spared-sialylated IRF1-run168-LGALS1-feedback rHsGal-1-LEX-112-Gal1-Fc IL2-run151-abatacept-run148-Gal9-run155-combination CD45-LCK-TCR-dampening serum-Gal1-ELISA | run_170*
+
+---
+
+## 2026-04-18 audit note (R35 from AUDIT_LOG fire 35): Mechanism-Counting Methodology
+
+**Flagged concern:** The cross-reference catalog in this file includes cumulative "Nth β-cell death/dysfunction mechanism" labels (e.g., "NLRP1 15th," "GATA3 27th," "IRF1 28th death mechanism"). These counts, read naïvely, can inflate the apparent mechanistic surface area of the disease — different runs often share downstream effectors (GSDMD, iNOS, mitochondrial permeabilization) while being counted as distinct upstream primers.
+
+**Intended semantics** (clarified post-audit): each number counts a **distinct upstream trigger with its own run-level kill-criteria**, not a distinct downstream effector. Multiple upstream triggers converging on the same effector (e.g., NLRP1, NLRP3, IRF1→iNOS all ending in mitochondrial permeabilization) are each **independently druggable at the upstream node** — that is why they are counted separately. The count is a **druggable-upstream-node count**, not a distinct-pathology count.
+
+**What this does not imply:** (i) that the 28 upstream triggers are pairwise independent in terms of contribution to disease (many are correlated via IFN-γ / ROS / mitochondrial stress signaling); (ii) that suppressing all 28 would be 28× as effective as suppressing one well-chosen node (downstream convergence means diminishing returns above a certain depth of intervention); (iii) that the counting is canonical — another taxonomy could merge or split nodes differently.
+
+**What it does imply:** the protocol can, in principle, intercept β-cell death at many independently-druggable upstream points, which is a feature when designing multi-node attack strategies (run_122, run_145, run_155 combination runs). Readers should interpret mechanism counts as **attack-surface cardinality**, not **distinct-disease-process cardinality**.
+
+**Fix applied:** audit note only (Maps Include Noise v6). Recommend that future runs continuing the count explicitly label each new mechanism with "(upstream node; converges at X; druggable at Y)" to close the ambiguity. The same note applies to me_cfs/THEWALL.md (R36 — propagation of this same framing).

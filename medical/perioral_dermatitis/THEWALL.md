@@ -377,3 +377,13 @@ Perioral dermatitis frequently follows topical steroid use or fluorinated toothp
 2. **UA mitophagy as steroid recovery support**: during topical steroid withdrawal phase, UA supplementation → PINK1/Parkin mitophagy → clears accumulated damaged keratinocyte mitochondria → accelerates resolution
 
 **Cross-reference: run_078 dysbiosis framework | Urolithin A PINK1 Parkin | perioral dermatitis steroid withdrawal | keratinocyte mitophagy**
+
+---
+
+## 2026-04-18 audit note (R25 from AUDIT_LOG fire 12)
+
+**Flagged claim:** Resolution-rate estimates presented as specific percentages: ">90% full compliance," "50-70% typical," "~60% no intervention."
+
+**Correction:** These figures are **model projections / internal estimates**, not published cohort statistics. The POD literature reports heterogeneous resolution rates depending on: definition of resolution (full clearance vs marked improvement); steroid-withdrawal timing; baseline severity; tetracycline vs azelaic-acid vs no-treatment arm. Published studies with hard endpoints (Sneddon 1972 original, Boeck 1997, Hafeez 2003, Jansen 2010 review) do not converge on the specific 90/50-70/60 triple. Presenting these as data-backed rates without flagging them as estimates creates a false precision that a patient/clinician reader would take as cohort-validated.
+
+**Fix applied:** audit note only (Maps Include Noise v6). Recommend: (i) re-label each rate explicitly as "model projection, unvalidated" or "clinician estimate"; (ii) cite the heterogeneous published literature with the range it actually supports (e.g., "published resolution: 60-90% within 8-12 weeks depending on compliance and intervention"); (iii) flag rebound-flare prevalence (probably the more load-bearing clinical variable for this subdir).

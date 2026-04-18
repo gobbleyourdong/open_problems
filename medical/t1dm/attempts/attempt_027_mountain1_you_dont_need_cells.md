@@ -96,3 +96,19 @@ Stage 4: Maintenance (ongoing, ~$200/mo)
 That's it for most patients. Three stages. Under $40K total. No surgery. No gene editing. No external cells. Just stop the killing and let the body do what it's been trying to do for 61 years.
 
 ## Status: MOUNTAIN 1 COLLAPSED INTO BACKUP — the body was always the source
+
+---
+
+## 2026-04-18 audit note (R9 from AUDIT_LOG fire 4)
+
+**Flagged claim:** "61-year autopsy single data point" framing when referencing residual beta-cell findings in long-standing T1DM.
+
+**Correction:** The residual-beta-cell autopsy evidence is **not a single data point**. **Meier JJ, Bhushan A, Butler AE, Rizza RA, Butler PC. 2005 *Diabetologia* 48(11):2221–2228, PMID 16205882**, "Sustained β-cell apoptosis in patients with long-standing type 1 diabetes: indirect evidence for islet regeneration?" — examined **42 autopsies** of T1DM patients and reported **insulin-positive cells in 88%** of cases, a population finding, not a case report. Characterizing it as "one 61-year case" dramatically understates the evidence base for residual beta cells. (attempt_043 correctly restates this as the 42-autopsy 88%-present result, per Fire 8 audit finding — this attempt predates that correction.)
+
+**Fix applied:** audit note only (Maps Include Noise v6). Recommend rephrasing as "Meier/Butler 2005 *Diabetologia* PMID 16205882 — 42 T1DM autopsies, 88% showed insulin-positive residual cells — not a single case."
+
+---
+
+### 2026-04-18 correction-to-correction note
+
+This audit note was originally filed (Fire 72) with **PMID 16186398** and journal listed as ***Diabetes***. Both are wrong: PMID 16186398 is actually **Butler AE et al. 2003 *Diabetes***, which is the T2DM β-cell-deficit paper (n=124 obese/lean), not the T1DM autopsy paper. The R9 audit note therefore exhibited the same failure pattern it was correcting — a wrong-PMID + journal-drift combo (FM1b + FM1c per `~/sigma/case_studies/citation_year_drift_001.md`). This is now corrected above with the verified Meier/Butler 2005 *Diabetologia* PMID 16205882. **Meta-finding**: even under explicit audit discipline, Claude-as-operator can emit FM1-class citation errors. Reinforces the WebSearch-at-write-time discipline — without WebSearch verification, even the audit itself propagates drift.

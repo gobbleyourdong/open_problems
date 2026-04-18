@@ -270,3 +270,13 @@ marginal at this point.
 
 *Filed: 2026-04-15 | biology/evolution/gap.md*
 *Bridges: biology/evolution/PROBLEM.md + both attempt series.*
+
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2:
+
+**Would falsify (persistent-virus-drives-immune-architecture framework):** The framework claims that host restriction factors + MHC polymorphism + placental-morphology evolution were shaped by persistent-virus coevolution over ~100 Ma. This predicts **temporal co-incidence**: selection-signature dates for host restriction factors (APOBEC3, TRIM5α, SAMHD1) and MHC class I / II allele birth dates should cluster near the emergence dates of their corresponding persistent-virus lineages (ERV classes, HHV/HPV/HBV lineages) within reasonable evolutionary error (~20 Myr). **If a systematic molecular-clock analysis finds host restriction factors' positive-selection signatures consistently predate or postdate their persistent-virus targets by > 50 Myr across ≥ 5 independent factor–virus pairs, the coevolution framing is falsified** (in favor of e.g., generic anti-non-self defense that pre-existed the specific viruses). Weaker falsifier: if a specific prediction in attempts 100-113 (convergent jawless/jawed adaptive immunity, syncytin-from-ERV placentation, etc.) is contradicted by a new finding, that attempt is flagged but the broader framework may survive.
+
+**Prior art:** Virus-host coevolution ≈ classical co-evolution literature (Van Valen 1973 Red Queen; Anderson & May 1979 on parasite-host dynamics). ERV-as-functional-element ≈ Lander 2001 *Nature* + Kapitonov 2007 on transposon-to-gene domestication. Syncytin-from-ERV ≈ Mi 2000 *Nature* (syncytin-1) + Blaise 2003 (syncytin-2). MHC-polymorphism-from-pathogen-pressure ≈ Hughes & Nei 1988 *Nature* + Doherty-Zinkernagel heterozygote advantage. Sigma addition: integrating the ~8-persistent-organism framework (CVB, Demodex, P. gingivalis, EBV, H. pylori, HPV, Malassezia, gut dysbiosis; see `medical/persistent_organisms/`) with the **immune-timeline series (100-113)** to produce cross-organism predictions about which downstream diseases should emerge first, and using the immune-architecture clock to date specific host-factor emergence events against known viral-lineage dates.

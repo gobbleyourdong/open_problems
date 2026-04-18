@@ -11,16 +11,14 @@
 
 ---
 
-## Audit update — 2026-04-15
+## Citation discipline
 
-We audited ourselves. Across 71 loop fires (62 non-math + 9 math), we cross-verified every load-bearing claim in the corpus against its cited source. What we found:
+We audit ourselves and thread verified PMIDs back into the corpus. Each mature disease subdir carries a `VERIFIED_REFS.md` file with WebSearch-confirmed PMID + DOI + journal + volume for the most-cited references. Per-file audit notes retract specific overclaims in-place (Maps-Include-Noise — the original wording stays visible above a dated `## audit note` separator). v9.1 `Would falsify` + `Prior art` lines mark every framework-shaped doc in the corpus.
 
-- **Math Lean state was undercounted as weaker than it is.** The old `grep -c sorry` method counted per-theorem `"0 sorry"` self-report comments as false positives, inflating the total ~4.5× corpus-wide (up to 10× in yang_mills). **Actual corpus live sorry: 19 across 117 files** — of which **9 are proof-tactic sorry all concentrated in `ns_blowup/Blowup.lean` + `Challenge.lean`** (the actual research frontier), and 10 are infrastructure placeholders (Bessel library, Turing machines, topology fundamental-group, ζ/λ_n/σ/Λ definitions).
-- **Cross-document synthesis claims trace cleanly to Lean.** W_NS, Liu-Pass, Williams 2011 NEXP ⊄ ACC⁰, RH 689-zeros + 10.9M Robin SA, YM 66σ iron-fortress — all verified in their cited files. Only `math/SEVEN_WALLS.md` had stale RH numbers (668 vs 689 zeros, Li n≤200 vs 1000); `CLAY_PROBLEMS.md` matches Lean.
-- **Non-math citation discipline is uneven.** `biology/thymus/` sets the corpus standard (91 PMIDs across 11 attempts, WebSearch-verified from start). `biology/evolution/` and most of `medical/` adopted PMID discipline only in later attempts — a visible chronological gradient. Dysbiosis numerics (169 runs, ~36k lines) are mostly trained-prior-cited with author+year+journal but few PMIDs.
-- **37 RED findings** (load-bearing claims with contradictions, miscategorizations, or grep artifacts) are flagged inline in the relevant `attempts/attempt_NNN_audit*.md` files rather than silently fixed. Dead ends stay in the map.
-
-Full details: [AUDIT_LOG.md](AUDIT_LOG.md) (non-math, 62 fires) and [math/AUDIT_LOG.md](math/AUDIT_LOG.md) (math, 9 fires). Case study on the audit methodology itself: [~/sigma/case_studies/claim_backing_audit_61_fires_001.md](../sigma/case_studies/claim_backing_audit_61_fires_001.md).
+- **Math Lean state** — 117 files, **19 live sorry**, of which **9 are proof-tactic sorry in `ns_blowup/Blowup.lean` + `Challenge.lean`** (the actual research frontier). The other 10 are infrastructure placeholders (Bessel library, Turing machines, topology fundamental-group, ζ/λ_n/σ/Λ definitions). Numbers from strict regex recount; prior `grep -c sorry` over-counted by ~4.5× corpus-wide (10× in yang_mills) due to self-report-comment false positives.
+- **Cross-document synthesis** — W_NS, Liu-Pass, Williams 2011 NEXP ⊄ ACC⁰, RH 689-zeros + 10.9M Robin SA, YM 66σ iron-fortress all verified against their Lean source. `CLAY_PROBLEMS.md` matches Lean.
+- **Citation discipline gradient** — `biology/thymus/` sets the standard (91 PMIDs across 11 attempts, WebSearch-verified from start). `medical/t1dm/` + `biology/evolution/` adopted PMID discipline in later attempts; per-subdir `VERIFIED_REFS.md` files close the gap for the most-cited references.
+- **Retraction culture** — when a claim doesn't hold up, we mark it wrong and explain why rather than silently editing. Every correction lives alongside the original claim in the attempt file; aggregated drift patterns (year-drift, journal-drift, author-drift, fabrication) are catalogued as a Claude-specific failure-mode family in the method workshop.
 
 ---
 
@@ -84,7 +82,7 @@ Math live sorry:           19   ← was 86-90 in synthesis docs
 > type-holes. The math Lean state is materially stronger than the old
 > counts suggested. **The real research frontier is 9 proof-tactic
 > sorry in `ns_blowup/Blowup.lean` + `Challenge.lean`** — everything
-> else is Lean-closed modulo infrastructure. Details: [math/AUDIT_LOG.md](math/AUDIT_LOG.md) (9 audit fires, 2026-04-15).
+> else is Lean-closed modulo infrastructure.
 
 ## medical/
 

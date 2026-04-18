@@ -1,22 +1,30 @@
 # Clay Millennium Problems — systematic approach Campaign
 
-> Updated: 2026-04-14 | 824 Lean theorems+lemmas across 129 files (non-lake) | 7 Clay + Liouville sub-campaign + Prime Numbers + philosophy/physics domains
+> Updated: 2026-04-18 (post-audit reconciliation) | 7 Clay + Liouville sub-campaign + Prime Numbers + philosophy/physics domains
+>
+> Sorry counts are LIVE tactic counts (regex `^\s*sorry\s*$|:= sorry|:= by sorry`),
+> not `grep -c sorry` which inflates ~4.5× via per-theorem `"0 sorry"` docstrings.
+> See `attempts/attempt_004_audit_corpus_wide_sorry_recount.md` for derivation.
 
-| # | Problem | Phase | Lean (thms / sorry) | Wall Type | Key Result |
-|---|---------|-------|---------------------|-----------|------------|
-| 1 | **Poincare** | SOLVED | 64 / 9 | — | 12/12 blind rediscovery, Step 9 closed |
-| 2 | **Yang-Mills** | Conditional | 74 / 18 | Quantitative | GC > 0 both regimes + Option 1 activated (66sigma) |
-| 3 | **Navier-Stokes** | Phase 4 | 485 / 41 | Quantitative | c(4) <= 0.561 rigorous, 3 eigenvector mechanisms |
-| 4 | **Hodge** | Phase 2 | 20 / 4 | Existential | Tannakian + CycleAlgebra + FermatCubic verified |
-| 5 | **Riemann** | Phase 2 | 19 / 7 | Conceptual | 5 mountains + 4 numerical depth certs |
-| 6 | **BSD** | Phase 1 | 5 / 1 | Structural | 5-mountains pair-structure formalized |
-| 7 | **P vs NP** | Phase 1 | 78 / 6 | Meta | Liu-Pass + compression asymmetry 4698x at n=18 |
-| — | **Liouville (NS sub)** | Phase 2 | 7 / 4 | — | NS backward-entry campaign |
+| # | Problem | Phase | Lean (thms / live sorry) | Wall Type | Key Result |
+|---|---------|-------|--------------------------|-----------|------------|
+| 1 | **Poincare** | SOLVED | 64 / 1† | — | 12/12 blind rediscovery, Step 9 closed |
+| 2 | **Yang-Mills** | Conditional | 74 / 2† | Quantitative | GC > 0 both regimes + Option 1 activated (66sigma) |
+| 3 | **Navier-Stokes** | Phase 4 | 485 / 9‡ | Quantitative | c(4) ≤ 0.5608 rigorous, 3 eigenvector mechanisms |
+| 4 | **Hodge** | Phase 2 | 20 / 0 | Existential | Tannakian + CycleAlgebra + FermatCubic verified |
+| 5 | **Riemann** | Phase 2 | 19 / 4† | Conceptual | 5 mountains + 4 numerical depth certs |
+| 6 | **BSD** | Phase 1 | 5 / 0 | Structural | 5-mountains pair-structure formalized |
+| 7 | **P vs NP** | Phase 1 | 78 / 2† | Meta | Liu-Pass + compression asymmetry 4698x at n=18 |
+| — | **Liouville (NS sub)** | Phase 2 | 7 / 1† | — | NS backward-entry campaign |
 | — | **Prime Numbers** | Phase 1 | 3 / 0 | — | 29 verified certificates (Artin, Brun, Cramér, Sato-Tate, ...) |
 | — | **Philosophy/mind** | Phase 1 | 10 / 2 | Experimental | beta-gamma incompatibility + 2x2 factorial spec |
 | — | **Physics/info** | Phase 1 | 5 / 1 | Conceptual | S/K bifurcation resolves info anti-problem |
 
-Lean column: theorems+lemmas / sorry count (current as of 2026-04-14; math subtotal 755 thms+lemmas, 90 sorry; grand total incl. medical/phil/physics: 824 / 92).
+† = **infrastructure placeholder** (def/axiom awaiting upstream library, not a proof gap). Poincaré: `SimplyConnected` def pending topology library. Yang-Mills: 2 Bessel-coefficient type-holes in `character_coeff_bounds` axiom. Riemann: 4 def placeholders (ζ, λ_n, σ, Λ). P vs NP: 2 Turing-machine def placeholders. Liouville: `R_crit` def.
+
+‡ = **proof-tactic sorry** (active research frontier). All 9 concentrated in `ns_blowup`: 6 in `Blowup.lean`, 3 in `Challenge.lean`.
+
+Math total: **755 thms+lemmas / 19 live sorry** = **9 proof-tactic + 10 infrastructure placeholders**. Grand total incl. philosophy/physics: **770 / 22**.
 
 ## Results by Problem
 
@@ -40,7 +48,7 @@ IntermediateBetaGap.lean: 4 options. HoeffdingCertificate: Option 1 concrete.
 ### Navier-Stokes — Phase 4 (Key Lemma closed for N=2,3,4)
 - N=2: c(2) = 1/4 proven algebraically (ExhaustiveN2)
 - N=3: c(3) = 1/3 proven algebraically (ExhaustiveN3)
-- N=4: c(4) ≤ 0.561 rigorous certificate (c4_rigorous_cert.md via Lipschitz grid)
+- N=4: c(4) ≤ 0.5608 rigorous certificate (c4_rigorous_cert.md via Lipschitz grid)
        For specific worst-case k-quadruple {[-1,0,0],[-1,1,1],[1,0,1],[1,1,1]}
 - N≥5: bounded supremum conjecture (0.27), numerically supported
 FinalKeyLemma.lean assembles the complete chain.
@@ -103,19 +111,20 @@ Papers → Manifest → Lean → Numerics → Proof Attempts → Dead Ends → G
 
 ## Current Statistics
 
-| Metric | Count |
-|--------|-------|
-| Total Lean theorems | 862 (proved or axiomatized) |
-| Lean files | 118 across 12 domains |
-| Math Lean files | 105 (7 Clay problems) |
-| Philosophy/Physics Lean | 13 (5 domains) |
-| NS Lean files | 49 (477 theorems, largest single problem) |
-| Remaining sorry | 6 (all in NS Blowup.lean = the open problem) |
-| Zero-axiom files | 12+ (HoeffdingCert, BekensteinGap, BrainKFlow, etc.) |
-| Rigorous certificates | 9 (NS: N=3,4,c(4); YM: GC+xi+FKG; RH: 4 certs) |
-| Problems with 12/12 steps | 1 (Poincare) |
-| Problems with conditional proof | 1 (Yang-Mills: 8/10 steps) |
-| Domains with Lean chain | 12 (7 math + 5 philosophy/physics) |
+| Metric | Count | Source |
+|--------|-------|--------|
+| Total Lean theorems+lemmas (math + phil/physics) | 770 | per-problem table sum |
+| Math theorems+lemmas (9 subdirs) | 755 | table above |
+| Math authored Lean files | 117 | audit fire 4 |
+| Philosophy/Physics Lean files | 13 | 5 domains |
+| NS Lean files | 54 (485 theorems, largest single problem) | audit fire 2 |
+| **Live sorry tactics, all math** | **19** (9 proof-tactic in ns_blowup + 10 infrastructure placeholders) | audit fire 4 |
+| **Proof-tactic sorry (open research)** | **9** (6 Blowup.lean + 3 Challenge.lean, both in ns_blowup) | audit fire 2 |
+| Zero-axiom files | 12+ (HoeffdingCert, BekensteinGap, BrainKFlow, etc.) | |
+| Rigorous certificates | 9 (NS: N=3,4,c(4); YM: GC+xi+FKG; RH: 4 certs) | |
+| Problems with 12/12 steps | 1 (Poincare) | |
+| Problems with conditional proof | 1 (Yang-Mills: 8/10 steps) | |
+| Domains with Lean chain | 11 (9 math subdirs + philosophy/mind + physics/info) | |
 
 ## What Changed (2026-04-09 update)
 

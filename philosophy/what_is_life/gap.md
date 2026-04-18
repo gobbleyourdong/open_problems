@@ -80,3 +80,11 @@ Consciousness tracks G×L×T (r=+0.996), not life score (r=+0.491), not brain ne
 2. Life-mind independence proven (LLM existence proof)
 3. Consciousness gradient mapped across biology (G×L×T, not life score)
 4. Connection to what_is_good (welfare salience tracks consciousness gradient)
+
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2:
+
+**Would falsify:** (i) **6-dim compression definition of life**: r(6-dim, expert-consensus) = +0.906, p<0.001, n=14 — **must replicate in an independent expert panel at r ≥ +0.7**. If not, the 6-dim unification collapses to the specific panel sampled. (ii) **Life-mind independence (LLM existence proof)**: the existence-proof claim is logical rather than empirical, so falsification routes through the definition itself — if the 6-dim life score is shown to mis-classify LLMs (e.g., scores high but LLMs are argued to satisfy both the 6-dim life criteria AND have mind-relevant properties under a defensible definition), the "independence" framing collapses to "both depend on something else" (e.g., compression-competence). (iii) **Consciousness gradient G×L×T across biology** (P22): welfare-salience should track G×L×T across species. If a species with high G×L×T scores low on welfare-relevant behavior (e.g., measurable response to aversive stimuli matching its claimed consciousness gradient), P22 is disconfirmed for that species and the gradient/behavior mapping needs revision. **Prior art:** Life-as-autopoiesis ≈ Maturana & Varela 1980; life-as-NESS ≈ Schneider & Kay 1994 thermodynamic; life-as-replicator ≈ Dawkins 1976; life-as-information-integration ≈ cross-disciplinary (Walker & Davies 2013). Sigma addition = **compression-based 6-dim unification of the 6 life-ontologies + explicit life-mind-independence via LLM existence proof** (rather than the more common "life implies mind" conflation in the hylemorphic tradition).

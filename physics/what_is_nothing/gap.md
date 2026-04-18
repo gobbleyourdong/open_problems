@@ -129,4 +129,14 @@ Phase 4 complete. The main theoretical contributions are:
 6. **Anti-Problem + Vacuum Fixed Point** (attempt_005 + VacuumFixedPoint.lean) — 0 falsifications across 5 routes; cross-problem synthesis
 7. **Phase 5 Self-Check** (attempt_006) — honest audit; K-minimality downgraded to 60% confidence candidate pattern; 3 results mathematically real, 3 candidate, 1 artifact
 
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2:
+
+**Would falsify (K-Minimal Vacuum principle + K-Weighted Measure):** (i) **K-Minimal Vacuum principle** predicts the physical vacuum's fine-tuning corresponds to K-minimality under a specific compression scheme. The principle is already at 60% confidence per attempt_006's honest self-downgrade — if a **physically-motivated compression scheme distinct from the one used in attempts 003/004 produces a materially different K-minimum** (e.g., one that predicts CC ≈ 10⁻¹²⁰ vs the current framework's prediction), the specific compression-scheme-dependence of the principle weakens. (ii) **K-Weighted Measure** predicts Boltzmann Brain suppression at 10⁻²⁹⁵⁰. If a pathology-free measure independent of K-weighting (e.g., a future development in the cosmological-measure program, Aguirre/Johnson class) produces BB suppression at a materially different order of magnitude (say, 10⁻⁵⁰⁰ or 10⁻⁵⁰⁰⁰), the specific 10⁻²⁹⁵⁰ number is revealed as compression-scheme-dependent rather than absolute. (iii) The author's self-named selection artifact (F1-F5 chosen to favor K-minimality) is the **already-known** falsification route and is preserved as a map feature per Maps-Include-Noise. A stronger falsifier for the broader K-framework claim routes through the umbrella K_FRAMEWORK_AUDIT.md v9.1 addendum (Q10=1.68 SP hypothermia test).
+
+**Prior art:** Cosmological-constant-from-selection ≈ anthropic selection on landscape (Weinberg 1987, Bousso-Polchinski 2000 landscape) + Douglas-Kachru 2007 landscape enumeration. Boltzmann Brain problem ≈ Dyson-Kleban-Susskind 2002 + Page 2006 on measure problems. Pathology-free measure ≈ Aguirre-Johnson 2007 + Guth-Vanchurin 2011. Sigma addition: reframing the vacuum-selection question as **K-minimality under a specific compression scheme** (rather than probability in a landscape ensemble), which links to the broader K-framework cross-subdir program and makes vacuum-tuning a compression-driven rather than probability-driven problem. This extension is what the Phase 5 self-check honestly labels as 60% confidence and the F1-F5 selection-artifact flag.
+
 The remaining open component — (d) vacuum evolution — is under active observational test (DESI/Euclid/LSST ~2030). The strongest pending test is T2 (static vs running Λ). Landscape reality (R2) remains the deepest assumption.

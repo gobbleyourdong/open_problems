@@ -50,3 +50,29 @@ This is the strongest theoretical argument that persistent infection is a termin
 **Remaining gap:** Structural confirmation that fluoxetine pocket geometry (not just residue identity) is conserved across CVB1–5. Without crystal structures for CVB1, 2, 4, 5 2C (only CVB3 2C has a solved structure, PDB 5B11), this is inferred from functional data only.
 
 ## Status: FIRST REAL SEQUENCE ANALYSIS COMPLETE — universal targets identified, TD irreversibility formalized, fluoxetine cross-serotype gap identified
+
+---
+
+## 2026-04-18 audit note (R37 from AUDIT_LOG fire 43)
+
+**Flagged claim (L34-40):** Reversion-probability derivation
+```
+P(revert in 1 round) ≈ (1/4)^14 × μ_effective
+                     ≈ 3.7 × 10⁻⁹ × 3×10⁻⁵
+                     ≈ 10⁻¹³
+```
+
+**Correction — dimensional issue:** The derivation multiplies a **sequence-space fraction** `(1/4)^14 ≈ 3.7 × 10⁻⁹` (fraction of 14-nt words matching a specific target sequence, dimensionless) by a **mutation rate** `μ_effective ≈ 3 × 10⁻⁵ per site per replication` (has dimensions). The product is not a well-defined "probability of reverting in one round" — the two quantities are answering different questions.
+
+**Corrected framing — two cleaner upper bounds:**
+
+1. **Simultaneous-restoration upper bound** (per-replication):
+   P(all 14 positions restored correctly in a single replication)
+   ≤ (μ/3)^14 ≈ (10⁻⁴)^14 ≈ 10⁻⁵⁶
+   This is vanishingly small — essentially zero over any biologically relevant timescale.
+
+2. **But the deletion case is different.** The TD mutants have **deletions of 14+ nt at the 5'UTR, not point mutations**. Reverting a deletion requires a precise **insertion** of 14 specific nucleotides at the correct position, which is orders of magnitude rarer than point mutations (typical indel rates 10⁻⁷–10⁻⁸ per site, and a specific 14-nt insertion at a specific location is astronomically rare). So the correct argument is: **TD reversion requires a precise multi-nt insertion event**, which (a) has no positive-selection pathway in the host environment (WT is immediately cleared; so even if a reversion occurred, it would be eliminated before it could propagate), and (b) has no known biochemical pathway at the required rate in CVB.
+
+**Conclusion unchanged; derivation rewritten:** TD mutants are evolutionarily locked in not because of the 10⁻¹³ number (which was dimensionally muddled) but because (i) precise multi-nt insertion is vastly rarer than point mutation, and (ii) the host environment actively selects against any reversion that does occur by immediately clearing WT.
+
+**Fix applied:** audit note only (Maps Include Noise v6). The "Permanent Crippling Corollary" at L30 still stands; only the calculated magnitude for P(revert in 1 round) needs replacing with the deletion-reversion argument above.

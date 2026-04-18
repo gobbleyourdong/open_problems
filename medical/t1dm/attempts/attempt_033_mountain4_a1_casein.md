@@ -114,3 +114,13 @@ The A1/A2 hypothesis is NOT proven for T1DM. The epidemiology is suggestive, the
 For the operator: the priming already happened decades ago. You can't unload the gun. But you CAN address the trigger (CVB) and the amplifiers (gut dysbiosis, vitamin D, beta cell stress). The A1 casein story explains HOW you got here. The protocol addresses WHERE YOU GO.
 
 ## Status: HIT 1 MAPPED — A1 casein primed the autoimmune response, BCM-7 opened the gate
+
+---
+
+## 2026-04-18 audit note (R10 from AUDIT_LOG fire 5)
+
+**Flagged claim:** A1/A2 casein epidemiology → T1DM causality framing, with BCM-7 "opening the gate."
+
+**Correction:** The A1-casein/T1DM causal hypothesis is **not settled**. (i) **EFSA 2009** scientific opinion ("Review of the potential health impact of β-casomorphins and related peptides") concluded no causal relationship between A1 casein/BCM-7 and non-communicable diseases including T1DM could be established. (ii) **TRIGR (Trial to Reduce IDDM in the Genetically at Risk) 2018** *JAMA* (Knip et al., PMID 30027203) — a randomized trial of hydrolyzed vs standard cow's-milk formula in 2,159 genetically-at-risk infants — found **no significant reduction in T1DM-associated autoantibodies or clinical T1DM** (HR 1.00, 95% CI 0.77–1.28). This is the largest randomized test of the early-milk-exposure hypothesis and it did not support a causal effect. The attempt's "TRIGR failed but tested it wrong" framing is a reasonable research-direction critique but does not license presenting the hypothesis as settled.
+
+**Fix applied:** audit note only (Maps Include Noise v6). Recommend adding EFSA 2009 + TRIGR 2018 PMID 30027203 citations in-text and re-labeling status as "HYPOTHESIS-ONLY — primary causal trial null."

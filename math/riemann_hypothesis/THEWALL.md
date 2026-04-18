@@ -61,7 +61,7 @@ Every non-trivial zero of ζ(s) has real part 1/2.
 ### Session 2-3 (Cron)
 | Certificate | Range | Status |
 |-------------|-------|--------|
-| Turing verification | T ≤ 1000 | **668 zeros, ALL on critical line** ✓ (refined count) |
+| Turing verification | T ≤ 1000 | **689 zeros, ALL on critical line** ✓ (per `NumericalVerificationDepth.lean` `candidates_checked := 689`; earlier "668" count superseded 2026-04-15) |
 | T=200,500 (C₀ corrected) | T=200: 79 zeros, T=500: 269 zeros | **EXACT** match with N(T) ✓ |
 | T > 1000 | overcounts | Needs higher-order R-S correction terms |
 

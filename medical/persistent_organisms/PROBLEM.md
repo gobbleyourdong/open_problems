@@ -38,7 +38,7 @@ chronic inflammation after clearance) and generalized in
 |---|----------|-------------------|----------------------|--------------------|---------|
 | 1 | **Coxsackievirus B (CVB)** | Pancreas, heart, muscle | T1DM, myocarditis, DCM, pericarditis, pancreatitis, pleurodynia, some ME/CFS | Fluoxetine (cellular antiviral), BHB, NLRP3 suppressors | Colchicine, ivermectin (NF-κB), metabolic (keto for β-cell rest) |
 | 2 | **Demodex folliculorum / brevis** | Hair follicle, meibomian gland | Rosacea, blepharitis, MGD, chalazion, POD | Tea tree oil / T4O, topical + oral ivermectin, lotilaner (ocular), permethrin, sulfur | Doxycycline 40 mg, omega-3, hypochlorous acid |
-| 3 | ***Porphyromonas gingivalis*** | Periodontal pocket | Periodontitis, rheumatoid arthritis, Alzheimer's association, atherosclerosis, preterm birth | Professional periodontal therapy, anti-gingipain (COR388 trialed) | Doxycycline, systemic anti-inflammatory, RA-specific DMARDs if needed |
+| 3 | ***Porphyromonas gingivalis*** | Periodontal pocket | Periodontitis, rheumatoid arthritis, Alzheimer's association, atherosclerosis, preterm birth | Professional periodontal therapy, anti-gingipain (COR388/atuzaginstat — GAIN Phase 2/3 **failed primary endpoint 2021**; Cortexyme → Quince pivot; no active clinical program) | Doxycycline, systemic anti-inflammatory, RA-specific DMARDs if needed |
 | 4 | **Epstein-Barr virus (EBV)** | B cell latency | MS (Bjornevik 2022 causal), several lymphomas, post-viral fatigue, autoimmunity | Valacyclovir (limited in latent cycle), tenofovir alafenamide (experimental) | Vitamin D, immunomodulation per downstream syndrome |
 | 5 | ***Helicobacter pylori*** | Gastric mucosa | Gastric ulcer, gastric cancer, MALT lymphoma | Triple/quadruple antibiotic therapy, bismuth regimens | PPI, mucosal healing |
 | 6 | **HPV (high-risk types)** | Basal epithelium | Cervical, oropharyngeal, anal cancers | Vaccination (prophylactic), imiquimod / 5-FU / cryo for lesions | LEEP / conization; no systemic clearance for established disease |
@@ -163,3 +163,13 @@ or direct operator instruction.
 
 *Filed: 2026-04-15 | medical/persistent_organisms/PROBLEM.md*
 *Companion: biology/evolution/ (viral side), medical/blepharitis/results/persistent_organism_pattern.md (original synthesis, now migrated here conceptually)*
+
+---
+
+## 2026-04-18 audit note (R28 from AUDIT_LOG fire 15; cross-confirmed by prior content-audit C23)
+
+**Flagged claim (L41):** "anti-gingipain (COR388 trialed)" implied as an active clearance option for *P. gingivalis*.
+
+**Correction:** COR388 / **atuzaginstat** (Cortexyme) **failed its GAIN trial Phase 2/3 primary endpoint in October 2021** in mild-to-moderate Alzheimer's disease. Cortexyme subsequently paused development, faced FDA clinical hold on safety signals (hepatotoxicity + subsequent questions about efficacy subgroup analyses), and pivoted to Quince Therapeutics with different program focus. **As of 2026, there is no active anti-gingipain clinical program for Alzheimer's or periodontitis**. This was independently identified by (i) my structural audit (R28), and (ii) the prior biology/evolution content audit (C23 at `medical/blepharitis/results/claim_audit_2026-04-15.md`) via different paths — structural vs WebSearch — a clean **cross-audit convergence** documented in the audit synthesis as an example of Three-Source-Triangulation retraction-culture evidence.
+
+**Fix applied:** L41 inline updated to note GAIN failure + Cortexyme → Quince pivot. Original wording preserved above separator per Maps-Include-Noise v6.

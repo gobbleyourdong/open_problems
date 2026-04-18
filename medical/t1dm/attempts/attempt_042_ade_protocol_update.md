@@ -169,3 +169,13 @@ The gap is now a SYSTEM question with THREE quantifiable unknowns:
 3. **Immune reset timing:** How long after viral + antibody clearance must you wait before teplizumab for optimal effect? (Clinical study design question, not an experiment)
 
 ## Status: ADE ADDS A STEP — must clear antibodies AND virus before immune reset
+
+---
+
+## 2026-04-18 audit note (R17 from AUDIT_LOG fire 7)
+
+**Flagged claim:** rituximab recommended for clearing ADE-generating non-neutralizing VP4 antibodies before immune reset.
+
+**Correction:** This extends a **Soppela VLP-ΔVP4 vaccine-design caution** (worry about vaccine-induced non-neutralizing antibodies) into a **therapeutic protocol in T1DM** without engaging the existing rituximab-in-T1DM evidence base. Pescovitz et al. 2009 *NEJM* (PMID 19915291) — the TrialNet randomized rituximab trial in newly diagnosed T1DM — used a different rationale (anti-CD20 → B-cell depletion → reduced autoantigen presentation) and showed **modest C-peptide preservation at 1 year but the effect was lost by year 2**. The trial did not support rituximab as disease-modifying in T1DM long-term. Recommending rituximab here without citing Pescovitz 2009 risks reinventing a failed trial with a slightly different rationale.
+
+**Fix applied:** audit note only (Maps Include Noise v6). Recommend citing Pescovitz 2009 PMID 19915291 in-text and re-framing as "rituximab already trialed in T1DM with different rationale; effect waned by year 2 — the ADE-antibody rationale is a potentially distinct justification but needs its own trial, not retrofit to existing rituximab data."

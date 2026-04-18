@@ -1717,3 +1717,15 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 3. **NK pool dynamics**: Gal-1 targets exhausted/activated NK cells (high CD45 polyLacNAc) → eliminates exhausted NK pool → NK homeostatic proliferation possible; net effect uncertain in ME/CFS (low NK numbers + perforin deficit); requires careful monitoring
 
 *ME/CFS THEWALL cross-reference run_170: 2026-04-12 | EBV-Gal1-CTL-evasion-LGALS1-upregulation viral-persistence systemic-Gal1-CONTRAINDICATED-EBV anti-Gal1-antibody-restore-CTL NK-exhausted-Gal1-target homeostatic-NK-proliferation EBV-viral-load-monitor-before-Gal1 | run_170*
+
+---
+
+## 2026-04-18 audit note (R36 from AUDIT_LOG fire 36): Mechanism-Counting Methodology (ME/CFS)
+
+**Propagation of R35 from t1dm/THEWALL.md.** This file uses the same counting convention ("eighth NK functional gate," "double-deficit [IRF1+T-bet]," "second PEM mechanism") applied to ME/CFS pathology. The methodology note at `medical/t1dm/THEWALL.md` (audit-note section, 2026-04-18) applies verbatim here:
+
+- Counts refer to **druggable-upstream-node cardinality**, not distinct-disease-process cardinality.
+- Downstream effectors frequently converge (mitochondrial dysfunction, IFN-γ signaling, perforin-deficit NK pool); the count does not claim mutual effector-independence.
+- Protocol design uses the count for **multi-node attack-surface** planning, not for disease-severity inference.
+
+**Fix applied:** audit note only (Maps Include Noise v6). The parent methodology clarification is at `medical/t1dm/THEWALL.md` §"Mechanism-Counting Methodology"; ME/CFS-specific counts inherit the same semantics.

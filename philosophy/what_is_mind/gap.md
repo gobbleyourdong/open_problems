@@ -115,3 +115,11 @@ Phase 2 complete. Key quantitative results:
 loop-topology-as-primary-driver claim. γ is confirmed at small scale. The decisive remaining
 test is at larger scale (n > 20) where loop topology may genuinely dominate — but this is
 currently computationally unreachable (Phi#P-hard, Phi* approximation fails).**
+
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2:
+
+**Would falsify:** (i) The G×L γ prediction currently at p=0.062 trending must reach p<0.05 in pre-registered replication (see `philosophy/ALPHA_BETA_GAMMA_FRAMEWORK_AUDIT.md` v9.1 addendum for the full replication protocol). (ii) The self-model/loop-ratio effect (43× at n=4, 4× at n=6) must not collapse to ~1× at n=10–15 where Phi is still approximately computable; if the ratio trend continues toward 1×, γ's predicted scaling inverts and β is rehabilitated. (iii) The Phi#P-hardness result (attempt_007) is itself a falsifier-of-scaling-extrapolation: if a tractable Phi-approximation is discovered that preserves the β-vs-γ ordering at large n, the "computationally unreachable" framing was premature. **Prior art:** IIT Phi ≈ Tononi 2004/2014; Phi#P-hardness = Aaronson 2014 lower bounds; feedforward-vs-recurrent phenomenal-structure fork ≈ Block 1995 A/P + Lamme 2006 recurrence-theory. Sigma addition = operationalizing the three-way fork at network-topology level with explicit n-scaling predictions, making β directly rejectable (already fired at p<0.0001).

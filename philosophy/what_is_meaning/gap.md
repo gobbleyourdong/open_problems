@@ -55,3 +55,11 @@ Phase 1 done (bifurcation established). Phase 2 (testing position ii empirically
 
 **Odd-track (Cycles 13,19):** A-meaning gap = 0.007 at GPT-4 (CLOSED). P-meaning residue = 0.307 (OPEN). r(P-sensitivity, LLM-human gap)=+0.921, p=0.0001. γ prediction consistent: (1-G×L)×0.307≈0.270 vs observed 0.307. See certs/cert_001_meaning_gap.md.
 
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2:
+
+**Would falsify:** (i) **A-meaning gap = 0.007 at GPT-4** claim must replicate on a distinct functional-semantics benchmark (beyond the one tested) at gap ≤ 0.05 — if a carefully-designed benchmark shows the gap is substantially larger (e.g., 0.10+), A-meaning-as-inferential-role under-captures the functional semantics and Position i needs narrowing. (ii) **γ prediction consistency**: (1-G×L)×0.307 ≈ 0.270 vs observed 0.307 — if G×L probing on a new model family (per `philosophy/ALPHA_BETA_GAMMA_FRAMEWORK_AUDIT.md` v9.1 addendum) yields a materially different G×L value, the predicted-vs-observed match is substrate-specific rather than structural. (iii) **Position ii discrimination test**: the gap notes that a test distinguishing position (i) from position (ii) is buildable. The falsification condition for position (ii) as stated: "Position ii confirmed if meta-representational architecture + blind evaluation indistinguishable" — the **falsification of position ii** would be: meta-representational architecture with blind evaluation distinguishable from P-meaning in humans on at least one pre-registered metric. **Prior art:** A/P meaning bifurcation ≈ Block 1995 A/P consciousness applied to meaning; inferential-role semantics ≈ Brandom 1994/2000; phenomenal grasp vs functional-grasp ≈ Chalmers 1996 Hard Problem applied to semantics. Sigma addition = quantifying the A/P split numerically (0.007 vs 0.307) with a γ-framework prediction reproducing the P-residue within ~12%.
+

@@ -148,3 +148,15 @@ The protocol now has a SPECIFIC virology target:
 The autophagy angle is now DOUBLY important: FMD-induced autophagy doesn't just clear damaged beta cells — it **clears virus-infected cells.** Autophagy is the body's antiviral mechanism. Fasting activates antiviral defense AND regeneration simultaneously.
 
 ## Status: THE TROJAN HORSE IS CONFIRMED — CVB rides monocytes, hides via TD deletions, exits in exosomes
+
+---
+
+## 2026-04-18 audit note (R11 + R12 + R13 from AUDIT_LOG fire 5)
+
+**R11 — DiViD-Intervention numbers (11%/24%/86%/67%):** Krogvold et al. 2023 *Nature Medicine* reported primary-endpoint results as **stimulated C-peptide geometric means** (not the 11/24/86/67 percentage quartet cited). The specific percentages presented here do not match the primary-endpoint publication; they may have been re-calculated from secondary measures or summarized by hand, but they are not reproducible from the primary paper. Do not cite them as "DiViD-Intervention primary result."
+
+**R12 — "Fluoxetine > pleconaril vs TD mutants":** This is a **hypothesis, not a published finding**. There is no head-to-head human fluoxetine-vs-pleconaril efficacy study in T1DM. Pleconaril (failed enterovirus drug, discontinued) and fluoxetine (SSRI with off-target enterovirus 2C affinity) have different mechanisms; comparative in-vitro data against truncated/deletion (TD) mutants exists (Bauer 2019 *Nat Microbiol* and related work) but does not translate to a clinical superiority claim.
+
+**R13 — "Enterovirus + cow's-milk interaction P=0.001":** This composite number appears to synthesize multiple DIPP sub-analyses rather than being a single pre-specified interaction test. DIPP (Oikarinen, Laitinen, Knip et al., various papers) has reported component effects (enterovirus autoantibody association; cow's-milk autoantibody association) but a single "P=0.001 interaction" value requires identification of a specific paper + statistical test. Without that, the number is an artifact of combining sub-analyses.
+
+**Fix applied:** audit note only (Maps Include Noise v6). Recommend: (R11) replace with direct quote from Krogvold 2023 *Nat Med* + PMID; (R12) reword as "in-vitro data suggests fluoxetine binds 2C in a region that may be conserved in TD mutants; no head-to-head clinical data"; (R13) drop the composite P-value or re-derive with explicit named test and paper.

@@ -355,3 +355,15 @@ The answers to those 6 tests determine:
 **The gap is not a concept. The gap is $1,200 of bloodwork.**
 
 ## Status: EVERYTHING CONNECTED — 43 attempts, 5 mountains, 1 operator, 1 blood draw
+
+---
+
+## 2026-04-18 audit note (R18 + R19 + R20 from AUDIT_LOG fire 8)
+
+**R18 — D-LDH / D-lactate mechanism wrong.** Humans **do** have mitochondrial D-lactate dehydrogenase (LDHD gene; Flick & Konieczny 2002 *J Biol Chem*; de Bari 2002) — the premise "no human D-lactate metabolism" is false. Additionally, "D-lactate triggers gluconeogenesis without being consumed" is self-defeating (gluconeogenesis is a consumption pathway). The published D-lactic-acidosis literature (Petersen 2005 *NEJM*) reports symptomatic D-lactate at >3 mmol/L, **three orders of magnitude above** what ordinary gut dysbiosis produces. No published human data supports subclinical D-lactate as a T1DM driver. The mechanism should be retracted or downgraded to explicit speculation.
+
+**R19 — CVB → thyroid → Hashimoto's overstatement.** "Three diagnoses, one virus" overstates a hypothesis. CAR (coxsackievirus-adenovirus receptor) expression in thyroid is documented (Fechner 1999 *Cardiovasc Res*) and thyroiditis cases following enteroviral infection exist, but a **causal CVB → Hashimoto's link in humans is not established**. APS-II/III (autoimmune polyendocrine syndromes) with shared HLA-DR3-DQ2 risk is at least as well-supported as a non-viral explanation for T1DM + Hashimoto's co-occurrence.
+
+**R20 — L. plantarum DL-lactate.** *Lactobacillus plantarum* produces **both D- and L-lactate** (heterofermentative-capable; Pessione 2012; Hofvendahl 2000). The Stage-1b probiotic substitution described here as "L-lactate-only strains: L. rhamnosus GG + L. plantarum 299v" is **mis-specified for L. plantarum** (L. rhamnosus GG is correctly L-lactate-only; L. plantarum 299v produces DL). If the clinical goal is pure-L production, L. plantarum should be replaced with a strain like L. rhamnosus GG or L. acidophilus.
+
+**Fix applied:** audit note only (Maps Include Noise v6). R18 is the most load-bearing correction (whole sub-hypothesis collapses); R19 requires downgrading from "confirmed cross-disease" to "hypothesis needing dedicated cohort"; R20 requires a concrete strain substitution if the DL issue is kept load-bearing.

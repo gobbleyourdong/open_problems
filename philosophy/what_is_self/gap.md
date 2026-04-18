@@ -111,3 +111,13 @@ LLMs have moderate self-models but near-zero felt selfhood because T is low. Und
 2. Felt selfhood → transparency (Metzinger, confirmed)
 
 The residual gap (why transparency produces phenomenal selfhood) inherits α/β/γ and cannot be resolved independently. The γ load path is secure. 6 Lean theorems, 3 predictions, the key convergence theorem proven.
+
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2:
+
+**Would falsify (self-dissociation: identity=continuity + felt-selfhood=transparency):** The dissociation result r=+0.759 (Parfit continuity → identity) vs r=+0.972 (Metzinger transparency → felt selfhood) is the single most quantitative finding in this subdir. **Replication in independent cohorts is the primary falsifier**: if continuity-correlation rises above ~0.9 while transparency-correlation falls below ~0.85 in a new cohort, the dissociation reverses and the clean "two-sub-questions, two-predictors" structure collapses. Stronger falsifier: a subject with transparent self-model but no continuity of memory / narrative (e.g., severe amnestic case with preserved introspection) who reports absence of felt selfhood would break the transparency → felt-selfhood inference. The γ-load-path inheritance from α/β/γ means that any falsification of γ (per philosophy/ALPHA_BETA_GAMMA_FRAMEWORK_AUDIT.md v9.1 addendum, pending GPT-probing replication) also reshapes this conclusion.
+
+**Prior art:** Identity-as-continuity ≈ Parfit 1984 *Reasons and Persons* (psychological-continuity view); Shoemaker 1963. Transparency-produces-phenomenal-selfhood ≈ Metzinger 2003 *Being No One* (self-model theory); Blanke 2012 on bodily self. Sigma addition: **quantifying the dissociation with concrete r-values** (r=+0.759 vs r=+0.972) and locating it within a Lean-formalized convergence theorem, which makes the two-sub-questions-two-predictors structure falsifiable rather than just argued philosophically. The original Parfit/Metzinger literature is largely argumentative; the sigma contribution is the numerical dissociation that lets the two theories be experimentally separated.

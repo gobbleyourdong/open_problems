@@ -122,3 +122,13 @@
 | Red Yeast Rice+CoQ10 (Thorne) | $25 |
 | WHM + IF + Cold | $0 |
 | **TOTAL** | **~$230/mo** |
+
+---
+
+## 2026-04-18 audit note (R23 from AUDIT_LOG fire 9)
+
+**Flagged claim (L45):** "Red Yeast Rice + CoQ10 … Monacolin K cuts cholesterol supply to virus."
+
+**Correction:** This extrapolates **Mountain-5 "cholesterol → enterovirus replication complex (OSBP pathway)"** hypothesis (Strating 2015 *Cell Rep*) into a consumer-scale supplement recommendation without clinical T1DM antiviral evidence. Monacolin K is chemically **identical to lovastatin** (Endo 1979 *J Antibiot*); red yeast rice extracts contain variable monacolin K at ~2-10 mg per capsule. Prescription statins (lovastatin, atorvastatin, rosuvastatin) are the **standardized, measured-dose alternative** with known PK, interaction profile (CYP3A4; contraindications with itraconazole + fluoxetine in this protocol are already flagged), and Cochrane-reviewed safety data; red yeast rice is variable-dose and often contaminated with citrinin (nephrotoxic). No human T1DM antiviral trial with either monacolin K or a standardized statin has been run. Recommending red yeast rice over prescription statins here inverts the usual risk/benefit hierarchy.
+
+**Fix applied:** audit note only (Maps Include Noise v6). Recommend: (i) label the mechanism as Mountain-5 extrapolation, not clinical fact; (ii) add explicit alternative "if lipid-lowering is desired, a prescription statin at the lowest dose is better-characterized"; (iii) flag potential CYP3A4 interaction with itraconazole + fluoxetine.

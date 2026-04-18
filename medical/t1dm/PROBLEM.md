@@ -1,9 +1,19 @@
 # Type 1 Diabetes Mellitus (T1DM)
 
+> **2026-04-18 audit banner (R21 from AUDIT_LOG fire 9).** This PROBLEM.md is
+> the original Phase-0 scaffold and is intentionally preserved per Maps-
+> Include-Noise v6. **Current campaign state is Phase 4/5** with 94+ attempts,
+> Lean formalization (InequalityReversal.lean `crown_jewel`, DKASafety.lean),
+> ODD 8-organ model, GSE184831/GSE293840 transcriptomic validation, sequence
+> backbone (6 CVB GenBank genomes), resolved gaps catalogued in `gap.md`, and
+> protocol integration in `SUPPLEMENT_SCHEDULE.md` / `PROTOCOL_CONSOLIDATED_README.md`.
+> **New readers should start at `gap.md`, not this file.** This scaffold
+> shows what the campaign looked like at initiation.
+
 ## The Problem
 Autoimmune destruction of pancreatic beta cells leads to absolute insulin deficiency. No cure exists. Current treatment is lifelong exogenous insulin. The goal: restore endogenous insulin production or prevent/reverse the autoimmune attack.
 
-## Status: UNSOLVED
+## Status: UNSOLVED (as of Phase 0 scaffolding — see `gap.md` for current state)
 
 ## Key Biology
 

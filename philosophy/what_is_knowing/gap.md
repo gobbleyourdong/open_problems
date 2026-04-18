@@ -69,3 +69,13 @@
 ## Assessment
 
 **what_is_knowing is substantially done.** A-knowing reduces 81% to compression. The testimony argument is confirmed (Reid wins). The depth/breadth tradeoff is confirmed. The residual (virtue epistemology ~19%) is precisely characterized. P-knowing inherits the mind fork. 8 Lean theorems (1 sorry), 3 predictions (1 confirmed).
+
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2:
+
+**Would falsify (A-knowing-reduces-81%-to-compression):** The 81% figure depends on operationalized scoring of 5 post-Gettier conditions against a compression-reduction measure. **Replication in an independent coder cohort should yield ≥ 70% reduction to count as the same result**; if it falls below 60%, the reduction is non-robust and the compression frame loses explanatory share. The remaining 19% (virtue epistemology) is labeled "precisely characterized" — if that 19% can itself be absorbed into a compression-plus-reliability frame with ≥ 50% additional reduction, the virtue-epistemology-as-residual claim loses force (the residual collapses into the core, not a distinct category). Conversely, if a sixth post-Gettier condition is constructed and shows < 30% reduction to compression, the residual grows and the 81% claim weakens.
+
+**Prior art:** Post-Gettier conditions ≈ Gettier 1963 *Analysis* + Goldman 1967 causal theory + Nozick 1981 tracking + Sosa 2000 virtue + Williamson 2000 knowledge-first. Testimony as noisy-channel ≈ Shannon 1948 information theory applied to epistemology (Fricker 1995; Lackey 2008 testimony literature). Reid-wins-over-Hume on testimony ≈ Coady 1992 *Testimony: A Philosophical Study*. Sigma addition: **quantifying the A-knowing → compression reduction at 81% load-weighted**, operationalizing the testimony-channel via Shannon noisy-channel formalization, and producing a coherent A/P bifurcation that parallels what_is_meaning's A/P split with shared structure (so both subdirs' predictions rise and fall together under replication).

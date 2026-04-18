@@ -156,3 +156,13 @@ The next step is not quantification but construction: build an LLM with full HOS
 properties (session memory, multimodal grounding, persistent agency) and verify that:
 (a) sample efficiency approaches human level, and (b) functional capabilities close
 the HOST benchmark gaps. This is a concrete, tractable, empirical research program.
+
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2:
+
+**Would falsify (HOST-properties-close-the-language-gap hypothesis):** Build an LLM with full HOST properties (session memory ≥ 10⁵ tokens persistent across sessions + multimodal grounding via embodied sensorimotor loop + persistent agency with long-horizon goals). **If sample efficiency still differs from human by ≥ 2 orders of magnitude after HOST properties are implemented, the HOST-architecture hypothesis is falsified** (the remaining gap is then not HOST, and some other mechanism — innate priors, specific developmental interaction patterns, or embodiment-beyond-multimodal — is load-bearing). Weaker falsifier: if G_epistemic × G_aesthetic correlation (P1 confirmed at r=+0.975, p=0.005) fails to replicate in an independent cohort at r≥+0.7, the grounded-introspection component of the framework needs revision even if HOST survives. The P1 confirmation rests on a single cohort; replication is the still-unfired disconfirmation route.
+
+**Prior art:** Sample-efficiency gap (human 10⁷ vs LLM 10¹³ tokens to conversational fluency) ≈ Linzen 2020 "How Can We Accelerate Progress Towards Human-like Linguistic Generalization?" + Warstadt 2022 BabyLM Challenge. HOST-architecture-as-bottleneck ≈ Lake 2017 *Behav Brain Sci* (intuitive psychology + embodiment); Bisk 2020 "Experience Grounds Language"; LeCun 2022 path-to-autonomous-intelligence proposal. Sigma addition: **quantifying the gap as a 10⁶× OOM sample-complexity ratio and decomposing it into M1–M3 HOST mechanisms** (rather than treating "grounding" as a single category), which makes the HOST hypothesis falsifiable per-mechanism rather than all-or-nothing.

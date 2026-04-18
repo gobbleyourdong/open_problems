@@ -139,3 +139,13 @@ The 169 per-run Extension blocks (Apr 11–12, covering runs 001–170) have bee
 To find the analysis for run N, read `numerics/run_NNN_*.md` directly.
 
 The archive is preserved verbatim for historical traceability (Maps Include Noise, v6).
+
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2:
+
+**Would falsify (dysbiosis-as-universal-threshold-modulation framework):** LAMP2 expression in PBMCs is proposed across the corpus as a lysosomal-block surrogate that should track protocol response. The framework makes a concrete, falsifiable prediction: **in ≥ 3 diseases from the CVB family (e.g., T1DM, ME/CFS, dilated cardiomyopathy), PBMC LAMP2 expression should rise measurably within 3–6 months of full-protocol engagement, with a per-disease effect size ≥ 1.5× baseline by GSE-style analysis.** If LAMP2 does not rise above measurement noise across ≥ 2 of 3 diseases under a pre-registered sampling schedule, the "zombie autophagy" mechanism (ATG7 elevated + LAMP2 suppressed per GSE184831) is disconfirmed as the dysbiosis→organ-damage bottleneck. Weaker falsifier: if the KILL-ROI ranking across the 170+ numerics runs fails to predict which intervention produces the largest biomarker shift in the patient (n=1, Phase-0 behavioral-wall case at medical/THEWALL.md), the kill-ROI-as-leverage-metric methodology needs recalibration.
+
+**Prior art:** Dysbiosis-as-disease-driver ≈ the "gut–X axis" literature (Round & Mazmanian 2009 *Nat Rev Immunol* for gut-immune; Cryan & Dinan 2012 *Nat Rev Neurosci* for gut-brain; Sonnenburg & Bäckhed 2016 *Nature* general review) + mucosal-barrier dysfunction / "leaky gut" (Fasano 2011 *Physiol Rev* zonulin work). Threshold-modulation framing ≈ bistable-attractor models of autoimmunity (Wachsmuth 2011 on β-cell state transitions; Gardner 2000 *Nature* toggle-switch biology). Sigma addition: unifying **13+ dysbiosis-linked diseases under one threshold-modulation stack with 170+ per-run kill-criteria and cross-run mechanistic bridges** (e.g., run_168 IRF1→LGALS1 feedback bridging into run_170 Gal-1 therapy); treating dysbiosis not as a disease-specific confound but as a **cross-disease common substrate** whose modulation has disease-specific downstream valence (harmine beneficial T1DM / harmful rosacea; Gal-1 anti-Th1 in T1DM / pro-EBV-viral in ME/CFS).

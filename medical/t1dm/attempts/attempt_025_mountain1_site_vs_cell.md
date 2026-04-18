@@ -81,3 +81,13 @@ If the viral persistence hypothesis is correct:
 3. The CVB vaccine (PRV-101) should prevent T1DM in at-risk children → Phase 2 already running
 
 ## Status: PARADIGM SHIFT — the problem is the site (virus), not the cells (immune)
+
+---
+
+## 2026-04-18 audit note (R8 from AUDIT_LOG fire 4)
+
+**Flagged claim:** "every extra-pancreatic site works better" framing for islet transplantation sites.
+
+**Correction:** This overgeneralizes. Within the same campaign corpus, multiple extra-pancreatic-site trials have failed or underperformed: **VX-264 (subcutaneous encapsulated islets, Vertex 2023 Phase 1/2 interim)** showed limited C-peptide at interim; **Edmonton-protocol 5-year data** (Ryan et al. 2005 *Diabetes*; Shapiro 2006 *NEJM* follow-ups) shows declining insulin independence (~10% at 5 years post-infusion). "Extra-pancreatic is better" is sometimes true for immune exposure (pancreas = viral niche) but is not a general rule across sites (subcutaneous/omental/hepatic/intramuscular all have site-specific failure modes: oxygen, fibrosis, drainage).
+
+**Fix applied:** audit note only (Maps Include Noise v6). Recommend rephrasing as "extra-pancreatic transplant avoids ongoing viral exposure at the native site, but introduces site-specific obstacles (hypoxia, fibrosis, vascularization) that the native pancreas solves for free — the site-choice problem is open, not settled."

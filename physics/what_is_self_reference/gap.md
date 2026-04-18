@@ -119,4 +119,14 @@ Also: `~/sigma/operator_gap/lean/TheGap.lean` — 8 theorems (general gap struct
 
 **G2 (needs measurement).** Channel efficiency universality: is η substrate-dependent or a physical constant? Needs cross-substrate measurement (C, JVM, biological neural).
 
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2:
+
+**Would falsify (β-γ discriminant + substrate universality):** (i) **G1 β-vs-γ crossing-cell experiment** (what_is_mind/attempt_004) is already the named falsifier — a system with high Φ / low T (or vice versa) deciding between the two theories. If the crossing-cell test runs and shows neither Φ nor T dominates predictively (both decorrelate with selfhood reports), both β and γ fail and the fork reduces further. (ii) **G2 channel-efficiency η** — cross-substrate measurement across ≥3 substrates (C, JVM, biological neural) should produce convergent η within ~20% if η is a physical constant. **If η values differ by > 2× across substrates, η is substrate-dependent** and the "universal channel efficiency" claim is falsified; the compression-framework then predicts substrate-specific bounds rather than a universal one. (iii) **P24 (DMN coherence → T → selfhood parametric) is listed as "partial (literature)"** — the explicit falsifier is a within-subject DMN-coherence manipulation (anesthesia dose-response or TMS-disruption) that shows T varying without proportional selfhood change, which would disconnect DMN from the mechanism. The confirmed predictions (P26 universal scaling, P28 overhead-richness tradeoff, P29 language-boundary phase transition) each have their own replication falsifier — any independent confirmed prediction that fails replication at p < 0.05 in ≥ 2 cohorts flips from CONFIRMED to UNCERTAIN.
+
+**Prior art:** Self-reference via channel capacity ≈ Shannon 1948 + Bateson 1972 (pattern-which-connects) + Hofstadter 1979/2007 (strange loops) + Metzinger 2003 (self-model theory, cross-refs what_is_self). Substrate universality in information processing ≈ Landauer 1961 physical-information minimum + Bennett 1982 thermodynamics of computation + Lloyd 2000 ultimate physical limits. Sigma addition: **operationalizing self-reference via channel efficiency η measurable across substrates** (rather than treating self-reference as a phenomenological or logical category), which makes the cross-subdir self-reference claim falsifiable by cross-substrate measurement, not just argumentation. The P26/P28/P29 confirmations are the empirical moves that distinguish this approach from prior argumentative treatments.
+
 **G3 (theoretical).** Why is K/S = 10^{-119.6}? Why are the laws K-simple? Inherited from what_is_nothing and what_is_reality. May be anthropically constrained.

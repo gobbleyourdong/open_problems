@@ -106,3 +106,13 @@ For CVB-negative patients:
 - The regeneration rate may be lower (if there's an ongoing non-viral trigger) but non-zero
 
 ## Status: UNIFIED THEORY — viral clearance transforms FMD from "might work" to "should work"
+
+---
+
+## 2026-04-18 audit note (R14 from AUDIT_LOG fire 5)
+
+**Flagged claim:** STZ-mouse vs NOD-mouse translation reasoning treats STZ results as human-predictive while dismissing NOD results.
+
+**Correction:** Longo et al. 2017 *Cell* (FMD beta-cell regeneration) tested **both STZ and NOD models and reported results in both**. Citing STZ benefit without citing the NOD findings (which are more autoimmune-relevant to human T1DM than STZ, since STZ is chemical beta-cell ablation without autoimmunity) creates a selective-citation issue. The FMD mechanism argument is stronger if it works in both models, weaker if NOD results don't replicate — the audit flag is that the reader cannot tell which is the case from the original text.
+
+**Fix applied:** audit note only (Maps Include Noise v6). Recommend citing both Longo 2017 results explicitly (STZ + NOD), with PMID 28683282, and stating honestly which model the "regeneration after clearance" claim leans on.

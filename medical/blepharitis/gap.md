@@ -137,3 +137,13 @@ neither of which the method closes without external data.
 ---
 
 *Filed: 2026-04-15 | gap.md | Depends on PROBLEM.md, attempt_001, attempt_002*
+
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2:
+
+**Would falsify (Demodex-drives-pediatric-chalazion hypothesis):** The C3 cert identifies pediatric-chalazion Demodex attribution as the highest-leverage under-recognized finding. **The hypothesis predicts: children presenting with recurrent chalazia (≥ 2 episodes in 12 months) should show Demodex densities above the adult-positive threshold (> 5 mites/cm² by standardized lash-sampling, per Gao 2005 *IOVS*) significantly more often than controls, and should respond to anti-Demodex therapy (tea-tree-oil lid scrubs or topical ivermectin) with reduced recurrence at 6–12 months.** A prospective cohort of n ≥ 50 pediatric chalazion cases vs age-matched controls with standardized mite counts + randomized anti-Demodex intervention would falsify the hypothesis if: (a) mite densities do not differ from controls at p < 0.05, OR (b) anti-Demodex therapy produces no reduction in recurrence vs standard-of-care at 12 months. The Liang 2018 study (recurrence 30% → 6% claim) was identified as a fabrication in the content audit — the hypothesis now rests on mechanism (Gao 2005 adult + biological plausibility + Lacey 2007 lipase work) without a verified pediatric outcome study, which is **exactly the gap this falsifier calls out**.
+
+**Prior art:** Demodex-blepharitis ≈ Gao 2005 *IOVS* + Kheirkhah 2007 + Cheng 2015 *Curr Opin Allergy Clin Immunol* + Tighe 2013 *Transl Vis Sci Technol* lotilaner (Xdemvy approval 2023). Pediatric-chalazion attribution is the **novel extension** — the adult Demodex literature is well-established but the pediatric-chalazion connection is the sigma contribution, and it is precisely this extension that lacks cohort evidence and therefore most needs the falsifier.

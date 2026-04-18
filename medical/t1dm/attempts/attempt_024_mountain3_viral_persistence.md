@@ -90,3 +90,17 @@ Two gaps remain on Mountain 3:
 Both are clinical trials. Both could start with existing FDA-approved drugs. Both cost <$1M to run as pilot studies.
 
 ## Status: HYPOTHESIS FORMED — persistent CVB as continuous trigger, antiviral before immune modulation
+
+---
+
+## 2026-04-18 audit note (R6 + R7 from AUDIT_LOG fire 4)
+
+**R6 — Flagged claim:** fluoxetine as Stage-1a anti-CVB therapy with implied sufficiency at clinical doses.
+
+**Correction:** Fluoxetine's antiviral IC50 against enteroviruses (Zuo 2016; Bauer 2019) is in the **5–10 µM range in vitro**. Oral fluoxetine 20 mg/day produces **steady-state plasma concentrations ~0.05–0.3 µM** (Altamura 1994). Tissue concentrations can be higher (Vd ≈ 20–40 L/kg); brain and testicular tissue ratios of ~15× and ~7.5× to plasma have been reported (Bolo 2000 ¹⁹F-MRS; Tanrikut 2010 testes) but pancreatic-tissue ratio is **not measured**. The in-vitro→in-vivo gap is not closed; the claim is "tissue may reach antiviral levels" rather than "fluoxetine clears CVB in vivo." Attempts 037+ (post-036 quality step-change) restate this more carefully.
+
+**R7 — Flagged claim:** DiViD VP1 "0/6 controls" wording.
+
+**Correction:** Krogvold et al. 2015 *Diabetes* (PMID 25475435) reported VP1 staining in **6/6 recent-onset T1DM pancreata vs weaker non-zero control staining in a minority of controls** (not zero). The "0/6 controls" framing overstates specificity. The case-vs-control difference is robust (intensity + prevalence) but the binary 0/6 wording is wrong.
+
+**Fix applied:** audit note only (Maps Include Noise v6). Recommend rephrasing R6 as "tissue-concentration hypothesis, unmeasured in pancreas" and R7 as "6/6 cases stained vs weaker/rarer control staining, not absolute zero."

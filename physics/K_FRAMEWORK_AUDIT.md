@@ -197,3 +197,13 @@ cross-subdir selection bias (E2). Discriminator: Q10 = 1.68
 hypothermia SP prediction. This is the meta-audit sigma method v7
 requires for any unifying pattern applied by a single operator
 across multiple subdirs.
+
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 (every principle needs a falsifier) and v9.1 D2 (coined terms need prior-art annotation), added at post-audit remediation:
+
+**Would falsify:** If the Q10 = 1.68 SP temperature-sensitivity prediction (what_is_time/gap.md Falsification Tests) is empirically tested and yields Q10 outside the 1.5–2.0 band at ≥ n=20 subjects with temperature manipulation in a non-harmful range, the Kramers-ion-channel-clock component that produces the 2.56 s SP figure is falsified, which in turn disconfirms the K-framework's specific claim that the human specious-present duration is derivable from K_laws + S_holo + ΔE (biophysics inputs). Weaker falsifier: if a non-human species with a different thermal regime (e.g., a fish at 18 °C) shows an SP inconsistent with the same Kramers-clock prediction, the cross-species bit-optimality claim weakens. A stronger falsifier (disconfirms the broader K-compression framework): if a subdir's central question is definitively resolved by a non-K-framework approach that makes predictions the K-framework does not (or makes different predictions), the K-framework's claimed universality across tier-0 questions fails.
+
+**Prior art:** K-framework ≈ algorithmic information theory (Kolmogorov 1965; Chaitin 1966), minimum description length (Rissanen 1978), holographic principle (Bekenstein 1973; 't Hooft 1993; Susskind 1995 for S-bound; Padmanabhan 2010 for spacetime emergence). Sigma addition: applying K_laws (≈ 21,834 bits) and S_holo (≈ 10⁴⁰ to 10¹²³ bits across scales) to **tier-0 generative questions** (time/nothing/change/information/computation/self-reference), producing the S/K bifurcation as the framework's organizing move. Prior literature uses K/MDL as an inference criterion on **data**; sigma applies it as an ontological criterion on **question-classes themselves**. This extension is what requires cross-subdir rejection-testing in the first place.

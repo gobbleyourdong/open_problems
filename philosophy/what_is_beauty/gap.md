@@ -73,3 +73,11 @@ Phase 2 (quantification) partially done. Key quantitative findings:
 - Memorisation confound: confirmed by GPT-2-xl test.
 
 Next: fine-tune a small model on mathematical proof structure (not canonical texts) and test within-elegant-proofs correlation on held-out material. This is the decisive remaining test for the compression-beauty claim at the mathematical case.
+
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2:
+
+**Would falsify (compression-beauty claim in the mathematical case):** The next test is already named: fine-tune a small model on mathematical-proof structure (not canonical texts) and measure within-elegant-proofs r on held-out material. **The falsifier condition**: r ≤ +0.3 on held-out elegant proofs after controlling for the memorization confound (confirmed by GPT-2-xl test). If the within-elegant-proofs correlation doesn't exceed chance after memorization control, compression-efficiency-as-aesthetic-experience fails in its hardest case (mathematical beauty) and the framework retreats to linguistic/musical aesthetics only. Weaker falsifier: sequential-structure CC-beats-scramble at 78% must replicate on ≥ 2 additional domains (visual, musical) at ≥ 65% — if not, the sequentiality effect is domain-specific. **Prior art:** Compression-aesthetic-experience ≈ Schmidhuber 1997/2009 (formal theory of curiosity/beauty as compression progress); Rigau-Feixas 2008 Kolmogorov-aesthetics; Berlyne 1971 (experimental aesthetics). Sigma addition = operationalizing the claim via **within-domain held-out correlations** with explicit memorization controls, making the compression-beauty claim falsifiable per-domain rather than blanket-asserted.

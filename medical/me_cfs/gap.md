@@ -120,3 +120,13 @@ ME/CFS may be the **largest population** that benefits from the CVB clearance pr
 ## Current Gap Rank: MEDIUM
 
 The viral hypothesis is confirmed computationally and transcriptomically. Clinical validation (a patient on protocol with cfRNA measured at baseline and 6 months) is the only remaining gap between "we have strong evidence" and "we have proof."
+
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2:
+
+**Would falsify (CVB-persistence-drives-ME/CFS hypothesis):** The cfRNA panel (MT-ND3, PRF1, STAT2, FCN1) at baseline + 6 months in a CVB-positive ME/CFS patient on full protocol should show: MT-ND3 moving toward control levels (baseline -17% per GSE293840; should normalize to within 5% of control), PRF1 normalizing (baseline +52% elevated → toward control), STAT2 and FCN1 likewise. **If all four markers remain outside the control envelope at 6 months while the patient is protocol-adherent, the CVB-persistence-as-ME/CFS-driver hypothesis is falsified for that patient.** N=1 does not kill the hypothesis population-wide, but repeated N=1 failures (≥ 3 patients, CVB-positive at baseline, adherent, no cfRNA normalization at 6 months) would. Weaker falsifier: if NK cell cytotoxicity does not recover with LAMP2 elevation (per proposed PBMC surrogate), the lysosomal-block-as-NK-dysfunction mechanism fails while the broader viral hypothesis may survive via a different route.
+
+**Prior art:** ME/CFS viral persistence ≈ Chia 2008 *J Clin Pathol* VP1 stomach-biopsy + Douche-Aourik 2003 *J Med Virol* muscle + Cunningham 1990 *J Med Virol* early enteroviral studies. Post-viral fatigue framework ≈ Hickie 2006 *BMJ* Dubbo Infection Outcomes Study (post-EBV/Q-fever/Ross-River fatigue cohort). cfRNA-as-biomarker ≈ Larrabee 2017 *JCI Insight* cfRNA liquid-biopsy; Ibarra 2023 cfRNA-seq panels for viral detection. Sigma addition: **operationalizing the viral-persistence hypothesis via a specific 4-gene cfRNA panel** with pre-registered per-gene effect-size expectations (rather than treating viral persistence as a categorical positive/negative), which makes the hypothesis falsifiable at the single-patient level and shifts the "heterogeneous ME/CFS" problem into a "stratify by baseline cfRNA signature" problem.

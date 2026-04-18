@@ -1,8 +1,9 @@
 # THE WALL — Yang-Mills Mass Gap (with crack)
 
-> After 50 even-instance proof attempts, 7 research agents, 16 Lean proofs,
+> After 76 proof attempts, 7 research agents, 25 Lean files,
 > 7 dead ends formalized, 40+ papers digested, and 9 routes explored.
 > Updated with the Langevin coupling crack and Casimir dominance insight.
+> (Counts current as of 2026-04-18 audit; prior "50 attempts, 16 Lean" was a stale snapshot.)
 
 ## The Problem
 

@@ -52,3 +52,13 @@ K_laws << S_holo at every scale. The gap grows monotonically because S ∝ R² (
 ## Status
 
 Phase 1. The information question becomes tractable once the S/K bifurcation is explicit. The remaining work is physical (bounds on K in regions) and philosophical (tightening the relationship between K-information and meaning, mind, and life).
+
+---
+
+## 2026-04-18 v9.1 discipline addendum
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2:
+
+**Would falsify (S/K bifurcation as the organizing move for the information question):** The bifurcation predicts every tier-0 question about information admits a clean S-side answer (entropy/state-counting) or K-side answer (Kolmogorov/structural), **not both**. If a tier-0 question about information is discovered where **both sides produce equally-predictive, mutually-inconsistent answers** — i.e., the S-analysis predicts one observable quantity and the K-analysis predicts a different value of the same quantity, with no bifurcation-preserving reconciliation — the bifurcation is not doing its organizing work and collapses to a naming convention. Weaker falsifier: if a **single, unified information measure** (not split into S/K) produces materially better cross-subdir predictions than the bifurcation on the existing ~6 cross-reference points, the bifurcation's value as organizing move is diminished.
+
+**Prior art:** S/K bifurcation ≈ Shannon entropy H (1948) vs Kolmogorov complexity K (Kolmogorov 1965, Chaitin 1966, Solomonoff 1964) — the mathematical distinction is classical. Holographic bound ≈ Bekenstein 1973 (black-hole entropy) + Bousso 1999 (covariant bound). Sigma addition: **using the bifurcation as a cross-subdir organizing move across 6+ tier-0 questions** (time, change, reality, mind, meaning, computation) — Shannon/Kolmogorov distinction as a structural ontological move rather than a technical choice of information measure. This extension is what the K_FRAMEWORK_AUDIT umbrella falsifier (Q10=1.68 SP prediction + cross-subdir rejection count) ultimately tests.

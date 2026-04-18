@@ -33,3 +33,9 @@ See attempt_001 for the full treatment. Key moves:
 ## Status
 
 Phase 1. Third physics attempt. The deflationary verdict on the substrate question is the main contribution; it is not an original idea but its framing in compression terms is the specific move this track contributes.
+
+---
+
+## 2026-04-18 v9.1 discipline addendum (umbrella reference)
+
+Per `~/SIGMA_METHOD.md` v9.1 C5 / D2: this subdir invokes the K-framework (see `physics/K_FRAMEWORK_AUDIT.md` v9.1 addendum for primary Would-falsify at Q10=1.68 SP hypothermia and prior-art annotations). The subdir-specific contribution — K-MDL deflation of the simulation hypothesis (22,449 > 21,834 bits = zero prediction gain from positing outer simulation layer) — falsifies **if** a future formulation of the simulation hypothesis produces a K-MDL shorter than the bare-reality K_laws budget. Prior art for substrate-question deflation ≈ classical structural realism (Worrall 1989, Ladyman 1998) + digital physics (Wheeler "It from bit" 1990; Lloyd 2006 *Programming the Universe*). Sigma addition = **computing the K-MDL explicitly** rather than debating substrate ontology in prose, which makes the deflationary move quantitative.
