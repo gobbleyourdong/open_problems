@@ -248,7 +248,7 @@ POST-FMD REFEEDING (Days 6-7):
 ```
 □ 3 rounds of WHM breathing, morning
    - 30 deep breaths → exhale → hold → inhale hold
-   - Intermittent hypoxia → epinephrine spike → β-arrestin-2 → NF-κB lockdown
+   - Intermittent hypoxia → epinephrine spike → β-arrestin-2 → IκBα stabilization → attenuated NF-κB (Kox 2014 *PNAS* PMID 24799686)
    - See T1DM attempt 061, 062, 063 for molecular mechanism
    
 □ Sequence: WHM breathing → cold shower → supplements → breakfast (end of 16hr fast)

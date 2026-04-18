@@ -15,7 +15,7 @@
 | **3. Neural Arrow** | Your brain integrates 128 quantum-clock moments at 50 bits/s | **SP = 2.56 seconds** |
 | **4. Phenomenal** | Whether integration IS experience (the residual gap) | → what_is_mind |
 
-The specious present (2.56s) is derived **parameter-free** from Kramers ion-channel kinetics + Page-Wootters quantum clock. Two independent physics domains combine arithmetically to reproduce the measured duration of "now."
+The specious present (2.56s) is derived from Kramers ion-channel kinetics + Page-Wootters quantum clock using two biophysical inputs (ΔE ≈ 16.58 kT, chain/integration parameters) — not parameter-free. Two independent physics domains combine arithmetically to reproduce the measured duration of "now." See `physics/what_is_time/gap.md` "Remaining inputs (not gaps)" section for the honest two-input framing (audit-corrected 2026-04-18 per R30).
 
 **Testable prediction:** the specious present is temperature-dependent. At 33°C (hypothermia): 3.18s (+24%). At 42°C (fever): 1.97s (−23%). Q₁₀ ≈ 1.7 distinguishes this from alternative models.
 

@@ -19,7 +19,7 @@ Key molecular events:
 - Breath hold → O₂ drops → sympathetic activation → EPINEPHRINE 200-300%
 - Epinephrine → β2-AR → Gs → adenylyl cyclase → cAMP → PKA
 - PKA does three things:
-  1. Stabilizes IκBα → NF-κB locked in cytoplasm → TNF-α NOT transcribed
+  1. Stabilizes IκBα → NF-κB nuclear translocation **attenuated** (not abolished) → TNF-α transcription reduced (Kox 2014 PNAS: ~50% cytokine reduction, not elimination)
   2. Activates CREB → IL-10 transcribed → Treg promotion
   3. Inhibits Raf-1 → MAPK cascade blocked → second anti-inflammatory path
 - Duration: ~10-15 min suppression per hold, 30-45 min for 3 rounds

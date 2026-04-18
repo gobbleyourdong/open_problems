@@ -31,3 +31,13 @@ Deplete or modulate autoreactive T cells by targeting CD3 (the signaling compone
 Teplizumab is a sledgehammer. It modulates all T cells. The gap: **target only the autoreactive T cells** (the ones recognizing GAD65, insulin, IGRP, etc.) while leaving the rest of the immune system intact. This is antigen-specific tolerance.
 
 ## Status: PARTIAL SUCCESS — delays onset, does not cure
+
+---
+
+## 2026-04-18 audit note (R1 from AUDIT_LOG fire 2)
+
+**Flagged claim (L12):** "Median delay: ~2 years (72.2 months teplizumab vs 24.4 months placebo)"
+
+**Correction:** Herold et al. 2019 *NEJM* (PMID 31180194) — the primary-endpoint TrialNet TN-10 paper — reports **median time to diagnosis of 48.4 months teplizumab vs 24.4 months placebo, HR 0.41, p=0.006**. The 72.2-month number appears to come from extended follow-up (Sims et al. 2021 *Sci Transl Med* reported ~59.6 months; Herold et al. 2023 *NEJM* reported further-extended follow-up data), not the primary Herold 2019 endpoint. Original number may be from a later paper but cited as the headline result here creates ambiguity about which dataset the HR/p-value pair comes from.
+
+**Fix applied:** audit note only (Maps Include Noise v6). Recommend future revision to split the table into "Herold 2019 primary endpoint (48.4 mo)" + "Extended follow-up (Sims 2021 / Herold 2023)" rows with separate PMIDs.

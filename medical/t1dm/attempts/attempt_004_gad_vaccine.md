@@ -30,3 +30,13 @@ Single-antigen tolerance with conventional adjuvant is too weak to overcome esta
 4. HLA-matched antigen selection
 
 ## Status: FAILED PHASE 3 — concept validated in subgroups, execution wrong
+
+---
+
+## 2026-04-18 audit note (R2 from AUDIT_LOG fire 2)
+
+**Flagged claim (L10):** "DIAGNODE-2 (2021): GAD-alum injected into lymph nodes (intralymphatic) in Stage 2/early Stage 3 T1DM. Mixed results, some C-peptide preservation in HLA-selected subgroup."
+
+**Correction:** DIAGNODE-2 (Ludvigsson et al. 2021) **missed its primary endpoint** (preservation of stimulated C-peptide AUC at 15 months vs placebo in the overall population). The "mixed results" framing understates a clean primary-endpoint miss. HLA-DR3-DQ2 subgroup analysis was **post-hoc** (subgroup preservation appeared in HLA-DR3-DQ2 carriers, consistent with the earlier DIABGAM Phase 3 post-hoc), and post-hoc subgroup results do not substitute for a pre-registered primary endpoint. Treatment of single-subgroup benefit as "some C-peptide preservation" without flagging the pre-spec vs post-hoc distinction overstates the evidence.
+
+**Fix applied:** audit note only (Maps Include Noise v6). Recommend rephrasing L10 to "FAILED primary endpoint; post-hoc HLA-DR3-DQ2 subgroup signal only."

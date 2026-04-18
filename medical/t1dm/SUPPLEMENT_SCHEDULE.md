@@ -71,7 +71,7 @@
 | GABA 250mg | | | 1 | 1 | 500mg | Immune GABA-R |
 | Berberine 500mg | | | 1 | 1 | 1000mg | AMPK + OSBP + glucose |
 | Red Yeast Rice+CoQ10 | | | | 1 | 1 cap | Cholesterol synth block |
-| **WHM** | | | | | **3 rounds** | **NF-κB lockdown** |
+| **WHM** | | | | | **3 rounds** | **Attenuated NF-κB (Kox 2014 PNAS)** |
 | **18:6 IF** | | | | | **18hr fast** | **TFEB + autophagy** |
 
 ---

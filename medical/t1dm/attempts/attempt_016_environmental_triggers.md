@@ -123,3 +123,13 @@ The enterovirus vaccine (PRV-101) is the most actionable: if it prevents the tri
 For established T1DM: removing ongoing environmental triggers (mold, poor air, processed food, vitamin D deficiency) could reduce the chronic immune activation that sustains the autoimmune attack, making Mountains 1 and 2 more effective.
 
 ## Status: TRIGGER LANDSCAPE MAPPED — CVB vaccine most actionable, environmental cleanup supports regeneration
+
+---
+
+## 2026-04-18 audit note (R4 from AUDIT_LOG fire 3)
+
+**Flagged claim (L17):** "Meta-analysis of 38 case-control studies: significant association between enterovirus infection and T1DM"
+
+**Correction:** The canonical enterovirus–T1DM meta-analysis is **Yeung et al. 2011 *BMJ* (PMID 21292721)** which included **26 molecular case-control studies** (24 case-control + 2 cohort), not 38. The 38 figure does not match Yeung's count and is not found in other widely-cited enterovirus–T1DM meta-analyses. Yeung reported OR 9.8 (95% CI 5.5–17.4) for enterovirus RNA/protein in pancreatic tissue; this finding is robust, but the "38" number is spurious.
+
+**Fix applied:** audit note only (Maps Include Noise v6). Recommend correction to "24 case-control studies (Yeung 2011 BMJ PMID 21292721, OR 9.8, 95% CI 5.5–17.4)."

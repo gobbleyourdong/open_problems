@@ -61,7 +61,7 @@ TNF-α is secreted. Can we catch it before it hits the beta cell?
 
 **The pharma approach** (anti-TNF biologics) catches the bullet mid-flight. Effective but brutal — $5K/month, immunosuppressive, increases infection risk. These are the sledgehammers of rheumatology.
 
-**The protocol approach** stops the bullet from being made in the first place (NF-κB lockdown) AND creates an environment where the gun factory shuts down (IL-10 → macrophage deactivation). Cheaper, safer, multi-mechanism.
+**The protocol approach** reduces the bullets being made in the first place (NF-κB attenuation, ~50% per Kox 2014 PNAS — not elimination) AND creates an environment where the gun factory runs slower (IL-10 → macrophage deactivation). Cheaper, safer, multi-mechanism; attenuation stacks rather than locks.
 
 ## Strategy 5: DISARM THE CRIMINAL (selectively deactivate the hijacked macrophage)
 
@@ -122,7 +122,7 @@ Caffeine inhibits PDE (phosphodiesterase) → cAMP persists longer → β2-AR si
 ## THE COMPLETE ARSENAL
 
 ```
-STOP THE GUN FROM FIRING (NF-κB lockdown):
+SLOW THE GUN FROM FIRING (NF-κB attenuation, not lockdown — Kox 2014 PNAS):
   WHM → β-arrestin-2 → IKKα sequestered → IκBα survives     $0
   Cold → same β2-AR pathway                                   $0
   Exercise → same catecholamine pathway                        $0

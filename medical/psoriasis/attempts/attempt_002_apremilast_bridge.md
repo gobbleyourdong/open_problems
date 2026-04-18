@@ -62,7 +62,7 @@ Apremilast's effects on the T1DM mechanism:
 
 ```
 WITHOUT apremilast (current protocol):
-  WHM → β-arrestin-2 → NF-κB lockdown (transient, requires daily practice)
+  WHM → β-arrestin-2 → attenuated NF-κB activation (transient, requires daily practice; Kox 2014 PNAS)
   BHB → NLRP3 suppression (requires ketosis)
   Butyrate → Tregs (gradual, weeks to months)
   Vitamin D → Tregs + IκBα (gradual)

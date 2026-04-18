@@ -46,7 +46,7 @@ Psoriasis is not caused by CVB. It's a Th17/IL-23-driven autoimmune disease with
 **1. TNF-α / NF-κB — the same target as T1DM**
 - T1DM attempt 062 ("Gun, Bullet, Criminal") mapped 7 strategies to suppress NF-κB → TNF-α
 - Psoriasis is ALSO driven by NF-κB → TNF-α (anti-TNF biologics are first-line therapy)
-- WHM breathing → β-arrestin-2 → IKKα sequestration → NF-κB lockdown → applies to psoriasis
+- WHM breathing → epinephrine → β-arrestin-2 → IκBα stabilization → **attenuated** NF-κB activation (Kox 2014 *PNAS* PMID 24799686) → applies to psoriasis
 - Every NF-κB intervention in the T1DM arsenal hits psoriasis inflammation too
 
 **2. NLRP3 inflammasome**

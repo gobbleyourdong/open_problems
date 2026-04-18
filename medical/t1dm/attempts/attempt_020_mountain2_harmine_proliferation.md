@@ -71,3 +71,13 @@ If the DYRK1A inhibitor achieves even 1% per day during the 7-day refeeding wind
 No selective DYRK1A inhibitor is in clinical trials for T1DM. The target is validated (harmine works spectacularly in vitro), the mechanism is understood (NFAT nuclear translocation), and next-gen compounds exist (GNF4877, INDY). The gap: **pharma hasn't prioritized this because beta cell proliferation alone doesn't solve the immune problem.** But combined with Mountain 2 (immune reset) and Mountain 3 (environmental cleanup), it could be the rate accelerator that makes regeneration viable.
 
 ## Status: TARGET VALIDATED — next-gen DYRK1A inhibitors exist but no T1DM trial
+
+---
+
+## 2026-04-18 audit note (R5 from AUDIT_LOG fire 3)
+
+**Flagged claim (L15, L24, L44, L67):** harmine / DYRK1A inhibitor "induces human beta cell proliferation at rates of 3-8% per day in vitro."
+
+**Correction:** Wang et al. 2015 *Nature Medicine* (harmine) and Wang et al. 2019 *Cell Metabolism* (harmine + TGF-β inhibitor) reported **proliferation rates 1.9–2.2% per day** for harmine monotherapy across dispersed human islet cultures, rising to ~5–8% per day **only** when combined with GLP-1R agonism or TGF-β inhibition (Ackeifi 2020 *Sci Transl Med* combination work). The unqualified "3-8% per day in vitro" presented as harmine-alone overstates monotherapy by ~2–3×; the 5-8% range applies to combinations. L26 and L44 correctly attribute the higher range to combinations; L15/L24 should match.
+
+**Fix applied:** audit note only (Maps Include Noise v6). The text at L26 ("Synergy with GLP-1: 5-8% proliferation") and L28 ("Synergy with TGF-β inhibition: up to 18%") is correct. The monotherapy rate in L15/L24 should read "~2% per day (harmine alone) / 5–8% (with GLP-1 agonism) / up to 18% (with TGF-β inhibitor)" per Wang 2015/2019 + Ackeifi 2020.

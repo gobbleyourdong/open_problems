@@ -63,7 +63,7 @@ Normal resting epinephrine: ~0.2-0.35 nmol/L (~35-65 pg/mL)
        Round 3: 30 breaths + hold → sustained elevation
        
        TOTAL: epinephrine at 2-5 nmol/L for ~15-20 minutes
-       β2-AR activated → β-arrestin-2 → IKK sequestered → NF-κB locked
+       β2-AR activated → β-arrestin-2 → IκBα stabilized → NF-κB attenuated (Kox 2014 PNAS: ~50% cytokine reduction, not locked)
        PKA → CREB → IL-10 transcription initiated
        
        IL-10 will be secreted in 30-60 min and persist for 2-4 hours
@@ -81,7 +81,7 @@ Normal resting epinephrine: ~0.2-0.35 nmol/L (~35-65 pg/mL)
        IL-10 from WHM now being secreted → anti-inflammatory window OPENS
 
 07:05-11:00  THE WINDOW (4 hours of IL-10 dominance)
-       TNF-α suppressed (NF-κB locked + IL-10 autocrine suppression)
+       TNF-α reduced (NF-κB attenuated per Kox 2014 PNAS + IL-10 autocrine suppression)
        Beta cells NOT being attacked
        Fasting autophagy STILL running (hour 13-17 of fast)
        Viral factories being digested while inflammation is paused

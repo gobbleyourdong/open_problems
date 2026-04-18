@@ -63,3 +63,13 @@ The cases share common features:
 - Buying time for autoreactive exhaustion (combination of above)
 
 ## Status: ANTI-PROBLEM MAPPED — the protective phenotype is identifiable and potentially inducible
+
+---
+
+## 2026-04-18 audit note (R3 from AUDIT_LOG fire 3)
+
+**Flagged claim (L12):** "~60% of newly diagnosed T1DM enter partial remission / Average duration 9 months, range 1 month to 13 years"
+
+**Correction:** The 60% / 9-month / 13-year numbers are not consistent with a single published source. Published honeymoon-phase estimates vary widely by definition (IDAA1c ≤ 9 vs residual C-peptide ≥ 0.2 nmol/L vs clinician-labeled): prevalence 30–80%, median duration 3–12 months, upper tail most commonly reported up to 2–3 years (rarely to 5+). The "13 years" upper bound is anomalous and may be from individual case reports rather than cohort statistics. Presenting the triple 60%/9-mo/13-yr as settled population figures overstates the evidence.
+
+**Fix applied:** audit note only (Maps Include Noise v6). Recommend splitting into: prevalence (with specific definition + source), median duration (with definition + source), and extreme-case range (case reports, flagged as such). The underlying "extended honeymoon exists" claim is uncontroversial; the specific numeric triple needs sourcing.

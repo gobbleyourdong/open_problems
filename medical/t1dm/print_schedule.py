@@ -119,7 +119,7 @@ story.append(make_table(data, [2.2*inch, 1.2*inch, 3.6*inch], meal2_bg))
 story.append(Paragraph("BEFORE BED (9-10pm)", section_style))
 data = [
     ['Activity', 'Duration', 'Mechanism'],
-    ['WHM Breathing', '3 rounds (~10 min)', 'Epinephrine locks NF-kB via beta-arrestin-2 pathway.'],
+    ['WHM Breathing', '3 rounds (~10 min)', 'Epinephrine -> beta-arrestin-2 attenuates NF-kB activation (Kox 2014 PNAS).'],
     ['Cold Shower (optional)', '30-60 sec cold', 'Norepinephrine mobilizes NK cells.'],
 ]
 story.append(make_table(data, [2.0*inch, 1.4*inch, 3.6*inch], bed_bg))
@@ -155,7 +155,7 @@ rules = [
     "6. Red Yeast Rice at DINNER \u2014 cholesterol synthesis peaks at night",
     "7. Berberine WITH meals \u2014 GI upset fasted + blunts glucose spike",
     "8. WHM BEFORE BED \u2014 not after meals (diaphragm needs room)",
-    "9. NEVER skip WHM \u2014 only intervention that LOCKS NF-\u03baB completely",
+    "9. WHM is the daily anti-inflammatory anchor \u2014 attenuates NF-\u03baB via beta-arrestin-2 (Kox 2014 PNAS); if skipped, substitute cold exposure or BHB for partial attenuation",
 ]
 for r in rules:
     story.append(Paragraph(r, rule_style))

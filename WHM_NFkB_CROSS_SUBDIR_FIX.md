@@ -130,8 +130,23 @@ visible places.
 
 ## Status
 
-Diagnostic complete. No edits applied. Waiting for operator go-ahead
-on Option A vs B.
+**EXECUTED 2026-04-18 — Option A applied.** All 12 edits landed across
+7 files in 4 subdirs (5 🔴 files: 6 edits; 4 🟡 files: 6 edits):
+
+- `medical/dysbiosis/PROBLEM.md` L199 🔴 ✅
+- `medical/t1dm/SUPPLEMENT_SCHEDULE.md` L74 🔴 ✅
+- `medical/t1dm/print_schedule.py` L122, L158 🔴×2 ✅
+- `medical/psoriasis/PROBLEM.md` L49 🔴 ✅
+- `medical/PATIENT_ZERO_TIMELINE.md` L251 🔴 ✅
+- `medical/psoriasis/attempts/attempt_002_apremilast_bridge.md` L65 🟡 ✅
+- `medical/t1dm/attempts/attempt_060_fasting_whm_molecular.md` L22 🟡 ✅
+- `medical/t1dm/attempts/attempt_062_gun_bullet_criminal.md` L64, L125 🟡×2 ✅
+- `medical/t1dm/attempts/attempt_063_epinephrine_spike_catalog.md` L66, L84 🟡×2 ✅
+
+Closes audit findings R22, R24, R26, R29, R34. Kox 2014 PNAS PMID
+24799686 threaded at all 🔴 sites for downstream reuse. Language
+shifted from "lock/lockdown/LOCKS" to "attenuates/attenuated" with
+explicit ~50% magnitude anchor per the paper.
 
 ## Tag
 

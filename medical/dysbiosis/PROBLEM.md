@@ -196,7 +196,7 @@ If **virome persistence** is dominant (M3):
 - NAC (glutathione, ROS suppression)
 - Intermittent fasting (autophagy, mTOR)
 - Butyrate / tributyrin (Treg induction)
-- Wim Hof Method (beta-arrestin-2 → NF-κB lock)
+- Wim Hof Method (epinephrine → β-arrestin-2 → IκBα stabilization → attenuated NF-κB activation, per Kox 2014 *PNAS* PMID 24799686)
 - Cold exposure (norepinephrine, NK mobilization)
 
 **Note:** the user's CVB protocol (in the local CVB Protocol Schedule PDF) is a multi-site dysbiosis intervention protocol that happens to be framed as CVB-targeted. It addresses Mountains 3, 4, and 5 simultaneously.
