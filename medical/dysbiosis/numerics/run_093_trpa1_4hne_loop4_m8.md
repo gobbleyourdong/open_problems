@@ -1,6 +1,25 @@
 # Numerics Run 093 — TRPA1: Reactive Electrophile Sensor → Loop 4 / M8 Bridge + Food Trigger Mechanism
 ## 4-HNE + H₂O₂ + Methylglyoxal → TRPA1 → Ca²⁺ → SP/CGRP → Neurogenic Vasodilation | Alcohol/Garlic/Cinnamon Triggers | T1DM AGE → TRPA1 | 2026-04-12
 
+> **2026-04-19 audit note (R-Buhl)**: This run cites "Buhl 2017 *J Invest
+> Dermatol*" for TRPA1 immunoreactivity in facial skin nerve fibers of
+> rosacea patients (lines ~57 and ~243 in Kill A). Per `VERIFIED_REFS.md`
+> Fire 82, **no such Buhl 2017 paper exists** — confirmed FM1c fabrication.
+> The actual Buhl T paper (PMID 25848978, 2015 *JID*) is a Th1/Th17
+> transcriptome study with no TRPA1 immunostaining content. Effect on
+> this run: Kill A's existing acknowledgement ("did not quantify relative
+> to non-inflamed facial skin, did not directly link TRPA1 to rosacea
+> severity") is **strengthened** — the underlying expression observation
+> attributed to Buhl 2017 does not exist. The Mascarenhas 2019 cite in
+> Kill A and the broader TRPA1-on-electrophile mechanistic case (Bautista
+> 2006, Trevisani 2007) are not affected. Recommendation: retract the
+> "Buhl 2017" citation; if a real human-rosacea TRPA1 IHC source is needed,
+> search for Sulk 2012 *JID* (TRP channels in rosacea, Th1/Th17/innate
+> overlap with the Buhl/Steinhoff group) or Aubdool 2014 *Br J Pharmacol*
+> as candidate replacements. Until then, the rosacea-specific TRPA1
+> tissue claim downgrades from "demonstrated in patients" to
+> "mechanistically plausible, no human IHC source verified."
+
 > TRPV1 (run_015) covers the heat/capsaicin → substance P/CGRP → neurogenic flushing pathway.
 > TRPA1 (Transient Receptor Potential Ankyrin 1) is TRPV1's partner channel on the same
 > sensory neurons, but activated by ENTIRELY DIFFERENT stimuli:

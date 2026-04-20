@@ -170,7 +170,7 @@ ROCK inhibitors topically: reduce fibroblast activation → reduce skin thickeni
 
 | Disease | SNP | OR | Reference |
 |---------|-----|----|-----------|
-| T1DM | rs1738074 | ~1.18 risk allele | Barrett 2009 Nat Genet; Cooper 2012 Nat Genet |
+| T1DM | rs1738074 | ~1.18 risk allele | Barrett 2009 Nat Genet PMID 19430480; Cooper 2008 Nat Genet PMID 18978792 (year corrected from "2012" per VERIFIED_REFS Fire 86) |
 | Rheumatoid arthritis | rs394581 (6q25) | ~1.12 | GWAS consortia |
 | Celiac disease | 6q25 region | ~1.15 | Dubois 2010 Nat Genet |
 | Multiple sclerosis | 6q25.3 | ~1.10 | IMSGC 2011 |

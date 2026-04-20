@@ -186,7 +186,7 @@ Demodex folliculorum/brevis:
 
 | Disease | SNP | Association | Reference |
 |---------|-----|-------------|-----------|
-| T1DM | rs1990760 | OR ~1.3-1.5 risk (T allele) | Barrett 2009 Nat Genet; Cooper 2012 NatGenet |
+| T1DM | rs1990760 | OR ~1.3-1.5 risk (T allele) | Barrett 2009 Nat Genet PMID 19430480; Cooper 2008 Nat Genet PMID 18978792 (year corrected from "2012" per VERIFIED_REFS Fire 86) |
 | SLE | rs1990760 | OR ~1.3 risk | Cunninghame Graham 2011 |
 | Graves' disease (thyroid) | rs1990760 | OR ~1.3 risk | Jacobson 2008 |
 | RA | rs1990760 | Moderate association | Smyth 2008 |

@@ -69,7 +69,7 @@ IKZF1 contributes:
 ## 3. T1DM — GWAS rs1701704 and Mechanisms
 
 ### 3a. Genetic Evidence
-- rs1701704 in IKZF1 intron: OR ~1.25, P < 5×10⁻⁸ (Cooper 2012 Nat Genet T1DM GWAS)
+- rs1701704 in IKZF1 intron: OR ~1.25, P < 5×10⁻⁸ (Cooper 2008 Nat Genet PMID 18978792 T1DM GWAS [year corrected from "2012" per VERIFIED_REFS Fire 86])
 - 11th genetic stratification point in the framework
 - Pleiotropy: IKZF1 region also associated with pediatric ALL (acute lymphoblastic leukemia) — DIFFERENT allele direction: T1DM risk allele → IKZF1 reduced function in Tregs (autoimmunity); ALL predisposition allele → IKZF1 reduced function in pre-B cells (leukemia)
 - This bidirectional genomic risk parallels ErbB3/rs2292239 (run_129: same allele → β cell survival ↓ + skin barrier ↓)

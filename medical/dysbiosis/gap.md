@@ -149,3 +149,81 @@ Per `~/SIGMA_METHOD.md` v9.1 C5 / D2:
 **Would falsify (dysbiosis-as-universal-threshold-modulation framework):** LAMP2 expression in PBMCs is proposed across the corpus as a lysosomal-block surrogate that should track protocol response. The framework makes a concrete, falsifiable prediction: **in ≥ 3 diseases from the CVB family (e.g., T1DM, ME/CFS, dilated cardiomyopathy), PBMC LAMP2 expression should rise measurably within 3–6 months of full-protocol engagement, with a per-disease effect size ≥ 1.5× baseline by GSE-style analysis.** If LAMP2 does not rise above measurement noise across ≥ 2 of 3 diseases under a pre-registered sampling schedule, the "zombie autophagy" mechanism (ATG7 elevated + LAMP2 suppressed per GSE184831) is disconfirmed as the dysbiosis→organ-damage bottleneck. Weaker falsifier: if the KILL-ROI ranking across the 170+ numerics runs fails to predict which intervention produces the largest biomarker shift in the patient (n=1, Phase-0 behavioral-wall case at medical/THEWALL.md), the kill-ROI-as-leverage-metric methodology needs recalibration.
 
 **Prior art:** Dysbiosis-as-disease-driver ≈ the "gut–X axis" literature (Round & Mazmanian 2009 *Nat Rev Immunol* for gut-immune; Cryan & Dinan 2012 *Nat Rev Neurosci* for gut-brain; Sonnenburg & Bäckhed 2016 *Nature* general review) + mucosal-barrier dysfunction / "leaky gut" (Fasano 2011 *Physiol Rev* zonulin work). Threshold-modulation framing ≈ bistable-attractor models of autoimmunity (Wachsmuth 2011 on β-cell state transitions; Gardner 2000 *Nature* toggle-switch biology). Sigma addition: unifying **13+ dysbiosis-linked diseases under one threshold-modulation stack with 170+ per-run kill-criteria and cross-run mechanistic bridges** (e.g., run_168 IRF1→LGALS1 feedback bridging into run_170 Gal-1 therapy); treating dysbiosis not as a disease-specific confound but as a **cross-disease common substrate** whose modulation has disease-specific downstream valence (harmine beneficial T1DM / harmful rosacea; Gal-1 anti-Th1 in T1DM / pro-EBV-viral in ME/CFS).
+
+---
+
+## 2026-04-20 Falsifier mechanism + biomarker panel sharpening (post Phase 4b audit)
+
+**Context**: After the Fires 78–90 Phase 4b audit campaign closed
+(VERIFIED_REFS top-20 fully resolved, drift containment confirmed,
+`CITATION_DISCIPLINE.md` framework doc written), runs 171 (GDF15) and
+172 (TFEB) were added with PMID-anchored discipline. Both runs sharpen
+the LAMP2 falsifier from the 2026-04-18 addendum.
+
+**Run_172 (TFEB) supplies the molecular substrate for LAMP2 falsifier:**
+
+The LAMP2 prediction was originally specified phenomenologically
+("LAMP2 should rise"). Run_172 grounds it mechanistically:
+mTORC1 → TFEB Ser211 phosphorylation → 14-3-3 cytoplasmic sequestration;
+mTORC1 inhibition (via FMD, BHB, AMPK activation, rapamycin, multiple
+protocol arms) → TFEB nuclear translocation → CLEAR network activation
+→ ~500 lysosomal/autophagy genes including LAMP2. **TFEB is the
+single transcriptional master switch linking protocol intervention to
+LAMP2 rise**; the convergence of 8+ existing protocol interventions
+(FMD, spermidine, sulforaphane, BHB, rapamycin, vitamin D, berberine,
+NMN/NAD+) on TFEB activation explains the protocol's empirical
+multi-target effectiveness as TFEB-axis convergence rather than
+independent mechanisms (per Settembre 2011 *Science* PMID 21617040;
+Roczniak-Ferguson 2012 *Sci Signal* PMID 22692423; Pasquier &
+Pastore 2023 *EMBO J* PMID 37712288).
+
+**Sharpened falsifier (combined biomarker panel)**:
+
+| Biomarker | Direction | Timing | Disease specificity |
+|-----------|-----------|--------|---------------------|
+| Nuclear TFEB protein (PBMC IHC or nuc/cyt fractionation) | ↑ | Earliest — week 2-4 post protocol engagement | Universal |
+| CLEAR network panel (LAMP2 + LAMP1 + MCOLN1 + CTSD + ATG7 + BECN1 + BCL2) by qPCR/RNA-seq | All ↑ co-elevated | Week 4-12 | Universal — co-elevation distinguishes TFEB-mediated from alternative LAMP2 inducers |
+| LAMP2 protein (PBMC Western or flow) | ↑ ≥ 1.5× baseline | Month 3-6 | Universal — original 2026-04-18 falsifier |
+| Serum GDF15 (run_171) | T1DM: ↑ as inflammation lifts and translation block releases; ME/CFS: → or ↓ as chronic CDR engagement reduces; Skin/POD: → / ↑ depending on local mtISR state | Month 3-6 | Disease-direction-specific — three predictions from one molecule |
+
+**Combined falsifier**: if PBMC nuclear TFEB does NOT rise within 4
+weeks of protocol engagement AND CLEAR network siblings do NOT
+co-elevate with LAMP2 AND GDF15 does NOT show disease-direction-
+specific shifts, **the TFEB-as-mechanistic-substrate framing for the
+v9.1 falsifier is disconfirmed**, and the LAMP2 prediction must be
+rescued by an alternative mechanism (NRF2-direct, MITF-without-TFEB,
+mTOR-independent autophagy) or the framework's central
+threshold-modulation claim weakens.
+
+**Why this matters per sigma v9.1**: a falsifier without a mechanism
+is a phenomenological prediction. A falsifier WITH a mechanism is
+falsifiable at multiple levels — the prediction can fail at the TFEB
+nuclear translocation step, at the CLEAR network co-elevation step, at
+the LAMP2 protein step, or at the GDF15 disease-direction step. Each
+level is independently testable; failure at any level disambiguates
+WHICH part of the framework needs revision. This is a strictly
+stronger falsifier than the 2026-04-18 LAMP2-only version.
+
+**Cross-link to runs**:
+- run_171 (GDF15 mtISR mitokine; T1DM β-cell deficiency, psoriasis-
+  protective, ME/CFS CDR-elevated)
+- run_172 (TFEB master autophagy/lysosomal TF; mechanistic substrate
+  for LAMP2 falsifier; convergence node for 8+ protocol interventions)
+
+Future runs should preferentially be designed to interact with this
+falsifier panel (either as direct biomarker contributors or as
+upstream/downstream mechanistic links to TFEB or GDF15) rather than
+as standalone mechanism additions, per the v9.1 Tier-1 synthesis
+priority. Status as of 2026-04-20: **172 numerics runs, framework
+falsifier mechanistically grounded, citation discipline structurally
+enforced via CITATION_DISCIPLINE.md**.
+
+**Operational implementation**: see `FALSIFIER_VALIDATION_PROTOCOL.md`
+for the concrete clinical sampling schedule, biomarker assays,
+statistical thresholds, failure-mode disambiguation matrix, safety
+nuances (Pasquier 2023 cyclic-vs-continuous TFEB activation), and
+cohort design needed to actually test the framework prediction in
+patients. The protocol is pre-registered as a frozen specification
+(sigma v9.1 D1 replication tier) so any future clinical validation
+can be compared to what the framework predicted before data
+collection.

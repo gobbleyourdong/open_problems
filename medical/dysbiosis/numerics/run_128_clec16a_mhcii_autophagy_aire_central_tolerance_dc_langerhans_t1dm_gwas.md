@@ -17,7 +17,7 @@
 
 1. **Completely absent**: confirmed, CLEC16A and MHC-II autophagy have 0 dedicated coverage; AIRE appears 3× in passing context only ✓
 2. **MODERATE evidence**:
-   - T1DM: HIGH — CLEC16A rs12708716 is a replicated T1DM GWAS locus (Barrett 2009 Nat Genet; Hakonarson 2007 NEJM; Cooper 2012 Nat Genet); mechanism established: CLEC16A regulates MHC-II autophagy in DCs + mitophagy in TECs → AIRE expression → central tolerance (Kishida 2015; Marín-Rubio 2017) ✓
+   - T1DM: HIGH — CLEC16A rs12708716 is a replicated T1DM GWAS locus (Barrett 2009 Nat Genet PMID 19430480; Hakonarson 2007 NEJM; Cooper 2008 Nat Genet PMID 18978792 [year corrected per VERIFIED_REFS Fire 86 — was previously cited as "Cooper 2012"]); mechanism established: CLEC16A regulates MHC-II autophagy in DCs + mitophagy in TECs → AIRE expression → central tolerance (Kishida 2015; Marín-Rubio 2017) ✓
    - Rosacea: MODERATE — dermal DCs and Langerhans cells in rosacea skin are MHC-II-high (Steinhoff 2011 Exp Dermatol); elevated DC antigen presentation drives Th1/Th17 polarization in rosacea; pDC IFN-α production (TLR7/9 axis in rosacea) is MHC-II-regulated; CLEC16A in Langerhans cells affects MHC-II turnover and epidermal antigen presentation threshold ✓
 3. **New therapeutic/monitoring target**: 8th genetic stratification point (CLEC16A rs12708716); FIRST central tolerance mechanism in 128-run framework (all prior Treg runs cover peripheral tolerance); NMN/NAD+ → SIRT1/SIRT3 → PINK1/Parkin mitophagy → supports TEC mitochondrial quality → AIRE expression: 3rd framework mechanism for NMN/NR ✓
 4. **Kill-first fails**: runs 010/014/045/056/086/087/114/123 all cover PERIPHERAL Treg/Foxp3 biology; CLEC16A → central tolerance via AIRE in the thymus is orthogonal — different cell type (TEC, not peripheral Treg), different mechanism (mitophagy → AIRE → negative selection, not Foxp3 protein stability), different biological node (thymic output vs. peripheral suppression) ✓
@@ -169,7 +169,7 @@ Fails. Autophagy appears in the framework primarily as mitophagy (PINK1/Parkin i
 ### 8th Genetic Stratification Point
 
 CLEC16A rs12708716 (C allele risk; LD block at 16p13):
-- Risk: ~15–20% T1DM incidence increase per risk allele (combined European studies, Cooper 2012)
+- Risk: ~15–20% T1DM incidence increase per risk allele (combined European studies, Cooper 2008 *Nat Genet* PMID 18978792 [year corrected])
 - Clinical implication: patients with CLEC16A risk allele have:
   1. Elevated autoreactive T cell burden (impaired central deletion)
   2. Elevated MHC-II on DCs (impaired MHC-II autophagy)
@@ -236,4 +236,4 @@ No direct biomarker for CLEC16A function/AIRE expression in clinical settings. P
 
 **Framework state: 128 runs | CLEC16A MHC-II autophagy | 8th genetic stratification | FIRST central tolerance mechanism in framework | AIRE-negative selection | TEC mitophagy → AIRE | NMN/NR 3rd mechanism (SIRT3/PINK1/Parkin TEC) | dermal DC antigen presentation threshold | CLEC16A risk allele → peripheral Treg escalation | 128th run fills central tolerance gap.**
 
-*Run_128 filed: 2026-04-12 | CLEC16A KIAA0350 BEACH domain WD40 MHC-II autophagy NRBF2 Beclin-1 late endosome selective autophagy AIRE autoimmune regulator thymic epithelial cell TEC mitophagy PINK1 Parkin central tolerance negative selection autoreactive T cell thymus dermal DC Langerhans cell antigen presentation threshold Th1 rosacea NMN NR NAD SIRT3 FOXO3a genetic stratification rs12708716 Barrett 2009 Cooper 2012 Kishida 2015 | run_128*
+*Run_128 filed: 2026-04-12 | CLEC16A KIAA0350 BEACH domain WD40 MHC-II autophagy NRBF2 Beclin-1 late endosome selective autophagy AIRE autoimmune regulator thymic epithelial cell TEC mitophagy PINK1 Parkin central tolerance negative selection autoreactive T cell thymus dermal DC Langerhans cell antigen presentation threshold Th1 rosacea NMN NR NAD SIRT3 FOXO3a genetic stratification rs12708716 Barrett 2009 Cooper 2008 Kishida 2015 | run_128*

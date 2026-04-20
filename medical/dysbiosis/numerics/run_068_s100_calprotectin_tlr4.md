@@ -1,6 +1,22 @@
 # Numerics Run 068 — S100A8/A9 (Calprotectin) as Fifth Endogenous TLR4 Activator
 ## Macrophage-Derived Calprotectin → TLR4 → NF-κB During Active Inflammation | 2026-04-12
 
+> **2026-04-19 audit note (R-Buhl)**: This run cites "Buhl 2017 *Exp Dermatol*"
+> for serum calprotectin in papulopustular rosacea (mean 3.2 µg/mL vs. 0.9
+> µg/mL controls; p=0.003; N=42; r=0.61 with lesion count) at lines ~54
+> and ~102. Per `VERIFIED_REFS.md` Fire 82, **no such Buhl 2017 paper
+> exists** — confirmed FM1c fabrication. The actual Buhl T paper (PMID
+> 25848978, 2015 *JID*) is a Th1/Th17 transcriptome study and does not
+> contain these calprotectin serum measurements. The "Serum calprotectin
+> as objective rosacea activity marker" framing in this run depends on
+> these fabricated numbers and should be treated as unsupported until
+> re-sourced (candidates: search Vogl 2007 *Nat Med* or Chen 2018 *J
+> Dermatol Sci* for real serum-calprotectin-in-rosacea data; if no
+> primary source exists, retract the framing). The general "S100A8/A9
+> → TLR4 fifth endogenous activator" mechanistic case (Vogl 2007 PMID
+> 17767165 base biology) is untouched — only the rosacea-specific
+> serum-quantitation claim is killed.
+
 > Synthesis review (forty-fourth extension) identified that S100A8/A9 (calprotectin) was
 > incorrectly listed as a RAGE ligand in run_067. Vogl 2007 Nature establishes S100A8/A9 →
 > TLR4 as the primary mechanism (not RAGE). Correcting this generates a new analysis:

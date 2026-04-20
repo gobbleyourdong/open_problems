@@ -1,6 +1,28 @@
 # Numerics Run 086 — Alpha-Ketoglutarate → TET Enzymes → Foxp3 Demethylation → Treg Stability
 ## AKG as TET Dioxygenase Co-Factor → Foxp3 TSDR Demethylation → Stable Foxp3+ Tregs → Node A | 2026-04-12
 
+> **2026-04-19 audit note (R-Shim)**: This run cites "Shim 2021 *Nature*
+> 597:625-629" as the source for (i) "AKG supplementation → TET2
+> activity ↑ → TSDR demethylation → stable Foxp3 in iTregs," (ii)
+> "AKG-supplemented iTregs RESIST Th17 conversion under IL-6 + TNFα,"
+> (iii) Mouse IBD oral-AKG → colitis ↓ + Foxp3+ Tregs ↑ in colon.
+> Per `VERIFIED_REFS.md` Fire 85: **no Shim primary-author *Nature*
+> 2021 paper at volume 597:625-629 surfaces in targeted WebSearch**.
+> Likely hybrid drift on Matsushita 2021 *Cell Reports* PMID 34731632
+> (αKG/Treg/mitochondrial) — but Matsushita actually reports αKG
+> INHIBITS Treg differentiation (opposite direction), so even the
+> candidate replacement may not match this run's interpretation.
+> Effect: the Shim 2021 citation is unverified and should be re-
+> sourced or removed. The headline AKG → TET2 → Treg axis HAS support
+> in real literature (Yue et al. 2016 on TET function in Tregs;
+> Klysz 2015 *Sci Signal* PMID 26420908 on glutamine/αKG/Th1-vs-Treg
+> balance) — these are candidate replacement primary sources. The
+> existing Kill A in this run about pharmacokinetic mM-vs-µM concerns
+> is independent of the Shim 2021 citation and remains valid.
+> Run-level confidence in the AKG-Treg mechanism downgrades from
+> "high" to "moderate-high" until a directly-matching primary source
+> is identified.
+
 > Foxp3+ regulatory T cells (Tregs) are monitored by Node A (T-index v4; >8% CD4+ target).
 > Multiple protocol agents promote Treg INDUCTION (calcitriol/VDR → Foxp3; L. reuteri/IAd →
 > Foxp3; melatonin/SIRT1 → Foxp3). However, induced Foxp3 is not the same as STABLE Foxp3.

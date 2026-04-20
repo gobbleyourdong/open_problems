@@ -1,10 +1,117 @@
 # Numerics Run 046 — Demodex folliculorum: M2 Mite Arm and Bacillus oleronius NF-κB/NLRP3
 ## How the Most Common Rosacea Organism Activates Both Loop 1 and Loop 4 | 2026-04-12
 
+> **2026-04-20 Fire 17 adversarial audit note (R-Forton) — RETRACTED + REVISED via cross-audit convergence**:
+>
+> **Initial Fire 17 finding (now retracted)**: I initially claimed
+> the run_046 "Forton 2012" citation was correct — real paper at
+> *J Eur Acad Dermatol Venereol* PMID 22017468 — and only metadata
+> was missing. **This claim was wrong**.
+>
+> **Correction via cross-audit convergence with `medical/blepharitis/
+> results/claim_audit_2026-04-15.md` C12**: the prior blepharitis
+> audit (Apr 15, 2026, ~5 days before this fire) had ALREADY
+> identified that **the specific Demodex density figures** (10-18/cm²
+> rosacea vs 0.7-1.5/cm² controls) **are misattributed to Forton 2012**.
+> The actual source for those density numbers is **Forton & Seys 1993
+> *Br J Dermatol* 128(6):650-9 PMID 8338749** — the seminal Demodex
+> case-control paper. Forton 2012 *JEADV* PMID 22017468 exists and is
+> a real paper on pityriasis folliculorum / papulopustular rosacea,
+> but it does NOT report the specific density numbers cited in this
+> run's preamble. The blepharitis C12 audit further notes that the
+> "10-18" and "0.7-1.5" upper bounds appear to be **range-padding by
+> the original author**, not literal report — even Forton 1993 reports
+> means (controls 0.7/cm²; all rosacea 10.8/cm²; PPR 12.8/cm²), not
+> the wider ranges cited.
+>
+> **Net citation classification**: this is a **content-mismatch FM1c-
+> adjacent drift** — real source paper exists (Forton 1993) but the
+> specific quantitative claim was attributed to a different real Forton
+> paper (2012) that doesn't contain the data. Plus author-extrapolated
+> range-padding on top.
+>
+> **Corrected citation**: density figures should reference Forton &
+> Seys 1993 *Br J Dermatol* 128(6):650-9 PMID 8338749 (case-control
+> with controls 0.7/cm² mean, all-rosacea 10.8/cm² mean, PPR 12.8/cm²
+> mean). The "10-18" and "1.5" upper bounds should be tightened to
+> reported means, not extrapolated ranges. Forton 2012 PMID 22017468
+> can still be cited for the pityriasis-folliculorum-as-missing-link
+> framing it actually contains.
+>
+> **Cross-audit convergence per v9.1 C2 retraction culture**: this
+> is a SECOND cross-audit convergence event in the loop session
+> (after Buhl 2017 / POD Y113 / Fires 82+88+89). Different audit
+> campaign (blepharitis content audit, written 5 days before this
+> fire) caught the same drift my Fire 17 spot-check almost missed.
+> Strengthens the v9.1 finding that **independent audits converge
+> on retractions** — this is the framework's working-as-designed
+> signal.
+>
+> **Fire 17 lesson**: my own adversarial audit had a confirmation-
+> bias failure mode (verified the paper exists → declared the
+> citation correct without checking whether the cited claim is in
+> the cited paper). The blepharitis audit caught what I missed.
+> Adversarial audits need cross-checking against prior independent
+> audits when they exist — exactly the grep-first methodology from
+> CITATION_DISCIPLINE.md applied here would have surfaced the
+> blepharitis C12 finding before I wrote my initial Fire 17 note.
+
+> **2026-04-20 Fire 18 cross-subdir audit note (R-Heyndrickxia)**:
+> per blepharitis claim_audit_2026-04-15 C27 (cross-audit propagation
+> from Fire 17 discovery), this run cites ***Bacillus oleronius*** as
+> the Demodex endosymbiont (multiple sites including the B. oleronius
+> NF-κB/NLRP3 mechanism that is one of this run's central findings).
+> **The organism was reclassified to *Heyndrickxia oleronia* by Gupta
+> RS et al. 2020 *Int J Syst Evol Microbiol* 70(11):5753-5798 PMID
+> 33112222** (with erratum PMID 33351742). The species is now in
+> the genus *Heyndrickxia* (family Bacillaceae, named after Karel
+> Heyndrickx). Both names remain in active clinical literature use,
+> but the **current valid taxonomy is *Heyndrickxia oleronia***.
+>
+> **Affected dysbiosis files (per Fire 18 grep)**: run_046, run_028,
+> run_048, run_058, run_072, run_093 + 4 results/archive files.
+> Total 10 dysbiosis files reference *Bacillus oleronius* without the
+> taxonomy update.
+>
+> **Action**: this run is the foundational reference; future readers
+> should treat "Bacillus oleronius" and "Heyndrickxia oleronia" as
+> the same organism. The mechanistic claims in this run (40+83 kDa
+> protein fractions per Lacey 2007 PMID 17596156; PBMC stimulation
+> in 73% rosacea vs 29% controls) are unaffected by the taxonomy
+> rename — only the genus name has changed. Per CITATION_DISCIPLINE.md
+> "structural enforcement" principle, future runs should use
+> "*Heyndrickxia oleronia* (formerly *Bacillus oleronius*)" on first
+> mention to maintain compatibility with current and historical
+> literature.
+>
+> **Cross-audit convergence event #3** in this loop session (after
+> Buhl 2017/POD Y113 in Fire 90 and Forton 2012/1993 in Fire 17).
+> Independent blepharitis audit (Apr 15, 5 days before this fire)
+> caught taxonomy update that dysbiosis runs missed. Per v9.1 C2:
+> retraction-culture-active multi-source systems converge on
+> overlapping audit findings — this is the third such convergence
+> in the campaign, providing strong empirical validation of the
+> retraction-culture principle.
+>
+> **Other potentially-applicable findings from blepharitis claim_audit
+> not yet propagated** (future-fire candidates):
+> - C25: Demodex nuclear genome paper attribution (Palopoli 2014 may
+>   be wrong — needs spot-check on dysbiosis runs invoking Demodex
+>   genome data)
+> - C26: "Demodex has no anus" overturned by Smith 2022 — dysbiosis
+>   runs DO NOT cite this (Fire 18 grep clean — good)
+> - C28: C. acnes phylotype scheme — McDowell 2005 + Lomholt-Kilian
+>   2010 + McDowell 2012 are correct attribution; Tomida 2013 cited
+>   in some literature is strain-level, not phylotype. Affects any
+>   dysbiosis run citing C. acnes phylotypes.
+
 > Demodex folliculorum is the most referenced organism in rosacea literature, yet it has not
 > been formally placed in the framework. It is the dominant eukaryotic member of the facial
-> skin microbiome (100% of adults harbor Demodex; higher density in rosacea: 10-18/cm² in
-> rosacea vs. 0.7-1.5/cm² in controls — Forton 2012). The mechanism connecting Demodex to
+> skin microbiome (100% of adults harbor Demodex; higher density in rosacea: ~10.8/cm² mean
+> all-rosacea, ~12.8/cm² PPR vs. 0.7/cm² controls per **Forton & Seys 1993 *Br J Dermatol*
+> 128(6):650-9 PMID 8338749** [corrected from "10-18 / 0.7-1.5 — Forton 2012" which was a
+> content-mismatch + range-padding drift; see R-Forton audit note above and `medical/
+> blepharitis/results/claim_audit_2026-04-15.md` C12 for the cross-audit convergence]). The mechanism connecting Demodex to
 > rosacea inflammation has been debated (is Demodex causal or a bystander?). This run
 > formalizes: (1) how Demodex density elevation → NF-κB/NLRP3 activation; (2) which framework
 > loops Demodex feeds; (3) the Bacillus oleronius TLR4 mechanism (the resident bacteria IN

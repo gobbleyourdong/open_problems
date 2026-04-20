@@ -1,6 +1,27 @@
 # Numerics Run 015 — TRPV1 / Neurogenic Flushing Axis
 ## Non-Histamine Flushing Mechanism | 2026-04-12
 
+> **2026-04-19 audit note (R-Yamasaki)**: This run cites "Yamasaki 2011
+> *J Clin Invest*" with **PMID 21926468 inline (line 261)** for the
+> KLK5 → LL-37 → VEGFR2 → rosacea framing. Per `VERIFIED_REFS.md` Fire
+> 86: **PMID 21926468 does not match any Yamasaki rosacea paper**.
+> The likely intended source is one of:
+> - **Yamasaki K et al. 2007 *Nat Med* PMID 17676051** "Increased
+>   serine protease activity and cathelicidin promotes skin
+>   inflammation in rosacea" — foundational KLK5/cathelicidin paper.
+> - **Yamasaki K et al. 2011 *J Invest Dermatol* PMID 21107351** "TLR2
+>   expression is increased in rosacea and stimulates enhanced serine
+>   protease production by keratinocytes" — verified Yamasaki 2011
+>   (note: *JID* not *J Clin Invest*).
+> Action: replace the line 261 citation with one of the above
+> depending on which mechanism is being invoked. The KLK5 → LL-37
+> base claim is supported in the real Yamasaki literature; the
+> VEGFR2 → rosacea connection may need an additional citation
+> (likely Schwab 2011 *J Invest Dermatol* on VEGF/VEGFR2 in rosacea
+> telangiectasia, or Maruyama 2010 on VEGF dysregulation). The
+> independent Steinhoff 2003, Buhl 2017, Chen 2019, and Sito 2018
+> citations in the references section are unaffected by this finding.
+
 > Run_003 identified TRPV1 as a non-histamine flushing mechanism and listed it as unexplored.
 > Attempt_015-B2 formalized M8→M1 via CRH/mast cell degranulation but did not trace the
 > neurogenic arm further. This run maps the TRPV1 axis: how LL-37, Substance P, and environmental

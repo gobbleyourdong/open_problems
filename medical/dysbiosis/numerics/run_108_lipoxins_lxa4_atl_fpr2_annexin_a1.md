@@ -3,6 +3,28 @@
 **Date:** 2026-04-12
 **Status:** Complete
 **Iteration:** 108
+
+> **2026-04-19 audit note (R-Bystrom)**: This run cites "Bystrom 2008
+> *J Immunol*" as the source for (i) "LXA4 → FPR2 on Th17 cells →
+> RORγt expression ↓ → IL-17A production ↓" (lines ~197, ~281), and
+> (ii) "LXA4 → TGF-β production in macrophages → Foxp3+ Treg induction"
+> (lines ~30, ~282, ~295). Per `VERIFIED_REFS.md` Fire 83: **Bystrom J
+> 2008 is real but the journal is *Blood* (PMID 18779392), not *J
+> Immunol*, and the paper is about cAMP-controlled resolution-phase
+> macrophage phenotype** — NOT lipoxin/Th17/Treg mechanisms. Both
+> mechanism claims this run attributes to Bystrom 2008 are unsupported
+> by the actual paper. Effect: the LXA4→Th17→IL-17A and LXA4→TGF-β→
+> Treg-via-FPR2 chains lose their primary citation. The existing
+> "moderate confidence" hedge on the LXA4→Treg-via-FPR2 link (line
+> ~230) is now strengthened — it should remain moderate-or-lower until
+> re-sourced. Candidate replacement primary sources for these mechanisms
+> (worth checking): Chen 2009 *Blood*, Vong 2012 *FASEB J*, Liao 2011
+> *J Lipid Res* (LXA4-Treg axis literature). The Ariel 2005 *J Immunol*
+> citation alongside Bystrom is unrelated to this finding and remains
+> a candidate primary source for LXA4→TGF-β. Run-level conclusion
+> about LXA4 as a 6th Node A input pathway should be downgraded from
+> "moderate" to "moderate-low" until a verified Th17/Treg-specific
+> LXA4 primary source is identified.
 **Mountain:** M4 (innate immune threshold — resolution arm); extends run_020 (omega-3 SPMs) to AA-derived SPMs
 **Cross-connection:** Run_020 (SPMs — omega-3 derived; run_108 adds AA-derived lipoxins; distinct biosynthesis + receptors); Mast cell runs 019/042/093/097/099/106/107 (LXA4 INHIBITS mast cell via FPR2); NF-κB cascade (FPR2 → Annexin A1 → NF-κB ↓); Node A/Treg (LXA4 → TGF-β → Foxp3 = possible 6th Node A input); T1DM; Complement/run_101/105 (FPR2 → TLR4 internalization ↓)
 
