@@ -1,5 +1,40 @@
 # T1DM — THE WALL (Updated: Post-Bioinformatics + 79 Attempts + Lean Proof)
 
+> **2026-04-20 cross-subdir audit note (R-Cooper)**: This file contains
+> 8 occurrences of "Cooper 2012" across the GWAS stratification sections
+> (lines ~1095, 1113, 1209, 1327, 1370, 1407 + 2 footer mentions). Per
+> `medical/dysbiosis/VERIFIED_REFS.md` Fire 86: there is **no Cooper 2012
+> *Nat Genet* T1DM GWAS paper**. The actual paper is **Cooper JD et al.
+> 2008 *Nat Genet* PMID 18978792** "Meta-analysis of genome-wide
+> association study data identifies additional type 1 diabetes risk loci."
+> Year-drift correction needed for all "Cooper 2012 Nat Genet"
+> attributions (CLEC16A line 1095, ERBB3 line 1113, IKZF1 line 1209,
+> RASGRP1 line 1327).
+>
+> **Two variants noted**:
+> - "Cooper 2012 *Nat Genet*" — confirmed year-drift to Cooper 2008
+>   PMID 18978792 (4 sites)
+> - "Cooper 2012 ImmunoChip" (lines 1370 TAGAP, 1407 IFIH1) — DIFFERENT
+>   pattern. Could be:
+>   (a) Year-drift on the same Cooper 2008 paper (which used GWAS,
+>       not ImmunoChip — so context-mismatch),
+>   (b) Real Cooper JD et al. 2012 *Diabetologia* PMID 22183483
+>       "Confirmation of novel type 1 diabetes risk loci in families"
+>       (not ImmunoChip, not *Nat Genet*),
+>   (c) Misattribution of the ImmunoChip-era T1D fine-mapping work,
+>       which is canonically Onengut-Gumuscu et al. 2015 *Nat Genet*
+>       PMID 25751624 "Fine mapping of type 1 diabetes susceptibility
+>       loci and evidence for colocalization of causal variants with
+>       lymphoid gene enhancers" — DIFFERENT FIRST AUTHOR + YEAR.
+>
+> Recommendation: per-claim disambiguation needed before mechanical
+> propagation. Do NOT batch-replace "Cooper 2012" globally — would
+> introduce error in the ImmunoChip-context citations. See
+> `medical/dysbiosis/CITATION_DISCIPLINE.md` for grep-first methodology
+> and full failure-mode taxonomy. The mechanism claims (locus identities,
+> ORs, allele effects) are independent of the citation drift and remain
+> valid; only the citation metadata needs correction.
+
 ## One Sentence
 
 The body has been regenerating beta cells for your entire life with this disease. It never stopped. The wall is not biology — it's that nobody told you to clear the virus that's been winning the arms race.
@@ -2020,6 +2055,109 @@ TLR9 in islet pDC → IFN-α → β cell IFNAR → JAK1/TYK2 → STAT1 → IRF1 
 3. **Combination strategy**: Gal-1 (kills Th1/Th17) + IL-2 complex (run_151, expands Tregs) + abatacept (run_148, prevents new Th1 activation) + Gal-9/TIM-3 (run_155, exhausts residual Th1) = comprehensive Th1 elimination
 
 *T1DM THEWALL cross-reference run_170: 2026-04-12 | Galectin-1-Gal1-NOD-78%-Perone-2006 sialylation-gate-Th1-Th17-apoptosis Treg-spared-sialylated IRF1-run168-LGALS1-feedback rHsGal-1-LEX-112-Gal1-Fc IL2-run151-abatacept-run148-Gal9-run155-combination CD45-LCK-TCR-dampening serum-Gal1-ELISA | run_170*
+
+---
+
+### Cross-reference: run_171 — GDF15: Mountain-2 4th β-Cell Survival Arm, mtISR Mitokine, T1DM-Specific 10× Deficiency
+
+**Relevance: HIGH** (per `medical/dysbiosis/numerics/run_171_gdf15_*.md`,
+written 2026-04-20 with PMID-anchored CITATION_DISCIPLINE.md discipline)
+
+1. **T1DM islet GDF15 deficiency** (Nakayasu et al. 2020 *Cell Metab*
+   PMID 31928885): T1D islets show **~10-fold reduction in GDF15
+   protein** vs healthy donors. IL-1β + IFN-γ (the T1DM cytokine
+   milieu) **blocks GDF15 translation** despite induced ATF4/CHOP
+   transcription. The brake is engaged at protein-synthesis level,
+   not transcription. Loss of GDF15 paracrine signaling → accelerated
+   β-cell apoptosis under inflammatory stress.
+
+2. **Recombinant GDF15 rescue evidence**:
+   - In vitro: ~50% reduction in cleaved caspase 3 in EndoC-βH1; complete
+     protection from cytokine-induced apoptosis in primary human islets
+   - In vivo: **53% reduction in NOD mouse diabetes incidence** with
+     recombinant GDF15 administration; significant decrease in insulitis
+   - STZ model confirmation: NAG-1/GDF15 protects against
+     STZ-induced T1DM by inhibiting apoptosis + preserving β-cell
+     function (Jiang 2022 PMID 35398052)
+
+3. **Mountain-2 framework slot**: 4th β-cell-survival arm in T1DM
+   regeneration mountain (prior arms: GLP-1R/cAMP/SIRT1 from run_073;
+   calcitriol/VDR/Bcl-2 from runs 031/056; ErbB3/PI3K/Akt from
+   run_129). GDF15 mechanism is mtISR-driven, secreted-mitokine
+   paracrine, TGF-β superfamily downstream — distinct from all three
+   prior arms.
+
+4. **Drug-interaction caution**: anti-GFRAL antagonists (in clinical
+   trials for cachexia, e.g., NGM120) might attenuate the
+   β-cell-protective GDF15 signaling. Patients on such trials with
+   concurrent T1DM/pre-T1DM should be flagged. Conversely, GDF15
+   agonists (in clinical trials for obesity) might have β-cell-
+   protective side benefit in T1DM stage 1-2.
+
+5. **Biomarker integration**: serum GDF15 as monitoring marker in
+   patients on full-protocol engagement. Baseline + 3-month + 6-month.
+   Predicted T1DM-direction: gradual rise as inflammatory load
+   decreases (translation block lifted). Combines with PBMC LAMP2
+   (gap.md falsifier) + nuclear TFEB (run_172) for combined panel.
+
+*T1DM THEWALL cross-reference run_171: 2026-04-20 | GDF15 mtISR mitokine ATF4 CHOP β-cell-deficiency T1DM-10x-reduction Nakayasu-2020-PMID-31928885 NOD-53%-rescue Jiang-2022-PMID-35398052 NAG-1 STZ-model GFRAL-hindbrain anti-GFRAL-cachexia-flag Mountain-2-4th-arm CDR-Naviaux serum-GDF15-monitoring | run_171*
+
+---
+
+### Cross-reference: run_172 — TFEB: Master Autophagy/Lysosomal TF, Mechanistic Substrate for v9.1 LAMP2 Falsifier
+
+**Relevance: HIGH** (per `medical/dysbiosis/numerics/run_172_tfeb_*.md`,
+written 2026-04-20 with PMID-anchored CITATION_DISCIPLINE.md discipline)
+
+1. **β-cell-specific Tfeb-KO phenotype** (Settembre 2011 *Science*
+   PMID 21617040; downstream literature): Tfeb-KO β cells **increased
+   susceptibility to streptozotocin-induced hyperglycemia**. Prolonged
+   hypoxia (analog of inflammatory/viral stress) → impaired β-cell
+   autophagic flux → **decreased β-cell Tfeb levels**. Pharmacological
+   TFEB activation **restores lysosomal function and rescues β-cell
+   viability under stress**.
+
+2. **TFEB and TFE3 directly control insulin gene expression** (Pasquier
+   & Pastore et al. 2023 *EMBO J* PMID 37712288): nutrient-deprivation-
+   induced TFEB/TFE3 activation **suppresses insulin gene expression**
+   as starvation-adaptive program. Tfeb/Tfe3 β-cell-specific
+   double-KO mice show severe alteration of insulin transcription,
+   secretion, and glucose tolerance. **Implication**: TFEB role is
+   context-dependent — short-term activation under nutrient stress
+   protects β cells while reducing insulin output (energy-conservation);
+   chronic dysregulation in either direction is harmful. **Intermittent
+   / cyclic TFEB activation (FMD pulses, time-restricted feeding)
+   likely more beneficial than continuous TFEB-driver exposure**.
+
+3. **TFEB as the LAMP2-falsifier mechanistic substrate** (the
+   load-bearing finding): the gap.md 2026-04-18 v9.1 falsifier
+   ("PBMC LAMP2 should rise within 3-6 months of full-protocol
+   engagement") is grounded by the mTORC1 → TFEB-Ser211 → 14-3-3 →
+   nuclear translocation → CLEAR network → LAMP2 transcription chain.
+   **TFEB is the single transcriptional master switch linking protocol
+   intervention to LAMP2 rise** (Roczniak-Ferguson 2012 *Sci Signal*
+   PMID 22692423; Settembre 2013 *EMBO J* PMID 23604321). Sharpened
+   falsifier per run_172: nuclear TFEB protein rise should precede
+   LAMP2 mRNA rise by 1-2 weeks.
+
+4. **Convergence node for protocol interventions**: 8+ existing
+   T1DM/dysbiosis protocol components converge on TFEB activation:
+   FMD (run_021 Mountain-2), spermidine (run_041), sulforaphane
+   (run_027), BHB (run_037), rapamycin (run_028 + run_158), vitamin
+   D (runs 018/056/119), berberine (multiple), NMN/NAD+ (runs 086,
+   147). The protocol's empirical multi-target effectiveness is
+   explained as TFEB-axis convergence rather than independent
+   mechanisms.
+
+5. **Combined biomarker panel for v9.1 falsifier validation** (per
+   gap.md 2026-04-20 sharpening section):
+   - Nuclear TFEB protein (PBMC IHC) — earliest signal, week 2-4
+   - CLEAR network co-elevation panel (LAMP2 + LAMP1 + MCOLN1 + CTSD
+     + ATG7 + BECN1 + BCL2) — week 4-12
+   - LAMP2 protein (Western/flow) — month 3-6 (original falsifier)
+   - Serum GDF15 (run_171) — month 3-6, T1DM-direction-specific
+
+*T1DM THEWALL cross-reference run_172: 2026-04-20 | TFEB CLEAR network LAMP2 master autophagy TF mTORC1 14-3-3 calcineurin Settembre-2011-PMID-21617040 Roczniak-Ferguson-2012-PMID-22692423 Pasquier-Pastore-2023-PMID-37712288 β-cell-specific-Tfeb-KO-STZ insulin-gene-expression-context-dependent intermittent-cyclic-activation FMD-spermidine-sulforaphane-BHB-rapamycin-vitamin-D-berberine-NMN-NAD-convergence v9.1-LAMP2-falsifier-mechanistic-substrate combined-biomarker-panel-nuclear-TFEB-CLEAR-LAMP2-GDF15 | run_172*
 
 ---
 

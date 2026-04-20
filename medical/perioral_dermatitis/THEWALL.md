@@ -1,5 +1,26 @@
 # Perioral Dermatitis — THE WALL
 
+> **2026-04-20 cross-subdir audit note (R-Buhl)**: This file cites
+> "Buhl 2017 *J Allergy Clin Immunol*" at line ~233 as the source for
+> "LL-37 → direct TRPV1 agonist." Per `medical/dysbiosis/VERIFIED_REFS.md`
+> Fires 82 + 88: there are now **three distinct "Buhl 2017" journal
+> attributions across the corpus** (this file's *J Allergy Clin Immunol*,
+> dysbiosis run_068's *Exp Dermatol* for calprotectin, dysbiosis run_093's
+> *J Invest Dermatol* for TRPA1) — and **none of the three has been
+> verified via WebSearch**. The dysbiosis run_015 cite-link to PMID
+> 27840092 also returns no Buhl LL-37/TRPV1 paper. The single real
+> Buhl T paper from this period is **Buhl 2015 *J Invest Dermatol*
+> PMID 25848978** (Th1/Th17 transcriptome) — which does not contain
+> TRPV1 agonism, calprotectin serum measurements, or TRPA1
+> immunostaining content. **Action**: the LL-37 → TRPV1 mechanism
+> claim should be re-sourced. Real candidates: Lande 2007 *Nature*
+> PMID 17873860 (LL-37/innate immunity), or specific LL-37/TRPV1
+> mechanistic papers like Chen 2007 / Yu 2010 — search for the
+> specific TRPV1-agonism claim with verified PMID before citing.
+> See `medical/dysbiosis/CITATION_DISCIPLINE.md` for the full
+> failure-mode taxonomy and grep-first methodology that surfaced
+> this finding.
+
 ## Classification Reminder
 
 POD is **NOT** a CVB disease. It is included in this repo as part of the broader medical expansion beyond the CVB campaign. The wall for POD is structurally different from the walls facing CVB-linked diseases: it is not a mechanistic wall (the mechanism is reasonably well understood), it is not a drug development wall (effective drugs exist), and it is not a diagnostic technology wall (POD is visually distinctive once you know the pattern).

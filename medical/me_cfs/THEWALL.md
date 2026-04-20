@@ -1720,6 +1720,118 @@ ME/CFS has strong evidence for mitochondrial dysfunction (Naviaux 2016 PNAS: CDR
 
 ---
 
+### Cross-reference: run_171 — GDF15: CDR Mitokine, ME/CFS-Predicted-ELEVATED Direction (Opposite of T1DM Deficiency)
+
+**Relevance: HIGH (mechanistic) / MODERATE (direct evidence)**
+(per `medical/dysbiosis/numerics/run_171_gdf15_*.md`, written 2026-04-20
+with PMID-anchored CITATION_DISCIPLINE.md discipline)
+
+1. **CDR framework substrate**: per Naviaux 2016 *PNAS* PMID 27573827
+   (verified Phase 4b Fire 78 in dysbiosis/VERIFIED_REFS), ME/CFS is
+   framed as a hypometabolic Cell Danger Response state — chronic
+   adaptive engagement of mitochondrial stress-response programs.
+   GDF15 is the canonical mtISR mitokine signaling cellular stress
+   to systemic metabolic adaptation (Chung 2023 *Front Endocrinol*
+   PMID 37818094 review). **Framework prediction: ME/CFS serum/PBMC
+   GDF15 is ELEVATED at baseline** as objective marker of chronic
+   CDR engagement.
+
+2. **Direction OPPOSITE of T1DM** (same molecule, different disease
+   physiology): T1DM islets show 10× GDF15 deficiency due to
+   inflammatory translation block (Nakayasu 2020 *Cell Metab* PMID
+   31928885); ME/CFS is predicted GDF15-ELEVATED systemically as
+   chronic adaptive output. This is a **disease-direction-specific
+   prediction from one molecule** — sigma v9.1 D2 prior-art annotation
+   value (the same TGF-β superfamily mitokine has different
+   direction-of-deficit in different dysbiosis-linked diseases).
+
+3. **PEM (post-exertional malaise) hypothesis**: predicted acute GDF15
+   spikes during PEM episodes reflecting acute mitochondrial-stress
+   amplification on top of chronic baseline. Could function as
+   objective biomarker for PEM severity (currently relies on
+   subjective Bell scale + DSQ-PEM scoring). Falsifier: serum GDF15
+   pre-vs-post CPET (cardiopulmonary exercise test) in ME/CFS vs
+   healthy controls. Predicted: ME/CFS shows higher baseline + larger
+   delta with exertion than controls.
+
+4. **Therapeutic caveat for ME/CFS** (opposite of T1DM): if GDF15
+   is already chronically elevated as part of CDR adaptive program,
+   exogenous GDF15 supplementation would NOT help and might worsen
+   the dauer-like state. Disease-direction-specific therapeutics:
+   ME/CFS likely needs upstream mitochondrial-stress reduction (NMN,
+   CoQ10, FMD-driven mitophagy) rather than GDF15 amplification.
+   Anti-GFRAL antagonists (clinical trials for cachexia) might
+   actually HELP ME/CFS hypometabolic state by removing satiety
+   signal — speculative, requires cohort study.
+
+5. **Combined biomarker panel** (per gap.md 2026-04-20 sharpening):
+   serum GDF15 + PBMC LAMP2 + nuclear TFEB (run_172). For ME/CFS,
+   protocol response prediction is GDF15 ↓ (CDR engagement reduces)
+   alongside LAMP2 ↑ + nuclear TFEB ↑ — convergent measure of
+   "the brake is releasing as mitochondrial stress reduces."
+
+*ME/CFS THEWALL cross-reference run_171: 2026-04-20 | GDF15 mtISR mitokine CDR-Naviaux-2016-PMID-27573827 ME/CFS-ELEVATED-baseline-prediction T1DM-OPPOSITE-direction PEM-acute-spike-CPET-falsifier hypometabolic-dauer-CDR exogenous-GDF15-CONTRAINDICATED-ME/CFS anti-GFRAL-NGM120-speculative-help GFRAL-hindbrain-satiety combined-panel-LAMP2-TFEB-GDF15-protocol-monitoring | run_171*
+
+---
+
+### Cross-reference: run_172 — TFEB: ME/CFS Chronic mTORC1 Hyperactivation → TFEB-Suppressed → LAMP2-Deficient Substrate
+
+**Relevance: HIGH (mechanistic substrate for ME/CFS LAMP2 phenotype)**
+(per `medical/dysbiosis/numerics/run_172_tfeb_*.md`, written 2026-04-20
+with PMID-anchored CITATION_DISCIPLINE.md discipline)
+
+1. **Chronic mTORC1 hyperactivity in ME/CFS** (per run_158 mTOR
+   cross-reference + viral persistence literature): EBV/HHV-6/CVB
+   persistent infection + chronic systemic inflammation drive
+   sustained mTORC1 activation. TFEB Ser211 phosphorylation by mTORC1
+   → 14-3-3 cytoplasmic sequestration → **TFEB nuclear translocation
+   blocked → CLEAR network silenced → LAMP2 + lysosomal/autophagy
+   genes suppressed** (Settembre 2011 *Science* PMID 21617040;
+   Roczniak-Ferguson 2012 *Sci Signal* PMID 22692423). This provides
+   the molecular substrate for the "zombie autophagy" phenotype
+   (ATG7 elevated + LAMP2 suppressed per GSE184831) referenced in
+   the dysbiosis gap.md 2026-04-18 v9.1 falsifier.
+
+2. **Mitophagy deficit chain**: TFEB-driven CLEAR network supplies
+   functional lysosomes required for mitophagy completion (PINK1/
+   Parkin per run_090 SIRT3 mitochondrial; mtUPR adjacent). TFEB
+   suppression → reduced lysosomal capacity → mitophagy stalls at
+   autophagosome formation but cannot complete → damaged mitochondria
+   accumulate → sustained mtISR → CDR (Naviaux PMID 27573827) →
+   chronic GDF15 elevation (cf. run_171 ME/CFS prediction). **TFEB
+   suppression is the upstream node linking persistent infection
+   → autophagy/lysosomal deficit → CDR maintenance**.
+
+3. **Protocol intervention prediction**: ME/CFS protocols emphasizing
+   intermittent mTORC1 suppression (FMD pulses per run_021,
+   time-restricted feeding, low-dose rapamycin per run_158, BHB per
+   run_037) should produce measurable nuclear TFEB rise + CLEAR
+   network co-elevation in PBMC within 4 weeks of consistent
+   intervention. Patients who do NOT respond to mTORC1-modulation may
+   have alternative TFEB-suppression mechanisms (calcineurin block,
+   FLCN-Ragulator dysfunction) requiring different intervention.
+
+4. **PEM (post-exertional malaise) sharper falsifier**: predicted
+   TFEB nuclear translocation impairment is more pronounced
+   post-PEM-exertion than at baseline (acute amplification of the
+   chronic block). Combined PEM-response biomarker panel: PBMC
+   nuclear TFEB ↓ + GDF15 ↑ + LAMP2 mRNA ↓ at PEM peak vs baseline.
+   Recovery of these markers tracks PEM resolution kinetics. If TFEB
+   nuclear translocation does NOT differ pre/post-PEM, the chronic
+   mTORC1-TFEB-LAMP2 hypothesis for ME/CFS is weakened.
+
+5. **Therapeutic caveat — calibration matters** (per Pasquier &
+   Pastore 2023 *EMBO J* PMID 37712288): TFEB activation has
+   context-dependent effects (insulin gene suppression in β cells
+   under nutrient deprivation). For ME/CFS, intermittent/cyclic
+   TFEB activation (FMD pulses) likely safer than continuous
+   TFEB-driver exposure (chronic rapamycin). The chronic-vs-cyclic
+   distinction is load-bearing for safety.
+
+*ME/CFS THEWALL cross-reference run_172: 2026-04-20 | TFEB CLEAR network LAMP2 master autophagy TF mTORC1 14-3-3 chronic-hyperactivation EBV-HHV6-CVB-persistence Settembre-2011-PMID-21617040 Roczniak-Ferguson-2012-PMID-22692423 zombie-autophagy-GSE184831 mitophagy-deficit-PINK1-Parkin CDR-Naviaux-substrate FMD-rapamycin-BHB-time-restricted-intermittent PEM-CPET-pre-post-falsifier nuclear-TFEB-PBMC-IHC chronic-vs-cyclic-safety-Pasquier-Pastore-2023-PMID-37712288 | run_172*
+
+---
+
 ## 2026-04-18 audit note (R36 from AUDIT_LOG fire 36): Mechanism-Counting Methodology (ME/CFS)
 
 **Propagation of R35 from t1dm/THEWALL.md.** This file uses the same counting convention ("eighth NK functional gate," "double-deficit [IRF1+T-bet]," "second PEM mechanism") applied to ME/CFS pathology. The methodology note at `medical/t1dm/THEWALL.md` (audit-note section, 2026-04-18) applies verbatim here:
