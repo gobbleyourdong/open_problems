@@ -1,6 +1,6 @@
 # PROOF ARSENAL — Curated from FLUID GOD Manifest
 # Papers directly relevant to proving NS 3D blowup via our approach.
-# Distilled for agents. Source: FLUID_GOD_manifest.md (73 papers)
+# Distilled for agents. Source: archive/manifests/FLUID_GOD_manifest.md (73 papers)
 #
 # ⚠️ WARNING: Equations from manifest are ~80% accurate. DO NOT use any
 # equation in proof work without cross-referencing against the actual arXiv PDF.
@@ -501,7 +501,7 @@ Rank < 50  (Biot-Savart nonlocality captured by <50 modes)
 | 2.5 | 6 | Quantitative bounds, non-uniqueness, Biot-Savart, computational search |
 | 3+ | 5 | Alternative frameworks (quaternions, spin, partial regularity, experimental, boundary) |
 
-**Remaining 64 papers not ported:** Too tangential (2D-only, stochastic-specific, turbulence modeling, control theory, chemotaxis, PINNs, diffusion models, Couette-Taylor, spectral data of water waves) or lower relevance (≤6/10). Available in FLUID_GOD_manifest.md if needed.
+**Remaining 64 papers not ported:** Too tangential (2D-only, stochastic-specific, turbulence modeling, control theory, chemotaxis, PINNs, diffusion models, Couette-Taylor, spectral data of water waves) or lower relevance (≤6/10). Available in archive/manifests/FLUID_GOD_manifest.md if needed.
 
 ---
 
