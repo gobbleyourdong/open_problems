@@ -1,0 +1,57 @@
+========================================================================
+ t3_check_violator.py — is Agent C's violator in T^3 image?
+========================================================================
+
+Agent C's claimed violator:
+  c = [-0.9993 -0.0109  0.9993 -0.999 ]
+  s = [ 0.037  1.    -0.037  0.046]
+
+[1] Primary: use target signs of s directly
+  x_1 = arctan2(s_1, c_1) = arctan2(0.0370, -0.9993) = 3.104584
+  x_2 = arctan2(s_2, c_2) = arctan2(1.0000, -0.0109) = 1.581696
+  x_3 = arctan2(s_3, c_3) = arctan2(-0.0370, 0.9993) = -0.037009
+  phi_4 = (x_1+x_2+x_3)/sqrt(3) = 2.684258
+  c_4 (REAL, from T^3) = cos(phi_4) = -0.897232
+  s_4 (REAL, from T^3) = sin(phi_4) = 0.441559
+  c_4 (TARGET from Agent C) = -0.999000
+  s_4 (TARGET from Agent C) = 0.046000
+  |c_4_real - c_4_target|  = 0.101768
+  |s_4_real - s_4_target|  = 0.395559
+
+[2] Enumerate all 8 sign combinations for s_1, s_2, s_3
+  |s_1| = sqrt(1 - c_1^2) = sqrt(1 - 0.998600) = 0.037410  (target |s_1| = 0.0370)
+  |s_2| = sqrt(1 - c_2^2) = sqrt(1 - 0.000119) = 0.999941  (target |s_2| = 1.0000)
+  |s_3| = sqrt(1 - c_3^2) = sqrt(1 - 0.998600) = 0.037410  (target |s_3| = 0.0370)
+
+  sign  s_1    s_2    s_3      x_1     x_2     x_3     phi_4    c_4_real    c_4_target  |delta|
+  -1-1-1  -0.037 -1.000 -0.037   -3.104  -1.582  -0.037   -2.727   -0.91528   -0.99900  0.083723
+  -1-1+1  -0.037 -1.000 +0.037   -3.104  -1.582  +0.037   -2.684   -0.89702   -0.99900  0.101976
+  -1+1-1  -0.037 +1.000 -0.037   -3.104  +1.582  -0.037   -0.901   +0.62113   -0.99900  1.620135
+  -1+1+1  -0.037 +1.000 +0.037   -3.104  +1.582  +0.037   -0.857   +0.65441   -0.99900  1.653406
+  +1-1-1  +0.037 -1.000 -0.037   +3.104  -1.582  -0.037   +0.857   +0.65441   -0.99900  1.653406
+  +1-1+1  +0.037 -1.000 +0.037   +3.104  -1.582  +0.037   +0.901   +0.62113   -0.99900  1.620135
+  +1+1-1  +0.037 +1.000 -0.037   +3.104  +1.582  -0.037   +2.684   -0.89702   -0.99900  0.101976
+  +1+1+1  +0.037 +1.000 +0.037   +3.104  +1.582  +0.037   +2.727   -0.91528   -0.99900  0.083723
+
+  Best-matching sign (minimizing |c_4_real - c_4_target|): eps = (-1,-1,-1)
+     phi_4 = -2.726992, c_4_real = -0.915277, delta = 0.083723
+
+[3] Also sweep over integer shifts of (x_1, x_2, x_3) by 2*pi
+    (Note: adding 2*pi to x_j doesn't change c_j or s_j, but shifts phi_4 by 2*pi/sqrt(3))
+    Since sqrt(3) is irrational, (c_4, s_4) lands densely on S^1 as we vary shifts.
+    We match BOTH c_4 AND s_4 simultaneously (equivalent to matching phi_4 mod 2*pi).
+    phi_4_target = arctan2(s_4_target, c_4_target) = arctan2(0.0460, -0.9990) = 3.095579
+  best integer shift in [-20,20]^3: n = (4,20,10), eps = (-1,+1,+1)
+     phi_4 = 122.480958  (target 3.095579)
+     phi_4 - phi_4_target (mod 2pi) = 0.004858
+     c_4_real = -0.999153  (target -0.999000, delta -0.000153)
+     s_4_real = 0.041144  (target 0.046000, delta -0.004856)
+     -> Can be matched to within 0.01 rad in phi_4 (T^3 image is dense here)
+
+[4] Conclusion
+  Agent C's SOS violator (from the 8-var system with sphere + 3 first-order eqs)
+  has c_4 = -0.9990.  The T^3 IMAGE gives c_4 determined by the angle-link
+  phi_4 = (x_1+x_2+x_3)/sqrt(3).
+  Numerical answer: best-case T^3-realized c_4 = -0.999153
+  Gap to Agent C's claimed c_4 = 0.083723
+========================================================================

@@ -1,0 +1,61 @@
+Sanity (saddle x*): H eigenvalues = [-0.73957914  1.71683413  4.38921772]
+  Expected from attempt_856:  (-0.7396, +1.7168, +4.3892)
+Attempt 857: Tight SOS with polynomial angle-link AND Hessian-NSD matrix-PSD localizer
+             at attempt_852 config (k_4 = (1,1,0) integer lattice)
+  NONDEG epsilon = 0.001
+  P monomials: 6
+    P[c4^2                ] = +0.625000
+    P[c3*c4               ] = +2.298097
+    P[c3^2                ] = +0.625000
+    P[c2^2                ] = +0.625000
+    P[c1*c4               ] = -0.883883
+    P[c1^2                ] = +0.625000
+
+=== Lasserre moment relaxation at d=3 (moments up to 2d=6) ===
+  |half|=165 (moment matrix side), |full|=3003 (scalar moment vars)
+  moment matrix M_d: 165x165
+  ineq localizer box_c1: dg=2, dloc=2, size=45
+  ineq localizer box_c2: dg=2, dloc=2, size=45
+  ineq localizer box_c3: dg=2, dloc=2, size=45
+  ineq localizer box_c4: dg=2, dloc=2, size=45
+  ineq localizer box_s1: dg=2, dloc=2, size=45
+  ineq localizer box_s2: dg=2, dloc=2, size=45
+  ineq localizer box_s3: dg=2, dloc=2, size=45
+  ineq localizer box_s4: dg=2, dloc=2, size=45
+  ineq localizer NONDEG: dg=2, dloc=2, size=45
+  Hessian-NSD matrix-PSD localizer: half-deg=2, |halfH|=45, block size=135x135
+    matrix-PSD block constraints added in 4.0s
+  eq sphere1: dg=2, shift_monos=495, active=495
+  eq sphere2: dg=2, shift_monos=495, active=495
+  eq sphere3: dg=2, shift_monos=495, active=495
+  eq sphere4: dg=2, shift_monos=495, active=495
+  eq AL_c: dg=2, shift_monos=495, active=495
+  eq AL_s: dg=2, shift_monos=495, active=495
+  eq FO_1_C1: dg=2, shift_monos=495, active=495
+  eq FO_2_C2: dg=2, shift_monos=495, active=495
+  eq FO_3_C3: dg=2, shift_monos=495, active=495
+  total constraints: 68142
+  building problem took 8.6s
+  solving with SCS...
+  solve took 118.7s
+  status: optimal
+  optimal value (lower bound on min P over tight-MAX set): 1.0857864718707797
+  first-order moments (candidate mean):
+    E[c1] = -0.000000
+    E[c2] = -1.000000
+    E[c3] = -0.000000
+    E[c4] = +0.000000
+    E[s1] = -0.000000
+    E[s2] = -0.000000
+    E[s3] = -0.000000
+    E[s4] = -0.000000
+  moment matrix top eigenvalues: [1.05458465e-07 1.31079999e-07 2.37589962e-07 3.58222634e-07
+ 1.59999997e+01 1.89999995e+01]
+  moment matrix bottom eigenvalues: [-6.22085970e-08 -4.01442666e-08 -3.89057483e-08 -3.53512940e-08
+ -3.05069783e-08 -2.56933902e-08]
+
+--> d=3: min P lower bound = 1.0857864718707797
+
+TOTAL runtime: 129.6s
+Summary: {3: np.float64(1.0857864718707797)}
+attempt_856 baseline (no Hessian-NSD): min P = -1.16386

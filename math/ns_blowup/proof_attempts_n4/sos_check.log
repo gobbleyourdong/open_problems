@@ -1,0 +1,33 @@
+Relaxation order d = 2
+  half-degree monomials: 15  (size of M_d)
+  full-degree monomials: 70  (moment variables)
+  Localizer for box1: deg(g)=2, dloc=1, size=5
+  Localizer for box2: deg(g)=2, dloc=1, size=5
+  Localizer for box3: deg(g)=2, dloc=1, size=5
+  Localizer for box4: deg(g)=2, dloc=1, size=5
+  Localizer for F1p: deg(g)=4, dloc=0, size=1
+  Localizer for F3p: deg(g)=4, dloc=0, size=1
+  Localizer for Fp: deg(g)=4, dloc=0, size=1
+  Localizer for ND: deg(g)=2, dloc=1, size=5
+
+Objective P has 7 monomials
+    P[c4^2] = -1.000000
+    P[c2*c4] = -0.471405
+    P[c2^2] = +0.625000
+    P[b*c4] = +0.942809
+    P[b^2] = +0.625000
+    P[a*c4] = -0.471405
+    P[a^2] = +0.625000
+
+Solving moment relaxation (Lasserre dual) at degree d=2...
+Status: optimal
+Optimal value (lower bound on min P over S): -1.395866
+
+!! NEGATIVE LOWER BOUND: (R*) is NOT valid on the relaxed semialgebraic set S.
+   This means (R*) is INFEASIBLE in the Putinar/SOS sense at degree 2 .
+   Try extracting a violator from the moment matrix.
+   Moment-extracted (a,b,c2,c4) = (0.000000, -0.000000, 0.000000, 0.000000)
+   P at this point = -0.000000
+   Derived c1 = 0.000000, c3 = -0.000000
+   |c1|<=1? True, |c3|<=1? True, |c2|<=1? True, |c4|<=1? True
+   F1'=0.0000<=0.25? True, F3'=0.0000<=0.25? True, F'=0.0000<=1.5? True, ND=0.0000>0? True

@@ -1,0 +1,9 @@
+--- Strategy 1: random T^3 seeds (automatically feasible) ---
+
+--- Strategy 2: corner-style seeds (attempt_854 pattern) ---
+
+--- Strategy 3: x-grid seeds ---
+  grid seeds examined: 0
+
+Runtime: 0.1s
+No feasible minimizer found.

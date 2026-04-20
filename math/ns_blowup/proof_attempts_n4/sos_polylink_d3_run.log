@@ -1,0 +1,65 @@
+Sanity: ||P - P_check|| = 0.00e+00
+Attempt 856: Tight SOS with POLYNOMIAL angle-link at attempt_852 config
+  target: P(c) >= 0 on tight set (spheres + AL + FO + NONDEG)
+  NONDEG epsilon = 0.001
+  P monomials: 6
+    P[c4^2                ] = +0.625000
+    P[c3*c4               ] = +2.298097
+    P[c3^2                ] = +0.625000
+    P[c2^2                ] = +0.625000
+    P[c1*c4               ] = -0.883883
+    P[c1^2                ] = +0.625000
+
+=== Lasserre moment relaxation at d=3 (moments up to 2d=6) ===
+  |half|=165 (moment matrix side), |full|=3003 (scalar moment vars)
+  moment matrix M_d: 165x165
+  ineq localizer box_c1: dg=2, dloc=2, size=45
+  ineq localizer box_c2: dg=2, dloc=2, size=45
+  ineq localizer box_c3: dg=2, dloc=2, size=45
+  ineq localizer box_c4: dg=2, dloc=2, size=45
+  ineq localizer box_s1: dg=2, dloc=2, size=45
+  ineq localizer box_s2: dg=2, dloc=2, size=45
+  ineq localizer box_s3: dg=2, dloc=2, size=45
+  ineq localizer box_s4: dg=2, dloc=2, size=45
+  ineq localizer NONDEG: dg=2, dloc=2, size=45
+  eq sphere1: dg=2, shift_monos=495, active=495
+  eq sphere2: dg=2, shift_monos=495, active=495
+  eq sphere3: dg=2, shift_monos=495, active=495
+  eq sphere4: dg=2, shift_monos=495, active=495
+  eq AL_c: dg=2, shift_monos=495, active=495
+  eq AL_s: dg=2, shift_monos=495, active=495
+  eq FO_1_C1: dg=2, shift_monos=495, active=495
+  eq FO_2_C2: dg=2, shift_monos=495, active=495
+  eq FO_3_C3: dg=2, shift_monos=495, active=495
+  total constraints: 49916
+  building problem took 4.9s
+  solving with SCS...
+  solve took 73.2s
+  status: optimal
+  optimal value (lower bound on min P over tight set): -1.1638645968529282
+  first-order moments (candidate mean):
+    E[c1] = -0.000000
+    E[c2] = +0.086389
+    E[c3] = -0.000000
+    E[c4] = -0.000000
+    E[s1] = -0.000000
+    E[s2] = -0.000000
+    E[s3] = +0.000000
+    E[s4] = +0.000000
+  moment matrix top eigenvalues: [2.07986788e-08 2.13919716e-08 7.22178044e+00 7.59957863e+00
+ 7.64858037e+00 1.02967594e+01]
+  moment matrix bottom eigenvalues: [-3.21417738e-08 -1.79414573e-08 -1.70835185e-08 -1.69519145e-08
+ -1.68971702e-08 -9.66235761e-09]
+  feasibility at moment-mean (may not be an atom):
+    sphere_1: c^2+s^2-1 = -1.0000e+00
+    sphere_2: c^2+s^2-1 = -9.9254e-01
+    sphere_3: c^2+s^2-1 = -1.0000e+00
+    sphere_4: c^2+s^2-1 = -1.0000e+00
+    AL_c = -3.1139e-16,  AL_s = +8.9328e-16
+    FO1 = -2.7588e-32, FO2 = +5.4296e-16, FO3 = -4.5398e-31
+    |omega|^2 = +7.4630e-03 (need >= 0.001)
+    P at mean = +0.004664
+
+--> d=3: min P lower bound = -1.1638645968529282
+
+TOTAL runtime: 80.2s

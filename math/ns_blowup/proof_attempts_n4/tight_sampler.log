@@ -1,0 +1,32 @@
+Structured grid sweep over (c2, c4) with nc2=nc4=300...
+  755184 raw (c1,c2,c3,c4) points (from quartic roots)
+  5364 points with |Q4-lam2| < 1e-4
+Refining near-tight points via Newton on c4...
+  660 refined tight-set points (|Q4-lam2| < 1e-7)
+Random-seed sampling (N=200000 c2,c4 seeds)...
+  11312 near-tight points from random seeds
+
+Total tight-set points kept (|omega|^2 >= 0.001): 1912
+Runtime: 18.5s
+
+min P observed: -1.309654
+  at (c1,c2,c3,c4) = (-0.998275, -0.017182, +0.998275, -0.997902)
+  |omega|^2 = +0.171586
+  Q1..Q4 = (np.float64(0.000295138031379448), np.float64(0.0002951380313788398), np.float64(0.000295138031379448), np.float64(0.00023933509025066452))  (should be all equal on tight set)
+  P quantiles: {'0%': np.float64(-1.30965), '0.1%': np.float64(-1.30954), '1%': np.float64(-1.30832), '5%': np.float64(-1.21816), '25%': np.float64(-0.97088), '50%': np.float64(0.37515), '75%': np.float64(1.25599), '95%': np.float64(2.35072), '99%': np.float64(4.5132), '100%': np.float64(6.0714)}
+  fraction with P<0: 853/1912 = 44.61%
+  min Frobenius ratio: ||S||^2/|omega|^2 max?
+  max ||S||^2/|omega|^2 over tight set: 15.3861  (target < 9/8 = 1.125)
+  fraction with ratio >= 9/8: 853/1912 = 44.61%
+
+  Worst-10 (smallest P) points on tight set:
+    P=-1.30965, |om|^2=+0.1716, c=(-0.9983, -0.0172, +0.9983, -0.9979)
+    P=-1.30954, |om|^2=+0.1717, c=(+0.9994, +0.0100, -0.9994, +0.9991)
+    P=-1.30954, |om|^2=+0.1717, c=(-0.9994, -0.0100, +0.9994, -0.9991)
+    P=-1.30954, |om|^2=+0.1717, c=(+0.9994, +0.0100, -0.9994, +0.9991)
+    P=-1.30954, |om|^2=+0.1717, c=(-0.9994, -0.0100, +0.9994, -0.9991)
+    P=-1.30954, |om|^2=+0.1717, c=(+0.9994, +0.0100, -0.9994, +0.9991)
+    P=-1.30954, |om|^2=+0.1717, c=(-0.9994, -0.0100, +0.9994, -0.9991)
+    P=-1.30954, |om|^2=+0.1717, c=(+0.9994, +0.0100, -0.9994, +0.9991)
+    P=-1.30954, |om|^2=+0.1717, c=(-0.9994, -0.0100, +0.9994, -0.9991)
+    P=-1.30954, |om|^2=+0.1717, c=(+0.9994, +0.0100, -0.9994, +0.9991)

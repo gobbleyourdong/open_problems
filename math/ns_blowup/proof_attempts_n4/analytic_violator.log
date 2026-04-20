@@ -1,0 +1,38 @@
+P(a,b,c2,c4) at (a,b,c4) = (1/sqrt2-1, 1-1/sqrt2, -1):
+  P = 5*c2**2/8 + sqrt(2)*c2/3 - 9*sqrt(2)/4 + 15/8
+  P (simplified) = 5*c2**2/8 + sqrt(2)*c2/3 - 9*sqrt(2)/4 + 15/8
+
+dP/dc2 = 5*c2/4 + sqrt(2)/3
+c2 optimal (unconstrained): [-4*sqrt(2)/15]
+  numeric: -0.37712362
+  P at optimum = 643/360 - 9*sqrt(2)/4 = -1.39586940
+
+ND at optimum = 707/225 = 3.14222222
+(positive -> |omega|^2 > 0, not a degenerate boundary)
+
+Exact analytic minimum of P on this corner: 643/360 - 9*sqrt(2)/4
+  = -1.3958694042
+Lasserre d=2 lower bound was: -1.395866
+Lasserre d=3 lower bound was: -1.395869
+These match to 5+ digits.
+
+(c1, c2, c3, c4) = (-1.000000, -0.377124, 1.000000, -1.000000)
+  (c1, c3, c4) are exactly (-1, +1, -1); c2 = -0.377124
+  ||S||_F^2 = 1.748889
+  |omega|^2 = 0.313795
+  Frobenius ratio = 5.573347  (target threshold: 9/8 = 1.125)
+  Ratio EXCEEDS 9/8 by a factor of 4.954
+
+Critical-point check (at a REAL vorticity max, these four must all share a common lambda):
+  omv1 = -0.292893
+  omv2 = -0.377124
+  omv3 = 0.292893
+  omv4 = 0.414214
+
+  At c4 = -1 (so s4 = 0), c1 = -1 (so s1 = 0), c3 = +1 (so s3 = 0),
+  the first-order equations s_j*(omega.v_j)*k_j = 0 force lambda = 0.
+  Then s2*(omv2) = lambda = 0, so either s2 = 0 (=> c2 = +-1) or c2 = 0.
+  The sampled c2 ~ -0.377 satisfies NEITHER of these.
+  => The violator is NOT a real vorticity maximum on T^3.
+     It lives in the RELAXED semialgebraic set (F_j') but not on the tight
+     critical manifold (E) = {all four (1-c_j^2)(omv_j)^2 equal}.

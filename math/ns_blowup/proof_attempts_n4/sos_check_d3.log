@@ -1,0 +1,18 @@
+
+=== Lasserre relaxation order d=3 (moments up to 6) ===
+  |half|=35, |full|=210
+  localizer box1: deg(g)=2, dloc=2, size=15
+  localizer box2: deg(g)=2, dloc=2, size=15
+  localizer box3: deg(g)=2, dloc=2, size=15
+  localizer box4: deg(g)=2, dloc=2, size=15
+  localizer F1p: deg(g)=4, dloc=1, size=5
+  localizer F3p: deg(g)=4, dloc=1, size=5
+  localizer Fp: deg(g)=4, dloc=1, size=5
+  localizer ND: deg(g)=2, dloc=2, size=15
+  Solving...
+  Status: optimal
+  Lower bound on min_S P = -1.395869
+  M_d eigenvalues (top 6): [1.63448597e-08 2.34244180e-08 2.83799901e-08 1.54555305e-07
+ 2.38050105e+00 2.70630833e+00]
+  (smaller eigenvalues near 0 indicate moment matrix rank = # atoms)
+  E[a]=0.00000, E[b]=-0.00000, E[c2]=0.00000, E[c4]=0.00000

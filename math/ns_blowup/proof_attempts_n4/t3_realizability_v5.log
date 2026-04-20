@@ -1,0 +1,36 @@
+==========================================================================
+ t3_realizability_v5.py — T^3 local maxima of |omega|^2 (attempt 855)
+ threshold 9/8 = 1.1250000000
+==========================================================================
+
+--- N = 128^3 grid enumeration ---
+  dx = 4.9087e-02, gmax |omega|^2 = 6.581145, #grid local maxima = 13
+  #non-trivial grid maxima (|omega|^2 > 1e-6): 13
+
+--- N = 256^3 grid enumeration ---
+  dx = 2.4544e-02, gmax |omega|^2 = 6.588563, #grid local maxima = 11
+  #non-trivial grid maxima (|omega|^2 > 1e-6): 11
+
+[Classification]
+  Unique refined points: 12
+  Converged (||grad|| < 1e-4): 2
+  TRUE LOCAL MAXIMA (Hessian NSD, |om|^2 > 1e-4): 2
+
+   rk       x1       x2       x3     |om|^2    ||S||^2      ratio     gnorm    max_eig
+    0  2.86614  2.59713  6.00773   6.039160   1.356191   0.224566  2.89e-08  -1.40e+00
+    1  0.00000  0.00000  0.00000   4.000000   2.000000   0.500000  0.00e+00  -9.37e-01
+
+[Grid cross-check, N=256, |omega|^2 > 0.5 * global max]
+  Max ratio in this region: 0.77728871
+  Min ratio in this region: 0.16763794
+
+[Grid cross-check: ratio at each grid-level local max (N=256)]
+  Top-half grid-level local maxima: 11
+  Max ratio among these: 0.73081527
+
+==========================================================================
+ MAX |omega|^2 over TRUE maxima: 6.0391599445
+ MAX ratio over TRUE maxima:     0.5000000000
+ 9/8 threshold:                  1.1250000000
+ VERDICT: CONFIRM — max ratio 0.500000 < 9/8 (margin 0.625000)
+==========================================================================

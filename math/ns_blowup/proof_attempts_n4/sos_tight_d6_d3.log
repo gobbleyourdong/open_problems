@@ -1,0 +1,69 @@
+Tight N=4 Lasserre SOS check
+  target: P(c) = (9/8)|omega|^2 - ||S||_F^2  >= 0  on TIGHT set (E) as equalities
+  NONDEG epsilon = 0.001
+  polynomial monomials in P: 7
+    P[c4^2                ] = +0.625000
+    P[c3*c4               ] = +1.826693
+    P[c3^2                ] = +0.625000
+    P[c2*c4               ] = -0.471405
+    P[c2^2                ] = +0.625000
+    P[c1*c4               ] = -1.355288
+    P[c1^2                ] = +0.625000
+
+--- Cross-check: Agent B's violator on the TIGHT system ---
+  s2=+0.926163:  E1=+0.0000e+00, E2=-3.4928e-01, E3=+0.0000e+00
+    E2 = s2 * c2 = -0.349278  (must be 0 for tight E2; NOT zero)
+  s2=-0.926163:  E1=+0.0000e+00, E2=+3.4928e-01, E3=+0.0000e+00
+    E2 = s2 * c2 = +0.349278  (must be 0 for tight E2; NOT zero)
+  --> violator FAILS E2 as equality (unless s2 = 0, but sphere_2 forces s2^2 > 0). Good.
+
+=== Lasserre moment relaxation at d=3 (moments up to 2d=6) ===
+  |half|=165 (moment matrix side), |full|=3003 (scalar moment variables)
+  moment matrix M_d: 165x165
+  ineq localizer box_c1: dg=2, dloc=2, size=45
+  ineq localizer box_c2: dg=2, dloc=2, size=45
+  ineq localizer box_c3: dg=2, dloc=2, size=45
+  ineq localizer box_c4: dg=2, dloc=2, size=45
+  ineq localizer box_s1: dg=2, dloc=2, size=45
+  ineq localizer box_s2: dg=2, dloc=2, size=45
+  ineq localizer box_s3: dg=2, dloc=2, size=45
+  ineq localizer box_s4: dg=2, dloc=2, size=45
+  ineq localizer NONDEG: dg=2, dloc=2, size=45
+  eq sphere1: dg=2, shift_monos=495
+  eq sphere2: dg=2, shift_monos=495
+  eq sphere3: dg=2, shift_monos=495
+  eq sphere4: dg=2, shift_monos=495
+  eq E1: dg=2, shift_monos=495
+  eq E2: dg=2, shift_monos=495
+  eq E3: dg=2, shift_monos=495
+  total constraints: 48926
+  building problem took 5.0s
+  solving with SCS...
+  solve took 74.9s
+  status: optimal
+  optimal value (lower bound on min P over tight set): -1.3095610572516325
+  y[1]=1.000000
+  first-order moments (candidate mean values of variables):
+    E[c1] = +0.000000
+    E[c2] = -0.000000
+    E[c3] = -0.000000
+    E[c4] = +0.000000
+    E[s1] = +0.000000
+    E[s2] = +0.000000
+    E[s3] = -0.000000
+    E[s4] = +0.000000
+  moment matrix top eigenvalues: [1.88097163e-07 1.98820512e-07 3.00951131e+00 7.98549032e+00
+ 8.01864771e+00 1.59563604e+01]
+  moment matrix bottom eigenvalues: [-1.98829779e-07 -1.89307517e-07 -1.56936953e-07 -1.47720027e-07
+ -6.82876253e-08 -6.65599785e-08]
+  feasibility check at moment-mean (may not be a true atom):
+    sphere_1: c^2+s^2-1 = -1.0000e+00
+    sphere_2: c^2+s^2-1 = -1.0000e+00
+    sphere_3: c^2+s^2-1 = -1.0000e+00
+    sphere_4: c^2+s^2-1 = -1.0000e+00
+    E1 = +2.2829e-31,  E2 = -4.5769e-30,  E3 = -1.8825e-31
+    |omega|^2 = +9.6605e-32  (need >= 0.001)
+    P = (9/8)|omega|^2 - ||S||_F^2 = -0.000000
+
+TOTAL runtime: 81.9s
+Final: d=3,  min_S P lower bound = -1.3095610572516325

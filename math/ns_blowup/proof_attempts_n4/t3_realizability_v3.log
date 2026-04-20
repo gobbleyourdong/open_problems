@@ -1,0 +1,21 @@
+========================================================================
+ t3_realizability_v3.py — strict critical point classification
+========================================================================
+
+[1] N=128^3 grid: global max |omega|^2 = 6.58114504
+    # grid local maxima (threshold 0.01 gmax) = 13
+[2] Adding 200 random seeds → total 213
+[3] Unique refined critical points: 17
+    Converged critical points (||grad|| < 1e-5): 2
+
+--- TRUE LOCAL MAXIMA of |omega|^2 (converged + all Hessian eigs <= 0) ---
+  rank        x1        x2        x3     |om|^2    ||S||^2      ratio     gnorm   eig_max
+     0   2.86614   2.59713   6.00773   6.039160   1.356191   0.224566  8.29e-11 -1.40e+00
+     1   0.00000   0.00000   0.00000   4.000000   2.000000   0.500000  0.00e+00 -9.37e-01
+
+--- Saddles / other critical points (converged, but Hessian has positive eig) ---
+
+>>> MAX |omega|^2 over true maxima: 6.0391599445
+>>> MAX ratio over true maxima:     0.5000000000
+>>> 9/8 threshold:                  1.1250000000
+>>> VERDICT: CONFIRM — max ratio 0.50000000 < 9/8, margin 0.62500000

@@ -1,0 +1,21 @@
+Best (a,b,c2,c4) found: [-0.29289322  0.29289322 -0.37712362 -1.        ]
+P at best = -1.39586940
+(Lasserre d=2 lower bound was -1.395866; d=3 was -1.395869)
+
+(c1, c2, c3, c4) = (-1.000000, -0.377124, 1.000000, -1.000000)
+Constraint slack values (all should be >= 0):
+  box1: -0.00000000
+  box2: -0.00000000
+  box3: +0.85777778
+  box4: -0.00000000
+  F1p: +0.25000000
+  F3p: +0.25000000
+  Fp: +1.50000000
+  ND: +3.14222122
+
+Direct matrix computation:
+  ||S||_F^2 = 1.748889
+  |omega|^2 = 0.313795
+  Frobenius ratio ||S||_F^2 / |omega|^2 = 5.573347
+  Target (9/8) = 1.125000
+  Excess over target: 4.448347

@@ -1,0 +1,32 @@
+    (debug: sign_ok = True, angle delta = 0.011770 rad)
+========================================================================
+ t3_violator_as_crit.py — classify Agent C's violator as R^3 critical point?
+========================================================================
+
+[1] Best-matching x*: eps=(+1,+1,-1), n=(20,29,10)
+    x* = [128.76788004 183.79407045  62.79443431]
+    phi_4(x*) = 216.712110  (target 3.095579, delta in [-pi,pi]: 0.011770 rad)
+    c_real = [-0.9993     -0.0109      0.9993     -0.99833101]
+    s_real = [ 0.03741003  0.99994059 -0.03741003  0.05775114]
+    target c = [-0.9993 -0.0109  0.9993 -0.999 ]
+    target s = [ 0.037  1.    -0.037  0.046]
+    max |c_real - target c| = 0.000669
+    max |s_real - target s| = 0.011751
+
+[2] First-order: grad |omega|^2 at x* = [-0.00571701 -0.00586852 -0.00571701]
+    ||grad|| = 9.990397e-03
+
+[3] Hessian of |omega|^2 at x*: eigenvalues = [-0.583537   -0.0982721   2.34227448]
+    max eig = 2.342274e+00
+    is NSD (local max)? NO
+
+[4] |omega(x*)|^2 = 0.17225468
+    ||S(x*)||_F^2 = 1.50212203
+    ratio = 8.72035533
+    9/8 = 1.12500000
+
+[5] Verdict
+    x* is NOT a critical point of |omega|^2 (||grad|| large).
+    => Agent C's violator does NOT correspond to a vorticity maximum on T^3.
+    It lives only in the SOS-relaxation where c_4 is detached from the angle-link.
+========================================================================
