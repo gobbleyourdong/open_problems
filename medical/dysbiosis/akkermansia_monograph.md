@@ -53,12 +53,16 @@ Three independent mechanistic paths (detail in [run_026](numerics/run_026_akkerm
 
 **Disease & clinical evidence:**
 - Depleted in T1DM, obesity, IBD, rosacea, psoriasis. ⚠ (associations; ☐ per-disease primaries)
-- Depletion **precedes** T1DM onset. ⚠ **CORRECTION (fire 5):** run_026 cited "DIABIMMUNE /
-  Vatanen 2016 *Cell*" for this — but **Vatanen 2016 is the LPS-immunogenicity paper** (next
-  bullet), *not* the Akkermansia-precedence source. The DIABIMMUNE T1D-progression paper is
-  **Kostic 2015** *Cell Host Microbe* (≈25% diversity drop before seroconversion); Akkermansia-
-  specific reductions trace to **de Goffau 2013** *Diabetes* + TEDDY (**Vatanen 2018 / Stewart
-  2018** *Nature*). ☐ pull exact Akkermansia pre-seroconversion numbers next fire.
+- T1DM precedence — **claim downgraded to its honest strength (fire 6).** What's solid: a broad
+  *peri-seroconversion dysbiosis signature* — **Kostic 2015** *Cell Host Microbe* (DIABIMMUNE,
+  PMID 25662751; n=11 seroconverters, 4→T1D: marked **α-diversity drop + inflammation-organism
+  spike between seroconversion and diagnosis**) and **de Goffau 2013** *Diabetes* (**↓butyrate-
+  producers, ↑Bacteroidetes** in β-cell-autoimmune children). **Neither singles out *Akkermansia*
+  as THE precedence marker** — so run_026's specific "Akkermansia depletion precedes T1DM" is
+  *softer than stated*: Akkermansia rides a general dysbiosis signal, not a clean Akkermansia-
+  specific prospective finding. Akkermansia-*specific* protection is strongest in **NOD-mouse
+  early-life-window** models (☐ verify). [6th run_026 finding — an over-claim; reconcile.]
+  *(Vatanen 2016, previously mis-cited here, is the LPS-immunogenicity paper — next bullet.)*
 - **LPS immunogenicity — the *actual* Vatanen 2016 finding, and a direct P0 cross-link.** ✓
   Vatanen 2016 *Cell* 165:842-853: *Bacteroides*-dominant infants' **penta-acylated LPS is
   immuno-inhibitory** and fails to educate the infant immune system, vs *E. coli* **hexa-acylated
@@ -71,8 +75,14 @@ Three independent mechanistic paths (detail in [run_026](numerics/run_026_akkerm
   n=32 overweight/insulin-resistant adults, randomized double-blind placebo-controlled, 3 mo,
   **10¹⁰ cells/day**. **Pasteurized** form ↑insulin sensitivity, ↓fasting insulinemia, ↓total
   cholesterol, slight ↓weight/hip — **live form did NOT reach significance** on most markers.
-  Exploratory (safety/proof-of-concept), well tolerated. *Newer:* a 2026 *Nat Med* controlled
-  RCT on pasteurized A. muciniphila for weight-loss maintenance exists — ☐ verify (queue).
+  Exploratory (safety/proof-of-concept), well tolerated.
+- **Metabolic — confirmatory RCT (new, fire 6).** ✓ 2026 *Nat Med* (s41591-026-04394-7): n=90
+  overweight/obese, double-blind; 8-wk low-energy diet (≥8% loss) → 24-wk maintenance + daily
+  pasteurized A. muciniphila MucT vs placebo. **Less weight regain** (1.2±0.7 vs 3.2±0.4 kg,
+  P=0.012), greater net loss (3.1±0.7 kg, P=0.009), better insulin sensitivity. **→ Strongest
+  benefit in those with LOW baseline Akkermansia** — i.e., the **P0 phenotype (0%)**. Upgrades the
+  evidence from 2019's exploratory pilot to a controlled RCT. ⚠ *Funded by The Akkermansia Company
+  (conflict of interest).*
 - **Cancer immunotherapy.** ✓ Routy 2018 *Science* (DOI 10.1126/science.aan3706): anti-PD-1
   non-responders (NSCLC, RCC) had **low A. muciniphila**; antibiotics blunted checkpoint-inhibitor
   benefit; oral A. muciniphila after non-responder FMT **restored PD-1 efficacy in mice,
@@ -119,8 +129,10 @@ host–symbiont relationship is deep and stable — this isn't a recent or facul
   homeostasis in HFD mice; proposed as a mechanism of metformin's antidiabetic effect (Shin 2014
   *Gut*, PMID 23804561). Bidirectional goblet↔Akkermansia loop. (Not indicated for P0 absent T2DM.)
 - **Pasteurized A. muciniphila supplement** ✓ — **10¹⁰ cells/day** (Depommier 2019; *not* the
-  3.8×10¹⁰ run_026 stated). Pasteurized > live. The direct restoration route. **→ P0: run_026's
-  second-tier add if barrier markers persist.**
+  3.8×10¹⁰ run_026 stated). Pasteurized > live. Now backed by a **confirmatory 2026 RCT (§2)**
+  where **low-baseline-Akkermansia people benefited most** — directly the P0 case. **→ P0: a
+  legitimate direct-restoration option, strongest-evidence lever for someone at 0%** (mind the
+  industry-funding caveat).
 - **Intermittent fasting** ✓ — Ramadan-style IF ↑A. muciniphila + Bacteroides fragilis group in
   humans (preliminary, PMC6924600); IF + Akkermansia potentiate FOLFOX antitumor efficacy (mouse).
 - **ω-3 PUFA (EPA/DHA, fish oil)** ✓ — enhances mucin-niche / mucolytic species incl. Akkermansia;
@@ -194,9 +206,9 @@ barrier-protective / more Amuc_1100-active? Not yet resolved in the literature.
 ## Verification queue
 
 1. ✓ §2 primaries — Plovier 2017, Depommier 2019, Routy 2018 verified (fire 2; 3 run_026 errors fixed).
-   Vatanen 2016 audited (fire 5): it is the **LPS-immunogenicity** paper, *mis-cited* in run_026 for
-   Akkermansia precedence. ☐ remaining: **Kostic 2015 / de Goffau 2013 / TEDDY** exact Akkermansia
-   pre-seroconversion numbers; the **2026 *Nat Med*** RCT; resolve the **hexa-LPS life-stage valence** tension.
+   ✓ Vatanen 2016 audited (fire 5, LPS paper). ✓ Kostic 2015 / de Goffau 2013 audited (fire 6 — precedence
+   claim downgraded). ✓ 2026 *Nat Med* RCT verified (fire 6). ☐ remaining: NOD-mouse early-life-window
+   Akkermansia-specific data; resolve the **hexa-LPS life-stage valence** tension (better as its own run).
 2. ✓ §4 — polyphenols (Anhê 2014/Roopchand 2015), metformin (Shin 2014), IF, ω-3, supplement verified (fire 4).
    ☐ remaining: inulin/FOS dose-response, next-gen probiotic regulatory status.
 3. ✓ §5 — antibiotics, emulsifiers (Chassaing 2015), alcohol (Grander 2018) verified (fire 3).
@@ -221,6 +233,17 @@ pasteurized supplement (10¹⁰/day). P0 first move = polyphenols. 4th run_026 c
 fix — biggest yet: Vatanen 2016 Cell is the LPS-immunogenicity paper, MIS-CITED for Akkermansia
 T1DM-precedence (→ Kostic 2015 / de Goffau / TEDDY). Surfaced hexa-LPS life-stage valence tension
 (protective in infancy vs P0's pro-inflammatory Hexa-LPS 94 in adulthood).*
+*Fire 6 (2026-05-21): closed §2's two load-bearing ☐. 6th run_026 finding — the precedence claim
+is an OVER-CLAIM: Kostic 2015 + de Goffau 2013 show a broad peri-seroconversion dysbiosis signature
+(↓diversity, ↓butyrate-producers), not an Akkermansia-specific prospective finding. Verified the
+2026 Nat Med confirmatory RCT (n=90; less regain, better insulin sensitivity; LOW-baseline-Akkermansia
+responders benefit most = P0 phenotype; industry-funded). Monograph core + queue now near saturation.*
+
+### Sources (fire 6)
+- [Kostic 2015 — DIABIMMUNE infant gut microbiome & progression to T1D, Cell Host Microbe (PMID 25662751)](https://pubmed.ncbi.nlm.nih.gov/25662751/)
+- [de Goffau 2013 — fecal microbiota differs in β-cell autoimmunity, Diabetes](https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2017.01898/full)
+- [Pasteurized A. muciniphila MucT for weight-loss maintenance — RCT, Nat Med 2026 (s41591-026-04394-7)](https://www.nature.com/articles/s41591-026-04394-7)
+- [Science Media Centre — expert reaction to the 2026 Akkermansia RCT](https://www.sciencemediacentre.org/expert-reaction-to-an-rct-on-the-use-of-pasteurized-akkermansia-muciniphila-muct-for-weight-loss-maintenance-after-an-8-week-low-energy-diet/)
 
 ### Sources (fire 5)
 - [Vatanen 2016 — variation in microbiome LPS immunogenicity contributes to autoimmunity, Cell](https://www.cell.com/cell/fulltext/S0092-8674(16)30493-7)
