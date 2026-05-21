@@ -105,15 +105,38 @@ host–symbiont relationship is deep and stable — this isn't a recent or facul
 
 ---
 
-## 5. How It's Destroyed ✓ partial (fire 1 — to deepen)
+## 5. How It's Destroyed — mostly verified (fire 3)
 
-- **Broad-spectrum antibiotics** — Akkermansia is antibiotic-sensitive; **takes months to
-  recover**; penicillin *selects for mutant variants* with compromised host-benefit function. ✓
-  (PMC11804010, 2025) — **likely the dominant driver of P0's 0%** given the elevated resistance signature.
-- **Western diet** (high-fat / low-fiber) — substrate starvation + mucus changes. ⚠ (☐ primary)
-- ☐ **Alcohol** — reported to lower Akkermansia (verify; Grander 2018?).
-- ☐ **Emulsifiers** (carboxymethylcellulose, polysorbate-80) — mucus/microbiota disruption
-  (Chassaing 2015?) — verify.
+- **Broad-spectrum antibiotics** ✓ — Akkermansia is antibiotic-sensitive; **months to recover**;
+  penicillin *selects for mutant variants* with compromised host-benefit function (PMC11804010,
+  2025). **Likely the dominant driver of P0's 0%** given the elevated resistance signature.
+- **Dietary emulsifiers** ✓ — carboxymethylcellulose (CMC) + polysorbate-80 (P80) at low doses →
+  ↓microbiota–epithelium distance via **mucus degradation**, low-grade inflammation, metabolic
+  syndrome (Chassaing 2015 *Nature* 519:92-96, PMID 25731162). Follow-up: emulsifiers **deplete
+  Akkermansia**, and oral A. muciniphila *prevents* the CMC/P80 phenotype (hyperphagia, weight
+  gain, dysglycemia) — so the relationship is causal *and* therapeutically reversible. ✓ (PMC10086484)
+- **Alcohol** ✓ — ethanol → prominent decline in A. muciniphila; alcoholic-steatohepatitis
+  patients have ↓ fecal Akkermansia; supplementation restores it and ↓gut leakiness + hepatic
+  injury (Grander 2018, PMID 28550049). ✓
+- **Western high-fat diet** ⚠ — high-fat feeding lowers Akkermansia in most rodent models. But
+  the **low-fiber** half is *not* simple depletion — see the paradox below.
+
+### ⚠ The Mucin Paradox — abundance and benefit decouple (resolves queue #5) ✓
+
+Desai 2016 *Cell* (167(5):1339-53, PMID 27863247): under **dietary fiber deprivation**, the
+microbiota switches to **mucus as an alternative carbon source** (↑CAZymes, sulfatases,
+proteases), and mucin-degraders **including A. muciniphila proliferate** while the colonic mucus
+barrier *erodes* → enhanced enteric-pathogen susceptibility (*C. rodentium*).
+
+**Implication — two non-obvious consequences:**
+1. **More Akkermansia is not always good.** In fiber-starvation it can *rise in abundance while
+   the mucus layer thins*. Abundance ≠ barrier benefit; the benefit is fiber-context-dependent.
+2. **Bears directly on P0's chain.** "Zero Akkermansia → thin mucus" is too simple in both
+   directions: you can have *thin mucus with high Akkermansia* (fiber-starved) — so neither
+   Akkermansia level nor mucus thickness cleanly predicts the other. The barrier outcome depends
+   on **fiber availability gating what Akkermansia does to mucin** (degrade-and-erode vs
+   degrade-and-turn-over). Reconciles with run_026's "net turnover maintained" — that holds only
+   *with adequate fiber*.
 
 ---
 
@@ -122,9 +145,10 @@ host–symbiont relationship is deep and stable — this isn't a recent or facul
 1. ✓ §2 primaries — Plovier 2017, Depommier 2019, Routy 2018 verified (fire 2; 3 run_026 errors fixed).
    ☐ remaining: **Vatanen 2016 *Cell* DIABIMMUNE** (T1DM-precedence claim) + the **2026 *Nat Med*** weight-maintenance RCT.
 2. ☐ §4 deepen: fasting/CR, omega-3, inulin dose-response, next-gen probiotic regulatory status.
-3. ☐ §5 deepen: alcohol, emulsifiers, bile acids, age-related decline — with primary sources.
+3. ✓ §5 — antibiotics, emulsifiers (Chassaing 2015), alcohol (Grander 2018) verified (fire 3).
+   ☐ remaining: bile acids, age-related decline.
 4. ☐ Strain-level: Akkermansia phylogroups (AmI–AmIV); are some more barrier-protective?
-5. ☐ The mucin paradox: when does mucin degradation *thin* vs *thicken* the layer? (fiber-dependence)
+5. ✓ The mucin paradox resolved (fire 3, Desai 2016): abundance ≠ benefit; fiber gates degrade-and-erode vs degrade-and-turn-over.
 
 ---
 
@@ -133,6 +157,15 @@ host–symbiont relationship is deep and stable — this isn't a recent or facul
 *Fire 2 (2026-05-21): §2 hardened — Plovier 2017 (Nat Med, TLR2/claudin-3/occludin + 5-HT bonus),
 Depommier 2019 (n=32 pilot, 10¹⁰/day, pasteurized>live), Routy 2018 (anti-PD-1, IL-12) verified;
 fixed 3 citation/dose errors in run_026. Vatanen 2016 + 2026 RCT queued.*
+*Fire 3 (2026-05-21): §5 Destruction verified — antibiotics, emulsifiers (Chassaing 2015),
+alcohol (Grander 2018); resolved the mucin paradox (Desai 2016) — abundance ≠ barrier benefit,
+fiber-gated — which complicates P0's "zero Akker → thin mucus" link in both directions.*
+
+### Sources (fire 3)
+- [Chassaing 2015 — dietary emulsifiers, microbiota, colitis/metabolic syndrome, Nature (PMID 25731162)](https://www.nature.com/articles/nature14232)
+- [A. muciniphila counteracts emulsifier (CMC/P80) harm (PMC10086484)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10086484/)
+- [Desai 2016 — fiber-deprived microbiota degrades colonic mucus barrier, Cell (PMID 27863247)](https://pubmed.ncbi.nlm.nih.gov/27863247/)
+- [Grander 2018 — recovery of ethanol-induced Akkermansia depletion ameliorates ALD (PMID 28550049)](https://pubmed.ncbi.nlm.nih.gov/28550049/)
 
 ### Sources (fire 2)
 - [Depommier 2019 — A. muciniphila in overweight/obese humans, Nat Med (PMID 31263284)](https://pubmed.ncbi.nlm.nih.gov/31263284/)
