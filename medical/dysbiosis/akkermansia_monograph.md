@@ -53,7 +53,20 @@ Three independent mechanistic paths (detail in [run_026](numerics/run_026_akkerm
 
 **Disease & clinical evidence:**
 - Depleted in T1DM, obesity, IBD, rosacea, psoriasis. ⚠ (associations; ☐ per-disease primaries)
-- Depletion **precedes** T1DM onset (DIABIMMUNE / Vatanen 2016 *Cell*). ⚠ → ☐ verify next fire.
+- Depletion **precedes** T1DM onset. ⚠ **CORRECTION (fire 5):** run_026 cited "DIABIMMUNE /
+  Vatanen 2016 *Cell*" for this — but **Vatanen 2016 is the LPS-immunogenicity paper** (next
+  bullet), *not* the Akkermansia-precedence source. The DIABIMMUNE T1D-progression paper is
+  **Kostic 2015** *Cell Host Microbe* (≈25% diversity drop before seroconversion); Akkermansia-
+  specific reductions trace to **de Goffau 2013** *Diabetes* + TEDDY (**Vatanen 2018 / Stewart
+  2018** *Nature*). ☐ pull exact Akkermansia pre-seroconversion numbers next fire.
+- **LPS immunogenicity — the *actual* Vatanen 2016 finding, and a direct P0 cross-link.** ✓
+  Vatanen 2016 *Cell* 165:842-853: *Bacteroides*-dominant infants' **penta-acylated LPS is
+  immuno-inhibitory** and fails to educate the infant immune system, vs *E. coli* **hexa-acylated
+  LPS** (immunostimulatory, protective) — implicated in higher T1DM in Finnish/Estonian vs
+  Russian-Karelian children. **⚠ Tension to resolve:** here hexa-LPS in *early life* is
+  *protective* (immune education), whereas P0's framework treats **Hexa-LPS index 94** as
+  chronically *pro-inflammatory* (TLR4/M1) in *adulthood*. Same molecule, opposite valence by
+  life-stage — flagged for its own analysis (see [P0 baseline](results/p0_microbiome_baseline_2026-05-21.md)).
 - **Metabolic — human pilot.** ✓ Depommier 2019 *Nat Med* 25(7):1096-1103 (PMID 31263284):
   n=32 overweight/insulin-resistant adults, randomized double-blind placebo-controlled, 3 mo,
   **10¹⁰ cells/day**. **Pasteurized** form ↑insulin sensitivity, ↓fasting insulinemia, ↓total
@@ -155,15 +168,40 @@ barrier *erodes* → enhanced enteric-pathogen susceptibility (*C. rodentium*).
 
 ---
 
+## 6. Strain-Level Structure — phylogroups (fire 5) ✓
+
+"Akkermansia muciniphila" is not one organism. Human isolates split into **four species-level
+phylogroups — AmI, AmII, AmIII, AmIV** (AmI further → AmIa/AmIb) (Becken/Guo 2021 *mBio*, PMID 34006653):
+
+| Phylogroup | Prevalence (n=1617 human fecal) | Notable traits |
+|------------|-------------------------------|----------------|
+| **AmI** (incl. type strain MucT) | **47%** (most common) | smaller genomes; **lacks B12 synthesis genes**; in humans + mice |
+| **AmII** | 27% | larger genome; **synthesizes corrin rings → vitamin B12** (outcompetes when B12 precursors scarce); defective assimilatory sulfate reduction; **human-only** |
+| **AmIII** | 24% | KEGG-similar to AmII; **human-only** |
+| **AmIV** | rare | larger genome; defective assimilatory sulfate reduction; humans + mice |
+
+Genomes span **2.6–3.3 Mb**. The phylogroups differ in **intestinal abundance, metabolism,
+physicochemical properties, and immune-activation capacity** — meaning two people both "positive
+for A. muciniphila" can carry functionally different organisms.
+
+**Why this matters for P0 / the framework:** "Akkermansia 0%" on a genus-level dashboard erases
+this structure. If/when restoration is attempted, *which phylogroup* colonizes may matter (B12
+production, sulfate handling, immune activation differ). ☐ Open: are specific phylogroups more
+barrier-protective / more Amuc_1100-active? Not yet resolved in the literature.
+
+---
+
 ## Verification queue
 
 1. ✓ §2 primaries — Plovier 2017, Depommier 2019, Routy 2018 verified (fire 2; 3 run_026 errors fixed).
-   ☐ remaining: **Vatanen 2016 *Cell* DIABIMMUNE** (T1DM-precedence claim) + the **2026 *Nat Med*** weight-maintenance RCT.
+   Vatanen 2016 audited (fire 5): it is the **LPS-immunogenicity** paper, *mis-cited* in run_026 for
+   Akkermansia precedence. ☐ remaining: **Kostic 2015 / de Goffau 2013 / TEDDY** exact Akkermansia
+   pre-seroconversion numbers; the **2026 *Nat Med*** RCT; resolve the **hexa-LPS life-stage valence** tension.
 2. ✓ §4 — polyphenols (Anhê 2014/Roopchand 2015), metformin (Shin 2014), IF, ω-3, supplement verified (fire 4).
    ☐ remaining: inulin/FOS dose-response, next-gen probiotic regulatory status.
 3. ✓ §5 — antibiotics, emulsifiers (Chassaing 2015), alcohol (Grander 2018) verified (fire 3).
    ☐ remaining: bile acids, age-related decline.
-4. ☐ Strain-level: Akkermansia phylogroups (AmI–AmIV); are some more barrier-protective?
+4. ✓ Strain-level phylogroups AmI–AmIV documented (§6, fire 5). ☐ open: which phylogroup is most barrier-protective / Amuc_1100-active?
 5. ✓ The mucin paradox resolved (fire 3, Desai 2016): abundance ≠ benefit; fiber gates degrade-and-erode vs degrade-and-turn-over.
 
 ---
@@ -179,6 +217,16 @@ fiber-gated — which complicates P0's "zero Akker → thin mucus" link in both 
 *Fire 4 (2026-05-21): §4 Replenishment verified + evidence-ranked — polyphenols (Anhê 2014 Gut,
 corrected from "2015"; Roopchand 2015), metformin (Shin 2014, goblet-cell loop), IF, ω-3,
 pasteurized supplement (10¹⁰/day). P0 first move = polyphenols. 4th run_026 citation fix.*
+*Fire 5 (2026-05-21): §6 strain phylogroups AmI–AmIV added (Becken/Guo 2021 mBio). 5th run_026
+fix — biggest yet: Vatanen 2016 Cell is the LPS-immunogenicity paper, MIS-CITED for Akkermansia
+T1DM-precedence (→ Kostic 2015 / de Goffau / TEDDY). Surfaced hexa-LPS life-stage valence tension
+(protective in infancy vs P0's pro-inflammatory Hexa-LPS 94 in adulthood).*
+
+### Sources (fire 5)
+- [Vatanen 2016 — variation in microbiome LPS immunogenicity contributes to autoimmunity, Cell](https://www.cell.com/cell/fulltext/S0092-8674(16)30493-7)
+- [Kostic 2015 — DIABIMMUNE: infant gut microbiome dynamics & progression to T1D, Cell Host Microbe](https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(15)00021-9)
+- [Vatanen 2018 — gut microbiome in early-onset T1D, TEDDY study, Nature](https://www.nature.com/articles/s41586-018-0620-2)
+- [Becken/Guo 2021 — genotypic & phenotypic diversity of human A. muciniphila isolates (phylogroups), mBio (PMID 34006653)](https://pubmed.ncbi.nlm.nih.gov/34006653/)
 
 ### Sources (fire 4)
 - [Anhê 2014 — cranberry polyphenol ↑Akkermansia, anti-obesity, Gut](https://www.researchgate.net/publication/264390771)
