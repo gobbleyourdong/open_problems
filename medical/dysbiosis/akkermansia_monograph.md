@@ -90,18 +90,33 @@ host–symbiont relationship is deep and stable — this isn't a recent or facul
 
 ---
 
-## 4. How It's Replenished ✓ partial (fire 1 — to deepen)
+## 4. How It's Replenished — verified (fire 4)
 
-- **Polyphenols** — cranberry, pomegranate (ellagitannins), grape seed, green tea; the most
-  reproducible dietary expander (Anhê 2015). ✓ (PMC6223323 dietary-strategies review)
-- **Prebiotic fiber** — inulin/FOS feed the trophic chain (mucin synthesis needs galactose
-  precursors). ⚠ run_026 (☐ confirm dose-response)
-- **Pasteurized A. muciniphila supplement** — Depommier 2019 dose (3.8×10¹⁰/day). ⚠
-- **Metformin** raises Akkermansia (recurring finding; mechanism ☐).
-- **HMOs in infancy** — A. muciniphila grows on human milk, expresses glycan-degrading enzymes;
-  betaine in breast milk ↑ neonatal Akkermansia. ✓ (Sci Rep 2020; PMC8823629) — *but* feeding-type
-  effect on adult Akkermansia is weak/conflicting (see P0 chain analysis).
-- ☐ Caloric restriction / fasting, fish oil / omega-3 — queued.
+> Ranked by evidence strength / P0-actionability. **Key distinction (links to §5 paradox):** the
+> levers below raise Akkermansia *with* mucus support (goblet/mucin stimulation, polyphenol
+> substrate) — a "good" rise — unlike the fiber-starvation bloom that erodes the barrier. Aim for
+> abundance-*with*-fiber, not abundance alone.
+
+- **Polyphenols** ✓ — the most reproducible dietary expander. Cranberry extract → ↑Akkermansia +
+  protection from diet-induced obesity/insulin resistance/inflammation (**Anhê 2014 *Gut*** —
+  *run_026 said "2015"; corrected*); Concord grape polyphenols → ↑A. muciniphila, attenuate HFD
+  metabolic syndrome (Roopchand 2015 *Diabetes*). Also pomegranate ellagitannins, green tea.
+  **→ P0: highest-yield, lowest-risk first move.**
+- **Metformin** ✓ — ↑A. muciniphila + ↑mucin-producing **goblet cells**, improves glucose
+  homeostasis in HFD mice; proposed as a mechanism of metformin's antidiabetic effect (Shin 2014
+  *Gut*, PMID 23804561). Bidirectional goblet↔Akkermansia loop. (Not indicated for P0 absent T2DM.)
+- **Pasteurized A. muciniphila supplement** ✓ — **10¹⁰ cells/day** (Depommier 2019; *not* the
+  3.8×10¹⁰ run_026 stated). Pasteurized > live. The direct restoration route. **→ P0: run_026's
+  second-tier add if barrier markers persist.**
+- **Intermittent fasting** ✓ — Ramadan-style IF ↑A. muciniphila + Bacteroides fragilis group in
+  humans (preliminary, PMC6924600); IF + Akkermansia potentiate FOLFOX antitumor efficacy (mouse).
+- **ω-3 PUFA (EPA/DHA, fish oil)** ✓ — enhances mucin-niche / mucolytic species incl. Akkermansia;
+  1-wk EPA/DHA supplementation modulates the human luminal mucin niche (PMC9481098). Modest/short-term.
+- **Prebiotic fiber (inulin/FOS)** ⚠ — feeds the trophic chain; *and* (per §5 paradox) supplies the
+  fiber that keeps Akkermansia's mucin use as turnover not erosion. ☐ dose-response.
+- **HMOs in infancy** ✓ — A. muciniphila grows on human milk; breast-milk betaine ↑ neonatal
+  Akkermansia (Sci Rep 2020; PMC8823629). *But* the feeding-type effect on **adult** Akkermansia is
+  weak/conflicting (see P0 chain analysis — neonatal feeding is not the cause of P0's 0%).
 
 ---
 
@@ -144,7 +159,8 @@ barrier *erodes* → enhanced enteric-pathogen susceptibility (*C. rodentium*).
 
 1. ✓ §2 primaries — Plovier 2017, Depommier 2019, Routy 2018 verified (fire 2; 3 run_026 errors fixed).
    ☐ remaining: **Vatanen 2016 *Cell* DIABIMMUNE** (T1DM-precedence claim) + the **2026 *Nat Med*** weight-maintenance RCT.
-2. ☐ §4 deepen: fasting/CR, omega-3, inulin dose-response, next-gen probiotic regulatory status.
+2. ✓ §4 — polyphenols (Anhê 2014/Roopchand 2015), metformin (Shin 2014), IF, ω-3, supplement verified (fire 4).
+   ☐ remaining: inulin/FOS dose-response, next-gen probiotic regulatory status.
 3. ✓ §5 — antibiotics, emulsifiers (Chassaing 2015), alcohol (Grander 2018) verified (fire 3).
    ☐ remaining: bile acids, age-related decline.
 4. ☐ Strain-level: Akkermansia phylogroups (AmI–AmIV); are some more barrier-protective?
@@ -160,6 +176,17 @@ fixed 3 citation/dose errors in run_026. Vatanen 2016 + 2026 RCT queued.*
 *Fire 3 (2026-05-21): §5 Destruction verified — antibiotics, emulsifiers (Chassaing 2015),
 alcohol (Grander 2018); resolved the mucin paradox (Desai 2016) — abundance ≠ barrier benefit,
 fiber-gated — which complicates P0's "zero Akker → thin mucus" link in both directions.*
+*Fire 4 (2026-05-21): §4 Replenishment verified + evidence-ranked — polyphenols (Anhê 2014 Gut,
+corrected from "2015"; Roopchand 2015), metformin (Shin 2014, goblet-cell loop), IF, ω-3,
+pasteurized supplement (10¹⁰/day). P0 first move = polyphenols. 4th run_026 citation fix.*
+
+### Sources (fire 4)
+- [Anhê 2014 — cranberry polyphenol ↑Akkermansia, anti-obesity, Gut](https://www.researchgate.net/publication/264390771)
+- [Roopchand 2015 — grape polyphenols ↑A. muciniphila, attenuate HFD metabolic syndrome, Diabetes (PMC4512228)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4512228/)
+- [Shin 2014 — metformin ↑Akkermansia + goblet cells, glucose homeostasis, Gut (PMID 23804561)](https://pubmed.ncbi.nlm.nih.gov/23804561/)
+- [Islamic intermittent fasting ↑A. muciniphila (PMC6924600)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6924600/)
+- [ω-3 EPA/DHA modulates human luminal mucin niche incl. Akkermansia (PMC9481098)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9481098/)
+- [Dietary strategies to promote Akkermansia — review (PMC6223323)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6223323/)
 
 ### Sources (fire 3)
 - [Chassaing 2015 — dietary emulsifiers, microbiota, colitis/metabolic syndrome, Nature (PMID 25731162)](https://www.nature.com/articles/nature14232)
