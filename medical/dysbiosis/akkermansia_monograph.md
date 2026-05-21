@@ -67,10 +67,13 @@ Three independent mechanistic paths (detail in [run_026](numerics/run_026_akkerm
   Vatanen 2016 *Cell* 165:842-853: *Bacteroides*-dominant infants' **penta-acylated LPS is
   immuno-inhibitory** and fails to educate the infant immune system, vs *E. coli* **hexa-acylated
   LPS** (immunostimulatory, protective) — implicated in higher T1DM in Finnish/Estonian vs
-  Russian-Karelian children. **⚠ Tension to resolve:** here hexa-LPS in *early life* is
-  *protective* (immune education), whereas P0's framework treats **Hexa-LPS index 94** as
-  chronically *pro-inflammatory* (TLR4/M1) in *adulthood*. Same molecule, opposite valence by
-  life-stage — flagged for its own analysis (see [P0 baseline](results/p0_microbiome_baseline_2026-05-21.md)).
+  Russian-Karelian children. **✓ Tension RESOLVED (fire 7)** in
+  [hexa_lps_lifestage_valence](results/hexa_lps_lifestage_valence.md): same molecule, opposite
+  valence by **life-stage × compartment × chronicity × tolerance** — the **gut barrier is the
+  hinge** that flips hexa-LPS from educational (luminal, infancy) to pathogenic (translocated,
+  adult endotoxemia), looping back to Akkermansia/mucus. Kill-first upshot for P0: Hexa-LPS 94 is
+  *conditional* on barrier integrity, not monotone — decisive next datum is a **barrier marker**
+  (LBP/I-FABP/L:M), not more sequencing.
 - **Metabolic — human pilot.** ✓ Depommier 2019 *Nat Med* 25(7):1096-1103 (PMID 31263284):
   n=32 overweight/insulin-resistant adults, randomized double-blind placebo-controlled, 3 mo,
   **10¹⁰ cells/day**. **Pasteurized** form ↑insulin sensitivity, ↓fasting insulinemia, ↓total
@@ -208,7 +211,7 @@ barrier-protective / more Amuc_1100-active? Not yet resolved in the literature.
 1. ✓ §2 primaries — Plovier 2017, Depommier 2019, Routy 2018 verified (fire 2; 3 run_026 errors fixed).
    ✓ Vatanen 2016 audited (fire 5, LPS paper). ✓ Kostic 2015 / de Goffau 2013 audited (fire 6 — precedence
    claim downgraded). ✓ 2026 *Nat Med* RCT verified (fire 6). ☐ remaining: NOD-mouse early-life-window
-   Akkermansia-specific data; resolve the **hexa-LPS life-stage valence** tension (better as its own run).
+   Akkermansia-specific data. ✓ **hexa-LPS life-stage valence resolved** (fire 7) → its own run: results/hexa_lps_lifestage_valence.md.
 2. ✓ §4 — polyphenols (Anhê 2014/Roopchand 2015), metformin (Shin 2014), IF, ω-3, supplement verified (fire 4).
    ☐ remaining: inulin/FOS dose-response, next-gen probiotic regulatory status.
 3. ✓ §5 — antibiotics, emulsifiers (Chassaing 2015), alcohol (Grander 2018) verified (fire 3).
