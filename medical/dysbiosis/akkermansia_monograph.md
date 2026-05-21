@@ -30,27 +30,40 @@ layer and eats the host's own mucin glycoproteins as its primary carbon/nitrogen
 
 ---
 
-## 2. Why It Matters ⚠/☐ (carried from run_026; primary re-verification queued)
+## 2. Why It Matters — mostly verified (fire 2)
+
+> **run_026 corrections found this fire (citation/dose drift — exactly what Phase-4b audit is for):**
+> (a) Plovier 2017 is ***Nature Medicine***, not "Nat Microbiol"; (b) Depommier 2019 dose is
+> **10¹⁰ cells/day**, not "3.8×10¹⁰"; (c) Depommier 2019 is an **exploratory proof-of-concept
+> pilot (n=32)**, not a definitive RCT — its metabolic endpoints are exploratory. Reconcile run_026.
 
 Three independent mechanistic paths (detail in [run_026](numerics/run_026_akkermansia_muciniphila.md)):
 
-1. **Amuc_1100 → TLR2 → barrier.** Outer-membrane protein Amuc_1100 signals through TLR2 →
-   tight-junction upregulation (ZO-1, occludin, claudin-3) → tighter barrier, less portal LPS.
-   Heat-stable → **pasteurized** Akkermansia retains the effect. ⚠ (Plovier 2017 *Nat Microbiol* — ☐ re-verify)
-2. **Trophic chain → F. prausnitzii → butyrate.** Akkermansia degrades MUC2 → releases mucin
-   oligosaccharides → cross-feeds F. prausnitzii (which can't process intact mucin) → butyrate →
-   Foxp3/VDR (Treg) axis. ⚠
+1. **Amuc_1100 → TLR2 → barrier.** ✓ Amuc_1100 (the most abundant pilus-like outer-membrane
+   protein) interacts with **TLR2** → ↑ tight-junction genes **claudin-3 + occludin** → tighter
+   barrier; ameliorates insulin resistance + lipid metabolism in obese/diabetic mice. Heat-stable →
+   **pasteurized** Akkermansia retains it. *Bonus:* Amuc_1100 also drives intestinal **5-HT
+   (serotonin)** synthesis via Tph1 ↑ / SERT ↓ through TLR2 — ties to gut-serotonin
+   ([run_047](numerics/run_047_gut_serotonin_flushing.md)). ✓ Plovier 2017 *Nat Med* 23(1):107-113; 5-HT: PMID 33900345.
+2. **Trophic chain → F. prausnitzii → butyrate.** Akkermansia degrades MUC2 → mucin
+   oligosaccharides → cross-feeds F. prausnitzii (can't process intact mucin) → butyrate →
+   Foxp3/VDR (Treg) axis. ⚠ run_026 (mechanism plausible; ☐ pull cross-feeding primary)
 3. **Physical mucus barrier.** Net mucus *turnover* maintained (stimulates goblet MUC2) → keeps
-   luminal bacteria physically distant from epithelium. ⚠
+   luminal bacteria physically distant from epithelium. ⚠ run_026
 
-**Disease associations (☐ each PMID to re-verify):**
-- Depleted in T1DM, obesity, IBD, rosacea, psoriasis.
-- Depletion **precedes** T1DM onset (DIABIMMUNE / Vatanen 2016 *Cell*). ⚠
-- Only gut bacterium besides F. prausnitzii with **human RCT** evidence in metabolic disease:
-  pasteurized A. muciniphila 3.8×10¹⁰/day × 3 mo → ↑insulin sensitivity, ↓permeability markers
-  (Depommier 2019 *Nat Med*). ⚠
-- ☐ **Cancer immunotherapy:** Akkermansia abundance associated with anti-PD-1 response
-  (Routy 2018 *Science*) — verify in a later fire.
+**Disease & clinical evidence:**
+- Depleted in T1DM, obesity, IBD, rosacea, psoriasis. ⚠ (associations; ☐ per-disease primaries)
+- Depletion **precedes** T1DM onset (DIABIMMUNE / Vatanen 2016 *Cell*). ⚠ → ☐ verify next fire.
+- **Metabolic — human pilot.** ✓ Depommier 2019 *Nat Med* 25(7):1096-1103 (PMID 31263284):
+  n=32 overweight/insulin-resistant adults, randomized double-blind placebo-controlled, 3 mo,
+  **10¹⁰ cells/day**. **Pasteurized** form ↑insulin sensitivity, ↓fasting insulinemia, ↓total
+  cholesterol, slight ↓weight/hip — **live form did NOT reach significance** on most markers.
+  Exploratory (safety/proof-of-concept), well tolerated. *Newer:* a 2026 *Nat Med* controlled
+  RCT on pasteurized A. muciniphila for weight-loss maintenance exists — ☐ verify (queue).
+- **Cancer immunotherapy.** ✓ Routy 2018 *Science* (DOI 10.1126/science.aan3706): anti-PD-1
+  non-responders (NSCLC, RCC) had **low A. muciniphila**; antibiotics blunted checkpoint-inhibitor
+  benefit; oral A. muciniphila after non-responder FMT **restored PD-1 efficacy in mice,
+  IL-12-dependent**, ↑CCR9⁺CXCR3⁺CD4⁺ T-cell tumor recruitment.
 
 ---
 
@@ -104,10 +117,11 @@ host–symbiont relationship is deep and stable — this isn't a recent or facul
 
 ---
 
-## Verification queue (next fires)
+## Verification queue
 
-1. ☐ Re-pull primary sources for §2 (Plovier 2017, Depommier 2019, Vatanen 2016, Routy 2018) — exact numbers + journals.
-2. ☐ §4 deepen: fasting/CR, omega-3, inulin dose-response, NEXT-GEN probiotic regulatory status.
+1. ✓ §2 primaries — Plovier 2017, Depommier 2019, Routy 2018 verified (fire 2; 3 run_026 errors fixed).
+   ☐ remaining: **Vatanen 2016 *Cell* DIABIMMUNE** (T1DM-precedence claim) + the **2026 *Nat Med*** weight-maintenance RCT.
+2. ☐ §4 deepen: fasting/CR, omega-3, inulin dose-response, next-gen probiotic regulatory status.
 3. ☐ §5 deepen: alcohol, emulsifiers, bile acids, age-related decline — with primary sources.
 4. ☐ Strain-level: Akkermansia phylogroups (AmI–AmIV); are some more barrier-protective?
 5. ☐ The mucin paradox: when does mucin degradation *thin* vs *thicken* the layer? (fiber-dependence)
@@ -116,6 +130,16 @@ host–symbiont relationship is deep and stable — this isn't a recent or facul
 
 *Fire 1 (2026-05-21): established doc; §1 Identity and §3 Evolution fully source-verified;
 §2/§4/§5 seeded from run_026 + campaign searches with verification flags. /loop job 3d2d841d.*
+*Fire 2 (2026-05-21): §2 hardened — Plovier 2017 (Nat Med, TLR2/claudin-3/occludin + 5-HT bonus),
+Depommier 2019 (n=32 pilot, 10¹⁰/day, pasteurized>live), Routy 2018 (anti-PD-1, IL-12) verified;
+fixed 3 citation/dose errors in run_026. Vatanen 2016 + 2026 RCT queued.*
+
+### Sources (fire 2)
+- [Depommier 2019 — A. muciniphila in overweight/obese humans, Nat Med (PMID 31263284)](https://pubmed.ncbi.nlm.nih.gov/31263284/)
+- [Plovier 2017 — purified Amuc_1100 / pasteurized Akkermansia improves metabolism, Nat Med](https://research.wur.nl/en/publications/a-purified-membrane-protein-from-akkermansia-muciniphila-or-the-p/)
+- [Amuc_1100 → TLR2 → intestinal 5-HT biosynthesis (PMID 33900345)](https://pubmed.ncbi.nlm.nih.gov/33900345/)
+- [Routy 2018 — gut microbiome & PD-1 immunotherapy efficacy, Science](https://www.science.org/doi/10.1126/science.aan3706)
+- [Pasteurized A. muciniphila MucT for weight-loss maintenance — controlled RCT, Nat Med 2026](https://www.nature.com/articles/s41591-026-04394-7)
 
 ### Sources (fire 1)
 - [A. muciniphila gen. nov. — IJSEM 2004 (Derrien)](https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijs.0.02873-0)
