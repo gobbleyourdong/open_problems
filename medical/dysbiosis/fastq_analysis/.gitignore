@@ -1,0 +1,7 @@
+raw/
+qc/*.fastq.gz
+results/assembly/
+results/virsorter2/
+results/kraken_raw*
+results/contigs_kraken.txt
+*.log

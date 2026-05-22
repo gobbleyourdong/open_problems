@@ -1,0 +1,48 @@
+=== P0 FASTQ key metrics (kit CXD568) — Fri May 22 12:00:43 PM CDT 2026 ===
+# bracken fraction_total_reads is the last column; ×100 = %
+
+--- 1. F. prausnitzii (Node A / Treg proxy) ---
+Faecalibacterium prausnitzii	853	S	11388	55708	67096	0.08952
+--- 2. Akkermansia muciniphila ---
+  not detected (matches PDF 0%)
+--- 3. Proteobacteria (phylum) ---
+Pseudomonadota	1224	P	69255	4565	73820	0.09840
+--- 4. Histamine producers ---
+  none detected
+--- 5. CrAssphage / Bacteroides phage (the bonus metric the PDF lacked) ---
+  0.01	1035	1	C	2731619	          Caudoviricetes
+  0.01	521	0	O	1978007	            Crassvirales
+  0.01	513	3	C1	3424297	            Caudoviricetes incertae sedis
+--- 6. Candida / fungi ---
+  none detected
+
+--- E. flexneri / Shigella vs E. coli (the 3.9% question) ---
+Escherichia coli	562	S	422	68552	68974	0.09203
+  (note: Kraken/GTDB resolve Escherichia vs Shigella differently than TinyHealth; assembly step = definitive)
+
+--- top 25 species by abundance ---
+  Escherichia coli                              9.203%
+  Faecalibacterium prausnitzii                  8.952%
+  Bacteroides uniformis                         8.634%
+  Phocaeicola vulgatus                          8.599%
+  Agathobacter rectalis                         6.728%
+  Parabacteroides distasonis                    6.409%
+  Blautia wexlerae                              5.407%
+  Parabacteroides merdae                        2.886%
+  Roseburia faecis                              2.833%
+  Anaerobutyricum hallii                        2.4%
+  Blautia massiliensis (ex Durand et al. 2017)  2.189%
+  Anaerostipes hadrus                           1.626%
+  Alistipes putredinis                          1.569%
+  Dorea longicatena                             1.536%
+  Alistipes shahii                              1.288%
+  Allocoprococcus comes                         1.21%
+  Bacteroides sp. M10                           1.114%
+  Bifidobacterium longum                        1.065%
+  Faecalibacillus intestinalis                  1.052%
+  Faecalibacterium sp. I4-1-79                  1.023%
+  Dysosmobacter welbionis                       1.009%
+  Blautia obeum                                 1.009%
+  Ruminococcus sp. SR1/5                        0.87%
+  Parabacteroides sp. CT06                      0.797%
+  Eubacterium ramulus                           0.786%
