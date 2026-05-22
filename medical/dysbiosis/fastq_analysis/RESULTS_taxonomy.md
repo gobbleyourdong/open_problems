@@ -43,7 +43,14 @@ Agathobacter rectalis 6.7% · Parabacteroides distasonis 6.4% · Blautia wexlera
 Roseburia faecis 2.8% · Anaerobutyricum hallii 2.4% · Bifidobacterium longum 1.1% · Dysosmobacter welbionis 1.0% …
 (Strong butyrate-producer representation — consistent with the dashboard's healthy SCFA picture.)
 
-## Next
-- **Assembly (running, `b4g9d8s4z`)** → definitive E. coli-vs-Shigella + phageome + contig-level taxonomy (classifies far better than reads).
+## Assembly + phage — COMPLETED 2026-05-22
+metaSPAdes (native aarch64): **455,296 contigs, 297 Mbp**. VirSorter2: **2,008 viral sequences**.
+- **E. coli vs Shigella — settled:** contig-level taxonomy resolves the Enterobacteriaceae to
+  **Escherichia, with ZERO Shigella** — matching the read level (E. coli 9.2%, no Shigella). The
+  dashboard's "E. flexneri 3.9%" is **E. coli, not a true Shigella** (agreement across reads + assembly;
+  a formal ANI vs reference genomes would be the last word but both levels concur).
+- **Phageome:** 2,008 viral contigs — a well-represented phage community (incl. the CrAssphage flagged at read level). CheckV completeness QC skipped (DIAMOND unavailable on aarch64).
+
+## Next (optional)
 - Optional: re-run classification on uncapped **k2_standard (74.7 GB, fits RAM)** to lift the 8% → proper rate for tighter numbers.
 - **Functional layer (HUMAnN butyrate genes): x86 offload** — DIAMOND won't run/build on aarch64.
