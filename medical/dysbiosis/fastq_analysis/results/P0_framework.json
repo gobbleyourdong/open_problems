@@ -1,0 +1,169 @@
+{
+  "metrics": {
+    "f_prausnitzii_pct": {
+      "value": 8.952,
+      "genus_pct": 13.633,
+      "flag": "GREEN",
+      "taxa": [
+        [
+          "Faecalibacterium prausnitzii",
+          8.952
+        ]
+      ]
+    },
+    "akkermansia_pct": {
+      "value": 0,
+      "flag": "RED",
+      "taxa": []
+    },
+    "proteobacteria_pct": {
+      "value": 9.84,
+      "flag": "GREEN"
+    },
+    "histamine_producers_pct": {
+      "value": 0.188,
+      "flag": "AMBER",
+      "top": [
+        [
+          "Enterococcus faecalis",
+          0.188
+        ]
+      ]
+    },
+    "crassphage": {
+      "detected": true,
+      "lines": [
+        {
+          "name": "Caudoviricetes",
+          "reads": 1,
+          "pct": 0.01
+        },
+        {
+          "name": "Crassvirales",
+          "reads": 0,
+          "pct": 0.01
+        },
+        {
+          "name": "Caudoviricetes incertae sedis",
+          "reads": 3,
+          "pct": 0.01
+        }
+      ]
+    },
+    "candida_pct": {
+      "value": 0,
+      "taxa": []
+    }
+  },
+  "indices": {
+    "butyrate_capacity_pct": {
+      "value": 29.523,
+      "weighted": 36.332,
+      "flag": "GREEN",
+      "top": [
+        [
+          "Faecalibacterium prausnitzii",
+          8.952
+        ],
+        [
+          "Agathobacter rectalis",
+          6.728
+        ],
+        [
+          "Roseburia faecis",
+          2.833
+        ],
+        [
+          "Anaerobutyricum hallii",
+          2.4
+        ],
+        [
+          "Anaerostipes hadrus",
+          1.626
+        ],
+        [
+          "Allocoprococcus comes",
+          1.21
+        ]
+      ]
+    },
+    "h2s_sulfate_reducer_pct": {
+      "value": 0.145,
+      "flag": "GREEN",
+      "top": [
+        [
+          "Bilophila wadsworthia",
+          0.096
+        ],
+        [
+          "Desulfovibrio fairfieldensis",
+          0.049
+        ]
+      ]
+    },
+    "hexa_lps_pct": {
+      "value": 9.203,
+      "top": [
+        [
+          "Escherichia coli",
+          9.203
+        ]
+      ]
+    },
+    "penta_lps_pct": {
+      "value": 38.049,
+      "top": [
+        [
+          "Bacteroides uniformis",
+          8.634
+        ],
+        [
+          "Phocaeicola vulgatus",
+          8.599
+        ],
+        [
+          "Parabacteroides distasonis",
+          6.409
+        ],
+        [
+          "Parabacteroides merdae",
+          2.886
+        ],
+        [
+          "Alistipes putredinis",
+          1.569
+        ],
+        [
+          "Alistipes shahii",
+          1.288
+        ]
+      ]
+    },
+    "hexa_penta_lps_ratio": {
+      "value": 0.195,
+      "flag": "GREEN"
+    },
+    "mucin_degraders_pct": {
+      "value": 0.498,
+      "top": [
+        [
+          "Bacteroides thetaiotaomicron",
+          0.265
+        ],
+        [
+          "Barnesiella intestinihominis",
+          0.181
+        ],
+        [
+          "Bacteroides fragilis",
+          0.052
+        ]
+      ]
+    },
+    "node_a_treg_proxy_pct": {
+      "value": 8.952,
+      "note": "F. prausnitzii + Akkermansia (butyrate/barrier keystones)"
+    }
+  },
+  "note": "Relative abundances among classified microbial reads (Bracken fraction_total_reads). Indices are our transparent taxon->function sums; see taxon_functions.py."
+}
