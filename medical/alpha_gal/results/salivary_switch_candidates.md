@@ -3,8 +3,8 @@
 > Sigma Phase 1 deliverable. Each candidate is a proposed driver of the **tolerance→IgE-switch**
 > gap (`../gap.md`). Columns: evidence grade · primary citation (real PMID/DOI only) · **bystander
 > test** = "is it ALSO present in non-sensitizing bites?" (if yes → necessary-at-most, not
-> sufficient). Tier 1 (single-instance). **STATUS: IN PROGRESS** — sub-hyps #1–3 done; #4 +
-> synthesis pending (next fire).
+> sufficient). Tier 1 (single-instance). **STATUS: COMPLETE** — all four sub-hyps graded +
+> synthesis (2026-06-18, fire 4).
 
 ## Sub-hypothesis #1 — Salivary adjuvant identity (which saliva component drives the IgE switch?)
 
@@ -27,7 +27,37 @@
 | **α-gal-glycoproteins engage pre-existing anti-α-Gal memory B cells (anti-Gal BCR)** rather than naive priming | **Moderate** — mechanistic model + indirect host-genetics support | Frontiers Allergy 2021, PMC8974695; *Environmental & Molecular Drivers of AGS*, PMC6554561 | N/A (host-side, not a saliva component) | anti-Gal-low individuals sensitize at equal rate/titer |
 | **Blood-group-B/AB tolerance lowers the anti-α-gal IgE ceiling** (B antigen = α-gal − fucose) | **Moderate** — case-control (non-B/AB ~5× risk) **with** a non-significant military-cohort counter | Ann Allergy 2024, S1081120624000747; counter: JACI 2022, S0091-6749(22)01952-2 | N/A (host-side) | If B/AB confers no IgE-ceiling difference in a powered cohort → diversion model weakened |
 
-## Pending (next fire)
-- **Sub-hypothesis #4** — cofactor-gated absorption (chylomicron α-gal flux; alcohol/exercise/NSAID
-  lowering reaction threshold). Needs a dedicated search.
-- **Synthesis paragraph** — name the currently-favored sub-hypothesis once #4 is in.
+## Sub-hypothesis #4 — Cofactor-gated absorption (the *elicitation* face: why delayed + variable)
+
+> Addresses gap.md M4 — the downstream/elicitation axis (why 2–6 h, why variable severity), not the
+> sensitization switch itself. Included for completeness of the four sub-hypotheses.
+
+| Candidate | Grade | Primary citation | Bystander test | Falsifier (gap.md #4) |
+|---|---|---|---|---|
+| **Chylomicron lipid kinetics** — α-gal on glycolipids → packaged into chylomicrons → lymph → transition to small LDL particles that exit vasculature to interstitial mast cells hours later | **Moderate (leading model)** — explains the 2–6 h delay; mechanistic, not yet directly imaged | Perioperative Considerations in AGS, PMC10902671; α-gal atypical-allergen review PMC6028928 (ref 6) | N/A (host digestion axis) | Reaction severity tracks IgE titer **independent** of fat intake/transit → kinetics not rate-limiting |
+| **Cofactors: exercise / alcohol / NSAID** lower the mast-cell threshold (NSAID via COX→**PGE2**) | **Moderate** — consistent clinical pattern + basophil/mast mechanism | Cofactor-dependent food allergy mechanisms, Frontiers Immunol 2020, PMC7925840 | N/A | Cofactor-controlled challenge shows no threshold shift |
+
+**Cross-link worth flagging:** PGE2 appears at BOTH ends — as the salivary adjuvant driving IgE
+class-switch (#1, sensitization) and as the COX-pathway node NSAIDs hit to modulate the mast-cell
+threshold (#4, elicitation). Same molecule, two phases. (Note, not a unification claim.)
+
+## Synthesis — which sub-hypothesis does the current evidence favor?
+
+**Favored switch driver: #2 (glycolipid → CD1d/iNKT → IL-4).** It is the *only* candidate with
+**functional/causal data** — phospholipase-silencing the salivary-gland lipid fraction measurably
+**reduces basophil activation** — whereas #1 (PGE2) is a named adjuvant that **fails the bystander
+test as a sole driver** (it is present in non-sensitizing tick saliva). The best-supported model is
+therefore **combinatorial, not single-factor**:
+
+1. **Sensitization (the switch):** glycolipid-borne α-gal presented via **CD1d to iNKT cells → IL-4**
+   (#2), with salivary **PGE2 as the required class-switch adjuvant** (#1) → anti-α-gal **IgE**.
+2. **Host filter (#3):** the pre-existing anti-Gal repertoire / blood-group-B-AB tolerance state sets
+   *who* converts and the IgE ceiling.
+3. **Elicitation (#4):** chylomicron lipid kinetics + cofactors set *when* (2–6 h) and *how severely*.
+
+**The single highest-value Phase-2 experiment** (the bystander test that's still OPEN for #2):
+**measure whether the saliva α-gal glycolipids (iGb3Cer/Gb3) are present in *non-sensitizing* tick
+bites.** If absent in non-sensitizers but present in sensitizers, #2 is promoted from "favored" to
+"switch-critical." That experiment is the gate to Phase 2.
+
+*Tier 1, single-instance. All grades are literature-based, not bench-confirmed.*

@@ -21,6 +21,8 @@ Returned by literature search 2026-06-18. Markers: ✅ spot-checked this session
 | 14 | Identification of α-gal conjugated lipids in saliva of lone-star tick. **bioRxiv 2024.02.22.581476** (preprint of ref 3). | Saliva glycolipids iGb3Cer/Gb3; phospholipase-silencing ↓ basophil activation (functional, #2) | ✅ (preprint) |
 | 15 | Modulation of host immunity by tick saliva. **ScienceDirect S1874391915300610** (review). | Generic Th2-skewing saliva components — sphingomyelinase, protease inhibitors (#1) | ✅ |
 | 16 | Environmental and Molecular Drivers of the α-Gal Syndrome. **Frontiers Immunol 2019.** PMC6554561. | Glycoprotein major role; host/environment context (#3) | ✅ |
+| 17 | Perioperative Considerations in Alpha-Gal Syndrome: A Review. **PMC10902671.** | Chylomicron lipid-kinetics delay model (sub-hyp #4) | ✅ |
+| 18 | Immune-Mediated Mechanisms in Cofactor-Dependent Food Allergy and Anaphylaxis. **Frontiers Immunol 2020.** PMC7925840. | Exercise/alcohol/NSAID cofactor mechanism on basophils/mast cells (#4) | ✅ |
 
 ## Phase 4b debts — CLEARED
 - ~~GGTA1 inactivation + anti-Gal "~1% of circulating Ig"~~ — ✅ CLEARED 2026-06-18 (refs 7–9).
