@@ -15,7 +15,13 @@ Returned by literature search 2026-06-18. Markers: ✅ spot-checked this session
 | 8 | Galili U. The α-gal epitope and the anti-Gal antibody in xenotransplantation and cancer immunotherapy. **Immunol Cell Biol 2005;83(6):674–86.** PMID **16266320**. | anti-Gal ~1% circulating Ig, gut-flora-stimulated (known result #2) | ✅ |
 | 9 | Galili U. Evolution and pathophysiology of the human natural anti-α-galactosyl IgG (anti-Gal) antibody. (review) PMID **7504839**. | Tolerance/immunity baseline state | ✅ |
 | 10 | Loss of α-gal during primate evolution enhanced antibody-effector function and resistance to bacterial sepsis. **Cell Host Microbe 2020.** ScienceDirect S1931312820306806. | WHY the α-gal-null tolerance state was selected (Phase-2 context) | ✅ |
+| 11 | Intrinsic risk factors for alpha-gal syndrome in a case-control study, 2019–2020. **Ann Allergy Asthma Immunol 2024.** ScienceDirect S1081120624000747. | Blood-group-B/AB protective: non-B/AB ~5× more likely diagnosed (gap.md M5) | ✅ |
+| 12 | Association of Sex and ABO-blood Group with Alpha-Gal Sensitization in a Cohort of Military Personnel. **JACI 2022.** S0091-6749(22)01952-2. | **Conflicting:** B/AB trend non-significant in this cohort — caveat on M5 | ✅ (counter-evidence) |
 
-## Phase 4b debts (load-bearing claims not yet primary-source-verified this session)
-- ~~GGTA1 inactivation + anti-Gal "~1% of circulating Ig"~~ — ✅ **CLEARED 2026-06-18** (refs 7–9).
-- Blood-group-B protective association (cited in gap.md M5) — 🔴 no source pulled yet *(next fire)*
+## Phase 4b debts — CLEARED
+- ~~GGTA1 inactivation + anti-Gal "~1% of circulating Ig"~~ — ✅ CLEARED 2026-06-18 (refs 7–9).
+- ~~Blood-group-B protective association~~ — ✅ CLEARED 2026-06-18 (ref 11), with documented
+  counter-evidence (ref 12, non-significant in a military cohort). Mechanism: B antigen ≈ α-gal
+  minus a fucose → B/AB tolerance lowers anti-α-gal IgE.
+
+**No open Phase-4b debts remain.** (Done-criterion (a) satisfied.)
